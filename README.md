@@ -24,7 +24,7 @@ See [docs/workflow.md](docs/workflow.md).
 |------|--------|
 | packwiz + Makefile + CI | Ready |
 | Shared stack (`mods/*.pw.toml`) | Soft-pinned from Verdant — smoke-test pending |
-| `config/ftbquests/` | Empty — quest worker owns SNBT |
+| `config/ftbquests/` | Early/Mid spine + Late stubs (this PR) |
 | KubeJS | Skeleton + TODOs only |
 | Pack pillar mods | Not pinned — see design docs |
 | FancyMenu chrome / Field Manual content | Mod pinned; assets TBD |

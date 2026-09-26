@@ -9,12 +9,60 @@ file = "config/ftbquests/README.md"
 hash = "6b06feb359ad7edcc5e79d9e821c638590ed01b6582141241399a6cdd2098e14"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/.gitkeep"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "4e96ec012dbbdec81ab102dfc8d8cf4fab68eb6eee8c99fbca9b86b8fc8da602"
 
 [[files]]
-file = "config/ftbquests/quests/lang/.gitkeep"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+file = "config/ftbquests/quests/chapters/l1_1_welcome.snbt"
+hash = "0dde67b497e6271511a68e26291fa7595a18232001585e8b2ceadaad51e08959"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/l1_2_foothold.snbt"
+hash = "b89b72dd65776aac43cd054d29ae568cc066aaa0c42fb967ab2a905a58058420"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/l2_1_mechanical.snbt"
+hash = "a89ab27a0b59119d5c7a6f19b4b518c040831f2aaf05c33c11e07dba3d24bd08"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/l2_2_magic.snbt"
+hash = "333f37da0ee83cdab9715017716219ad53ece1a3e75d7b6fb63c914bd781dcbf"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/l2_3_lab.snbt"
+hash = "af7a151acaae5629b47207cb6503d6ec0d6c83cf1b08f6e5515a08afe635f343"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/l2_4_bridges.snbt"
+hash = "9e5bd5c43ffecb420c0712e0e36739a7bbf5123577b47e82fb86d6c0dddfd8da"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/l3_1_colonial.snbt"
+hash = "9d969690debc7d76c56d2c868dd7cb0c74fadf1e534e0f0a20a00cf7c25a71fd"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/l3_2_resistance.snbt"
+hash = "49c0d1c593b6e67240f5c412e7cad8cd802746b53d1766f4386a656efa736e73"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/l3_3_technomage.snbt"
+hash = "7eba7f78f811c33b3eb1f2441e3055f43d27492ea807600e8ed6d75360b42a67"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/l9_1_side_quests.snbt"
+hash = "e4b6dc3d2a56552a8594eadfd2f925863fcf21a2f1eb92cb1fa8b3003b870115"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "1841bf049cf479e2db05355f814b2e5e4172a5cf7d27214e523aa79c2663ae9d"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us.snbt"
+hash = "8fd045e8f1e4433dd589332c1f1907a1a387d93078972af2702647b81be6e83e"
+
+[[files]]
+file = "config/ftbquests/quests/quests.snbt"
+hash = "968347f3aeeb897f2eba6b93d4039e4aba47ee62586ded10682da8deba067da7"
 
 [[files]]
 file = "defaultconfigs/.gitkeep"
@@ -27,6 +75,10 @@ hash = "c06456a5b96c73263aaefe21a7f3f1c01073d4a5cefe95003d4935b6035f982e"
 [[files]]
 file = "kubejs/client_scripts/.gitkeep"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/specterrealm/advancement/field_manual/README.md"
+hash = "351e21c603d56b6d9268aa4a662675ecbb757ac6253ef23819d71964497269d3"
 
 [[files]]
 file = "kubejs/server_scripts/README.md"
