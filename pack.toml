@@ -1,0 +1,16 @@
+name = "Colony Protocol: Liminal"
+author = "MichaelHeaton"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "303f9fa305748755f7ce8516349c0a504d49e0e9f5306f1cf1affa5381515c61"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.228"
+
+[options]
+acceptable-game-versions = ["1.21"]

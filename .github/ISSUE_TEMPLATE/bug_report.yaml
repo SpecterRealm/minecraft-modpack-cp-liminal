@@ -1,0 +1,25 @@
+name: Bug report
+description: Something broken in Colony Protocol: Liminal
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: pack-version
+    attributes:
+      label: Pack version
+      description: From pack.toml / make version (default 0.1.0 until first bump)
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: false

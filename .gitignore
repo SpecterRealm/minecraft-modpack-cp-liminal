@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Mod jars — never commit (pins live in mods/*.pw.toml)
+*.jar
+
+# Pack build / local serve
+dist/
+.serve.pid
+node_modules/
+package-lock.json
+.packwiz-cache/
+
+# Editor and mod config backups
+*.bak
+**/*.bak
+
+# Local scratch
+.tmp/
+.tmp-javap/
+scripts/__pycache__/
+.venv/
+.venv-patchouli/
+
+# Minecraft runtime (if someone opens the repo as instance)
+logs/
+crash-reports/
+saves/
+screenshots/

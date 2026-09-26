@@ -1,0 +1,66 @@
+name: Pack Validate
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'mods/**'
+      - 'pack.toml'
+      - 'index.toml'
+      - 'config/**'
+      - 'kubejs/**'
+      - 'defaultconfigs/**'
+      - 'options.txt'
+      - 'scripts/check-pack-index.sh'
+      - 'scripts/check-pr-no-version-bump.sh'
+      - '.github/workflows/pack-validate.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'mods/**'
+      - 'pack.toml'
+      - 'index.toml'
+      - 'config/**'
+      - 'kubejs/**'
+      - 'defaultconfigs/**'
+      - 'options.txt'
+      - 'scripts/check-pack-index.sh'
+      - 'scripts/check-pr-no-version-bump.sh'
+      - '.github/workflows/pack-validate.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Setup Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: '>=1.23'
+          cache: false
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Block pack.toml version bump in PR
+        if: github.event_name == 'pull_request'
+        run: bash scripts/check-pr-no-version-bump.sh "${{ github.base_ref }}"
+
+      - name: Check index drift (packwiz refresh)
+        run: bash scripts/check-pack-index.sh
+
+      - name: Resolve mod metadata (packwiz list)
+        run: |
+          export PATH="$HOME/go/bin:$PATH"
+          set -o pipefail
+          if ! packwiz list -v 2>&1 | tee /tmp/packwiz-list.txt; then
+            echo "::error::packwiz list failed"
+            exit 1
+          fi
+          MOD_COUNT=$(wc -l < /tmp/packwiz-list.txt | tr -d ' ')
+          echo "Resolved $MOD_COUNT mods."

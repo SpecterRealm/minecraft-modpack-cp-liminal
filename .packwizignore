@@ -1,0 +1,46 @@
+# Dev tooling — not part of the distributed pack
+.github/
+.githooks/
+.prettierrc
+CHANGELOG.md
+MOD_ISSUES.md
+.claude/
+.cursor/
+.vscode/
+*.code-workspace
+CLAUDE.md
+AGENTS.md
+Makefile
+.serve.pid
+CODEOWNERS
+node_modules/
+package-lock.json
+.venv/
+.venv-patchouli/
+
+# Stray metadata from mistaken packwiz adds (must live under mods/ only)
+/*.pw.toml
+/resourcepacks/
+
+# Local scratch (never index — was accidentally exported as overrides/.tmp/)
+.tmp/
+.tmp-javap/
+
+# FancyMenu local dev (gitignored; must not ship in overrides)
+config/fancymenu/assets/.bridge-production-backup/
+config/fancymenu/assets/.placement-debug-active
+
+# Bootstrap templates (copied into config/ by config-ship-full / seed scripts)
+pack-bootstrap/
+
+# Build outputs (must never be indexed — export embeds index entries into overrides/)
+dist/
+*.zip
+*.mrpack
+
+# Repo docs / scripts / generated data — not shipped to players
+docs/
+scripts/
+
+# Git metadata (refresh should not walk .git, but keep explicit)
+.git/
