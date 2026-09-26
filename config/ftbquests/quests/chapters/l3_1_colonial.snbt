@@ -1,0 +1,39 @@
+{
+	autofocus_id: "C100000000000701"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l3_1_colonial"
+	group: "C1000000000000A3"
+	id: "C100000000000700"
+	order_index: 6
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "C100000000000701"
+			optional: true
+			rewards: [
+				{
+					id: "C10000000000070F1"
+					type: "advancement"
+					advancement: "specterrealm:field_manual/liminal/colonial"
+				},
+				{
+					id: "C10000000000070F2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+				id: "C100000000000702"
+				type: "checkmark"
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	autofocus_id: "C100000000000901"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l3_3_technomage"
+	group: "C1000000000000A3"
+	id: "C100000000000900"
+	order_index: 8
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "C100000000000901"
+			optional: true
+			rewards: [
+				{
+					id: "C10000000000090F1"
+					type: "advancement"
+					advancement: "specterrealm:field_manual/liminal/technomage"
+				},
+				{
+					id: "C10000000000090F2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+				id: "C100000000000902"
+				type: "checkmark"
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}

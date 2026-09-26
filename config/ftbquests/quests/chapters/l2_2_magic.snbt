@@ -1,0 +1,89 @@
+{
+	autofocus_id: "C100000000000401"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l2_2_magic"
+	group: "C1000000000000A2"
+	id: "C100000000000400"
+	order_index: 3
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["C100000000000207"]
+			icon: {
+				id: "ars_nouveau:source_gem"
+			}
+			id: "C100000000000401"
+			rewards: [
+				{
+					id: "C10000000000040R1"
+					type: "advancement"
+					advancement: "specterrealm:field_manual/liminal/magic_reunite"
+				},
+				{
+					count: 8
+					id: "C10000000000040R2"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+				id: "C100000000000402"
+				type: "item"
+				item: { id: "minecraft:lapis_lazuli" count: 1 }
+				count: 1L
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C100000000000401"]
+			id: "C100000000000403"
+			rewards: [
+				{
+					id: "C10000000000040R3"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+				id: "C100000000000404"
+				type: "checkmark"
+			}
+			]
+			x: 2.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C100000000000403"]
+			id: "C100000000000405"
+			rewards: [
+				{
+					id: "C10000000000040R4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+				id: "C100000000000406"
+				type: "checkmark"
+			}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+	]
+}

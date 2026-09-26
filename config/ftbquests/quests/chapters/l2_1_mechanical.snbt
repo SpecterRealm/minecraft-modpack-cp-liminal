@@ -1,0 +1,89 @@
+{
+	autofocus_id: "C100000000000301"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l2_1_mechanical"
+	group: "C1000000000000A2"
+	id: "C100000000000300"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["C100000000000207"]
+			icon: {
+				id: "create:wrench"
+			}
+			id: "C100000000000301"
+			rewards: [
+				{
+					id: "C10000000000030R1"
+					type: "advancement"
+					advancement: "specterrealm:field_manual/liminal/mechanical_reunite"
+				},
+				{
+					count: 8
+					id: "C10000000000030R2"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+				id: "C100000000000302"
+				type: "item"
+				item: { id: "minecraft:cobblestone" count: 1 }
+				count: 1L
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C100000000000301"]
+			id: "C100000000000303"
+			rewards: [
+				{
+					id: "C10000000000030R3"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+				id: "C100000000000304"
+				type: "checkmark"
+			}
+			]
+			x: 2.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C100000000000303"]
+			id: "C100000000000305"
+			rewards: [
+				{
+					id: "C10000000000030R4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+				id: "C100000000000306"
+				type: "checkmark"
+			}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+	]
+}
