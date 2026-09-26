@@ -34,7 +34,7 @@ jobs:
           node-version: 20
 
       - name: Check Prettier
-        run: npx prettier --check "kubejs/**/*.{js,json}"
+        run: npx prettier --check --no-error-on-unmatched-pattern "kubejs/**/*.{js,json}"
 
   format:
     if: github.event_name == 'push' && github.actor != 'github-actions[bot]'
@@ -61,7 +61,7 @@ jobs:
         run: go install github.com/packwiz/packwiz@latest
 
       - name: Run Prettier
-        run: npx prettier --write "kubejs/**/*.{js,json}"
+        run: npx prettier --write --no-error-on-unmatched-pattern "kubejs/**/*.{js,json}"
 
       - name: Commit formatting and refresh pack index
         run: |
