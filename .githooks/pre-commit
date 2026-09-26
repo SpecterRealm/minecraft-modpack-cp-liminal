@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Refresh pack index when committing pack-tracked files.
+# Install once: make install-hooks
+
+set -euo pipefail
+
+ROOT="$(git rev-parse --show-toplevel)"
+cd "$ROOT"
+
+STAGED="$(git diff --cached --name-only)"
+if [[ -z "$STAGED" ]]; then
+  exit 0
+fi
+
+if ! echo "$STAGED" | grep -qE '^(kubejs/|config/|mods/|pack-content/|assets/|defaultconfigs/|options\.txt)'; then
+  exit 0
+fi
+
+exec "$ROOT/scripts/check-pack-index.sh" --fix

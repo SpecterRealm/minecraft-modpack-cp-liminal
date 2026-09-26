@@ -1,0 +1,79 @@
+name: Prettier (KubeJS)
+
+on:
+  push:
+    branches: ['**']
+    paths:
+      - 'kubejs/**/*.js'
+      - 'kubejs/**/*.json'
+      - '.prettierrc'
+      - '.github/workflows/prettier.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'kubejs/**/*.js'
+      - 'kubejs/**/*.json'
+      - '.github/workflows/prettier.yml'
+  workflow_dispatch:
+
+jobs:
+  check:
+    if: github.event_name == 'pull_request' && github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 20
+
+      - name: Check Prettier
+        run: npx prettier --check --no-error-on-unmatched-pattern "kubejs/**/*.{js,json}"
+
+  format:
+    if: github.event_name == 'push' && github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 20
+
+      - name: Setup Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: '>=1.23'
+          cache: false
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Run Prettier
+        run: npx prettier --write --no-error-on-unmatched-pattern "kubejs/**/*.{js,json}"
+
+      - name: Commit formatting and refresh pack index
+        run: |
+          export PATH="$HOME/go/bin:$PATH"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add kubejs/
+          packwiz refresh
+          git add index.toml pack.toml
+          if git diff --staged --quiet; then
+            echo "No formatting or index changes."
+            exit 0
+          fi
+          git commit -m "chore: prettier formatting (kubejs)"
+          git push
