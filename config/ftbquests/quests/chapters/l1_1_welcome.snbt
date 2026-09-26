@@ -1,0 +1,161 @@
+{
+	autofocus_id: "C100000000000105"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l1_1_welcome"
+	group: "C1000000000000A1"
+	id: "C100000000000100"
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:grass_block"
+			}
+			id: "C100000000000101"
+			rewards: [
+				{
+					id: "C1000000000001F1"
+					type: "xp"
+					xp: 50
+				},
+				{
+					count: 8
+					id: "C1000000000001F2"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+				id: "C100000000000102"
+				type: "checkmark"
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C100000000000101"]
+			id: "C100000000000103"
+			rewards: [
+				{
+					id: "C1000000000001F3"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+				id: "C100000000000104"
+				type: "checkmark"
+			}
+			]
+			x: -3.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C100000000000101"]
+			id: "C100000000000105"
+			rewards: [
+				{
+					id: "C1000000000001F4"
+					type: "xp"
+					xp: 75
+				},
+				{
+					count: 16
+					id: "C1000000000001F5"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+				id: "C100000000000106"
+				type: "checkmark"
+			}
+			]
+			x: 0.0d
+			y: 2.5d
+		},
+		{
+			dependencies: ["C100000000000101"]
+			id: "C100000000000107"
+			rewards: [
+				{
+					id: "C1000000000001F6"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+				id: "C100000000000108"
+				type: "checkmark"
+			}
+			]
+			x: 3.0d
+			y: 0.0d
+		},
+		{
+			dependencies: [
+				"C100000000000103"
+				"C100000000000105"
+				"C100000000000107"
+			]
+			id: "C100000000000109"
+			rewards: [
+				{
+					id: "C1000000000001F7"
+					item: {
+						components: {
+							"patchouli:book": "specterrealm:field_manual"
+						}
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					count: 1
+					type: "item"
+				},
+				{
+					id: "C1000000000001F8"
+					type: "advancement"
+					advancement: "specterrealm:field_manual/orientation"
+				},
+				{
+					id: "C1000000000001F9"
+					type: "advancement"
+					advancement: "specterrealm:field_manual/liminal/planetfall"
+				},
+				{
+					id: "C1000000000001FA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+				id: "C10000000000010A"
+				type: "checkmark"
+			}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+}

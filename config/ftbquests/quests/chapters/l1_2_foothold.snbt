@@ -1,0 +1,131 @@
+{
+	autofocus_id: "C100000000000201"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l1_2_foothold"
+	group: "C1000000000000A1"
+	id: "C100000000000200"
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["C100000000000109"]
+			id: "C100000000000201"
+			rewards: [
+				{
+					count: 16
+					id: "C1000000000002F1"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				},
+				{
+					id: "C1000000000002F2"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+				id: "C100000000000202"
+				type: "item"
+				item: { id: "minecraft:crafting_table" count: 1 }
+				count: 1L
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C100000000000201"]
+			id: "C100000000000203"
+			rewards: [
+				{
+					count: 1
+					id: "C1000000000002F3"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:backpack"
+					}
+					type: "item"
+				},
+				{
+					id: "C1000000000002F4"
+					type: "advancement"
+					advancement: "specterrealm:field_manual/liminal/early_stash"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+				id: "C100000000000204"
+				type: "item"
+				item: { id: "sophisticatedstorage:chest" count: 1 }
+				count: 1L
+			}
+			]
+			x: 2.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C100000000000201"]
+			id: "C100000000000205"
+			rewards: [
+				{
+					count: 1
+					id: "C1000000000002F5"
+					item: {
+						count: 1
+						id: "silentgear:repair_kit"
+					}
+					type: "item"
+				},
+				{
+					id: "C1000000000002F6"
+					type: "advancement"
+					advancement: "specterrealm:field_manual/liminal/silent_gear"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+				id: "C100000000000206"
+				type: "item"
+				item: { id: "silentgear:pickaxe" count: 1 }
+				count: 1L
+			}
+			]
+			x: 2.5d
+			y: 2.5d
+		},
+		{
+			dependencies: [
+				"C100000000000203"
+				"C100000000000205"
+			]
+			id: "C100000000000207"
+			rewards: [
+				{
+					id: "C1000000000002F7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+				id: "C100000000000208"
+				type: "checkmark"
+			}
+			]
+			x: 5.0d
+			y: 1.25d
+		}
+	]
+}

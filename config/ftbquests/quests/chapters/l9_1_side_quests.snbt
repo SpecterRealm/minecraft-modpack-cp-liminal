@@ -1,0 +1,39 @@
+{
+	autofocus_id: "C100000000000A01"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l9_1_side_quests"
+	group: "C1000000000000A4"
+	id: "C100000000000A00"
+	order_index: 9
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "C100000000000A01"
+			optional: true
+			rewards: [
+				{
+					id: "C100000000000A0F1"
+					type: "advancement"
+					advancement: "specterrealm:field_manual/liminal/side_niches"
+				},
+				{
+					id: "C100000000000A0F2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+				id: "C100000000000A02"
+				type: "checkmark"
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}
