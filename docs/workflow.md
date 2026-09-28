@@ -6,38 +6,53 @@
 - Java 21, Prism Launcher
 - Prism instance **`CP-Liminal-Dev`** (or set `PRISM_INSTANCE`)
 
-## First-time setup
+## Prism smoke (one terminal)
 
-1. Clone this repo.
-2. Create a **NeoForge 1.21.1** instance in Prism named `CP-Liminal-Dev` (empty mods folder OK).
-3. Set instance pre-launch (after `make serve` is running):
+**One manual step Make cannot do:** create an empty Prism instance named `CP-Liminal-Dev` (Minecraft **1.21.1** + NeoForge matching `pack.toml`). Close Prism before `setup-dev`.
 
-   ```text
-   "$INST_JAVA" -jar "$INST_MC_DIR/packwiz-installer-bootstrap.jar" --bootstrap-no-update http://localhost:8080/pack.toml
-   ```
+```bash
+cd /Users/michaelheaton/Projects/specterrealm/esport/minecraft-modpack-cp-liminal
+make setup-dev          # once — RAM, window, installer jars, packwiz PreLaunch
+make serve-bg           # primary daily target (alias: make up)
+# Launch CP-Liminal-Dev in Prism
+make serve-stop         # when done (aliases: make down / make stop)
+```
 
-4. From repo root:
+`make setup-dev` writes the packwiz PreLaunch command — you do **not** paste it into Prism Settings by hand.
 
-   ```bash
-   make install-hooks   # optional: auto-refresh index on commit
-   make setup-dev       # Prism must be closed
-   ```
+Optional cleanup after pack removals (packwiz does not delete leftovers):
 
-5. Shared stack is already soft-pinned under `mods/`. Add pillar mods with `packwiz` when ready; `make refresh` after each batch.
+```bash
+make prune-instance-orphans   # known-bad paths (e.g. kubejs README orphans)
+make prune-dev-mods           # stale mod JARs not in mods/*.pw.toml
+```
+
+`make help` lists this smoke path first.
+
+## First-time extras
+
+```bash
+make install-hooks   # optional: auto-refresh index on commit
+```
+
+Shared stack is soft-pinned under `mods/`. Add pillar mods with `packwiz` when ready; `make refresh` after each batch (also runs inside `serve-bg`).
 
 ## Daily loop
 
 ```bash
-make serve          # terminal 1 — http://localhost:8080
-# Launch CP-Liminal-Dev in Prism (pre-launch pulls pack)
-make logs           # terminal 2 — optional
+make serve-bg       # backgrounds packwiz; log → .serve.log
+# Launch CP-Liminal-Dev in Prism
+make logs           # optional second terminal
+make serve-stop
 ```
 
-Or: `make dev` on macOS with Prism at the default path.
+Or on macOS with Prism at the default path: `make dev` (configure + serve-bg + launch).
+
+Foreground serve (blocks the terminal): `make serve`.
 
 ## After edits
 
-- New tracked files → `make refresh`
+- New tracked files → `make refresh` (or just `make serve-bg`)
 - In-game quest edits → pull into `config/ftbquests/` (quest worker / `quest-pull` when wired)
 - Config drift → `make config-pull` / `make config-diff`
 

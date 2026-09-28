@@ -4,7 +4,7 @@ Scaffold docs. Design locks live in the Colony Protocol project store (not this 
 
 | Doc | Purpose |
 |-----|---------|
-| [workflow.md](workflow.md) | Daily packwiz / Prism loop |
+| [workflow.md](workflow.md) | Daily packwiz / Prism loop — **Prism smoke (one terminal)** first |
 | [versioning.md](versioning.md) | Semver + `pack.toml` source of truth |
 | [curseforge-export.md](curseforge-export.md) | CF zip rules (no CF JARs in overrides/mods) |
 | [config-workflow.md](config-workflow.md) | `config/` pull / promote / ship |

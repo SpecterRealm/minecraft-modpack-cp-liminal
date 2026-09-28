@@ -70,6 +70,13 @@ def _int_env(name: str) -> str:
     return raw
 
 
+# Prism instance.cfg escaping (same as Verdant setup-prism-instances.py).
+PACKWIZ_PRELAUNCH = (
+    '\\"$INST_JAVA\\" -jar \\"$INST_MC_DIR/packwiz-installer-bootstrap.jar\\" '
+    "--bootstrap-no-update http://localhost:8080/pack.toml\\n"
+)
+
+
 def main() -> int:
     cfg_path = os.environ["DEV_CFG"]
     updates = {
@@ -78,6 +85,8 @@ def main() -> int:
         "MinMemAlloc": os.environ["DEV_MIN_MEM"],
         "OverrideJavaArgs": "true",
         "JvmArgs": os.environ["DEV_JVM_ARGS"],
+        # Wire packwiz pull so setup-dev is one-shot (no buried Prism Settings step).
+        "PreLaunchCommand": PACKWIZ_PRELAUNCH,
     }
     # Keep Prism open when MC exits so you can switch Dev ↔ Vanilla (set DEV_QUIT_PRISM=1 to restore).
     if os.environ.get("DEV_QUIT_PRISM", "0") != "1":
@@ -145,7 +154,8 @@ def main() -> int:
         opts_note = f", options.txt patched ({', '.join(opts_updates.keys())})"
     print(
         f"✓ {instance}: memory={updates['MaxMemAlloc']} MiB max / {updates['MinMemAlloc']} MiB min"
-        f"{window_note}{opts_note}{fm_note}, Aikar GC flags applied"
+        f"{window_note}{opts_note}{fm_note}, Aikar GC flags applied,"
+        f" PreLaunch → packwiz http://localhost:8080/pack.toml"
     )
     return 0
 
