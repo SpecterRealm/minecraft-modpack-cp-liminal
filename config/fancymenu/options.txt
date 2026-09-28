@@ -1,0 +1,31 @@
+##[general]
+
+I:default_gui_scale = '2';
+B:force_fullscreen = 'false';
+B:play_vanilla_menu_music = 'true';
+
+
+##[customization]
+
+B:modpack_mode = 'true';
+B:show_customization_overlay = 'false';
+B:advanced_customization_mode = 'false';
+
+
+##[loading]
+
+B:game_intro_fade_out = 'true';
+S:game_intro_sound_channel = 'master';
+S:preload_resources = '';
+B:allow_game_intro_skip = 'true';
+S:game_intro_animation_name = '';
+F:game_intro_volume = '1.0';
+S:custom_game_intro_skip_text = '';
+
+
+##[window]
+
+B:show_custom_window_icon = 'false';
+S:custom_window_icon_macos = '';
+S:custom_window_icon_32 = '';
+S:custom_window_icon_16 = '';
