@@ -34,6 +34,8 @@ make serve-bg           # primary — backgrounds packwiz on :8080
 make serve-stop         # when done (aliases: make down / make stop)
 ```
 
+**Port:** all CP packs use `:8080`. Switch packs with `make serve-stop` here, then `make serve-bg` in the other repo (one serve at a time).
+
 Optional after pack removals (packwiz does not delete leftovers): `make prune-instance-orphans` and/or `make prune-dev-mods`.
 
 See [docs/workflow.md](docs/workflow.md).
