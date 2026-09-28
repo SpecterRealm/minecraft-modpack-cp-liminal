@@ -1,5 +1,8 @@
 # CurseForge export — Colony Protocol: Liminal
 
+**CF project:** [colony-protocol-liminal](https://www.curseforge.com/minecraft/modpacks/colony-protocol-liminal) · Authors / project id **`1715485`**  
+Set GitHub repo variable `CURSEFORGE_PROJECT_ID=1715485` when upload automation is wired (Verdant `curseforge-upload.md` pattern).
+
 **Default:** `make export-cf` → `dist/Colony-Protocol-Liminal-<version>-curseforge.zip`
 
 ## Rules (match Verdant)

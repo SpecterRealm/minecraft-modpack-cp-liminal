@@ -6,7 +6,7 @@
 **Series order:** Pack **4** of Colony Protocol — Verdant → Elysian → Influx → **Liminal** (recommended last; not required)  
 **Status:** Scaffold / coming soon — shared QoL soft-pinned; public release gated after ≥ Elysian is out.
 
-**CurseForge:** _Coming soon — project URL TBD_  
+**CurseForge:** [colony-protocol-liminal](https://www.curseforge.com/minecraft/modpacks/colony-protocol-liminal) (id `1715485`) — public preview / Coming Soon (no zip yet)  
 *(Separate CF project from Verdant. Pack display name is **Liminal** — not “Convergence Void.”)*
 
 ## What this is
@@ -38,12 +38,12 @@ See [docs/workflow.md](docs/workflow.md).
 
 ## Series siblings
 
-| Pack | Role | Repo |
-|------|------|------|
-| [Verdant](https://github.com/MichaelHeaton/minecraft-modpack-cp-verdant) | Pack 1 — overworld, no ore veins, sieve loop | Live CF: [colony-protocol-verdant](https://www.curseforge.com/minecraft/modpacks/colony-protocol-verdant) |
-| [Elysian](https://github.com/SpecterRealm/minecraft-modpack-cp-elysian) | Pack 2 — void magic | — |
-| [Influx](https://github.com/SpecterRealm/minecraft-modpack-cp-influx) | Pack 3 — ship lab / genetics | — |
-| **Liminal** (this repo) | Pack 4 — planetfall reunite | — |
+| Pack | Role | CF |
+|------|------|-----|
+| [Verdant](https://github.com/MichaelHeaton/minecraft-modpack-cp-verdant) | Pack 1 — overworld, no ore veins, sieve loop | [colony-protocol-verdant](https://www.curseforge.com/minecraft/modpacks/colony-protocol-verdant) |
+| [Elysian](https://github.com/SpecterRealm/minecraft-modpack-cp-elysian) | Pack 2 — void magic | [colony-protocol-elysian](https://www.curseforge.com/minecraft/modpacks/colony-protocol-elysian) (preview) |
+| [Influx](https://github.com/SpecterRealm/minecraft-modpack-cp-influx) | Pack 3 — ship lab / genetics | [colony-protocol-influx](https://www.curseforge.com/minecraft/modpacks/colony-protocol-influx) (preview) |
+| **Liminal** (this repo) | Pack 4 — planetfall reunite | [colony-protocol-liminal](https://www.curseforge.com/minecraft/modpacks/colony-protocol-liminal) (preview) |
 
 Shared library: [SpecterRealm Core](https://github.com/SpecterRealm/specterrealm-core) · CF [SpecterRealm Core](https://www.curseforge.com/minecraft/mc-mods/specterrealm-core)
 
