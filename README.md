@@ -4,7 +4,7 @@
 
 **Loader:** NeoForge **1.21.1** (packwiz)  
 **Series order:** Pack **4** of Colony Protocol — Verdant → Elysian → Influx → **Liminal** (recommended last; not required)  
-**Status:** Scaffold / coming soon — shared QoL soft-pinned; public release gated after ≥ Elysian is out.
+**Status:** Scaffold / coming soon — **V ∪ E ∪ I** mod union pinned (**133**); public release gated after ≥ Elysian is out.
 
 **CurseForge:** [colony-protocol-liminal](https://www.curseforge.com/minecraft/modpacks/colony-protocol-liminal) (id `1715485`) — public preview / Coming Soon (no zip yet)  
 *(Separate CF project from Verdant. Pack display name is **Liminal** — not “Convergence Void.”)*
@@ -54,10 +54,9 @@ Shared library: [SpecterRealm Core](https://github.com/SpecterRealm/specterrealm
 | Area | Status |
 |------|--------|
 | packwiz + Makefile + CI | Ready |
-| Shared stack (`mods/*.pw.toml`) | Soft-pinned — smoke-test pending |
+| Shared + reunite stack (`mods/*.pw.toml`) | **133** = V∪E∪I — Prism smoke pending |
 | `config/ftbquests/` | Early/Mid spine + Late stubs |
 | KubeJS | Skeleton + TODOs |
-| Pack pillar mods | Soft candidates — inherit from teaching packs when ports land |
 | FancyMenu / Field Manual content | Mod pinned; assets TBD |
 
 ## Design pointers

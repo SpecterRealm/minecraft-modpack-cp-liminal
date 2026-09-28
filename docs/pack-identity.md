@@ -4,14 +4,14 @@
 
 **Loader:** Minecraft 1.21.1 · NeoForge 21.1.228 (match Verdant).
 
-**Shared stack (soft-pinned from Verdant):** FTB Quests + KubeJS + SpecterRealm Core + Patchouli + Sophisticated Storage (series early stash) + EMI/Jade/IPN lean + Silent Gear (tools soft lean) + client perf. See `mods/*.pw.toml` and series `shared-mod-stack.md`.
+**Mod set:** **Verdant ∪ Elysian ∪ Influx** — full kitchen-sink reunite (**133** `.pw.toml` pins). Verdant teaching pillars (Create / Mek / AE2 / Ex Deorum / power / Terralith) + Elysian magic/skyblock (Ars / MA / Occultism / Iron's / … + soft deps) + Influx landings (HNN / Placebo / Azurum). Shared QoL dual-sourced where CF API-excludes (More Overlays, Entity Culling, Extreme Reactors Create Compat).
 
 ## Not in this scaffold
 
-- Full quest chapters (empty `config/ftbquests/` — quest worker owns SNBT)
-- Pack pillar mods (Ars / PE / AgriCraft / etc.) — candidates until smoke-test; do not invent final modlists
+- Full quest chapters (quest worker owns SNBT; early/mid spine + late stubs present)
+- ProjectE / AppliedE / AgriCraft / Replication — Influx-first candidates not pinned in V/E/I yet
 - Recovery Bay / gem bootstrap KubeJS — design first, then implement
-- FancyMenu brand assets (mod pinned; chrome TBD)
+- FancyMenu brand assets (mod pinned; chrome TBD — see art PR)
 
 ## Design pointers
 
