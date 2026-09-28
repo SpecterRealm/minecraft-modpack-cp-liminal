@@ -20,6 +20,8 @@ make serve-stop         # when done (aliases: make down / make stop)
 
 `make setup-dev` writes the packwiz PreLaunch command — you do **not** paste it into Prism Settings by hand.
 
+**Port:** all CP packs share `:8080`. One serve at a time — `make serve-stop` before `make serve-bg` in another pack repo.
+
 Optional cleanup after pack removals (packwiz does not delete leftovers):
 
 ```bash
