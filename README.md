@@ -22,17 +22,19 @@ Bring whichever path you learned — or arrive cold and learn from a progressive
 3. Allocate ~6–8 GB RAM (more with shaders).
 4. Launch with the NeoForge profile the pack ships.
 
-## Dev quick start (Prism)
+## Prism smoke (one terminal)
 
-1. Create Prism instance `CP-Liminal-Dev` → Minecraft **1.21.1** + NeoForge matching `pack.toml`.
-2. `make serve` from this repo (or `packwiz serve`).
-3. Instance pre-launch:
+**One manual step Make cannot do:** create an empty Prism instance named **`CP-Liminal-Dev`** with Minecraft **1.21.1** + NeoForge matching `pack.toml`. Close Prism before step 2.
 
-   ```text
-   "$INST_JAVA" -jar "$INST_MC_DIR/packwiz-installer-bootstrap.jar" --bootstrap-no-update http://localhost:8080/pack.toml
-   ```
+```bash
+cd /Users/michaelheaton/Projects/specterrealm/esport/minecraft-modpack-cp-liminal
+make setup-dev          # RAM, window, installer jars, packwiz PreLaunch
+make serve-bg           # primary — backgrounds packwiz on :8080
+# Launch CP-Liminal-Dev in Prism
+make serve-stop         # when done (aliases: make down / make stop)
+```
 
-4. `make setup-dev` once (Prism closed), then launch.
+Optional after pack removals (packwiz does not delete leftovers): `make prune-instance-orphans` and/or `make prune-dev-mods`.
 
 See [docs/workflow.md](docs/workflow.md).
 
