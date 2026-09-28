@@ -31,3 +31,7 @@
 - `specterrealm:field_manual/liminal/side_niches`
 
 Advancement JSON + Patchouli entries land in `specterrealm-core` later (see series `field-manual-architecture.md`). Scaffold grants IDs now so quest wiring is ready.
+
+## Starter quest book
+
+FTB Quests does **not** auto-give `ftbquests:book` on NeoForge 1.21.1 (2101.x). This pack ships `kubejs/server_scripts/quest_book_login.js` to grant the book if missing, plus `options.txt` binding **B** to the quest journal (Elysian #16 / Verdant keybind pattern).

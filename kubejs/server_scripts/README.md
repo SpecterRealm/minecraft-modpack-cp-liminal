@@ -1,6 +1,14 @@
 # server_scripts
 
-TODO: pack-specific gates and recipes after pillar mods are smoke-tested.
-See design: Project store: docs/pack-architecture.md §Liminal · pack-progression-arcs.md §L · series-todos.md (port teaching packs; cross-pack bridges default here).
+| Script | Role |
+|--------|------|
+| `quest_book_login.js` | Give `ftbquests:book` if missing on join + short login tip |
+| `emi_hide_creative.js` | Tag creative/unobtainable items → `c:hidden_from_recipe_viewers` |
 
-**Out of scope for template scaffold:** Recovery Bay UI, gem softlock crafts, full quest rewards wiring.
+Client companion: `kubejs/client_scripts/emi_hide_creative.js`.
+
+## Recipe viewer (EMI++)
+
+Stack groups: `kubejs/assets/cpliminal/stack_groups/` (Verdant port — SS, backpacks, Silent Gear, Comforts, armor, Ex Deorum sieves, portable tanks, filled buckets). Config: `config/emixx/emixx-client.toml`.
+
+See design: Project store: docs/pack-architecture.md §Liminal · pack-progression-arcs.md §L · series-todos.md.
