@@ -57,7 +57,7 @@ Shared library: [SpecterRealm Core](https://github.com/SpecterRealm/specterrealm
 | Shared + reunite stack (`mods/*.pw.toml`) | **133** = V∪E∪I — Prism smoke pending |
 | `config/ftbquests/` | Early/Mid spine + Late stubs |
 | KubeJS | Skeleton + TODOs |
-| FancyMenu / Field Manual content | Mod pinned; assets TBD |
+| FancyMenu / Field Manual content | Backgrounds shipped (#12); full Bridge chrome TBD |
 
 ## Design pointers
 

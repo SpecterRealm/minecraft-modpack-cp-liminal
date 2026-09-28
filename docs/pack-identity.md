@@ -11,7 +11,7 @@
 - Full quest chapters (quest worker owns SNBT; early/mid spine + late stubs present)
 - ProjectE / AppliedE / AgriCraft / Replication — Influx-first candidates not pinned in V/E/I yet
 - Recovery Bay / gem bootstrap KubeJS — design first, then implement
-- FancyMenu brand assets (mod pinned; chrome TBD — see art PR)
+- Full FancyMenu Bridge chrome (buttons / CALIBRATE) — title, drippy, level-loading, and pause backgrounds ship under `config/fancymenu/`
 
 ## Design pointers
 
