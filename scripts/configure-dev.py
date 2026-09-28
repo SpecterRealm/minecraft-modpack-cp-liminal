@@ -71,9 +71,11 @@ def _int_env(name: str) -> str:
 
 
 # Prism instance.cfg escaping (same as Verdant setup-prism-instances.py).
+# Do not append a literal \n — Prism stores the command as a single line;
+# OverrideCommands=true is required or PreLaunch never runs.
 PACKWIZ_PRELAUNCH = (
     '\\"$INST_JAVA\\" -jar \\"$INST_MC_DIR/packwiz-installer-bootstrap.jar\\" '
-    "--bootstrap-no-update http://localhost:8080/pack.toml\\n"
+    "--bootstrap-no-update http://localhost:8080/pack.toml"
 )
 
 
@@ -85,6 +87,8 @@ def main() -> int:
         "MinMemAlloc": os.environ["DEV_MIN_MEM"],
         "OverrideJavaArgs": "true",
         "JvmArgs": os.environ["DEV_JVM_ARGS"],
+        # Prism ignores PreLaunchCommand unless Custom Commands override is on.
+        "OverrideCommands": "true",
         # Wire packwiz pull so setup-dev is one-shot (no buried Prism Settings step).
         "PreLaunchCommand": PACKWIZ_PRELAUNCH,
     }
