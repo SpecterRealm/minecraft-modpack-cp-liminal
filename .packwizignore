@@ -47,3 +47,7 @@ scripts/
 
 # GitHub Pages marketing site (not pack content)
 site/
+
+# Minecraft resource/datapack paths must be lowercase — never ship README.md there
+kubejs/data/**/README.md
+kubejs/assets/**/README.md
