@@ -98,6 +98,7 @@ Only Verdant has had real customization work; Elysian, Influx, and Liminal have 
 | Baubley Heart Canisters | all four | Added to Influx. | With gear and health progression work |
 | KubeJS Tweaks | all four | Added to Influx. No script uses its features yet (no `KJSTweaks`, `jeiRuntime`, or No Op in any pack). | When the hide and uncraftable lists are built |
 | Target Dummy | all four | Keep: players build gear and want to test it. | — |
+| Comforts | all four | Keep. Sleeping bags let players travel without resetting their spawn point (wanted in Verdant and Liminal); on the ship they suit not having a permanent bed spot. Basic bedding also costs a little less wool. | After playtest: sleeping bags may matter less in Elysian and Influx |
 
 ## Decided so far
 
