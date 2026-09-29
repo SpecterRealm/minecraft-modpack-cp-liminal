@@ -1,7 +1,7 @@
 # Future Pack Notes — archived planning (2026-05)
 
 > **Archived. Not current.** These notes predate the pack restructure and use the old lineup (P2 "Magic Pack", P3 "Convergence" skyblock/genetics, P4 "Hostile Contact"). The current roles are in [`../pack-architecture.md`](../pack-architecture.md) and the current story is in [`../story.md`](../story.md).
-> Mapping: old P2 → **Elysian** · old P3 → split between **Influx** (ship, closed loops, genetics) and **Liminal** (reunite tech + magic) · old P4 → **Liminal** (settle, resist) · LTM → **Vigil**.
+> Mapping: old P2 → **Elysian** · old P3 → split between **Influx** (ship, closed loops, genetics) and **Liminal** (reunite tech + magic) · old P4 → **Liminal** (settle, resist) · the LTM / Vigil pack was **cancelled** — its story payoffs now live in Liminal (see [`../story.md`](../story.md#the-finale-liminal)).
 > Kept for the mod-candidate research and design rationale only.
 
 # Future Pack Notes
