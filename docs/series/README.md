@@ -26,7 +26,7 @@ All packs target **Minecraft 1.21.1 · NeoForge 21.1.228**, are managed with **p
 
 | Topic | Home | Other repos do this |
 |-------|------|---------------------|
-| Mod overlap and reasons | [`mod-audit.md`](mod-audit.md) | Trim exact duplicates; each mod needs a reason. |
+| Mod overlap and reasons | [`mod-audit.md`](mod-audit.md) · generated list: [`mod-inventory.md`](mod-inventory.md) | Trim exact duplicates; each mod needs a reason. Regenerate the list with `scripts/series-mod-inventory.py`. |
 | The end state and how each pack builds toward it | [`road-to-liminal.md`](road-to-liminal.md) | Scope changes are decided against it. |
 | Story, CASPAR, VCA, fleet, probes, the Entity, signal-color system | [`story.md`](story.md) | Link here. Each pack keeps only its own opening narrative and leak budget. |
 | Pack roles, world models, mod ownership, what each pack does *not* do | [`pack-architecture.md`](pack-architecture.md) | Each pack's `docs/pack-identity.md` states its own slice and links here. |
