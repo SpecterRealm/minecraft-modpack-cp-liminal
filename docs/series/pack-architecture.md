@@ -22,7 +22,7 @@ The three teaching packs differ in *what is scarce*. That is the whole design.
 | **Verdant** *(virtual)* | Normal overworld (Terralith). Caves and villages exist. Ore worldgen stripped. Wandering traders off. | Ore veins | **Sieve it.** Ex Deorum hammer → sieve → chunks → 2×2 ore block → smelt. |
 | **Elysian** *(virtual)* | Void / skyblock shell | Ground and materials | **Shape it.** Magic obtains what you can't mine or craft: spells, essence crops, spirit labor. No sieve loop. |
 | **Influx** *(real)* | Aboard the *Longwatch* in flight, doing the final practical | **Space.** You are locked in a ship and cannot just build another floor. | **Use what you have.** Make everything from what's aboard through recycling, conversion, and breeding — tight loops, compact machines, and workspaces that open *inward*, not outward. |
-| **Liminal** *(real)* | A lived planet. A pod crash-lands; there is no way back to the ship | Safety and time | **Settle and resist.** Bring whichever literacy you learned, or arrive cold. |
+| **Liminal** *(unresolved)* | A lived planet. A pod crash-lands; there is no way back to the ship — or is there no planet at all? | Safety and time | **Settle and resist.** Bring whichever literacy you learned, or arrive cold. |
 
 ### Verdant — "Learn to grow what you cannot mine"
 
@@ -38,7 +38,7 @@ The three teaching packs differ in *what is scarce*. That is the whole design.
 
 - Void / skyblock start. Magic is the only obtain path; **no sieve loop.**
 - Leans (soft-pinned, not final): Ars Nouveau + addons for spell literacy → Mystical Agriculture for bulk materials → Occultism / Theurgy for magical labor and auto-craft; Iron's Spells 'n Spellbooks for combat; Apotheosis and Gateways to Eternity for gear and challenge.
-- **Botania is not a pillar.** Tech-aesthetic mods are excluded: Cobblegen Galore, Building Gadgets, Charging Gadgets, Energy Meter, Mob Grinding Utils. Translocators is out of Elysian for now (Ars Nouveau's Starbuncles and Ender Storage cover magical item transfer) and lives in Liminal. Building Wands stays.
+- **Botania is not a pillar.** Tech-aesthetic mods are excluded: Cobblegen Galore, Building Gadgets, Charging Gadgets, Energy Meter, Mob Grinding Utils. Translocators stays (non-powered, no-pipe transfer that suits a magic pack). Building Wands stays.
 - Teaches how to *use* the Veil, not what it is (see [`story.md`](story.md#the-veil--reveal-ladder)).
 
 ### Influx — "Use what you have to make everything"
@@ -64,17 +64,17 @@ The three teaching packs differ in *what is scarce*. That is the whole design.
 
 ## Mod overlap
 
-Counts are a snapshot (2026-09-29, after removing three tech mods and Translocators from Elysian) and go stale fast. **The `mods/` folder in each repo is the source of truth**; do not copy these numbers into prose elsewhere.
+Counts are a snapshot (2026-09-29, after removing three tech mods from Elysian) and go stale fast. **The `mods/` folder in each repo is the source of truth**; do not copy these numbers into prose elsewhere.
 
 | Set | Count | Notes |
 |-----|-------|-------|
 | Verdant | 123 | |
-| Elysian | 124 | |
+| Elysian | 125 | |
 | Influx | 94 | |
 | **Shared core** (in V, E and I) | 70 | See below |
-| Verdant ∪ Elysian ∪ Influx | 185 | |
-| Liminal-only additions | 23 | |
-| **Liminal total** | **208** | = 185 + 23 |
+| Verdant ∪ Elysian ∪ Influx | 186 | |
+| Liminal-only additions | 22 | |
+| **Liminal total** | **208** | = 186 + 22 |
 
 Liminal currently contains every mod in V, E, or I. That is a starting inventory to prune, not a rule (see the ownership principle).
 
@@ -84,7 +84,6 @@ Liminal currently contains every mod in V, E, or I. That is a starting inventory
 
 | Group | Mods |
 |-------|------|
-| Logistics | Translocators — non-powered, magic-flavored item transfer (no pipes, no motor, no power) |
 | Cross-pack bridges | Ars Mekanica, Ars Creo, Ars Technica, Ars Énergistique, ProjectExtendedAdvancedAE |
 | Endgame / dimension | The Twilight Forest, Draconic Evolution (+ Brandon's Core) |
 | Structures & world | Wizard Tower, Skeleton Ghost Ship, Ruined Lighthouse, Illager Arena, Underwater Village, Jungle Treehouse Village, Towns and Towers, Structory: Towers, Forest Watchtower, Lithostitched, Improved Village Placement |

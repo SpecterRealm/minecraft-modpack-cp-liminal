@@ -13,7 +13,7 @@ Pack letters: **V** Verdant · **E** Elysian · **I** Influx · **L** Liminal.
 | **Mining / getting ore** | Ex Deorum sieve (V, L) · Mekanism Digital Miner (V, L) · Azurum Miner (I, L) | Three ways to get ore: sieve it, dig it with a machine, or work asteroid/debris with a single-block miner | Influx has no Mekanism. Is Azurum Miner the right single-block answer for asteroid/debris mining, or would Digital Miner do the same job in Influx? In Liminal, do both earn a place? |
 | **Plants and crops** | AgriCraft (I, L) · Botany Pots + Tiers + Trees (E, I, L) · Mystical Agriculture (E, L) · Productive Farming / Trees (I, L) | Several crop systems; Botany Trees and Productive Trees look like the clearest overlap | Which system is Influx's crop pillar? Which of the tree mods stays? |
 | **Passive production** | Productive Bees (I, L) | Bees give a compact non-crop route to resources | Keep as Influx's compact, passive answer? |
-| **Item transfer** | Translocators (L) · Ars Nouveau Starbuncles (E, L) · Ender Storage (E, L) · AE2 (V, I, L) · Create belts (V, L) · Mekanism transporters (V, L) | Translocators is the non-powered, magic-flavored option: no pipes, no motor, no power | Confirm Starbuncles + Ender Storage leave no transfer gap in Elysian. Where in Liminal's chapters does Translocators come in? |
+| **Item transfer** | Translocators (E, L) · Ars Nouveau Starbuncles (E, L) · Ender Storage (E, L) · AE2 (V, I, L) · Create belts (V, L) · Mekanism transporters (V, L) | Translocators is the non-powered, magic-flavored option: no pipes, no motor, no power | Translocators is fixed/chest-to-chest and needs no power; Starbuncles are mobile familiars. Do Starbuncles offer the same filtering and routing? (Unverified — check before relying on them.) Where in Elysian's and Liminal's chapters does Translocators come in? |
 | **EMC / matter conversion** | ProjectE + Useful ProjectE + ProjectE Integration + AutoEMC + AppliedE + Replication (I) | Six mods around one idea | Is the whole stack needed, or is there a smaller set that keeps "pattern first, then convert"? |
 | **Stone generation** | Create Cobblestone + Cobblegen Galore (V, L) | Tiered by design in Verdant (Create-scaled, then single-block) | Does Liminal need both? |
 | **Mob drops** | Mob Grinding Utils (V, L) · Hostile Neural Networks (I, L) | Different modes (farming vs. simulation) | Reason for both in Liminal? |
@@ -24,7 +24,7 @@ Pack letters: **V** Verdant · **E** Elysian · **I** Influx · **L** Liminal.
 ## Decided so far
 
 - Charging Gadgets, Energy Meter, and Mob Grinding Utils out of Elysian (tech aesthetic).
-- Translocators out of Elysian for now; in Liminal.
+- Translocators stays in Elysian and Liminal (non-powered, no-pipe transfer).
 - Azurum Miner stays in Influx as asteroid/debris mining, with the power scale lesson.
 - AE2 is welcome in Influx for automation in limited space.
 

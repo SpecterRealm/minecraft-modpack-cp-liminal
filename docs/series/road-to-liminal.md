@@ -9,7 +9,7 @@
 - **The philosophy.** *Magic is just technology with a better marketing department.* It lives in Liminal (the Unified Theory chapter) and nowhere else in full. Other packs only hint at it. *(The term "TechnoMage" is retired — it is a trademark risk. Use "Unified Theory" or the philosophy line.)*
 - **The Veil, explained.** What it actually is and why it existed — see [The Veil — Reveal Ladder](story.md#the-veil--reveal-ladder).
 - **The three literacies reunited.** Mechanical (Verdant), magic (Elysian), lab (Influx) run as parallel paths and are bridged. A player who did the earlier packs recognizes every system; a player arriving cold learns from a progressive Field Manual.
-- **A lived, hostile world.** A pod carries the player down and crash-lands; there is no way back to the ship. The biosphere pushes back (Resistance). The player settles (Colonial Settle) — Liminal owns colony features.
+- **A lived, hostile world.** A pod carries the player down and crash-lands; there is no way back to the ship. **Is it real?** Whether the player is really on the planet or still in training aboard the ship is the mystery of pack four, and it is never confirmed either way. The biosphere pushes back (Resistance). The player settles (Colonial Settle) — Liminal owns colony features.
 - **The review closes.** *"You are ready"* — ready for what is not stated — then silence. The Entity and the destination question stay open on purpose.
 
 ## The road: what each pack does for Liminal
@@ -19,7 +19,7 @@
 | **Verdant** | Virtual (simulation) | Mechanical Path — engineering: sieving, automation, storage, power, networks | The word "Veil" (only the word); the player as an engineer | Anything about magic being technology |
 | **Elysian** | Virtual (simulation) | Magic Path — obtaining with spells, essence, and spirit labor; *using* the Veil | The practice of projecting mystery and power; magic on its own terms | What is underneath the practice; that it is technology |
 | **Influx** | Aboard the *Longwatch*, in flight (real) | Lab Path — closed loops, conversion, breeding, compact automation (AE2), power scale | The ship as the *Longwatch*; the observation that different vocabularies give the same output | That the overlap is deliberate |
-| **Liminal** | The planet — pod crash-landing (real) | All three, reunited | — | Delivers the reveal |
+| **Liminal** | The planet — pod crash-landing (apparently real; deliberately unresolved) | All three, reunited | — | Delivers the reveal |
 
 **Hinting rule.** "Hint" means the player can notice a pattern; it never means a character or document states the thesis. If a line could be quoted as "so magic is just technology," it belongs in Liminal.
 
@@ -48,7 +48,7 @@ Conflicts found between packs and how the end state resolved them.
 | Too many program names (Colonial Program, Colony Protocol, Cohort Protocol) | Colony Protocol = the overarching program all ships were sent under (and the series name); Cohort Protocol = the training modules; CASPAR = the AI. "Colonial Program" is retired. |
 | Every pack was framed as the simulation | Modules 1–2 are virtual; module 3 is aboard the real ship (final practical); module 4 is deployment — a pod crash-landing with no return. |
 | "TechnoMage" is a likely trademark | Retired; the chapter is "Unified Theory." Internal file names and placeholder advancement IDs renamed too. |
-| Translocators was removed from Elysian and Liminal | Kept for Liminal (non-powered, magic-flavored transfer); out of Elysian for now since Starbuncles and Ender Storage cover it. |
+| Translocators was removed from Elysian | Restored: it suits a magic pack (non-powered, no-pipe transfer). Starbuncles are a different, mobile kind of transfer. |
 | Colony features had no owner | Liminal owns them (Verdant has villagers only) |
 
 ## Still open

@@ -10,6 +10,10 @@
 - **CASPAR tone:** present, clinical.
 - **Owns:** colony and settlement features, the full explanation of the Veil, and the Unified Theory revelation.
 
+## The mystery
+
+Are you really on the planet, or still in the ship training? It is never confirmed. Keep both readings alive; see the [series story](series/story.md#the-modules).
+
 ## Payoffs Liminal delivers
 
 - **What the Veil actually is** — see [The Veil — Reveal Ladder](series/story.md#the-veil--reveal-ladder). Verdant hinted at the word, Elysian taught the practice, Influx observed; Liminal explains.

@@ -34,7 +34,9 @@
 | 1 | Verdant | Inside the training simulation | Virtual |
 | 2 | Elysian | Inside the training simulation | Virtual |
 | 3 | Influx | Awake aboard the *Longwatch*, mid-flight, doing the final practical (genetic testing and the rest) | Real |
-| 4 | Liminal | On the planet. A pod carries you down and crash-lands; there is no way back to the ship | Real |
+| 4 | Liminal | Apparently on the planet. A pod carries you down and crash-lands; there is no way back to the ship | **Unresolved** — never confirmed |
+
+**The mystery of pack four.** Whether you are really on the planet or still in training aboard the ship is never confirmed. Both readings must stay viable to the last quest: the crash landing, the thinner CASPAR, and the world that has been here a long time all support "real"; the training-frame tells, the clinical voice, and the "You are ready" line all support "still training." Do not resolve it.
 
 **Training vs. deployment.** Modules 1–3 (Verdant, Elysian, Influx) are the original Cohort Protocol curriculum, planned at departure. Module 4 is not training: it is deployment. Probe data and the navigation directive changed the plan (see [The Probe Network](#the-probe-network)), and the crash landing is why you cannot return to the ship.
 
@@ -359,6 +361,7 @@ Liminal closes the series. It carries the payoffs that were once planned for a s
 - **What the Veil actually is.** The full doctrine and the truth beneath it, held back through Verdant, Elysian and Influx (see [The Veil](#the-veil--reveal-ladder)).
 - **The revelation.** At the end of the Unified Theory chapter a Patchouli book, *A Technical History of the Arcane Arts*, appears in a chest: dry, footnoted, in-universe academic writing that explains what every magic system actually was and shows that every tech and magic system is an instance of the same physics described in different vocabularies. Players who did Verdant and Elysian get the "of course" moment; players arriving cold get "wait, what."
 - **The world has history.** Abandoned infrastructure, partially running systems, ruins with things still active inside. The lore does not immediately explain them; players who tracked the "confirmed" coordinates have a theory.
+- **The mystery stays open.** Real planet or still-training is never confirmed (see [Where you are](#the-modules)).
 - **The review closes.** The behavioral-review thread ends with the "You are ready" line, and then silence.
 - **Skill asymmetry.** Never explain mechanics an earlier pack already taught. Write flavor that rewards prior knowledge and motivates newcomers to go back.
 
