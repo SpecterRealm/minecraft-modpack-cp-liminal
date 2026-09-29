@@ -4,6 +4,7 @@
 
 ### Mod stack
 
+- **Changed:** Essential Mod is now client-only (`side = "client"`), so servers do not install it while players' clients still get it from the pack (friends list, cosmetics, world hosting).
 - **Restored:** Productive Farming (removed in error as a "duplicate" of AgriCraft; also restored in Influx). Keeping both crop mods is tracked in Influx #31.
 
 ### Docs

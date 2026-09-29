@@ -57,7 +57,7 @@ The cluster table above covers known overlaps. The full audit walks **every** mo
 
 **Elysian-owned (40).** Ars Nouveau plus eight add-ons (Additions, Caelum, Controle, Elemancy, Elemental, Ocultas, Polymorphia, Zero) and Not Enough Glyphs is a lot of add-ons — does each earn its place? In particular **Ars Elemental vs. Ars Elemancy**. Occultism and Theurgy are both "magical labor" systems with different jobs. The Apotheosis suite is four mods.
 
-**Influx-owned (16).** Already covered by the cluster table, plus: **Useful ProjectE** has not been reviewed; **Productive Metalworks** and **Silent Gear Metalworks** are two metalworking bridges — do both stay?
+**Influx-owned (16).** Already covered by the cluster table, plus: **Useful ProjectE** has not been reviewed; **Productive Metalworks** and **Silent Gear Metalworks** are a foundry plus its Silent Gear bridge (decided: both stay, in all packs).
 
 **Liminal-only (22).** **The Twilight Forest**, **Draconic Evolution**, and **Animal Pens** have no stated story role yet; the five bridges, eleven structure mods, and three libraries follow from the finale design.
 
@@ -65,7 +65,7 @@ The cluster table above covers known overlaps. The full audit walks **every** mo
 
 **Pins: CurseForge over Modrinth.** Modrinth-pinned mods can misbehave in the CurseForge app, so every mod should pin to CurseForge where a NeoForge 1.21.1 file exists. Nineteen ids are Modrinth-pinned today (Ars Nouveau, Ars Mekanica, Occultism, Theurgy, Modonomicon, Mystical Agriculture, Mystical Automation, Translocators, Ender Storage, CodeChicken Lib, CB Multipart, Iron's Spells, LibX, Cucumber, SmartBrainLib, PlayerAnimator, Skyblock Builder, Tough As Nails (vanilla pack), Inventory Tweaks Emu). The migration needs CurseForge API access (`packwiz curseforge add <slug> --file-id ...`), which the cloud container does not have (403), so it runs from a local checkout. Any mod with no CurseForge build (or API-excluded) keeps a Modrinth pin and is listed in the pack's `docs/curseforge-export.md`.
 
-**Wooden Shears (Verdant).** Added so Tough As Nails leaf armor works before iron shears. Prefer no extra mod: options are a KubeJS recipe for vanilla shears from a cheaper material, or a flint/copper-tier shears recipe. Decide when the mod is reviewed.
+**Wooden Shears (Verdant).** Added so Tough As Nails leaf armor works before iron shears. Decision: **remove the mod, and do not just make iron shears cheaper.** Leading idea: a recipe that turns saplings into leaf blocks (for example 3x3 saplings; cost to test), falling back on the crook, which already breaks leaves and raises sapling and silkworm chances. Tracked in [Verdant #331](https://github.com/MichaelHeaton/minecraft-modpack-cp-verdant/issues/331).
 
 **Animal Pens (Influx).** Stores animals in pens, aquariums and aviaries while keeping breeding, shearing, milking and drops working; reduces entity lag. It fits a space-limited ship (compact livestock), so a natural Influx candidate rather than Liminal-only. [Source](https://modrinth.com/project/K5CAV4wi).
 
@@ -87,11 +87,58 @@ The cluster table above covers known overlaps. The full audit walks **every** mo
 
 Sources: Ars Caelum, Elemental, Elemancy, Ocultas, Polymorphia and Additions listings on CurseForge/Modrinth; Ars Controle, Zero and Not Enough Glyphs descriptions were thin, so their calls need a playtest.
 
+## Keep for now, then use or remove
+
+Only Verdant has had real customization work; Elysian, Influx, and Liminal have barely been touched. A mod not being used yet says little, so these are kept and **flagged: once each pack is customized, use it or remove it.**
+
+| Mod | Packs | Decision | Revisit when |
+|---|---|---|---|
+| Tough As Nails | V E L (and Influx) | Keep in Influx. Thirst and temperature fit a ship a little, and adding a mechanic then removing it is worse than keeping it. It may be too easy to get past. | After a playtest of Influx |
+| Essential Mod | all four | Client-only (`side = "client"`). Servers never install it; kids' clients keep friends, cosmetics, and world hosting. | If it causes problems or adds load |
+| Baubley Heart Canisters | all four | Added to Influx. | With gear and health progression work |
+| KubeJS Tweaks | all four | Added to Influx. No script uses its features yet (no `KJSTweaks`, `jeiRuntime`, or No Op in any pack). | When the hide and uncraftable lists are built |
+| Target Dummy | all four | Keep: players build gear and want to test it. | — |
+| Akashic Tome | all four | Keep. Many mods add guidebooks; one Tome condenses them so players don't fill their inventory with books. Check it does not bury the Field Manual. | After a playtest |
+| More Tier Upgrade | all four | Keep. In Influx it fits the space lesson: make the top tiers **expensive** so players condense and organise storage instead of placing more chests. Few items need that much room, and ProjectE will reduce the need in places, though players will still use it for mass resource collection. | When the tier recipes are priced |
+| Morph-o-Tool | all four | Keep as quality of life. **Test:** with how many of the packs' mods does it work, and can it replace their wrenches, hammers, and similar tools? | After the compatibility test |
+| Simple Magnets | all four | Keep as quality of life: item generation (sieving, crops) makes cleanup easier. The powered magnet needs FE, so hide or disable it in Elysian, which has no power generation. | When the Elysian hide list is built |
+| Comforts | all four | Keep. Sleeping bags let players travel without resetting their spawn point (wanted in Verdant and Liminal); on the ship they suit not having a permanent bed spot. Basic bedding also costs a little less wool. | After playtest: sleeping bags may matter less in Elysian and Influx |
+
+## Power stack (under test)
+
+Question: which power mods give the most meaningful add, and which overlap enough to cut. Details and the test list are in [#45](https://github.com/SpecterRealm/minecraft-modpack-cp-liminal/issues/45); the Influx side is [#36](https://github.com/SpecterRealm/minecraft-modpack-cp-influx/issues/36).
+
+| Mod | Packs today | Role | Call |
+|---|---|---|---|
+| Powah | none yet (**not added**; needs a `packwiz` pin from a machine with CurseForge access) | Tiered generators (Furnator burns wood, charcoal, or coal; Magmator; Thermo; Solar; Reactor), tiered Energy Cells, cables, Ender Cells | Leading choice for starter and mid power; solves the "no ore to start" chicken-and-egg. Test first |
+| Extreme Reactors (+ ZeroCore 2) | Verdant, Influx (PR #35), Liminal | Reactor and turbine multiblocks, Energizer multiblock battery; fuel is Yellorium (an ore) | Overlaps Powah's reactor; removing it from all packs is the likely cleaner move if Powah works |
+| Flux Networks | Verdant, Influx (PR #35), Liminal | Wireless FE transfer, Flux Storage blocks | Keep; Powah's cables and Ender Network overlap it, so recheck |
+| Draconic Evolution | Liminal | Energy Core (8 tiers, Tier 1 about 45.5M RF) and pylons | Liminal capstone storage; check the 1.21.1 "Operational Potential" bug |
+| Mekanism Generators, Create Additions | Verdant, Liminal | Generator ladders | Stay in Verdant/Liminal; Influx has neither |
+| Azurum Miner Generator | Influx, Liminal | Unknown fuel and output | Check in the void test |
+| Ender IO, RFTools Power | none | Mostly overlap with the above | Not adding |
+
+Elysian has no power generation by design (magic pack), so the powered Simple Magnets item is hidden there.
+
+## AE2 add-ons (Verdant-owned, also in Liminal)
+
+Liminal players will use AE2 to tie the other mods together, so integration matters more than trimming. **Decision: keep every AE2 add-on for now.**
+
+| Group | Mods | What they add |
+|---|---|---|
+| Integration bridges | Applied Mekanistics, Applied Create, Not Enough Patterns, Applied KubeJS | Chemicals through AE2; Create stress and Mechanical Crafter patterns; patterns for machines pattern providers can't drive; scriptable AE2 |
+| Content | AdvancedAE, MEGA Cells | Quantum Computer, Reaction Chamber, advanced pattern provider; 1M–256M cells, 4-threaded CPUs, bulk compression cell |
+| Terminals and quality of life | Wireless Terminals, Extended Terminal, Pattern Encoding Access Terminal, ME Requester, Better P2P, Crafting Tree, Tangible Bookmarks, Applied Sorting, ae2helpers | Wireless and all-in-one terminals; merged pattern terminal; stock requests; P2P binding tool; crafting tree view; bookmark pickup and crafting; ID sorting; ae2helpers **unknown, to be tested by the maintainer** |
+| Recipe viewer | AE2 JEI Integration | Restores JEI support AE2 removed (machine recipes, autofill) |
+
+**EMI and JEI are both installed on purpose, in all four packs.** EMI is the primary viewer; JEI stays as the recipe-data backend because many mods only integrate with JEI, and EMI runs JEI plugins through its compatibility layer (Verdant `docs/migration-notes.md`). The tooling built on EMI (EMI++ stack groups, EMI Patternizer, the `c:hidden_from_recipe_viewers` hide tag) would not carry over to a JEI-first setup. Open question: whether AE2 JEI Integration is still needed under EMI, or an EMI-native integration fits better.
+
 ## Decided so far
 
 - **Crops:** *reopened.* Productive Farming was removed as a "duplicate" of AgriCraft, then restored — it is content-heavy (about 160 crops, flower/dye breeding, bee integration), not a duplicate. Keeping both for now; the choice is tracked in Influx [#31](https://github.com/SpecterRealm/minecraft-modpack-cp-influx/issues/31).
 - **Trees:** Botany Trees and Productive Trees both stay (different jobs); verify they work together.
 - **EMC:** it is the destination — AutoEMC and the ProjectE stack stay.
+- **Metalworking:** Productive Metalworks and Silent Gear Metalworks change how gear is made, so they go in **all four packs** (Tinkers' Construct-style melt, alloy and cast). The bridge only works with the foundry, so they stay together. Verdant's and Elysian's early game relies on Silent Gear grid crafting, so the rollout needs a test and quest rewrites; tracked in [#42](https://github.com/SpecterRealm/minecraft-modpack-cp-liminal/issues/42).
 - Charging Gadgets, Energy Meter, and Mob Grinding Utils out of Elysian (tech aesthetic).
 - Translocators stays in Elysian and Liminal (non-powered, no-pipe transfer).
 - Azurum Miner stays in Influx as asteroid/debris mining, with the power scale lesson.
