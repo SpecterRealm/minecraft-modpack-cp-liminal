@@ -155,6 +155,7 @@ h1 {
 }
 
 .blurb { color: var(--muted); max-width: 52ch; }
+.blurb + .blurb { margin-top: 0.85rem; }
 
 .siblings {
   display: grid;
