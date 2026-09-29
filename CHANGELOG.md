@@ -2,8 +2,13 @@
 
 ## [Unreleased]
 
+### Mod stack
+
+- **Removed:** Productive Farming (duplicate of AgriCraft; also removed from Influx).
+
 ### Docs
 
+- Mod audit: EMC stated as the destination (Star Trek-style replicator); crops and trees decisions recorded; tickets linked (Influx #28, #29).
 - Naming: Colony Protocol is the overarching program, Cohort Protocol is the training modules, CASPAR is the AI ("Colonial Program" retired). Modules 1–2 are virtual, module 3 is aboard the real ship, module 4 is a pod crash-landing with no return. "TechnoMage" retired (trademark risk) in favor of "Unified Theory" — chapter renamed. Translocators stays in Liminal and Elysian. Liminal deliberately leaves open whether you are really on the planet or still in training. Added `docs/series/mod-audit.md` and the "every mod needs a reason" rule.
 - The Veil is now a three-step reveal (Verdant: the word; Elysian: how to use it; Influx: observations; Liminal: what it is). Colony/settlement features assigned to Liminal. Added `docs/story.md` and updated mod counts (207).
 - Vigil / LTM (`minecraft-modpack-ltm`) is cancelled. Liminal is now the series finale and absorbs the revelation, the closing of the behavioral-review thread, and the world-history hooks. Removed Vigil from the series hub and story canon.
