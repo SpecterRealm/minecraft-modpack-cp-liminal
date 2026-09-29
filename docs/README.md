@@ -9,6 +9,7 @@ Liminal is the **source of truth for the whole Colony Protocol series**. Start w
 | [series/README.md](series/README.md) | Series hub — pack table, links, where-things-live map |
 | [series/story.md](series/story.md) | Story canon: CASPAR, VCA, fleet, probes, the Entity, signal colors, TechnoMage arc, the Liminal finale |
 | [series/pack-architecture.md](series/pack-architecture.md) | Pack roles, world models, mod ownership and overlap |
+| [story.md](story.md) | Liminal's own opening narrative, leak budget, and payoffs |
 | [series/archive/](series/archive/) | Pre-restructure planning notes (historical) |
 
 ## This pack

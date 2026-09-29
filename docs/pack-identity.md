@@ -11,6 +11,8 @@
 - **World:** a lived planet — not a classroom void, not the ship.
 - **Loop:** the three literacies (mechanical, magic, lab) running in parallel and reuniting; then settle, resist, TechnoMage.
 - **Mods:** the full union of Verdant, Elysian, and Influx, plus the Liminal-only additions (cross-pack bridges, Twilight Forest, Draconic Evolution, structures). The lists and counts are in [`series/pack-architecture.md`](series/pack-architecture.md#mod-overlap); the `mods/` folder is authoritative.
+- **Colony and settlement features** — Verdant only has villagers; Liminal wraps the colony fantasy up fully. The mod (MineColonies is a candidate) is still to be chosen.
+- **The full explanation of the Veil** and the TechnoMage revelation — see [`story.md`](story.md).
 - **Cross-pack bridges** (Ars ↔ Mekanism and friends) — they default here and nowhere else.
 - **Quest chapters:** Welcome, First Foothold, Mechanical / Magic / Lab Path, Cross Bridges, Colonial Settle, Resistance, TechnoMage, Side Quests.
 

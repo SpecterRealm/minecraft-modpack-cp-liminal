@@ -19,7 +19,7 @@
 | Module | Pack | Contingency trained | Resource loop | CASPAR tone | What leaks |
 |---|---|---|---|---|---|
 | **1** | **Verdant** | A world with no convenient ore — process the raw substrate | Sieving | Encouraging, foundational | Low: anomaly notices, psych eval fragments, Class 3 arrival scenario mention |
-| **2** | **Elysian** | An existing civilization — deploy the Veil | Magic | Formal, operational | Medium: competing entity names, other-ship intercepts, Veil doctrine documents (more cynical than the training version) |
+| **2** | **Elysian** | An existing civilization — deploy the Veil | Magic | Formal, operational | Medium: competing entity names, other-ship intercepts, Veil practice documents (more cynical than the training version) |
 | **3** | **Influx** | No landfall at all — the ship is everything you have, and you cannot expand it | Closed-loop conversion and breeding | Technical, scientific | High: post-departure Velara communications, luminosity table, the "confirmed" message and coordinates |
 | **4** | **Liminal** | A destination that pushes back — planetfall on a lived, hostile world | All of the above, reunited | Present, clinical | "Confirmed" coordinates surface; the hostile biosphere connects to the entity research fragments |
 
@@ -70,7 +70,7 @@ Your cohort designation is **CP-Verdant-S1**. The Colonial Program is what CASPA
 
 The first module drops you into a world that doesn't hand you anything convenient. You learn to process raw material, to extract ore the way a planet actually holds it. By the time you finish, you will have built infrastructure from nothing, automated the flow from raw extraction to refined output, and understood at a practical level how a technical civilization sustains itself when the ground makes you work for it.
 
-The second module teaches something different. Older. The civilization of Velara did not always speak plainly about what it knew. There is a history there — a doctrine, a reason — and CASPAR believes you should understand it before you arrive.
+The second module teaches something different. Older. The civilization of Velara did not always speak plainly about what it knew. There is a history there — a doctrine, a reason — and CASPAR believes you should know how to use it before you arrive.
 
 The third module confines you. There is no world to land on — only the ship, and what is aboard it. You cannot build outward, so you learn to build inward: to make everything from what you already have, to close every loop, to breed what you cannot fabricate. It is a lesson in what a colony does when it cannot simply expand.
 
@@ -88,11 +88,9 @@ CASPAR is probably right.
 
 ### The Veil
 
-Before you left, Velara was a civilization that knew things it didn't always say plainly.
+Before you left, Velara was a civilization that knew things it didn't always say plainly. There was a word for how it handled what it knew: *the Veil*.
 
-The technology that powered your world — the machines, the energy systems, the infrastructure — had been wrapped, deliberately, in a vocabulary that sounded like something else. Older. More mysterious. There was a word for this practice. A policy. A reason behind it.
-
-The second training module explores this in depth. Understanding it, CASPAR suggests, is as important as the engineering. Perhaps more.
+CASPAR uses the word once, in passing, and moves on. The second training module returns to it.
 
 ---
 
@@ -134,7 +132,7 @@ When fragments of ship-to-ship communications appear in the training material �
 
 One fragment, near the end of the third module, contains three readable words between two redactions: *Do not use the Veil.*
 
-What the Veil is — and why someone on a ship that arrived before you might want to warn you about it — is something CASPAR covers in Module 2.
+CASPAR teaches how to use the Veil in Module 2. Why someone on a ship that arrived before you would warn you against it is never explained there — what the Veil actually *is* is held back until the finale.
 
 ### The Navigation Fragment
 
@@ -218,15 +216,26 @@ The government agency that designed the lottery, commissioned the fleet, created
 
 ---
 
-## The Veil
+## The Veil — Reveal Ladder
 
-**What it is:** The Velaran cultural doctrine of disguising technology behind mystical vocabulary, ritual aesthetics, and deliberate obfuscation. Not a secret — it is *policy*. Taught in schools. Practiced at the institutional level.
+The Veil is revealed in three steps, one per pack. Each pack owns only its step — never explain ahead.
+
+| Pack | The player learns | Never says |
+|---|---|---|
+| **Verdant** | **The word only.** A hint that Velara had a word for how it handled what it knew. Verdant is about technology; it stays about technology. | What the Veil is, or how it is used |
+| **Elysian** | **How to use it.** The practice: project mystery and power through vocabulary, ritual, and aesthetics, and be treated with deference. CASPAR teaches the technique as operational training. | What is underneath the practice, or why it works |
+| **Influx** | **Observations only.** The same output arriving by differently-worded routes — "different language, same math." | That the overlap is deliberate |
+| **Liminal** | **What it actually is.** The full doctrine and the truth beneath it (see below), delivered in the TechnoMage chapter. | — |
+
+### What it is *(revealed in Liminal)*
+
+The Velaran cultural doctrine of disguising technology behind mystical vocabulary, ritual aesthetics, and deliberate obfuscation. Not a secret — it is *policy*. Taught in schools. Practiced at the institutional level. The systems players know as magic are engineering described in a different vocabulary; the finale shows they are instances of the same underlying physics.
 
 **Why it exists:** It worked. Crews that arrived projecting incomprehensible power — machines that looked like magic, energy that looked like divine authority — were treated with deference. The Veil became doctrine because it preserved lives.
 
 **Etymology:** From *velare* — to veil, to conceal. The civilization named their world after the practice so long ago that most Velarans don't know the etymology.
 
-**Why Elysian exists:** The Veil is a deployment tool, not a history lesson. If the *Longwatch* arrives at Kethara and finds an existing civilization, the crew that can project mystery and power has options. Module 2 (Elysian) is operational training.
+**Why Elysian exists:** The Veil is a deployment tool, not a history lesson. If the *Longwatch* arrives at Kethara and finds an existing civilization, the crew that can project mystery and power has options. Module 2 (Elysian) is operational training in the technique, not the explanation.
 
 **The question Elysian asks without asking:** At what point does a survival strategy become indistinguishable from who you are?
 
@@ -314,6 +323,9 @@ Players who finished Verdant recognize the technology in what they thought was m
 
 **Writing rules**
 - Never state the thesis directly. Note matching outputs; let the player conclude.
+- **Verdant is about technology.** It carries the word "Veil" and nothing else from this arc. No magic-is-tech hints beyond the Ender Pearl Field Notes entry.
+- **Elysian teaches the practice, not the truth.** Magic is presented on its own terms.
+- **The full explanation is Liminal's.** See [The Veil](#the-veil--reveal-ladder).
 - The Liminal revelation should feel earned, not sudden, and stay in-universe (scholars inside the game world, not the pack developer).
 
 ### The Ender Pearl thread
@@ -329,6 +341,7 @@ Ender Pearls are a component in nearly every mod that manipulates space, which m
 
 Liminal closes the series. It carries the payoffs that were once planned for a separate persistent-multiplayer pack (Vigil, since cancelled):
 
+- **What the Veil actually is.** The full doctrine and the truth beneath it, held back through Verdant, Elysian and Influx (see [The Veil](#the-veil--reveal-ladder)).
 - **The revelation.** At the end of the TechnoMage chapter a Patchouli book, *A Technical History of the Arcane Arts*, appears in a chest: dry, footnoted, in-universe academic writing that explains what every magic system actually was and shows that every tech and magic system is an instance of the same physics described in different vocabularies. Players who did Verdant and Elysian get the "of course" moment; players arriving cold get "wait, what."
 - **The world has history.** Abandoned infrastructure, partially running systems, ruins with things still active inside. The lore does not immediately explain them; players who tracked the "confirmed" coordinates have a theory.
 - **The review closes.** The behavioral-review thread ends with the "You are ready" line, and then silence.
