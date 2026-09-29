@@ -87,6 +87,18 @@ The cluster table above covers known overlaps. The full audit walks **every** mo
 
 Sources: Ars Caelum, Elemental, Elemancy, Ocultas, Polymorphia and Additions listings on CurseForge/Modrinth; Ars Controle, Zero and Not Enough Glyphs descriptions were thin, so their calls need a playtest.
 
+## Keep for now, then use or remove
+
+Only Verdant has had real customization work; Elysian, Influx, and Liminal have barely been touched. A mod not being used yet says little, so these are kept and **flagged: once each pack is customized, use it or remove it.**
+
+| Mod | Packs | Decision | Revisit when |
+|---|---|---|---|
+| Tough As Nails | V E L (and Influx) | Keep in Influx. Thirst and temperature fit a ship a little, and adding a mechanic then removing it is worse than keeping it. It may be too easy to get past. | After a playtest of Influx |
+| Essential Mod | all four | Client-only (`side = "client"`). Servers never install it; kids' clients keep friends, cosmetics, and world hosting. | If it causes problems or adds load |
+| Baubley Heart Canisters | all four | Added to Influx. | With gear and health progression work |
+| KubeJS Tweaks | all four | Added to Influx. No script uses its features yet (no `KJSTweaks`, `jeiRuntime`, or No Op in any pack). | When the hide and uncraftable lists are built |
+| Target Dummy | all four | Keep: players build gear and want to test it. | — |
+
 ## Decided so far
 
 - **Crops:** *reopened.* Productive Farming was removed as a "duplicate" of AgriCraft, then restored — it is content-heavy (about 160 crops, flower/dye breeding, bee integration), not a duplicate. Keeping both for now; the choice is tracked in Influx [#31](https://github.com/SpecterRealm/minecraft-modpack-cp-influx/issues/31).
