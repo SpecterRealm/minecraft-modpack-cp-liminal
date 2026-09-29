@@ -98,6 +98,7 @@ Only Verdant has had real customization work; Elysian, Influx, and Liminal have 
 | Baubley Heart Canisters | all four | Added to Influx. | With gear and health progression work |
 | KubeJS Tweaks | all four | Added to Influx. No script uses its features yet (no `KJSTweaks`, `jeiRuntime`, or No Op in any pack). | When the hide and uncraftable lists are built |
 | Target Dummy | all four | Keep: players build gear and want to test it. | — |
+| Simple Magnets | all four | Keep as quality of life: item generation (sieving, crops) makes cleanup easier. The powered magnet needs FE, so hide or disable it in Elysian, which has no power generation. | When the Elysian hide list is built |
 | Comforts | all four | Keep. Sleeping bags let players travel without resetting their spawn point (wanted in Verdant and Liminal); on the ship they suit not having a permanent bed spot. Basic bedding also costs a little less wool. | After playtest: sleeping bags may matter less in Elysian and Influx |
 
 ## Decided so far
