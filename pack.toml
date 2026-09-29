@@ -1,1 +1,16 @@
-@file:/agent/repos/minecraft-modpack-cp-liminal/pack.toml
+name = "Colony Protocol: Liminal"
+author = "MichaelHeaton"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "66a7e2b3e19b8101619f33f32cb9ecdd75213912373e95fe4c3659be4c37cf7c"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.228"
+
+[options]
+acceptable-game-versions = ["1.21"]
