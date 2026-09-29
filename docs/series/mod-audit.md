@@ -61,6 +61,32 @@ The cluster table above covers known overlaps. The full audit walks **every** mo
 
 **Liminal-only (22).** **The Twilight Forest**, **Draconic Evolution**, and **Animal Pens** have no stated story role yet; the five bridges, eleven structure mods, and three libraries follow from the finale design.
 
+## Review notes (from maintainer feedback)
+
+**Pins: CurseForge over Modrinth.** Modrinth-pinned mods can misbehave in the CurseForge app, so every mod should pin to CurseForge where a NeoForge 1.21.1 file exists. Nineteen ids are Modrinth-pinned today (Ars Nouveau, Ars Mekanica, Occultism, Theurgy, Modonomicon, Mystical Agriculture, Mystical Automation, Translocators, Ender Storage, CodeChicken Lib, CB Multipart, Iron's Spells, LibX, Cucumber, SmartBrainLib, PlayerAnimator, Skyblock Builder, Tough As Nails (vanilla pack), Inventory Tweaks Emu). The migration needs CurseForge API access (`packwiz curseforge add <slug> --file-id ...`), which the cloud container does not have (403), so it runs from a local checkout. Any mod with no CurseForge build (or API-excluded) keeps a Modrinth pin and is listed in the pack's `docs/curseforge-export.md`.
+
+**Wooden Shears (Verdant).** Added so Tough As Nails leaf armor works before iron shears. Prefer no extra mod: options are a KubeJS recipe for vanilla shears from a cheaper material, or a flint/copper-tier shears recipe. Decide when the mod is reviewed.
+
+**Animal Pens (Influx).** Stores animals in pens, aquariums and aviaries while keeping breeding, shearing, milking and drops working; reduces entity lag. It fits a space-limited ship (compact livestock), so a natural Influx candidate rather than Liminal-only. [Source](https://modrinth.com/project/K5CAV4wi).
+
+**Twilight Forest, Draconic Evolution.** Added for extra content and things to do. Keep for now; cut if they add no value once story roles are settled.
+
+**Ars Nouveau add-ons (Elysian).** Nobody on the team has played Ars Nouveau yet, so each add-on is judged by what it adds:
+
+| Add-on | What it adds | Initial call |
+|---|---|---|
+| Ars Additions | Small tweaks and quality-of-life for Ars Nouveau | Low-cost; keep pending playtest |
+| Ars Caelum | Skyblock support: rituals for cobblestone, islands, geodes; Crush acts as a hammer with ore drops | Overlaps Ex Deorum in Verdant; check whether Elysian needs it |
+| Ars Controle | Remote entity control, portable relayed rituals, scroll holder | Utility; review |
+| Ars Elemental | Four elemental schools: focuses, armor sets, new glyphs | Core add-on; likely keep |
+| Ars Elemancy | Dual/quad-element armor and foci; requires Ars Elemental | Depends on Elemental; keep only if Elemental stays |
+| Ars Ocultas | Occultism bridge: spirits in containment jars, sacrificial altar | Keep only if Occultism stays in Elysian |
+| Ars Polymorphia | Polymorph selection for Storage Lectern crafting | QoL; low value if the lectern is unused |
+| Ars Zero | New cast devices and glyphs | Review |
+| Not Enough Glyphs | Utility glyphs, SpellBinder | Popular; likely keep |
+
+Sources: Ars Caelum, Elemental, Elemancy, Ocultas, Polymorphia and Additions listings on CurseForge/Modrinth; Ars Controle, Zero and Not Enough Glyphs descriptions were thin, so their calls need a playtest.
+
 ## Decided so far
 
 - **Crops:** *reopened.* Productive Farming was removed as a "duplicate" of AgriCraft, then restored — it is content-heavy (about 160 crops, flower/dye breeding, bee integration), not a duplicate. Keeping both for now; the choice is tracked in Influx [#31](https://github.com/SpecterRealm/minecraft-modpack-cp-influx/issues/31).
