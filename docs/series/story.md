@@ -8,7 +8,7 @@
 
 ## Quick Reference
 
-- **Series:** Colony Protocol — four packs plus a persistent multiplayer pack
+- **Series:** Colony Protocol — four packs; Liminal is the finale
 - **Ship:** *ACS Longwatch* — Automated Colonial Ship, 340-year transit to Kethara
 - **CASPAR:** Colonial Adaptive Simulation Platform and Archive Repository — the AI that runs the Colonial Program training simulation
 - **Cohort:** `CP-Verdant-S1` (Colonial Program · Verdant module · first cohort). The designation is assigned in the first module and carries through the whole series.
@@ -22,7 +22,6 @@
 | **2** | **Elysian** | An existing civilization — deploy the Veil | Magic | Formal, operational | Medium: competing entity names, other-ship intercepts, Veil doctrine documents (more cynical than the training version) |
 | **3** | **Influx** | No landfall at all — the ship is everything you have, and you cannot expand it | Closed-loop conversion and breeding | Technical, scientific | High: post-departure Velara communications, luminosity table, the "confirmed" message and coordinates |
 | **4** | **Liminal** | A destination that pushes back — planetfall on a lived, hostile world | All of the above, reunited | Present, clinical | "Confirmed" coordinates surface; the hostile biosphere connects to the entity research fragments |
-| — | **Vigil** (`minecraft-modpack-ltm`) | Full persistent ship simulation — every system running at once | Everything | Social, ambient | Players who did the packs recognize systems and leaks; newcomers engage without context |
 
 **Original curriculum vs. added module.** Modules 1–3 (Verdant, Elysian, Influx) are the original Colonial Program, planned at departure. Module 4 (Liminal) exists because probe data came back showing conditions the original curriculum did not cover. CASPAR adds it under VCA Directive 7-C and presents it as routine. See [The Probe Network](#the-probe-network).
 
@@ -33,8 +32,7 @@
 | Verdant | *"Cohort CP-Verdant-S1 flagged for extended review. This is a formality."* |
 | Elysian | The flag is referenced again, less formally. *"Your engagement with Module 2 material has been noted. The Veil exercise produced unexpected results in your cohort. This has been logged."* |
 | Influx | *"Extended review complete. Your cohort has been assigned. Arrival preparation protocols are active. Welcome to the last phase of your training."* |
-| Liminal | *"Colonial Program module sequence complete. Cohort CP-Verdant-S1 behavioral profile finalized. You are ready."* Ready for what is not stated. |
-| Vigil | The review is never mentioned again. Players looking for it will notice the silence. |
+| Liminal | *"Colonial Program module sequence complete. Cohort CP-Verdant-S1 behavioral profile finalized. You are ready."* Ready for what is not stated. The review is never mentioned again; players looking for it will notice the silence. |
 
 > **Maintainers only:** V + E + I + L spells **VEIL**. Never mention it in player-facing copy.
 
@@ -308,8 +306,7 @@ Players who follow the full arc will accumulate enough fragments to form a pictu
 | **Verdant** | An engineer | Ore → ingot → machine → network. The world is mechanical, rational, predictable. | — |
 | **Elysian** | A mage | Strange but suspiciously structured systems: spells follow grammar, rituals need precise geometry, mana flows through predictable channels. It behaves like engineering with a different aesthetic. | The "ancient runes" are machine code. *The TechnoMages wrote a very good user manual and then burned the source code.* |
 | **Influx** | A systems operator | Crop mutation that looks exactly like Mendelian genetics; a converter and a breeding line arriving at the same output by different-looking inputs. Quest text starts *observing* — "Different language, same math." | That the overlap is deliberate. |
-| **Liminal** | Both, at once | Mechanical, magic, and lab paths reunite. Cross Bridges make the overlap physical; the TechnoMage chapter is where the two vocabularies are shown to describe the same thing. | The full history — reserved for Vigil. |
-| **Vigil** | Everyone | A Patchouli book, *A Technical History of the Arcane Arts*, appears in a chest: dry, footnoted, in-universe academic writing that explains what every magic system actually was. | — |
+| **Liminal** | Both, at once | Mechanical, magic, and lab paths reunite. Cross Bridges make the overlap physical; the TechnoMage chapter is where the two vocabularies are shown to describe the same thing. | The full history — delivered at the end of the TechnoMage chapter (see below). |
 
 Players who finished Verdant recognize the technology in what they thought was magic. Players who finished Elysian recognize the magic in what they thought was just engineering. Players who did both get an "of course" moment; players who did one get a "wait, what."
 
@@ -317,7 +314,7 @@ Players who finished Verdant recognize the technology in what they thought was m
 
 **Writing rules**
 - Never state the thesis directly. Note matching outputs; let the player conclude.
-- The Vigil revelation should feel earned, not sudden, and stay in-universe (scholars inside the game world, not the pack developer).
+- The Liminal revelation should feel earned, not sudden, and stay in-universe (scholars inside the game world, not the pack developer).
 
 ### The Ender Pearl thread
 
@@ -326,19 +323,18 @@ Ender Pearls are a component in nearly every mod that manipulates space, which m
 - **Verdant:** a detached, clinical Field Notes entry notes the pattern and that the crystalline structure doesn't look biological. *"The researcher who wrote this section did not file a follow-up."* No conclusion.
 - **Elysian:** dimensional foci — *"the crystallized attunement of a creature that exists between worlds."* Ender Storage is presented as ordinary magical infrastructure.
 - **Influx:** the pearl's response to dimensional energy is consistent across every use. *"The thing being leveraged is the same thing. The vocabulary is different."*
-- **Liminal / Vigil:** the Enderman is a naturally occurring quantum-tunneling organism; the pearl is the physical substrate of that ability; the Ender Chest is a quantum-entangled storage matrix with a frequency-keyed resonance lock. *The Endermen are the only naturally evolved engineers this world ever produced.*
+- **Liminal:** the Enderman is a naturally occurring quantum-tunneling organism; the pearl is the physical substrate of that ability; the Ender Chest is a quantum-entangled storage matrix with a frequency-keyed resonance lock. *The Endermen are the only naturally evolved engineers this world ever produced.*
 
-## Vigil (persistent multiplayer)
+## The Finale (Liminal)
 
-Vigil is not another module — it is the ship. In the fiction, players return to it between every training module. In practice it is a persistent multiplayer server that grows with each pack release: that module's systems become available in the shared world.
+Liminal closes the series. It carries the payoffs that were once planned for a separate persistent-multiplayer pack (Vigil, since cancelled):
 
-- It contains **the sum of all packs**. A player with no pack experience meets systems they have no context for; a player who did the series recognizes every thread. That asymmetry is intentional.
-- The world has history: abandoned infrastructure, partially running systems, ruins with things still active inside. The lore does not immediately explain them.
-- Colony mechanics (MineColonies candidates) are the multiplayer backbone; players divide labor by discipline — processing (Verdant), magical infrastructure (Elysian), closed-loop production and genetics (Influx), defense and settlement (Liminal).
-- Never explain mechanics a pack already taught. Write flavor that rewards prior knowledge and motivates newcomers to go back.
-- Server-only utilities (e.g. FTB Essentials) belong here, not in the training packs.
+- **The revelation.** At the end of the TechnoMage chapter a Patchouli book, *A Technical History of the Arcane Arts*, appears in a chest: dry, footnoted, in-universe academic writing that explains what every magic system actually was and shows that every tech and magic system is an instance of the same physics described in different vocabularies. Players who did Verdant and Elysian get the "of course" moment; players arriving cold get "wait, what."
+- **The world has history.** Abandoned infrastructure, partially running systems, ruins with things still active inside. The lore does not immediately explain them; players who tracked the "confirmed" coordinates have a theory.
+- **The review closes.** The behavioral-review thread ends with the "You are ready" line, and then silence.
+- **Skill asymmetry.** Never explain mechanics an earlier pack already taught. Write flavor that rewards prior knowledge and motivates newcomers to go back.
 
-Candidate mod research and the original planning notes are preserved in [`archive/future-pack-notes-2026-05.md`](archive/future-pack-notes-2026-05.md).
+Planning notes and mod-candidate research from before the restructure are preserved in [`archive/future-pack-notes-2026-05.md`](archive/future-pack-notes-2026-05.md).
 
 ---
 
@@ -424,7 +420,7 @@ Candidate mod research and the original planning notes are preserved in [`archiv
 | Other ship intercepts | 🔴 Red | 5 | M6–M7 | *"&c...ACS Vanguard partial signal — do not use the Veil — [RESTRICTED-5]..."* |
 | Probe loss / entity detection | 🔴 Red | 5 | Influx–Liminal | *"&cKP-7 final transmission. Scan interrupted. Luminosity delta — [SIGNAL CORRUPTED] — [RESTRICTED-5/EYES-ONLY]..."* |
 | Post-departure Velara comms | 🔴 Red | 5 | Elysian late / Influx | *"&c...transmission received Transit Year +40. Origin: Velara. This should not be possible. [RESTRICTED-5/EYES-ONLY]..."* |
-| CASPAR self-diagnostics | 🔴 Red | 4 | M8 / LTM | *"&cAnomaly rate: 0.034% of rendered outputs. Acceptable threshold: 0.001%. [RESTRICTED-4]"* |
+| CASPAR self-diagnostics | 🔴 Red | 4 | Liminal | *"&cAnomaly rate: 0.034% of rendered outputs. Acceptable threshold: 0.001%. [RESTRICTED-4]"* |
 
 ---
 
@@ -473,7 +469,6 @@ Appendix D classification: RESTRICTED-5/EYES-ONLY.
 | **Elysian** | Every quest | 2–3 per chapter | 1–2 per chapter | The seams are showing |
 | **Influx** | Every quest | Fewer (the player is used to it) | 3–4 per chapter | The documents are getting more complete and more alarming |
 | **Liminal** | Every quest | Scattered | 3–4 per chapter, converging | The documents stop contradicting each other; what they describe is now outside the window |
-| **Vigil** | Ambient | Scattered | Scattered | Players who did the packs are collecting evidence |
 
 ### Graduated Module Count
 

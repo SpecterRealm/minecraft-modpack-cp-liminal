@@ -3,7 +3,7 @@
 > **Liminal is the source of truth for the series.** Anything that spans more than one pack — story, pack roles, cross-pack design rules, mod ownership — lives here, once.
 > The other pack repos (Verdant, Elysian, Influx) document **only what they own** and link back to this folder for everything else.
 
-Colony Protocol is a four-pack training series set aboard the *ACS Longwatch*, plus a persistent multiplayer pack (**Vigil**, repo `minecraft-modpack-ltm`). Each pack is a *Colonial Program module*: a different arrival scenario, taught by a different way of getting resources.
+Colony Protocol is a four-pack training series set aboard the *ACS Longwatch*. **Liminal is the finale.** Each pack is a *Colonial Program module*: a different arrival scenario, taught by a different way of getting resources.
 
 All packs target **Minecraft 1.21.1 · NeoForge 21.1.228**, are managed with **packwiz**, and share one tooling template (see [Tooling](#tooling)).
 
@@ -15,7 +15,6 @@ All packs target **Minecraft 1.21.1 · NeoForge 21.1.228**, are managed with **p
 | 2 | **Elysian** | [SpecterRealm/…-cp-elysian](https://github.com/SpecterRealm/minecraft-modpack-cp-elysian) | Void / skyblock | **Magic** — spells, essence crops, spirit labor; learn to shape what you cannot craft | An existing civilization — the Veil doctrine | Scaffold + early quests |
 | 3 | **Influx** | [SpecterRealm/…-cp-influx](https://github.com/SpecterRealm/minecraft-modpack-cp-influx) | A prebuilt ship in the void | **Closed-loop conversion** — use what you have to make everything; space, not materials, is the scarce resource | No landfall — the ship is all there is | Scaffold + early quests |
 | 4 | **Liminal** *(this repo)* | [SpecterRealm/…-cp-liminal](https://github.com/SpecterRealm/minecraft-modpack-cp-liminal) | A lived planet | **All of the above, reunited** — settle, resist, and cross the threshold | A destination that pushes back | Scaffold; release gated behind Elysian |
-| — | **Vigil** | `minecraft-modpack-ltm` | Persistent multiplayer ship | Everything, simultaneously | — | Separate repo |
 
 **Play order:** Verdant → Elysian → Influx → Liminal is *recommended, never required.* Every pack is completable on its own, and quests teach and reward but never hard-gate.
 
