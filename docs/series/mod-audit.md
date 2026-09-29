@@ -21,6 +21,46 @@ Pack letters: **V** Verdant · **E** Elysian · **I** Influx · **L** Liminal.
 | **Power** | Mekanism Generators, Extreme Reactors, Flux Networks (V, L) | Influx has no generators | What powers Azurum Miner in Influx? |
 | **Storage** | Sophisticated Storage (all) · AE2 (V, I, L) · Ender Storage (E, L) | Tiered by design | — |
 
+## Full audit
+
+The cluster table above covers known overlaps. The full audit walks **every** mod. The objective data — which packs ship each mod, side, and pin source — is generated in [`mod-inventory.md`](mod-inventory.md) by `scripts/series-mod-inventory.py`; rerun the script rather than editing that file. For each mod the audit records a category, why it is in each pack that carries it, and a decision (keep / trim / move / question).
+
+**Method, per group:** (1) classify each mod; (2) for any mod outside its home pack, state the reason it is there; (3) mark keep / trim / move; (4) record decisions here.
+
+### Groups (as of 2026-09-29)
+
+| Group | Count | What it is |
+|---|---|---|
+| Shared core (V E I L) | 70 | Libraries, quest and UI stack, storage, recipe viewers, client performance, farming and quality-of-life mods |
+| Verdant-owned (V L) | 44 | Create, Mekanism, AE2 add-ons, Ex Deorum, Terralith and friends |
+| Elysian-owned (E L) | 40 | Ars Nouveau and add-ons, Iron's, Apotheosis, Mystical Agriculture, Occultism, Theurgy |
+| Influx-owned (I L) | 16 | ProjectE and EMC stack, Replication, AgriCraft, Productive family, Azurum, HNN |
+| Liminal-only (L) | 22 | Bridges, structures, Twilight Forest, Draconic Evolution, libraries |
+| V E L (not Influx) | 8 | Tough As Nails (+ vanilla pack), Essential Mod, Baubley Heart Canisters, Building Wands, KubeJS Tweaks, GeckoLib, GlitchCore |
+| V I L (not Elysian) | 1 | Applied Energistics 2 |
+| E I L (not Verdant) | 7 | Botany Pots (+ Tiers, Trees, KubeJS), Placebo, FastSuite, FastWorkbench |
+
+### First-pass observations
+
+**Release risk — Modrinth-pinned mods.** 19 mods are pinned from Modrinth rather than CurseForge, including several Elysian pillars (Ars Nouveau, Occultism, Theurgy, Mystical Agriculture, Iron's Spells 'n Spellbooks, Modonomicon, Ender Storage, Skyblock Builder) and Liminal's Ars Mekanica. Each repo's `docs/curseforge-export.md` explains the CurseForge moderation rules for the packs' export; check every Modrinth pin against them before a CurseForge release.
+
+**Shared core.** Of the 70, 21 are libraries and 6 are client/performance mods; the rest are the quest and UI stack, storage, recipe viewers, and quality of life. (Across all four packs there are 39 libraries.) Questions:
+- **Wooden Shears** exists for Verdant's early leaf harvesting before iron. Does it belong in Elysian, Influx, and Liminal?
+- **Silent Gear** is in all four packs as the shared tool system — confirm that is intended.
+- **Comforts, Simple Magnets, Morph-o-Tool, More Tier Upgrade, Target Dummy, Akashic Tome** — each is a general quality-of-life choice; confirm none fights a pack's theme.
+
+**V E L, not Influx.** Should Influx (a real ship, in flight) have **Tough As Nails** (thirst and temperature)? **Essential Mod** is a client-side social/cosmetics mod rather than a gameplay mod — why is it in packs at all, and should it be in all four or none? **Baubley Heart Canisters** and **KubeJS Tweaks**: are they wanted everywhere?
+
+**E I L, not Verdant.** **FastSuite / FastWorkbench** are crafting quality-of-life mods that Verdant lacks — put them in the shared core or drop them. **Placebo** is a dependency (Apotheosis in Elysian, Hostile Neural Networks in Influx).
+
+**Verdant-owned (44) in Liminal.** Liminal's mechanical path needs a reason for each. Candidates to trim from Liminal as late-game add-ons rather than path essentials: Better P2P, Extended Terminal, MEGA Cells, ME Requester, AE2 Tangible Bookmarks, Better Fusion Reactor PLUS, Mekanism: More Thermal Evaporation, Mekanism Unleashed, Building Gadgets + Charging Gadgets, Energy Meter. Which subset does Liminal's mechanical path actually assume?
+
+**Elysian-owned (40).** Ars Nouveau plus eight add-ons (Additions, Caelum, Controle, Elemancy, Elemental, Ocultas, Polymorphia, Zero) and Not Enough Glyphs is a lot of add-ons — does each earn its place? In particular **Ars Elemental vs. Ars Elemancy**. Occultism and Theurgy are both "magical labor" systems with different jobs. The Apotheosis suite is four mods.
+
+**Influx-owned (16).** Already covered by the cluster table, plus: **Useful ProjectE** has not been reviewed; **Productive Metalworks** and **Silent Gear Metalworks** are two metalworking bridges — do both stay?
+
+**Liminal-only (22).** **The Twilight Forest**, **Draconic Evolution**, and **Animal Pens** have no stated story role yet; the five bridges, eleven structure mods, and three libraries follow from the finale design.
+
 ## Decided so far
 
 - **Crops:** *reopened.* Productive Farming was removed as a "duplicate" of AgriCraft, then restored — it is content-heavy (about 160 crops, flower/dye breeding, bee integration), not a duplicate. Keeping both for now; the choice is tracked in Influx [#31](https://github.com/SpecterRealm/minecraft-modpack-cp-influx/issues/31).

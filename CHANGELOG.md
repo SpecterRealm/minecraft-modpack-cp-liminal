@@ -8,6 +8,7 @@
 
 ### Docs
 
+- Full mod audit started: added `scripts/series-mod-inventory.py` and the generated `docs/series/mod-inventory.md` (every mod by which packs ship it), plus first-pass observations in `mod-audit.md`.
 - Mod audit: EMC stated as the destination (Star Trek-style replicator); crops and trees decisions recorded; tickets linked (Influx #28, #29).
 - Naming: Colony Protocol is the overarching program, Cohort Protocol is the training modules, CASPAR is the AI ("Colonial Program" retired). Modules 1–2 are virtual, module 3 is aboard the real ship, module 4 is a pod crash-landing with no return. "TechnoMage" retired (trademark risk) in favor of "Unified Theory" — chapter renamed. Translocators stays in Liminal and Elysian. Liminal deliberately leaves open whether you are really on the planet or still in training. Added `docs/series/mod-audit.md` and the "every mod needs a reason" rule.
 - The Veil is now a three-step reveal (Verdant: the word; Elysian: how to use it; Influx: observations; Liminal: what it is). Colony/settlement features assigned to Liminal. Added `docs/story.md` and updated mod counts (207).
