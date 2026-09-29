@@ -2,6 +2,8 @@
 
 Planetfall kitchen-sink inherit — reunite V/E/I systems + combat / colonial settle on a lived world.
 
+**Liminal is the series source of truth.** Story, pack roles, and mod ownership live in [`docs/series/`](docs/series/README.md). Other CP repos link here instead of copying — keep it that way (DRY). If a fact is true for more than one pack, it belongs in `docs/series/`.
+
 **Loader:** NeoForge 1.21.1 (match Verdant). **Not** a copy of Verdant quests or world model.
 
 ## Canonical paths
@@ -26,7 +28,10 @@ First-time (Prism closed): `make setup-dev` (jars + PreLaunch + RAM/window). Opt
 
 ## Design pointers
 
-Project store: docs/pack-architecture.md §Liminal · pack-progression-arcs.md §L · series-todos.md (port teaching packs; cross-pack bridges default here).
+- Series hub: `docs/series/README.md` · story: `docs/series/story.md` · pack roles & mod overlap: `docs/series/pack-architecture.md`
+- This pack: `docs/pack-identity.md`
+- Cross-pack bridges default here; do not implement them in Verdant/Elysian/Influx.
+- Changing a pack's role, world, or contingency → edit `docs/series/` **first**, then the pack repo.
 
 ## GitHub
 
