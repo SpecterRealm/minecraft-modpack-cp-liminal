@@ -11,10 +11,10 @@ Pack letters: **V** Verdant · **E** Elysian · **I** Influx · **L** Liminal.
 | Cluster | Mods (where) | Overlap | Question |
 |---|---|---|---|
 | **Mining / getting ore** | Ex Deorum sieve (V, L) · Mekanism Digital Miner (V, L) · Azurum Miner (I, L) | Three ways to get ore: sieve it, dig it with a machine, or work asteroid/debris with a single-block miner | Influx has no Mekanism. Is Azurum Miner the right single-block answer for asteroid/debris mining, or would Digital Miner do the same job in Influx? In Liminal, do both earn a place? |
-| **Plants and crops** | AgriCraft (I, L) · Botany Pots + Tiers + Trees (E, I, L) · Mystical Agriculture (E, L) · Productive Farming / Trees (I, L) | Several crop systems; Botany Trees and Productive Trees look like the clearest overlap | Which system is Influx's crop pillar? Which of the tree mods stays? |
+| **Plants and crops** | AgriCraft (I, L) · Botany Pots + Tiers + Trees (E, I, L) · Mystical Agriculture (E, L) · Productive Trees (I, L) | AgriCraft is the crop-genetics pillar; Botany Trees (where/how trees are planted) and Productive Trees (what trees produce) complement each other | Verify Productive Trees species can be grown via Botany Trees. |
 | **Passive production** | Productive Bees (I, L) | Bees give a compact non-crop route to resources | Keep as Influx's compact, passive answer? |
 | **Item transfer** | Translocators (E, L) · Ars Nouveau Starbuncles (E, L) · Ender Storage (E, L) · AE2 (V, I, L) · Create belts (V, L) · Mekanism transporters (V, L) | Translocators is the non-powered, magic-flavored option: no pipes, no motor, no power | Translocators is fixed/chest-to-chest and needs no power; Starbuncles are mobile familiars. Do Starbuncles offer the same filtering and routing? (Unverified — check before relying on them.) Where in Elysian's and Liminal's chapters does Translocators come in? |
-| **EMC / matter conversion** | ProjectE + Useful ProjectE + ProjectE Integration + AutoEMC + AppliedE + Replication (I) | Six mods around one idea | Is the whole stack needed, or is there a smaller set that keeps "pattern first, then convert"? |
+| **EMC / matter conversion** | ProjectE + Useful ProjectE + ProjectE Integration + AutoEMC + AppliedE + Replication (I) | Six mods, one destination: EMC as the way things get made (a Star Trek-style replicator) | Kept as a stack. Still to decide: what each piece does on the ladder, and Useful ProjectE's role (not yet reviewed). |
 | **Stone generation** | Create Cobblestone + Cobblegen Galore (V, L) | Tiered by design in Verdant (Create-scaled, then single-block) | Does Liminal need both? |
 | **Mob drops** | Mob Grinding Utils (V, L) · Hostile Neural Networks (I, L) | Different modes (farming vs. simulation) | Reason for both in Liminal? |
 | **Building assist** | Building Wands (V, E, L) · Building Gadgets + Charging Gadgets (V, L) | Tiered: wands early, FE-powered gadgets late | Fine in Liminal, or trim to one? |
@@ -23,10 +23,18 @@ Pack letters: **V** Verdant · **E** Elysian · **I** Influx · **L** Liminal.
 
 ## Decided so far
 
+- **Crops:** AgriCraft is Influx's crop-genetics pillar; **Productive Farming removed** from Influx and Liminal (duplicate).
+- **Trees:** Botany Trees and Productive Trees both stay (different jobs); verify they work together.
+- **EMC:** it is the destination — AutoEMC and the ProjectE stack stay.
 - Charging Gadgets, Energy Meter, and Mob Grinding Utils out of Elysian (tech aesthetic).
 - Translocators stays in Elysian and Liminal (non-powered, no-pipe transfer).
 - Azurum Miner stays in Influx as asteroid/debris mining, with the power scale lesson.
 - AE2 is welcome in Influx for automation in limited space.
+
+## Tickets
+
+- Influx [#28](https://github.com/SpecterRealm/minecraft-modpack-cp-influx/issues/28) — set up a void world option for testing.
+- Influx [#29](https://github.com/SpecterRealm/minecraft-modpack-cp-influx/issues/29) — test the Azurum Miner in a void world (settles the mining cluster).
 
 ## Next
 

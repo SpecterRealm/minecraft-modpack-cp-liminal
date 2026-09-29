@@ -45,11 +45,11 @@ The three teaching packs differ in *what is scarce*. That is the whole design.
 
 - You are awake aboard the *Longwatch*, in flight, doing the final practical (genetic testing and the rest). **You are locked in.** There is no next island, no second floor, no new land to claim. The constraint is *space*, and the design question is *what do you do when you can't just expand?*
 - Resources come from what's aboard and what you can recover: salvage and debris are converted to typed matter, and typed matter feeds breeding and genetics for advanced materials. Every loop is closed — outputs become inputs.
-- **Pattern first, then convert.** Efficiency ladders (ProjectE-style EMC, Replication) reward having a first copy; they are not a "make anything from nothing" button. Do **not** pitch Influx as "EMC solves everything."
+- **Pattern first, then convert — and EMC is the destination.** The ladder is: recycle what you have → keep a first pattern → convert → and finally EMC becomes the way things get made, like a Star Trek replicator (ProjectE, Replication, AutoEMC, AppliedE). It is earned step by step, not a day-one button.
 - Space is solved by going *in*: compact production (Productive Bees / Trees / Farming, AgriCraft), dense storage, and **AE2 Spanner** — pocket dimensions that can be used for almost anything (farms, labs, storage, machines) — rather than by building outward. Spanner is the answer to "I can't build another floor", not a second resource philosophy.
 - **AE2 is a pillar here for automation in limited space.** Influx applies AE2 (taught in Verdant) rather than re-teaching it; more AE2 depth is welcome where it serves compact, closed-loop automation. Which AE2 addons come in is still to be decided.
 - **Azurum Miner is asteroid / debris mining.** The player is working what drifts near the ship. It turns into a **power** lesson: generating enough power to run the miner is the real challenge, pushing the scale-your-power idea. The power sources for it are still to be chosen.
-- **Open decision — farming overlap.** AgriCraft, Botany Pots (+ Tiers, Trees), and Productive Farming / Trees / Bees overlap heavily. Decide whether all three families earn a place, and name one pillar per role (crop genetics, compact automated crops, passive production).
+- **Crops and trees.** AgriCraft is the crop-genetics pillar (Productive Farming was removed as a duplicate). Botany Pots (+ Tiers, Trees) handle compact planting; Botany Trees is about where/how trees are planted and Productive Trees about what they produce, so both stay (compatibility to verify). Productive Bees is the bee-genetics pillar.
 - Leans (soft-pinned, not final): salvage / Recovery Bay bootstrap → genetics and breeding → digital workspace tools. Recovery Bay is a KubeJS fallback only.
 - Owns Hostile Neural Networks, Placebo, and Azurum Miner (moved out of Verdant).
 
@@ -64,17 +64,17 @@ The three teaching packs differ in *what is scarce*. That is the whole design.
 
 ## Mod overlap
 
-Counts are a snapshot (2026-09-29, after removing three tech mods from Elysian) and go stale fast. **The `mods/` folder in each repo is the source of truth**; do not copy these numbers into prose elsewhere.
+Counts are a snapshot (2026-09-29, after removing three tech mods from Elysian and Productive Farming from Influx and Liminal) and go stale fast. **The `mods/` folder in each repo is the source of truth**; do not copy these numbers into prose elsewhere.
 
 | Set | Count | Notes |
 |-----|-------|-------|
 | Verdant | 123 | |
 | Elysian | 125 | |
-| Influx | 94 | |
+| Influx | 93 | |
 | **Shared core** (in V, E and I) | 70 | See below |
-| Verdant ∪ Elysian ∪ Influx | 186 | |
+| Verdant ∪ Elysian ∪ Influx | 185 | |
 | Liminal-only additions | 22 | |
-| **Liminal total** | **208** | = 186 + 22 |
+| **Liminal total** | **207** | = 185 + 22 |
 
 Liminal currently contains every mod in V, E, or I. That is a starting inventory to prune, not a rule (see the ownership principle).
 

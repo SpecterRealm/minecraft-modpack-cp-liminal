@@ -55,6 +55,6 @@ Conflicts found between packs and how the end state resolved them.
 
 - CASPAR's role once the frame changes (module 3 aboard the ship, module 4 on the planet) and what the player starts with after the crash landing.
 - Colony mod for Colonial Settle (MineColonies is a candidate).
-- Influx: power sources for Azurum Miner (and whether Mekanism's Digital Miner is a better fit); farming overlap; which AE2 addons. See [`mod-audit.md`](mod-audit.md).
+- Influx: power sources for Azurum Miner (and whether Mekanism's Digital Miner is a better fit); which AE2 addons. See [`mod-audit.md`](mod-audit.md).
 - Liminal quest text beyond the stubs; the Field Manual voice for players arriving cold.
 - Backfilling CASPAR voice and leak beats into Elysian, Influx, and Liminal quest text, guided by each pack's `docs/story.md`.
