@@ -4,7 +4,7 @@
 
 **Loader:** Minecraft 1.21.1 · NeoForge 21.1.228 (match Verdant).
 
-**Mod set:** **Verdant ∪ Elysian ∪ Influx** — full kitchen-sink reunite (**190** `.pw.toml` pins). Verdant teaching pillars (Create / Mek / AE2 / Ex Deorum / power / Terralith) + Elysian magic/skyblock (Ars / MA / Occultism / Iron's / … + soft deps) + Influx landings (HNN / Placebo / Azurum) + L-only DE/TF/structures. Shared QoL dual-sourced where CF API-excludes (More Overlays, Entity Culling, Extreme Reactors Create Compat).
+**Mod set:** **Verdant ∪ Elysian ∪ Influx** — full kitchen-sink reunite (**204** `.pw.toml` pins). Verdant teaching pillars (Create / Mek / AE2 / Ex Deorum / power / Terralith) + Elysian magic/skyblock (Ars / MA / Occultism / Iron's / … + soft deps) + Influx landings (HNN / Placebo / Azurum) + L-only DE/TF/structures. Shared QoL dual-sourced where CF API-excludes (More Overlays, Entity Culling, Extreme Reactors Create Compat).
 
 ## Not in this scaffold
 
