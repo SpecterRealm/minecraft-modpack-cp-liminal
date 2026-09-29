@@ -2,6 +2,7 @@
 
 > **Canonical home.** This is the single source of truth for the Colony Protocol story. Verdant, Elysian, and Influx keep only their own opening narrative and leak budget and link here for everything else.
 > Series index: [`README.md`](README.md) · Pack roles and mods: [`pack-architecture.md`](pack-architecture.md) · Pre-restructure notes: [`archive/`](archive/).
+> **Liminal-first:** the story is written from the end state backwards — see [`road-to-liminal.md`](road-to-liminal.md).
 > Narrative *voice* rules (signal colors, quest description structure) are in this file. Quest *mechanics* rules live in each pack's own docs.
 
 ---
@@ -11,7 +12,7 @@
 - **Series:** Colony Protocol — four packs; Liminal is the finale
 - **Ship:** *ACS Longwatch* — Automated Colonial Ship, 340-year transit to Kethara
 - **CASPAR:** Colonial Adaptive Simulation Platform and Archive Repository — the AI that runs the Colonial Program training simulation
-- **Cohort:** `CP-Verdant-S1` (Colonial Program · Verdant module · first cohort). The designation is assigned in the first module and carries through the whole series.
+- **Cohort:** `CP-Verdant-S1` — assigned in the first module and constant through the whole series. Each pack is a **module** named for the pack ("Module 2 · CP Elysian"); the cohort never changes.
 - **Three signal colors:** 🟢 Green (CASPAR official) → 🟡 Yellow (Freudian slip) → 🔴 Red (outright leak)
 
 ## The Modules
@@ -19,8 +20,8 @@
 | Module | Pack | Contingency trained | Resource loop | CASPAR tone | What leaks |
 |---|---|---|---|---|---|
 | **1** | **Verdant** | A world with no convenient ore — process the raw substrate | Sieving | Encouraging, foundational | Low: anomaly notices, psych eval fragments, Class 3 arrival scenario mention |
-| **2** | **Elysian** | An existing civilization — deploy the Veil | Magic | Formal, operational | Medium: competing entity names, other-ship intercepts, Veil practice documents (more cynical than the training version) |
-| **3** | **Influx** | No landfall at all — the ship is everything you have, and you cannot expand it | Closed-loop conversion and breeding | Technical, scientific | High: post-departure Velara communications, luminosity table, the "confirmed" message and coordinates |
+| **2** | **Elysian** | Being met — project mystery and power (the Veil in use) | Magic | Formal, operational | Medium: competing entity names, other-ship intercepts, Veil practice documents (more cynical than the training version) |
+| **3** | **Influx** | No landfall at all — the ship (the *Longwatch* itself) is everything you have, and you cannot expand it | Closed-loop conversion and breeding | Technical, scientific | High: post-departure Velara communications, luminosity table, the "confirmed" message and coordinates |
 | **4** | **Liminal** | A destination that pushes back — planetfall on a lived, hostile world | All of the above, reunited | Present, clinical | "Confirmed" coordinates surface; the hostile biosphere connects to the entity research fragments |
 
 **Original curriculum vs. added module.** Modules 1–3 (Verdant, Elysian, Influx) are the original Colonial Program, planned at departure. Module 4 (Liminal) exists because probe data came back showing conditions the original curriculum did not cover. CASPAR adds it under VCA Directive 7-C and presents it as routine. See [The Probe Network](#the-probe-network).
@@ -235,7 +236,7 @@ The Velaran cultural doctrine of disguising technology behind mystical vocabular
 
 **Etymology:** From *velare* — to veil, to conceal. The civilization named their world after the practice so long ago that most Velarans don't know the etymology.
 
-**Why Elysian exists:** The Veil is a deployment tool, not a history lesson. If the *Longwatch* arrives at Kethara and finds an existing civilization, the crew that can project mystery and power has options. Module 2 (Elysian) is operational training in the technique, not the explanation.
+**Why Elysian exists:** The Veil is a deployment tool, not a history lesson. If the *Longwatch* arrives to be met by someone already there, the crew that can project mystery and power has options. The void is the rehearsal stage — no one is there yet. Module 2 (Elysian) is operational training in the technique, not the explanation.
 
 **The question Elysian asks without asking:** At what point does a survival strategy become indistinguishable from who you are?
 
@@ -307,6 +308,8 @@ Players who follow the full arc will accumulate enough fragments to form a pictu
 ---
 
 ## The TechnoMage Arc
+
+**The philosophy:** *magic is just technology with a better marketing department.* It lives in Liminal. Every other pack only hints at it.
 
 **The thesis:** magic is technology you don't understand yet. *"Any sufficiently advanced technology is indistinguishable from magic."* The series is a slow reveal of this, and the reveal is never stated outright — players arrive at it.
 

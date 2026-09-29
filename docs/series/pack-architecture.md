@@ -2,6 +2,8 @@
 
 What each pack **owns**, what it inherits, and where the boundaries are. Story lives in [`story.md`](story.md); this file is design and mods.
 
+**Method:** the series is designed backwards from Liminal — see [`road-to-liminal.md`](road-to-liminal.md).
+
 ## Ownership principle
 
 - A pack **owns** the systems it teaches: its world model, resource loop, teaching mods, KubeJS gates, and quest chapters.

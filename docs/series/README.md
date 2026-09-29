@@ -16,6 +16,8 @@ All packs target **Minecraft 1.21.1 · NeoForge 21.1.228**, are managed with **p
 | 3 | **Influx** | [SpecterRealm/…-cp-influx](https://github.com/SpecterRealm/minecraft-modpack-cp-influx) | A prebuilt ship in the void | **Closed-loop conversion** — use what you have to make everything; space, not materials, is the scarce resource | No landfall — the ship is all there is | Scaffold + early quests |
 | 4 | **Liminal** *(this repo)* | [SpecterRealm/…-cp-liminal](https://github.com/SpecterRealm/minecraft-modpack-cp-liminal) | A lived planet | **All of the above, reunited** — settle, resist, and cross the threshold | A destination that pushes back | Scaffold; release gated behind Elysian |
 
+**Design method — Liminal first.** The series is designed backwards from its end state; earlier packs are scoped to build the road to Liminal. See [`road-to-liminal.md`](road-to-liminal.md).
+
 **Play order:** Verdant → Elysian → Influx → Liminal is *recommended, never required.* Every pack is completable on its own, and quests teach and reward but never hard-gate.
 
 > **Maintainers only:** V + E + I + L spells **VEIL**. Do not mention it in CurseForge descriptions, READMEs, site copy, or anything player-facing.
@@ -24,6 +26,7 @@ All packs target **Minecraft 1.21.1 · NeoForge 21.1.228**, are managed with **p
 
 | Topic | Home | Other repos do this |
 |-------|------|---------------------|
+| The end state and how each pack builds toward it | [`road-to-liminal.md`](road-to-liminal.md) | Scope changes are decided against it. |
 | Story, CASPAR, VCA, fleet, probes, the Entity, signal-color system | [`story.md`](story.md) | Link here. Each pack keeps only its own opening narrative and leak budget. |
 | Pack roles, world models, mod ownership, what each pack does *not* do | [`pack-architecture.md`](pack-architecture.md) | Each pack's `docs/pack-identity.md` states its own slice and links here. |
 | Mod counts and overlap | [`pack-architecture.md` → Mod overlap](pack-architecture.md#mod-overlap) | Never hard-code a count in prose; link here or run `ls mods/*.pw.toml \| wc -l`. |

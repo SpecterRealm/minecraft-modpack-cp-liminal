@@ -2,7 +2,7 @@
 
 Planetfall kitchen-sink inherit — reunite V/E/I systems + combat / colonial settle on a lived world.
 
-**Liminal is the series source of truth.** Story, pack roles, and mod ownership live in [`docs/series/`](docs/series/README.md). Other CP repos link here instead of copying — keep it that way (DRY). If a fact is true for more than one pack, it belongs in `docs/series/`.
+**Liminal is the series source of truth.** Story, pack roles, and mod ownership live in [`docs/series/`](docs/series/README.md). Other CP repos link here instead of copying — keep it that way (DRY). If a fact is true for more than one pack, it belongs in `docs/series/`. **Liminal is designed first**: earlier packs are scoped to build the road to it (`docs/series/road-to-liminal.md`).
 
 **Loader:** NeoForge 1.21.1 (match Verdant). **Not** a copy of Verdant quests or world model.
 
