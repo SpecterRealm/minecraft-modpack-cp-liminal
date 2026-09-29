@@ -65,7 +65,7 @@ The cluster table above covers known overlaps. The full audit walks **every** mo
 
 **Pins: CurseForge over Modrinth.** Modrinth-pinned mods can misbehave in the CurseForge app, so every mod should pin to CurseForge where a NeoForge 1.21.1 file exists. Nineteen ids are Modrinth-pinned today (Ars Nouveau, Ars Mekanica, Occultism, Theurgy, Modonomicon, Mystical Agriculture, Mystical Automation, Translocators, Ender Storage, CodeChicken Lib, CB Multipart, Iron's Spells, LibX, Cucumber, SmartBrainLib, PlayerAnimator, Skyblock Builder, Tough As Nails (vanilla pack), Inventory Tweaks Emu). The migration needs CurseForge API access (`packwiz curseforge add <slug> --file-id ...`), which the cloud container does not have (403), so it runs from a local checkout. Any mod with no CurseForge build (or API-excluded) keeps a Modrinth pin and is listed in the pack's `docs/curseforge-export.md`.
 
-**Wooden Shears (Verdant).** Added so Tough As Nails leaf armor works before iron shears. Prefer no extra mod: options are a KubeJS recipe for vanilla shears from a cheaper material, or a flint/copper-tier shears recipe. Decide when the mod is reviewed.
+**Wooden Shears (Verdant).** Added so Tough As Nails leaf armor works before iron shears. Decision: **remove the mod, and do not just make iron shears cheaper.** Leading idea: a recipe that turns saplings into leaf blocks (for example 3x3 saplings; cost to test), falling back on the crook, which already breaks leaves and raises sapling and silkworm chances. Tracked in [Verdant #331](https://github.com/MichaelHeaton/minecraft-modpack-cp-verdant/issues/331).
 
 **Animal Pens (Influx).** Stores animals in pens, aquariums and aviaries while keeping breeding, shearing, milking and drops working; reduces entity lag. It fits a space-limited ship (compact livestock), so a natural Influx candidate rather than Liminal-only. [Source](https://modrinth.com/project/K5CAV4wi).
 
@@ -103,6 +103,22 @@ Only Verdant has had real customization work; Elysian, Influx, and Liminal have 
 | Morph-o-Tool | all four | Keep as quality of life. **Test:** with how many of the packs' mods does it work, and can it replace their wrenches, hammers, and similar tools? | After the compatibility test |
 | Simple Magnets | all four | Keep as quality of life: item generation (sieving, crops) makes cleanup easier. The powered magnet needs FE, so hide or disable it in Elysian, which has no power generation. | When the Elysian hide list is built |
 | Comforts | all four | Keep. Sleeping bags let players travel without resetting their spawn point (wanted in Verdant and Liminal); on the ship they suit not having a permanent bed spot. Basic bedding also costs a little less wool. | After playtest: sleeping bags may matter less in Elysian and Influx |
+
+## Power stack (under test)
+
+Question: which power mods give the most meaningful add, and which overlap enough to cut. Details and the test list are in [#45](https://github.com/SpecterRealm/minecraft-modpack-cp-liminal/issues/45); the Influx side is [#36](https://github.com/SpecterRealm/minecraft-modpack-cp-influx/issues/36).
+
+| Mod | Packs today | Role | Call |
+|---|---|---|---|
+| Powah | none yet (**not added**; needs a `packwiz` pin from a machine with CurseForge access) | Tiered generators (Furnator burns wood, charcoal, or coal; Magmator; Thermo; Solar; Reactor), tiered Energy Cells, cables, Ender Cells | Leading choice for starter and mid power; solves the "no ore to start" chicken-and-egg. Test first |
+| Extreme Reactors (+ ZeroCore 2) | Verdant, Influx (PR #35), Liminal | Reactor and turbine multiblocks, Energizer multiblock battery; fuel is Yellorium (an ore) | Overlaps Powah's reactor; removing it from all packs is the likely cleaner move if Powah works |
+| Flux Networks | Verdant, Influx (PR #35), Liminal | Wireless FE transfer, Flux Storage blocks | Keep; Powah's cables and Ender Network overlap it, so recheck |
+| Draconic Evolution | Liminal | Energy Core (8 tiers, Tier 1 about 45.5M RF) and pylons | Liminal capstone storage; check the 1.21.1 "Operational Potential" bug |
+| Mekanism Generators, Create Additions | Verdant, Liminal | Generator ladders | Stay in Verdant/Liminal; Influx has neither |
+| Azurum Miner Generator | Influx, Liminal | Unknown fuel and output | Check in the void test |
+| Ender IO, RFTools Power | none | Mostly overlap with the above | Not adding |
+
+Elysian has no power generation by design (magic pack), so the powered Simple Magnets item is hidden there.
 
 ## AE2 add-ons (Verdant-owned, also in Liminal)
 
