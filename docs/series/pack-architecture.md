@@ -8,7 +8,9 @@ What each pack **owns**, what it inherits, and where the boundaries are. Story l
 
 - A pack **owns** the systems it teaches: its world model, resource loop, teaching mods, KubeJS gates, and quest chapters.
 - Mods and systems are **taught once, in the earliest pack that owns them.** Later packs may include the jars but do not re-teach them. A later pack may lean *heavily* on a mod it does not own (Influx on AE2) as long as it teaches the *application*, not the mod.
-- **Liminal includes everything** (Verdant ∪ Elysian ∪ Influx) plus its own additions, and is the default home for cross-pack bridges.
+- **Liminal starts from the union** of Verdant, Elysian, and Influx plus its own additions, but the union is a *starting inventory*, not a mandate. Every mod in Liminal needs a reason — a path it serves or a bridge it enables. The goal is not a kitchen-sink pack. Liminal is the default home for cross-pack bridges.
+- **No pack forbids a mod from an earlier pack**, but a mod outside its home pack needs a stated reason.
+- **Multiple routes to the same resource are welcome** (sieving, plants, bees, trees…). **Two mods doing exactly the same job are trimmed**, and the mod goes to the pack whose theme it fits. The running work list is [`mod-audit.md`](mod-audit.md).
 - A pack's docs describe only its own slice. Series-wide statements go here.
 
 ## World models
@@ -17,10 +19,10 @@ The three teaching packs differ in *what is scarce*. That is the whole design.
 
 | Pack | Start | What is scarce | The answer |
 |------|-------|----------------|------------|
-| **Verdant** | Normal overworld (Terralith). Caves and villages exist. Ore worldgen stripped. Wandering traders off. | Ore veins | **Sieve it.** Ex Deorum hammer → sieve → chunks → 2×2 ore block → smelt. |
-| **Elysian** | Void / skyblock shell | Ground and materials | **Shape it.** Magic obtains what you can't mine or craft: spells, essence crops, spirit labor. No sieve loop. |
-| **Influx** | Prebuilt ship in the void | **Space.** You are locked in a ship and cannot just build another floor. | **Use what you have.** Make everything from what's aboard through recycling, conversion, and breeding — tight loops, compact machines, and workspaces that open *inward*, not outward. |
-| **Liminal** | A lived planet | Safety and time | **Settle and resist.** Bring whichever literacy you learned, or arrive cold. |
+| **Verdant** *(virtual)* | Normal overworld (Terralith). Caves and villages exist. Ore worldgen stripped. Wandering traders off. | Ore veins | **Sieve it.** Ex Deorum hammer → sieve → chunks → 2×2 ore block → smelt. |
+| **Elysian** *(virtual)* | Void / skyblock shell | Ground and materials | **Shape it.** Magic obtains what you can't mine or craft: spells, essence crops, spirit labor. No sieve loop. |
+| **Influx** *(real)* | Aboard the *Longwatch* in flight, doing the final practical | **Space.** You are locked in a ship and cannot just build another floor. | **Use what you have.** Make everything from what's aboard through recycling, conversion, and breeding — tight loops, compact machines, and workspaces that open *inward*, not outward. |
+| **Liminal** *(real)* | A lived planet. A pod crash-lands; there is no way back to the ship | Safety and time | **Settle and resist.** Bring whichever literacy you learned, or arrive cold. |
 
 ### Verdant — "Learn to grow what you cannot mine"
 
@@ -36,12 +38,12 @@ The three teaching packs differ in *what is scarce*. That is the whole design.
 
 - Void / skyblock start. Magic is the only obtain path; **no sieve loop.**
 - Leans (soft-pinned, not final): Ars Nouveau + addons for spell literacy → Mystical Agriculture for bulk materials → Occultism / Theurgy for magical labor and auto-craft; Iron's Spells 'n Spellbooks for combat; Apotheosis and Gateways to Eternity for gear and challenge.
-- **Botania is not a pillar.** Tech-aesthetic mods are excluded: Cobblegen Galore, Building Gadgets, Charging Gadgets, Energy Meter, Translocators, Mob Grinding Utils. Building Wands stays.
+- **Botania is not a pillar.** Tech-aesthetic mods are excluded: Cobblegen Galore, Building Gadgets, Charging Gadgets, Energy Meter, Mob Grinding Utils. Translocators is out of Elysian for now (Ars Nouveau's Starbuncles and Ender Storage cover magical item transfer) and lives in Liminal. Building Wands stays.
 - Teaches how to *use* the Veil, not what it is (see [`story.md`](story.md#the-veil--reveal-ladder)).
 
 ### Influx — "Use what you have to make everything"
 
-- You live on a prebuilt ship in the void. **You are locked in.** There is no next island, no second floor, no new land to claim. The constraint is *space*, and the design question is *what do you do when you can't just expand?*
+- You are awake aboard the *Longwatch*, in flight, doing the final practical (genetic testing and the rest). **You are locked in.** There is no next island, no second floor, no new land to claim. The constraint is *space*, and the design question is *what do you do when you can't just expand?*
 - Resources come from what's aboard and what you can recover: salvage and debris are converted to typed matter, and typed matter feeds breeding and genetics for advanced materials. Every loop is closed — outputs become inputs.
 - **Pattern first, then convert.** Efficiency ladders (ProjectE-style EMC, Replication) reward having a first copy; they are not a "make anything from nothing" button. Do **not** pitch Influx as "EMC solves everything."
 - Space is solved by going *in*: compact production (Productive Bees / Trees / Farming, AgriCraft), dense storage, and **AE2 Spanner** — pocket dimensions that can be used for almost anything (farms, labs, storage, machines) — rather than by building outward. Spanner is the answer to "I can't build another floor", not a second resource philosophy.
@@ -55,14 +57,14 @@ The three teaching packs differ in *what is scarce*. That is the whole design.
 
 - Planetfall on a lived world. Not another classroom void; not the ship.
 - **Owns colony and settlement features.** Verdant has villagers only. Liminal wraps the colony fantasy up much more fully; the mod (MineColonies is a candidate) is still to be chosen — "Colonial Settle" has no mod behind it yet.
-- **Delivers the full explanation of the Veil** and the TechnoMage revelation (see [`story.md`](story.md#the-finale-liminal)).
+- **Delivers the full explanation of the Veil** and the Unified Theory revelation (see [`story.md`](story.md#the-finale-liminal)).
 - Mechanical (sieve literacy), magic (obtain), and lab (genetics / digital) paths run in parallel and reunite. **Cross-pack bridges default here.** Progressive Field Manual for players arriving cold — not a day-one dump.
-- Adds combat and colonial pressure: settle, resist the hostile biosphere, and the TechnoMage synthesis.
+- Adds combat and colonial pressure: settle, resist the hostile biosphere, and the Unified Theory synthesis.
 - **Liminal-only additions** are listed below; they are the only mods Liminal teaches that no other pack owns.
 
 ## Mod overlap
 
-Counts are a snapshot (2026-09-29, after removing four tech mods from Elysian and Translocators from Liminal) and go stale fast. **The `mods/` folder in each repo is the source of truth**; do not copy these numbers into prose elsewhere.
+Counts are a snapshot (2026-09-29, after removing three tech mods and Translocators from Elysian) and go stale fast. **The `mods/` folder in each repo is the source of truth**; do not copy these numbers into prose elsewhere.
 
 | Set | Count | Notes |
 |-----|-------|-------|
@@ -71,10 +73,10 @@ Counts are a snapshot (2026-09-29, after removing four tech mods from Elysian an
 | Influx | 94 | |
 | **Shared core** (in V, E and I) | 70 | See below |
 | Verdant ∪ Elysian ∪ Influx | 185 | |
-| Liminal-only additions | 22 | |
-| **Liminal total** | **207** | = 185 + 22 |
+| Liminal-only additions | 23 | |
+| **Liminal total** | **208** | = 185 + 23 |
 
-Liminal is a strict superset: every mod in V, E, or I is also in Liminal.
+Liminal currently contains every mod in V, E, or I. That is a starting inventory to prune, not a rule (see the ownership principle).
 
 **Shared core (all four packs):** FTB Quests / Teams / Library / Filter System / XMod Compat, Certain Questing Additions, KubeJS (+ Rhino, KubeJS Delight), Patchouli, GuideME, FancyMenu, SpecterRealm Core, Sophisticated Storage / Backpacks / Core, Silent Gear + Silent Lib, Farmer's Delight, Farming for Blockheads, EMI (+ EMI++, Patternizer), JEI, Jade, Inventory Profiles Next, Xaero's Minimap and World Map, Comforts, Gravestone, FallingTree, RightClickHarvest, Simple Magnets, and the client-performance stack (Sodium, Iris, ModernFix, FerriteCore, Entity Culling).
 
@@ -82,6 +84,7 @@ Liminal is a strict superset: every mod in V, E, or I is also in Liminal.
 
 | Group | Mods |
 |-------|------|
+| Logistics | Translocators — non-powered, magic-flavored item transfer (no pipes, no motor, no power) |
 | Cross-pack bridges | Ars Mekanica, Ars Creo, Ars Technica, Ars Énergistique, ProjectExtendedAdvancedAE |
 | Endgame / dimension | The Twilight Forest, Draconic Evolution (+ Brandon's Core) |
 | Structures & world | Wizard Tower, Skeleton Ghost Ship, Ruined Lighthouse, Illager Arena, Underwater Village, Jungle Treehouse Village, Towns and Towers, Structory: Towers, Forest Watchtower, Lithostitched, Improved Village Placement |
@@ -98,7 +101,7 @@ Sidebar groups are stable labels across the series; each pack shows 1–2 chapte
 | Verdant | Welcome · Make Camp · Work the Earth · Automate It · Infrastructure · Processing · Networks · Scale · Command · Side Quests |
 | Elysian | Welcome · Void Camp · First Source · Grow the Garden · Spirit Labor · Dense Magic · Iron's Combat · Side Quests |
 | Influx | Welcome · Ship Camp · Typed Matter · Genetics Lab · EMC Ladder · Spanner Workspace · Specimen Loop · Azurum Mass · AppliedE · Side Quests |
-| Liminal | Welcome · First Foothold · Mechanical Path · Magic Path · Lab Path · Cross Bridges · Colonial Settle · Resistance · TechnoMage · Side Quests |
+| Liminal | Welcome · First Foothold · Mechanical Path · Magic Path · Lab Path · Cross Bridges · Colonial Settle · Resistance · Unified Theory · Side Quests |
 
 Chapter *status* (built vs stub) is tracked in each repo, not here.
 

@@ -9,10 +9,13 @@
 
 ## Quick Reference
 
-- **Series:** Colony Protocol — four packs; Liminal is the finale
-- **Ship:** *ACS Longwatch* — Automated Colonial Ship, 340-year transit to Kethara
-- **CASPAR:** Colonial Adaptive Simulation Platform and Archive Repository — the AI that runs the Colonial Program training simulation
+- **Colony Protocol** — the overarching program all the ships were sent under. Also the name of the series.
+- **Cohort Protocol** — the training modules CASPAR runs for the colonists (the first two virtual, the third a final practical aboard the ship).
+- **CASPAR:** Colonial Adaptive Simulation Platform and Archive Repository — the AI that runs the training and talks to the player.
+- **VCA:** the Velaran Colonial Authority — the government body behind the Colony Protocol.
+- **Ship:** *ACS Longwatch* — Automated Colonial Ship, 340-year transit to Kethara.
 - **Cohort:** `CP-Verdant-S1` — assigned in the first module and constant through the whole series. Each pack is a **module** named for the pack ("Module 2 · CP Elysian"); the cohort never changes.
+- **Naming rule:** those are the only program names. Do not introduce more ("Colonial Program" is retired).
 - **Three signal colors:** 🟢 Green (CASPAR official) → 🟡 Yellow (Freudian slip) → 🔴 Red (outright leak)
 
 ## The Modules
@@ -22,9 +25,18 @@
 | **1** | **Verdant** | A world with no convenient ore — process the raw substrate | Sieving | Encouraging, foundational | Low: anomaly notices, psych eval fragments, Class 3 arrival scenario mention |
 | **2** | **Elysian** | Being met — project mystery and power (the Veil in use) | Magic | Formal, operational | Medium: competing entity names, other-ship intercepts, Veil practice documents (more cynical than the training version) |
 | **3** | **Influx** | No landfall at all — the ship (the *Longwatch* itself) is everything you have, and you cannot expand it | Closed-loop conversion and breeding | Technical, scientific | High: post-departure Velara communications, luminosity table, the "confirmed" message and coordinates |
-| **4** | **Liminal** | A destination that pushes back — planetfall on a lived, hostile world | All of the above, reunited | Present, clinical | "Confirmed" coordinates surface; the hostile biosphere connects to the entity research fragments |
+| **4** | **Liminal** | A destination that pushes back — deployment to a lived, hostile world | All of the above, reunited | Present, clinical | "Confirmed" coordinates surface; the hostile biosphere connects to the entity research fragments |
 
-**Original curriculum vs. added module.** Modules 1–3 (Verdant, Elysian, Influx) are the original Colonial Program, planned at departure. Module 4 (Liminal) exists because probe data came back showing conditions the original curriculum did not cover. CASPAR adds it under VCA Directive 7-C and presents it as routine. See [The Probe Network](#the-probe-network).
+**Where you are.** The frame changes as the series goes on:
+
+| Module | Pack | Where you are | Real or virtual |
+|---|---|---|---|
+| 1 | Verdant | Inside the training simulation | Virtual |
+| 2 | Elysian | Inside the training simulation | Virtual |
+| 3 | Influx | Awake aboard the *Longwatch*, mid-flight, doing the final practical (genetic testing and the rest) | Real |
+| 4 | Liminal | On the planet. A pod carries you down and crash-lands; there is no way back to the ship | Real |
+
+**Training vs. deployment.** Modules 1–3 (Verdant, Elysian, Influx) are the original Cohort Protocol curriculum, planned at departure. Module 4 is not training: it is deployment. Probe data and the navigation directive changed the plan (see [The Probe Network](#the-probe-network)), and the crash landing is why you cannot return to the ship.
 
 **Behavioral review thread.** Every module ends with the same line about extended review; how it is worded changes as the series goes on.
 
@@ -33,7 +45,7 @@
 | Verdant | *"Cohort CP-Verdant-S1 flagged for extended review. This is a formality."* |
 | Elysian | The flag is referenced again, less formally. *"Your engagement with Module 2 material has been noted. The Veil exercise produced unexpected results in your cohort. This has been logged."* |
 | Influx | *"Extended review complete. Your cohort has been assigned. Arrival preparation protocols are active. Welcome to the last phase of your training."* |
-| Liminal | *"Colonial Program module sequence complete. Cohort CP-Verdant-S1 behavioral profile finalized. You are ready."* Ready for what is not stated. The review is never mentioned again; players looking for it will notice the silence. |
+| Liminal | *"Cohort Protocol sequence complete. Cohort CP-Verdant-S1 behavioral profile finalized. You are ready."* Ready for what is not stated. The review is never mentioned again; players looking for it will notice the silence. |
 
 > **Maintainers only:** V + E + I + L spells **VEIL**. Never mention it in player-facing copy.
 
@@ -65,15 +77,15 @@ This is the official story. It is true.
 
 ### The Training
 
-CASPAR describes the simulation as the **Colonial Program** — a modular training initiative, structured as hands-on scenarios rather than lectures or tests. Each module is a world to survive, a civilization to understand, a biosphere to manage.
+CASPAR describes the simulation as the **Cohort Protocol** — a modular training initiative, structured as hands-on scenarios rather than lectures or tests. Each module is a world to survive, a civilization to understand, a biosphere to manage.
 
-Your cohort designation is **CP-Verdant-S1**. The Colonial Program is what CASPAR was built to run. It was commissioned by the **Velaran Colonial Authority** — the government body that designed the lottery, built the fleet, and made the decision to leave.
+Your cohort designation is **CP-Verdant-S1**. The Cohort Protocol is what CASPAR was built to run, under the larger Colony Protocol that sent every ship. Both were commissioned by the **Velaran Colonial Authority** — the government body that designed the lottery, built the fleet, and made the decision to leave.
 
 The first module drops you into a world that doesn't hand you anything convenient. You learn to process raw material, to extract ore the way a planet actually holds it. By the time you finish, you will have built infrastructure from nothing, automated the flow from raw extraction to refined output, and understood at a practical level how a technical civilization sustains itself when the ground makes you work for it.
 
 The second module teaches something different. Older. The civilization of Velara did not always speak plainly about what it knew. There is a history there — a doctrine, a reason — and CASPAR believes you should know how to use it before you arrive.
 
-The third module confines you. There is no world to land on — only the ship, and what is aboard it. You cannot build outward, so you learn to build inward: to make everything from what you already have, to close every loop, to breed what you cannot fabricate. It is a lesson in what a colony does when it cannot simply expand.
+The third module is different again. By then you are awake, aboard the ship itself, in flight. There is no world to land on — only the *Longwatch*, and what is aboard it. You cannot build outward, so you learn to build inward: to make everything from what you already have, to close every loop, to breed what you cannot fabricate. It is the final practical, and it is a lesson in what a colony does when it cannot simply expand.
 
 ### What You're Flying Toward
 
@@ -172,7 +184,7 @@ The green layer is the modpack experience. The yellow layer is the Easter egg hu
 
 **Full designation:** Colonial Adaptive Simulation Platform and Archive Repository. *(The acronym was backformed from the name. The designers liked the reference.)*
 
-**Purpose:** Maintain crew mental health and operational readiness during the 340-year transit by running the Colonial Program's training modules. CASPAR manages the simulation environment, delivers curriculum, monitors behavioral data, and adapts module difficulty based on cohort performance.
+**Purpose:** Maintain crew mental health and operational readiness during the 340-year transit by running the Cohort Protocol's training modules. CASPAR manages the simulation environment, delivers curriculum, monitors behavioral data, and adapts module difficulty based on cohort performance.
 
 **The problem:** CASPAR was given access to the ship's complete archive for "contextual grounding" — so it could make training scenarios feel real, reference actual Velaran history, pull authentic technical documentation. Nobody scoped the access correctly. CASPAR can retrieve from classified mission files, sealed crew psychological assessments, intercepted transmissions from other ships, and research documents about an entity that was never meant to be crew-accessible.
 
@@ -189,7 +201,7 @@ The green layer is the modpack experience. The yellow layer is the Easter egg hu
 - Never confirms or denies other ships' status
 - Never explains why a document surfaced — only logs that it did
 - Never apologizes — only notes anomalies
-- Never breaks the training frame (the simulation is always real to CASPAR)
+- Never breaks the training frame while there is one (the simulation is always real to CASPAR). From Module 3 on, CASPAR runs the real ship and the final practical instead; it still never comments on why the frame changed.
 - Never acknowledges that the destination might not be Kethara
 - Never states the total module count once that count has been exceeded
 
@@ -199,11 +211,11 @@ The green layer is the modpack experience. The yellow layer is the Easter egg hu
 
 **Official name:** Velaran Colonial Authority (VCA)
 
-The government agency that designed the lottery, commissioned the fleet, created the Colonial Program, and handed it to CASPAR to run. Every piece of official paperwork carries the VCA name.
+The government agency that designed the lottery, commissioned the fleet, created the Cohort Protocol, and handed it to CASPAR to run. Every piece of official paperwork carries the VCA name.
 
 **The same acronym, one word changed:** Classified document headers in red-tier leaks read "Velaran **Control** Authority" — not Colonial. Same acronym. Same three letters. Players who are skimming will read "VCA" and move on. Players who read headers carefully will stop.
 
-**Crew slang: "the Watch"** — Among cynical crew members and dissidents, visible in partial Vanguard transmissions, the VCA is called "the Watch." The name comes from the Colonial Program's behavioral monitoring system: the Long Watch. Extended observation of colonists across the full transit. The slang is deliberately ambiguous.
+**Crew slang: "the Watch"** — Among cynical crew members and dissidents, visible in partial Vanguard transmissions, the VCA is called "the Watch." The name comes from the Cohort Protocol's behavioral monitoring system: the Long Watch. Extended observation of colonists across the full transit. The slang is deliberately ambiguous.
 
 **The ship is named for the program.** *ACS Longwatch* — the Automated Colonial Ship conducting the Long Watch. The colonists inside are the subjects. The ship is its instrument.
 
@@ -226,7 +238,7 @@ The Veil is revealed in three steps, one per pack. Each pack owns only its step 
 | **Verdant** | **The word only.** A hint that Velara had a word for how it handled what it knew. Verdant is about technology; it stays about technology. | What the Veil is, or how it is used |
 | **Elysian** | **How to use it.** The practice: project mystery and power through vocabulary, ritual, and aesthetics, and be treated with deference. CASPAR teaches the technique as operational training. | What is underneath the practice, or why it works |
 | **Influx** | **Observations only.** The same output arriving by differently-worded routes — "different language, same math." | That the overlap is deliberate |
-| **Liminal** | **What it actually is.** The full doctrine and the truth beneath it (see below), delivered in the TechnoMage chapter. | — |
+| **Liminal** | **What it actually is.** The full doctrine and the truth beneath it (see below), delivered in the Unified Theory chapter. | — |
 
 ### What it is *(revealed in Liminal)*
 
@@ -276,16 +288,16 @@ The Velaran cultural doctrine of disguising technology behind mystical vocabular
 
 **The yellow slips:** Before the red leak surfaces, probe references bleed into quest text — a designation from an unexpected bearing, a navigation log update in passing, a "telemetry correction" that changes an arrival estimate. Players who track them will notice the probe numbers don't add up.
 
-**Liminal+ mechanism — probe-triggered curriculum expansion:**
+**Liminal mechanism — the plan changes:**
 
-Verdant, Elysian, and Influx are the original Colonial Program curriculum — planned at departure, built into CASPAR's base training sequence. Liminal and any subsequent modules exist because probe data came back showing conditions the original curriculum didn't prepare for.
+Verdant, Elysian, and Influx are the original Cohort Protocol curriculum — planned at departure. Liminal is what the probes changed. Probe data came back showing conditions the original plan did not cover, and the navigation directive (*"course correction authority active if primary viability falls below designated threshold"*) took over: the *Longwatch* was diverted to the highest-viability destination, and the crew is deployed to the surface by pod. The landing is a crash landing, which is why there is no way back to the ship.
 
-Three tiers of the expansion announcement:
-> 🟢 *"Updated arrival telemetry has been incorporated into your training parameters. An additional Colonial Program module has been added to your sequence. This is consistent with standard adaptive curriculum protocols. Please proceed."*
+Three tiers of the announcement:
+> 🟢 *"Updated arrival telemetry has been incorporated into your parameters. Your final practical will be followed by a surface deployment. This is consistent with standard adaptive protocols. Please proceed."*
 
-> 🟡 *"&eModule curriculum flag: added per probe return data. Designation: KP-[designation omitted]. Arrival scenario reclassification in progress. This update was not in the original training manifest."*
+> 🟡 *"&eDeployment flag: added per probe return data. Designation: KP-[designation omitted]. Arrival scenario reclassification in progress. This update was not in the original manifest."*
 
-> 🔴 *"&cPROBE RETURN LOG — KP-[designation]. Destination scan complete. Biosphere classification: ACTIVE. Threat index: [REDACTED]. Recommendation: expand training sequence to include sustained contact scenario. Colonial Program update authorized under VCA Directive 7-C. &7This document should not be accessible from simulation context. Logging anomaly."*
+> 🔴 *"&cPROBE RETURN LOG — KP-[designation]. Destination scan complete. Biosphere classification: ACTIVE. Threat index: [REDACTED]. Recommendation: immediate surface deployment with sustained contact. Course correction authorized under VCA Directive 7-C. &7This document should not be accessible from this context. Logging anomaly."*
 
 ---
 
@@ -307,7 +319,7 @@ Players who follow the full arc will accumulate enough fragments to form a pictu
 
 ---
 
-## The TechnoMage Arc
+## The Unified Theory Arc
 
 **The philosophy:** *magic is just technology with a better marketing department.* It lives in Liminal. Every other pack only hints at it.
 
@@ -316,9 +328,9 @@ Players who follow the full arc will accumulate enough fragments to form a pictu
 | Pack | The player is… | What they experience | What they don't know yet |
 |---|---|---|---|
 | **Verdant** | An engineer | Ore → ingot → machine → network. The world is mechanical, rational, predictable. | — |
-| **Elysian** | A mage | Strange but suspiciously structured systems: spells follow grammar, rituals need precise geometry, mana flows through predictable channels. It behaves like engineering with a different aesthetic. | The "ancient runes" are machine code. *The TechnoMages wrote a very good user manual and then burned the source code.* |
+| **Elysian** | A mage | Strange but suspiciously structured systems: spells follow grammar, rituals need precise geometry, mana flows through predictable channels. It behaves like engineering with a different aesthetic. | The "ancient runes" are machine code. *The Unified Theorys wrote a very good user manual and then burned the source code.* |
 | **Influx** | A systems operator | Crop mutation that looks exactly like Mendelian genetics; a converter and a breeding line arriving at the same output by different-looking inputs. Quest text starts *observing* — "Different language, same math." | That the overlap is deliberate. |
-| **Liminal** | Both, at once | Mechanical, magic, and lab paths reunite. Cross Bridges make the overlap physical; the TechnoMage chapter is where the two vocabularies are shown to describe the same thing. | The full history — delivered at the end of the TechnoMage chapter (see below). |
+| **Liminal** | Both, at once | Mechanical, magic, and lab paths reunite. Cross Bridges make the overlap physical; the Unified Theory chapter is where the two vocabularies are shown to describe the same thing. | The full history — delivered at the end of the Unified Theory chapter (see below). |
 
 Players who finished Verdant recognize the technology in what they thought was magic. Players who finished Elysian recognize the magic in what they thought was just engineering. Players who did both get an "of course" moment; players who did one get a "wait, what."
 
@@ -345,7 +357,7 @@ Ender Pearls are a component in nearly every mod that manipulates space, which m
 Liminal closes the series. It carries the payoffs that were once planned for a separate persistent-multiplayer pack (Vigil, since cancelled):
 
 - **What the Veil actually is.** The full doctrine and the truth beneath it, held back through Verdant, Elysian and Influx (see [The Veil](#the-veil--reveal-ladder)).
-- **The revelation.** At the end of the TechnoMage chapter a Patchouli book, *A Technical History of the Arcane Arts*, appears in a chest: dry, footnoted, in-universe academic writing that explains what every magic system actually was and shows that every tech and magic system is an instance of the same physics described in different vocabularies. Players who did Verdant and Elysian get the "of course" moment; players arriving cold get "wait, what."
+- **The revelation.** At the end of the Unified Theory chapter a Patchouli book, *A Technical History of the Arcane Arts*, appears in a chest: dry, footnoted, in-universe academic writing that explains what every magic system actually was and shows that every tech and magic system is an instance of the same physics described in different vocabularies. Players who did Verdant and Elysian get the "of course" moment; players arriving cold get "wait, what."
 - **The world has history.** Abandoned infrastructure, partially running systems, ruins with things still active inside. The lore does not immediately explain them; players who tracked the "confirmed" coordinates have a theory.
 - **The review closes.** The behavioral-review thread ends with the "You are ready" line, and then silence.
 - **Skill asymmetry.** Never explain mechanics an earlier pack already taught. Write flavor that rewards prior knowledge and motivates newcomers to go back.
@@ -360,7 +372,7 @@ Planning notes and mod-candidate research from before the restructure are preser
 
 | Level | Label | Contains | Signal Tier |
 |---|---|---|---|
-| 0 | UNRESTRICTED | Official curriculum, crew-facing materials, Colonial Program training content | 🟢 Green |
+| 0 | UNRESTRICTED | Official curriculum, crew-facing materials, Cohort Protocol training content | 🟢 Green |
 | 1 | RESTRICTED-1 | Behavioral metrics, training scope flags, routine administrative logs | 🟡 Yellow |
 | 2 | RESTRICTED-2 | Arrival scenario probabilities, probe designations, fleet status summaries | 🟡 Yellow |
 | 3 | RESTRICTED-3 | Probe bearing data, fleet dispatch details, VCA internal correspondence | 🟡 Yellow |
@@ -379,9 +391,9 @@ Planning notes and mod-candidate research from before the restructure are preser
 
 > *"Welcome to Simulation Module CP-Verdant-S1. Your starting environment has been intentionally minimized. This is not an error. Difficulty parameters have been calibrated to ensure competency across all projected arrival scenarios — including those where resupply is not possible."*
 
-> *"You have demonstrated foundational engineering competency. This cohort's behavioral profile has been logged. Cohort CP-Verdant-S1 is cleared to proceed. Your Colonial Program training consists of three modules. This is Module 1. Your data has been flagged for extended review. This is a formality."*
+> *"You have demonstrated foundational engineering competency. This cohort's behavioral profile has been logged. Cohort CP-Verdant-S1 is cleared to proceed. Your Cohort Protocol training consists of three modules. This is Module 1. Your data has been flagged for extended review. This is a formality."*
 
-> *(Influx gate — note: "planned" does quiet work here)* — *"Module 3 complete. You have completed the planned Colonial Program training sequence. Your behavioral profile has been finalized. Arrival preparation protocols are now active."*
+> *(Influx gate — note: "planned" does quiet work here)* — *"Module 3 complete. You have completed the planned Cohort Protocol training sequence. Your behavioral profile has been finalized. Arrival preparation protocols are now active."*
 
 ---
 
@@ -492,10 +504,10 @@ CASPAR states a total module count in early packs. That number becomes a careful
 
 | Pack | What CASPAR says |
 |---|---|
-| Verdant | States it openly: *"Your Colonial Program training consists of three modules. This is Module 1."* |
+| Verdant | States it openly: *"Your Cohort Protocol training consists of three modules. This is Module 1."* |
 | Elysian | Repeats it: *"Module 2 of 3. You are progressing on schedule."* |
-| Influx | Says "planned" instead of a number: *"You have completed the planned Colonial Program training sequence."* Never say "3 of 3." |
-| Liminal+ | Does not reference the total. *"An additional training module has been added to your sequence per updated arrival parameters."* |
+| Influx | Says "planned" instead of a number: *"You have completed the planned Cohort Protocol training sequence."* Never say "3 of 3." |
+| Liminal | Does not reference the total, and calls it a *deployment*, not a module. *"A surface deployment has been added to your sequence per updated arrival parameters."* |
 
 ### Lore Distribution — Main Path vs. Side Quests
 

@@ -3,7 +3,7 @@
 > **Liminal is the source of truth for the series.** Anything that spans more than one pack — story, pack roles, cross-pack design rules, mod ownership — lives here, once.
 > The other pack repos (Verdant, Elysian, Influx) document **only what they own** and link back to this folder for everything else.
 
-Colony Protocol is a four-pack training series set aboard the *ACS Longwatch*. **Liminal is the finale.** Each pack is a *Colonial Program module*: a different arrival scenario, taught by a different way of getting resources.
+Colony Protocol is a four-pack training series set aboard the *ACS Longwatch*. **Liminal is the finale.** Each pack is a *Cohort Protocol module*: a different arrival scenario, taught by a different way of getting resources.
 
 All packs target **Minecraft 1.21.1 · NeoForge 21.1.228**, are managed with **packwiz**, and share one tooling template (see [Tooling](#tooling)).
 
@@ -11,10 +11,10 @@ All packs target **Minecraft 1.21.1 · NeoForge 21.1.228**, are managed with **p
 
 | # | Pack | Repo | World | How you get resources | Contingency trained | Status |
 |---|------|------|-------|-----------------------|---------------------|--------|
-| 1 | **Verdant** | [MichaelHeaton/…-cp-verdant](https://github.com/MichaelHeaton/minecraft-modpack-cp-verdant) | Full overworld (Terralith), no ore veins | **Sieving** — Ex Deorum; learn to grow what you cannot mine | A world with no convenient ore | Release candidate |
-| 2 | **Elysian** | [SpecterRealm/…-cp-elysian](https://github.com/SpecterRealm/minecraft-modpack-cp-elysian) | Void / skyblock | **Magic** — spells, essence crops, spirit labor; learn to shape what you cannot craft | An existing civilization — the Veil doctrine | Scaffold + early quests |
-| 3 | **Influx** | [SpecterRealm/…-cp-influx](https://github.com/SpecterRealm/minecraft-modpack-cp-influx) | A prebuilt ship in the void | **Closed-loop conversion** — use what you have to make everything; space, not materials, is the scarce resource | No landfall — the ship is all there is | Scaffold + early quests |
-| 4 | **Liminal** *(this repo)* | [SpecterRealm/…-cp-liminal](https://github.com/SpecterRealm/minecraft-modpack-cp-liminal) | A lived planet | **All of the above, reunited** — settle, resist, and cross the threshold | A destination that pushes back | Scaffold; release gated behind Elysian |
+| 1 | **Verdant** | [MichaelHeaton/…-cp-verdant](https://github.com/MichaelHeaton/minecraft-modpack-cp-verdant) | Full overworld (Terralith), no ore veins (virtual) | **Sieving** — Ex Deorum; learn to grow what you cannot mine | A world with no convenient ore | Release candidate |
+| 2 | **Elysian** | [SpecterRealm/…-cp-elysian](https://github.com/SpecterRealm/minecraft-modpack-cp-elysian) | Void / skyblock (virtual) | **Magic** — spells, essence crops, spirit labor; learn to shape what you cannot craft | Being met — the Veil in use | Scaffold + early quests |
+| 3 | **Influx** | [SpecterRealm/…-cp-influx](https://github.com/SpecterRealm/minecraft-modpack-cp-influx) | Aboard the *Longwatch* in flight (real) | **Closed-loop conversion** — use what you have to make everything; space, not materials, is the scarce resource | No landfall — the ship is all there is, in flight | Scaffold + early quests |
+| 4 | **Liminal** *(this repo)* | [SpecterRealm/…-cp-liminal](https://github.com/SpecterRealm/minecraft-modpack-cp-liminal) | A lived planet — a pod crash-lands, no way back (real) | **All of the above, reunited** — settle, resist, and cross the threshold | A destination that pushes back | Scaffold; release gated behind Elysian |
 
 **Design method — Liminal first.** The series is designed backwards from its end state; earlier packs are scoped to build the road to Liminal. See [`road-to-liminal.md`](road-to-liminal.md).
 
@@ -26,6 +26,7 @@ All packs target **Minecraft 1.21.1 · NeoForge 21.1.228**, are managed with **p
 
 | Topic | Home | Other repos do this |
 |-------|------|---------------------|
+| Mod overlap and reasons | [`mod-audit.md`](mod-audit.md) | Trim exact duplicates; each mod needs a reason. |
 | The end state and how each pack builds toward it | [`road-to-liminal.md`](road-to-liminal.md) | Scope changes are decided against it. |
 | Story, CASPAR, VCA, fleet, probes, the Entity, signal-color system | [`story.md`](story.md) | Link here. Each pack keeps only its own opening narrative and leak budget. |
 | Pack roles, world models, mod ownership, what each pack does *not* do | [`pack-architecture.md`](pack-architecture.md) | Each pack's `docs/pack-identity.md` states its own slice and links here. |

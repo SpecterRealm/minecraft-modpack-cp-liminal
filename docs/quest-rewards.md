@@ -1,6 +1,6 @@
 # Colony Protocol: Liminal — Quest reward tables (scaffold)
 
-**Spine:** Planetfall foothold → parallel V/E/I reunite → colonial / resistance / TechnoMage (stubs)
+**Spine:** Planetfall foothold → parallel V/E/I reunite → colonial / resistance / Unified Theory (stubs)
 
 **Locks applied:** teach + QoL rewards · never sole progression path · Field Manual topic advancements · flexible progression · learning ladder.
 
@@ -12,7 +12,7 @@
 | Lab Path | Convert & Breed Reminder | bread | `specterrealm:field_manual/liminal/lab_reunite` | Parallel Mid stub |
 | Colonial Settle | Settle Fantasy (stub) | xp | `specterrealm:field_manual/liminal/colonial` | Late stub |
 | Resistance | Pushback (stub) | xp | `specterrealm:field_manual/liminal/resistance` | Late stub |
-| TechnoMage | Veil Comprehension (stub) | xp | `specterrealm:field_manual/liminal/technomage` | Late stub |
+| Unified Theory | Veil Comprehension (stub) | xp | `specterrealm:field_manual/liminal/unified_theory` | Late stub |
 | Side Quests | Optional Paths (stub) | xp | `specterrealm:field_manual/liminal/side_niches` | Late stub |
 
 ## Placeholder Manual topic IDs
@@ -27,7 +27,7 @@
 - `specterrealm:field_manual/liminal/bridges`
 - `specterrealm:field_manual/liminal/colonial`
 - `specterrealm:field_manual/liminal/resistance`
-- `specterrealm:field_manual/liminal/technomage`
+- `specterrealm:field_manual/liminal/unified_theory`
 - `specterrealm:field_manual/liminal/side_niches`
 
 Advancement JSON + Patchouli entries land in `specterrealm-core` later (see series `field-manual-architecture.md`). Scaffold grants IDs now so quest wiring is ready.

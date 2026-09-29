@@ -9,16 +9,16 @@
 ## What Liminal owns
 
 - **World:** a lived planet — not a classroom void, not the ship.
-- **Loop:** the three literacies (mechanical, magic, lab) running in parallel and reuniting; then settle, resist, TechnoMage.
+- **Loop:** the three literacies (mechanical, magic, lab) running in parallel and reuniting; then settle, resist, Unified Theory.
 - **Mods:** the full union of Verdant, Elysian, and Influx, plus the Liminal-only additions (cross-pack bridges, Twilight Forest, Draconic Evolution, structures). The lists and counts are in [`series/pack-architecture.md`](series/pack-architecture.md#mod-overlap); the `mods/` folder is authoritative.
 - **Colony and settlement features** — Verdant only has villagers; Liminal wraps the colony fantasy up fully. The mod (MineColonies is a candidate) is still to be chosen.
-- **The full explanation of the Veil** and the TechnoMage revelation — see [`story.md`](story.md).
+- **The full explanation of the Veil** and the Unified Theory revelation — see [`story.md`](story.md).
 - **Cross-pack bridges** (Ars ↔ Mekanism and friends) — they default here and nowhere else.
-- **Quest chapters:** Welcome, First Foothold, Mechanical / Magic / Lab Path, Cross Bridges, Colonial Settle, Resistance, TechnoMage, Side Quests.
+- **Quest chapters:** Welcome, First Foothold, Mechanical / Magic / Lab Path, Cross Bridges, Colonial Settle, Resistance, Unified Theory, Side Quests.
 
 ## Not yet done
 
-- Late chapters (Colonial Settle, Resistance, TechnoMage) are stubs; path chapters are partly built.
+- Late chapters (Colonial Settle, Resistance, Unified Theory) are stubs; path chapters are partly built.
 - Recovery Bay / gem bootstrap KubeJS — design first, then implement.
 - Full FancyMenu Bridge chrome (buttons / CALIBRATE) — title, drippy, level-loading, and pause backgrounds ship under `config/fancymenu/`.
 - Prism smoke test of the full union.
