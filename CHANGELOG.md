@@ -4,7 +4,7 @@
 
 ### Mod stack
 
-- **Removed:** Productive Farming (duplicate of AgriCraft; also removed from Influx).
+- **Restored:** Productive Farming (removed in error as a "duplicate" of AgriCraft; also restored in Influx). Keeping both crop mods is tracked in Influx #31.
 
 ### Docs
 

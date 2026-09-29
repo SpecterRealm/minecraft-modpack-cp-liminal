@@ -11,7 +11,7 @@ Pack letters: **V** Verdant · **E** Elysian · **I** Influx · **L** Liminal.
 | Cluster | Mods (where) | Overlap | Question |
 |---|---|---|---|
 | **Mining / getting ore** | Ex Deorum sieve (V, L) · Mekanism Digital Miner (V, L) · Azurum Miner (I, L) | Three ways to get ore: sieve it, dig it with a machine, or work asteroid/debris with a single-block miner | Influx has no Mekanism. Is Azurum Miner the right single-block answer for asteroid/debris mining, or would Digital Miner do the same job in Influx? In Liminal, do both earn a place? |
-| **Plants and crops** | AgriCraft (I, L) · Botany Pots + Tiers + Trees (E, I, L) · Mystical Agriculture (E, L) · Productive Trees (I, L) | AgriCraft is the crop-genetics pillar; Botany Trees (where/how trees are planted) and Productive Trees (what trees produce) complement each other | Verify Productive Trees species can be grown via Botany Trees. |
+| **Plants and crops** | AgriCraft (I, L) · Productive Farming (I, L) · Botany Pots + Tiers + Trees (E, I, L) · Mystical Agriculture (E, L) · Productive Trees (I, L) | AgriCraft is a hands-on genetics system; Productive Farming is crop content plus flower/bee breeding; both do trait breeding. Botany Trees (where/how trees are planted) and Productive Trees (what trees produce) complement each other | Keep both, or pick a pillar? How do they work with Botany Pots, Productive Bees, Mystical Agriculture and the core farming mods? See [#31](https://github.com/SpecterRealm/minecraft-modpack-cp-influx/issues/31). |
 | **Passive production** | Productive Bees (I, L) | Bees give a compact non-crop route to resources | Keep as Influx's compact, passive answer? |
 | **Item transfer** | Translocators (E, L) · Ars Nouveau Starbuncles (E, L) · Ender Storage (E, L) · AE2 (V, I, L) · Create belts (V, L) · Mekanism transporters (V, L) | Translocators is the non-powered, magic-flavored option: no pipes, no motor, no power | Translocators is fixed/chest-to-chest and needs no power; Starbuncles are mobile familiars. Do Starbuncles offer the same filtering and routing? (Unverified — check before relying on them.) Where in Elysian's and Liminal's chapters does Translocators come in? |
 | **EMC / matter conversion** | ProjectE + Useful ProjectE + ProjectE Integration + AutoEMC + AppliedE + Replication (I) | Six mods, one destination: EMC as the way things get made (a Star Trek-style replicator) | Kept as a stack. Still to decide: what each piece does on the ladder, and Useful ProjectE's role (not yet reviewed). |
@@ -23,7 +23,7 @@ Pack letters: **V** Verdant · **E** Elysian · **I** Influx · **L** Liminal.
 
 ## Decided so far
 
-- **Crops:** AgriCraft is Influx's crop-genetics pillar; **Productive Farming removed** from Influx and Liminal (duplicate).
+- **Crops:** *reopened.* Productive Farming was removed as a "duplicate" of AgriCraft, then restored — it is content-heavy (about 160 crops, flower/dye breeding, bee integration), not a duplicate. Keeping both for now; the choice is tracked in Influx [#31](https://github.com/SpecterRealm/minecraft-modpack-cp-influx/issues/31).
 - **Trees:** Botany Trees and Productive Trees both stay (different jobs); verify they work together.
 - **EMC:** it is the destination — AutoEMC and the ProjectE stack stay.
 - Charging Gadgets, Energy Meter, and Mob Grinding Utils out of Elysian (tech aesthetic).
@@ -34,6 +34,7 @@ Pack letters: **V** Verdant · **E** Elysian · **I** Influx · **L** Liminal.
 ## Tickets
 
 - Influx [#28](https://github.com/SpecterRealm/minecraft-modpack-cp-influx/issues/28) — set up a void world option for testing.
+- Influx [#31](https://github.com/SpecterRealm/minecraft-modpack-cp-influx/issues/31) — review whether to keep AgriCraft, Productive Farming, or both.
 - Influx [#29](https://github.com/SpecterRealm/minecraft-modpack-cp-influx/issues/29) — test the Azurum Miner in a void world (settles the mining cluster).
 
 ## Next
