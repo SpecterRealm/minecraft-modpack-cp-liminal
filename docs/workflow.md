@@ -69,4 +69,4 @@ See [curseforge-export.md](curseforge-export.md). Modrinth export may fail if a 
 
 ## Design
 
-Project store: docs/pack-architecture.md §Liminal · pack-progression-arcs.md §L · series-todos.md (port teaching packs; cross-pack bridges default here).
+Series design: [`docs/series/`](series/README.md) (pack architecture, story, mod ownership).
