@@ -57,7 +57,7 @@ The cluster table above covers known overlaps. The full audit walks **every** mo
 
 **Elysian-owned (40).** Ars Nouveau plus eight add-ons (Additions, Caelum, Controle, Elemancy, Elemental, Ocultas, Polymorphia, Zero) and Not Enough Glyphs is a lot of add-ons — does each earn its place? In particular **Ars Elemental vs. Ars Elemancy**. Occultism and Theurgy are both "magical labor" systems with different jobs. The Apotheosis suite is four mods.
 
-**Influx-owned (16).** Already covered by the cluster table, plus: **Useful ProjectE** has not been reviewed; **Productive Metalworks** and **Silent Gear Metalworks** are two metalworking bridges — do both stay?
+**Influx-owned (16).** Already covered by the cluster table, plus: **Useful ProjectE** has not been reviewed; **Productive Metalworks** and **Silent Gear Metalworks** are a foundry plus its Silent Gear bridge (decided: both stay, in all packs).
 
 **Liminal-only (22).** **The Twilight Forest**, **Draconic Evolution**, and **Animal Pens** have no stated story role yet; the five bridges, eleven structure mods, and three libraries follow from the finale design.
 
@@ -92,6 +92,7 @@ Sources: Ars Caelum, Elemental, Elemancy, Ocultas, Polymorphia and Additions lis
 - **Crops:** *reopened.* Productive Farming was removed as a "duplicate" of AgriCraft, then restored — it is content-heavy (about 160 crops, flower/dye breeding, bee integration), not a duplicate. Keeping both for now; the choice is tracked in Influx [#31](https://github.com/SpecterRealm/minecraft-modpack-cp-influx/issues/31).
 - **Trees:** Botany Trees and Productive Trees both stay (different jobs); verify they work together.
 - **EMC:** it is the destination — AutoEMC and the ProjectE stack stay.
+- **Metalworking:** Productive Metalworks and Silent Gear Metalworks change how gear is made, so they go in **all four packs** (Tinkers' Construct-style melt, alloy and cast). The bridge only works with the foundry, so they stay together. Verdant's and Elysian's early game relies on Silent Gear grid crafting, so the rollout needs a test and quest rewrites; tracked in [#42](https://github.com/SpecterRealm/minecraft-modpack-cp-liminal/issues/42).
 - Charging Gadgets, Energy Meter, and Mob Grinding Utils out of Elysian (tech aesthetic).
 - Translocators stays in Elysian and Liminal (non-powered, no-pipe transfer).
 - Azurum Miner stays in Influx as asteroid/debris mining, with the power scale lesson.
