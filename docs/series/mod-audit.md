@@ -104,6 +104,19 @@ Only Verdant has had real customization work; Elysian, Influx, and Liminal have 
 | Simple Magnets | all four | Keep as quality of life: item generation (sieving, crops) makes cleanup easier. The powered magnet needs FE, so hide or disable it in Elysian, which has no power generation. | When the Elysian hide list is built |
 | Comforts | all four | Keep. Sleeping bags let players travel without resetting their spawn point (wanted in Verdant and Liminal); on the ship they suit not having a permanent bed spot. Basic bedding also costs a little less wool. | After playtest: sleeping bags may matter less in Elysian and Influx |
 
+## AE2 add-ons (Verdant-owned, also in Liminal)
+
+Liminal players will use AE2 to tie the other mods together, so integration matters more than trimming. **Decision: keep every AE2 add-on for now.**
+
+| Group | Mods | What they add |
+|---|---|---|
+| Integration bridges | Applied Mekanistics, Applied Create, Not Enough Patterns, Applied KubeJS | Chemicals through AE2; Create stress and Mechanical Crafter patterns; patterns for machines pattern providers can't drive; scriptable AE2 |
+| Content | AdvancedAE, MEGA Cells | Quantum Computer, Reaction Chamber, advanced pattern provider; 1M–256M cells, 4-threaded CPUs, bulk compression cell |
+| Terminals and quality of life | Wireless Terminals, Extended Terminal, Pattern Encoding Access Terminal, ME Requester, Better P2P, Crafting Tree, Tangible Bookmarks, Applied Sorting, ae2helpers | Wireless and all-in-one terminals; merged pattern terminal; stock requests; P2P binding tool; crafting tree view; bookmark pickup and crafting; ID sorting; ae2helpers **unknown, to be tested by the maintainer** |
+| Recipe viewer | AE2 JEI Integration | Restores JEI support AE2 removed (machine recipes, autofill) |
+
+**EMI and JEI are both installed on purpose, in all four packs.** EMI is the primary viewer; JEI stays as the recipe-data backend because many mods only integrate with JEI, and EMI runs JEI plugins through its compatibility layer (Verdant `docs/migration-notes.md`). The tooling built on EMI (EMI++ stack groups, EMI Patternizer, the `c:hidden_from_recipe_viewers` hide tag) would not carry over to a JEI-first setup. Open question: whether AE2 JEI Integration is still needed under EMI, or an EMI-native integration fits better.
+
 ## Decided so far
 
 - **Crops:** *reopened.* Productive Farming was removed as a "duplicate" of AgriCraft, then restored — it is content-heavy (about 160 crops, flower/dye breeding, bee integration), not a duplicate. Keeping both for now; the choice is tracked in Influx [#31](https://github.com/SpecterRealm/minecraft-modpack-cp-influx/issues/31).
