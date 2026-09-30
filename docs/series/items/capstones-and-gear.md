@@ -109,12 +109,12 @@ Not yet scanned. These are discovery leads, not additions.
 
 | Pack | Class sets (RPG Series) | Cosmetic layer |
 |---|---|---|
-| Verdant | none | **yes** (appearance from the first pack) |
+| Verdant | **Archers** (ranged; fits turret-and-defense teaching) | **yes** (appearance from the first pack) |
 | Elysian | **start here**: a first few classes | carries over |
 | Influx | a few more | carries over |
 | Liminal | all of them | carries over |
 
-Class split (maintainer): **Elysian gets the combat classes** (Wizards, Rogues & Warriors); **Influx gets the utility classes** (Paladins & Priests: frontline, healing, shielding). Archers is not placed yet. Liminal gets all.
+Class split (maintainer): **Elysian gets the combat classes** (Wizards, Rogues & Warriors); **Influx gets the utility classes** (Paladins & Priests: frontline, healing, shielding). **Verdant gets Archers** (maintainer). Liminal gets all.
 
 ### Verdant's capstone is the finished quest book
 
@@ -125,6 +125,6 @@ Class split (maintainer): **Elysian gets the combat classes** (Wizards, Rogues &
 ## Open questions
 
 1. Influx: Genetics: Resequenced plus Mutant Monsters chosen. Confirm after scanning that they fit the pack's power and breeding systems.
-2. Archers: combat (Elysian) or utility (Influx)?
+2. Archers in Verdant brings Spell Engine into the first pack. Confirm that is wanted, since Elysian's Wizards need it anyway.
 3. Liminal's new mobs are not decided yet (raised in the last chat). Verdant, Elysian and Influx teach the counters once they are.
 4. Gear: do the roles above cover what you want, or are there jobs to add?
