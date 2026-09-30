@@ -58,6 +58,17 @@ Foreground serve (blocks the terminal): `make serve`.
 - In-game quest edits → pull into `config/ftbquests/` (quest worker / `quest-pull` when wired)
 - Config drift → `make config-pull` / `make config-diff`
 
+## Offline recipe dump
+
+After `CP-Liminal-Dev` has mod JARs installed:
+
+```bash
+make recipe-wiki    # → docs/recipe_data.json + docs/recipe_wiki.html (gitignored)
+make docs           # optional: serve docs/ on :8000
+```
+
+Full how-to (full-pack dump vs per-mod EMI, never reuse Verdant dump data): [recipe-wiki.md](recipe-wiki.md).
+
 ## Export
 
 ```bash

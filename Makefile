@@ -34,7 +34,8 @@ INSTALLER_URL  := https://github.com/packwiz/packwiz-installer/releases/latest/d
 	export-cf export-mr validate-export all \
 	dev dev-launch stop logs configure-dev setup-dev prune-dev-mods prune-instance-orphans \
 	version set-version sync-issue-templates version-check \
-	config-pull config-diff config-promote config-ship-full
+	config-pull config-diff config-promote config-ship-full \
+	docs recipe-wiki
 
 help:
 	@echo "Colony Protocol: Liminal — packwiz targets"
@@ -70,8 +71,11 @@ help:
 	@echo "  make validate-export      verify CF zip (after export-cf)"
 	@echo "  make export-mr            → $(MR_OUT)"
 	@echo "  make all                  version-check + export-cf + export-mr"
+	@echo "  make recipe-wiki          offline recipe dump → docs/recipe_data.json + recipe_wiki.html"
+	@echo "  make docs                 serve docs/ at http://localhost:8000/"
 	@echo ""
 	@echo "  PRISM_INSTANCE=$(PRISM_INSTANCE)  DEV_MAX_MEM=$(DEV_MAX_MEM)"
+	@echo "  RECIPE_WIKI_MODS_DIR=…    override mods JAR folder for recipe-wiki"
 
 setup-dev: configure-dev
 	@[ -d "$(DEV_MC_DIR)" ] || { echo "✗ Instance '$(PRISM_INSTANCE)' minecraft folder not found"; exit 1; }
@@ -139,6 +143,17 @@ logs:
 	@[ -f "$(PRISM_DATA)/instances/$(PRISM_INSTANCE)/minecraft/logs/latest.log" ] \
 		&& tail -f "$(PRISM_DATA)/instances/$(PRISM_INSTANCE)/minecraft/logs/latest.log" \
 		|| echo "⚠️  No log for $(PRISM_INSTANCE)"
+
+# Offline recipe dump from Prism mods JARs + kubejs (see docs/recipe-wiki.md).
+# Needs installed JARs under CP-Liminal-Dev (or RECIPE_WIKI_MODS_DIR).
+recipe-wiki:
+	@echo "→ building recipe wiki from mods JARs + kubejs..."
+	python3 scripts/build_recipe_wiki.py
+	@echo "→ open docs/recipe_wiki.html or run: make docs"
+
+docs:
+	@echo "→ serving docs at http://localhost:8000/ (recipe_wiki.html after make recipe-wiki)"
+	@cd docs && python3 -m http.server 8000
 
 serve:
 	packwiz serve

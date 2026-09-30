@@ -24,6 +24,13 @@ scripts/__pycache__/
 .venv/
 .venv-patchouli/
 
+# Generated offline recipe dump (run make recipe-wiki; do not reuse Verdant dumps)
+docs/recipe_data.json
+docs/recipe_wiki.html
+
+# First-run extract marker from self-extracting bootstrap tip
+scripts/.recipe_wiki_payload_extracted
+
 # Minecraft runtime (if someone opens the repo as instance)
 logs/
 crash-reports/
