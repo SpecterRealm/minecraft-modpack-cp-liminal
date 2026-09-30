@@ -220,9 +220,13 @@
    "check": "ok"
   },
   "ars-mekanica": {
-   "repo": null,
+   "repo": "meigoc/Ars-Mekanica",
    "status": "not-found",
-   "note": "Author meigoc; no public repo found."
+   "note": "Repo supplied by maintainer; branch main, 1.21.1 support to confirm.",
+   "verified": true,
+   "ref": "main",
+   "ref_kind": "branch",
+   "check": "ok"
   },
   "ars-nouveau": {
    "repo": "baileyholl/Ars-Nouveau",
@@ -417,9 +421,13 @@
    "check": "ok"
   },
   "cobblegen-galore": {
-   "repo": null,
+   "repo": "JDKDigital/cobblegengalore",
    "status": "not-found",
-   "note": "Author LobsterJonn; no public repo found."
+   "note": "Repo supplied by maintainer (author JDKDigital, not LobsterJonn).",
+   "verified": true,
+   "ref": "dev-1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
   },
   "codechicken-lib": {
    "repo": "TheCBProject/CodeChickenLib",
@@ -595,9 +603,13 @@
    "check": "ok"
   },
   "extreme-reactors-create-compat": {
-   "repo": null,
+   "repo": "ZeroNoRyouki/ExtremeReactors2-CreateCompat",
    "status": "closed-or-private",
-   "note": "No separate repo found (author ZeroNoRyouki)."
+   "note": "Repo supplied by maintainer; only a 1.20 branch exists, so no 1.21.1 source to scan.",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
   },
   "falling-tree": {
    "repo": "RakSrinaNa/FallingTree",
@@ -1079,9 +1091,13 @@
    "check": "ok"
   },
   "morethermalevaporation": {
-   "repo": null,
+   "repo": "A8T1N/MoreThermalevaporation",
    "status": "not-found",
-   "note": "Author A8T1N; no public repo found."
+   "note": "Repo supplied by maintainer.",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
   },
   "morph-o-tool": {
    "repo": "VazkiiMods/Morph-o-Tool",
@@ -1220,16 +1236,20 @@
    "check": "ok"
   },
   "productive-metalworks": {
-   "repo": null,
+   "repo": "JDKDigital/productivemetalworks",
    "status": "closed-or-private",
-   "note": "Author LobsterJonn; no public repo found. Items must come from the jar or the game."
+   "note": "Repo supplied by maintainer.",
+   "verified": true,
+   "ref": "dev-1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
   },
   "productivebees": {
    "repo": "JDKDigital/productive-bees",
-   "note": "",
+   "note": "Ref supplied by maintainer (1.21 branch).",
    "verified": true,
-   "ref": null,
-   "ref_kind": "none",
+   "ref": "dev-1.21.0",
+   "ref_kind": "branch",
    "check": "ok"
   },
   "productivefarming": {
@@ -1242,10 +1262,10 @@
   },
   "productivetrees": {
    "repo": "JDKDigital/productivetrees",
-   "note": "",
+   "note": "Ref supplied by maintainer (1.21 branch).",
    "verified": true,
-   "ref": null,
-   "ref_kind": "none",
+   "ref": "dev-1.21.0",
+   "ref_kind": "branch",
    "check": "ok"
   },
   "projecte": {
@@ -1334,9 +1354,13 @@
    "check": "ok"
   },
   "silent-gear-metalworks": {
-   "repo": null,
+   "repo": "JDKDigital/sgearmetalworks",
    "status": "closed-or-private",
-   "note": "No public repo found. Items must come from the jar or the game."
+   "note": "Repo supplied by maintainer.",
+   "verified": true,
+   "ref": "dev-1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
   },
   "silent-lib": {
    "repo": "SilentChaos512/SilentLib",
@@ -1911,6 +1935,60 @@
    "ref": "1.21.1",
    "ref_kind": "branch",
    "check": "ok"
+  },
+  "kubejs-metalworks": {
+   "repo": "senuko228/KubeJS-Metalworks",
+   "note": "candidate (not in any pack); KubeJS add-on for Productive Metalworks, supplied by maintainer; CurseForge page kubejs-metalworks-kubejs-addon-for-productive.",
+   "verified": true,
+   "ref": "main",
+   "ref_kind": "branch",
+   "check": "ok",
+   "candidate": true
+  },
+  "mowzies-mobs": {
+   "repo": "BobMowzie/MowziesMobs-Public",
+   "note": "candidate (not in any pack); supplied by maintainer; mob and boss content.",
+   "verified": true,
+   "ref": "main",
+   "ref_kind": "branch",
+   "check": "ok",
+   "candidate": true
+  },
+  "deeper-and-darker": {
+   "repo": "KyaniteMods/DeeperAndDarker",
+   "note": "candidate (not in any pack); supplied by maintainer; Deep Dark dimension content.",
+   "verified": true,
+   "ref": "neoforge-1.21",
+   "ref_kind": "branch",
+   "check": "ok",
+   "candidate": true
+  },
+  "cosmetic-armor-reworked": {
+   "repo": "zlainsama/CosmeticArmorReworked",
+   "note": "candidate (not in any pack); supplied by maintainer; cosmetic armor slots.",
+   "verified": true,
+   "ref": "1.21.1-v1-neoforge",
+   "ref_kind": "tag",
+   "check": "ok",
+   "candidate": true
+  },
+  "cosmetic-armor-reworked-forked": {
+   "repo": "zzik2/CosmeticArmorReworkedForked",
+   "note": "candidate (not in any pack); supplied by maintainer; fork of Cosmetic Armor Reworked.",
+   "verified": true,
+   "ref": "master",
+   "ref_kind": "branch",
+   "check": "ok",
+   "candidate": true
+  },
+  "productivetrees-mekanism-compatibility": {
+   "repo": "Saereth/productivetrees-mekanism-compatibility",
+   "note": "candidate (not in any pack); supplied by maintainer; Productive Trees and Mekanism bridge.",
+   "verified": true,
+   "ref": "main",
+   "ref_kind": "branch",
+   "check": "ok",
+   "candidate": true
   }
  }
 }

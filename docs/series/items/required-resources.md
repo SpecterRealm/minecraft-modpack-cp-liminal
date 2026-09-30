@@ -47,6 +47,16 @@ Verdant's KubeJS already closes Nether and End gaps with Ex Deorum sieve recipes
 
 The same pattern can serve the class-mod netherite tiers, and is the model for Elysian and Influx gaps.
 
+### Sources found later (maintainer-supplied repos, scanned)
+
+- **Cobblegen Galore** (`JDKDigital/cobblegengalore`, dev-1.21.1): 7 block generators from stone to netherite tier, but the metal tiers are **speed upgrades, not metal producers**. Its `blockgen` recipes list stone types, **netherrack, obsidian and basalt**, so a pack can get netherrack without the Nether. That covers part of the nether agglomeratio (Mystical Agriculture) and crushed netherrack (Ex Deorum). Verdant already gates the chain with `cobblegen_chain.js`.
+- **Silent Gear Metalworks** (`JDKDigital/sgearmetalworks`, dev-1.21.1, 94 fluid items) and **Productive Metalworks** (`JDKDigital/productivemetalworks`, dev-1.21.1, 202 items: foundry, casting, fire bricks) give casting for Silent Gear's gem and alloy materials. Built-in support covers Create, Mekanism, Mystical Agriculture and Productive Bees, so it fits the existing pack mods.
+- **KubeJS Metalworks** (`senuko228/KubeJS-Metalworks`): scripting add-on for custom casting recipes. Candidate only.
+- **Ars Mekanica** (`meigoc/Ars-Mekanica`): one block, a Source to Mekanism power bridge. Liminal's job if wanted.
+- **More Thermal Evaporation** (`A8T1N/MoreThermalevaporation`, 1.21.1): Mekanism evaporation plant sizes only.
+- **Extreme Reactors Create compat** (`ZeroNoRyouki/ExtremeReactors2-CreateCompat`): only a 1.20 branch exists, so there is no 1.21.1 source to scan.
+- **Iron's Lib**: the link supplied is a Patreon post, not a repo; still unresolved.
+
 ## 4. Decision direction (maintainer)
 
 - **Ex Deorum as the manual kickstart fallback for every pack**, with the automated parts removed: no Mechanical Sieve, no Mechanical Hammer, no powered crushing. What stays is the manual sieve, barrel, crucible and hand hammer. The player can start, then has to ask how to automate it, which pushes them to the pack's own systems (magical crops in Elysian, conversion in Influx).

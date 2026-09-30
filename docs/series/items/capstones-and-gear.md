@@ -230,6 +230,14 @@ Maintainer's likely answer: **add Ex Deorum to Elysian**, and remove some of its
 
 Do not lock a pack to one mod too early. Decide where each pack is going, pick the mods that are its **foundation**, then add mods only to fill the holes and gaps around them. For Influx, candidate foundation: Hostile Neural Networks, Genetics: Resequenced, Replication, ProjectE, with Compact Machines for space. Mods that only serve the old plant-genetics direction (AgriCraft, Productive Trees, Productive Farming) are then reviewed again, not cut in advance.
 
+### Liminal's new mobs: candidates found
+
+Liminal needs mobs made for it (still undecided). Two candidates supplied by the maintainer, both scanned:
+- **Mowzie's Mobs** (`BobMowzie/MowziesMobs-Public`, 153 items): bosses (Ferrous Wroughtnaut, Frostmaw, Umvuthi, Naga, Sculptor), GeckoLib required. Its gear has real jobs (each mask gives an ability; Earthrend Gauntlet and the Axe of a Thousand Metals have special attacks), which fits the every-item-has-a-job rule.
+- **Deeper and Darker** (`KyaniteMods/DeeperAndDarker`, 278 items): a Deep Dark dimension with blocks, woods and gear. It adds a dimension, so it conflicts with "no extra dimensions" in packs 1 to 3; Liminal only.
+
+Neither is decided. Mutant Monsters stays Influx's outbreak content.
+
 ## Open questions
 
 1. Influx: Genetics: Resequenced plus Mutant Monsters chosen. Confirm after scanning that they fit the pack's power and breeding systems.

@@ -1,0 +1,50 @@
+{
+ "repo": "meigoc/Ars-Mekanica",
+ "ref": "main",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "ars_mekanica"
+ ],
+ "item_count": 1,
+ "compat": [
+  {
+   "id": "ars_nouveau",
+   "slug": "ars-nouveau",
+   "evidence": {
+    "data-ref": 98,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "mekanism",
+   "slug": "mekanism",
+   "evidence": {
+    "data-ref": 98,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "ars_mekanica:source_dynamo": {
+   "kind": "block",
+   "name": "Source Dynamo",
+   "tags": [
+    "feel:magic",
+    "feel:tech",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "main",
+  "pass": "loop-back",
+  "note": "First read from source; see mod-profiles.md.",
+  "class": "content",
+  "purpose": "Source Dynamo: Ars Source to Mekanism power"
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "main"
+}

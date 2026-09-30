@@ -1,0 +1,2552 @@
+{
+ "repo": "KyaniteMods/DeeperAndDarker",
+ "ref": "neoforge-1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "deeperdarker"
+ ],
+ "item_count": 278,
+ "compat": [
+  {
+   "id": "create",
+   "slug": "create",
+   "evidence": {
+    "data-ref": 16
+   }
+  },
+  {
+   "id": "farmersdelight",
+   "slug": "farmers-delight",
+   "evidence": {
+    "data-ref": 11
+   }
+  },
+  {
+   "id": "mekanism",
+   "slug": "mekanism",
+   "evidence": {
+    "data-ref": 106
+   }
+  },
+  {
+   "id": "pneumaticcraft",
+   "slug": "pneumaticcraft-repressurized",
+   "evidence": {
+    "data-ref": 1
+   }
+  }
+ ],
+ "items": {
+  "deeperdarker:ancient_vase": {
+   "kind": "block",
+   "name": "Ancient Vase",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:bloom_button": {
+   "kind": "block",
+   "name": "Bloom Button",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:bloom_door": {
+   "kind": "block",
+   "name": "Bloom Door",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:bloom_fence": {
+   "kind": "block",
+   "name": "Bloom Fence",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:bloom_fence_gate": {
+   "kind": "block",
+   "name": "Bloom Fence Gate",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:bloom_hanging_sign": {
+   "kind": "block",
+   "name": "Bloom Hanging Sign",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:bloom_planks": {
+   "kind": "block",
+   "name": "Bloom Planks",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:bloom_pressure_plate": {
+   "kind": "block",
+   "name": "Bloom Pressure Plate",
+   "tags": [
+    "kind:material",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:bloom_sign": {
+   "kind": "block",
+   "name": "Bloom Sign",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:bloom_slab": {
+   "kind": "block",
+   "name": "Bloom Slab",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:bloom_stairs": {
+   "kind": "block",
+   "name": "Bloom Stairs",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:bloom_trapdoor": {
+   "kind": "block",
+   "name": "Bloom Trapdoor",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:blooming_moss_block": {
+   "kind": "block",
+   "name": "Blooming Moss Block",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:blooming_sculk_stone": {
+   "kind": "block",
+   "name": "Blooming Sculk Stone",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:blooming_stem": {
+   "kind": "block",
+   "name": "Blooming Stem",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:bordered_lite_block": {
+   "kind": "block",
+   "name": "Bordered Block of Lite",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:chiseled_gloomslate": {
+   "kind": "block",
+   "name": "Chiseled Gloomslate",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:chiseled_sculk_stone": {
+   "kind": "block",
+   "name": "Chiseled Sculk Stone",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:cobbled_gloomslate": {
+   "kind": "block",
+   "name": "Cobbled Gloomslate",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:cobbled_gloomslate_slab": {
+   "kind": "block",
+   "name": "Cobbled Gloomslate Slab",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:cobbled_gloomslate_stairs": {
+   "kind": "block",
+   "name": "Cobbled Gloomslate Stairs",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:cobbled_gloomslate_wall": {
+   "kind": "block",
+   "name": "Cobbled Gloomslate Wall",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:cobbled_sculk_stone": {
+   "kind": "block",
+   "name": "Cobbled Sculk Stone",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:cobbled_sculk_stone_slab": {
+   "kind": "block",
+   "name": "Cobbled Sculk Stone Slab",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:cobbled_sculk_stone_stairs": {
+   "kind": "block",
+   "name": "Cobbled Sculk Stone Stairs",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:cobbled_sculk_stone_wall": {
+   "kind": "block",
+   "name": "Cobbled Sculk Stone Wall",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:crystallized_amber": {
+   "kind": "block",
+   "name": "Crystallized Amber",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:cut_gloomslate": {
+   "kind": "block",
+   "name": "Cut Gloomslate",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:cut_gloomslate_slab": {
+   "kind": "block",
+   "name": "Cut Gloomslate Slab",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:cut_gloomslate_stairs": {
+   "kind": "block",
+   "name": "Cut Gloomslate Stairs",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:cut_gloomslate_wall": {
+   "kind": "block",
+   "name": "Cut Gloomslate Wall",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:cut_sculk_stone": {
+   "kind": "block",
+   "name": "Cut Sculk Stone",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:cut_sculk_stone_slab": {
+   "kind": "block",
+   "name": "Cut Sculk Stone Slab",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:cut_sculk_stone_stairs": {
+   "kind": "block",
+   "name": "Cut Sculk Stone Stairs",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:cut_sculk_stone_wall": {
+   "kind": "block",
+   "name": "Cut Sculk Stone Wall",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:echo_button": {
+   "kind": "block",
+   "name": "Echo Button",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:echo_door": {
+   "kind": "block",
+   "name": "Echo Door",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:echo_fence": {
+   "kind": "block",
+   "name": "Echo Fence",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:echo_fence_gate": {
+   "kind": "block",
+   "name": "Echo Fence Gate",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:echo_hanging_sign": {
+   "kind": "block",
+   "name": "Echo Hanging Sign",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:echo_leaves": {
+   "kind": "block",
+   "name": "Echo Leaves",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:echo_log": {
+   "kind": "block",
+   "name": "Echo Log",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:echo_planks": {
+   "kind": "block",
+   "name": "Echo Planks",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:echo_pressure_plate": {
+   "kind": "block",
+   "name": "Echo Pressure Plate",
+   "tags": [
+    "kind:material",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:echo_sapling": {
+   "kind": "block",
+   "name": "Echo Sapling",
+   "tags": [
+    "function:farm",
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:echo_sign": {
+   "kind": "block",
+   "name": "Echo Sign",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:echo_slab": {
+   "kind": "block",
+   "name": "Echo Slab",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:echo_soil": {
+   "kind": "block",
+   "name": "Echo Soil",
+   "tags": [
+    "function:farm",
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:echo_stairs": {
+   "kind": "block",
+   "name": "Echo Stairs",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:echo_trapdoor": {
+   "kind": "block",
+   "name": "Echo Trapdoor",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:echo_wood": {
+   "kind": "block",
+   "name": "Echo Wood",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:enriched_gloomslate_bricks": {
+   "kind": "block",
+   "name": "Enriched Gloomslate Bricks",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:flowerless_ice_lily": {
+   "kind": "block",
+   "name": "Flowerless Ice Lily",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gleam_gel_block": {
+   "kind": "block",
+   "name": "Gleam Gel Block",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomslate": {
+   "kind": "block",
+   "name": "Gloomslate",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomslate_brick_fence": {
+   "kind": "block",
+   "name": "Gloomslate Brick Fence",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomslate_brick_slab": {
+   "kind": "block",
+   "name": "Gloomslate Brick Slab",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomslate_brick_stairs": {
+   "kind": "block",
+   "name": "Gloomslate Brick Stairs",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomslate_brick_wall": {
+   "kind": "block",
+   "name": "Gloomslate Brick Wall",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomslate_bricks": {
+   "kind": "block",
+   "name": "Gloomslate Bricks",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomslate_coal_ore": {
+   "kind": "block",
+   "name": "Gloomslate Coal Ore",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomslate_copper_ore": {
+   "kind": "block",
+   "name": "Gloomslate Copper Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomslate_diamond_ore": {
+   "kind": "block",
+   "name": "Gloomslate Diamond Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomslate_emerald_ore": {
+   "kind": "block",
+   "name": "Gloomslate Emerald Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomslate_gold_ore": {
+   "kind": "block",
+   "name": "Gloomslate Gold Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomslate_iron_ore": {
+   "kind": "block",
+   "name": "Gloomslate Iron Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomslate_lapis_ore": {
+   "kind": "block",
+   "name": "Gloomslate Lapis Lazuli Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomslate_light": {
+   "kind": "block",
+   "name": "Gloomslate Light",
+   "tags": [
+    "function:light",
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomslate_pot": {
+   "kind": "block",
+   "name": "Gloomslate Pot",
+   "tags": [
+    "function:farm",
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomslate_redstone_ore": {
+   "kind": "block",
+   "name": "Gloomslate Redstone Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomslate_slab": {
+   "kind": "block",
+   "name": "Gloomslate Slab",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomslate_stairs": {
+   "kind": "block",
+   "name": "Gloomslate Stairs",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomslate_tile_slab": {
+   "kind": "block",
+   "name": "Gloomslate Tile Slab",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomslate_tile_stairs": {
+   "kind": "block",
+   "name": "Gloomslate Tile Stairs",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomslate_tile_wall": {
+   "kind": "block",
+   "name": "Gloomslate Tile Wall",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomslate_tiles": {
+   "kind": "block",
+   "name": "Gloomslate Tiles",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomslate_wall": {
+   "kind": "block",
+   "name": "Gloomslate Wall",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomy_cactus": {
+   "kind": "block",
+   "name": "Gloomy Cactus",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomy_geyser": {
+   "kind": "block",
+   "name": "Gloomy Geyser",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomy_grass": {
+   "kind": "block",
+   "name": "Gloomy Grass",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomy_sculk": {
+   "kind": "block",
+   "name": "Gloomy Sculk",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:glowing_flowers": {
+   "kind": "block",
+   "name": "Glowing Flowers",
+   "tags": [
+    "function:farm",
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:glowing_grass": {
+   "kind": "block",
+   "name": "Glowing Grass",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:glowing_roots": {
+   "kind": "block",
+   "name": "Glowing Roots",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:glowing_roots_plant": {
+   "kind": "block",
+   "name": "Glowing Roots Plant",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:glowing_vines": {
+   "kind": "block",
+   "name": "Glowing Vines",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:glowing_vines_plant": {
+   "kind": "block",
+   "name": "Glowing Vines Plant",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:ice_lily": {
+   "kind": "block",
+   "name": "Ice Lily",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:infested_sculk": {
+   "kind": "block",
+   "name": "Infested Sculk",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:lily_flower": {
+   "kind": "item",
+   "name": "Lily Flower",
+   "tags": [
+    "function:farm",
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:linked": {
+   "kind": "block",
+   "name": "Linked transmitter",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:lite_block": {
+   "kind": "block",
+   "name": "Block of Lite",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:not_found": {
+   "kind": "block",
+   "name": "The linked block is missing or unloaded",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:not_transmittable": {
+   "kind": "block",
+   "name": "Cannot link to block",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:otherside_portal": {
+   "kind": "block",
+   "name": "Otherside Portal",
+   "tags": [
+    "function:travel",
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:polished_gloomslate": {
+   "kind": "block",
+   "name": "Polished Gloomslate",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:polished_gloomslate_slab": {
+   "kind": "block",
+   "name": "Polished Gloomslate Slab",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:polished_gloomslate_stairs": {
+   "kind": "block",
+   "name": "Polished Gloomslate Stairs",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:polished_gloomslate_wall": {
+   "kind": "block",
+   "name": "Polished Gloomslate Wall",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:polished_sculk_stone": {
+   "kind": "block",
+   "name": "Polished Sculk Stone",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:polished_sculk_stone_slab": {
+   "kind": "block",
+   "name": "Polished Sculk Stone Slab",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:polished_sculk_stone_stairs": {
+   "kind": "block",
+   "name": "Polished Sculk Stone Stairs",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:polished_sculk_stone_wall": {
+   "kind": "block",
+   "name": "Polished Sculk Stone Wall",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:porous_sculk_gleam": {
+   "kind": "block",
+   "name": "Porous Sculk Gleam",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:potted_blooming_stem": {
+   "kind": "block",
+   "name": "Potted Blooming Stem",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:potted_echo_sapling": {
+   "kind": "block",
+   "name": "Potted Echo Sapling",
+   "tags": [
+    "function:farm",
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_gleam": {
+   "kind": "block",
+   "name": "Sculk Gleam",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_grime": {
+   "kind": "block",
+   "name": "Sculk Grime",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_grime_brick_slab": {
+   "kind": "block",
+   "name": "Sculk Grime Brick Slab",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_grime_brick_stairs": {
+   "kind": "block",
+   "name": "Sculk Grime Brick Stairs",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_grime_brick_wall": {
+   "kind": "block",
+   "name": "Sculk Grime Brick Wall",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_grime_bricks": {
+   "kind": "block",
+   "name": "Sculk Grime Bricks",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_jaw": {
+   "kind": "block",
+   "name": "Sculk Jaw",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_stone": {
+   "kind": "block",
+   "name": "Sculk Stone",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_stone_brick_slab": {
+   "kind": "block",
+   "name": "Sculk Stone Brick Slab",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_stone_brick_stairs": {
+   "kind": "block",
+   "name": "Sculk Stone Brick Stairs",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_stone_brick_wall": {
+   "kind": "block",
+   "name": "Sculk Stone Brick Wall",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_stone_bricks": {
+   "kind": "block",
+   "name": "Sculk Stone Bricks",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_stone_coal_ore": {
+   "kind": "block",
+   "name": "Sculk Stone Coal Ore",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_stone_copper_ore": {
+   "kind": "block",
+   "name": "Sculk Stone Copper Ore",
+   "tags": [
+    "needs:ore",
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_stone_diamond_ore": {
+   "kind": "block",
+   "name": "Sculk Stone Diamond Ore",
+   "tags": [
+    "needs:ore",
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_stone_emerald_ore": {
+   "kind": "block",
+   "name": "Sculk Stone Emerald Ore",
+   "tags": [
+    "needs:ore",
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_stone_gold_ore": {
+   "kind": "block",
+   "name": "Sculk Stone Gold Ore",
+   "tags": [
+    "needs:ore",
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_stone_iron_ore": {
+   "kind": "block",
+   "name": "Sculk Stone Iron Ore",
+   "tags": [
+    "needs:ore",
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_stone_lapis_ore": {
+   "kind": "block",
+   "name": "Sculk Stone Lapis Lazuli Ore",
+   "tags": [
+    "needs:ore",
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_stone_redstone_ore": {
+   "kind": "block",
+   "name": "Sculk Stone Redstone Ore",
+   "tags": [
+    "needs:ore",
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_stone_slab": {
+   "kind": "block",
+   "name": "Sculk Stone Slab",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_stone_stairs": {
+   "kind": "block",
+   "name": "Sculk Stone Stairs",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_stone_tile_slab": {
+   "kind": "block",
+   "name": "Sculk Stone Tile Slab",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_stone_tile_stairs": {
+   "kind": "block",
+   "name": "Sculk Stone Tile Stairs",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_stone_tile_wall": {
+   "kind": "block",
+   "name": "Sculk Stone Tile Wall",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_stone_tiles": {
+   "kind": "block",
+   "name": "Sculk Stone Tiles",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_stone_wall": {
+   "kind": "block",
+   "name": "Sculk Stone Wall",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_tendrils": {
+   "kind": "block",
+   "name": "Sculk Tendrils",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_tendrils_plant": {
+   "kind": "block",
+   "name": "Sculk Tendrils Plant",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_vines": {
+   "kind": "block",
+   "name": "Sculk Vines",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_vines_plant": {
+   "kind": "block",
+   "name": "Sculk Vines Plant",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:smooth_gloomslate": {
+   "kind": "block",
+   "name": "Smooth Gloomslate",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:smooth_gloomslate_slab": {
+   "kind": "block",
+   "name": "Smooth Gloomslate Slab",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:smooth_gloomslate_stairs": {
+   "kind": "block",
+   "name": "Smooth Gloomslate Stairs",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:smooth_gloomslate_wall": {
+   "kind": "block",
+   "name": "Smooth Gloomslate Wall",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:smooth_sculk_stone": {
+   "kind": "block",
+   "name": "Smooth Sculk Stone",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:smooth_sculk_stone_slab": {
+   "kind": "block",
+   "name": "Smooth Sculk Stone Slab",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:smooth_sculk_stone_stairs": {
+   "kind": "block",
+   "name": "Smooth Sculk Stone Stairs",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:smooth_sculk_stone_wall": {
+   "kind": "block",
+   "name": "Smooth Sculk Stone Wall",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:stripped_blooming_stem": {
+   "kind": "block",
+   "name": "Stripped Blooming Stem",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:stripped_echo_log": {
+   "kind": "block",
+   "name": "Stripped Echo Log",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:stripped_echo_wood": {
+   "kind": "block",
+   "name": "Stripped Echo Wood",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:unlinked": {
+   "kind": "block",
+   "name": "Unlinked transmitter",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:anger_pot": {
+   "kind": "entity",
+   "name": "Anger Pot",
+   "tags": [
+    "kind:mob",
+    "function:farm",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:angler_fish": {
+   "kind": "item",
+   "name": "Raw Angler Fish",
+   "tags": [
+    "kind:food",
+    "kind:material",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:fear_pot": {
+   "kind": "entity",
+   "name": "Fear Pot",
+   "tags": [
+    "kind:mob",
+    "function:farm",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_centipede": {
+   "kind": "entity",
+   "name": "Sculk Centipede",
+   "tags": [
+    "kind:mob",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_leech": {
+   "kind": "entity",
+   "name": "Sculk Leech",
+   "tags": [
+    "kind:mob",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_snapper": {
+   "kind": "entity",
+   "name": "Sculk Snapper",
+   "tags": [
+    "kind:mob",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:shattered": {
+   "kind": "entity",
+   "name": "Shattered",
+   "tags": [
+    "kind:mob",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:shriek_worm": {
+   "kind": "entity",
+   "name": "Shriek Worm",
+   "tags": [
+    "kind:mob",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sludge": {
+   "kind": "entity",
+   "name": "Sludge",
+   "tags": [
+    "kind:mob",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sorrow_pot": {
+   "kind": "entity",
+   "name": "Sorrow Pot",
+   "tags": [
+    "kind:mob",
+    "function:farm",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:stalker": {
+   "kind": "entity",
+   "name": "Stalker",
+   "tags": [
+    "kind:mob",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:ancient_compass": {
+   "kind": "item",
+   "name": "Ancient Compass",
+   "tags": [
+    "kind:gadget",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:anger_pot_spawn_egg": {
+   "kind": "item",
+   "name": "Anger Pot Spawn Egg",
+   "tags": [
+    "kind:food",
+    "function:farm",
+    "kind:consumable",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:angler_fish_spawn_egg": {
+   "kind": "item",
+   "name": "Angler Fish Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:black_sculk_transmitter": {
+   "kind": "item",
+   "name": "Black Sculk Transmitter",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:bloom_berries": {
+   "kind": "item",
+   "name": "Bloom Berries",
+   "tags": [
+    "kind:food",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:bloom_boat": {
+   "kind": "item",
+   "name": "Bloom Boat",
+   "tags": [
+    "function:travel",
+    "kind:transport",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:bloom_chest_boat": {
+   "kind": "item",
+   "name": "Bloom Boat with Chest",
+   "tags": [
+    "function:store",
+    "kind:storage",
+    "function:travel",
+    "kind:transport",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:blue_sculk_transmitter": {
+   "kind": "item",
+   "name": "Blue Sculk Transmitter",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:brittle_gloomsherd": {
+   "kind": "item",
+   "name": "Brittle Gloomsherd",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:brown_sculk_transmitter": {
+   "kind": "item",
+   "name": "Brown Sculk Transmitter",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:cooked_angler_fish": {
+   "kind": "item",
+   "name": "Cooked Angler Fish",
+   "tags": [
+    "kind:food",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:cyan_sculk_transmitter": {
+   "kind": "item",
+   "name": "Cyan Sculk Transmitter",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:dampens_vibrations": {
+   "kind": "item",
+   "name": "Dampens Vibrations",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:dark_heart_gloomsherd": {
+   "kind": "item",
+   "name": "Dark Heart Gloomsherd",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:echo_boat": {
+   "kind": "item",
+   "name": "Echo Boat",
+   "tags": [
+    "function:travel",
+    "kind:transport",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:echo_chest_boat": {
+   "kind": "item",
+   "name": "Echo Boat with Chest",
+   "tags": [
+    "function:store",
+    "kind:storage",
+    "function:travel",
+    "kind:transport",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:fear_pot_spawn_egg": {
+   "kind": "item",
+   "name": "Fear Pot Spawn Egg",
+   "tags": [
+    "kind:food",
+    "function:farm",
+    "kind:consumable",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gleam_gel": {
+   "kind": "item",
+   "name": "Gleam Gel",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gloomsherd": {
+   "kind": "item",
+   "name": "Gloomsherd",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:gray_sculk_transmitter": {
+   "kind": "item",
+   "name": "Gray Sculk Transmitter",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:green_sculk_transmitter": {
+   "kind": "item",
+   "name": "Green Sculk Transmitter",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:grime_ball": {
+   "kind": "item",
+   "name": "Grime Ball",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:grime_brick": {
+   "kind": "item",
+   "name": "Grime Brick",
+   "tags": [
+    "kind:decoration",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:heart_of_the_deep": {
+   "kind": "item",
+   "name": "Heart of the Deep",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:light_blue_sculk_transmitter": {
+   "kind": "item",
+   "name": "Light Blue Sculk Transmitter",
+   "tags": [
+    "function:light",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:light_gray_sculk_transmitter": {
+   "kind": "item",
+   "name": "Light Gray Sculk Transmitter",
+   "tags": [
+    "function:light",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:lime_sculk_transmitter": {
+   "kind": "item",
+   "name": "Lime Sculk Transmitter",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:listener_gloomsherd": {
+   "kind": "item",
+   "name": "Listener Gloomsherd",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:lite": {
+   "kind": "item",
+   "name": "Lite",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:magenta_sculk_transmitter": {
+   "kind": "item",
+   "name": "Magenta Sculk Transmitter",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:orange_sculk_transmitter": {
+   "kind": "item",
+   "name": "Orange Sculk Transmitter",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:pink_sculk_transmitter": {
+   "kind": "item",
+   "name": "Pink Sculk Transmitter",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:purple_sculk_transmitter": {
+   "kind": "item",
+   "name": "Purple Sculk Transmitter",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:red_sculk_transmitter": {
+   "kind": "item",
+   "name": "Red Sculk Transmitter",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:reinforced_echo_shard": {
+   "kind": "item",
+   "name": "Reinforced Echo Shard",
+   "tags": [
+    "kind:material",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:resonarium": {
+   "kind": "item",
+   "name": "Resonarium",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:resonarium_axe": {
+   "kind": "item",
+   "name": "Resonarium Axe",
+   "tags": [
+    "kind:tool",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:resonarium_boots": {
+   "kind": "item",
+   "name": "Resonarium Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:resonarium_chestplate": {
+   "kind": "item",
+   "name": "Resonarium Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:resonarium_helmet": {
+   "kind": "item",
+   "name": "Resonarium Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:resonarium_hoe": {
+   "kind": "item",
+   "name": "Resonarium Hoe",
+   "tags": [
+    "kind:tool",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:resonarium_leggings": {
+   "kind": "item",
+   "name": "Resonarium Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:resonarium_pickaxe": {
+   "kind": "item",
+   "name": "Resonarium Pickaxe",
+   "tags": [
+    "kind:tool",
+    "function:mine",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:resonarium_plate": {
+   "kind": "item",
+   "name": "Resonarium Plate",
+   "tags": [
+    "kind:material",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:resonarium_shovel": {
+   "kind": "item",
+   "name": "Resonarium Shovel",
+   "tags": [
+    "kind:tool",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:resonarium_sword": {
+   "kind": "item",
+   "name": "Resonarium Sword",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:resonarium_upgrade_smithing_template": {
+   "kind": "item",
+   "name": "Smithing Template",
+   "tags": [
+    "function:craft",
+    "kind:gadget",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_bone": {
+   "kind": "item",
+   "name": "Sculk Bone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_centipede_spawn_egg": {
+   "kind": "item",
+   "name": "Sculk Centipede Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_leech_spawn_egg": {
+   "kind": "item",
+   "name": "Sculk Leech Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_snapper_spawn_egg": {
+   "kind": "item",
+   "name": "Sculk Snapper Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sculk_transmitter": {
+   "kind": "item",
+   "name": "Sculk Transmitter",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:shattered_spawn_egg": {
+   "kind": "item",
+   "name": "Shattered Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:shriek_worm_spawn_egg": {
+   "kind": "item",
+   "name": "Shriek Worm Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sludge_spawn_egg": {
+   "kind": "item",
+   "name": "Sludge Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:smithing_template.resonarium_upgrade.applies_to": {
+   "kind": "item",
+   "name": "Iron Equipment",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:smithing_template.resonarium_upgrade.ingredients": {
+   "kind": "item",
+   "name": "Resonarium Plate",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:smithing_template.warden_upgrade.applies_to": {
+   "kind": "item",
+   "name": "Netherite Equipment",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:smithing_template.warden_upgrade.ingredients": {
+   "kind": "item",
+   "name": "Reinforced Echo Shard",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:snapper_gloomsherd": {
+   "kind": "item",
+   "name": "Snapper Gloomsherd",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sonorous_staff": {
+   "kind": "item",
+   "name": "Sonorous Staff",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:sorrow_pot_spawn_egg": {
+   "kind": "item",
+   "name": "Sorrow Pot Spawn Egg",
+   "tags": [
+    "kind:food",
+    "function:farm",
+    "kind:consumable",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:soul_crystal": {
+   "kind": "item",
+   "name": "Soul Crystal",
+   "tags": [
+    "kind:material",
+    "needs:nether",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:soul_dust": {
+   "kind": "item",
+   "name": "Soul Dust",
+   "tags": [
+    "kind:material",
+    "needs:nether",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:soul_elytra": {
+   "kind": "item",
+   "name": "Soul Elytra",
+   "tags": [
+    "function:travel",
+    "needs:nether",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:soul_elytra.cooldown": {
+   "kind": "item",
+   "name": "Boost available in %s",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:soul_elytra.equipped": {
+   "kind": "item",
+   "name": "Press %s to boost",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:soul_elytra.no_cooldown": {
+   "kind": "item",
+   "name": "Boost disabled",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:stalker_spawn_egg": {
+   "kind": "item",
+   "name": "Stalker Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:temple_gloomsherd": {
+   "kind": "item",
+   "name": "Temple Gloomsherd",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:transmission_gloomsherd": {
+   "kind": "item",
+   "name": "Transmission Gloomsherd",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:ward_gloomsherd": {
+   "kind": "item",
+   "name": "Ward Gloomsherd",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:warden_axe": {
+   "kind": "item",
+   "name": "Warden Axe",
+   "tags": [
+    "kind:tool",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:warden_boots": {
+   "kind": "item",
+   "name": "Warden Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:warden_carapace": {
+   "kind": "item",
+   "name": "Warden Carapace",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:warden_chestplate": {
+   "kind": "item",
+   "name": "Warden Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:warden_helmet": {
+   "kind": "item",
+   "name": "Warden Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:warden_hoe": {
+   "kind": "item",
+   "name": "Warden Hoe",
+   "tags": [
+    "kind:tool",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:warden_leggings": {
+   "kind": "item",
+   "name": "Warden Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:warden_pickaxe": {
+   "kind": "item",
+   "name": "Warden Pickaxe",
+   "tags": [
+    "kind:tool",
+    "function:mine",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:warden_shovel": {
+   "kind": "item",
+   "name": "Warden Shovel",
+   "tags": [
+    "kind:tool",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:warden_sword": {
+   "kind": "item",
+   "name": "Warden Sword",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:warden_upgrade_smithing_template": {
+   "kind": "item",
+   "name": "Smithing Template",
+   "tags": [
+    "function:craft",
+    "kind:gadget",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:wayfinder_gloomsherd": {
+   "kind": "item",
+   "name": "Wayfinder Gloomsherd",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:white_sculk_transmitter": {
+   "kind": "item",
+   "name": "White Sculk Transmitter",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "deeperdarker:yellow_sculk_transmitter": {
+   "kind": "item",
+   "name": "Yellow Sculk Transmitter",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:porous_sculk_gleam.shear": {
+   "kind": "block",
+   "name": "Shears scrape",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:angler_fish.flop": {
+   "kind": "entity",
+   "name": "Angler Fish flops",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:angler_fish.hurt": {
+   "kind": "entity",
+   "name": "Angler Fish hurts",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:leech.hurt": {
+   "kind": "entity",
+   "name": "Sculk Leech hurts",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:shattered.ambient": {
+   "kind": "entity",
+   "name": "Shattered growls",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:shattered.hurt": {
+   "kind": "entity",
+   "name": "Shattered hurts",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:shattered.notice": {
+   "kind": "entity",
+   "name": "Shattered takes notice",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:shriek_worm.ambient": {
+   "kind": "entity",
+   "name": "Shriek Worm cries",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:shriek_worm.hurt": {
+   "kind": "entity",
+   "name": "Shriek Worm hurts",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:sludge.attack": {
+   "kind": "entity",
+   "name": "Sludge attacks",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:sludge.hurt": {
+   "kind": "entity",
+   "name": "Sludge hurts",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:sludge.squish": {
+   "kind": "entity",
+   "name": "Sludge squishes",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:snapper.ambient": {
+   "kind": "entity",
+   "name": "Sculk Snapper breathes",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:snapper.bite": {
+   "kind": "entity",
+   "name": "Sculk Snapper bites",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:snapper.hurt": {
+   "kind": "entity",
+   "name": "Sculk Snapper hurts",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:snapper.sniff": {
+   "kind": "entity",
+   "name": "Sculk Snapper sniffs",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:stalker.ambient": {
+   "kind": "entity",
+   "name": "Stalker chirps",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:stalker.hurt": {
+   "kind": "entity",
+   "name": "Stalker hurts",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:stalker.notice": {
+   "kind": "entity",
+   "name": "Stalker takes notice",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:sonorous_staff.sonic_boom": {
+   "kind": "item",
+   "name": "Staff booms",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:transmitter.error": {
+   "kind": "item",
+   "name": "Transmitter fails",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:transmitter.link": {
+   "kind": "item",
+   "name": "Transmitter links",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:transmitter.open": {
+   "kind": "item",
+   "name": "Transmitter transmits",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:transmitter.unlink": {
+   "kind": "item",
+   "name": "Transmitter unlinks",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "tag:deeperdarker.bloom_stems": {
+   "kind": "item",
+   "name": "Blooming Stems",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "tag:deeperdarker.dampens_vibrations": {
+   "kind": "item",
+   "name": "Dampens Vibrations",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "tag:deeperdarker.echo_logs": {
+   "kind": "item",
+   "name": "Echo Logs",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "tag:deeperdarker.gloomslate_sherds": {
+   "kind": "item",
+   "name": "Gloomslate Sherds",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "tag:deeperdarker.resonarium_armor": {
+   "kind": "item",
+   "name": "Resonarium Armor",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "tag:deeperdarker.scutes": {
+   "kind": "item",
+   "name": "Scutes",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "tag:deeperdarker.sonic_weapon": {
+   "kind": "item",
+   "name": "Sonic Weapons",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "tag:deeperdarker.transmitter": {
+   "kind": "item",
+   "name": "Transmitter",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "neoforge-1.21",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "neoforge-1.21",
+  "pass": "loop-back",
+  "note": "First read from source; see mod-profiles.md.",
+  "class": "candidate",
+  "purpose": "Deep Dark dimension blocks, woods, mobs and gear"
+ }
+}

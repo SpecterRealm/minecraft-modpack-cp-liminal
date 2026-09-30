@@ -1,0 +1,102 @@
+{
+ "repo": "JDKDigital/cobblegengalore",
+ "ref": "dev-1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "cobblegengalore"
+ ],
+ "item_count": 7,
+ "compat": [
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "data-ref": 1
+   }
+  },
+  {
+   "id": "create",
+   "slug": "create",
+   "evidence": {
+    "data-ref": 6
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 2
+   }
+  }
+ ],
+ "items": {
+  "cobblegengalore:block_gen_stone": {
+   "kind": "block",
+   "name": "Stone Block Generator",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "cobblegengalore:block_gen_copper": {
+   "kind": "block",
+   "name": "Copper Block Generator",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "cobblegengalore:block_gen_iron": {
+   "kind": "block",
+   "name": "Iron Block Generator",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "cobblegengalore:block_gen_gold": {
+   "kind": "block",
+   "name": "Gold Block Generator",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "cobblegengalore:block_gen_emerald": {
+   "kind": "block",
+   "name": "Emerald Block Generator",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "cobblegengalore:block_gen_diamond": {
+   "kind": "block",
+   "name": "Diamond Block Generator",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "cobblegengalore:block_gen_netherite": {
+   "kind": "block",
+   "name": "Netherite Block Generator",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "dev-1.21.1",
+  "pass": "loop-back",
+  "note": "First read from source; see mod-profiles.md.",
+  "class": "content",
+  "purpose": "Block generators from stone to netherite tier"
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "dev-1.21.1"
+}
