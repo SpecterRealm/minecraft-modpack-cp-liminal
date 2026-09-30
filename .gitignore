@@ -28,11 +28,13 @@ scripts/__pycache__/
 docs/recipe_data.json
 docs/recipe_wiki.html
 
-# First-run extract marker from self-extracting bootstrap tip
-scripts/.recipe_wiki_payload_extracted
-
 # Minecraft runtime (if someone opens the repo as instance)
 logs/
 crash-reports/
 saves/
 screenshots/
+world/
+
+# Export outputs (keep zips out of git)
+*.zip
+*.mrpack

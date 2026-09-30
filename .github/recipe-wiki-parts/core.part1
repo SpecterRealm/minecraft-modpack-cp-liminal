@@ -1,0 +1,160 @@
+                    and "/advancement/" not in n
+                ]
+                for rf in recipe_files:
+                    try:
+                        data = json.loads(zf.read(rf).decode("utf-8", errors="replace"))
+                        rtype = data.get("type", "")
+                        if not keep_type(rtype):
+                            continue
+                        result_id = get_result_id(data)
+                        if not result_id:
+                            continue
+                        recipes.setdefault(result_id, []).append({
+                            "jar":  jar_path.name,
+                            "file": rf,
+                            "type": rtype,
+                            "data": data,
+                        })
+                    except Exception:
+                        pass
+        except Exception:
+            pass
+
+    print(f"  → {sum(len(v) for v in recipes.values())} recipes for {len(recipes)} items")
+    return recipes
+
+
+# ---------------------------------------------------------------------------
+# 2. Parse KubeJS scripts
+# ---------------------------------------------------------------------------
+
+def _extract_braced_block(content: str, start: int) -> str:
+    """Extract the {...} block starting at `start` (which should be a '{')."""
+    depth = 0
+    i = start
+    while i < len(content):
+        if content[i] == "{":
+            depth += 1
+        elif content[i] == "}":
+            depth -= 1
+            if depth == 0:
+                return content[start : i + 1]
+        i += 1
+    return content[start:]
+
+
+def parse_kubejs() -> tuple[dict[str, list[dict]], dict[str, list[dict]]]:
+    """
+    Returns:
+      removals:  item_id → [{type, source}]
+      additions: item_id → [{type, source, raw}]
+    """
+    removals:  dict[str, list[dict]] = {}
+    additions: dict[str, list[dict]] = {}
+
+    for js_path in sorted(KUBEJS_DIR.glob("*.js")):
+        src  = js_path.name
+        text = js_path.read_text(encoding="utf-8", errors="replace")
+
+        # ── Removals ────────────────────────────────────────────────────────
+        for m in re.finditer(r"event\.remove\s*\(\s*\{([^}]+)\}", text):
+            inner  = m.group(1)
+            out_m  = re.search(r"output\s*:\s*['\"]([^'\"]+)['\"]", inner)
+            type_m = re.search(r"type\s*:\s*['\"]([^'\"]+)['\"]", inner)
+            if out_m:
+                item_id = out_m.group(1)
+                removals.setdefault(item_id, []).append({
+                    "type":   type_m.group(1) if type_m else "*",
+                    "source": src,
+                })
+
+        # ── event.custom() additions ────────────────────────────────────────
+        for m in re.finditer(r"event\.custom\s*\(", text):
+            pos = m.end()
+            # find opening brace
+            while pos < len(text) and text[pos] != "{":
+                pos += 1
+            if pos >= len(text):
+                continue
+            raw = _extract_braced_block(text, pos)
+
+            # extract type
+            type_m = re.search(r"type\s*:\s*['\"]([^'\"]+)['\"]", raw)
+            rtype  = type_m.group(1) if type_m else "custom"
+
+            # extract result item IDs — look inside results:[{id:...}]
+            result_ids: list[str] = []
+            results_m  = re.search(r"results\s*:\s*\[([^\]]+)\]", raw, re.DOTALL)
+            if results_m:
+                for rm in re.finditer(r"id\s*:\s*['\"]([^'\"]+)['\"]", results_m.group(1)):
+                    result_ids.append(rm.group(1))
+            result_m = re.search(
+                r"result\s*:\s*\{[^}]*(?:id|item)\s*:\s*['\"]([^'\"]+)['\"]", raw
+            )
+            if result_m:
+                result_ids.append(result_m.group(1))
+
+            for item_id in dict.fromkeys(result_ids):  # dedupe, preserve order
+                additions.setdefault(item_id, []).append({
+                    "type":   rtype,
+                    "source": src,
+                    "raw":    raw.strip(),
+                })
+
+        # ── event.shaped / event.shapeless ──────────────────────────────────
+        for method in ("shaped", "shapeless"):
+            for m in re.finditer(
+                rf"event\.{method}\s*\(\s*['\"]([^'\"]+)['\"]", text
+            ):
+                item_id = m.group(1)
+                additions.setdefault(item_id, []).append({
+                    "type":   f"minecraft:crafting_{method}",
+                    "source": src,
+                    "raw":    "",
+                })
+
+    print(f"KubeJS: {sum(len(v) for v in removals.values())} removals, "
+          f"{sum(len(v) for v in additions.values())} additions")
+    return removals, additions
+
+
+# ---------------------------------------------------------------------------
+# 3. Build slim index for embedding
+# ---------------------------------------------------------------------------
+
+def build_slim(jar_recipes, removals, additions) -> dict:
+    """Merge everything into a slim JSON structure suitable for embedding."""
+    all_items = set(jar_recipes) | set(removals) | set(additions)
+    removed_types_by_item = {
+        item: {r["type"] for r in rlist}
+        for item, rlist in removals.items()
+    }
+
+    index: dict[str, dict] = {}
+    for item_id in sorted(all_items):
+        rt = removed_types_by_item.get(item_id, set())
+
+        mod_recipes = []
+        for r in jar_recipes.get(item_id, []):
+            d    = r["data"]
+            ings = ingredients_from(d)
+            entry: dict = {
+                "type":    r["type"],
+                "jar":     r["jar"],
+                "ings":    ings,
+                "count":   get_result_count(d),
+                "removed": r["type"] in rt or "*" in rt,
+            }
+            if "crafting_shaped" in r["type"]:
+                entry["grid"] = shaped_grid(d)
+            mod_recipes.append(entry)
+
+        index[item_id] = {
+            "mod": mod_recipes,
+            "rm":  [{"type": r["type"], "src": r["source"]}
+                    for r in removals.get(item_id, [])],
+            "kj":  [{"type": r["type"], "src": r["source"], "raw": r.get("raw", "")}
+                    for r in additions.get(item_id, [])],
+        }
+
+    return index

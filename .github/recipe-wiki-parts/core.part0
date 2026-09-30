@@ -1,0 +1,229 @@
+#!/usr/bin/env python3
+"""
+CP Liminal — Recipe Wiki Builder
+
+Offline dump of crafting recipes from local Prism mod JARs + KubeJS scripts.
+Produces (generated; do not commit large dumps unless intentional):
+  docs/recipe_data.json  — machine-readable index (item_id → recipes)
+  docs/recipe_wiki.html  — self-contained browseable HTML recipe tree
+
+Usage:
+  # Default: Prism CP-Liminal-Dev instance mods folder (macOS path)
+  python3 scripts/build_recipe_wiki.py
+
+  # Or point at any mods directory with JARs already installed:
+  RECIPE_WIKI_MODS_DIR=/path/to/minecraft/mods python3 scripts/build_recipe_wiki.py
+
+  make recipe-wiki
+
+Do NOT reuse Verdant's docs/recipe_data.json for Liminal analysis (different
+mod list, pins, and KubeJS). Generate a Liminal dump from CP-Liminal-Dev JARs.
+"""
+
+import base64
+import json
+import os
+import re
+import sys
+import zipfile
+from datetime import datetime, timezone
+from pathlib import Path
+
+# ---------------------------------------------------------------------------
+# Paths
+# ---------------------------------------------------------------------------
+
+REPO_ROOT  = Path(__file__).parent.parent
+_DEFAULT_MODS = (
+    Path.home()
+    / "Library/Application Support/PrismLauncher"
+    / "instances/CP-Liminal-Dev/minecraft/mods"
+)
+MODS_DIR   = Path(os.environ.get("RECIPE_WIKI_MODS_DIR", _DEFAULT_MODS))
+KUBEJS_DIR = REPO_ROOT / "kubejs" / "server_scripts"
+OUT_JSON   = REPO_ROOT / "docs" / "recipe_data.json"
+OUT_HTML   = REPO_ROOT / "docs" / "recipe_wiki.html"
+
+# ---------------------------------------------------------------------------
+# Recipe type filter — skip loot tables, advancements, tags, etc.
+# ---------------------------------------------------------------------------
+
+VANILLA_TYPES = {
+    "minecraft:crafting_shaped",
+    "minecraft:crafting_shapeless",
+    "minecraft:smelting",
+    "minecraft:blasting",
+    "minecraft:smoking",
+    "minecraft:stonecutting",
+    "minecraft:campfire_cooking",
+    "minecraft:smithing_transform",
+    "minecraft:smithing_trim",
+}
+
+# Recipe *type* namespaces to keep (not item IDs). Expand when a pillar's
+# machine recipes matter for offline audits (MA ↔ AgriCraft, bees, PE, …).
+MOD_PREFIXES = [
+    "create:", "mekanism:", "ae2:", "exdeorum:", "silentgear:",
+    "farmersdelight:", "sophisticatedstorage:", "sophisticatedbackpacks:",
+    "exmachinis:", "cobblegengalore:",
+    "mysticalagriculture:", "mysticalcustomization:", "mysticalautomation:",
+    "agricraft:", "productivebees:", "productivefarming:", "productivetrees:",
+    "productivemetalworks:", "botanypots:",
+    "ars_nouveau:", "occultism:", "projecte:", "powah:",
+    "bigreactors:", "draconicevolution:", "apotheosis:",
+    "theurgy:", "replication:", "hostileneuralnetworks:",
+]
+
+
+def keep_type(rtype: str) -> bool:
+    return rtype in VANILLA_TYPES or any(rtype.startswith(p) for p in MOD_PREFIXES)
+
+
+# ---------------------------------------------------------------------------
+# Helpers
+# ---------------------------------------------------------------------------
+
+def get_result_id(data: dict) -> str | None:
+    """Pull the primary output item ID from any recipe dict."""
+    for key in ("result", "results", "output", "outputs"):
+        val = data.get(key)
+        if not val:
+            continue
+        if isinstance(val, list):
+            val = val[0] if val else None
+        if not val:
+            continue
+        if isinstance(val, str):
+            return val
+        return val.get("id") or val.get("item")
+    return None
+
+
+def get_result_count(data: dict) -> int:
+    for key in ("result", "results", "output"):
+        val = data.get(key)
+        if not val:
+            continue
+        if isinstance(val, list):
+            val = val[0] if val else None
+        if isinstance(val, dict):
+            return int(val.get("count", 1))
+    return 1
+
+
+def norm_ing(raw, _depth: int = 0) -> dict:
+    """Normalise any ingredient shape to {type, value, count}."""
+    if _depth > 4:
+        return {"type": "item", "value": "", "count": 1}
+    if isinstance(raw, list):
+        for r in raw:
+            if r:
+                raw = r
+                break
+        else:
+            return {"type": "item", "value": "", "count": 1}
+    if isinstance(raw, str):
+        return {"type": "item", "value": raw, "count": 1}
+    if not isinstance(raw, dict):
+        return {"type": "item", "value": "", "count": 1}
+    count = int(raw.get("count", 1))
+    if "tag" in raw:
+        return {"type": "tag", "value": raw["tag"], "count": count}
+    val = raw.get("id") or raw.get("item")
+    if val:
+        return {"type": "item", "value": str(val), "count": count}
+    nested = raw.get("ingredient")
+    if nested and isinstance(nested, (dict, list)):
+        return norm_ing(nested, _depth + 1)
+    return {"type": "item", "value": "", "count": count}
+
+
+def ingredients_from(data: dict) -> list[dict]:
+    """Return flat ingredient list from any recipe type."""
+    rtype = data.get("type", "")
+    out = []
+
+    if "crafting_shaped" in rtype:
+        pattern = data.get("pattern", [])
+        key     = data.get("key", {})
+        seen: set[str] = set()
+        for row in pattern:
+            for ch in row:
+                if ch != " " and ch in key and ch not in seen:
+                    seen.add(ch)
+                    out.append(norm_ing(key[ch]))
+    elif "crafting_shapeless" in rtype:
+        for ing in data.get("ingredients", []):
+            out.append(norm_ing(ing))
+    elif rtype in (
+        "minecraft:smelting", "minecraft:blasting", "minecraft:smoking",
+        "minecraft:campfire_cooking", "minecraft:stonecutting",
+    ):
+        ing = data.get("ingredient", {})
+        out.append(norm_ing(ing))
+    else:
+        # Generic — try common field names
+        for field in ("ingredients", "ingredient", "inputs", "input"):
+            val = data.get(field)
+            if not val:
+                continue
+            if isinstance(val, list):
+                for v in val:
+                    out.append(norm_ing(v))
+            else:
+                out.append(norm_ing(val))
+            break
+
+    return [i for i in out if i.get("value")]
+
+
+def shaped_grid(data: dict) -> list[list[dict | None]]:
+    """Return 3×3 grid of ingredient dicts (or None for empty cells)."""
+    pattern = data.get("pattern", [])
+    key     = data.get("key", {})
+    # Pad to 3 rows of 3
+    grid: list[list[dict | None]] = []
+    for row_str in pattern[:3]:
+        row: list[dict | None] = []
+        for ch in (row_str + "   ")[:3]:
+            if ch == " " or ch not in key:
+                row.append(None)
+            else:
+                row.append(norm_ing(key[ch]))
+        grid.append(row)
+    while len(grid) < 3:
+        grid.append([None, None, None])
+    return grid
+
+
+# ---------------------------------------------------------------------------
+# 1. Extract recipes from JARs
+# ---------------------------------------------------------------------------
+
+def extract_jar_recipes() -> dict[str, list[dict]]:
+    """Returns item_id → list of recipe entries from all mod JARs."""
+    recipes: dict[str, list[dict]] = {}
+    if not MODS_DIR.is_dir():
+        print(
+            f"✗ Mods directory not found: {MODS_DIR}\n"
+            "  Launch CP-Liminal-Dev once so packwiz installs JARs, or set\n"
+            "  RECIPE_WIKI_MODS_DIR to a folder that already contains *.jar.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+    jars = sorted(MODS_DIR.glob("*.jar"))
+    if not jars:
+        print(
+            f"✗ No *.jar under {MODS_DIR}\n"
+            "  This script needs installed mod JARs (Prism instance after packwiz pull).",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+    print(f"Scanning {len(jars)} JARs in {MODS_DIR}...")
+
+    for jar_path in jars:
+        try:
+            with zipfile.ZipFile(jar_path) as zf:
+                recipe_files = [
+                    n for n in zf.namelist()
+                    if "/recipe/" in n and n.endswith(".json")
