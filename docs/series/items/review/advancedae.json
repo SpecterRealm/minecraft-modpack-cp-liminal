@@ -1,0 +1,101 @@
+{
+ "class": "ae2-addon",
+ "purpose": "Quantum multiblock crafting/storage and advanced patterns for AE2",
+ "note": "Quantum crafting computer multiblock (threads, storage, accelerators), advanced pattern providers, reaction chamber and quantum alloy armor with upgrade cards. Heavy AE2 endgame. Built-in support: AE2 (required), Mekanism, GeckoLib; supported by nothing else.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^(quantum_(core|crafter|storage_\\d+|accelerator|multi_threader|unit|structure|infusion_block)|data_entangler|reaction_chamber)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:multiblock",
+    "function:automate",
+    "function:craft",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(adv_pattern_provider.*|small_adv_pattern_provider|adv_pattern_encoder|adv_processing_pattern)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(.*_card|.*_bus_part)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "function:automate",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(quantum_(boots|chestplate|helmet|leggings)|quantum_.*armor)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:armor",
+    "function:defend",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^quantum_alloy.*$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:none"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

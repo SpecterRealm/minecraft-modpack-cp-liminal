@@ -1,0 +1,19 @@
+{
+ "class": "library",
+ "purpose": "Library for Myotus mods (AE2 cards)",
+ "note": "Library; diamond upgrade card.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "class": "ae2-addon",
+ "purpose": "Wireless AE2 terminals and cards",
+ "note": "Wireless universal and pattern terminals, magnet and bridge cards. Overlaps Extended Terminal for convenience.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^.*terminal$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "kind:gadget",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

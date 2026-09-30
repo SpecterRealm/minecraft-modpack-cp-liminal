@@ -12,36 +12,41 @@
    "kind": "block",
    "name": "Test Block: (Base)",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "review:checked"
    ]
   },
   "titanium:block_twenty_four_test": {
    "kind": "block",
    "name": "Test Block: (Twenty-Four Rotation)",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "review:checked"
    ]
   },
   "titanium:block_asset_test": {
    "kind": "block",
    "name": "Test Block: (Asset)",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "review:checked"
    ]
   },
   "titanium:machine_test": {
    "kind": "block",
    "name": "Test Block: (Machine)",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21"
+ "tagged_version": "1.21",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21",
+  "pass": "loop-back",
+  "note": "Library; its items are test blocks.",
+  "class": "library",
+  "purpose": "Titanium: dev library for Hrznstudio mods (test blocks only)"
+ }
 }

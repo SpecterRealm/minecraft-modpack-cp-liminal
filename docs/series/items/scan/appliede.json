@@ -36,47 +36,60 @@
    "kind": "block",
    "name": "ME Transmutation Interface",
    "tags": [
+    "kind:gadget",
     "function:automate",
     "power-type:emc",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "appliede:cable_emc_interface": {
    "kind": "item",
    "name": "ME Transmutation Interface",
    "tags": [
-    "function:transfer",
     "power-role:transfers",
-    "power-type:fe",
+    "kind:gadget",
     "function:automate",
     "power-type:emc",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "appliede:emc_module": {
    "kind": "item",
    "name": "ME Transmutation Module",
    "tags": [
-    "power-type:emc",
     "kind:gadget",
-    "review:auto"
+    "function:automate",
+    "power-type:emc",
+    "power-role:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "appliede:emc_export_bus": {
    "kind": "item",
    "name": "ME Transmutation Export Bus",
    "tags": [
+    "kind:gadget",
+    "function:automate",
     "power-type:emc",
-    "review:auto"
+    "power-role:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "appliede:emc_import_bus": {
    "kind": "item",
    "name": "ME Transmutation Import Bus",
    "tags": [
+    "kind:gadget",
+    "function:automate",
     "power-type:emc",
-    "review:auto"
+    "power-role:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "appliede:learning_card": {
@@ -84,25 +97,35 @@
    "name": "Alchemical Mastery Card",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "function:automate",
+    "power-type:emc",
+    "power-role:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "appliede:transmutation_terminal": {
    "kind": "item",
    "name": "ME Transmutation Terminal",
    "tags": [
-    "function:automate",
+    "kind:machine",
+    "function:craft",
     "power-type:emc",
-    "review:auto"
+    "power-role:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "appliede:wireless_transmutation_terminal": {
    "kind": "item",
    "name": "Wireless Transmutation Terminal",
    "tags": [
-    "function:automate",
+    "kind:machine",
+    "function:craft",
     "power-type:emc",
-    "review:auto"
+    "power-role:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "appliede:dummy_emc_item": {
@@ -110,11 +133,22 @@
    "name": "Dummy EMC Item",
    "tags": [
     "power-type:emc",
-    "review:auto"
+    "power-role:none",
+    "needs:none",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.0.8-beta"
+ "tagged_version": "1.0.8-beta",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.0.8-beta",
+  "pass": "loop-back",
+  "note": "Lets AE2 networks store and use EMC (EMC module, EMC interface, import/export bus, transmutation terminal). Core of Influx's EMC stack. Built-in support: AE2, ProjectE.",
+  "class": "ae2-addon",
+  "purpose": "AE2 to ProjectE bridge (EMC interface, transmutation terminal)"
+ }
 }

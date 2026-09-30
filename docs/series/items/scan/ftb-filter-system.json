@@ -28,11 +28,23 @@
    "kind": "item",
    "name": "Smart Filter",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "v21.1.4"
+ "tagged_version": "v21.1.4",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "21.1.4",
+  "pass": "loop-back",
+  "note": "Smart filter item and library.",
+  "class": "library",
+  "purpose": "FTB filter system; used by FTB Quests"
+ }
 }

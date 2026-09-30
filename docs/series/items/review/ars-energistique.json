@@ -1,0 +1,49 @@
+{
+ "class": "ae2-addon",
+ "purpose": "Source storage in AE2 (ME source jar, source cells)",
+ "note": "Bridges Ars Nouveau Source into AE2: ME source jar, source cells and P2P. Added for the Elysian/AE2 overlap. Built-in support: AE2, Ars Nouveau (required).",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^(me_source_jar|source_acceptor|cable_source_acceptor)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "kind:block",
+    "function:store",
+    "function:transfer",
+    "power-role:stores",
+    "power-type:source"
+   ]
+  },
+  {
+   "match": "^(source_storage_cell_.*|portable_source_cell_.*|source_cell_housing)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-type"
+   ],
+   "set": [
+    "kind:storage",
+    "function:store",
+    "power-type:source",
+    "scale:tiered"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech"
+   ]
+  }
+ ]
+}

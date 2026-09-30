@@ -1,0 +1,19 @@
+{
+ "class": "content",
+ "purpose": "Ars utilities: scroll holder, scryer linkage, relays",
+ "note": "Utility items for Ars Nouveau (review).",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech"
+   ]
+  }
+ ]
+}

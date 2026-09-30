@@ -35,12 +35,24 @@
    "name": "%s Spawner",
    "tags": [
     "kind:machine",
-    "function:process",
-    "review:auto"
+    "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21"
+ "tagged_version": "1.21",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21",
+  "pass": "loop-back",
+  "note": "Spawner block tweaks.",
+  "class": "content",
+  "purpose": "Spawner control for Apotheosis"
+ }
 }

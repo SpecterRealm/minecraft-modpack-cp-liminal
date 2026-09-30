@@ -5,6 +5,8 @@ A review file docs/series/items/review/<mod>.json holds the decisions made while
 
     {
       "note": "what the mod is for in the pack, anything odd",
+      "class": "library|perf-client|qol-client|qol-gameplay|viewer|kubejs-addon|compat|ae2-addon|worldgen|guide|server-tool|content",
+      "purpose": "one line: what it does and who needs it",
       "rules": [
         {"match": "_ore_chunk$", "kind": "item",            # regex on the id after the colon; optional block|item|entity|fluid
          "clear": ["kind", "needs"],                        # drop every tag of these facets first
@@ -73,6 +75,9 @@ def apply(mod, dry=False):
         it["tags"] = tags + ["review:checked"]
     d["review"] = {"status": "checked", "date": datetime.date.today().isoformat(), "mod_version": re.sub(r"^v", "", str(d.get("ref") or "")),
                    "pass": "loop-back", "note": rules.get("note", "")}
+    for k in ("class", "purpose"):
+        if rules.get(k):
+            d["review"][k] = rules[k]
     if dry:
         print(f"{mod}: would change tags on {changed} of {len(d['items'])} items")
         return
@@ -84,7 +89,7 @@ def status():
     done, todo = [], []
     for p in sorted(glob.glob(os.path.join(SCAN, "*.json"))):
         d = json.load(open(p, encoding="utf-8"))
-        if "same_repo_as" in d or not d.get("items"):
+        if "same_repo_as" in d or "error" in d:
             continue
         mod = os.path.basename(p)[:-5]
         (done if d.get("review") else todo).append((mod, len(d["items"]), d.get("review")))

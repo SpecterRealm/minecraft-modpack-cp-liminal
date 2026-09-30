@@ -73,264 +73,338 @@
    "kind": "block",
    "name": "16M MEGA Crafting Storage",
    "tags": [
-    "function:store",
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:1m_crafting_storage": {
    "kind": "block",
    "name": "1M MEGA Crafting Storage",
    "tags": [
-    "function:store",
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:256m_crafting_storage": {
    "kind": "block",
    "name": "256M MEGA Crafting Storage",
    "tags": [
-    "function:store",
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:4m_crafting_storage": {
    "kind": "block",
    "name": "4M MEGA Crafting Storage",
    "tags": [
-    "function:store",
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:64m_crafting_storage": {
    "kind": "block",
    "name": "64M MEGA Crafting Storage",
    "tags": [
-    "function:store",
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:mega_crafting_accelerator": {
    "kind": "block",
    "name": "MEGA Crafting Co-Processing Unit",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:mega_crafting_monitor": {
    "kind": "block",
    "name": "MEGA Crafting Monitor",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:mega_crafting_unit": {
    "kind": "block",
    "name": "MEGA Crafting Unit",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:mega_emc_interface": {
    "kind": "block",
    "name": "MEGA Transmutation Interface",
    "tags": [
+    "kind:machine",
     "function:automate",
-    "power-type:emc",
-    "kind:block",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:mega_energy_cell": {
    "kind": "block",
    "name": "Superdense Energy Cell",
    "tags": [
-    "function:store",
-    "power-role:stores",
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:mega_interface": {
    "kind": "block",
    "name": "MEGA Interface",
    "tags": [
+    "kind:machine",
     "function:automate",
-    "kind:block",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:mega_pattern_provider": {
    "kind": "block",
    "name": "MEGA Pattern Provider",
    "tags": [
+    "kind:machine",
     "function:automate",
-    "kind:block",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:sky_bronze_block": {
    "kind": "block",
    "name": "Sky Bronze Block",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:sky_osmium_block": {
    "kind": "block",
    "name": "Sky Osmium Block",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:sky_steel_block": {
    "kind": "block",
    "name": "Sky Steel Block",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:accumulation_processor": {
    "kind": "item",
    "name": "Accumulation Processor",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:accumulation_processor_press": {
    "kind": "item",
    "name": "Inscriber Accumulation Press",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:bulk_cell_component": {
    "kind": "item",
    "name": "MEGA Bulk Storage Component",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:bulk_item_cell": {
    "kind": "item",
    "name": "MEGA Bulk Item Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:cable_mega_emc_interface": {
    "kind": "item",
    "name": "MEGA Transmutation Interface",
    "tags": [
-    "function:transfer",
-    "power-role:transfers",
-    "power-type:fe",
+    "kind:machine",
     "function:automate",
-    "power-type:emc",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:cable_mega_interface": {
    "kind": "item",
    "name": "MEGA Interface",
    "tags": [
-    "function:transfer",
-    "power-role:transfers",
-    "power-type:fe",
+    "kind:machine",
     "function:automate",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:cable_mega_pattern_provider": {
    "kind": "item",
    "name": "MEGA Pattern Provider",
    "tags": [
-    "function:transfer",
-    "power-role:transfers",
-    "power-type:fe",
+    "kind:machine",
     "function:automate",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:cell_component_16m": {
    "kind": "item",
    "name": "16M MEGA Storage Component",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:cell_component_1m": {
    "kind": "item",
    "name": "1M MEGA Storage Component",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:cell_component_256m": {
    "kind": "item",
    "name": "256M MEGA Storage Component",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:cell_component_4m": {
    "kind": "item",
    "name": "4M MEGA Storage Component",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:cell_component_64m": {
    "kind": "item",
    "name": "64M MEGA Storage Component",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:cell_dock": {
    "kind": "item",
    "name": "ME Cell Dock",
    "tags": [
-    "function:store",
-    "power-role:stores",
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:compression_card": {
@@ -338,7 +412,11 @@
    "name": "Compression Card",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "function:automate",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:decompression_module": {
@@ -346,107 +424,141 @@
    "name": "MEGA Decompression Module",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "function:automate",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:experience_storage_cell_16m": {
    "kind": "item",
    "name": "16M MEGA Experience Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:experience_storage_cell_1m": {
    "kind": "item",
    "name": "1M MEGA Experience Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:experience_storage_cell_256m": {
    "kind": "item",
    "name": "256M MEGA Experience Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:experience_storage_cell_4m": {
    "kind": "item",
    "name": "4M MEGA Experience Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:experience_storage_cell_64m": {
    "kind": "item",
    "name": "64M MEGA Experience Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:fluid_storage_cell_16m": {
    "kind": "item",
    "name": "16M MEGA Fluid Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:fluid_storage_cell_1m": {
    "kind": "item",
    "name": "1M MEGA Fluid Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:fluid_storage_cell_256m": {
    "kind": "item",
    "name": "256M MEGA Fluid Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:fluid_storage_cell_4m": {
    "kind": "item",
    "name": "4M MEGA Fluid Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:fluid_storage_cell_64m": {
    "kind": "item",
    "name": "64M MEGA Fluid Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:greater_energy_card": {
@@ -454,175 +566,213 @@
    "name": "Greater Energy Card",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "function:automate",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:item_storage_cell_16m": {
    "kind": "item",
    "name": "16M MEGA Item Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:item_storage_cell_1m": {
    "kind": "item",
    "name": "1M MEGA Item Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:item_storage_cell_256m": {
    "kind": "item",
    "name": "256M MEGA Item Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:item_storage_cell_4m": {
    "kind": "item",
    "name": "4M MEGA Item Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:item_storage_cell_64m": {
    "kind": "item",
    "name": "64M MEGA Item Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:mana_storage_cell_16m": {
    "kind": "item",
    "name": "16M MEGA Mana Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "power-type:mana",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:mana_storage_cell_1m": {
    "kind": "item",
    "name": "1M MEGA Mana Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "power-type:mana",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:mana_storage_cell_256m": {
    "kind": "item",
    "name": "256M MEGA Mana Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "power-type:mana",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:mana_storage_cell_4m": {
    "kind": "item",
    "name": "4M MEGA Mana Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "power-type:mana",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:mana_storage_cell_64m": {
    "kind": "item",
    "name": "64M MEGA Mana Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "power-type:mana",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:mega_experience_cell_housing": {
    "kind": "item",
    "name": "MEGA Experience Cell Housing",
    "tags": [
-    "function:store",
-    "power-role:stores",
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:mega_fluid_cell_housing": {
    "kind": "item",
    "name": "MEGA Fluid Cell Housing",
    "tags": [
-    "function:store",
-    "power-role:stores",
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:mega_item_cell_housing": {
    "kind": "item",
    "name": "MEGA Item Cell Housing",
    "tags": [
-    "function:store",
-    "power-role:stores",
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:mega_mana_cell_housing": {
    "kind": "item",
    "name": "MEGA Mana Cell Housing",
    "tags": [
-    "function:store",
-    "power-role:stores",
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
     "power-type:fe",
-    "power-type:mana",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:mega_soul_cell_housing": {
    "kind": "item",
    "name": "MEGA Soul Cell Housing",
    "tags": [
-    "function:store",
-    "power-role:stores",
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
     "power-type:fe",
-    "needs:nether",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:mega_source_cell_housing": {
    "kind": "item",
    "name": "MEGA Source Cell Housing",
    "tags": [
-    "function:store",
-    "power-role:stores",
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
     "power-type:fe",
-    "power-type:source",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_cell_workbench": {
@@ -633,7 +783,8 @@
     "power-role:stores",
     "power-type:fe",
     "function:craft",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_experience_cell_16m": {
@@ -643,7 +794,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_experience_cell_1m": {
@@ -653,7 +805,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_experience_cell_256m": {
@@ -663,7 +816,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_experience_cell_4m": {
@@ -673,7 +827,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_experience_cell_64m": {
@@ -683,7 +838,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_fluid_cell_16m": {
@@ -693,7 +849,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_fluid_cell_1m": {
@@ -703,7 +860,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_fluid_cell_256m": {
@@ -713,7 +871,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_fluid_cell_4m": {
@@ -723,7 +882,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_fluid_cell_64m": {
@@ -733,7 +893,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_item_cell_16m": {
@@ -743,7 +904,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_item_cell_1m": {
@@ -753,7 +915,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_item_cell_256m": {
@@ -763,7 +926,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_item_cell_4m": {
@@ -773,7 +937,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_item_cell_64m": {
@@ -783,7 +948,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_mana_cell_16m": {
@@ -794,7 +960,8 @@
     "power-role:stores",
     "power-type:fe",
     "power-type:mana",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_mana_cell_1m": {
@@ -805,7 +972,8 @@
     "power-role:stores",
     "power-type:fe",
     "power-type:mana",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_mana_cell_256m": {
@@ -816,7 +984,8 @@
     "power-role:stores",
     "power-type:fe",
     "power-type:mana",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_mana_cell_4m": {
@@ -827,7 +996,8 @@
     "power-role:stores",
     "power-type:fe",
     "power-type:mana",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_mana_cell_64m": {
@@ -838,7 +1008,8 @@
     "power-role:stores",
     "power-type:fe",
     "power-type:mana",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_source_cell_16m": {
@@ -849,7 +1020,8 @@
     "power-role:stores",
     "power-type:fe",
     "power-type:source",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_source_cell_1m": {
@@ -860,7 +1032,8 @@
     "power-role:stores",
     "power-type:fe",
     "power-type:source",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_source_cell_256m": {
@@ -871,7 +1044,8 @@
     "power-role:stores",
     "power-type:fe",
     "power-type:source",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_source_cell_4m": {
@@ -882,7 +1056,8 @@
     "power-role:stores",
     "power-type:fe",
     "power-type:source",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:portable_source_cell_64m": {
@@ -893,7 +1068,8 @@
     "power-role:stores",
     "power-type:fe",
     "power-type:source",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:printed_accumulation_processor": {
@@ -902,7 +1078,10 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:radioactive_cell_component": {
@@ -912,7 +1091,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:sky_bronze_ingot": {
@@ -920,7 +1100,10 @@
    "name": "Sky Bronze Ingot",
    "tags": [
     "kind:material",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:sky_osmium_ingot": {
@@ -928,7 +1111,10 @@
    "name": "Sky Osmium Ingot",
    "tags": [
     "kind:material",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:sky_steel_ingot": {
@@ -936,121 +1122,153 @@
    "name": "Sky Steel Ingot",
    "tags": [
     "kind:material",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "megacells:soul_storage_cell_16m": {
    "kind": "item",
    "name": "16M MEGA Soul Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "needs:nether",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:soul_storage_cell_1m": {
    "kind": "item",
    "name": "1M MEGA Soul Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "needs:nether",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:soul_storage_cell_256m": {
    "kind": "item",
    "name": "256M MEGA Soul Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "needs:nether",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:soul_storage_cell_4m": {
    "kind": "item",
    "name": "4M MEGA Soul Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "needs:nether",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:soul_storage_cell_64m": {
    "kind": "item",
    "name": "64M MEGA Soul Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "needs:nether",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:source_storage_cell_16m": {
    "kind": "item",
    "name": "16M MEGA Source Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "power-type:source",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:source_storage_cell_1m": {
    "kind": "item",
    "name": "1M MEGA Source Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "power-type:source",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:source_storage_cell_256m": {
    "kind": "item",
    "name": "256M MEGA Source Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "power-type:source",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:source_storage_cell_4m": {
    "kind": "item",
    "name": "4M MEGA Source Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "power-type:source",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "megacells:source_storage_cell_64m": {
    "kind": "item",
    "name": "64M MEGA Source Storage Cell",
    "tags": [
+    "kind:storage",
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "power-type:source",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "4.11.0"
+ "tagged_version": "4.11.0",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "4.11.0",
+  "pass": "loop-back",
+  "note": "Adds million-scale AE2 cells, mega crafting CPUs and interfaces, and an EMC interface for ProjectE; storage tiers past AE2's 256k. Overlaps MEGA-style scaling in other AE2 add-ons but is the only one for cells. Built-in support: AE2, Mekanism, ProjectE (EMC interface), Not Enough Patterns, Productive Bees.",
+  "class": "ae2-addon",
+  "purpose": "Bigger AE2 storage cells and crafting (1M to 256M)"
+ }
 }

@@ -1,0 +1,30 @@
+{
+ "class": "qol-gameplay",
+ "purpose": "Sleeping bags, hammocks and rope-and-nail",
+ "note": "Sleeping bags and hammocks (decided: keep in all four packs).",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^(hammock_.*|sleeping_bag_.*|rope_and_nail)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:gadget",
+    "function:travel"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

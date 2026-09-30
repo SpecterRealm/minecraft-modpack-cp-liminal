@@ -1,0 +1,19 @@
+{
+ "class": "library",
+ "purpose": "ZeroCore: library for Extreme Reactors",
+ "note": "Library; required by Extreme Reactors.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

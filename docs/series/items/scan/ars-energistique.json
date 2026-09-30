@@ -29,105 +29,117 @@
    "kind": "block",
    "name": "ME Source Jar",
    "tags": [
-    "function:store",
-    "power-type:source",
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "function:store",
+    "function:transfer",
+    "power-role:stores",
+    "power-type:source",
+    "review:checked"
    ]
   },
   "arseng:source_acceptor": {
    "kind": "block",
    "name": "ME Source Converter",
    "tags": [
-    "power-type:source",
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "function:store",
+    "function:transfer",
+    "power-role:stores",
+    "power-type:source",
+    "review:checked"
    ]
   },
   "arseng:cable_source_acceptor": {
    "kind": "item",
    "name": "ME Source Converter",
    "tags": [
-    "function:transfer",
-    "power-role:transfers",
-    "power-type:fe",
-    "power-type:source",
     "needs:spell-tech",
-    "review:auto"
+    "kind:block",
+    "function:store",
+    "function:transfer",
+    "power-role:stores",
+    "power-type:source",
+    "review:checked"
    ]
   },
   "arseng:portable_source_cell_16k": {
    "kind": "item",
    "name": "16k Portable Source Cell",
    "tags": [
-    "function:store",
     "power-role:stores",
-    "power-type:fe",
-    "power-type:source",
     "needs:spell-tech",
-    "review:auto"
+    "kind:storage",
+    "function:store",
+    "power-type:source",
+    "scale:tiered",
+    "review:checked"
    ]
   },
   "arseng:portable_source_cell_1k": {
    "kind": "item",
    "name": "1k Portable Source Cell",
    "tags": [
-    "function:store",
     "power-role:stores",
-    "power-type:fe",
-    "power-type:source",
     "needs:spell-tech",
-    "review:auto"
+    "kind:storage",
+    "function:store",
+    "power-type:source",
+    "scale:tiered",
+    "review:checked"
    ]
   },
   "arseng:portable_source_cell_256k": {
    "kind": "item",
    "name": "256k Portable Source Cell",
    "tags": [
-    "function:store",
     "power-role:stores",
-    "power-type:fe",
-    "power-type:source",
     "needs:spell-tech",
-    "review:auto"
+    "kind:storage",
+    "function:store",
+    "power-type:source",
+    "scale:tiered",
+    "review:checked"
    ]
   },
   "arseng:portable_source_cell_4k": {
    "kind": "item",
    "name": "4k Portable Source Cell",
    "tags": [
-    "function:store",
     "power-role:stores",
-    "power-type:fe",
-    "power-type:source",
     "needs:spell-tech",
-    "review:auto"
+    "kind:storage",
+    "function:store",
+    "power-type:source",
+    "scale:tiered",
+    "review:checked"
    ]
   },
   "arseng:portable_source_cell_64k": {
    "kind": "item",
    "name": "64k Portable Source Cell",
    "tags": [
-    "function:store",
     "power-role:stores",
-    "power-type:fe",
-    "power-type:source",
     "needs:spell-tech",
-    "review:auto"
+    "kind:storage",
+    "function:store",
+    "power-type:source",
+    "scale:tiered",
+    "review:checked"
    ]
   },
   "arseng:source_cell_housing": {
    "kind": "item",
    "name": "ME Source Cell Housing",
    "tags": [
-    "function:store",
     "power-role:stores",
-    "power-type:fe",
-    "power-type:source",
     "needs:spell-tech",
-    "review:auto"
+    "kind:storage",
+    "function:store",
+    "power-type:source",
+    "scale:tiered",
+    "review:checked"
    ]
   },
   "arseng:source_p2p_tunnel": {
@@ -136,67 +148,73 @@
    "tags": [
     "power-type:source",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "review:checked"
    ]
   },
   "arseng:source_storage_cell_16k": {
    "kind": "item",
    "name": "16k ME Source Storage Cell",
    "tags": [
-    "function:store",
     "power-role:stores",
-    "power-type:fe",
-    "power-type:source",
     "needs:spell-tech",
-    "review:auto"
+    "kind:storage",
+    "function:store",
+    "power-type:source",
+    "scale:tiered",
+    "review:checked"
    ]
   },
   "arseng:source_storage_cell_1k": {
    "kind": "item",
    "name": "1k ME Source Storage Cell",
    "tags": [
-    "function:store",
     "power-role:stores",
-    "power-type:fe",
-    "power-type:source",
     "needs:spell-tech",
-    "review:auto"
+    "kind:storage",
+    "function:store",
+    "power-type:source",
+    "scale:tiered",
+    "review:checked"
    ]
   },
   "arseng:source_storage_cell_256k": {
    "kind": "item",
    "name": "256k ME Source Storage Cell",
    "tags": [
-    "function:store",
     "power-role:stores",
-    "power-type:fe",
-    "power-type:source",
     "needs:spell-tech",
-    "review:auto"
+    "kind:storage",
+    "function:store",
+    "power-type:source",
+    "scale:tiered",
+    "review:checked"
    ]
   },
   "arseng:source_storage_cell_4k": {
    "kind": "item",
    "name": "4k ME Source Storage Cell",
    "tags": [
-    "function:store",
     "power-role:stores",
-    "power-type:fe",
-    "power-type:source",
     "needs:spell-tech",
-    "review:auto"
+    "kind:storage",
+    "function:store",
+    "power-type:source",
+    "scale:tiered",
+    "review:checked"
    ]
   },
   "arseng:source_storage_cell_64k": {
    "kind": "item",
    "name": "64k ME Source Storage Cell",
    "tags": [
-    "function:store",
     "power-role:stores",
-    "power-type:fe",
-    "power-type:source",
     "needs:spell-tech",
-    "review:auto"
+    "kind:storage",
+    "function:store",
+    "power-type:source",
+    "scale:tiered",
+    "review:checked"
    ]
   },
   "arseng:spell_p2p_tunnel": {
@@ -206,11 +224,21 @@
     "function:enchant",
     "power-type:mana",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "2.1.1-beta"
+ "tagged_version": "2.1.1-beta",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "2.1.1-beta",
+  "pass": "loop-back",
+  "note": "Bridges Ars Nouveau Source into AE2: ME source jar, source cells and P2P. Added for the Elysian/AE2 overlap. Built-in support: AE2, Ars Nouveau (required).",
+  "class": "ae2-addon",
+  "purpose": "Source storage in AE2 (ME source jar, source cells)"
+ }
 }

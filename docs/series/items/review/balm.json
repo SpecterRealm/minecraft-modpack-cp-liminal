@@ -1,0 +1,19 @@
+{
+ "class": "library",
+ "purpose": "Library for Waystones, Forge-family mods and more (tag items are UI)",
+ "note": "Shared library; its lang entries are tag names.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

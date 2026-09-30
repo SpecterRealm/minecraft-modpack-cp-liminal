@@ -46,10 +46,13 @@
    "kind": "block",
    "name": "Alternator",
    "tags": [
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "fuel:kinetic",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:barbed_wire": {
@@ -57,7 +60,10 @@
    "name": "Barbed Wire",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:bioethanol": {
@@ -65,7 +71,10 @@
    "name": "Bioethanol",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:biomass_pellet_block": {
@@ -73,7 +82,10 @@
    "name": "Biomass Pallet",
    "tags": [
     "kind:material",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:chocolate_cake": {
@@ -81,18 +93,22 @@
    "name": "Chocolate Cake",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:connector": {
    "kind": "block",
    "name": "Small Connector",
    "tags": [
+    "kind:block",
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:creative_energy": {
@@ -102,32 +118,46 @@
     "function:generate",
     "power-role:makes",
     "kind:block",
-    "review:auto"
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:digital_adapter": {
    "kind": "block",
    "name": "Digital Adapter",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:electric_motor": {
    "kind": "block",
    "name": "Electric Motor",
    "tags": [
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
     "power-type:stress",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:electric_pump": {
    "kind": "block",
    "name": "Electric Pump",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:electrum_block": {
@@ -135,7 +165,10 @@
    "name": "Electrum Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:honey_cake": {
@@ -143,66 +176,83 @@
    "name": "Honey Cake",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:large_connector": {
    "kind": "block",
    "name": "Large Connector",
    "tags": [
+    "kind:block",
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:liquid_blaze_burner": {
    "kind": "block",
    "name": "Blaze Burner with Straw",
    "tags": [
-    "needs:nether",
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:modular_accumulator": {
    "kind": "block",
    "name": "Accumulator",
    "tags": [
+    "kind:multiblock",
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "scale:size-scaled",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:portable_energy_interface": {
    "kind": "block",
    "name": "Portable Energy Interface",
    "tags": [
-    "function:automate",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:redstone_relay": {
    "kind": "block",
    "name": "Redstone Relay",
    "tags": [
+    "kind:block",
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:rolling_mill": {
    "kind": "block",
    "name": "Rolling Mill",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:seed_oil": {
@@ -211,36 +261,47 @@
    "tags": [
     "function:farm",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:servo_motor": {
    "kind": "block",
    "name": "Servo Motor",
    "tags": [
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
     "power-type:stress",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:small_light_connector": {
    "kind": "block",
    "name": "Small Connector With Light",
    "tags": [
+    "kind:block",
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "function:light",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:tesla_coil": {
    "kind": "block",
    "name": "Tesla Coil",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:bioethanol_bucket": {
@@ -248,14 +309,21 @@
    "name": "Bucket of Biofuel",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:biomass": {
    "kind": "item",
    "name": "Biomass",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "createaddition:biomass_pellet": {
@@ -263,7 +331,10 @@
    "name": "Biomass Pellet",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "createaddition:brass_rod": {
@@ -271,7 +342,10 @@
    "name": "Brass Rod",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "createaddition:cake_base": {
@@ -279,7 +353,10 @@
    "name": "Cake Base",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:cake_base_baked": {
@@ -287,17 +364,22 @@
    "name": "Baked Cake Base",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:capacitor": {
    "kind": "item",
    "name": "Capacitor",
    "tags": [
-    "function:store",
-    "power-role:stores",
+    "kind:block",
+    "function:transfer",
+    "power-role:transfers",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:copper_rod": {
@@ -305,21 +387,32 @@
    "name": "Copper Rod",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "createaddition:copper_spool": {
    "kind": "item",
    "name": "Copper Spool",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "createaddition:copper_wire": {
    "kind": "item",
    "name": "Copper Wire",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "createaddition:diamond_grit": {
@@ -327,7 +420,10 @@
    "name": "Diamond Grit",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "createaddition:diamond_grit_sandpaper": {
@@ -335,7 +431,10 @@
    "name": "Diamond Grit Sand Paper",
    "tags": [
     "kind:material",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:electrum_amulet": {
@@ -343,7 +442,10 @@
    "name": "Pale Gold Amulet",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:electrum_ingot": {
@@ -351,7 +453,10 @@
    "name": "Electrum Ingot",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "createaddition:electrum_nugget": {
@@ -359,7 +464,10 @@
    "name": "Electrum Nugget",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "createaddition:electrum_rod": {
@@ -367,7 +475,10 @@
    "name": "Electrum Rod",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "createaddition:electrum_sheet": {
@@ -375,29 +486,43 @@
    "name": "Electrum Sheet",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "createaddition:electrum_spool": {
    "kind": "item",
    "name": "Electrum Spool",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "createaddition:electrum_wire": {
    "kind": "item",
    "name": "Electrum Wire",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "createaddition:festive_spool": {
    "kind": "item",
    "name": "Copper Spool with Festive Lights",
    "tags": [
-    "function:light",
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "createaddition:gold_rod": {
@@ -405,21 +530,32 @@
    "name": "Gold Rod",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "createaddition:gold_spool": {
    "kind": "item",
    "name": "Gold Spool",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "createaddition:gold_wire": {
    "kind": "item",
    "name": "Gold Wire",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "createaddition:iron_rod": {
@@ -427,14 +563,21 @@
    "name": "Iron Rod",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "createaddition:iron_wire": {
    "kind": "item",
    "name": "Iron Wire",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "createaddition:seed_oil_bucket": {
@@ -443,21 +586,30 @@
    "tags": [
     "kind:tool",
     "function:farm",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:spool": {
    "kind": "item",
    "name": "Empty Spool",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:straw": {
    "kind": "item",
    "name": "Straw",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:zinc_sheet": {
@@ -465,7 +617,10 @@
    "name": "Zinc Sheet",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "createaddition:bronze_rod": {
@@ -473,50 +628,73 @@
    "name": "Bronze Rod",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "createaddition:brass_figurine": {
    "kind": "item",
    "name": "Brass Figurine",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:copper_goblet": {
    "kind": "item",
    "name": "Copper Goblet",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:gold_goblet": {
    "kind": "item",
    "name": "Ornate Goblet",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createaddition:spool.nbt": {
    "kind": "item",
    "name": "Stores connection location.",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "createaddition:accumulator": {
    "kind": "block",
    "name": "Accumulator",
    "tags": [
+    "kind:multiblock",
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "scale:size-scaled",
+    "needs:none",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21.1"
+ "tagged_version": "1.21.1",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "Create Crafts & Additions: alternator (stress to FE), electric motor, modular accumulator, connectors, tesla coil, and Create metal processing items. Curated catalog in data/createaddition.json. Built-in support: Create (required), Mekanism, AE2.",
+  "class": "content",
+  "purpose": "FE bridge for Create: alternator, electric motor, accumulator, connectors"
+ }
 }

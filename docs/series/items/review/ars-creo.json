@@ -1,0 +1,35 @@
+{
+ "class": "compat",
+ "purpose": "Starbuncle wheel: Ars x Create bridge",
+ "note": "Starbuncle-driven wheel producing stress; Ars to Create bridge.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^starbuncle_wheel$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:stress",
+    "power-type:source"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech"
+   ]
+  }
+ ]
+}

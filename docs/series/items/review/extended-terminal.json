@@ -1,0 +1,34 @@
+{
+ "class": "ae2-addon",
+ "purpose": "Tiered AE2 terminals (extended terminal)",
+ "note": "Extra AE2 terminal tiers up to \"neo extreme\". Convenience upgrade; overlaps AE2 terminals and Wireless Terminals.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^(.*terminal|et_terminal|wireless_et_terminal)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

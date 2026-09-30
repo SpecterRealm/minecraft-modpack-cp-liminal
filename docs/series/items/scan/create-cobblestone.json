@@ -21,28 +21,39 @@
    "kind": "block",
    "name": "Mechanical Generator",
    "tags": [
-    "function:generate",
-    "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "createcobblestone:generators.hovertext.itemprefix": {
    "kind": "block",
    "name": "Generates: ",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "createcobblestone:generators.hovertext.no_item": {
    "kind": "block",
    "name": "Click on the generator with a stone type to set the generator type.",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21.1-neoforge"
+ "tagged_version": "1.21.1-neoforge",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1-neoforge",
+  "pass": "loop-back",
+  "note": "Mechanical generator that makes stone types. In Verdant, cobblegen feeds the sieve loop. Built-in support: Create (required).",
+  "class": "content",
+  "purpose": "Cobblestone generator for Create"
+ }
 }

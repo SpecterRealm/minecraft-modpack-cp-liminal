@@ -1,0 +1,49 @@
+{
+ "class": "qol-gameplay",
+ "purpose": "Magnets and demagnetization coils",
+ "note": "Pick-up magnets and demagnetization coils; decided: keep in all four packs (hide or disable in Elysian where no power is planned). Uses FE.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^(basicmagnet|advancedmagnet)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "kind:gadget",
+    "function:mine",
+    "power-role:uses",
+    "power-type:fe"
+   ]
+  },
+  {
+   "match": "_demagnetization_coil$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "kind:block",
+    "function:mine",
+    "power-role:uses",
+    "power-type:fe"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

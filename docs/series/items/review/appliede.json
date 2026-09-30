@@ -1,0 +1,45 @@
+{
+ "class": "ae2-addon",
+ "purpose": "AE2 to ProjectE bridge (EMC interface, transmutation terminal)",
+ "note": "Lets AE2 networks store and use EMC (EMC module, EMC interface, import/export bus, transmutation terminal). Core of Influx's EMC stack. Built-in support: AE2, ProjectE.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^(emc_.*|cable_emc_interface|learning_card)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-type"
+   ],
+   "set": [
+    "kind:gadget",
+    "function:automate",
+    "power-type:emc"
+   ]
+  },
+  {
+   "match": "^(transmutation_terminal|wireless_transmutation_terminal)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-type"
+   ],
+   "set": [
+    "kind:machine",
+    "function:craft",
+    "power-type:emc"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

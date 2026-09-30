@@ -27,11 +27,23 @@
    "kind": "item",
    "name": "Debug Tool",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21"
+ "tagged_version": "1.21",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21",
+  "pass": "loop-back",
+  "note": "Library; required by Extreme Reactors.",
+  "class": "library",
+  "purpose": "ZeroCore: library for Extreme Reactors"
+ }
 }

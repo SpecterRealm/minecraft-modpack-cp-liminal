@@ -31,11 +31,22 @@
    "tags": [
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "v2.6.1"
+ "tagged_version": "v2.6.1",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "2.6.1",
+  "pass": "loop-back",
+  "note": "Altar item bridging Ars rituals and Occultism.",
+  "class": "compat",
+  "purpose": "Ars x Occultism altar bridge"
+ }
 }

@@ -41,33 +41,48 @@
    "kind": "block",
    "name": "Stove",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:cooking_pot": {
    "kind": "block",
    "name": "Cooking Pot",
    "tags": [
-    "function:farm",
-    "kind:decoration",
-    "review:auto"
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:cutting_board": {
    "kind": "block",
    "name": "Cutting Board",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:skillet": {
    "kind": "block",
    "name": "Skillet",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:wooden_basket": {
@@ -75,7 +90,10 @@
    "name": "Basket",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:bamboo_basket": {
@@ -83,108 +101,142 @@
    "name": "Bamboo Basket",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:oak_cabinet": {
    "kind": "block",
    "name": "Oak Cabinet",
    "tags": [
-    "function:store",
-    "kind:storage",
-    "review:auto"
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:birch_cabinet": {
    "kind": "block",
    "name": "Birch Cabinet",
    "tags": [
-    "function:store",
-    "kind:storage",
-    "review:auto"
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:spruce_cabinet": {
    "kind": "block",
    "name": "Spruce Cabinet",
    "tags": [
-    "function:store",
-    "kind:storage",
-    "review:auto"
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:jungle_cabinet": {
    "kind": "block",
    "name": "Jungle Cabinet",
    "tags": [
-    "function:store",
-    "kind:storage",
-    "review:auto"
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:acacia_cabinet": {
    "kind": "block",
    "name": "Acacia Cabinet",
    "tags": [
-    "function:store",
-    "kind:storage",
-    "review:auto"
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:dark_oak_cabinet": {
    "kind": "block",
    "name": "Dark Oak Cabinet",
    "tags": [
-    "function:store",
-    "kind:storage",
-    "review:auto"
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:mangrove_cabinet": {
    "kind": "block",
    "name": "Mangrove Cabinet",
    "tags": [
-    "function:store",
-    "kind:storage",
-    "review:auto"
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:cherry_cabinet": {
    "kind": "block",
    "name": "Cherry Cabinet",
    "tags": [
-    "function:store",
-    "kind:storage",
-    "review:auto"
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:bamboo_cabinet": {
    "kind": "block",
    "name": "Bamboo Cabinet",
    "tags": [
-    "function:store",
-    "kind:storage",
-    "review:auto"
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:crimson_cabinet": {
    "kind": "block",
    "name": "Crimson Cabinet",
    "tags": [
-    "function:store",
-    "kind:storage",
     "needs:nether",
-    "review:auto"
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "farmersdelight:warped_cabinet": {
    "kind": "block",
    "name": "Warped Cabinet",
    "tags": [
-    "function:store",
-    "kind:storage",
     "needs:nether",
-    "review:auto"
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "farmersdelight:rope": {
@@ -192,7 +244,10 @@
    "name": "Rope",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:rope_fence": {
@@ -200,7 +255,10 @@
    "name": "Rope Fence",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:rope_fence_gate": {
@@ -208,7 +266,10 @@
    "name": "Rope Fence Gate",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:safety_net": {
@@ -216,7 +277,10 @@
    "name": "Safety Net",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:canvas_rug": {
@@ -224,7 +288,10 @@
    "name": "Canvas Rug",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:tatami": {
@@ -232,7 +299,10 @@
    "name": "Tatami Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:full_tatami_mat": {
@@ -240,7 +310,10 @@
    "name": "Full Tatami Mat",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:half_tatami_mat": {
@@ -248,15 +321,22 @@
    "name": "Half Tatami Mat",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:organic_compost": {
    "kind": "block",
    "name": "Organic Compost",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:rich_soil": {
@@ -265,7 +345,10 @@
    "tags": [
     "function:farm",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:rich_soil_farmland": {
@@ -274,63 +357,82 @@
    "tags": [
     "function:farm",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:carrot_crate": {
    "kind": "block",
    "name": "Carrot Crate",
    "tags": [
-    "kind:food",
-    "function:store",
-    "kind:storage",
-    "review:auto"
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:potato_crate": {
    "kind": "block",
    "name": "Potato Crate",
    "tags": [
-    "kind:food",
-    "function:store",
-    "kind:storage",
-    "review:auto"
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:beetroot_crate": {
    "kind": "block",
    "name": "Beetroot Crate",
    "tags": [
-    "function:store",
-    "kind:storage",
-    "review:auto"
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:cabbage_crate": {
    "kind": "block",
    "name": "Cabbage Crate",
    "tags": [
-    "function:store",
-    "kind:storage",
-    "review:auto"
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:tomato_crate": {
    "kind": "block",
    "name": "Tomato Crate",
    "tags": [
-    "function:store",
-    "kind:storage",
-    "review:auto"
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:onion_crate": {
    "kind": "block",
    "name": "Onion Crate",
    "tags": [
-    "function:store",
-    "kind:storage",
-    "review:auto"
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:rice_bale": {
@@ -338,7 +440,10 @@
    "name": "Rice Bale",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:rice_bag": {
@@ -347,7 +452,10 @@
    "tags": [
     "kind:food",
     "kind:storage",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:straw_bale": {
@@ -355,7 +463,10 @@
    "name": "Straw Bale",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:canvas_sign": {
@@ -363,7 +474,10 @@
    "name": "Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:white_canvas_sign": {
@@ -371,7 +485,10 @@
    "name": "White Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:orange_canvas_sign": {
@@ -379,7 +496,10 @@
    "name": "Orange Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:magenta_canvas_sign": {
@@ -387,7 +507,10 @@
    "name": "Magenta Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:light_blue_canvas_sign": {
@@ -396,7 +519,10 @@
    "tags": [
     "function:light",
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:yellow_canvas_sign": {
@@ -404,7 +530,10 @@
    "name": "Yellow Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:lime_canvas_sign": {
@@ -412,7 +541,10 @@
    "name": "Lime Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:pink_canvas_sign": {
@@ -420,7 +552,10 @@
    "name": "Pink Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:gray_canvas_sign": {
@@ -428,7 +563,10 @@
    "name": "Gray Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:light_gray_canvas_sign": {
@@ -437,7 +575,10 @@
    "tags": [
     "function:light",
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:cyan_canvas_sign": {
@@ -445,7 +586,10 @@
    "name": "Cyan Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:purple_canvas_sign": {
@@ -453,7 +597,10 @@
    "name": "Purple Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:blue_canvas_sign": {
@@ -461,7 +608,10 @@
    "name": "Blue Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:brown_canvas_sign": {
@@ -469,7 +619,10 @@
    "name": "Brown Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:green_canvas_sign": {
@@ -477,7 +630,10 @@
    "name": "Green Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:red_canvas_sign": {
@@ -485,7 +641,10 @@
    "name": "Red Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:black_canvas_sign": {
@@ -493,7 +652,10 @@
    "name": "Black Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:canvas_wall_sign": {
@@ -501,7 +663,10 @@
    "name": "Canvas Wall Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:white_canvas_wall_sign": {
@@ -509,7 +674,10 @@
    "name": "White Canvas Wall Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:orange_canvas_wall_sign": {
@@ -517,7 +685,10 @@
    "name": "Orange Canvas Wall Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:magenta_canvas_wall_sign": {
@@ -525,7 +696,10 @@
    "name": "Magenta Canvas Wall Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:light_blue_canvas_wall_sign": {
@@ -534,7 +708,10 @@
    "tags": [
     "function:light",
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:yellow_canvas_wall_sign": {
@@ -542,7 +719,10 @@
    "name": "Yellow Canvas Wall Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:lime_canvas_wall_sign": {
@@ -550,7 +730,10 @@
    "name": "Lime Canvas Wall Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:pink_canvas_wall_sign": {
@@ -558,7 +741,10 @@
    "name": "Pink Canvas Wall Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:gray_canvas_wall_sign": {
@@ -566,7 +752,10 @@
    "name": "Gray Canvas Wall Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:light_gray_canvas_wall_sign": {
@@ -575,7 +764,10 @@
    "tags": [
     "function:light",
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:cyan_canvas_wall_sign": {
@@ -583,7 +775,10 @@
    "name": "Cyan Canvas Wall Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:purple_canvas_wall_sign": {
@@ -591,7 +786,10 @@
    "name": "Purple Canvas Wall Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:blue_canvas_wall_sign": {
@@ -599,7 +797,10 @@
    "name": "Blue Canvas Wall Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:brown_canvas_wall_sign": {
@@ -607,7 +808,10 @@
    "name": "Brown Canvas Wall Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:green_canvas_wall_sign": {
@@ -615,7 +819,10 @@
    "name": "Green Canvas Wall Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:red_canvas_wall_sign": {
@@ -623,7 +830,10 @@
    "name": "Red Canvas Wall Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:black_canvas_wall_sign": {
@@ -631,7 +841,10 @@
    "name": "Black Canvas Wall Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:hanging_canvas_sign": {
@@ -639,7 +852,10 @@
    "name": "Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:white_hanging_canvas_sign": {
@@ -647,7 +863,10 @@
    "name": "White Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:orange_hanging_canvas_sign": {
@@ -655,7 +874,10 @@
    "name": "Orange Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:magenta_hanging_canvas_sign": {
@@ -663,7 +885,10 @@
    "name": "Magenta Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:light_blue_hanging_canvas_sign": {
@@ -672,7 +897,10 @@
    "tags": [
     "function:light",
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:yellow_hanging_canvas_sign": {
@@ -680,7 +908,10 @@
    "name": "Yellow Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:lime_hanging_canvas_sign": {
@@ -688,7 +919,10 @@
    "name": "Lime Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:pink_hanging_canvas_sign": {
@@ -696,7 +930,10 @@
    "name": "Pink Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:gray_hanging_canvas_sign": {
@@ -704,7 +941,10 @@
    "name": "Gray Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:light_gray_hanging_canvas_sign": {
@@ -713,7 +953,10 @@
    "tags": [
     "function:light",
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:cyan_hanging_canvas_sign": {
@@ -721,7 +964,10 @@
    "name": "Cyan Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:purple_hanging_canvas_sign": {
@@ -729,7 +975,10 @@
    "name": "Purple Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:blue_hanging_canvas_sign": {
@@ -737,7 +986,10 @@
    "name": "Blue Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:brown_hanging_canvas_sign": {
@@ -745,7 +997,10 @@
    "name": "Brown Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:green_hanging_canvas_sign": {
@@ -753,7 +1008,10 @@
    "name": "Green Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:red_hanging_canvas_sign": {
@@ -761,7 +1019,10 @@
    "name": "Red Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:black_hanging_canvas_sign": {
@@ -769,7 +1030,10 @@
    "name": "Black Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:wall_hanging_canvas_sign": {
@@ -777,7 +1041,10 @@
    "name": "Wall Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:white_wall_hanging_canvas_sign": {
@@ -785,7 +1052,10 @@
    "name": "White Wall Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:orange_wall_hanging_canvas_sign": {
@@ -793,7 +1063,10 @@
    "name": "Orange Wall Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:magenta_wall_hanging_canvas_sign": {
@@ -801,7 +1074,10 @@
    "name": "Magenta Wall Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:light_blue_wall_hanging_canvas_sign": {
@@ -810,7 +1086,10 @@
    "tags": [
     "function:light",
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:yellow_wall_hanging_canvas_sign": {
@@ -818,7 +1097,10 @@
    "name": "Yellow Wall Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:lime_wall_hanging_canvas_sign": {
@@ -826,7 +1108,10 @@
    "name": "Lime Wall Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:pink_wall_hanging_canvas_sign": {
@@ -834,7 +1119,10 @@
    "name": "Pink Wall Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:gray_wall_hanging_canvas_sign": {
@@ -842,7 +1130,10 @@
    "name": "Gray Wall Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:light_gray_wall_hanging_canvas_sign": {
@@ -851,7 +1142,10 @@
    "tags": [
     "function:light",
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:cyan_wall_hanging_canvas_sign": {
@@ -859,7 +1153,10 @@
    "name": "Cyan Wall Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:purple_wall_hanging_canvas_sign": {
@@ -867,7 +1164,10 @@
    "name": "Purple Wall Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:blue_wall_hanging_canvas_sign": {
@@ -875,7 +1175,10 @@
    "name": "Blue Wall Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:brown_wall_hanging_canvas_sign": {
@@ -883,7 +1186,10 @@
    "name": "Brown Wall Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:green_wall_hanging_canvas_sign": {
@@ -891,7 +1197,10 @@
    "name": "Green Wall Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:red_wall_hanging_canvas_sign": {
@@ -899,7 +1208,10 @@
    "name": "Red Wall Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:black_wall_hanging_canvas_sign": {
@@ -907,7 +1219,10 @@
    "name": "Black Wall Hanging Canvas Sign",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:budding_tomatoes": {
@@ -915,7 +1230,10 @@
    "name": "Budding Tomato Vine",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:tomatoes": {
@@ -923,7 +1241,10 @@
    "name": "Tomato Vine",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:tomatoes_on_rope": {
@@ -931,7 +1252,10 @@
    "name": "Tomato Vine on Rope",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:cabbages": {
@@ -939,7 +1263,10 @@
    "name": "Cabbage",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:onions": {
@@ -947,7 +1274,10 @@
    "name": "Onions",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:rice": {
@@ -955,7 +1285,10 @@
    "name": "Rice",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:rice_panicles": {
@@ -963,7 +1296,10 @@
    "name": "Rice Panicles",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:brown_mushroom_colony": {
@@ -971,7 +1307,10 @@
    "name": "Brown Mushroom Colony",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:red_mushroom_colony": {
@@ -979,7 +1318,10 @@
    "name": "Red Mushroom Colony",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:sandy_shrub": {
@@ -987,7 +1329,10 @@
    "name": "Sandy Shrub",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:wild_cabbages": {
@@ -995,7 +1340,10 @@
    "name": "Wild Cabbage",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:wild_tomatoes": {
@@ -1003,7 +1351,10 @@
    "name": "Tomato Shrub",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:wild_onions": {
@@ -1011,7 +1362,10 @@
    "name": "Wild Onion",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:wild_carrots": {
@@ -1019,7 +1373,10 @@
    "name": "Wild Carrot",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:wild_potatoes": {
@@ -1027,7 +1384,10 @@
    "name": "Wild Potato",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:wild_beetroots": {
@@ -1035,7 +1395,10 @@
    "name": "Sea Beet",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:wild_rice": {
@@ -1043,7 +1406,10 @@
    "name": "Wild Rice",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:apple_pie": {
@@ -1051,7 +1417,10 @@
    "name": "Apple Pie",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:sweet_berry_cheesecake": {
@@ -1059,7 +1428,10 @@
    "name": "Sweet Berry Cheesecake",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:chocolate_pie": {
@@ -1067,7 +1439,10 @@
    "name": "Chocolate Pie",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:pumpkin_pie": {
@@ -1075,28 +1450,43 @@
    "name": "Pumpkin Pie",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:tomato": {
    "kind": "item",
    "name": "Tomato",
    "tags": [
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:cabbage": {
    "kind": "item",
    "name": "Cabbage",
    "tags": [
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:onion": {
    "kind": "item",
    "name": "Onion",
    "tags": [
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:cabbage_seeds": {
@@ -1104,7 +1494,11 @@
    "name": "Cabbage Seeds",
    "tags": [
     "function:farm",
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:tomato_seeds": {
@@ -1112,7 +1506,11 @@
    "name": "Tomato Seeds",
    "tags": [
     "function:farm",
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:rice_panicle": {
@@ -1120,7 +1518,10 @@
    "name": "Rice Panicle",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:rotten_tomato": {
@@ -1128,21 +1529,32 @@
    "name": "Rotten Tomato",
    "tags": [
     "kind:mob",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:straw": {
    "kind": "item",
    "name": "Straw",
    "tags": [
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:canvas": {
    "kind": "item",
    "name": "Canvas",
    "tags": [
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:tree_bark": {
@@ -1150,14 +1562,22 @@
    "name": "Tree Bark",
    "tags": [
     "function:farm",
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:tomato_sauce": {
    "kind": "item",
    "name": "Tomato Sauce",
    "tags": [
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:fried_egg": {
@@ -1165,7 +1585,10 @@
    "name": "Fried Egg",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:milk_bottle": {
@@ -1173,14 +1596,21 @@
    "name": "Milk Bottle",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:hot_cocoa": {
    "kind": "item",
    "name": "Hot Cocoa",
    "tags": [
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:apple_cider": {
@@ -1188,7 +1618,10 @@
    "name": "Apple Cider",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:melon_juice": {
@@ -1196,14 +1629,21 @@
    "name": "Melon Juice",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:wheat_dough": {
    "kind": "item",
    "name": "Wheat Dough",
    "tags": [
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:raw_pasta": {
@@ -1211,22 +1651,32 @@
    "name": "Raw Pasta",
    "tags": [
     "kind:food",
-    "kind:material",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:pumpkin_slice": {
    "kind": "item",
    "name": "Pumpkin Slice",
    "tags": [
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:cabbage_leaf": {
    "kind": "item",
    "name": "Cabbage Leaf",
    "tags": [
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:minced_beef": {
@@ -1234,7 +1684,10 @@
    "name": "Minced Beef",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:beef_patty": {
@@ -1242,7 +1695,10 @@
    "name": "Beef Patty",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:chicken_cuts": {
@@ -1250,8 +1706,10 @@
    "name": "Raw Chicken Cuts",
    "tags": [
     "kind:food",
-    "kind:material",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:cooked_chicken_cuts": {
@@ -1259,15 +1717,21 @@
    "name": "Cooked Chicken Cuts",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:bacon": {
    "kind": "item",
    "name": "Raw Bacon",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:cooked_bacon": {
@@ -1275,7 +1739,10 @@
    "name": "Cooked Bacon",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:cod_slice": {
@@ -1283,8 +1750,10 @@
    "name": "Raw Cod Slice",
    "tags": [
     "kind:food",
-    "kind:material",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:cooked_cod_slice": {
@@ -1292,7 +1761,10 @@
    "name": "Cooked Cod Slice",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:salmon_slice": {
@@ -1300,8 +1772,10 @@
    "name": "Raw Salmon Slice",
    "tags": [
     "kind:food",
-    "kind:material",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:cooked_salmon_slice": {
@@ -1309,7 +1783,10 @@
    "name": "Cooked Salmon Slice",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:mutton_chops": {
@@ -1317,8 +1794,10 @@
    "name": "Raw Mutton Chops",
    "tags": [
     "kind:food",
-    "kind:material",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:cooked_mutton_chops": {
@@ -1326,21 +1805,32 @@
    "name": "Cooked Mutton Chops",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:ham": {
    "kind": "item",
    "name": "Ham",
    "tags": [
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:smoked_ham": {
    "kind": "item",
    "name": "Smoked Ham",
    "tags": [
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:pie_crust": {
@@ -1348,7 +1838,10 @@
    "name": "Pie Crust",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:cake_slice": {
@@ -1356,7 +1849,10 @@
    "name": "Slice of Cake",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:apple_pie_slice": {
@@ -1364,7 +1860,10 @@
    "name": "Slice of Apple Pie",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:sweet_berry_cheesecake_slice": {
@@ -1372,7 +1871,10 @@
    "name": "Slice of Sweet Berry Cheesecake",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:chocolate_pie_slice": {
@@ -1380,7 +1882,10 @@
    "name": "Slice of Chocolate Pie",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:pumpkin_pie_slice": {
@@ -1388,7 +1893,10 @@
    "name": "Slice of Pumpkin Pie",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:fruit_salad": {
@@ -1396,7 +1904,10 @@
    "name": "Fruit Salad",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:sweet_berry_cookie": {
@@ -1404,7 +1915,10 @@
    "name": "Sweet Berry Cookie",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:honey_cookie": {
@@ -1412,14 +1926,21 @@
    "name": "Honey Cookie",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:melon_popsicle": {
    "kind": "item",
    "name": "Melon Popsicle",
    "tags": [
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:glow_berry_custard": {
@@ -1427,62 +1948,87 @@
    "name": "Glow Berry Custard",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:earthworm": {
    "kind": "item",
    "name": "Earthworm",
    "tags": [
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:flint_knife": {
    "kind": "item",
    "name": "Flint Knife",
    "tags": [
-    "kind:tool",
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:iron_knife": {
    "kind": "item",
    "name": "Iron Knife",
    "tags": [
-    "kind:tool",
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:golden_knife": {
    "kind": "item",
    "name": "Golden Knife",
    "tags": [
-    "kind:tool",
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:diamond_knife": {
    "kind": "item",
    "name": "Diamond Knife",
    "tags": [
-    "kind:tool",
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:netherite_knife": {
    "kind": "item",
    "name": "Netherite Knife",
    "tags": [
-    "kind:tool",
     "needs:nether",
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "farmersdelight:barbecue_stick": {
    "kind": "item",
    "name": "Barbecue on a Stick",
    "tags": [
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:egg_sandwich": {
@@ -1490,7 +2036,10 @@
    "name": "Egg Sandwich",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:chicken_sandwich": {
@@ -1498,14 +2047,21 @@
    "name": "Chicken Sandwich",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:hamburger": {
    "kind": "item",
    "name": "Hamburger",
    "tags": [
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:bacon_sandwich": {
@@ -1513,7 +2069,10 @@
    "name": "Bacon Sandwich",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:mutton_wrap": {
@@ -1521,14 +2080,21 @@
    "name": "Mutton Wrap",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:dumplings": {
    "kind": "item",
    "name": "Dumplings",
    "tags": [
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:stuffed_potato": {
@@ -1536,14 +2102,21 @@
    "name": "Stuffed Potato",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:cabbage_rolls": {
    "kind": "item",
    "name": "Cabbage Rolls",
    "tags": [
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:salmon_roll": {
@@ -1551,7 +2124,10 @@
    "name": "Salmon Roll",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:cod_roll": {
@@ -1559,7 +2135,10 @@
    "name": "Cod Roll",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:kelp_roll": {
@@ -1567,7 +2146,10 @@
    "name": "Kelp Roll",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:kelp_roll_slice": {
@@ -1575,7 +2157,10 @@
    "name": "Kelp Roll Slice",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:cooked_rice": {
@@ -1583,7 +2168,10 @@
    "name": "Cooked Rice",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:mixed_salad": {
@@ -1591,16 +2179,21 @@
    "name": "Mixed Salad",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:nether_salad": {
    "kind": "item",
    "name": "Nether Salad",
    "tags": [
-    "kind:food",
     "needs:nether",
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "farmersdelight:beef_stew": {
@@ -1608,7 +2201,10 @@
    "name": "Beef Stew",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:chicken_soup": {
@@ -1616,7 +2212,10 @@
    "name": "Chicken Soup",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:vegetable_soup": {
@@ -1624,7 +2223,10 @@
    "name": "Vegetable Soup",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:fish_stew": {
@@ -1632,7 +2234,10 @@
    "name": "Fish Stew",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:fried_rice": {
@@ -1640,7 +2245,10 @@
    "name": "Fried Rice",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:pumpkin_soup": {
@@ -1648,7 +2256,10 @@
    "name": "Pumpkin Soup",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:baked_cod_stew": {
@@ -1656,7 +2267,10 @@
    "name": "Baked Cod Stew",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:noodle_soup": {
@@ -1664,7 +2278,10 @@
    "name": "Noodle Soup",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:onion_soup": {
@@ -1672,14 +2289,21 @@
    "name": "Onion Soup",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:bone_broth": {
    "kind": "item",
    "name": "Bone Broth",
    "tags": [
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:bacon_and_eggs": {
@@ -1687,7 +2311,10 @@
    "name": "Bacon and Eggs",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:pasta_with_meatballs": {
@@ -1695,7 +2322,10 @@
    "name": "Pasta with Meatballs",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:pasta_with_mutton_chop": {
@@ -1703,7 +2333,10 @@
    "name": "Pasta with Mutton Chop",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:roasted_mutton_chops": {
@@ -1711,7 +2344,10 @@
    "name": "Roasted Mutton Chops",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:steak_and_potatoes": {
@@ -1719,7 +2355,10 @@
    "name": "Steak and Potatoes",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:vegetable_noodles": {
@@ -1727,14 +2366,21 @@
    "name": "Vegetable Noodles",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:ratatouille": {
    "kind": "item",
    "name": "Ratatouille",
    "tags": [
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:squid_ink_pasta": {
@@ -1742,7 +2388,10 @@
    "name": "Squid Ink Pasta",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:grilled_salmon": {
@@ -1750,7 +2399,10 @@
    "name": "Grilled Salmon",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:mushroom_rice": {
@@ -1758,7 +2410,10 @@
    "name": "Mushroom Rice",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:roast_chicken_block": {
@@ -1766,7 +2421,10 @@
    "name": "Roast Chicken",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:roast_chicken": {
@@ -1774,8 +2432,10 @@
    "name": "Plate of Roast Chicken",
    "tags": [
     "kind:food",
-    "kind:material",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:stuffed_pumpkin_block": {
@@ -1783,14 +2443,21 @@
    "name": "Stuffed Pumpkin",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:stuffed_pumpkin": {
    "kind": "item",
    "name": "Bowl of Stuffed Pumpkin",
    "tags": [
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:honey_glazed_ham_block": {
@@ -1798,7 +2465,10 @@
    "name": "Honey Glazed Ham",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:honey_glazed_ham": {
@@ -1806,8 +2476,10 @@
    "name": "Plate of Honey Glazed Ham",
    "tags": [
     "kind:food",
-    "kind:material",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:shepherds_pie_block": {
@@ -1815,7 +2487,10 @@
    "name": "Shepherd's Pie",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:shepherds_pie": {
@@ -1823,8 +2498,10 @@
    "name": "Plate of Shepherd's Pie",
    "tags": [
     "kind:food",
-    "kind:material",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:gleaming_salad_block": {
@@ -1832,7 +2509,10 @@
    "name": "Gleaming Salad",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:gleaming_salad": {
@@ -1840,22 +2520,33 @@
    "name": "Bowl of Gleaming Salad",
    "tags": [
     "kind:food",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:rice_roll_medley_block": {
    "kind": "block",
    "name": "Rice Roll Medley",
    "tags": [
-    "kind:food",
-    "review:auto"
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:dog_food": {
    "kind": "item",
    "name": "Dog Food",
    "tags": [
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:horse_feed": {
@@ -1863,67 +2554,80 @@
    "name": "Horse Feed",
    "tags": [
     "function:travel",
-    "review:auto"
+    "kind:food",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "farmersdelight:feast.use_container": {
    "kind": "block",
    "name": "You need a %s to eat this.",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "farmersdelight:rice.invalid_placement": {
    "kind": "block",
    "name": "This seed must be planted in shallow water.",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "farmersdelight:cutting_board.invalid_item": {
    "kind": "block",
    "name": "This doesn't seem cuttable...",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "farmersdelight:cutting_board.invalid_tool": {
    "kind": "block",
    "name": "Maybe with a different tool...",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "farmersdelight:cutting_board.remaining_items": {
    "kind": "block",
    "name": "%s remaining...",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "farmersdelight:skillet.invalid_item": {
    "kind": "block",
    "name": "This can't be cooked...",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "farmersdelight:skillet.underwater": {
    "kind": "item",
    "name": "Can't cook underwater...",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "farmersdelight:skillet.how_to_cook": {
    "kind": "item",
    "name": "Use your other hand to hold ingredients!",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21"
+ "tagged_version": "1.21",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21",
+  "pass": "loop-back",
+  "note": "Food chain: cooking pot (heat from below, no power), cutting board, stove, skillet, basket, rice and other crops, many meals and drinks. Built-in support: supported by 9 mods (Botany Pots, Comforts, Create, Farming for Blockheads, KubeJS Delight, Mekanism, ProjectE Integration, Selene, Sophisticated Backpacks). Food only; no metal yields.",
+  "class": "content",
+  "purpose": "Cooking and food: cooking pot, cutting board, crops, meals"
+ }
 }

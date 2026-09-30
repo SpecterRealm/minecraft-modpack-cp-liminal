@@ -1,0 +1,156 @@
+{
+ "class": "content",
+ "purpose": "Tiered power: generators, storage, cables, transfer (starter to nitro)",
+ "note": "Powah: seven-tier generators (furnator, magmator, solar, thermo, reactor), energy cells and cables, ender cells/gates, energizing rods; fuel from coal, lava and the Powah data maps. Curated catalog in data/powah.json; this file covers the scan list. Uranium ore in the world feeds the reactor (needs ore). Built-in support: GuideME; supported by 5 mods (Extreme Reactors, Mystical Agriculture, Productive Bees, Sophisticated Backpacks, Theurgy).",
+ "rules": [
+  {
+   "match": "^(furnator|magmator|solar_panel|thermo_generator)_.*$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "scale:tiered",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^reactor_.*$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:multiblock",
+    "function:generate",
+    "power-role:makes",
+    "power-role:uses",
+    "power-type:fe",
+    "power-type:heat",
+    "fuel:nuclear",
+    "scale:tiered",
+    "needs:ore"
+   ]
+  },
+  {
+   "match": "^(energy_cell|energy_cell_creative)(_.*)?$|^energy_cell_.*$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "scale:tiered",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(battery)_.*$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "scale:tiered",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(energy_cable|ender_cell|ender_gate|player_transmitter|energy_hopper|energy_discharger)_.*$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "scale:tiered",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^energizing_(rod|orb).*$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:craft",
+    "power-role:uses",
+    "power-type:fe",
+    "scale:tiered",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(.*uraninite_ore.*)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "needs:ore"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "_crystal_block$|^(energized_steel_block|dry_ice|blazing_crystal_block)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "needs:none"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

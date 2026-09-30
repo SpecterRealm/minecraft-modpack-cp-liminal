@@ -22,18 +22,30 @@
    "name": "Advanced Memory Card",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "betterp2p:advanced_memory_card.selected": {
    "kind": "item",
    "name": "Frequency:",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "v1.5.2"
+ "tagged_version": "v1.5.2",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.5.2",
+  "pass": "loop-back",
+  "note": "Advanced memory card for P2P tunnels. Niche convenience.",
+  "class": "ae2-addon",
+  "purpose": "Better AE2 P2P memory card"
+ }
 }

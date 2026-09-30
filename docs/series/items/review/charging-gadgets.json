@@ -1,0 +1,34 @@
+{
+ "class": "content",
+ "purpose": "Charging station for items (FE)",
+ "note": "Charging station that refills FE items. Excluded from Elysian (tech). Built-in support: none found.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^charging_station$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "kind:machine",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

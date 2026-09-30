@@ -1,0 +1,30 @@
+{
+ "class": "qol-gameplay",
+ "purpose": "Tome that absorbs other mods' guide books",
+ "note": "Decided: keep in all four packs.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^tome$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:gadget",
+    "function:research"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

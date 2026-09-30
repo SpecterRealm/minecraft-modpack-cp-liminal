@@ -12,13 +12,25 @@
    "kind": "block",
    "name": "Charging Station",
    "tags": [
-    "function:craft",
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21.1"
+ "tagged_version": "1.21.1",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "Charging station that refills FE items. Excluded from Elysian (tech). Built-in support: none found.",
+  "class": "content",
+  "purpose": "Charging station for items (FE)"
+ }
 }

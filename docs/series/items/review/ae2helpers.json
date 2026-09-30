@@ -1,0 +1,30 @@
+{
+ "class": "ae2-addon",
+ "purpose": "AE2 helper: result import card",
+ "note": "One card that imports pattern results. Niche.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^result_import_card$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:gadget",
+    "function:automate"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

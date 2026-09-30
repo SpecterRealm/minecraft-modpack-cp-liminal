@@ -1,0 +1,19 @@
+{
+ "class": "content",
+ "purpose": "Elemental schools and gear for Ars Nouveau",
+ "note": "Elemental glyphs, foci, armor. Built-in support: Ars Nouveau (required); supported by Ars add-ons and Create.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech"
+   ]
+  }
+ ]
+}

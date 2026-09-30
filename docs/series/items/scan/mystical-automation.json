@@ -39,62 +39,103 @@
    "name": "Infuser",
    "tags": [
     "kind:machine",
-    "function:process",
-    "review:auto"
+    "function:automate",
+    "function:farm",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "mysticalautomation:crafter": {
    "kind": "block",
    "name": "Crafter",
    "tags": [
+    "kind:machine",
     "function:automate",
-    "kind:block",
-    "review:auto"
+    "function:farm",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "mysticalautomation:farmer": {
    "kind": "block",
    "name": "Farmer",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:automate",
+    "function:farm",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "mysticalautomation:fertilizer": {
    "kind": "block",
    "name": "Fertilizer",
    "tags": [
+    "kind:machine",
+    "function:automate",
     "function:farm",
-    "kind:block",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "mysticalautomation:enchanternator": {
    "kind": "block",
    "name": "Enchanternator",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:automate",
+    "function:farm",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "mysticalautomation:infusion_altarnator": {
    "kind": "block",
    "name": "Infusion Altarnator",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:automate",
+    "function:farm",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "mysticalautomation:awakening_altarnator": {
    "kind": "block",
    "name": "Awakening Altarnator",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:automate",
+    "function:farm",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21"
+ "tagged_version": "1.21",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21",
+  "pass": "loop-back",
+  "note": "Machines that automate Mystical Agriculture (infuser, crafter, farmer, enchanternator, altar-nators). FE powered. Scale step for essence farming. Built-in support: Mystical Agriculture (required), Cucumber.",
+  "class": "content",
+  "purpose": "Automation for Mystical Agriculture: infuser, crafter, farmer, altarnators"
+ }
 }

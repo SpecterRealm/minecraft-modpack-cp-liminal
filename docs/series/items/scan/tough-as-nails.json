@@ -20,8 +20,12 @@
    "kind": "block",
    "name": "Rain Collector",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:temperature_gauge": {
@@ -29,15 +33,22 @@
    "name": "Temperature Gauge",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:thermoregulator": {
    "kind": "block",
    "name": "Thermoregulator",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:water_purifier": {
@@ -46,39 +57,56 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:apple_juice": {
    "kind": "item",
    "name": "Apple Juice",
    "tags": [
-    "kind:food",
-    "review:auto"
+    "kind:consumable",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:cactus_juice": {
    "kind": "item",
    "name": "Cactus Juice",
    "tags": [
-    "kind:food",
-    "review:auto"
+    "kind:consumable",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:charc_os": {
    "kind": "item",
    "name": "Charc-O's",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:chorus_fruit_juice": {
    "kind": "item",
    "name": "Chorus Fruit Juice",
    "tags": [
-    "kind:food",
     "needs:end",
-    "review:auto"
+    "kind:consumable",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "toughasnails:copper_dirty_water_canteen": {
@@ -86,7 +114,11 @@
    "name": "Copper Dirty Water Canteen",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:copper_purified_water_canteen": {
@@ -94,7 +126,11 @@
    "name": "Copper Purified Water Canteen",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:copper_water_canteen": {
@@ -102,7 +138,11 @@
    "name": "Copper Water Canteen",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:diamond_dirty_water_canteen": {
@@ -110,7 +150,11 @@
    "name": "Diamond Dirty Water Canteen",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:diamond_purified_water_canteen": {
@@ -118,7 +162,11 @@
    "name": "Diamond Purified Water Canteen",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:diamond_water_canteen": {
@@ -126,14 +174,23 @@
    "name": "Diamond Water Canteen",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:dirty_water_bottle": {
    "kind": "item",
    "name": "Dirty Water Bottle",
    "tags": [
-    "review:auto"
+    "kind:consumable",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:empty_copper_canteen": {
@@ -141,7 +198,11 @@
    "name": "Empty Copper Canteen",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:empty_diamond_canteen": {
@@ -149,7 +210,11 @@
    "name": "Empty Diamond Canteen",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:empty_gold_canteen": {
@@ -157,7 +222,11 @@
    "name": "Empty Gold Canteen",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:empty_iron_canteen": {
@@ -165,7 +234,11 @@
    "name": "Empty Iron Canteen",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:empty_leather_canteen": {
@@ -173,24 +246,35 @@
    "name": "Empty Leather Canteen",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:empty_netherite_canteen": {
    "kind": "item",
    "name": "Empty Netherite Canteen",
    "tags": [
-    "kind:consumable",
     "needs:nether",
-    "review:auto"
+    "kind:consumable",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "toughasnails:glow_berry_juice": {
    "kind": "item",
    "name": "Glow Berry Juice",
    "tags": [
-    "kind:food",
-    "review:auto"
+    "kind:consumable",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:gold_dirty_water_canteen": {
@@ -198,7 +282,11 @@
    "name": "Gold Dirty Water Canteen",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:gold_purified_water_canteen": {
@@ -206,7 +294,11 @@
    "name": "Gold Purified Water Canteen",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:gold_water_canteen": {
@@ -214,14 +306,21 @@
    "name": "Gold Water Canteen",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:ice_cream": {
    "kind": "item",
    "name": "Ice Cream",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:iron_dirty_water_canteen": {
@@ -229,7 +328,11 @@
    "name": "Iron Dirty Water Canteen",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:iron_purified_water_canteen": {
@@ -237,7 +340,11 @@
    "name": "Iron Purified Water Canteen",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:iron_water_canteen": {
@@ -245,7 +352,11 @@
    "name": "Iron Water Canteen",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:leaf_boots": {
@@ -254,7 +365,10 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:leaf_chestplate": {
@@ -263,7 +377,10 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:leaf_helmet": {
@@ -272,7 +389,10 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:leaf_leggings": {
@@ -281,7 +401,10 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:leather_dirty_water_canteen": {
@@ -289,7 +412,11 @@
    "name": "Leather Dirty Water Canteen",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:leather_purified_water_canteen": {
@@ -297,7 +424,11 @@
    "name": "Leather Purified Water Canteen",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:leather_water_canteen": {
@@ -305,79 +436,115 @@
    "name": "Leather Water Canteen",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:melon_juice": {
    "kind": "item",
    "name": "Melon Juice",
    "tags": [
-    "kind:food",
-    "review:auto"
+    "kind:consumable",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:netherite_dirty_water_canteen": {
    "kind": "item",
    "name": "Netherite Dirty Water Canteen",
    "tags": [
-    "kind:consumable",
     "needs:nether",
-    "review:auto"
+    "kind:consumable",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "toughasnails:netherite_purified_water_canteen": {
    "kind": "item",
    "name": "Netherite Purified Water Canteen",
    "tags": [
-    "kind:consumable",
     "needs:nether",
-    "review:auto"
+    "kind:consumable",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "toughasnails:netherite_water_canteen": {
    "kind": "item",
    "name": "Netherite Water Canteen",
    "tags": [
-    "kind:consumable",
     "needs:nether",
-    "review:auto"
+    "kind:consumable",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "toughasnails:pumpkin_juice": {
    "kind": "item",
    "name": "Pumpkin Juice",
    "tags": [
-    "kind:food",
-    "review:auto"
+    "kind:consumable",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:purified_water_bottle": {
    "kind": "item",
    "name": "Purified Water Bottle",
    "tags": [
-    "review:auto"
+    "kind:consumable",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:sweet_berry_juice": {
    "kind": "item",
    "name": "Sweet Berry Juice",
    "tags": [
-    "kind:food",
-    "review:auto"
+    "kind:consumable",
+    "function:cook",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:tan_icon": {
    "kind": "item",
    "name": "TAN Icon",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:thermometer": {
    "kind": "item",
    "name": "Thermometer",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:wool_boots": {
@@ -386,7 +553,10 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:wool_chestplate": {
@@ -395,7 +565,10 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:wool_helmet": {
@@ -404,7 +577,10 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "toughasnails:wool_leggings": {
@@ -413,25 +589,37 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "minecraft:villager.toughasnails.climatologist": {
    "kind": "entity",
    "name": "Climatologist",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "minecraft:villager.climatologist": {
    "kind": "entity",
    "name": "Climatologist",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21.1"
+ "tagged_version": "1.21.1",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "Adds thirst and body temperature: canteens, water purifier, rain collector, thermoregulator, temperature gauge, juices. Not progression; kept in Influx (decided, revisit). Built-in support: none found.",
+  "class": "content",
+  "purpose": "Thirst and temperature survival layer"
+ }
 }

@@ -1,0 +1,39 @@
+{
+ "class": "qol-gameplay",
+ "purpose": "Wands that place many blocks at once",
+ "note": "Wand tiers (wood to netherite) and magic bags. Stays in Elysian (non-tech building tool).",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^.*_wand$",
+   "clear": [
+    "kind"
+   ],
+   "set": [
+    "kind:tool"
+   ]
+  },
+  {
+   "match": "^magic_bag_\\d$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:storage",
+    "function:store"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

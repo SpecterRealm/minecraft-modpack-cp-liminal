@@ -1,0 +1,35 @@
+{
+ "class": "content",
+ "purpose": "Ars tech flavor: source motor, pocket factory, armor",
+ "note": "Source motor (Source to stress), pocket factory, technomancer armor. A Source to Create bridge. Built-in support: Ars Nouveau (required), Create.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^source_motor$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:stress",
+    "power-type:source"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech"
+   ]
+  }
+ ]
+}

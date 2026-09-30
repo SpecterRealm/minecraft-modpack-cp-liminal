@@ -13,7 +13,11 @@
    "name": "Magnet",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "function:mine",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "simplemagnets:advancedmagnet": {
@@ -21,7 +25,11 @@
    "name": "Advanced Magnet",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "function:mine",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "simplemagnets:basic_demagnetization_coil": {
@@ -29,7 +37,11 @@
    "name": "Demagnetization Coil",
    "tags": [
     "kind:block",
-    "review:auto"
+    "function:mine",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "simplemagnets:advanced_demagnetization_coil": {
@@ -37,11 +49,24 @@
    "name": "Advanced Demagnetization Coil",
    "tags": [
     "kind:block",
-    "review:auto"
+    "function:mine",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "forge-1.21"
+ "tagged_version": "forge-1.21",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "forge-1.21",
+  "pass": "loop-back",
+  "note": "Pick-up magnets and demagnetization coils; decided: keep in all four packs (hide or disable in Elysian where no power is planned). Uses FE.",
+  "class": "qol-gameplay",
+  "purpose": "Magnets and demagnetization coils"
+ }
 }

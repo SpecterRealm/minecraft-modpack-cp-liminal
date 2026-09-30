@@ -20,61 +20,82 @@
    "kind": "item",
    "name": "Wooden Wand",
    "tags": [
-    "kind:tool",
     "function:enchant",
-    "review:auto"
+    "kind:tool",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "wands:gold_wand": {
    "kind": "item",
    "name": "Gold Wand",
    "tags": [
-    "kind:tool",
     "function:enchant",
-    "review:auto"
+    "kind:tool",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "wands:copper_wand": {
    "kind": "item",
    "name": "Copper Wand",
    "tags": [
-    "kind:tool",
     "function:enchant",
-    "review:auto"
+    "kind:tool",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "wands:creative_wand": {
    "kind": "item",
    "name": "Creative Wand",
    "tags": [
-    "kind:tool",
     "function:enchant",
-    "review:auto"
+    "kind:tool",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "wands:diamond_wand": {
    "kind": "item",
    "name": "Diamond Wand",
    "tags": [
-    "kind:tool",
     "function:enchant",
-    "review:auto"
+    "kind:tool",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "wands:gradient": {
    "kind": "item",
    "name": "Gradient",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "wands:iron_wand": {
    "kind": "item",
    "name": "Iron Wand",
    "tags": [
-    "kind:tool",
     "function:enchant",
-    "review:auto"
+    "kind:tool",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "wands:magic_bag_1": {
@@ -82,7 +103,11 @@
    "name": "Magic Bag Tier 1",
    "tags": [
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "wands:magic_bag_2": {
@@ -90,7 +115,11 @@
    "name": "Magic Bag Tier 2",
    "tags": [
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "wands:magic_bag_3": {
@@ -98,51 +127,78 @@
    "name": "Magic Bag Tier 3",
    "tags": [
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "wands:netherite_wand": {
    "kind": "item",
    "name": "Netherite Wand",
    "tags": [
-    "kind:tool",
     "function:enchant",
     "needs:nether",
-    "review:auto"
+    "kind:tool",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "wands:palette": {
    "kind": "item",
    "name": "Palette",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "wands:random": {
    "kind": "item",
    "name": "Random",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "wands:round_robin": {
    "kind": "item",
    "name": "Sequential",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "wands:stone_wand": {
    "kind": "item",
    "name": "Stone Wand",
    "tags": [
-    "kind:tool",
     "function:enchant",
-    "review:auto"
+    "kind:tool",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "default"
+ "tagged_version": "default",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "default",
+  "pass": "loop-back",
+  "note": "Wand tiers (wood to netherite) and magic bags. Stays in Elysian (non-tech building tool).",
+  "class": "qol-gameplay",
+  "purpose": "Wands that place many blocks at once"
+ }
 }

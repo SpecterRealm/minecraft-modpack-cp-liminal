@@ -37,7 +37,9 @@
    "name": "Calibrated Precision Mechanism",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:mark_of_technomancy": {
@@ -45,7 +47,9 @@
    "name": "Mark of Technomancy",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:technomancer_boots": {
@@ -55,7 +59,9 @@
     "kind:armor",
     "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:technomancer_chestplate": {
@@ -65,7 +71,9 @@
     "kind:armor",
     "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:technomancer_helmet": {
@@ -75,7 +83,9 @@
     "kind:armor",
     "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:technomancer_leggings": {
@@ -85,7 +95,9 @@
     "kind:armor",
     "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:artificer_cap": {
@@ -95,7 +107,9 @@
     "kind:armor",
     "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:artificer_tunic": {
@@ -105,7 +119,9 @@
     "kind:armor",
     "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:artificer_pants": {
@@ -113,7 +129,9 @@
    "name": "Artificer's Pants",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:artificer_shoes": {
@@ -121,7 +139,9 @@
    "name": "Artificer's Shoes",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:machinaguard_helmet": {
@@ -131,7 +151,9 @@
     "kind:armor",
     "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:machinaguard_chestplate": {
@@ -141,7 +163,9 @@
     "kind:armor",
     "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:machinaguard_leggings": {
@@ -151,7 +175,9 @@
     "kind:armor",
     "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:machinaguard_boots": {
@@ -161,7 +187,9 @@
     "kind:armor",
     "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:runic_spanner": {
@@ -171,18 +199,22 @@
     "kind:tool",
     "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:source_motor": {
    "kind": "block",
    "name": "Source Motor",
    "tags": [
+    "needs:spell-tech",
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
     "power-type:stress",
     "power-type:source",
-    "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "review:checked"
    ]
   },
   "ars_technica:precise_relay": {
@@ -194,7 +226,7 @@
     "power-type:fe",
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "review:checked"
    ]
   },
   "ars_technica:transmutation_turret": {
@@ -203,7 +235,8 @@
    "tags": [
     "power-type:emc",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "review:checked"
    ]
   },
   "ars_technica:pocket_factory": {
@@ -213,7 +246,9 @@
     "kind:machine",
     "function:process",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:transmutation_focus": {
@@ -224,7 +259,8 @@
     "function:enchant",
     "power-type:emc",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "review:checked"
    ]
   },
   "ars_technica:giant_experience_gem": {
@@ -233,7 +269,9 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:gargantuan_experience_gem": {
@@ -242,7 +280,9 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:thread_pressure": {
@@ -250,7 +290,9 @@
    "name": "Pressure",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:spy_monocle": {
@@ -258,7 +300,9 @@
    "name": "Spy Monocle",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:arcane_fusion_entity": {
@@ -268,7 +312,9 @@
     "kind:mob",
     "kind:multiblock",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:arcane_hammer_entity": {
@@ -278,7 +324,9 @@
     "kind:mob",
     "kind:tool",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:arcane_polish_entity": {
@@ -287,7 +335,9 @@
    "tags": [
     "kind:mob",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:arcane_press_entity": {
@@ -298,7 +348,9 @@
     "kind:machine",
     "function:process",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:arcane_compact_entity": {
@@ -307,7 +359,9 @@
    "tags": [
     "kind:mob",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:arcane_pack_entity": {
@@ -316,7 +370,9 @@
    "tags": [
     "kind:mob",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:arcane_whirl_entity": {
@@ -325,7 +381,9 @@
    "tags": [
     "kind:mob",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:item_projectile_entity": {
@@ -334,7 +392,9 @@
    "tags": [
     "kind:mob",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "ars_technica:blank_disc": {
@@ -342,11 +402,22 @@
    "name": "Blank Disc",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "2.7.6"
+ "tagged_version": "2.7.6",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "2.7.6",
+  "pass": "loop-back",
+  "note": "Source motor (Source to stress), pocket factory, technomancer armor. A Source to Create bridge. Built-in support: Ars Nouveau (required), Create.",
+  "class": "content",
+  "purpose": "Ars tech flavor: source motor, pocket factory, armor"
+ }
 }

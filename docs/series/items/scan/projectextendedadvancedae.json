@@ -36,18 +36,35 @@
    "name": "Example Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "role:dev-only",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "projectextendedadvancedae:example_item": {
    "kind": "item",
    "name": "Example Item",
    "tags": [
-    "review:auto"
+    "role:dev-only",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "default"
+ "tagged_version": "default",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "default",
+  "pass": "loop-back",
+  "note": "Example block/item placeholders; bridge for EMC in Advanced AE. Niche. Candidate to cut with AdvancedAE.",
+  "class": "ae2-addon",
+  "purpose": "ProjectE x AdvancedAE bridge"
+ }
 }

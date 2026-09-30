@@ -1,0 +1,44 @@
+{
+ "class": "content",
+ "purpose": "Cooking and food: cooking pot, cutting board, crops, meals",
+ "note": "Food chain: cooking pot (heat from below, no power), cutting board, stove, skillet, basket, rice and other crops, many meals and drinks. Built-in support: supported by 9 mods (Botany Pots, Comforts, Create, Farming for Blockheads, KubeJS Delight, Mekanism, ProjectE Integration, Selene, Sophisticated Backpacks). Food only; no metal yields.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^(cooking_pot|stove|skillet|cutting_board|basket|.*_cabinet|rice_roll_medley_block|.*_crate|organic_compost)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "kind:machine",
+    "function:cook",
+    "power-role:none",
+    "power-type:none"
+   ]
+  },
+  {
+   "match": ".",
+   "clear": [
+    "kind"
+   ],
+   "set": [
+    "kind:food"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

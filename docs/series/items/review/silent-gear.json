@@ -1,0 +1,82 @@
+{
+ "class": "content",
+ "purpose": "Modular gear crafting: parts, materials, blueprints, smithing",
+ "note": "Silent Gear: build tools and armor from parts and materials (blueprints, material grader, gear smithing table, alloy forge, metal press). Adds crimson iron, azure silver, tyrian steel and bort (ores need world ore or Metalworks/Productive Metalworks). Decided: Silent Gear Metalworks stays in all packs, so gear follows Tinkers-style casting. Built-in support: Botany Pots, Farmer's Delight, Hostile Neural Networks, Productive Bees.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^(alloy_forge|crude_mixer|super_mixer|paint_mixer|metal_press|recrystallizer|refabricator|salvager|material_grader|gear_smithing_table|stone_anvil|starlight_charger)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:craft",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(.*_ore|.*_ore_deepslate|deepslate_.*_ore|blackstone_.*_ore|.*_iron_ore|azure_silver_ore|bort_ore|raw_.*_block)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "needs:ore"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(netherwood_.*|stripped_netherwood_.*|potted_netherwood_sapling)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:decoration",
+    "needs:nether"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(.*_fluffy_block|fluffy_plant|wild_fluffy_plant|flax_plant|wild_flax_plant|bort_block|.*_steel_block|.*_iron_block|.*_electrum_block|.*_silver_block|blaze_gold_block)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "needs:none"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

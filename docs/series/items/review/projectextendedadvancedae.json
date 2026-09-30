@@ -1,0 +1,25 @@
+{
+ "class": "ae2-addon",
+ "purpose": "ProjectE x AdvancedAE bridge",
+ "note": "Example block/item placeholders; bridge for EMC in Advanced AE. Niche. Candidate to cut with AdvancedAE.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": ".",
+   "set": [
+    "role:dev-only"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

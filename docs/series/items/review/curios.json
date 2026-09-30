@@ -1,0 +1,19 @@
+{
+ "class": "library",
+ "purpose": "Curios: accessory slots API",
+ "note": "Slot API used by rings, amulets, belts. Items here are test items.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

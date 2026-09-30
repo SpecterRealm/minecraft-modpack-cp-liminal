@@ -1,0 +1,19 @@
+{
+ "class": "compat",
+ "purpose": "Ars x Occultism altar bridge",
+ "note": "Altar item bridging Ars rituals and Occultism.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech"
+   ]
+  }
+ ]
+}

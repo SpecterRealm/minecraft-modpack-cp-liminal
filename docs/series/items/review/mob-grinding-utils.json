@@ -1,0 +1,31 @@
+{
+ "class": "content",
+ "purpose": "Mob farming utilities: fan, saw, absorption hopper, XP tap",
+ "note": "Mob farming and XP handling (fan, saw, spikes, absorption hopper, xp tap, solidifier, chicken feeds). Excluded from Elysian (tech aesthetic). Built-in support: none found.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^(fan|saw|absorption_hopper.*|xp_tap|xpsolidifier|entity_conveyor|entity_spawner|tank|jumbo_tank|tank_sink)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:machine",
+    "function:process",
+    "function:farm"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

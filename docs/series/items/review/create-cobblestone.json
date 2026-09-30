@@ -1,0 +1,34 @@
+{
+ "class": "content",
+ "purpose": "Cobblestone generator for Create",
+ "note": "Mechanical generator that makes stone types. In Verdant, cobblegen feeds the sieve loop. Built-in support: Create (required).",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^mechanical_generator$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "kind:machine",
+    "function:process",
+    "power-role:none",
+    "power-type:none"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

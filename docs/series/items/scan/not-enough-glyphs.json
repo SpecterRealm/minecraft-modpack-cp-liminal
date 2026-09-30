@@ -40,7 +40,9 @@
    "tags": [
     "function:enchant",
     "power-type:mana",
-    "review:auto"
+    "power-role:none",
+    "needs:spell-tech",
+    "review:checked"
    ]
   },
   "not_enough_glyphs:thread_air_focus": {
@@ -49,14 +51,20 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "review:checked"
    ]
   },
   "not_enough_glyphs:thread_cheap_damage": {
    "kind": "item",
    "name": "Cheap Damage",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "review:checked"
    ]
   },
   "not_enough_glyphs:thread_earth_focus": {
@@ -65,7 +73,10 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "review:checked"
    ]
   },
   "not_enough_glyphs:thread_fire_focus": {
@@ -74,28 +85,40 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "review:checked"
    ]
   },
   "not_enough_glyphs:thread_knockback": {
    "kind": "item",
    "name": "Heavy Cover",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "review:checked"
    ]
   },
   "not_enough_glyphs:thread_scritchance": {
    "kind": "item",
    "name": "Lucky Cover",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "review:checked"
    ]
   },
   "not_enough_glyphs:thread_scritdamage": {
    "kind": "item",
    "name": "Keen Cover",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "review:checked"
    ]
   },
   "not_enough_glyphs:thread_shaper_focus": {
@@ -104,21 +127,30 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "review:checked"
    ]
   },
   "not_enough_glyphs:thread_sharp_paper": {
    "kind": "item",
    "name": "Sharp Pages",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "review:checked"
    ]
   },
   "not_enough_glyphs:thread_slow_power": {
    "kind": "item",
    "name": "Slow Power",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "review:checked"
    ]
   },
   "not_enough_glyphs:thread_summon_focus": {
@@ -127,7 +159,10 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "review:checked"
    ]
   },
   "not_enough_glyphs:thread_water_focus": {
@@ -136,18 +171,33 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "review:checked"
    ]
   },
   "not_enough_glyphs:thread_wild_magic": {
    "kind": "item",
    "name": "Wheel of Fortune",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21"
+ "tagged_version": "1.21",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21",
+  "pass": "loop-back",
+  "note": "Spell binder threads for Ars Nouveau.",
+  "class": "content",
+  "purpose": "More Ars spell glyph threads"
+ }
 }

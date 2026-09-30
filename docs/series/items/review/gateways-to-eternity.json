@@ -1,0 +1,41 @@
+{
+ "class": "content",
+ "purpose": "Gateway challenge waves with rewards",
+ "note": "Gateways that spawn mob waves for loot. Elysian lean (with Apotheosis). Built-in support: Placebo (required), Apothic Attributes.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^gateway$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:block",
+    "function:defend"
+   ]
+  },
+  {
+   "match": "^gate_pearl$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:consumable",
+    "function:defend"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

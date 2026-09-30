@@ -34,98 +34,101 @@
    "kind": "item",
    "name": "Animal Cage",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "animal_pen:animal_cage.entity": {
    "kind": "item",
    "name": "Entity: %s",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:animal_cage.amount": {
    "kind": "item",
    "name": "Count: %d",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:animal_cage.variants": {
    "kind": "item",
    "name": "Variants: %d",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:animal_cage.tip": {
    "kind": "item",
    "name": "Right-click an animal to catch it",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:animal_cage.release": {
    "kind": "item",
    "name": "Sneak + right-click on a block to release it",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:animal_cage.error.baby": {
    "kind": "item",
    "name": "Cannot catch baby animals",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:animal_cage.error.tame": {
    "kind": "item",
    "name": "Cannot catch tamed animals",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:animal_cage.error.wrong": {
    "kind": "item",
    "name": "This cage contains a different animal",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:animal_cage.error.unknown": {
    "kind": "item",
    "name": "Failed to catch animal",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:animal_cage.error.not_allowed": {
    "kind": "item",
    "name": "This animal cannot be caught with an Animal Cage",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:animal_cage.error.too_many_variants": {
    "kind": "item",
    "name": "Cannot store another variant. The cage is full",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:animal_cage.error.chested": {
    "kind": "item",
    "name": "Cannot catch animals carrying chests",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:animal_cage.error.full": {
    "kind": "item",
    "name": "Animal Cage is full",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:water_animal_container": {
@@ -133,105 +136,111 @@
    "name": "Aquatic Jar",
    "tags": [
     "function:store",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "animal_pen:bird_catcher": {
    "kind": "item",
    "name": "Avian Net",
    "tags": [
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "animal_pen:bird_catcher.entity": {
    "kind": "item",
    "name": "Entity: %s",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:bird_catcher.amount": {
    "kind": "item",
    "name": "Count: %d",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:bird_catcher.variants": {
    "kind": "item",
    "name": "Variants: %d",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:bird_catcher.tip": {
    "kind": "item",
    "name": "Right-click a flying animal to capture it",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:bird_catcher.release": {
    "kind": "item",
    "name": "Sneak + right-click on a block to release it",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:bird_catcher.error.baby": {
    "kind": "item",
    "name": "Cannot capture baby flying animals",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:bird_catcher.error.wrong": {
    "kind": "item",
    "name": "This net contains a different flying animal",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:bird_catcher.error.unknown": {
    "kind": "item",
    "name": "Failed to capture flying animal",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:bird_catcher.error.not_allowed": {
    "kind": "item",
    "name": "This animal cannot be captured with an Avian Net",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:bird_catcher.error.too_many_variants": {
    "kind": "item",
    "name": "Cannot store another variant. The net is full",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:bird_catcher.error.tame": {
    "kind": "item",
    "name": "Cannot capture tamed flying animals",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:bird_catcher.error.chested": {
    "kind": "item",
    "name": "Cannot capture animals carrying chests",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:bird_catcher.error.full": {
    "kind": "item",
    "name": "Avian Net is full",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "animal_pen:animal_pen_acacia": {
@@ -239,7 +248,10 @@
    "name": "Animal Pen",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "animal_pen:animal_pen_bamboo": {
@@ -247,7 +259,10 @@
    "name": "Animal Pen",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "animal_pen:animal_pen_birch": {
@@ -255,7 +270,10 @@
    "name": "Animal Pen",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "animal_pen:animal_pen_cherry": {
@@ -263,7 +281,10 @@
    "name": "Animal Pen",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "animal_pen:animal_pen_crimson": {
@@ -272,7 +293,9 @@
    "tags": [
     "needs:nether",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "animal_pen:animal_pen_dark_oak": {
@@ -280,7 +303,10 @@
    "name": "Animal Pen",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "animal_pen:animal_pen_jungle": {
@@ -288,7 +314,10 @@
    "name": "Animal Pen",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "animal_pen:animal_pen_oak": {
@@ -296,7 +325,10 @@
    "name": "Animal Pen",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "animal_pen:animal_pen_spruce": {
@@ -304,7 +336,10 @@
    "name": "Animal Pen",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "animal_pen:animal_pen_warped": {
@@ -313,7 +348,9 @@
    "tags": [
     "needs:nether",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "animal_pen:animal_pen_mangrove": {
@@ -321,7 +358,10 @@
    "name": "Animal Pen",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "animal_pen:aquarium_block": {
@@ -329,7 +369,10 @@
    "name": "Aquarium",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "animal_pen:aviary": {
@@ -337,7 +380,10 @@
    "name": "Iron Aviary",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "animal_pen:gold_aviary": {
@@ -345,7 +391,10 @@
    "name": "Gold Aviary",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "animal_pen:copper_aviary": {
@@ -353,7 +402,10 @@
    "name": "Copper Aviary",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "animal_pen:exposed_copper_aviary": {
@@ -361,7 +413,10 @@
    "name": "Exposed Copper Aviary",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "animal_pen:weathered_copper_aviary": {
@@ -369,7 +424,10 @@
    "name": "Weathered Copper Aviary",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "animal_pen:oxidized_copper_aviary": {
@@ -377,7 +435,10 @@
    "name": "Oxidized Copper Aviary",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "animal_pen:waxed_copper_aviary": {
@@ -385,7 +446,10 @@
    "name": "Waxed Copper Aviary",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "animal_pen:waxed_exposed_copper_aviary": {
@@ -393,7 +457,10 @@
    "name": "Waxed Exposed Copper Aviary",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "animal_pen:waxed_weathered_copper_aviary": {
@@ -401,7 +468,10 @@
    "name": "Waxed Weathered Copper Aviary",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "animal_pen:waxed_oxidized_copper_aviary": {
@@ -409,11 +479,23 @@
    "name": "Waxed Oxidized Copper Aviary",
    "tags": [
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "2.4.3-1.21"
+ "tagged_version": "2.4.3-1.21",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "2.4.3-1.21",
+  "pass": "loop-back",
+  "note": "Animal cage and bird catcher items for moving animals. Added to Influx. Built-in support: none found.",
+  "class": "content",
+  "purpose": "Capture and pen animals in cages"
+ }
 }

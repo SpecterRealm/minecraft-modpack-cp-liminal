@@ -1,0 +1,19 @@
+{
+ "class": "viewer",
+ "purpose": "Primary recipe viewer (EMI)",
+ "note": "Recipe viewer; its lang entries are UI strings. See the EMI/JEI review (Liminal #47).",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

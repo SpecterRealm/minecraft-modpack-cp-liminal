@@ -27,46 +27,55 @@
    "kind": "block",
    "name": "Harvest Blacklist",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "tag:rightclickharvest.hoe_never_required": {
    "kind": "block",
    "name": "Hoe Not Required",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "tag:rightclickharvest.radius_harvest_blacklist": {
    "kind": "block",
    "name": "Radius Harvest Blacklist",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "tag:rightclickharvest.low_tier_hoes": {
    "kind": "item",
    "name": "Low Tier Hoes",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "tag:rightclickharvest.mid_tier_hoes": {
    "kind": "item",
    "name": "Mid Tier Hoes",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "tag:rightclickharvest.high_tier_hoes": {
    "kind": "item",
    "name": "High Tier Hoes",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "4.6.1+1.21.1"
+ "tagged_version": "4.6.1+1.21.1",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "4.6.1+1.21.1",
+  "pass": "loop-back",
+  "note": "Gameplay quality of life",
+  "class": "qol-gameplay",
+  "purpose": "Gameplay quality of life"
+ }
 }
