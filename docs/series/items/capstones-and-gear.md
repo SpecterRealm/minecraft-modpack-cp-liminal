@@ -169,7 +169,7 @@ Note the conflict to settle: `pack-architecture.md` currently says Elysian has "
 | Pack | Netherite-tier inputs today (read from `yields/`) | Gaps to check |
 |---|---|---|
 | Verdant | Ex Deorum sieves (table above) | Confirm the base blocks (blackstone, soul sand, end stone) and the smithing template |
-| Elysian | Mystical Agriculture has a **netherite essence crop** that yields netherite ingot; prismarine agglomeratio via crop | Ghast tear, blaze powder, ender pearl routes not found in `yields/`; check Theurgy and Occultism, else rely on Ex Deorum |
+| Elysian | Mystical Agriculture netherite crop (but its seed needs a netherite ingot first) and mob crops for blaze, ghast, enderman (soul jar needed) | First-unit bootstrap for ingots and souls; see the Elysian section |
 | Influx | Productive Bees has a netherite comb (centrifuge); ProjectE and Replication can make items from EMC/matter | Confirm ender pearl, ghast tear, blaze powder via EMC or replication; else rely on Ex Deorum |
 
 Next step: build the **required-resource list** per pack (tier, inputs, route, gap), starting from the class mods and Silent Gear, then decide per gap whether Elysian and Influx add Ex Deorum or use their own route.
@@ -200,8 +200,31 @@ What is already there and what is missing (Genetics: Resequenced source, 1.21-Ne
 **AE2's spatial storage** already gives Influx a pocket-dimension effect (maintainer point; AE2 is in Influx). So Compact Machines may be unneeded for the pocket idea. Two things to check: whether a spawner or spawn-egg room can be stored and moved in AE2 spatial storage, and whether Compact Machines adds anything AE2 spatial does not (it stays a candidate only for "build inward" rooms).
 
 Other supply notes:
-- **Mystical Agriculture**: the crop list read from the 1.21 source has no blaze, ghast or ender pearl crop. It does have netherite, blazing crystal, fire, nether, end, enderium, prismarine, and `air`. Mob crops the maintainer remembers (creeper and similar) did not appear in the list read; unverified. Already in Elysian; adding it to Influx is an option the maintainer raised.
+- **Mystical Agriculture**: has blaze, ghast and enderman mob crops (see the Elysian section below). Already in Elysian; adding it to Influx is an option the maintainer raised.
 - **Ex Deorum** (or Ex Nihilo) stays the fallback for Influx if the mob route leaves gaps.
+
+### Elysian: the first-seed problem (Mystical Agriculture, source read)
+
+Correction first: Mystical Agriculture **does** have mob crops. The resource-only list read earlier (`yields/mystical-agriculture.json`) left them out because they are a separate crop type. From `ModCrops.java` (branch 1.21):
+
+| Tier | Mob crops |
+|---|---|
+| 2 | pig, chicken, cow, sheep, squid, fish, slime, turtle, armadillo |
+| 3 | zombie, skeleton, creeper, spider, phantom, rabbit (also blizz, blitz, basalz) |
+| 4 | breeze, **blaze, ghast, enderman** |
+| 5 | wither skeleton |
+
+How seeds work (recipes read from source):
+- Each crop's seed needs its **base ingredient** plus essence. Resource crops need the real material: the **iron seed needs an iron ingot**, the **netherite seed needs a netherite ingot**, coal needs coal. So a crop cannot make the first unit of its own material (the literal chicken and egg).
+- Tier 1 crops are cheap: stone, dirt, wood (any log), ice, deepslate. Tier 2 nether, nature, dye, coral and honey use **agglomeratio** items crafted from ordinary materials. The nether agglomeratio recipe is netherrack, soul sand, nether bricks and nether wart, so even the nether crop needs those Nether items first.
+- **Mob crops need a filled Soul Jar** (recipes: soul jar, soul extractor, soul siphoner enchant, passive and hostile soulium daggers). So a mob's soul must be captured by killing that mob once, which brings back the blaze, ghast and enderman problem in Elysian.
+
+What Elysian still needs to answer (its scaffold docs list the spine as Ars void bootstrap, MA grow and Occultism labor; the detail is not written):
+1. **First iron** and other starter ingots for resource seeds: which mod hands the player the first unit in a void start (Occultism, Theurgy, Ars, a quest reward, KubeJS)?
+2. **First blaze, ghast and enderman soul** for their crops: a mob spawner in the world, a KubeJS recipe, or a quest reward, like Influx's egg route.
+3. **Netherrack, soul sand, nether bricks and nether wart** for the nether agglomeratio.
+
+Maintainer's likely answer: **add Ex Deorum to Elysian**, and remove some of its recipes so it only bootstraps the first items and pushes the player toward the magical crops. That overturns the current "no sieve loop" line in `pack-architecture.md`, so it needs a deliberate edit there if chosen. AgriCraft is an Influx mod, not Elysian's; it is not part of this question.
 
 ### Principle (maintainer): key off the foundation mods
 
@@ -212,6 +235,7 @@ Do not lock a pack to one mod too early. Decide where each pack is going, pick t
 1. Influx: Genetics: Resequenced plus Mutant Monsters chosen. Confirm after scanning that they fit the pack's power and breeding systems.
 2. Archers in Verdant brings Spell Engine into the first pack. Confirm that is wanted, since Elysian's Wizards need it anyway.
 3. Elysian and Influx: add Ex Deorum (or part of it), or close the netherite-tier input gaps with their own mods? Needs the required-resource list first.
-4. Influx: build the egg and spawner recipes (cost, stage) on top of Genetics: Resequenced; confirm AE2 spatial storage can hold a spawner room and whether Compact Machines adds anything.
+4. Elysian: first iron, first mob souls and Nether items for the agglomeratio: Ex Deorum with trimmed recipes, or other routes?
+5. Influx: build the egg and spawner recipes (cost, stage) on top of Genetics: Resequenced; confirm AE2 spatial storage can hold a spawner room and whether Compact Machines adds anything.
 3. Liminal's new mobs are not decided yet (raised in the last chat). Verdant, Elysian and Influx teach the counters once they are.
 4. Gear: do the roles above cover what you want, or are there jobs to add?
