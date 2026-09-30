@@ -160,12 +160,24 @@ Direction: keep the netherite tier in the class mods and give the player a way t
 | Prismarine shard | Sieve sand | |
 | Netherite upgrade smithing template | not checked | The smithing template recipe needs checking |
 
-Unverified: how the player gets blackstone, netherrack, soul sand and end stone in packs with no Nether or End (Ex Deorum has barrel, crucible and hammer recipes for some of these; each must be confirmed in game before we rely on it). No KubeJS recipe change is needed if these hold, which is the point: the class mods' own recipes stay intact.
+### Resource supply is the real question, per pack (maintainer, latest)
+
+Verdant is skyblock-style by design: Ex Deorum already supplies stone and the nether-style materials, so a netherite tier is not a special problem there. What is needed is a **required-resource list**: for each gear tier, the inputs, and the pack route that delivers each. The weak spots are the other two packs, and the maintainer expects to lean on Ex Deorum more than first intended to close them. That is a gap we are looking for, not a settled change.
+
+Note the conflict to settle: `pack-architecture.md` currently says Elysian has "No sieve loop", and Ex Deorum is in Verdant and Liminal only (not Elysian or Influx).
+
+| Pack | Netherite-tier inputs today (read from `yields/`) | Gaps to check |
+|---|---|---|
+| Verdant | Ex Deorum sieves (table above) | Confirm the base blocks (blackstone, soul sand, end stone) and the smithing template |
+| Elysian | Mystical Agriculture has a **netherite essence crop** that yields netherite ingot; prismarine agglomeratio via crop | Ghast tear, blaze powder, ender pearl routes not found in `yields/`; check Theurgy and Occultism, else rely on Ex Deorum |
+| Influx | Productive Bees has a netherite comb (centrifuge); ProjectE and Replication can make items from EMC/matter | Confirm ender pearl, ghast tear, blaze powder via EMC or replication; else rely on Ex Deorum |
+
+Next step: build the **required-resource list** per pack (tier, inputs, route, gap), starting from the class mods and Silent Gear, then decide per gap whether Elysian and Influx add Ex Deorum or use their own route.
 
 ## Open questions
 
 1. Influx: Genetics: Resequenced plus Mutant Monsters chosen. Confirm after scanning that they fit the pack's power and breeding systems.
 2. Archers in Verdant brings Spell Engine into the first pack. Confirm that is wanted, since Elysian's Wizards need it anyway.
-3. Netherite tiers: building them via Ex Deorum is the direction; confirm that blackstone, netherrack, soul sand, end stone and the netherite template are obtainable in packs 1 to 3.
+3. Elysian and Influx: add Ex Deorum (or part of it), or close the netherite-tier input gaps with their own mods? Needs the required-resource list first.
 3. Liminal's new mobs are not decided yet (raised in the last chat). Verdant, Elysian and Influx teach the counters once they are.
 4. Gear: do the roles above cover what you want, or are there jobs to add?
