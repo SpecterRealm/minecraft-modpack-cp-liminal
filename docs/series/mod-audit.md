@@ -120,6 +120,21 @@ Question: which power mods give the most meaningful add, and which overlap enoug
 
 Elysian has no power generation by design (magic pack), so the powered Simple Magnets item is hidden there.
 
+## Mekanism family (Verdant and Liminal only)
+
+Elysian and Influx have none of these.
+
+| Mod | What it adds | Call |
+|---|---|---|
+| Mekanism | Core processing, machines, chemicals | Backbone of Verdant's Processing to Command chapters; keep |
+| Mekanism Generators | Heat, gas, bio, solar, wind generators, Fission and Fusion Reactors, Turbine | Keep; power ladder (see the power test) |
+| Mekanism Tools | Paxels, tiered tools, armor, shields | Keep; MekaSuit is stage-gated in Verdant |
+| Mekanism Unleashed | Speed and energy upgrade limit 8 to 32, multiple operations per tick | Balance change; decide how machine throughput should scale in Liminal |
+| More Thermal Evaporation | Tiered evaporation plants | Partial keep: Verdant removes its compact recipes, one quest uses the Basic controller |
+| Better Fusion Reactor PLUS | Harder, reactivity-based fusion reactor | Release-candidate pin (1.5.9rc1); check stability |
+| KubeJS Mekanism | KubeJS recipe support | Keep |
+| KubeJS Mekanism Extends | KubeJS support for Mekanism add-ons only | **Removed** from Verdant and Liminal: none of the add-ons (Evolved Mekanism, More Machine, Mekanism Sun) are in the packs |
+
 ## AE2 add-ons (Verdant-owned, also in Liminal)
 
 Liminal players will use AE2 to tie the other mods together, so integration matters more than trimming. **Decision: keep every AE2 add-on for now.**
