@@ -174,10 +174,32 @@ Note the conflict to settle: `pack-architecture.md` currently says Elysian has "
 
 Next step: build the **required-resource list** per pack (tier, inputs, route, gap), starting from the class mods and Silent Gear, then decide per gap whether Elysian and Influx add Ex Deorum or use their own route.
 
+### Influx: mobs as the resource source (maintainer idea, latest)
+
+Direction to test: Influx gets its nether-style inputs by **training Hostile Neural Networks on mobs**, and its genetics theme moves from "27,000 plants" toward **engineering animals and mobs to get what you need**. That would make Genetics: Resequenced the centre of the pack and could reduce the plant-genetics mods.
+
+What the source shows (Hostile Neural Networks, branch 1.21):
+- Data models exist for blaze, ghast, enderman, wither skeleton, guardian, elder guardian, creeper, skeleton, zombified piglin, magma cube, shulker, warden, wither and more. A Loot Fabricator turns a trained model into that mob's drops (so blaze rods, ghast tears, ender pearls come from models).
+- Model tiers carry a required-data value per tier (`RequiredData`). Models are trained by feeding data from that mob, in the Simulation Chamber, so the first blaze or ghast has to come from somewhere. I read the tier and data structure but not the exact kill path; confirm in game.
+- Generalized Overworld, Nether and Ender predictions exist too.
+
+**The chicken-and-egg**: the player must meet a blaze before they can train the blaze model. Proposed fix: a **starter pocket or spawner dimension** given as a quest reward, containing the mobs needed to train the first models. Rules:
+- The player must be able to get a **replacement** if they lose the component, so the pack never blocks them.
+- Compact Machines (already a flagged candidate for Influx, "build inward, not outward") is the obvious way to build the pocket room, which also fits the ship-and-space theme. Unverified whether it can host a spawner-style room; needs a check.
+
+Other supply notes:
+- **Mystical Agriculture**: the crop list read from the 1.21 source has no blaze, ghast or ender pearl crop. It does have netherite, blazing crystal, fire, nether, end, enderium, prismarine, and `air`. Mob crops the maintainer remembers (creeper and similar) did not appear in the list read; unverified. Already in Elysian; adding it to Influx is an option the maintainer raised.
+- **Ex Deorum** (or Ex Nihilo) stays the fallback for Influx if the mob route leaves gaps.
+
+### Principle (maintainer): key off the foundation mods
+
+Do not lock a pack to one mod too early. Decide where each pack is going, pick the mods that are its **foundation**, then add mods only to fill the holes and gaps around them. For Influx, candidate foundation: Hostile Neural Networks, Genetics: Resequenced, Replication, ProjectE, with Compact Machines for space. Mods that only serve the old plant-genetics direction (AgriCraft, Productive Trees, Productive Farming) are then reviewed again, not cut in advance.
+
 ## Open questions
 
 1. Influx: Genetics: Resequenced plus Mutant Monsters chosen. Confirm after scanning that they fit the pack's power and breeding systems.
 2. Archers in Verdant brings Spell Engine into the first pack. Confirm that is wanted, since Elysian's Wizards need it anyway.
 3. Elysian and Influx: add Ex Deorum (or part of it), or close the netherite-tier input gaps with their own mods? Needs the required-resource list first.
+4. Influx: confirm how HNN models are first trained and whether Compact Machines can host a starter spawner room with a replacement recipe.
 3. Liminal's new mobs are not decided yet (raised in the last chat). Verdant, Elysian and Influx teach the counters once they are.
 4. Gear: do the roles above cover what you want, or are there jobs to add?
