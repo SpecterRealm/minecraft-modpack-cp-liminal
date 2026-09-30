@@ -105,12 +105,24 @@ Not yet scanned. These are discovery leads, not additions.
 ### Armor decisions
 
 - The RPG Series (Wizards, Archers, Rogues & Warriors, Paladins & Priests; all need Spell Engine) is the class-set mod family meant.
-- Use **both** class sets and a cosmetic layer, but they do **not** have to be in every pack. Open: which packs get which (for example class sets in Elysian and Influx, cosmetic layer in all or only late packs).
+- Use **both** class sets and a cosmetic layer, but they do not have to be in every pack. Rollout chosen:
+
+| Pack | Class sets (RPG Series) | Cosmetic layer |
+|---|---|---|
+| Verdant | none | **yes** (appearance from the first pack) |
+| Elysian | **start here**: a first few classes | carries over |
+| Influx | a few more | carries over |
+| Liminal | all of them | carries over |
+
+Which classes go in Elysian first, and which follow in Influx, is still open.
+
+### Verdant's capstone is the finished quest book
+
+"Runs unattended" is measured by the quest book: every system a player will need or want later has a quest, so completing the book means they understand how each thing works. Verdant's quest coverage work (`docs/machines.md`, `/tier-quest status`, `scripts/check_quest_coverage.py`) is therefore the capstone work itself, not a side task. The stage matrix tells us which systems must be covered.
 
 ## Open questions
 
 1. Influx: Genetics: Resequenced plus Mutant Monsters chosen. Confirm after scanning that they fit the pack's power and breeding systems.
-2. Verdant: what does "factory runs unattended" measure (items per minute, uptime, a fed colony)? 
-3. Armor: which packs carry class sets and which carry the cosmetic layer?
-4. Liminal: which new mobs are made for it, so Verdant and the others can teach the counters?
-5. Gear: do the roles above cover what you want, or are there jobs to add?
+2. Elysian and Influx: which RPG classes first, and which later?
+3. Liminal's new mobs are not decided yet (raised in the last chat). Verdant, Elysian and Influx teach the counters once they are.
+4. Gear: do the roles above cover what you want, or are there jobs to add?
