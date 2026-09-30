@@ -27,35 +27,67 @@
  "items": {
   "ars_controle:scroll_holder": {
    "kind": "block",
-   "name": "Warp Scroll Holder"
+   "name": "Warp Scroll Holder",
+   "tags": [
+    "function:travel",
+    "kind:consumable",
+    "needs:spell-tech"
+   ]
   },
   "ars_controle:scryers_linkage": {
    "kind": "block",
-   "name": "Scryer's Linkage"
+   "name": "Scryer's Linkage",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_controle:temporal_stability_sensor": {
    "kind": "block",
-   "name": "Temporal Stability Sensor"
+   "name": "Temporal Stability Sensor",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_controle:warping_spell_prism": {
    "kind": "block",
-   "name": "Warping Spell Prism"
+   "name": "Warping Spell Prism",
+   "tags": [
+    "function:enchant",
+    "power-type:mana",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_controle:portable_brazier_relay": {
    "kind": "item",
-   "name": "Portable Brazier Relay"
+   "name": "Portable Brazier Relay",
+   "tags": [
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:spell-tech"
+   ]
   },
   "ars_controle:portable_brazier_relay.with_ritual": {
    "kind": "item",
-   "name": "Portable Brazier Relay (%s)"
+   "name": "Portable Brazier Relay (%s)",
+   "tags": []
   },
   "ars_controle:remote": {
    "kind": "item",
-   "name": "Remote"
+   "name": "Remote",
+   "tags": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_controle:remote.with_target": {
    "kind": "item",
-   "name": "Remote (%s)"
+   "name": "Remote (%s)",
+   "tags": []
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

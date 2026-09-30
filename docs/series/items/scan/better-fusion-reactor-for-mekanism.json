@@ -20,59 +20,116 @@
  "items": {
   "bfr:fusion_reactor_controller": {
    "kind": "block",
-   "name": "Fusion Reactor Controller"
+   "name": "Fusion Reactor Controller",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:multiblock"
+   ]
   },
   "bfr:fusion_reactor_frame": {
    "kind": "block",
-   "name": "Fusion Reactor Frame"
+   "name": "Fusion Reactor Frame",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:multiblock"
+   ]
   },
   "bfr:fusion_reactor_logic_adapter": {
    "kind": "block",
-   "name": "Fusion Reactor Logic Adapter"
+   "name": "Fusion Reactor Logic Adapter",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:multiblock"
+   ]
   },
   "bfr:fusion_reactor_port": {
    "kind": "block",
-   "name": "Fusion Reactor Port"
+   "name": "Fusion Reactor Port",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:multiblock"
+   ]
   },
   "bfr:irradiated_copper_ore": {
    "kind": "block",
-   "name": "Irradiated Copper Ore"
+   "name": "Irradiated Copper Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block"
+   ]
   },
   "bfr:irradiated_gold_ore": {
    "kind": "block",
-   "name": "Irradiated Gold Ore"
+   "name": "Irradiated Gold Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block"
+   ]
   },
   "bfr:irradiated_iron_ore": {
    "kind": "block",
-   "name": "Irradiated Iron Ore"
+   "name": "Irradiated Iron Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block"
+   ]
   },
   "bfr:irradiated_lead_ore": {
    "kind": "block",
-   "name": "Irradiated Lead Ore"
+   "name": "Irradiated Lead Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block"
+   ]
   },
   "bfr:irradiated_osmium_ore": {
    "kind": "block",
-   "name": "Irradiated Osmium Ore"
+   "name": "Irradiated Osmium Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block"
+   ]
   },
   "bfr:irradiated_tin_ore": {
    "kind": "block",
-   "name": "Irradiated Tin Ore"
+   "name": "Irradiated Tin Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block"
+   ]
   },
   "bfr:irradiated_uranium_ore": {
    "kind": "block",
-   "name": "Irradiated Uranium Ore"
+   "name": "Irradiated Uranium Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block"
+   ]
   },
   "bfr:irradiator": {
    "kind": "block",
-   "name": "Irradiator"
+   "name": "Irradiator",
+   "tags": [
+    "kind:block"
+   ]
   },
   "bfr:laser_focus_matrix": {
    "kind": "block",
-   "name": "Laser Focus Matrix"
+   "name": "Laser Focus Matrix",
+   "tags": [
+    "kind:tool",
+    "function:enchant"
+   ]
   },
   "bfr:solidified_waste": {
    "kind": "item",
-   "name": "Solidified Nuclear Waste"
+   "name": "Solidified Nuclear Waste",
+   "tags": []
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

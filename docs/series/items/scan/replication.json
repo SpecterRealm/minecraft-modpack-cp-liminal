@@ -46,75 +46,128 @@
  "items": {
   "replication:chip_storage": {
    "kind": "block",
-   "name": "Chip Storage"
+   "name": "Chip Storage",
+   "tags": [
+    "function:store",
+    "kind:block"
+   ]
   },
   "replication:creative_matter_tank": {
    "kind": "block",
-   "name": "Creative Matter Tank"
+   "name": "Creative Matter Tank",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "replication:deepslate_replica_ore": {
    "kind": "block",
-   "name": "Deepslate Replica Ore"
+   "name": "Deepslate Replica Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block"
+   ]
   },
   "replication:disintegrator": {
    "kind": "block",
-   "name": "Disintegrator"
+   "name": "Disintegrator",
+   "tags": [
+    "kind:block"
+   ]
   },
   "replication:identification_chamber": {
    "kind": "block",
-   "name": "Identification Chamber"
+   "name": "Identification Chamber",
+   "tags": [
+    "kind:block"
+   ]
   },
   "replication:matter_network_pipe": {
    "kind": "block",
-   "name": "Matter Network Pipe"
+   "name": "Matter Network Pipe",
+   "tags": [
+    "function:transfer",
+    "kind:block"
+   ]
   },
   "replication:matter_tank": {
    "kind": "block",
-   "name": "Matter Tank"
+   "name": "Matter Tank",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "replication:raw_replica_block": {
    "kind": "block",
-   "name": "Raw Replica Block"
+   "name": "Raw Replica Block",
+   "tags": [
+    "kind:material"
+   ]
   },
   "replication:replica_block": {
    "kind": "block",
-   "name": "Replica Block"
+   "name": "Replica Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "replication:replication_terminal": {
    "kind": "block",
-   "name": "Replication Terminal"
+   "name": "Replication Terminal",
+   "tags": [
+    "function:automate",
+    "kind:block"
+   ]
   },
   "replication:replicator": {
    "kind": "block",
-   "name": "Replicator"
+   "name": "Replicator",
+   "tags": [
+    "kind:block"
+   ]
   },
   "replication:creative_memory_chip": {
    "kind": "item",
-   "name": "Creative Memory Chip"
+   "name": "Creative Memory Chip",
+   "tags": []
   },
   "replication:matter_blueprint": {
    "kind": "item",
-   "name": "Matter Blueprint"
+   "name": "Matter Blueprint",
+   "tags": []
   },
   "replication:memory_chip": {
    "kind": "item",
-   "name": "Memory Chip"
+   "name": "Memory Chip",
+   "tags": []
   },
   "replication:raw_replica": {
    "kind": "item",
-   "name": "Raw Replica"
+   "name": "Raw Replica",
+   "tags": [
+    "kind:material"
+   ]
   },
   "replication:replica_ingot": {
    "kind": "item",
-   "name": "Replica Ingot"
+   "name": "Replica Ingot",
+   "tags": [
+    "kind:material"
+   ]
   },
   "replication:replicator_enclosure": {
    "kind": "item",
-   "name": "Replicator Enclosure"
+   "name": "Replicator Enclosure",
+   "tags": []
   },
   "replication:replicator_motor": {
    "kind": "item",
-   "name": "Replicator Motor"
+   "name": "Replicator Motor",
+   "tags": [
+    "power-type:stress"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

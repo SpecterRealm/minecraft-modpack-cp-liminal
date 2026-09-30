@@ -10,283 +10,515 @@
  "items": {
   "azurum_miner:azurum_block": {
    "kind": "block",
-   "name": "Azurum Block"
+   "name": "Azurum Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "azurum_miner:azurum_deepslate_ore": {
    "kind": "block",
-   "name": "Deepslate Azurum Ore"
+   "name": "Deepslate Azurum Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block"
+   ]
   },
   "azurum_miner:azurum_ore": {
    "kind": "block",
-   "name": "Azurum Ore"
+   "name": "Azurum Ore",
+   "tags": [
+    "kind:block"
+   ]
   },
   "azurum_miner:conglomerate_of_ore": {
    "kind": "block",
-   "name": "Conglomerate of Ores"
+   "name": "Conglomerate of Ores",
+   "tags": [
+    "kind:block"
+   ]
   },
   "azurum_miner:conglomerate_of_ore_block": {
    "kind": "block",
-   "name": "Conglomerate of Ores Block"
+   "name": "Conglomerate of Ores Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "azurum_miner:crystallizer_block": {
    "kind": "block",
-   "name": "Crystallizer"
+   "name": "Crystallizer",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "azurum_miner:energized_obsidian_block": {
    "kind": "block",
-   "name": "Energized Obsidian"
+   "name": "Energized Obsidian",
+   "tags": [
+    "kind:block"
+   ]
   },
   "azurum_miner:galibium_block": {
    "kind": "block",
-   "name": "Galibium Block"
+   "name": "Galibium Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "azurum_miner:galibium_deepslate_ore": {
    "kind": "block",
-   "name": "Deepslate Galibium Ore"
+   "name": "Deepslate Galibium Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block"
+   ]
   },
   "azurum_miner:galibium_ore": {
    "kind": "block",
-   "name": "Galibium Ore"
+   "name": "Galibium Ore",
+   "tags": [
+    "kind:block"
+   ]
   },
   "azurum_miner:generator_block": {
    "kind": "block",
-   "name": "Dimensional Energy Generator"
+   "name": "Dimensional Energy Generator",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:block"
+   ]
   },
   "azurum_miner:infuser_block": {
    "kind": "block",
-   "name": "Infuser"
+   "name": "Infuser",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "azurum_miner:liquifier_block": {
    "kind": "block",
-   "name": "Liquifier"
+   "name": "Liquifier",
+   "tags": [
+    "kind:block"
+   ]
   },
   "azurum_miner:miner_block_tier_1": {
    "kind": "block",
-   "name": "Tier 1 Miner"
+   "name": "Tier 1 Miner",
+   "tags": [
+    "function:mine",
+    "kind:block"
+   ]
   },
   "azurum_miner:miner_block_tier_2": {
    "kind": "block",
-   "name": "Tier 2 Miner"
+   "name": "Tier 2 Miner",
+   "tags": [
+    "function:mine",
+    "kind:block"
+   ]
   },
   "azurum_miner:miner_block_tier_3": {
    "kind": "block",
-   "name": "Tier 3 Miner"
+   "name": "Tier 3 Miner",
+   "tags": [
+    "function:mine",
+    "kind:block"
+   ]
   },
   "azurum_miner:miner_block_tier_4": {
    "kind": "block",
-   "name": "Tier 4 Miner"
+   "name": "Tier 4 Miner",
+   "tags": [
+    "function:mine",
+    "kind:block"
+   ]
   },
   "azurum_miner:miner_block_tier_5": {
    "kind": "block",
-   "name": "Tier 5 Miner"
+   "name": "Tier 5 Miner",
+   "tags": [
+    "function:mine",
+    "kind:block"
+   ]
   },
   "azurum_miner:palestium_block": {
    "kind": "block",
-   "name": "Palestium Block"
+   "name": "Palestium Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "azurum_miner:palestium_deepslate_ore": {
    "kind": "block",
-   "name": "Deepslate Palestium Ore"
+   "name": "Deepslate Palestium Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block"
+   ]
   },
   "azurum_miner:palestium_ore": {
    "kind": "block",
-   "name": "Palestium Ore"
+   "name": "Palestium Ore",
+   "tags": [
+    "kind:block"
+   ]
   },
   "azurum_miner:raw_azurum_block": {
    "kind": "block",
-   "name": "Raw Azurum Block"
+   "name": "Raw Azurum Block",
+   "tags": [
+    "kind:material"
+   ]
   },
   "azurum_miner:raw_galibium_block": {
    "kind": "block",
-   "name": "Raw Galibium Block"
+   "name": "Raw Galibium Block",
+   "tags": [
+    "kind:material"
+   ]
   },
   "azurum_miner:raw_palestium_block": {
    "kind": "block",
-   "name": "Raw Palestium Block"
+   "name": "Raw Palestium Block",
+   "tags": [
+    "kind:material"
+   ]
   },
   "azurum_miner:raw_thelxium_block": {
    "kind": "block",
-   "name": "Raw Thelxium Block"
+   "name": "Raw Thelxium Block",
+   "tags": [
+    "kind:material"
+   ]
   },
   "azurum_miner:simple_generator_block": {
    "kind": "block",
-   "name": "Simple Energy Generator"
+   "name": "Simple Energy Generator",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:block"
+   ]
   },
   "azurum_miner:thelxium_block": {
    "kind": "block",
-   "name": "Thelxium Block"
+   "name": "Thelxium Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "azurum_miner:thelxium_deepslate_ore": {
    "kind": "block",
-   "name": "Deepslate Thelxium Ore"
+   "name": "Deepslate Thelxium Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block"
+   ]
   },
   "azurum_miner:thelxium_ore": {
    "kind": "block",
-   "name": "Thelxium Ore"
+   "name": "Thelxium Ore",
+   "tags": [
+    "kind:block"
+   ]
   },
   "azurum_miner:transmogrifier_block": {
    "kind": "block",
-   "name": "Dimensional Transmogrifier"
+   "name": "Dimensional Transmogrifier",
+   "tags": [
+    "kind:block"
+   ]
   },
   "azurum_miner:void_bullet": {
    "kind": "item",
-   "name": "Void Bullet"
+   "name": "Void Bullet",
+   "tags": [
+    "kind:consumable",
+    "function:defend"
+   ]
   },
   "azurum_miner:amethyst_crystal_solution_bucket": {
    "kind": "item",
-   "name": "Amethyst Crystal Solution Bucket"
+   "name": "Amethyst Crystal Solution Bucket",
+   "tags": [
+    "kind:tool",
+    "kind:material"
+   ]
   },
   "azurum_miner:azurum": {
    "kind": "item",
-   "name": "Azurum"
+   "name": "Azurum",
+   "tags": []
   },
   "azurum_miner:azurum_gear": {
    "kind": "item",
-   "name": "Azurum Gear"
+   "name": "Azurum Gear",
+   "tags": [
+    "kind:material"
+   ]
   },
   "azurum_miner:azurum_ingot": {
    "kind": "item",
-   "name": "Azurum Ingot"
+   "name": "Azurum Ingot",
+   "tags": [
+    "kind:material"
+   ]
   },
   "azurum_miner:azurum_nugget": {
    "kind": "item",
-   "name": "Azurum Nugget"
+   "name": "Azurum Nugget",
+   "tags": [
+    "kind:material"
+   ]
   },
   "azurum_miner:complex_void_processor": {
    "kind": "item",
-   "name": "Complex Void Processor"
+   "name": "Complex Void Processor",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "azurum_miner:conglomerate_of_ore_shard": {
    "kind": "item",
-   "name": "Conglomerate of Ores Shard"
+   "name": "Conglomerate of Ores Shard",
+   "tags": [
+    "kind:material"
+   ]
   },
   "azurum_miner:diamond_crystal_solution_bucket": {
    "kind": "item",
-   "name": "Diamond Crystal Solution Bucket"
+   "name": "Diamond Crystal Solution Bucket",
+   "tags": [
+    "kind:tool",
+    "kind:material"
+   ]
   },
   "azurum_miner:dimensional_matrix": {
    "kind": "item",
-   "name": "Dimensional Matrix"
+   "name": "Dimensional Matrix",
+   "tags": []
   },
   "azurum_miner:elaborate_void_processor": {
    "kind": "item",
-   "name": "Elaborate Void Processor"
+   "name": "Elaborate Void Processor",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "azurum_miner:emerald_crystal_solution_bucket": {
    "kind": "item",
-   "name": "Emerald Crystal Solution Bucket"
+   "name": "Emerald Crystal Solution Bucket",
+   "tags": [
+    "kind:tool",
+    "kind:material"
+   ]
   },
   "azurum_miner:empty_dimensional_matrix": {
    "kind": "item",
-   "name": "Empty Dimensional Matrix"
+   "name": "Empty Dimensional Matrix",
+   "tags": []
   },
   "azurum_miner:ender_diamond": {
    "kind": "item",
-   "name": "Ender Infused Diamond"
+   "name": "Ender Infused Diamond",
+   "tags": []
   },
   "azurum_miner:ender_essence_bucket": {
    "kind": "item",
-   "name": "Ender Essence Bucket"
+   "name": "Ender Essence Bucket",
+   "tags": [
+    "kind:tool",
+    "kind:material"
+   ]
   },
   "azurum_miner:energy_shard": {
    "kind": "item",
-   "name": "Energy Shard"
+   "name": "Energy Shard",
+   "tags": [
+    "kind:material"
+   ]
   },
   "azurum_miner:galibium_gear": {
    "kind": "item",
-   "name": "Galibium Gear"
+   "name": "Galibium Gear",
+   "tags": [
+    "kind:material"
+   ]
   },
   "azurum_miner:galibium_ingot": {
    "kind": "item",
-   "name": "Galibium Ingot"
+   "name": "Galibium Ingot",
+   "tags": [
+    "kind:material"
+   ]
   },
   "azurum_miner:galibium_nugget": {
    "kind": "item",
-   "name": "Galibium Nugget"
+   "name": "Galibium Nugget",
+   "tags": [
+    "kind:material"
+   ]
   },
   "azurum_miner:molten_ore_bucket": {
    "kind": "item",
-   "name": "Molten Ore Bucket"
+   "name": "Molten Ore Bucket",
+   "tags": [
+    "kind:tool",
+    "needs:ore"
+   ]
   },
   "azurum_miner:nether_diamond": {
    "kind": "item",
-   "name": "Nether Infused Diamond"
+   "name": "Nether Infused Diamond",
+   "tags": [
+    "needs:nether"
+   ]
   },
   "azurum_miner:nether_essence_bucket": {
    "kind": "item",
-   "name": "Nether Essence Bucket"
+   "name": "Nether Essence Bucket",
+   "tags": [
+    "kind:tool",
+    "kind:material",
+    "needs:nether"
+   ]
   },
   "azurum_miner:palestium_gear": {
    "kind": "item",
-   "name": "Palestium Gear"
+   "name": "Palestium Gear",
+   "tags": [
+    "kind:material"
+   ]
   },
   "azurum_miner:palestium_ingot": {
    "kind": "item",
-   "name": "Palestium Ingot"
+   "name": "Palestium Ingot",
+   "tags": [
+    "kind:material"
+   ]
   },
   "azurum_miner:palestium_nugget": {
    "kind": "item",
-   "name": "Palestium Nugget"
+   "name": "Palestium Nugget",
+   "tags": [
+    "kind:material"
+   ]
   },
   "azurum_miner:palestium_pickaxe": {
    "kind": "item",
-   "name": "Palestium Pickaxe"
+   "name": "Palestium Pickaxe",
+   "tags": [
+    "kind:tool",
+    "function:mine"
+   ]
   },
   "azurum_miner:prismarine_crystal_solution_bucket": {
    "kind": "item",
-   "name": "Prismarine Crystal Solution Bucket"
+   "name": "Prismarine Crystal Solution Bucket",
+   "tags": [
+    "kind:tool",
+    "kind:material"
+   ]
   },
   "azurum_miner:quartz_crystal_solution_bucket": {
    "kind": "item",
-   "name": "Quartz Crystal Solution Bucket"
+   "name": "Quartz Crystal Solution Bucket",
+   "tags": [
+    "kind:tool",
+    "kind:material"
+   ]
   },
   "azurum_miner:raw_azurum": {
    "kind": "item",
-   "name": "Raw Azurum"
+   "name": "Raw Azurum",
+   "tags": [
+    "kind:material"
+   ]
   },
   "azurum_miner:raw_galibium": {
    "kind": "item",
-   "name": "Raw Galibium"
+   "name": "Raw Galibium",
+   "tags": [
+    "kind:material"
+   ]
   },
   "azurum_miner:raw_palestium": {
    "kind": "item",
-   "name": "Raw Palestium"
+   "name": "Raw Palestium",
+   "tags": [
+    "kind:material"
+   ]
   },
   "azurum_miner:raw_thelxium": {
    "kind": "item",
-   "name": "Raw Thelxium"
+   "name": "Raw Thelxium",
+   "tags": [
+    "kind:material"
+   ]
   },
   "azurum_miner:seed_crystal": {
    "kind": "item",
-   "name": "Seed Crystal"
+   "name": "Seed Crystal",
+   "tags": [
+    "function:farm",
+    "kind:material"
+   ]
   },
   "azurum_miner:simple_void_processor": {
    "kind": "item",
-   "name": "Simple Void Processor"
+   "name": "Simple Void Processor",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "azurum_miner:thelxium_gear": {
    "kind": "item",
-   "name": "Thelxium Gear"
+   "name": "Thelxium Gear",
+   "tags": [
+    "kind:material"
+   ]
   },
   "azurum_miner:thelxium_ingot": {
    "kind": "item",
-   "name": "Thelxium Ingot"
+   "name": "Thelxium Ingot",
+   "tags": [
+    "kind:material"
+   ]
   },
   "azurum_miner:thelxium_nugget": {
    "kind": "item",
-   "name": "Thelxium Nugget"
+   "name": "Thelxium Nugget",
+   "tags": [
+    "kind:material"
+   ]
   },
   "azurum_miner:void_crystal": {
    "kind": "item",
-   "name": "Void Crystal"
+   "name": "Void Crystal",
+   "tags": [
+    "kind:material"
+   ]
   },
   "azurum_miner:void_gun": {
    "kind": "item",
-   "name": "Void Gun"
+   "name": "Void Gun",
+   "tags": []
   },
   "azurum_miner:void_processor": {
    "kind": "item",
-   "name": "Void Processor"
+   "name": "Void Processor",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

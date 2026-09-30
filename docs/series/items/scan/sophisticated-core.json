@@ -61,11 +61,16 @@
  "items": {
   "sophisticatedcore:xp_bucket": {
    "kind": "item",
-   "name": "Bucket of Experience"
+   "name": "Bucket of Experience",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "sophisticatedcore:ender_linker": {
    "kind": "item",
-   "name": "Ender Linker"
+   "name": "Ender Linker",
+   "tags": []
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

@@ -34,423 +34,900 @@
  "items": {
   "ars_elemancy:cinder_hat": {
    "kind": "item",
-   "name": "Cindermancer Hat"
+   "name": "Cindermancer Hat",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:cinder_robes": {
    "kind": "item",
-   "name": "Cindermancer Robes"
+   "name": "Cindermancer Robes",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:cinder_leggings": {
    "kind": "item",
-   "name": "Cindermancer Leggings"
+   "name": "Cindermancer Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:cinder_boots": {
    "kind": "item",
-   "name": "Cindermancer Boots"
+   "name": "Cindermancer Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:cinder_helmet": {
    "kind": "item",
-   "name": "Ashguard's Helmet"
+   "name": "Ashguard's Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:cinder_chestplate": {
    "kind": "item",
-   "name": "Ashguard's Chestplate"
+   "name": "Ashguard's Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:cinder_leggings_heavy": {
    "kind": "item",
-   "name": "Ashguard's Leggings"
+   "name": "Ashguard's Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:cinder_boots_heavy": {
    "kind": "item",
-   "name": "Ashguard's Boots"
+   "name": "Ashguard's Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:cinder_hood": {
    "kind": "item",
-   "name": "Phoenix's Hood"
+   "name": "Phoenix's Hood",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:cinder_tunic": {
    "kind": "item",
-   "name": "Phoenix's Tunic"
+   "name": "Phoenix's Tunic",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:cinder_pants": {
    "kind": "item",
-   "name": "Phoenix's Pants"
+   "name": "Phoenix's Pants",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:cinder_shoes": {
    "kind": "item",
-   "name": "Phoenix's Shoes"
+   "name": "Phoenix's Shoes",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:cinder_focus": {
    "kind": "item",
-   "name": "Focus of Cinder"
+   "name": "Focus of Cinder",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:cinder_essence": {
    "kind": "item",
-   "name": "Cinder Essence"
+   "name": "Cinder Essence",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:tempest_hat": {
    "kind": "item",
-   "name": "Tempestmancer Hat"
+   "name": "Tempestmancer Hat",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:tempest_robes": {
    "kind": "item",
-   "name": "Tempestmancer Robes"
+   "name": "Tempestmancer Robes",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:tempest_leggings": {
    "kind": "item",
-   "name": "Tempestmancer Leggings"
+   "name": "Tempestmancer Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:tempest_boots": {
    "kind": "item",
-   "name": "Tempestmancer Boots"
+   "name": "Tempestmancer Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:tempest_helmet": {
    "kind": "item",
-   "name": "Stormguard's Helmet"
+   "name": "Stormguard's Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:tempest_chestplate": {
    "kind": "item",
-   "name": "Stormguard's Chestplate"
+   "name": "Stormguard's Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:tempest_leggings_heavy": {
    "kind": "item",
-   "name": "Stormguard's Leggings"
+   "name": "Stormguard's Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:tempest_boots_heavy": {
    "kind": "item",
-   "name": "Stormguard's Boots"
+   "name": "Stormguard's Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:tempest_hood": {
    "kind": "item",
-   "name": "Kirin's Hood"
+   "name": "Kirin's Hood",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:tempest_tunic": {
    "kind": "item",
-   "name": "Kirin's Tunic"
+   "name": "Kirin's Tunic",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:tempest_pants": {
    "kind": "item",
-   "name": "Kirin's Pants"
+   "name": "Kirin's Pants",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:tempest_shoes": {
    "kind": "item",
-   "name": "Kirin's Shoes"
+   "name": "Kirin's Shoes",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:tempest_focus": {
    "kind": "item",
-   "name": "Focus of Tempest"
+   "name": "Focus of Tempest",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:tempest_essence": {
    "kind": "item",
-   "name": "Tempest Essence"
+   "name": "Tempest Essence",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:vapor_hat": {
    "kind": "item",
-   "name": "Vapormancer Hat"
+   "name": "Vapormancer Hat",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:vapor_robes": {
    "kind": "item",
-   "name": "Vapormancer Robes"
+   "name": "Vapormancer Robes",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:vapor_leggings": {
    "kind": "item",
-   "name": "Vapormancer Leggings"
+   "name": "Vapormancer Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:vapor_boots": {
    "kind": "item",
-   "name": "Vapormancer Boots"
+   "name": "Vapormancer Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:vapor_helmet": {
    "kind": "item",
-   "name": "Steamguard's Helmet"
+   "name": "Steamguard's Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:vapor_chestplate": {
    "kind": "item",
-   "name": "Steamguard's Chestplate"
+   "name": "Steamguard's Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:vapor_leggings_heavy": {
    "kind": "item",
-   "name": "Steamguard's Leggings"
+   "name": "Steamguard's Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:vapor_boots_heavy": {
    "kind": "item",
-   "name": "Steamguard's Boots"
+   "name": "Steamguard's Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:vapor_hood": {
    "kind": "item",
-   "name": "Bannik's Hood"
+   "name": "Bannik's Hood",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:vapor_tunic": {
    "kind": "item",
-   "name": "Bannik's Tunic"
+   "name": "Bannik's Tunic",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:vapor_pants": {
    "kind": "item",
-   "name": "Bannik's Pants"
+   "name": "Bannik's Pants",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:vapor_shoes": {
    "kind": "item",
-   "name": "Bannik's Shoes"
+   "name": "Bannik's Shoes",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:vapor_focus": {
    "kind": "item",
-   "name": "Focus of Vapor"
+   "name": "Focus of Vapor",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:vapor_essence": {
    "kind": "item",
-   "name": "Vapor Essence"
+   "name": "Vapor Essence",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:mire_hat": {
    "kind": "item",
-   "name": "Miremancer Hat"
+   "name": "Miremancer Hat",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:mire_robes": {
    "kind": "item",
-   "name": "Miremancer Robes"
+   "name": "Miremancer Robes",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:mire_leggings": {
    "kind": "item",
-   "name": "Miremancer Leggings"
+   "name": "Miremancer Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:mire_boots": {
    "kind": "item",
-   "name": "Miremancer Boots"
+   "name": "Miremancer Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:mire_helmet": {
    "kind": "item",
-   "name": "Swampguard's Helmet"
+   "name": "Swampguard's Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:mire_chestplate": {
    "kind": "item",
-   "name": "Swampguard's Chestplate"
+   "name": "Swampguard's Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:mire_leggings_heavy": {
    "kind": "item",
-   "name": "Swampguard's Leggings"
+   "name": "Swampguard's Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:mire_boots_heavy": {
    "kind": "item",
-   "name": "Swampguard's Boots"
+   "name": "Swampguard's Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:mire_hood": {
    "kind": "item",
-   "name": "Hydra's Hood"
+   "name": "Hydra's Hood",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:mire_tunic": {
    "kind": "item",
-   "name": "Hydra's Tunic"
+   "name": "Hydra's Tunic",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:mire_pants": {
    "kind": "item",
-   "name": "Hydra's Pants"
+   "name": "Hydra's Pants",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:mire_shoes": {
    "kind": "item",
-   "name": "Hydra's Shoes"
+   "name": "Hydra's Shoes",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:mire_focus": {
    "kind": "item",
-   "name": "Focus of Mire"
+   "name": "Focus of Mire",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:mire_essence": {
    "kind": "item",
-   "name": "Mire Essence"
+   "name": "Mire Essence",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:lava_hat": {
    "kind": "item",
-   "name": "Lavamancer Hat"
+   "name": "Lavamancer Hat",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:lava_robes": {
    "kind": "item",
-   "name": "Lavamancer Robes"
+   "name": "Lavamancer Robes",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:lava_leggings": {
    "kind": "item",
-   "name": "Lavamancer Leggings"
+   "name": "Lavamancer Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:lava_boots": {
    "kind": "item",
-   "name": "Lavamancer Boots"
+   "name": "Lavamancer Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:lava_helmet": {
    "kind": "item",
-   "name": "Magmaguard's Helmet"
+   "name": "Magmaguard's Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:lava_chestplate": {
    "kind": "item",
-   "name": "Magmaguard's Chestplate"
+   "name": "Magmaguard's Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:lava_leggings_heavy": {
    "kind": "item",
-   "name": "Magmaguard's Leggings"
+   "name": "Magmaguard's Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:lava_boots_heavy": {
    "kind": "item",
-   "name": "Magmaguard's Boots"
+   "name": "Magmaguard's Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:lava_hood": {
    "kind": "item",
-   "name": "Typhon's Hood"
+   "name": "Typhon's Hood",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:lava_tunic": {
    "kind": "item",
-   "name": "Typhon's Tunic"
+   "name": "Typhon's Tunic",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:lava_pants": {
    "kind": "item",
-   "name": "Typhon's Pants"
+   "name": "Typhon's Pants",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:lava_shoes": {
    "kind": "item",
-   "name": "Typhon's Shoes"
+   "name": "Typhon's Shoes",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:lava_focus": {
    "kind": "item",
-   "name": "Focus of Lava"
+   "name": "Focus of Lava",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:lava_essence": {
    "kind": "item",
-   "name": "Lava Essence"
+   "name": "Lava Essence",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:silt_hat": {
    "kind": "item",
-   "name": "Siltmancer Hat"
+   "name": "Siltmancer Hat",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:silt_robes": {
    "kind": "item",
-   "name": "Siltmancer Robes"
+   "name": "Siltmancer Robes",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:silt_leggings": {
    "kind": "item",
-   "name": "Siltmancer Leggings"
+   "name": "Siltmancer Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:silt_boots": {
    "kind": "item",
-   "name": "Siltmancer Boots"
+   "name": "Siltmancer Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:silt_helmet": {
    "kind": "item",
-   "name": "Desertguard's Helmet"
+   "name": "Desertguard's Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:silt_chestplate": {
    "kind": "item",
-   "name": "Desertguard's Chestplate"
+   "name": "Desertguard's Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:silt_leggings_heavy": {
    "kind": "item",
-   "name": "Desertguard's Leggings"
+   "name": "Desertguard's Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:silt_boots_heavy": {
    "kind": "item",
-   "name": "Desertguard's Boots"
+   "name": "Desertguard's Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:silt_hood": {
    "kind": "item",
-   "name": "Sphinx's Hood"
+   "name": "Sphinx's Hood",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:silt_tunic": {
    "kind": "item",
-   "name": "Sphinx's Tunic"
+   "name": "Sphinx's Tunic",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:silt_pants": {
    "kind": "item",
-   "name": "Sphinx's Pants"
+   "name": "Sphinx's Pants",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:silt_shoes": {
    "kind": "item",
-   "name": "Sphinx's Shoes"
+   "name": "Sphinx's Shoes",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:silt_focus": {
    "kind": "item",
-   "name": "Focus of Silt"
+   "name": "Focus of Silt",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:silt_essence": {
    "kind": "item",
-   "name": "Silt Essence"
+   "name": "Silt Essence",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:elemancer_hat": {
    "kind": "item",
-   "name": "Elemancer Hat"
+   "name": "Elemancer Hat",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:elemancer_robes": {
    "kind": "item",
-   "name": "Elemancer Robes"
+   "name": "Elemancer Robes",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:elemancer_leggings": {
    "kind": "item",
-   "name": "Elemancer Leggings"
+   "name": "Elemancer Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:elemancer_boots": {
    "kind": "item",
-   "name": "Elemancer Boots"
+   "name": "Elemancer Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:elemancer_helmet": {
    "kind": "item",
-   "name": "Omniguard's Helmet"
+   "name": "Omniguard's Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:elemancer_chestplate": {
    "kind": "item",
-   "name": "Omniguard's Chestplate"
+   "name": "Omniguard's Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:elemancer_leggings_heavy": {
    "kind": "item",
-   "name": "Omniguard's Leggings"
+   "name": "Omniguard's Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:elemancer_boots_heavy": {
    "kind": "item",
-   "name": "Omniguard's Boots"
+   "name": "Omniguard's Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:elemancer_hood": {
    "kind": "item",
-   "name": "Tiamat's Hood"
+   "name": "Tiamat's Hood",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:elemancer_tunic": {
    "kind": "item",
-   "name": "Tiamat's Tunic"
+   "name": "Tiamat's Tunic",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:elemancer_pants": {
    "kind": "item",
-   "name": "Tiamat's Pants"
+   "name": "Tiamat's Pants",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:elemancer_shoes": {
    "kind": "item",
-   "name": "Tiamat's Shoes"
+   "name": "Tiamat's Shoes",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:elemancer_focus": {
    "kind": "item",
-   "name": "Focus of Elemancy"
+   "name": "Focus of Elemancy",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:elemancer_essence": {
    "kind": "item",
-   "name": "Elemancer Shard"
+   "name": "Elemancer Shard",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:cinder_bangle": {
    "kind": "item",
-   "name": "Cinder Bangle"
+   "name": "Cinder Bangle",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:vapor_bangle": {
    "kind": "item",
-   "name": "Vapor Bangle"
+   "name": "Vapor Bangle",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:lava_bangle": {
    "kind": "item",
-   "name": "Lava Bangle"
+   "name": "Lava Bangle",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:silt_bangle": {
    "kind": "item",
-   "name": "Silt Bangle"
+   "name": "Silt Bangle",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:tempest_bangle": {
    "kind": "item",
-   "name": "Tempest Bangle"
+   "name": "Tempest Bangle",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:mire_bangle": {
    "kind": "item",
-   "name": "Mire Bangle"
+   "name": "Mire Bangle",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_elemancy:elemancer_bangle": {
    "kind": "item",
-   "name": "Elemancer Bangle"
+   "name": "Elemancer Bangle",
+   "tags": [
+    "needs:spell-tech"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

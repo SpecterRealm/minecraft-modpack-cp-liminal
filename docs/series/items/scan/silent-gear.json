@@ -34,1027 +34,1749 @@
  "items": {
   "silentgear:alloy_forge": {
    "kind": "block",
-   "name": "Alloy Forge"
+   "name": "Alloy Forge",
+   "tags": [
+    "function:craft",
+    "kind:block"
+   ]
   },
   "silentgear:azure_electrum_block": {
    "kind": "block",
-   "name": "Block of Azure Electrum"
+   "name": "Block of Azure Electrum",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:azure_silver_block": {
    "kind": "block",
-   "name": "Block of Azure Silver"
+   "name": "Block of Azure Silver",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:azure_silver_ore": {
    "kind": "block",
-   "name": "Azure Silver Ore"
+   "name": "Azure Silver Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block"
+   ]
   },
   "silentgear:black_fluffy_block": {
    "kind": "block",
-   "name": "Black Fluffy Block"
+   "name": "Black Fluffy Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:blackstone_crimson_iron_ore": {
    "kind": "block",
-   "name": "Blackstone Crimson Iron Ore"
+   "name": "Blackstone Crimson Iron Ore",
+   "tags": [
+    "needs:ore",
+    "needs:nether",
+    "kind:block"
+   ]
   },
   "silentgear:blaze_gold_block": {
    "kind": "block",
-   "name": "Block of Blaze Gold"
+   "name": "Block of Blaze Gold",
+   "tags": [
+    "needs:nether",
+    "kind:block"
+   ]
   },
   "silentgear:blue_fluffy_block": {
    "kind": "block",
-   "name": "Blue Fluffy Block"
+   "name": "Blue Fluffy Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:bort_block": {
    "kind": "block",
-   "name": "Block of Bort"
+   "name": "Block of Bort",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:bort_ore": {
    "kind": "block",
-   "name": "Bort Ore"
+   "name": "Bort Ore",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:brown_fluffy_block": {
    "kind": "block",
-   "name": "Brown Fluffy Block"
+   "name": "Brown Fluffy Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:crimson_iron_block": {
    "kind": "block",
-   "name": "Block of Crimson Iron"
+   "name": "Block of Crimson Iron",
+   "tags": [
+    "needs:nether",
+    "kind:block"
+   ]
   },
   "silentgear:crimson_iron_ore": {
    "kind": "block",
-   "name": "Crimson Iron Ore"
+   "name": "Crimson Iron Ore",
+   "tags": [
+    "needs:ore",
+    "needs:nether",
+    "kind:block"
+   ]
   },
   "silentgear:crimson_steel_block": {
    "kind": "block",
-   "name": "Block of Crimson Steel"
+   "name": "Block of Crimson Steel",
+   "tags": [
+    "needs:nether",
+    "kind:block"
+   ]
   },
   "silentgear:crude_mixer": {
    "kind": "block",
-   "name": "Crude Mixer"
+   "name": "Crude Mixer",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "silentgear:cyan_fluffy_block": {
    "kind": "block",
-   "name": "Cyan Fluffy Block"
+   "name": "Cyan Fluffy Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:deepslate_bort_ore": {
    "kind": "block",
-   "name": "Deepslate Bort Ore"
+   "name": "Deepslate Bort Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block"
+   ]
   },
   "silentgear:flax_plant": {
    "kind": "block",
-   "name": "Flax Plant"
+   "name": "Flax Plant",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:fluffy_plant": {
    "kind": "block",
-   "name": "Fluffy Plant"
+   "name": "Fluffy Plant",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:gear_smithing_table": {
    "kind": "block",
-   "name": "Gear Smithing Table"
+   "name": "Gear Smithing Table",
+   "tags": [
+    "function:craft",
+    "kind:material"
+   ]
   },
   "silentgear:gray_fluffy_block": {
    "kind": "block",
-   "name": "Gray Fluffy Block"
+   "name": "Gray Fluffy Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:green_fluffy_block": {
    "kind": "block",
-   "name": "Green Fluffy Block"
+   "name": "Green Fluffy Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:light_blue_fluffy_block": {
    "kind": "block",
-   "name": "Light Blue Fluffy Block"
+   "name": "Light Blue Fluffy Block",
+   "tags": [
+    "function:light",
+    "kind:block"
+   ]
   },
   "silentgear:light_gray_fluffy_block": {
    "kind": "block",
-   "name": "Light Gray Fluffy Block"
+   "name": "Light Gray Fluffy Block",
+   "tags": [
+    "function:light",
+    "kind:block"
+   ]
   },
   "silentgear:lime_fluffy_block": {
    "kind": "block",
-   "name": "Lime Fluffy Block"
+   "name": "Lime Fluffy Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:magenta_fluffy_block": {
    "kind": "block",
-   "name": "Magenta Fluffy Block"
+   "name": "Magenta Fluffy Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:material_grader": {
    "kind": "block",
-   "name": "Material Grader"
+   "name": "Material Grader",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:metal_press": {
    "kind": "block",
-   "name": "Metal Press"
+   "name": "Metal Press",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "silentgear:netherwood_charcoal_block": {
    "kind": "block",
-   "name": "Block of Netherwood Charcoal"
+   "name": "Block of Netherwood Charcoal",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:netherwood_door": {
    "kind": "block",
-   "name": "Netherwood Door"
+   "name": "Netherwood Door",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "silentgear:netherwood_fence": {
    "kind": "block",
-   "name": "Netherwood Fence"
+   "name": "Netherwood Fence",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "silentgear:netherwood_fence_gate": {
    "kind": "block",
-   "name": "Netherwood Fence Gate"
+   "name": "Netherwood Fence Gate",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "silentgear:netherwood_leaves": {
    "kind": "block",
-   "name": "Netherwood Leaves"
+   "name": "Netherwood Leaves",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "silentgear:netherwood_log": {
    "kind": "block",
-   "name": "Netherwood"
+   "name": "Netherwood",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "silentgear:netherwood_planks": {
    "kind": "block",
-   "name": "Netherwood Planks"
+   "name": "Netherwood Planks",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "silentgear:netherwood_sapling": {
    "kind": "block",
-   "name": "Netherwood Sapling"
+   "name": "Netherwood Sapling",
+   "tags": [
+    "function:farm",
+    "kind:block"
+   ]
   },
   "silentgear:netherwood_slab": {
    "kind": "block",
-   "name": "Netherwood Slab"
+   "name": "Netherwood Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "silentgear:netherwood_stairs": {
    "kind": "block",
-   "name": "Netherwood Stairs"
+   "name": "Netherwood Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "silentgear:netherwood_trapdoor": {
    "kind": "block",
-   "name": "Netherwood Trapdoor"
+   "name": "Netherwood Trapdoor",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "silentgear:netherwood_wood": {
    "kind": "block",
-   "name": "Netherwood Wood"
+   "name": "Netherwood Wood",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:orange_fluffy_block": {
    "kind": "block",
-   "name": "Orange Fluffy Block"
+   "name": "Orange Fluffy Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:paint_mixer": {
    "kind": "block",
-   "name": "Paint Mixer"
+   "name": "Paint Mixer",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "silentgear:phantom_light": {
    "kind": "block",
-   "name": "Phantom Light"
+   "name": "Phantom Light",
+   "tags": [
+    "function:light",
+    "kind:block"
+   ]
   },
   "silentgear:pink_fluffy_block": {
    "kind": "block",
-   "name": "Pink Fluffy Block"
+   "name": "Pink Fluffy Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:potted_netherwood_sapling": {
    "kind": "block",
-   "name": "Potted Netherwood Sapling"
+   "name": "Potted Netherwood Sapling",
+   "tags": [
+    "function:farm",
+    "kind:block"
+   ]
   },
   "silentgear:purple_fluffy_block": {
    "kind": "block",
-   "name": "Purple Fluffy Block"
+   "name": "Purple Fluffy Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:raw_azure_silver_block": {
    "kind": "block",
-   "name": "Raw Azure Silver Block"
+   "name": "Raw Azure Silver Block",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:raw_crimson_iron_block": {
    "kind": "block",
-   "name": "Raw Crimson Iron Block"
+   "name": "Raw Crimson Iron Block",
+   "tags": [
+    "kind:material",
+    "needs:nether"
+   ]
   },
   "silentgear:recrystallizer": {
    "kind": "block",
-   "name": "Recrystallizer"
+   "name": "Recrystallizer",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:red_fluffy_block": {
    "kind": "block",
-   "name": "Red Fluffy Block"
+   "name": "Red Fluffy Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:refabricator": {
    "kind": "block",
-   "name": "Refabricator"
+   "name": "Refabricator",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:salvager": {
    "kind": "block",
-   "name": "Salvager"
+   "name": "Salvager",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:starlight_charger": {
    "kind": "block",
-   "name": "Starlight Charger"
+   "name": "Starlight Charger",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "silentgear:stone_anvil": {
    "kind": "block",
-   "name": "Stone Anvil"
+   "name": "Stone Anvil",
+   "tags": [
+    "function:craft",
+    "kind:decoration"
+   ]
   },
   "silentgear:stone_torch": {
    "kind": "block",
-   "name": "Stone Torch"
+   "name": "Stone Torch",
+   "tags": [
+    "function:light",
+    "kind:decoration"
+   ]
   },
   "silentgear:stripped_netherwood_log": {
    "kind": "block",
-   "name": "Stripped Netherwood Log"
+   "name": "Stripped Netherwood Log",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "silentgear:stripped_netherwood_wood": {
    "kind": "block",
-   "name": "Stripped Netherwood Wood"
+   "name": "Stripped Netherwood Wood",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:super_mixer": {
    "kind": "block",
-   "name": "Super Mixer"
+   "name": "Super Mixer",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "silentgear:tyrian_steel_block": {
    "kind": "block",
-   "name": "Block of Tyrian Steel"
+   "name": "Block of Tyrian Steel",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:white_fluffy_block": {
    "kind": "block",
-   "name": "White Fluffy Block"
+   "name": "White Fluffy Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:wild_flax_plant": {
    "kind": "block",
-   "name": "Wild Flax Plant"
+   "name": "Wild Flax Plant",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:wild_fluffy_plant": {
    "kind": "block",
-   "name": "Wild Fluffy Plant"
+   "name": "Wild Fluffy Plant",
+   "tags": [
+    "kind:block"
+   ]
   },
   "silentgear:yellow_fluffy_block": {
    "kind": "block",
-   "name": "Yellow Fluffy Block"
+   "name": "Yellow Fluffy Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "minecraft:villager.silentgear.gear_smith": {
    "kind": "entity",
-   "name": "Gear Smith"
+   "name": "Gear Smith",
+   "tags": []
   },
   "silentgear:advanced_upgrade_base": {
    "kind": "item",
-   "name": "Advanced Upgrade Base"
+   "name": "Advanced Upgrade Base",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "silentgear:alloy_ingot": {
    "kind": "item",
-   "name": "%s Alloy"
+   "name": "%s Alloy",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:armor_body": {
    "kind": "item",
-   "name": "Armor Body"
+   "name": "Armor Body",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "silentgear:arrow": {
    "kind": "item",
-   "name": "Arrow"
+   "name": "Arrow",
+   "tags": [
+    "kind:consumable",
+    "function:defend"
+   ]
   },
   "silentgear:arrow_heads": {
    "kind": "item",
-   "name": "Arrow Heads"
+   "name": "Arrow Heads",
+   "tags": [
+    "kind:consumable",
+    "function:defend"
+   ]
   },
   "silentgear:axe": {
    "kind": "item",
-   "name": "Axe"
+   "name": "Axe",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "silentgear:axe_head": {
    "kind": "item",
-   "name": "Axe Head"
+   "name": "Axe Head",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "silentgear:azure_electrum_dust": {
    "kind": "item",
-   "name": "Azure Electrum Dust"
+   "name": "Azure Electrum Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:azure_electrum_ingot": {
    "kind": "item",
-   "name": "Azure Electrum Ingot"
+   "name": "Azure Electrum Ingot",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:azure_electrum_nugget": {
    "kind": "item",
-   "name": "Azure Electrum Nugget"
+   "name": "Azure Electrum Nugget",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:azure_repair_kit": {
    "kind": "item",
-   "name": "Azure Repair Kit"
+   "name": "Azure Repair Kit",
+   "tags": []
   },
   "silentgear:azure_silver_chunks": {
    "kind": "item",
-   "name": "Azure Silver Ore Chunks"
+   "name": "Azure Silver Ore Chunks",
+   "tags": [
+    "kind:material",
+    "needs:ore"
+   ]
   },
   "silentgear:azure_silver_dust": {
    "kind": "item",
-   "name": "Azure Silver Dust"
+   "name": "Azure Silver Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:azure_silver_ingot": {
    "kind": "item",
-   "name": "Azure Silver Ingot"
+   "name": "Azure Silver Ingot",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:azure_silver_nugget": {
    "kind": "item",
-   "name": "Azure Silver Nugget"
+   "name": "Azure Silver Nugget",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:binding": {
    "kind": "item",
-   "name": "Binding"
+   "name": "Binding",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "silentgear:blaze_gold_dust": {
    "kind": "item",
-   "name": "Blaze Gold Dust"
+   "name": "Blaze Gold Dust",
+   "tags": [
+    "kind:material",
+    "needs:nether"
+   ]
   },
   "silentgear:blaze_gold_ingot": {
    "kind": "item",
-   "name": "Blaze Gold Ingot"
+   "name": "Blaze Gold Ingot",
+   "tags": [
+    "kind:material",
+    "needs:nether"
+   ]
   },
   "silentgear:blaze_gold_nugget": {
    "kind": "item",
-   "name": "Blaze Gold Nugget"
+   "name": "Blaze Gold Nugget",
+   "tags": [
+    "kind:material",
+    "needs:nether"
+   ]
   },
   "silentgear:blazing_dust": {
    "kind": "item",
-   "name": "Blazing Dust"
+   "name": "Blazing Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:blueprint": {
    "kind": "item",
-   "name": "%s Blueprint"
+   "name": "%s Blueprint",
+   "tags": []
   },
   "silentgear:blueprint.disabled": {
    "kind": "item",
-   "name": "Disabled in config!"
+   "name": "Disabled in config!",
+   "tags": []
   },
   "silentgear:blueprint_package": {
    "kind": "item",
-   "name": "Blueprint Package"
+   "name": "Blueprint Package",
+   "tags": []
   },
   "silentgear:blueprint_paper": {
    "kind": "item",
-   "name": "Blueprint Paper"
+   "name": "Blueprint Paper",
+   "tags": []
   },
   "silentgear:boot_plates": {
    "kind": "item",
-   "name": "Boot Plates"
+   "name": "Boot Plates",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:boots": {
    "kind": "item",
-   "name": "Boots"
+   "name": "Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "silentgear:bort": {
    "kind": "item",
-   "name": "Bort"
+   "name": "Bort",
+   "tags": []
   },
   "silentgear:bow": {
    "kind": "item",
-   "name": "Bow"
+   "name": "Bow",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "silentgear:bow.unstrung": {
    "kind": "item",
-   "name": "Unstrung %s"
+   "name": "Unstrung %s",
+   "tags": []
   },
   "silentgear:bow_limbs": {
    "kind": "item",
-   "name": "Bow Limbs"
+   "name": "Bow Limbs",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "silentgear:bracelet": {
    "kind": "item",
-   "name": "Bracelet"
+   "name": "Bracelet",
+   "tags": []
   },
   "silentgear:bracelet_band": {
    "kind": "item",
-   "name": "Bracelet Band"
+   "name": "Bracelet Band",
+   "tags": []
   },
   "silentgear:bronze_ingot": {
    "kind": "item",
-   "name": "Bronze Ingot"
+   "name": "Bronze Ingot",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:chestplate": {
    "kind": "item",
-   "name": "Chestplate"
+   "name": "Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "silentgear:chestplate_plates": {
    "kind": "item",
-   "name": "Chestplate Plates"
+   "name": "Chestplate Plates",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "kind:material"
+   ]
   },
   "silentgear:coating": {
    "kind": "item",
-   "name": "Coating"
+   "name": "Coating",
+   "tags": []
   },
   "silentgear:coating_smithing_template": {
    "kind": "item",
-   "name": "Coating Smithing Template"
+   "name": "Coating Smithing Template",
+   "tags": [
+    "function:craft"
+   ]
   },
   "silentgear:compound_part.part_name": {
    "kind": "item",
-   "name": "Gear Part: %s"
+   "name": "Gear Part: %s",
+   "tags": []
   },
   "silentgear:cord": {
    "kind": "item",
-   "name": "Cord"
+   "name": "Cord",
+   "tags": []
   },
   "silentgear:crimson_iron_chunks": {
    "kind": "item",
-   "name": "Crimson Iron Ore Chunks"
+   "name": "Crimson Iron Ore Chunks",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "needs:nether"
+   ]
   },
   "silentgear:crimson_iron_dust": {
    "kind": "item",
-   "name": "Crimson Iron Dust"
+   "name": "Crimson Iron Dust",
+   "tags": [
+    "kind:material",
+    "needs:nether"
+   ]
   },
   "silentgear:crimson_iron_ingot": {
    "kind": "item",
-   "name": "Crimson Iron Ingot"
+   "name": "Crimson Iron Ingot",
+   "tags": [
+    "kind:material",
+    "needs:nether"
+   ]
   },
   "silentgear:crimson_iron_nugget": {
    "kind": "item",
-   "name": "Crimson Iron Nugget"
+   "name": "Crimson Iron Nugget",
+   "tags": [
+    "kind:material",
+    "needs:nether"
+   ]
   },
   "silentgear:crimson_repair_kit": {
    "kind": "item",
-   "name": "Crimson Repair Kit"
+   "name": "Crimson Repair Kit",
+   "tags": [
+    "needs:nether"
+   ]
   },
   "silentgear:crimson_steel_dust": {
    "kind": "item",
-   "name": "Crimson Steel Dust"
+   "name": "Crimson Steel Dust",
+   "tags": [
+    "kind:material",
+    "needs:nether"
+   ]
   },
   "silentgear:crimson_steel_ingot": {
    "kind": "item",
-   "name": "Crimson Steel Ingot"
+   "name": "Crimson Steel Ingot",
+   "tags": [
+    "kind:material",
+    "needs:nether"
+   ]
   },
   "silentgear:crimson_steel_nugget": {
    "kind": "item",
-   "name": "Crimson Steel Nugget"
+   "name": "Crimson Steel Nugget",
+   "tags": [
+    "kind:material",
+    "needs:nether"
+   ]
   },
   "silentgear:crossbow": {
    "kind": "item",
-   "name": "Crossbow"
+   "name": "Crossbow",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "silentgear:crossbow.unstrung": {
    "kind": "item",
-   "name": "Unstrung %s"
+   "name": "Unstrung %s",
+   "tags": []
   },
   "silentgear:crossbow_limbs": {
    "kind": "item",
-   "name": "Crossbow Limbs"
+   "name": "Crossbow Limbs",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "silentgear:crude_alloy": {
    "kind": "item",
-   "name": "Crude %s Alloy"
+   "name": "Crude %s Alloy",
+   "tags": []
   },
   "silentgear:crude_hammer": {
    "kind": "item",
-   "name": "Crude Hammer"
+   "name": "Crude Hammer",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "silentgear:crude_knife": {
    "kind": "item",
-   "name": "Crude Knife"
+   "name": "Crude Knife",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "silentgear:crude_repair_kit": {
    "kind": "item",
-   "name": "Crude Repair Kit"
+   "name": "Crude Repair Kit",
+   "tags": []
   },
   "silentgear:crude_tool_parts": {
    "kind": "item",
-   "name": "Crude Tool Parts"
+   "name": "Crude Tool Parts",
+   "tags": []
   },
   "silentgear:crushed_shulker_shell": {
    "kind": "item",
-   "name": "Crushed Shulker Shell"
+   "name": "Crushed Shulker Shell",
+   "tags": [
+    "function:store",
+    "needs:end"
+   ]
   },
   "silentgear:custom_gem": {
    "kind": "item",
-   "name": "%s"
+   "name": "%s",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:custom_gem.literal": {
    "kind": "item",
-   "name": "Custom Gem"
+   "name": "Custom Gem",
+   "tags": []
   },
   "silentgear:custom_ingot": {
    "kind": "item",
-   "name": "%s Ingot"
+   "name": "%s Ingot",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:custom_ingot.literal": {
    "kind": "item",
-   "name": "Custom Ingot"
+   "name": "Custom Ingot",
+   "tags": []
   },
   "silentgear:dagger": {
    "kind": "item",
-   "name": "Dagger"
+   "name": "Dagger",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "silentgear:dagger_blade": {
    "kind": "item",
-   "name": "Dagger Blade"
+   "name": "Dagger Blade",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "silentgear:diamond_shard": {
    "kind": "item",
-   "name": "Diamond Shard"
+   "name": "Diamond Shard",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:dried_sinew": {
    "kind": "item",
-   "name": "Dried Sinew"
+   "name": "Dried Sinew",
+   "tags": []
   },
   "silentgear:elytra": {
    "kind": "item",
-   "name": "Elytra"
+   "name": "Elytra",
+   "tags": [
+    "function:travel"
+   ]
   },
   "silentgear:elytra_wings": {
    "kind": "item",
-   "name": "Elytra Wings"
+   "name": "Elytra Wings",
+   "tags": [
+    "function:travel"
+   ]
   },
   "silentgear:emerald_shard": {
    "kind": "item",
-   "name": "Emerald Shard"
+   "name": "Emerald Shard",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:excavator": {
    "kind": "item",
-   "name": "Excavator"
+   "name": "Excavator",
+   "tags": [
+    "kind:tool",
+    "function:mine"
+   ]
   },
   "silentgear:excavator_head": {
    "kind": "item",
-   "name": "Excavator Head"
+   "name": "Excavator Head",
+   "tags": [
+    "kind:tool",
+    "function:mine"
+   ]
   },
   "silentgear:fine_silk": {
    "kind": "item",
-   "name": "Fine Silk"
+   "name": "Fine Silk",
+   "tags": []
   },
   "silentgear:fine_silk_cloth": {
    "kind": "item",
-   "name": "Fine Silk Cloth"
+   "name": "Fine Silk Cloth",
+   "tags": []
   },
   "silentgear:fishing_reel_and_hook": {
    "kind": "item",
-   "name": "Fishing Reel and Hook"
+   "name": "Fishing Reel and Hook",
+   "tags": []
   },
   "silentgear:fishing_rod": {
    "kind": "item",
-   "name": "Fishing Rod"
+   "name": "Fishing Rod",
+   "tags": [
+    "kind:tool",
+    "kind:material"
+   ]
   },
   "silentgear:flax_fiber": {
    "kind": "item",
-   "name": "Flax Fiber"
+   "name": "Flax Fiber",
+   "tags": []
   },
   "silentgear:flax_flowers": {
    "kind": "item",
-   "name": "Flax Flowers"
+   "name": "Flax Flowers",
+   "tags": [
+    "function:farm",
+    "kind:decoration"
+   ]
   },
   "silentgear:flax_seeds": {
    "kind": "item",
-   "name": "Flax Seeds"
+   "name": "Flax Seeds",
+   "tags": [
+    "function:farm"
+   ]
   },
   "silentgear:flax_string": {
    "kind": "item",
-   "name": "Flax String"
+   "name": "Flax String",
+   "tags": []
   },
   "silentgear:fletching": {
    "kind": "item",
-   "name": "Fletching"
+   "name": "Fletching",
+   "tags": []
   },
   "silentgear:fluffy_fabric": {
    "kind": "item",
-   "name": "Fluffy Fabric"
+   "name": "Fluffy Fabric",
+   "tags": []
   },
   "silentgear:fluffy_feather": {
    "kind": "item",
-   "name": "Fluffy Feather"
+   "name": "Fluffy Feather",
+   "tags": []
   },
   "silentgear:fluffy_puff": {
    "kind": "item",
-   "name": "Fluffy Puff"
+   "name": "Fluffy Puff",
+   "tags": []
   },
   "silentgear:fluffy_seeds": {
    "kind": "item",
-   "name": "Fluffy Seeds"
+   "name": "Fluffy Seeds",
+   "tags": [
+    "function:farm"
+   ]
   },
   "silentgear:fluffy_string": {
    "kind": "item",
-   "name": "Fluffy String"
+   "name": "Fluffy String",
+   "tags": []
   },
   "silentgear:fragment": {
    "kind": "item",
-   "name": "%s Fragment"
+   "name": "%s Fragment",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:fragment.hint": {
    "kind": "item",
-   "name": "Combine eight (8) in a crafting grid"
+   "name": "Combine eight (8) in a crafting grid",
+   "tags": []
   },
   "silentgear:fragment.invalid": {
    "kind": "item",
-   "name": "Fragment (Unknown Material)"
+   "name": "Fragment (Unknown Material)",
+   "tags": []
   },
   "silentgear:glittery_dust": {
    "kind": "item",
-   "name": "Glittery Dust"
+   "name": "Glittery Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:glowing_dust": {
    "kind": "item",
-   "name": "Glowing Dust"
+   "name": "Glowing Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:glowstone_coated_upgrade": {
    "kind": "item",
-   "name": "Glowstone-Coated Upgrade"
+   "name": "Glowstone-Coated Upgrade",
+   "tags": [
+    "function:light",
+    "kind:gadget"
+   ]
   },
   "silentgear:golden_nether_banana": {
    "kind": "item",
-   "name": "Golden Nether Banana"
+   "name": "Golden Nether Banana",
+   "tags": [
+    "needs:nether"
+   ]
   },
   "silentgear:grip": {
    "kind": "item",
-   "name": "Grip"
+   "name": "Grip",
+   "tags": []
   },
   "silentgear:hammer": {
    "kind": "item",
-   "name": "Hammer"
+   "name": "Hammer",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "silentgear:hammer_head": {
    "kind": "item",
-   "name": "Hammer Head"
+   "name": "Hammer Head",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "silentgear:helmet": {
    "kind": "item",
-   "name": "Helmet"
+   "name": "Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "silentgear:helmet_plates": {
    "kind": "item",
-   "name": "Helmet Plates"
+   "name": "Helmet Plates",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "kind:material"
+   ]
   },
   "silentgear:hoe": {
    "kind": "item",
-   "name": "Hoe"
+   "name": "Hoe",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "silentgear:hoe_head": {
    "kind": "item",
-   "name": "Hoe Head"
+   "name": "Hoe Head",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "silentgear:hybrid_gem": {
    "kind": "item",
-   "name": "%s Hybrid Gem"
+   "name": "%s Hybrid Gem",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:iron_rod": {
    "kind": "item",
-   "name": "Iron Rod"
+   "name": "Iron Rod",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:jeweler_tools": {
    "kind": "item",
-   "name": "Jeweler Tools"
+   "name": "Jeweler Tools",
+   "tags": []
   },
   "silentgear:katana": {
    "kind": "item",
-   "name": "Katana"
+   "name": "Katana",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "silentgear:katana_blade": {
    "kind": "item",
-   "name": "Katana Blade"
+   "name": "Katana Blade",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "silentgear:knife": {
    "kind": "item",
-   "name": "Knife"
+   "name": "Knife",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "silentgear:knife_blade": {
    "kind": "item",
-   "name": "Knife Blade"
+   "name": "Knife Blade",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "kind:tool"
+   ]
   },
   "silentgear:lapis_coated_upgrade": {
    "kind": "item",
-   "name": "Lapis-Coated Upgrade"
+   "name": "Lapis-Coated Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "silentgear:leather_scrap": {
    "kind": "item",
-   "name": "Leather Scrap"
+   "name": "Leather Scrap",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:legging_plates": {
    "kind": "item",
-   "name": "Legging Plates"
+   "name": "Legging Plates",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:leggings": {
    "kind": "item",
-   "name": "Leggings"
+   "name": "Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "silentgear:lining": {
    "kind": "item",
-   "name": "Lining"
+   "name": "Lining",
+   "tags": []
   },
   "silentgear:mace": {
    "kind": "item",
-   "name": "Mace"
+   "name": "Mace",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "silentgear:mace_core": {
    "kind": "item",
-   "name": "Mace Core"
+   "name": "Mace Core",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "silentgear:machete": {
    "kind": "item",
-   "name": "Machete"
+   "name": "Machete",
+   "tags": []
   },
   "silentgear:machete_blade": {
    "kind": "item",
-   "name": "Machete Blade"
+   "name": "Machete Blade",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "silentgear:magnetic_upgrade": {
    "kind": "item",
-   "name": "Magnetic Upgrade"
+   "name": "Magnetic Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "silentgear:mattock": {
    "kind": "item",
-   "name": "Mattock"
+   "name": "Mattock",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "silentgear:mattock_head": {
    "kind": "item",
-   "name": "Mattock Head"
+   "name": "Mattock Head",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "silentgear:mixed_fabric": {
    "kind": "item",
-   "name": "%s Mixed Fabric"
+   "name": "%s Mixed Fabric",
+   "tags": []
   },
   "silentgear:mod_kit": {
    "kind": "item",
-   "name": "Gear Mod Kit"
+   "name": "Gear Mod Kit",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:mod_kit.can_paint_and_remove": {
    "kind": "item",
-   "name": "Can %1$s and %2$s parts of this type"
+   "name": "Can %1$s and %2$s parts of this type",
+   "tags": []
   },
   "silentgear:mod_kit.can_paint_or_remove": {
    "kind": "item",
-   "name": "Can %s parts of this type"
+   "name": "Can %s parts of this type",
+   "tags": []
   },
   "silentgear:mod_kit.no_actions": {
    "kind": "item",
-   "name": "Cannot modify parts of this type"
+   "name": "Cannot modify parts of this type",
+   "tags": []
   },
   "silentgear:mod_kit.paint": {
    "kind": "item",
-   "name": "paint"
+   "name": "paint",
+   "tags": []
   },
   "silentgear:mod_kit.remove": {
    "kind": "item",
-   "name": "remove"
+   "name": "remove",
+   "tags": []
   },
   "silentgear:mod_kit.selected": {
    "kind": "item",
-   "name": "Part Type: %s"
+   "name": "Part Type: %s",
+   "tags": []
   },
   "silentgear:necklace": {
    "kind": "item",
-   "name": "Necklace"
+   "name": "Necklace",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "silentgear:necklace_chain": {
    "kind": "item",
-   "name": "Necklace Chain"
+   "name": "Necklace Chain",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "silentgear:nether_banana": {
    "kind": "item",
-   "name": "Nether Banana"
+   "name": "Nether Banana",
+   "tags": [
+    "needs:nether"
+   ]
   },
   "silentgear:nether_star_fragment": {
    "kind": "item",
-   "name": "Nether Star Fragment"
+   "name": "Nether Star Fragment",
+   "tags": [
+    "kind:material",
+    "needs:nether"
+   ]
   },
   "silentgear:netherwood_charcoal": {
    "kind": "item",
-   "name": "Netherwood Charcoal"
+   "name": "Netherwood Charcoal",
+   "tags": []
   },
   "silentgear:netherwood_stick": {
    "kind": "item",
-   "name": "Netherwood Stick"
+   "name": "Netherwood Stick",
+   "tags": []
   },
   "silentgear:paint": {
    "kind": "item",
-   "name": "Paint"
+   "name": "Paint",
+   "tags": []
   },
   "silentgear:paint.color": {
    "kind": "item",
-   "name": "Color: %s"
+   "name": "Color: %s",
+   "tags": []
   },
   "silentgear:paxel": {
    "kind": "item",
-   "name": "Paxel"
+   "name": "Paxel",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "silentgear:paxel_head": {
    "kind": "item",
-   "name": "Paxel Head"
+   "name": "Paxel Head",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "silentgear:pebble": {
    "kind": "item",
-   "name": "Pebble"
+   "name": "Pebble",
+   "tags": []
   },
   "silentgear:pickaxe": {
    "kind": "item",
-   "name": "Pickaxe"
+   "name": "Pickaxe",
+   "tags": [
+    "kind:tool",
+    "function:mine"
+   ]
   },
   "silentgear:pickaxe_head": {
    "kind": "item",
-   "name": "Pickaxe Head"
+   "name": "Pickaxe Head",
+   "tags": [
+    "kind:tool",
+    "function:mine"
+   ]
   },
   "silentgear:prospector_hammer": {
    "kind": "item",
-   "name": "Prospector Hammer"
+   "name": "Prospector Hammer",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "silentgear:prospector_hammer.finds": {
    "kind": "item",
-   "name": "Finds: %s"
+   "name": "Finds: %s",
+   "tags": []
   },
   "silentgear:prospector_hammer.no_finds": {
    "kind": "item",
-   "name": "Nothing found"
+   "name": "Nothing found",
+   "tags": []
   },
   "silentgear:prospector_hammer_head": {
    "kind": "item",
-   "name": "Prospector Hammer Head"
+   "name": "Prospector Hammer Head",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "silentgear:raw_azure_silver": {
    "kind": "item",
-   "name": "Raw Azure Silver"
+   "name": "Raw Azure Silver",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:raw_crimson_iron": {
    "kind": "item",
-   "name": "Raw Crimson Iron"
+   "name": "Raw Crimson Iron",
+   "tags": [
+    "kind:material",
+    "needs:nether"
+   ]
   },
   "silentgear:red_card_upgrade": {
    "kind": "item",
-   "name": "Red Card"
+   "name": "Red Card",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "silentgear:redstone_coated_upgrade": {
    "kind": "item",
-   "name": "Redstone-Coated Upgrade"
+   "name": "Redstone-Coated Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "silentgear:repair_kit.capacity": {
    "kind": "item",
-   "name": "Materials: %s / %s"
+   "name": "Materials: %s / %s",
+   "tags": []
   },
   "silentgear:repair_kit.efficiency": {
    "kind": "item",
-   "name": "Repair Efficiency: %d%%"
+   "name": "Repair Efficiency: %d%%",
+   "tags": []
   },
   "silentgear:repair_kit.hint1": {
    "kind": "item",
-   "name": "Used to repair gear items"
+   "name": "Used to repair gear items",
+   "tags": []
   },
   "silentgear:repair_kit.hint2": {
    "kind": "item",
-   "name": "Craft with materials to fill, or a stick to empty"
+   "name": "Craft with materials to fill, or a stick to empty",
+   "tags": []
   },
   "silentgear:repair_kit.hint3": {
    "kind": "item",
-   "name": "Craft with a gear item to repair it"
+   "name": "Craft with a gear item to repair it",
+   "tags": []
   },
   "silentgear:repair_kit.material": {
    "kind": "item",
-   "name": "- %s: %s"
+   "name": "- %s: %s",
+   "tags": []
   },
   "silentgear:ring": {
    "kind": "item",
-   "name": "Ring"
+   "name": "Ring",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "silentgear:ring_shank": {
    "kind": "item",
-   "name": "Ring Shank"
+   "name": "Ring Shank",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "silentgear:road_maker_upgrade": {
    "kind": "item",
-   "name": "Road Maker Upgrade"
+   "name": "Road Maker Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "silentgear:rod": {
    "kind": "item",
-   "name": "Tool Rod"
+   "name": "Tool Rod",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:rough_rod": {
    "kind": "item",
-   "name": "Rough Rod"
+   "name": "Rough Rod",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:saw": {
    "kind": "item",
-   "name": "Saw"
+   "name": "Saw",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "silentgear:saw_blade": {
    "kind": "item",
-   "name": "Saw Blade"
+   "name": "Saw Blade",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "kind:tool"
+   ]
   },
   "silentgear:setting": {
    "kind": "item",
-   "name": "Jewelry Setting"
+   "name": "Jewelry Setting",
+   "tags": []
   },
   "silentgear:shear_blades": {
    "kind": "item",
-   "name": "Shear Blades"
+   "name": "Shear Blades",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "silentgear:shears": {
    "kind": "item",
-   "name": "Shears"
+   "name": "Shears",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "silentgear:sheet_metal": {
    "kind": "item",
-   "name": "%s Sheet Metal"
+   "name": "%s Sheet Metal",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:shield": {
    "kind": "item",
-   "name": "Shield"
+   "name": "Shield",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "silentgear:shield_plate": {
    "kind": "item",
-   "name": "Shield Plate"
+   "name": "Shield Plate",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "kind:material"
+   ]
   },
   "silentgear:shovel": {
    "kind": "item",
-   "name": "Shovel"
+   "name": "Shovel",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "silentgear:shovel_head": {
    "kind": "item",
-   "name": "Shovel Head"
+   "name": "Shovel Head",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "silentgear:sickle": {
    "kind": "item",
-   "name": "Sickle"
+   "name": "Sickle",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "silentgear:sickle_blade": {
    "kind": "item",
-   "name": "Sickle Blade"
+   "name": "Sickle Blade",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "kind:tool"
+   ]
   },
   "silentgear:sinew": {
    "kind": "item",
-   "name": "Sinew"
+   "name": "Sinew",
+   "tags": []
   },
   "silentgear:sinew_fiber": {
    "kind": "item",
-   "name": "Sinew Fiber"
+   "name": "Sinew Fiber",
+   "tags": []
   },
   "silentgear:slingshot": {
    "kind": "item",
-   "name": "Slingshot"
+   "name": "Slingshot",
+   "tags": []
   },
   "silentgear:slingshot_limbs": {
    "kind": "item",
-   "name": "Slingshot Limbs"
+   "name": "Slingshot Limbs",
+   "tags": []
   },
   "silentgear:spear": {
    "kind": "item",
-   "name": "Spear"
+   "name": "Spear",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "silentgear:spear_tip": {
    "kind": "item",
-   "name": "Spear Tip"
+   "name": "Spear Tip",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "silentgear:spoon_upgrade": {
    "kind": "item",
-   "name": "Spoon Upgrade"
+   "name": "Spoon Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "silentgear:starmetal_dust": {
    "kind": "item",
-   "name": "Starmetal Dust"
+   "name": "Starmetal Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:stone_rod": {
    "kind": "item",
-   "name": "Stone Rod"
+   "name": "Stone Rod",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:sturdy_repair_kit": {
    "kind": "item",
-   "name": "Sturdy Repair Kit"
+   "name": "Sturdy Repair Kit",
+   "tags": []
   },
   "silentgear:super_alloy": {
    "kind": "item",
-   "name": "%s Super Alloy"
+   "name": "%s Super Alloy",
+   "tags": []
   },
   "silentgear:sword": {
    "kind": "item",
-   "name": "Sword"
+   "name": "Sword",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "silentgear:sword_blade": {
    "kind": "item",
-   "name": "Sword Blade"
+   "name": "Sword Blade",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "silentgear:template": {
    "kind": "item",
-   "name": "%s Template"
+   "name": "%s Template",
+   "tags": []
   },
   "silentgear:template_board": {
    "kind": "item",
-   "name": "Template Board"
+   "name": "Template Board",
+   "tags": []
   },
   "silentgear:tip": {
    "kind": "item",
-   "name": "Tip Upgrade"
+   "name": "Tip Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "silentgear:trident": {
    "kind": "item",
-   "name": "Trident"
+   "name": "Trident",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "silentgear:trident_prongs": {
    "kind": "item",
-   "name": "Trident Prongs"
+   "name": "Trident Prongs",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "silentgear:tyrian_steel_dust": {
    "kind": "item",
-   "name": "Tyrian Steel Dust"
+   "name": "Tyrian Steel Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:tyrian_steel_ingot": {
    "kind": "item",
-   "name": "Tyrian Steel Ingot"
+   "name": "Tyrian Steel Ingot",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:tyrian_steel_nugget": {
    "kind": "item",
-   "name": "Tyrian Steel Nugget"
+   "name": "Tyrian Steel Nugget",
+   "tags": [
+    "kind:material"
+   ]
   },
   "silentgear:upgrade_base": {
    "kind": "item",
-   "name": "Upgrade Base"
+   "name": "Upgrade Base",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "silentgear:very_crude_repair_kit": {
    "kind": "item",
-   "name": "Very Crude Repair Kit"
+   "name": "Very Crude Repair Kit",
+   "tags": []
   },
   "silentgear:wide_plate_upgrade": {
    "kind": "item",
-   "name": "Wide Plate Upgrade"
+   "name": "Wide Plate Upgrade",
+   "tags": [
+    "kind:gadget",
+    "kind:material"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

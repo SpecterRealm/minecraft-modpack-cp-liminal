@@ -43,3 +43,12 @@ Multiblocks carry a `scaling` block in the catalog entry, not just a tag:
 1. **First pass:** tag each mod's items from source (item names, config, what it consumes or produces). Items added later get the same pass.
 2. **Loop-back pass:** after the first pass across a group, re-read earlier entries against any new tags or facet values added since, and fill the gaps. `scripts/series-item-tags.py check --missing` lists entries missing a facet, and a tag added to this file lists which mods to revisit.
 3. **Review pass:** set `tier`, `role`, `fit`.
+
+## Auto first pass
+
+`scripts/series-item-autotag.py run` tags every item in `scan/<mod>.json` from its id and name (weapons, armor, tools, storage, machines, generators, batteries, cables, farm items, food, materials, decoration, plus `needs:` hints for ore, Nether, End, and spell-tech mods). It only writes power tags where the wording is clear, so power tagging stays a review job. Things to know:
+
+- It is a keyword pass, so it over- and under-tags. Treat `auto` tags as a starting point, and hand-curated entries in `data/<mod>.json` win.
+- Re-running `series-mod-scan.py run` regenerates the scan files; run the auto tagger again after it.
+- `series-item-tags.py stats` shows tag counts; `find <tags> --all` searches curated and auto-tagged items together.
+- The loop-back list is what the tagger could not place: items with no `kind:` tag (mostly plain items) and machines without a `power-role`.

@@ -18,207 +18,359 @@
  "items": {
   "toughasnails:rain_collector": {
    "kind": "block",
-   "name": "Rain Collector"
+   "name": "Rain Collector",
+   "tags": [
+    "kind:block"
+   ]
   },
   "toughasnails:temperature_gauge": {
    "kind": "block",
-   "name": "Temperature Gauge"
+   "name": "Temperature Gauge",
+   "tags": [
+    "kind:block"
+   ]
   },
   "toughasnails:thermoregulator": {
    "kind": "block",
-   "name": "Thermoregulator"
+   "name": "Thermoregulator",
+   "tags": [
+    "kind:block"
+   ]
   },
   "toughasnails:water_purifier": {
    "kind": "block",
-   "name": "Water Purifier"
+   "name": "Water Purifier",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "toughasnails:apple_juice": {
    "kind": "item",
-   "name": "Apple Juice"
+   "name": "Apple Juice",
+   "tags": [
+    "kind:food"
+   ]
   },
   "toughasnails:cactus_juice": {
    "kind": "item",
-   "name": "Cactus Juice"
+   "name": "Cactus Juice",
+   "tags": [
+    "kind:food"
+   ]
   },
   "toughasnails:charc_os": {
    "kind": "item",
-   "name": "Charc-O's"
+   "name": "Charc-O's",
+   "tags": []
   },
   "toughasnails:chorus_fruit_juice": {
    "kind": "item",
-   "name": "Chorus Fruit Juice"
+   "name": "Chorus Fruit Juice",
+   "tags": [
+    "kind:food",
+    "needs:end"
+   ]
   },
   "toughasnails:copper_dirty_water_canteen": {
    "kind": "item",
-   "name": "Copper Dirty Water Canteen"
+   "name": "Copper Dirty Water Canteen",
+   "tags": [
+    "kind:consumable"
+   ]
   },
   "toughasnails:copper_purified_water_canteen": {
    "kind": "item",
-   "name": "Copper Purified Water Canteen"
+   "name": "Copper Purified Water Canteen",
+   "tags": [
+    "kind:consumable"
+   ]
   },
   "toughasnails:copper_water_canteen": {
    "kind": "item",
-   "name": "Copper Water Canteen"
+   "name": "Copper Water Canteen",
+   "tags": [
+    "kind:consumable"
+   ]
   },
   "toughasnails:diamond_dirty_water_canteen": {
    "kind": "item",
-   "name": "Diamond Dirty Water Canteen"
+   "name": "Diamond Dirty Water Canteen",
+   "tags": [
+    "kind:consumable"
+   ]
   },
   "toughasnails:diamond_purified_water_canteen": {
    "kind": "item",
-   "name": "Diamond Purified Water Canteen"
+   "name": "Diamond Purified Water Canteen",
+   "tags": [
+    "kind:consumable"
+   ]
   },
   "toughasnails:diamond_water_canteen": {
    "kind": "item",
-   "name": "Diamond Water Canteen"
+   "name": "Diamond Water Canteen",
+   "tags": [
+    "kind:consumable"
+   ]
   },
   "toughasnails:dirty_water_bottle": {
    "kind": "item",
-   "name": "Dirty Water Bottle"
+   "name": "Dirty Water Bottle",
+   "tags": []
   },
   "toughasnails:empty_copper_canteen": {
    "kind": "item",
-   "name": "Empty Copper Canteen"
+   "name": "Empty Copper Canteen",
+   "tags": [
+    "kind:consumable"
+   ]
   },
   "toughasnails:empty_diamond_canteen": {
    "kind": "item",
-   "name": "Empty Diamond Canteen"
+   "name": "Empty Diamond Canteen",
+   "tags": [
+    "kind:consumable"
+   ]
   },
   "toughasnails:empty_gold_canteen": {
    "kind": "item",
-   "name": "Empty Gold Canteen"
+   "name": "Empty Gold Canteen",
+   "tags": [
+    "kind:consumable"
+   ]
   },
   "toughasnails:empty_iron_canteen": {
    "kind": "item",
-   "name": "Empty Iron Canteen"
+   "name": "Empty Iron Canteen",
+   "tags": [
+    "kind:consumable"
+   ]
   },
   "toughasnails:empty_leather_canteen": {
    "kind": "item",
-   "name": "Empty Leather Canteen"
+   "name": "Empty Leather Canteen",
+   "tags": [
+    "kind:consumable"
+   ]
   },
   "toughasnails:empty_netherite_canteen": {
    "kind": "item",
-   "name": "Empty Netherite Canteen"
+   "name": "Empty Netherite Canteen",
+   "tags": [
+    "kind:consumable",
+    "needs:nether"
+   ]
   },
   "toughasnails:glow_berry_juice": {
    "kind": "item",
-   "name": "Glow Berry Juice"
+   "name": "Glow Berry Juice",
+   "tags": [
+    "kind:food"
+   ]
   },
   "toughasnails:gold_dirty_water_canteen": {
    "kind": "item",
-   "name": "Gold Dirty Water Canteen"
+   "name": "Gold Dirty Water Canteen",
+   "tags": [
+    "kind:consumable"
+   ]
   },
   "toughasnails:gold_purified_water_canteen": {
    "kind": "item",
-   "name": "Gold Purified Water Canteen"
+   "name": "Gold Purified Water Canteen",
+   "tags": [
+    "kind:consumable"
+   ]
   },
   "toughasnails:gold_water_canteen": {
    "kind": "item",
-   "name": "Gold Water Canteen"
+   "name": "Gold Water Canteen",
+   "tags": [
+    "kind:consumable"
+   ]
   },
   "toughasnails:ice_cream": {
    "kind": "item",
-   "name": "Ice Cream"
+   "name": "Ice Cream",
+   "tags": []
   },
   "toughasnails:iron_dirty_water_canteen": {
    "kind": "item",
-   "name": "Iron Dirty Water Canteen"
+   "name": "Iron Dirty Water Canteen",
+   "tags": [
+    "kind:consumable"
+   ]
   },
   "toughasnails:iron_purified_water_canteen": {
    "kind": "item",
-   "name": "Iron Purified Water Canteen"
+   "name": "Iron Purified Water Canteen",
+   "tags": [
+    "kind:consumable"
+   ]
   },
   "toughasnails:iron_water_canteen": {
    "kind": "item",
-   "name": "Iron Water Canteen"
+   "name": "Iron Water Canteen",
+   "tags": [
+    "kind:consumable"
+   ]
   },
   "toughasnails:leaf_boots": {
    "kind": "item",
-   "name": "Leaf Greaves"
+   "name": "Leaf Greaves",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "toughasnails:leaf_chestplate": {
    "kind": "item",
-   "name": "Leaf Poncho"
+   "name": "Leaf Poncho",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "toughasnails:leaf_helmet": {
    "kind": "item",
-   "name": "Leaf Veil"
+   "name": "Leaf Veil",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "toughasnails:leaf_leggings": {
    "kind": "item",
-   "name": "Leaf Pants"
+   "name": "Leaf Pants",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "toughasnails:leather_dirty_water_canteen": {
    "kind": "item",
-   "name": "Leather Dirty Water Canteen"
+   "name": "Leather Dirty Water Canteen",
+   "tags": [
+    "kind:consumable"
+   ]
   },
   "toughasnails:leather_purified_water_canteen": {
    "kind": "item",
-   "name": "Leather Purified Water Canteen"
+   "name": "Leather Purified Water Canteen",
+   "tags": [
+    "kind:consumable"
+   ]
   },
   "toughasnails:leather_water_canteen": {
    "kind": "item",
-   "name": "Leather Water Canteen"
+   "name": "Leather Water Canteen",
+   "tags": [
+    "kind:consumable"
+   ]
   },
   "toughasnails:melon_juice": {
    "kind": "item",
-   "name": "Melon Juice"
+   "name": "Melon Juice",
+   "tags": [
+    "kind:food"
+   ]
   },
   "toughasnails:netherite_dirty_water_canteen": {
    "kind": "item",
-   "name": "Netherite Dirty Water Canteen"
+   "name": "Netherite Dirty Water Canteen",
+   "tags": [
+    "kind:consumable",
+    "needs:nether"
+   ]
   },
   "toughasnails:netherite_purified_water_canteen": {
    "kind": "item",
-   "name": "Netherite Purified Water Canteen"
+   "name": "Netherite Purified Water Canteen",
+   "tags": [
+    "kind:consumable",
+    "needs:nether"
+   ]
   },
   "toughasnails:netherite_water_canteen": {
    "kind": "item",
-   "name": "Netherite Water Canteen"
+   "name": "Netherite Water Canteen",
+   "tags": [
+    "kind:consumable",
+    "needs:nether"
+   ]
   },
   "toughasnails:pumpkin_juice": {
    "kind": "item",
-   "name": "Pumpkin Juice"
+   "name": "Pumpkin Juice",
+   "tags": [
+    "kind:food"
+   ]
   },
   "toughasnails:purified_water_bottle": {
    "kind": "item",
-   "name": "Purified Water Bottle"
+   "name": "Purified Water Bottle",
+   "tags": []
   },
   "toughasnails:sweet_berry_juice": {
    "kind": "item",
-   "name": "Sweet Berry Juice"
+   "name": "Sweet Berry Juice",
+   "tags": [
+    "kind:food"
+   ]
   },
   "toughasnails:tan_icon": {
    "kind": "item",
-   "name": "TAN Icon"
+   "name": "TAN Icon",
+   "tags": []
   },
   "toughasnails:thermometer": {
    "kind": "item",
-   "name": "Thermometer"
+   "name": "Thermometer",
+   "tags": []
   },
   "toughasnails:wool_boots": {
    "kind": "item",
-   "name": "Wool Boots"
+   "name": "Wool Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "toughasnails:wool_chestplate": {
    "kind": "item",
-   "name": "Wool Parka"
+   "name": "Wool Parka",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "toughasnails:wool_helmet": {
    "kind": "item",
-   "name": "Wool Hood"
+   "name": "Wool Hood",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "toughasnails:wool_leggings": {
    "kind": "item",
-   "name": "Wool Pants"
+   "name": "Wool Pants",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "minecraft:villager.toughasnails.climatologist": {
    "kind": "entity",
-   "name": "Climatologist"
+   "name": "Climatologist",
+   "tags": []
   },
   "minecraft:villager.climatologist": {
    "kind": "entity",
-   "name": "Climatologist"
+   "name": "Climatologist",
+   "tags": []
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

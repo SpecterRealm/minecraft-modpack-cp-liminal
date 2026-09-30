@@ -19,15 +19,23 @@
  "items": {
   "createcobblestone:mechanical_generator": {
    "kind": "block",
-   "name": "Mechanical Generator"
+   "name": "Mechanical Generator",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:block"
+   ]
   },
   "createcobblestone:generators.hovertext.itemprefix": {
    "kind": "block",
-   "name": "Generates: "
+   "name": "Generates: ",
+   "tags": []
   },
   "createcobblestone:generators.hovertext.no_item": {
    "kind": "block",
-   "name": "Click on the generator with a stone type to set the generator type."
+   "name": "Click on the generator with a stone type to set the generator type.",
+   "tags": []
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

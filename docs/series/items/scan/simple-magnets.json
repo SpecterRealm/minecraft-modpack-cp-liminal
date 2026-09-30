@@ -10,19 +10,32 @@
  "items": {
   "simplemagnets:basicmagnet": {
    "kind": "item",
-   "name": "Magnet"
+   "name": "Magnet",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "simplemagnets:advancedmagnet": {
    "kind": "item",
-   "name": "Advanced Magnet"
+   "name": "Advanced Magnet",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "simplemagnets:basic_demagnetization_coil": {
    "kind": "block",
-   "name": "Demagnetization Coil"
+   "name": "Demagnetization Coil",
+   "tags": [
+    "kind:block"
+   ]
   },
   "simplemagnets:advanced_demagnetization_coil": {
    "kind": "block",
-   "name": "Advanced Demagnetization Coil"
+   "name": "Advanced Demagnetization Coil",
+   "tags": [
+    "kind:block"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

@@ -41,11 +41,16 @@
  "items": {
   "gateways:gateway": {
    "kind": "entity",
-   "name": "Gateway to Eternity"
+   "name": "Gateway to Eternity",
+   "tags": [
+    "kind:mob"
+   ]
   },
   "gateways:gate_pearl": {
    "kind": "item",
-   "name": "Gate Pearl"
+   "name": "Gate Pearl",
+   "tags": []
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

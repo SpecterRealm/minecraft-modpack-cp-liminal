@@ -27,67 +27,172 @@
  "items": {
   "arseng:me_source_jar": {
    "kind": "block",
-   "name": "ME Source Jar"
+   "name": "ME Source Jar",
+   "tags": [
+    "function:store",
+    "power-type:mana",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "arseng:source_acceptor": {
    "kind": "block",
-   "name": "ME Source Converter"
+   "name": "ME Source Converter",
+   "tags": [
+    "power-type:mana",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "arseng:cable_source_acceptor": {
    "kind": "item",
-   "name": "ME Source Converter"
+   "name": "ME Source Converter",
+   "tags": [
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "arseng:portable_source_cell_16k": {
    "kind": "item",
-   "name": "16k Portable Source Cell"
+   "name": "16k Portable Source Cell",
+   "tags": [
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "arseng:portable_source_cell_1k": {
    "kind": "item",
-   "name": "1k Portable Source Cell"
+   "name": "1k Portable Source Cell",
+   "tags": [
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "arseng:portable_source_cell_256k": {
    "kind": "item",
-   "name": "256k Portable Source Cell"
+   "name": "256k Portable Source Cell",
+   "tags": [
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "arseng:portable_source_cell_4k": {
    "kind": "item",
-   "name": "4k Portable Source Cell"
+   "name": "4k Portable Source Cell",
+   "tags": [
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "arseng:portable_source_cell_64k": {
    "kind": "item",
-   "name": "64k Portable Source Cell"
+   "name": "64k Portable Source Cell",
+   "tags": [
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "arseng:source_cell_housing": {
    "kind": "item",
-   "name": "ME Source Cell Housing"
+   "name": "ME Source Cell Housing",
+   "tags": [
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "arseng:source_p2p_tunnel": {
    "kind": "item",
-   "name": "ME Source P2P Tunnel"
+   "name": "ME Source P2P Tunnel",
+   "tags": [
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "arseng:source_storage_cell_16k": {
    "kind": "item",
-   "name": "16k ME Source Storage Cell"
+   "name": "16k ME Source Storage Cell",
+   "tags": [
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "arseng:source_storage_cell_1k": {
    "kind": "item",
-   "name": "1k ME Source Storage Cell"
+   "name": "1k ME Source Storage Cell",
+   "tags": [
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "arseng:source_storage_cell_256k": {
    "kind": "item",
-   "name": "256k ME Source Storage Cell"
+   "name": "256k ME Source Storage Cell",
+   "tags": [
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "arseng:source_storage_cell_4k": {
    "kind": "item",
-   "name": "4k ME Source Storage Cell"
+   "name": "4k ME Source Storage Cell",
+   "tags": [
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "arseng:source_storage_cell_64k": {
    "kind": "item",
-   "name": "64k ME Source Storage Cell"
+   "name": "64k ME Source Storage Cell",
+   "tags": [
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "arseng:spell_p2p_tunnel": {
    "kind": "item",
-   "name": "ME Spell P2P Tunnel"
+   "name": "ME Spell P2P Tunnel",
+   "tags": [
+    "function:enchant",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

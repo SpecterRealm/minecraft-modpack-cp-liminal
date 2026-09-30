@@ -50,583 +50,1043 @@
  "items": {
   "sophisticatedstorage:packing_tape": {
    "kind": "item",
-   "name": "Packing Tape"
+   "name": "Packing Tape",
+   "tags": []
   },
   "sophisticatedstorage:super_packing_tape": {
    "kind": "item",
-   "name": "Super Packing Tape"
+   "name": "Super Packing Tape",
+   "tags": []
   },
   "sophisticatedstorage:storage_tool": {
    "kind": "item",
-   "name": "Storage Tool"
+   "name": "Storage Tool",
+   "tags": [
+    "function:store"
+   ]
   },
   "sophisticatedstorage:storage_tool.overlay.linking": {
    "kind": "item",
-   "name": "Linking to controller at x:%s y:%s z:%s"
+   "name": "Linking to controller at x:%s y:%s z:%s",
+   "tags": []
   },
   "sophisticatedstorage:storage_tool.overlay.unlinking": {
    "kind": "item",
-   "name": "Unlinking from controller"
+   "name": "Unlinking from controller",
+   "tags": []
   },
   "sophisticatedstorage:storage_tool.overlay.toggling_lock": {
    "kind": "item",
-   "name": "Locking/Unlocking"
+   "name": "Locking/Unlocking",
+   "tags": []
   },
   "sophisticatedstorage:storage_tool.overlay.toggling_lock_display": {
    "kind": "item",
-   "name": "Showing/Hiding Lock(s)"
+   "name": "Showing/Hiding Lock(s)",
+   "tags": []
   },
   "sophisticatedstorage:storage_tool.overlay.toggling_count_display": {
    "kind": "item",
-   "name": "Showing/Hiding Count(s)"
+   "name": "Showing/Hiding Count(s)",
+   "tags": []
   },
   "sophisticatedstorage:storage_tool.overlay.toggling_tier_display": {
    "kind": "item",
-   "name": "Showing/Hiding Tier(s) or Overlay"
+   "name": "Showing/Hiding Tier(s) or Overlay",
+   "tags": []
   },
   "sophisticatedstorage:storage_tool.overlay.toggling_upgrades_display": {
    "kind": "item",
-   "name": "Showing/Hiding Upgrades"
+   "name": "Showing/Hiding Upgrades",
+   "tags": []
   },
   "sophisticatedstorage:storage_tool.overlay.toggling_fill_level_display": {
    "kind": "item",
-   "name": "Showing/Hiding Fill Levels"
+   "name": "Showing/Hiding Fill Levels",
+   "tags": []
   },
   "sophisticatedstorage:paintbrush.overlay.missing_items": {
    "kind": "item",
-   "name": "Missing items: "
+   "name": "Missing items: ",
+   "tags": []
   },
   "sophisticatedstorage:debug_tool": {
    "kind": "item",
-   "name": "Debug Tool"
+   "name": "Debug Tool",
+   "tags": []
   },
   "sophisticatedstorage:paintbrush": {
    "kind": "item",
-   "name": "Paintbrush"
+   "name": "Paintbrush",
+   "tags": []
   },
   "sophisticatedstorage:storage_connector": {
    "kind": "block",
-   "name": "%1$s%2$sStorage Connector"
+   "name": "%1$s%2$sStorage Connector",
+   "tags": [
+    "function:store",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "kind:block"
+   ]
   },
   "sophisticatedstorage:storage_io": {
    "kind": "block",
-   "name": "Storage I/O"
+   "name": "Storage I/O",
+   "tags": [
+    "function:store",
+    "kind:block"
+   ]
   },
   "sophisticatedstorage:storage_input": {
    "kind": "block",
-   "name": "Storage Input"
+   "name": "Storage Input",
+   "tags": [
+    "function:store",
+    "kind:block"
+   ]
   },
   "sophisticatedstorage:storage_output": {
    "kind": "block",
-   "name": "Storage Output"
+   "name": "Storage Output",
+   "tags": [
+    "function:store",
+    "kind:block"
+   ]
   },
   "sophisticatedstorage:storage_link": {
    "kind": "block",
-   "name": "Storage Link"
+   "name": "Storage Link",
+   "tags": [
+    "function:store",
+    "kind:block"
+   ]
   },
   "sophisticatedstorage:controller": {
    "kind": "block",
-   "name": "Storage Controller"
+   "name": "Storage Controller",
+   "tags": [
+    "function:store",
+    "kind:block"
+   ]
   },
   "sophisticatedstorage:barrel": {
    "kind": "block",
-   "name": "%s%sBarrel"
+   "name": "%s%sBarrel",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:copper_barrel": {
    "kind": "block",
-   "name": "%s%sCopper Barrel"
+   "name": "%s%sCopper Barrel",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:iron_barrel": {
    "kind": "block",
-   "name": "%s%sIron Barrel"
+   "name": "%s%sIron Barrel",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:gold_barrel": {
    "kind": "block",
-   "name": "%s%sGold Barrel"
+   "name": "%s%sGold Barrel",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:diamond_barrel": {
    "kind": "block",
-   "name": "%s%sDiamond Barrel"
+   "name": "%s%sDiamond Barrel",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:netherite_barrel": {
    "kind": "block",
-   "name": "%s%sNetherite Barrel"
+   "name": "%s%sNetherite Barrel",
+   "tags": [
+    "function:store",
+    "kind:storage",
+    "needs:nether"
+   ]
   },
   "sophisticatedstorage:limited_barrel_1": {
    "kind": "block",
-   "name": "Limited %s%sBarrel I"
+   "name": "Limited %s%sBarrel I",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:limited_barrel_2": {
    "kind": "block",
-   "name": "Limited %s%sBarrel II"
+   "name": "Limited %s%sBarrel II",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:limited_barrel_3": {
    "kind": "block",
-   "name": "Limited %s%sBarrel III"
+   "name": "Limited %s%sBarrel III",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:limited_barrel_4": {
    "kind": "block",
-   "name": "Limited %s%sBarrel IV"
+   "name": "Limited %s%sBarrel IV",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:limited_copper_barrel_1": {
    "kind": "block",
-   "name": "Limited %s%sCopper Barrel I"
+   "name": "Limited %s%sCopper Barrel I",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:limited_copper_barrel_2": {
    "kind": "block",
-   "name": "Limited %s%sCopper Barrel II"
+   "name": "Limited %s%sCopper Barrel II",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:limited_copper_barrel_3": {
    "kind": "block",
-   "name": "Limited %s%sCopper Barrel III"
+   "name": "Limited %s%sCopper Barrel III",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:limited_copper_barrel_4": {
    "kind": "block",
-   "name": "Limited %s%sCopper Barrel IV"
+   "name": "Limited %s%sCopper Barrel IV",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:limited_iron_barrel_1": {
    "kind": "block",
-   "name": "Limited %s%sIron Barrel I"
+   "name": "Limited %s%sIron Barrel I",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:limited_iron_barrel_2": {
    "kind": "block",
-   "name": "Limited %s%sIron Barrel II"
+   "name": "Limited %s%sIron Barrel II",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:limited_iron_barrel_3": {
    "kind": "block",
-   "name": "Limited %s%sIron Barrel III"
+   "name": "Limited %s%sIron Barrel III",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:limited_iron_barrel_4": {
    "kind": "block",
-   "name": "Limited %s%sIron Barrel IV"
+   "name": "Limited %s%sIron Barrel IV",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:limited_gold_barrel_1": {
    "kind": "block",
-   "name": "Limited %s%sGold Barrel I"
+   "name": "Limited %s%sGold Barrel I",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:limited_gold_barrel_2": {
    "kind": "block",
-   "name": "Limited %s%sGold Barrel II"
+   "name": "Limited %s%sGold Barrel II",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:limited_gold_barrel_3": {
    "kind": "block",
-   "name": "Limited %s%sGold Barrel III"
+   "name": "Limited %s%sGold Barrel III",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:limited_gold_barrel_4": {
    "kind": "block",
-   "name": "Limited %s%sGold Barrel IV"
+   "name": "Limited %s%sGold Barrel IV",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:limited_diamond_barrel_1": {
    "kind": "block",
-   "name": "Limited %s%sDiamond Barrel I"
+   "name": "Limited %s%sDiamond Barrel I",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:limited_diamond_barrel_2": {
    "kind": "block",
-   "name": "Limited %s%sDiamond Barrel II"
+   "name": "Limited %s%sDiamond Barrel II",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:limited_diamond_barrel_3": {
    "kind": "block",
-   "name": "Limited %s%sDiamond Barrel III"
+   "name": "Limited %s%sDiamond Barrel III",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:limited_diamond_barrel_4": {
    "kind": "block",
-   "name": "Limited %s%sDiamond Barrel IV"
+   "name": "Limited %s%sDiamond Barrel IV",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:limited_netherite_barrel_1": {
    "kind": "block",
-   "name": "Limited %s%sNetherite Barrel I"
+   "name": "Limited %s%sNetherite Barrel I",
+   "tags": [
+    "function:store",
+    "kind:storage",
+    "needs:nether"
+   ]
   },
   "sophisticatedstorage:limited_netherite_barrel_2": {
    "kind": "block",
-   "name": "Limited %s%sNetherite Barrel II"
+   "name": "Limited %s%sNetherite Barrel II",
+   "tags": [
+    "function:store",
+    "kind:storage",
+    "needs:nether"
+   ]
   },
   "sophisticatedstorage:limited_netherite_barrel_3": {
    "kind": "block",
-   "name": "Limited %s%sNetherite Barrel III"
+   "name": "Limited %s%sNetherite Barrel III",
+   "tags": [
+    "function:store",
+    "kind:storage",
+    "needs:nether"
+   ]
   },
   "sophisticatedstorage:limited_netherite_barrel_4": {
    "kind": "block",
-   "name": "Limited %s%sNetherite Barrel IV"
+   "name": "Limited %s%sNetherite Barrel IV",
+   "tags": [
+    "function:store",
+    "kind:storage",
+    "needs:nether"
+   ]
   },
   "sophisticatedstorage:chest": {
    "kind": "block",
-   "name": "%s%sChest"
+   "name": "%s%sChest",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:copper_chest": {
    "kind": "block",
-   "name": "%s%sCopper Chest"
+   "name": "%s%sCopper Chest",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:iron_chest": {
    "kind": "block",
-   "name": "%s%sIron Chest"
+   "name": "%s%sIron Chest",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:gold_chest": {
    "kind": "block",
-   "name": "%s%sGold Chest"
+   "name": "%s%sGold Chest",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:diamond_chest": {
    "kind": "block",
-   "name": "%s%sDiamond Chest"
+   "name": "%s%sDiamond Chest",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedstorage:netherite_chest": {
    "kind": "block",
-   "name": "%s%sNetherite Chest"
+   "name": "%s%sNetherite Chest",
+   "tags": [
+    "function:store",
+    "kind:storage",
+    "needs:nether"
+   ]
   },
   "sophisticatedstorage:decoration_table": {
    "kind": "block",
-   "name": "Decoration Table"
+   "name": "Decoration Table",
+   "tags": [
+    "function:craft",
+    "kind:block"
+   ]
   },
   "sophisticatedstorage:shulker_box": {
    "kind": "block",
-   "name": "Shulker Box"
+   "name": "Shulker Box",
+   "tags": [
+    "function:store",
+    "kind:storage",
+    "needs:end"
+   ]
   },
   "sophisticatedstorage:copper_shulker_box": {
    "kind": "block",
-   "name": "Copper Shulker Box"
+   "name": "Copper Shulker Box",
+   "tags": [
+    "function:store",
+    "kind:storage",
+    "needs:end"
+   ]
   },
   "sophisticatedstorage:iron_shulker_box": {
    "kind": "block",
-   "name": "Iron Shulker Box"
+   "name": "Iron Shulker Box",
+   "tags": [
+    "function:store",
+    "kind:storage",
+    "needs:end"
+   ]
   },
   "sophisticatedstorage:gold_shulker_box": {
    "kind": "block",
-   "name": "Gold Shulker Box"
+   "name": "Gold Shulker Box",
+   "tags": [
+    "function:store",
+    "kind:storage",
+    "needs:end"
+   ]
   },
   "sophisticatedstorage:diamond_shulker_box": {
    "kind": "block",
-   "name": "Diamond Shulker Box"
+   "name": "Diamond Shulker Box",
+   "tags": [
+    "function:store",
+    "kind:storage",
+    "needs:end"
+   ]
   },
   "sophisticatedstorage:netherite_shulker_box": {
    "kind": "block",
-   "name": "Netherite Shulker Box"
+   "name": "Netherite Shulker Box",
+   "tags": [
+    "function:store",
+    "kind:storage",
+    "needs:nether",
+    "needs:end"
+   ]
   },
   "sophisticatedstorage:basic_tier_upgrade": {
    "kind": "item",
-   "name": "Basic Tier Upgrade"
+   "name": "Basic Tier Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:basic_to_copper_tier_upgrade": {
    "kind": "item",
-   "name": "Basic to Copper Tier Upgrade"
+   "name": "Basic to Copper Tier Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:basic_to_iron_tier_upgrade": {
    "kind": "item",
-   "name": "Basic to Iron Tier Upgrade"
+   "name": "Basic to Iron Tier Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:basic_to_gold_tier_upgrade": {
    "kind": "item",
-   "name": "Basic to Gold Tier Upgrade"
+   "name": "Basic to Gold Tier Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:basic_to_diamond_tier_upgrade": {
    "kind": "item",
-   "name": "Basic to Diamond Tier Upgrade"
+   "name": "Basic to Diamond Tier Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:basic_to_netherite_tier_upgrade": {
    "kind": "item",
-   "name": "Basic to Netherite Tier Upgrade"
+   "name": "Basic to Netherite Tier Upgrade",
+   "tags": [
+    "kind:gadget",
+    "needs:nether"
+   ]
   },
   "sophisticatedstorage:copper_to_iron_tier_upgrade": {
    "kind": "item",
-   "name": "Copper to Iron Tier Upgrade"
+   "name": "Copper to Iron Tier Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:copper_to_gold_tier_upgrade": {
    "kind": "item",
-   "name": "Copper to Gold Tier Upgrade"
+   "name": "Copper to Gold Tier Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:copper_to_diamond_tier_upgrade": {
    "kind": "item",
-   "name": "Copper to Diamond Tier Upgrade"
+   "name": "Copper to Diamond Tier Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:copper_to_netherite_tier_upgrade": {
    "kind": "item",
-   "name": "Copper to Netherite Tier Upgrade"
+   "name": "Copper to Netherite Tier Upgrade",
+   "tags": [
+    "kind:gadget",
+    "needs:nether"
+   ]
   },
   "sophisticatedstorage:iron_to_gold_tier_upgrade": {
    "kind": "item",
-   "name": "Iron to Gold Tier Upgrade"
+   "name": "Iron to Gold Tier Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:iron_to_diamond_tier_upgrade": {
    "kind": "item",
-   "name": "Iron to Diamond Tier Upgrade"
+   "name": "Iron to Diamond Tier Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:iron_to_netherite_tier_upgrade": {
    "kind": "item",
-   "name": "Iron to Netherite Tier Upgrade"
+   "name": "Iron to Netherite Tier Upgrade",
+   "tags": [
+    "kind:gadget",
+    "needs:nether"
+   ]
   },
   "sophisticatedstorage:gold_to_diamond_tier_upgrade": {
    "kind": "item",
-   "name": "Gold to Diamond Tier Upgrade"
+   "name": "Gold to Diamond Tier Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:gold_to_netherite_tier_upgrade": {
    "kind": "item",
-   "name": "Gold to Netherite Tier Upgrade"
+   "name": "Gold to Netherite Tier Upgrade",
+   "tags": [
+    "kind:gadget",
+    "needs:nether"
+   ]
   },
   "sophisticatedstorage:diamond_to_netherite_tier_upgrade": {
    "kind": "item",
-   "name": "Diamond to Netherite Tier Upgrade"
+   "name": "Diamond to Netherite Tier Upgrade",
+   "tags": [
+    "kind:gadget",
+    "needs:nether"
+   ]
   },
   "sophisticatedstorage:upgrade_base": {
    "kind": "item",
-   "name": "Upgrade Base"
+   "name": "Upgrade Base",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:pickup_upgrade": {
    "kind": "item",
-   "name": "Pickup Upgrade"
+   "name": "Pickup Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:advanced_pickup_upgrade": {
    "kind": "item",
-   "name": "Advanced Pickup Upgrade"
+   "name": "Advanced Pickup Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:filter_upgrade": {
    "kind": "item",
-   "name": "Filter Upgrade"
+   "name": "Filter Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:advanced_filter_upgrade": {
    "kind": "item",
-   "name": "Advanced Filter Upgrade"
+   "name": "Advanced Filter Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:magnet_upgrade": {
    "kind": "item",
-   "name": "Magnet Upgrade"
+   "name": "Magnet Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:advanced_magnet_upgrade": {
    "kind": "item",
-   "name": "Advanced Magnet Upgrade"
+   "name": "Advanced Magnet Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:feeding_upgrade": {
    "kind": "item",
-   "name": "Feeding upgrade"
+   "name": "Feeding upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:advanced_feeding_upgrade": {
    "kind": "item",
-   "name": "Advanced Feeding upgrade"
+   "name": "Advanced Feeding upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:compacting_upgrade": {
    "kind": "item",
-   "name": "Compacting Upgrade"
+   "name": "Compacting Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:advanced_compacting_upgrade": {
    "kind": "item",
-   "name": "Advanced Compacting Upgrade"
+   "name": "Advanced Compacting Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:void_upgrade": {
    "kind": "item",
-   "name": "Void Upgrade"
+   "name": "Void Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:advanced_void_upgrade": {
    "kind": "item",
-   "name": "Advanced Void Upgrade"
+   "name": "Advanced Void Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:smelting_upgrade": {
    "kind": "item",
-   "name": "Smelting Upgrade"
+   "name": "Smelting Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:auto_smelting_upgrade": {
    "kind": "item",
-   "name": "Auto-smelting Upgrade"
+   "name": "Auto-smelting Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:smoking_upgrade": {
    "kind": "item",
-   "name": "Smoking Upgrade"
+   "name": "Smoking Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:auto_smoking_upgrade": {
    "kind": "item",
-   "name": "Auto-smoking Upgrade"
+   "name": "Auto-smoking Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:blasting_upgrade": {
    "kind": "item",
-   "name": "Blasting Upgrade"
+   "name": "Blasting Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:auto_blasting_upgrade": {
    "kind": "item",
-   "name": "Auto-blasting Upgrade"
+   "name": "Auto-blasting Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:crafting_upgrade": {
    "kind": "item",
-   "name": "Crafting Upgrade"
+   "name": "Crafting Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stonecutter_upgrade": {
    "kind": "item",
-   "name": "Stonecutter Upgrade"
+   "name": "Stonecutter Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:jukebox_upgrade": {
    "kind": "item",
-   "name": "Jukebox Upgrade"
+   "name": "Jukebox Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:advanced_jukebox_upgrade": {
    "kind": "item",
-   "name": "Advanced Jukebox Upgrade"
+   "name": "Advanced Jukebox Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stack_upgrade_tier_1": {
    "kind": "item",
-   "name": "Stack Upgrade Tier 1"
+   "name": "Stack Upgrade Tier 1",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stack_upgrade_tier_1_plus": {
    "kind": "item",
-   "name": "Stack Upgrade Tier 1 Plus"
+   "name": "Stack Upgrade Tier 1 Plus",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stack_upgrade_tier_2": {
    "kind": "item",
-   "name": "Stack Upgrade Tier 2"
+   "name": "Stack Upgrade Tier 2",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stack_upgrade_tier_3": {
    "kind": "item",
-   "name": "Stack Upgrade Tier 3"
+   "name": "Stack Upgrade Tier 3",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stack_upgrade_tier_4": {
    "kind": "item",
-   "name": "Stack Upgrade Tier 4"
+   "name": "Stack Upgrade Tier 4",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stack_upgrade_tier_5": {
    "kind": "item",
-   "name": "Stack Upgrade Tier 5"
+   "name": "Stack Upgrade Tier 5",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stack_upgrade_tier_1_to_tier_1_plus_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Tier 1 to Tier 1 Plus"
+   "name": "Stack Upgrade Conversion: Tier 1 to Tier 1 Plus",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stack_upgrade_tier_1_to_tier_2_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Tier 1 to Tier 2"
+   "name": "Stack Upgrade Conversion: Tier 1 to Tier 2",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stack_upgrade_tier_1_to_tier_3_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Tier 1 to Tier 3"
+   "name": "Stack Upgrade Conversion: Tier 1 to Tier 3",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stack_upgrade_tier_1_to_tier_4_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Tier 1 to Tier 4"
+   "name": "Stack Upgrade Conversion: Tier 1 to Tier 4",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stack_upgrade_tier_1_to_tier_5_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Tier 1 to Tier 5"
+   "name": "Stack Upgrade Conversion: Tier 1 to Tier 5",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stack_upgrade_tier_1_plus_to_tier_2_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Tier 1 Plus to Tier 2"
+   "name": "Stack Upgrade Conversion: Tier 1 Plus to Tier 2",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stack_upgrade_tier_1_plus_to_tier_3_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Tier 1 Plus to Tier 3"
+   "name": "Stack Upgrade Conversion: Tier 1 Plus to Tier 3",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stack_upgrade_tier_1_plus_to_tier_4_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Tier 1 Plus to Tier 4"
+   "name": "Stack Upgrade Conversion: Tier 1 Plus to Tier 4",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stack_upgrade_tier_1_plus_to_tier_5_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Tier 1 Plus to Tier 5"
+   "name": "Stack Upgrade Conversion: Tier 1 Plus to Tier 5",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stack_upgrade_tier_2_to_tier_3_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Tier 2 to Tier 3"
+   "name": "Stack Upgrade Conversion: Tier 2 to Tier 3",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stack_upgrade_tier_2_to_tier_4_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Tier 2 to Tier 4"
+   "name": "Stack Upgrade Conversion: Tier 2 to Tier 4",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stack_upgrade_tier_2_to_tier_5_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Tier 2 to Tier 5"
+   "name": "Stack Upgrade Conversion: Tier 2 to Tier 5",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stack_upgrade_tier_3_to_tier_4_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Tier 3 to Tier 4"
+   "name": "Stack Upgrade Conversion: Tier 3 to Tier 4",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stack_upgrade_tier_3_to_tier_5_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Tier 3 to Tier 5"
+   "name": "Stack Upgrade Conversion: Tier 3 to Tier 5",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stack_upgrade_tier_4_to_tier_5_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Tier 4 to Tier 5"
+   "name": "Stack Upgrade Conversion: Tier 4 to Tier 5",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stack_upgrade_omega_tier": {
    "kind": "item",
-   "name": "Stack Upgrade Omega Tier"
+   "name": "Stack Upgrade Omega Tier",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:stack_downgrade_tier_1": {
    "kind": "item",
-   "name": "Stack Downgrade Tier 1"
+   "name": "Stack Downgrade Tier 1",
+   "tags": []
   },
   "sophisticatedstorage:stack_downgrade_tier_2": {
    "kind": "item",
-   "name": "Stack Downgrade Tier 2"
+   "name": "Stack Downgrade Tier 2",
+   "tags": []
   },
   "sophisticatedstorage:stack_downgrade_tier_3": {
    "kind": "item",
-   "name": "Stack Downgrade Tier 3"
+   "name": "Stack Downgrade Tier 3",
+   "tags": []
   },
   "sophisticatedstorage:pump_upgrade": {
    "kind": "item",
-   "name": "Pump Upgrade"
+   "name": "Pump Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:xp_pump_upgrade": {
    "kind": "item",
-   "name": "Experience Pump Upgrade"
+   "name": "Experience Pump Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:advanced_pump_upgrade": {
    "kind": "item",
-   "name": "Advanced Pump Upgrade"
+   "name": "Advanced Pump Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:compression_upgrade": {
    "kind": "item",
-   "name": "Compression Upgrade"
+   "name": "Compression Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:hopper_upgrade": {
    "kind": "item",
-   "name": "Hopper Upgrade"
+   "name": "Hopper Upgrade",
+   "tags": [
+    "function:transfer",
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:advanced_hopper_upgrade": {
    "kind": "item",
-   "name": "Advanced Hopper Upgrade"
+   "name": "Advanced Hopper Upgrade",
+   "tags": [
+    "function:transfer",
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:infinity_upgrade": {
    "kind": "item",
-   "name": "Infinity Upgrade (Admin)"
+   "name": "Infinity Upgrade (Admin)",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:survival_infinity_upgrade": {
    "kind": "item",
-   "name": "Survival Infinity Upgrade"
+   "name": "Survival Infinity Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:alchemy_upgrade": {
    "kind": "item",
-   "name": "Alchemy Upgrade"
+   "name": "Alchemy Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:advanced_alchemy_upgrade": {
    "kind": "item",
-   "name": "Advanced Alchemy Upgrade"
+   "name": "Advanced Alchemy Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedstorage:chipped.botanist_workbench_upgrade": {
    "kind": "item",
-   "name": "Chipped: Botanist's Workbench Upgrade"
+   "name": "Chipped: Botanist's Workbench Upgrade",
+   "tags": []
   },
   "sophisticatedstorage:chipped.glassblower_upgrade": {
    "kind": "item",
-   "name": "Chipped: Glassblower Upgrade"
+   "name": "Chipped: Glassblower Upgrade",
+   "tags": []
   },
   "sophisticatedstorage:chipped.carpenters_table_upgrade": {
    "kind": "item",
-   "name": "Chipped: Carpenters Workbench Upgrade"
+   "name": "Chipped: Carpenters Workbench Upgrade",
+   "tags": []
   },
   "sophisticatedstorage:chipped.mason_table_upgrade": {
    "kind": "item",
-   "name": "Chipped: Mason Table Upgrade"
+   "name": "Chipped: Mason Table Upgrade",
+   "tags": []
   },
   "sophisticatedstorage:chipped.loom_table_upgrade": {
    "kind": "item",
-   "name": "Chipped: Loom Table Upgrade"
+   "name": "Chipped: Loom Table Upgrade",
+   "tags": []
   },
   "sophisticatedstorage:chipped.alchemy_bench_upgrade": {
    "kind": "item",
-   "name": "Chipped: Alchemy Bench Upgrade"
+   "name": "Chipped: Alchemy Bench Upgrade",
+   "tags": []
   },
   "sophisticatedstorage:chipped.tinkering_table_upgrade": {
    "kind": "item",
-   "name": "Chipped: Tinkering Table Upgrade"
+   "name": "Chipped: Tinkering Table Upgrade",
+   "tags": []
   },
   "sophisticatedstorage:sawmill.sawmill_upgrade": {
    "kind": "item",
-   "name": "Sawmill Upgrade"
+   "name": "Sawmill Upgrade",
+   "tags": []
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

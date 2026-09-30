@@ -26,7 +26,11 @@
  "items": {
   "myotus:diamond_upgrade_card": {
    "kind": "item",
-   "name": "Diamond Upgrade Card"
+   "name": "Diamond Upgrade Card",
+   "tags": [
+    "kind:gadget"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

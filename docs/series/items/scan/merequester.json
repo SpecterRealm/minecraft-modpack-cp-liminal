@@ -27,15 +27,25 @@
  "items": {
   "merequester:requester_terminal": {
    "kind": "item",
-   "name": "ME Requester Terminal"
+   "name": "ME Requester Terminal",
+   "tags": [
+    "function:automate"
+   ]
   },
   "merequester:wireless_requester_terminal": {
    "kind": "item",
-   "name": "Wireless Requester Terminal"
+   "name": "Wireless Requester Terminal",
+   "tags": [
+    "function:automate"
+   ]
   },
   "merequester:requester": {
    "kind": "block",
-   "name": "ME Requester"
+   "name": "ME Requester",
+   "tags": [
+    "kind:block"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

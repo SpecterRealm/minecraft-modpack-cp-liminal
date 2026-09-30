@@ -26,263 +26,541 @@
  "items": {
   "ars_additions:archwood_chain": {
    "kind": "block",
-   "name": "Archwood Chain"
+   "name": "Archwood Chain",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_additions:archwood_lantern": {
    "kind": "block",
-   "name": "Archwood Lantern"
+   "name": "Archwood Lantern",
+   "tags": [
+    "function:light",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_additions:archwood_magelight_lantern": {
    "kind": "block",
-   "name": "Archwood Magelight Lantern"
+   "name": "Archwood Magelight Lantern",
+   "tags": [
+    "function:light",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_additions:cracked_polished_sourcestone": {
    "kind": "block",
-   "name": "Cracked Polished Sourcestone"
+   "name": "Cracked Polished Sourcestone",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_additions:cracked_polished_sourcestone_large_bricks": {
    "kind": "block",
-   "name": "Cracked Polished Sourcestone: Large Bricks"
+   "name": "Cracked Polished Sourcestone: Large Bricks",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:cracked_polished_sourcestone_small_bricks": {
    "kind": "block",
-   "name": "Cracked Polished Sourcestone: Small Bricks"
+   "name": "Cracked Polished Sourcestone: Small Bricks",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:cracked_polished_sourcestone_wall": {
    "kind": "block",
-   "name": "Cracked Polished Sourcestone Wall"
+   "name": "Cracked Polished Sourcestone Wall",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:cracked_sourcestone": {
    "kind": "block",
-   "name": "Cracked Sourcestone"
+   "name": "Cracked Sourcestone",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_additions:cracked_sourcestone_large_bricks": {
    "kind": "block",
-   "name": "Cracked Sourcestone: Large Bricks"
+   "name": "Cracked Sourcestone: Large Bricks",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:cracked_sourcestone_small_bricks": {
    "kind": "block",
-   "name": "Cracked Sourcestone: Small Bricks"
+   "name": "Cracked Sourcestone: Small Bricks",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:cracked_sourcestone_wall": {
    "kind": "block",
-   "name": "Cracked Sourcestone Wall"
+   "name": "Cracked Sourcestone Wall",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:enchanting_wixie_cauldron": {
    "kind": "block",
-   "name": "Wixie's Enchanting Apparatus"
+   "name": "Wixie's Enchanting Apparatus",
+   "tags": [
+    "function:enchant",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_additions:ender_source_jar": {
    "kind": "block",
-   "name": "Ender Source Jar"
+   "name": "Ender Source Jar",
+   "tags": [
+    "function:store",
+    "power-type:mana",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_additions:golden_chain": {
    "kind": "block",
-   "name": "Golden Chain"
+   "name": "Golden Chain",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_additions:golden_lantern": {
    "kind": "block",
-   "name": "Golden Lantern"
+   "name": "Golden Lantern",
+   "tags": [
+    "function:light",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_additions:golden_magelight_lantern": {
    "kind": "block",
-   "name": "Golden Magelight Lantern"
+   "name": "Golden Magelight Lantern",
+   "tags": [
+    "function:light",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_additions:magebloom_carpet": {
    "kind": "block",
-   "name": "Magebloom Carpet"
+   "name": "Magebloom Carpet",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:magelight_lantern": {
    "kind": "block",
-   "name": "Magelight Lantern"
+   "name": "Magelight Lantern",
+   "tags": [
+    "function:light",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_additions:polished_sourcestone_button": {
    "kind": "block",
-   "name": "Polished Sourcestone Button"
+   "name": "Polished Sourcestone Button",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_additions:polished_sourcestone_chain": {
    "kind": "block",
-   "name": "Polished Sourcestone Chain"
+   "name": "Polished Sourcestone Chain",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_additions:polished_sourcestone_door": {
    "kind": "block",
-   "name": "Polished Sourcestone Door"
+   "name": "Polished Sourcestone Door",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:polished_sourcestone_lantern": {
    "kind": "block",
-   "name": "Polished Sourcestone Lantern"
+   "name": "Polished Sourcestone Lantern",
+   "tags": [
+    "function:light",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_additions:polished_sourcestone_magelight_lantern": {
    "kind": "block",
-   "name": "Polished Sourcestone Magelight Lantern"
+   "name": "Polished Sourcestone Magelight Lantern",
+   "tags": [
+    "function:light",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_additions:polished_sourcestone_trapdoor": {
    "kind": "block",
-   "name": "Polished Sourcestone Trapdoor"
+   "name": "Polished Sourcestone Trapdoor",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:polished_sourcestone_wall": {
    "kind": "block",
-   "name": "Polished Sourcestone Wall"
+   "name": "Polished Sourcestone Wall",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:soul_magelight_lantern": {
    "kind": "block",
-   "name": "Soul Magelight Lantern"
+   "name": "Soul Magelight Lantern",
+   "tags": [
+    "function:light",
+    "needs:nether",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_additions:source_spawner": {
    "kind": "block",
-   "name": "Source Spawner"
+   "name": "Source Spawner",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:sourcestone_button": {
    "kind": "block",
-   "name": "Sourcestone Button"
+   "name": "Sourcestone Button",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_additions:sourcestone_chain": {
    "kind": "block",
-   "name": "Sourcestone Chain"
+   "name": "Sourcestone Chain",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_additions:sourcestone_door": {
    "kind": "block",
-   "name": "Sourcestone Door"
+   "name": "Sourcestone Door",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:sourcestone_lantern": {
    "kind": "block",
-   "name": "Sourcestone Lantern"
+   "name": "Sourcestone Lantern",
+   "tags": [
+    "function:light",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_additions:sourcestone_magelight_lantern": {
    "kind": "block",
-   "name": "Sourcestone Magelight Lantern"
+   "name": "Sourcestone Magelight Lantern",
+   "tags": [
+    "function:light",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_additions:sourcestone_trapdoor": {
    "kind": "block",
-   "name": "Sourcestone Trapdoor"
+   "name": "Sourcestone Trapdoor",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:sourcestone_wall": {
    "kind": "block",
-   "name": "Sourcestone Wall"
+   "name": "Sourcestone Wall",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:warp_nexus": {
    "kind": "block",
-   "name": "Warp Nexus"
+   "name": "Warp Nexus",
+   "tags": [
+    "function:travel",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_additions:advanced_dominion_wand": {
    "kind": "item",
-   "name": "Advanced Dominion Wand"
+   "name": "Advanced Dominion Wand",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:ancient_codex_entry": {
    "kind": "item",
-   "name": "Ancient Codex Entry"
+   "name": "Ancient Codex Entry",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:bound_wayfinder": {
    "kind": "item",
-   "name": "Bound Wayfinder"
+   "name": "Bound Wayfinder",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:codex_entry": {
    "kind": "item",
-   "name": "Codex Entry"
+   "name": "Codex Entry",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:dispel_protection_charm": {
    "kind": "item",
-   "name": "Charm of Unyielding Magic"
+   "name": "Charm of Unyielding Magic",
+   "tags": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:ender_mask_charm": {
    "kind": "item",
-   "name": "Charm of Ender Serenity"
+   "name": "Charm of Ender Serenity",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:exploration_warp_scroll": {
    "kind": "item",
-   "name": "Explorer's Warp Scroll"
+   "name": "Explorer's Warp Scroll",
+   "tags": [
+    "function:travel",
+    "kind:consumable",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:fall_prevention_charm": {
    "kind": "item",
-   "name": "Charm of Featherlight"
+   "name": "Charm of Featherlight",
+   "tags": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:fire_resistance_charm": {
    "kind": "item",
-   "name": "Charm of Emberward"
+   "name": "Charm of Emberward",
+   "tags": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:golden_charm": {
    "kind": "item",
-   "name": "Charm of Gilded Friendship"
+   "name": "Charm of Gilded Friendship",
+   "tags": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:handy_haversack": {
    "kind": "item",
-   "name": "Handy Haversack"
+   "name": "Handy Haversack",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:imbued_spell_parchment": {
    "kind": "item",
-   "name": "Imbued Spell Parchment"
+   "name": "Imbued Spell Parchment",
+   "tags": [
+    "function:enchant",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:lost_codex_entry": {
    "kind": "item",
-   "name": "Lost Codex Entry"
+   "name": "Lost Codex Entry",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:memory_crystal": {
    "kind": "item",
-   "name": "Memory Crystal"
+   "name": "Memory Crystal",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:nexus_warp_scroll": {
    "kind": "item",
-   "name": "Nexus Warp Scroll"
+   "name": "Nexus Warp Scroll",
+   "tags": [
+    "function:travel",
+    "kind:consumable",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:night_vision_charm": {
    "kind": "item",
-   "name": "Charm of Darkvision"
+   "name": "Charm of Darkvision",
+   "tags": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:powdered_snow_walk_charm": {
    "kind": "item",
-   "name": "Charm of Snowstride"
+   "name": "Charm of Snowstride",
+   "tags": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:ritual_chunk_loading": {
    "kind": "item",
-   "name": "Arcane Permanence"
+   "name": "Arcane Permanence",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:ritual_locate_structure": {
    "kind": "item",
-   "name": "Locate Structure"
+   "name": "Locate Structure",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:sonic_boom_protection_charm": {
    "kind": "item",
-   "name": "Charm of Resonant Shield"
+   "name": "Charm of Resonant Shield",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:stabilized_warp_index": {
    "kind": "item",
-   "name": "Stabilized Warp Index"
+   "name": "Stabilized Warp Index",
+   "tags": [
+    "function:travel",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:thread_reach": {
    "kind": "item",
-   "name": "Reach"
+   "name": "Reach",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:undying_charm": {
    "kind": "item",
-   "name": "Charm of Second Wind"
+   "name": "Charm of Second Wind",
+   "tags": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:unstable_reliquary": {
    "kind": "item",
-   "name": "Unstable Reliquary"
+   "name": "Unstable Reliquary",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:void_protection_charm": {
    "kind": "item",
-   "name": "Charm of Void's Salvation"
+   "name": "Charm of Void's Salvation",
+   "tags": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:warp_index": {
    "kind": "item",
-   "name": "Warp Index"
+   "name": "Warp Index",
+   "tags": [
+    "function:travel",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:water_breathing_charm": {
    "kind": "item",
-   "name": "Charm of Ocean's Breath"
+   "name": "Charm of Ocean's Breath",
+   "tags": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:wayfinder": {
    "kind": "item",
-   "name": "Wayfinder"
+   "name": "Wayfinder",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:wither_protection_charm": {
    "kind": "item",
-   "name": "Charm of Decay's End"
+   "name": "Charm of Decay's End",
+   "tags": [
+    "kind:gadget",
+    "needs:nether",
+    "needs:spell-tech"
+   ]
   },
   "ars_additions:xp_jar": {
    "kind": "item",
-   "name": "Jar of Miner's Wisdom"
+   "name": "Jar of Miner's Wisdom",
+   "tags": [
+    "function:store",
+    "needs:spell-tech"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

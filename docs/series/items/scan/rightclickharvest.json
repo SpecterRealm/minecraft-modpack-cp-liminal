@@ -25,27 +25,34 @@
  "items": {
   "tag:rightclickharvest.blacklist": {
    "kind": "block",
-   "name": "Harvest Blacklist"
+   "name": "Harvest Blacklist",
+   "tags": []
   },
   "tag:rightclickharvest.hoe_never_required": {
    "kind": "block",
-   "name": "Hoe Not Required"
+   "name": "Hoe Not Required",
+   "tags": []
   },
   "tag:rightclickharvest.radius_harvest_blacklist": {
    "kind": "block",
-   "name": "Radius Harvest Blacklist"
+   "name": "Radius Harvest Blacklist",
+   "tags": []
   },
   "tag:rightclickharvest.low_tier_hoes": {
    "kind": "item",
-   "name": "Low Tier Hoes"
+   "name": "Low Tier Hoes",
+   "tags": []
   },
   "tag:rightclickharvest.mid_tier_hoes": {
    "kind": "item",
-   "name": "Mid Tier Hoes"
+   "name": "Mid Tier Hoes",
+   "tags": []
   },
   "tag:rightclickharvest.high_tier_hoes": {
    "kind": "item",
-   "name": "High Tier Hoes"
+   "name": "High Tier Hoes",
+   "tags": []
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

@@ -27,19 +27,28 @@
  "items": {
   "curiostest:amulet": {
    "kind": "item",
-   "name": "Curious Amulet"
+   "name": "Curious Amulet",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "curiostest:ring": {
    "kind": "item",
-   "name": "Curious Ring"
+   "name": "Curious Ring",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "curiostest:crown": {
    "kind": "item",
-   "name": "Curious Crown"
+   "name": "Curious Crown",
+   "tags": []
   },
   "curiostest:knuckles": {
    "kind": "item",
-   "name": "Curious Knuckles"
+   "name": "Curious Knuckles",
+   "tags": []
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

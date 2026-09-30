@@ -18,7 +18,11 @@
  "items": {
   "ae2helpers:result_import_card": {
    "kind": "item",
-   "name": "Crafting Result Import Card"
+   "name": "Crafting Result Import Card",
+   "tags": [
+    "kind:gadget"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

@@ -10,7 +10,12 @@
  "items": {
   "charginggadgets:charging_station": {
    "kind": "block",
-   "name": "Charging Station"
+   "name": "Charging Station",
+   "tags": [
+    "function:craft",
+    "kind:block"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

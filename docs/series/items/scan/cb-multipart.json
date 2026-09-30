@@ -20,75 +20,107 @@
  "items": {
   "cb_microblock:stone_saw": {
    "kind": "item",
-   "name": "Stone Saw"
+   "name": "Stone Saw",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "cb_microblock:iron_saw": {
    "kind": "item",
-   "name": "Iron Saw"
+   "name": "Iron Saw",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "cb_microblock:gold_saw": {
    "kind": "item",
-   "name": "Gold Saw"
+   "name": "Gold Saw",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "cb_microblock:diamond_saw": {
    "kind": "item",
-   "name": "Diamond Saw"
+   "name": "Diamond Saw",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "cb_microblock:netherite_saw": {
    "kind": "item",
-   "name": "Netherite Saw"
+   "name": "Netherite Saw",
+   "tags": [
+    "kind:tool",
+    "needs:nether"
+   ]
   },
   "cb_microblock:stone_rod": {
    "kind": "item",
-   "name": "Stone Rod"
+   "name": "Stone Rod",
+   "tags": [
+    "kind:material"
+   ]
   },
   "cb_microblock:face.1": {
    "kind": "item",
-   "name": "%s Cover"
+   "name": "%s Cover",
+   "tags": []
   },
   "cb_microblock:face.2": {
    "kind": "item",
-   "name": "%s Panel"
+   "name": "%s Panel",
+   "tags": []
   },
   "cb_microblock:face.4": {
    "kind": "item",
-   "name": "%s Slab"
+   "name": "%s Slab",
+   "tags": []
   },
   "cb_microblock:hollow.1": {
    "kind": "item",
-   "name": "Hollow %s Cover"
+   "name": "Hollow %s Cover",
+   "tags": []
   },
   "cb_microblock:hollow.2": {
    "kind": "item",
-   "name": "Hollow %s Panel"
+   "name": "Hollow %s Panel",
+   "tags": []
   },
   "cb_microblock:hollow.4": {
    "kind": "item",
-   "name": "Hollow %s Slab"
+   "name": "Hollow %s Slab",
+   "tags": []
   },
   "cb_microblock:edge.1": {
    "kind": "item",
-   "name": "%s Strip"
+   "name": "%s Strip",
+   "tags": []
   },
   "cb_microblock:edge.2": {
    "kind": "item",
-   "name": "%s Post"
+   "name": "%s Post",
+   "tags": []
   },
   "cb_microblock:edge.4": {
    "kind": "item",
-   "name": "%s Pillar"
+   "name": "%s Pillar",
+   "tags": []
   },
   "cb_microblock:corner.1": {
    "kind": "item",
-   "name": "%s Nook"
+   "name": "%s Nook",
+   "tags": []
   },
   "cb_microblock:corner.2": {
    "kind": "item",
-   "name": "%s Corner"
+   "name": "%s Corner",
+   "tags": []
   },
   "cb_microblock:corner.4": {
    "kind": "item",
-   "name": "%s Notch"
+   "name": "%s Notch",
+   "tags": []
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

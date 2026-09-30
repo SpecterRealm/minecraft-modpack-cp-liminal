@@ -134,107 +134,178 @@
  "items": {
   "nep:mechanical_crafting_pattern": {
    "kind": "item",
-   "name": "Mechanical Crafting Pattern"
+   "name": "Mechanical Crafting Pattern",
+   "tags": [
+    "function:automate"
+   ]
   },
   "nep:andesite_crafting_pattern": {
    "kind": "item",
-   "name": "Andesite Crafting Pattern"
+   "name": "Andesite Crafting Pattern",
+   "tags": [
+    "function:automate"
+   ]
   },
   "nep:sequenced_assembly_pattern": {
    "kind": "item",
-   "name": "Sequenced Assembly Pattern"
+   "name": "Sequenced Assembly Pattern",
+   "tags": [
+    "function:automate"
+   ]
   },
   "nep:fusion_crafting_pattern": {
    "kind": "item",
-   "name": "Fusion Crafting Pattern"
+   "name": "Fusion Crafting Pattern",
+   "tags": [
+    "kind:multiblock",
+    "function:automate"
+   ]
   },
   "nep:empowering_pattern": {
    "kind": "item",
-   "name": "Empowering Pattern"
+   "name": "Empowering Pattern",
+   "tags": [
+    "function:automate"
+   ]
   },
   "nep:atomic_reconstruction_pattern": {
    "kind": "item",
-   "name": "Atomic Reconstruction Pattern"
+   "name": "Atomic Reconstruction Pattern",
+   "tags": [
+    "function:automate"
+   ]
   },
   "nep:import_card": {
    "kind": "item",
-   "name": "Import Card"
+   "name": "Import Card",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "nep:sequenced_assembly_controller": {
    "kind": "block",
-   "name": "Sequenced Assembly Controller"
+   "name": "Sequenced Assembly Controller",
+   "tags": [
+    "kind:block"
+   ]
   },
   "nep:sequenced_assembly_linker": {
    "kind": "item",
-   "name": "Sequenced Assembly Linker"
+   "name": "Sequenced Assembly Linker",
+   "tags": []
   },
   "nep:machine_hub": {
    "kind": "block",
-   "name": "Machine Hub"
+   "name": "Machine Hub",
+   "tags": [
+    "kind:block"
+   ]
   },
   "nep:hub_linker": {
    "kind": "item",
-   "name": "Hub Linker"
+   "name": "Hub Linker",
+   "tags": []
   },
   "nep:sequenced_assembly_matrix": {
    "kind": "block",
-   "name": "Assembly Matrix"
+   "name": "Assembly Matrix",
+   "tags": [
+    "kind:block"
+   ]
   },
   "nep:matrix_circuitry": {
    "kind": "item",
-   "name": "Matrix Circuitry"
+   "name": "Matrix Circuitry",
+   "tags": []
   },
   "nep:empowered_matrix_circuitry": {
    "kind": "item",
-   "name": "Empowered Matrix Circuitry"
+   "name": "Empowered Matrix Circuitry",
+   "tags": []
   },
   "nep:hardened_obsidian_plate": {
    "kind": "item",
-   "name": "Hardened Obsidian Plate"
+   "name": "Hardened Obsidian Plate",
+   "tags": [
+    "kind:material"
+   ]
   },
   "nep:incomplete_hardened_obsidian_plate": {
    "kind": "item",
-   "name": "Incomplete Hardened Obsidian Plate"
+   "name": "Incomplete Hardened Obsidian Plate",
+   "tags": [
+    "kind:material"
+   ]
   },
   "nep:incomplete_sequenced_assembly_matrix": {
    "kind": "item",
-   "name": "Incomplete Assembly Matrix"
+   "name": "Incomplete Assembly Matrix",
+   "tags": []
   },
   "nep:fusion_matrix": {
    "kind": "block",
-   "name": "Injector Fusion Matrix"
+   "name": "Injector Fusion Matrix",
+   "tags": [
+    "kind:multiblock"
+   ]
   },
   "nep:atomic_empowering_matrix": {
    "kind": "block",
-   "name": "Atomic Empowering Matrix"
+   "name": "Atomic Empowering Matrix",
+   "tags": [
+    "kind:block"
+   ]
   },
   "nep:miniaturization_pattern": {
    "kind": "item",
-   "name": "Miniaturization Pattern"
+   "name": "Miniaturization Pattern",
+   "tags": [
+    "function:automate"
+   ]
   },
   "nep:miniaturization_matrix": {
    "kind": "block",
-   "name": "Miniaturization Matrix"
+   "name": "Miniaturization Matrix",
+   "tags": [
+    "kind:block"
+   ]
   },
   "nep:miniaturization_controller": {
    "kind": "block",
-   "name": "Miniaturization Controller"
+   "name": "Miniaturization Controller",
+   "tags": [
+    "kind:block"
+   ]
   },
   "nep:infusion_pattern": {
    "kind": "item",
-   "name": "Infusion Pattern"
+   "name": "Infusion Pattern",
+   "tags": [
+    "function:automate"
+   ]
   },
   "nep:awakening_pattern": {
    "kind": "item",
-   "name": "Awakening Pattern"
+   "name": "Awakening Pattern",
+   "tags": [
+    "function:automate"
+   ]
   },
   "nep:enchanting_pattern": {
    "kind": "item",
-   "name": "Enchanting Pattern"
+   "name": "Enchanting Pattern",
+   "tags": [
+    "function:automate",
+    "function:enchant"
+   ]
   },
   "nep:infused_awakening_matrix": {
    "kind": "block",
-   "name": "Infused Awakening Matrix"
+   "name": "Infused Awakening Matrix",
+   "tags": [
+    "kind:block"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

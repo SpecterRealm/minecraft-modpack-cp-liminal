@@ -18,11 +18,14 @@
  "items": {
   "minecraft:villager.none": {
    "kind": "entity",
-   "name": "Unemployed"
+   "name": "Unemployed",
+   "tags": []
   },
   "minecraft:villager.nitwit": {
    "kind": "entity",
-   "name": "Nitwit"
+   "name": "Nitwit",
+   "tags": []
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

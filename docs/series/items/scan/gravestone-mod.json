@@ -19,15 +19,23 @@
  "items": {
   "gravestone:gravestone": {
    "kind": "block",
-   "name": "Grave"
+   "name": "Grave",
+   "tags": [
+    "kind:block"
+   ]
   },
   "gravestone:obituary": {
    "kind": "item",
-   "name": "Obituary"
+   "name": "Obituary",
+   "tags": []
   },
   "gravestone:player_ghost": {
    "kind": "entity",
-   "name": "Ghost of Player"
+   "name": "Ghost of Player",
+   "tags": [
+    "kind:mob"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

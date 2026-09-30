@@ -27,7 +27,12 @@
  "items": {
   "ars_ocultas:altar": {
    "kind": "block",
-   "name": "Sacrificial Altar"
+   "name": "Sacrificial Altar",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }
