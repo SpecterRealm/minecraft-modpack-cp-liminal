@@ -1,0 +1,6408 @@
+{
+ "repo": "SammySemicolon/Malum-Mod",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "malum"
+ ],
+ "item_count": 789,
+ "compat": [
+  {
+   "id": "create",
+   "slug": "create",
+   "evidence": {
+    "data-ref": 36,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "farmersdelight",
+   "slug": "farmers-delight",
+   "evidence": {
+    "compat-import": 1,
+    "data-ref": 13,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "farmingforblockheads",
+   "slug": "farming-for-blockheads",
+   "evidence": {
+    "data-ref": 2
+   }
+  },
+  {
+   "id": "irons_spellbooks",
+   "slug": "irons-spells-n-spellbooks",
+   "evidence": {
+    "data-ref": 13
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 11
+   }
+  },
+  {
+   "id": "kubejs",
+   "slug": "kubejs",
+   "evidence": {
+    "compat-import": 6,
+    "data-ref": 2
+   }
+  },
+  {
+   "id": "occultism",
+   "slug": "occultism",
+   "evidence": {
+    "data-ref": 4
+   }
+  },
+  {
+   "id": "rhino",
+   "slug": "rhino",
+   "evidence": {
+    "compat-import": 5
+   }
+  },
+  {
+   "id": "twilightforest",
+   "slug": "the-twilight-forest",
+   "evidence": {
+    "data-ref": 51
+   }
+  }
+ ],
+ "items": {
+  "malum:aerial_spirited_glass": {
+   "kind": "block",
+   "name": "Aerial Spirited Glass",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:aerial_varnished_terracotta": {
+   "kind": "block",
+   "name": "Aerial Varnished Terracotta",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:aqueous_spirited_glass": {
+   "kind": "block",
+   "name": "Aqueous Spirited Glass",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:aqueous_varnished_terracotta": {
+   "kind": "block",
+   "name": "Aqueous Varnished Terracotta",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:arcana_pylon": {
+   "kind": "block",
+   "name": "Arcana Pylon",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:arcana_pylon_component": {
+   "kind": "block",
+   "name": "Arcana Pylon Component",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:arcane_spirited_glass": {
+   "kind": "block",
+   "name": "Arcane Spirited Glass",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:arcane_varnished_terracotta": {
+   "kind": "block",
+   "name": "Arcane Varnished Terracotta",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:archaic_soulstone_bud": {
+   "kind": "block",
+   "name": "Archaic Soulstone Bud",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:azoic_sap_cauldron": {
+   "kind": "block",
+   "name": "Azoic Sap Cauldron",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:azure_runewood_leaves": {
+   "kind": "block",
+   "name": "Azure Runewood Leaves",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:azure_runewood_sapling": {
+   "kind": "block",
+   "name": "Azure Runewood Sapling",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:black_runewood_poppet_pillow": {
+   "kind": "block",
+   "name": "Black Runewood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:black_soulwood_poppet_pillow": {
+   "kind": "block",
+   "name": "Black Soulwood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:blazing_quartz_ore": {
+   "kind": "block",
+   "name": "Blazing Quartz Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:blight": {
+   "kind": "block",
+   "name": "Blight",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:blighted_earth": {
+   "kind": "block",
+   "name": "Blighted Earth",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:blighted_growth": {
+   "kind": "block",
+   "name": "Blighted Growth",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:blighted_soulwood": {
+   "kind": "block",
+   "name": "Blighted Soulwood",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:blightpearl": {
+   "kind": "block",
+   "name": "Blightpearl",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:blightroot": {
+   "kind": "block",
+   "name": "Blightroot",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_arcane_charcoal": {
+   "kind": "block",
+   "name": "Block of Arcane Charcoal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_auric_embers": {
+   "kind": "block",
+   "name": "Block of Auric Embers",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_blazing_quartz": {
+   "kind": "block",
+   "name": "Block of Blazing Quartz",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_brilliance": {
+   "kind": "block",
+   "name": "Block of Brilliance",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_cthonic_gold": {
+   "kind": "block",
+   "name": "Block of Cthonic Gold",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_derealized_aluminium": {
+   "kind": "block",
+   "name": "Block of Derealized Aluminium",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_derealized_copper": {
+   "kind": "block",
+   "name": "Block of Derealized Copper",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_derealized_gold": {
+   "kind": "block",
+   "name": "Block of Derealized Gold",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_derealized_iron": {
+   "kind": "block",
+   "name": "Block of Derealized Iron",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_derealized_lead": {
+   "kind": "block",
+   "name": "Block of Derealized Lead",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_derealized_nickel": {
+   "kind": "block",
+   "name": "Block of Derealized Nickel",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_derealized_silver": {
+   "kind": "block",
+   "name": "Block of Derealized Silver",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_derealized_zinc": {
+   "kind": "block",
+   "name": "Block of Derealized Zinc",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_ebony": {
+   "kind": "block",
+   "name": "Block of Ebony",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_eerie_weave": {
+   "kind": "block",
+   "name": "Block of Eerie Weave",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_grim_talc": {
+   "kind": "block",
+   "name": "Block of Grim Talc",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_hallowed_gold": {
+   "kind": "block",
+   "name": "Block of Hallowed Gold",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_harmonized_aluminium": {
+   "kind": "block",
+   "name": "Block of Harmonized Aluminium",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_harmonized_copper": {
+   "kind": "block",
+   "name": "Block of Harmonized Copper",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_harmonized_gold": {
+   "kind": "block",
+   "name": "Block of Harmonized Gold",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_harmonized_iron": {
+   "kind": "block",
+   "name": "Block of Harmonized Iron",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_harmonized_lead": {
+   "kind": "block",
+   "name": "Block of Harmonized Lead",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_harmonized_nickel": {
+   "kind": "block",
+   "name": "Block of Harmonized Nickel",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_harmonized_silver": {
+   "kind": "block",
+   "name": "Block of Harmonized Silver",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_harmonized_zinc": {
+   "kind": "block",
+   "name": "Block of Harmonized Zinc",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_hex_ash": {
+   "kind": "block",
+   "name": "Block of Hex Ash",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_igneous_chitin": {
+   "kind": "block",
+   "name": "Block of Igneous Chitin",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_living_flesh": {
+   "kind": "block",
+   "name": "Block of Living Flesh",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_malignant_lead": {
+   "kind": "block",
+   "name": "Block of Malignant Lead",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_malignant_pewter": {
+   "kind": "block",
+   "name": "Block of Malignant Pewter",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_mnemonic_fragment": {
+   "kind": "block",
+   "name": "Block of Mnemonic Fragment",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_null_slate": {
+   "kind": "block",
+   "name": "Block of Null Slate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_pyre_nuclei": {
+   "kind": "block",
+   "name": "Block of Pyre Nuclei",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_raw_brilliance": {
+   "kind": "block",
+   "name": "Block of Raw Brilliance",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_raw_soulstone": {
+   "kind": "block",
+   "name": "Block of Raw Soulstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_refined_soulstone": {
+   "kind": "block",
+   "name": "Block of Refined Soulstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_rotting_essence": {
+   "kind": "block",
+   "name": "Block of Rotting Essence",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_soul_stained_steel": {
+   "kind": "block",
+   "name": "Block of Soulstained Steel",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_torn_brimstone": {
+   "kind": "block",
+   "name": "Block of Torn Brimstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_void_salts": {
+   "kind": "block",
+   "name": "Block of Void Salts",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_warp_flux": {
+   "kind": "block",
+   "name": "Block of Warp Flux",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:block_of_wind_nuclei": {
+   "kind": "block",
+   "name": "Block of Wind Nuclei",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:blue_runewood_poppet_pillow": {
+   "kind": "block",
+   "name": "Blue Runewood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:blue_soulwood_poppet_pillow": {
+   "kind": "block",
+   "name": "Blue Soulwood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:brilliant_deepslate": {
+   "kind": "block",
+   "name": "Brilliant Deepslate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:brilliant_obelisk": {
+   "kind": "block",
+   "name": "Brilliant Obelisk",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:brilliant_obelisk_component": {
+   "kind": "block",
+   "name": "Brilliant Obelisk Component",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:brilliant_stone": {
+   "kind": "block",
+   "name": "Brilliant Stone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:brown_runewood_poppet_pillow": {
+   "kind": "block",
+   "name": "Brown Runewood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:brown_soulwood_poppet_pillow": {
+   "kind": "block",
+   "name": "Brown Soulwood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:budding_marine_agate": {
+   "kind": "block",
+   "name": "Budding Marine Agate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:budding_mundane_quartz": {
+   "kind": "block",
+   "name": "Budding Mundane Quartz",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:budding_rugged_citrine": {
+   "kind": "block",
+   "name": "Budding Rugged Citrine",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:budding_vivid_ametrine": {
+   "kind": "block",
+   "name": "Budding Vivid Ametrine",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:chiseled_composite_stone": {
+   "kind": "block",
+   "name": "Chiseled Composite Stone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:chiseled_ebonstone": {
+   "kind": "block",
+   "name": "Chiseled Ebonstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:chiseled_igneous_rock": {
+   "kind": "block",
+   "name": "Chiseled Igneous Rock",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:chiseled_seed_quartz": {
+   "kind": "block",
+   "name": "Chiseled Seed Quartz",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:chiseled_trodden_stone": {
+   "kind": "block",
+   "name": "Chiseled Trodden Stone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:clinging_blight": {
+   "kind": "block",
+   "name": "Clinging Blight",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:columnar_blight": {
+   "kind": "block",
+   "name": "Columnar Blight",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:columnar_flesh": {
+   "kind": "block",
+   "name": "Columnar Flesh",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:composite_stone": {
+   "kind": "block",
+   "name": "Composite Stone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:composite_stone_bricks": {
+   "kind": "block",
+   "name": "Composite Stone Bricks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:composite_stone_bricks_slab": {
+   "kind": "block",
+   "name": "Composite Stone Brick Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:composite_stone_bricks_stairs": {
+   "kind": "block",
+   "name": "Composite Stone Brick Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:composite_stone_bricks_wall": {
+   "kind": "block",
+   "name": "Composite Stone Brick Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:composite_stone_pillar": {
+   "kind": "block",
+   "name": "Composite Stone Pillar",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:composite_stone_slab": {
+   "kind": "block",
+   "name": "Composite Stone Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:composite_stone_stairs": {
+   "kind": "block",
+   "name": "Composite Stone Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:composite_stone_tiles": {
+   "kind": "block",
+   "name": "Composite Stone Tiles",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:composite_stone_tiles_slab": {
+   "kind": "block",
+   "name": "Composite Stone Tiles Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:composite_stone_tiles_stairs": {
+   "kind": "block",
+   "name": "Composite Stone Tiles Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:composite_stone_tiles_wall": {
+   "kind": "block",
+   "name": "Composite Stone Tiles Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:conjuncture_crystallarium": {
+   "kind": "block",
+   "name": "Conjuncture Crystallarium",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:cthonic_gold_cluster": {
+   "kind": "block",
+   "name": "Cthonic Gold Cluster",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:cthonic_gold_ore": {
+   "kind": "block",
+   "name": "Cthonic Gold Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:cut_composite_stone": {
+   "kind": "block",
+   "name": "Cut Composite Stone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:cut_ebonstone": {
+   "kind": "block",
+   "name": "Cut Ebonstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:cut_igneous_rock": {
+   "kind": "block",
+   "name": "Cut Igneous Rock",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:cut_seed_quartz": {
+   "kind": "block",
+   "name": "Cut Seed Quartz",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:cut_trodden_stone": {
+   "kind": "block",
+   "name": "Cut Trodden Stone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:cyan_runewood_poppet_pillow": {
+   "kind": "block",
+   "name": "Cyan Runewood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:cyan_soulwood_poppet_pillow": {
+   "kind": "block",
+   "name": "Cyan Soulwood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:deepslate_derealized_aluminium_ore": {
+   "kind": "block",
+   "name": "Deepslate Derealized Aluminium Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:deepslate_derealized_copper_ore": {
+   "kind": "block",
+   "name": "Deepslate Derealized Copper Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:deepslate_derealized_gold_ore": {
+   "kind": "block",
+   "name": "Deepslate Derealized Gold Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:deepslate_derealized_iron_ore": {
+   "kind": "block",
+   "name": "Deepslate Derealized Iron Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:deepslate_derealized_lead_ore": {
+   "kind": "block",
+   "name": "Deepslate Derealized Lead Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:deepslate_derealized_nickel_ore": {
+   "kind": "block",
+   "name": "Deepslate Derealized Nickel Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:deepslate_derealized_silver_ore": {
+   "kind": "block",
+   "name": "Deepslate Derealized Silver Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:deepslate_derealized_zinc_ore": {
+   "kind": "block",
+   "name": "Deepslate Derealized Zinc Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:deepslate_soulstone_ore": {
+   "kind": "block",
+   "name": "Deepslate Soulstone Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:derealized_aluminium_ore": {
+   "kind": "block",
+   "name": "Derealized Aluminium Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:derealized_copper_ore": {
+   "kind": "block",
+   "name": "Derealized Copper Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:derealized_gold_ore": {
+   "kind": "block",
+   "name": "Derealized Gold Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:derealized_iron_ore": {
+   "kind": "block",
+   "name": "Derealized Iron Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:derealized_lead_ore": {
+   "kind": "block",
+   "name": "Derealized Lead Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:derealized_nickel_ore": {
+   "kind": "block",
+   "name": "Derealized Nickel Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:derealized_silver_ore": {
+   "kind": "block",
+   "name": "Derealized Silver Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:derealized_zinc_ore": {
+   "kind": "block",
+   "name": "Derealized Zinc Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:earthen_spirited_glass": {
+   "kind": "block",
+   "name": "Earthen Spirited Glass",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:earthen_varnished_terracotta": {
+   "kind": "block",
+   "name": "Earthen Varnished Terracotta",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ebonstone": {
+   "kind": "block",
+   "name": "Ebonstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ebonstone_bricks": {
+   "kind": "block",
+   "name": "Ebonstone Bricks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ebonstone_bricks_slab": {
+   "kind": "block",
+   "name": "Ebonstone Brick Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ebonstone_bricks_stairs": {
+   "kind": "block",
+   "name": "Ebonstone Brick Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ebonstone_bricks_wall": {
+   "kind": "block",
+   "name": "Ebonstone Brick Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ebonstone_pillar": {
+   "kind": "block",
+   "name": "Ebonstone Pillar",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ebonstone_slab": {
+   "kind": "block",
+   "name": "Ebonstone Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ebonstone_stairs": {
+   "kind": "block",
+   "name": "Ebonstone Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ebonstone_tiles": {
+   "kind": "block",
+   "name": "Ebonstone Tiles",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ebonstone_tiles_slab": {
+   "kind": "block",
+   "name": "Ebonstone Tiles Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ebonstone_tiles_stairs": {
+   "kind": "block",
+   "name": "Ebonstone Tiles Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ebonstone_tiles_wall": {
+   "kind": "block",
+   "name": "Ebonstone Tiles Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ebony": {
+   "kind": "block",
+   "name": "Ebony",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ebony_sapling": {
+   "kind": "block",
+   "name": "Ebony Sapling",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:eldritch_spirited_glass": {
+   "kind": "block",
+   "name": "Eldritch Spirited Glass",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:eldritch_varnished_terracotta": {
+   "kind": "block",
+   "name": "Eldritch Varnished Terracotta",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ether": {
+   "kind": "block",
+   "name": "Ether",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ether_brazier": {
+   "kind": "block",
+   "name": "Ether Brazier",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ether_candle": {
+   "kind": "block",
+   "name": "Ether Candle",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ether_cresset": {
+   "kind": "block",
+   "name": "Ether Cresset",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ether_torch": {
+   "kind": "block",
+   "name": "Ether Torch",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_black_banner": {
+   "kind": "block",
+   "name": "Fancy Black Banner",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_black_wool": {
+   "kind": "block",
+   "name": "Fancy Black Wool",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_black_wool_carpet": {
+   "kind": "block",
+   "name": "Fancy Black Wool Carpet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_blue_banner": {
+   "kind": "block",
+   "name": "Fancy Blue Banner",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_blue_wool": {
+   "kind": "block",
+   "name": "Fancy Blue Wool",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_blue_wool_carpet": {
+   "kind": "block",
+   "name": "Fancy Blue Wool Carpet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_brown_banner": {
+   "kind": "block",
+   "name": "Fancy Brown Banner",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_brown_wool": {
+   "kind": "block",
+   "name": "Fancy Brown Wool",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_brown_wool_carpet": {
+   "kind": "block",
+   "name": "Fancy Brown Wool Carpet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_cyan_banner": {
+   "kind": "block",
+   "name": "Fancy Cyan Banner",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_cyan_wool": {
+   "kind": "block",
+   "name": "Fancy Cyan Wool",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_cyan_wool_carpet": {
+   "kind": "block",
+   "name": "Fancy Cyan Wool Carpet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_gray_banner": {
+   "kind": "block",
+   "name": "Fancy Gray Banner",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_gray_wool": {
+   "kind": "block",
+   "name": "Fancy Gray Wool",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_gray_wool_carpet": {
+   "kind": "block",
+   "name": "Fancy Gray Wool Carpet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_green_banner": {
+   "kind": "block",
+   "name": "Fancy Green Banner",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_green_wool": {
+   "kind": "block",
+   "name": "Fancy Green Wool",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_green_wool_carpet": {
+   "kind": "block",
+   "name": "Fancy Green Wool Carpet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_light_blue_banner": {
+   "kind": "block",
+   "name": "Fancy Light Blue Banner",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_light_blue_wool": {
+   "kind": "block",
+   "name": "Fancy Light Blue Wool",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_light_blue_wool_carpet": {
+   "kind": "block",
+   "name": "Fancy Light Blue Wool Carpet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_light_gray_banner": {
+   "kind": "block",
+   "name": "Fancy Light Gray Banner",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_light_gray_wool": {
+   "kind": "block",
+   "name": "Fancy Light Gray Wool",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_light_gray_wool_carpet": {
+   "kind": "block",
+   "name": "Fancy Light Gray Wool Carpet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_lime_banner": {
+   "kind": "block",
+   "name": "Fancy Lime Banner",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_lime_wool": {
+   "kind": "block",
+   "name": "Fancy Lime Wool",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_lime_wool_carpet": {
+   "kind": "block",
+   "name": "Fancy Lime Wool Carpet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_magenta_banner": {
+   "kind": "block",
+   "name": "Fancy Magenta Banner",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_magenta_wool": {
+   "kind": "block",
+   "name": "Fancy Magenta Wool",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_magenta_wool_carpet": {
+   "kind": "block",
+   "name": "Fancy Magenta Wool Carpet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_orange_banner": {
+   "kind": "block",
+   "name": "Fancy Orange Banner",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_orange_wool": {
+   "kind": "block",
+   "name": "Fancy Orange Wool",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_orange_wool_carpet": {
+   "kind": "block",
+   "name": "Fancy Orange Wool Carpet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_pink_banner": {
+   "kind": "block",
+   "name": "Fancy Pink Banner",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_pink_wool": {
+   "kind": "block",
+   "name": "Fancy Pink Wool",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_pink_wool_carpet": {
+   "kind": "block",
+   "name": "Fancy Pink Wool Carpet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_purple_banner": {
+   "kind": "block",
+   "name": "Fancy Purple Banner",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_purple_wool": {
+   "kind": "block",
+   "name": "Fancy Purple Wool",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_purple_wool_carpet": {
+   "kind": "block",
+   "name": "Fancy Purple Wool Carpet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_red_banner": {
+   "kind": "block",
+   "name": "Fancy Red Banner",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_red_wool": {
+   "kind": "block",
+   "name": "Fancy Red Wool",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_red_wool_carpet": {
+   "kind": "block",
+   "name": "Fancy Red Wool Carpet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_white_banner": {
+   "kind": "block",
+   "name": "Fancy White Banner",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_white_wool": {
+   "kind": "block",
+   "name": "Fancy White Wool",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_white_wool_carpet": {
+   "kind": "block",
+   "name": "Fancy White Wool Carpet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_yellow_banner": {
+   "kind": "block",
+   "name": "Fancy Yellow Banner",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_yellow_wool": {
+   "kind": "block",
+   "name": "Fancy Yellow Wool",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fancy_yellow_wool_carpet": {
+   "kind": "block",
+   "name": "Fancy Yellow Wool Carpet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fleshbulb": {
+   "kind": "block",
+   "name": "Fleshbulb",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:gilded_runewood_item_pedestal": {
+   "kind": "block",
+   "name": "Gilded Runewood Item Pedestal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:gilded_runewood_item_stand": {
+   "kind": "block",
+   "name": "Gilded Runewood Item Stand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:gray_runewood_poppet_pillow": {
+   "kind": "block",
+   "name": "Gray Runewood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:gray_soulwood_poppet_pillow": {
+   "kind": "block",
+   "name": "Gray Soulwood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:green_runewood_poppet_pillow": {
+   "kind": "block",
+   "name": "Green Runewood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:green_soulwood_poppet_pillow": {
+   "kind": "block",
+   "name": "Green Soulwood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:gust_igniter": {
+   "kind": "block",
+   "name": "Gust Igniter",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:hanging_azure_runewood_leaves": {
+   "kind": "block",
+   "name": "Hanging Azure Runewood Leaves",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:hanging_runewood_leaves": {
+   "kind": "block",
+   "name": "Hanging Runewood Leaves",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:hanging_soulwood_leaves": {
+   "kind": "block",
+   "name": "Hanging Soulwood Leaves",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:heavy_runewood_door": {
+   "kind": "block",
+   "name": "Heavy Runewood Door",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:heavy_runewood_trapdoor": {
+   "kind": "block",
+   "name": "Heavy Runewood Trapdoor",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:heavy_soulwood_door": {
+   "kind": "block",
+   "name": "Heavy Soulwood Door",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:heavy_soulwood_trapdoor": {
+   "kind": "block",
+   "name": "Heavy Soulwood Trapdoor",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:igneous_rock": {
+   "kind": "block",
+   "name": "Igneous Rock",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:igneous_rock_bricks": {
+   "kind": "block",
+   "name": "Igneous Rock Bricks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:igneous_rock_bricks_slab": {
+   "kind": "block",
+   "name": "Igneous Rock Brick Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:igneous_rock_bricks_stairs": {
+   "kind": "block",
+   "name": "Igneous Rock Brick Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:igneous_rock_bricks_wall": {
+   "kind": "block",
+   "name": "Igneous Rock Brick Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:igneous_rock_pillar": {
+   "kind": "block",
+   "name": "Igneous Rock Pillar",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:igneous_rock_slab": {
+   "kind": "block",
+   "name": "Igneous Rock Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:igneous_rock_stairs": {
+   "kind": "block",
+   "name": "Igneous Rock Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:igneous_rock_tiles": {
+   "kind": "block",
+   "name": "Igneous Rock Tiles",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:igneous_rock_tiles_slab": {
+   "kind": "block",
+   "name": "Igneous Rock Tiles Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:igneous_rock_tiles_stairs": {
+   "kind": "block",
+   "name": "Igneous Rock Tiles Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:igneous_rock_tiles_wall": {
+   "kind": "block",
+   "name": "Igneous Rock Tiles Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:infernal_spirited_glass": {
+   "kind": "block",
+   "name": "Infernal Spirited Glass",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:infernal_varnished_terracotta": {
+   "kind": "block",
+   "name": "Infernal Varnished Terracotta",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:large_strange_crystal": {
+   "kind": "block",
+   "name": "Large Strange Crystal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:light_blue_runewood_poppet_pillow": {
+   "kind": "block",
+   "name": "Light Blue Runewood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:light_blue_soulwood_poppet_pillow": {
+   "kind": "block",
+   "name": "Light Blue Soulwood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:light_gray_runewood_poppet_pillow": {
+   "kind": "block",
+   "name": "Light Gray Runewood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:light_gray_soulwood_poppet_pillow": {
+   "kind": "block",
+   "name": "Light Gray Soulwood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:lime_runewood_poppet_pillow": {
+   "kind": "block",
+   "name": "Lime Runewood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:lime_soulwood_poppet_pillow": {
+   "kind": "block",
+   "name": "Lime Soulwood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:magenta_runewood_poppet_pillow": {
+   "kind": "block",
+   "name": "Magenta Runewood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:magenta_soulwood_poppet_pillow": {
+   "kind": "block",
+   "name": "Magenta Soulwood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:marine_agate_cluster": {
+   "kind": "block",
+   "name": "Marine Agate Cluster",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:marine_agate_geode": {
+   "kind": "block",
+   "name": "Marine Agate Geode",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:marine_agate_lamp": {
+   "kind": "block",
+   "name": "Marine Agate Lamp",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:meditating_effigy": {
+   "kind": "block",
+   "name": "Meditating Effigy",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:mundane_quartz_cluster": {
+   "kind": "block",
+   "name": "Mundane Quartz Cluster",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:mundane_quartz_geode": {
+   "kind": "block",
+   "name": "Mundane Quartz Geode",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:mundane_quartz_lamp": {
+   "kind": "block",
+   "name": "Mundane Quartz Lamp",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:myriad_gateway": {
+   "kind": "block",
+   "name": "Myriad Gateway",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:null_spirited_glass": {
+   "kind": "block",
+   "name": "Null Spirited Glass",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:null_varnished_terracotta": {
+   "kind": "block",
+   "name": "Null Varnished Terracotta",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:orange_runewood_poppet_pillow": {
+   "kind": "block",
+   "name": "Orange Runewood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:orange_soulwood_poppet_pillow": {
+   "kind": "block",
+   "name": "Orange Soulwood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ornate_soulwood_item_pedestal": {
+   "kind": "block",
+   "name": "Ornate Soulwood Item Pedestal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ornate_soulwood_item_stand": {
+   "kind": "block",
+   "name": "Ornate Soulwood Item Stand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:pink_runewood_poppet_pillow": {
+   "kind": "block",
+   "name": "Pink Runewood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:pink_soulwood_poppet_pillow": {
+   "kind": "block",
+   "name": "Pink Soulwood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_composite_stone": {
+   "kind": "block",
+   "name": "Polished Composite Stone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_composite_stone_slab": {
+   "kind": "block",
+   "name": "Polished Composite Stone Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_composite_stone_stairs": {
+   "kind": "block",
+   "name": "Polished Composite Stone Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_ebonstone": {
+   "kind": "block",
+   "name": "Polished Ebonstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_ebonstone_slab": {
+   "kind": "block",
+   "name": "Polished Ebonstone Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_ebonstone_stairs": {
+   "kind": "block",
+   "name": "Polished Ebonstone Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_igneous_rock": {
+   "kind": "block",
+   "name": "Polished Igneous Rock",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_igneous_rock_slab": {
+   "kind": "block",
+   "name": "Polished Igneous Rock Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_igneous_rock_stairs": {
+   "kind": "block",
+   "name": "Polished Igneous Rock Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_marine_agate": {
+   "kind": "block",
+   "name": "Polished Marine Agate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_mundane_quartz": {
+   "kind": "block",
+   "name": "Polished Mundane Quartz",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_rugged_citrine": {
+   "kind": "block",
+   "name": "Polished Rugged Citrine",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_seed_quartz": {
+   "kind": "block",
+   "name": "Polished Seed Quartz",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_seed_quartz_slab": {
+   "kind": "block",
+   "name": "Polished Seed Quartz Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_seed_quartz_stairs": {
+   "kind": "block",
+   "name": "Polished Seed Quartz Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_tainted_rock": {
+   "kind": "block",
+   "name": "Polished Tainted Rock",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_tainted_rock_slab": {
+   "kind": "block",
+   "name": "Polished Tainted Rock Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_tainted_rock_stairs": {
+   "kind": "block",
+   "name": "Polished Tainted Rock Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_tainted_rock_wall": {
+   "kind": "block",
+   "name": "Polished Tainted Rock Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_trodden_stone": {
+   "kind": "block",
+   "name": "Polished Trodden Stone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_trodden_stone_slab": {
+   "kind": "block",
+   "name": "Polished Trodden Stone Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_trodden_stone_stairs": {
+   "kind": "block",
+   "name": "Polished Trodden Stone Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_twisted_rock": {
+   "kind": "block",
+   "name": "Polished Twisted Rock",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_twisted_rock_slab": {
+   "kind": "block",
+   "name": "Polished Twisted Rock Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_twisted_rock_stairs": {
+   "kind": "block",
+   "name": "Polished Twisted Rock Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_twisted_rock_wall": {
+   "kind": "block",
+   "name": "Polished Twisted Rock Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:polished_vivid_ametrine": {
+   "kind": "block",
+   "name": "Polished Vivid Ametrine",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:potted_azure_runewood_sapling": {
+   "kind": "block",
+   "name": "Potted Azure Runewood Sapling",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:potted_blightpearl": {
+   "kind": "block",
+   "name": "Potted Blightpearl",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:potted_blightroot": {
+   "kind": "block",
+   "name": "Potted Blightroot",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:potted_runewood_sapling": {
+   "kind": "block",
+   "name": "Potted Runewood Sapling",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:potted_soulwood_sapling": {
+   "kind": "block",
+   "name": "Potted Soulwood Sapling",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:potted_strangeroot": {
+   "kind": "block",
+   "name": "Potted Strangeroot",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:purple_runewood_poppet_pillow": {
+   "kind": "block",
+   "name": "Purple Runewood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:purple_soulwood_poppet_pillow": {
+   "kind": "block",
+   "name": "Purple Soulwood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:red_runewood_poppet_pillow": {
+   "kind": "block",
+   "name": "Red Runewood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:red_soulwood_poppet_pillow": {
+   "kind": "block",
+   "name": "Red Soulwood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:repair_pylon": {
+   "kind": "block",
+   "name": "Repair Pylon",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:repair_pylon_component": {
+   "kind": "block",
+   "name": "Repair Pylon Component",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rite_anchor": {
+   "kind": "block",
+   "name": "Rite Anchor",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rite_channel": {
+   "kind": "block",
+   "name": "Rite Channel",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rite_spreader": {
+   "kind": "block",
+   "name": "Rite Spreader",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rite_unweaver": {
+   "kind": "block",
+   "name": "Rite Unweaver",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rugged_citrine_cluster": {
+   "kind": "block",
+   "name": "Rugged Citrine Cluster",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rugged_citrine_geode": {
+   "kind": "block",
+   "name": "Rugged Citrine Geode",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rugged_citrine_lamp": {
+   "kind": "block",
+   "name": "Rugged Citrine Lamp",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood": {
+   "kind": "block",
+   "name": "Runewood",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_beam": {
+   "kind": "block",
+   "name": "Runewood Beam",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_blocks": {
+   "kind": "block",
+   "name": "Runewood Blocks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_blocks_slab": {
+   "kind": "block",
+   "name": "Runewood Blocks Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_blocks_stairs": {
+   "kind": "block",
+   "name": "Runewood Blocks Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_blocks_wall": {
+   "kind": "block",
+   "name": "Runewood Blocks Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_boards": {
+   "kind": "block",
+   "name": "Runewood Boards",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_boards_slab": {
+   "kind": "block",
+   "name": "Runewood Board Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_boards_stairs": {
+   "kind": "block",
+   "name": "Runewood Board Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_boards_wall": {
+   "kind": "block",
+   "name": "Runewood Board Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_door": {
+   "kind": "block",
+   "name": "Runewood Door",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_item_pedestal": {
+   "kind": "block",
+   "name": "Runewood Item Pedestal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_item_stand": {
+   "kind": "block",
+   "name": "Runewood Item Stand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_leaves": {
+   "kind": "block",
+   "name": "Runewood Leaves",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_log": {
+   "kind": "block",
+   "name": "Runewood Log",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_obelisk": {
+   "kind": "block",
+   "name": "Runewood Obelisk",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_obelisk_component": {
+   "kind": "block",
+   "name": "Runewood Obelisk Component",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_planks": {
+   "kind": "block",
+   "name": "Runewood Planks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_planks_button": {
+   "kind": "block",
+   "name": "Runewood Button",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_planks_fence": {
+   "kind": "block",
+   "name": "Runewood Fence",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_planks_fence_gate": {
+   "kind": "block",
+   "name": "Runewood Fence Gate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_planks_pressure_plate": {
+   "kind": "block",
+   "name": "Runewood Planks Pressure Plate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_planks_slab": {
+   "kind": "block",
+   "name": "Runewood Planks Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_planks_stairs": {
+   "kind": "block",
+   "name": "Runewood Planks Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_sapling": {
+   "kind": "block",
+   "name": "Runewood Sapling",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_sign": {
+   "kind": "block",
+   "name": "Runewood Sign",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_steps": {
+   "kind": "block",
+   "name": "Runewood Steps",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_tiles": {
+   "kind": "block",
+   "name": "Runewood Tiles",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_tiles_slab": {
+   "kind": "block",
+   "name": "Runewood Tiles Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_tiles_stairs": {
+   "kind": "block",
+   "name": "Runewood Tiles Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_totem_base": {
+   "kind": "block",
+   "name": "Runewood Totem Base",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_totem_pole": {
+   "kind": "block",
+   "name": "Runewood Totem Pole",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_trapdoor": {
+   "kind": "block",
+   "name": "Runewood Trapdoor",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runic_sap_cauldron": {
+   "kind": "block",
+   "name": "Runic Sap Cauldron",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runic_workbench": {
+   "kind": "block",
+   "name": "Runic Workbench",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:sacred_spirited_glass": {
+   "kind": "block",
+   "name": "Sacred Spirited Glass",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:sacred_varnished_terracotta": {
+   "kind": "block",
+   "name": "Sacred Varnished Terracotta",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:sappy_runewood_log": {
+   "kind": "block",
+   "name": "Sappy Runewood Log",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:sappy_soulwood_log": {
+   "kind": "block",
+   "name": "Sappy Soulwood Log",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:scarstone": {
+   "kind": "block",
+   "name": "Scarstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:seed_quartz": {
+   "kind": "block",
+   "name": "Seed Quartz",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:seed_quartz_bricks": {
+   "kind": "block",
+   "name": "Seed Quartz Bricks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:seed_quartz_bricks_slab": {
+   "kind": "block",
+   "name": "Seed Quartz Brick Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:seed_quartz_bricks_stairs": {
+   "kind": "block",
+   "name": "Seed Quartz Brick Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:seed_quartz_bricks_wall": {
+   "kind": "block",
+   "name": "Seed Quartz Brick Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:seed_quartz_pillar": {
+   "kind": "block",
+   "name": "Seed Quartz Pillar",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:seed_quartz_slab": {
+   "kind": "block",
+   "name": "Seed Quartz Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:seed_quartz_stairs": {
+   "kind": "block",
+   "name": "Seed Quartz Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:seed_quartz_tiles": {
+   "kind": "block",
+   "name": "Seed Quartz Tiles",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:seed_quartz_tiles_slab": {
+   "kind": "block",
+   "name": "Seed Quartz Tiles Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:seed_quartz_tiles_stairs": {
+   "kind": "block",
+   "name": "Seed Quartz Tiles Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:seed_quartz_tiles_wall": {
+   "kind": "block",
+   "name": "Seed Quartz Tiles Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:smooth_composite_stone": {
+   "kind": "block",
+   "name": "Smooth Composite Stone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:smooth_composite_stone_slab": {
+   "kind": "block",
+   "name": "Smooth Composite Stone Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:smooth_composite_stone_stairs": {
+   "kind": "block",
+   "name": "Smooth Composite Stone Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:smooth_ebonstone": {
+   "kind": "block",
+   "name": "Smooth Ebonstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:smooth_ebonstone_slab": {
+   "kind": "block",
+   "name": "Smooth Ebonstone Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:smooth_ebonstone_stairs": {
+   "kind": "block",
+   "name": "Smooth Ebonstone Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:smooth_igneous_rock": {
+   "kind": "block",
+   "name": "Smooth Igneous Rock",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:smooth_igneous_rock_slab": {
+   "kind": "block",
+   "name": "Smooth Igneous Rock Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:smooth_igneous_rock_stairs": {
+   "kind": "block",
+   "name": "Smooth Igneous Rock Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:smooth_seed_quartz": {
+   "kind": "block",
+   "name": "Smooth Seed Quartz",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:smooth_seed_quartz_slab": {
+   "kind": "block",
+   "name": "Smooth Seed Quartz Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:smooth_seed_quartz_stairs": {
+   "kind": "block",
+   "name": "Smooth Seed Quartz Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:smooth_trodden_stone": {
+   "kind": "block",
+   "name": "Smooth Trodden Stone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:smooth_trodden_stone_slab": {
+   "kind": "block",
+   "name": "Smooth Trodden Stone Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:smooth_trodden_stone_stairs": {
+   "kind": "block",
+   "name": "Smooth Trodden Stone Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soul_link": {
+   "kind": "block",
+   "name": "Soul Link",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulbinding_brazier": {
+   "kind": "block",
+   "name": "Soulbinding Brazier",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulstone_bud": {
+   "kind": "block",
+   "name": "Soulstone Bud",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulstone_ore": {
+   "kind": "block",
+   "name": "Soulstone Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood": {
+   "kind": "block",
+   "name": "Soulwood",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_beam": {
+   "kind": "block",
+   "name": "Soulwood Beam",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_blocks": {
+   "kind": "block",
+   "name": "Soulwood Blocks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_blocks_slab": {
+   "kind": "block",
+   "name": "Soulwood Blocks Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_blocks_stairs": {
+   "kind": "block",
+   "name": "Soulwood Blocks Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_blocks_wall": {
+   "kind": "block",
+   "name": "Soulwood Blocks Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_boards": {
+   "kind": "block",
+   "name": "Soulwood Boards",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_boards_slab": {
+   "kind": "block",
+   "name": "Soulwood Board Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_boards_stairs": {
+   "kind": "block",
+   "name": "Soulwood Board Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_boards_wall": {
+   "kind": "block",
+   "name": "Soulwood Board Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_door": {
+   "kind": "block",
+   "name": "Soulwood Door",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_item_pedestal": {
+   "kind": "block",
+   "name": "Soulwood Item Pedestal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_item_stand": {
+   "kind": "block",
+   "name": "Soulwood Item Stand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_leaves": {
+   "kind": "block",
+   "name": "Soulwood Leaves",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_log": {
+   "kind": "block",
+   "name": "Soulwood Log",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_planks": {
+   "kind": "block",
+   "name": "Soulwood Planks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_planks_button": {
+   "kind": "block",
+   "name": "Soulwood Button",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_planks_fence": {
+   "kind": "block",
+   "name": "Soulwood Fence",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_planks_fence_gate": {
+   "kind": "block",
+   "name": "Soulwood Fence Gate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_planks_pressure_plate": {
+   "kind": "block",
+   "name": "Soulwood Planks Pressure Plate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_planks_slab": {
+   "kind": "block",
+   "name": "Soulwood Planks Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_planks_stairs": {
+   "kind": "block",
+   "name": "Soulwood Planks Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_sapling": {
+   "kind": "block",
+   "name": "Soulwood Sapling",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_sign": {
+   "kind": "block",
+   "name": "Soulwood Sign",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_steps": {
+   "kind": "block",
+   "name": "Soulwood Steps",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_tiles": {
+   "kind": "block",
+   "name": "Soulwood Tiles",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_tiles_slab": {
+   "kind": "block",
+   "name": "Soulwood Tiles Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_tiles_stairs": {
+   "kind": "block",
+   "name": "Soulwood Tiles Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_totem_base": {
+   "kind": "block",
+   "name": "Soulwood Totem Base",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_totem_pole": {
+   "kind": "block",
+   "name": "Soulwood Totem Pole",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_trapdoor": {
+   "kind": "block",
+   "name": "Soulwood Trapdoor",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwoven_banner": {
+   "kind": "block",
+   "name": "Soulwoven Banner",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:spirit_altar": {
+   "kind": "block",
+   "name": "Spirit Altar",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:spirit_catalyzer": {
+   "kind": "block",
+   "name": "Spirit Catalyzer",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:spirit_catalyzer_component": {
+   "kind": "block",
+   "name": "Spirit Catalyzer Component",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:spirit_crucible": {
+   "kind": "block",
+   "name": "Spirit Crucible",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:spirit_crucible_component": {
+   "kind": "block",
+   "name": "Spirit Crucible Component",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:spirit_jar": {
+   "kind": "block",
+   "name": "Spirit Jar",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:strange_crystal": {
+   "kind": "block",
+   "name": "Strange Crystal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:strangeroot": {
+   "kind": "block",
+   "name": "Strangeroot",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:stripped_runewood": {
+   "kind": "block",
+   "name": "Stripped Runewood",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:stripped_runewood_log": {
+   "kind": "block",
+   "name": "Stripped Runewood Log",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:stripped_sappy_runewood_log": {
+   "kind": "block",
+   "name": "Stripped Sappy Runewood Log",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:stripped_sappy_soulwood_log": {
+   "kind": "block",
+   "name": "Stripped Sappy Soulwood Log",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:stripped_soulwood": {
+   "kind": "block",
+   "name": "Stripped Soulwood",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:stripped_soulwood_log": {
+   "kind": "block",
+   "name": "Stripped Soulwood Log",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock": {
+   "kind": "block",
+   "name": "Tainted Rock",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_altar": {
+   "kind": "block",
+   "name": "Tainted Rock Altar",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_bricks": {
+   "kind": "block",
+   "name": "Tainted Rock Bricks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_bricks_slab": {
+   "kind": "block",
+   "name": "Tainted Rock Brick Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_bricks_stairs": {
+   "kind": "block",
+   "name": "Tainted Rock Brick Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_bricks_wall": {
+   "kind": "block",
+   "name": "Tainted Rock Brick Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_button": {
+   "kind": "block",
+   "name": "Tainted Rock Button",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_column": {
+   "kind": "block",
+   "name": "Tainted Rock Column",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_grid": {
+   "kind": "block",
+   "name": "Tainted Rock Grid",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_grid_slab": {
+   "kind": "block",
+   "name": "Tainted Rock Grid Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_grid_stairs": {
+   "kind": "block",
+   "name": "Tainted Rock Grid Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_grid_wall": {
+   "kind": "block",
+   "name": "Tainted Rock Grid Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_item_pedestal": {
+   "kind": "block",
+   "name": "Tainted Rock Item Pedestal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_item_stand": {
+   "kind": "block",
+   "name": "Tainted Rock Item Stand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_mosaic": {
+   "kind": "block",
+   "name": "Tainted Rock Mosaic",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_mosaic_slab": {
+   "kind": "block",
+   "name": "Tainted Rock Mosaic Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_mosaic_stairs": {
+   "kind": "block",
+   "name": "Tainted Rock Mosaic Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_mosaic_wall": {
+   "kind": "block",
+   "name": "Tainted Rock Mosaic Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_pressure_plate": {
+   "kind": "block",
+   "name": "Tainted Rock Pressure Plate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_slab": {
+   "kind": "block",
+   "name": "Tainted Rock Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_stairs": {
+   "kind": "block",
+   "name": "Tainted Rock Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_tiles": {
+   "kind": "block",
+   "name": "Tainted Rock Tiles",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_tiles_slab": {
+   "kind": "block",
+   "name": "Tainted Rock Tiles Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_tiles_stairs": {
+   "kind": "block",
+   "name": "Tainted Rock Tiles Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_tiles_wall": {
+   "kind": "block",
+   "name": "Tainted Rock Tiles Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tainted_rock_wall": {
+   "kind": "block",
+   "name": "Tainted Rock Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:the_device": {
+   "kind": "block",
+   "name": "The Device",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:the_vessel": {
+   "kind": "block",
+   "name": "The Vessel",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:trodden_stone": {
+   "kind": "block",
+   "name": "Trodden Stone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:trodden_stone_bricks": {
+   "kind": "block",
+   "name": "Trodden Stone Bricks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:trodden_stone_bricks_slab": {
+   "kind": "block",
+   "name": "Trodden Stone Brick Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:trodden_stone_bricks_stairs": {
+   "kind": "block",
+   "name": "Trodden Stone Brick Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:trodden_stone_bricks_wall": {
+   "kind": "block",
+   "name": "Trodden Stone Brick Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:trodden_stone_pillar": {
+   "kind": "block",
+   "name": "Trodden Stone Pillar",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:trodden_stone_slab": {
+   "kind": "block",
+   "name": "Trodden Stone Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:trodden_stone_stairs": {
+   "kind": "block",
+   "name": "Trodden Stone Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:trodden_stone_tiles": {
+   "kind": "block",
+   "name": "Trodden Stone Tiles",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:trodden_stone_tiles_slab": {
+   "kind": "block",
+   "name": "Trodden Stone Tiles Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:trodden_stone_tiles_stairs": {
+   "kind": "block",
+   "name": "Trodden Stone Tiles Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:trodden_stone_tiles_wall": {
+   "kind": "block",
+   "name": "Trodden Stone Tiles Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock": {
+   "kind": "block",
+   "name": "Twisted Rock",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_altar": {
+   "kind": "block",
+   "name": "Twisted Rock Altar",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_bricks": {
+   "kind": "block",
+   "name": "Twisted Rock Bricks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_bricks_slab": {
+   "kind": "block",
+   "name": "Twisted Rock Brick Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_bricks_stairs": {
+   "kind": "block",
+   "name": "Twisted Rock Brick Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_bricks_wall": {
+   "kind": "block",
+   "name": "Twisted Rock Brick Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_button": {
+   "kind": "block",
+   "name": "Twisted Rock Button",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_column": {
+   "kind": "block",
+   "name": "Twisted Rock Column",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_grid": {
+   "kind": "block",
+   "name": "Twisted Rock Grid",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_grid_slab": {
+   "kind": "block",
+   "name": "Twisted Rock Grid Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_grid_stairs": {
+   "kind": "block",
+   "name": "Twisted Rock Grid Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_grid_wall": {
+   "kind": "block",
+   "name": "Twisted Rock Grid Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_item_pedestal": {
+   "kind": "block",
+   "name": "Twisted Rock Item Pedestal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_item_stand": {
+   "kind": "block",
+   "name": "Twisted Rock Item Stand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_mosaic": {
+   "kind": "block",
+   "name": "Twisted Rock Mosaic",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_mosaic_slab": {
+   "kind": "block",
+   "name": "Twisted Rock Mosaic Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_mosaic_stairs": {
+   "kind": "block",
+   "name": "Twisted Rock Mosaic Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_mosaic_wall": {
+   "kind": "block",
+   "name": "Twisted Rock Mosaic Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_pressure_plate": {
+   "kind": "block",
+   "name": "Twisted Rock Pressure Plate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_slab": {
+   "kind": "block",
+   "name": "Twisted Rock Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_stairs": {
+   "kind": "block",
+   "name": "Twisted Rock Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_tiles": {
+   "kind": "block",
+   "name": "Twisted Rock Tiles",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_tiles_slab": {
+   "kind": "block",
+   "name": "Twisted Rock Tiles Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_tiles_stairs": {
+   "kind": "block",
+   "name": "Twisted Rock Tiles Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_tiles_wall": {
+   "kind": "block",
+   "name": "Twisted Rock Tiles Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:twisted_rock_wall": {
+   "kind": "block",
+   "name": "Twisted Rock Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:vertical_runewood_boards": {
+   "kind": "block",
+   "name": "Vertical Runewood Boards",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:vertical_runewood_boards_slab": {
+   "kind": "block",
+   "name": "Vertical Runewood Board Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:vertical_runewood_boards_stairs": {
+   "kind": "block",
+   "name": "Vertical Runewood Board Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:vertical_runewood_boards_wall": {
+   "kind": "block",
+   "name": "Vertical Runewood Board Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:vertical_runewood_planks": {
+   "kind": "block",
+   "name": "Vertical Runewood Planks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:vertical_runewood_planks_slab": {
+   "kind": "block",
+   "name": "Vertical Runewood Planks Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:vertical_runewood_planks_stairs": {
+   "kind": "block",
+   "name": "Vertical Runewood Planks Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:vertical_soulwood_boards": {
+   "kind": "block",
+   "name": "Vertical Soulwood Boards",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:vertical_soulwood_boards_slab": {
+   "kind": "block",
+   "name": "Vertical Soulwood Board Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:vertical_soulwood_boards_stairs": {
+   "kind": "block",
+   "name": "Vertical Soulwood Board Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:vertical_soulwood_boards_wall": {
+   "kind": "block",
+   "name": "Vertical Soulwood Board Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:vertical_soulwood_planks": {
+   "kind": "block",
+   "name": "Vertical Soulwood Planks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:vertical_soulwood_planks_slab": {
+   "kind": "block",
+   "name": "Vertical Soulwood Planks Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:vertical_soulwood_planks_stairs": {
+   "kind": "block",
+   "name": "Vertical Soulwood Planks Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:vivid_ametrine_cluster": {
+   "kind": "block",
+   "name": "Vivid Ametrine Cluster",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:vivid_ametrine_geode": {
+   "kind": "block",
+   "name": "Vivid Ametrine Geode",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:vivid_ametrine_lamp": {
+   "kind": "block",
+   "name": "Vivid Ametrine Lamp",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:wand_tinkerer": {
+   "kind": "block",
+   "name": "Wand Tinkerer",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:wavebanker": {
+   "kind": "block",
+   "name": "Wavebanker",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:wavebreaker": {
+   "kind": "block",
+   "name": "Wavebreaker",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:wavecharger": {
+   "kind": "block",
+   "name": "Wavecharger",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:waveform_runewood_totem_base": {
+   "kind": "block",
+   "name": "Waveform Runewood Totem Base",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:waveform_soulwood_totem_base": {
+   "kind": "block",
+   "name": "Waveform Soulwood Totem Base",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:wavemaker": {
+   "kind": "block",
+   "name": "Wavemaker",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:weavers_workbench": {
+   "kind": "block",
+   "name": "Weaver's Workbench",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:weeping_well": {
+   "kind": "block",
+   "name": "The Weeping Well",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:weeping_well_centerpiece": {
+   "kind": "block",
+   "name": "The Weeping Well",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:white_runewood_poppet_pillow": {
+   "kind": "block",
+   "name": "White Runewood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:white_soulwood_poppet_pillow": {
+   "kind": "block",
+   "name": "White Soulwood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:wicked_spirited_glass": {
+   "kind": "block",
+   "name": "Wicked Spirited Glass",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:wicked_varnished_terracotta": {
+   "kind": "block",
+   "name": "Wicked Varnished Terracotta",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:wind_tunnel": {
+   "kind": "block",
+   "name": "Wind Tunnel",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:writhing_flesh": {
+   "kind": "block",
+   "name": "Writhing Flesh",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:yellow_runewood_poppet_pillow": {
+   "kind": "block",
+   "name": "Yellow Runewood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:yellow_soulwood_poppet_pillow": {
+   "kind": "block",
+   "name": "Yellow Soulwood Poppet Pillow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:altar": {
+   "kind": "entity",
+   "name": "Altar",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ascending_block": {
+   "kind": "entity",
+   "name": "Ascending Block",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:believer": {
+   "kind": "entity",
+   "name": "Believer",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:bound_rite_locus": {
+   "kind": "entity",
+   "name": "Bound Rite Locus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:cardinal": {
+   "kind": "entity",
+   "name": "Cardinal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:cherub": {
+   "kind": "entity",
+   "name": "Cherub",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:cultist_blessing": {
+   "kind": "entity",
+   "name": "Cultist Blessing",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:cursed_bolt": {
+   "kind": "entity",
+   "name": "Cursed Bolt",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:draining_bolt": {
+   "kind": "entity",
+   "name": "Draining Bolt",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:entropic_flame_bolt": {
+   "kind": "entity",
+   "name": "Entropic Flame Bolt",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:entropy_charge": {
+   "kind": "entity",
+   "name": "Entropy Charge",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:etheric_nitrate": {
+   "kind": "entity",
+   "name": "Etheric Nitrate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:evangelist": {
+   "kind": "entity",
+   "name": "Evangelist",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:gluttony_locust": {
+   "kind": "entity",
+   "name": "Gluttony Locust",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:hex_bolt": {
+   "kind": "entity",
+   "name": "Hex Bolt",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:hidden_blade_delayed_impact": {
+   "kind": "entity",
+   "name": "Hidden Blade Delayed Impact",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:locus_wave_projection": {
+   "kind": "entity",
+   "name": "Locus Wave Projection",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:natural_spirit": {
+   "kind": "entity",
+   "name": "Natural Spirit",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:pillow_seat": {
+   "kind": "entity",
+   "name": "Pillow Seat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:pneuma_void": {
+   "kind": "entity",
+   "name": "Pneuma Void",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:resentment_ritual": {
+   "kind": "entity",
+   "name": "Resentment Ritual",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:scythe_boomerang": {
+   "kind": "entity",
+   "name": "Scythe Boomerang",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:scythe_maelstrom": {
+   "kind": "entity",
+   "name": "Scythe Maelstrom",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:seeking_rite_locus": {
+   "kind": "entity",
+   "name": "Seeking Rite Locus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soul_tag_entity": {
+   "kind": "entity",
+   "name": "Soul Tag Entity",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:spellweavers_locus": {
+   "kind": "entity",
+   "name": "Spellweavers Locus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:sundering_anchor": {
+   "kind": "item",
+   "name": "Sundering Anchor",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:vivid_nitrate": {
+   "kind": "entity",
+   "name": "Vivid Nitrate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:accelerating_inlay": {
+   "kind": "item",
+   "name": "Accelerating Inlay",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ace_prideweave": {
+   "kind": "item",
+   "name": "Ace Prideweave",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:aerial_spirit": {
+   "kind": "item",
+   "name": "Aerial Spirit",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:agender_prideweave": {
+   "kind": "item",
+   "name": "Agender Prideweave",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:aluminium_impetus": {
+   "kind": "item",
+   "name": "Aluminium Impetus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:aluminium_node": {
+   "kind": "item",
+   "name": "Aluminium Node",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:anomalous_design": {
+   "kind": "item",
+   "name": "Anomalous Design",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:aqueous_spirit": {
+   "kind": "item",
+   "name": "Aqueous Spirit",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:arcane_charcoal": {
+   "kind": "item",
+   "name": "Arcane Charcoal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:arcane_spirit": {
+   "kind": "item",
+   "name": "Arcane Spirit",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:aro_prideweave": {
+   "kind": "item",
+   "name": "Aro Prideweave",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:aroace_prideweave": {
+   "kind": "item",
+   "name": "Aroace Prideweave",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:artificers_claw": {
+   "kind": "item",
+   "name": "Artificer's Claw",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:auric_embers": {
+   "kind": "item",
+   "name": "Auric Embers",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:azoic_sap_bottle": {
+   "kind": "item",
+   "name": "Azoic Sap Bottle",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:azoic_sapball": {
+   "kind": "item",
+   "name": "Azoic Sapball",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:belt_of_opulent_inoculation": {
+   "kind": "item",
+   "name": "Belt of Opulent Inoculation",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:belt_of_the_limitless": {
+   "kind": "item",
+   "name": "Belt of the Limitless",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:belt_of_the_magebane": {
+   "kind": "item",
+   "name": "Belt of the Magebane",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:belt_of_the_prospector": {
+   "kind": "item",
+   "name": "Belt of the Prospector",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:belt_of_the_starved": {
+   "kind": "item",
+   "name": "Belt of the Starved",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:belt_of_the_tidebound": {
+   "kind": "item",
+   "name": "Belt of the Tidebound",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:bi_prideweave": {
+   "kind": "item",
+   "name": "Bi Prideweave",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:blade_memory": {
+   "kind": "item",
+   "name": "Blade Memory",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:blazing_diode": {
+   "kind": "item",
+   "name": "Blazing Diode",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:blazing_quartz": {
+   "kind": "item",
+   "name": "Blazing Quartz",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:blighted_gunk": {
+   "kind": "item",
+   "name": "Blighted Gunk",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:calcified_ebony": {
+   "kind": "item",
+   "name": "Calcified Ebony",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:catalyst_lobber": {
+   "kind": "item",
+   "name": "Catalyst Lobber",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:caustic_catalyst": {
+   "kind": "item",
+   "name": "Caustic Catalyst",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:complete_design": {
+   "kind": "item",
+   "name": "Complete Design",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:convoluted_lens": {
+   "kind": "item",
+   "name": "Convoluted Lens",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:copper_impetus": {
+   "kind": "item",
+   "name": "Copper Impetus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:copper_node": {
+   "kind": "item",
+   "name": "Copper Node",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:copper_nugget": {
+   "kind": "item",
+   "name": "Copper Nugget",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:crude_scythe": {
+   "kind": "item",
+   "name": "Crude Scythe",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:cthonic_gold": {
+   "kind": "item",
+   "name": "Cthonic Gold",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:cthonic_gold_fragment": {
+   "kind": "item",
+   "name": "Cthonic Gold Fragment",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:derealized_aluminium": {
+   "kind": "item",
+   "name": "Derealized Aluminium",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:derealized_copper": {
+   "kind": "item",
+   "name": "Derealized Copper",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:derealized_gold": {
+   "kind": "item",
+   "name": "Derealized Gold",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:derealized_iron": {
+   "kind": "item",
+   "name": "Derealized Iron",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:derealized_lead": {
+   "kind": "item",
+   "name": "Derealized Lead",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:derealized_nickel": {
+   "kind": "item",
+   "name": "Derealized Nickel",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:derealized_silver": {
+   "kind": "item",
+   "name": "Derealized Silver",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:derealized_zinc": {
+   "kind": "item",
+   "name": "Derealized Zinc",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:earthen_spirit": {
+   "kind": "item",
+   "name": "Earthen Spirit",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ebony_stalk": {
+   "kind": "item",
+   "name": "Ebony Stalk",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:edge_of_deliverance": {
+   "kind": "item",
+   "name": "Edge of Deliverance",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:eerie_weave": {
+   "kind": "item",
+   "name": "Eerie Weave",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:elaborate_brooch": {
+   "kind": "item",
+   "name": "Elaborate Brooch",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:eldritch_spirit": {
+   "kind": "item",
+   "name": "Eldritch Spirit",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:enby_prideweave": {
+   "kind": "item",
+   "name": "Enby Prideweave",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:encyclopedia_arcana": {
+   "kind": "item",
+   "name": "Encyclopedia Arcana",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:encyclopedia_esoterica": {
+   "kind": "item",
+   "name": "Encyclopedia Esoterica",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:entropic_anomaly": {
+   "kind": "item",
+   "name": "Entropic Anomaly",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:erosion_scepter": {
+   "kind": "item",
+   "name": "Erosion Scepter",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:esoteric_spool": {
+   "kind": "item",
+   "name": "Esoteric Spool",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:filled_spirit_jar": {
+   "kind": "item",
+   "name": "Filled Spirit Jar",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fractured_aluminium_impetus": {
+   "kind": "item",
+   "name": "Fractured Aluminium Impetus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fractured_copper_impetus": {
+   "kind": "item",
+   "name": "Fractured Copper Impetus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fractured_gold_impetus": {
+   "kind": "item",
+   "name": "Fractured Gold Impetus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fractured_ifrit_impetus": {
+   "kind": "item",
+   "name": "Fractured Ifrit Impetus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fractured_iron_impetus": {
+   "kind": "item",
+   "name": "Fractured Iron Impetus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fractured_lead_impetus": {
+   "kind": "item",
+   "name": "Fractured Lead Impetus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fractured_nickel_impetus": {
+   "kind": "item",
+   "name": "Fractured Nickel Impetus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fractured_silver_impetus": {
+   "kind": "item",
+   "name": "Fractured Silver Impetus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fractured_zephyr_impetus": {
+   "kind": "item",
+   "name": "Fractured Zephyr Impetus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fractured_zinc_impetus": {
+   "kind": "item",
+   "name": "Fractured Zinc Impetus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:fused_consciousness": {
+   "kind": "item",
+   "name": "Fused Consciousness",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:gay_prideweave": {
+   "kind": "item",
+   "name": "Gay Prideweave",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:geas": {
+   "kind": "item",
+   "name": "Geas",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:genderfluid_prideweave": {
+   "kind": "item",
+   "name": "Genderfluid Prideweave",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:genderqueer_prideweave": {
+   "kind": "item",
+   "name": "Genderqueer Prideweave",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:gilded_belt": {
+   "kind": "item",
+   "name": "Gilded Belt",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:gilded_ring": {
+   "kind": "item",
+   "name": "Gilded Ring",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:glass_brooch": {
+   "kind": "item",
+   "name": "Glass Brooch",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:gluttonous_bludgeon": {
+   "kind": "item",
+   "name": "Gluttonous Bludgeon",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:gluttonous_brooch": {
+   "kind": "item",
+   "name": "Gluttonous Brooch",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:gold_impetus": {
+   "kind": "item",
+   "name": "Gold Impetus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:gold_node": {
+   "kind": "item",
+   "name": "Gold Node",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:grim_talc": {
+   "kind": "item",
+   "name": "Grim Talc",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:hallowed_gold_ingot": {
+   "kind": "item",
+   "name": "Hallowed Gold Ingot",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:hallowed_gold_inlay": {
+   "kind": "item",
+   "name": "Hallowed Gold Inlay",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:hallowed_gold_nugget": {
+   "kind": "item",
+   "name": "Hallowed Gold Nugget",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:harmonized_aluminium": {
+   "kind": "item",
+   "name": "Harmonized Aluminium",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:harmonized_copper": {
+   "kind": "item",
+   "name": "Harmonized Copper",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:harmonized_gold": {
+   "kind": "item",
+   "name": "Harmonized Gold",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:harmonized_iron": {
+   "kind": "item",
+   "name": "Harmonized Iron",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:harmonized_lead": {
+   "kind": "item",
+   "name": "Harmonized Lead",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:harmonized_nickel": {
+   "kind": "item",
+   "name": "Harmonized Nickel",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:harmonized_silver": {
+   "kind": "item",
+   "name": "Harmonized Silver",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:harmonized_zinc": {
+   "kind": "item",
+   "name": "Harmonized Zinc",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:hex_ash": {
+   "kind": "item",
+   "name": "Hex Ash",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ifrit_impetus": {
+   "kind": "item",
+   "name": "Ifrit Impetus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:igneous_chitin": {
+   "kind": "item",
+   "name": "Igneous Chitin",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:imitation_flesh": {
+   "kind": "item",
+   "name": "Imitation Flesh",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:imitation_heart": {
+   "kind": "item",
+   "name": "Imitation Heart",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:impurity_stabilizer": {
+   "kind": "item",
+   "name": "Impurity Stabilizer",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:infernal_spirit": {
+   "kind": "item",
+   "name": "Infernal Spirit",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:intersex_prideweave": {
+   "kind": "item",
+   "name": "Intersex Prideweave",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:intricate_assembly": {
+   "kind": "item",
+   "name": "Intricate Assembly",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:iron_crown": {
+   "kind": "item",
+   "name": "Iron Crown",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:iron_impetus": {
+   "kind": "item",
+   "name": "Iron Impetus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:iron_node": {
+   "kind": "item",
+   "name": "Iron Node",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:lead_impetus": {
+   "kind": "item",
+   "name": "Lead Impetus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:lead_node": {
+   "kind": "item",
+   "name": "Lead Node",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:lesbian_prideweave": {
+   "kind": "item",
+   "name": "Lesbian Prideweave",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:living_flesh": {
+   "kind": "item",
+   "name": "Living Flesh",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:malignant_lead": {
+   "kind": "item",
+   "name": "Malignant Lead",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:malignant_pewter_ingot": {
+   "kind": "item",
+   "name": "Malignant Pewter Ingot",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:malignant_pewter_nugget": {
+   "kind": "item",
+   "name": "Malignant Pewter Nugget",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:malignant_pewter_plating": {
+   "kind": "item",
+   "name": "Malignant Pewter Plating",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:malignant_stronghold_boots": {
+   "kind": "item",
+   "name": "Malignant Stronghold Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:malignant_stronghold_chestplate": {
+   "kind": "item",
+   "name": "Malignant Stronghold Chestplate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:malignant_stronghold_helmet": {
+   "kind": "item",
+   "name": "Malignant Stronghold Helmet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:malignant_stronghold_leggings": {
+   "kind": "item",
+   "name": "Malignant Stronghold Leggings",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:marine_agate": {
+   "kind": "item",
+   "name": "Marine Agate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:mending_diffuser": {
+   "kind": "item",
+   "name": "Mending Diffuser",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:mimicry_relay": {
+   "kind": "item",
+   "name": "Mimicry Relay",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:mnemonic_fragment": {
+   "kind": "item",
+   "name": "Mnemonic Fragment",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:mnemonic_hex_staff": {
+   "kind": "item",
+   "name": "Mnemonic Hex Staff",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:mundane_quartz": {
+   "kind": "item",
+   "name": "Mundane Quartz",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:music_disc_aesthetica": {
+   "kind": "item",
+   "name": "Music Disc",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:music_disc_arcane_elegy": {
+   "kind": "item",
+   "name": "Music Disc",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:necklace_of_mystic_potency": {
+   "kind": "item",
+   "name": "Necklace of Mystic Potency",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:necklace_of_the_hidden_blade": {
+   "kind": "item",
+   "name": "Necklace of the Hidden Blade",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:necklace_of_the_narrow_edge": {
+   "kind": "item",
+   "name": "Necklace of the Narrow Edge",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:necklace_of_the_watcher": {
+   "kind": "item",
+   "name": "Necklace of the Watcher",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:necklace_of_the_windweaver": {
+   "kind": "item",
+   "name": "Necklace of the Windweaver",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:nickel_impetus": {
+   "kind": "item",
+   "name": "Nickel Impetus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:nickel_node": {
+   "kind": "item",
+   "name": "Nickel Node",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:null_slate": {
+   "kind": "item",
+   "name": "Null Slate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ornate_necklace": {
+   "kind": "item",
+   "name": "Ornate Necklace",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ornate_ring": {
+   "kind": "item",
+   "name": "Ornate Ring",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:pan_prideweave": {
+   "kind": "item",
+   "name": "Pan Prideweave",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:paracausal_flame": {
+   "kind": "item",
+   "name": "Paracausal Flame",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:plural_prideweave": {
+   "kind": "item",
+   "name": "Plural Prideweave",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:poly_prideweave": {
+   "kind": "item",
+   "name": "Poly Prideweave",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:poppet": {
+   "kind": "item",
+   "name": "Poppet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:pride_prideweave": {
+   "kind": "item",
+   "name": "Pride Prideweave",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:prismatic_focus_lens": {
+   "kind": "item",
+   "name": "Prismatic Focus Lens",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:pyre_nucleus": {
+   "kind": "item",
+   "name": "Pyre Nucleus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ravenous_pouch": {
+   "kind": "item",
+   "name": "Ravenous Pouch",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ravenous_scythe": {
+   "kind": "item",
+   "name": "Ravenous Scythe",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:raw_brilliance": {
+   "kind": "item",
+   "name": "Raw Brilliance",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:raw_soulstone": {
+   "kind": "item",
+   "name": "Raw Soulstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:realized_soulstone_bud": {
+   "kind": "item",
+   "name": "Realized Soulstone Bud",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:refined_brilliance": {
+   "kind": "item",
+   "name": "Refined Brilliance",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:refined_soulstone": {
+   "kind": "item",
+   "name": "Refined Soulstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:resonance_tuner": {
+   "kind": "item",
+   "name": "Resonance Tuner",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ring_of_arcane_prowess": {
+   "kind": "item",
+   "name": "Ring of Arcane Prowess",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ring_of_curative_talent": {
+   "kind": "item",
+   "name": "Ring of Curative Talent",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ring_of_desperate_voracity": {
+   "kind": "item",
+   "name": "Ring of Desperate Voracity",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ring_of_echoing_arcana": {
+   "kind": "item",
+   "name": "Ring of Echoing Arcana",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ring_of_esoteric_shadow": {
+   "kind": "item",
+   "name": "Ring of Esoteric Shadow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ring_of_esoteric_spoils": {
+   "kind": "item",
+   "name": "Ring of Esoteric Spoils",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ring_of_growing_flesh": {
+   "kind": "item",
+   "name": "Ring of Growing Flesh",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ring_of_gruesome_concentration": {
+   "kind": "item",
+   "name": "Ring of Gruesome Concentration",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ring_of_hearty_avarice": {
+   "kind": "item",
+   "name": "Ring of Hearty Avarice",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ring_of_heavy_discharge": {
+   "kind": "item",
+   "name": "Ring of Heavy Discharge",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ring_of_manaweaving": {
+   "kind": "item",
+   "name": "Ring of Manaweaving",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ring_of_swarming_rot": {
+   "kind": "item",
+   "name": "Ring of Swarming Rot",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ring_of_the_endless_well": {
+   "kind": "item",
+   "name": "Ring of the Endless Well",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ring_of_the_howling_maelstrom": {
+   "kind": "item",
+   "name": "Ring of the Howling Maelstrom",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:ring_of_the_rising_edge": {
+   "kind": "item",
+   "name": "Ring of the Rising Edge",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rotting_essence": {
+   "kind": "item",
+   "name": "Rotting Essence",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rugged_citrine": {
+   "kind": "item",
+   "name": "Rugged Citrine",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_ailment_cleansing": {
+   "kind": "item",
+   "name": "Rune of Ailment Cleansing",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_bolstering": {
+   "kind": "item",
+   "name": "Rune of Bolstering",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_burning_fervor": {
+   "kind": "item",
+   "name": "Rune of Burning Fervor",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_culling": {
+   "kind": "item",
+   "name": "Rune of Culling",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_dexterity": {
+   "kind": "item",
+   "name": "Rune of Dexterity",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_fiery_embrace": {
+   "kind": "item",
+   "name": "Rune of Fiery Embrace",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_flowing_grasp": {
+   "kind": "item",
+   "name": "Rune of Flowing Grasp",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_good_tides": {
+   "kind": "item",
+   "name": "Rune of Good Tides",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_heresy": {
+   "kind": "item",
+   "name": "Rune of Heresy",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_howling_gale": {
+   "kind": "item",
+   "name": "Rune of Howling Gale",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_igneous_solace": {
+   "kind": "item",
+   "name": "Rune of Igneous Solace",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_indomitability": {
+   "kind": "item",
+   "name": "Rune of Indomitability",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_oaken_might": {
+   "kind": "item",
+   "name": "Rune of Oaken Might",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_protection": {
+   "kind": "item",
+   "name": "Rune of Protection",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_radial_empowerment": {
+   "kind": "item",
+   "name": "Rune of Radial Empowerment",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_reinforcement": {
+   "kind": "item",
+   "name": "Rune of Reinforcement",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_scorching": {
+   "kind": "item",
+   "name": "Rune of Scorching",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_sky_tether": {
+   "kind": "item",
+   "name": "Rune of Sky Tether",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_spell_mastery": {
+   "kind": "item",
+   "name": "Rune of Spell Mastery",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_stone_ward": {
+   "kind": "item",
+   "name": "Rune of Stone Ward",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_twinned_duration": {
+   "kind": "item",
+   "name": "Rune of Twinned Duration",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_unnatural_stamina": {
+   "kind": "item",
+   "name": "Rune of Unnatural Stamina",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_vitality": {
+   "kind": "item",
+   "name": "Rune of Vitality",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:rune_of_volatile_distortion": {
+   "kind": "item",
+   "name": "Rune of Volatile Distortion",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_boat": {
+   "kind": "item",
+   "name": "Runewood Boat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runewood_chest_boat": {
+   "kind": "item",
+   "name": "Runewood Chest Boat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runic_brooch": {
+   "kind": "item",
+   "name": "Runic Brooch",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runic_sap_bottle": {
+   "kind": "item",
+   "name": "Runic Sap Bottle",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:runic_sapball": {
+   "kind": "item",
+   "name": "Runic Sapball",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:sacred_spirit": {
+   "kind": "item",
+   "name": "Sacred Spirit",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:shaped_slab": {
+   "kind": "item",
+   "name": "Shaped Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:shielding_apparatus": {
+   "kind": "item",
+   "name": "Shielding Apparatus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:silver_impetus": {
+   "kind": "item",
+   "name": "Silver Impetus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:silver_node": {
+   "kind": "item",
+   "name": "Silver Node",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soul_hunter_boots": {
+   "kind": "item",
+   "name": "Soulhunter Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soul_hunter_cloak": {
+   "kind": "item",
+   "name": "Soulhunter Cloak",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soul_hunter_leggings": {
+   "kind": "item",
+   "name": "Soulhunter Leggings",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soul_hunter_robe": {
+   "kind": "item",
+   "name": "Soulhunter Robe",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soul_of_a_scythe": {
+   "kind": "item",
+   "name": "Soul of A Scythe",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soul_of_the_anchor": {
+   "kind": "item",
+   "name": "Soul of the Anchor",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soul_stained_steel_axe": {
+   "kind": "item",
+   "name": "Soulstained Steel Axe",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soul_stained_steel_boots": {
+   "kind": "item",
+   "name": "Soulstained Steel Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soul_stained_steel_chestplate": {
+   "kind": "item",
+   "name": "Soulstained Steel Chestplate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soul_stained_steel_helmet": {
+   "kind": "item",
+   "name": "Soulstained Steel Helmet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soul_stained_steel_hoe": {
+   "kind": "item",
+   "name": "Soulstained Steel Hoe",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soul_stained_steel_ingot": {
+   "kind": "item",
+   "name": "Soulstained Steel Ingot",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soul_stained_steel_knife": {
+   "kind": "item",
+   "name": "Soulstained Steel Knife",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soul_stained_steel_leggings": {
+   "kind": "item",
+   "name": "Soulstained Steel Leggings",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soul_stained_steel_nugget": {
+   "kind": "item",
+   "name": "Soulstained Steel Nugget",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soul_stained_steel_pickaxe": {
+   "kind": "item",
+   "name": "Soulstained Steel Pickaxe",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soul_stained_steel_plating": {
+   "kind": "item",
+   "name": "Soulstained Steel Plating",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soul_stained_steel_scythe": {
+   "kind": "item",
+   "name": "Soulstained Steel Scythe",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soul_stained_steel_shovel": {
+   "kind": "item",
+   "name": "Soulstained Steel Shovel",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soul_stained_steel_sword": {
+   "kind": "item",
+   "name": "Soulstained Steel Sword",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soul_tag": {
+   "kind": "item",
+   "name": "Soul Tag",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_boat": {
+   "kind": "item",
+   "name": "Soulwood Boat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwood_chest_boat": {
+   "kind": "item",
+   "name": "Soulwood Chest Boat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwoven_pouch": {
+   "kind": "item",
+   "name": "Soulwoven Pouch",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:soulwoven_silk": {
+   "kind": "item",
+   "name": "Soulwoven Silk",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:spellweaving_axe": {
+   "kind": "item",
+   "name": "Spellweaving Axe",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:spellweaving_pickaxe": {
+   "kind": "item",
+   "name": "Spellweaving Pickaxe",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:stellar_mechanism": {
+   "kind": "item",
+   "name": "Stellar Mechanism",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:suspicious_device": {
+   "kind": "item",
+   "name": "Suspicious Device",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:sympathy_drive": {
+   "kind": "item",
+   "name": "Sympathy Drive",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:torn_brimstone": {
+   "kind": "item",
+   "name": "Torn Brimstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:trans_prideweave": {
+   "kind": "item",
+   "name": "Trans Prideweave",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tuning_fork": {
+   "kind": "item",
+   "name": "Tuning Fork",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:tyrving": {
+   "kind": "item",
+   "name": "Tyrving",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:umbral_spirit": {
+   "kind": "item",
+   "name": "Umbral Spirit",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:unwinding_chaos": {
+   "kind": "item",
+   "name": "Unwinding Chaos",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:vindictive_brand": {
+   "kind": "item",
+   "name": "Vindictive Brand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:visionary_scryglass": {
+   "kind": "item",
+   "name": "Visionary Scryglass",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:vivid_ametrine": {
+   "kind": "item",
+   "name": "Vivid Ametrine",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:void_salts": {
+   "kind": "item",
+   "name": "Void Salts",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:warp_flux": {
+   "kind": "item",
+   "name": "Warp Flux",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:warping_engine": {
+   "kind": "item",
+   "name": "Warping Engine",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:weight_of_worlds": {
+   "kind": "item",
+   "name": "Weight of Worlds",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:wicked_spirit": {
+   "kind": "item",
+   "name": "Wicked Spirit",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:wind_nucleus": {
+   "kind": "item",
+   "name": "Wind Nucleus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:zephyr_impetus": {
+   "kind": "item",
+   "name": "Zephyr Impetus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:zinc_impetus": {
+   "kind": "item",
+   "name": "Zinc Impetus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "malum:zinc_node": {
+   "kind": "item",
+   "name": "Zinc Node",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "Candidate scanned for the discovery pass; auto tags only.",
+  "class": "candidate",
+  "purpose": "Candidate (not in any pack)"
+ }
+}

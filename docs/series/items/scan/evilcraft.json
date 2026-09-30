@@ -1,0 +1,1941 @@
+{
+ "repo": "CyclopsMC/EvilCraft",
+ "ref": "master-1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "evilcraft"
+ ],
+ "item_count": 240,
+ "compat": [],
+ "items": {
+  "evilcraft:inner_block.info": {
+   "kind": "block",
+   "name": "Block: %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:blood": {
+   "kind": "block",
+   "name": "Blood",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:poison": {
+   "kind": "block",
+   "name": "Poison",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:blood_chest": {
+   "kind": "block",
+   "name": "Blood Chest",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:blood_chest.info": {
+   "kind": "block",
+   "name": "Item repairing.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:blood_infuser": {
+   "kind": "block",
+   "name": "Blood Infuser",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:dark_ore": {
+   "kind": "block",
+   "name": "Dark Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:dark_ore_deepslate": {
+   "kind": "block",
+   "name": "Deepslate Dark Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:dark_block": {
+   "kind": "block",
+   "name": "Dark Block",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:blood_stain": {
+   "kind": "block",
+   "name": "Blood Stain",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:blood_stain.info": {
+   "kind": "block",
+   "name": "A splash of Blood created when an entity falls to death.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:lightning_bomb": {
+   "kind": "block",
+   "name": "Lightning Bomb",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:bloody_cobblestone": {
+   "kind": "block",
+   "name": "Bloody Cobblestone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:nether_monster_block": {
+   "kind": "block",
+   "name": "Nether Monster Egg",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:excrement_pile": {
+   "kind": "block",
+   "name": "Excrement Pile",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:excrement_pile.info": {
+   "kind": "block",
+   "name": "Will form below animals.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:hardened_blood": {
+   "kind": "block",
+   "name": "Hardened Blood",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:hardened_blood.info": {
+   "kind": "block",
+   "name": "Dried Blood. Liquidifies with rain or by breaking it.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:obscured_glass": {
+   "kind": "block",
+   "name": "Obscured Glass",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:environmental_accumulator": {
+   "kind": "block",
+   "name": "Environmental Accumulator",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:environmental_accumulator.info": {
+   "kind": "block",
+   "name": "Found at Dark Temples, not craftable.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:undead_leaves": {
+   "kind": "block",
+   "name": "Undead Leaves",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:undead_log": {
+   "kind": "block",
+   "name": "Undead Log",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:undead_log_stripped": {
+   "kind": "block",
+   "name": "Stripped Undead Log",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:undead_wood": {
+   "kind": "block",
+   "name": "Undead Wood",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:undead_wood_stripped": {
+   "kind": "block",
+   "name": "Stripped Undead Wood",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:undead_slab": {
+   "kind": "block",
+   "name": "Undead Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:undead_fence": {
+   "kind": "block",
+   "name": "Undead Fence",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:undead_fence_gate": {
+   "kind": "block",
+   "name": "Undead Fence Gate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:undead_sapling": {
+   "kind": "block",
+   "name": "Undead Sapling",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:undead_sapling.info": {
+   "kind": "block",
+   "name": "Grows an Undead Tree.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:undead_planks": {
+   "kind": "block",
+   "name": "Undead Planks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:invisible_redstone_block": {
+   "kind": "block",
+   "name": "Invisible Redstone Block",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:purifier": {
+   "kind": "block",
+   "name": "Purifier",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:purifier.info": {
+   "kind": "block",
+   "name": "Disenchanter",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:dark_brick": {
+   "kind": "block",
+   "name": "Dark Brick",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:dark_blood_brick": {
+   "kind": "block",
+   "name": "Dark Blood Brick",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:spirit_furnace": {
+   "kind": "block",
+   "name": "Spirit Furnace",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:spirit_furnace.info": {
+   "kind": "block",
+   "name": "Cook Vengeance Spirits to obtain their drops.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:spirit_furnace.help.invalid": {
+   "kind": "block",
+   "name": "Unable to cook",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:spirit_furnace.help.invalid.no_entity": {
+   "kind": "block",
+   "name": "Empty or no box",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:spirit_furnace.help.invalid.content_size": {
+   "kind": "block",
+   "name": "Content size: %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:spirit_furnace.help.invalid.required_size": {
+   "kind": "block",
+   "name": "Required size: %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:spirit_furnace.help.invalid.force_halt": {
+   "kind": "block",
+   "name": "No more space for drops",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:spirit_furnace.help.invalid.caught_error": {
+   "kind": "block",
+   "name": "Invalid mob spirit. Contact mod dev(s).",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:box_of_eternal_closure": {
+   "kind": "block",
+   "name": "Box of Eternal Closure",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:box_of_eternal_closure.info.content": {
+   "kind": "block",
+   "name": "Contents: ",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:dark_tank": {
+   "kind": "block",
+   "name": "Dark Tank",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:dark_tank.info": {
+   "kind": "block",
+   "name": "Place in crafting grid with other tanks to increase capacity. Shift + Right click to auto-supply.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:dark_tank.info.auto_supply": {
+   "kind": "block",
+   "name": "Auto-supply: %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:spiked_plate": {
+   "kind": "block",
+   "name": "Spiked Plate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:spiked_plate.info": {
+   "kind": "block",
+   "name": "Damages mobs, place on Pedestal to drain blood.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:spirit_reanimator": {
+   "kind": "block",
+   "name": "Spirit Reanimator",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:spirit_reanimator.info": {
+   "kind": "block",
+   "name": "Revive Vengeance Spirits.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:spirit_reanimator.help.invalid": {
+   "kind": "block",
+   "name": "Unable to reanimate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:spirit_reanimator.help.invalid.no_entity": {
+   "kind": "block",
+   "name": "Invalid, empty or no box",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:spirit_reanimator.help.invalid.invalid_entity": {
+   "kind": "block",
+   "name": "No spawn egg available for mob",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:spirit_reanimator.help.invalid.different_egg": {
+   "kind": "block",
+   "name": "Remove the different mob eggs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:entangled_chalice": {
+   "kind": "block",
+   "name": "Entangled Chalice",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:entangled_chalice.info": {
+   "kind": "block",
+   "name": "Contents of entangled chalices are omnipresent.\\nShift + Right click to omni-supply.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:entangled_chalice.info.auto_supply": {
+   "kind": "block",
+   "name": "Omni-supply: %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:entangled_chalice.info.id": {
+   "kind": "block",
+   "name": "Group: %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:dark_power_gem_block": {
+   "kind": "block",
+   "name": "Dark Power Gem Block",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:gem_stone_torch": {
+   "kind": "block",
+   "name": "Gemstone Torch",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:gem_stone_torch.info": {
+   "kind": "block",
+   "name": "Blocks Vengeance Spirit spawning in a radius of 15 blocks.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:eternal_water": {
+   "kind": "block",
+   "name": "Eternal Water Block",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:eternal_water.info": {
+   "kind": "block",
+   "name": "An infinite source of water.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:eternal_water.auto_output.enabled": {
+   "kind": "block",
+   "name": "Auto-output enabled",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:eternal_water.auto_output.disabled": {
+   "kind": "block",
+   "name": "Auto-output disabled",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:blood_waxed_coal_block": {
+   "kind": "block",
+   "name": "Block of Blood-Waxed Coal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:spirit_portal": {
+   "kind": "block",
+   "name": "Spirit Portal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:reinforced_undead_planks": {
+   "kind": "block",
+   "name": "Reinforced Undead Planks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:colossal_blood_chest": {
+   "kind": "block",
+   "name": "Colossal Blood Chest",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:colossal_blood_chest.info": {
+   "kind": "block",
+   "name": "An industry-sized Blood Chest.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:display_stand": {
+   "kind": "block",
+   "name": "Display Stand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:undead_planks_stairs": {
+   "kind": "block",
+   "name": "Undead Plank Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:reinforced_undead_planks_stairs": {
+   "kind": "block",
+   "name": "Reinforced Undead Plank Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:dark_brick_stairs": {
+   "kind": "block",
+   "name": "Dark Brick Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:dark_blood_brick_stairs": {
+   "kind": "block",
+   "name": "Dark Blood Brick Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:infested_nether_netherrack": {
+   "kind": "block",
+   "name": "Infested Netherrack",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:infested_nether_nether_bricks": {
+   "kind": "block",
+   "name": "Infested Nether Bricks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:infested_nether_soul_sand": {
+   "kind": "block",
+   "name": "Infested Soul Sand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:werewolf_bone": {
+   "kind": "item",
+   "name": "Werewolf Bone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:flesh_werewolf": {
+   "kind": "item",
+   "name": "Werewolf Flesh",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:flesh_humanoid": {
+   "kind": "item",
+   "name": "Humanoid Flesh",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:flesh_rejuvenated": {
+   "kind": "item",
+   "name": "Rejuvenated Flesh",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:flesh_rejuvenated.info": {
+   "kind": "item",
+   "name": "Infinite source of food",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:lightning_grenade": {
+   "kind": "item",
+   "name": "Lightning Grenade",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:redstone_grenade": {
+   "kind": "item",
+   "name": "Redstone Grenade",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:bucket_blood": {
+   "kind": "item",
+   "name": "Blood Bucket",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:bucket_poison": {
+   "kind": "item",
+   "name": "Poison Bucket",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:blood_extractor": {
+   "kind": "item",
+   "name": "Blood Extractor",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:blood_extractor.info": {
+   "kind": "item",
+   "name": "Hold in inventory when slaying mobs.\\nShift + Right click to extract or auto-supply.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:blood_extractor.info.auto_supply": {
+   "kind": "item",
+   "name": "Auto-supply: %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:dark_gem": {
+   "kind": "item",
+   "name": "Dark Gem",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:dark_stick": {
+   "kind": "item",
+   "name": "Dark Stick",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:weather_container": {
+   "kind": "item",
+   "name": "Weather Container",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:blood_pearl_of_teleportation": {
+   "kind": "item",
+   "name": "Blood Pearl of Teleportation",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:broom": {
+   "kind": "item",
+   "name": "Broom",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:broom.info": {
+   "kind": "item",
+   "name": "I can fly!",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:broom_part": {
+   "kind": "item",
+   "name": "Broom Part",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:hardened_blood_shard": {
+   "kind": "item",
+   "name": "Hardened Blood Shard",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:hardened_blood_shard.info": {
+   "kind": "item",
+   "name": "Break Hardened Blood with Flint and Steel.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:blood_infusion_core": {
+   "kind": "item",
+   "name": "Blood Infusion Core",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:dark_power_gem": {
+   "kind": "item",
+   "name": "Dark Power Gem",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:dark_power_gem.info": {
+   "kind": "item",
+   "name": "Throw a Dark Gem in the middle of a pool with at least five non-hardened Blood blocks. Or infuse a Dark Gem with blood.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:poison_sac": {
+   "kind": "item",
+   "name": "Poison Sac",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:werewolf_fur": {
+   "kind": "item",
+   "name": "Werewolf Fur",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:blook": {
+   "kind": "item",
+   "name": "Blook",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:blook.info": {
+   "kind": "item",
+   "name": "Can absorb item enchants when placed in the Purifier.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:potentia_sphere": {
+   "kind": "item",
+   "name": "Potentia Sphere",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:potentia_sphere.info": {
+   "kind": "item",
+   "name": "Infuse with blood to make an Ender Pearl.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:inverted_potentia": {
+   "kind": "item",
+   "name": "Inverted Potentia",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:inverted_potentia.info": {
+   "kind": "item",
+   "name": "Strike with lightning to empower.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:inverted_potentia_empowered": {
+   "kind": "item",
+   "name": "Empowered Inverted Potentia",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:inverted_potentia_empowered.info": {
+   "kind": "item",
+   "name": "Struck by lightning.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:mace_of_distortion": {
+   "kind": "item",
+   "name": "Mace of Distortion",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:kineticator": {
+   "kind": "item",
+   "name": "Kineticator",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:kineticator.info": {
+   "kind": "item",
+   "name": "Shift + Right click to toggle attraction.\\nRight click to change area.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:kineticator.info.attraction": {
+   "kind": "item",
+   "name": "Attraction: %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:kineticator.info.area": {
+   "kind": "item",
+   "name": "Attraction Area: %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:kineticator_repelling": {
+   "kind": "item",
+   "name": "Repelling Kineticator",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:kineticator_repelling.info": {
+   "kind": "item",
+   "name": "Shift + Right click to toggle repelling.\\nRight click to change area.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:kineticator_repelling.info.attraction": {
+   "kind": "item",
+   "name": "Repelling: %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:kineticator_repelling.info.area": {
+   "kind": "item",
+   "name": "Repelling Area: %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:vengeance_ring": {
+   "kind": "item",
+   "name": "Vengeance Ring",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:vengeance_ring.info": {
+   "kind": "item",
+   "name": "Might attract or summon Vengeance Spirits.\\nShift + Right click to toggle boost.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:vengeance_ring.info.status": {
+   "kind": "item",
+   "name": "Status: %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:vengeance_focus": {
+   "kind": "item",
+   "name": "Vengeance Focus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:vengeance_focus.info": {
+   "kind": "item",
+   "name": "Right click to enable Vengeance Spirit-freezing beam.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:vengeance_pickaxe": {
+   "kind": "item",
+   "name": "Vengeance Pickaxe",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:vengeance_pickaxe.info": {
+   "kind": "item",
+   "name": "Might summon Vengeance Spirits.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:burning_gem_stone": {
+   "kind": "item",
+   "name": "Burning GemStone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:burning_gem_stone.info": {
+   "kind": "item",
+   "name": "Passively converts Vengeance Spirit damage to hunger.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:dark_gem_crushed": {
+   "kind": "item",
+   "name": "Crushed Dark Gem",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:vein_sword": {
+   "kind": "item",
+   "name": "Vein Sword",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:creative_blood_drop": {
+   "kind": "item",
+   "name": "Creative Blood Drop",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:creative_blood_drop.info": {
+   "kind": "item",
+   "name": "Creative mode only item to drain and fill infinite amounts of Blood.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:creative_blood_drop.info.auto_supply": {
+   "kind": "item",
+   "name": "Auto-supply: %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:dark_spike": {
+   "kind": "item",
+   "name": "Spike",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:exalted_crafter": {
+   "kind": "item",
+   "name": "Exalted Crafter",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:exalted_crafter_wooden": {
+   "kind": "item",
+   "name": "Wooden Exalted Crafter",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:exalted_crafter_empowered": {
+   "kind": "item",
+   "name": "Empowered Exalted Crafter",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:exalted_crafter_wooden_empowered": {
+   "kind": "item",
+   "name": "Empowered Wooden Exalted Crafter",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:necromancer_staff": {
+   "kind": "item",
+   "name": "Necromancer Staff",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:necromancer_staff.info": {
+   "kind": "item",
+   "name": "Summon hordes of zombies.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:invigorating_pendant": {
+   "kind": "item",
+   "name": "Invigorating Pendant",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:invigorating_pendant.info": {
+   "kind": "item",
+   "name": "Removes bad potion effects.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:bound_blood_drop": {
+   "kind": "item",
+   "name": "Bound Blood Drop",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:bound_blood_drop.info": {
+   "kind": "item",
+   "name": "Right click to bind with your Blood Magic soul network.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:bound_blood_drop.info.auto_supply": {
+   "kind": "item",
+   "name": "Auto-supply: %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:bound_blood_drop.info.current_owner": {
+   "kind": "item",
+   "name": "Current owner: %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:bound_blood_drop.info.current_owner.none": {
+   "kind": "item",
+   "name": "None",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:resurgence_egg": {
+   "kind": "item",
+   "name": "Resurgence Egg",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:resurgence_egg.info.content": {
+   "kind": "item",
+   "name": "Contents: %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:corrupted_tear": {
+   "kind": "item",
+   "name": "Corrupted Tear",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:promise.use_in": {
+   "kind": "item",
+   "name": "Usable in:",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:promise_tier_1": {
+   "kind": "item",
+   "name": "Promise of Tenacity I",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:promise_tier_1.info": {
+   "kind": "item",
+   "name": "Machine tier upgrade, also usable for lower tier recipes. Tank capacity x2.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:promise_tier_2": {
+   "kind": "item",
+   "name": "Promise of Tenacity II",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:promise_tier_2.info": {
+   "kind": "item",
+   "name": "Machine tier upgrade, also usable for lower tier recipes. Tank capacity x4.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:promise_tier_3": {
+   "kind": "item",
+   "name": "Promise of Tenacity III",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:promise_tier_3.info": {
+   "kind": "item",
+   "name": "Machine tier upgrade, also usable for lower tier recipes. Tank capacity x8.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:promise_speed_0": {
+   "kind": "item",
+   "name": "Promise of Velocity",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:promise_speed_0.info": {
+   "kind": "item",
+   "name": "Machine speed x2",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:promise_efficiency_0": {
+   "kind": "item",
+   "name": "Promise of Productivity",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:promise_efficiency_0.info": {
+   "kind": "item",
+   "name": "Machine Blood efficiency x1.5",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:bowl_of_promises_empty": {
+   "kind": "item",
+   "name": "Bowl of Empty Promises",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:bowl_of_promises_dusted": {
+   "kind": "item",
+   "name": "Dusted Bowl of Promises",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:bowl_of_promises_tier0": {
+   "kind": "item",
+   "name": "Bowl of Promises: Tier 0",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:bowl_of_promises_tier0.info": {
+   "kind": "item",
+   "name": "Not used up in crafting.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:bowl_of_promises_tier1": {
+   "kind": "item",
+   "name": "Bowl of Promises: Tier 1",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:bowl_of_promises_tier1.info": {
+   "kind": "item",
+   "name": "Not used up in crafting.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:bowl_of_promises_tier2": {
+   "kind": "item",
+   "name": "Bowl of Promises: Tier 2",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:bowl_of_promises_tier2.info": {
+   "kind": "item",
+   "name": "Not used up in crafting.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:bowl_of_promises_tier3": {
+   "kind": "item",
+   "name": "Bowl of Promises: Tier 3",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:bowl_of_promises_tier3.info": {
+   "kind": "item",
+   "name": "Not used up in crafting.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:dull_dust": {
+   "kind": "item",
+   "name": "Dull Dust",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:dull_dust.info": {
+   "kind": "item",
+   "name": "Quite boring dust... Or is it?",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:blood_waxed_coal": {
+   "kind": "item",
+   "name": "Blood-Waxed Coal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:blood_waxed_coal.info": {
+   "kind": "item",
+   "name": "Double your coal efficiency.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:ender_tear": {
+   "kind": "item",
+   "name": "Ender Tear",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:ender_tear.info": {
+   "kind": "item",
+   "name": "Rare drop from Endermen.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:blood_potash": {
+   "kind": "item",
+   "name": "Blood Potash",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:blood_potash.info": {
+   "kind": "item",
+   "name": "Double your bonemealing efficiency.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:bucket_eternal_water": {
+   "kind": "item",
+   "name": "Eternal Water Bucket",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:bucket_eternal_water.info": {
+   "kind": "item",
+   "name": "An infinite source of water.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:promise_acceptor_iron": {
+   "kind": "item",
+   "name": "Iron Promise Acceptor",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:promise_acceptor_gold": {
+   "kind": "item",
+   "name": "Gold Promise Acceptor",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:promise_acceptor_diamond": {
+   "kind": "item",
+   "name": "Diamond Promise Acceptor",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:sceptre_of_thunder": {
+   "kind": "item",
+   "name": "Sceptre of Thunder",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:sceptre_of_thunder.info": {
+   "kind": "item",
+   "name": "Spawns thunder when activated, single-use.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:blood_orb": {
+   "kind": "item",
+   "name": "Blood Orb",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:blood_orb_empty": {
+   "kind": "item",
+   "name": "Empty Orb",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:blood_orb_filled": {
+   "kind": "item",
+   "name": "Blood Orb",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:origins_of_darkness": {
+   "kind": "item",
+   "name": "Origins of Darkness",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:origins_of_darkness.info": {
+   "kind": "item",
+   "name": "Obtain by feeding a Darkened Apple to a mob and quickly throwing a Book at the resulting anomaly.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:darkened_apple": {
+   "kind": "item",
+   "name": "Darkened Apple",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:darkened_apple.info": {
+   "kind": "item",
+   "name": "I wouldn't eat this, maybe feed it to some animal.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:veined_scribing_tools": {
+   "kind": "item",
+   "name": "Veined Scribing Tools",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:blood_wand_cap": {
+   "kind": "item",
+   "name": "Blood Cap",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:effortless_ring": {
+   "kind": "item",
+   "name": "Effortless Ring",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:effortless_ring.info": {
+   "kind": "item",
+   "name": "Walk faster and more efficient.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:condensed_blood": {
+   "kind": "item",
+   "name": "Condensed Blood",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:condensed_blood.info": {
+   "kind": "item",
+   "name": "Insert into any machine for extra Blood.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:primed_pendant": {
+   "kind": "item",
+   "name": "Primed Pendant",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:primed_pendant.info": {
+   "kind": "item",
+   "name": "Applies the chosen potion effect.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:golden_string": {
+   "kind": "item",
+   "name": "Golden String",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:biome_extract": {
+   "kind": "item",
+   "name": "Biome Extract Bottle",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:biome_extract.empty": {
+   "kind": "item",
+   "name": "Biome Extract Bottle",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:biome_extract.info": {
+   "kind": "item",
+   "name": "Transforms the target area into the contained biome. Crafted in Environmental Accumulator at desired biome.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:biome_extract.info.content": {
+   "kind": "item",
+   "name": "Contents: %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:environmental_accumulation_core": {
+   "kind": "item",
+   "name": "Environmental Accumulation Core",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:environmental_accumulation_core.info": {
+   "kind": "item",
+   "name": "Obtained when breaking a regular Environmental Accumulator.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:mace_of_destruction": {
+   "kind": "item",
+   "name": "Mace of Destruction",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:garmonbozia": {
+   "kind": "item",
+   "name": "Garmonbozia",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:garmonbozia.info": {
+   "kind": "item",
+   "name": "\"Pain and Sorrow\"",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:poison_bottle": {
+   "kind": "item",
+   "name": "Poison Bottle",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:vengeance_essence": {
+   "kind": "item",
+   "name": "Vengeance Essence",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:vengeance_essence.info": {
+   "kind": "item",
+   "name": "Drops when killing a Vengeance Spirit",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:vengeance_essence_materialized": {
+   "kind": "item",
+   "name": "Materialized Vengeance Essence",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:piercing_vengeance_focus": {
+   "kind": "item",
+   "name": "Piercing Vengeance Focus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:piercing_vengeance_focus.info": {
+   "kind": "item",
+   "name": "Right click to enable Vengeance Spirit-killing beam.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:spectral_glasses": {
+   "kind": "item",
+   "name": "Spectral Glasses",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:spectral_glasses.info": {
+   "kind": "item",
+   "name": "Look into the spirit world",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:werewolf_spawn_egg": {
+   "kind": "item",
+   "name": "Werewolf Spawn Egg",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:netherfish_spawn_egg": {
+   "kind": "item",
+   "name": "Netherfish Spawn Egg",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:poisonous_libelle_spawn_egg": {
+   "kind": "item",
+   "name": "Poisonous Libelle Spawn Egg",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:vengeance_spirit_spawn_egg": {
+   "kind": "item",
+   "name": "Vengeance Spirit Spawn Egg",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:controlled_zombie_spawn_egg": {
+   "kind": "item",
+   "name": "Controlled Zombie Spawn Egg",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:powerable.set_power": {
+   "kind": "item",
+   "name": "Set power to %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:powerable.info.power": {
+   "kind": "item",
+   "name": "Power: %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:powerable.info": {
+   "kind": "item",
+   "name": "Shift + Right click to change power level.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:werewolf": {
+   "kind": "entity",
+   "name": "Werewolf",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:poisonous_libelle": {
+   "kind": "entity",
+   "name": "Poisonous Libelle",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:netherfish": {
+   "kind": "entity",
+   "name": "Netherfish",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:vengeance_spirit": {
+   "kind": "entity",
+   "name": "Vengeance Spirit",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:controlled_zombie": {
+   "kind": "entity",
+   "name": "Controlled Zombie",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "evilcraft:broom_entity": {
+   "kind": "entity",
+   "name": "Broom",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "minecraft:villager.evilcraft.werewolf": {
+   "kind": "entity",
+   "name": "Werewolvian",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "master-1.21",
+  "pass": "loop-back",
+  "note": "Candidate scanned for the discovery pass; auto tags only.",
+  "class": "candidate",
+  "purpose": "Candidate (not in any pack)"
+ }
+}

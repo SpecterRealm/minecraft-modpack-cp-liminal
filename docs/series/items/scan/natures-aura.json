@@ -1,0 +1,1386 @@
+{
+ "repo": "Ellpeck/NaturesAura",
+ "ref": "default",
+ "ref_kind": "none",
+ "mod_ids": [
+  "naturesaura"
+ ],
+ "item_count": 149,
+ "compat": [
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 5
+   }
+  },
+  {
+   "id": "patchouli",
+   "slug": "patchouli",
+   "evidence": {
+    "compat-import": 5,
+    "data-ref": 3,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "naturesaura:ancient_log": {
+   "kind": "block",
+   "name": "Ancient Log",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:ancient_bark": {
+   "kind": "block",
+   "name": "Ancient Bark",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:ancient_leaves": {
+   "kind": "block",
+   "name": "Ancient Leaves",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:ancient_sapling": {
+   "kind": "block",
+   "name": "Ancient Sapling",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:nature_altar": {
+   "kind": "block",
+   "name": "Natural Altar",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:decayed_leaves": {
+   "kind": "block",
+   "name": "Decayed Leaves",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:golden_leaves": {
+   "kind": "block",
+   "name": "Golden Leaves",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:gold_powder": {
+   "kind": "block",
+   "name": "Gold Powder",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:wood_stand": {
+   "kind": "block",
+   "name": "Wooden Stand",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:ancient_planks": {
+   "kind": "block",
+   "name": "Ancient Planks",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:infused_stone": {
+   "kind": "block",
+   "name": "Infused Rock",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:furnace_heater": {
+   "kind": "block",
+   "name": "Extraneous Firestarter",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:aura_detector": {
+   "kind": "block",
+   "name": "Aura Detector",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:conversion_catalyst": {
+   "kind": "block",
+   "name": "Transmutation Catalyst",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:crushing_catalyst": {
+   "kind": "block",
+   "name": "Crumbling Catalyst",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:infused_stairs": {
+   "kind": "block",
+   "name": "Infused Rock Stairs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:infused_slab": {
+   "kind": "block",
+   "name": "Infused Rock Slab",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:infused_slab_double": {
+   "kind": "block",
+   "name": "Infused Rock Double Slab",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:ancient_stairs": {
+   "kind": "block",
+   "name": "Ancient Wood Stairs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:ancient_slab": {
+   "kind": "block",
+   "name": "Ancient Wood Slab",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:ancient_slab_double": {
+   "kind": "block",
+   "name": "Ancient Wood Double Slab",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:infused_brick": {
+   "kind": "block",
+   "name": "Infused Brick",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:infused_brick_stairs": {
+   "kind": "block",
+   "name": "Infused Brick Stairs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:infused_brick_slab": {
+   "kind": "block",
+   "name": "Infused Brick Slab",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:infused_brick_slab_double": {
+   "kind": "block",
+   "name": "Infused Brick Double Slab",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:flower_generator": {
+   "kind": "block",
+   "name": "Herbivorous Absorber",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:placer": {
+   "kind": "block",
+   "name": "Imperceptible Builder",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:hopper_upgrade": {
+   "kind": "block",
+   "name": "Hopper Enhancement",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:field_creator": {
+   "kind": "block",
+   "name": "Aura Field Creator",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:oak_generator": {
+   "kind": "block",
+   "name": "Canopy Diminisher",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:infused_iron_block": {
+   "kind": "block",
+   "name": "Infused Iron Block",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:offering_table": {
+   "kind": "block",
+   "name": "Offering Table",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:pickup_stopper": {
+   "kind": "block",
+   "name": "Item Grounder",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:spawn_lamp": {
+   "kind": "block",
+   "name": "Lamp of Sanctuary",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:animal_generator": {
+   "kind": "block",
+   "name": "Disentangler of Mortals",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:end_flower": {
+   "kind": "block",
+   "name": "Rose of Oblivion",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:grated_chute": {
+   "kind": "block",
+   "name": "Adept Hopper",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:animal_spawner": {
+   "kind": "block",
+   "name": "Altar of Birthing",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:auto_crafter": {
+   "kind": "block",
+   "name": "Automatic Constructor",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:gold_brick": {
+   "kind": "block",
+   "name": "Golden Stone Bricks",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:gold_nether_brick": {
+   "kind": "block",
+   "name": "Golden Nether Bricks",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:rf_converter": {
+   "kind": "block",
+   "name": "Energetic Aura Forge",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:rf_converter.disabled": {
+   "kind": "block",
+   "name": "Energetic Aura Forge §4(Disabled)",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:moss_generator": {
+   "kind": "block",
+   "name": "Swamp Homi",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:time_changer": {
+   "kind": "block",
+   "name": "Shifting Sundial",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:generator_limit_remover": {
+   "kind": "block",
+   "name": "Creational Catalyst",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:ender_crate": {
+   "kind": "block",
+   "name": "Ender Crate",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:powder_placer": {
+   "kind": "block",
+   "name": "Powder Manipulator",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:firework_generator": {
+   "kind": "block",
+   "name": "Firecracker Gaze",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:chunk_loader": {
+   "kind": "block",
+   "name": "World Eye",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:chunk_loader.disabled": {
+   "kind": "block",
+   "name": "World Eye §4(Disabled)",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:dimension_rail_overworld": {
+   "kind": "block",
+   "name": "Rail of the Overworld",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:dimension_rail_end": {
+   "kind": "block",
+   "name": "Rail of the End",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:dimension_rail_nether": {
+   "kind": "block",
+   "name": "Rail of the Nether",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:projectile_generator": {
+   "kind": "block",
+   "name": "Shooting Mark",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:blast_furnace_booster": {
+   "kind": "block",
+   "name": "Armorer's Aid",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:nether_wart_mushroom": {
+   "kind": "block",
+   "name": "Nether Wart Mushroom",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:animal_container": {
+   "kind": "block",
+   "name": "Corporeal Eye",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:snow_creator": {
+   "kind": "block",
+   "name": "Winter's Calling",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:item_distributor": {
+   "kind": "block",
+   "name": "Item Distributor",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:aura_bloom": {
+   "kind": "block",
+   "name": "Aura Bloom",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:aura_cactus": {
+   "kind": "block",
+   "name": "Aura Cactus",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:aura_mushroom": {
+   "kind": "block",
+   "name": "Aura Mushroom",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:warped_aura_mushroom": {
+   "kind": "block",
+   "name": "Warped Aura Fungus",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:crimson_aura_mushroom": {
+   "kind": "block",
+   "name": "Crimson Aura Fungus",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:potted_aura_bloom": {
+   "kind": "block",
+   "name": "Potted Aura Bloom",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:potted_aura_cactus": {
+   "kind": "block",
+   "name": "Potted Aura Cactus",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:potted_aura_mushroom": {
+   "kind": "block",
+   "name": "Potted Aura Mushroom",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:potted_warped_aura_mushroom": {
+   "kind": "block",
+   "name": "Potted Warped Aura Fungus",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:potted_crimson_aura_mushroom": {
+   "kind": "block",
+   "name": "Potted Crimson Aura Fungus",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:tainted_gold_block": {
+   "kind": "block",
+   "name": "Tainted Gold Block",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:nether_grass": {
+   "kind": "block",
+   "name": "Grassy Netherrack",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:chorus_generator": {
+   "kind": "block",
+   "name": "Reaper of Ender Heights",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:aura_timer": {
+   "kind": "block",
+   "name": "Redstone Aura Vaporizer",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:slime_split_generator": {
+   "kind": "block",
+   "name": "Offshoot Observer",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:spring": {
+   "kind": "block",
+   "name": "Everlasting Spring",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:weather_changer": {
+   "kind": "block",
+   "name": "Cloudshifter",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:lower_limiter": {
+   "kind": "block",
+   "name": "Aura Imbalance Ward",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:sky_ingot_block": {
+   "kind": "block",
+   "name": "Block of the Skies",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:depth_ingot_block": {
+   "kind": "block",
+   "name": "Block of the Depths",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:eye": {
+   "kind": "item",
+   "name": "Environmental Eye",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:eye_improved": {
+   "kind": "item",
+   "name": "Environmental Ocular",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:gold_fiber": {
+   "kind": "item",
+   "name": "Brilliant Fiber",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:gold_leaf": {
+   "kind": "item",
+   "name": "Gold Leaf",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:infused_iron": {
+   "kind": "item",
+   "name": "Infused Iron Ingot",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:infused_iron_pickaxe": {
+   "kind": "item",
+   "name": "Botanist's Pickaxe",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:infused_iron_axe": {
+   "kind": "item",
+   "name": "Botanist's Handaxe",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:infused_iron_shovel": {
+   "kind": "item",
+   "name": "Botanist's Shovel",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:infused_iron_sword": {
+   "kind": "item",
+   "name": "Botanist's Blade",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:infused_iron_hoe": {
+   "kind": "item",
+   "name": "Botanist's Hoe",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:ancient_stick": {
+   "kind": "item",
+   "name": "Ancient Wood Rod",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:aura_cache": {
+   "kind": "item",
+   "name": "Aura Cache",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:color_changer": {
+   "kind": "item",
+   "name": "Bucket of Infinite Color",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:shockwave_creator": {
+   "kind": "item",
+   "name": "Amulet of Wrath",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:multiblock_maker": {
+   "kind": "item",
+   "name": "Multiblock Maker",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:vacuum_bottle": {
+   "kind": "item",
+   "name": "Bottled Vacuum",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:farming_stencil": {
+   "kind": "item",
+   "name": "Farming Stencil",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:bottle_two_the_rebottling": {
+   "kind": "item",
+   "name": "Bottle and Cork",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:sky_ingot": {
+   "kind": "item",
+   "name": "Ingot of the Skies",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:depth_ingot": {
+   "kind": "item",
+   "name": "Ingot of the Depths",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:sky_pickaxe": {
+   "kind": "item",
+   "name": "Skyseeker's Pickaxe",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:sky_axe": {
+   "kind": "item",
+   "name": "Skyseeker's Handaxe",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:sky_shovel": {
+   "kind": "item",
+   "name": "Skyseeker's Shovel",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:sky_sword": {
+   "kind": "item",
+   "name": "Skyseeker's Blade",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:sky_hoe": {
+   "kind": "item",
+   "name": "Skyseeker's Hoe",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:sky_helmet": {
+   "kind": "item",
+   "name": "Skyseeker's Headwear",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:sky_chest": {
+   "kind": "item",
+   "name": "Skyseeker's Chestplate",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:sky_pants": {
+   "kind": "item",
+   "name": "Skyseeker's Leggings",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:sky_shoes": {
+   "kind": "item",
+   "name": "Skyseeker's Shoes",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:calling_spirit": {
+   "kind": "item",
+   "name": "Spirit of Calling",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:birth_spirit": {
+   "kind": "item",
+   "name": "Spirit of Birthing",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:infused_iron_helmet": {
+   "kind": "item",
+   "name": "Botanist's Headwear",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:infused_iron_chest": {
+   "kind": "item",
+   "name": "Botanist's Chestplate",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:infused_iron_pants": {
+   "kind": "item",
+   "name": "Botanist's Leggings",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:infused_iron_shoes": {
+   "kind": "item",
+   "name": "Botanist's Shoes",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:mover_cart": {
+   "kind": "entity",
+   "name": "Aura Attraction Cart",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:range_visualizer": {
+   "kind": "item",
+   "name": "Mystical Magnifier",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:clock_hand": {
+   "kind": "item",
+   "name": "Hand of Time",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:token_anger": {
+   "kind": "item",
+   "name": "Token of Anger",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:token_euphoria": {
+   "kind": "item",
+   "name": "Token of Euphoria",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:token_fear": {
+   "kind": "item",
+   "name": "Token of Fear",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:token_grief": {
+   "kind": "item",
+   "name": "Token of Grief",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:token_joy": {
+   "kind": "item",
+   "name": "Token of Joy",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:token_rage": {
+   "kind": "item",
+   "name": "Token of Rage",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:token_sorrow": {
+   "kind": "item",
+   "name": "Token of Sorrow",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:token_terror": {
+   "kind": "item",
+   "name": "Token of Terror",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:ender_access": {
+   "kind": "item",
+   "name": "Ender Ocular",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:cave_finder": {
+   "kind": "item",
+   "name": "Staff of Shadows",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:aura_trove": {
+   "kind": "item",
+   "name": "Aura Trove",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:crimson_meal": {
+   "kind": "item",
+   "name": "Crimson Meal",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:tainted_gold": {
+   "kind": "item",
+   "name": "Tainted Gold Ingot",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:loot_finder": {
+   "kind": "item",
+   "name": "Staff of Riches",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:light_staff": {
+   "kind": "item",
+   "name": "Staff of Baldur",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:fortress_finder": {
+   "kind": "item",
+   "name": "Eye of the Blaze",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:end_city_finder": {
+   "kind": "item",
+   "name": "Eye of the Shulker",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:outpost_finder": {
+   "kind": "item",
+   "name": "Eye of the Pillager",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:break_prevention": {
+   "kind": "item",
+   "name": "Eir's Token",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:pet_reviver": {
+   "kind": "item",
+   "name": "Token of Undying Friendship",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:netherite_finder": {
+   "kind": "item",
+   "name": "Staff of Ancient Knowledge",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:depth_pickaxe": {
+   "kind": "item",
+   "name": "Soulstrider's Pickaxe",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:depth_axe": {
+   "kind": "item",
+   "name": "Soulstrider's Handaxe",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:depth_shovel": {
+   "kind": "item",
+   "name": "Soulstrider's Shovel",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:depth_sword": {
+   "kind": "item",
+   "name": "Soulstrider's Blade",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:depth_hoe": {
+   "kind": "item",
+   "name": "Soulstrider's Hoe",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:depth_helmet": {
+   "kind": "item",
+   "name": "Soulstrider's Headwear",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:depth_chest": {
+   "kind": "item",
+   "name": "Soulstrider's Chestplate",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:depth_pants": {
+   "kind": "item",
+   "name": "Soulstrider's Leggings",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:depth_shoes": {
+   "kind": "item",
+   "name": "Soulstrider's Shoes",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "naturesaura:effect_inhibitor": {
+   "kind": "entity",
+   "name": "Effect Powder",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "default",
+  "pass": "loop-back",
+  "note": "Candidate scanned for the discovery pass; auto tags only.",
+  "class": "candidate",
+  "purpose": "Candidate (not in any pack)"
+ }
+}

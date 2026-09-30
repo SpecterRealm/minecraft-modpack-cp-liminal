@@ -1,0 +1,1397 @@
+{
+ "repo": "refinedmods/refinedstorage2",
+ "ref": "default",
+ "ref_kind": "none",
+ "mod_ids": [
+  "refinedstorage"
+ ],
+ "item_count": 172,
+ "compat": [],
+ "items": {
+  "refinedstorage:cable": {
+   "kind": "block",
+   "name": "Cable",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:disk_drive": {
+   "kind": "block",
+   "name": "Disk Drive",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:machine_casing": {
+   "kind": "block",
+   "name": "Machine Casing",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:grid": {
+   "kind": "block",
+   "name": "Grid",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:pattern_grid": {
+   "kind": "block",
+   "name": "Pattern Grid",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:crafting_grid": {
+   "kind": "block",
+   "name": "Crafting Grid",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:controller": {
+   "kind": "block",
+   "name": "Controller",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:creative_controller": {
+   "kind": "block",
+   "name": "Creative Controller",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:1k_storage_block": {
+   "kind": "block",
+   "name": "1k Storage Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:4k_storage_block": {
+   "kind": "block",
+   "name": "4k Storage Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:16k_storage_block": {
+   "kind": "block",
+   "name": "16k Storage Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:64k_storage_block": {
+   "kind": "block",
+   "name": "64k Storage Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:creative_storage_block": {
+   "kind": "block",
+   "name": "Creative Storage Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:64b_fluid_storage_block": {
+   "kind": "block",
+   "name": "64B Fluid Storage Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:256b_fluid_storage_block": {
+   "kind": "block",
+   "name": "256B Fluid Storage Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:1024b_fluid_storage_block": {
+   "kind": "block",
+   "name": "1024B Fluid Storage Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:4096b_fluid_storage_block": {
+   "kind": "block",
+   "name": "4096B Fluid Storage Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:creative_fluid_storage_block": {
+   "kind": "block",
+   "name": "Creative Fluid Storage Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:importer": {
+   "kind": "block",
+   "name": "Importer",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:exporter": {
+   "kind": "block",
+   "name": "Exporter",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:interface": {
+   "kind": "block",
+   "name": "Interface",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:external_storage": {
+   "kind": "block",
+   "name": "External Storage",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:detector": {
+   "kind": "block",
+   "name": "Detector",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:constructor": {
+   "kind": "block",
+   "name": "Constructor",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:destructor": {
+   "kind": "block",
+   "name": "Destructor",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:wireless_transmitter": {
+   "kind": "block",
+   "name": "Wireless Transmitter",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:storage_monitor": {
+   "kind": "block",
+   "name": "Storage Monitor",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:network_receiver": {
+   "kind": "block",
+   "name": "Network Receiver",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:network_transmitter": {
+   "kind": "block",
+   "name": "Network Transmitter",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:portable_grid": {
+   "kind": "block",
+   "name": "Portable Grid",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:creative_portable_grid": {
+   "kind": "block",
+   "name": "Creative Portable Grid",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:security_manager": {
+   "kind": "block",
+   "name": "Security Manager",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:security_manager.help": {
+   "kind": "block",
+   "name": "When this device is active, will protect the network by default and block all operations. Start adding Security Cards to permit or deny specific operations for a player.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:relay": {
+   "kind": "block",
+   "name": "Relay",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:disk_interface": {
+   "kind": "block",
+   "name": "Disk Interface",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:autocrafter": {
+   "kind": "block",
+   "name": "Autocrafter",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:autocrafter_manager": {
+   "kind": "block",
+   "name": "Autocrafter Manager",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:autocrafting_monitor": {
+   "kind": "block",
+   "name": "Autocrafting Monitor",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:controller.help": {
+   "kind": "item",
+   "name": "Provides the storage network with energy. Multiple are allowed in a single storage network.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:controller.not_needed_because_energy_is_not_required": {
+   "kind": "item",
+   "name": "Refined Storage is configured to run without energy. This device isn't required and won't have any effect - it's only shown here for information.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:creative_controller.help": {
+   "kind": "item",
+   "name": "Provides the storage network with an infinite source of energy.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:disk_drive.help": {
+   "kind": "item",
+   "name": "Accepts storage disks to provide the storage network with storage space.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:disk_interface.help": {
+   "kind": "item",
+   "name": "Transfers resources between the storage network and provided storage disks.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:grid.help": {
+   "kind": "item",
+   "name": "Allows for interacting with the storage network.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:crafting_grid.help": {
+   "kind": "item",
+   "name": "Allows for interacting with the storage network, with crafting abilities.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:pattern_grid.help": {
+   "kind": "item",
+   "name": "Allows for the creation of Patterns for use in autocrafting.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:importer.help": {
+   "kind": "item",
+   "name": "Imports resources from an external source to the storage network.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:exporter.help": {
+   "kind": "item",
+   "name": "Exports resources from the storage network to an external destination.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:interface.help": {
+   "kind": "item",
+   "name": "Combines importing and exporting via intermediate slots; external inventories must insert and extract manually.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:external_storage.help": {
+   "kind": "item",
+   "name": "Provides the storage network with storage from an external source.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:detector.help": {
+   "kind": "item",
+   "name": "Emits a redstone signal if the storage network contains a resource equal, above or under a given amount.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:constructor.help": {
+   "kind": "item",
+   "name": "Places blocks from the storage network in the world.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:destructor.help": {
+   "kind": "item",
+   "name": "Destroys blocks from the world and puts them in the storage network.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:relay.help": {
+   "kind": "item",
+   "name": "Turn entire sections of a storage network on or off and create new branches of your network.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:autocrafter.help": {
+   "kind": "item",
+   "name": "Accepts patterns for autocrafting.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:quartz_enriched_iron": {
+   "kind": "item",
+   "name": "Quartz Enriched Iron",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:quartz_enriched_copper": {
+   "kind": "item",
+   "name": "Quartz Enriched Copper",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:processor_binding": {
+   "kind": "item",
+   "name": "Processor Binding",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:silicon": {
+   "kind": "item",
+   "name": "Silicon",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:raw_basic_processor": {
+   "kind": "item",
+   "name": "Raw Basic Processor",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:raw_improved_processor": {
+   "kind": "item",
+   "name": "Raw Improved Processor",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:raw_advanced_processor": {
+   "kind": "item",
+   "name": "Raw Advanced Processor",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:basic_processor": {
+   "kind": "item",
+   "name": "Basic Processor",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:improved_processor": {
+   "kind": "item",
+   "name": "Improved Processor",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:advanced_processor": {
+   "kind": "item",
+   "name": "Advanced Processor",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:1k_storage_part": {
+   "kind": "item",
+   "name": "1k Storage Part",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:4k_storage_part": {
+   "kind": "item",
+   "name": "4k Storage Part",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:16k_storage_part": {
+   "kind": "item",
+   "name": "16k Storage Part",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:64k_storage_part": {
+   "kind": "item",
+   "name": "64k Storage Part",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:1k_storage_disk": {
+   "kind": "item",
+   "name": "1k Storage Disk",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:4k_storage_disk": {
+   "kind": "item",
+   "name": "4k Storage Disk",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:16k_storage_disk": {
+   "kind": "item",
+   "name": "16k Storage Disk",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:64k_storage_disk": {
+   "kind": "item",
+   "name": "64k Storage Disk",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:storage_disk.help": {
+   "kind": "item",
+   "name": "Stores %s items. When empty, use while holding to return the Storage Part. Upgradeable to a higher tier by combining with a Storage Part.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:storage_block.help": {
+   "kind": "item",
+   "name": "Stores %s items. When empty, use while holding to return the Storage Part and Machine Casing. Upgradeable to a higher tier by combining with a Storage Part.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:creative_storage_disk": {
+   "kind": "item",
+   "name": "Creative Storage Disk",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:creative_storage_disk.help": {
+   "kind": "item",
+   "name": "Stores an infinite amount of items.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:creative_storage_block.help": {
+   "kind": "item",
+   "name": "Stores an infinite amount of items.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:64b_fluid_storage_part": {
+   "kind": "item",
+   "name": "64B Fluid Storage Part",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:256b_fluid_storage_part": {
+   "kind": "item",
+   "name": "256B Fluid Storage Part",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:1024b_fluid_storage_part": {
+   "kind": "item",
+   "name": "1024B Fluid Storage Part",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:4096b_fluid_storage_part": {
+   "kind": "item",
+   "name": "4096B Fluid Storage Part",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:64b_fluid_storage_disk": {
+   "kind": "item",
+   "name": "64B Fluid Storage Disk",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:256b_fluid_storage_disk": {
+   "kind": "item",
+   "name": "256B Fluid Storage Disk",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:1024b_fluid_storage_disk": {
+   "kind": "item",
+   "name": "1024B Fluid Storage Disk",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:4096b_fluid_storage_disk": {
+   "kind": "item",
+   "name": "4096B Fluid Storage Disk",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:fluid_storage_disk.help": {
+   "kind": "item",
+   "name": "Stores %s buckets. When empty, use while holding to return the Fluid Storage Part. Upgradeable to a higher tier by combining with a Fluid Storage Part.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:fluid_storage_block.help": {
+   "kind": "item",
+   "name": "Stores %s buckets. When empty, use while holding to return the Fluid Storage Part and Machine Casing. Upgradeable to a higher tier by combining with a Fluid Storage Part.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:creative_fluid_storage_disk": {
+   "kind": "item",
+   "name": "Creative Fluid Storage Disk",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:creative_fluid_storage_disk.help": {
+   "kind": "item",
+   "name": "Stores an infinite amount of buckets.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:creative_fluid_storage_block.help": {
+   "kind": "item",
+   "name": "Stores an infinite amount of buckets.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:storage_housing": {
+   "kind": "item",
+   "name": "Storage Housing",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:construction_core": {
+   "kind": "item",
+   "name": "Construction Core",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:destruction_core": {
+   "kind": "item",
+   "name": "Destruction Core",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:wrench": {
+   "kind": "item",
+   "name": "Wrench",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:wrench.help": {
+   "kind": "item",
+   "name": "Use to rotate blocks or press SHIFT and use to dismantle Refined Storage blocks.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:debug_stick": {
+   "kind": "item",
+   "name": "Debug Stick",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:upgrade": {
+   "kind": "item",
+   "name": "Upgrade",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:speed_upgrade": {
+   "kind": "item",
+   "name": "Speed Upgrade",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:speed_upgrade.help": {
+   "kind": "item",
+   "name": "Increases the operation speed of a storage network device.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:stack_upgrade": {
+   "kind": "item",
+   "name": "Stack Upgrade",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:stack_upgrade.help": {
+   "kind": "item",
+   "name": "Increases the amount of resources that the storage network device handles per operation.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:silk_touch_upgrade": {
+   "kind": "item",
+   "name": "Silk Touch Upgrade",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:silk_touch_upgrade.help": {
+   "kind": "item",
+   "name": "Acts like the Silk Touch enchantment on a pickaxe.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:fortune_upgrade.1": {
+   "kind": "item",
+   "name": "Fortune I Upgrade",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:fortune_upgrade.2": {
+   "kind": "item",
+   "name": "Fortune II Upgrade",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:fortune_upgrade.3": {
+   "kind": "item",
+   "name": "Fortune III Upgrade",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:fortune_upgrade.help": {
+   "kind": "item",
+   "name": "Yields more resources when breaking a block. Acts like the Fortune enchantment on a pickaxe.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:regulator_upgrade": {
+   "kind": "item",
+   "name": "Regulator Upgrade",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:regulator_upgrade.help": {
+   "kind": "item",
+   "name": "In an Exporter, will only export if the amount in the target is less than configured in the upgrade. In an Importer, will only import if the amount in the target is more than configured in the upgrade. Use item to configure.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:range_upgrade": {
+   "kind": "item",
+   "name": "Range Upgrade",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:range_upgrade.help": {
+   "kind": "item",
+   "name": "Increases the range of the Wireless Transmitter.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:creative_range_upgrade": {
+   "kind": "item",
+   "name": "Creative Range Upgrade",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:creative_range_upgrade.help": {
+   "kind": "item",
+   "name": "Provides infinite range for the Wireless Transmitter. Does not work cross-dimensionally.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:autocrafting_upgrade": {
+   "kind": "item",
+   "name": "Autocrafting Upgrade",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:autocrafting_upgrade.help": {
+   "kind": "item",
+   "name": "Will start an autocrafting task for missing resources.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:wireless_grid": {
+   "kind": "item",
+   "name": "Wireless Grid",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:creative_wireless_grid": {
+   "kind": "item",
+   "name": "Creative Wireless Grid",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:wireless_transmitter.help": {
+   "kind": "item",
+   "name": "Provides wireless network access for items like the Wireless Grid. Multiple are allowed in an area for wider coverage.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:network_item.unbound": {
+   "kind": "item",
+   "name": "Unbound.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:network_item.unbound.help": {
+   "kind": "item",
+   "name": "Use on any storage network device to bind.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:network_item.bound_to": {
+   "kind": "item",
+   "name": "Bound to %d, %d, %d.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:network_item.cannot_open_with_shortcut_due_to_duplicate": {
+   "kind": "item",
+   "name": "There is more than one %s in your inventory.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:network_item.cannot_open_because_not_found": {
+   "kind": "item",
+   "name": "There isn't any %s in your inventory.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:network_card": {
+   "kind": "item",
+   "name": "Network Card",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:network_card.unbound_help": {
+   "kind": "item",
+   "name": "Use while crouching on a Network Receiver.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:network_card.unbound": {
+   "kind": "item",
+   "name": "Unbound.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:network_card.bound_help": {
+   "kind": "item",
+   "name": "Insert into a Network Transmitter. Use while crouching to clear binding.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:network_card.bound": {
+   "kind": "item",
+   "name": "Bound to %d, %d, %d in %s.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:network_transmitter.help": {
+   "kind": "item",
+   "name": "Transmits a network signal wirelessly. Needs a Network Card that is paired with a Network Receiver.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:network_receiver.help": {
+   "kind": "item",
+   "name": "Receives a network signal wirelessly. Bind a Network Card to this block.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:cable.help": {
+   "kind": "item",
+   "name": "Connects storage network devices with each other. For full blocks, will connect to any color. For cable blocks, will only connect to the same color or to the default color (gray).",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:security_card": {
+   "kind": "item",
+   "name": "Security Card",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:security_card.unbound": {
+   "kind": "item",
+   "name": "Unbound.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:security_card.unbound.help": {
+   "kind": "item",
+   "name": "Right click to configure and bind to the current player.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:security_card.bound": {
+   "kind": "item",
+   "name": "Bound to %s.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:security_card.bound.help": {
+   "kind": "item",
+   "name": "Right click to configure. Use while crouching to clear configuration and binding.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:fallback_security_card": {
+   "kind": "item",
+   "name": "Fallback Security Card",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:fallback_security_card.help": {
+   "kind": "item",
+   "name": "Acts as a fallback if no matching Security Card for a player is found. Right click to configure. Use while crouching to clear configuration.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:portable_grid.help": {
+   "kind": "item",
+   "name": "Allows to interact with a storage disk while not being connected to a storage network. Can be used from your inventory, or placed in the world when crouching.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:storage_monitor.help": {
+   "kind": "item",
+   "name": "A block that displays the current amount of a certain resource in your storage network. SHIFT + right click to configure. Left click to extract a stack, SHIFT + left click to extract a single resource, right click to insert a resource, right click multiple times to insert resources in bulk.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:pattern": {
+   "kind": "item",
+   "name": "Pattern",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:pattern.fuzzy_mode": {
+   "kind": "item",
+   "name": "Fuzzy mode",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:pattern.help": {
+   "kind": "item",
+   "name": "Used in autocrafting to store the recipe to be crafted. Use while crouching to clear.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:autocrafter_manager.help": {
+   "kind": "item",
+   "name": "Allows managing all your autocrafters from a single interface.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:autocrafting_monitor.help": {
+   "kind": "item",
+   "name": "Displays the status of autocrafting tasks and allows you to cancel autocrafting tasks in your storage network.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:wireless_autocrafting_monitor": {
+   "kind": "item",
+   "name": "Wireless Autocrafting Monitor",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:creative_wireless_autocrafting_monitor": {
+   "kind": "item",
+   "name": "Creative Wireless Autocrafting Monitor",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "refinedstorage:color_and_item_name": {
+   "kind": "item",
+   "name": "%s %s",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:refinedstorage.cables": {
+   "kind": "item",
+   "name": "Cables",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:refinedstorage.constructors": {
+   "kind": "item",
+   "name": "Constructors",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:refinedstorage.controllers": {
+   "kind": "item",
+   "name": "Controllers",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:refinedstorage.crafting_grids": {
+   "kind": "item",
+   "name": "Crafting Grids",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:refinedstorage.pattern_grids": {
+   "kind": "item",
+   "name": "Pattern Grids",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:refinedstorage.creative_controllers": {
+   "kind": "item",
+   "name": "Creative Controllers",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:refinedstorage.destructors": {
+   "kind": "item",
+   "name": "Destructors",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:refinedstorage.detectors": {
+   "kind": "item",
+   "name": "Detectors",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:refinedstorage.exporters": {
+   "kind": "item",
+   "name": "Exporters",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:refinedstorage.external_storages": {
+   "kind": "item",
+   "name": "External Storages",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:refinedstorage.fluid_storage_disks": {
+   "kind": "item",
+   "name": "Fluid Storage Disks",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:refinedstorage.grids": {
+   "kind": "item",
+   "name": "Grids",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:refinedstorage.importers": {
+   "kind": "item",
+   "name": "Importers",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:refinedstorage.network_receivers": {
+   "kind": "item",
+   "name": "Network Receivers",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:refinedstorage.network_transmitters": {
+   "kind": "item",
+   "name": "Network Transmitters",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:refinedstorage.relays": {
+   "kind": "item",
+   "name": "Relays",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:refinedstorage.security_managers": {
+   "kind": "item",
+   "name": "Security Managers",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:refinedstorage.storage_disks": {
+   "kind": "item",
+   "name": "Storage Disks",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:refinedstorage.wireless_transmitters": {
+   "kind": "item",
+   "name": "Wireless Transmitters",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:refinedstorage.disk_interfaces": {
+   "kind": "item",
+   "name": "Disk Interfaces",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:refinedstorage.autocrafters": {
+   "kind": "item",
+   "name": "Autocrafters",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:refinedstorage.autocrafter_managers": {
+   "kind": "item",
+   "name": "Autocrafter Managers",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:refinedstorage.autocrafting_monitors": {
+   "kind": "item",
+   "name": "Autocrafting Monitors",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "default",
+  "pass": "loop-back",
+  "note": "Candidate scanned for the discovery pass; auto tags only.",
+  "class": "candidate",
+  "purpose": "Candidate (not in any pack)"
+ }
+}

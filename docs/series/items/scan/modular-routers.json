@@ -1,0 +1,494 @@
+{
+ "repo": "desht/ModularRouters",
+ "ref": "MC1.21-master",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "modularrouters",
+  "modularrouterstest"
+ ],
+ "item_count": 55,
+ "compat": [
+  {
+   "id": "ftbfiltersystem",
+   "slug": "ftb-filter-system",
+   "evidence": {
+    "compat-import": 2,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "jade",
+   "slug": "jade",
+   "evidence": {
+    "compat-import": 3
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 4
+   }
+  },
+  {
+   "id": "patchouli",
+   "slug": "patchouli",
+   "evidence": {
+    "compat-import": 1,
+    "data-ref": 1,
+    "isLoaded": 2
+   }
+  }
+ ],
+ "items": {
+  "modularrouters:modular_router": {
+   "kind": "block",
+   "name": "Modular Router",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:template_frame": {
+   "kind": "block",
+   "name": "Template Frame",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:activator_module": {
+   "kind": "item",
+   "name": "Activator Module",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:augment_core": {
+   "kind": "item",
+   "name": "Augment Core",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:blank_module": {
+   "kind": "item",
+   "name": "Blank Module",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:blank_upgrade": {
+   "kind": "item",
+   "name": "Blank Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:blast_upgrade": {
+   "kind": "item",
+   "name": "Blast Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:breaker_module": {
+   "kind": "item",
+   "name": "Breaker Module",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:bulk_item_filter": {
+   "kind": "item",
+   "name": "Bulk Item Filter",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:camouflage_upgrade": {
+   "kind": "item",
+   "name": "Camouflage Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:creative_module": {
+   "kind": "item",
+   "name": "Creative Module",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:detector_module": {
+   "kind": "item",
+   "name": "Detector Module",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:distributor_module": {
+   "kind": "item",
+   "name": "Distributor Module",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:dropper_module": {
+   "kind": "item",
+   "name": "Dropper Module",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:energy_distributor_module": {
+   "kind": "item",
+   "name": "Energy Distributor Module",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:energy_output_module": {
+   "kind": "item",
+   "name": "Energy Output Module",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:energy_upgrade": {
+   "kind": "item",
+   "name": "Energy Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:extruder_module_1": {
+   "kind": "item",
+   "name": "Extruder Module Mk1",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:extruder_module_2": {
+   "kind": "item",
+   "name": "Extruder Module Mk2",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:fast_pickup_augment": {
+   "kind": "item",
+   "name": "Fast Pickup Augment",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:filter_round_robin_augment": {
+   "kind": "item",
+   "name": "Filter Round Robin Augment",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:flinger_module": {
+   "kind": "item",
+   "name": "Flinger Module",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:fluid_module_2": {
+   "kind": "item",
+   "name": "Fluid Module Mk2",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:fluid_module": {
+   "kind": "item",
+   "name": "Fluid Module Mk1",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:fluid_upgrade": {
+   "kind": "item",
+   "name": "Fluid Transfer Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:inspection_filter": {
+   "kind": "item",
+   "name": "Inspection Filter",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:mimic_augment": {
+   "kind": "item",
+   "name": "Mimic Augment",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:mod_filter": {
+   "kind": "item",
+   "name": "Mod Filter",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:muffler_upgrade": {
+   "kind": "item",
+   "name": "Muffler Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:override_card": {
+   "kind": "item",
+   "name": "Security Override Card",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:pickup_delay_augment": {
+   "kind": "item",
+   "name": "Pickup Delay Augment",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:placer_module": {
+   "kind": "item",
+   "name": "Placer Module",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:player_module": {
+   "kind": "item",
+   "name": "Player Module",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:puller_module_1": {
+   "kind": "item",
+   "name": "Puller Module Mk1",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:puller_module_2": {
+   "kind": "item",
+   "name": "Puller Module Mk2",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:pushing_augment": {
+   "kind": "item",
+   "name": "Pushing Augment",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:range_down_augment": {
+   "kind": "item",
+   "name": "Range Down Augment",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:rangedown_upgrade": {
+   "kind": "item",
+   "name": "Range Downgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:range_up_augment": {
+   "kind": "item",
+   "name": "Range Up Augment",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:range_upgrade": {
+   "kind": "item",
+   "name": "Range Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:redstone_augment": {
+   "kind": "item",
+   "name": "Redstone Augment",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:regex_filter": {
+   "kind": "item",
+   "name": "Regex Filter",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:regulator_augment": {
+   "kind": "item",
+   "name": "Regulator Augment",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:security_upgrade": {
+   "kind": "item",
+   "name": "Security Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:sender_module_1": {
+   "kind": "item",
+   "name": "Sender Module Mk1",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:sender_module_2": {
+   "kind": "item",
+   "name": "Sender Module Mk2",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:sender_module_3": {
+   "kind": "item",
+   "name": "Sender Module Mk3",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:speed_upgrade": {
+   "kind": "item",
+   "name": "Speed Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:stack_augment": {
+   "kind": "item",
+   "name": "Stack Augment",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:stack_upgrade": {
+   "kind": "item",
+   "name": "Stack Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:sync_upgrade": {
+   "kind": "item",
+   "name": "Sync Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:tag_filter": {
+   "kind": "item",
+   "name": "Tag Filter",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:vacuum_module": {
+   "kind": "item",
+   "name": "Vacuum Module",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:void_module": {
+   "kind": "item",
+   "name": "Void Module",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "modularrouters:xp_vacuum_augment": {
+   "kind": "item",
+   "name": "XP Vacuum Augment",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "MC1.21-master",
+  "pass": "loop-back",
+  "note": "Candidate scanned for the discovery pass; auto tags only.",
+  "class": "candidate",
+  "purpose": "Candidate (not in any pack)"
+ }
+}

@@ -1,0 +1,1333 @@
+{
+ "repo": "Buuz135/Industrial-Foregoing",
+ "ref": "1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "${mod_id}",
+  "industrialforegoing"
+ ],
+ "item_count": 161,
+ "compat": [
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "patchouli",
+   "slug": "patchouli",
+   "evidence": {
+    "data-ref": 2
+   }
+  },
+  {
+   "id": "titanium",
+   "slug": "titanium",
+   "evidence": {
+    "data-ref": 18,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "industrialforegoing:machine_frame_pity": {
+   "kind": "block",
+   "name": "Pity Machine Frame",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:machine_frame_simple": {
+   "kind": "block",
+   "name": "Simple Machine Frame",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:machine_frame_advanced": {
+   "kind": "block",
+   "name": "Advanced Machine Frame",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:machine_frame_supreme": {
+   "kind": "block",
+   "name": "Supreme Machine Frame",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:dissolution_chamber": {
+   "kind": "block",
+   "name": "Dissolution Chamber",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:petrified_fuel_generator": {
+   "kind": "block",
+   "name": "Petrified Fuel Generator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:mechanical_dirt": {
+   "kind": "block",
+   "name": "Mechanical Dirt",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:enchantment_sorter": {
+   "kind": "block",
+   "name": "Enchantment Sorter",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:enchantment_extractor": {
+   "kind": "block",
+   "name": "Enchantment Extractor",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:enchantment_applicator": {
+   "kind": "block",
+   "name": "Enchantment Applicator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:mob_crusher": {
+   "kind": "block",
+   "name": "Mob Crusher",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:animal_baby_separator": {
+   "kind": "block",
+   "name": "Animal Baby Separator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:animal_feeder": {
+   "kind": "block",
+   "name": "Animal Feeder",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:plant_sower": {
+   "kind": "block",
+   "name": "Plant Sower",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:plant_gatherer": {
+   "kind": "block",
+   "name": "Plant Gatherer",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:plant_fertilizer": {
+   "kind": "block",
+   "name": "Plant Fertilizer",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:black_hole_unit": {
+   "kind": "block",
+   "name": "Black Hole Unit",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:water_condensator": {
+   "kind": "block",
+   "name": "Water Condensator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:marine_fisher": {
+   "kind": "block",
+   "name": "Marine Fisher",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:animal_rancher": {
+   "kind": "block",
+   "name": "Animal Rancher",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:mob_slaughter_factory": {
+   "kind": "block",
+   "name": "Mob Slaughter Factory",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:mob_duplicator": {
+   "kind": "block",
+   "name": "Mob Duplicator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:block_breaker": {
+   "kind": "block",
+   "name": "Block Breaker",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:block_placer": {
+   "kind": "block",
+   "name": "Block Placer",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:fluid_extractor": {
+   "kind": "block",
+   "name": "Fluid Extractor",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:latex_processing_unit": {
+   "kind": "block",
+   "name": "Latex Processing Unit",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:sewage_composter": {
+   "kind": "block",
+   "name": "Sewage Composter",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:sewer": {
+   "kind": "block",
+   "name": "Sewer",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:sludge_refiner": {
+   "kind": "block",
+   "name": "Sludge Refiner",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:mob_detector": {
+   "kind": "block",
+   "name": "Mob Detector",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:lava_fabricator": {
+   "kind": "block",
+   "name": "Lava Fabricator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:bioreactor": {
+   "kind": "block",
+   "name": "Bioreactor",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:biofuel_generator": {
+   "kind": "block",
+   "name": "Biofuel Generator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:ore_laser_base": {
+   "kind": "block",
+   "name": "Ore Laser Base",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:laser_drill": {
+   "kind": "block",
+   "name": "Laser Drill",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:ore_processor": {
+   "kind": "block",
+   "name": "Ore Processor",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:black_hole_controller": {
+   "kind": "block",
+   "name": "Black Hole Controller",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:dye_mixer": {
+   "kind": "block",
+   "name": "Dye Mixer",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:enchantment_factory": {
+   "kind": "block",
+   "name": "Enchantment Factory",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:spores_recreator": {
+   "kind": "block",
+   "name": "Spores Recreator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:animal_growth_increaser": {
+   "kind": "block",
+   "name": "Animal Grower",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:material_stonework_factory": {
+   "kind": "block",
+   "name": "Material StoneWork Factory",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:black_hole_tank": {
+   "kind": "block",
+   "name": "Black Hole Tank",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:resourceful_furnace": {
+   "kind": "block",
+   "name": "Resourceful Furnace",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:villager_trade_exchanger": {
+   "kind": "block",
+   "name": "Villager Trade Exchanger",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:energy_field_provider": {
+   "kind": "block",
+   "name": "Energy Field Provider",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:oredictionary_converter": {
+   "kind": "block",
+   "name": "Ore Dictionary Converter",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:item_splitter": {
+   "kind": "block",
+   "name": "Item Splitter",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:protein_reactor": {
+   "kind": "block",
+   "name": "Protein Reactor",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:protein_generator": {
+   "kind": "block",
+   "name": "Protein Generator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:hydrator": {
+   "kind": "block",
+   "name": "Hydrator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:wither_builder": {
+   "kind": "block",
+   "name": "Wither Builder",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:fluid_pump": {
+   "kind": "block",
+   "name": "Fluid Pump",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:fluid_crafter": {
+   "kind": "block",
+   "name": "Fluid Crafter",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:plant_interactor": {
+   "kind": "block",
+   "name": "Plant Interactor",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:fluiddictionary_converter": {
+   "kind": "block",
+   "name": "Fluid Dictionary Converter",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:conveyor": {
+   "kind": "block",
+   "name": "Conveyor Belt",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:black_hole_label": {
+   "kind": "block",
+   "name": "Black Hole Label",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:froster": {
+   "kind": "block",
+   "name": "Froster",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:washing_factory": {
+   "kind": "block",
+   "name": "Washing Factory",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:fermentation_station": {
+   "kind": "block",
+   "name": "Fermentation Station",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:fluid_sieving_machine": {
+   "kind": "block",
+   "name": "Fluid Sieving Machine",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:pitiful_generator": {
+   "kind": "block",
+   "name": "Pitiful Generator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:fluid_collector": {
+   "kind": "block",
+   "name": "Fluid Collector",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:fluid_placer": {
+   "kind": "block",
+   "name": "Fluid Placer",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:stasis_chamber": {
+   "kind": "block",
+   "name": "Stasis Chamber",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:dark_glass": {
+   "kind": "block",
+   "name": "Dark Glass",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:fluid_laser_base": {
+   "kind": "block",
+   "name": "Fluid Laser Base",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:infinity_charger": {
+   "kind": "block",
+   "name": "Infinity Charger",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:mycelial_furnace": {
+   "kind": "block",
+   "name": "Furnace Mycelial Generator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:mycelial_culinary": {
+   "kind": "block",
+   "name": "Culinary Mycelial Generator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:mycelial_slimey": {
+   "kind": "block",
+   "name": "Slimey Mycelial Generator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:mycelial_disenchantment": {
+   "kind": "block",
+   "name": "Disenchantment Mycelial Generator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:mycelial_ender": {
+   "kind": "block",
+   "name": "Ender Mycelial Generator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:mycelial_explosive": {
+   "kind": "block",
+   "name": "Explosive Mycelial Generator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:mycelial_frosty": {
+   "kind": "block",
+   "name": "Frosty Mycelial Generator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:mycelial_halitosis": {
+   "kind": "block",
+   "name": "Halitosis Mycelial Generator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:mycelial_magma": {
+   "kind": "block",
+   "name": "Magma Mycelial Generator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:mycelial_pink": {
+   "kind": "block",
+   "name": "Pink Mycelial Generator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:mycelial_netherstar": {
+   "kind": "block",
+   "name": "Netherstar Mycelial Generator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:mycelial_reactor": {
+   "kind": "block",
+   "name": "Mycelial Reactor",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:mycelial_rocket": {
+   "kind": "block",
+   "name": "Rocket Mycelial Generator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:mycelial_crimed": {
+   "kind": "block",
+   "name": "Crimed Mycelial Generator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:mycelial_meatallurgic": {
+   "kind": "block",
+   "name": "Meatallurgic Mycelial Generator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:pink_slime_block": {
+   "kind": "block",
+   "name": "Pink Slime Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:supreme_black_hole_unit": {
+   "kind": "block",
+   "name": "Supreme Black Hole Unit",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:advanced_black_hole_unit": {
+   "kind": "block",
+   "name": "Advanced Black Hole Unit",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:simple_black_hole_unit": {
+   "kind": "block",
+   "name": "Simple Black Hole Unit",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:pity_black_hole_unit": {
+   "kind": "block",
+   "name": "Pity Black Hole Unit",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:common_black_hole_unit": {
+   "kind": "block",
+   "name": "Common Black Hole Unit",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:supreme_black_hole_tank": {
+   "kind": "block",
+   "name": "Supreme Black Hole Tank",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:advanced_black_hole_tank": {
+   "kind": "block",
+   "name": "Advanced Black Hole Tank",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:simple_black_hole_tank": {
+   "kind": "block",
+   "name": "Simple Black Hole Tank",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:pity_black_hole_tank": {
+   "kind": "block",
+   "name": "Pity Black Hole Tank",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:common_black_hole_tank": {
+   "kind": "block",
+   "name": "Common Black Hole Tank",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:hydroponic_bed": {
+   "kind": "block",
+   "name": "Hydroponic Bed",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:simulated_hydroponic_bed": {
+   "kind": "block",
+   "name": "Simulated Hydroponic Bed",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:essence_bucket": {
+   "kind": "item",
+   "name": "Essence Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:hydroponic_simulation_processor": {
+   "kind": "item",
+   "name": "Hydroponic Simulation Processor",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:meat_bucket": {
+   "kind": "item",
+   "name": "Liquid Meat Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:sewage_bucket": {
+   "kind": "item",
+   "name": "Sewage Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:sludge_bucket": {
+   "kind": "item",
+   "name": "Sludge Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:biofuel_bucket": {
+   "kind": "item",
+   "name": "Biofuel Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:latex_bucket": {
+   "kind": "item",
+   "name": "Latex Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:pink_slime_bucket": {
+   "kind": "item",
+   "name": "Pink Slime Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:protein_bucket": {
+   "kind": "item",
+   "name": "Protein Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:ether_gas_bucket": {
+   "kind": "item",
+   "name": "Ether Gas Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:raw_ore_meat_bucket": {
+   "kind": "item",
+   "name": "Raw Ore Meat Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:fermented_ore_meat_bucket": {
+   "kind": "item",
+   "name": "Fermented Ore Meat Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:meat_feeder": {
+   "kind": "item",
+   "name": "Meat Feeder",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:mob_imprisonment_tool": {
+   "kind": "item",
+   "name": "Mob Imprisonment Tool",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:tinydryrubber": {
+   "kind": "item",
+   "name": "Tiny Dry Rubber (Deprecated)",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:dryrubber": {
+   "kind": "item",
+   "name": "Dry Rubber",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:plastic": {
+   "kind": "item",
+   "name": "Plastic",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:fertilizer": {
+   "kind": "item",
+   "name": "Fertilizer",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:laser_lens": {
+   "kind": "item",
+   "name": "%s Laser Lens",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:laser_lens_inverted": {
+   "kind": "item",
+   "name": "Laser Lens (Inverted)",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:range_addon": {
+   "kind": "item",
+   "name": "Range ",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:adult_filter": {
+   "kind": "item",
+   "name": "Adult Filter",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:redstone_inverted": {
+   "kind": "item",
+   "name": "Inverted Redstone Control",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:machinehull": {
+   "kind": "item",
+   "name": "Machine Hull",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:straw": {
+   "kind": "item",
+   "name": "Straw",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:artificial_dye": {
+   "kind": "item",
+   "name": "Artificial Dye",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:pink_slime": {
+   "kind": "item",
+   "name": "Pink Slime",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:energy_field_addon": {
+   "kind": "item",
+   "name": "Energy Field Addon",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:leaf_shearing": {
+   "kind": "item",
+   "name": "Leaf Shearing Addon",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:itemstack_transfer_addon": {
+   "kind": "item",
+   "name": "Itemstack Transfer Addon",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:fluid_transfer_addon": {
+   "kind": "item",
+   "name": "Fluid Transfer Addon",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:pink_slime_ingot": {
+   "kind": "item",
+   "name": "Pink Slime Ingot",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:fortune_addon": {
+   "kind": "item",
+   "name": "Fortune Addon",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:infinity_drill": {
+   "kind": "item",
+   "name": "Infinity Drill",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:infinity_saw": {
+   "kind": "item",
+   "name": "Infinity Saw",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:infinity_hammer": {
+   "kind": "item",
+   "name": "Infinity Hammer",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:infinity_trident": {
+   "kind": "item",
+   "name": "Infinity Trident",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:infinity_backpack": {
+   "kind": "item",
+   "name": "Infinity Backpack",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:infinity_launcher": {
+   "kind": "item",
+   "name": "Infinity Launcher",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:infinity_nuke": {
+   "kind": "entity",
+   "name": "Infinity Nuke",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:item_transporter_type": {
+   "kind": "item",
+   "name": "Item Transporter",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:fluid_transporter_type": {
+   "kind": "item",
+   "name": "Fluid Transporter",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:world_transporter_type": {
+   "kind": "item",
+   "name": "World Transporter",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:machine_settings_copier": {
+   "kind": "item",
+   "name": "Machine Settings Copier",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:iron_gear": {
+   "kind": "item",
+   "name": "Iron Gear",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:gold_gear": {
+   "kind": "item",
+   "name": "Gold Gear",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:diamond_gear": {
+   "kind": "item",
+   "name": "Diamond Gear",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:addon": {
+   "kind": "item",
+   "name": "Addon: ",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:efficiency": {
+   "kind": "item",
+   "name": "Efficiency ",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:speed": {
+   "kind": "item",
+   "name": "Speed ",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:processing": {
+   "kind": "item",
+   "name": "Processing ",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:launcher_projectile_entity": {
+   "kind": "entity",
+   "name": "Plunger",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:c.fertilizer": {
+   "kind": "item",
+   "name": "Fertilizers",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:c.gears.diamond": {
+   "kind": "item",
+   "name": "Diamond Gears",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:c.gears.gold": {
+   "kind": "item",
+   "name": "Gold Gears",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:c.gears.iron": {
+   "kind": "item",
+   "name": "Iron Gears",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:c.plastic": {
+   "kind": "item",
+   "name": "Plastics",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:industrialforegoing.bioreactor": {
+   "kind": "item",
+   "name": "Bioreactor Inputs",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:industrialforegoing.machine_frame.advanced": {
+   "kind": "item",
+   "name": "Advanced Machine Frame",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:industrialforegoing.machine_frame.pity": {
+   "kind": "item",
+   "name": "Pity Machine Frame",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:industrialforegoing.machine_frame.simple": {
+   "kind": "item",
+   "name": "Simple Machine Frame",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:industrialforegoing.machine_frame.supreme": {
+   "kind": "item",
+   "name": "Supreme Machine Frame",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:industrialforegoing.sludge": {
+   "kind": "item",
+   "name": "Sludge",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "industrialforegoing:tier": {
+   "kind": "item",
+   "name": "Tier ",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21",
+  "pass": "loop-back",
+  "note": "Candidate scanned for the discovery pass; auto tags only.",
+  "class": "candidate",
+  "purpose": "Candidate (not in any pack)"
+ }
+}

@@ -1,0 +1,3060 @@
+{
+ "repo": "TeamPneumatic/pnc-repressurized",
+ "ref": "1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "pneumaticcraft"
+ ],
+ "item_count": 332,
+ "compat": [
+  {
+   "id": "create",
+   "slug": "create",
+   "evidence": {
+    "data-ref": 4
+   }
+  },
+  {
+   "id": "emi",
+   "slug": "emi",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "mekanism",
+   "slug": "mekanism",
+   "evidence": {
+    "data-ref": 2
+   }
+  },
+  {
+   "id": "occultism",
+   "slug": "occultism",
+   "evidence": {
+    "data-ref": 1
+   }
+  },
+  {
+   "id": "patchouli",
+   "slug": "patchouli",
+   "evidence": {
+    "data-ref": 3,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "powah",
+   "slug": "powah",
+   "evidence": {
+    "data-ref": 1
+   }
+  }
+ ],
+ "items": {
+  "pneumaticcraft:advanced_air_compressor": {
+   "kind": "block",
+   "name": "Advanced Air Compressor",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:advanced_liquid_compressor": {
+   "kind": "block",
+   "name": "Advanced Liquid Compressor",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:advanced_pressure_tube": {
+   "kind": "item",
+   "name": "Advanced Pressure Tube",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:aerial_interface": {
+   "kind": "block",
+   "name": "Aerial Interface",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:air_cannon": {
+   "kind": "block",
+   "name": "Air Cannon",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:air_compressor": {
+   "kind": "block",
+   "name": "Air Compressor",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:aphorism_tile": {
+   "kind": "block",
+   "name": "Aphorism Tile",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:assembly_controller": {
+   "kind": "block",
+   "name": "Assembly Controller",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:assembly_drill": {
+   "kind": "block",
+   "name": "Assembly Drill",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:assembly_io_unit": {
+   "kind": "block",
+   "name": "Assembly IO Unit",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:assembly_io_unit_export": {
+   "kind": "block",
+   "name": "Assembly IO Unit (export)",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:assembly_io_unit_import": {
+   "kind": "block",
+   "name": "Assembly IO Unit (import)",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:assembly_laser": {
+   "kind": "block",
+   "name": "Assembly Laser",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:assembly_platform": {
+   "kind": "block",
+   "name": "Assembly Platform",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:biodiesel": {
+   "kind": "block",
+   "name": "Biodiesel",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:charging_station": {
+   "kind": "block",
+   "name": "Charging Station",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:charging_station.upgrade_only": {
+   "kind": "block",
+   "name": "Charging Station (Upgrades Only)",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:compressed_iron_block": {
+   "kind": "block",
+   "name": "Block of Compressed Iron",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:creative_compressed_iron_block": {
+   "kind": "block",
+   "name": "Creative Compressed Iron Block",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:creative_compressor": {
+   "kind": "block",
+   "name": "Creative Compressor",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:diesel": {
+   "kind": "block",
+   "name": "Diesel",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:display_shelf": {
+   "kind": "block",
+   "name": "Display Shelf",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:display_table": {
+   "kind": "block",
+   "name": "Display Table",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:drill_pipe": {
+   "kind": "block",
+   "name": "Drill Pipe",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:drone_interface": {
+   "kind": "block",
+   "name": "Drone Interface",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:electric_compressor": {
+   "kind": "block",
+   "name": "Electric Compressor",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:electrostatic_compressor": {
+   "kind": "block",
+   "name": "Electrostatic Compressor",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:elevator_base": {
+   "kind": "block",
+   "name": "Elevator Base",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:elevator_caller": {
+   "kind": "block",
+   "name": "Elevator Caller",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:elevator_frame": {
+   "kind": "block",
+   "name": "Elevator Frame",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:empty_spawner": {
+   "kind": "block",
+   "name": "Empty Spawner",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:etching_acid": {
+   "kind": "block",
+   "name": "Etching Acid",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:etching_tank": {
+   "kind": "block",
+   "name": "Etching Tank",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:flux_compressor": {
+   "kind": "block",
+   "name": "Flux Compressor",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:fluid_mixer": {
+   "kind": "block",
+   "name": "Fluid Mixer",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:fuel": {
+   "kind": "block",
+   "name": "Gasoline",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:gas_lift": {
+   "kind": "block",
+   "name": "Gas Lift",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:heat_pipe": {
+   "kind": "block",
+   "name": "Heat Pipe",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:heat_sink": {
+   "kind": "block",
+   "name": "Heat Sink",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:huge_tank": {
+   "kind": "block",
+   "name": "Huge Fluid Tank",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:kerosene": {
+   "kind": "block",
+   "name": "Kerosene",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:kerosene_lamp": {
+   "kind": "block",
+   "name": "Kerosene Lamp",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:large_tank": {
+   "kind": "block",
+   "name": "Large Fluid Tank",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:liquid_compressor": {
+   "kind": "block",
+   "name": "Liquid Compressor",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:liquid_hopper": {
+   "kind": "block",
+   "name": "Liquid Hopper",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:lpg": {
+   "kind": "block",
+   "name": "LPG",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:lubricant": {
+   "kind": "block",
+   "name": "Lubricant",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:medium_tank": {
+   "kind": "block",
+   "name": "Medium Fluid Tank",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:oil": {
+   "kind": "block",
+   "name": "Crude Oil",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:omnidirectional_hopper": {
+   "kind": "block",
+   "name": "Omnidirectional Hopper",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:plastic_brick_black": {
+   "kind": "block",
+   "name": "Black Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:plastic_brick_blue": {
+   "kind": "block",
+   "name": "Blue Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:plastic_brick_brown": {
+   "kind": "block",
+   "name": "Brown Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:plastic_brick_cyan": {
+   "kind": "block",
+   "name": "Cyan Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:plastic_brick_gray": {
+   "kind": "block",
+   "name": "Gray Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:plastic_brick_green": {
+   "kind": "block",
+   "name": "Green Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:plastic_brick_light_blue": {
+   "kind": "block",
+   "name": "Light Blue Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:plastic_brick_light_gray": {
+   "kind": "block",
+   "name": "Light Gray Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:plastic_brick_lime": {
+   "kind": "block",
+   "name": "Lime Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:plastic_brick_magenta": {
+   "kind": "block",
+   "name": "Magenta Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:plastic_brick_orange": {
+   "kind": "block",
+   "name": "Orange Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:plastic_brick_pink": {
+   "kind": "block",
+   "name": "Pink Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:plastic_brick_purple": {
+   "kind": "block",
+   "name": "Purple Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:plastic_brick_red": {
+   "kind": "block",
+   "name": "Red Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:plastic_brick_white": {
+   "kind": "block",
+   "name": "White Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:plastic_brick_yellow": {
+   "kind": "block",
+   "name": "Yellow Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:plastic": {
+   "kind": "item",
+   "name": "Plastic Sheet",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:pneumatic_door_base": {
+   "kind": "block",
+   "name": "Pneumatic Door Base",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:pneumatic_door": {
+   "kind": "block",
+   "name": "Pneumatic Door",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:pneumatic_dynamo": {
+   "kind": "block",
+   "name": "Pneumatic Dynamo",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:pneumatic_generator": {
+   "kind": "block",
+   "name": "Pneumatic Generator",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:pressure_chamber_glass": {
+   "kind": "block",
+   "name": "Pressure Chamber Glass",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:pressure_chamber_interface": {
+   "kind": "block",
+   "name": "Pressure Chamber Interface",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:pressure_chamber_valve": {
+   "kind": "block",
+   "name": "Pressure Chamber Valve",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:pressure_chamber_wall": {
+   "kind": "block",
+   "name": "Pressure Chamber Wall",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:pressure_tube": {
+   "kind": "item",
+   "name": "Pressure Tube",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:pressurized_spawner": {
+   "kind": "block",
+   "name": "Pressurized Spawner",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:programmable_controller": {
+   "kind": "entity",
+   "name": "Programmable Controller",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:programmer": {
+   "kind": "block",
+   "name": "Programmer",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:refinery_output": {
+   "kind": "block",
+   "name": "Refinery Output",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:refinery": {
+   "kind": "block",
+   "name": "Refinery Controller",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:reinforced_brick_pillar": {
+   "kind": "block",
+   "name": "Reinforced Brick Pillar",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:reinforced_brick_slab": {
+   "kind": "block",
+   "name": "Reinforced Brick Slab",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:reinforced_bricks": {
+   "kind": "block",
+   "name": "Reinforced Bricks",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:reinforced_brick_stairs": {
+   "kind": "block",
+   "name": "Reinforced Brick Stairs",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:reinforced_brick_tile": {
+   "kind": "block",
+   "name": "Reinforced Brick Tile",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:reinforced_brick_wall": {
+   "kind": "block",
+   "name": "Reinforced Brick Wall",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:reinforced_chest": {
+   "kind": "block",
+   "name": "Reinforced Chest",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:reinforced_pressure_chamber_valve": {
+   "kind": "block",
+   "name": "Reinforced Pressure Chamber Valve",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:reinforced_pressure_tube": {
+   "kind": "block",
+   "name": "Reinforced Pressure Tube",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:reinforced_stone": {
+   "kind": "block",
+   "name": "Reinforced Stone",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:reinforced_stone_slab": {
+   "kind": "block",
+   "name": "Reinforced Stone Slab",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:compressed_brick_pillar": {
+   "kind": "block",
+   "name": "Compressed Brick Pillar",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:compressed_brick_slab": {
+   "kind": "block",
+   "name": "Compressed Brick Slab",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:compressed_bricks": {
+   "kind": "block",
+   "name": "Compressed Bricks",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:compressed_brick_stairs": {
+   "kind": "block",
+   "name": "Compressed Brick Stairs",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:compressed_brick_tile": {
+   "kind": "block",
+   "name": "Compressed Brick Tile",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:compressed_brick_wall": {
+   "kind": "block",
+   "name": "Compressed Brick Wall",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:compressed_stone": {
+   "kind": "block",
+   "name": "Compressed Stone",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:compressed_stone_slab": {
+   "kind": "block",
+   "name": "Compressed Stone Slab",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:security_station": {
+   "kind": "block",
+   "name": "Security Station",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:sentry_turret": {
+   "kind": "block",
+   "name": "Sentry Turret",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:small_tank": {
+   "kind": "block",
+   "name": "Small Fluid Tank",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:smart_chest": {
+   "kind": "block",
+   "name": "Smart Chest",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:smooth_plastic_brick_black": {
+   "kind": "block",
+   "name": "Smooth Black Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:smooth_plastic_brick_blue": {
+   "kind": "block",
+   "name": "Smooth Blue Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:smooth_plastic_brick_brown": {
+   "kind": "block",
+   "name": "Smooth Brown Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:smooth_plastic_brick_cyan": {
+   "kind": "block",
+   "name": "Smooth Cyan Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:smooth_plastic_brick_gray": {
+   "kind": "block",
+   "name": "Smooth Gray Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:smooth_plastic_brick_green": {
+   "kind": "block",
+   "name": "Smooth Green Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:smooth_plastic_brick_light_blue": {
+   "kind": "block",
+   "name": "Smooth Light Blue Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:smooth_plastic_brick_light_gray": {
+   "kind": "block",
+   "name": "Smooth Light Gray Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:smooth_plastic_brick_lime": {
+   "kind": "block",
+   "name": "Smooth Lime Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:smooth_plastic_brick_magenta": {
+   "kind": "block",
+   "name": "Smooth Magenta Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:smooth_plastic_brick_orange": {
+   "kind": "block",
+   "name": "Smooth Orange Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:smooth_plastic_brick_pink": {
+   "kind": "block",
+   "name": "Smooth Pink Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:smooth_plastic_brick_purple": {
+   "kind": "block",
+   "name": "Smooth Purple Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:smooth_plastic_brick_red": {
+   "kind": "block",
+   "name": "Smooth Red Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:smooth_plastic_brick_white": {
+   "kind": "block",
+   "name": "Smooth White Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:smooth_plastic_brick_yellow": {
+   "kind": "block",
+   "name": "Smooth Yellow Plastic Construction Brick™",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:spawner_extractor": {
+   "kind": "block",
+   "name": "Spawner Extractor",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:tag_workbench": {
+   "kind": "block",
+   "name": "Tag Workbench",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:thermal_compressor": {
+   "kind": "block",
+   "name": "Thermal Compressor",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:thermal_lagging": {
+   "kind": "block",
+   "name": "Thermal Lagging",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:thermopneumatic_processing_plant": {
+   "kind": "block",
+   "name": "Thermopneumatic Processing Plant",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:tube_junction": {
+   "kind": "block",
+   "name": "Tube Junction",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:universal_sensor": {
+   "kind": "block",
+   "name": "Universal Sensor",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:uv_light_box": {
+   "kind": "block",
+   "name": "UV Light Box",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:vacuum_pump": {
+   "kind": "block",
+   "name": "Vacuum Pump",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:vacuum_trap": {
+   "kind": "block",
+   "name": "Vacuum Trap",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:vegetable_oil": {
+   "kind": "block",
+   "name": "Vegetable Oil",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:vortex_tube": {
+   "kind": "block",
+   "name": "Vortex Tube",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_black": {
+   "kind": "block",
+   "name": "Black Wall Lamp",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_blue": {
+   "kind": "block",
+   "name": "Blue Wall Lamp",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_brown": {
+   "kind": "block",
+   "name": "Brown Wall Lamp",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_cyan": {
+   "kind": "block",
+   "name": "Cyan Wall Lamp",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_gray": {
+   "kind": "block",
+   "name": "Gray Wall Lamp",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_green": {
+   "kind": "block",
+   "name": "Green Wall Lamp",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_light_blue": {
+   "kind": "block",
+   "name": "Light Blue Wall Lamp",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_light_gray": {
+   "kind": "block",
+   "name": "Light Gray Wall Lamp",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_lime": {
+   "kind": "block",
+   "name": "Lime Wall Lamp",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_magenta": {
+   "kind": "block",
+   "name": "Magenta Wall Lamp",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_orange": {
+   "kind": "block",
+   "name": "Orange Wall Lamp",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_pink": {
+   "kind": "block",
+   "name": "Pink Wall Lamp",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_purple": {
+   "kind": "block",
+   "name": "Purple Wall Lamp",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_red": {
+   "kind": "block",
+   "name": "Red Wall Lamp",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_white": {
+   "kind": "block",
+   "name": "White Wall Lamp",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_yellow": {
+   "kind": "block",
+   "name": "Yellow Wall Lamp",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_inverted_black": {
+   "kind": "block",
+   "name": "Black Wall Lamp (inverted)",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_inverted_blue": {
+   "kind": "block",
+   "name": "Blue Wall Lamp (inverted)",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_inverted_brown": {
+   "kind": "block",
+   "name": "Brown Wall Lamp (inverted)",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_inverted_cyan": {
+   "kind": "block",
+   "name": "Cyan Wall Lamp (inverted)",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_inverted_gray": {
+   "kind": "block",
+   "name": "Gray Wall Lamp (inverted)",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_inverted_green": {
+   "kind": "block",
+   "name": "Green Wall Lamp (inverted)",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_inverted_light_blue": {
+   "kind": "block",
+   "name": "Light Blue Wall Lamp (inverted)",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_inverted_light_gray": {
+   "kind": "block",
+   "name": "Light Gray Wall Lamp (inverted)",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_inverted_lime": {
+   "kind": "block",
+   "name": "Lime Wall Lamp (inverted)",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_inverted_magenta": {
+   "kind": "block",
+   "name": "Magenta Wall Lamp (inverted)",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_inverted_orange": {
+   "kind": "block",
+   "name": "Orange Wall Lamp (inverted)",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_inverted_pink": {
+   "kind": "block",
+   "name": "Pink Wall Lamp (inverted)",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_inverted_purple": {
+   "kind": "block",
+   "name": "Purple Wall Lamp (inverted)",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_inverted_red": {
+   "kind": "block",
+   "name": "Red Wall Lamp (inverted)",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_inverted_white": {
+   "kind": "block",
+   "name": "White Wall Lamp (inverted)",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wall_lamp_inverted_yellow": {
+   "kind": "block",
+   "name": "Yellow Wall Lamp (inverted)",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:yeast_culture": {
+   "kind": "block",
+   "name": "Yeast Culture",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:solar_compressor": {
+   "kind": "block",
+   "name": "Solar Compressor",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "minecraft:villager.pneumaticcraft.mechanic": {
+   "kind": "entity",
+   "name": "Pressure Mechanic",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:collector_drone": {
+   "kind": "item",
+   "name": "Collector Drone",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:crop_support": {
+   "kind": "item",
+   "name": "Crop Support",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:drone": {
+   "kind": "item",
+   "name": "Drone",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:amadrone": {
+   "kind": "entity",
+   "name": "Amadron Delivery Drone",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:guard_drone": {
+   "kind": "item",
+   "name": "Guard Drone",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:harvesting_drone": {
+   "kind": "item",
+   "name": "Harvesting Drone",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:heat_frame": {
+   "kind": "item",
+   "name": "Heat Frame",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:logistics_drone": {
+   "kind": "item",
+   "name": "Logistics Drone",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:logistics_frame_active_provider": {
+   "kind": "item",
+   "name": "Logistic Active Provider Frame",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:logistics_frame_default_storage": {
+   "kind": "item",
+   "name": "Logistic Default Storage Frame",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:logistics_frame_passive_provider": {
+   "kind": "item",
+   "name": "Logistic Passive Provider Frame",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:logistics_frame_requester": {
+   "kind": "item",
+   "name": "Logistic Requester Frame",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:logistics_frame_storage": {
+   "kind": "item",
+   "name": "Logistic Storage Frame",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:micromissile": {
+   "kind": "entity",
+   "name": "Micromissile",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:spawner_agitator": {
+   "kind": "item",
+   "name": "Spawner Agitator",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:transfer_gadget": {
+   "kind": "item",
+   "name": "Transfer Gadget",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:tumbling_block": {
+   "kind": "entity",
+   "name": "Tumbling Block",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:module_expansion_card": {
+   "kind": "item",
+   "name": "Module Expansion Card",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:air_canister": {
+   "kind": "item",
+   "name": "Air Canister",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:air_canister_array": {
+   "kind": "item",
+   "name": "Air Canister Array",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:air_conditioning_upgrade": {
+   "kind": "item",
+   "name": "Air Conditioning Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:air_grate_module": {
+   "kind": "item",
+   "name": "Air Grate Tube Module",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:amadron_tablet": {
+   "kind": "item",
+   "name": "Amadron Tablet",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:armor_upgrade": {
+   "kind": "item",
+   "name": "Armor Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:assembly_program.required": {
+   "kind": "item",
+   "name": "Required Machines:",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:assembly_program_drill": {
+   "kind": "item",
+   "name": "Assembly Program: Drill",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:assembly_program_drill_laser": {
+   "kind": "item",
+   "name": "Assembly Program: Drill & Laser",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:assembly_program_laser": {
+   "kind": "item",
+   "name": "Assembly Program: Laser",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:bandage": {
+   "kind": "item",
+   "name": "Bandage",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:biodiesel_bucket": {
+   "kind": "item",
+   "name": "Biodiesel Bucket",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:block_tracker_upgrade": {
+   "kind": "item",
+   "name": "Block Tracker Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:camo_applicator": {
+   "kind": "item",
+   "name": "Camouflage Applicator",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:cannon_barrel": {
+   "kind": "item",
+   "name": "Cannon Barrel",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:capacitor": {
+   "kind": "item",
+   "name": "Capacitor",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:charging_module": {
+   "kind": "item",
+   "name": "Charging Module",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:charging_upgrade": {
+   "kind": "item",
+   "name": "Charging Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:chips": {
+   "kind": "item",
+   "name": "Chips",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:chunkloader_upgrade": {
+   "kind": "item",
+   "name": "Chunkloader Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:cod_n_chips": {
+   "kind": "item",
+   "name": "Cod n Chips",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:compressed_iron_boots": {
+   "kind": "item",
+   "name": "Compressed Iron Boots",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:compressed_iron_chestplate": {
+   "kind": "item",
+   "name": "Compressed Iron Chestplate",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:compressed_iron_helmet": {
+   "kind": "item",
+   "name": "Compressed Iron Helmet",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:compressed_iron_gear": {
+   "kind": "item",
+   "name": "Compressed Iron Gear",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:compressed_iron_leggings": {
+   "kind": "item",
+   "name": "Compressed Iron Leggings",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:coordinate_tracker_upgrade": {
+   "kind": "item",
+   "name": "Coordinate Tracker Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:copper_nugget": {
+   "kind": "item",
+   "name": "Copper Nugget",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:creative_upgrade": {
+   "kind": "item",
+   "name": "Creative Supply Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:diagnostic_subroutine": {
+   "kind": "item",
+   "name": "Diagnostic Subroutine",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:diesel_bucket": {
+   "kind": "item",
+   "name": "Diesel Bucket",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:dispenser_upgrade": {
+   "kind": "item",
+   "name": "Dispenser Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:drill_bit_compressed_iron": {
+   "kind": "item",
+   "name": "Compressed Iron Drill Bit",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:drill_bit_diamond": {
+   "kind": "item",
+   "name": "Diamond Drill Bit",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:drill_bit_iron": {
+   "kind": "item",
+   "name": "Iron Drill Bit",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:drill_bit_netherite": {
+   "kind": "item",
+   "name": "Netherite Drill Bit",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:elytra_upgrade": {
+   "kind": "item",
+   "name": "Elytra Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:empty_pcb": {
+   "kind": "item",
+   "name": "Empty PCB",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:ender_visor_upgrade": {
+   "kind": "item",
+   "name": "Ender Visor Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:entity_tracker_upgrade": {
+   "kind": "item",
+   "name": "Entity Tracker Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:etching_acid_bucket": {
+   "kind": "item",
+   "name": "Etching Acid Bucket",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:ethanol_bucket": {
+   "kind": "item",
+   "name": "Ethanol Bucket",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:failed_pcb": {
+   "kind": "item",
+   "name": "Failed PCB",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:flippers_upgrade": {
+   "kind": "item",
+   "name": "Flippers Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:flow_detector_module": {
+   "kind": "item",
+   "name": "Flow Detector Tube Module",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:gasoline_bucket": {
+   "kind": "item",
+   "name": "Gasoline Bucket",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:gilded_upgrade": {
+   "kind": "item",
+   "name": "Gilded Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:glycerol": {
+   "kind": "item",
+   "name": "Drop of Glycerol",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:gps_area_tool": {
+   "kind": "item",
+   "name": "GPS Area Tool",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:gps_tool": {
+   "kind": "item",
+   "name": "GPS Tool",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:gun_ammo_ap": {
+   "kind": "item",
+   "name": "Armor-Piercing Minigun Ammo",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:gun_ammo_explosive": {
+   "kind": "item",
+   "name": "Explosive Minigun Ammo",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:gun_ammo_freezing": {
+   "kind": "item",
+   "name": "Freezing Minigun Ammo",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:gun_ammo_incendiary": {
+   "kind": "item",
+   "name": "Incendiary Minigun Ammo",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:gun_ammo": {
+   "kind": "item",
+   "name": "Minigun Ammo",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:gun_ammo_weighted": {
+   "kind": "item",
+   "name": "Weighted Minigun Ammo",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:ingot_iron_compressed": {
+   "kind": "item",
+   "name": "Compressed Iron Ingot",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:inventory_upgrade": {
+   "kind": "item",
+   "name": "Inventory Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:item_life_upgrade": {
+   "kind": "item",
+   "name": "Item Life Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:jackhammer": {
+   "kind": "item",
+   "name": "Pneumatic Jackhammer",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:jet_boots_upgrade_1": {
+   "kind": "item",
+   "name": "Jet Boots Upgrade: Tier I",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:jet_boots_upgrade_2": {
+   "kind": "item",
+   "name": "Jet Boots Upgrade: Tier II",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:jet_boots_upgrade_3": {
+   "kind": "item",
+   "name": "Jet Boots Upgrade: Tier III",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:jet_boots_upgrade_4": {
+   "kind": "item",
+   "name": "Jet Boots Upgrade: Tier IV",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:jet_boots_upgrade_5": {
+   "kind": "item",
+   "name": "Jet Boots Upgrade: Tier V",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:jumping_upgrade_1": {
+   "kind": "item",
+   "name": "Jumping Upgrade: Tier I",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:jumping_upgrade_2": {
+   "kind": "item",
+   "name": "Jumping Upgrade: Tier II",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:jumping_upgrade_3": {
+   "kind": "item",
+   "name": "Jumping Upgrade: Tier III",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:jumping_upgrade_4": {
+   "kind": "item",
+   "name": "Jumping Upgrade: Tier IV",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:kerosene_bucket": {
+   "kind": "item",
+   "name": "Kerosene Bucket",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:logistics_core": {
+   "kind": "item",
+   "name": "Logistics Core",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:logistics_module": {
+   "kind": "item",
+   "name": "Logistics Module",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:lpg_bucket": {
+   "kind": "item",
+   "name": "LPG Bucket",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:lubricant_bucket": {
+   "kind": "item",
+   "name": "Lubricant Bucket",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:magnet_upgrade": {
+   "kind": "item",
+   "name": "Magnet Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:manometer": {
+   "kind": "item",
+   "name": "Manometer",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:memory_essence_bucket": {
+   "kind": "item",
+   "name": "Memory Essence Bucket",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:memory_stick": {
+   "kind": "item",
+   "name": "Memory Stick",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:micromissiles": {
+   "kind": "item",
+   "name": "Micromissiles",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:minigun": {
+   "kind": "item",
+   "name": "Minigun",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:minigun_upgrade": {
+   "kind": "item",
+   "name": "Minigun Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:muffler_upgrade": {
+   "kind": "item",
+   "name": "Muffler Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:network_api": {
+   "kind": "item",
+   "name": "Network API",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:network_component": {
+   "kind": "item",
+   "name": "Network Component",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:network_data_storage": {
+   "kind": "item",
+   "name": "Network Data Storage",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:network_io_port": {
+   "kind": "item",
+   "name": "Network IO Port",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:network_node": {
+   "kind": "item",
+   "name": "Network Node",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:network_registry": {
+   "kind": "item",
+   "name": "Network Registry",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:night_vision_upgrade": {
+   "kind": "item",
+   "name": "Night Vision Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:nuke_virus": {
+   "kind": "item",
+   "name": "Nuke Virus",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:oil_bucket": {
+   "kind": "item",
+   "name": "Crude Oil Bucket",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:pcb_blueprint": {
+   "kind": "item",
+   "name": "PCB Blueprint",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:plastic_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Plastic",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:pneumatic_boots": {
+   "kind": "item",
+   "name": "Pneumatic Boots",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:pneumatic_chestplate": {
+   "kind": "item",
+   "name": "Pneumatic Chestplate",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:pneumatic_cylinder": {
+   "kind": "item",
+   "name": "Pneumatic Cylinder",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:pneumatic_helmet": {
+   "kind": "item",
+   "name": "Pneumatic Helmet",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:pneumatic_leggings": {
+   "kind": "item",
+   "name": "Pneumatic Leggings",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:pneumatic_wrench": {
+   "kind": "item",
+   "name": "Pneumatic Wrench",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:pressure_gauge_module": {
+   "kind": "item",
+   "name": "Pressure Gauge Tube Module",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:pressure_gauge": {
+   "kind": "item",
+   "name": "Pressure Gauge",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:printed_circuit_board": {
+   "kind": "item",
+   "name": "Finished PCB",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:classify_filter": {
+   "kind": "item",
+   "name": "Classify Filter",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:programming_puzzle": {
+   "kind": "item",
+   "name": "Programming Puzzle Piece",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:raw_salmon_tempura": {
+   "kind": "item",
+   "name": "Raw Salmon Tempura",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:radiation_shielding_upgrade": {
+   "kind": "item",
+   "name": "Radiation Shielding Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:range_upgrade": {
+   "kind": "item",
+   "name": "Range Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:redstone_module": {
+   "kind": "item",
+   "name": "Redstone Module",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:thermostat_module": {
+   "kind": "item",
+   "name": "Thermostat Module",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:regulator_tube_module": {
+   "kind": "item",
+   "name": "Regulator Tube Module",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:reinforced_air_canister": {
+   "kind": "item",
+   "name": "Reinforced Air Canister",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:reinforced_air_canister_array": {
+   "kind": "item",
+   "name": "Reinforced Air Canister Array",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:reinforced_chest_kit": {
+   "kind": "item",
+   "name": "Reinforced Chest Upgrade Kit",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:remote": {
+   "kind": "item",
+   "name": "Remote",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:safety_tube_module": {
+   "kind": "item",
+   "name": "Safety Tube Module",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:salmon_tempura": {
+   "kind": "item",
+   "name": "Salmon Tempura",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:scuba_upgrade": {
+   "kind": "item",
+   "name": "SCUBA Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:search_upgrade": {
+   "kind": "item",
+   "name": "Item Search Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:security_upgrade": {
+   "kind": "item",
+   "name": "Security Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:seismic_sensor": {
+   "kind": "item",
+   "name": "Seismic Sensor",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:smart_chest_kit": {
+   "kind": "item",
+   "name": "Smart Chest Upgrade Kit",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:solar_cell": {
+   "kind": "item",
+   "name": "Solar Cell",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:solar_wafer": {
+   "kind": "item",
+   "name": "Solar Wafer",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:sourdough": {
+   "kind": "item",
+   "name": "Sourdough",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:sourdough_bread": {
+   "kind": "item",
+   "name": "Sourdough Bread",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:spawner_core": {
+   "kind": "item",
+   "name": "Spawner Core",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:spawner_core_shell": {
+   "kind": "item",
+   "name": "Spawner Core Shell",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:speed_upgrade": {
+   "kind": "item",
+   "name": "Speed Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:standby_upgrade": {
+   "kind": "item",
+   "name": "Standby Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:stomp_upgrade": {
+   "kind": "item",
+   "name": "Stomp Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:stone_base": {
+   "kind": "item",
+   "name": "Stone Base",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:stop_worm": {
+   "kind": "item",
+   "name": "STOP! Worm",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:tag_filter": {
+   "kind": "item",
+   "name": "Tag Filter",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:thaumcraft_upgrade": {
+   "kind": "item",
+   "name": "Thaumcraft Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:transistor": {
+   "kind": "item",
+   "name": "Transistor",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:turbine_blade": {
+   "kind": "item",
+   "name": "Turbine Blade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:turbine_rotor": {
+   "kind": "item",
+   "name": "Turbine Rotor",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:unassembled_netherite_drill_bit": {
+   "kind": "item",
+   "name": "Unassembled Netherite Drill Bit",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:unassembled_pcb": {
+   "kind": "item",
+   "name": "Unassembled PCB",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:unassembled_reinforced_pressure_chamber_valve": {
+   "kind": "item",
+   "name": "Unassembled Reinforced Pressure Chamber Valve",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:upgrade_matrix": {
+   "kind": "item",
+   "name": "Upgrade Matrix",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:vegetable_oil_bucket": {
+   "kind": "item",
+   "name": "Vegetable Oil Bucket",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:vacuum_module": {
+   "kind": "item",
+   "name": "Vacuum Tube Module",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:volume_upgrade": {
+   "kind": "item",
+   "name": "Volume Upgrade",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:vortex_cannon": {
+   "kind": "item",
+   "name": "Vortex Cannon",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:wheat_flour": {
+   "kind": "item",
+   "name": "Wheat Flour",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "pneumaticcraft:yeast_culture_bucket": {
+   "kind": "item",
+   "name": "Yeast Culture Bucket",
+   "tags": [
+    "feel:steampunk",
+    "feel:tech",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21",
+  "pass": "loop-back",
+  "note": "Candidate scanned for the discovery pass; auto tags only.",
+  "class": "candidate",
+  "purpose": "Candidate (not in any pack)"
+ }
+}

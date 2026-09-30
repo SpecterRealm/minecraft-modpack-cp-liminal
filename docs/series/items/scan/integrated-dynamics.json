@@ -1,0 +1,813 @@
+{
+ "repo": "CyclopsMC/IntegratedDynamics",
+ "ref": "master-1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "integrateddynamics"
+ ],
+ "item_count": 99,
+ "compat": [],
+ "items": {
+  "integrateddynamics:cable": {
+   "kind": "block",
+   "name": "Logic Cable",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:variablestore": {
+   "kind": "block",
+   "name": "Variable Store",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:energy_battery": {
+   "kind": "block",
+   "name": "Energy Battery",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:energy_battery.info": {
+   "kind": "block",
+   "name": "Place in crafting grid with other Energy Batteries to increase capacity. Shift + Right click to auto-supply.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:energy_battery.info.auto_supply": {
+   "kind": "block",
+   "name": "Auto-supply: %s",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:energy_battery_creative": {
+   "kind": "block",
+   "name": "Creative Energy Battery",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:energy_battery_creative.info.auto_supply": {
+   "kind": "block",
+   "name": "Auto-supply: %s",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:logic_programmer": {
+   "kind": "block",
+   "name": "Logic Programmer",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:coal_generator": {
+   "kind": "block",
+   "name": "Generator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:coal_generator.info": {
+   "kind": "block",
+   "name": "Produces energy from fuel items",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:proxy": {
+   "kind": "block",
+   "name": "Proxy",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:proxy.info": {
+   "kind": "block",
+   "name": "Expose a variable reference as an aspect. Clear in a crafting grid.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:materializer": {
+   "kind": "block",
+   "name": "Materializer",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:materializer.info": {
+   "kind": "block",
+   "name": "Materialize the value of a variable in a new variable",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:menril_log": {
+   "kind": "block",
+   "name": "Menril Log",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:menril_log_filled": {
+   "kind": "block",
+   "name": "Enriched Menril Log",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:menril_log_stripped": {
+   "kind": "block",
+   "name": "Stripped Menril Log",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:menril_leaves": {
+   "kind": "block",
+   "name": "Menril Leaves",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:menril_sapling": {
+   "kind": "block",
+   "name": "Menril Sapling",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:menril_planks": {
+   "kind": "block",
+   "name": "Menril Planks",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:menril_slab": {
+   "kind": "block",
+   "name": "Menril Slab",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:menril_fence": {
+   "kind": "block",
+   "name": "Menril Fence",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:menril_fence_gate": {
+   "kind": "block",
+   "name": "Menril Fence Gate",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:menril_wood": {
+   "kind": "block",
+   "name": "Menril Wood",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:menril_wood_stripped": {
+   "kind": "block",
+   "name": "Stripped Menril Wood",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:crystalized_menril_block": {
+   "kind": "block",
+   "name": "Block of Crystallized Menril",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:crystalized_menril_brick": {
+   "kind": "block",
+   "name": "Crystallized Menril Brick",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:block_menril_resin": {
+   "kind": "block",
+   "name": "Menril Resin",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:drying_basin": {
+   "kind": "block",
+   "name": "Drying Basin",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:drying_basin.info": {
+   "kind": "block",
+   "name": "For drying items and fluids",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:squeezer": {
+   "kind": "block",
+   "name": "Squeezer",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:squeezer.info": {
+   "kind": "block",
+   "name": "Squeezes, flattens and crushes by jumping on it. Redstone pulse to reset.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:menril_torch": {
+   "kind": "block",
+   "name": "Menril Torch",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:menril_torch_stone": {
+   "kind": "block",
+   "name": "Menril Stone Torch",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:invisible_light": {
+   "kind": "block",
+   "name": "Invisible Light",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:menril_door": {
+   "kind": "block",
+   "name": "Menril Door",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:menril_planks_stairs": {
+   "kind": "block",
+   "name": "Menril Stairs",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:crystalized_menril_block_stairs": {
+   "kind": "block",
+   "name": "Crystallized Menril Stairs",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:crystalized_menril_brick_stairs": {
+   "kind": "block",
+   "name": "Crystallized Menril Brick Stairs",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:delay": {
+   "kind": "block",
+   "name": "Delayer",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:delay.info": {
+   "kind": "block",
+   "name": "Expose the history of a variable as an aspect. Clear in a crafting grid.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:block_liquid_chorus": {
+   "kind": "block",
+   "name": "Liquid Chorus",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:crystalized_chorus_block": {
+   "kind": "block",
+   "name": "Block of Crystallized Chorus",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:crystalized_chorus_brick": {
+   "kind": "block",
+   "name": "Crystallized Chorus Brick",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:crystalized_chorus_block_stairs": {
+   "kind": "block",
+   "name": "Crystallized Chorus Stairs",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:crystalized_chorus_brick_stairs": {
+   "kind": "block",
+   "name": "Crystallized Chorus Brick Stairs",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:mechanical_squeezer": {
+   "kind": "block",
+   "name": "Mechanical Squeezer",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:mechanical_squeezer.info": {
+   "kind": "block",
+   "name": "Squeezes, flattens and crushes using energy.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:mechanical_drying_basin": {
+   "kind": "block",
+   "name": "Mechanical Drying Basin",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:mechanical_drying_basin.info": {
+   "kind": "block",
+   "name": "For drying items and fluids using energy.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:crystalized_menril_block_slab": {
+   "kind": "block",
+   "name": "Crystallized Menril Slab",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:crystalized_menril_brick_slab": {
+   "kind": "block",
+   "name": "Crystallized Menril Brick Slab",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:crystalized_chorus_block_slab": {
+   "kind": "block",
+   "name": "Crystallized Chorus Slab",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:crystalized_chorus_brick_slab": {
+   "kind": "block",
+   "name": "Crystallized Chorus Brick Slab",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:general.id": {
+   "kind": "item",
+   "name": "§e§lID: §r%s",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:wrench": {
+   "kind": "item",
+   "name": "Wrench",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:wrench.info": {
+   "kind": "item",
+   "name": "Shift + Right-click in air to change mode",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:wrench.mode": {
+   "kind": "item",
+   "name": "§eMode: §r%s",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:wrench.mode.default": {
+   "kind": "item",
+   "name": "Default",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:wrench.mode.default.info": {
+   "kind": "item",
+   "name": "Remove parts or rotate blocks",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:wrench.mode.offset": {
+   "kind": "item",
+   "name": "Save Offset",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:wrench.mode.offset.info": {
+   "kind": "item",
+   "name": "Shift + Right-click on a position and Right-click on part to link offset",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:wrench.mode.offset.saved": {
+   "kind": "item",
+   "name": "Position was saved in Wrench: %s",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:wrench.mode.offset.success": {
+   "kind": "item",
+   "name": "New offset position has been set in part",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:wrench.mode.offset.incomplete": {
+   "kind": "item",
+   "name": "No position was saved into this Wrench yet",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:wrench.mode.offset.fail": {
+   "kind": "item",
+   "name": "Could not set offset. Increase max offset using Enhancements!",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:wrench.mode.offset.pos": {
+   "kind": "item",
+   "name": "Position: %s",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:wrench.mode.offset_side": {
+   "kind": "item",
+   "name": "Save Offset and Side",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:wrench.mode.offset_side.info": {
+   "kind": "item",
+   "name": "Shift + Right-click on a position and Right-click on part to link offset and side",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:wrench.mode.offset_side.saved": {
+   "kind": "item",
+   "name": "Position and Side were saved in Wrench: %s - %s",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:wrench.mode.offset_side.success": {
+   "kind": "item",
+   "name": "New offset position and side have been set in part",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:wrench.mode.offset_side.side": {
+   "kind": "item",
+   "name": "Side: %s",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:variable": {
+   "kind": "item",
+   "name": "Variable Card",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:variable.info": {
+   "kind": "item",
+   "name": "Clear or copy in a crafting grid",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:variable.warning": {
+   "kind": "item",
+   "name": "§4§lWARNING: Do NOT copy this item by middle-clicking!",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:variable.id": {
+   "kind": "item",
+   "name": "§e§oVariable ID: §r§o%s",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:labeller": {
+   "kind": "item",
+   "name": "Labeller",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:labeller.info": {
+   "kind": "item",
+   "name": "Labels your variables. Also works in the Logic Programmer.",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:labeller.button.write": {
+   "kind": "item",
+   "name": "Write",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:facade": {
+   "kind": "item",
+   "name": "Facade",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:facade.info": {
+   "kind": "item",
+   "name": "Combine with a block in crafting table",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:bucket_liquid_chorus": {
+   "kind": "item",
+   "name": "Liquid Chorus Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:bucket_menril_resin": {
+   "kind": "item",
+   "name": "Menril Resin Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:crystalized_menril_chunk": {
+   "kind": "item",
+   "name": "Crystallized Menril Chunk",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:variable_transformer": {
+   "kind": "item",
+   "name": "Input/Output Variable Transformers",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:variable_transformer_output": {
+   "kind": "item",
+   "name": "Output Variable Transformer",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:variable_transformer_input": {
+   "kind": "item",
+   "name": "Input Variable Transformer",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:menril_berries": {
+   "kind": "item",
+   "name": "Menril Berries",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:menril_berries.info": {
+   "kind": "item",
+   "name": "Tasty and illuminating",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:portable_logic_programmer": {
+   "kind": "item",
+   "name": "Portable Logic Programmer",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:on_the_dynamics_of_integration": {
+   "kind": "item",
+   "name": "On the Dynamics of Integration",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:on_the_dynamics_of_integration.info": {
+   "kind": "item",
+   "name": "A complete mod reference guide with tutorials",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:crystalized_chorus_chunk": {
+   "kind": "item",
+   "name": "Crystallized Chorus Chunk",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:logic_director": {
+   "kind": "item",
+   "name": "Logic Director",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:proto_chorus": {
+   "kind": "item",
+   "name": "Proto Chorus",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:enhancement_offset": {
+   "kind": "item",
+   "name": "Part Enhancement: Offset",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:enhancement_offset.info": {
+   "kind": "item",
+   "name": "Increases the max offset of a part by right-clicking",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:enhancement_offset.increased": {
+   "kind": "item",
+   "name": "Part offset increased to %s",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "integrateddynamics:enhancement_offset.limit": {
+   "kind": "item",
+   "name": "Part offset is already at the limit (%s)",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "master-1.21",
+  "pass": "loop-back",
+  "note": "Candidate scanned for the discovery pass; auto tags only.",
+  "class": "candidate",
+  "purpose": "Candidate (not in any pack)"
+ }
+}

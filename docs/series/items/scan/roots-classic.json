@@ -1,0 +1,3313 @@
+{
+ "repo": "MysticMods/Roots",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "roots"
+ ],
+ "item_count": 363,
+ "compat": [
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "compat-import": 3,
+    "data-ref": 1,
+    "isLoaded": 2
+   }
+  },
+  {
+   "id": "iris",
+   "slug": "iris",
+   "evidence": {
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 47,
+    "isLoaded": 1
+   }
+  }
+ ],
+ "items": {
+  "roots:aqueous_soil": {
+   "kind": "block",
+   "name": "Aqueous Soil",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:aubergine_crop": {
+   "kind": "block",
+   "name": "Aubergine Crop",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:bafflecap": {
+   "kind": "item",
+   "name": "Bafflecap",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:bafflecap_block": {
+   "kind": "block",
+   "name": "Bafflecap Block",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:bafflecap_fairy_hut": {
+   "kind": "block",
+   "name": "Bafflecap Fairy Hut",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:brown_fairy_hut": {
+   "kind": "block",
+   "name": "Brown Fairy Hut",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:caelic_soil": {
+   "kind": "block",
+   "name": "Caelic Soil",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:chiseled_runed_obsidian": {
+   "kind": "block",
+   "name": "Chiseled Runed Obsidian",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:chiseled_runestone": {
+   "kind": "block",
+   "name": "Chiseled Runestone",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:cloud_berry_crop": {
+   "kind": "block",
+   "name": "Cloud Berry Crop",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:creeping_grove_moss": {
+   "kind": "block",
+   "name": "Creeping Grove Moss",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:crimson_fairy_hut": {
+   "kind": "block",
+   "name": "Crimson Fairy Hut",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:cultivation_grove_stone": {
+   "kind": "block",
+   "name": "Cultivation Grove Stone",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:decorative_pyre": {
+   "kind": "block",
+   "name": "Decorative Pyre",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:decorative_soul_pyre": {
+   "kind": "block",
+   "name": "Decorative Soul Pyre",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:deepslate_silver_ore": {
+   "kind": "block",
+   "name": "Deepslate Silver Ore",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:dewgonia_crop": {
+   "kind": "block",
+   "name": "Dewgonia Crop",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:display_pedestal": {
+   "kind": "block",
+   "name": "Display Pedestal",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:elemental_grove_stone": {
+   "kind": "block",
+   "name": "Elemental Grove Stone",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:elemental_soil": {
+   "kind": "block",
+   "name": "Elemental Soil",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:enchanted_turf": {
+   "kind": "block",
+   "name": "Enchanted Turf",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:fairy_grove_stone": {
+   "kind": "block",
+   "name": "Fairy Grove Stone",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:fungal_grove_stone": {
+   "kind": "block",
+   "name": "Fungal Grove Stone",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:fungal_transmuter": {
+   "kind": "block",
+   "name": "Fungal Transmuter",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:granite_quartz_ore": {
+   "kind": "block",
+   "name": "Granite Quartz Ore",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:grove_crafter": {
+   "kind": "block",
+   "name": "Grove Crafter",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:grove_pedestal": {
+   "kind": "block",
+   "name": "Grove Pedestal",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:hanging_grove_moss": {
+   "kind": "block",
+   "name": "Hanging Grove Moss",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:incense_burner": {
+   "kind": "block",
+   "name": "Incense Burner",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:inferno_bulb_crop": {
+   "kind": "block",
+   "name": "Inferno Bulb Crop",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:magmatic_soil": {
+   "kind": "block",
+   "name": "Magmatic Soil",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:moonglow_crop": {
+   "kind": "block",
+   "name": "Moonglow Crop",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:mortar": {
+   "kind": "block",
+   "name": "Mortar",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:mossy_runestone": {
+   "kind": "block",
+   "name": "Mossy Runestone",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:mossy_runestone_button": {
+   "kind": "block",
+   "name": "Mossy Runestone Button",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:mossy_runestone_pressure_plate": {
+   "kind": "block",
+   "name": "Mossy Runestone Pressure Plate",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:mossy_runestone_slab": {
+   "kind": "block",
+   "name": "Mossy Runestone Slab",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:mossy_runestone_stairs": {
+   "kind": "block",
+   "name": "Mossy Runestone Stairs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:mossy_runestone_wall": {
+   "kind": "block",
+   "name": "Mossy Runestone Wall",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:pastoral_grove_stone": {
+   "kind": "block",
+   "name": "Pastoral Grove Stone",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:pereskia_crop": {
+   "kind": "block",
+   "name": "Pereskia Crop",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:potted_bafflecap": {
+   "kind": "block",
+   "name": "Potted Bafflecap",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:potted_stonepetal": {
+   "kind": "block",
+   "name": "Potted Stonepetal",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:potted_wildwood_sapling": {
+   "kind": "block",
+   "name": "Potted Wildwood Sapling",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:pyre": {
+   "kind": "block",
+   "name": "Pyre",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:raw_silver_block": {
+   "kind": "block",
+   "name": "Raw Silver Block",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:red_fairy_hut": {
+   "kind": "block",
+   "name": "Red Fairy Hut",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:reinforced_pyre": {
+   "kind": "block",
+   "name": "Reinforced Pyre",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:reinforced_ritual_pedestal": {
+   "kind": "block",
+   "name": "Reinforced Ritual Pedestal",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:reinforced_soul_pyre": {
+   "kind": "block",
+   "name": "Reinforced Soul Pyre",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:ritual_pedestal": {
+   "kind": "block",
+   "name": "Ritual Pedestal",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_brick": {
+   "kind": "block",
+   "name": "Runed Brick",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_brick_button": {
+   "kind": "block",
+   "name": "Runed Brick Button",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_brick_pressure_plate": {
+   "kind": "block",
+   "name": "Runed Brick Pressure Plate",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_brick_slab": {
+   "kind": "block",
+   "name": "Runed Brick Slab",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_brick_stairs": {
+   "kind": "block",
+   "name": "Runed Brick Stairs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_brick_wall": {
+   "kind": "block",
+   "name": "Runed Brick Wall",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_button": {
+   "kind": "block",
+   "name": "Runed Button",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_obsidian": {
+   "kind": "block",
+   "name": "Runed Obsidian",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_pressure_plate": {
+   "kind": "block",
+   "name": "Runed Pressure Plate",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_slab": {
+   "kind": "block",
+   "name": "Runed Slab",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_stairs": {
+   "kind": "block",
+   "name": "Runed Stairs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_tile": {
+   "kind": "block",
+   "name": "Runed Tile",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_tile_button": {
+   "kind": "block",
+   "name": "Runed Tile Button",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_tile_pressure_plate": {
+   "kind": "block",
+   "name": "Runed Tile Pressure Plate",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_tile_slab": {
+   "kind": "block",
+   "name": "Runed Tile Slab",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_tile_stairs": {
+   "kind": "block",
+   "name": "Runed Tile Stairs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_tile_wall": {
+   "kind": "block",
+   "name": "Runed Tile Wall",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_wall": {
+   "kind": "block",
+   "name": "Runed Wall",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runestone": {
+   "kind": "block",
+   "name": "Runestone",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runestone_brick": {
+   "kind": "block",
+   "name": "Runestone Brick",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runestone_brick_button": {
+   "kind": "block",
+   "name": "Runestone Brick Button",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runestone_brick_pressure_plate": {
+   "kind": "block",
+   "name": "Runestone Brick Pressure Plate",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runestone_brick_slab": {
+   "kind": "block",
+   "name": "Runestone Brick Slab",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runestone_brick_stairs": {
+   "kind": "block",
+   "name": "Runestone Brick Stairs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runestone_brick_wall": {
+   "kind": "block",
+   "name": "Runestone Brick Wall",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runestone_button": {
+   "kind": "block",
+   "name": "Runestone Button",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runestone_pressure_plate": {
+   "kind": "block",
+   "name": "Runestone Pressure Plate",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runestone_slab": {
+   "kind": "block",
+   "name": "Runestone Slab",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runestone_stairs": {
+   "kind": "block",
+   "name": "Runestone Stairs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runestone_ticker": {
+   "kind": "block",
+   "name": "Runestone Ticker",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runestone_tile": {
+   "kind": "block",
+   "name": "Runestone Tile",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runestone_tile_button": {
+   "kind": "block",
+   "name": "Runestone Tile Button",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runestone_tile_pressure_plate": {
+   "kind": "block",
+   "name": "Runestone Tile Pressure Plate",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runestone_tile_slab": {
+   "kind": "block",
+   "name": "Runestone Tile Slab",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runestone_tile_stairs": {
+   "kind": "block",
+   "name": "Runestone Tile Stairs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runestone_tile_wall": {
+   "kind": "block",
+   "name": "Runestone Tile Wall",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runestone_wall": {
+   "kind": "block",
+   "name": "Runestone Wall",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runic_dust": {
+   "kind": "block",
+   "name": "Runic Dust",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:silver_block": {
+   "kind": "block",
+   "name": "Silver Block",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:silver_ore": {
+   "kind": "block",
+   "name": "Silver Ore",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:soul_pyre": {
+   "kind": "block",
+   "name": "Soul Pyre",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:spiritleaf_crop": {
+   "kind": "block",
+   "name": "Spiritleaf Crop",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:stalicripe_crop": {
+   "kind": "block",
+   "name": "Stalicripe Crop",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:stonepetal": {
+   "kind": "block",
+   "name": "Stonepetal",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:stripped_wildwood_log": {
+   "kind": "block",
+   "name": "Stripped Wildwood Log",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:stripped_wildwood_wood": {
+   "kind": "block",
+   "name": "Stripped Wildwood Wood",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:sylvan_light": {
+   "kind": "block",
+   "name": "Sylvan Light",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:terran_soil": {
+   "kind": "block",
+   "name": "Terran Soil",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:thatch": {
+   "kind": "block",
+   "name": "Thatch",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:twilight_grove_stone": {
+   "kind": "block",
+   "name": "Twilight Grove Stone",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:unending_bowl": {
+   "kind": "block",
+   "name": "Unending Bowl",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:warped_fairy_hut": {
+   "kind": "block",
+   "name": "Warped Fairy Hut",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wild_aubergine": {
+   "kind": "block",
+   "name": "Wild Aubergine",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wild_grove_stone": {
+   "kind": "block",
+   "name": "Wild Grove Stone",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wild_roots": {
+   "kind": "block",
+   "name": "Wild Roots",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildewheet_crop": {
+   "kind": "block",
+   "name": "Wildewheet Crop",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildroot_crop": {
+   "kind": "block",
+   "name": "Wildroot Crop",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildwood_button": {
+   "kind": "block",
+   "name": "Wildwood Button",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildwood_chest": {
+   "kind": "block",
+   "name": "Wildwood Chest",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildwood_door": {
+   "kind": "block",
+   "name": "Wildwood Door",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildwood_fence": {
+   "kind": "block",
+   "name": "Wildwood Fence",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildwood_gate": {
+   "kind": "block",
+   "name": "Wildwood Gate",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildwood_ladder": {
+   "kind": "block",
+   "name": "Wildwood Ladder",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildwood_leaves": {
+   "kind": "block",
+   "name": "Wildwood Leaves",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildwood_log": {
+   "kind": "block",
+   "name": "Wildwood Log",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildwood_pedestal": {
+   "kind": "block",
+   "name": "Wildwood Pedestal",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildwood_planks": {
+   "kind": "block",
+   "name": "Wildwood Planks",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildwood_pressure_plate": {
+   "kind": "block",
+   "name": "Wildwood Pressure Plate",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildwood_sapling": {
+   "kind": "block",
+   "name": "Wildwood Sapling",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildwood_slab": {
+   "kind": "block",
+   "name": "Wildwood Slab",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildwood_stairs": {
+   "kind": "block",
+   "name": "Wildwood Stairs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildwood_trapdoor": {
+   "kind": "block",
+   "name": "Wildwood Trapdoor",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildwood_wood": {
+   "kind": "block",
+   "name": "Wildwood Wood",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:beetle": {
+   "kind": "entity",
+   "name": "Beetle",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:deer": {
+   "kind": "entity",
+   "name": "Deer",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:duck": {
+   "kind": "entity",
+   "name": "Duck",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:fennec": {
+   "kind": "entity",
+   "name": "Fennec",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:green_sprout": {
+   "kind": "entity",
+   "name": "Green Sprout",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:jerboa": {
+   "kind": "entity",
+   "name": "Jerboa",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:light_drifter": {
+   "kind": "entity",
+   "name": "Light Drifter",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:living_arrow": {
+   "kind": "item",
+   "name": "Living Arrow",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:melody_sprout": {
+   "kind": "entity",
+   "name": "Melody Sprout",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:meteor": {
+   "kind": "entity",
+   "name": "Meteor",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:owl": {
+   "kind": "entity",
+   "name": "Owl",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:purple_sprout": {
+   "kind": "entity",
+   "name": "Purple Sprout",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:red_sprout": {
+   "kind": "entity",
+   "name": "Red Sprout",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:rose_thorns": {
+   "kind": "entity",
+   "name": "Rose Thorns",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:snow_sprout": {
+   "kind": "entity",
+   "name": "Snow Sprout",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:tan_sprout": {
+   "kind": "entity",
+   "name": "Tan Sprout",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:temporal_morass": {
+   "kind": "entity",
+   "name": "Temporal Morass",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildfire": {
+   "kind": "entity",
+   "name": "Wildfire",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:antler_hat": {
+   "kind": "item",
+   "name": "Antler Hat",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:antlers": {
+   "kind": "item",
+   "name": "Antlers",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:apothecary_pouch": {
+   "kind": "item",
+   "name": "Apothecary Pouch",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:apple_cordial": {
+   "kind": "item",
+   "name": "Apple Cordial",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:assorted_seeds": {
+   "kind": "item",
+   "name": "Assorted Seeds",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:aubergine": {
+   "kind": "item",
+   "name": "Aubergine",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:aubergine_salad": {
+   "kind": "item",
+   "name": "Aubergine Salad",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:aubergine_seeds": {
+   "kind": "item",
+   "name": "Aubergine Seeds",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:beetle_boots": {
+   "kind": "item",
+   "name": "Beetle Boots",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:beetle_chestplate": {
+   "kind": "item",
+   "name": "Beetle Chestplate",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:beetle_helmet": {
+   "kind": "item",
+   "name": "Beetle Helmet",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:beetle_leggings": {
+   "kind": "item",
+   "name": "Beetle Leggings",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:beetle_spawn_egg": {
+   "kind": "item",
+   "name": "Beetle Spawn Egg",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:beetroot_salad": {
+   "kind": "item",
+   "name": "Beetroot Salad",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:cactus_syrup": {
+   "kind": "item",
+   "name": "Cactus Syrup",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:carapace": {
+   "kind": "item",
+   "name": "Carapace",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:charm_of_alertness": {
+   "kind": "item",
+   "name": "Charm Of Alertness",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:charm_of_homesickness": {
+   "kind": "item",
+   "name": "Charm Of Homesickness",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:cloud_berry": {
+   "kind": "item",
+   "name": "Cloud Berry",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:component_pouch": {
+   "kind": "item",
+   "name": "Component Pouch",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:cooked_aubergine": {
+   "kind": "item",
+   "name": "Cooked Aubergine",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:cooked_beetroot": {
+   "kind": "item",
+   "name": "Cooked Beetroot",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:cooked_carrot": {
+   "kind": "item",
+   "name": "Cooked Carrot",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:cooked_pereskia": {
+   "kind": "item",
+   "name": "Cooked Pereskia",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:cooked_seeds": {
+   "kind": "item",
+   "name": "Cooked Seeds",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:cooked_squid": {
+   "kind": "item",
+   "name": "Cooked Squid",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:cooked_venison": {
+   "kind": "item",
+   "name": "Cooked Venison",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:copper_axe": {
+   "kind": "item",
+   "name": "Copper Axe",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:copper_boots": {
+   "kind": "item",
+   "name": "Copper Boots",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:copper_chestplate": {
+   "kind": "item",
+   "name": "Copper Chestplate",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:copper_helmet": {
+   "kind": "item",
+   "name": "Copper Helmet",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:copper_hoe": {
+   "kind": "item",
+   "name": "Copper Hoe",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:copper_knife": {
+   "kind": "item",
+   "name": "Copper Knife",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:copper_leggings": {
+   "kind": "item",
+   "name": "Copper Leggings",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:copper_nugget": {
+   "kind": "item",
+   "name": "Copper Nugget",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:copper_pickaxe": {
+   "kind": "item",
+   "name": "Copper Pickaxe",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:copper_shovel": {
+   "kind": "item",
+   "name": "Copper Shovel",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:copper_sword": {
+   "kind": "item",
+   "name": "Copper Sword",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:creative_pouch": {
+   "kind": "item",
+   "name": "Creative Pouch",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:creative_staff": {
+   "kind": "item",
+   "name": "Creative Staff",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:dandelion_cordial": {
+   "kind": "item",
+   "name": "Dandelion Cordial",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:deer_spawn_egg": {
+   "kind": "item",
+   "name": "Deer Spawn Egg",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:dewgonia": {
+   "kind": "item",
+   "name": "Dewgonia",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:diamond_knife": {
+   "kind": "item",
+   "name": "Diamond Knife",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:duck_spawn_egg": {
+   "kind": "item",
+   "name": "Duck Spawn Egg",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:fennec_spawn_egg": {
+   "kind": "item",
+   "name": "Fennec Spawn Egg",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:fire_starter": {
+   "kind": "item",
+   "name": "Fire Starter",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:flour": {
+   "kind": "item",
+   "name": "Flour",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:glass_eye": {
+   "kind": "item",
+   "name": "Glass Eye",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:golden_knife": {
+   "kind": "item",
+   "name": "Golden Knife",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:gramary": {
+   "kind": "item",
+   "name": "Gramary",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:green_sprout_spawn_egg": {
+   "kind": "item",
+   "name": "Green Sprout Spawn Egg",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:grove_moss": {
+   "kind": "item",
+   "name": "Grove Moss",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:grove_spores": {
+   "kind": "item",
+   "name": "Grove Spores",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:herb_pouch": {
+   "kind": "item",
+   "name": "Herb Pouch",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:inferno_bulb": {
+   "kind": "item",
+   "name": "Inferno Bulb",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:ink_bottle": {
+   "kind": "item",
+   "name": "Ink Bottle",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:iron_knife": {
+   "kind": "item",
+   "name": "Iron Knife",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:jerboa_spawn_egg": {
+   "kind": "item",
+   "name": "Jerboa Spawn Egg",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:life_essence": {
+   "kind": "item",
+   "name": "Life Essence",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:lilac_cordial": {
+   "kind": "item",
+   "name": "Lilac Cordial",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:living_axe": {
+   "kind": "item",
+   "name": "Living Axe",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:living_hoe": {
+   "kind": "item",
+   "name": "Living Hoe",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:living_pickaxe": {
+   "kind": "item",
+   "name": "Living Pickaxe",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:living_shovel": {
+   "kind": "item",
+   "name": "Living Shovel",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:living_sword": {
+   "kind": "item",
+   "name": "Living Sword",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:melody_sprout_spawn_egg": {
+   "kind": "item",
+   "name": "Melody Sprout Spawn Egg",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:moonglow": {
+   "kind": "item",
+   "name": "Moonglow",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:moonglow_seeds": {
+   "kind": "item",
+   "name": "Moonglow Seeds",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:mystic_feather": {
+   "kind": "item",
+   "name": "Mystic Feather",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:netherite_knife": {
+   "kind": "item",
+   "name": "Netherite Knife",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:owl_spawn_egg": {
+   "kind": "item",
+   "name": "Owl Spawn Egg",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:pelt": {
+   "kind": "item",
+   "name": "Pelt",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:peony_cordial": {
+   "kind": "item",
+   "name": "Peony Cordial",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:pereskia": {
+   "kind": "item",
+   "name": "Pereskia",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:pereskia_bulb": {
+   "kind": "item",
+   "name": "Pereskia Bulb",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:pestle": {
+   "kind": "item",
+   "name": "Pestle",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:purple_sprout_spawn_egg": {
+   "kind": "item",
+   "name": "Purple Sprout Spawn Egg",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:raw_silver": {
+   "kind": "item",
+   "name": "Raw Silver",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:raw_squid": {
+   "kind": "item",
+   "name": "Raw Squid",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:red_sprout_spawn_egg": {
+   "kind": "item",
+   "name": "Red Sprout Spawn Egg",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:reliquary": {
+   "kind": "item",
+   "name": "Reliquary",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:rose_cordial": {
+   "kind": "item",
+   "name": "Rose Cordial",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_axe": {
+   "kind": "item",
+   "name": "Runed Axe",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_dagger": {
+   "kind": "item",
+   "name": "Runed Dagger",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_hoe": {
+   "kind": "item",
+   "name": "Runed Hoe",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_pickaxe": {
+   "kind": "item",
+   "name": "Runed Pickaxe",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_shovel": {
+   "kind": "item",
+   "name": "Runed Shovel",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runed_sword": {
+   "kind": "item",
+   "name": "Runed Sword",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:runic_shears": {
+   "kind": "item",
+   "name": "Runic Shears",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:silver_ingot": {
+   "kind": "item",
+   "name": "Silver Ingot",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:silver_knife": {
+   "kind": "item",
+   "name": "Silver Knife",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:silver_nugget": {
+   "kind": "item",
+   "name": "Silver Nugget",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:silver_stater": {
+   "kind": "item",
+   "name": "Silver Stater",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:snow_sprout_spawn_egg": {
+   "kind": "item",
+   "name": "Snow Sprout Spawn Egg",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:spirit_bag": {
+   "kind": "item",
+   "name": "Spirit Bag",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:spiritleaf": {
+   "kind": "item",
+   "name": "Spiritleaf",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:spiritleaf_seeds": {
+   "kind": "item",
+   "name": "Spiritleaf Seeds",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:staff": {
+   "kind": "item",
+   "name": "Staff",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:stalicripe": {
+   "kind": "item",
+   "name": "Stalicripe",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:stewed_eggplant": {
+   "kind": "item",
+   "name": "Stewed Eggplant",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:stone_knife": {
+   "kind": "item",
+   "name": "Stone Knife",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:strange_ooze": {
+   "kind": "item",
+   "name": "Strange Ooze",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:stuffed_aubergine": {
+   "kind": "item",
+   "name": "Stuffed Aubergine",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:sylvan_leather": {
+   "kind": "item",
+   "name": "Sylvan Leather",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:sylvan_pouch": {
+   "kind": "item",
+   "name": "Sylvan Pouch",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:tan_sprout_spawn_egg": {
+   "kind": "item",
+   "name": "Tan Sprout Spawn Egg",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:vegetable_juice": {
+   "kind": "item",
+   "name": "Vegetable Juice",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:venison": {
+   "kind": "item",
+   "name": "Venison",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:vinegar": {
+   "kind": "item",
+   "name": "Vinegar",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildewheet": {
+   "kind": "item",
+   "name": "Wildewheet",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildewheet_bread": {
+   "kind": "item",
+   "name": "Wildewheet Bread",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildewheet_seeds": {
+   "kind": "item",
+   "name": "Wildewheet Seeds",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildroot": {
+   "kind": "item",
+   "name": "Wildroot",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildroot_stew": {
+   "kind": "item",
+   "name": "Wildroot Stew",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildwood_bow": {
+   "kind": "item",
+   "name": "Wildwood Bow",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wildwood_quiver": {
+   "kind": "item",
+   "name": "Wildwood Quiver",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wooden_knife": {
+   "kind": "item",
+   "name": "Wooden Knife",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:wooden_shears": {
+   "kind": "item",
+   "name": "Wooden Shears",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:gramary.bound_block_entity": {
+   "kind": "item",
+   "name": "Bound Block Entity to position %s/%s/%s",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:gramary.bound_block_position": {
+   "kind": "item",
+   "name": "Bound Gramary to position %s/%s/%s",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:gramary.with_mode": {
+   "kind": "item",
+   "name": "Gramary (%s)",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:staff.with_modified_spell": {
+   "kind": "item",
+   "name": "Staff (%s*)",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "roots:staff.with_spell": {
+   "kind": "item",
+   "name": "Staff (%s)",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:c.ingots.silver": {
+   "kind": "item",
+   "name": "Silver Ingots",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:c.levers": {
+   "kind": "item",
+   "name": "Levers",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:c.nuggets.copper": {
+   "kind": "item",
+   "name": "Copper Nuggets",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:c.nuggets.silver": {
+   "kind": "item",
+   "name": "Silver Nuggets",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:c.ores.quartz": {
+   "kind": "item",
+   "name": "Quartz Ores",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:c.ores.silver": {
+   "kind": "item",
+   "name": "Silver Ores",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:c.raw_materials.silver": {
+   "kind": "item",
+   "name": "Raw Silvers",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.raw_silver": {
+   "kind": "item",
+   "name": "Raw Silver Storage Blocks",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.silver": {
+   "kind": "item",
+   "name": "Silver Storage Blocks",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.antlers": {
+   "kind": "item",
+   "name": "Antlers",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.bottles": {
+   "kind": "item",
+   "name": "Bottles",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.carapace": {
+   "kind": "item",
+   "name": "Carapaces",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.casting_tools": {
+   "kind": "item",
+   "name": "Casting Tools",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.cooked_seafood": {
+   "kind": "item",
+   "name": "Cooked seafood",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.cooked_vegetables": {
+   "kind": "item",
+   "name": "Cooked vegetables",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.copper_items": {
+   "kind": "item",
+   "name": "Copper Items",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.crafters": {
+   "kind": "item",
+   "name": "Grove Crafters",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.crops": {
+   "kind": "item",
+   "name": "Crops",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.crops.aubergine": {
+   "kind": "item",
+   "name": "Aubergine Crops",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.crops.bafflecap": {
+   "kind": "item",
+   "name": "Bafflecap Crops",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.crops.cloud_berry": {
+   "kind": "item",
+   "name": "Cloud Berry Crops",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.crops.dewgonia": {
+   "kind": "item",
+   "name": "Dewgonia Crops",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.crops.elemental": {
+   "kind": "item",
+   "name": "Elemental Crops",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.crops.elemental.air": {
+   "kind": "item",
+   "name": "Air Elemental Crops",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.crops.elemental.earth": {
+   "kind": "item",
+   "name": "Earth Elemental Crops",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.crops.elemental.fire": {
+   "kind": "item",
+   "name": "Fire Elemental Crops",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.crops.elemental.water": {
+   "kind": "item",
+   "name": "Water Elemental Crops",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.crops.grove_moss": {
+   "kind": "item",
+   "name": "Grove Moss Crops",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.crops.inferno_bulb": {
+   "kind": "item",
+   "name": "Inferno Bulb Crops",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.crops.moonglow": {
+   "kind": "item",
+   "name": "Moonglow Crops",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.crops.pereskia": {
+   "kind": "item",
+   "name": "Pereskia Crops",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.crops.spiritleaf": {
+   "kind": "item",
+   "name": "Spiritleaf Crops",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.crops.stalicripe": {
+   "kind": "item",
+   "name": "Stalicripe Crops",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.crops.wildewheet": {
+   "kind": "item",
+   "name": "Wildewheet Crops",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.crops.wildroot": {
+   "kind": "item",
+   "name": "Wildroot Crops",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.dusts.runic": {
+   "kind": "item",
+   "name": "Runic Dust",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.flint": {
+   "kind": "item",
+   "name": "Flint",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.grove_crafter_activation": {
+   "kind": "item",
+   "name": "Grove Crafter Activators",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.grove_stones": {
+   "kind": "item",
+   "name": "Grove Stones",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.grove_stones.pastoral": {
+   "kind": "item",
+   "name": "Pastoral Grove Stones",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.herbs": {
+   "kind": "item",
+   "name": "Herbs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.herbs.bafflecap": {
+   "kind": "item",
+   "name": "Bafflecap Herbs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.herbs.cloud_berry": {
+   "kind": "item",
+   "name": "Cloud Berry Herbs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.herbs.dewgonia": {
+   "kind": "item",
+   "name": "Dewgonia Herbs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.herbs.grove_moss": {
+   "kind": "item",
+   "name": "Grove Moss Herbs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.herbs.inferno_bulb": {
+   "kind": "item",
+   "name": "Inferno Bulb Herbs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.herbs.moonglow": {
+   "kind": "item",
+   "name": "Moonglow Herbs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.herbs.pereskia": {
+   "kind": "item",
+   "name": "Pereskia Herbs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.herbs.spiritleaf": {
+   "kind": "item",
+   "name": "Spiritleaf Herbs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.herbs.stalicripe": {
+   "kind": "item",
+   "name": "Stalicripe Herbs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.herbs.wildewheet": {
+   "kind": "item",
+   "name": "Wildewheet Herbs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.herbs.wildroot": {
+   "kind": "item",
+   "name": "Wildroot Herbs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.knives": {
+   "kind": "item",
+   "name": "Knives",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.logs.wildwood": {
+   "kind": "item",
+   "name": "Wildwood Logs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.mortar_activation": {
+   "kind": "item",
+   "name": "Mortar Activators",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.mortars": {
+   "kind": "item",
+   "name": "Mortars",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.nyi": {
+   "kind": "item",
+   "name": "[Not Yet Implemented]",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.pedestals": {
+   "kind": "item",
+   "name": "Pedestals",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.pedestals.grove": {
+   "kind": "item",
+   "name": "Grove Crafting Pedestals",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.pedestals.ritual": {
+   "kind": "item",
+   "name": "Ritual Pedestals",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.pelt": {
+   "kind": "item",
+   "name": "Pelts",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.pouches": {
+   "kind": "item",
+   "name": "Pouches",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.proteins": {
+   "kind": "item",
+   "name": "Proteins",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.pyre_activation": {
+   "kind": "item",
+   "name": "Pyre Activators",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.pyres": {
+   "kind": "item",
+   "name": "Pyres",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.runed_obsidian": {
+   "kind": "item",
+   "name": "Runed Obsidian",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.runestone": {
+   "kind": "item",
+   "name": "Runestone",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.runestone_herbs": {
+   "kind": "item",
+   "name": "Herbs for crafting Runestone",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.runic_shears": {
+   "kind": "item",
+   "name": "Runic Shears",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.seeds": {
+   "kind": "item",
+   "name": "Seeds",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.seeds.cloud_berry": {
+   "kind": "item",
+   "name": "Cloud Berry Seeds",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.seeds.dewgonia": {
+   "kind": "item",
+   "name": "Dewgonia Seeds",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.seeds.inferno_bulb": {
+   "kind": "item",
+   "name": "Inferno Bulb Seeds",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.seeds.moonglow": {
+   "kind": "item",
+   "name": "Moonglow Seeds",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.seeds.pereskia": {
+   "kind": "item",
+   "name": "Pereskia Seeds",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.seeds.spiritleaf": {
+   "kind": "item",
+   "name": "Spiritleaf Seeds",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.seeds.stalicripe": {
+   "kind": "item",
+   "name": "Stalicripe Seeds",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.seeds.wildewheet": {
+   "kind": "item",
+   "name": "Wildewheet Seeds",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.seeds.wildroot": {
+   "kind": "item",
+   "name": "Wildroot Seeds",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.silver_items": {
+   "kind": "item",
+   "name": "Silver Items",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.skipped_foods": {
+   "kind": "item",
+   "name": "Ignored foods",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.soils": {
+   "kind": "item",
+   "name": "Soils",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.soils.air": {
+   "kind": "item",
+   "name": "Air Elemental Soils",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.soils.earth": {
+   "kind": "item",
+   "name": "Earth Elemental Soils",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.soils.elemental": {
+   "kind": "item",
+   "name": "Elemental Soils",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.soils.fire": {
+   "kind": "item",
+   "name": "Fire Elemental Soils",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.soils.water": {
+   "kind": "item",
+   "name": "Water Elemental Soils",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.stonelike": {
+   "kind": "item",
+   "name": "Stone-like",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.stonepetal": {
+   "kind": "item",
+   "name": "Stonepetals",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.tempt.beetle": {
+   "kind": "item",
+   "name": "Food for Beetles",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.tempt.deer": {
+   "kind": "item",
+   "name": "Foor for Deer",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.tempt.duck": {
+   "kind": "item",
+   "name": "Food for Ducks",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.tempt.fennec": {
+   "kind": "item",
+   "name": "Food for Fennecs",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.tempt.owl": {
+   "kind": "item",
+   "name": "Food for Owls",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.tempt.sprout": {
+   "kind": "item",
+   "name": "Food for Sprouts",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.vegetables": {
+   "kind": "item",
+   "name": "Vegetables",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:roots.wip": {
+   "kind": "item",
+   "name": "[Work In Progress]",
+   "tags": [
+    "feel:nature",
+    "feel:magic",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "Candidate scanned for the discovery pass; auto tags only.",
+  "class": "candidate",
+  "purpose": "Candidate (not in any pack)"
+ }
+}

@@ -1,0 +1,508 @@
+{
+ "repo": "TwelveIterationMods/Waystones",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "waystones"
+ ],
+ "item_count": 58,
+ "compat": [
+  {
+   "id": "balm",
+   "slug": "balm",
+   "evidence": {
+    "compat-import": 4,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "jade",
+   "slug": "jade",
+   "evidence": {
+    "compat-import": 2
+   }
+  },
+  {
+   "id": "lithostitched",
+   "slug": "lithostitched",
+   "evidence": {
+    "data-ref": 5
+   }
+  }
+ ],
+ "items": {
+  "waystones:waystone": {
+   "kind": "block",
+   "name": "Waystone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:mossy_waystone": {
+   "kind": "block",
+   "name": "Mossy Waystone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:sandy_waystone": {
+   "kind": "block",
+   "name": "Sandy Waystone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:blackstone_waystone": {
+   "kind": "block",
+   "name": "Black Waystone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:deepslate_waystone": {
+   "kind": "block",
+   "name": "Deepslate Waystone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:end_stone_waystone": {
+   "kind": "block",
+   "name": "Ender Waystone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:red_nether_bricks_waystone": {
+   "kind": "block",
+   "name": "Nether Waystone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:purpur_waystone": {
+   "kind": "block",
+   "name": "Purpur Waystone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:prismarine_waystone": {
+   "kind": "block",
+   "name": "Prismarine Waystone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:mud_bricks_waystone": {
+   "kind": "block",
+   "name": "Muddy Waystone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:orange_sharestone": {
+   "kind": "block",
+   "name": "Orange Sharestone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:magenta_sharestone": {
+   "kind": "block",
+   "name": "Magenta Sharestone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:light_blue_sharestone": {
+   "kind": "block",
+   "name": "Light Blue Sharestone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:yellow_sharestone": {
+   "kind": "block",
+   "name": "Yellow Sharestone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:lime_sharestone": {
+   "kind": "block",
+   "name": "Lime Sharestone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:pink_sharestone": {
+   "kind": "block",
+   "name": "Pink Sharestone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:gray_sharestone": {
+   "kind": "block",
+   "name": "Gray Sharestone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:light_gray_sharestone": {
+   "kind": "block",
+   "name": "Light Gray Sharestone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:cyan_sharestone": {
+   "kind": "block",
+   "name": "Cyan Sharestone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:purple_sharestone": {
+   "kind": "block",
+   "name": "Purple Sharestone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:blue_sharestone": {
+   "kind": "block",
+   "name": "Blue Sharestone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:brown_sharestone": {
+   "kind": "block",
+   "name": "Brown Sharestone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:green_sharestone": {
+   "kind": "block",
+   "name": "Green Sharestone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:red_sharestone": {
+   "kind": "block",
+   "name": "Red Sharestone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:black_sharestone": {
+   "kind": "block",
+   "name": "Black Sharestone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:warp_plate": {
+   "kind": "block",
+   "name": "Warp Plate",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:warp_portal": {
+   "kind": "block",
+   "name": "Warp Portal",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:fleeting_memorial": {
+   "kind": "block",
+   "name": "Fleeting Memorial",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:white_portstone": {
+   "kind": "block",
+   "name": "Portstone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:orange_portstone": {
+   "kind": "block",
+   "name": "Orange Portstone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:magenta_portstone": {
+   "kind": "block",
+   "name": "Magenta Portstone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:light_blue_portstone": {
+   "kind": "block",
+   "name": "Light Blue Portstone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:yellow_portstone": {
+   "kind": "block",
+   "name": "Yellow Portstone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:lime_portstone": {
+   "kind": "block",
+   "name": "Lime Portstone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:pink_portstone": {
+   "kind": "block",
+   "name": "Pink Portstone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:gray_portstone": {
+   "kind": "block",
+   "name": "Gray Portstone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:light_gray_portstone": {
+   "kind": "block",
+   "name": "Light Gray Portstone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:cyan_portstone": {
+   "kind": "block",
+   "name": "Cyan Portstone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:purple_portstone": {
+   "kind": "block",
+   "name": "Purple Portstone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:blue_portstone": {
+   "kind": "block",
+   "name": "Blue Portstone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:brown_portstone": {
+   "kind": "block",
+   "name": "Brown Portstone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:green_portstone": {
+   "kind": "block",
+   "name": "Green Portstone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:red_portstone": {
+   "kind": "block",
+   "name": "Red Portstone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:black_portstone": {
+   "kind": "block",
+   "name": "Black Portstone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:warp_scroll": {
+   "kind": "item",
+   "name": "Warp Scroll",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:warp_scroll_bound": {
+   "kind": "item",
+   "name": "Warp Scroll (Bound)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:portal_scroll": {
+   "kind": "item",
+   "name": "Portal Scroll",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:return_scroll": {
+   "kind": "item",
+   "name": "Return Scroll",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:warp_stone": {
+   "kind": "item",
+   "name": "Warp Stone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:blank_scroll": {
+   "kind": "item",
+   "name": "Blank Scroll",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:bound_scroll": {
+   "kind": "item",
+   "name": "Bound Scroll",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:warp_dust": {
+   "kind": "item",
+   "name": "Warp Dust",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:dormant_shard": {
+   "kind": "item",
+   "name": "Dormant Shard",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:attuned_shard": {
+   "kind": "item",
+   "name": "Attuned Shard",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:crumbling_attuned_shard": {
+   "kind": "item",
+   "name": "Crumbling Attuned Shard",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:deepslate_shard": {
+   "kind": "item",
+   "name": "Deepslate Shard",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:twinbound_feather": {
+   "kind": "item",
+   "name": "Twinbound Feather",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "waystones:epitaph": {
+   "kind": "item",
+   "name": "Epitaph",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "Candidate scanned for the discovery pass; auto tags only.",
+  "class": "candidate",
+  "purpose": "Candidate (not in any pack)"
+ }
+}

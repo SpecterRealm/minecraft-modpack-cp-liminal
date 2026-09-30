@@ -1,0 +1,41 @@
+{
+ "repo": "CompactMods/CompactMachines",
+ "ref": "21.1/main",
+ "ref_kind": "branch",
+ "mod_ids": [],
+ "item_count": 0,
+ "compat": [
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "compat-import": 2,
+    "isLoaded": 2
+   }
+  },
+  {
+   "id": "jade",
+   "slug": "jade",
+   "evidence": {
+    "compat-import": 3
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 1
+   }
+  }
+ ],
+ "items": {},
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "21.1/main",
+  "pass": "loop-back",
+  "note": "Candidate scanned for the discovery pass; auto tags only.",
+  "class": "candidate",
+  "purpose": "Candidate (not in any pack)"
+ }
+}

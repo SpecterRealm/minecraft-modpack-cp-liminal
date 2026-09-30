@@ -1,0 +1,1629 @@
+{
+ "repo": "Direwolf20-MC/JustDireThings",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "justdirethings"
+ ],
+ "item_count": 200,
+ "compat": [
+  {
+   "id": "patchouli",
+   "slug": "patchouli",
+   "evidence": {
+    "data-ref": 1
+   }
+  }
+ ],
+ "items": {
+  "justdirethings:blazegold_block": {
+   "kind": "block",
+   "name": "Blazegold Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:blockbreakert1": {
+   "kind": "block",
+   "name": "Simple Block Breaker",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:blockbreakert2": {
+   "kind": "block",
+   "name": "Advanced Block Breaker",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:blockplacert1": {
+   "kind": "block",
+   "name": "Simple Block Placer",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:blockplacert2": {
+   "kind": "block",
+   "name": "Advanced Block Placer",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:blockswappert1": {
+   "kind": "block",
+   "name": "Simple Swapper",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:blockswappert2": {
+   "kind": "block",
+   "name": "Advanced Swapper",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:celestigem_block": {
+   "kind": "block",
+   "name": "Celestigem Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:charcoal": {
+   "kind": "block",
+   "name": "Charcoal Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:clickert1": {
+   "kind": "block",
+   "name": "Simple Clicker",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:clickert2": {
+   "kind": "block",
+   "name": "Advanced Clicker",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:coalblock_t1": {
+   "kind": "block",
+   "name": "Primal Coal Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:coalblock_t2": {
+   "kind": "block",
+   "name": "Blaze Ember Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:coalblock_t3": {
+   "kind": "block",
+   "name": "Voidflame Coal Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:coalblock_t4": {
+   "kind": "block",
+   "name": "Eclipse Ember Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:droppert1": {
+   "kind": "block",
+   "name": "Simple Dropper",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:droppert2": {
+   "kind": "block",
+   "name": "Advanced Dropper",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:eclipsealloy_block": {
+   "kind": "block",
+   "name": "Eclipse Alloy Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:eclipsegateblock": {
+   "kind": "block",
+   "name": "Eclipse Gate",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:energytransmitter": {
+   "kind": "block",
+   "name": "Energy Transmitter",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:experienceholder": {
+   "kind": "block",
+   "name": "Experience Holder",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:ferricore_block": {
+   "kind": "block",
+   "name": "Ferricore Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:fluidcollectort1": {
+   "kind": "block",
+   "name": "Simple Fluid Collector",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:fluidcollectort2": {
+   "kind": "block",
+   "name": "Advanced Fluid Collector",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:fluidplacert1": {
+   "kind": "block",
+   "name": "Simple Fluid Placer",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:fluidplacert2": {
+   "kind": "block",
+   "name": "Advanced Fluid Placer",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:generatorfluidt1": {
+   "kind": "block",
+   "name": "Simple Fuel Generator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:generatort1": {
+   "kind": "block",
+   "name": "Simple Coal Generator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:gooblock_tier1": {
+   "kind": "block",
+   "name": "Primogel Goo",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:gooblock_tier2": {
+   "kind": "block",
+   "name": "Blazebloom Goo",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:gooblock_tier3": {
+   "kind": "block",
+   "name": "VoidShimmer Goo",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:gooblock_tier4": {
+   "kind": "block",
+   "name": "Shadowpulse Goo",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:goosoil_tier1": {
+   "kind": "block",
+   "name": "Primogel Soil",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:goosoil_tier2": {
+   "kind": "block",
+   "name": "Blazebloom Soil",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:goosoil_tier3": {
+   "kind": "block",
+   "name": "VoidShimmer Soil",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:goosoil_tier4": {
+   "kind": "block",
+   "name": "Shadowpulse Soil",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:inventory_holder": {
+   "kind": "block",
+   "name": "Inventory Holder",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:itemcollector": {
+   "kind": "block",
+   "name": "Item Collector",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:paradoxmachine": {
+   "kind": "block",
+   "name": "Paradox Machine",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:playeraccessor": {
+   "kind": "block",
+   "name": "Player Accessor",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:polymorphic_fluid_block": {
+   "kind": "block",
+   "name": "Polymorphic Fluid",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:portal_fluid_block": {
+   "kind": "block",
+   "name": "Portal Fluid",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:raw_blazegold_ore": {
+   "kind": "block",
+   "name": "Raw Blazegold Ore",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:raw_celestigem_ore": {
+   "kind": "block",
+   "name": "Raw Celestigem Ore",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:raw_coal_t1_ore": {
+   "kind": "block",
+   "name": "Raw Primal Coal",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:raw_coal_t2_ore": {
+   "kind": "block",
+   "name": "Raw Blaze Ember",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:raw_coal_t3_ore": {
+   "kind": "block",
+   "name": "Raw Voidflame Coal",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:raw_coal_t4_ore": {
+   "kind": "block",
+   "name": "Raw Eclipse Ember",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:raw_eclipsealloy_ore": {
+   "kind": "block",
+   "name": "Raw Eclipse Alloy Ore",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:raw_ferricore_ore": {
+   "kind": "block",
+   "name": "Raw Ferricore Ore",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:refined_t2_fluid_block": {
+   "kind": "block",
+   "name": "Blaze Ember Fuel",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:refined_t3_fluid_block": {
+   "kind": "block",
+   "name": "Voidflame Fuel",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:refined_t4_fluid_block": {
+   "kind": "block",
+   "name": "Eclipse Ember Fuel",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:sensort1": {
+   "kind": "block",
+   "name": "Simple Sensor",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:sensort2": {
+   "kind": "block",
+   "name": "Advanced Sensor",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:time_crystal_block": {
+   "kind": "block",
+   "name": "Time Crystal Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:time_crystal_budding_block": {
+   "kind": "block",
+   "name": "Budding Time Crystal Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:time_crystal_cluster": {
+   "kind": "block",
+   "name": "Time Crystal Cluster",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:time_crystal_cluster_large": {
+   "kind": "block",
+   "name": "Large Time Crystal Cluster",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:time_crystal_cluster_medium": {
+   "kind": "block",
+   "name": "Medium Time Crystal Cluster",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:time_crystal_cluster_small": {
+   "kind": "block",
+   "name": "Small Time Crystal Cluster",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:time_fluid_block": {
+   "kind": "block",
+   "name": "Time Fluid",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:unrefined_t2_fluid_block": {
+   "kind": "block",
+   "name": "Unrefined Blaze Ember Fuel",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:unrefined_t3_fluid_block": {
+   "kind": "block",
+   "name": "Unrefined Voidflame Fuel",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:unrefined_t4_fluid_block": {
+   "kind": "block",
+   "name": "Unrefined Eclipse Ember Fuel",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:unstable_portal_fluid_block": {
+   "kind": "block",
+   "name": "Unstable Portal Fluid",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:xp_fluid_block": {
+   "kind": "block",
+   "name": "XP Fluid",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:creature_catcher": {
+   "kind": "entity",
+   "name": "Creature Catcher",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:decoy_entity": {
+   "kind": "entity",
+   "name": "Decoy Entity",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:justdireareaeffectcloud": {
+   "kind": "entity",
+   "name": "Area Effect Cloud",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:justdirearrow": {
+   "kind": "entity",
+   "name": "Dire Arrow",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:paradox_entity": {
+   "kind": "entity",
+   "name": "Paradox",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:portal_entity": {
+   "kind": "entity",
+   "name": "DirePortal",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:portal_projectile": {
+   "kind": "entity",
+   "name": "Portal Projectile",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:time_wand_entity": {
+   "kind": "entity",
+   "name": "Time Wand Entity",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:blazegold_axe": {
+   "kind": "item",
+   "name": "Blazegold Axe",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:blazegold_boots": {
+   "kind": "item",
+   "name": "Blazegold Boots",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:blazegold_chestplate": {
+   "kind": "item",
+   "name": "Blazegold Chestplate",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:blazegold_helmet": {
+   "kind": "item",
+   "name": "Blazegold Helmet",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:blazegold_hoe": {
+   "kind": "item",
+   "name": "Blazegold Hoe",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:blazegold_ingot": {
+   "kind": "item",
+   "name": "Blazegold Ingot",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:blazegold_leggings": {
+   "kind": "item",
+   "name": "Blazegold Leggings",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:blazegold_pickaxe": {
+   "kind": "item",
+   "name": "Blazegold Pickaxe",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:blazegold_shovel": {
+   "kind": "item",
+   "name": "Blazegold Shovel",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:blazegold_sword": {
+   "kind": "item",
+   "name": "Blazegold Sword",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:blazejet_wand": {
+   "kind": "item",
+   "name": "Blazejet Wand",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:bow_blazegold": {
+   "kind": "item",
+   "name": "Blazegold Bow",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:bow_celestigem": {
+   "kind": "item",
+   "name": "Celestigem Bow",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:bow_eclipsealloy": {
+   "kind": "item",
+   "name": "Eclipse Alloy Bow",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:bow_ferricore": {
+   "kind": "item",
+   "name": "Ferricore Bow",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:celestigem": {
+   "kind": "item",
+   "name": "Celestigem",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:celestigem_axe": {
+   "kind": "item",
+   "name": "Celestigem Axe",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:celestigem_boots": {
+   "kind": "item",
+   "name": "Celestigem Boots",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:celestigem_chestplate": {
+   "kind": "item",
+   "name": "Celestigem Chestplate",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:celestigem_helmet": {
+   "kind": "item",
+   "name": "Celestigem Helmet",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:celestigem_hoe": {
+   "kind": "item",
+   "name": "Celestigem Hoe",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:celestigem_leggings": {
+   "kind": "item",
+   "name": "Celestigem Leggings",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:celestigem_paxel": {
+   "kind": "item",
+   "name": "Celestigem Paxel",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:celestigem_pickaxe": {
+   "kind": "item",
+   "name": "Celestigem Pickaxe",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:celestigem_shovel": {
+   "kind": "item",
+   "name": "Celestigem Shovel",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:celestigem_sword": {
+   "kind": "item",
+   "name": "Celestigem Sword",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:coal_t1": {
+   "kind": "item",
+   "name": "Primal Coal",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:coal_t2": {
+   "kind": "item",
+   "name": "Blaze Ember",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:coal_t3": {
+   "kind": "item",
+   "name": "Voidflame Coal",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:coal_t4": {
+   "kind": "item",
+   "name": "Eclipse Ember",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:creaturecatcher": {
+   "kind": "item",
+   "name": "Creature Catcher",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:eclipsealloy_axe": {
+   "kind": "item",
+   "name": "Eclipse Alloy Axe",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:eclipsealloy_boots": {
+   "kind": "item",
+   "name": "Eclipse Alloy Boots",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:eclipsealloy_chestplate": {
+   "kind": "item",
+   "name": "Eclipse Alloy Chestplate",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:eclipsealloy_helmet": {
+   "kind": "item",
+   "name": "Eclipse Alloy Helmet",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:eclipsealloy_hoe": {
+   "kind": "item",
+   "name": "Eclipse Alloy Hoe",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:eclipsealloy_ingot": {
+   "kind": "item",
+   "name": "Eclipse Alloy Ingot",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:eclipsealloy_leggings": {
+   "kind": "item",
+   "name": "Eclipse Alloy Leggings",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:eclipsealloy_paxel": {
+   "kind": "item",
+   "name": "Eclipse Alloy Paxel",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:eclipsealloy_pickaxe": {
+   "kind": "item",
+   "name": "Eclipse Alloy Pickaxe",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:eclipsealloy_shovel": {
+   "kind": "item",
+   "name": "Eclipse Alloy Shovel",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:eclipsealloy_sword": {
+   "kind": "item",
+   "name": "Eclipse Alloy Sword",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:eclipsegate_wand": {
+   "kind": "item",
+   "name": "Eclipsegate Wand",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:ferricore_axe": {
+   "kind": "item",
+   "name": "Ferricore Axe",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:ferricore_boots": {
+   "kind": "item",
+   "name": "Ferricore Boots",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:ferricore_chestplate": {
+   "kind": "item",
+   "name": "Ferricore Chestplate",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:ferricore_helmet": {
+   "kind": "item",
+   "name": "Ferricore Helmet",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:ferricore_hoe": {
+   "kind": "item",
+   "name": "Ferricore Hoe",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:ferricore_ingot": {
+   "kind": "item",
+   "name": "Ferricore Ingot",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:ferricore_leggings": {
+   "kind": "item",
+   "name": "Ferricore Leggings",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:ferricore_pickaxe": {
+   "kind": "item",
+   "name": "Ferricore Pickaxe",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:ferricore_shovel": {
+   "kind": "item",
+   "name": "Ferricore Shovel",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:ferricore_sword": {
+   "kind": "item",
+   "name": "Ferricore Sword",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:ferricore_wrench": {
+   "kind": "item",
+   "name": "Ferricore Wrench",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:fluid_canister": {
+   "kind": "item",
+   "name": "Fluid Canister",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:fuel_canister": {
+   "kind": "item",
+   "name": "Fuel Canister",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:machinesettingscopier": {
+   "kind": "item",
+   "name": "Machine Settings Copier",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:pocket_generator": {
+   "kind": "item",
+   "name": "Pocket Generator",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:polymorphic_catalyst": {
+   "kind": "item",
+   "name": "Polymorphic Catalyst",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:polymorphic_fluid_bucket": {
+   "kind": "item",
+   "name": "Polymorphic Fluid Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:polymorphic_wand": {
+   "kind": "item",
+   "name": "Polymorphic Wand",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:polymorphic_wand_v2": {
+   "kind": "item",
+   "name": "Advanced Polymorphic Wand",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:portal_fluid_bucket": {
+   "kind": "item",
+   "name": "Portal Fluid Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:portal_fluid_catalyst": {
+   "kind": "item",
+   "name": "Portal Fluid Catalyst",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:portalgun": {
+   "kind": "item",
+   "name": "Portal Gun",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:portalgun_v2": {
+   "kind": "item",
+   "name": "Advanced Portal Gun",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:raw_blazegold": {
+   "kind": "item",
+   "name": "Raw Blazegold",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:raw_eclipsealloy": {
+   "kind": "item",
+   "name": "Raw Eclipse Alloy",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:raw_ferricore": {
+   "kind": "item",
+   "name": "Raw Ferricore",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:refined_t2_fluid_bucket": {
+   "kind": "item",
+   "name": "Blaze Ember Fuel Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:refined_t3_fluid_bucket": {
+   "kind": "item",
+   "name": "Voidflame Fuel Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:refined_t4_fluid_bucket": {
+   "kind": "item",
+   "name": "Eclipse Ember Fuel Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:template_blazegold": {
+   "kind": "item",
+   "name": "Template: Blazegold",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:template_celestigem": {
+   "kind": "item",
+   "name": "Template: Celestigem",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:template_eclipsealloy": {
+   "kind": "item",
+   "name": "Template: Eclipse Alloy",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:template_ferricore": {
+   "kind": "item",
+   "name": "Template: Ferricore",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:time_crystal": {
+   "kind": "item",
+   "name": "Time Crystal",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:time_fluid_bucket": {
+   "kind": "item",
+   "name": "Time Fluid Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:time_wand": {
+   "kind": "item",
+   "name": "Time Wand",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:unrefined_t2_fluid_bucket": {
+   "kind": "item",
+   "name": "Unrefined Blaze Ember Fuel Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:unrefined_t3_fluid_bucket": {
+   "kind": "item",
+   "name": "Unrefined Voidflame Fuel Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:unrefined_t4_fluid_bucket": {
+   "kind": "item",
+   "name": "Unrefined Eclipse Ember Fuel Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:unstable_portal_fluid_bucket": {
+   "kind": "item",
+   "name": "Unstable Portal Fluid Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_blank": {
+   "kind": "item",
+   "name": "Upgrade: Blank",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_cauterizewounds": {
+   "kind": "item",
+   "name": "Upgrade: Cauterize Wounds",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_debuffremover": {
+   "kind": "item",
+   "name": "Upgrade: Debuff Remover",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_decoy": {
+   "kind": "item",
+   "name": "Upgrade: Decoy",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_dropteleport": {
+   "kind": "item",
+   "name": "Upgrade: Drops Teleport",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_earthquake": {
+   "kind": "item",
+   "name": "Upgrade: Earthquake",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_elytra": {
+   "kind": "item",
+   "name": "Upgrade: Elytra",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_epicarrow": {
+   "kind": "item",
+   "name": "Upgrade: Yondu Arrow",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_flight": {
+   "kind": "item",
+   "name": "Upgrade: Flight",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_glowing": {
+   "kind": "item",
+   "name": "Upgrade: Mob X-Ray",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_groundstomp": {
+   "kind": "item",
+   "name": "Upgrade: Ground Stomp",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_hammer": {
+   "kind": "item",
+   "name": "Upgrade: Hammer",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_homing": {
+   "kind": "item",
+   "name": "Upgrade: Homing Arrow",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_instabreak": {
+   "kind": "item",
+   "name": "Upgrade: Instant Break",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_invulnerability": {
+   "kind": "item",
+   "name": "Upgrade: Invulnerability",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_jumpboost": {
+   "kind": "item",
+   "name": "Upgrade: Jump Boost",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_lavaimmunity": {
+   "kind": "item",
+   "name": "Upgrade: Lava Immunity",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_lawnmower": {
+   "kind": "item",
+   "name": "Upgrade: Lawnmower",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_leafbreaker": {
+   "kind": "item",
+   "name": "Upgrade: Leafbreaker",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_lingering": {
+   "kind": "item",
+   "name": "Upgrade: Lingering",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_mindfog": {
+   "kind": "item",
+   "name": "Upgrade: Mind Fog",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_mobscanner": {
+   "kind": "item",
+   "name": "Upgrade: Mob Scanner",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_negatefalldamage": {
+   "kind": "item",
+   "name": "Upgrade: Negate Fall Damage",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_nightvision": {
+   "kind": "item",
+   "name": "Upgrade: Night Vision",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_noai": {
+   "kind": "item",
+   "name": "Upgrade: Mental Obliteration",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_orescanner": {
+   "kind": "item",
+   "name": "Upgrade: Ore Scanner",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_orexray": {
+   "kind": "item",
+   "name": "Upgrade: Ore X-Ray",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_phase": {
+   "kind": "item",
+   "name": "Upgrade: Phase",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_runspeed": {
+   "kind": "item",
+   "name": "Upgrade: Run Speed",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_skysweeper": {
+   "kind": "item",
+   "name": "Upgrade: Skysweeper",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_smelter": {
+   "kind": "item",
+   "name": "Upgrade: Smelter",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_smoker": {
+   "kind": "item",
+   "name": "Upgrade: Smoker",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_splash": {
+   "kind": "item",
+   "name": "Upgrade: Splash",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_stepheight": {
+   "kind": "item",
+   "name": "Upgrade: Step Assist",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_stupefy": {
+   "kind": "item",
+   "name": "Upgrade: Stupefy",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_swimspeed": {
+   "kind": "item",
+   "name": "Upgrade: Swim Speed",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_time_protection": {
+   "kind": "item",
+   "name": "Upgrade: Time Protection",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_treefeller": {
+   "kind": "item",
+   "name": "Upgrade: Treefeller",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_walkspeed": {
+   "kind": "item",
+   "name": "Upgrade: Walk Speed",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:upgrade_waterbreathing": {
+   "kind": "item",
+   "name": "Upgrade: Water Breathing",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:voidshift_wand": {
+   "kind": "item",
+   "name": "Voidshift Wand",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "justdirethings:xp_fluid_bucket": {
+   "kind": "item",
+   "name": "XP Fluid Bucket",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "Candidate scanned for the discovery pass; auto tags only.",
+  "class": "candidate",
+  "purpose": "Candidate (not in any pack)"
+ }
+}

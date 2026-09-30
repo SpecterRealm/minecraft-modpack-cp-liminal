@@ -10,19 +10,35 @@ Packs: V Verdant (overworld, no ore, tech-first), E Elysian (void, magic only, n
 |---|---|---|---|---|---|---|---|---|---|
 | apotheosis | EL | magic | armor | tooling, content | Gear power: sockets, reforging, affixes, bosses | - | partial | - | good |
 | irons-jewelry | EL | magic | armor |  | Jewelry for Iron's Spells | - | partial | - | partial |
+| actually-additions | - | tech+nature | automation | food | Mixed tech and nature machines; FE; supports Mekanism and Powah | partial | poor | - | - |
 | ars-controle | EL | magic | automation |  | Remote entity control, portable relays | - | partial | - |  |
+| botania | - | nature+magic | automation | resources, armor, tooling | Mana (not FE) runs generating and functional flowers: Orechid makes or | poor | good | partial | - |
 | ex-machinis-divitiae-deorum | VL | tech | automation |  | FE-powered sieve and hammer | good | - | - | good |
+| industrial-foregoing | - | tech | automation | resources, processing | Big machine set: crops, mobs, plastics, laser drill; FE | partial | poor | - | - |
+| integrated-crafting | - | tech | automation |  | Crafting interface for Integrated Dynamics | - | - | - | - |
+| integrated-dynamics | - | tech | automation |  | Logic-programmed automation with variables, readers and proxies; heavy | poor | - | partial | - |
+| just-dire-things | - | tech | automation | tooling | Machines and tools (goo, ferricore tools, portal tools); FE | partial | poor | - | - |
+| modular-routers | - | neutral | automation | storage | Item routers with modules: no power, no pipes; filters, sorters, extra | partial | good | good | - |
 | mystical-automation | EL | tech | automation |  | Machines automating Mystical Agriculture | - | poor | - | partial |
+| natures-aura | - | nature+magic | automation | power, resources | Aura powers a large machine set without FE: field creator (farm), auto | - | good | partial | - |
 | building-gadgets | VL | tech | building |  | FE-powered copy/paste and building tools | partial | - | - | partial |
+| supplementaries | - | neutral | building | qol | Decor, small gadgets and quality of life (sack, cage, pulley, flags) | partial | partial | partial | partial |
 | ars-elemancy | EL | magic | combat | armor | Elemental armor and foci (needs Ars Elemental) | - | partial | - |  |
 | ars-elemental | EL | magic | combat | armor | Four elemental schools: glyphs, armor, foci | - | good | - |  |
 | ars-zero | EL | magic | combat |  | New cast devices and glyphs | - | partial | - |  |
 | irons-spells-n-spellbooks | EL | magic | combat | armor, content | Spellbooks, staffs, armor, mithril | - | good | - | good |
 | apothic-spawners | EL | magic | content |  | Spawner tweaks for Apotheosis | - | partial | - | partial |
 | ars-nouveau | EL | magic | content | power, automation, processing | Spell system; Source power; familiars automate | - | good | - |  |
+| blood-magic-neovitae | - | magic | content | automation | Blood magic: life-essence network, altars, rituals and sigils | - | partial | - | - |
+| eidolon-repraised | - | magic | content | armor | Witchcraft, souls, research and gear | - | partial | - | - |
+| evilcraft | - | magic | content | armor, tooling | Dark magic: blood infuser, undead trees, spirit furnace, gear; fluids  | - | partial | - | - |
+| forbidden-arcanus | - | magic | content | armor, tooling | Dark-arts crafting: Hephaestus forge, essences, darkstone, bosses | - | partial | - | - |
 | gateways-to-eternity | EL | magic | content |  | Gateway mob-wave challenges with rewards | - | partial | - | good |
 | improved-village-placement | L | nature | content |  | World generation / structures | - | - | - |  |
+| malum | - | magic | content | armor, tooling | Spirit magic: totems, spirit infusion, gear sets, dungeons | - | partial | - | partial |
+| minecolonies | - | neutral | content | automation | Colonies, citizens, buildings; the colony mod for Liminal | - | - | - | good |
 | not-enough-glyphs | EL | magic | content |  | More Ars glyph threads | - | partial | - |  |
+| roots-classic | - | nature+magic | content | resources | Druidic rituals and herbs (Roots 4 is the new version) | - | partial | - | - |
 | the-twilight-forest | L | nature+magic | content |  | Dimension with bosses, raids and loot | - | - | - | partial |
 | tough-as-nails | VEL | survival | content |  | Thirst and temperature | partial | partial | partial | partial |
 | towns-and-towers | L | nature | content |  | World generation / structures | - | - | - |  |
@@ -36,10 +52,14 @@ Packs: V Verdant (overworld, no ore, tech-first), E Elysian (void, magic only, n
 | enderio | - | tech+magic | power | processing, storage | Capacitor banks, conduits, machines (candidate) | - | - | - | - |
 | extreme-reactors | VIL | tech | power | storage | Reactor and turbine multiblocks; yellorium fuel | poor | - | poor | poor |
 | flux-networks | VIL | tech | power |  | Wireless FE transfer and flux storage | good | - | good | good |
+| immersive-engineering | - | steampunk+tech | power | processing, resources | Retro-industrial multiblocks: dynamo and generators, windmill/water wh | partial | poor | poor | - |
 | mekanism-generators | VL | tech | power |  | Heat, bio, gas, solar, wind generators; turbine, fission, fusion | good | - | - | good |
+| pneumaticcraft-repressurized | - | steampunk+tech | power | processing, automation | Pressure (air) is the power system: compressors, pressure tubes, assem | good | poor | good | - |
 | powah | VL | tech | power | storage | Tiered generators, cells, cables (starter to nitro) | good | - | - | good |
 | rftools-power | - | tech | power |  | Generators and power cells (candidate) | - | - | - | - |
+| thermal-expansion | - | tech | power | processing | Thermal series: machines, dynamos, flux storage | partial | - | - | - |
 | create | VL | steampunk | processing | power, automation | Kinetic power, crushing, mixing, logistics, trains | good | - | - | good |
+| create-steam-n-rails | - | steampunk | processing | content | Create add-on: trains and rails | partial | - | - | - |
 | mekanism | VL | tech | processing | power, storage, tooling, armor | Machines, factories, energy cubes, chemicals, tools | good | - | - | good |
 | mekanism-unleashed | VL | tech | processing |  | Higher upgrade limits, more operations per tick | partial | - | - | partial |
 | theurgy | EL | magic+alchemy | processing | resources | Alchemy: ore to sulfur (x5) to ingot | - | good | - | good |
@@ -73,11 +93,14 @@ Packs: V Verdant (overworld, no ore, tech-first), E Elysian (void, magic only, n
 | appliede | IL | tech | storage |  | AE2 to ProjectE bridge (EMC interface, transmutation terminal) | - | - |  |  |
 | ars-energistique | L | tech | storage |  | Source storage in AE2 (ME source jar, source cells) | - | - | - |  |
 | betterp2p | VL | tech | storage |  | Better AE2 P2P memory card |  | - | - |  |
+| compact-machines | - | sci-fi | storage | automation | Pocket rooms inside a block: build inward, not outward | - | - | good | - |
 | extended-terminal | VL | tech | storage |  | Tiered AE2 terminals (extended terminal) |  | - | - |  |
+| functional-storage | - | neutral | storage |  | Storage drawers with upgrades and a controller; compact bulk storage | partial | partial | good | - |
 | mega-cells | VL | tech | storage |  | Bigger AE2 storage cells and crafting (1M to 256M) |  | - | - |  |
 | merequester | VL | tech | storage |  | Request items into an AE2 network |  | - | - |  |
 | not-enough-patterns | VL | tech | storage |  | AE2 patterns for Create, sequenced assembly and more |  | - | - |  |
 | projectextendedadvancedae | L | tech | storage |  | ProjectE x AdvancedAE bridge | - | - | - |  |
+| refined-storage | - | tech | storage | automation | Network storage and autocrafting (Refined Storage 2): the main alterna | poor | - | poor | - |
 | sophisticated-backpacks | VEIL | neutral | storage |  | Wearable storage with upgrades | good | good | good | good |
 | sophisticated-storage | VEIL | neutral | storage |  | Barrels, chests and upgrades | good | good | good | good |
 | apothic-enchanting | EL | magic | tooling | armor | Higher-level enchanting via shelves | - | good | - | good |

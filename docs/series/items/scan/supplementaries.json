@@ -1,0 +1,3401 @@
+{
+ "repo": "MehVahdJukaar/Supplementaries",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "supplementaries"
+ ],
+ "item_count": 411,
+ "compat": [
+  {
+   "id": "ars_nouveau",
+   "slug": "ars-nouveau",
+   "evidence": {
+    "data-ref": 6
+   }
+  },
+  {
+   "id": "cloth_config",
+   "slug": "cloth-config",
+   "evidence": {
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "create",
+   "slug": "create",
+   "evidence": {
+    "compat-import": 16,
+    "data-ref": 18,
+    "dependency": 1,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "compat-import": 1,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "emi",
+   "slug": "emi",
+   "evidence": {
+    "compat-import": 2,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "farmersdelight",
+   "slug": "farmers-delight",
+   "evidence": {
+    "compat-import": 4,
+    "data-ref": 29,
+    "dependency": 1,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "jade",
+   "slug": "jade",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 1,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "moonlight",
+   "slug": "selene",
+   "evidence": {
+    "compat-import": 40,
+    "data-ref": 149,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "sodium",
+   "slug": "sodium",
+   "evidence": {
+    "compat-import": 2,
+    "dependency": 1,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "twilightforest",
+   "slug": "the-twilight-forest",
+   "evidence": {
+    "data-ref": 12,
+    "isLoaded": 1
+   }
+  }
+ ],
+ "items": {
+  "supplementaries:banner.dragon.black": {
+   "kind": "block",
+   "name": "Black Dragon Charge",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:banner.dragon.blue": {
+   "kind": "block",
+   "name": "Blue Dragon Charge",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:banner.dragon.brown": {
+   "kind": "block",
+   "name": "Brown Dragon Charge",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:banner.dragon.cyan": {
+   "kind": "block",
+   "name": "Cyan Dragon Charge",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:banner.dragon.gray": {
+   "kind": "block",
+   "name": "Gray Dragon Charge",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:banner.dragon.green": {
+   "kind": "block",
+   "name": "Green Dragon Charge",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:banner.dragon.light_blue": {
+   "kind": "block",
+   "name": "Light Blue Dragon Charge",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:banner.dragon.light_gray": {
+   "kind": "block",
+   "name": "Light Gray Dragon Charge",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:banner.dragon.lime": {
+   "kind": "block",
+   "name": "Lime Dragon Charge",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:banner.dragon.magenta": {
+   "kind": "block",
+   "name": "Magenta Dragon Charge",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:banner.dragon.orange": {
+   "kind": "block",
+   "name": "Orange Dragon Charge",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:banner.dragon.pink": {
+   "kind": "block",
+   "name": "Pink Dragon Charge",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:banner.dragon.purple": {
+   "kind": "block",
+   "name": "Purple Dragon Charge",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:banner.dragon.red": {
+   "kind": "block",
+   "name": "Red Dragon Charge",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:banner.dragon.white": {
+   "kind": "block",
+   "name": "White Dragon Charge",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:banner.dragon.yellow": {
+   "kind": "block",
+   "name": "Yellow Dragon Charge",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:dragon_banner_pattern": {
+   "kind": "item",
+   "name": "Banner Pattern",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:blast_armor_trim_smithing_template": {
+   "kind": "item",
+   "name": "Smithing Template",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:ash": {
+   "kind": "item",
+   "name": "Ash",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:ash_bricks": {
+   "kind": "block",
+   "name": "Ash Bricks",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:ash_bricks_slab": {
+   "kind": "block",
+   "name": "Ash Brick Slab",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:ash_bricks_stairs": {
+   "kind": "block",
+   "name": "Ash Brick Stairs",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:ash_bricks_wall": {
+   "kind": "block",
+   "name": "Ash Brick Wall",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:ashen_basalt": {
+   "kind": "block",
+   "name": "Basalt",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:barnacles": {
+   "kind": "block",
+   "name": "Barnacles",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:awning": {
+   "kind": "block",
+   "name": "Awning",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:awning_black": {
+   "kind": "block",
+   "name": "Black Awning",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:awning_blue": {
+   "kind": "block",
+   "name": "Blue Awning",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:awning_brown": {
+   "kind": "block",
+   "name": "Brown Awning",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:awning_cyan": {
+   "kind": "block",
+   "name": "Cyan Awning",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:awning_gray": {
+   "kind": "block",
+   "name": "Gray Awning",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:awning_green": {
+   "kind": "block",
+   "name": "Green Awning",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:awning_light_blue": {
+   "kind": "block",
+   "name": "Light Blue Awning",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:awning_light_gray": {
+   "kind": "block",
+   "name": "Light Gray Awning",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:awning_lime": {
+   "kind": "block",
+   "name": "Lime Awning",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:awning_magenta": {
+   "kind": "block",
+   "name": "Magenta Awning",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:awning_orange": {
+   "kind": "block",
+   "name": "Orange Awning",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:awning_pink": {
+   "kind": "block",
+   "name": "Pink Awning",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:awning_purple": {
+   "kind": "block",
+   "name": "Purple Awning",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:awning_red": {
+   "kind": "block",
+   "name": "Red Awning",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:awning_white": {
+   "kind": "block",
+   "name": "White Awning",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:awning_yellow": {
+   "kind": "block",
+   "name": "Yellow Awning",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bamboo_spikes": {
+   "kind": "block",
+   "name": "Bamboo Spikes",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bellows": {
+   "kind": "block",
+   "name": "Bellows",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:blackboard": {
+   "kind": "block",
+   "name": "Blackboard",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:blackstone_lamp": {
+   "kind": "block",
+   "name": "Blackstone Lamp",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:blackstone_tile": {
+   "kind": "block",
+   "name": "Blackstone Tiles",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:blackstone_tile_slab": {
+   "kind": "block",
+   "name": "Blackstone Tile Slab",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:blackstone_tile_stairs": {
+   "kind": "block",
+   "name": "Blackstone Tile Stairs",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:blackstone_tile_wall": {
+   "kind": "block",
+   "name": "Blackstone Tile Wall",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:blaze_rod": {
+   "kind": "block",
+   "name": "Blaze Rod",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:breeze_rod": {
+   "kind": "block",
+   "name": "Breeze Rod",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bubble_block": {
+   "kind": "block",
+   "name": "Bubble Block",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:cage": {
+   "kind": "block",
+   "name": "Cage",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:candelabra": {
+   "kind": "block",
+   "name": "Gold Candelabra",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:candle_holder": {
+   "kind": "block",
+   "name": "Candle Holder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:candle_holder_black": {
+   "kind": "block",
+   "name": "Black Candle Holder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:candle_holder_blue": {
+   "kind": "block",
+   "name": "Blue Candle Holder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:candle_holder_brown": {
+   "kind": "block",
+   "name": "Brown Candle Holder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:candle_holder_cyan": {
+   "kind": "block",
+   "name": "Cyan Candle Holder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:candle_holder_gray": {
+   "kind": "block",
+   "name": "Gray Candle Holder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:candle_holder_green": {
+   "kind": "block",
+   "name": "Green Candle Holder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:candle_holder_light_blue": {
+   "kind": "block",
+   "name": "Light Blue Candle Holder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:candle_holder_light_gray": {
+   "kind": "block",
+   "name": "Light Gray Candle Holder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:candle_holder_lime": {
+   "kind": "block",
+   "name": "Lime Candle Holder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:candle_holder_magenta": {
+   "kind": "block",
+   "name": "Magenta Candle Holder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:candle_holder_orange": {
+   "kind": "block",
+   "name": "Orange Candle Holder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:candle_holder_pink": {
+   "kind": "block",
+   "name": "Pink Candle Holder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:candle_holder_purple": {
+   "kind": "block",
+   "name": "Purple Candle Holder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:candle_holder_red": {
+   "kind": "block",
+   "name": "Red Candle Holder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:candle_holder_soul": {
+   "kind": "block",
+   "name": "Soul Candle Holder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:candle_holder_ender": {
+   "kind": "block",
+   "name": "Ender Candle Holder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:candle_holder_cupric": {
+   "kind": "block",
+   "name": "Cupric Candle Holder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:candle_holder_spectacle": {
+   "kind": "block",
+   "name": "Spectacle Candle Holder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:candle_holder_white": {
+   "kind": "block",
+   "name": "White Candle Holder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:candle_holder_yellow": {
+   "kind": "block",
+   "name": "Yellow Candle Holder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:cannon": {
+   "kind": "block",
+   "name": "Cannon",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:cannonball": {
+   "kind": "entity",
+   "name": "Cannonball",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:checker_block": {
+   "kind": "block",
+   "name": "Checker Block",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:checker_slab": {
+   "kind": "block",
+   "name": "Checker Slab",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:clock_block": {
+   "kind": "block",
+   "name": "Clock Block",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:cog_block": {
+   "kind": "block",
+   "name": "Cog Block",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:crank": {
+   "kind": "block",
+   "name": "Crank",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:crystal_display": {
+   "kind": "block",
+   "name": "Crystal Display",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:daub": {
+   "kind": "block",
+   "name": "Daub",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:daub_brace": {
+   "kind": "block",
+   "name": "Wattle and Daub Brace",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:daub_cross_brace": {
+   "kind": "block",
+   "name": "Wattle and Daub Cross Brace",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:daub_frame": {
+   "kind": "block",
+   "name": "Wattle and Daub Frame",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:deepslate_lamp": {
+   "kind": "block",
+   "name": "Deepslate Lamp",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:doormat": {
+   "kind": "block",
+   "name": "Doormat",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:end_stone_lamp": {
+   "kind": "block",
+   "name": "End Stone Lamp",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:enderman_head": {
+   "kind": "block",
+   "name": "Enderman Head",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:faucet": {
+   "kind": "block",
+   "name": "Faucet",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:feather_block": {
+   "kind": "block",
+   "name": "Feather Block",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:fine_wood": {
+   "kind": "block",
+   "name": "Fine Wood",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:fine_wood_slab": {
+   "kind": "block",
+   "name": "Fine Wood Slab",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:fine_wood_stairs": {
+   "kind": "block",
+   "name": "Fine Wood Stairs",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:fire_pit": {
+   "kind": "block",
+   "name": "Fire Pit",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:ominous_flag": {
+   "kind": "block",
+   "name": "Ominous Flag",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:flag": {
+   "kind": "block",
+   "name": "Flag",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:flag_black": {
+   "kind": "block",
+   "name": "Black Flag",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:flag_blue": {
+   "kind": "block",
+   "name": "Blue Flag",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:flag_brown": {
+   "kind": "block",
+   "name": "Brown Flag",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:flag_cyan": {
+   "kind": "block",
+   "name": "Cyan Flag",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:flag_gray": {
+   "kind": "block",
+   "name": "Gray Flag",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:flag_green": {
+   "kind": "block",
+   "name": "Green Flag",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:flag_light_blue": {
+   "kind": "block",
+   "name": "Light Blue Flag",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:flag_light_gray": {
+   "kind": "block",
+   "name": "Light Gray Flag",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:flag_lime": {
+   "kind": "block",
+   "name": "Lime Flag",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:flag_magenta": {
+   "kind": "block",
+   "name": "Magenta Flag",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:flag_orange": {
+   "kind": "block",
+   "name": "Orange Flag",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:flag_pink": {
+   "kind": "block",
+   "name": "Pink Flag",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:flag_purple": {
+   "kind": "block",
+   "name": "Purple Flag",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:flag_red": {
+   "kind": "block",
+   "name": "Red Flag",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:flag_white": {
+   "kind": "block",
+   "name": "White Flag",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:flag_yellow": {
+   "kind": "block",
+   "name": "Yellow Flag",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:flax": {
+   "kind": "item",
+   "name": "Flax",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:flax_block": {
+   "kind": "block",
+   "name": "Flax Bale",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:flint_block": {
+   "kind": "block",
+   "name": "Block of Flint",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:flower_box": {
+   "kind": "block",
+   "name": "Flower Box",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:fodder": {
+   "kind": "block",
+   "name": "Fodder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:globe": {
+   "kind": "block",
+   "name": "Globe",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:globe_sepia": {
+   "kind": "block",
+   "name": "Sepia Globe",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:goblet": {
+   "kind": "block",
+   "name": "Goblet",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:gold_door": {
+   "kind": "block",
+   "name": "Gold Door",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:gold_gate": {
+   "kind": "block",
+   "name": "Gold Gate",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:gold_lantern": {
+   "kind": "block",
+   "name": "Gold Lantern",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:gold_trapdoor": {
+   "kind": "block",
+   "name": "Gold Trapdoor",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:gravel_bricks": {
+   "kind": "block",
+   "name": "Gravel Bricks",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:grouper": {
+   "kind": "block",
+   "name": "Grouper",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:gunpowder": {
+   "kind": "block",
+   "name": "Gunpowder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:hourglass": {
+   "kind": "block",
+   "name": "Hourglass",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:iron_gate": {
+   "kind": "block",
+   "name": "Iron Gate",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:item_shelf": {
+   "kind": "block",
+   "name": "Item Shelf",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:jar": {
+   "kind": "block",
+   "name": "Jar",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:jar_boat": {
+   "kind": "block",
+   "name": "Boat in a Jar",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:jar_tinted": {
+   "kind": "block",
+   "name": "Tinted Jar",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:brittlestone": {
+   "kind": "block",
+   "name": "Brittlestone",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:brittlestone_bricks": {
+   "kind": "block",
+   "name": "Brittlestone Bricks",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:brittlestone_bricks_slab": {
+   "kind": "block",
+   "name": "Brittlestone Brick Slab",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:brittlestone_bricks_stairs": {
+   "kind": "block",
+   "name": "Brittlestone Brick Stairs",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:brittlestone_bricks_wall": {
+   "kind": "block",
+   "name": "Brittlestone Brick Wall",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:lapis_bricks": {
+   "kind": "block",
+   "name": "Lapis Bricks",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:lapis_bricks_slab": {
+   "kind": "block",
+   "name": "Lapis Brick Slab",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:lapis_bricks_stairs": {
+   "kind": "block",
+   "name": "Lapis Brick Stairs",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:lapis_bricks_wall": {
+   "kind": "block",
+   "name": "Lapis Brick Wall",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:lead_door": {
+   "kind": "block",
+   "name": "Lead Door",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:lead_lantern": {
+   "kind": "block",
+   "name": "Lead Lantern",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:lead_trapdoor": {
+   "kind": "block",
+   "name": "Lead Trapdoor",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:lock_block": {
+   "kind": "block",
+   "name": "Lock Block",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:lumisene": {
+   "kind": "item",
+   "name": "Lumisene",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:lunch_basket": {
+   "kind": "item",
+   "name": "Lunch Basket",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:netherite_door": {
+   "kind": "block",
+   "name": "Netherite Door",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:netherite_trapdoor": {
+   "kind": "block",
+   "name": "Netherite Trapdoor",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:notice_board": {
+   "kind": "block",
+   "name": "Notice Board",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:pancake": {
+   "kind": "block",
+   "name": "Pancake",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:pedestal": {
+   "kind": "block",
+   "name": "Pedestal",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:pignata": {
+   "kind": "block",
+   "name": "Pignata",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:planter": {
+   "kind": "block",
+   "name": "Planter",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:potted_flax": {
+   "kind": "block",
+   "name": "Potted Flax",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:present": {
+   "kind": "block",
+   "name": "Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:present_black": {
+   "kind": "block",
+   "name": "Black Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:present_blue": {
+   "kind": "block",
+   "name": "Blue Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:present_brown": {
+   "kind": "block",
+   "name": "Brown Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:present_cyan": {
+   "kind": "block",
+   "name": "Cyan Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:present_gray": {
+   "kind": "block",
+   "name": "Gray Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:present_green": {
+   "kind": "block",
+   "name": "Green Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:present_light_blue": {
+   "kind": "block",
+   "name": "Light Blue Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:present_light_gray": {
+   "kind": "block",
+   "name": "Light Gray Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:present_lime": {
+   "kind": "block",
+   "name": "Lime Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:present_magenta": {
+   "kind": "block",
+   "name": "Magenta Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:present_orange": {
+   "kind": "block",
+   "name": "Orange Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:present_pink": {
+   "kind": "block",
+   "name": "Pink Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:present_purple": {
+   "kind": "block",
+   "name": "Purple Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:present_red": {
+   "kind": "block",
+   "name": "Red Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:present_white": {
+   "kind": "block",
+   "name": "White Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:present_yellow": {
+   "kind": "block",
+   "name": "Yellow Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:pulley_block": {
+   "kind": "block",
+   "name": "Pulley Block",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:raked_gravel": {
+   "kind": "block",
+   "name": "Raked Gravel",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:redstone_illuminator": {
+   "kind": "block",
+   "name": "Redstone Illuminator",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:relayer": {
+   "kind": "block",
+   "name": "Relayer",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:rope": {
+   "kind": "block",
+   "name": "Rope",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:rope_knot": {
+   "kind": "block",
+   "name": "Roped Post",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:sack": {
+   "kind": "block",
+   "name": "Sack",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:safe": {
+   "kind": "block",
+   "name": "Safe",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:sconce": {
+   "kind": "block",
+   "name": "Sconce",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:sconce_ender": {
+   "kind": "block",
+   "name": "Ender Sconce",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:sconce_wall_ender": {
+   "kind": "block",
+   "name": "Ender Sconce",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:sconce_glow": {
+   "kind": "block",
+   "name": "Glowlight Sconce",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:sconce_wall_glow": {
+   "kind": "block",
+   "name": "Glowlight Sconce",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:sconce_green": {
+   "kind": "block",
+   "name": "Cupric Sconce",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:sconce_wall_green": {
+   "kind": "block",
+   "name": "Cupric Sconce",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:sconce_lever": {
+   "kind": "block",
+   "name": "Sconce Lever",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:sconce_nether_brass": {
+   "kind": "block",
+   "name": "Nether Brass Sconce",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:sconce_wall_nether_brass": {
+   "kind": "block",
+   "name": "Nether Brass Sconce",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:sconce_soul": {
+   "kind": "block",
+   "name": "Soul Sconce",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:sconce_wall_soul": {
+   "kind": "block",
+   "name": "Soul Sconce",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:sconce_wall": {
+   "kind": "block",
+   "name": "Sconce",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:skull_candle": {
+   "kind": "block",
+   "name": "Skull Candle",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:slidy_block": {
+   "kind": "block",
+   "name": "Sliding Block",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:soap_block": {
+   "kind": "block",
+   "name": "Soap Block",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:speaker_block": {
+   "kind": "block",
+   "name": "Speaker Block",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:spring_launcher": {
+   "kind": "block",
+   "name": "Spring Launcher",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:spring_launcher_arm": {
+   "kind": "block",
+   "name": "Spring Launcher Arm",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:spring_launcher_head": {
+   "kind": "block",
+   "name": "Spring Launcher",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:statue": {
+   "kind": "block",
+   "name": "Statue",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:stick": {
+   "kind": "block",
+   "name": "Stick",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:stone_lamp": {
+   "kind": "block",
+   "name": "Stone Lamp",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:stone_tile": {
+   "kind": "block",
+   "name": "Stone Tiles",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:stone_tile_slab": {
+   "kind": "block",
+   "name": "Stone Tile Slab",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:stone_tile_stairs": {
+   "kind": "block",
+   "name": "Stone Tile Stairs",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:stone_tile_wall": {
+   "kind": "block",
+   "name": "Stone Tile Wall",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:structure_temp": {
+   "kind": "block",
+   "name": "0",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:sugar_cube": {
+   "kind": "block",
+   "name": "Sugar Cube",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:suspicious_gravel_bricks": {
+   "kind": "block",
+   "name": "Suspicious Gravel Bricks",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:tater_in_a_jar": {
+   "kind": "block",
+   "name": "Tater in a Jar",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:timber_brace": {
+   "kind": "block",
+   "name": "Timber Brace",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:timber_cross_brace": {
+   "kind": "block",
+   "name": "Timber Cross Brace",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:timber_frame": {
+   "kind": "block",
+   "name": "Timber Frame",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:gold_bars": {
+   "kind": "block",
+   "name": "Gold Bars",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:trapped_present": {
+   "kind": "block",
+   "name": "Trapped Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:trapped_present_black": {
+   "kind": "block",
+   "name": "Trapped Black Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:trapped_present_blue": {
+   "kind": "block",
+   "name": "Trapped Blue Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:trapped_present_brown": {
+   "kind": "block",
+   "name": "Trapped Brown Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:trapped_present_cyan": {
+   "kind": "block",
+   "name": "Trapped Cyan Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:trapped_present_gray": {
+   "kind": "block",
+   "name": "Trapped Gray Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:trapped_present_green": {
+   "kind": "block",
+   "name": "Trapped Green Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:trapped_present_light_blue": {
+   "kind": "block",
+   "name": "Trapped Light Blue Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:trapped_present_light_gray": {
+   "kind": "block",
+   "name": "Trapped Light Gray Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:trapped_present_lime": {
+   "kind": "block",
+   "name": "Trapped Lime Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:trapped_present_magenta": {
+   "kind": "block",
+   "name": "Trapped Magenta Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:trapped_present_orange": {
+   "kind": "block",
+   "name": "Trapped Orange Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:trapped_present_pink": {
+   "kind": "block",
+   "name": "Trapped Pink Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:trapped_present_purple": {
+   "kind": "block",
+   "name": "Trapped Purple Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:trapped_present_red": {
+   "kind": "block",
+   "name": "Trapped Red Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:trapped_present_white": {
+   "kind": "block",
+   "name": "Trapped White Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:trapped_present_yellow": {
+   "kind": "block",
+   "name": "Trapped Yellow Present",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:turn_table": {
+   "kind": "block",
+   "name": "Turn Table",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:urn": {
+   "kind": "block",
+   "name": "Urn",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:way_sign": {
+   "kind": "item",
+   "name": "%s Way Sign",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:wicker_fence": {
+   "kind": "block",
+   "name": "Wicker Fence",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:wild_flax": {
+   "kind": "block",
+   "name": "Wild Flax",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:wind_vane": {
+   "kind": "block",
+   "name": "Wind Vane",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:spider_head": {
+   "kind": "block",
+   "name": "Spider Head",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:plunderer": {
+   "kind": "entity",
+   "name": "Plunderer",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:brick_projectile": {
+   "kind": "entity",
+   "name": "Brick Projectile",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:cannon_boat": {
+   "kind": "item",
+   "name": "%s Boat with Cannon",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:dispenser_minecart": {
+   "kind": "item",
+   "name": "Minecart with Dispenser",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:falling_ash": {
+   "kind": "entity",
+   "name": "Falling Ash",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:falling_lantern": {
+   "kind": "entity",
+   "name": "Falling Lantern",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:falling_urn": {
+   "kind": "entity",
+   "name": "Falling Urn",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:hat_stand": {
+   "kind": "item",
+   "name": "Hat Stand",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:red_merchant": {
+   "kind": "entity",
+   "name": "Red Merchant",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:rope_arrow": {
+   "kind": "item",
+   "name": "Rope Arrow",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:slimeball_projectile": {
+   "kind": "entity",
+   "name": "Slimeball Projectile",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:slingshot_projectile": {
+   "kind": "entity",
+   "name": "Slingshot Projectile",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:throwable_brick": {
+   "kind": "entity",
+   "name": "Brick Projectile",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:experience": {
+   "kind": "fluid",
+   "name": "Experience",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:honey": {
+   "kind": "fluid",
+   "name": "Honey",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:jar_fluid": {
+   "kind": "fluid",
+   "name": "Jar Fluid",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:milk": {
+   "kind": "fluid",
+   "name": "Milk",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:sap": {
+   "kind": "fluid",
+   "name": "Sap",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:slime": {
+   "kind": "fluid",
+   "name": "Slime",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:altimeter": {
+   "kind": "item",
+   "name": "Altimeter",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:antique_ink": {
+   "kind": "item",
+   "name": "Antique Ink",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:ash_brick": {
+   "kind": "item",
+   "name": "Ash Brick",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bamboo_spikes_tipped": {
+   "kind": "item",
+   "name": "Tipped Bamboo Spikes",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bamboo_spikes_tipped.effect": {
+   "kind": "item",
+   "name": "Bamboo Spikes of %s",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bomb": {
+   "kind": "item",
+   "name": "Bomb",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bomb_blue": {
+   "kind": "item",
+   "name": "Blue Bomb",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bomb_blue_projectile": {
+   "kind": "item",
+   "name": "Blue Bomb",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bomb_projectile": {
+   "kind": "item",
+   "name": "Bomb",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bubble_blower": {
+   "kind": "item",
+   "name": "Bubble Blower",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bunting": {
+   "kind": "item",
+   "name": "Bunting",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bunting_black": {
+   "kind": "block",
+   "name": "Black Bunting",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bunting_blue": {
+   "kind": "block",
+   "name": "Blue Bunting",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bunting_brown": {
+   "kind": "block",
+   "name": "Brown Bunting",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bunting_cyan": {
+   "kind": "block",
+   "name": "Cyan Bunting",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bunting_gray": {
+   "kind": "block",
+   "name": "Gray Bunting",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bunting_green": {
+   "kind": "block",
+   "name": "Green Bunting",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bunting_light_blue": {
+   "kind": "block",
+   "name": "Light Blue Bunting",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bunting_light_gray": {
+   "kind": "block",
+   "name": "Light Gray Bunting",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bunting_lime": {
+   "kind": "block",
+   "name": "Lime Bunting",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bunting_magenta": {
+   "kind": "block",
+   "name": "Magenta Bunting",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bunting_orange": {
+   "kind": "block",
+   "name": "Orange Bunting",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bunting_pink": {
+   "kind": "block",
+   "name": "Pink Bunting",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bunting_purple": {
+   "kind": "block",
+   "name": "Purple Bunting",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bunting_red": {
+   "kind": "block",
+   "name": "Red Bunting",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bunting_white": {
+   "kind": "block",
+   "name": "White Bunting",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:bunting_yellow": {
+   "kind": "block",
+   "name": "Yellow Bunting",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:candy": {
+   "kind": "item",
+   "name": "Candy",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:cartographers_quill": {
+   "kind": "item",
+   "name": "Cartographer's Quill",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:confetti_popper": {
+   "kind": "item",
+   "name": "Confetti Popper",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:flax_seeds": {
+   "kind": "item",
+   "name": "Flax Seeds",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:flute": {
+   "kind": "item",
+   "name": "Flute",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:lumisene_bottle": {
+   "kind": "item",
+   "name": "Lumisene Bottle",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:lumisene_bucket": {
+   "kind": "item",
+   "name": "Lumisene Bucket",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:music_disc_heave_ho": {
+   "kind": "item",
+   "name": "Music Disc",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:pancake_disc": {
+   "kind": "item",
+   "name": "Pancake",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:quiver": {
+   "kind": "item",
+   "name": "Quiver",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:red_merchant_spawn_egg": {
+   "kind": "item",
+   "name": "Red Merchant Spawn Egg",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:plunderer_spawn_egg": {
+   "kind": "item",
+   "name": "Plunderer Spawn Egg",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:slice_map": {
+   "kind": "item",
+   "name": "Slice Map",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:slingshot": {
+   "kind": "item",
+   "name": "Slingshot",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:soap": {
+   "kind": "item",
+   "name": "Soap",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:soap_water": {
+   "kind": "item",
+   "name": "Soapy Water",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:speedometer": {
+   "kind": "item",
+   "name": "Speedometer",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:cannon_raft": {
+   "kind": "item",
+   "name": "%s Raft with Cannon",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:cannon_raft_bamboo": {
+   "kind": "item",
+   "name": "Bamboo Raft with Cannon",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "supplementaries:wrench": {
+   "kind": "item",
+   "name": "Wrench",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.awnings": {
+   "kind": "item",
+   "name": "Awnings",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.bamboo_spikes": {
+   "kind": "item",
+   "name": "Bamboo Spikes",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.column_shape_10x10": {
+   "kind": "block",
+   "name": "10x10 Column Shape",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.bellows_tickable": {
+   "kind": "block",
+   "name": "Bellows Tickable",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.bomb_breakable": {
+   "kind": "block",
+   "name": "Bomb Breakable",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.bouncy_blocks": {
+   "kind": "block",
+   "name": "Deflects Bombs",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.brick_breakable": {
+   "kind": "block",
+   "name": "Brick Breakable",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.brick_breakable_recursive": {
+   "kind": "block",
+   "name": "Brick Breakable Recursive",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.candle_holders": {
+   "kind": "item",
+   "name": "Candle Holders",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.fast_fall_climbable": {
+   "kind": "block",
+   "name": "Climbable No Fall Slowdown",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.faucet_connection_blacklist": {
+   "kind": "block",
+   "name": "Faucet Connection Blacklist",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.faucet_connection_whitelist": {
+   "kind": "block",
+   "name": "Faucet Connection Whitelist",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.flags": {
+   "kind": "item",
+   "name": "Flags",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.flint_metals": {
+   "kind": "block",
+   "name": "Sparks Flint Block",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.frame_block_blacklist": {
+   "kind": "block",
+   "name": "Frame Block Blacklist",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.gravel_bricks": {
+   "kind": "block",
+   "name": "Gravel Bricks",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.hang_from_ropes": {
+   "kind": "block",
+   "name": "Hang From Ropes",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.item_shelves": {
+   "kind": "item",
+   "name": "Item Shelves",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.lightable_by_gunpowder": {
+   "kind": "block",
+   "name": "Lightable By Gunpowder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.lights_gunpowder": {
+   "kind": "block",
+   "name": "Lights Gunpowder",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.map_tint_blacklist": {
+   "kind": "block",
+   "name": "Map Tint Blacklist",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.map_tint_foliage_color": {
+   "kind": "block",
+   "name": "Map Tint Foliage Color",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.map_tint_generic": {
+   "kind": "block",
+   "name": "Map Tint Generic",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.map_tint_grass_color": {
+   "kind": "block",
+   "name": "Map Tint Grass Color",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.map_tint_water_color": {
+   "kind": "block",
+   "name": "Map Tint Water Color",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.column_shape_6x6": {
+   "kind": "block",
+   "name": "6x6 Column Shape",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.column_shape_4x4": {
+   "kind": "block",
+   "name": "4x4 Column Shape",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.presents": {
+   "kind": "item",
+   "name": "Presents",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.prevents_offset_above": {
+   "kind": "block",
+   "name": "Prevents Offset Above",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.rope_support": {
+   "kind": "block",
+   "name": "Rope Support",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.sconces": {
+   "kind": "item",
+   "name": "Sconces",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.timber_frames": {
+   "kind": "item",
+   "name": "Timber Frames",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.trapped_presents": {
+   "kind": "item",
+   "name": "Trapped Presents",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.turn_table_cant_shuffle": {
+   "kind": "block",
+   "name": "Turn Table Cant Shuffle Content",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.un_rotatable": {
+   "kind": "block",
+   "name": "Un-Rotatable",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.vine_support": {
+   "kind": "block",
+   "name": "Vine Support",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.wall_lanterns_blacklist": {
+   "kind": "block",
+   "name": "Wall Lanterns Blacklist",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.wall_lanterns_whitelist": {
+   "kind": "block",
+   "name": "Wall Lanterns Whitelist",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.column_shape_8x8": {
+   "kind": "block",
+   "name": "8x8 Column Shape",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.water_holder": {
+   "kind": "block",
+   "name": "Water Holder From Rope",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.wattle_and_daubs": {
+   "kind": "item",
+   "name": "Wattle And Daubs",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.ignores_planter_offset": {
+   "kind": "block",
+   "name": "Ignores Planter Offset",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.altimeters": {
+   "kind": "item",
+   "name": "Altimeters",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.blackboard_black": {
+   "kind": "item",
+   "name": "Blackboard Black",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.blackboard_blue": {
+   "kind": "item",
+   "name": "Blackboard Blue",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.blackboard_brown": {
+   "kind": "item",
+   "name": "Blackboard Brown",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.blackboard_cyan": {
+   "kind": "item",
+   "name": "Blackboard Cyan",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.blackboard_gray": {
+   "kind": "item",
+   "name": "Blackboard Gray",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.blackboard_green": {
+   "kind": "item",
+   "name": "Blackboard Green",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.blackboard_light_blue": {
+   "kind": "item",
+   "name": "Blackboard Light Blue",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.blackboard_light_gray": {
+   "kind": "item",
+   "name": "Blackboard Light Gray",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.blackboard_lime": {
+   "kind": "item",
+   "name": "Blackboard Lime",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.blackboard_magenta": {
+   "kind": "item",
+   "name": "Blackboard Magenta",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.blackboard_orange": {
+   "kind": "item",
+   "name": "Blackboard Orange",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.blackboard_pink": {
+   "kind": "item",
+   "name": "Blackboard Pink",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.blackboard_purple": {
+   "kind": "item",
+   "name": "Blackboard Purple",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.blackboard_red": {
+   "kind": "item",
+   "name": "Blackboard Red",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.blackboard_white": {
+   "kind": "item",
+   "name": "Blackboard White",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.blackboard_yellow": {
+   "kind": "item",
+   "name": "Blackboard Yellow",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.buntings": {
+   "kind": "block",
+   "name": "Buntings",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.cannon_boats": {
+   "kind": "item",
+   "name": "Cannon Boats",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.causes_lightning_when_held": {
+   "kind": "item",
+   "name": "Causes Lightning When Held",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.chains": {
+   "kind": "item",
+   "name": "Chains",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.chocolate_bars": {
+   "kind": "item",
+   "name": "Chocolate Bars",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.cookies": {
+   "kind": "item",
+   "name": "Cookies",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.enchantable.stasis": {
+   "kind": "item",
+   "name": "Stasis",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.fire_sources": {
+   "kind": "item",
+   "name": "Fire Sources",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.flower_box_plantable": {
+   "kind": "item",
+   "name": "Flower Box Plantable",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.flower_box_tall_plantable": {
+   "kind": "item",
+   "name": "Tall Flowers Plantable in Flower Box",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.globes": {
+   "kind": "block",
+   "name": "Globes",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.hourglass_dusts": {
+   "kind": "item",
+   "name": "Hourglass Dusts",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.hourglass_sands": {
+   "kind": "item",
+   "name": "Hourglass Sands",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.ignite_flint_blocks": {
+   "kind": "item",
+   "name": "Ignite Flint Blocks",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.jar_cookies": {
+   "kind": "item",
+   "name": "Jar Cookies",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.lunch_basket_blacklist": {
+   "kind": "item",
+   "name": "Lunch Basket Blacklist",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.overencumbering": {
+   "kind": "item",
+   "name": "Overencumbering",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.pancake_syrup": {
+   "kind": "item",
+   "name": "Pancake Syrup",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.pedestal_downright": {
+   "kind": "item",
+   "name": "Pedestal Downright",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.pedestal_upright": {
+   "kind": "item",
+   "name": "Pedestal Upright",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.quiver_blacklist": {
+   "kind": "item",
+   "name": "Quiver Blacklist",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.ropes": {
+   "kind": "item",
+   "name": "Ropes",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.shulker_blacklist": {
+   "kind": "item",
+   "name": "Shulker Blacklist",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.slingshot_blacklist": {
+   "kind": "item",
+   "name": "Slingshot Blacklist",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.cannon_blacklist": {
+   "kind": "item",
+   "name": "Cannon Blacklist",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.slingshot_damageable": {
+   "kind": "item",
+   "name": "Slingshot Damageable",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.statue_swords": {
+   "kind": "item",
+   "name": "Statue Swords",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.statue_tools": {
+   "kind": "item",
+   "name": "Statue Tools",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.straw": {
+   "kind": "item",
+   "name": "Straw",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.throwable_bricks": {
+   "kind": "item",
+   "name": "Throwable Bricks",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.throwable_slimeballs": {
+   "kind": "item",
+   "name": "Throwable Slimeballs",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.way_signs": {
+   "kind": "item",
+   "name": "Way Signs",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.barnacles_blacklist": {
+   "kind": "block",
+   "name": "Barnacles Blacklist",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.cannon_tnts": {
+   "kind": "block",
+   "name": "Cannon Tnts",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.faucet_cant_interact": {
+   "kind": "block",
+   "name": "Faucet Cant Interact",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.fine_wood": {
+   "kind": "block",
+   "name": "Fine Wood",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.ignited_by_explosion": {
+   "kind": "block",
+   "name": "Ignited By Explosion",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.rotateable_in_creative": {
+   "kind": "block",
+   "name": "Rotateable In Creative",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.sacks": {
+   "kind": "item",
+   "name": "Sacks",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.un_moveable_by_ropes": {
+   "kind": "block",
+   "name": "Un Moveable By Ropes",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.quiver_whitelist": {
+   "kind": "item",
+   "name": "Quiver Whitelist",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:supplementaries.weapon_projectile_overlay_blacklist": {
+   "kind": "item",
+   "name": "Weapon Projectile Overlay Blacklist",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "Candidate scanned for the discovery pass; auto tags only.",
+  "class": "candidate",
+  "purpose": "Candidate (not in any pack)"
+ }
+}
