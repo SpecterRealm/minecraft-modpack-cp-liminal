@@ -9,17 +9,176 @@
  },
  "unverified": "Defaults from source. Confirm against config/createaddition-common.toml in a running instance.",
  "tuning": [
-  {"lever": "config", "where": "config/createaddition-common.toml", "effect": "fe_at_max_rpm (480 FE/t at 256 RPM), max_stress, connector/accumulator/PEI/tesla-coil limits, wire lengths, accumulator size and capacity"},
-  {"lever": "recipe", "where": "data/createaddition/recipe/*", "effect": "Gate the electric chain behind the Create progression via KubeJS"}
+  {
+   "lever": "config",
+   "where": "config/createaddition-common.toml",
+   "effect": "fe_at_max_rpm (480 FE/t at 256 RPM), max_stress, connector/accumulator/PEI/tesla-coil limits, wire lengths, accumulator size and capacity"
+  },
+  {
+   "lever": "recipe",
+   "where": "data/createaddition/recipe/*",
+   "effect": "Gate the electric chain behind the Create progression via KubeJS"
+  }
+ ],
+ "compat": [
+  {
+   "mod": "create",
+   "kind": "dependency",
+   "what": "Required; 10 compat-imports, 80 data refs",
+   "weight": "high"
+  },
+  {
+   "mod": "mekanism",
+   "kind": "isLoaded",
+   "what": "Code path and data when Mekanism is present",
+   "weight": "medium"
+  },
+  {
+   "mod": "applied-energistics-2",
+   "kind": "isLoaded",
+   "what": "Code path and data when AE2 is present",
+   "weight": "medium"
+  }
  ],
  "items": [
-  {"id": "createaddition:alternator", "name": "Alternator", "category": "generator", "subcategory": "kinetic-to-fe", "stats": {"output_fe_t": [480], "note": "at 256 RPM; scales with RPM, capped by max_stress 16384 SU"}, "input": "Create rotation (stress)", "needs_power_to_start": false, "needs_ore": false, "tunable": ["config", "recipe"], "notes": "Bridges Create into FE: any Create power source (water wheel, windmill, steam engine) becomes FE. Makes a Powah/Mek starter generator optional if the pack leans Create early."},
-  {"id": "createaddition:electric_motor", "name": "Electric Motor", "category": "utility", "subcategory": "fe-to-kinetic", "stats": {"input_max_fe_t": 5000, "consumption_at_256rpm_fe_t": 480}, "input": "FE", "needs_power_to_start": true, "needs_ore": false, "tunable": ["config", "recipe"]},
-  {"id": "createaddition:accumulator", "name": "Modular Accumulator", "category": "energy-storage", "subcategory": "multiblock", "stats": {"capacity_fe": 2000000, "transfer_fe_t": 5000, "max_height": 5, "max_width": 3}, "input": "FE", "needs_power_to_start": false, "needs_ore": false, "tunable": ["config", "recipe"], "notes": "Multiblock battery; capacity is per-block, up to 3x3x5. Fills the Ender IO-style multiblock storage wish, at low tier."},
-  {"id": "createaddition:small_connector", "name": "Connector", "category": "energy-transfer", "subcategory": "wire", "stats": {"transfer_fe_t": 1000, "wire_length": 16}, "input": "FE", "needs_power_to_start": false, "needs_ore": false, "tunable": ["config", "recipe"], "notes": "Overlaps Flux Networks / Powah cables as the FE transfer tool."},
-  {"id": "createaddition:large_connector", "name": "Large Connector", "category": "energy-transfer", "subcategory": "wire", "stats": {"transfer_fe_t": 5000, "wire_length": 32}, "input": "FE", "needs_power_to_start": false, "needs_ore": false, "tunable": ["config", "recipe"]},
-  {"id": "createaddition:portable_energy_interface", "name": "Portable Energy Interface", "category": "energy-transfer", "subcategory": "contraption", "stats": {"transfer_fe_t": 5000}, "input": "FE", "needs_power_to_start": false, "needs_ore": false, "tunable": ["config"]},
-  {"id": "createaddition:tesla_coil", "name": "Tesla Coil", "category": "utility", "subcategory": "charger", "stats": {"capacity_fe": 40000, "charge_rate_fe_t": 5000}, "input": "FE", "needs_power_to_start": true, "needs_ore": false, "tunable": ["config"]},
-  {"id": "createaddition:liquid_blaze_burner", "name": "Liquid Blaze Burner", "category": "utility", "subcategory": "fuel", "stats": {"liquid_capacity_mb": 1000}, "input": "Bioethanol / seed oil style fuels", "needs_power_to_start": false, "needs_ore": false, "tunable": ["config"], "notes": "Also overlaps Mekanism Generators Bio-Generator on bioethanol."}
+  {
+   "id": "createaddition:alternator",
+   "name": "Alternator",
+   "category": "generator",
+   "subcategory": "kinetic-to-fe",
+   "stats": {
+    "output_fe_t": [
+     480
+    ],
+    "note": "at 256 RPM; scales with RPM, capped by max_stress 16384 SU"
+   },
+   "input": "Create rotation (stress)",
+   "needs_power_to_start": false,
+   "needs_ore": false,
+   "tunable": [
+    "config",
+    "recipe"
+   ],
+   "notes": "Bridges Create into FE: any Create power source (water wheel, windmill, steam engine) becomes FE. Makes a Powah/Mek starter generator optional if the pack leans Create early."
+  },
+  {
+   "id": "createaddition:electric_motor",
+   "name": "Electric Motor",
+   "category": "utility",
+   "subcategory": "fe-to-kinetic",
+   "stats": {
+    "input_max_fe_t": 5000,
+    "consumption_at_256rpm_fe_t": 480
+   },
+   "input": "FE",
+   "needs_power_to_start": true,
+   "needs_ore": false,
+   "tunable": [
+    "config",
+    "recipe"
+   ]
+  },
+  {
+   "id": "createaddition:accumulator",
+   "name": "Modular Accumulator",
+   "category": "energy-storage",
+   "subcategory": "multiblock",
+   "stats": {
+    "capacity_fe": 2000000,
+    "transfer_fe_t": 5000,
+    "max_height": 5,
+    "max_width": 3
+   },
+   "input": "FE",
+   "needs_power_to_start": false,
+   "needs_ore": false,
+   "tunable": [
+    "config",
+    "recipe"
+   ],
+   "notes": "Multiblock battery; capacity is per-block, up to 3x3x5. Fills the Ender IO-style multiblock storage wish, at low tier."
+  },
+  {
+   "id": "createaddition:small_connector",
+   "name": "Connector",
+   "category": "energy-transfer",
+   "subcategory": "wire",
+   "stats": {
+    "transfer_fe_t": 1000,
+    "wire_length": 16
+   },
+   "input": "FE",
+   "needs_power_to_start": false,
+   "needs_ore": false,
+   "tunable": [
+    "config",
+    "recipe"
+   ],
+   "notes": "Overlaps Flux Networks / Powah cables as the FE transfer tool."
+  },
+  {
+   "id": "createaddition:large_connector",
+   "name": "Large Connector",
+   "category": "energy-transfer",
+   "subcategory": "wire",
+   "stats": {
+    "transfer_fe_t": 5000,
+    "wire_length": 32
+   },
+   "input": "FE",
+   "needs_power_to_start": false,
+   "needs_ore": false,
+   "tunable": [
+    "config",
+    "recipe"
+   ]
+  },
+  {
+   "id": "createaddition:portable_energy_interface",
+   "name": "Portable Energy Interface",
+   "category": "energy-transfer",
+   "subcategory": "contraption",
+   "stats": {
+    "transfer_fe_t": 5000
+   },
+   "input": "FE",
+   "needs_power_to_start": false,
+   "needs_ore": false,
+   "tunable": [
+    "config"
+   ]
+  },
+  {
+   "id": "createaddition:tesla_coil",
+   "name": "Tesla Coil",
+   "category": "utility",
+   "subcategory": "charger",
+   "stats": {
+    "capacity_fe": 40000,
+    "charge_rate_fe_t": 5000
+   },
+   "input": "FE",
+   "needs_power_to_start": true,
+   "needs_ore": false,
+   "tunable": [
+    "config"
+   ]
+  },
+  {
+   "id": "createaddition:liquid_blaze_burner",
+   "name": "Liquid Blaze Burner",
+   "category": "utility",
+   "subcategory": "fuel",
+   "stats": {
+    "liquid_capacity_mb": 1000
+   },
+   "input": "Bioethanol / seed oil style fuels",
+   "needs_power_to_start": false,
+   "needs_ore": false,
+   "tunable": [
+    "config"
+   ],
+   "notes": "Also overlaps Mekanism Generators Bio-Generator on bioethanol."
+  }
  ]
 }
