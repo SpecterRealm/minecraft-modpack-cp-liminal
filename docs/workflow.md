@@ -63,11 +63,14 @@ Foreground serve (blocks the terminal): `make serve`.
 After `CP-Liminal-Dev` has mod JARs installed:
 
 ```bash
-make recipe-wiki    # → docs/recipe_data.json + docs/recipe_wiki.html (gitignored)
-make docs           # optional: serve docs/ on :8000
+make recipe-audit   # dump + analyze → docs/recipe_data.json + docs/recipe-analyze/
+make docs           # optional: serve docs/ on :8000 (HTML is local-only / gitignored)
 ```
 
-Full how-to (full-pack dump vs per-mod EMI, never reuse Verdant dump data): [recipe-wiki.md](recipe-wiki.md).
+Commit `docs/recipe_data.json` and `docs/recipe-analyze/` after mod list changes so
+agents can read Liminal numbers from git. Never copy Verdant dumps.
+
+Full how-to: [recipe-wiki.md](recipe-wiki.md).
 
 ## Export
 
