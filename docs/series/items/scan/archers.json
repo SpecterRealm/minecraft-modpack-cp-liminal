@@ -27,195 +27,479 @@
  "items": {
   "archers:archers_workbench": {
    "kind": "block",
-   "name": "Archery Artisan Table"
+   "name": "Archery Artisan Table",
+   "tags": [
+    "function:craft",
+    "kind:block",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:archers_workbench.hint": {
    "kind": "block",
-   "name": "Workbench for Archery Artisan Villagers."
+   "name": "Workbench for Archery Artisan Villagers.",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:spirit_wolf": {
    "kind": "entity",
-   "name": "Spirit Wolf"
+   "name": "Spirit Wolf",
+   "tags": [
+    "kind:mob",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "minecraft:villager.archers.archery_artisan": {
    "kind": "entity",
-   "name": "Archery Artisan"
+   "name": "Archery Artisan",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "minecraft:villager.archery_artisan": {
    "kind": "entity",
-   "name": "Archery Artisan"
+   "name": "Archery Artisan",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:aeternium_spear": {
    "kind": "item",
-   "name": "Aeternium Spear"
+   "name": "Aeternium Spear",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:aether_heavy_crossbow": {
    "kind": "item",
-   "name": "Valkyrie Ballista"
+   "name": "Valkyrie Ballista",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:aether_longbow": {
    "kind": "item",
-   "name": "Silver Bow of the Acropolis"
+   "name": "Silver Bow of the Acropolis",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:aether_rapid_crossbow": {
    "kind": "item",
-   "name": "Sky Crossbow"
+   "name": "Sky Crossbow",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:aether_spear": {
    "kind": "item",
-   "name": "Holy Spear"
+   "name": "Holy Spear",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:archer_armor_chest": {
    "kind": "item",
-   "name": "Archer Tunic"
+   "name": "Archer Tunic",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "function:store",
+    "kind:storage",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:archer_armor_feet": {
    "kind": "item",
-   "name": "Archer Boots"
+   "name": "Archer Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:archer_armor_head": {
    "kind": "item",
-   "name": "Archer Hood"
+   "name": "Archer Hood",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:archer_armor_legs": {
    "kind": "item",
-   "name": "Archer Leggings"
+   "name": "Archer Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:auto_fire_hook": {
    "kind": "item",
-   "name": "Auto-Fire Hook"
+   "name": "Auto-Fire Hook",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:composite_longbow": {
    "kind": "item",
-   "name": "Composite Longbow"
+   "name": "Composite Longbow",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:crystal_longbow": {
    "kind": "item",
-   "name": "Crystal Longbow"
+   "name": "Crystal Longbow",
+   "tags": [
+    "kind:material",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:crystal_shortbow": {
    "kind": "item",
-   "name": "Crystal Shortbow"
+   "name": "Crystal Shortbow",
+   "tags": [
+    "kind:material",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:diamond_spear": {
    "kind": "item",
-   "name": "Diamond Spear"
+   "name": "Diamond Spear",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:flint_spear": {
    "kind": "item",
-   "name": "Flint Spear"
+   "name": "Flint Spear",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:golden_spear": {
    "kind": "item",
-   "name": "Golden Spear"
+   "name": "Golden Spear",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:heavy_crossbow": {
    "kind": "item",
-   "name": "Heavy Crossbow"
+   "name": "Heavy Crossbow",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:iron_spear": {
    "kind": "item",
-   "name": "Iron Spear"
+   "name": "Iron Spear",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:large_quiver": {
    "kind": "item",
-   "name": "Battle Quiver"
+   "name": "Battle Quiver",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:mechanic_shortbow": {
    "kind": "item",
-   "name": "Mechanical Shortbow"
+   "name": "Mechanical Shortbow",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:medium_quiver": {
    "kind": "item",
-   "name": "Hunting Quiver"
+   "name": "Hunting Quiver",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:netherite_heavy_crossbow": {
    "kind": "item",
-   "name": "Netherite Heavy Crossbow"
+   "name": "Netherite Heavy Crossbow",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "needs:nether",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:netherite_longbow": {
    "kind": "item",
-   "name": "Netherite Longbow"
+   "name": "Netherite Longbow",
+   "tags": [
+    "needs:nether",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:netherite_ranger_armor_chest": {
    "kind": "item",
-   "name": "Netherite Ranger Tunic"
+   "name": "Netherite Ranger Tunic",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "function:store",
+    "kind:storage",
+    "needs:nether",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:netherite_ranger_armor_feet": {
    "kind": "item",
-   "name": "Netherite Ranger Boots"
+   "name": "Netherite Ranger Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:nether",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:netherite_ranger_armor_head": {
    "kind": "item",
-   "name": "Netherite Ranger Hood"
+   "name": "Netherite Ranger Hood",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:nether",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:netherite_ranger_armor_legs": {
    "kind": "item",
-   "name": "Netherite Ranger Leggings"
+   "name": "Netherite Ranger Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:nether",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:netherite_rapid_crossbow": {
    "kind": "item",
-   "name": "Netherite Rapid Crossbow"
+   "name": "Netherite Rapid Crossbow",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "needs:nether",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:netherite_shortbow": {
    "kind": "item",
-   "name": "Netherite Shortbow"
+   "name": "Netherite Shortbow",
+   "tags": [
+    "needs:nether",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:netherite_spear": {
    "kind": "item",
-   "name": "Netherite Spear"
+   "name": "Netherite Spear",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "needs:nether",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:quiver.hint": {
    "kind": "item",
-   "name": "Provides arrows for archery, when equipped."
+   "name": "Provides arrows for archery, when equipped.",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:ranger_armor_chest": {
    "kind": "item",
-   "name": "Ranger Tunic"
+   "name": "Ranger Tunic",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "function:store",
+    "kind:storage",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:ranger_armor_feet": {
    "kind": "item",
-   "name": "Ranger Boots"
+   "name": "Ranger Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:ranger_armor_head": {
    "kind": "item",
-   "name": "Ranger Hood"
+   "name": "Ranger Hood",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:ranger_armor_legs": {
    "kind": "item",
-   "name": "Ranger Leggings"
+   "name": "Ranger Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:rapid_crossbow": {
    "kind": "item",
-   "name": "Rapid Crossbow"
+   "name": "Rapid Crossbow",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:royal_longbow": {
    "kind": "item",
-   "name": "Royal Longbow"
+   "name": "Royal Longbow",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:ruby_heavy_crossbow": {
    "kind": "item",
-   "name": "Ruby Heavy Crossbow"
+   "name": "Ruby Heavy Crossbow",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:ruby_rapid_crossbow": {
    "kind": "item",
-   "name": "Ruby Rapid Crossbow"
+   "name": "Ruby Rapid Crossbow",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:ruby_spear": {
    "kind": "item",
-   "name": "Ruby Spear"
+   "name": "Ruby Spear",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:small_quiver": {
    "kind": "item",
-   "name": "Quiver"
+   "name": "Quiver",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "archers:spell_scroll/archer": {
    "kind": "item",
-   "name": "Archery Scroll"
+   "name": "Archery Scroll",
+   "tags": [
+    "function:enchant",
+    "kind:consumable",
+    "feel:neutral",
+    "review:checked"
+   ]
   },
   "ranged_weapon:pull_time": {
    "kind": "item",
-   "name": "%1$s sec Pull Time"
+   "name": "%1$s sec Pull Time",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
   }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21.1",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "First read from source (1.21 branch); see capstones-and-gear.md section 4.",
+  "class": "content",
+  "purpose": "Archer class gear: bows, crossbows, spears, ranger sets"
  }
 }

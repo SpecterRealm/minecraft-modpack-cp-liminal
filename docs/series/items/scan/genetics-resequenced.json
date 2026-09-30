@@ -25,143 +25,356 @@
  "items": {
   "geneticsresequenced:advanced_incubator": {
    "kind": "block",
-   "name": "Advanced Incubator"
+   "name": "Advanced Incubator",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:anti_field_block": {
    "kind": "block",
-   "name": "Anti-Field Block"
+   "name": "Anti-Field Block",
+   "tags": [
+    "kind:block",
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:bioluminescence": {
    "kind": "block",
-   "name": "Bioluminescence Glow"
+   "name": "Bioluminescence Glow",
+   "tags": [
+    "kind:block",
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:blood_purifier": {
    "kind": "block",
-   "name": "Blood Purifier"
+   "name": "Blood Purifier",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:cell_analyzer": {
    "kind": "block",
-   "name": "Cell Analyzer"
+   "name": "Cell Analyzer",
+   "tags": [
+    "function:store",
+    "kind:block",
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:coal_generator": {
    "kind": "block",
-   "name": "Coal Generator"
+   "name": "Coal Generator",
+   "tags": [
+    "function:generate",
+    "kind:material",
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:dna_decryptor": {
    "kind": "block",
-   "name": "DNA Decryptor"
+   "name": "DNA Decryptor",
+   "tags": [
+    "kind:block",
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:dna_extractor": {
    "kind": "block",
-   "name": "DNA Extractor"
+   "name": "DNA Extractor",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:incubator": {
    "kind": "block",
-   "name": "Incubator"
+   "name": "Incubator",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:plasmid_infuser": {
    "kind": "block",
-   "name": "Plasmid Infuser"
+   "name": "Plasmid Infuser",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:plasmid_injector": {
    "kind": "block",
-   "name": "Plasmid Injector"
+   "name": "Plasmid Injector",
+   "tags": [
+    "kind:block",
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:web_defense_block": {
    "kind": "block",
-   "name": "Web Defense Cobweb"
+   "name": "Web Defense Cobweb",
+   "tags": [
+    "kind:block",
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:support_slime": {
    "kind": "entity",
-   "name": "Support Slime"
+   "name": "Support Slime",
+   "tags": [
+    "kind:mob",
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:anti_field_orb": {
    "kind": "item",
-   "name": "Anti-Field Orb"
+   "name": "Anti-Field Orb",
+   "tags": [
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:anti_plasmid": {
    "kind": "item",
-   "name": "Anti-Plasmid"
+   "name": "Anti-Plasmid",
+   "tags": [
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:cell": {
    "kind": "item",
-   "name": "Cell"
+   "name": "Cell",
+   "tags": [
+    "function:store",
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:dna_helix": {
    "kind": "item",
-   "name": "DNA Helix"
+   "name": "DNA Helix",
+   "tags": [
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:dragon_health_crystal": {
    "kind": "item",
-   "name": "Dragon Health Crystal"
+   "name": "Dragon Health Crystal",
+   "tags": [
+    "kind:material",
+    "needs:end",
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:gene_checker": {
    "kind": "item",
-   "name": "Gene Checker"
+   "name": "Gene Checker",
+   "tags": [
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:gmo_cell": {
    "kind": "item",
-   "name": "Genetically Modified Cell"
+   "name": "Genetically Modified Cell",
+   "tags": [
+    "function:store",
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:metal_syringe.empty": {
    "kind": "item",
-   "name": "Empty Metal Syringe"
+   "name": "Empty Metal Syringe",
+   "tags": [
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:metal_syringe.full": {
    "kind": "item",
-   "name": "Full Metal Syringe"
+   "name": "Full Metal Syringe",
+   "tags": [
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:organic_matter": {
    "kind": "item",
-   "name": "Organic Matter"
+   "name": "Organic Matter",
+   "tags": [
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:overclocker": {
    "kind": "item",
-   "name": "Overclocker"
+   "name": "Overclocker",
+   "tags": [
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:plasmid": {
    "kind": "item",
-   "name": "Plasmid"
+   "name": "Plasmid",
+   "tags": [
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:scraper": {
    "kind": "item",
-   "name": "Scraper"
+   "name": "Scraper",
+   "tags": [
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:support_slime_spawn_egg": {
    "kind": "item",
-   "name": "Support Slime Spawn Egg"
+   "name": "Support Slime Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable",
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:syringe.empty": {
    "kind": "item",
-   "name": "Empty Syringe"
+   "name": "Empty Syringe",
+   "tags": [
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "geneticsresequenced:syringe.full": {
    "kind": "item",
-   "name": "Full Syringe"
+   "name": "Full Syringe",
+   "tags": [
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "tag:geneticsresequenced.activates_shoot_fireball_gene": {
    "kind": "item",
-   "name": "Usable for \"Shoot Fireballs\" Gene"
+   "name": "Usable for \"Shoot Fireballs\" Gene",
+   "tags": [
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "tag:geneticsresequenced.enchantable.delicate_touch": {
    "kind": "item",
-   "name": "Delicate Touch Enchantable"
+   "name": "Delicate Touch Enchantable",
+   "tags": [
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "tag:geneticsresequenced.enchantable.surgical_precision": {
    "kind": "item",
-   "name": "Surgical Precision Enchantable"
+   "name": "Surgical Precision Enchantable",
+   "tags": [
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "tag:geneticsresequenced.item_magnet_gene_blacklist": {
    "kind": "item",
-   "name": "Blacklisted from \"Item Magnet\" Gene"
+   "name": "Blacklisted from \"Item Magnet\" Gene",
+   "tags": [
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "tag:geneticsresequenced.prevents_some_mob_interaction": {
    "kind": "item",
-   "name": "Prevents item interaction with entities that have the #geneticsresequenced:allows_preventing_interaction tag\nUsed for Villagers etc that already have their own interactions"
+   "name": "Prevents item interaction with entities that have the #geneticsresequenced:allows_preventing_interaction tag\nUsed for Villagers etc that already have their own interactions",
+   "tags": [
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   },
   "tag:geneticsresequenced.syringes": {
    "kind": "item",
-   "name": "Syringes"
+   "name": "Syringes",
+   "tags": [
+    "feel:sci-fi",
+    "feel:breeding",
+    "review:checked"
+   ]
   }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21-Neoforge",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21-Neoforge",
+  "pass": "loop-back",
+  "note": "First read from source (1.21 branch); see capstones-and-gear.md section 4.",
+  "class": "content",
+  "purpose": "Genetics: scrape mobs, extract DNA, infuse powers (Influx capstone)"
  }
 }

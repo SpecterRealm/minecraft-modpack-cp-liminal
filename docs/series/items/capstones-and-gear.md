@@ -143,12 +143,29 @@ Scanned with `series-mod-scan.py` (entries in `scan/`, repos in `sources.json`, 
 - **Cosmetic layer**: the armor sets work as looks for any tier once a cosmetic mod is in.
 - **Spell Engine** is the shared dependency, so the class mods cost one library plus content.
 
+The seven mods now have profiles (`profiles.json`, status candidate) and review files; all items are marked review:checked from a first read.
+
 Still to do: scan the cosmetic armor mod (Cosmetic Armor Reworked, NeoForge 1.21.1 build; the public repo found only has old branches, so it needs a source), review each mod against the review-process steps, and fill `profiles.json` (feel, stage, fit) for the new mods.
+
+### Netherite tiers: the player builds them (maintainer decision)
+
+Direction: keep the netherite tier in the class mods and give the player a way to build it, as skyblock maps commonly do. Read from Ex Deorum's generated sieve recipes (repo `thedarkcolour/ExDeorum`, branch 1.21.1):
+
+| Input the class mods need | Ex Deorum route | Note |
+|---|---|---|
+| Ancient debris (for netherite scrap, then ingot) | Sieve crushed blackstone with a **netherite mesh**, 10% per pass (binomial p=0.1) | Mesh tier gates it; other meshes also list ancient debris in some recipes |
+| Ghast tear | Sieve soul sand | |
+| Blaze powder | Sieve crushed netherrack, or dust | |
+| Ender pearl | Sieve crushed end stone | |
+| Prismarine shard | Sieve sand | |
+| Netherite upgrade smithing template | not checked | The smithing template recipe needs checking |
+
+Unverified: how the player gets blackstone, netherrack, soul sand and end stone in packs with no Nether or End (Ex Deorum has barrel, crucible and hammer recipes for some of these; each must be confirmed in game before we rely on it). No KubeJS recipe change is needed if these hold, which is the point: the class mods' own recipes stay intact.
 
 ## Open questions
 
 1. Influx: Genetics: Resequenced plus Mutant Monsters chosen. Confirm after scanning that they fit the pack's power and breeding systems.
 2. Archers in Verdant brings Spell Engine into the first pack. Confirm that is wanted, since Elysian's Wizards need it anyway.
-3. Netherite tiers in the class mods: hide them or recipe-swap onto a pack-native material?
+3. Netherite tiers: building them via Ex Deorum is the direction; confirm that blackstone, netherrack, soul sand, end stone and the netherite template are obtainable in packs 1 to 3.
 3. Liminal's new mobs are not decided yet (raised in the last chat). Verdant, Elysian and Influx teach the counters once they are.
 4. Gear: do the roles above cover what you want, or are there jobs to add?

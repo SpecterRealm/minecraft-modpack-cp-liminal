@@ -18,299 +18,763 @@
  "items": {
   "paladins:monk_workbench": {
    "kind": "block",
-   "name": "Monk Workbench"
+   "name": "Monk Workbench",
+   "tags": [
+    "function:craft",
+    "kind:block",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:monk_workbench.hint": {
    "kind": "block",
-   "name": "Workbench for Monk Villagers."
+   "name": "Workbench for Monk Villagers.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "minecraft:villager.monk": {
    "kind": "entity",
-   "name": "Monk"
+   "name": "Monk",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "minecraft:villager.paladins.monk": {
    "kind": "entity",
-   "name": "Monk"
+   "name": "Monk",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:barrier": {
    "kind": "entity",
-   "name": "Barrier"
+   "name": "Barrier",
+   "tags": [
+    "kind:mob",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:battle_banner": {
    "kind": "entity",
-   "name": "Battle Banner"
+   "name": "Battle Banner",
+   "tags": [
+    "kind:mob",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:lightwell": {
    "kind": "entity",
-   "name": "Lightwell"
+   "name": "Lightwell",
+   "tags": [
+    "kind:mob",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:acolyte_wand": {
    "kind": "item",
-   "name": "Acolyte Wand"
+   "name": "Acolyte Wand",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:aeternium_claymore": {
    "kind": "item",
-   "name": "Aeternium Claymore"
+   "name": "Aeternium Claymore",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:aeternium_great_hammer": {
    "kind": "item",
-   "name": "Aeternium Great Hammer"
+   "name": "Aeternium Great Hammer",
+   "tags": [
+    "kind:tool",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:aeternium_kite_shield": {
    "kind": "item",
-   "name": "Aeternium Kite Shield"
+   "name": "Aeternium Kite Shield",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:aeternium_mace": {
    "kind": "item",
-   "name": "Aeternium Mace"
+   "name": "Aeternium Mace",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:aether_claymore": {
    "kind": "item",
-   "name": "Holy Claymore"
+   "name": "Holy Claymore",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:aether_great_hammer": {
    "kind": "item",
-   "name": "Valkyrie Great Hammer"
+   "name": "Valkyrie Great Hammer",
+   "tags": [
+    "kind:tool",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:aether_holy_staff": {
    "kind": "item",
-   "name": "Silver Staff of the Valkyrie"
+   "name": "Silver Staff of the Valkyrie",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:aether_kite_shield": {
    "kind": "item",
-   "name": "Valkyrie Bulwark"
+   "name": "Valkyrie Bulwark",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:aether_mace": {
    "kind": "item",
-   "name": "Sun's Mace"
+   "name": "Sun's Mace",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:crusader_armor_chest": {
    "kind": "item",
-   "name": "Crusader Chestplate"
+   "name": "Crusader Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "function:store",
+    "kind:storage",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:crusader_armor_feet": {
    "kind": "item",
-   "name": "Crusader Boots"
+   "name": "Crusader Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:crusader_armor_head": {
    "kind": "item",
-   "name": "Crusader Helmet"
+   "name": "Crusader Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:crusader_armor_legs": {
    "kind": "item",
-   "name": "Crusader Leggings"
+   "name": "Crusader Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:diamond_claymore": {
    "kind": "item",
-   "name": "Diamond Claymore"
+   "name": "Diamond Claymore",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:diamond_great_hammer": {
    "kind": "item",
-   "name": "Diamond Great Hammer"
+   "name": "Diamond Great Hammer",
+   "tags": [
+    "kind:tool",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:diamond_holy_staff": {
    "kind": "item",
-   "name": "Diamond Holy Staff"
+   "name": "Diamond Holy Staff",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:diamond_holy_wand": {
    "kind": "item",
-   "name": "Diamond Holy Wand"
+   "name": "Diamond Holy Wand",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:diamond_kite_shield": {
    "kind": "item",
-   "name": "Diamond Kite Shield"
+   "name": "Diamond Kite Shield",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:diamond_mace": {
    "kind": "item",
-   "name": "Diamond Mace"
+   "name": "Diamond Mace",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:golden_claymore": {
    "kind": "item",
-   "name": "Golden Claymore"
+   "name": "Golden Claymore",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:golden_great_hammer": {
    "kind": "item",
-   "name": "Golden Great Hammer"
+   "name": "Golden Great Hammer",
+   "tags": [
+    "kind:tool",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:golden_kite_shield": {
    "kind": "item",
-   "name": "Golden Kite Shield"
+   "name": "Golden Kite Shield",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:golden_mace": {
    "kind": "item",
-   "name": "Golden Mace"
+   "name": "Golden Mace",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:holy_staff": {
    "kind": "item",
-   "name": "Holy Staff"
+   "name": "Holy Staff",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:holy_wand": {
    "kind": "item",
-   "name": "Holy Wand"
+   "name": "Holy Wand",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:iron_claymore": {
    "kind": "item",
-   "name": "Iron Claymore"
+   "name": "Iron Claymore",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:iron_great_hammer": {
    "kind": "item",
-   "name": "Iron Great Hammer"
+   "name": "Iron Great Hammer",
+   "tags": [
+    "kind:tool",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:iron_kite_shield": {
    "kind": "item",
-   "name": "Iron Kite Shield"
+   "name": "Iron Kite Shield",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:iron_mace": {
    "kind": "item",
-   "name": "Iron Mace"
+   "name": "Iron Mace",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:netherite_claymore": {
    "kind": "item",
-   "name": "Netherite Claymore"
+   "name": "Netherite Claymore",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "needs:nether",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:netherite_crusader_armor_chest": {
    "kind": "item",
-   "name": "Netherite Crusader Chestplate"
+   "name": "Netherite Crusader Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "function:store",
+    "kind:storage",
+    "needs:nether",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:netherite_crusader_armor_feet": {
    "kind": "item",
-   "name": "Netherite Crusader Boots"
+   "name": "Netherite Crusader Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:nether",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:netherite_crusader_armor_head": {
    "kind": "item",
-   "name": "Netherite Crusader Helmet"
+   "name": "Netherite Crusader Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:nether",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:netherite_crusader_armor_legs": {
    "kind": "item",
-   "name": "Netherite Crusader Leggings"
+   "name": "Netherite Crusader Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:nether",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:netherite_great_hammer": {
    "kind": "item",
-   "name": "Netherite Great Hammer"
+   "name": "Netherite Great Hammer",
+   "tags": [
+    "kind:tool",
+    "needs:nether",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:netherite_holy_staff": {
    "kind": "item",
-   "name": "Netherite Holy Staff"
+   "name": "Netherite Holy Staff",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "needs:nether",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:netherite_holy_wand": {
    "kind": "item",
-   "name": "Netherite Holy Wand"
+   "name": "Netherite Holy Wand",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "needs:nether",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:netherite_kite_shield": {
    "kind": "item",
-   "name": "Netherite Kite Shield"
+   "name": "Netherite Kite Shield",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:nether",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:netherite_mace": {
    "kind": "item",
-   "name": "Netherite Mace"
+   "name": "Netherite Mace",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "needs:nether",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:netherite_prior_robe_chest": {
    "kind": "item",
-   "name": "Netherite Prior Vestment"
+   "name": "Netherite Prior Vestment",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "function:store",
+    "kind:storage",
+    "needs:nether",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:netherite_prior_robe_feet": {
    "kind": "item",
-   "name": "Netherite Prior Boots"
+   "name": "Netherite Prior Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:nether",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:netherite_prior_robe_head": {
    "kind": "item",
-   "name": "Netherite Prior Collar"
+   "name": "Netherite Prior Collar",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:nether",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:netherite_prior_robe_legs": {
    "kind": "item",
-   "name": "Netherite Prior Trousers"
+   "name": "Netherite Prior Trousers",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:nether",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:paladin_armor_chest": {
    "kind": "item",
-   "name": "Paladin Chestplate"
+   "name": "Paladin Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "function:store",
+    "kind:storage",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:paladin_armor_feet": {
    "kind": "item",
-   "name": "Paladin Boots"
+   "name": "Paladin Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:paladin_armor_head": {
    "kind": "item",
-   "name": "Paladin Helmet"
+   "name": "Paladin Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:paladin_armor_legs": {
    "kind": "item",
-   "name": "Paladin Leggings"
+   "name": "Paladin Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:priest_robe_chest": {
    "kind": "item",
-   "name": "Priest Vestment"
+   "name": "Priest Vestment",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "function:store",
+    "kind:storage",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:priest_robe_feet": {
    "kind": "item",
-   "name": "Priest Boots"
+   "name": "Priest Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:priest_robe_head": {
    "kind": "item",
-   "name": "Priest Collar"
+   "name": "Priest Collar",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:priest_robe_legs": {
    "kind": "item",
-   "name": "Priest Trousers"
+   "name": "Priest Trousers",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:prior_robe_chest": {
    "kind": "item",
-   "name": "Prior Vestment"
+   "name": "Prior Vestment",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "function:store",
+    "kind:storage",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:prior_robe_feet": {
    "kind": "item",
-   "name": "Prior Boots"
+   "name": "Prior Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:prior_robe_head": {
    "kind": "item",
-   "name": "Prior Collar"
+   "name": "Prior Collar",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:prior_robe_legs": {
    "kind": "item",
-   "name": "Prior Trousers"
+   "name": "Prior Trousers",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:ruby_claymore": {
    "kind": "item",
-   "name": "Ruby Claymore"
+   "name": "Ruby Claymore",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:ruby_great_hammer": {
    "kind": "item",
-   "name": "Ruby Great Hammer"
+   "name": "Ruby Great Hammer",
+   "tags": [
+    "kind:tool",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:ruby_holy_staff": {
    "kind": "item",
-   "name": "Ruby Holy Staff"
+   "name": "Ruby Holy Staff",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:ruby_kite_shield": {
    "kind": "item",
-   "name": "Ruby Kite Shield"
+   "name": "Ruby Kite Shield",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:ruby_mace": {
    "kind": "item",
-   "name": "Ruby Mace"
+   "name": "Ruby Mace",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:spell_scroll/paladin": {
    "kind": "item",
-   "name": "Paladin Spell Scroll"
+   "name": "Paladin Spell Scroll",
+   "tags": [
+    "function:enchant",
+    "kind:consumable",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:spell_scroll/priest": {
    "kind": "item",
-   "name": "Holy Spell Scroll"
+   "name": "Holy Spell Scroll",
+   "tags": [
+    "function:enchant",
+    "kind:consumable",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:stone_claymore": {
    "kind": "item",
-   "name": "Stone Claymore"
+   "name": "Stone Claymore",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:stone_great_hammer": {
    "kind": "item",
-   "name": "Stone Great Hammer"
+   "name": "Stone Great Hammer",
+   "tags": [
+    "kind:tool",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:stone_mace": {
    "kind": "item",
-   "name": "Stone Mace"
+   "name": "Stone Mace",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:magic",
+    "review:checked"
+   ]
   },
   "paladins:wooden_great_hammer": {
    "kind": "item",
-   "name": "Wooden Great Hammer"
+   "name": "Wooden Great Hammer",
+   "tags": [
+    "kind:tool",
+    "feel:magic",
+    "review:checked"
+   ]
   }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21.1",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "First read from source (1.21 branch); see capstones-and-gear.md section 4.",
+  "class": "content",
+  "purpose": "Paladin and Priest class gear: maces, claymores, shields, holy wands"
  }
 }
