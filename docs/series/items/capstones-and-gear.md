@@ -183,9 +183,21 @@ What the source shows (Hostile Neural Networks, branch 1.21):
 - Model tiers carry a required-data value per tier (`RequiredData`). Models are trained by feeding data from that mob, in the Simulation Chamber, so the first blaze or ghast has to come from somewhere. I read the tier and data structure but not the exact kill path; confirm in game.
 - Generalized Overworld, Nether and Ender predictions exist too.
 
-**The chicken-and-egg**: the player must meet a blaze before they can train the blaze model. Proposed fix: a **starter pocket or spawner dimension** given as a quest reward, containing the mobs needed to train the first models. Rules:
-- The player must be able to get a **replacement** if they lose the component, so the pack never blocks them.
-- Compact Machines (already a flagged candidate for Influx, "build inward, not outward") is the obvious way to build the pocket room, which also fits the ship-and-space theme. Unverified whether it can host a spawner-style room; needs a check.
+**The chicken-and-egg**: the player must be carrying a training model and kill a mob of that type before the model records data, so the first blaze or ghast has to come from somewhere (maintainer confirmed: the model needs the kill).
+
+**Maintainer design: make the genetics path the answer.** Instead of a handed-out pocket dimension, the arc is one continuous lesson:
+
+1. **Peaceful mobs first.** Genetics: manipulate cows, pigs, chickens, rabbits (gene, cell, incubator).
+2. **Make eggs.** Turn a mob's cell into its spawn egg, so any mob can be spawned, including a blaze, without finding one.
+3. **Make spawners** from eggs.
+4. **Feed Hostile Neural Networks** from the spawners: train the models, then the Loot Fabricator makes the drops (blaze rods, ghast tears, ender pearls) at scale.
+
+What is already there and what is missing (Genetics: Resequenced source, 1.21-Neoforge):
+- **There**: per-mob DNA and cells (`EntityDnaItem` gives a cell for any entity type), cell duplication (`dupe_cell`), GMO incubator recipes (for example blaze to bioluminescence, enderman to teleport, at set chances), and virus, mutation and cell-growth recipes.
+- **Not there**: no recipe makes a spawn egg or a spawner from a cell. The mod only uses spawn eggs as information in its guide. So the egg and spawner steps need to be built: a KubeJS recipe (mob cell plus a cost to egg; eggs plus a cost to spawner) is the likely way, and it leaves the genetics mod untouched. Keeping the cost high enough that eggs are a stage-4 milestone, not a day-one shortcut, is a tuning decision.
+- **Replacement**: a lost component is never a block, because eggs and cells can be remade from the genetics line.
+
+**AE2's spatial storage** already gives Influx a pocket-dimension effect (maintainer point; AE2 is in Influx). So Compact Machines may be unneeded for the pocket idea. Two things to check: whether a spawner or spawn-egg room can be stored and moved in AE2 spatial storage, and whether Compact Machines adds anything AE2 spatial does not (it stays a candidate only for "build inward" rooms).
 
 Other supply notes:
 - **Mystical Agriculture**: the crop list read from the 1.21 source has no blaze, ghast or ender pearl crop. It does have netherite, blazing crystal, fire, nether, end, enderium, prismarine, and `air`. Mob crops the maintainer remembers (creeper and similar) did not appear in the list read; unverified. Already in Elysian; adding it to Influx is an option the maintainer raised.
@@ -200,6 +212,6 @@ Do not lock a pack to one mod too early. Decide where each pack is going, pick t
 1. Influx: Genetics: Resequenced plus Mutant Monsters chosen. Confirm after scanning that they fit the pack's power and breeding systems.
 2. Archers in Verdant brings Spell Engine into the first pack. Confirm that is wanted, since Elysian's Wizards need it anyway.
 3. Elysian and Influx: add Ex Deorum (or part of it), or close the netherite-tier input gaps with their own mods? Needs the required-resource list first.
-4. Influx: confirm how HNN models are first trained and whether Compact Machines can host a starter spawner room with a replacement recipe.
+4. Influx: build the egg and spawner recipes (cost, stage) on top of Genetics: Resequenced; confirm AE2 spatial storage can hold a spawner room and whether Compact Machines adds anything.
 3. Liminal's new mobs are not decided yet (raised in the last chat). Verdant, Elysian and Influx teach the counters once they are.
 4. Gear: do the roles above cover what you want, or are there jobs to add?
