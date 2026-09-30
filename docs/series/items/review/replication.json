@@ -1,0 +1,80 @@
+{
+ "note": "Star-Trek style replication: scan an item (identification chamber, memory chip), break items into matter (disintegrator), then replicate copies (replicator) powered by FE, with matter tanks and network pipes. Replica ore/ingots are its own material. Needs a scanned sample first (pattern first, then convert). Built-in support: supports AE2 via data; none found for others. Influx's replicator theme alongside ProjectE EMC.",
+ "rules": [
+  {
+   "match": "^(replicator|disintegrator|identification_chamber|replication_terminal|chip_storage)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:process",
+    "function:craft",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "role:core"
+   ]
+  },
+  {
+   "match": "^(matter_tank|creative_matter_tank|matter_network_pipe)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:store",
+    "function:transfer",
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(replica_block|raw_replica_block|deepslate_replica_ore)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "needs:none"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(memory_chip|creative_memory_chip|matter_blueprint|raw_replica|replica_ingot|replicator_enclosure|replicator_motor)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:none"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

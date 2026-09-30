@@ -1,0 +1,176 @@
+{
+ "note": "Influx's asteroid/debris mining: tiered miner blocks (1 to 5) draw power and return ore-like conglomerate, processed in crystallizer, infuser, liquifier and transmogrifier into azurum, galibium, palestium and thelxium (new metals, not vanilla). The ores are world ores (needs:ore) but the miner is the intended source. Generator blocks make FE to run the miner (the power lesson). Built-in support: none found in source (no other pack mod references it). Power source still to be chosen.",
+ "rules": [
+  {
+   "match": "^(miner_block_tier_\\d)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:mine",
+    "power-role:uses",
+    "power-type:fe",
+    "scale:tiered",
+    "needs:none",
+    "role:core"
+   ]
+  },
+  {
+   "match": "^(generator_block|simple_generator_block)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(crystallizer_block|infuser_block|liquifier_block|transmogrifier_block)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(.*_ore|.*_deepslate_ore|raw_.*_block)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "needs:ore"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(azurum|galibium|palestium|thelxium)_block$|^(conglomerate_of_ore_block|energized_obsidian_block)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "needs:none"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(raw_azurum|raw_galibium|raw_palestium|raw_thelxium|conglomerate_of_ore_shard)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:none"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(.*_ingot|.*_nugget|.*_gear|energy_shard|seed_crystal|void_crystal|ender_diamond|nether_diamond|dimensional_matrix|empty_dimensional_matrix|.*_void_processor|void_processor|.*_processor|azurum)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:none"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "_bucket$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:tool",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(palestium_pickaxe|void_gun|void_bullet)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:tool",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(void_gun|void_bullet)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:weapon",
+    "function:defend",
+    "needs:none"
+   ]
+  },
+  {
+   "match": ".",
+   "kind": "block",
+   "default": [
+    "kind:block"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

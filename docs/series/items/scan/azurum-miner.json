@@ -13,16 +13,21 @@
    "name": "Azurum Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:azurum_deepslate_ore": {
    "kind": "block",
    "name": "Deepslate Azurum Ore",
    "tags": [
-    "needs:ore",
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:azurum_ore": {
@@ -30,7 +35,10 @@
    "name": "Azurum Ore",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:conglomerate_of_ore": {
@@ -38,7 +46,10 @@
    "name": "Conglomerate of Ores",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:conglomerate_of_ore_block": {
@@ -46,7 +57,10 @@
    "name": "Conglomerate of Ores Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:crystallizer_block": {
@@ -55,7 +69,10 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "azurum_miner:energized_obsidian_block": {
@@ -63,7 +80,10 @@
    "name": "Energized Obsidian",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:galibium_block": {
@@ -71,16 +91,21 @@
    "name": "Galibium Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:galibium_deepslate_ore": {
    "kind": "block",
    "name": "Deepslate Galibium Ore",
    "tags": [
-    "needs:ore",
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:galibium_ore": {
@@ -88,17 +113,22 @@
    "name": "Galibium Ore",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:generator_block": {
    "kind": "block",
    "name": "Dimensional Energy Generator",
    "tags": [
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "azurum_miner:infuser_block": {
@@ -107,60 +137,92 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "azurum_miner:liquifier_block": {
    "kind": "block",
    "name": "Liquifier",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "azurum_miner:miner_block_tier_1": {
    "kind": "block",
    "name": "Tier 1 Miner",
    "tags": [
+    "kind:machine",
     "function:mine",
-    "kind:block",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "scale:tiered",
+    "needs:none",
+    "role:core",
+    "review:checked"
    ]
   },
   "azurum_miner:miner_block_tier_2": {
    "kind": "block",
    "name": "Tier 2 Miner",
    "tags": [
+    "kind:machine",
     "function:mine",
-    "kind:block",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "scale:tiered",
+    "needs:none",
+    "role:core",
+    "review:checked"
    ]
   },
   "azurum_miner:miner_block_tier_3": {
    "kind": "block",
    "name": "Tier 3 Miner",
    "tags": [
+    "kind:machine",
     "function:mine",
-    "kind:block",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "scale:tiered",
+    "needs:none",
+    "role:core",
+    "review:checked"
    ]
   },
   "azurum_miner:miner_block_tier_4": {
    "kind": "block",
    "name": "Tier 4 Miner",
    "tags": [
+    "kind:machine",
     "function:mine",
-    "kind:block",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "scale:tiered",
+    "needs:none",
+    "role:core",
+    "review:checked"
    ]
   },
   "azurum_miner:miner_block_tier_5": {
    "kind": "block",
    "name": "Tier 5 Miner",
    "tags": [
+    "kind:machine",
     "function:mine",
-    "kind:block",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "scale:tiered",
+    "needs:none",
+    "role:core",
+    "review:checked"
    ]
   },
   "azurum_miner:palestium_block": {
@@ -168,16 +230,21 @@
    "name": "Palestium Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:palestium_deepslate_ore": {
    "kind": "block",
    "name": "Deepslate Palestium Ore",
    "tags": [
-    "needs:ore",
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:palestium_ore": {
@@ -185,49 +252,66 @@
    "name": "Palestium Ore",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:raw_azurum_block": {
    "kind": "block",
    "name": "Raw Azurum Block",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "kind:block",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:raw_galibium_block": {
    "kind": "block",
    "name": "Raw Galibium Block",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "kind:block",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:raw_palestium_block": {
    "kind": "block",
    "name": "Raw Palestium Block",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "kind:block",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:raw_thelxium_block": {
    "kind": "block",
    "name": "Raw Thelxium Block",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "kind:block",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:simple_generator_block": {
    "kind": "block",
    "name": "Simple Energy Generator",
    "tags": [
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "azurum_miner:thelxium_block": {
@@ -235,16 +319,21 @@
    "name": "Thelxium Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:thelxium_deepslate_ore": {
    "kind": "block",
    "name": "Deepslate Thelxium Ore",
    "tags": [
-    "needs:ore",
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:thelxium_ore": {
@@ -252,24 +341,34 @@
    "name": "Thelxium Ore",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:transmogrifier_block": {
    "kind": "block",
    "name": "Dimensional Transmogrifier",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
    ]
   },
   "azurum_miner:void_bullet": {
    "kind": "item",
    "name": "Void Bullet",
    "tags": [
-    "kind:consumable",
+    "kind:weapon",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:amethyst_crystal_solution_bucket": {
@@ -277,15 +376,21 @@
    "name": "Amethyst Crystal Solution Bucket",
    "tags": [
     "kind:tool",
-    "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:azurum": {
    "kind": "item",
    "name": "Azurum",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:azurum_gear": {
@@ -293,7 +398,10 @@
    "name": "Azurum Gear",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:azurum_ingot": {
@@ -301,7 +409,10 @@
    "name": "Azurum Ingot",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:azurum_nugget": {
@@ -309,16 +420,21 @@
    "name": "Azurum Nugget",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:complex_void_processor": {
    "kind": "item",
    "name": "Complex Void Processor",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:conglomerate_of_ore_shard": {
@@ -326,7 +442,10 @@
    "name": "Conglomerate of Ores Shard",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:diamond_crystal_solution_bucket": {
@@ -334,24 +453,32 @@
    "name": "Diamond Crystal Solution Bucket",
    "tags": [
     "kind:tool",
-    "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:dimensional_matrix": {
    "kind": "item",
    "name": "Dimensional Matrix",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:elaborate_void_processor": {
    "kind": "item",
    "name": "Elaborate Void Processor",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:emerald_crystal_solution_bucket": {
@@ -359,22 +486,32 @@
    "name": "Emerald Crystal Solution Bucket",
    "tags": [
     "kind:tool",
-    "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:empty_dimensional_matrix": {
    "kind": "item",
    "name": "Empty Dimensional Matrix",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:ender_diamond": {
    "kind": "item",
    "name": "Ender Infused Diamond",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:ender_essence_bucket": {
@@ -382,8 +519,10 @@
    "name": "Ender Essence Bucket",
    "tags": [
     "kind:tool",
-    "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:energy_shard": {
@@ -391,7 +530,10 @@
    "name": "Energy Shard",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:galibium_gear": {
@@ -399,7 +541,10 @@
    "name": "Galibium Gear",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:galibium_ingot": {
@@ -407,7 +552,10 @@
    "name": "Galibium Ingot",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:galibium_nugget": {
@@ -415,7 +563,10 @@
    "name": "Galibium Nugget",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:molten_ore_bucket": {
@@ -423,16 +574,21 @@
    "name": "Molten Ore Bucket",
    "tags": [
     "kind:tool",
-    "needs:ore",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:nether_diamond": {
    "kind": "item",
    "name": "Nether Infused Diamond",
    "tags": [
-    "needs:nether",
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:nether_essence_bucket": {
@@ -440,9 +596,10 @@
    "name": "Nether Essence Bucket",
    "tags": [
     "kind:tool",
-    "kind:material",
-    "needs:nether",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:palestium_gear": {
@@ -450,7 +607,10 @@
    "name": "Palestium Gear",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:palestium_ingot": {
@@ -458,7 +618,10 @@
    "name": "Palestium Ingot",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:palestium_nugget": {
@@ -466,7 +629,10 @@
    "name": "Palestium Nugget",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:palestium_pickaxe": {
@@ -474,8 +640,10 @@
    "name": "Palestium Pickaxe",
    "tags": [
     "kind:tool",
-    "function:mine",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:prismarine_crystal_solution_bucket": {
@@ -483,8 +651,10 @@
    "name": "Prismarine Crystal Solution Bucket",
    "tags": [
     "kind:tool",
-    "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:quartz_crystal_solution_bucket": {
@@ -492,8 +662,10 @@
    "name": "Quartz Crystal Solution Bucket",
    "tags": [
     "kind:tool",
-    "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:raw_azurum": {
@@ -501,7 +673,10 @@
    "name": "Raw Azurum",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:raw_galibium": {
@@ -509,7 +684,10 @@
    "name": "Raw Galibium",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:raw_palestium": {
@@ -517,7 +695,10 @@
    "name": "Raw Palestium",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:raw_thelxium": {
@@ -525,25 +706,32 @@
    "name": "Raw Thelxium",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:seed_crystal": {
    "kind": "item",
    "name": "Seed Crystal",
    "tags": [
-    "function:farm",
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:simple_void_processor": {
    "kind": "item",
    "name": "Simple Void Processor",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:thelxium_gear": {
@@ -551,7 +739,10 @@
    "name": "Thelxium Gear",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:thelxium_ingot": {
@@ -559,7 +750,10 @@
    "name": "Thelxium Ingot",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:thelxium_nugget": {
@@ -567,7 +761,10 @@
    "name": "Thelxium Nugget",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:void_crystal": {
@@ -575,27 +772,44 @@
    "name": "Void Crystal",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:void_gun": {
    "kind": "item",
    "name": "Void Gun",
    "tags": [
-    "review:auto"
+    "kind:weapon",
+    "function:defend",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "azurum_miner:void_processor": {
    "kind": "item",
    "name": "Void Processor",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "v1.21.1-1.4.2"
+ "tagged_version": "v1.21.1-1.4.2",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1-1.4.2",
+  "pass": "loop-back",
+  "note": "Influx's asteroid/debris mining: tiered miner blocks (1 to 5) draw power and return ore-like conglomerate, processed in crystallizer, infuser, liquifier and transmogrifier into azurum, galibium, palestium and thelxium (new metals, not vanilla). The ores are world ores (needs:ore) but the miner is the intended source. Generator blocks make FE to run the miner (the power lesson). Built-in support: none found in source (no other pack mod references it). Power source still to be chosen."
+ }
 }

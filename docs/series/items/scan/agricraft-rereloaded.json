@@ -42,61 +42,102 @@
    "kind": "block",
    "name": "Seed analyzer",
    "tags": [
+    "kind:machine",
     "function:farm",
-    "kind:block",
-    "review:auto"
+    "function:research",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "agricraft:crop_sticks": {
    "kind": "block",
    "name": "Crop Sticks",
    "tags": [
-    "function:farm",
     "kind:block",
-    "review:auto"
+    "function:farm",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "agricraft:debugger": {
    "kind": "item",
    "name": "Debugger",
    "tags": [
-    "review:auto"
+    "kind:machine",
+    "function:farm",
+    "function:research",
+    "needs:none",
+    "role:dev-only",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "agricraft:journal": {
    "kind": "item",
    "name": "Agricultural Journal",
    "tags": [
-    "review:auto"
+    "kind:machine",
+    "function:farm",
+    "function:research",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "agricraft:clipper": {
    "kind": "item",
    "name": "Plant Clipper",
    "tags": [
-    "review:auto"
+    "kind:tool",
+    "function:farm",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "agricraft:magnifying_glass": {
    "kind": "item",
    "name": "Magnifying Glass",
    "tags": [
-    "kind:decoration",
-    "review:auto"
+    "kind:machine",
+    "function:farm",
+    "function:research",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "agricraft:wooden_rake": {
    "kind": "item",
    "name": "Wooden Hand Rake",
    "tags": [
-    "review:auto"
+    "kind:tool",
+    "function:farm",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "agricraft:iron_rake": {
    "kind": "item",
    "name": "Iron Hand Rake",
    "tags": [
-    "review:auto"
+    "kind:tool",
+    "function:farm",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "agricraft:trowel": {
@@ -104,40 +145,62 @@
    "name": "Gardening Trowel",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "function:farm",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "agricraft:wooden_crop_sticks": {
    "kind": "item",
    "name": "Crop Sticks",
    "tags": [
+    "kind:block",
     "function:farm",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "agricraft:iron_crop_sticks": {
    "kind": "item",
    "name": "Iron Crop Sticks",
    "tags": [
+    "kind:block",
     "function:farm",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "agricraft:obsidian_crop_sticks": {
    "kind": "item",
    "name": "Obsidian Crop Sticks",
    "tags": [
+    "kind:block",
     "function:farm",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "agricraft:seed_bag": {
    "kind": "item",
    "name": "Suspiciously Savvy Seed Sorting Sack",
    "tags": [
-    "kind:storage",
+    "kind:tool",
     "function:farm",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "agricraft:copper_nugget": {
@@ -145,7 +208,10 @@
    "name": "Copper Nugget",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "agricraft:coal_pebble": {
@@ -153,7 +219,10 @@
    "name": "Coal Pebble",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "agricraft:diamond_shard": {
@@ -161,7 +230,10 @@
    "name": "Diamond Shard",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "agricraft:emerald_shard": {
@@ -169,7 +241,10 @@
    "name": "Emerald Shard",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "agricraft:quartz_shard": {
@@ -177,26 +252,43 @@
    "name": "Quartz Shard",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "agricraft:netherite_sliver": {
    "kind": "item",
    "name": "Netherite Sliver",
    "tags": [
-    "needs:nether",
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "agricraft:amathyllis_petal": {
    "kind": "item",
    "name": "Amathyllis Petal",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21"
+ "tagged_version": "1.21",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21",
+  "pass": "loop-back",
+  "note": "Hands-on crop genetics: crop sticks (plain to obsidian) host crops that cross-breed; the analyzer reads stats; rakes, clippers and trowels are the tools. Resource crops yield small pieces (copper nugget, coal pebble, diamond/emerald/quartz shards, netherite sliver), so it is a slow supplement, not a bulk metal source. Built-in support: none found in source (Mystical Agriculture references it via a compat mod). Influx #31 decides AgriCraft vs Productive Farming."
+ }
 }

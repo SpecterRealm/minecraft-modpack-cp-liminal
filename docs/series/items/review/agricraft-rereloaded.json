@@ -1,0 +1,80 @@
+{
+ "note": "Hands-on crop genetics: crop sticks (plain to obsidian) host crops that cross-breed; the analyzer reads stats; rakes, clippers and trowels are the tools. Resource crops yield small pieces (copper nugget, coal pebble, diamond/emerald/quartz shards, netherite sliver), so it is a slow supplement, not a bulk metal source. Built-in support: none found in source (Mystical Agriculture references it via a compat mod). Influx #31 decides AgriCraft vs Productive Farming.",
+ "rules": [
+  {
+   "match": "^(seed_analyzer|journal|magnifying_glass|debugger)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:farm",
+    "function:research",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(crop_sticks|wooden_crop_sticks|.*_crop_sticks|obsidian_crop_sticks)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:farm",
+    "scale:tiered",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(clipper|wooden_rake|.*_rake|trowel|seed_bag)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:tool",
+    "function:farm",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(copper_nugget|coal_pebble|.*_shard|.*_sliver|.*_nugget|amathyllis_petal)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^debugger$",
+   "set": [
+    "role:dev-only"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

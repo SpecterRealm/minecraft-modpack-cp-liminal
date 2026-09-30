@@ -1,0 +1,120 @@
+{
+ "note": "Gear and challenge layer: gem sockets (cut, chipped to perfect), reforging/salvaging/augmenting tables, sigils, spawner runes and boss spawners. Adds power to gear rather than a progression resource. Built-in support: Placebo (required), supported by Apothic Enchanting and Iron's Spells; uses bosses, which need combat and dimensions Elysian may not have.",
+ "rules": [
+  {
+   "match": "\\.|_icon$",
+   "ui": true
+  },
+  {
+   "match": "^(gem_cutting_table|salvaging_table|simple_reforging_table|reforging_table|augmenting_table)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:craft",
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(boss_spawner|spawner_chain|boss_summoner)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:defend",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(.*_spawner_rune|spawner_rune|infused_spawner_rune|.*_rune)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(gem_dust|mysterious_scrap_metal|timeworn_fabric|luminous_crystal_shard|arcane_sands|godforged_pearl|god_fused_pearl|ancient_material|gem_fused_slate|lucky_foot)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(sigil_of_.*|vial_of_.*)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:consumable",
+    "function:enchant",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(gem_case|ender_gem_case|ender_lead|music_disc_.*|.*_smithing_template)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^gem$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "needs:none"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

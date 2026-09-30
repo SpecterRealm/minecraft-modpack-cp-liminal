@@ -87,49 +87,54 @@
    "kind": "item",
    "name": "Apothic Invader Summoner",
    "tags": [
-    "review:auto"
+    "kind:block",
+    "function:defend",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:gem.cracked": {
    "kind": "item",
    "name": "Cracked %s",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "apotheosis:gem.chipped": {
    "kind": "item",
    "name": "Chipped %s",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "apotheosis:gem.flawed": {
    "kind": "item",
    "name": "Flawed %s",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "apotheosis:gem.normal": {
    "kind": "item",
    "name": "%s",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "apotheosis:gem.flawless": {
    "kind": "item",
    "name": "Flawless %s",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "apotheosis:gem.perfect": {
    "kind": "item",
    "name": "Perfect %s",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "apotheosis:vial_of_extraction": {
@@ -137,7 +142,11 @@
    "name": "Vial of Arcane Extraction",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "function:enchant",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:vial_of_expulsion": {
@@ -145,7 +154,11 @@
    "name": "Vial of Searing Expulsion",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "function:enchant",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:vial_of_unnaming": {
@@ -153,7 +166,11 @@
    "name": "Vial of Unnaming",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "function:enchant",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:gem_dust": {
@@ -161,7 +178,10 @@
    "name": "Gem Dust",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:mysterious_scrap_metal": {
@@ -169,14 +189,21 @@
    "name": "Mysterious Scrap Metal",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:timeworn_fabric": {
    "kind": "item",
    "name": "Timeworn Fabric",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:luminous_crystal_shard": {
@@ -184,36 +211,54 @@
    "name": "Luminous Crystal Shard",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:arcane_sands": {
    "kind": "item",
    "name": "Arcane Sands",
    "tags": [
-    "kind:decoration",
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:godforged_pearl": {
    "kind": "item",
    "name": "Godforged Pearl",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:god_fused_pearl": {
    "kind": "item",
    "name": "God-Fused Pearl",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:ancient_material": {
    "kind": "item",
    "name": "Manifestation of Infinity",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:gem_fused_slate": {
@@ -221,425 +266,528 @@
    "name": "Gem-Fused Slate",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:sigil_of_socketing": {
    "kind": "item",
    "name": "Sigil of Socketing",
    "tags": [
+    "kind:consumable",
     "function:enchant",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:sigil_of_withdrawal": {
    "kind": "item",
    "name": "Sigil of Withdrawal",
    "tags": [
+    "kind:consumable",
     "function:enchant",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:sigil_of_rebirth": {
    "kind": "item",
    "name": "Sigil of Rebirth",
    "tags": [
+    "kind:consumable",
     "function:enchant",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:sigil_of_enhancement": {
    "kind": "item",
    "name": "Sigil of Enhancement",
    "tags": [
+    "kind:consumable",
     "function:enchant",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:sigil_of_unnaming": {
    "kind": "item",
    "name": "Sigil of Unnaming",
    "tags": [
+    "kind:consumable",
     "function:enchant",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:sigil_of_malice": {
    "kind": "item",
    "name": "Sigil of Malice",
    "tags": [
+    "kind:consumable",
     "function:enchant",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:sigil_of_supremacy": {
    "kind": "item",
    "name": "Sigil of Supremacy",
    "tags": [
+    "kind:consumable",
     "function:enchant",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:spawner_chain": {
    "kind": "item",
    "name": "Spawner Chain",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "review:auto"
+    "kind:block",
+    "function:defend",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:spawner_rune": {
    "kind": "item",
    "name": "Spawner Rune",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "function:enchant",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:infused_spawner_rune": {
    "kind": "item",
    "name": "Infused Spawner Rune",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "function:enchant",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:frontier_spawner_upgrade_rune": {
    "kind": "item",
    "name": "Frontiersman's Spawner Upgrade Rune",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "function:enchant",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:ascent_spawner_upgrade_rune": {
    "kind": "item",
    "name": "Wayfarer's Spawner Upgrade Rune",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "function:enchant",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:summit_spawner_upgrade_rune": {
    "kind": "item",
    "name": "Mountaineer's Spawner Upgrade Rune",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "function:enchant",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:pinnacle_spawner_upgrade_rune": {
    "kind": "item",
    "name": "Thundering Spawner Upgrade Rune",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "function:enchant",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:spawn_range_spawner_rune": {
    "kind": "item",
    "name": "Rune of Spawning Range",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "function:enchant",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:redstone_control_spawner_rune": {
    "kind": "item",
    "name": "Rune of Control",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "function:enchant",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:ignore_light_spawner_rune": {
    "kind": "item",
    "name": "Rune of Perpetual Twilight",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "function:enchant",
-    "function:light",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:initial_health_spawner_rune": {
    "kind": "item",
    "name": "Rune of Debilitation",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "function:enchant",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:silent_spawner_rune": {
    "kind": "item",
    "name": "Rune of Silence",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "function:enchant",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:youthful_spawner_rune": {
    "kind": "item",
    "name": "Rune of Youth",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "function:enchant",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:burning_spawner_rune": {
    "kind": "item",
    "name": "Rune of Immolation",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "function:enchant",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:no_ai_spawner_rune": {
    "kind": "item",
    "name": "Rune of Stupor",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "function:enchant",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:ignore_conditions_spawner_rune": {
    "kind": "item",
    "name": "Rune of Defiance",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "function:enchant",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:ignore_players_spawner_rune": {
    "kind": "item",
    "name": "Rune of Solitude",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "function:enchant",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:echoing_spawner_rune": {
    "kind": "item",
    "name": "Rune of Echoes",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "function:enchant",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:iron_upgrade_smithing_template": {
    "kind": "item",
    "name": "Smithing Template",
    "tags": [
-    "function:craft",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:iron_upgrade_smithing_template.applies_to": {
    "kind": "item",
    "name": "Stone and Chain Equipment",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "apotheosis:iron_upgrade_smithing_template.ingredients": {
    "kind": "item",
    "name": "4 Iron Ingots",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "apotheosis:gold_upgrade_smithing_template": {
    "kind": "item",
    "name": "Smithing Template",
    "tags": [
-    "function:craft",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:gold_upgrade_smithing_template.applies_to": {
    "kind": "item",
    "name": "Iron Equipment",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "apotheosis:gold_upgrade_smithing_template.ingredients": {
    "kind": "item",
    "name": "4 Gold Ingots",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "apotheosis:diamond_upgrade_smithing_template": {
    "kind": "item",
    "name": "Smithing Template",
    "tags": [
-    "function:craft",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:diamond_upgrade_smithing_template.applies_to": {
    "kind": "item",
    "name": "Golden Equipment",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "apotheosis:diamond_upgrade_smithing_template.ingredients": {
    "kind": "item",
    "name": "4 Diamonds",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "apotheosis:boss_spawner": {
    "kind": "block",
    "name": "Caged Invader",
    "tags": [
-    "kind:machine",
-    "function:process",
-    "review:auto"
+    "kind:block",
+    "function:defend",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:gem_cutting_table": {
    "kind": "block",
    "name": "Gem Cutting Table",
    "tags": [
+    "kind:machine",
     "function:craft",
-    "kind:material",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "apotheosis:salvaging_table": {
    "kind": "block",
    "name": "Salvaging Table",
    "tags": [
+    "kind:machine",
     "function:craft",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "apotheosis:simple_reforging_table": {
    "kind": "block",
    "name": "Simple Reforging Table",
    "tags": [
+    "kind:machine",
     "function:craft",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "apotheosis:reforging_table": {
    "kind": "block",
    "name": "Reforging Table",
    "tags": [
+    "kind:machine",
     "function:craft",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "apotheosis:augmenting_table": {
    "kind": "block",
    "name": "Augmenting Table",
    "tags": [
+    "kind:machine",
     "function:craft",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "apotheosis:gem_case": {
    "kind": "block",
    "name": "Gem Case",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:ender_gem_case": {
    "kind": "block",
    "name": "Gem Case of House Fabergé",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:lucky_foot": {
    "kind": "item",
    "name": "Lucky Rabbit's Foot",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:ender_lead": {
    "kind": "item",
    "name": "Ender Lead",
    "tags": [
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:music_disc_flash": {
    "kind": "item",
    "name": "Music Disc",
    "tags": [
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:music_disc_glimmer": {
    "kind": "item",
    "name": "Music Disc",
    "tags": [
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "apotheosis:music_disc_shimmer": {
    "kind": "item",
    "name": "Music Disc",
    "tags": [
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21"
+ "tagged_version": "1.21",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21",
+  "pass": "loop-back",
+  "note": "Gear and challenge layer: gem sockets (cut, chipped to perfect), reforging/salvaging/augmenting tables, sigils, spawner runes and boss spawners. Adds power to gear rather than a progression resource. Built-in support: Placebo (required), supported by Apothic Enchanting and Iron's Spells; uses bosses, which need combat and dimensions Elysian may not have."
+ }
 }

@@ -1,0 +1,281 @@
+{
+ "note": "Spirit-magic pillar: rituals with chalk and sacrificial bowls summon familiars and spirits (foliot, djinni, afrit, marid), which do work. Miner spirits run the dimensional mineshaft and return ores from the mining dimension (yields/occultism.json); Iesnium and silver ores come that way. Dimensional storage (storage controller and stabilizers) is bulk storage. Mobs and most rituals are spell-tech. Built-in support: supported by 9 mods (Apotheosis, Botany Pots/Trees, Create, Productive Bees, ProjectE Integration, Theurgy, Ars Ocultas and Occultism KubeJS). No FE power. Note: the miner recipe conditions depend on ore tags being non-empty.",
+ "rules": [
+  {
+   "match": "\\.|_icon$|^debug|^ritual_dummy",
+   "ui": true
+  },
+  {
+   "match": "^(dimensional_extractor|dimensional_mineshaft|dimensional_battlefield|entity_wormhole(_dark)?|stable_wormhole(_dark)?|spirit_grindstone|iesnium_anvil|otherstone_pedestal(_silver)?|dimensional_matrix)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:craft",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(dimensional_mineshaft)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:mine",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "role:core"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(storage_controller.*|storage_stabilizer_tier\\d.*|storage_controller_base.*)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:store",
+    "scale:tiered",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(.*sacrificial_bowl|celestial_chalice|eldritch_chalice)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:craft",
+    "function:enchant",
+    "needs:spell-tech"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(chalk_glyph_.*|chalk_.*|.*_paste)$",
+   "clear": [
+    "kind",
+    "function",
+    "needs"
+   ],
+   "set": [
+    "kind:ingredient",
+    "function:craft",
+    "needs:spell-tech"
+   ]
+  },
+  {
+   "match": "^(.*iesnium_ore|silver_ore|silver_ore_deepslate|raw_iesnium_block|raw_silver_block|iesnium_block|silver_block)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "needs:ore"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(raw_iesnium|raw_silver)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:ore"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(other.*|.*otherstone.*|.*otherrock.*|.*_otherrock_bricks|chiseled_other.*|cracked_other.*|large_candle.*|lighted_air|spirit_(fire|torch|lantern|campfire)|tallow_block|skeleton_skull_dummy|wither_skeleton_skull_dummy|datura|stripped_otherworld.*)$",
+   "clear": [
+    "kind",
+    "function",
+    "needs"
+   ],
+   "set": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(otherworld_sapling|otherworld_sapling_natural|datura_seeds)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:ingredient",
+    "function:farm",
+    "needs:spell-tech"
+   ]
+  },
+  {
+   "match": "^(miner_.*)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "function:mine",
+    "needs:spell-tech",
+    "role:core"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(.*_dust|dragonyst_dust|witherite_dust|iesnium_(ingot|nugget)|research_fragment_dust|afrit_essence|marid_essence|otherworld_essence|otherworld_ashes|cruelty_essence|demons_dream_essence|purified_ink|infused_lenses|lenses|lens_frame|.*_frame|awakened_feather|beaver_nugget|burnt_other.*|cursed_honey|demonic_meat|crushed_.*|mysterious_egg|spirit_attuned_.*|mining_dim_core)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:spell-tech"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(iesnium_pickaxe|infused_pickaxe|butcher_knife|iesnium_butcher_knife|brush)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:tool",
+    "needs:spell-tech"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(ender_satchel|ritual_satchel.*|satchel|familiar_ring|flame_of_automation|fragile_soul_gem|fragile_soul_gem_empty|soul_gem|knowledge_tablet|magic_lamp_.*|otherworld_goggles|pentacle_.*|vitality_compass|true_sight_staff|storage_remote|divination_rod|.*_ring)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(afrit|afrit_wild|djinni|marid|marid_unbound|foliot|demonic_husband|demonic_wife|iesnium_golem|shub_niggurath_spawn|mercy_goat|wondering_trader|otherworld_bird|thrown_sword)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:mob",
+    "needs:spell-tech"
+   ],
+   "kind": "entity"
+  },
+  {
+   "match": "^(.*_familiar|possessed_.*|wild_.*)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:mob",
+    "function:defend",
+    "needs:spell-tech"
+   ],
+   "kind": "entity"
+  },
+  {
+   "match": "^(djinni|foliot|afrit|marid)(_unbound)?$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:mob",
+    "function:automate",
+    "needs:spell-tech"
+   ],
+   "kind": "entity"
+  },
+  {
+   "match": ".",
+   "kind": "entity",
+   "clear": [
+    "kind"
+   ],
+   "set": [
+    "kind:mob"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech"
+   ]
+  }
+ ]
+}

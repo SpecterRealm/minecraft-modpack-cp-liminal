@@ -55,8 +55,14 @@
    "kind": "block",
    "name": "Simulation Chamber",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:process",
+    "function:farm",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "role:core",
+    "review:checked"
    ]
   },
   "hostilenetworks:loot_fabricator": {
@@ -65,98 +71,175 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "review:auto"
+    "function:farm",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "role:core",
+    "review:checked"
    ]
   },
   "hostilenetworks:data_center": {
    "kind": "block",
    "name": "Data Center",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:process",
+    "function:farm",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "role:core",
+    "review:checked"
    ]
   },
   "hostilenetworks:data_center_io_port": {
    "kind": "block",
    "name": "Data Center IO Port",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:process",
+    "function:farm",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "role:core",
+    "review:checked"
    ]
   },
   "hostilenetworks:deep_learner": {
    "kind": "item",
    "name": "Deep Learner",
    "tags": [
-    "review:auto"
+    "kind:machine",
+    "function:process",
+    "function:farm",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "role:core",
+    "review:checked"
    ]
   },
   "hostilenetworks:data_model": {
    "kind": "item",
    "name": "%s Data Model",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "function:research",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "hostilenetworks:blank_data_model": {
    "kind": "item",
    "name": "Model Framework",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "function:research",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "hostilenetworks:prediction": {
    "kind": "item",
    "name": "%s Prediction",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "function:research",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "hostilenetworks:prediction_matrix": {
    "kind": "item",
    "name": "Prediction Matrix",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "function:research",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "hostilenetworks:overworld_prediction": {
    "kind": "item",
    "name": "Generalized Overworld Prediction",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "function:research",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "hostilenetworks:nether_prediction": {
    "kind": "item",
    "name": "Generalized Nether Prediction",
    "tags": [
+    "kind:material",
+    "function:research",
+    "needs:none",
     "needs:nether",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "hostilenetworks:end_prediction": {
    "kind": "item",
    "name": "Generalized Ender Prediction",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "function:research",
+    "needs:none",
+    "needs:end",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "hostilenetworks:twilight_prediction": {
    "kind": "item",
    "name": "Generalized Twilight Prediction",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "function:research",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "hostilenetworks:fab_directive": {
    "kind": "item",
    "name": "Fabrication Directive",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "function:research",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21"
+ "tagged_version": "1.21",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21",
+  "pass": "loop-back",
+  "note": "Mob loot machines: a deep learner trains data models, a simulation chamber generates predictions, and the loot fabricator turns predictions into mob drops (so a path to iron, bone, ender pearls without a farm). All FE machines. Nether and End predictions need those dimensions' data. Influx owns this mod. Built-in support: Placebo (required); none other found."
+ }
 }

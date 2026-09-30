@@ -1,0 +1,15 @@
+{
+ "mod": "theurgy",
+ "version": "v1.21.1-1.76.1",
+ "source": "src/generated/resources/data/theurgy/recipe (liquefaction/incubation/reformation)",
+ "entries": [
+  {
+   "resource": "iron",
+   "form": "ore -> alchemical sulfur (x5) -> ingot",
+   "source": "liquefaction + incubation",
+   "power": "none (vessels, heat, mercury flux; no FE)",
+   "stage": "scale",
+   "note": "Verified in recipe data: liquefaction makes 5 iron sulfur per iron ore (solvent: 10 mB sal ammoniac). Incubation: iron sulfur + mineral salt + mercury shard -> 1 iron ingot (100 ticks). So 1 ore yields 5 ingots. Reformation can also convert other common-metal sulfur/niter into iron sulfur. The same pattern exists per metal. Needs ore (Verdant: from sieving)."
+  }
+ ]
+}

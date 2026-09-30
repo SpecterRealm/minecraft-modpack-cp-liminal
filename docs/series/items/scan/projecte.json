@@ -50,31 +50,52 @@
    "name": "Aeternalis Fuel Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:collector_mk1": {
    "kind": "block",
    "name": "Energy Collector MK1",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:emc",
+    "fuel:sun",
+    "scale:tiered",
+    "needs:none",
+    "review:checked"
    ]
   },
   "projecte:collector_mk2": {
    "kind": "block",
    "name": "Energy Collector MK2",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:emc",
+    "fuel:sun",
+    "scale:tiered",
+    "needs:none",
+    "review:checked"
    ]
   },
   "projecte:collector_mk3": {
    "kind": "block",
    "name": "Energy Collector MK3",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:emc",
+    "fuel:sun",
+    "scale:tiered",
+    "needs:none",
+    "review:checked"
    ]
   },
   "projecte:condenser_mk1": {
@@ -83,8 +104,13 @@
    "tags": [
     "kind:machine",
     "function:process",
+    "function:store",
+    "power-role:uses",
+    "power-role:stores",
     "power-type:emc",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "review:checked"
    ]
   },
   "projecte:condenser_mk2": {
@@ -93,8 +119,13 @@
    "tags": [
     "kind:machine",
     "function:process",
+    "function:store",
+    "power-role:uses",
+    "power-role:stores",
     "power-type:emc",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "review:checked"
    ]
   },
   "projecte:dark_matter_block": {
@@ -102,7 +133,10 @@
    "name": "Dark Matter Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:dm_furnace": {
@@ -111,24 +145,33 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "review:auto"
+    "power-role:uses",
+    "power-type:emc",
+    "needs:none",
+    "review:checked"
    ]
   },
   "projecte:dm_pedestal": {
    "kind": "block",
    "name": "Dark Matter Pedestal",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:emc",
+    "needs:none",
+    "review:checked"
    ]
   },
   "projecte:interdiction_torch": {
    "kind": "block",
    "name": "Interdiction Torch",
    "tags": [
-    "function:light",
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:mobius_fuel_block": {
@@ -136,7 +179,10 @@
    "name": "Mobius Fuel Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:nova_cataclysm": {
@@ -144,15 +190,21 @@
    "name": "Nova Cataclysm",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:nova_catalyst": {
    "kind": "block",
    "name": "Nova Catalyst",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:red_matter_block": {
@@ -160,40 +212,49 @@
    "name": "Red Matter Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:relay_mk1": {
    "kind": "block",
    "name": "Anti-Matter Relay MK1",
    "tags": [
+    "kind:machine",
     "function:transfer",
     "power-role:transfers",
-    "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "power-type:emc",
+    "scale:tiered",
+    "needs:none",
+    "review:checked"
    ]
   },
   "projecte:relay_mk2": {
    "kind": "block",
    "name": "Anti-Matter Relay MK2",
    "tags": [
+    "kind:machine",
     "function:transfer",
     "power-role:transfers",
-    "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "power-type:emc",
+    "scale:tiered",
+    "needs:none",
+    "review:checked"
    ]
   },
   "projecte:relay_mk3": {
    "kind": "block",
    "name": "Anti-Matter Relay MK3",
    "tags": [
+    "kind:machine",
     "function:transfer",
     "power-role:transfers",
-    "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "power-type:emc",
+    "scale:tiered",
+    "needs:none",
+    "review:checked"
    ]
   },
   "projecte:rm_furnace": {
@@ -202,99 +263,106 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "review:auto"
+    "power-role:uses",
+    "power-type:emc",
+    "needs:none",
+    "review:checked"
    ]
   },
   "projecte:transmutation_table": {
    "kind": "block",
    "name": "Transmutation Table",
    "tags": [
+    "kind:machine",
     "function:craft",
+    "power-role:uses",
     "power-type:emc",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "role:core",
+    "review:checked"
    ]
   },
   "projecte:fire_projectile": {
    "kind": "entity",
    "name": "Fireball",
    "tags": [
-    "kind:mob",
-    "review:auto"
+    "review:checked"
    ]
   },
   "projecte:homing_arrow": {
    "kind": "entity",
    "name": "Homing Arrow",
    "tags": [
-    "kind:mob",
     "kind:consumable",
     "function:defend",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
    ]
   },
   "projecte:lava_projectile": {
    "kind": "entity",
    "name": "Lava Orb",
    "tags": [
-    "kind:mob",
-    "review:auto"
+    "review:checked"
    ]
   },
   "projecte:lens_projectile": {
    "kind": "entity",
    "name": "Explosive Lens",
    "tags": [
-    "kind:mob",
-    "review:auto"
+    "review:checked"
    ]
   },
   "projecte:mob_randomizer": {
    "kind": "entity",
    "name": "Randomizer Orb",
    "tags": [
-    "kind:mob",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:nova_cataclysm_primed": {
    "kind": "entity",
    "name": "Primed Nova Cataclysm",
    "tags": [
-    "kind:mob",
-    "review:auto"
+    "review:checked"
    ]
   },
   "projecte:nova_catalyst_primed": {
    "kind": "entity",
    "name": "Primed Nova Catalyst",
    "tags": [
-    "kind:mob",
-    "kind:material",
-    "review:auto"
+    "review:checked"
    ]
   },
   "projecte:swrg_projectile": {
    "kind": "entity",
    "name": "SWRG Projectile",
    "tags": [
-    "kind:mob",
-    "review:auto"
+    "review:checked"
    ]
   },
   "projecte:water_projectile": {
    "kind": "entity",
    "name": "Water Orb",
    "tags": [
-    "kind:mob",
-    "review:auto"
+    "review:checked"
    ]
   },
   "projecte:aeternalis_fuel": {
    "kind": "item",
    "name": "Aeternalis Fuel",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "power-type:emc",
+    "needs:none",
+    "power-role:none",
+    "review:checked"
    ]
   },
   "projecte:arcana_ring": {
@@ -302,75 +370,109 @@
    "name": "Ring of Arcana",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:archangel_smite": {
    "kind": "item",
    "name": "Archangel's Smite",
    "tags": [
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:black_hole_band": {
    "kind": "item",
    "name": "Black Hole Band",
    "tags": [
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:body_stone": {
    "kind": "item",
    "name": "Body Stone",
    "tags": [
-    "kind:decoration",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:catalytic_lens": {
    "kind": "item",
    "name": "Catalytic Lens",
    "tags": [
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:dark_matter": {
    "kind": "item",
    "name": "Dark Matter",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "power-type:emc",
+    "needs:none",
+    "power-role:none",
+    "review:checked"
    ]
   },
   "projecte:destruction_catalyst": {
    "kind": "item",
    "name": "Destruction Catalyst",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:divining_rod_1": {
    "kind": "item",
    "name": "Divining Rod (low)",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:divining_rod_2": {
    "kind": "item",
    "name": "Divining Rod (medium)",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:divining_rod_3": {
    "kind": "item",
    "name": "Divining Rod (high)",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:dm_axe": {
@@ -378,7 +480,10 @@
    "name": "Dark Matter Axe",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:dm_boots": {
@@ -387,7 +492,10 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:dm_chestplate": {
@@ -396,7 +504,10 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:dm_hammer": {
@@ -404,7 +515,10 @@
    "name": "Dark Matter Hammer",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:dm_helmet": {
@@ -413,7 +527,10 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:dm_hoe": {
@@ -421,7 +538,10 @@
    "name": "Dark Matter Hoe",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:dm_leggings": {
@@ -430,7 +550,10 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:dm_pick": {
@@ -438,8 +561,10 @@
    "name": "Dark Matter Pickaxe",
    "tags": [
     "kind:tool",
-    "function:mine",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:dm_shears": {
@@ -447,7 +572,10 @@
    "name": "Dark Matter Shears",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:dm_shovel": {
@@ -455,7 +583,10 @@
    "name": "Dark Matter Shovel",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:dm_sword": {
@@ -464,7 +595,10 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:evertide_amulet": {
@@ -472,7 +606,10 @@
    "name": "Evertide Amulet",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:gem_boots": {
@@ -481,8 +618,10 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:gem_chestplate": {
@@ -491,8 +630,10 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:gem_helmet": {
@@ -501,8 +642,10 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:gem_leggings": {
@@ -511,23 +654,32 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:gem_of_eternal_density": {
    "kind": "item",
    "name": "Gem of Eternal Density",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:harvest_goddess_band": {
    "kind": "item",
    "name": "Harvest Goddess Band",
    "tags": [
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:high_covalence_dust": {
@@ -535,14 +687,21 @@
    "name": "High Covalence Dust",
    "tags": [
     "kind:material",
-    "review:auto"
+    "power-type:emc",
+    "needs:none",
+    "power-role:none",
+    "review:checked"
    ]
   },
   "projecte:hyperkinetic_lens": {
    "kind": "item",
    "name": "Hyperkinetic Lens",
    "tags": [
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:ignition_ring": {
@@ -550,64 +709,104 @@
    "name": "Ignition Ring",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:iron_band": {
    "kind": "item",
    "name": "Iron Band",
    "tags": [
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:klein_star_drei": {
    "kind": "item",
    "name": "Klein Star Drei",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "kind:gadget",
+    "function:store",
+    "power-role:stores",
+    "power-type:emc",
+    "review:checked"
    ]
   },
   "projecte:klein_star_ein": {
    "kind": "item",
    "name": "Klein Star Ein",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "kind:gadget",
+    "function:store",
+    "power-role:stores",
+    "power-type:emc",
+    "review:checked"
    ]
   },
   "projecte:klein_star_omega": {
    "kind": "item",
    "name": "Klein Star Omega",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "kind:gadget",
+    "function:store",
+    "power-role:stores",
+    "power-type:emc",
+    "review:checked"
    ]
   },
   "projecte:klein_star_sphere": {
    "kind": "item",
    "name": "Klein Star Sphere",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "kind:gadget",
+    "function:store",
+    "power-role:stores",
+    "power-type:emc",
+    "review:checked"
    ]
   },
   "projecte:klein_star_vier": {
    "kind": "item",
    "name": "Klein Star Vier",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "kind:gadget",
+    "function:store",
+    "power-role:stores",
+    "power-type:emc",
+    "review:checked"
    ]
   },
   "projecte:klein_star_zwei": {
    "kind": "item",
    "name": "Klein Star Zwei",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "kind:gadget",
+    "function:store",
+    "power-role:stores",
+    "power-type:emc",
+    "review:checked"
    ]
   },
   "projecte:life_stone": {
    "kind": "item",
    "name": "Life Stone",
    "tags": [
-    "kind:decoration",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:low_covalence_dust": {
@@ -615,7 +814,10 @@
    "name": "Low Covalence Dust",
    "tags": [
     "kind:material",
-    "review:auto"
+    "power-type:emc",
+    "needs:none",
+    "power-role:none",
+    "review:checked"
    ]
   },
   "projecte:medium_covalence_dust": {
@@ -623,51 +825,78 @@
    "name": "Medium Covalence Dust",
    "tags": [
     "kind:material",
-    "review:auto"
+    "power-type:emc",
+    "needs:none",
+    "power-role:none",
+    "review:checked"
    ]
   },
   "projecte:mercurial_eye": {
    "kind": "item",
    "name": "Mercurial Eye",
    "tags": [
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:mind_stone": {
    "kind": "item",
    "name": "Mind Stone",
    "tags": [
-    "kind:decoration",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:mobius_fuel": {
    "kind": "item",
    "name": "Mobius Fuel",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "power-type:emc",
+    "needs:none",
+    "power-role:none",
+    "review:checked"
    ]
   },
   "projecte:philosophers_stone": {
    "kind": "item",
    "name": "Philosopher's Stone",
    "tags": [
-    "kind:decoration",
-    "review:auto"
+    "needs:none",
+    "kind:tool",
+    "function:craft",
+    "power-role:uses",
+    "power-type:emc",
+    "role:core",
+    "review:checked"
    ]
   },
   "projecte:red_matter": {
    "kind": "item",
    "name": "Red Matter",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "power-type:emc",
+    "needs:none",
+    "power-role:none",
+    "review:checked"
    ]
   },
   "projecte:repair_talisman": {
    "kind": "item",
    "name": "Repair Talisman",
    "tags": [
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:rm_axe": {
@@ -675,7 +904,10 @@
    "name": "Red Matter Axe",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:rm_boots": {
@@ -684,7 +916,10 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:rm_chestplate": {
@@ -693,7 +928,10 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:rm_hammer": {
@@ -701,7 +939,10 @@
    "name": "Red Matter Hammer",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:rm_helmet": {
@@ -710,7 +951,10 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:rm_hoe": {
@@ -718,14 +962,22 @@
    "name": "Red Matter Hoe",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:rm_katar": {
    "kind": "item",
    "name": "Red Katar",
    "tags": [
-    "review:auto"
+    "kind:weapon",
+    "function:defend",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:rm_leggings": {
@@ -734,14 +986,22 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:rm_morning_star": {
    "kind": "item",
    "name": "Red Morningstar",
    "tags": [
-    "review:auto"
+    "kind:weapon",
+    "function:defend",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:rm_pick": {
@@ -749,8 +1009,10 @@
    "name": "Red Matter Pickaxe",
    "tags": [
     "kind:tool",
-    "function:mine",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:rm_shears": {
@@ -758,7 +1020,10 @@
    "name": "Red Matter Shears",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:rm_shovel": {
@@ -766,7 +1031,10 @@
    "name": "Red Matter Shovel",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:rm_sword": {
@@ -775,39 +1043,56 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:soul_stone": {
    "kind": "item",
    "name": "Soul Stone",
    "tags": [
-    "needs:nether",
-    "kind:decoration",
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:swiftwolf_rending_gale": {
    "kind": "item",
    "name": "Swiftwolf's Rending Gale",
    "tags": [
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:tome": {
    "kind": "item",
    "name": "Tome of Knowledge",
    "tags": [
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:transmutation_tablet": {
    "kind": "item",
    "name": "Transmutation Tablet",
    "tags": [
+    "needs:none",
+    "kind:tool",
+    "function:craft",
+    "power-role:uses",
     "power-type:emc",
-    "kind:gadget",
-    "review:auto"
+    "role:core",
+    "review:checked"
    ]
   },
   "projecte:void_ring": {
@@ -815,7 +1100,10 @@
    "name": "Void Ring",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:volcanite_amulet": {
@@ -823,14 +1111,21 @@
    "name": "Volcanite Amulet",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:watch_of_flowing_time": {
    "kind": "item",
    "name": "Watch of Flowing Time",
    "tags": [
-    "review:auto"
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "projecte:zero_ring": {
@@ -838,11 +1133,21 @@
    "name": "Zero Ring",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "mc1.21.1"
+ "tagged_version": "mc1.21.1",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "mc1.21.1",
+  "pass": "loop-back",
+  "note": "Equivalent Exchange: every item has an EMC value; the transmutation table turns EMC into any item you have learned (once per item). Collectors (Mk1 to Mk3) make EMC from sunlight, relays move it, condensers convert it; Klein Stars store it. Philosopher's stone is the core tool. Dark and Red Matter gear is an endgame tier. Influx's EMC destination (pattern first, then convert, then EMC). Built-in support: supports Mekanism, AE2 via add-ons (AppliedE, ProjectExtendedAdvancedAE); supported by 4 mods. Mekanism has a large ProjectE integration (22 files)."
+ }
 }

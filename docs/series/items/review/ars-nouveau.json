@@ -1,0 +1,269 @@
+{
+ "note": "Spell-tech pillar of Elysian: Source (mana-like) is the power type. Sourcelinks generate it, source jars and relays store and move it, and the enchanting apparatus, scribes table and imbuement chamber craft with it. Glyphs and rituals are the spell and ritual items. Archwood and sourcestone are building blocks. Familiars and starbuncles are the automation helpers. Supported by 22 mods (Ars add-ons, Create, Ex Deorum, Productive Bees and others). Sourcelinks are the 'magic generator' Elysian needs in place of tech power.",
+ "rules": [
+  {
+   "match": "\\.|^debug$|_icon$",
+   "ui": true
+  },
+  {
+   "match": "^(agronomic|mycelial|vitalic|volcanic)_sourcelink$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:source",
+    "needs:spell-tech"
+   ]
+  },
+  {
+   "match": "^(source_jar|creative_source_jar|relay|relay_.*|brazier_relay|repository|source_lamp)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:store",
+    "function:transfer",
+    "power-role:stores",
+    "power-role:transfers",
+    "power-type:source",
+    "needs:spell-tech"
+   ]
+  },
+  {
+   "match": "^(creative_source_jar)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "kind:block",
+    "power-type:source",
+    "role:dev-only"
+   ]
+  },
+  {
+   "match": "^(enchanting_apparatus|arcane_core|arcane_pedestal|arcane_platform|scribes_table|imbuement_chamber|alteration_table|ritual_brazier|wixie_cauldron|storage_lectern|arcane_core)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:craft",
+    "function:enchant",
+    "power-role:uses",
+    "power-type:source",
+    "needs:spell-tech"
+   ]
+  },
+  {
+   "match": "^(.*_spell_turret|spell_turret|spell_prism|spell_sensor|void_prism|warding_stone|rune|scryers_crystal|scryers_oculus|item_detector|portal|mob_jar|drygmy_stone|bastion_pod|bombegranate_pod|frostaya_pod|mendosteen_pod)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:defend",
+    "power-role:uses",
+    "power-type:source",
+    "needs:spell-tech"
+   ]
+  },
+  {
+   "match": "^(archwood_.*|.*_archwood_(log|wood|leaves|sapling)|stripped_.*_archwood_.*|.*sourcestone.*|.*gilded.*|.*_sconce|sconce|polished_sconce|.*_grate|grate|source_gem_block|falseweave|ghostweave|mirrorweave|mage_block|magebloom_block|light_block|magelight_torch|sky_block|lava_lily|whirlisprig_flower|sourceberry_bush|magebloom_crop|.*_sbed|magic_fire|intangible_air|redstone_air|temporary_light_block|animated_block|enchanted_.*_block)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:decoration"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(.*_archwood_sapling|sourceberry_bush|magebloom_crop)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:block",
+    "function:farm"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^.*_essence$|^(blank_glyph|blank_parchment|blank_thread|blaze_fiber|end_fiber|magebloom|magebloom_fiber|magic_clay|marvelous_clay|mythical_clay|drygmy_shard|source_gem|experience_gem|greater_experience_gem|sourceberry_sack|jar_of_light)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:spell-tech"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(arcanist_.*|battlemage_.*)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:armor",
+    "function:defend",
+    "power-role:makes",
+    "power-type:source",
+    "needs:spell-tech"
+   ]
+  },
+  {
+   "match": "^(amulet_of_.*|belt_of_.*|mundane_belt|.*_ring|ring_of_.*|jump_ring|dull_trinket|enchanters_eye|enchanters_mirror|greater_discount_ring|lesser_discount_ring|dowsing_rod|dominion_wand|caster_tome|annotated_codex|music_disc_.*)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(enchanters_sword)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:weapon",
+    "function:defend",
+    "needs:spell-tech"
+   ]
+  },
+  {
+   "match": "^(enchanters_shield)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
+  },
+  {
+   "match": "^(ritual_.*|glyph_.*|allow_scroll|deny_scroll|mimic_scroll|amplify_arrow|pierce_arrow|split_arrow|lingering_flask_cannon|.*_scroll)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:consumable",
+    "function:enchant",
+    "needs:spell-tech"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(.*_charm|amethyst_golem_charm|drygmy_charm)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "function:farm",
+    "needs:spell-tech"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(ally_vex|amethyst_golem|drygmy|familiar_.*|starbuncle|whirlisprig|wixie|gift_starby|summon_.*|wilden_.*|.*_weald_walker|dummy|scryer_camera|lily)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:mob"
+   ],
+   "kind": "entity"
+  },
+  {
+   "match": "^(wilden_.*|.*_weald_walker)$",
+   "kind": "entity",
+   "set": [
+    "function:defend"
+   ]
+  },
+  {
+   "match": "^(starbuncle|whirlisprig|wixie|drygmy|familiar_.*)$",
+   "kind": "entity",
+   "set": [
+    "function:automate"
+   ]
+  },
+  {
+   "match": ".",
+   "kind": "entity",
+   "clear": [
+    "kind"
+   ],
+   "set": [
+    "kind:mob"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech"
+   ]
+  }
+ ]
+}
