@@ -1,1 +1,1 @@
-PLACEHOLDER_SEE_NEXT
+file:///agent/repos/minecraft-modpack-cp-liminal/scripts/build_recipe_wiki.py
