@@ -42,6 +42,8 @@ def stat_range(item, key):
     values = item.get("stats", {}).get(key)
     if not values:
         return "-"
+    if not isinstance(values, list):
+        return fmt(values)
     return fmt(values[0]) if len(values) == 1 else f"{fmt(values[0])} to {fmt(values[-1])}"
 
 

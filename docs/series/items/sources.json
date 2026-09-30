@@ -1,0 +1,1579 @@
+{
+ "_doc": "mod id -> source repo. Run scripts/series-mod-sources.py check to fill ref/verified, then report.",
+ "mods": {
+  "advancedae": {
+   "repo": "pedroksl/AdvancedAE",
+   "note": "",
+   "verified": true,
+   "ref": "1.6.11-1.21.1-neoforge",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "ae2-crafting-tree": {
+   "repo": "nimeng1299/AE2CraftingTree",
+   "note": "",
+   "verified": true,
+   "ref": "1.21-neoforge",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "ae2-jei-integration": {
+   "repo": "Tamaized/AE2-JEI-Integration",
+   "note": "",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "ae2-pattern-encoding-access-terminal": {
+   "repo": "yuuki1293/AE2PatternEncodingAccessTerminal",
+   "note": "",
+   "verified": true,
+   "ref": "neoforge/v1.21.1-1.1.0-rc.1",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "ae2-tangible-bookmarks": {
+   "repo": "mc-myo-s-mod/AE2-Tangible-Bookmarks",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "ae2helpers": {
+   "repo": "Rearth/ae2helpers",
+   "note": "",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "agricraft-rereloaded": {
+   "repo": "AgriCraft/AgriCraft",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "akashic-tome": {
+   "repo": "Vazkii/AkashicTome",
+   "note": "",
+   "verified": true,
+   "ref": "release-1.21.1-1.8-28",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "animal-pens": {
+   "repo": "BONNePlayground/AnimalPen",
+   "note": "",
+   "verified": true,
+   "ref": "2.4.3-1.21",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "apotheosis": {
+   "repo": "Shadows-of-Fire/Apotheosis",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "apothic-attributes": {
+   "repo": "Shadows-of-Fire/Apothic-Attributes",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "apothic-enchanting": {
+   "repo": "Shadows-of-Fire/Apothic-Enchanting",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "apothic-spawners": {
+   "repo": "Shadows-of-Fire/Apothic-Spawners",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "applied-create": {
+   "repo": null,
+   "status": "not-found",
+   "note": "Author loliball; no public repo found."
+  },
+  "applied-energistics-2": {
+   "repo": "AppliedEnergistics/Applied-Energistics-2",
+   "note": "",
+   "verified": true,
+   "ref": "neoforge/v19.2.17",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "applied-energistics-2-wireless-terminals": {
+   "repo": "Mari023/AE2WirelessTerminalLibrary",
+   "note": "",
+   "verified": true,
+   "ref": "19.5.0",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "applied-kubejs-kjs-ae2": {
+   "repo": null,
+   "status": "not-found",
+   "note": "No public repo found (KubeJS wiki links to one)."
+  },
+  "applied-mekanistics": {
+   "repo": "AppliedEnergistics/Applied-Mekanistics",
+   "note": "",
+   "verified": true,
+   "ref": "1.6.3",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "applied-sorting": {
+   "repo": "Meatwo310/applied-sorting",
+   "note": "",
+   "verified": true,
+   "ref": "old/neo-1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "appliede": {
+   "repo": "62832/AppliedE",
+   "note": "",
+   "verified": true,
+   "ref": "1.0.8-beta",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "architectury-api": {
+   "repo": "architectury/architectury-api",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "ars-additions": {
+   "repo": "Jarva/Ars-Additions",
+   "note": "",
+   "verified": true,
+   "ref": "21.3.0",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "ars-caelum": {
+   "repo": "baileyholl/Ars-Caelum",
+   "note": "Repo has per-version branches (1.21.x); author baileyholl2.",
+   "verified": true,
+   "ref": "1.21.x",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "ars-controle": {
+   "repo": "Vonr/Ars-Controle",
+   "note": "",
+   "verified": true,
+   "ref": "1.6.16",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "ars-creo": {
+   "repo": "baileyholl/Ars-Creo",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.x",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "ars-elemancy": {
+   "repo": "Alexthw46/Ars-Elemancy",
+   "note": "",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "ars-elemental": {
+   "repo": "Alexthw46/Ars-Elemental",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "ars-energistique": {
+   "repo": "62832/ArsEnergistique",
+   "note": "",
+   "verified": true,
+   "ref": "2.1.1-beta",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "ars-mekanica": {
+   "repo": null,
+   "status": "not-found",
+   "note": "Author meigoc; no public repo found."
+  },
+  "ars-nouveau": {
+   "repo": "baileyholl/Ars-Nouveau",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.x",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "ars-ocultas": {
+   "repo": "dphaldes/Ars-Ocultas",
+   "note": "",
+   "verified": true,
+   "ref": "v2.6.1",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "ars-polymorphia": {
+   "repo": "Vonr/Ars-Polymorphia",
+   "note": "",
+   "verified": true,
+   "ref": "1.0.3",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "ars-technica": {
+   "repo": "zeroregard/Ars-Technica",
+   "note": "",
+   "verified": true,
+   "ref": "2.7.6",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "ars-zero": {
+   "repo": "zeroregard/Ars-Zero",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "atlas-api": {
+   "repo": "Respace-io/atlas-api",
+   "note": "",
+   "verified": true,
+   "ref": "v1.21.1-1.2.0",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "autoemc": {
+   "repo": "yifayun/Auto-EMC",
+   "note": "Repo is Auto EMC Burner (1.20.1 in the listing); pin autoemc-2.1.1 may be a different project. Check.",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "azurum-miner": {
+   "repo": "nathanrreed/Azurum-Miner",
+   "note": "",
+   "verified": true,
+   "ref": "v1.21.1-1.4.2",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "balm": {
+   "repo": "TwelveIterations/Balm",
+   "note": "",
+   "verified": true,
+   "ref": "v21.0.56",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "baubley-heart-canisters": {
+   "repo": "Traverse-Joe/Baubley-Heart-Canisters",
+   "note": "",
+   "verified": true,
+   "ref": "1.21-neoforge",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "better-fusion-reactor-for-mekanism": {
+   "repo": "igentuman/Better-Fusion-Reactor",
+   "note": "",
+   "verified": true,
+   "ref": "1.21x",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "betterp2p": {
+   "repo": "LasmGratel/BetterP2P",
+   "note": "Repo lists 1.20.1 Fabric/Forge; the pin is a 1.21.1 build. Check.",
+   "verified": true,
+   "ref": "v1.5.2",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "bookshelf": {
+   "repo": "Darkhax-Minecraft/Bookshelf",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "botany-pots": {
+   "repo": "Darkhax-Minecraft/BotanyPots",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "botany-pots-mystical-agriculture-compat": {
+   "repo": "Darkhax-Minecraft/Botany-Pots-Mystical-Agriculture",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "botany-pots-tiers": {
+   "repo": "starforcraft/Botany-Pots-Tiers",
+   "note": "",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "botany-trees": {
+   "repo": "Darkhax-Minecraft/BotanyTrees",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "brandons-core": {
+   "repo": "brandon3055/BrandonsCore",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "building-gadgets": {
+   "repo": "Direwolf20-MC/BuildingGadgets2",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "building-wands": {
+   "repo": "nicguzzo/wands",
+   "note": "",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "cb-multipart": {
+   "repo": "TheCBProject/ForgeMultipart",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "certain-questing-additions": {
+   "repo": "HollowHorizon/CertainQuestingAdditions",
+   "note": "",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "charging-gadgets": {
+   "repo": "Direwolf20-MC/ChargingGadgets",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "cloth-config": {
+   "repo": "shedaniel/cloth-config",
+   "note": "",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "cobblegen-galore": {
+   "repo": null,
+   "status": "not-found",
+   "note": "Author LobsterJonn; no public repo found."
+  },
+  "codechicken-lib": {
+   "repo": "TheCBProject/CodeChickenLib",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "comforts": {
+   "repo": "TheIllusiveC4/Comforts",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "controlling": {
+   "repo": "jaredlll08/Controlling",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "create": {
+   "repo": "Creators-of-Create/Create",
+   "note": "",
+   "verified": true,
+   "ref": "mc1.21.1-6.0.10",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "create-cobblestone": {
+   "repo": "StickyPiston-development/CreateCobblestone",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1-neoforge",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "createaddition": {
+   "repo": "mrh0/createaddition",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "cristel-lib": {
+   "repo": "Cristelknight/Cristel-Lib",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "cucumber": {
+   "repo": "BlakeBr0/Cucumber",
+   "note": "",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "curios": {
+   "repo": "TheIllusiveC4/Curios",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "distraction-free-recipes": {
+   "repo": "txnimc/DistractionFreeRecipes",
+   "note": "",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "draconic-evolution": {
+   "repo": "brandon3055/Draconic-Evolution",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "emi": {
+   "repo": "emilyploszaj/emi",
+   "note": "",
+   "verified": true,
+   "ref": "1.1.24+1.21.1",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "emi-backport": {
+   "repo": "LLLCYL/emixx",
+   "note": "Repo is described as a 1.20.1 backport of EMI++; pin is emixx-neoforge for 1.21.1. Check.",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "emi-patternizer": {
+   "repo": "link-fgfgui/emi-patternizer",
+   "note": "",
+   "verified": true,
+   "ref": "1.1.3",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "enchantment-descriptions": {
+   "repo": "Darkhax-Minecraft/Enchantment-Descriptions",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "ender-storage": {
+   "repo": "TheCBProject/EnderStorage",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "entityculling": {
+   "repo": "tr7zw/EntityCulling",
+   "note": "",
+   "verified": true,
+   "ref": "1.10.2",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "essential-mod": {
+   "repo": null,
+   "status": "closed-or-private",
+   "note": "Closed source (client mod)."
+  },
+  "ex-deorum": {
+   "repo": "thedarkcolour/ExDeorum",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "ex-machinis-divitiae-deorum": {
+   "repo": "jeremiahwinsley/ExMachinisDeorum",
+   "note": "",
+   "verified": true,
+   "ref": "v4.0.2",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "extended-terminal": {
+   "repo": "mc-myo-s-mod/ExtendedTerminal",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "extreme-reactors": {
+   "repo": "ZeroNoRyouki/ExtremeReactors2",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "extreme-reactors-create-compat": {
+   "repo": null,
+   "status": "closed-or-private",
+   "note": "No separate repo found (author ZeroNoRyouki)."
+  },
+  "falling-tree": {
+   "repo": "RakSrinaNa/FallingTree",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1.11",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "fancymenu": {
+   "repo": "Keksuccino/FancyMenu",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "farmers-delight": {
+   "repo": "vectorwing/FarmersDelight",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "farming-for-blockheads": {
+   "repo": "TwelveIterationMods/FarmingForBlockheads",
+   "note": "",
+   "verified": true,
+   "ref": "v21.1.13",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "fastsuite": {
+   "repo": "Shadows-of-Fire/FastSuite",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "fastworkbench": {
+   "repo": "Shadows-of-Fire/FastWorkbench",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "ferritecore": {
+   "repo": "malte0811/FerriteCore",
+   "note": "",
+   "verified": true,
+   "ref": "build-7.0.3",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "flux-networks": {
+   "repo": "SonarSonic/Flux-Networks",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "forest-watchtower": {
+   "repo": null,
+   "status": "closed-or-private",
+   "note": "Author SuperWarioModTeam; no repo found."
+  },
+  "ftb-backups-3": {
+   "repo": "FTBTeam/FTB-Backups-3",
+   "note": "",
+   "verified": true,
+   "ref": "v21.1.5",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "ftb-filter-system": {
+   "repo": "FTBTeam/FTB-Filter-System",
+   "note": "",
+   "verified": true,
+   "ref": "v21.1.4",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "ftb-library-forge": {
+   "repo": "FTBTeam/FTB-Library",
+   "note": "",
+   "verified": true,
+   "ref": "v2101.1.31",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "ftb-quests-forge": {
+   "repo": "FTBTeam/FTB-Quests",
+   "note": "",
+   "verified": true,
+   "ref": "v2101.1.24",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "ftb-teams-forge": {
+   "repo": "FTBTeam/FTB-Teams",
+   "note": "",
+   "verified": true,
+   "ref": "v2101.1.10",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "ftb-xmod-compat": {
+   "repo": "FTBTeam/FTB-XMod-Compat",
+   "note": "",
+   "verified": true,
+   "ref": "v21.1.8",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "gateways-to-eternity": {
+   "repo": "Shadows-of-Fire/GatewaysToEternity",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "geckolib": {
+   "repo": "bernie-g/geckolib",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "glitchcore": {
+   "repo": "Glitchfiend/GlitchCore",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "gravestone-mod": {
+   "repo": "henkelmax/gravestone",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "guideme": {
+   "repo": "AppliedEnergistics/GuideME",
+   "note": "",
+   "verified": true,
+   "ref": "v21.1.16",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "hostile-neural-networks": {
+   "repo": "Shadows-of-Fire/Hostile-Neural-Networks",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "illager-arena": {
+   "repo": null,
+   "status": "closed-or-private",
+   "note": "Author SuperWarioModTeam; no repo found."
+  },
+  "improved-village-placement": {
+   "repo": "Apollounknowndev/improved-village-placement",
+   "note": "",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "inventory-profiles-next": {
+   "repo": "blackd/Inventory-Profiles",
+   "note": "GitHub repo is archived; development moved to Codeberg.",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "invtweaks-emu-for-ipn": {
+   "repo": null,
+   "status": "not-found",
+   "note": "Author mirinimi; no public repo found."
+  },
+  "iris": {
+   "repo": "IrisShaders/Iris",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "irons-jewelry": {
+   "repo": "iron431/irons-jewelry",
+   "note": "",
+   "verified": true,
+   "ref": "v26.1.2-2.0.2",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "irons-lib": {
+   "repo": null,
+   "status": "not-found",
+   "note": "No public repo found by search."
+  },
+  "irons-spells-n-spellbooks": {
+   "repo": "iron431/irons-spells-n-spellbooks",
+   "note": "",
+   "verified": true,
+   "ref": "v1.21.1-3.16.3",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "jade": {
+   "repo": "Snownee/Jade",
+   "note": "",
+   "verified": true,
+   "ref": "fabric-15.10.5",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "jamlib": {
+   "repo": "JamCoreModding/JamLib",
+   "note": "",
+   "verified": true,
+   "ref": "1.3.6+1.21.1",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "jei": {
+   "repo": "mezz/JustEnoughItems",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "jungle-treehouse-village": {
+   "repo": null,
+   "status": "closed-or-private",
+   "note": "Author SuperWarioModTeam; no repo found."
+  },
+  "konkrete": {
+   "repo": "Keksuccino/Konkrete",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "kotlin-for-forge": {
+   "repo": "thedarkcolour/KotlinForForge",
+   "note": "",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "kubejs": {
+   "repo": "KubeJS-Mods/KubeJS",
+   "note": "Branches use version codes (1202..2001); pin 2101.x.",
+   "verified": true,
+   "ref": "2101",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "kubejs-ars-nouveau": {
+   "repo": "BobVarioa/kjsarsnouveau",
+   "note": "",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "kubejs-botany-pots": {
+   "repo": "BobVarioa/kjsbotanypots",
+   "note": "",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "kubejs-create": {
+   "repo": "KubeJS-Mods/KubeJS-Create",
+   "note": "Branches use version codes; pin 2101.x.",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "kubejs-create-automation": {
+   "repo": null,
+   "status": "not-found",
+   "note": "Author vomiter; no public repo found."
+  },
+  "kubejs-delight": {
+   "repo": "QinomeD/kubejsdelight",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "kubejs-ex-deorum": {
+   "repo": null,
+   "status": "not-found",
+   "note": "No public repo found."
+  },
+  "kubejs-eyejs": {
+   "repo": null,
+   "status": "not-found",
+   "note": "No public repo found."
+  },
+  "kubejs-irons-spells": {
+   "repo": "sentwayfarer/irons_spells_js",
+   "note": "",
+   "verified": true,
+   "ref": "2101",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "kubejs-mekanism": {
+   "repo": "KubeJS-Mods/KubeJS-Mekanism",
+   "note": "Repo has per-version branches (2001, main); pin 2101.x.",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "kubejs-mekanism-extends": {
+   "repo": null,
+   "status": "not-found",
+   "note": "Removed from the packs (inert without Mekanism add-ons)."
+  },
+  "kubejs-projecte": {
+   "repo": "BobVarioa/kjsprojecte",
+   "note": "",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "kubejs-tweaks": {
+   "repo": null,
+   "status": "not-found",
+   "note": "Author Uncandango; CurseForge page links a repo but it was not found by search."
+  },
+  "libipn": {
+   "repo": "blackd/libIPN",
+   "note": "",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "libx": {
+   "repo": "ModdingX/LibX",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "lithostitched": {
+   "repo": "Apollounknowndev/lithostitched",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "mega-cells": {
+   "repo": "62832/MEGACells",
+   "note": "",
+   "verified": true,
+   "ref": "4.11.0",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "mekanism": {
+   "repo": "mekanism/Mekanism",
+   "note": "",
+   "verified": true,
+   "ref": "v1.21.1-10.7.19.85",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "mekanism-generators": {
+   "repo": "mekanism/Mekanism",
+   "note": "Same repo as Mekanism (module).",
+   "verified": true,
+   "ref": "v1.21.1-10.7.19.85",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "mekanism-tools": {
+   "repo": "mekanism/Mekanism",
+   "note": "Same repo as Mekanism (module).",
+   "verified": true,
+   "ref": "v1.21.1-10.7.19.85",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "mekanism-unleashed": {
+   "repo": "WhitePhant0m/Mekanism-Unleashed",
+   "note": "",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "melody": {
+   "repo": "Keksuccino/Melody",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "merequester": {
+   "repo": "AlmostReliable/merequester",
+   "note": "",
+   "verified": true,
+   "ref": "v1.21.1-neoforge-1.4.2",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "mmmmmmmmmmmm": {
+   "repo": null,
+   "status": "not-found",
+   "note": "Author MehVahdJukaar; only the 1.16 repos were found."
+  },
+  "mob-grinding-utils": {
+   "repo": "vadis365/mob-grinding-utils",
+   "note": "",
+   "verified": true,
+   "ref": "MC1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "modernfix": {
+   "repo": "embeddedt/ModernFix",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "modonomicon": {
+   "repo": "klikli-dev/modonomicon",
+   "note": "",
+   "verified": true,
+   "ref": "release/v1.21.1-1.120.7",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "more-overlays-updated": {
+   "repo": "feldim2425/MoreOverlays",
+   "note": "Repo is the original MoreOverlays; the 'Updated' fork for 1.21.1 may live elsewhere. Check.",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "more-tier-upgrade": {
+   "repo": "WitherRedstone/More-Tier-Upgrade",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1-neoforge",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "morethermalevaporation": {
+   "repo": null,
+   "status": "not-found",
+   "note": "Author A8T1N; no public repo found."
+  },
+  "morph-o-tool": {
+   "repo": "VazkiiMods/Morph-o-Tool",
+   "note": "",
+   "verified": true,
+   "ref": "release-1.21.1-1.8-39",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "mouse-tweaks": {
+   "repo": "YaLTeR/MouseTweaks",
+   "note": "",
+   "verified": true,
+   "ref": "minecraft-1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "myotus-lib": {
+   "repo": "mc-myo-s-mod/Myotus",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "mystical-agriculture": {
+   "repo": "BlakeBr0/MysticalAgriculture",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "mystical-automation": {
+   "repo": "BlakeBr0/MysticalAutomation",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "mystical-customization": {
+   "repo": "BlakeBr0/MysticalCustomization",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "not-enough-glyphs": {
+   "repo": "Alexthw46/NotEnoughGlyphs",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "not-enough-patterns": {
+   "repo": "LegendaryRylex/not-enough-patterns",
+   "note": "",
+   "verified": true,
+   "ref": "v0.5.1+1.21.1",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "notrample": {
+   "repo": "JamCoreModding/NoTrample",
+   "note": "Repo is archived (2022); may not be the same project as pin notrample-1.21.1-1.0.1. Check.",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "occultism": {
+   "repo": "klikli-dev/occultism",
+   "note": "",
+   "verified": true,
+   "ref": "release/v1.21.1-1.224.4",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "occultism-kubejs": {
+   "repo": "klikli-dev/occultism-kubejs",
+   "note": "",
+   "verified": true,
+   "ref": "release/v1.21.1-1.11.0",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "patchouli": {
+   "repo": "VazkiiMods/Patchouli",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.x",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "placebo": {
+   "repo": "Shadows-of-Fire/Placebo",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "playeranimator": {
+   "repo": "KosmX/minecraftPlayerAnimator",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "polymorph": {
+   "repo": "TheIllusiveC4/Polymorph",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.x",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "powah": {
+   "repo": "Technici4n/Powah",
+   "note": "",
+   "verified": true,
+   "ref": "v6.2.10",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "prickle": {
+   "repo": "Darkhax-Minecraft/PrickleMC",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "productive-metalworks": {
+   "repo": null,
+   "status": "closed-or-private",
+   "note": "Author LobsterJonn; no public repo found. Items must come from the jar or the game."
+  },
+  "productivebees": {
+   "repo": "JDKDigital/productive-bees",
+   "note": "",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "productivefarming": {
+   "repo": "JDKDigital/productivefarming",
+   "note": "",
+   "verified": true,
+   "ref": "dev-1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "productivetrees": {
+   "repo": "JDKDigital/productivetrees",
+   "note": "",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "projecte": {
+   "repo": "sinkillerj/ProjectE",
+   "note": "",
+   "verified": true,
+   "ref": "mc1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "projecte-integration": {
+   "repo": "TagnumElite/ProjectE-Integration",
+   "note": "",
+   "verified": true,
+   "ref": "v8.3.1",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "projectextendedadvancedae": {
+   "repo": "VincentZhou11/ProjectExtendedAdvancedAE",
+   "note": "",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "replication": {
+   "repo": "Buuz135/Replication",
+   "note": "",
+   "verified": true,
+   "ref": "1.21-1.2.7",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "resourceful-config": {
+   "repo": "Team-Resourceful/Resourceful-Config",
+   "note": "",
+   "verified": true,
+   "ref": "v3.0.11",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "rhino": {
+   "repo": "KubeJS-Mods/Rhino",
+   "note": "Branches use version codes; pin 2101.x.",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "rightclickharvest": {
+   "repo": "JamCoreModding/right-click-harvest",
+   "note": "",
+   "verified": true,
+   "ref": "4.6.1+1.21.1",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "ruined-lighthouse": {
+   "repo": null,
+   "status": "closed-or-private",
+   "note": "Author SuperWarioModTeam; no repo found."
+  },
+  "searchables": {
+   "repo": "jaredlll08/Searchables",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "selene": {
+   "repo": "MehVahdJukaar/Moonlight",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1-beforebreakingchanges",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "silent-gear": {
+   "repo": "SilentChaos512/Silent-Gear",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "silent-gear-metalworks": {
+   "repo": null,
+   "status": "closed-or-private",
+   "note": "No public repo found. Items must come from the jar or the game."
+  },
+  "silent-lib": {
+   "repo": "SilentChaos512/SilentLib",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "simple-custom-early-loading": {
+   "repo": "lukaskabc/SimpleCustomEarlyLoading",
+   "note": "",
+   "verified": true,
+   "ref": "v2.2-forge",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "simple-magnets": {
+   "repo": "SuperMartijn642/SimpleMagnets",
+   "note": "",
+   "verified": true,
+   "ref": "forge-1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "skeleton-ghost-ship": {
+   "repo": null,
+   "status": "closed-or-private",
+   "note": "Author SuperWarioModTeam; no repo found."
+  },
+  "skyblock-builder": {
+   "repo": "MelanX/SkyblockBuilder",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.x",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "smartbrainlib": {
+   "repo": "Tslat/SmartBrainLib",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "sodium": {
+   "repo": "CaffeineMC/sodium",
+   "note": "",
+   "verified": true,
+   "ref": "mc1.21.1-0.6.13",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "sophisticated-backpacks": {
+   "repo": "P3pp3rF1y/SophisticatedBackpacks",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.x",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "sophisticated-core": {
+   "repo": "P3pp3rF1y/SophisticatedCore",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.x",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "sophisticated-storage": {
+   "repo": "P3pp3rF1y/SophisticatedStorage",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.x",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "sophisticated-storage-create-integration": {
+   "repo": "P3pp3rF1y/SophisticatedStorageCreateIntegration",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.x",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "specterrealm": {
+   "repo": null,
+   "status": "own",
+   "note": "Our own core mod; source lives with the pack (see the SpecterRealm repos)."
+  },
+  "squat-grow": {
+   "repo": "nanite/SquatGrow",
+   "note": "",
+   "verified": true,
+   "ref": "21.1.3",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "supermartijn642s-config-lib": {
+   "repo": "SuperMartijn642/SuperMartijn642sConfigLib",
+   "note": "",
+   "verified": true,
+   "ref": "forge-1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "supermartijn642s-core-lib": {
+   "repo": "SuperMartijn642/SuperMartijn642sCoreLib",
+   "note": "",
+   "verified": true,
+   "ref": "forge-1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "terrablender": {
+   "repo": "Glitchfiend/TerraBlender",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "terralith": {
+   "repo": null,
+   "status": "closed-or-private",
+   "note": "Closed source (Stardust Labs)."
+  },
+  "the-twilight-forest": {
+   "repo": "TeamTwilight/twilightforest",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "theurgy": {
+   "repo": "klikli-dev/theurgy",
+   "note": "",
+   "verified": true,
+   "ref": "release/v1.21.1-1.76.1",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "theurgy-kubejs": {
+   "repo": "klikli-dev/theurgy-kubejs",
+   "note": "",
+   "verified": true,
+   "ref": "release/v1.21.1-1.6.0",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "titanium": {
+   "repo": "InnovativeOnlineIndustries/Titanium",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "tough-as-nails": {
+   "repo": "Glitchfiend/ToughAsNails",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "tough-as-nails-vanilla-pack": {
+   "repo": null,
+   "status": "not-found",
+   "note": "Data pack (Modrinth); no repo found."
+  },
+  "towns-and-towers": {
+   "repo": "Cristelknight/Towns-and-Towers",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "translocators": {
+   "repo": "TheCBProject/Translocators",
+   "note": "",
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "txnilib": {
+   "repo": "txnimc/TxniLib",
+   "note": "",
+   "verified": true,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "ok"
+  },
+  "underwater-village": {
+   "repo": null,
+   "status": "closed-or-private",
+   "note": "Author SuperWarioModTeam; no repo found."
+  },
+  "useful-projecte": {
+   "repo": null,
+   "status": "not-found",
+   "note": "Author SGGKL; no public repo found."
+  },
+  "wizard-tower": {
+   "repo": null,
+   "status": "closed-or-private",
+   "note": "Author SuperWarioModTeam; no repo found."
+  },
+  "wooden-shears": {
+   "repo": "cech12/WoodenShears",
+   "note": "",
+   "verified": true,
+   "ref": "1.21-3.2.3.0",
+   "ref_kind": "tag",
+   "check": "ok"
+  },
+  "xaeros-minimap": {
+   "repo": null,
+   "status": "closed-or-private",
+   "note": "Closed source."
+  },
+  "xaeros-world-map": {
+   "repo": null,
+   "status": "closed-or-private",
+   "note": "Closed source."
+  },
+  "zerocore": {
+   "repo": "ZeroNoRyouki/ZeroCore2",
+   "note": "",
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  }
+ }
+}
