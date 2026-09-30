@@ -237,5 +237,5 @@ Do not lock a pack to one mod too early. Decide where each pack is going, pick t
 3. Elysian and Influx: add Ex Deorum (or part of it), or close the netherite-tier input gaps with their own mods? Needs the required-resource list first.
 4. Elysian: first iron, first mob souls and Nether items for the agglomeratio: Ex Deorum with trimmed recipes, or other routes?
 5. Influx: build the egg and spawner recipes (cost, stage) on top of Genetics: Resequenced; confirm AE2 spatial storage can hold a spawner room and whether Compact Machines adds anything.
-3. Liminal's new mobs are not decided yet (raised in the last chat). Verdant, Elysian and Influx teach the counters once they are.
-4. Gear: do the roles above cover what you want, or are there jobs to add?
+6. Liminal's new mobs are not decided yet (raised in the last chat). Verdant, Elysian and Influx teach the counters once they are.
+7. Gear: do the roles above cover what you want, or are there jobs to add?
