@@ -98,6 +98,7 @@ Only Verdant has had real customization work; Elysian, Influx, and Liminal have 
 | Baubley Heart Canisters | all four | Added to Influx. | With gear and health progression work |
 | KubeJS Tweaks | all four | Added to Influx. No script uses its features yet (no `KJSTweaks`, `jeiRuntime`, or No Op in any pack). | When the hide and uncraftable lists are built |
 | Target Dummy | all four | Keep: players build gear and want to test it. | — |
+| KubeJS Create, KubeJS Create Automation | Verdant, Liminal | Keep for now; no script uses them yet | When Create recipes and Deployer rules are scripted |
 | Akashic Tome | all four | Keep. Many mods add guidebooks; one Tome condenses them so players don't fill their inventory with books. Check it does not bury the Field Manual. | After a playtest |
 | More Tier Upgrade | all four | Keep. In Influx it fits the space lesson: make the top tiers **expensive** so players condense and organise storage instead of placing more chests. Few items need that much room, and ProjectE will reduce the need in places, though players will still use it for mass resource collection. | When the tier recipes are priced |
 | Morph-o-Tool | all four | Keep as quality of life. **Test:** with how many of the packs' mods does it work, and can it replace their wrenches, hammers, and similar tools? | After the compatibility test |
@@ -134,6 +135,18 @@ Elysian and Influx have none of these.
 | Better Fusion Reactor PLUS | Harder, reactivity-based fusion reactor | Release-candidate pin (1.5.9rc1); check stability |
 | KubeJS Mekanism | KubeJS recipe support | Keep |
 | KubeJS Mekanism Extends | KubeJS support for Mekanism add-ons only | **Removed** from Verdant and Liminal: none of the add-ons (Evolved Mekanism, More Machine, Mekanism Sun) are in the packs |
+
+## Create family (Verdant and Liminal only)
+
+| Mod | What it adds | Call |
+|---|---|---|
+| Create | Rotational power, contraptions, mechanical crafting | Core; keep |
+| Create Cobblestone | Stress-powered cobblestone generator (8 RPM per extra cobblestone per tick, 64 SU per cobblestone per tick; Stone, Basalt, Limestone, Scoria) | Keep; complements Cobblegen Galore |
+| Create Crafts & Additions | Electric Motor, Alternator (75% efficiency), connectors, Rolling Mill, Redstone Relay, Accumulator (multiblock storage), Tesla Coil | Keep; Create to FE bridge; the Accumulator is another storage option for the power test |
+| Sophisticated Storage Create Integration | Storage blocks on Create contraptions with upgrades kept | Keep |
+| Extreme Reactors Create Compat | Create compatibility for Extreme Reactors | Follows the Extreme Reactors decision |
+| KubeJS Create | Scripting for Create recipes | Keep-for-now: no Create recipe calls found in Verdant's server scripts; use or remove |
+| KubeJS Create Automation | Script hooks for the Deployer's item application | Keep-for-now: no scripts use it; use or remove |
 
 ## AE2 add-ons (Verdant-owned, also in Liminal)
 
