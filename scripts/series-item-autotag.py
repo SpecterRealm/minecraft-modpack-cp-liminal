@@ -7,10 +7,11 @@ are added only for clear cases (generators, batteries, cables). Everything else 
 over auto tags in reports.
 
 Usage:
-    python3 scripts/series-item-autotag.py run      # tag all scan files (overwrites previous auto tags)
+    python3 scripts/series-item-autotag.py run      # tag all scan files (overwrites previous auto tags; items tagged review:checked are kept)
     python3 scripts/series-item-autotag.py sample <mod> [N]
 Re-running `series-mod-scan.py run` regenerates the scan files, so run this after it.
 """
+import datetime
 import glob
 import json
 import os
@@ -51,7 +52,8 @@ RULES = [
     (W("lamp", "lantern", "torch", "light", "glowstone"), ["function:light"]),
     (W("teleport", "portal", "elevator", "waypoint", "warp", "elytra", "glider", "jetpack", "rail", "boat", "minecart", "saddle", "horse"), ["function:travel"]),
     (W("rail", "boat", "minecart", "cart", "wagon"), ["kind:transport"]),
-    (W("mana", "source", "sourcelink", "spell", "glyph"), ["power-type:mana"]),
+    (W("mana", "spell", "glyph"), ["power-type:mana"]),
+    (W("source", "sourcelink", "source_jar", "sourcestone", "sourceberry"), ["power-type:source"]),
     (W("emc", "transmutation", "philosopher", "condenser"), ["power-type:emc"]),
     (W("magnet", "jetpack", "goggles", "radar", "scanner", "remote", "tablet", "card", "upgrade", "module", "binding", "compass", "map", "charm", "ring", "amulet", "necklace", "belt"), ["kind:gadget"]),
     (W("potion", "elixir", "scroll", "tonic", "pill", "bandage", "medkit", "canteen", "spawn_egg", "flask", "vial", "tincture"), ["kind:consumable"]),
@@ -103,10 +105,14 @@ def run():
         if "same_repo_as" in d or not d.get("items"):
             continue
         for key, it in d["items"].items():
-            it["tags"] = tag_item(mod, key, it)
+            if "review:checked" in it.get("tags", []):  # hand-checked: leave alone
+                continue
+            it["tags"] = tag_item(mod, key, it) + ["review:auto"]
             n += 1
-            t += bool(it["tags"])
+            t += len(it["tags"]) > 1
         d["tags_source"] = "auto (scripts/series-item-autotag.py)"
+        d["tagged_on"] = datetime.date.today().isoformat()
+        d["tagged_version"] = d.get("ref")
         json.dump(d, open(p, "w"), indent=1, ensure_ascii=False)
     print(f"{t}/{n} items tagged")
 

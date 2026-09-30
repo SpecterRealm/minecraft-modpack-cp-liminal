@@ -43,56 +43,64 @@
    "name": "Advanced Extended Pattern Provider",
    "tags": [
     "function:automate",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "advanced_ae:data_entangler": {
    "kind": "block",
    "name": "Quantum Data Entangler",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_accelerator": {
    "kind": "block",
    "name": "Quantum Computer Accelerator",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_alloy_block": {
    "kind": "block",
    "name": "Quantum Alloy Block",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_alloy_slab": {
    "kind": "block",
    "name": "Quantum Alloy Slab",
    "tags": [
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_alloy_stairs": {
    "kind": "block",
    "name": "Quantum Alloy Stairs",
    "tags": [
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_alloy_wall": {
    "kind": "block",
    "name": "Quantum Alloy Wall",
    "tags": [
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_core": {
    "kind": "block",
    "name": "Quantum Computer Core",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_crafter": {
@@ -100,21 +108,24 @@
    "name": "Quantum Crafter",
    "tags": [
     "function:automate",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_infusion_block": {
    "kind": "block",
    "name": "Quantum Infusion",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_multi_threader": {
    "kind": "block",
    "name": "Quantum Computer Multi-Threader",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_storage_128": {
@@ -122,7 +133,8 @@
    "name": "128M Quantum Computer Storage",
    "tags": [
     "function:store",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_storage_256": {
@@ -130,28 +142,32 @@
    "name": "256M Quantum Computer Storage",
    "tags": [
     "function:store",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_structure": {
    "kind": "block",
    "name": "Quantum Computer Structural Glass",
    "tags": [
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_unit": {
    "kind": "block",
    "name": "Quantum Crafting Unit",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "advanced_ae:reaction_chamber": {
    "kind": "block",
    "name": "Reaction Chamber",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "advanced_ae:small_adv_pattern_provider": {
@@ -159,14 +175,16 @@
    "name": "Advanced Pattern Provider",
    "tags": [
     "function:automate",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_infusion_flowing": {
    "kind": "fluid",
    "name": "Quantum Infusion",
    "tags": [
-    "kind:fluid"
+    "kind:fluid",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_infusion_source": {
@@ -174,14 +192,16 @@
    "name": "Quantum Infusion",
    "tags": [
     "kind:fluid",
-    "power-type:mana"
+    "power-type:source",
+    "review:auto"
    ]
   },
   "advanced_ae:adv_pattern_encoder": {
    "kind": "item",
    "name": "Advanced Pattern Encoder",
    "tags": [
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   },
   "advanced_ae:adv_pattern_provider_capacity_upgrade": {
@@ -189,14 +209,16 @@
    "name": "Advanced Pattern Provider Capacity Upgrade",
    "tags": [
     "function:automate",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:adv_pattern_provider_part": {
    "kind": "item",
    "name": "Advanced Extended Pattern Provider",
    "tags": [
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   },
   "advanced_ae:adv_pattern_provider_upgrade": {
@@ -204,122 +226,142 @@
    "name": "Advanced Pattern Provider Upgrade",
    "tags": [
     "function:automate",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:adv_processing_pattern": {
    "kind": "item",
    "name": "Advanced Processing Pattern",
    "tags": [
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   },
   "advanced_ae:advanced_io_bus_part": {
    "kind": "item",
    "name": "ME Advanced IO Bus",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "advanced_ae:attack_speed_card": {
    "kind": "item",
    "name": "Attack Speed Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:auto_feeding_card": {
    "kind": "item",
    "name": "Auto Feeding Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:auto_stock_card": {
    "kind": "item",
    "name": "Auto Stock Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:camo_card": {
    "kind": "item",
    "name": "Camo Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:evasion_card": {
    "kind": "item",
    "name": "Evasion Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:flight_card": {
    "kind": "item",
    "name": "Flight Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:flight_drift_card": {
    "kind": "item",
    "name": "Flight Drift Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:hp_buffer_card": {
    "kind": "item",
    "name": "HP Buffer Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:import_export_bus_part": {
    "kind": "item",
    "name": "ME Import Export Bus",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "advanced_ae:jump_height_card": {
    "kind": "item",
    "name": "Jump Height Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:lava_immunity_card": {
    "kind": "item",
    "name": "Lava Immunity Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:luck_card": {
    "kind": "item",
    "name": "Luck Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:magnet_card": {
    "kind": "item",
    "name": "Magnet Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:night_vision_card": {
    "kind": "item",
    "name": "Night Vision Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:pick_craft_card": {
    "kind": "item",
    "name": "Pick Craft Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:portable_workbench_card": {
@@ -327,7 +369,8 @@
    "name": "Portable Workbench Card",
    "tags": [
     "function:craft",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:printed_quantum_processor": {
@@ -335,19 +378,23 @@
    "name": "Printed Quantum Circuit",
    "tags": [
     "kind:machine",
-    "function:process"
+    "function:process",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_alloy": {
    "kind": "item",
    "name": "Quantum Alloy",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "advanced_ae:quantum_alloy_plate": {
    "kind": "item",
    "name": "Quantum Alloy Plate",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_boots": {
@@ -355,7 +402,8 @@
    "name": "Quantum Boots",
    "tags": [
     "kind:armor",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_chestplate": {
@@ -363,14 +411,16 @@
    "name": "Quantum Chestplate",
    "tags": [
     "kind:armor",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_crafter_terminal": {
    "kind": "item",
    "name": "Quantum Crafter Terminal",
    "tags": [
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_helmet": {
@@ -378,21 +428,24 @@
    "name": "Quantum Helmet",
    "tags": [
     "kind:armor",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_infused_dust": {
    "kind": "item",
    "name": "Quantum Infused Dust",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_infusion_bucket": {
    "kind": "item",
    "name": "Quantum Infusion Bucket",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_leggings": {
@@ -400,7 +453,8 @@
    "name": "Quantum Leggings",
    "tags": [
     "kind:armor",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_processor": {
@@ -408,7 +462,8 @@
    "name": "Quantum Processor",
    "tags": [
     "kind:machine",
-    "function:process"
+    "function:process",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_processor_press": {
@@ -416,115 +471,137 @@
    "name": "Inscriber Quantum Press",
    "tags": [
     "kind:machine",
-    "function:process"
+    "function:process",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_storage_component": {
    "kind": "item",
    "name": "Quantum Storage Component",
    "tags": [
-    "function:store"
+    "function:store",
+    "review:auto"
    ]
   },
   "advanced_ae:quantum_upgrade_base": {
    "kind": "item",
    "name": "Quantum Upgrade Base Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:reach_card": {
    "kind": "item",
    "name": "Reach Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:recharging_card": {
    "kind": "item",
    "name": "ME Recharging Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:regeneration_card": {
    "kind": "item",
    "name": "Regeneration Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:shattered_singularity": {
    "kind": "item",
    "name": "Shattered Singularity",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "advanced_ae:small_adv_pattern_provider_part": {
    "kind": "item",
    "name": "Advanced Pattern Provider",
    "tags": [
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   },
   "advanced_ae:sprint_speed_card": {
    "kind": "item",
    "name": "Sprint Speed Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:step_assist_card": {
    "kind": "item",
    "name": "Step Assist Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:stock_export_bus_part": {
    "kind": "item",
    "name": "ME Stock Export Bus",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "advanced_ae:strength_card": {
    "kind": "item",
    "name": "Strength Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:swim_speed_card": {
    "kind": "item",
    "name": "Swim Speed Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:throughput_monitor": {
    "kind": "item",
    "name": "ME Throughput Monitor",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "advanced_ae:walk_speed_card": {
    "kind": "item",
    "name": "Walk Speed Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:water_breathing_card": {
    "kind": "item",
    "name": "Water Breathing Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "advanced_ae:wireless_quantum_crafter_terminal": {
    "kind": "item",
    "name": "Wireless Quantum Crafter Terminal",
    "tags": [
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.6.11-1.21.1-neoforge"
 }

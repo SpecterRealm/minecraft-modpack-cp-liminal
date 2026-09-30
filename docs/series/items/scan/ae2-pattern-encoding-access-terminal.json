@@ -48,16 +48,20 @@
    "kind": "item",
    "name": "ME Pattern Encoding Access Terminal",
    "tags": [
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   },
   "ae2peat:wireless_pattern_encoding_access_terminal": {
    "kind": "item",
    "name": "Wireless Pattern Encoding Access Terminal",
    "tags": [
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "neoforge/v1.21.1-1.1.0-rc.1"
 }

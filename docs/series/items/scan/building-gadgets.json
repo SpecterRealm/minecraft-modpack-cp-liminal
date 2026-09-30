@@ -34,51 +34,69 @@
    "kind": "block",
    "name": "Render Block (DO NOT USE)",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "buildinggadgets2:template_manager": {
    "kind": "block",
    "name": "Template Manager",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "buildinggadgets2:gadget_building": {
    "kind": "item",
    "name": "Building Gadget",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "buildinggadgets2:gadget_copy_paste": {
    "kind": "item",
    "name": "Copy Paste Gadget",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "buildinggadgets2:gadget_cut_paste": {
    "kind": "item",
    "name": "Cut Paste Gadget",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "buildinggadgets2:gadget_destruction": {
    "kind": "item",
    "name": "Destruction Gadget",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "buildinggadgets2:gadget_exchanging": {
    "kind": "item",
    "name": "Exchanging Gadget",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "buildinggadgets2:redprint": {
    "kind": "item",
    "name": "Redprint",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "buildinggadgets2:template": {
    "kind": "item",
    "name": "Template",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21.1"
 }

@@ -31,7 +31,8 @@
    "tags": [
     "function:travel",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_controle:scryers_linkage": {
@@ -39,7 +40,8 @@
    "name": "Scryer's Linkage",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_controle:temporal_stability_sensor": {
@@ -47,7 +49,8 @@
    "name": "Temporal Stability Sensor",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_controle:warping_spell_prism": {
@@ -57,7 +60,8 @@
     "function:enchant",
     "power-type:mana",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_controle:portable_brazier_relay": {
@@ -67,27 +71,35 @@
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_controle:portable_brazier_relay.with_ritual": {
    "kind": "item",
    "name": "Portable Brazier Relay (%s)",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ars_controle:remote": {
    "kind": "item",
    "name": "Remote",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_controle:remote.with_target": {
    "kind": "item",
    "name": "Remote (%s)",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.6.16"
 }

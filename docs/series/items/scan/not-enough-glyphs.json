@@ -39,7 +39,8 @@
    "name": "Spell Binder",
    "tags": [
     "function:enchant",
-    "power-type:mana"
+    "power-type:mana",
+    "review:auto"
    ]
   },
   "not_enough_glyphs:thread_air_focus": {
@@ -47,20 +48,24 @@
    "name": "Air Focus",
    "tags": [
     "kind:tool",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "not_enough_glyphs:thread_cheap_damage": {
    "kind": "item",
    "name": "Cheap Damage",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "not_enough_glyphs:thread_earth_focus": {
    "kind": "item",
    "name": "Earth Focus",
    "tags": [
     "kind:tool",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "not_enough_glyphs:thread_fire_focus": {
@@ -68,48 +73,61 @@
    "name": "Fire Focus",
    "tags": [
     "kind:tool",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "not_enough_glyphs:thread_knockback": {
    "kind": "item",
    "name": "Heavy Cover",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "not_enough_glyphs:thread_scritchance": {
    "kind": "item",
    "name": "Lucky Cover",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "not_enough_glyphs:thread_scritdamage": {
    "kind": "item",
    "name": "Keen Cover",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "not_enough_glyphs:thread_shaper_focus": {
    "kind": "item",
    "name": "BlockShaping Focus",
    "tags": [
     "kind:tool",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "not_enough_glyphs:thread_sharp_paper": {
    "kind": "item",
    "name": "Sharp Pages",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "not_enough_glyphs:thread_slow_power": {
    "kind": "item",
    "name": "Slow Power",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "not_enough_glyphs:thread_summon_focus": {
    "kind": "item",
    "name": "Summoning Focus",
    "tags": [
     "kind:tool",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "not_enough_glyphs:thread_water_focus": {
@@ -117,14 +135,19 @@
    "name": "Water Focus",
    "tags": [
     "kind:tool",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "not_enough_glyphs:thread_wild_magic": {
    "kind": "item",
    "name": "Wheel of Fortune",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21"
 }

@@ -30,18 +30,20 @@
    "name": "ME Source Jar",
    "tags": [
     "function:store",
-    "power-type:mana",
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "arseng:source_acceptor": {
    "kind": "block",
    "name": "ME Source Converter",
    "tags": [
-    "power-type:mana",
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "arseng:cable_source_acceptor": {
@@ -51,8 +53,9 @@
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "power-type:mana",
-    "needs:spell-tech"
+    "power-type:source",
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "arseng:portable_source_cell_16k": {
@@ -62,8 +65,9 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana",
-    "needs:spell-tech"
+    "power-type:source",
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "arseng:portable_source_cell_1k": {
@@ -73,8 +77,9 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana",
-    "needs:spell-tech"
+    "power-type:source",
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "arseng:portable_source_cell_256k": {
@@ -84,8 +89,9 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana",
-    "needs:spell-tech"
+    "power-type:source",
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "arseng:portable_source_cell_4k": {
@@ -95,8 +101,9 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana",
-    "needs:spell-tech"
+    "power-type:source",
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "arseng:portable_source_cell_64k": {
@@ -106,8 +113,9 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana",
-    "needs:spell-tech"
+    "power-type:source",
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "arseng:source_cell_housing": {
@@ -117,16 +125,18 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana",
-    "needs:spell-tech"
+    "power-type:source",
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "arseng:source_p2p_tunnel": {
    "kind": "item",
    "name": "ME Source P2P Tunnel",
    "tags": [
-    "power-type:mana",
-    "needs:spell-tech"
+    "power-type:source",
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "arseng:source_storage_cell_16k": {
@@ -136,8 +146,9 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana",
-    "needs:spell-tech"
+    "power-type:source",
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "arseng:source_storage_cell_1k": {
@@ -147,8 +158,9 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana",
-    "needs:spell-tech"
+    "power-type:source",
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "arseng:source_storage_cell_256k": {
@@ -158,8 +170,9 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana",
-    "needs:spell-tech"
+    "power-type:source",
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "arseng:source_storage_cell_4k": {
@@ -169,8 +182,9 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana",
-    "needs:spell-tech"
+    "power-type:source",
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "arseng:source_storage_cell_64k": {
@@ -180,8 +194,9 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana",
-    "needs:spell-tech"
+    "power-type:source",
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "arseng:spell_p2p_tunnel": {
@@ -190,9 +205,12 @@
    "tags": [
     "function:enchant",
     "power-type:mana",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "2.1.1-beta"
 }

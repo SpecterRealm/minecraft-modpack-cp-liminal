@@ -19,14 +19,17 @@
   "enderstorage:ender_pouch": {
    "kind": "item",
    "name": "Ender Pouch",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "enderstorage:ender_chest": {
    "kind": "block",
    "name": "Ender Chest",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "enderstorage:ender_tank": {
@@ -34,9 +37,12 @@
    "name": "Ender Tank",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21.1"
 }

@@ -67,8 +67,16 @@
     "power-type:fe",
     "fuel:kinetic",
     "needs:none",
-    "scale:tiered"
-   ]
+    "scale:tiered",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "1.21.1",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "createaddition:electric_motor",
@@ -93,8 +101,16 @@
     "power-type:fe",
     "power-type:stress",
     "needs:none",
-    "scale:fixed"
-   ]
+    "scale:fixed",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "1.21.1",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "createaddition:accumulator",
@@ -121,7 +137,8 @@
     "power-role:stores",
     "power-type:fe",
     "needs:none",
-    "scale:size-scaled"
+    "scale:size-scaled",
+    "review:checked"
    ],
    "scaling": {
     "model": "size-scaled",
@@ -129,6 +146,13 @@
     "formula": "capacity = per-block accumulator_capacity (2,000,000 FE) x blocks; transfer per block 5,000 FE/t",
     "source": "CommonConfig.java (accumulator_*)",
     "note": "Max 3 wide x 3 x 5 tall by default"
+   },
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "1.21.1",
+    "pass": "first",
+    "note": "hand-tagged from source"
    }
   },
   {
@@ -154,8 +178,16 @@
     "power-role:transfers",
     "power-type:fe",
     "needs:none",
-    "scale:fixed"
-   ]
+    "scale:fixed",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "1.21.1",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "createaddition:large_connector",
@@ -179,8 +211,16 @@
     "power-role:transfers",
     "power-type:fe",
     "needs:none",
-    "scale:fixed"
-   ]
+    "scale:fixed",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "1.21.1",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "createaddition:portable_energy_interface",
@@ -202,8 +242,16 @@
     "power-role:transfers",
     "power-type:fe",
     "needs:none",
-    "scale:fixed"
-   ]
+    "scale:fixed",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "1.21.1",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "createaddition:tesla_coil",
@@ -227,8 +275,16 @@
     "power-role:uses",
     "power-type:fe",
     "needs:none",
-    "scale:fixed"
-   ]
+    "scale:fixed",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "1.21.1",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "createaddition:liquid_blaze_burner",
@@ -252,8 +308,16 @@
     "power-type:heat",
     "fuel:liquid",
     "needs:none",
-    "scale:fixed"
-   ]
+    "scale:fixed",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "1.21.1",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   }
  ]
 }

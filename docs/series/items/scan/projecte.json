@@ -49,28 +49,32 @@
    "kind": "block",
    "name": "Aeternalis Fuel Block",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "projecte:collector_mk1": {
    "kind": "block",
    "name": "Energy Collector MK1",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "projecte:collector_mk2": {
    "kind": "block",
    "name": "Energy Collector MK2",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "projecte:collector_mk3": {
    "kind": "block",
    "name": "Energy Collector MK3",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "projecte:condenser_mk1": {
@@ -79,7 +83,8 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "power-type:emc"
+    "power-type:emc",
+    "review:auto"
    ]
   },
   "projecte:condenser_mk2": {
@@ -88,14 +93,16 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "power-type:emc"
+    "power-type:emc",
+    "review:auto"
    ]
   },
   "projecte:dark_matter_block": {
    "kind": "block",
    "name": "Dark Matter Block",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "projecte:dm_furnace": {
@@ -103,14 +110,16 @@
    "name": "Dark Matter Furnace",
    "tags": [
     "kind:machine",
-    "function:process"
+    "function:process",
+    "review:auto"
    ]
   },
   "projecte:dm_pedestal": {
    "kind": "block",
    "name": "Dark Matter Pedestal",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "projecte:interdiction_torch": {
@@ -118,35 +127,40 @@
    "name": "Interdiction Torch",
    "tags": [
     "function:light",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "projecte:mobius_fuel_block": {
    "kind": "block",
    "name": "Mobius Fuel Block",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "projecte:nova_cataclysm": {
    "kind": "block",
    "name": "Nova Cataclysm",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "projecte:nova_catalyst": {
    "kind": "block",
    "name": "Nova Catalyst",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "projecte:red_matter_block": {
    "kind": "block",
    "name": "Red Matter Block",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "projecte:relay_mk1": {
@@ -156,7 +170,8 @@
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "projecte:relay_mk2": {
@@ -166,7 +181,8 @@
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "projecte:relay_mk3": {
@@ -176,7 +192,8 @@
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "projecte:rm_furnace": {
@@ -184,7 +201,8 @@
    "name": "Red Matter Furnace",
    "tags": [
     "kind:machine",
-    "function:process"
+    "function:process",
+    "review:auto"
    ]
   },
   "projecte:transmutation_table": {
@@ -193,14 +211,16 @@
    "tags": [
     "function:craft",
     "power-type:emc",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "projecte:fire_projectile": {
    "kind": "entity",
    "name": "Fireball",
    "tags": [
-    "kind:mob"
+    "kind:mob",
+    "review:auto"
    ]
   },
   "projecte:homing_arrow": {
@@ -209,35 +229,40 @@
    "tags": [
     "kind:mob",
     "kind:consumable",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "projecte:lava_projectile": {
    "kind": "entity",
    "name": "Lava Orb",
    "tags": [
-    "kind:mob"
+    "kind:mob",
+    "review:auto"
    ]
   },
   "projecte:lens_projectile": {
    "kind": "entity",
    "name": "Explosive Lens",
    "tags": [
-    "kind:mob"
+    "kind:mob",
+    "review:auto"
    ]
   },
   "projecte:mob_randomizer": {
    "kind": "entity",
    "name": "Randomizer Orb",
    "tags": [
-    "kind:mob"
+    "kind:mob",
+    "review:auto"
    ]
   },
   "projecte:nova_cataclysm_primed": {
    "kind": "entity",
    "name": "Primed Nova Cataclysm",
    "tags": [
-    "kind:mob"
+    "kind:mob",
+    "review:auto"
    ]
   },
   "projecte:nova_catalyst_primed": {
@@ -245,95 +270,115 @@
    "name": "Primed Nova Catalyst",
    "tags": [
     "kind:mob",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "projecte:swrg_projectile": {
    "kind": "entity",
    "name": "SWRG Projectile",
    "tags": [
-    "kind:mob"
+    "kind:mob",
+    "review:auto"
    ]
   },
   "projecte:water_projectile": {
    "kind": "entity",
    "name": "Water Orb",
    "tags": [
-    "kind:mob"
+    "kind:mob",
+    "review:auto"
    ]
   },
   "projecte:aeternalis_fuel": {
    "kind": "item",
    "name": "Aeternalis Fuel",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "projecte:arcana_ring": {
    "kind": "item",
    "name": "Ring of Arcana",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "projecte:archangel_smite": {
    "kind": "item",
    "name": "Archangel's Smite",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "projecte:black_hole_band": {
    "kind": "item",
    "name": "Black Hole Band",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "projecte:body_stone": {
    "kind": "item",
    "name": "Body Stone",
    "tags": [
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "projecte:catalytic_lens": {
    "kind": "item",
    "name": "Catalytic Lens",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "projecte:dark_matter": {
    "kind": "item",
    "name": "Dark Matter",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "projecte:destruction_catalyst": {
    "kind": "item",
    "name": "Destruction Catalyst",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "projecte:divining_rod_1": {
    "kind": "item",
    "name": "Divining Rod (low)",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "projecte:divining_rod_2": {
    "kind": "item",
    "name": "Divining Rod (medium)",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "projecte:divining_rod_3": {
    "kind": "item",
    "name": "Divining Rod (high)",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "projecte:dm_axe": {
    "kind": "item",
    "name": "Dark Matter Axe",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "projecte:dm_boots": {
@@ -341,7 +386,8 @@
    "name": "Dark Matter Boots",
    "tags": [
     "kind:armor",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "projecte:dm_chestplate": {
@@ -349,14 +395,16 @@
    "name": "Dark Matter Chestplate",
    "tags": [
     "kind:armor",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "projecte:dm_hammer": {
    "kind": "item",
    "name": "Dark Matter Hammer",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "projecte:dm_helmet": {
@@ -364,14 +412,16 @@
    "name": "Dark Matter Helmet",
    "tags": [
     "kind:armor",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "projecte:dm_hoe": {
    "kind": "item",
    "name": "Dark Matter Hoe",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "projecte:dm_leggings": {
@@ -379,7 +429,8 @@
    "name": "Dark Matter Leggings",
    "tags": [
     "kind:armor",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "projecte:dm_pick": {
@@ -387,21 +438,24 @@
    "name": "Dark Matter Pickaxe",
    "tags": [
     "kind:tool",
-    "function:mine"
+    "function:mine",
+    "review:auto"
    ]
   },
   "projecte:dm_shears": {
    "kind": "item",
    "name": "Dark Matter Shears",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "projecte:dm_shovel": {
    "kind": "item",
    "name": "Dark Matter Shovel",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "projecte:dm_sword": {
@@ -409,14 +463,16 @@
    "name": "Dark Matter Sword",
    "tags": [
     "kind:weapon",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "projecte:evertide_amulet": {
    "kind": "item",
    "name": "Evertide Amulet",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "projecte:gem_boots": {
@@ -425,7 +481,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "projecte:gem_chestplate": {
@@ -434,7 +491,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "projecte:gem_helmet": {
@@ -443,7 +501,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "projecte:gem_leggings": {
@@ -452,135 +511,171 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "projecte:gem_of_eternal_density": {
    "kind": "item",
    "name": "Gem of Eternal Density",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "projecte:harvest_goddess_band": {
    "kind": "item",
    "name": "Harvest Goddess Band",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "projecte:high_covalence_dust": {
    "kind": "item",
    "name": "High Covalence Dust",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "projecte:hyperkinetic_lens": {
    "kind": "item",
    "name": "Hyperkinetic Lens",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "projecte:ignition_ring": {
    "kind": "item",
    "name": "Ignition Ring",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "projecte:iron_band": {
    "kind": "item",
    "name": "Iron Band",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "projecte:klein_star_drei": {
    "kind": "item",
    "name": "Klein Star Drei",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "projecte:klein_star_ein": {
    "kind": "item",
    "name": "Klein Star Ein",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "projecte:klein_star_omega": {
    "kind": "item",
    "name": "Klein Star Omega",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "projecte:klein_star_sphere": {
    "kind": "item",
    "name": "Klein Star Sphere",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "projecte:klein_star_vier": {
    "kind": "item",
    "name": "Klein Star Vier",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "projecte:klein_star_zwei": {
    "kind": "item",
    "name": "Klein Star Zwei",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "projecte:life_stone": {
    "kind": "item",
    "name": "Life Stone",
    "tags": [
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "projecte:low_covalence_dust": {
    "kind": "item",
    "name": "Low Covalence Dust",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "projecte:medium_covalence_dust": {
    "kind": "item",
    "name": "Medium Covalence Dust",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "projecte:mercurial_eye": {
    "kind": "item",
    "name": "Mercurial Eye",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "projecte:mind_stone": {
    "kind": "item",
    "name": "Mind Stone",
    "tags": [
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "projecte:mobius_fuel": {
    "kind": "item",
    "name": "Mobius Fuel",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "projecte:philosophers_stone": {
    "kind": "item",
    "name": "Philosopher's Stone",
    "tags": [
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "projecte:red_matter": {
    "kind": "item",
    "name": "Red Matter",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "projecte:repair_talisman": {
    "kind": "item",
    "name": "Repair Talisman",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "projecte:rm_axe": {
    "kind": "item",
    "name": "Red Matter Axe",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "projecte:rm_boots": {
@@ -588,7 +683,8 @@
    "name": "Red Matter Boots",
    "tags": [
     "kind:armor",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "projecte:rm_chestplate": {
@@ -596,14 +692,16 @@
    "name": "Red Matter Chestplate",
    "tags": [
     "kind:armor",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "projecte:rm_hammer": {
    "kind": "item",
    "name": "Red Matter Hammer",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "projecte:rm_helmet": {
@@ -611,54 +709,64 @@
    "name": "Red Matter Helmet",
    "tags": [
     "kind:armor",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "projecte:rm_hoe": {
    "kind": "item",
    "name": "Red Matter Hoe",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "projecte:rm_katar": {
    "kind": "item",
    "name": "Red Katar",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "projecte:rm_leggings": {
    "kind": "item",
    "name": "Red Matter Leggings",
    "tags": [
     "kind:armor",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "projecte:rm_morning_star": {
    "kind": "item",
    "name": "Red Morningstar",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "projecte:rm_pick": {
    "kind": "item",
    "name": "Red Matter Pickaxe",
    "tags": [
     "kind:tool",
-    "function:mine"
+    "function:mine",
+    "review:auto"
    ]
   },
   "projecte:rm_shears": {
    "kind": "item",
    "name": "Red Matter Shears",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "projecte:rm_shovel": {
    "kind": "item",
    "name": "Red Matter Shovel",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "projecte:rm_sword": {
@@ -666,7 +774,8 @@
    "name": "Red Matter Sword",
    "tags": [
     "kind:weapon",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "projecte:soul_stone": {
@@ -674,53 +783,66 @@
    "name": "Soul Stone",
    "tags": [
     "needs:nether",
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "projecte:swiftwolf_rending_gale": {
    "kind": "item",
    "name": "Swiftwolf's Rending Gale",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "projecte:tome": {
    "kind": "item",
    "name": "Tome of Knowledge",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "projecte:transmutation_tablet": {
    "kind": "item",
    "name": "Transmutation Tablet",
    "tags": [
     "power-type:emc",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "projecte:void_ring": {
    "kind": "item",
    "name": "Void Ring",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "projecte:volcanite_amulet": {
    "kind": "item",
    "name": "Volcanite Amulet",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "projecte:watch_of_flowing_time": {
    "kind": "item",
    "name": "Watch of Flowing Time",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "projecte:zero_ring": {
    "kind": "item",
    "name": "Zero Ring",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "mc1.21.1"
 }

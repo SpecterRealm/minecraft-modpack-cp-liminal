@@ -94,8 +94,16 @@
     "fuel:liquid",
     "fuel:solid",
     "needs:none",
-    "scale:fixed"
-   ]
+    "scale:fixed",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "1.21.1-10.7.19.85",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "mekanismgenerators:solar_generator",
@@ -119,8 +127,16 @@
     "power-type:fe",
     "fuel:sun",
     "needs:sun",
-    "scale:fixed"
-   ]
+    "scale:fixed",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "1.21.1-10.7.19.85",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "mekanismgenerators:advanced_solar_generator",
@@ -145,8 +161,16 @@
     "power-type:fe",
     "fuel:sun",
     "needs:sun",
-    "scale:fixed"
-   ]
+    "scale:fixed",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "1.21.1-10.7.19.85",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "mekanismgenerators:wind_generator",
@@ -172,8 +196,16 @@
     "power-type:fe",
     "fuel:wind",
     "needs:none",
-    "scale:fixed"
-   ]
+    "scale:fixed",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "1.21.1-10.7.19.85",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "mekanismgenerators:bio_generator",
@@ -199,8 +231,16 @@
     "power-type:fe",
     "fuel:biomass",
     "needs:none",
-    "scale:fixed"
-   ]
+    "scale:fixed",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "1.21.1-10.7.19.85",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "mekanismgenerators:gas_burning_generator",
@@ -225,8 +265,16 @@
     "power-type:chemical",
     "fuel:gas",
     "needs:none",
-    "scale:fixed"
-   ]
+    "scale:fixed",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "1.21.1-10.7.19.85",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "mekanismgenerators:turbine_casing",
@@ -252,7 +300,8 @@
     "power-type:fe",
     "fuel:kinetic",
     "needs:ore",
-    "scale:count-scaled"
+    "scale:count-scaled",
+    "review:checked"
    ],
    "scaling": {
     "model": "count-scaled",
@@ -260,6 +309,13 @@
     "formula": "production limited by min(blades, coils x bladesPerCoil); steam flow = lowerVolume x dispersers x disperserChemicalFlow; steam out limited by vents",
     "source": "TurbineMultiblockData.java:142,146,258",
     "note": "Taller turbines add blade rings and volume"
+   },
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "1.21.1-10.7.19.85",
+    "pass": "first",
+    "note": "hand-tagged from source"
    }
   },
   {
@@ -287,7 +343,8 @@
     "power-type:heat",
     "fuel:nuclear",
     "needs:ore",
-    "scale:count-scaled"
+    "scale:count-scaled",
+    "review:checked"
    ],
    "scaling": {
     "model": "count-scaled",
@@ -295,6 +352,13 @@
     "formula": "max burn rate = assemblies x burnPerAssembly; fuel capacity = assemblies x maxFuelPerAssembly; heat and coolant limited by assembly surface area",
     "source": "FissionReactorMultiblockData.java:475,571,582",
     "note": "Bigger structure holds more assemblies, so more output but more coolant and meltdown risk"
+   },
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "1.21.1-10.7.19.85",
+    "pass": "first",
+    "note": "hand-tagged from source"
    }
   },
   {
@@ -320,8 +384,16 @@
     "power-type:heat",
     "fuel:nuclear",
     "needs:ore",
-    "scale:fixed"
-   ]
+    "scale:fixed",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "1.21.1-10.7.19.85",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   }
  ]
 }

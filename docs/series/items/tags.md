@@ -9,15 +9,18 @@ Every item gets several tags, written `facet:value`. An item can carry many valu
 | `kind` | weapon, armor, tool, block, machine, multiblock, storage, food, consumable, ingredient, material, decoration, transport, mob, fluid, gadget | What is it? |
 | `function` | generate, store, transfer, process, craft, farm, mine, automate, defend, travel, light, cook, enchant, research | What job does it do for the player? |
 | `power-role` | makes, stores, uses, transfers, none | Group 1: what it does with power (several allowed) |
-| `power-type` | fe, stress, mana, emc, heat, chemical, none | Group 2: which kind of power (several allowed) |
+| `power-type` | fe, stress, mana, source, emc, heat, chemical, none | Group 2: which kind of power (several allowed) |
 | `fuel` | solid, liquid, gas, chemical-fuel, nuclear, sun, wind, water, kinetic, biomass, none | What it burns or draws from, when it makes power |
 | `needs` | ore, nether, end, void-start, water, sun, spell-tech, none | What it depends on (this is where theme conflicts show) |
 | `tier` | primitive, early, mid, late, endgame, n/a | Where it sits in progression (filled in during review) |
 | `role` | core, optional, hidden-gem, dev-only | Carries progression, optional, an item players might miss, or dev-only |
 | `fit` | fits, gated, hide, unknown | Outcome of our review (default `unknown`) |
+| `review` | auto, checked | Whether a person (or a source read) confirmed the tags, or they are the keyword first pass |
 | `scale` | fixed, tiered, size-scaled, count-scaled | How a bigger or better version changes output (see below) |
 
 Notes:
+- `review:auto` is set by the keyword tagger; `review:checked` means the item was read against source or the game and the tags confirmed. Loop-back work is the `review:auto` list.
+- `power-type:source` is Ars Nouveau's Source; `mana` stays for Iron's Spells and general mana. Keep them apart so Ars and Iron's are not treated as one system.
 - `power-role` and `power-type` are separate on purpose: `power-role:makes` + `power-type:fe` + `fuel:solid` is a solid-fuel FE generator. A Create Additions alternator is `makes`/`fe` with `fuel:kinetic`; an electric motor is `uses` `fe` and `makes` `stress`.
 - `heat` (Thermo Generator, Mekanism Heat Generator, Blaze Burner) and `emc` (ProjectE) are power types so they show up in gap analysis.
 - `fit` and `tier` start as `unknown` / `n/a` and are set during review. They are the decision layer.
@@ -52,3 +55,16 @@ Multiblocks carry a `scaling` block in the catalog entry, not just a tag:
 - Re-running `series-mod-scan.py run` regenerates the scan files; run the auto tagger again after it.
 - `series-item-tags.py stats` shows tag counts; `find <tags> --all` searches curated and auto-tagged items together.
 - The loop-back list is what the tagger could not place: items with no `kind:` tag (mostly plain items) and machines without a `power-role`.
+
+## Review record (date and version)
+
+Every hand-checked entry carries a `review` block so we can tell what is worth checking again:
+
+```json
+"review": {"status": "checked", "date": "2026-09-30", "mod_version": "10.7.19.85", "pass": "first", "note": ""}
+```
+
+- `date`: when it was last reviewed. `mod_version`: the version or ref the review was done against (the pinned tag or branch in `sources.json`).
+- `pass`: `first`, `loop-back`, or `review`.
+- Auto-tagged scan files carry file-level `tagged_on` and `tagged_version` instead; every item in them is `review:auto` until checked.
+- `python3 scripts/series-item-tags.py stale` lists entries to revisit: no review record, reviewed against an older version than the current pin, or still `review:auto`. Run `series-mod-sources.py check` first so the current refs are up to date.

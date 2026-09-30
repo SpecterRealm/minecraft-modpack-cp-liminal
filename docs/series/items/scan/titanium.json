@@ -12,30 +12,36 @@
    "kind": "block",
    "name": "Test Block: (Base)",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "titanium:block_twenty_four_test": {
    "kind": "block",
    "name": "Test Block: (Twenty-Four Rotation)",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "titanium:block_asset_test": {
    "kind": "block",
    "name": "Test Block: (Asset)",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "titanium:machine_test": {
    "kind": "block",
    "name": "Test Block: (Machine)",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21"
 }

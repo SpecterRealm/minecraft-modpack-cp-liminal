@@ -72,7 +72,8 @@
     "power-type:heat",
     "fuel:nuclear",
     "needs:ore",
-    "scale:count-scaled"
+    "scale:count-scaled",
+    "review:checked"
    ],
    "scaling": {
     "model": "count-scaled",
@@ -80,6 +81,13 @@
     "formula": "output scales with fuel rod count and height; global reactorPowerProductionMultiplier (default 1.0)",
     "source": "ReactorControlRodEntity.java, config/Reactor.java",
     "note": "Size cap maxReactorSize 32 x maxReactorHeight 48; unverified formula detail"
+   },
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "1.21",
+    "pass": "first",
+    "note": "hand-tagged from source"
    }
   },
   {
@@ -106,7 +114,8 @@
     "power-type:fe",
     "fuel:kinetic",
     "needs:none",
-    "scale:count-scaled"
+    "scale:count-scaled",
+    "review:checked"
    ],
    "scaling": {
     "model": "count-scaled",
@@ -114,6 +123,13 @@
     "formula": "output scales with blades, coils and fluid flow; global turbinePowerProductionMultiplier (default 1.0)",
     "source": "TurbineLogic.java, config/Turbine.java",
     "note": "Size cap 32 x 32; unverified formula detail"
+   },
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "1.21",
+    "pass": "first",
+    "note": "hand-tagged from source"
    }
   },
   {
@@ -135,8 +151,16 @@
     "power-role:stores",
     "power-type:fe",
     "needs:none",
-    "scale:size-scaled"
-   ]
+    "scale:size-scaled",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "1.21",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "bigreactors:wrench",
@@ -157,8 +181,16 @@
     "power-role:none",
     "power-type:none",
     "needs:none",
-    "scale:fixed"
-   ]
+    "scale:fixed",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "1.21",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "bigreactors:fluidizercontroller",
@@ -178,8 +210,16 @@
     "power-role:uses",
     "power-type:fe",
     "needs:none",
-    "scale:fixed"
-   ]
+    "scale:fixed",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "1.21",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   }
  ]
 }

@@ -49,7 +49,8 @@
     "kind:tool",
     "function:enchant",
     "power-type:mana",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:mage_spell_staff": {
@@ -59,7 +60,8 @@
     "kind:tool",
     "function:enchant",
     "power-type:mana",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:archmage_spell_staff": {
@@ -69,7 +71,8 @@
     "kind:tool",
     "function:enchant",
     "power-type:mana",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:creative_spell_staff": {
@@ -79,7 +82,8 @@
     "kind:tool",
     "function:enchant",
     "power-type:mana",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:staff_telekinesis": {
@@ -88,7 +92,8 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:staff_demonbane": {
@@ -97,7 +102,8 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:staff_lakes": {
@@ -106,7 +112,8 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:staff_switcheroo": {
@@ -115,7 +122,8 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:staff_geometrize": {
@@ -124,7 +132,8 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:staff_convergence": {
@@ -133,21 +142,24 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:dull_circlet": {
    "kind": "item",
    "name": "Dull Circlet",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:spellcasting_circlet": {
    "kind": "item",
    "name": "Psion's Circlet",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:archwood_rod": {
@@ -155,7 +167,8 @@
    "name": "Archwood Rod",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:multiphase_spell_parchment": {
@@ -164,14 +177,16 @@
    "tags": [
     "function:enchant",
     "power-type:mana",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:multiphase_orb": {
    "kind": "item",
    "name": "Phased Orb",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:acolyte": {
@@ -179,7 +194,8 @@
    "name": "Acolyte",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:necromancer": {
@@ -187,7 +203,8 @@
    "name": "Necromancer",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:lich": {
@@ -195,7 +212,8 @@
    "name": "Lich",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:bone_golem": {
@@ -203,7 +221,8 @@
    "name": "Bone Golem",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:acolyte_spawn_egg": {
@@ -212,7 +231,8 @@
    "tags": [
     "kind:food",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:necromancer_spawn_egg": {
@@ -221,7 +241,8 @@
    "tags": [
     "kind:food",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:lich_spawn_egg": {
@@ -230,7 +251,8 @@
    "tags": [
     "kind:food",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:bone_golem_spawn_egg": {
@@ -239,7 +261,8 @@
    "tags": [
     "kind:food",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:arcane_voxel_spawner": {
@@ -248,7 +271,8 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:fire_voxel_spawner": {
@@ -257,7 +281,8 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:water_voxel_spawner": {
@@ -266,7 +291,8 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:wind_voxel_spawner": {
@@ -275,7 +301,8 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:stone_voxel_spawner": {
@@ -284,7 +311,8 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:ice_voxel_spawner": {
@@ -293,7 +321,8 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:lightning_voxel_spawner": {
@@ -302,7 +331,8 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:blight_voxel_spawner": {
@@ -311,7 +341,8 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:blight_fluid": {
@@ -319,7 +350,8 @@
    "name": "Blight Fluid",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_zero:blight_cauldron": {
@@ -327,7 +359,8 @@
    "name": "Blight Cauldron",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_zero:blighted_soil": {
@@ -336,7 +369,8 @@
    "tags": [
     "function:farm",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_zero:frozen_blight": {
@@ -344,7 +378,8 @@
    "name": "Frozen Blight",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_zero:multiphase_spell_turret": {
@@ -354,7 +389,8 @@
     "function:enchant",
     "power-type:mana",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_zero:blight_archwood_log": {
@@ -362,7 +398,8 @@
    "name": "Dead Archwood Log",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:blight_archwood_leaves": {
@@ -370,7 +407,8 @@
    "name": "Dead Archwood Leaves",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:staff_display": {
@@ -379,7 +417,8 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:ossuary_beacon": {
@@ -387,295 +426,368 @@
    "name": "Ossuary Beacon",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_zero:corrupted_sourcestone": {
    "kind": "block",
    "name": "Corrupted Sourcestone",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_zero:corrupted_sourcestone_stairs": {
    "kind": "block",
    "name": "Corrupted Sourcestone Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:corrupted_sourcestone_slab": {
    "kind": "block",
    "name": "Corrupted Sourcestone Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:corrupted_sourcestone_mosaic": {
    "kind": "block",
    "name": "Corrupted Sourcestone Mosaic",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_zero:corrupted_sourcestone_mosaic_stairs": {
    "kind": "block",
    "name": "Corrupted Sourcestone Mosaic Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:corrupted_sourcestone_mosaic_slab": {
    "kind": "block",
    "name": "Corrupted Sourcestone Mosaic Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:corrupted_sourcestone_basketweave": {
    "kind": "block",
    "name": "Corrupted Sourcestone Basketweave",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_zero:corrupted_sourcestone_basketweave_stairs": {
    "kind": "block",
    "name": "Corrupted Sourcestone Basketweave Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:corrupted_sourcestone_basketweave_slab": {
    "kind": "block",
    "name": "Corrupted Sourcestone Basketweave Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:corrupted_sourcestone_alternating": {
    "kind": "block",
    "name": "Corrupted Sourcestone Alternating",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_zero:corrupted_sourcestone_alternating_stairs": {
    "kind": "block",
    "name": "Corrupted Sourcestone Alternating Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:corrupted_sourcestone_alternating_slab": {
    "kind": "block",
    "name": "Corrupted Sourcestone Alternating Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:corrupted_sourcestone_large_bricks": {
    "kind": "block",
    "name": "Corrupted Sourcestone Large Bricks",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:corrupted_sourcestone_large_bricks_stairs": {
    "kind": "block",
    "name": "Corrupted Sourcestone Large Bricks Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:corrupted_sourcestone_large_bricks_slab": {
    "kind": "block",
    "name": "Corrupted Sourcestone Large Bricks Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:corrupted_sourcestone_small_bricks": {
    "kind": "block",
    "name": "Corrupted Sourcestone Small Bricks",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:corrupted_sourcestone_small_bricks_stairs": {
    "kind": "block",
    "name": "Corrupted Sourcestone Small Bricks Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:corrupted_sourcestone_small_bricks_slab": {
    "kind": "block",
    "name": "Corrupted Sourcestone Small Bricks Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:smooth_corrupted_sourcestone": {
    "kind": "block",
    "name": "Smooth Corrupted Sourcestone",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_zero:smooth_corrupted_sourcestone_stairs": {
    "kind": "block",
    "name": "Smooth Corrupted Sourcestone Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:smooth_corrupted_sourcestone_slab": {
    "kind": "block",
    "name": "Smooth Corrupted Sourcestone Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:smooth_corrupted_sourcestone_mosaic": {
    "kind": "block",
    "name": "Smooth Corrupted Sourcestone Mosaic",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_zero:smooth_corrupted_sourcestone_mosaic_stairs": {
    "kind": "block",
    "name": "Smooth Corrupted Sourcestone Mosaic Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:smooth_corrupted_sourcestone_mosaic_slab": {
    "kind": "block",
    "name": "Smooth Corrupted Sourcestone Mosaic Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:smooth_corrupted_sourcestone_basketweave": {
    "kind": "block",
    "name": "Smooth Corrupted Sourcestone Basketweave",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_zero:smooth_corrupted_sourcestone_basketweave_stairs": {
    "kind": "block",
    "name": "Smooth Corrupted Sourcestone Basketweave Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:smooth_corrupted_sourcestone_basketweave_slab": {
    "kind": "block",
    "name": "Smooth Corrupted Sourcestone Basketweave Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:smooth_corrupted_sourcestone_alternating": {
    "kind": "block",
    "name": "Smooth Corrupted Sourcestone Alternating",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_zero:smooth_corrupted_sourcestone_alternating_stairs": {
    "kind": "block",
    "name": "Smooth Corrupted Sourcestone Alternating Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:smooth_corrupted_sourcestone_alternating_slab": {
    "kind": "block",
    "name": "Smooth Corrupted Sourcestone Alternating Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:smooth_corrupted_sourcestone_large_bricks": {
    "kind": "block",
    "name": "Smooth Corrupted Sourcestone Large Bricks",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:smooth_corrupted_sourcestone_large_bricks_stairs": {
    "kind": "block",
    "name": "Smooth Corrupted Sourcestone Large Bricks Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:smooth_corrupted_sourcestone_large_bricks_slab": {
    "kind": "block",
    "name": "Smooth Corrupted Sourcestone Large Bricks Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:smooth_corrupted_sourcestone_small_bricks": {
    "kind": "block",
    "name": "Smooth Corrupted Sourcestone Small Bricks",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:smooth_corrupted_sourcestone_small_bricks_stairs": {
    "kind": "block",
    "name": "Smooth Corrupted Sourcestone Small Bricks Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:smooth_corrupted_sourcestone_small_bricks_slab": {
    "kind": "block",
    "name": "Smooth Corrupted Sourcestone Small Bricks Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:blight_fluid_bucket": {
@@ -683,7 +795,8 @@
    "name": "Blight Fluid Bucket",
    "tags": [
     "kind:tool",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:arcane_voxel_entity": {
@@ -691,7 +804,8 @@
    "name": "Arcane Voxel",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:water_voxel_entity": {
@@ -699,7 +813,8 @@
    "name": "Water Voxel",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:fire_voxel_entity": {
@@ -707,7 +822,8 @@
    "name": "Fire Voxel",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:stone_voxel_entity": {
@@ -715,7 +831,8 @@
    "name": "Stone Voxel",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:wind_voxel_entity": {
@@ -723,7 +840,8 @@
    "name": "Wind Voxel",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:ice_voxel_entity": {
@@ -731,7 +849,8 @@
    "name": "Ice Voxel",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:lightning_voxel_entity": {
@@ -739,7 +858,8 @@
    "name": "Lightning Voxel",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:blight_voxel_entity": {
@@ -747,7 +867,8 @@
    "name": "Blight Voxel",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:block_group": {
@@ -755,7 +876,8 @@
    "name": "Block Group",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:water_convergence_controller": {
@@ -763,7 +885,8 @@
    "name": "Water Convergence",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:geometry_break_controller": {
@@ -771,7 +894,8 @@
    "name": "Earth Golem",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:geometry_terrain_controller": {
@@ -779,7 +903,8 @@
    "name": "Earth Golem",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:geometry_controller": {
@@ -787,7 +912,8 @@
    "name": "Arcane Golem",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:arcane_circle": {
@@ -795,7 +921,8 @@
    "name": "Arcane Circle",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:effect_beam": {
@@ -803,21 +930,24 @@
    "name": "Beam",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:sustain_effect": {
    "kind": "item",
    "name": "Sustain",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:anchor_effect": {
    "kind": "item",
    "name": "Anchor",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:staff_aetherwalk": {
@@ -826,7 +956,8 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:tattered_arcanist_helmet": {
@@ -835,7 +966,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:tattered_arcanist_chestplate": {
@@ -844,7 +976,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:tattered_arcanist_leggings": {
@@ -853,7 +986,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:tattered_arcanist_boots": {
@@ -862,7 +996,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:rotted_arcanist_helmet": {
@@ -871,7 +1006,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:rotted_arcanist_chestplate": {
@@ -880,7 +1016,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:rotted_arcanist_leggings": {
@@ -889,7 +1026,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:rotted_arcanist_boots": {
@@ -898,7 +1036,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:bone_chest": {
@@ -907,35 +1046,40 @@
    "tags": [
     "function:store",
     "kind:storage",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:air_filial": {
    "kind": "item",
    "name": "Vortex Gale",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:earth_filial": {
    "kind": "item",
    "name": "Oakheart",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:fire_filial": {
    "kind": "item",
    "name": "Emberclast",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:water_filial": {
    "kind": "item",
    "name": "Crux of the Sea",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:abjuration_filial": {
@@ -944,21 +1088,24 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:conjuration_filial": {
    "kind": "item",
    "name": "Soulwell",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:manipulation_filial": {
    "kind": "item",
    "name": "Metacarpus",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:necromancy_filial": {
@@ -966,7 +1113,8 @@
    "name": "Ossuary Sigil",
    "tags": [
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_zero:blight_vein": {
@@ -974,9 +1122,12 @@
    "name": "Blight Vein",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21.1"
 }

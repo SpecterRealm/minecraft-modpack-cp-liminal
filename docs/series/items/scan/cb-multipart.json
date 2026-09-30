@@ -22,28 +22,32 @@
    "kind": "item",
    "name": "Stone Saw",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "cb_microblock:iron_saw": {
    "kind": "item",
    "name": "Iron Saw",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "cb_microblock:gold_saw": {
    "kind": "item",
    "name": "Gold Saw",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "cb_microblock:diamond_saw": {
    "kind": "item",
    "name": "Diamond Saw",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "cb_microblock:netherite_saw": {
@@ -51,76 +55,104 @@
    "name": "Netherite Saw",
    "tags": [
     "kind:tool",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "cb_microblock:stone_rod": {
    "kind": "item",
    "name": "Stone Rod",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "cb_microblock:face.1": {
    "kind": "item",
    "name": "%s Cover",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "cb_microblock:face.2": {
    "kind": "item",
    "name": "%s Panel",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "cb_microblock:face.4": {
    "kind": "item",
    "name": "%s Slab",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "cb_microblock:hollow.1": {
    "kind": "item",
    "name": "Hollow %s Cover",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "cb_microblock:hollow.2": {
    "kind": "item",
    "name": "Hollow %s Panel",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "cb_microblock:hollow.4": {
    "kind": "item",
    "name": "Hollow %s Slab",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "cb_microblock:edge.1": {
    "kind": "item",
    "name": "%s Strip",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "cb_microblock:edge.2": {
    "kind": "item",
    "name": "%s Post",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "cb_microblock:edge.4": {
    "kind": "item",
    "name": "%s Pillar",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "cb_microblock:corner.1": {
    "kind": "item",
    "name": "%s Nook",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "cb_microblock:corner.2": {
    "kind": "item",
    "name": "%s Corner",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "cb_microblock:corner.4": {
    "kind": "item",
    "name": "%s Notch",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21.1"
 }

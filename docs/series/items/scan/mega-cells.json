@@ -74,7 +74,8 @@
    "name": "16M MEGA Crafting Storage",
    "tags": [
     "function:store",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "megacells:1m_crafting_storage": {
@@ -82,7 +83,8 @@
    "name": "1M MEGA Crafting Storage",
    "tags": [
     "function:store",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "megacells:256m_crafting_storage": {
@@ -90,7 +92,8 @@
    "name": "256M MEGA Crafting Storage",
    "tags": [
     "function:store",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "megacells:4m_crafting_storage": {
@@ -98,7 +101,8 @@
    "name": "4M MEGA Crafting Storage",
    "tags": [
     "function:store",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "megacells:64m_crafting_storage": {
@@ -106,28 +110,32 @@
    "name": "64M MEGA Crafting Storage",
    "tags": [
     "function:store",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "megacells:mega_crafting_accelerator": {
    "kind": "block",
    "name": "MEGA Crafting Co-Processing Unit",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "megacells:mega_crafting_monitor": {
    "kind": "block",
    "name": "MEGA Crafting Monitor",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "megacells:mega_crafting_unit": {
    "kind": "block",
    "name": "MEGA Crafting Unit",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "megacells:mega_emc_interface": {
@@ -136,7 +144,8 @@
    "tags": [
     "function:automate",
     "power-type:emc",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "megacells:mega_energy_cell": {
@@ -146,7 +155,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "megacells:mega_interface": {
@@ -154,7 +164,8 @@
    "name": "MEGA Interface",
    "tags": [
     "function:automate",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "megacells:mega_pattern_provider": {
@@ -162,28 +173,32 @@
    "name": "MEGA Pattern Provider",
    "tags": [
     "function:automate",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "megacells:sky_bronze_block": {
    "kind": "block",
    "name": "Sky Bronze Block",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "megacells:sky_osmium_block": {
    "kind": "block",
    "name": "Sky Osmium Block",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "megacells:sky_steel_block": {
    "kind": "block",
    "name": "Sky Steel Block",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "megacells:accumulation_processor": {
@@ -191,7 +206,8 @@
    "name": "Accumulation Processor",
    "tags": [
     "kind:machine",
-    "function:process"
+    "function:process",
+    "review:auto"
    ]
   },
   "megacells:accumulation_processor_press": {
@@ -199,7 +215,8 @@
    "name": "Inscriber Accumulation Press",
    "tags": [
     "kind:machine",
-    "function:process"
+    "function:process",
+    "review:auto"
    ]
   },
   "megacells:bulk_cell_component": {
@@ -208,7 +225,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:bulk_item_cell": {
@@ -217,7 +235,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:cable_mega_emc_interface": {
@@ -228,7 +247,8 @@
     "power-role:transfers",
     "power-type:fe",
     "function:automate",
-    "power-type:emc"
+    "power-type:emc",
+    "review:auto"
    ]
   },
   "megacells:cable_mega_interface": {
@@ -238,7 +258,8 @@
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   },
   "megacells:cable_mega_pattern_provider": {
@@ -248,7 +269,8 @@
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   },
   "megacells:cell_component_16m": {
@@ -257,7 +279,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:cell_component_1m": {
@@ -266,7 +289,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:cell_component_256m": {
@@ -275,7 +299,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:cell_component_4m": {
@@ -284,7 +309,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:cell_component_64m": {
@@ -293,7 +319,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:cell_dock": {
@@ -302,21 +329,24 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:compression_card": {
    "kind": "item",
    "name": "Compression Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "megacells:decompression_module": {
    "kind": "item",
    "name": "MEGA Decompression Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "megacells:experience_storage_cell_16m": {
@@ -325,7 +355,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:experience_storage_cell_1m": {
@@ -334,7 +365,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:experience_storage_cell_256m": {
@@ -343,7 +375,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:experience_storage_cell_4m": {
@@ -352,7 +385,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:experience_storage_cell_64m": {
@@ -361,7 +395,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:fluid_storage_cell_16m": {
@@ -370,7 +405,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:fluid_storage_cell_1m": {
@@ -379,7 +415,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:fluid_storage_cell_256m": {
@@ -388,7 +425,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:fluid_storage_cell_4m": {
@@ -397,7 +435,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:fluid_storage_cell_64m": {
@@ -406,14 +445,16 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:greater_energy_card": {
    "kind": "item",
    "name": "Greater Energy Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "megacells:item_storage_cell_16m": {
@@ -422,7 +463,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:item_storage_cell_1m": {
@@ -431,7 +473,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:item_storage_cell_256m": {
@@ -440,7 +483,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:item_storage_cell_4m": {
@@ -449,7 +493,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:item_storage_cell_64m": {
@@ -458,7 +503,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:mana_storage_cell_16m": {
@@ -468,7 +514,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana"
+    "power-type:mana",
+    "review:auto"
    ]
   },
   "megacells:mana_storage_cell_1m": {
@@ -478,7 +525,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana"
+    "power-type:mana",
+    "review:auto"
    ]
   },
   "megacells:mana_storage_cell_256m": {
@@ -488,7 +536,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana"
+    "power-type:mana",
+    "review:auto"
    ]
   },
   "megacells:mana_storage_cell_4m": {
@@ -498,7 +547,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana"
+    "power-type:mana",
+    "review:auto"
    ]
   },
   "megacells:mana_storage_cell_64m": {
@@ -508,7 +558,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana"
+    "power-type:mana",
+    "review:auto"
    ]
   },
   "megacells:mega_experience_cell_housing": {
@@ -517,7 +568,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:mega_fluid_cell_housing": {
@@ -526,7 +578,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:mega_item_cell_housing": {
@@ -535,7 +588,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:mega_mana_cell_housing": {
@@ -545,7 +599,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana"
+    "power-type:mana",
+    "review:auto"
    ]
   },
   "megacells:mega_soul_cell_housing": {
@@ -555,7 +610,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "megacells:mega_source_cell_housing": {
@@ -565,7 +621,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana"
+    "power-type:source",
+    "review:auto"
    ]
   },
   "megacells:portable_cell_workbench": {
@@ -575,7 +632,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "function:craft"
+    "function:craft",
+    "review:auto"
    ]
   },
   "megacells:portable_experience_cell_16m": {
@@ -584,7 +642,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:portable_experience_cell_1m": {
@@ -593,7 +652,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:portable_experience_cell_256m": {
@@ -602,7 +662,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:portable_experience_cell_4m": {
@@ -611,7 +672,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:portable_experience_cell_64m": {
@@ -620,7 +682,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:portable_fluid_cell_16m": {
@@ -629,7 +692,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:portable_fluid_cell_1m": {
@@ -638,7 +702,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:portable_fluid_cell_256m": {
@@ -647,7 +712,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:portable_fluid_cell_4m": {
@@ -656,7 +722,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:portable_fluid_cell_64m": {
@@ -665,7 +732,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:portable_item_cell_16m": {
@@ -674,7 +742,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:portable_item_cell_1m": {
@@ -683,7 +752,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:portable_item_cell_256m": {
@@ -692,7 +762,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:portable_item_cell_4m": {
@@ -701,7 +772,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:portable_item_cell_64m": {
@@ -710,7 +782,8 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:portable_mana_cell_16m": {
@@ -720,7 +793,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana"
+    "power-type:mana",
+    "review:auto"
    ]
   },
   "megacells:portable_mana_cell_1m": {
@@ -730,7 +804,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana"
+    "power-type:mana",
+    "review:auto"
    ]
   },
   "megacells:portable_mana_cell_256m": {
@@ -740,7 +815,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana"
+    "power-type:mana",
+    "review:auto"
    ]
   },
   "megacells:portable_mana_cell_4m": {
@@ -750,7 +826,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana"
+    "power-type:mana",
+    "review:auto"
    ]
   },
   "megacells:portable_mana_cell_64m": {
@@ -760,7 +837,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana"
+    "power-type:mana",
+    "review:auto"
    ]
   },
   "megacells:portable_source_cell_16m": {
@@ -770,7 +848,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana"
+    "power-type:source",
+    "review:auto"
    ]
   },
   "megacells:portable_source_cell_1m": {
@@ -780,7 +859,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana"
+    "power-type:source",
+    "review:auto"
    ]
   },
   "megacells:portable_source_cell_256m": {
@@ -790,7 +870,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana"
+    "power-type:source",
+    "review:auto"
    ]
   },
   "megacells:portable_source_cell_4m": {
@@ -800,7 +881,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana"
+    "power-type:source",
+    "review:auto"
    ]
   },
   "megacells:portable_source_cell_64m": {
@@ -810,7 +892,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana"
+    "power-type:source",
+    "review:auto"
    ]
   },
   "megacells:printed_accumulation_processor": {
@@ -818,7 +901,8 @@
    "name": "Printed Accumulation Circuit",
    "tags": [
     "kind:machine",
-    "function:process"
+    "function:process",
+    "review:auto"
    ]
   },
   "megacells:radioactive_cell_component": {
@@ -827,28 +911,32 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "megacells:sky_bronze_ingot": {
    "kind": "item",
    "name": "Sky Bronze Ingot",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "megacells:sky_osmium_ingot": {
    "kind": "item",
    "name": "Sky Osmium Ingot",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "megacells:sky_steel_ingot": {
    "kind": "item",
    "name": "Sky Steel Ingot",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "megacells:soul_storage_cell_16m": {
@@ -858,7 +946,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "megacells:soul_storage_cell_1m": {
@@ -868,7 +957,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "megacells:soul_storage_cell_256m": {
@@ -878,7 +968,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "megacells:soul_storage_cell_4m": {
@@ -888,7 +979,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "megacells:soul_storage_cell_64m": {
@@ -898,7 +990,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "megacells:source_storage_cell_16m": {
@@ -908,7 +1001,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana"
+    "power-type:source",
+    "review:auto"
    ]
   },
   "megacells:source_storage_cell_1m": {
@@ -918,7 +1012,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana"
+    "power-type:source",
+    "review:auto"
    ]
   },
   "megacells:source_storage_cell_256m": {
@@ -928,7 +1023,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana"
+    "power-type:source",
+    "review:auto"
    ]
   },
   "megacells:source_storage_cell_4m": {
@@ -938,7 +1034,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana"
+    "power-type:source",
+    "review:auto"
    ]
   },
   "megacells:source_storage_cell_64m": {
@@ -948,9 +1045,12 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana"
+    "power-type:source",
+    "review:auto"
    ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "4.11.0"
 }

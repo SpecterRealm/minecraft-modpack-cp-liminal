@@ -29,7 +29,8 @@
    "name": "Archwood Chain",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_additions:archwood_lantern": {
@@ -38,7 +39,8 @@
    "tags": [
     "function:light",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_additions:archwood_magelight_lantern": {
@@ -47,71 +49,88 @@
    "tags": [
     "function:light",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_additions:cracked_polished_sourcestone": {
    "kind": "block",
    "name": "Cracked Polished Sourcestone",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_additions:cracked_polished_sourcestone_large_bricks": {
    "kind": "block",
    "name": "Cracked Polished Sourcestone: Large Bricks",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:cracked_polished_sourcestone_small_bricks": {
    "kind": "block",
    "name": "Cracked Polished Sourcestone: Small Bricks",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:cracked_polished_sourcestone_wall": {
    "kind": "block",
    "name": "Cracked Polished Sourcestone Wall",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:cracked_sourcestone": {
    "kind": "block",
    "name": "Cracked Sourcestone",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_additions:cracked_sourcestone_large_bricks": {
    "kind": "block",
    "name": "Cracked Sourcestone: Large Bricks",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:cracked_sourcestone_small_bricks": {
    "kind": "block",
    "name": "Cracked Sourcestone: Small Bricks",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:cracked_sourcestone_wall": {
    "kind": "block",
    "name": "Cracked Sourcestone Wall",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:enchanting_wixie_cauldron": {
@@ -120,7 +139,8 @@
    "tags": [
     "function:enchant",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_additions:ender_source_jar": {
@@ -128,9 +148,10 @@
    "name": "Ender Source Jar",
    "tags": [
     "function:store",
-    "power-type:mana",
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_additions:golden_chain": {
@@ -138,7 +159,8 @@
    "name": "Golden Chain",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_additions:golden_lantern": {
@@ -147,7 +169,8 @@
    "tags": [
     "function:light",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_additions:golden_magelight_lantern": {
@@ -156,7 +179,8 @@
    "tags": [
     "function:light",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_additions:magebloom_carpet": {
@@ -164,7 +188,8 @@
    "name": "Magebloom Carpet",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:magelight_lantern": {
@@ -173,31 +198,38 @@
    "tags": [
     "function:light",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_additions:polished_sourcestone_button": {
    "kind": "block",
    "name": "Polished Sourcestone Button",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_additions:polished_sourcestone_chain": {
    "kind": "block",
    "name": "Polished Sourcestone Chain",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_additions:polished_sourcestone_door": {
    "kind": "block",
    "name": "Polished Sourcestone Door",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:polished_sourcestone_lantern": {
@@ -205,8 +237,10 @@
    "name": "Polished Sourcestone Lantern",
    "tags": [
     "function:light",
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_additions:polished_sourcestone_magelight_lantern": {
@@ -214,24 +248,30 @@
    "name": "Polished Sourcestone Magelight Lantern",
    "tags": [
     "function:light",
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_additions:polished_sourcestone_trapdoor": {
    "kind": "block",
    "name": "Polished Sourcestone Trapdoor",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:polished_sourcestone_wall": {
    "kind": "block",
    "name": "Polished Sourcestone Wall",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:soul_magelight_lantern": {
@@ -241,7 +281,8 @@
     "function:light",
     "needs:nether",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_additions:source_spawner": {
@@ -250,32 +291,39 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "power-type:mana",
-    "needs:spell-tech"
+    "power-type:source",
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:sourcestone_button": {
    "kind": "block",
    "name": "Sourcestone Button",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_additions:sourcestone_chain": {
    "kind": "block",
    "name": "Sourcestone Chain",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_additions:sourcestone_door": {
    "kind": "block",
    "name": "Sourcestone Door",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:sourcestone_lantern": {
@@ -283,8 +331,10 @@
    "name": "Sourcestone Lantern",
    "tags": [
     "function:light",
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_additions:sourcestone_magelight_lantern": {
@@ -292,24 +342,30 @@
    "name": "Sourcestone Magelight Lantern",
    "tags": [
     "function:light",
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_additions:sourcestone_trapdoor": {
    "kind": "block",
    "name": "Sourcestone Trapdoor",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:sourcestone_wall": {
    "kind": "block",
    "name": "Sourcestone Wall",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:warp_nexus": {
@@ -318,7 +374,8 @@
    "tags": [
     "function:travel",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_additions:advanced_dominion_wand": {
@@ -327,28 +384,32 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:ancient_codex_entry": {
    "kind": "item",
    "name": "Ancient Codex Entry",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:bound_wayfinder": {
    "kind": "item",
    "name": "Bound Wayfinder",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:codex_entry": {
    "kind": "item",
    "name": "Codex Entry",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:dispel_protection_charm": {
@@ -356,7 +417,8 @@
    "name": "Charm of Unyielding Magic",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:ender_mask_charm": {
@@ -366,7 +428,8 @@
     "kind:armor",
     "function:defend",
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:exploration_warp_scroll": {
@@ -375,7 +438,8 @@
    "tags": [
     "function:travel",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:fall_prevention_charm": {
@@ -383,7 +447,8 @@
    "name": "Charm of Featherlight",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:fire_resistance_charm": {
@@ -391,7 +456,8 @@
    "name": "Charm of Emberward",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:golden_charm": {
@@ -399,14 +465,16 @@
    "name": "Charm of Gilded Friendship",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:handy_haversack": {
    "kind": "item",
    "name": "Handy Haversack",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:imbued_spell_parchment": {
@@ -415,14 +483,16 @@
    "tags": [
     "function:enchant",
     "power-type:mana",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:lost_codex_entry": {
    "kind": "item",
    "name": "Lost Codex Entry",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:memory_crystal": {
@@ -430,7 +500,8 @@
    "name": "Memory Crystal",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:nexus_warp_scroll": {
@@ -439,7 +510,8 @@
    "tags": [
     "function:travel",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:night_vision_charm": {
@@ -447,7 +519,8 @@
    "name": "Charm of Darkvision",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:powdered_snow_walk_charm": {
@@ -455,7 +528,8 @@
    "name": "Charm of Snowstride",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:ritual_chunk_loading": {
@@ -463,14 +537,16 @@
    "name": "Arcane Permanence",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:ritual_locate_structure": {
    "kind": "item",
    "name": "Locate Structure",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:sonic_boom_protection_charm": {
@@ -480,7 +556,8 @@
     "kind:armor",
     "function:defend",
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:stabilized_warp_index": {
@@ -488,14 +565,16 @@
    "name": "Stabilized Warp Index",
    "tags": [
     "function:travel",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:thread_reach": {
    "kind": "item",
    "name": "Reach",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:undying_charm": {
@@ -503,14 +582,16 @@
    "name": "Charm of Second Wind",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:unstable_reliquary": {
    "kind": "item",
    "name": "Unstable Reliquary",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:void_protection_charm": {
@@ -518,7 +599,8 @@
    "name": "Charm of Void's Salvation",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:warp_index": {
@@ -526,7 +608,8 @@
    "name": "Warp Index",
    "tags": [
     "function:travel",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:water_breathing_charm": {
@@ -534,14 +617,16 @@
    "name": "Charm of Ocean's Breath",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:wayfinder": {
    "kind": "item",
    "name": "Wayfinder",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:wither_protection_charm": {
@@ -550,7 +635,8 @@
    "tags": [
     "kind:gadget",
     "needs:nether",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_additions:xp_jar": {
@@ -558,9 +644,12 @@
    "name": "Jar of Miner's Wisdom",
    "tags": [
     "function:store",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "21.3.0"
 }

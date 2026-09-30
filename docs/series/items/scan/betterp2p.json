@@ -21,14 +21,19 @@
    "kind": "item",
    "name": "Advanced Memory Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "betterp2p:advanced_memory_card.selected": {
    "kind": "item",
    "name": "Frequency:",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "v1.5.2"
 }

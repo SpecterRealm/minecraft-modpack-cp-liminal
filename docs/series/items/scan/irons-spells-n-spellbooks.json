@@ -87,61 +87,71 @@
    "name": "Scroll",
    "tags": [
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:scroll.unlearned": {
    "kind": "item",
    "name": "Unlearned Scroll",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:common_ink": {
    "kind": "item",
    "name": "Common Ink",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:uncommon_ink": {
    "kind": "item",
    "name": "Uncommon Ink",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:rare_ink": {
    "kind": "item",
    "name": "Rare Ink",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:epic_ink": {
    "kind": "item",
    "name": "Epic Ink",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:legendary_ink": {
    "kind": "item",
    "name": "Legendary Ink",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:lightning_bottle": {
    "kind": "item",
    "name": "Bottle o' Lightning",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:frozen_bone": {
    "kind": "item",
    "name": "Frozen Bone",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:blood_vial": {
@@ -149,7 +159,8 @@
    "name": "Blood Vial",
    "tags": [
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:ice_venom_vial": {
@@ -157,28 +168,32 @@
    "name": "Ice Venom Vial",
    "tags": [
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:divine_pearl": {
    "kind": "item",
    "name": "Divine Pearl",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:hogskin": {
    "kind": "item",
    "name": "Hogskin",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:dragonskin": {
    "kind": "item",
    "name": "Dragonskin",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:arcane_essence": {
@@ -186,7 +201,8 @@
    "name": "Arcane Essence",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:cinder_essence": {
@@ -194,7 +210,8 @@
    "name": "Cinder Essence",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:dev_staff": {
@@ -203,7 +220,8 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:staff_of_the_nines": {
@@ -212,21 +230,24 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:arcane_salvage": {
    "kind": "item",
    "name": "Arcane Salvage",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:timeless_slurry": {
    "kind": "item",
    "name": "Timeless Slurry",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:pyrium_ingot": {
@@ -234,7 +255,8 @@
    "name": "Pyrium Ingot",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:mithril_ingot": {
@@ -242,7 +264,8 @@
    "name": "Mithril Ingot",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:mithril_scrap": {
@@ -250,7 +273,8 @@
    "name": "Mithril Scrap",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:raw_mithril": {
@@ -258,14 +282,16 @@
    "name": "Raw Mithril",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:weapon_parts": {
    "kind": "item",
    "name": "Weapon Parts",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:shriving_stone": {
@@ -273,7 +299,8 @@
    "name": "Shriving Stone",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:lesser_spell_slot_upgrade": {
@@ -283,7 +310,8 @@
     "function:enchant",
     "power-type:mana",
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:arcane_ingot": {
@@ -291,14 +319,16 @@
    "name": "Arcane Ingot",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:magic_cloth": {
    "kind": "item",
    "name": "Arcane Cloth",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:tarnished_helmet": {
@@ -307,14 +337,16 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:gold_crown": {
    "kind": "item",
    "name": "Iron's Crown",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:wandering_magician_helmet": {
@@ -323,7 +355,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:wandering_magician_chestplate": {
@@ -332,7 +365,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:wandering_magician_leggings": {
@@ -341,7 +375,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:wandering_magician_boots": {
@@ -350,7 +385,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:pyromancer_helmet": {
@@ -359,7 +395,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:pyromancer_chestplate": {
@@ -368,7 +405,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:pyromancer_leggings": {
@@ -377,7 +415,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:pyromancer_boots": {
@@ -386,7 +425,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:electromancer_helmet": {
@@ -395,7 +435,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:electromancer_chestplate": {
@@ -404,7 +445,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:electromancer_leggings": {
@@ -413,7 +455,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:electromancer_boots": {
@@ -422,7 +465,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:cultist_helmet": {
@@ -431,7 +475,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:cultist_chestplate": {
@@ -440,7 +485,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:cultist_leggings": {
@@ -449,7 +495,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:cultist_boots": {
@@ -458,7 +505,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:archevoker_helmet": {
@@ -467,7 +515,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:archevoker_chestplate": {
@@ -476,7 +525,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:archevoker_leggings": {
@@ -485,7 +535,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:archevoker_boots": {
@@ -494,7 +545,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:cryomancer_helmet": {
@@ -503,7 +555,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:cryomancer_chestplate": {
@@ -512,7 +565,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:cryomancer_leggings": {
@@ -521,7 +575,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:cryomancer_boots": {
@@ -530,7 +585,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:shadowwalker_helmet": {
@@ -539,7 +595,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:shadowwalker_chestplate": {
@@ -548,7 +605,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:shadowwalker_leggings": {
@@ -557,7 +615,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:shadowwalker_boots": {
@@ -566,7 +625,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:priest_helmet": {
@@ -575,7 +635,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:priest_chestplate": {
@@ -584,7 +645,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:priest_leggings": {
@@ -593,7 +655,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:priest_boots": {
@@ -602,7 +665,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:plagued_helmet": {
@@ -611,7 +675,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:plagued_chestplate": {
@@ -620,7 +685,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:plagued_leggings": {
@@ -629,7 +695,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:plagued_boots": {
@@ -638,7 +705,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:pumpkin_helmet": {
@@ -647,7 +715,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:pumpkin_chestplate": {
@@ -656,7 +725,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:pumpkin_leggings": {
@@ -665,7 +735,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:pumpkin_boots": {
@@ -674,14 +745,16 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:tarnished_crown": {
    "kind": "item",
    "name": "Tarnished Crown",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:netherite_mage_helmet": {
@@ -691,7 +764,8 @@
     "kind:armor",
     "function:defend",
     "needs:nether",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:netherite_mage_chestplate": {
@@ -701,7 +775,8 @@
     "kind:armor",
     "function:defend",
     "needs:nether",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:netherite_mage_leggings": {
@@ -711,7 +786,8 @@
     "kind:armor",
     "function:defend",
     "needs:nether",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:netherite_mage_boots": {
@@ -721,7 +797,8 @@
     "kind:armor",
     "function:defend",
     "needs:nether",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:wizard_helmet": {
@@ -730,18 +807,23 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:wizard_helmet.hood": {
    "kind": "item",
    "name": "Wizard Hood",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:wizard_helmet.hat": {
    "kind": "item",
    "name": "Wizard Hat",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:wizard_chestplate": {
    "kind": "item",
@@ -749,7 +831,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:wizard_leggings": {
@@ -758,7 +841,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:wizard_boots": {
@@ -767,7 +851,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:blank_rune": {
@@ -775,7 +860,8 @@
    "name": "Blank Runestone",
    "tags": [
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:fire_rune": {
@@ -783,7 +869,8 @@
    "name": "Fire Rune",
    "tags": [
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:ice_rune": {
@@ -791,7 +878,8 @@
    "name": "Ice Rune",
    "tags": [
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:lightning_rune": {
@@ -799,7 +887,8 @@
    "name": "Lightning Rune",
    "tags": [
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:holy_rune": {
@@ -807,7 +896,8 @@
    "name": "Holy Rune",
    "tags": [
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:blood_rune": {
@@ -815,7 +905,8 @@
    "name": "Blood Rune",
    "tags": [
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:evocation_rune": {
@@ -823,7 +914,8 @@
    "name": "Evocation Rune",
    "tags": [
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:ender_rune": {
@@ -831,7 +923,8 @@
    "name": "Ender Rune",
    "tags": [
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:arcane_rune": {
@@ -839,7 +932,8 @@
    "name": "Arcane Rune",
    "tags": [
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:cooldown_rune": {
@@ -847,7 +941,8 @@
    "name": "Recovery Rune",
    "tags": [
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:protection_rune": {
@@ -855,7 +950,8 @@
    "name": "Protective Rune",
    "tags": [
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:nature_rune": {
@@ -863,14 +959,16 @@
    "name": "Nature Rune",
    "tags": [
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:crypt_skull": {
    "kind": "item",
    "name": "Skull of No-One Important",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:blood_staff": {
@@ -879,7 +977,8 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:improved_blood_staff": {
@@ -888,7 +987,8 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:wayward_compass": {
@@ -896,34 +996,40 @@
    "name": "Wayward Compass",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:wayward_compass.error": {
    "kind": "item",
    "name": "No catacombs loaded. [%s] to search",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:antiquated_compass": {
    "kind": "item",
    "name": "Antiquated Compass",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:magehunter": {
    "kind": "item",
    "name": "Magehunter",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:spellbreaker": {
    "kind": "item",
    "name": "Spellbreaker",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:amethyst_rapier": {
@@ -932,14 +1038,16 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:truthseeker": {
    "kind": "item",
    "name": "Truthseeker",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:claymore": {
@@ -948,21 +1056,24 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:misery": {
    "kind": "item",
    "name": "Misery",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:keeper_flamberge": {
    "kind": "item",
    "name": "Decrepit Flamberge",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:upgrade_orb": {
@@ -970,7 +1081,8 @@
    "name": "Empty Upgrade Orb",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:fire_upgrade_orb": {
@@ -978,7 +1090,8 @@
    "name": "Fire Upgrade Orb",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:ice_upgrade_orb": {
@@ -986,7 +1099,8 @@
    "name": "Ice Upgrade Orb",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:lightning_upgrade_orb": {
@@ -994,7 +1108,8 @@
    "name": "Lightning Upgrade Orb",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:holy_upgrade_orb": {
@@ -1002,7 +1117,8 @@
    "name": "Holy Upgrade Orb",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:ender_upgrade_orb": {
@@ -1010,7 +1126,8 @@
    "name": "Ender Upgrade Orb",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:blood_upgrade_orb": {
@@ -1018,7 +1135,8 @@
    "name": "Blood Upgrade Orb",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:evocation_upgrade_orb": {
@@ -1026,7 +1144,8 @@
    "name": "Evocation Upgrade Orb",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:nature_upgrade_orb": {
@@ -1034,7 +1153,8 @@
    "name": "Nature Upgrade Orb",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:mana_upgrade_orb": {
@@ -1043,7 +1163,8 @@
    "tags": [
     "power-type:mana",
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:cooldown_upgrade_orb": {
@@ -1051,7 +1172,8 @@
    "name": "Cooldown Upgrade Orb",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:protection_upgrade_orb": {
@@ -1059,7 +1181,8 @@
    "name": "Protection Upgrade Orb",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:enchanted_ward_amulet": {
@@ -1067,7 +1190,8 @@
    "name": "Amulet of Warding",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:mana_ring": {
@@ -1076,7 +1200,8 @@
    "tags": [
     "power-type:mana",
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:silver_ring": {
@@ -1084,7 +1209,8 @@
    "name": "Silver Ring",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:cooldown_ring": {
@@ -1092,7 +1218,8 @@
    "name": "Ring of Recovery",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:cast_time_ring": {
@@ -1100,7 +1227,8 @@
    "name": "Ring of Expediency",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:emerald_stoneplate_ring": {
@@ -1108,7 +1236,8 @@
    "name": "Emerald Stoneplate Ring",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:fireward_ring": {
@@ -1116,7 +1245,8 @@
    "name": "Fireward Ring",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:poisonward_ring": {
@@ -1124,7 +1254,8 @@
    "name": "Poisonward Ring",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:frostward_ring": {
@@ -1132,7 +1263,8 @@
    "name": "Frostward Ring",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:heavy_chain_necklace": {
@@ -1140,21 +1272,24 @@
    "name": "Heavy Chain",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:conjurers_talisman": {
    "kind": "item",
    "name": "Conjurer's Talisman",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:greater_conjurers_talisman": {
    "kind": "item",
    "name": "Greater Conjurer's Talisman",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:affinity_ring": {
@@ -1162,7 +1297,8 @@
    "name": "Ring of %s Affinity",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:concentration_amulet": {
@@ -1170,7 +1306,8 @@
    "name": "Amulet of Concentration",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:invisibility_ring": {
@@ -1178,14 +1315,16 @@
    "name": "Ring of Invisibility",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:casters_tea": {
    "kind": "item",
    "name": "Caster's Tea",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:oakskin_elixir": {
@@ -1193,7 +1332,8 @@
    "name": "Oakskin Elixir",
    "tags": [
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:greater_oakskin_elixir": {
@@ -1201,7 +1341,8 @@
    "name": "Greater Oakskin Elixir",
    "tags": [
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:invisibility_elixir": {
@@ -1209,7 +1350,8 @@
    "name": "Invisibility Elixir",
    "tags": [
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:greater_invisibility_elixir": {
@@ -1217,7 +1359,8 @@
    "name": "Greater Invisibility Elixir",
    "tags": [
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:evasion_elixir": {
@@ -1225,7 +1368,8 @@
    "name": "Evasion Elixir",
    "tags": [
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:greater_evasion_elixir": {
@@ -1233,14 +1377,16 @@
    "name": "Greater Evasion Elixir",
    "tags": [
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:ice_spider_pheromones": {
    "kind": "item",
    "name": "Ice Spider Pheromones",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:lurker_ring": {
@@ -1248,7 +1394,8 @@
    "name": "Ring of the Lurker",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:amethyst_resonance_charm": {
@@ -1256,7 +1403,8 @@
    "name": "Amethyst Resonance Charm",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:expulsion_ring": {
@@ -1264,7 +1412,8 @@
    "name": "Ring of Expulsion",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:visibility_ring": {
@@ -1272,14 +1421,16 @@
    "name": "Ring of Visibility",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:eldritch_manuscript": {
    "kind": "item",
    "name": "Eldritch Manuscript",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:ancient_knowledge_fragment": {
@@ -1287,7 +1438,8 @@
    "name": "Ancient Knowledge Fragment",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:autoloader_crossbow": {
@@ -1296,7 +1448,8 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:scroll_pouch": {
@@ -1304,7 +1457,8 @@
    "name": "Mystery Scroll Pouch",
    "tags": [
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:furled_map": {
@@ -1312,7 +1466,8 @@
    "name": "Furled Map",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:furled_map_ancient": {
@@ -1320,19 +1475,23 @@
    "name": "Ancient Furled Map",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:furled_map.dimension_fail": {
    "kind": "item",
    "name": "This map does not lead to anything in this dimension.",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:evoker_fort_battle_plans": {
    "kind": "item",
    "name": "Evoker Fort Attack Plans",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:failed_arctic_voyage_map": {
@@ -1340,7 +1499,8 @@
    "name": "Arctic Expedition Route",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:ancient_battleground_map": {
@@ -1348,7 +1508,8 @@
    "name": "Legion Outpost",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:citadel_map": {
@@ -1356,7 +1517,8 @@
    "name": "The Citadel",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:ice_spider_den_map": {
@@ -1364,7 +1526,8 @@
    "name": "Infested Ruin",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:pyrium_staff": {
@@ -1373,7 +1536,8 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:graybeard_staff": {
@@ -1382,28 +1546,32 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:artificer_cane": {
    "kind": "item",
    "name": "Artificer's Cane",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:handwritten_invoice": {
    "kind": "item",
    "name": "Handwritten Invoice",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:frosted_helve": {
    "kind": "item",
    "name": "Frosted Helve",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:permafrost_shard": {
@@ -1411,7 +1579,8 @@
    "name": "Permafrost Shard",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:translated_archevoker_log": {
@@ -1419,7 +1588,8 @@
    "name": "Translated Research Journal",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:archevoker_log": {
@@ -1427,73 +1597,100 @@
    "name": "Research Journal",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:archevoker_log.header": {
    "kind": "item",
    "name": "Day ",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:archevoker_log.page_1": {
    "kind": "item",
    "name": "We arrived at the location He sent us to just before last dusk, a march of many days. One last time, we slept on the dirt; this morning we rose with purpose anew, beginning to etch a barrier of logs and home of stone.",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:archevoker_log.page_2": {
    "kind": "item",
    "name": "Construction is near complete. As I write, supplies make their way into our hospice - freshly hewn wood from the area, a shipment of glass from fort greater. Discovery awaits.",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:archevoker_log.page_3": {
    "kind": "item",
    "name": "I had never thought it possible, this magic seems to be messing with my mind. I swear there used to be a cellar below the chapel, yet even my second in command says it were never so... Surely I cannot be the one going mad?",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:archevoker_log.page_4": {
    "kind": "item",
    "name": "Scouts have returned with fantastic news, that of a village, and not too far to return the supplies here with ease after laying siege. However, magical research in this area seems to be inconclusive. We may be abandoning soon.",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:archevoker_log.entry_1.1": {
    "kind": "item",
    "name": "We reached the location to which He bade us journey, a laborious march spanning many days. As the sun surrendered to dusk, we rested our wearied bodies upon the earth for what I trust to be the final time. This morn,",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:archevoker_log.entry_1.2": {
    "kind": "item",
    "name": "we rose with purpose anew, and began to etch a barrier of logs and home of stone.",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:archevoker_log.entry_2.1": {
    "kind": "item",
    "name": "Our construction draws nigh its completion. As I pen these very words, the final shipment of supplies flow into our haven - enough timber, freshly hewn from the surrounding wilds, to finish the enclosure, and panes of glass",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:archevoker_log.entry_2.2": {
    "kind": "item",
    "name": "sent from Fort Greater. Soon shall the research commence, the likes of which may yet shake the pillars of the world.",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:archevoker_log.entry_3.1": {
    "kind": "item",
    "name": "A strange unease takes root within my mind. This magic - though wondrous - doth twist the senses. I could have sworn there was a cellar beneath the chapel's floor, and yet now none recall it. Even my most trusted lieutenant",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:archevoker_log.entry_3.2": {
    "kind": "item",
    "name": "claims such a thing never was. Am I alone in this delusion? Has madness begun to gnaw at me?",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:archevoker_log.entry_4.1": {
    "kind": "item",
    "name": "Our scouts return with tidings of a village, not far from our encampment. This is good news, for supplies dwindle. We shall lay siege and easily procure what is needed, for the distance is not great.",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:archevoker_log.entry_4.2": {
    "kind": "item",
    "name": "However, the magical research in these lands proves troublesome - few are the answers we seek. It may soon come to pass that we abandon this place, move to the next site.",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:ice_staff": {
    "kind": "item",
@@ -1501,7 +1698,8 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:lightning_rod": {
@@ -1509,7 +1707,8 @@
    "name": "Rod o' Lightning",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:hither_thither_wand": {
@@ -1518,7 +1717,8 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:teleportation_amulet": {
@@ -1526,14 +1726,16 @@
    "name": "Amulet of Teleportation",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:fire_ale": {
    "kind": "item",
    "name": "Fire Ale",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:netherward_tincture": {
@@ -1541,7 +1743,8 @@
    "name": "Netherward Tincture",
    "tags": [
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:tincture_of_forgetfulness": {
@@ -1549,20 +1752,24 @@
    "name": "Tincture of Forgetfulness",
    "tags": [
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:energized_core": {
    "kind": "item",
    "name": "Energized Core",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:energized_core.failure": {
    "kind": "item",
    "name": "A calm sky holds no power; the core remains inert",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:keeper_spawn_egg": {
    "kind": "item",
@@ -1570,7 +1777,8 @@
    "tags": [
     "kind:food",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:necromancer_spawn_egg": {
@@ -1579,7 +1787,8 @@
    "tags": [
     "kind:food",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:pyromancer_spawn_egg": {
@@ -1588,7 +1797,8 @@
    "tags": [
     "kind:food",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:cryomancer_spawn_egg": {
@@ -1597,7 +1807,8 @@
    "tags": [
     "kind:food",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:archevoker_spawn_egg": {
@@ -1606,7 +1817,8 @@
    "tags": [
     "kind:food",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:dead_king_corpse_spawn_egg": {
@@ -1615,7 +1827,8 @@
    "tags": [
     "kind:food",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:priest_spawn_egg": {
@@ -1624,7 +1837,8 @@
    "tags": [
     "kind:food",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:apothecarist_spawn_egg": {
@@ -1633,7 +1847,8 @@
    "tags": [
     "kind:food",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:ice_spider_spawn_egg": {
@@ -1642,28 +1857,32 @@
    "tags": [
     "kind:food",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:music_disc_dead_king_lullaby": {
    "kind": "item",
    "name": "Music Disc",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:music_disc_flame_still_burns": {
    "kind": "item",
    "name": "Music Disc",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:music_disc_whispers_of_ice": {
    "kind": "item",
    "name": "Music Disc",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:disc_fragment_flame_still_burns": {
@@ -1671,7 +1890,8 @@
    "name": "Disc Fragment",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:paladin_chestplate": {
@@ -1680,7 +1900,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:infernal_sorcerer_chestplate": {
@@ -1689,7 +1910,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:speed_boots": {
@@ -1698,38 +1920,46 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:mithril_weave": {
    "kind": "item",
    "name": "Mithril Weave",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:cinderous_soulcaller": {
    "kind": "item",
    "name": "Cinderous Soulcaller",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:cinderous_soulcaller.failure.no_soul": {
    "kind": "item",
    "name": "Nothing echoes back...",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:cinderous_soulcaller.failure.in_progress": {
    "kind": "item",
    "name": "An echo has already answered.",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:hellrazor": {
    "kind": "item",
    "name": "Hellrazor",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:decrepit_scythe": {
@@ -1738,42 +1968,48 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:legionnaire_flamberge": {
    "kind": "item",
    "name": "Legionnaire Flamberge",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:divine_soulshard": {
    "kind": "item",
    "name": "Divine Soulshard",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:betrayer_signet": {
    "kind": "item",
    "name": "Signet of the Betrayer",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:bloody_vellum": {
    "kind": "item",
    "name": "Bloody Vellum",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:icy_fang": {
    "kind": "item",
    "name": "Icy Fang",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:prepared_ice_spider_egg": {
@@ -1781,7 +2017,8 @@
    "name": "Prepared Ice Spider Egg",
    "tags": [
     "kind:food",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:cooked_ice_spider_egg": {
@@ -1789,7 +2026,8 @@
    "name": "Cooked Ice Spider Egg",
    "tags": [
     "kind:food",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:boreal_blade": {
@@ -1798,56 +2036,69 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:twilight_gale": {
    "kind": "item",
    "name": "Twilight Gale",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:chronicle": {
    "kind": "item",
    "name": "The Chronicle",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:chronicle.chapter": {
    "kind": "item",
    "name": "Chapter %s:\n",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:chronicle.chapter_1": {
    "kind": "item",
    "name": "The Loyal Souls",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:chronicle.chapter_2": {
    "kind": "item",
    "name": "The Faithful Souls",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:chronicle.chapter_3": {
    "kind": "item",
    "name": "The Lost Souls",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_spellbooks:wicked_bone_ring": {
    "kind": "item",
    "name": "Wicked Bone Ring",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:dead_king_phylactery": {
    "kind": "item",
    "name": "Dead King Phylactery",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:dead_king_phylactery_shard": {
@@ -1855,7 +2106,8 @@
    "name": "Dead King Phylactery Shard",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:inscription_table": {
@@ -1864,7 +2116,8 @@
    "tags": [
     "function:craft",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "irons_spellbooks:scroll_forge": {
@@ -1873,7 +2126,8 @@
    "tags": [
     "function:craft",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:pedestal": {
@@ -1881,7 +2135,8 @@
    "name": "Pedestal",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "irons_spellbooks:arcane_anvil": {
@@ -1890,7 +2145,8 @@
    "tags": [
     "function:craft",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "irons_spellbooks:arcane_debris": {
@@ -1898,7 +2154,8 @@
    "name": "Arcane Debris",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "irons_spellbooks:armor_pile": {
@@ -1907,7 +2164,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:firefly_jar": {
@@ -1916,7 +2174,8 @@
    "tags": [
     "function:store",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "irons_spellbooks:deepslate_mithril_ore": {
@@ -1925,7 +2184,8 @@
    "tags": [
     "needs:ore",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "irons_spellbooks:mithril_ore": {
@@ -1933,7 +2193,8 @@
    "name": "Mithril Ore",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "irons_spellbooks:portal_frame": {
@@ -1942,7 +2203,8 @@
    "tags": [
     "function:travel",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "irons_spellbooks:brazier": {
@@ -1950,7 +2212,8 @@
    "name": "Brazier",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "irons_spellbooks:brazier_soul": {
@@ -1959,7 +2222,8 @@
    "tags": [
     "needs:nether",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "irons_spellbooks:nether_brick_pillar": {
@@ -1968,7 +2232,8 @@
    "tags": [
     "needs:nether",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:cinderous_soul_rune": {
@@ -1978,7 +2243,8 @@
     "function:enchant",
     "needs:nether",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "irons_spellbooks:voidstone": {
@@ -1986,7 +2252,8 @@
    "name": "Voidstone",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "irons_spellbooks:pocket_dimension_portal_frame": {
@@ -1995,7 +2262,8 @@
    "tags": [
     "function:travel",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "irons_spellbooks:ice_spider_egg": {
@@ -2003,7 +2271,8 @@
    "name": "Ice Spider Egg",
    "tags": [
     "kind:food",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:tyros_statue": {
@@ -2011,7 +2280,8 @@
    "name": "Tyros Statue",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:bone_vault": {
@@ -2020,7 +2290,8 @@
    "tags": [
     "function:store",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "irons_spellbooks:cinderous_vault": {
@@ -2029,7 +2300,8 @@
    "tags": [
     "function:store",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "irons_spellbooks:acid_orb": {
@@ -2037,7 +2309,8 @@
    "name": "Acid Orb",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:apothecarist": {
@@ -2045,7 +2318,8 @@
    "name": "Apothecarist",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:arcane_shackle": {
@@ -2053,7 +2327,8 @@
    "name": "Arcane Shackle",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:archevoker": {
@@ -2061,7 +2336,8 @@
    "name": "Archevoker",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:arrow_volley": {
@@ -2071,7 +2347,8 @@
     "kind:mob",
     "kind:consumable",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:ball_lightning": {
@@ -2079,7 +2356,8 @@
    "name": "Ball Lightning",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:black_hole": {
@@ -2087,7 +2365,8 @@
    "name": "Black Hole",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:blizzard_aoe": {
@@ -2095,7 +2374,8 @@
    "name": "Blizzard",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:blood_needle": {
@@ -2103,7 +2383,8 @@
    "name": "Blood Needle",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:blood_slash": {
@@ -2111,7 +2392,8 @@
    "name": "Blood Slash",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:catacombs_zombie": {
@@ -2119,7 +2401,8 @@
    "name": "Catacombs Zombie",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:chain_lightning": {
@@ -2127,7 +2410,8 @@
    "name": "Chain Lightning",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:citadel_keeper": {
@@ -2135,7 +2419,8 @@
    "name": "Ancient Knight",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:comet": {
@@ -2143,7 +2428,8 @@
    "name": "Comet",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:cone_of_cold": {
@@ -2151,7 +2437,8 @@
    "name": "Cone of Cold",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:creeper_head": {
@@ -2159,7 +2446,8 @@
    "name": "Creeper Head",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:cryomancer": {
@@ -2167,7 +2455,8 @@
    "name": "Cryomancer",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:cultist": {
@@ -2175,7 +2464,8 @@
    "name": "Cultist",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:cursed_armor_stand": {
@@ -2185,7 +2475,8 @@
     "kind:mob",
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:dead_king": {
@@ -2193,7 +2484,8 @@
    "name": "The Dead King",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:dead_king_corpse": {
@@ -2201,7 +2493,8 @@
    "name": "Skeleton",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:dead_king_soul": {
@@ -2210,7 +2503,8 @@
    "tags": [
     "kind:mob",
     "needs:nether",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:debug_wizard": {
@@ -2218,7 +2512,8 @@
    "name": "Debug Wizard",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:devour_jaw": {
@@ -2226,7 +2521,8 @@
    "name": "Devour Jaw",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:dragon_breath": {
@@ -2235,7 +2531,8 @@
    "tags": [
     "kind:mob",
     "needs:end",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:dragon_breath_pool": {
@@ -2244,7 +2541,8 @@
    "tags": [
     "kind:mob",
     "needs:end",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:earthquake_aoe": {
@@ -2252,7 +2550,8 @@
    "name": "Earthquake",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:echoing_strike": {
@@ -2260,7 +2559,8 @@
    "name": "Echoing Strike",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:echoing_sword": {
@@ -2270,7 +2570,8 @@
     "kind:mob",
     "kind:weapon",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:echoing_arrow": {
@@ -2280,7 +2581,8 @@
     "kind:mob",
     "kind:consumable",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:eldritch_blast": {
@@ -2288,7 +2590,8 @@
    "name": "Eldritch Blast",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:electrocute": {
@@ -2296,7 +2599,8 @@
    "name": "Electrocute",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:ender_chain": {
@@ -2304,7 +2608,8 @@
    "name": "Ender Chain",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:fang_swirl": {
@@ -2312,7 +2617,8 @@
    "name": "Fang Swirl",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:fire_arrow": {
@@ -2322,7 +2628,8 @@
     "kind:mob",
     "kind:consumable",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:fire_boss": {
@@ -2330,7 +2637,8 @@
    "name": "Echo of Tyros, First Flamebearer",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:fire_breath": {
@@ -2338,7 +2646,8 @@
    "name": "Fire Breath",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:fire_eruption": {
@@ -2346,7 +2655,8 @@
    "name": "Fire Eruption",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:fire_field": {
@@ -2354,7 +2664,8 @@
    "name": "Fiery Field",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:fireball": {
@@ -2362,7 +2673,8 @@
    "name": "Large Fireball",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:firebolt": {
@@ -2370,7 +2682,8 @@
    "name": "Firebolt",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:fiery_dagger": {
@@ -2380,7 +2693,8 @@
     "kind:mob",
     "kind:weapon",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:firefly_swarm": {
@@ -2388,7 +2702,8 @@
    "name": "Firefly Swarm",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:frost_field": {
@@ -2396,7 +2711,8 @@
    "name": "Frost Field",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:frozen_humanoid": {
@@ -2404,7 +2720,8 @@
    "name": "Frozen",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:gust": {
@@ -2412,7 +2729,8 @@
    "name": "Gust",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:healing_aoe": {
@@ -2420,7 +2738,8 @@
    "name": "Healing Aoe",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:ice_block_projectile": {
@@ -2428,7 +2747,8 @@
    "name": "Iceologer Block",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:ice_spider": {
@@ -2436,7 +2756,8 @@
    "name": "Ice Spider",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:ice_spike": {
@@ -2444,7 +2765,8 @@
    "name": "Ice Spike",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:ice_tomb": {
@@ -2452,7 +2774,8 @@
    "name": "Ice Tomb",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:icicle": {
@@ -2460,7 +2783,8 @@
    "name": "Icicle",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:lightning_lance": {
@@ -2468,7 +2792,8 @@
    "name": "Lightning Lance",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:lightning_strike": {
@@ -2476,7 +2801,8 @@
    "name": "Lightning Strike",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:magehunter_vindicator": {
@@ -2484,7 +2810,8 @@
    "name": "Magehunter Vindicator",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:magic_arrow": {
@@ -2494,7 +2821,8 @@
     "kind:mob",
     "kind:consumable",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:magic_missile": {
@@ -2502,7 +2830,8 @@
    "name": "Magic Missile",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:magma_ball": {
@@ -2510,7 +2839,8 @@
    "name": "Magma Bomb",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:necromancer": {
@@ -2518,7 +2848,8 @@
    "name": "Necromancer",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:ominous_fire_orb": {
@@ -2526,7 +2857,8 @@
    "name": "Ominous Fire Orb",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:poison_arrow": {
@@ -2536,7 +2868,8 @@
     "kind:mob",
     "kind:consumable",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:poison_breath": {
@@ -2544,7 +2877,8 @@
    "name": "Poison Breath",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:poison_cloud": {
@@ -2552,7 +2886,8 @@
    "name": "Poison Cloud",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:poison_splash": {
@@ -2560,7 +2895,8 @@
    "name": "Poison Splash",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:portal": {
@@ -2569,7 +2905,8 @@
    "tags": [
     "kind:mob",
     "function:travel",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:priest": {
@@ -2577,7 +2914,8 @@
    "name": "Priest",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:pyromancer": {
@@ -2585,7 +2923,8 @@
    "name": "Pyromancer",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:ray_of_frost": {
@@ -2593,7 +2932,8 @@
    "name": "Ray of Frost",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:root": {
@@ -2601,7 +2941,8 @@
    "name": "Root",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:sculk_tentacle": {
@@ -2609,7 +2950,8 @@
    "name": "Sculk Tentacle",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:shield": {
@@ -2619,7 +2961,8 @@
     "kind:mob",
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:small_fireball": {
@@ -2627,7 +2970,8 @@
    "name": "Small Fireball",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:small_magic_arrow": {
@@ -2637,7 +2981,8 @@
     "kind:mob",
     "kind:consumable",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:snowball": {
@@ -2645,7 +2990,8 @@
    "name": "Snowball",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:spear": {
@@ -2655,7 +3001,8 @@
     "kind:mob",
     "kind:weapon",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:spectral_hammer": {
@@ -2664,7 +3011,8 @@
    "tags": [
     "kind:mob",
     "kind:tool",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:spectral_steed": {
@@ -2672,7 +3020,8 @@
    "name": "Spectral Steed",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:stomp_aoe": {
@@ -2680,7 +3029,8 @@
    "name": "Stomp",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:summoned_claymore": {
@@ -2690,7 +3040,8 @@
     "kind:mob",
     "kind:weapon",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:summoned_polar_bear": {
@@ -2698,7 +3049,8 @@
    "name": "Summoned Polar Bear",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:summoned_rapier": {
@@ -2708,7 +3060,8 @@
     "kind:mob",
     "kind:weapon",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:summoned_skeleton": {
@@ -2716,7 +3069,8 @@
    "name": "Summoned Skeleton",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:summoned_sword": {
@@ -2726,7 +3080,8 @@
     "kind:mob",
     "kind:weapon",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:summoned_vex": {
@@ -2734,7 +3089,8 @@
    "name": "Summoned Vex",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:summoned_zombie": {
@@ -2742,7 +3098,8 @@
    "name": "Summoned Zombie",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:sunbeam": {
@@ -2750,7 +3107,8 @@
    "name": "Sunbeam",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:target_area": {
@@ -2758,7 +3116,8 @@
    "name": "Target Area",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:thrown_item": {
@@ -2766,7 +3125,8 @@
    "name": "Thrown Item",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:thunderstep_orb": {
@@ -2774,7 +3134,8 @@
    "name": "Thunderstep",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:undead_rift": {
@@ -2782,7 +3143,8 @@
    "name": "Undead Rift",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:visual_falling_block": {
@@ -2790,7 +3152,8 @@
    "name": "Falling Block",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:wall_of_fire": {
@@ -2798,7 +3161,8 @@
    "name": "Wall of Fire",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:wisp": {
@@ -2806,7 +3170,8 @@
    "name": "Wisp",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "irons_spellbooks:wither_skull": {
@@ -2815,9 +3180,12 @@
    "tags": [
     "kind:mob",
     "needs:nether",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "v1.21.1-3.16.3"
 }

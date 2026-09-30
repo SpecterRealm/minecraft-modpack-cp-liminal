@@ -55,7 +55,8 @@
    "kind": "block",
    "name": "Simulation Chamber",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "hostilenetworks:loot_fabricator": {
@@ -63,75 +64,99 @@
    "name": "Loot Fabricator",
    "tags": [
     "kind:machine",
-    "function:process"
+    "function:process",
+    "review:auto"
    ]
   },
   "hostilenetworks:data_center": {
    "kind": "block",
    "name": "Data Center",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "hostilenetworks:data_center_io_port": {
    "kind": "block",
    "name": "Data Center IO Port",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "hostilenetworks:deep_learner": {
    "kind": "item",
    "name": "Deep Learner",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "hostilenetworks:data_model": {
    "kind": "item",
    "name": "%s Data Model",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "hostilenetworks:blank_data_model": {
    "kind": "item",
    "name": "Model Framework",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "hostilenetworks:prediction": {
    "kind": "item",
    "name": "%s Prediction",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "hostilenetworks:prediction_matrix": {
    "kind": "item",
    "name": "Prediction Matrix",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "hostilenetworks:overworld_prediction": {
    "kind": "item",
    "name": "Generalized Overworld Prediction",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "hostilenetworks:nether_prediction": {
    "kind": "item",
    "name": "Generalized Nether Prediction",
    "tags": [
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "hostilenetworks:end_prediction": {
    "kind": "item",
    "name": "Generalized Ender Prediction",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "hostilenetworks:twilight_prediction": {
    "kind": "item",
    "name": "Generalized Twilight Prediction",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "hostilenetworks:fab_directive": {
    "kind": "item",
    "name": "Fabrication Directive",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21"
 }

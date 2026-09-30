@@ -63,14 +63,19 @@
    "kind": "item",
    "name": "Bucket of Experience",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "sophisticatedcore:ender_linker": {
    "kind": "item",
    "name": "Ender Linker",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21.x"
 }

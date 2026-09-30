@@ -58,9 +58,10 @@
    "kind": "block",
    "name": "Agronomic Sourcelink",
    "tags": [
-    "power-type:mana",
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:alteration_table": {
@@ -69,7 +70,8 @@
    "tags": [
     "function:craft",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:arcane_core": {
@@ -77,7 +79,8 @@
    "name": "Arcane Core",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:arcane_pedestal": {
@@ -85,7 +88,8 @@
    "name": "Arcane Pedestal",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:arcane_platform": {
@@ -93,7 +97,8 @@
    "name": "Arcane Platform",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:archwood_button": {
@@ -101,7 +106,8 @@
    "name": "Archwood Button",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:archwood_chest": {
@@ -110,7 +116,8 @@
    "tags": [
     "function:store",
     "kind:storage",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:archwood_door": {
@@ -118,7 +125,8 @@
    "name": "Archwood Door",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:archwood_fence": {
@@ -126,7 +134,8 @@
    "name": "Archwood Fence",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:archwood_fence_gate": {
@@ -134,7 +143,8 @@
    "name": "Archwood Fence Gate",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:archwood_grate": {
@@ -142,7 +152,8 @@
    "name": "Archwood Grate",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:archwood_planks": {
@@ -150,7 +161,8 @@
    "name": "Archwood Planks",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:archwood_pressure_plate": {
@@ -158,7 +170,8 @@
    "name": "Archwood Pressure Plate",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:archwood_sconce": {
@@ -166,7 +179,8 @@
    "name": "Archwood Sconce",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:archwood_slab": {
@@ -174,7 +188,8 @@
    "name": "Archwood Slab",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:archwood_stairs": {
@@ -182,7 +197,8 @@
    "name": "Archwood Stairs",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:archwood_trapdoor": {
@@ -190,7 +206,8 @@
    "name": "Archwood Trapdoor",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:basic_spell_turret": {
@@ -200,7 +217,8 @@
     "function:enchant",
     "power-type:mana",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:bastion_pod": {
@@ -208,7 +226,8 @@
    "name": "Bastion Fruit",
    "tags": [
     "kind:food",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:blue_archwood_leaves": {
@@ -216,7 +235,8 @@
    "name": "Cascading Archwood Leaves",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:blue_archwood_log": {
@@ -224,7 +244,8 @@
    "name": "Cascading Archwood Log",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:blue_archwood_sapling": {
@@ -233,7 +254,8 @@
    "tags": [
     "function:farm",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:blue_archwood_wood": {
@@ -241,7 +263,8 @@
    "name": "Cascading Archwood Wood",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:blue_sbed": {
@@ -249,14 +272,16 @@
    "name": "Blue Magebloom Bed",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:bombegranate_pod": {
    "kind": "item",
    "name": "Bombegranate",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:brazier_relay": {
@@ -267,7 +292,8 @@
     "power-role:transfers",
     "power-type:fe",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:creative_source_jar": {
@@ -275,9 +301,10 @@
    "name": "Creative Source Jar",
    "tags": [
     "function:store",
-    "power-type:mana",
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:drygmy_stone": {
@@ -285,7 +312,8 @@
    "name": "Drygmy Henge",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:enchanting_apparatus": {
@@ -294,7 +322,8 @@
    "tags": [
     "function:enchant",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:falseweave": {
@@ -302,14 +331,16 @@
    "name": "Falseweave",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:frostaya_pod": {
    "kind": "item",
    "name": "Frostaya",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ghostweave": {
@@ -317,127 +348,158 @@
    "name": "Ghostweave",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:gilded_sourcestone_alternating": {
    "kind": "block",
    "name": "Gilded Sourcestone: Alternating",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:gilded_sourcestone_alternating_slab": {
    "kind": "block",
    "name": "Gilded Sourcestone: Alternating Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:gilded_sourcestone_alternating_stairs": {
    "kind": "block",
    "name": "Gilded Sourcestone: Alternating Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:gilded_sourcestone_basketweave": {
    "kind": "block",
    "name": "Gilded Sourcestone: Basketweave",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:gilded_sourcestone_basketweave_slab": {
    "kind": "block",
    "name": "Gilded Sourcestone: Basketweave Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:gilded_sourcestone_basketweave_stairs": {
    "kind": "block",
    "name": "Gilded Sourcestone: Basketweave Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:gilded_sourcestone_large_bricks": {
    "kind": "block",
    "name": "Gilded Sourcestone: Large Bricks",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:gilded_sourcestone_large_bricks_slab": {
    "kind": "block",
    "name": "Gilded Sourcestone: Large Bricks Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:gilded_sourcestone_large_bricks_stairs": {
    "kind": "block",
    "name": "Gilded Sourcestone: Large Bricks Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:gilded_sourcestone_mosaic": {
    "kind": "block",
    "name": "Gilded Sourcestone: Mosaic",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:gilded_sourcestone_mosaic_slab": {
    "kind": "block",
    "name": "Gilded Sourcestone: Mosaic Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:gilded_sourcestone_mosaic_stairs": {
    "kind": "block",
    "name": "Gilded Sourcestone: Mosaic Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:gilded_sourcestone_small_bricks": {
    "kind": "block",
    "name": "Gilded Sourcestone: Small Bricks",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:gilded_sourcestone_small_bricks_slab": {
    "kind": "block",
    "name": "Gilded Sourcestone: Small Bricks Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:gilded_sourcestone_small_bricks_stairs": {
    "kind": "block",
    "name": "Gilded Sourcestone: Small Bricks Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:gold_grate": {
@@ -445,7 +507,8 @@
    "name": "Gold Grate",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:green_archwood_leaves": {
@@ -453,7 +516,8 @@
    "name": "Flourishing Archwood Leaves",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:green_archwood_log": {
@@ -461,7 +525,8 @@
    "name": "Flourishing Archwood Log",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:green_archwood_sapling": {
@@ -470,7 +535,8 @@
    "tags": [
     "function:farm",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:green_archwood_wood": {
@@ -478,7 +544,8 @@
    "name": "Flourishing Archwood Wood",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:green_sbed": {
@@ -486,7 +553,8 @@
    "name": "Green Magebloom Bed",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:imbuement_chamber": {
@@ -494,7 +562,8 @@
    "name": "Imbuement Chamber",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:intangible_air": {
@@ -502,7 +571,8 @@
    "name": "Intangible Air",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:item_detector": {
@@ -510,7 +580,8 @@
    "name": "Display Case",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:lava_lily": {
@@ -518,7 +589,8 @@
    "name": "Lava Lily",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:light_block": {
@@ -527,7 +599,8 @@
    "tags": [
     "function:light",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:mage_block": {
@@ -535,7 +608,8 @@
    "name": "Mage Block",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:magebloom_block": {
@@ -543,7 +617,8 @@
    "name": "Magebloom Block",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:magebloom_crop": {
@@ -552,7 +627,8 @@
    "tags": [
     "function:farm",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:magelight_torch": {
@@ -561,7 +637,8 @@
    "tags": [
     "function:light",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:magic_fire": {
@@ -569,14 +646,16 @@
    "name": "Mage Fire",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:mendosteen_pod": {
    "kind": "item",
    "name": "Mendosteen",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:mirrorweave": {
@@ -584,7 +663,8 @@
    "name": "Mirrorweave",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:mob_jar": {
@@ -593,16 +673,18 @@
    "tags": [
     "function:store",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:mycelial_sourcelink": {
    "kind": "block",
    "name": "Mycelial Sourcelink",
    "tags": [
-    "power-type:mana",
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:orange_sbed": {
@@ -610,15 +692,18 @@
    "name": "Orange Magebloom Bed",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:polished_sconce": {
    "kind": "block",
    "name": "Polished Sourcestone Sconce",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:portal": {
@@ -627,7 +712,8 @@
    "tags": [
     "function:travel",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:purple_archwood_leaves": {
@@ -635,7 +721,8 @@
    "name": "Vexing Archwood Leaves",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:purple_archwood_log": {
@@ -643,7 +730,8 @@
    "name": "Vexing Archwood Log",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:purple_archwood_sapling": {
@@ -652,7 +740,8 @@
    "tags": [
     "function:farm",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:purple_archwood_wood": {
@@ -660,7 +749,8 @@
    "name": "Vexing Archwood Wood",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:purple_sbed": {
@@ -668,7 +758,8 @@
    "name": "Purple Magebloom Bed",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:red_archwood_leaves": {
@@ -676,7 +767,8 @@
    "name": "Blazing Archwood Leaves",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:red_archwood_log": {
@@ -684,7 +776,8 @@
    "name": "Blazing Archwood Log",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:red_archwood_sapling": {
@@ -693,7 +786,8 @@
    "tags": [
     "function:farm",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:red_archwood_wood": {
@@ -701,7 +795,8 @@
    "name": "Blazing Archwood Wood",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:red_sbed": {
@@ -709,7 +804,8 @@
    "name": "Red Magebloom Bed",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:redstone_air": {
@@ -717,7 +813,8 @@
    "name": "Redstone Air",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:redstone_relay": {
@@ -728,7 +825,8 @@
     "power-role:transfers",
     "power-type:fe",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:relay": {
@@ -738,9 +836,10 @@
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "power-type:mana",
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:relay_collector": {
@@ -750,9 +849,10 @@
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "power-type:mana",
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:relay_deposit": {
@@ -762,9 +862,10 @@
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "power-type:mana",
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:relay_splitter": {
@@ -774,9 +875,10 @@
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "power-type:mana",
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:relay_warp": {
@@ -787,9 +889,10 @@
     "power-role:transfers",
     "power-type:fe",
     "function:travel",
-    "power-type:mana",
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:repository": {
@@ -797,7 +900,8 @@
    "name": "Repository",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_brazier": {
@@ -805,7 +909,8 @@
    "name": "Ritual Brazier",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:rotating_spell_turret": {
@@ -815,7 +920,8 @@
     "function:enchant",
     "power-type:mana",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:rune": {
@@ -824,7 +930,8 @@
    "tags": [
     "function:enchant",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:sconce": {
@@ -832,7 +939,8 @@
    "name": "Gold Sconce",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:scribes_table": {
@@ -841,7 +949,8 @@
    "tags": [
     "function:craft",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:scryers_crystal": {
@@ -849,7 +958,8 @@
    "name": "Scry Crystal",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:scryers_oculus": {
@@ -857,7 +967,8 @@
    "name": "Scryer's Oculus",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:sky_block": {
@@ -865,288 +976,358 @@
    "name": "Skyweave",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_alternating": {
    "kind": "block",
    "name": "Smooth Gilded Sourcestone: Alternating",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_alternating_slab": {
    "kind": "block",
    "name": "Smooth Gilded Sourcestone: Alternating Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_alternating_stairs": {
    "kind": "block",
    "name": "Smooth Gilded Sourcestone: Alternating Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_basketweave": {
    "kind": "block",
    "name": "Smooth Gilded Sourcestone: Basketweave",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_basketweave_slab": {
    "kind": "block",
    "name": "Smooth Gilded Sourcestone: Basketweave Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_basketweave_stairs": {
    "kind": "block",
    "name": "Smooth Gilded Sourcestone: Basketweave Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_large_bricks": {
    "kind": "block",
    "name": "Smooth Gilded Sourcestone: Large Bricks",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_large_bricks_slab": {
    "kind": "block",
    "name": "Smooth Gilded Sourcestone: Large Bricks Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_large_bricks_stairs": {
    "kind": "block",
    "name": "Smooth Gilded Sourcestone: Large Bricks Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_mosaic": {
    "kind": "block",
    "name": "Smooth Gilded Sourcestone: Mosaic",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_mosaic_slab": {
    "kind": "block",
    "name": "Smooth Gilded Sourcestone: Mosaic Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_mosaic_stairs": {
    "kind": "block",
    "name": "Smooth Gilded Sourcestone: Mosaic Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_small_bricks": {
    "kind": "block",
    "name": "Smooth Gilded Sourcestone: Small Bricks",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_small_bricks_slab": {
    "kind": "block",
    "name": "Smooth Gilded Sourcestone: Small Bricks Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_small_bricks_stairs": {
    "kind": "block",
    "name": "Smooth Gilded Sourcestone: Small Bricks Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_sourcestone": {
    "kind": "block",
    "name": "Smooth Sourcestone",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_sourcestone_alternating": {
    "kind": "block",
    "name": "Smooth Sourcestone: Alternating",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_sourcestone_alternating_slab": {
    "kind": "block",
    "name": "Smooth Sourcestone: Alternating Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_sourcestone_alternating_stairs": {
    "kind": "block",
    "name": "Smooth Sourcestone: Alternating Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_sourcestone_basketweave": {
    "kind": "block",
    "name": "Smooth Sourcestone: Basketweave",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_sourcestone_basketweave_slab": {
    "kind": "block",
    "name": "Smooth Sourcestone: Basketweave Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_sourcestone_basketweave_stairs": {
    "kind": "block",
    "name": "Smooth Sourcestone: Basketweave Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_sourcestone_grate": {
    "kind": "block",
    "name": "Smooth Sourcestone Grate",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_sourcestone_large_bricks": {
    "kind": "block",
    "name": "Smooth Sourcestone: Large Bricks",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_sourcestone_large_bricks_slab": {
    "kind": "block",
    "name": "Smooth Sourcestone: Large Bricks Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_sourcestone_large_bricks_stairs": {
    "kind": "block",
    "name": "Smooth Sourcestone: Large Bricks Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_sourcestone_mosaic": {
    "kind": "block",
    "name": "Smooth Sourcestone: Mosaic",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_sourcestone_mosaic_slab": {
    "kind": "block",
    "name": "Smooth Sourcestone: Mosaic Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_sourcestone_mosaic_stairs": {
    "kind": "block",
    "name": "Smooth Sourcestone: Mosaic Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_sourcestone_slab": {
    "kind": "block",
    "name": "Smooth Sourcestone Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_sourcestone_small_bricks": {
    "kind": "block",
    "name": "Smooth Sourcestone: Small Bricks",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_sourcestone_small_bricks_slab": {
    "kind": "block",
    "name": "Smooth Sourcestone: Small Bricks Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_sourcestone_small_bricks_stairs": {
    "kind": "block",
    "name": "Smooth Sourcestone: Small Bricks Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:smooth_sourcestone_stairs": {
    "kind": "block",
    "name": "Smooth Sourcestone Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:source_gem_block": {
    "kind": "block",
    "name": "Source Gem Block",
    "tags": [
-    "power-type:mana",
+    "power-type:source",
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:source_jar": {
@@ -1154,9 +1335,10 @@
    "name": "Source Jar",
    "tags": [
     "function:store",
-    "power-type:mana",
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:source_lamp": {
@@ -1164,185 +1346,230 @@
    "name": "Source Gem Lamp",
    "tags": [
     "function:light",
-    "power-type:mana",
+    "power-type:source",
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:sourceberry_bush": {
    "kind": "block",
    "name": "Sourceberry",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:sourceberry_sack": {
    "kind": "block",
    "name": "Sourceberry Sack",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:sourcestone": {
    "kind": "block",
    "name": "Sourcestone",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:sourcestone_alternating": {
    "kind": "block",
    "name": "Sourcestone: Alternating",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:sourcestone_alternating_slab": {
    "kind": "block",
    "name": "Sourcestone: Alternating Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:sourcestone_alternating_stairs": {
    "kind": "block",
    "name": "Sourcestone: Alternating Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:sourcestone_basketweave": {
    "kind": "block",
    "name": "Sourcestone: Basketweave",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:sourcestone_basketweave_slab": {
    "kind": "block",
    "name": "Sourcestone: Basketweave Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:sourcestone_basketweave_stairs": {
    "kind": "block",
    "name": "Sourcestone: Basketweave Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:sourcestone_grate": {
    "kind": "block",
    "name": "Sourcestone Grate",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:sourcestone_large_bricks": {
    "kind": "block",
    "name": "Sourcestone: Large Bricks",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:sourcestone_large_bricks_slab": {
    "kind": "block",
    "name": "Sourcestone: Large Bricks Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:sourcestone_large_bricks_stairs": {
    "kind": "block",
    "name": "Sourcestone: Large Bricks Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:sourcestone_mosaic": {
    "kind": "block",
    "name": "Sourcestone: Mosaic",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:sourcestone_mosaic_slab": {
    "kind": "block",
    "name": "Sourcestone: Mosaic Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:sourcestone_mosaic_stairs": {
    "kind": "block",
    "name": "Sourcestone: Mosaic Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:sourcestone_sconce": {
    "kind": "block",
    "name": "Sourcestone Sconce",
    "tags": [
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:sourcestone_slab": {
    "kind": "block",
    "name": "Sourcestone Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:sourcestone_small_bricks": {
    "kind": "block",
    "name": "Sourcestone: Small Bricks",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:sourcestone_small_bricks_slab": {
    "kind": "block",
    "name": "Sourcestone: Small Bricks Slab",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:sourcestone_small_bricks_stairs": {
    "kind": "block",
    "name": "Sourcestone: Small Bricks Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:sourcestone_stairs": {
    "kind": "block",
    "name": "Sourcestone Stairs",
    "tags": [
+    "power-type:source",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:spell_prism": {
@@ -1352,7 +1579,8 @@
     "function:enchant",
     "power-type:mana",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:spell_sensor": {
@@ -1362,7 +1590,8 @@
     "function:enchant",
     "power-type:mana",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:spell_turret": {
@@ -1372,7 +1601,8 @@
     "function:enchant",
     "power-type:mana",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:storage_lectern": {
@@ -1381,7 +1611,8 @@
    "tags": [
     "function:store",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:stripped_blue_archwood_log": {
@@ -1389,7 +1620,8 @@
    "name": "Stripped Cascading Archwood Log",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:stripped_blue_archwood_wood": {
@@ -1397,7 +1629,8 @@
    "name": "Stripped Cascading Archwood Wood",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:stripped_green_archwood_log": {
@@ -1405,7 +1638,8 @@
    "name": "Stripped Flourishing Archwood Log",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:stripped_green_archwood_wood": {
@@ -1413,7 +1647,8 @@
    "name": "Stripped Flourishing Archwood Wood",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:stripped_purple_archwood_log": {
@@ -1421,7 +1656,8 @@
    "name": "Stripped Vexing Archwood Log",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:stripped_purple_archwood_wood": {
@@ -1429,7 +1665,8 @@
    "name": "Stripped Vexing Archwood Wood",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:stripped_red_archwood_log": {
@@ -1437,7 +1674,8 @@
    "name": "Stripped Blazing Archwood Log",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:stripped_red_archwood_wood": {
@@ -1445,7 +1683,8 @@
    "name": "Stripped Blazing Archwood Wood",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:temporary_light_block": {
@@ -1454,7 +1693,8 @@
    "tags": [
     "function:light",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:timer_spell_turret": {
@@ -1464,16 +1704,18 @@
     "function:enchant",
     "power-type:mana",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:vitalic_sourcelink": {
    "kind": "block",
    "name": "Vitalic Sourcelink",
    "tags": [
-    "power-type:mana",
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:void_prism": {
@@ -1481,16 +1723,18 @@
    "name": "Void Prism",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:volcanic_sourcelink": {
    "kind": "block",
    "name": "Volcanic Sourcelink",
    "tags": [
-    "power-type:mana",
+    "power-type:source",
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:warding_stone": {
@@ -1498,7 +1742,8 @@
    "name": "Warding Stone",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:whirlisprig_flower": {
@@ -1507,7 +1752,8 @@
    "tags": [
     "function:farm",
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:wixie_cauldron": {
@@ -1515,7 +1761,8 @@
    "name": "Wixie Cauldron",
    "tags": [
     "needs:spell-tech",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ars_nouveau:yellow_sbed": {
@@ -1523,7 +1770,8 @@
    "name": "Yellow Magebloom Bed",
    "tags": [
     "kind:decoration",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ally_vex": {
@@ -1531,7 +1779,8 @@
    "name": "Summoned Vex",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:amethyst_golem": {
@@ -1539,7 +1788,8 @@
    "name": "Amethyst Golem",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:an_lightning": {
@@ -1547,7 +1797,8 @@
    "name": "Lightning",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:animated_block": {
@@ -1555,7 +1806,8 @@
    "name": "Animated Block",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:animated_head": {
@@ -1563,7 +1815,8 @@
    "name": "Animated Head",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:arcing_spell_proj": {
@@ -1573,7 +1826,8 @@
     "kind:mob",
     "function:enchant",
     "power-type:mana",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:blazing_weald_walker": {
@@ -1581,7 +1835,8 @@
    "name": "Blazing Weald Walker",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:cascading_weald_walker": {
@@ -1589,7 +1844,8 @@
    "name": "Cascading Weald Walker",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:drygmy": {
@@ -1597,7 +1853,8 @@
    "name": "Drygmy",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:dummy": {
@@ -1605,7 +1862,8 @@
    "name": "Dummy",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:enchanted_falling_block": {
@@ -1613,7 +1871,8 @@
    "name": "Enchanted Falling Block",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:enchanted_head_block": {
@@ -1621,7 +1880,8 @@
    "name": "Enchanted Falling Block",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:enchanted_mage_block": {
@@ -1629,21 +1889,24 @@
    "name": "Enchanted Falling Block",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:familiar_amethyst_golem": {
    "kind": "item",
    "name": "Amethyst Golem",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:familiar_drygmy": {
    "kind": "item",
    "name": "Drygmy",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:familiar_jabberwog": {
@@ -1651,28 +1914,32 @@
    "name": "Familiar Jabberwog",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:familiar_starbuncle": {
    "kind": "item",
    "name": "Starbuncle",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:familiar_whirlisprig": {
    "kind": "item",
    "name": "Whirlisprig",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:familiar_wixie": {
    "kind": "item",
    "name": "Wixie",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:fangs": {
@@ -1680,7 +1947,8 @@
    "name": "Fangs",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:flourishing_weald_walker": {
@@ -1688,7 +1956,8 @@
    "name": "Flourishing Weald Walker",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:flying_item": {
@@ -1696,7 +1965,8 @@
    "name": "Flying Item",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:follow_proj": {
@@ -1704,7 +1974,8 @@
    "name": "Projectile",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:gift_starby": {
@@ -1712,7 +1983,8 @@
    "name": "Starbuncle",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:homing_spell_proj": {
@@ -1722,7 +1994,8 @@
     "kind:mob",
     "function:enchant",
     "power-type:mana",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:lily": {
@@ -1730,7 +2003,8 @@
    "name": "Lily",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:linger": {
@@ -1738,7 +2012,8 @@
    "name": "Linger",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:orbit": {
@@ -1746,7 +2021,8 @@
    "name": "Orbit",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual": {
@@ -1754,7 +2030,8 @@
    "name": "Ritual",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:scryer_camera": {
@@ -1762,7 +2039,8 @@
    "name": "Scryer Camera",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:spell_arrow": {
@@ -1774,7 +2052,8 @@
     "function:defend",
     "function:enchant",
     "power-type:mana",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:spell_proj": {
@@ -1784,7 +2063,8 @@
     "kind:mob",
     "function:enchant",
     "power-type:mana",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:spike": {
@@ -1792,7 +2072,8 @@
    "name": "Chimera Spike",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:starbuncle": {
@@ -1800,7 +2081,8 @@
    "name": "Starbuncle",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:summon_horse": {
@@ -1809,7 +2091,8 @@
    "tags": [
     "kind:mob",
     "function:travel",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:summon_skeleton": {
@@ -1817,7 +2100,8 @@
    "name": "Summoned Skeleton",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:summon_wolf": {
@@ -1825,7 +2109,8 @@
    "name": "Summoned Wolf",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:vexing_weald_walker": {
@@ -1833,7 +2118,8 @@
    "name": "Vexing Weald Walker",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:whirlisprig": {
@@ -1841,7 +2127,8 @@
    "name": "Whirlisprig",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:wilden_boss": {
@@ -1849,7 +2136,8 @@
    "name": "Wilden Chimera",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:wilden_guardian": {
@@ -1857,7 +2145,8 @@
    "name": "Wilden Defender",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:wilden_hunter": {
@@ -1865,7 +2154,8 @@
    "name": "Wilden Hunter",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:wilden_stalker": {
@@ -1873,7 +2163,8 @@
    "name": "Wilden Stalker",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:wixie": {
@@ -1881,25 +2172,31 @@
    "name": "Wixie",
    "tags": [
     "kind:mob",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "minecraft:villager.ars_nouveau.shady_wizard": {
    "kind": "entity",
    "name": "Shady Wizard",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "minecraft:villager.shady_wizard": {
    "kind": "entity",
    "name": "Shady Wizard",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ars_nouveau:abjuration_essence": {
    "kind": "item",
    "name": "Abjuration Essence",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:air_essence": {
@@ -1907,7 +2204,8 @@
    "name": "Air Essence",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:allow_scroll": {
@@ -1915,7 +2213,8 @@
    "name": "Item Scroll: Allow",
    "tags": [
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:amethyst_golem_charm": {
@@ -1923,7 +2222,8 @@
    "name": "Amethyst Golem Charm",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:amplify_arrow": {
@@ -1932,7 +2232,8 @@
    "tags": [
     "kind:consumable",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:amulet_of_mana_boost": {
@@ -1941,7 +2242,8 @@
    "tags": [
     "power-type:mana",
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:amulet_of_mana_regen": {
@@ -1950,14 +2252,16 @@
    "tags": [
     "power-type:mana",
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:annotated_codex": {
    "kind": "item",
    "name": "Annotated Codex",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:arcanist_boots": {
@@ -1966,7 +2270,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:arcanist_hood": {
@@ -1975,7 +2280,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:arcanist_leggings": {
@@ -1984,7 +2290,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:arcanist_robes": {
@@ -1993,7 +2300,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:battlemage_boots": {
@@ -2002,7 +2310,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:battlemage_hood": {
@@ -2011,7 +2320,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:battlemage_leggings": {
@@ -2020,7 +2330,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:battlemage_robes": {
@@ -2029,7 +2340,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:belt_of_levitation": {
@@ -2038,7 +2350,8 @@
    "tags": [
     "function:transfer",
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:belt_of_unstable_gifts": {
@@ -2047,7 +2360,8 @@
    "tags": [
     "function:transfer",
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:blank_glyph": {
@@ -2056,21 +2370,24 @@
    "tags": [
     "function:enchant",
     "power-type:mana",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:blank_parchment": {
    "kind": "item",
    "name": "Blank Parchment",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:blank_thread": {
    "kind": "item",
    "name": "Blank Thread",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:blaze_fiber": {
@@ -2078,14 +2395,16 @@
    "name": "Blaze Fiber",
    "tags": [
     "needs:nether",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:caster_tome": {
    "kind": "item",
    "name": "Caster Tome",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:conjuration_essence": {
@@ -2093,14 +2412,16 @@
    "name": "Conjuration Essence",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:debug": {
    "kind": "item",
    "name": "Ars Nouveau Debugger",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:deny_scroll": {
@@ -2108,7 +2429,8 @@
    "name": "Item Scroll: Deny",
    "tags": [
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:dominion_wand": {
@@ -2117,20 +2439,24 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:dominion_wand.strict": {
    "kind": "item",
    "name": "Dominion Wand (Strict Mode)",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ars_nouveau:dowsing_rod": {
    "kind": "item",
    "name": "Dowsing Rod",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:drygmy_charm": {
@@ -2138,7 +2464,8 @@
    "name": "Drygmy Charm",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:drygmy_se": {
@@ -2147,7 +2474,8 @@
    "tags": [
     "kind:food",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:drygmy_shard": {
@@ -2155,14 +2483,16 @@
    "name": "Drygmy Token",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:dull_trinket": {
    "kind": "item",
    "name": "Dull Trinket",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:earth_essence": {
@@ -2170,21 +2500,24 @@
    "name": "Earth Essence",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:enchanters_eye": {
    "kind": "item",
    "name": "Enchanter's Eye",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:enchanters_mirror": {
    "kind": "item",
    "name": "Enchanter's Mirror",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:enchanters_shield": {
@@ -2193,7 +2526,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:enchanters_sword": {
@@ -2202,14 +2536,16 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:end_fiber": {
    "kind": "item",
    "name": "End Fiber",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:experience_gem": {
@@ -2217,7 +2553,8 @@
    "name": "Experience Gem",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:fire_essence": {
@@ -2225,7 +2562,8 @@
    "name": "Fire Essence",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:greater_discount_ring": {
@@ -2233,7 +2571,8 @@
    "name": "Ring of Greater Discount",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:greater_experience_gem": {
@@ -2241,7 +2580,8 @@
    "name": "Greater Experience Gem",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:jar_of_light": {
@@ -2250,7 +2590,8 @@
    "tags": [
     "function:store",
     "function:light",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:jump_ring": {
@@ -2258,7 +2599,8 @@
    "name": "Ring of Jumping",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:lesser_discount_ring": {
@@ -2266,7 +2608,8 @@
    "name": "Ring of Lesser Discount",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:lingering_flask_cannon": {
@@ -2274,28 +2617,32 @@
    "name": "Lingering Flask Cannon",
    "tags": [
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:magebloom": {
    "kind": "item",
    "name": "Magebloom",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:magebloom_fiber": {
    "kind": "item",
    "name": "Magebloom Fiber",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:magic_clay": {
    "kind": "item",
    "name": "Magic Clay",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:manipulation_essence": {
@@ -2303,14 +2650,16 @@
    "name": "Manipulation Essence",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:marvelous_clay": {
    "kind": "item",
    "name": "Marvelous Clay",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:mimic_scroll": {
@@ -2318,7 +2667,8 @@
    "name": "Mimic Scroll",
    "tags": [
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:mundane_belt": {
@@ -2327,28 +2677,32 @@
    "tags": [
     "function:transfer",
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:music_disc_aria_biblio": {
    "kind": "item",
    "name": "Music Disc",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:music_disc_firel_the_wild_hunt": {
    "kind": "item",
    "name": "Music Disc",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:mythical_clay": {
    "kind": "item",
    "name": "Mythical Clay",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:pierce_arrow": {
@@ -2357,7 +2711,8 @@
    "tags": [
     "kind:consumable",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ring_of_amplify": {
@@ -2365,7 +2720,8 @@
    "name": "Ring of Amplify",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ring_of_greater_discount": {
@@ -2373,7 +2729,8 @@
    "name": "Ring of Greater Discount",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ring_of_lesser_discount": {
@@ -2381,7 +2738,8 @@
    "name": "Ring of Lesser Discount",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ring_of_potential": {
@@ -2389,21 +2747,24 @@
    "name": "Ring of Potential",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_animal_summon": {
    "kind": "item",
    "name": "Summon Animals",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_awakening": {
    "kind": "item",
    "name": "Awakening",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_binding": {
@@ -2411,161 +2772,184 @@
    "name": "Binding",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_burrowing": {
    "kind": "item",
    "name": "Burrowing",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_challenge": {
    "kind": "item",
    "name": "Challenge",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_cloudshaping": {
    "kind": "item",
    "name": "Cloudshaping",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_conjure_island_desert": {
    "kind": "item",
    "name": "Conjure Island: Desert",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_conjure_island_plains": {
    "kind": "item",
    "name": "Conjure Island: Plains",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_containment": {
    "kind": "item",
    "name": "Containment",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_disintegration": {
    "kind": "item",
    "name": "Disintegration",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_fertility": {
    "kind": "item",
    "name": "Fertility",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_flight": {
    "kind": "item",
    "name": "Flight",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_flowering": {
    "kind": "item",
    "name": "Flowering",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_forestation": {
    "kind": "item",
    "name": "Forestation",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_gravity": {
    "kind": "item",
    "name": "Gravity",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_harvest": {
    "kind": "item",
    "name": "Harvest",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_moonfall": {
    "kind": "item",
    "name": "Moonfall",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_overgrowth": {
    "kind": "item",
    "name": "Overgrowth",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_restoration": {
    "kind": "item",
    "name": "Restoration",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_sanctuary": {
    "kind": "item",
    "name": "Sanctuary",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_scrying": {
    "kind": "item",
    "name": "Scrying",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_sunrise": {
    "kind": "item",
    "name": "Sunrise",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_warping": {
    "kind": "item",
    "name": "Warping",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:ritual_wilden_summon": {
    "kind": "item",
    "name": "Summon Wilden",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:runic_chalk": {
    "kind": "item",
    "name": "Runic Chalk",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:scryer_scroll": {
@@ -2573,7 +2957,8 @@
    "name": "Scryer's Scroll",
    "tags": [
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:shapers_focus": {
@@ -2582,7 +2967,8 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:sorcerer_boots": {
@@ -2591,7 +2977,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:sorcerer_hood": {
@@ -2600,7 +2987,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:sorcerer_leggings": {
@@ -2609,7 +2997,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:sorcerer_robes": {
@@ -2618,7 +3007,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:source_berry_pie": {
@@ -2626,8 +3016,9 @@
    "name": "Source Berry Pie",
    "tags": [
     "kind:food",
-    "power-type:mana",
-    "needs:spell-tech"
+    "power-type:source",
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:source_berry_roll": {
@@ -2635,17 +3026,19 @@
    "name": "Source Berry Roll",
    "tags": [
     "kind:food",
-    "power-type:mana",
-    "needs:spell-tech"
+    "power-type:source",
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:source_gem": {
    "kind": "item",
    "name": "Source Gem",
    "tags": [
-    "power-type:mana",
+    "power-type:source",
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:spell_bow": {
@@ -2656,7 +3049,8 @@
     "function:defend",
     "function:enchant",
     "power-type:mana",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:spell_crossbow": {
@@ -2667,7 +3061,8 @@
     "function:defend",
     "function:enchant",
     "power-type:mana",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:spell_parchment": {
@@ -2676,7 +3071,8 @@
    "tags": [
     "function:enchant",
     "power-type:mana",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:splash_flask_cannon": {
@@ -2684,7 +3080,8 @@
    "name": "Splash Flask Cannon",
    "tags": [
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:split_arrow": {
@@ -2693,7 +3090,8 @@
    "tags": [
     "kind:consumable",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:stable_warp_scroll": {
@@ -2702,7 +3100,8 @@
    "tags": [
     "function:travel",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:starbuncle_charm": {
@@ -2710,7 +3109,8 @@
    "name": "Starbuncle Charm",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:starbuncle_se": {
@@ -2719,28 +3119,32 @@
    "tags": [
     "kind:food",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:starbuncle_shades": {
    "kind": "item",
    "name": "Starbuncle Shades",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:starbuncle_shards": {
    "kind": "item",
    "name": "Starbuncle Token",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:starby_gift": {
    "kind": "item",
    "name": "Starbuncle Gift",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:summon_focus": {
@@ -2749,98 +3153,112 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:thread_amethyst_golem": {
    "kind": "item",
    "name": "The Amethyst Golem",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:thread_chilling": {
    "kind": "item",
    "name": "Chilling",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:thread_depths": {
    "kind": "item",
    "name": "Depths",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:thread_drygmy": {
    "kind": "item",
    "name": "The Drygmy",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:thread_feather": {
    "kind": "item",
    "name": "Feather",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:thread_gliding": {
    "kind": "item",
    "name": "Gliding",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:thread_heights": {
    "kind": "item",
    "name": "Heights",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:thread_high_step": {
    "kind": "item",
    "name": "High Step",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:thread_immolation": {
    "kind": "item",
    "name": "Immolation",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:thread_kindling": {
    "kind": "item",
    "name": "Kindling",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:thread_life_drain": {
    "kind": "item",
    "name": "Life Drain",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:thread_magic_capacity": {
    "kind": "item",
    "name": "Magic Capacity",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:thread_repairing": {
    "kind": "item",
    "name": "Repairing",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:thread_spellpower": {
@@ -2849,42 +3267,48 @@
    "tags": [
     "function:enchant",
     "power-type:mana",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:thread_starbuncle": {
    "kind": "item",
    "name": "The Starbuncle",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:thread_undying": {
    "kind": "item",
    "name": "Undying",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:thread_warding": {
    "kind": "item",
    "name": "Warding",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:thread_whirlisprig": {
    "kind": "item",
    "name": "The Whirlisprig",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:thread_wixie": {
    "kind": "item",
    "name": "The Wixie",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:void_jar": {
@@ -2892,7 +3316,8 @@
    "name": "Jar of Voiding",
    "tags": [
     "function:store",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:wand": {
@@ -2901,7 +3326,8 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:warp_scroll": {
@@ -2910,7 +3336,8 @@
    "tags": [
     "function:travel",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:water_essence": {
@@ -2918,7 +3345,8 @@
    "name": "Water Essence",
    "tags": [
     "kind:material",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:whirlisprig_charm": {
@@ -2926,7 +3354,8 @@
    "name": "Whirlisprig Charm",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:whirlisprig_se": {
@@ -2935,14 +3364,16 @@
    "tags": [
     "kind:food",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:whirlisprig_shards": {
    "kind": "item",
    "name": "Whirlisprig Token",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:wilden_guardian_se": {
@@ -2951,14 +3382,16 @@
    "tags": [
     "kind:food",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:wilden_horn": {
    "kind": "item",
    "name": "Wilden Horn",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:wilden_hunter_se": {
@@ -2967,14 +3400,16 @@
    "tags": [
     "kind:food",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:wilden_spike": {
    "kind": "item",
    "name": "Wilden Spike",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:wilden_stalker_se": {
@@ -2983,21 +3418,24 @@
    "tags": [
     "kind:food",
     "kind:consumable",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:wilden_tribute": {
    "kind": "item",
    "name": "Wilden Tribute",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:wilden_wing": {
    "kind": "item",
    "name": "Wilden Wing",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:wixie_charm": {
@@ -3005,7 +3443,8 @@
    "name": "Wixie Charm",
    "tags": [
     "kind:gadget",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:wixie_hat": {
@@ -3014,16 +3453,20 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   },
   "ars_nouveau:wixie_shards": {
    "kind": "item",
    "name": "Wixie Token",
    "tags": [
-    "needs:spell-tech"
+    "needs:spell-tech",
+    "review:auto"
    ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21.x"
 }

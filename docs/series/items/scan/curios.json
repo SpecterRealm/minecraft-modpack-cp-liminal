@@ -29,26 +29,34 @@
    "kind": "item",
    "name": "Curious Amulet",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "curiostest:ring": {
    "kind": "item",
    "name": "Curious Ring",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "curiostest:crown": {
    "kind": "item",
    "name": "Curious Crown",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "curiostest:knuckles": {
    "kind": "item",
    "name": "Curious Knuckles",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21.1"
 }

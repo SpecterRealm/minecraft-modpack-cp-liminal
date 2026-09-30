@@ -29,23 +29,28 @@
    "kind": "item",
    "name": "ME Requester Terminal",
    "tags": [
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   },
   "merequester:wireless_requester_terminal": {
    "kind": "item",
    "name": "Wireless Requester Terminal",
    "tags": [
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   },
   "merequester:requester": {
    "kind": "block",
    "name": "ME Requester",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "v1.21.1-neoforge-1.4.2"
 }

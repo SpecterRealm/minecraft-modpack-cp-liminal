@@ -58,49 +58,56 @@
    "kind": "item",
    "name": "Extended Terminal",
    "tags": [
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   },
   "extendedterminal:wireless_et_terminal": {
    "kind": "item",
    "name": "Wireless Extended Terminal",
    "tags": [
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   },
   "extendedterminal:basic_terminal": {
    "kind": "item",
    "name": "Basic Extended Crafting Terminal",
    "tags": [
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   },
   "extendedterminal:advanced_terminal": {
    "kind": "item",
    "name": "Advanced Extended Crafting Terminal",
    "tags": [
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   },
   "extendedterminal:elite_terminal": {
    "kind": "item",
    "name": "Elite Extended Crafting Terminal",
    "tags": [
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   },
   "extendedterminal:ultimate_terminal": {
    "kind": "item",
    "name": "Ultimate Extended Crafting Terminal",
    "tags": [
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   },
   "extendedterminal:sculk_terminal": {
    "kind": "item",
    "name": "Sculk Crafting Terminal",
    "tags": [
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   },
   "extendedterminal:nether_terminal": {
@@ -108,28 +115,32 @@
    "name": "Nether Crafting Terminal",
    "tags": [
     "function:automate",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "extendedterminal:end_terminal": {
    "kind": "item",
    "name": "End Crafting Terminal",
    "tags": [
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   },
   "extendedterminal:extreme_terminal": {
    "kind": "item",
    "name": "Extreme Crafting Terminal",
    "tags": [
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   },
   "extendedterminal:neo_extreme_terminal": {
    "kind": "item",
    "name": "Extreme Crafting Terminal",
    "tags": [
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   },
   "extendedterminal:compat_processor": {
@@ -137,7 +148,8 @@
    "name": "Compat Processor",
    "tags": [
     "kind:machine",
-    "function:process"
+    "function:process",
+    "review:auto"
    ]
   },
   "extendedterminal:printed_compat_processor": {
@@ -145,7 +157,8 @@
    "name": "Printed Compat Circuit",
    "tags": [
     "kind:machine",
-    "function:process"
+    "function:process",
+    "review:auto"
    ]
   },
   "extendedterminal:compat_press": {
@@ -153,14 +166,19 @@
    "name": "Inscriber Compat Press",
    "tags": [
     "kind:machine",
-    "function:process"
+    "function:process",
+    "review:auto"
    ]
   },
   "extendedterminal:charged_ender_pearl": {
    "kind": "item",
    "name": "Charged Ender Pearl",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21.1"
 }

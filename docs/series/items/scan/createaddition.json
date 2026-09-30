@@ -48,35 +48,40 @@
    "tags": [
     "function:generate",
     "power-role:makes",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "createaddition:barbed_wire": {
    "kind": "block",
    "name": "Barbed Wire",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "createaddition:bioethanol": {
    "kind": "block",
    "name": "Bioethanol",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "createaddition:biomass_pellet_block": {
    "kind": "block",
    "name": "Biomass Pallet",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "createaddition:chocolate_cake": {
    "kind": "block",
    "name": "Chocolate Cake",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "createaddition:connector": {
@@ -86,7 +91,8 @@
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "createaddition:creative_energy": {
@@ -95,14 +101,16 @@
    "tags": [
     "function:generate",
     "power-role:makes",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "createaddition:digital_adapter": {
    "kind": "block",
    "name": "Digital Adapter",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "createaddition:electric_motor": {
@@ -110,28 +118,32 @@
    "name": "Electric Motor",
    "tags": [
     "power-type:stress",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "createaddition:electric_pump": {
    "kind": "block",
    "name": "Electric Pump",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "createaddition:electrum_block": {
    "kind": "block",
    "name": "Electrum Block",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "createaddition:honey_cake": {
    "kind": "block",
    "name": "Honey Cake",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "createaddition:large_connector": {
@@ -141,7 +153,8 @@
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "createaddition:liquid_blaze_burner": {
@@ -149,7 +162,8 @@
    "name": "Blaze Burner with Straw",
    "tags": [
     "needs:nether",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "createaddition:modular_accumulator": {
@@ -159,7 +173,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "createaddition:portable_energy_interface": {
@@ -167,7 +182,8 @@
    "name": "Portable Energy Interface",
    "tags": [
     "function:automate",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "createaddition:redstone_relay": {
@@ -177,14 +193,16 @@
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "createaddition:rolling_mill": {
    "kind": "block",
    "name": "Rolling Mill",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "createaddition:seed_oil": {
@@ -192,7 +210,8 @@
    "name": "Seed Oil",
    "tags": [
     "function:farm",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "createaddition:servo_motor": {
@@ -200,7 +219,8 @@
    "name": "Servo Motor",
    "tags": [
     "power-type:stress",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "createaddition:small_light_connector": {
@@ -211,54 +231,63 @@
     "power-role:transfers",
     "power-type:fe",
     "function:light",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "createaddition:tesla_coil": {
    "kind": "block",
    "name": "Tesla Coil",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "createaddition:bioethanol_bucket": {
    "kind": "item",
    "name": "Bucket of Biofuel",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "createaddition:biomass": {
    "kind": "item",
    "name": "Biomass",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "createaddition:biomass_pellet": {
    "kind": "item",
    "name": "Biomass Pellet",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "createaddition:brass_rod": {
    "kind": "item",
    "name": "Brass Rod",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "createaddition:cake_base": {
    "kind": "item",
    "name": "Cake Base",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "createaddition:cake_base_baked": {
    "kind": "item",
    "name": "Baked Cake Base",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "createaddition:capacitor": {
@@ -267,172 +296,213 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "createaddition:copper_rod": {
    "kind": "item",
    "name": "Copper Rod",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "createaddition:copper_spool": {
    "kind": "item",
    "name": "Copper Spool",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "createaddition:copper_wire": {
    "kind": "item",
    "name": "Copper Wire",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "createaddition:diamond_grit": {
    "kind": "item",
    "name": "Diamond Grit",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "createaddition:diamond_grit_sandpaper": {
    "kind": "item",
    "name": "Diamond Grit Sand Paper",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "createaddition:electrum_amulet": {
    "kind": "item",
    "name": "Pale Gold Amulet",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "createaddition:electrum_ingot": {
    "kind": "item",
    "name": "Electrum Ingot",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "createaddition:electrum_nugget": {
    "kind": "item",
    "name": "Electrum Nugget",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "createaddition:electrum_rod": {
    "kind": "item",
    "name": "Electrum Rod",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "createaddition:electrum_sheet": {
    "kind": "item",
    "name": "Electrum Sheet",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "createaddition:electrum_spool": {
    "kind": "item",
    "name": "Electrum Spool",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "createaddition:electrum_wire": {
    "kind": "item",
    "name": "Electrum Wire",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "createaddition:festive_spool": {
    "kind": "item",
    "name": "Copper Spool with Festive Lights",
    "tags": [
-    "function:light"
+    "function:light",
+    "review:auto"
    ]
   },
   "createaddition:gold_rod": {
    "kind": "item",
    "name": "Gold Rod",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "createaddition:gold_spool": {
    "kind": "item",
    "name": "Gold Spool",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "createaddition:gold_wire": {
    "kind": "item",
    "name": "Gold Wire",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "createaddition:iron_rod": {
    "kind": "item",
    "name": "Iron Rod",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "createaddition:iron_wire": {
    "kind": "item",
    "name": "Iron Wire",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "createaddition:seed_oil_bucket": {
    "kind": "item",
    "name": "Bucket of Seed Oil",
    "tags": [
     "kind:tool",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "createaddition:spool": {
    "kind": "item",
    "name": "Empty Spool",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "createaddition:straw": {
    "kind": "item",
    "name": "Straw",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "createaddition:zinc_sheet": {
    "kind": "item",
    "name": "Zinc Sheet",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "createaddition:bronze_rod": {
    "kind": "item",
    "name": "Bronze Rod",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "createaddition:brass_figurine": {
    "kind": "item",
    "name": "Brass Figurine",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "createaddition:copper_goblet": {
    "kind": "item",
    "name": "Copper Goblet",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "createaddition:gold_goblet": {
    "kind": "item",
    "name": "Ornate Goblet",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "createaddition:spool.nbt": {
    "kind": "item",
    "name": "Stores connection location.",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "createaddition:accumulator": {
    "kind": "block",
@@ -441,9 +511,12 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21.1"
 }
