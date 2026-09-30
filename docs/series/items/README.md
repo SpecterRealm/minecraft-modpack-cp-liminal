@@ -15,6 +15,8 @@ This is not a wish list. Each entry records what the item does, its numbers, wha
 | `../../../scripts/series-mod-scan.py` | `run` clones each mod (shallow, at its ref), writes `scan/<mod>.json` (item list + pack-mod support); `report` writes `compat.md` |
 | `scan/<mod>.json` | Generated item list (from lang files) and built-in support found in source. Raw input for the catalog; not hand-edited |
 | `compat.md` | Generated: per-mod item count and supported mods, plus which mods other mods build support for |
+| `tags.md` | Tag vocabulary (facets), multiblock scaling notes, the three passes |
+| `../../../scripts/series-item-tags.py` | `check [--missing]`, `find facet:value ...` |
 | `review-process.md` | The per-mod review procedure |
 | `../../../scripts/series-item-catalog.py` | `list`, `report --category <c>`, `levers --mod <m>` |
 
@@ -33,6 +35,7 @@ Mark anything not verified in-game as such (`unverified` field). Numbers come fr
 
 ## Entry fields
 
+- `tags`: list of `facet:value` from [`tags.md`](tags.md); multiblocks also carry a `scaling` block
 - Top-level `compat`: list of `{mod, kind, what, weight}` for built-in support for other pack mods
 - `id`, `name`, `category`, `subcategory`, `tiers`
 - `stats`: named arrays aligned to `tiers` (`output_fe_t`, `capacity_fe`, `transfer_fe_t`, more as needed)

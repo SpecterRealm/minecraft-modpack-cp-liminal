@@ -85,7 +85,17 @@
     "config",
     "recipe"
    ],
-   "notes": "Natural early generator: no steel/ore chain needed beyond Mekanism basics. Direct rival to Powah Magmator/Furnator at the low end."
+   "notes": "Natural early generator: no steel/ore chain needed beyond Mekanism basics. Direct rival to Powah Magmator/Furnator at the low end.",
+   "tags": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "fuel:liquid",
+    "fuel:solid",
+    "needs:none",
+    "scale:fixed"
+   ]
   },
   {
    "id": "mekanismgenerators:solar_generator",
@@ -101,6 +111,15 @@
    "tunable": [
     "config",
     "recipe"
+   ],
+   "tags": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "fuel:sun",
+    "needs:sun",
+    "scale:fixed"
    ]
   },
   {
@@ -118,7 +137,16 @@
     "config",
     "recipe"
    ],
-   "notes": "Overlaps Powah Solar Panel tiers."
+   "notes": "Overlaps Powah Solar Panel tiers.",
+   "tags": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "fuel:sun",
+    "needs:sun",
+    "scale:fixed"
+   ]
   },
   {
    "id": "mekanismgenerators:wind_generator",
@@ -136,6 +164,15 @@
    "tunable": [
     "config",
     "recipe"
+   ],
+   "tags": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "fuel:wind",
+    "needs:none",
+    "scale:fixed"
    ]
   },
   {
@@ -154,7 +191,16 @@
     "config",
     "recipe"
    ],
-   "notes": "Fits the grow-what-you-cannot-mine theme; check it against the crop mods."
+   "notes": "Fits the grow-what-you-cannot-mine theme; check it against the crop mods.",
+   "tags": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "fuel:biomass",
+    "needs:none",
+    "scale:fixed"
+   ]
   },
   {
    "id": "mekanismgenerators:gas_burning_generator",
@@ -170,6 +216,16 @@
    "tunable": [
     "config",
     "recipe"
+   ],
+   "tags": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "power-type:chemical",
+    "fuel:gas",
+    "needs:none",
+    "scale:fixed"
    ]
   },
   {
@@ -188,7 +244,23 @@
    "tunable": [
     "config",
     "recipe"
-   ]
+   ],
+   "tags": [
+    "kind:multiblock",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "fuel:kinetic",
+    "needs:ore",
+    "scale:count-scaled"
+   ],
+   "scaling": {
+    "model": "count-scaled",
+    "driver": "blades, coils, vents, dispersers",
+    "formula": "production limited by min(blades, coils x bladesPerCoil); steam flow = lowerVolume x dispersers x disperserChemicalFlow; steam out limited by vents",
+    "source": "TurbineMultiblockData.java:142,146,258",
+    "note": "Taller turbines add blade rings and volume"
+   }
   },
   {
    "id": "mekanismgenerators:fission_reactor_casing",
@@ -205,7 +277,25 @@
     "config",
     "recipe"
    ],
-   "notes": "Meltdowns are on by default; direct overlap with Extreme Reactors."
+   "notes": "Meltdowns are on by default; direct overlap with Extreme Reactors.",
+   "tags": [
+    "kind:multiblock",
+    "function:generate",
+    "power-role:makes",
+    "power-role:uses",
+    "power-type:fe",
+    "power-type:heat",
+    "fuel:nuclear",
+    "needs:ore",
+    "scale:count-scaled"
+   ],
+   "scaling": {
+    "model": "count-scaled",
+    "driver": "fuel assemblies",
+    "formula": "max burn rate = assemblies x burnPerAssembly; fuel capacity = assemblies x maxFuelPerAssembly; heat and coolant limited by assembly surface area",
+    "source": "FissionReactorMultiblockData.java:475,571,582",
+    "note": "Bigger structure holds more assemblies, so more output but more coolant and meltdown risk"
+   }
   },
   {
    "id": "mekanismgenerators:fusion_reactor_controller",
@@ -220,7 +310,18 @@
     "config",
     "recipe"
    ],
-   "notes": "Endgame; needs power to ignite."
+   "notes": "Endgame; needs power to ignite.",
+   "tags": [
+    "kind:multiblock",
+    "function:generate",
+    "power-role:makes",
+    "power-role:uses",
+    "power-type:fe",
+    "power-type:heat",
+    "fuel:nuclear",
+    "needs:ore",
+    "scale:fixed"
+   ]
   }
  ]
 }

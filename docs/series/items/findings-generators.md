@@ -33,3 +33,15 @@ Cataloged: Powah, Mekanism Generators, Create Crafts & Additions, Extreme Reacto
 ## Next
 
 Catalog the remaining transfer and storage mods (Flux Networks, Draconic Evolution), then decide which generator groups stay tiered versus get one item hidden.
+
+## Multiblock scaling (from source)
+
+| Multiblock | Model | What scales it |
+|---|---|---|
+| Powah Reactor | tiered | Fixed layout of a core plus parts around it; no size variable. A bigger output means a higher tier, not a bigger build. |
+| Mekanism Fission | count-scaled | Burn rate and fuel capacity are per fuel assembly; heat and coolant depend on assembly surface area. |
+| Mekanism Turbine | count-scaled | Output limited by min(blades, coils x 4); steam flow by dispersers and volume; steam out by vents. |
+| Extreme Reactors Reactor / Turbine | count-scaled | Fuel rods and control rods (reactor), blades and coils (turbine); global multipliers in config. Formula details unverified. |
+| Create Additions Accumulator | size-scaled | Capacity and transfer grow per block, up to 3 x 3 x 5 by default. |
+
+Powah is the only reactor where "bigger" is a tier; the others reward building larger, which is closer to the Ender IO-style multiblock feel.
