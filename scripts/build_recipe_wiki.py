@@ -1,1 +1,3 @@
-file:///agent/repos/minecraft-modpack-cp-liminal/scripts/build_recipe_wiki.py
+#!/usr/bin/env python3
+"""probe 2k"""
+print('recipe wiki probe')
