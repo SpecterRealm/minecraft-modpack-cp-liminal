@@ -23,6 +23,20 @@
    }
   },
   {
+   "id": "ironsspellbooks",
+   "slug": "irons-spells-n-spellbooks",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "irons_spellbooks",
+   "slug": "irons-spells-n-spellbooks",
+   "evidence": {
+    "data-ref": 4
+   }
+  },
+  {
    "id": "jei",
    "slug": "jei",
    "evidence": {
@@ -35,10 +49,10 @@
    "kind": "item",
    "name": "Ring",
    "tags": [
+    "needs:none",
     "kind:gadget",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -46,10 +60,10 @@
    "kind": "item",
    "name": "Necklace",
    "tags": [
+    "needs:none",
     "kind:gadget",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -57,9 +71,9 @@
    "kind": "item",
    "name": "Invalid Jewelry",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -68,9 +82,9 @@
    "name": "Artisan Scroll",
    "tags": [
     "kind:consumable",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -78,9 +92,9 @@
    "kind": "item",
    "name": "Ruby",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -88,9 +102,9 @@
    "kind": "item",
    "name": "Sapphire",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -98,9 +112,9 @@
    "kind": "item",
    "name": "Topaz",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -108,9 +122,9 @@
    "kind": "item",
    "name": "Moonstone",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -118,9 +132,9 @@
    "kind": "item",
    "name": "Peridot",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -128,9 +142,9 @@
    "kind": "item",
    "name": "Onyx",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -138,9 +152,9 @@
    "kind": "item",
    "name": "Garnet",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -148,11 +162,11 @@
    "kind": "block",
    "name": "Jewelcrafting Station",
    "tags": [
+    "needs:none",
     "kind:machine",
     "function:craft",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },

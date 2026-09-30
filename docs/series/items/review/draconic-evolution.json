@@ -211,6 +211,12 @@
    "kind": "item"
   },
   {
+   "match": "^generator$",
+   "set": [
+    "fuel:solid"
+   ]
+  },
+  {
    "match": ".",
    "default": [
     "power-role:none",

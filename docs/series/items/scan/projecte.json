@@ -5,7 +5,7 @@
  "mod_ids": [
   "projecte"
  ],
- "item_count": 97,
+ "item_count": 128,
  "compat": [
   {
    "id": "curios",
@@ -60,12 +60,12 @@
    "kind": "block",
    "name": "Energy Collector MK1",
    "tags": [
+    "scale:tiered",
     "kind:machine",
     "function:generate",
     "power-role:makes",
     "power-type:emc",
     "fuel:sun",
-    "scale:tiered",
     "needs:none",
     "review:checked"
    ]
@@ -74,12 +74,12 @@
    "kind": "block",
    "name": "Energy Collector MK2",
    "tags": [
+    "scale:tiered",
     "kind:machine",
     "function:generate",
     "power-role:makes",
     "power-type:emc",
     "fuel:sun",
-    "scale:tiered",
     "needs:none",
     "review:checked"
    ]
@@ -88,12 +88,12 @@
    "kind": "block",
    "name": "Energy Collector MK3",
    "tags": [
+    "scale:tiered",
     "kind:machine",
     "function:generate",
     "power-role:makes",
     "power-type:emc",
     "fuel:sun",
-    "scale:tiered",
     "needs:none",
     "review:checked"
    ]
@@ -102,13 +102,13 @@
    "kind": "block",
    "name": "Energy Condenser",
    "tags": [
+    "scale:tiered",
     "kind:machine",
     "function:process",
     "function:store",
     "power-role:uses",
     "power-role:stores",
     "power-type:emc",
-    "scale:tiered",
     "needs:none",
     "review:checked"
    ]
@@ -117,13 +117,13 @@
    "kind": "block",
    "name": "Energy Condenser MK2",
    "tags": [
+    "scale:tiered",
     "kind:machine",
     "function:process",
     "function:store",
     "power-role:uses",
     "power-role:stores",
     "power-type:emc",
-    "scale:tiered",
     "needs:none",
     "review:checked"
    ]
@@ -222,11 +222,11 @@
    "kind": "block",
    "name": "Anti-Matter Relay MK1",
    "tags": [
+    "scale:tiered",
     "kind:machine",
     "function:transfer",
     "power-role:transfers",
     "power-type:emc",
-    "scale:tiered",
     "needs:none",
     "review:checked"
    ]
@@ -235,11 +235,11 @@
    "kind": "block",
    "name": "Anti-Matter Relay MK2",
    "tags": [
+    "scale:tiered",
     "kind:machine",
     "function:transfer",
     "power-role:transfers",
     "power-type:emc",
-    "scale:tiered",
     "needs:none",
     "review:checked"
    ]
@@ -248,11 +248,11 @@
    "kind": "block",
    "name": "Anti-Matter Relay MK3",
    "tags": [
+    "scale:tiered",
     "kind:machine",
     "function:transfer",
     "power-role:transfers",
     "power-type:emc",
-    "scale:tiered",
     "needs:none",
     "review:checked"
    ]
@@ -273,12 +273,12 @@
    "kind": "block",
    "name": "Transmutation Table",
    "tags": [
+    "role:core",
     "kind:machine",
     "function:craft",
     "power-role:uses",
     "power-type:emc",
     "needs:none",
-    "role:core",
     "review:checked"
    ]
   },
@@ -868,12 +868,12 @@
    "kind": "item",
    "name": "Philosopher's Stone",
    "tags": [
+    "role:core",
     "needs:none",
     "kind:tool",
     "function:craft",
     "power-role:uses",
     "power-type:emc",
-    "role:core",
     "review:checked"
    ]
   },
@@ -1086,12 +1086,12 @@
    "kind": "item",
    "name": "Transmutation Tablet",
    "tags": [
+    "role:core",
     "needs:none",
     "kind:tool",
     "function:craft",
     "power-role:uses",
     "power-type:emc",
-    "role:core",
     "review:checked"
    ]
   },
@@ -1133,6 +1133,316 @@
    "name": "Zero Ring",
    "tags": [
     "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:c.mineable.hammer": {
+   "kind": "block",
+   "name": "Hammer Mineable",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:c.mineable.katar": {
+   "kind": "block",
+   "name": "Katar Mineable",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:c.mineable.morning_star": {
+   "kind": "block",
+   "name": "Morning Star Mineable",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:projecte.blacklist.harvest": {
+   "kind": "block",
+   "name": "Harvest Band Blacklist",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:projecte.blacklist.time_watch": {
+   "kind": "block",
+   "name": "Time Watch Blacklist",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:projecte.farming_override": {
+   "kind": "block",
+   "name": "Farming Override",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:projecte.incorrect_for_dark_matter_tool": {
+   "kind": "block",
+   "name": "Alchemical",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:projecte.incorrect_for_red_matter_tool": {
+   "kind": "block",
+   "name": "Alchemical",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:projecte.mineable.hammer": {
+   "kind": "block",
+   "name": "ProjectE Hammer Mineable",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:projecte.mineable.katar": {
+   "kind": "block",
+   "name": "ProjectE Katar Mineable",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:projecte.mineable.morning_star": {
+   "kind": "block",
+   "name": "ProjectE Morning Star Mineable",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:projecte.mineable.shears": {
+   "kind": "block",
+   "name": "ProjectE Shears Mineable",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:projecte.mineable.sword": {
+   "kind": "block",
+   "name": "ProjectE Sword Mineable",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:projecte.needs_dark_matter_tool": {
+   "kind": "block",
+   "name": "Needs Dark Matter Tools",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:projecte.needs_red_matter_tool": {
+   "kind": "block",
+   "name": "Needs Red Matter Tools",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:projecte.override.plantable": {
+   "kind": "block",
+   "name": "Harvest Band Plantable Override",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:projecte.vein.shovel": {
+   "kind": "block",
+   "name": "Valid Matter Shovel Vein",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:c.tools.hammers": {
+   "kind": "item",
+   "name": "Hammers",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:c.tools.katars": {
+   "kind": "item",
+   "name": "Katars",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:c.tools.morning_stars": {
+   "kind": "item",
+   "name": "Morning Stars",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:curios.klein_star": {
+   "kind": "item",
+   "name": "Klein Stars",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:curios.transmutation_tablet": {
+   "kind": "item",
+   "name": "Transmutation Tablets",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:projecte.collector_fuel": {
+   "kind": "item",
+   "name": "Collector Fuels",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:projecte.collectors": {
+   "kind": "item",
+   "name": "Energy Collectors",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:projecte.covalence_dust": {
+   "kind": "item",
+   "name": "Covalence Dusts",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:projecte.data_component_whitelist": {
+   "kind": "item",
+   "name": "Data Component Whitelist",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:projecte.ignore_missing_emc": {
+   "kind": "item",
+   "name": "Ignore Missing EMC",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:projecte.klein_stars": {
+   "kind": "item",
+   "name": "Klein Stars",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:projecte.matter_furnaces": {
+   "kind": "item",
+   "name": "Matter Furnaces",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:projecte.plantable_seeds": {
+   "kind": "item",
+   "name": "Plantable Seeds",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:projecte.relays": {
+   "kind": "item",
+   "name": "Anti-Matter Relays",
+   "tags": [
     "needs:none",
     "power-role:none",
     "power-type:none",

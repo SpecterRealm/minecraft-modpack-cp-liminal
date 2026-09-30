@@ -48,6 +48,15 @@
    }
   },
   {
+   "id": "ae2wtlib",
+   "slug": "applied-energistics-2-wireless-terminals",
+   "evidence": {
+    "compat-import": 1,
+    "dependency": 1,
+    "isLoaded": 1
+   }
+  },
+  {
    "id": "brandonscore",
    "slug": "brandons-core",
    "evidence": {
@@ -136,11 +145,11 @@
    "kind": "item",
    "name": "Mechanical Crafting Pattern",
    "tags": [
+    "needs:none",
     "kind:gadget",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -148,11 +157,11 @@
    "kind": "item",
    "name": "Andesite Crafting Pattern",
    "tags": [
+    "needs:none",
     "kind:gadget",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -160,11 +169,11 @@
    "kind": "item",
    "name": "Sequenced Assembly Pattern",
    "tags": [
+    "needs:none",
     "kind:gadget",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -172,11 +181,11 @@
    "kind": "item",
    "name": "Fusion Crafting Pattern",
    "tags": [
+    "needs:none",
     "kind:gadget",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -184,11 +193,11 @@
    "kind": "item",
    "name": "Empowering Pattern",
    "tags": [
+    "needs:none",
     "kind:gadget",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -196,11 +205,11 @@
    "kind": "item",
    "name": "Atomic Reconstruction Pattern",
    "tags": [
+    "needs:none",
     "kind:gadget",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -208,11 +217,11 @@
    "kind": "item",
    "name": "Import Card",
    "tags": [
+    "needs:none",
     "kind:gadget",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -220,11 +229,11 @@
    "kind": "block",
    "name": "Sequenced Assembly Controller",
    "tags": [
+    "needs:none",
     "kind:machine",
     "function:automate",
     "power-role:uses",
     "power-type:fe",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -232,11 +241,11 @@
    "kind": "item",
    "name": "Sequenced Assembly Linker",
    "tags": [
+    "needs:none",
     "kind:machine",
     "function:automate",
     "power-role:uses",
     "power-type:fe",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -244,11 +253,11 @@
    "kind": "block",
    "name": "Machine Hub",
    "tags": [
+    "needs:none",
     "kind:gadget",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -256,11 +265,11 @@
    "kind": "item",
    "name": "Hub Linker",
    "tags": [
+    "needs:none",
     "kind:gadget",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -268,11 +277,11 @@
    "kind": "block",
    "name": "Assembly Matrix",
    "tags": [
+    "needs:none",
     "kind:machine",
     "function:automate",
     "power-role:uses",
     "power-type:fe",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -280,9 +289,9 @@
    "kind": "item",
    "name": "Matrix Circuitry",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -290,9 +299,9 @@
    "kind": "item",
    "name": "Empowered Matrix Circuitry",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -301,9 +310,9 @@
    "name": "Hardened Obsidian Plate",
    "tags": [
     "kind:material",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -312,9 +321,9 @@
    "name": "Incomplete Hardened Obsidian Plate",
    "tags": [
     "kind:material",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -322,9 +331,9 @@
    "kind": "item",
    "name": "Incomplete Assembly Matrix",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -333,9 +342,9 @@
    "name": "Injector Fusion Matrix",
    "tags": [
     "kind:multiblock",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -344,9 +353,9 @@
    "name": "Atomic Empowering Matrix",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -354,11 +363,11 @@
    "kind": "item",
    "name": "Miniaturization Pattern",
    "tags": [
+    "needs:none",
     "kind:gadget",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -367,9 +376,9 @@
    "name": "Miniaturization Matrix",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -378,9 +387,9 @@
    "name": "Miniaturization Controller",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -388,11 +397,11 @@
    "kind": "item",
    "name": "Infusion Pattern",
    "tags": [
+    "needs:none",
     "kind:gadget",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -400,11 +409,11 @@
    "kind": "item",
    "name": "Awakening Pattern",
    "tags": [
+    "needs:none",
     "kind:gadget",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -412,11 +421,11 @@
    "kind": "item",
    "name": "Enchanting Pattern",
    "tags": [
+    "needs:none",
     "kind:gadget",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -425,9 +434,9 @@
    "name": "Infused Awakening Matrix",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   }

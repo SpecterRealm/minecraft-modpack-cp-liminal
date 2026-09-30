@@ -5,7 +5,7 @@
  "mod_ids": [
   "azurum_miner"
  ],
- "item_count": 70,
+ "item_count": 76,
  "compat": [],
  "items": {
   "azurum_miner:azurum_block": {
@@ -159,13 +159,13 @@
    "kind": "block",
    "name": "Tier 1 Miner",
    "tags": [
+    "scale:tiered",
+    "role:core",
     "kind:machine",
     "function:mine",
     "power-role:uses",
     "power-type:fe",
-    "scale:tiered",
     "needs:none",
-    "role:core",
     "review:checked"
    ]
   },
@@ -173,13 +173,13 @@
    "kind": "block",
    "name": "Tier 2 Miner",
    "tags": [
+    "scale:tiered",
+    "role:core",
     "kind:machine",
     "function:mine",
     "power-role:uses",
     "power-type:fe",
-    "scale:tiered",
     "needs:none",
-    "role:core",
     "review:checked"
    ]
   },
@@ -187,13 +187,13 @@
    "kind": "block",
    "name": "Tier 3 Miner",
    "tags": [
+    "scale:tiered",
+    "role:core",
     "kind:machine",
     "function:mine",
     "power-role:uses",
     "power-type:fe",
-    "scale:tiered",
     "needs:none",
-    "role:core",
     "review:checked"
    ]
   },
@@ -201,13 +201,13 @@
    "kind": "block",
    "name": "Tier 4 Miner",
    "tags": [
+    "scale:tiered",
+    "role:core",
     "kind:machine",
     "function:mine",
     "power-role:uses",
     "power-type:fe",
-    "scale:tiered",
     "needs:none",
-    "role:core",
     "review:checked"
    ]
   },
@@ -215,13 +215,13 @@
    "kind": "block",
    "name": "Tier 5 Miner",
    "tags": [
+    "scale:tiered",
+    "role:core",
     "kind:machine",
     "function:mine",
     "power-role:uses",
     "power-type:fe",
-    "scale:tiered",
     "needs:none",
-    "role:core",
     "review:checked"
    ]
   },
@@ -795,6 +795,66 @@
    "name": "Void Processor",
    "tags": [
     "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:azurum_miner.miner_material_tag": {
+   "kind": "item",
+   "name": "Miner Materials",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:azurum_miner.miner_ore_tier1_tag": {
+   "kind": "item",
+   "name": "Miner Tier 1 Ores",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:azurum_miner.miner_ore_tier2_tag": {
+   "kind": "item",
+   "name": "Miner Tier 2 Ores",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:azurum_miner.miner_ore_tier3_tag": {
+   "kind": "item",
+   "name": "Miner Tier 3 Ores",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:azurum_miner.miner_ore_tier4_tag": {
+   "kind": "item",
+   "name": "Miner Tier 4 Ores",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:azurum_miner.miner_ore_tier5_tag": {
+   "kind": "item",
+   "name": "Miner Tier 5 Ores",
+   "tags": [
     "needs:none",
     "power-role:none",
     "power-type:none",

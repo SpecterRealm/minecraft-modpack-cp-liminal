@@ -22,6 +22,15 @@
     "data-ref": 5,
     "dependency": 1
    }
+  },
+  {
+   "id": "ae2wtlib",
+   "slug": "applied-energistics-2-wireless-terminals",
+   "evidence": {
+    "compat-import": 5,
+    "data-ref": 4,
+    "dependency": 1
+   }
   }
  ],
  "items": {
@@ -29,11 +38,11 @@
    "kind": "item",
    "name": "ME Requester Terminal",
    "tags": [
+    "needs:none",
     "kind:machine",
     "function:automate",
     "power-role:uses",
     "power-type:fe",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -41,11 +50,11 @@
    "kind": "item",
    "name": "Wireless Requester Terminal",
    "tags": [
+    "needs:none",
     "kind:machine",
     "function:automate",
     "power-role:uses",
     "power-type:fe",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -53,11 +62,11 @@
    "kind": "block",
    "name": "ME Requester",
    "tags": [
+    "needs:none",
     "kind:machine",
     "function:automate",
     "power-role:uses",
     "power-type:fe",
-    "needs:none",
     "review:checked"
    ]
   }

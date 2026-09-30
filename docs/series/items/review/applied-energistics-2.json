@@ -346,6 +346,24 @@
    "ui": true
   },
   {
+   "match": "^crystal_resonance_generator$",
+   "set": [
+    "fuel:none"
+   ]
+  },
+  {
+   "match": "^vibration_chamber$",
+   "set": [
+    "fuel:solid"
+   ]
+  },
+  {
+   "match": "^crank$",
+   "set": [
+    "fuel:kinetic"
+   ]
+  },
+  {
    "match": ".",
    "default": [
     "power-role:none",

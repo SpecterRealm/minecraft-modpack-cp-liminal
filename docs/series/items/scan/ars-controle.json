@@ -64,10 +64,10 @@
    "name": "Warping Spell Prism",
    "tags": [
     "function:enchant",
-    "power-type:mana",
     "needs:spell-tech",
     "kind:block",
     "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -76,9 +76,9 @@
    "name": "Portable Brazier Relay",
    "tags": [
     "function:transfer",
-    "power-role:transfers",
-    "power-type:fe",
     "needs:spell-tech",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },

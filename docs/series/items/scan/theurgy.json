@@ -6,7 +6,7 @@
   "${mod_id}",
   "theurgy"
  ],
- "item_count": 94,
+ "item_count": 116,
  "compat": [
   {
    "id": "emi",
@@ -953,6 +953,160 @@
   "theurgy:the_hermetica_icon": {
    "kind": "item",
    "name": "The Hermetica Icon",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:theurgy.sal_ammoniac": {
+   "kind": "fluid",
+   "name": "Sal Ammoniac",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:theurgy.solvent": {
+   "kind": "fluid",
+   "name": "Solvent",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.gems.sal_ammoniac": {
+   "kind": "item",
+   "name": "Sal Ammoniac Gems",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.ores.sal_ammoniac": {
+   "kind": "item",
+   "name": "Sal Ammoniac Ores",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.sugars": {
+   "kind": "item",
+   "name": "Sugars",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:theurgy.fermentation_starters": {
+   "kind": "item",
+   "name": "Fermentation Starters",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:theurgy.gems.mercury.high": {
+   "kind": "item",
+   "name": "High Mercury Gems",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:theurgy.gems.mercury.low": {
+   "kind": "item",
+   "name": "Low Mercury Gems",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:theurgy.gems.mercury.medium": {
+   "kind": "item",
+   "name": "Medium Mercury Gems",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:theurgy.metals.mercury.high": {
+   "kind": "item",
+   "name": "High Mercury Metals",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:theurgy.metals.mercury.low": {
+   "kind": "item",
+   "name": "Low Mercury Metals",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:theurgy.metals.mercury.medium": {
+   "kind": "item",
+   "name": "Medium Mercury Metals",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:theurgy.ores.mercury.high": {
+   "kind": "item",
+   "name": "High Mercury Ores",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:theurgy.ores.mercury.low": {
+   "kind": "item",
+   "name": "Low Mercury Ores",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:theurgy.ores.mercury.medium": {
+   "kind": "item",
+   "name": "Medium Mercury Ores",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:theurgy.other_minerals": {
+   "kind": "item",
+   "name": "Other Minerals",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:theurgy.other_minerals.mercury.high": {
+   "kind": "item",
+   "name": "High Mercury Other Minerals",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:theurgy.other_minerals.mercury.low": {
+   "kind": "item",
+   "name": "Low Mercury Other Minerals",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:theurgy.other_minerals.mercury.medium": {
+   "kind": "item",
+   "name": "Medium Mercury Other Minerals",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:theurgy.raw_materials.mercury.high": {
+   "kind": "item",
+   "name": "Medium Mercury Raw Materials",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:theurgy.raw_materials.mercury.low": {
+   "kind": "item",
+   "name": "Low Mercury Raw Materials",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:theurgy.raw_materials.mercury.medium": {
+   "kind": "item",
+   "name": "Medium Mercury Raw Materials",
    "tags": [
     "review:checked"
    ]

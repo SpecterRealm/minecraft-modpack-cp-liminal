@@ -7,6 +7,7 @@ A review file docs/series/items/review/<mod>.json holds the decisions made while
       "note": "what the mod is for in the pack, anything odd",
       "class": "library|perf-client|qol-client|qol-gameplay|viewer|kubejs-addon|compat|ae2-addon|worldgen|guide|server-tool|content",
       "purpose": "one line: what it does and who needs it",
+      "reset_power": true,        # default true: drop the keyword pass's power and fuel tags; rules set them
       "rules": [
         {"match": "_ore_chunk$", "kind": "item",            # regex on the id after the colon; optional block|item|entity|fluid
          "clear": ["kind", "needs"],                        # drop every tag of these facets first
@@ -50,6 +51,8 @@ def apply(mod, dry=False):
         name = key.split(":", 1)[1]
         before = [t for t in it.get("tags", []) if not t.startswith("review:")]
         tags = list(before)
+        if rules.get("reset_power", True):  # power tags come only from this mod's rules, not the keyword pass
+            tags = [t for t in tags if not t.startswith(("power-role:", "power-type:", "fuel:"))]
         for r in rules["rules"]:
             if r.get("kind") and r["kind"] != it["kind"]:
                 continue

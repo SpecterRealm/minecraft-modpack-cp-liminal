@@ -15,6 +15,13 @@
    }
   },
   {
+   "id": "architectury",
+   "slug": "architectury-api",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
    "id": "create",
    "slug": "create",
    "evidence": {
@@ -71,6 +78,13 @@
    }
   },
   {
+   "id": "morphtool",
+   "slug": "morph-o-tool",
+   "evidence": {
+    "data-ref": 1
+   }
+  },
+  {
    "id": "powah",
    "slug": "powah",
    "evidence": {
@@ -92,9 +106,9 @@
    "kind": "block",
    "name": "Backpack",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -105,9 +119,9 @@
    "kind": "block",
    "name": "Copper Backpack",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -118,9 +132,9 @@
    "kind": "block",
    "name": "Iron Backpack",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -131,9 +145,9 @@
    "kind": "block",
    "name": "Gold Backpack",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -144,9 +158,9 @@
    "kind": "block",
    "name": "Diamond Backpack",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -157,9 +171,9 @@
    "kind": "block",
    "name": "Netherite Backpack",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -397,9 +411,9 @@
    "kind": "item",
    "name": "Inception Upgrade",
    "tags": [
+    "role:optional",
     "kind:gadget",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -409,9 +423,9 @@
    "kind": "item",
    "name": "Everlasting Upgrade",
    "tags": [
+    "role:optional",
     "kind:gadget",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -539,8 +553,8 @@
    "kind": "item",
    "name": "Stack Upgrade Starter Tier",
    "tags": [
-    "kind:gadget",
     "scale:tiered",
+    "kind:gadget",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -551,8 +565,8 @@
    "kind": "item",
    "name": "Stack Upgrade Tier 1",
    "tags": [
-    "kind:gadget",
     "scale:tiered",
+    "kind:gadget",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -563,8 +577,8 @@
    "kind": "item",
    "name": "Stack Upgrade Tier 2",
    "tags": [
-    "kind:gadget",
     "scale:tiered",
+    "kind:gadget",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -575,8 +589,8 @@
    "kind": "item",
    "name": "Stack Upgrade Tier 3",
    "tags": [
-    "kind:gadget",
     "scale:tiered",
+    "kind:gadget",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -587,8 +601,8 @@
    "kind": "item",
    "name": "Stack Upgrade Tier 4",
    "tags": [
-    "kind:gadget",
     "scale:tiered",
+    "kind:gadget",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -599,8 +613,8 @@
    "kind": "item",
    "name": "Stack Upgrade Conversion: Starter Tier to Tier 1",
    "tags": [
-    "kind:gadget",
     "scale:tiered",
+    "kind:gadget",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -611,8 +625,8 @@
    "kind": "item",
    "name": "Stack Upgrade Conversion: Starter Tier to Tier 2",
    "tags": [
-    "kind:gadget",
     "scale:tiered",
+    "kind:gadget",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -623,8 +637,8 @@
    "kind": "item",
    "name": "Stack Upgrade Conversion: Starter Tier to Tier 3",
    "tags": [
-    "kind:gadget",
     "scale:tiered",
+    "kind:gadget",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -635,8 +649,8 @@
    "kind": "item",
    "name": "Stack Upgrade Conversion: Starter Tier to Tier 4",
    "tags": [
-    "kind:gadget",
     "scale:tiered",
+    "kind:gadget",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -647,8 +661,8 @@
    "kind": "item",
    "name": "Stack Upgrade Conversion: Tier 1 to Tier 2",
    "tags": [
-    "kind:gadget",
     "scale:tiered",
+    "kind:gadget",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -659,8 +673,8 @@
    "kind": "item",
    "name": "Stack Upgrade Conversion: Tier 1 to Tier 3",
    "tags": [
-    "kind:gadget",
     "scale:tiered",
+    "kind:gadget",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -671,8 +685,8 @@
    "kind": "item",
    "name": "Stack Upgrade Conversion: Tier 1 to Tier 4",
    "tags": [
-    "kind:gadget",
     "scale:tiered",
+    "kind:gadget",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -683,8 +697,8 @@
    "kind": "item",
    "name": "Stack Upgrade Conversion: Tier 2 to Tier 3",
    "tags": [
-    "kind:gadget",
     "scale:tiered",
+    "kind:gadget",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -695,8 +709,8 @@
    "kind": "item",
    "name": "Stack Upgrade Conversion: Tier 2 to Tier 4",
    "tags": [
-    "kind:gadget",
     "scale:tiered",
+    "kind:gadget",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -707,8 +721,8 @@
    "kind": "item",
    "name": "Stack Upgrade Conversion: Tier 3 to Tier 4",
    "tags": [
-    "kind:gadget",
     "scale:tiered",
+    "kind:gadget",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -719,8 +733,8 @@
    "kind": "item",
    "name": "Stack Upgrade Omega Tier",
    "tags": [
-    "kind:gadget",
     "scale:tiered",
+    "kind:gadget",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -731,8 +745,8 @@
    "kind": "item",
    "name": "Stack Downgrade Tier 1",
    "tags": [
-    "kind:gadget",
     "scale:tiered",
+    "kind:gadget",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -743,8 +757,8 @@
    "kind": "item",
    "name": "Stack Downgrade Tier 2",
    "tags": [
-    "kind:gadget",
     "scale:tiered",
+    "kind:gadget",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -755,8 +769,8 @@
    "kind": "item",
    "name": "Stack Downgrade Tier 3",
    "tags": [
-    "kind:gadget",
     "scale:tiered",
+    "kind:gadget",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -873,9 +887,9 @@
    "kind": "item",
    "name": "Infinity Upgrade (Admin)",
    "tags": [
+    "role:optional",
     "kind:gadget",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -885,9 +899,9 @@
    "kind": "item",
    "name": "Survival Infinity Upgrade",
    "tags": [
+    "role:optional",
     "kind:gadget",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"

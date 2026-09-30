@@ -1,0 +1,191 @@
+{
+ "class": "candidate",
+ "purpose": "Not in any pack: capacitor banks, conduits, machines, generators",
+ "note": "Candidate (not in a pack). Capacitor bank (tiered FE storage that links adjacent banks: the Ender IO-style multiblock battery), stirling and photovoltaic generators, one-block conduits for power/items/fluids, and a machine set (alloy smelter, SAG mill, painting machine, soul binder, vat, farming station, crafter, spawner, travel anchors). Much of it overlaps Mekanism, Create, AE2 and Powah. Built-in support: AE2 and Mekanism (modded conduits), Curios, Jade, JEI, Iris. Needs alloys (energetic, pulsating, vibrant), so it would add an ore-dependent metal tier.",
+ "rules": [
+  {
+   "match": "\\.|^creative_tab_icon$|^enderios$",
+   "ui": true
+  },
+  {
+   "match": "^(.*_capacitor_bank|capacitor_bank|vibrant_capacitor_bank)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:multiblock",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "scale:size-scaled",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(.*_capacitor|double_layer_capacitor|octadic_capacitor|loot_capacitor)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "function:store",
+    "needs:none"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(stirling_generator)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "fuel:solid",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(.*_photovoltaic_module)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "fuel:sun",
+    "scale:tiered",
+    "needs:sun"
+   ]
+  },
+  {
+   "match": "^(conduit|wired_charger|wireless_charger|wireless_charger_antenna.*)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(alloy_smelter|sag_mill|painting_machine|slice_and_splice|soul_binder|vat|crafter|powered_spawner|enchanter|farming_station|impulse_hopper)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(travel_anchor|painted_travel_anchor|staff_of_travelling|glider|staff_of_levity)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:travel",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(attractor_obelisk|aversion_obelisk|inhibitor_obelisk|relocator_obelisk|weather_obelisk|xp_obelisk|xp_vacuum|vacuum_chest)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:farm",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(dark_steel_.*|end_steel_.*|soularium_.*|conductive_alloy_.*|energetic_alloy_.*|pulsating_alloy_.*|redstone_alloy_.*|vibrant_alloy_.*|.*_grinding_ball|.*_ingot|.*_nugget|silicon|photovoltaic_.*|.*_crystal|.*_powder|powdered_.*)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:ore"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(creative_power)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "role:dev-only"
+   ]
+  },
+  {
+   "match": "^stirling_generator$",
+   "set": [
+    "fuel:solid"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

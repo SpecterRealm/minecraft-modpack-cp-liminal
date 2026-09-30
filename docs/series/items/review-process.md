@@ -76,3 +76,7 @@ Run `python3 scripts/series-item-catalog.py report --category <c>` for overlaps.
 3. The one that fits the pack's story and progression.
 
 Record the call in [`../mod-audit.md`](../mod-audit.md).
+
+## 8. Clean up
+
+After a mod is catalogued and classed, run `python3 scripts/series-cleanup.py --root .. > docs/series/items/cleanup.md`. It flags libraries nothing uses, KubeJS add-ons no script uses, power capabilities another mod already covers, and content mods with no support to or from any other mod, and lists out-of-theme items for the hide lists. Candidate mods we did not add (Ender IO, RFTools Power) are scanned the same way and compared against what the packs already provide. Read the flags in [`cleanup-findings.md`](cleanup-findings.md) and record decisions in the mod audit.

@@ -1,0 +1,283 @@
+{
+ "repo": "McJtyMods/RFToolsPower",
+ "ref": "1.21_neo",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "rftoolspower"
+ ],
+ "item_count": 21,
+ "compat": [],
+ "items": {
+  "rftoolspower:power_core1": {
+   "kind": "item",
+   "name": "Power Core (Low)",
+   "tags": [
+    "scale:tiered",
+    "kind:block",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "rftoolspower:power_core2": {
+   "kind": "item",
+   "name": "Power Core (Medium)",
+   "tags": [
+    "scale:tiered",
+    "kind:block",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "rftoolspower:power_core3": {
+   "kind": "item",
+   "name": "Power Core (High)",
+   "tags": [
+    "scale:tiered",
+    "kind:block",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "rftoolspower:blazing_rod": {
+   "kind": "item",
+   "name": "Blazing Rod",
+   "tags": [
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "rftoolspower:powercell_card": {
+   "kind": "item",
+   "name": "Powercell Card",
+   "tags": [
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "rftoolspower:dimensionalcell": {
+   "kind": "block",
+   "name": "Dimensional Cell",
+   "tags": [
+    "scale:tiered",
+    "kind:block",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "rftoolspower:dimensionalcell_simple": {
+   "kind": "block",
+   "name": "Dimensional Cell (Simple)",
+   "tags": [
+    "scale:tiered",
+    "kind:block",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "rftoolspower:dimensionalcell_advanced": {
+   "kind": "block",
+   "name": "Dimensional Cell (Advanced)",
+   "tags": [
+    "scale:tiered",
+    "kind:block",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "rftoolspower:dimensionalcell_creative": {
+   "kind": "block",
+   "name": "Dimensional Cell (Creative)",
+   "tags": [
+    "scale:tiered",
+    "kind:block",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "rftoolspower:cell1": {
+   "kind": "block",
+   "name": "Powercell (Low)",
+   "tags": [
+    "scale:tiered",
+    "kind:block",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "rftoolspower:cell2": {
+   "kind": "block",
+   "name": "Powercell (Medium)",
+   "tags": [
+    "scale:tiered",
+    "kind:block",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "rftoolspower:cell3": {
+   "kind": "block",
+   "name": "Powercell (High)",
+   "tags": [
+    "scale:tiered",
+    "kind:block",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "rftoolspower:coalgenerator": {
+   "kind": "block",
+   "name": "Coal Generator",
+   "tags": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "needs:none",
+    "fuel:solid",
+    "review:checked"
+   ]
+  },
+  "rftoolspower:power_monitor": {
+   "kind": "block",
+   "name": "Power Monitor",
+   "tags": [
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "rftoolspower:power_level": {
+   "kind": "block",
+   "name": "Power Level",
+   "tags": [
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "rftoolspower:endergenic": {
+   "kind": "block",
+   "name": "Endergenic",
+   "tags": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "needs:none",
+    "fuel:chemical-fuel",
+    "review:checked"
+   ]
+  },
+  "rftoolspower:ender_monitor": {
+   "kind": "block",
+   "name": "Ender Monitor",
+   "tags": [
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "rftoolspower:pearl_injector": {
+   "kind": "block",
+   "name": "Pearl Injector",
+   "tags": [
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "rftoolspower:blazing_generator": {
+   "kind": "block",
+   "name": "Blazing Generator",
+   "tags": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "needs:none",
+    "fuel:solid",
+    "review:checked"
+   ]
+  },
+  "rftoolspower:blazing_agitator": {
+   "kind": "block",
+   "name": "Blazing Agitator",
+   "tags": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "rftoolspower:blazing_infuser": {
+   "kind": "block",
+   "name": "Blazing Infuser",
+   "tags": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21_neo",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21_neo",
+  "pass": "loop-back",
+  "note": "Candidate (not in a pack). Generators (coal, endergenic with ender pearls, blazing), power cells in three sizes plus dimensional cells (linked network storage), power monitor. Smaller than Ender IO; overlaps Powah and Mekanism Generators. Built-in support: none found.",
+  "class": "candidate",
+  "purpose": "Not in any pack: coal/endergenic/blazing generators and power cells"
+ }
+}

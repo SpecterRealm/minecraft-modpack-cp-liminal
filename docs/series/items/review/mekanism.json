@@ -580,6 +580,37 @@
    ]
   },
   {
+   "match": "^heat_generator$",
+   "set": [
+    "fuel:liquid",
+    "fuel:solid"
+   ]
+  },
+  {
+   "match": "^bio_generator$",
+   "set": [
+    "fuel:biomass"
+   ]
+  },
+  {
+   "match": "^gas_burning_generator$",
+   "set": [
+    "fuel:gas"
+   ]
+  },
+  {
+   "match": "^wind_generator$",
+   "set": [
+    "fuel:wind"
+   ]
+  },
+  {
+   "match": "^(solar_generator|.*_solar_generator)$",
+   "set": [
+    "fuel:sun"
+   ]
+  },
+  {
    "match": ".",
    "default": [
     "power-role:none",

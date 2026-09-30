@@ -8,6 +8,14 @@
  "item_count": 2,
  "compat": [
   {
+   "id": "architectury",
+   "slug": "architectury-api",
+   "evidence": {
+    "compat-import": 2,
+    "dependency": 1
+   }
+  },
+  {
    "id": "emi",
    "slug": "emi",
    "evidence": {
@@ -27,9 +35,9 @@
    "kind": "item",
    "name": "Fluid Container",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -37,9 +45,9 @@
    "kind": "item",
    "name": "FTB Icon",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   }

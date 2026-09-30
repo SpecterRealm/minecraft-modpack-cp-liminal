@@ -8,6 +8,28 @@
  "item_count": 48,
  "compat": [
   {
+   "id": "architectury",
+   "slug": "architectury-api",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "ftblibrary",
+   "slug": "ftb-library-forge",
+   "evidence": {
+    "compat-import": 2,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "ftbteams",
+   "slug": "ftb-teams-forge",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
    "id": "ftbxmodcompat",
    "slug": "ftb-xmod-compat",
    "evidence": {
@@ -27,11 +49,11 @@
    "kind": "block",
    "name": "Task Screen",
    "tags": [
+    "needs:none",
     "kind:block",
     "function:research",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -39,11 +61,11 @@
    "kind": "block",
    "name": "Task Screen (1x1)",
    "tags": [
+    "needs:none",
     "kind:block",
     "function:research",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -51,11 +73,11 @@
    "kind": "block",
    "name": "Task Screen (3x3)",
    "tags": [
+    "needs:none",
     "kind:block",
     "function:research",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -63,11 +85,11 @@
    "kind": "block",
    "name": "Task Screen (5x5)",
    "tags": [
+    "needs:none",
     "kind:block",
     "function:research",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -75,11 +97,11 @@
    "kind": "block",
    "name": "Task Screen (7x7)",
    "tags": [
+    "needs:none",
     "kind:block",
     "function:research",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -157,11 +179,11 @@
    "kind": "block",
    "name": "Quest Progress Detector",
    "tags": [
+    "needs:none",
     "kind:block",
     "function:research",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -183,11 +205,11 @@
    "kind": "block",
    "name": "Quest Barrier",
    "tags": [
+    "needs:none",
     "kind:block",
     "function:research",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -195,11 +217,11 @@
    "kind": "block",
    "name": "Stage Barrier",
    "tags": [
+    "needs:none",
     "kind:block",
     "function:research",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -221,11 +243,11 @@
    "kind": "block",
    "name": "Quest Detector",
    "tags": [
+    "needs:none",
     "kind:block",
     "function:research",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -290,9 +312,9 @@
    "name": "Progress Screen",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -302,9 +324,9 @@
    "tags": [
     "function:store",
     "kind:storage",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -335,9 +357,9 @@
    "tags": [
     "function:store",
     "kind:storage",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -347,9 +369,9 @@
    "tags": [
     "function:store",
     "kind:storage",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -364,9 +386,9 @@
    "kind": "item",
    "name": "Missing Item",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -404,9 +426,9 @@
    "tags": [
     "function:store",
     "kind:storage",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -421,9 +443,9 @@
    "kind": "item",
    "name": "Custom Icon",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   }

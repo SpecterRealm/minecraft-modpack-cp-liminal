@@ -1,0 +1,82 @@
+{
+ "class": "candidate",
+ "purpose": "Not in any pack: coal/endergenic/blazing generators and power cells",
+ "note": "Candidate (not in a pack). Generators (coal, endergenic with ender pearls, blazing), power cells in three sizes plus dimensional cells (linked network storage), power monitor. Smaller than Ender IO; overlaps Powah and Mekanism Generators. Built-in support: none found.",
+ "rules": [
+  {
+   "match": "^(coalgenerator|endergenic|blazing_generator|blazing_agitator|blazing_infuser)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(cell\\d|dimensionalcell.*|power_core\\d)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "scale:tiered",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(power_monitor|ender_monitor|power_level|pearl_injector|powercell_card|blazing_rod)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^coalgenerator$",
+   "set": [
+    "fuel:solid"
+   ]
+  },
+  {
+   "match": "^endergenic$",
+   "set": [
+    "fuel:chemical-fuel"
+   ]
+  },
+  {
+   "match": "^(blazing_generator)$",
+   "set": [
+    "fuel:solid"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

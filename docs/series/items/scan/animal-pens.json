@@ -5,8 +5,16 @@
  "mod_ids": [
   "animal_pen"
  ],
- "item_count": 51,
+ "item_count": 54,
  "compat": [
+  {
+   "id": "architectury",
+   "slug": "architectury-api",
+   "evidence": {
+    "compat-import": 1,
+    "dependency": 1
+   }
+  },
   {
    "id": "cloth_config",
    "slug": "cloth-config",
@@ -27,6 +35,13 @@
    "evidence": {
     "data-ref": 3
    }
+  },
+  {
+   "id": "id",
+   "slug": "txnilib",
+   "evidence": {
+    "compat-import": 5
+   }
   }
  ],
  "items": {
@@ -34,9 +49,9 @@
    "kind": "item",
    "name": "Animal Cage",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -136,9 +151,9 @@
    "name": "Aquatic Jar",
    "tags": [
     "function:store",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -146,9 +161,9 @@
    "kind": "item",
    "name": "Avian Net",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -243,14 +258,35 @@
     "review:checked"
    ]
   },
+  "tag:animal_pen.animal_pens": {
+   "kind": "item",
+   "name": "Animal Pens",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:animal_pen.can_attack_aquarium": {
+   "kind": "item",
+   "name": "Items can attack aquariums",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:animal_pen.can_attack_pen": {
+   "kind": "item",
+   "name": "Items can attack animal pens",
+   "tags": [
+    "review:checked"
+   ]
+  },
   "animal_pen:animal_pen_acacia": {
    "kind": "block",
    "name": "Animal Pen",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -259,9 +295,9 @@
    "name": "Animal Pen",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -270,9 +306,9 @@
    "name": "Animal Pen",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -281,9 +317,9 @@
    "name": "Animal Pen",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -303,9 +339,9 @@
    "name": "Animal Pen",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -314,9 +350,9 @@
    "name": "Animal Pen",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -325,9 +361,9 @@
    "name": "Animal Pen",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -336,9 +372,9 @@
    "name": "Animal Pen",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -358,9 +394,9 @@
    "name": "Animal Pen",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -369,9 +405,9 @@
    "name": "Aquarium",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -380,9 +416,9 @@
    "name": "Iron Aviary",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -391,9 +427,9 @@
    "name": "Gold Aviary",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -402,9 +438,9 @@
    "name": "Copper Aviary",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -413,9 +449,9 @@
    "name": "Exposed Copper Aviary",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -424,9 +460,9 @@
    "name": "Weathered Copper Aviary",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -435,9 +471,9 @@
    "name": "Oxidized Copper Aviary",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -446,9 +482,9 @@
    "name": "Waxed Copper Aviary",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -457,9 +493,9 @@
    "name": "Waxed Exposed Copper Aviary",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -468,9 +504,9 @@
    "name": "Waxed Weathered Copper Aviary",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -479,9 +515,9 @@
    "name": "Waxed Oxidized Copper Aviary",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   }

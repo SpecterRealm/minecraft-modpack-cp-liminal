@@ -22,13 +22,13 @@
    "kind": "block",
    "name": "Fusion Reactor Controller",
    "tags": [
+    "needs:none",
     "kind:multiblock",
     "function:generate",
     "power-role:makes",
     "power-type:fe",
     "power-type:heat",
     "fuel:nuclear",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -36,13 +36,13 @@
    "kind": "block",
    "name": "Fusion Reactor Frame",
    "tags": [
+    "needs:none",
     "kind:multiblock",
     "function:generate",
     "power-role:makes",
     "power-type:fe",
     "power-type:heat",
     "fuel:nuclear",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -50,13 +50,13 @@
    "kind": "block",
    "name": "Fusion Reactor Logic Adapter",
    "tags": [
+    "needs:none",
     "kind:multiblock",
     "function:generate",
     "power-role:makes",
     "power-type:fe",
     "power-type:heat",
     "fuel:nuclear",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -64,13 +64,13 @@
    "kind": "block",
    "name": "Fusion Reactor Port",
    "tags": [
+    "needs:none",
     "kind:multiblock",
     "function:generate",
     "power-role:makes",
     "power-type:fe",
     "power-type:heat",
     "fuel:nuclear",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -155,11 +155,11 @@
    "kind": "block",
    "name": "Irradiator",
    "tags": [
+    "needs:none",
     "power-role:uses",
     "power-type:fe",
     "kind:machine",
     "function:process",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -167,13 +167,13 @@
    "kind": "block",
    "name": "Laser Focus Matrix",
    "tags": [
+    "needs:none",
     "kind:multiblock",
     "function:generate",
     "power-role:makes",
     "power-type:fe",
     "power-type:heat",
     "fuel:nuclear",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -181,9 +181,9 @@
    "kind": "item",
    "name": "Solidified Nuclear Waste",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   }

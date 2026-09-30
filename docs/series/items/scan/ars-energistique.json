@@ -68,12 +68,12 @@
    "kind": "item",
    "name": "16k Portable Source Cell",
    "tags": [
-    "power-role:stores",
     "needs:spell-tech",
+    "scale:tiered",
     "kind:storage",
     "function:store",
     "power-type:source",
-    "scale:tiered",
+    "power-role:none",
     "review:checked"
    ]
   },
@@ -81,12 +81,12 @@
    "kind": "item",
    "name": "1k Portable Source Cell",
    "tags": [
-    "power-role:stores",
     "needs:spell-tech",
+    "scale:tiered",
     "kind:storage",
     "function:store",
     "power-type:source",
-    "scale:tiered",
+    "power-role:none",
     "review:checked"
    ]
   },
@@ -94,12 +94,12 @@
    "kind": "item",
    "name": "256k Portable Source Cell",
    "tags": [
-    "power-role:stores",
     "needs:spell-tech",
+    "scale:tiered",
     "kind:storage",
     "function:store",
     "power-type:source",
-    "scale:tiered",
+    "power-role:none",
     "review:checked"
    ]
   },
@@ -107,12 +107,12 @@
    "kind": "item",
    "name": "4k Portable Source Cell",
    "tags": [
-    "power-role:stores",
     "needs:spell-tech",
+    "scale:tiered",
     "kind:storage",
     "function:store",
     "power-type:source",
-    "scale:tiered",
+    "power-role:none",
     "review:checked"
    ]
   },
@@ -120,12 +120,12 @@
    "kind": "item",
    "name": "64k Portable Source Cell",
    "tags": [
-    "power-role:stores",
     "needs:spell-tech",
+    "scale:tiered",
     "kind:storage",
     "function:store",
     "power-type:source",
-    "scale:tiered",
+    "power-role:none",
     "review:checked"
    ]
   },
@@ -133,12 +133,12 @@
    "kind": "item",
    "name": "ME Source Cell Housing",
    "tags": [
-    "power-role:stores",
     "needs:spell-tech",
+    "scale:tiered",
     "kind:storage",
     "function:store",
     "power-type:source",
-    "scale:tiered",
+    "power-role:none",
     "review:checked"
    ]
   },
@@ -146,9 +146,9 @@
    "kind": "item",
    "name": "ME Source P2P Tunnel",
    "tags": [
-    "power-type:source",
     "needs:spell-tech",
     "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -156,12 +156,12 @@
    "kind": "item",
    "name": "16k ME Source Storage Cell",
    "tags": [
-    "power-role:stores",
     "needs:spell-tech",
+    "scale:tiered",
     "kind:storage",
     "function:store",
     "power-type:source",
-    "scale:tiered",
+    "power-role:none",
     "review:checked"
    ]
   },
@@ -169,12 +169,12 @@
    "kind": "item",
    "name": "1k ME Source Storage Cell",
    "tags": [
-    "power-role:stores",
     "needs:spell-tech",
+    "scale:tiered",
     "kind:storage",
     "function:store",
     "power-type:source",
-    "scale:tiered",
+    "power-role:none",
     "review:checked"
    ]
   },
@@ -182,12 +182,12 @@
    "kind": "item",
    "name": "256k ME Source Storage Cell",
    "tags": [
-    "power-role:stores",
     "needs:spell-tech",
+    "scale:tiered",
     "kind:storage",
     "function:store",
     "power-type:source",
-    "scale:tiered",
+    "power-role:none",
     "review:checked"
    ]
   },
@@ -195,12 +195,12 @@
    "kind": "item",
    "name": "4k ME Source Storage Cell",
    "tags": [
-    "power-role:stores",
     "needs:spell-tech",
+    "scale:tiered",
     "kind:storage",
     "function:store",
     "power-type:source",
-    "scale:tiered",
+    "power-role:none",
     "review:checked"
    ]
   },
@@ -208,12 +208,12 @@
    "kind": "item",
    "name": "64k ME Source Storage Cell",
    "tags": [
-    "power-role:stores",
     "needs:spell-tech",
+    "scale:tiered",
     "kind:storage",
     "function:store",
     "power-type:source",
-    "scale:tiered",
+    "power-role:none",
     "review:checked"
    ]
   },
@@ -222,9 +222,9 @@
    "name": "ME Spell P2P Tunnel",
    "tags": [
     "function:enchant",
-    "power-type:mana",
     "needs:spell-tech",
     "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   }

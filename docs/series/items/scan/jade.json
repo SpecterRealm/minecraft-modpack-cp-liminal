@@ -5,7 +5,7 @@
  "mod_ids": [
   "jade"
  ],
- "item_count": 2,
+ "item_count": 5,
  "compat": [
   {
    "id": "jei",
@@ -27,6 +27,39 @@
    "kind": "entity",
    "name": "Nitwit",
    "tags": [
+    "review:checked"
+   ]
+  },
+  "jade:with_capacity": {
+   "kind": "fluid",
+   "name": "%s / %s",
+   "tags": [
+    "kind:fluid",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "jade:empty": {
+   "kind": "fluid",
+   "name": "Empty",
+   "tags": [
+    "kind:fluid",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "jade:text": {
+   "kind": "fluid",
+   "name": "%s: %s",
+   "tags": [
+    "kind:fluid",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   }

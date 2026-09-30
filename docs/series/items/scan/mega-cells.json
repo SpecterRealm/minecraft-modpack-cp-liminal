@@ -24,11 +24,26 @@
    }
   },
   {
+   "id": "ae2wtlib",
+   "slug": "applied-energistics-2-wireless-terminals",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
    "id": "appliede",
    "slug": "appliede",
    "evidence": {
     "compat-import": 4,
     "data-ref": 2
+   }
+  },
+  {
+   "id": "arseng",
+   "slug": "ars-energistique",
+   "evidence": {
+    "compat-import": 2,
+    "data-ref": 1
    }
   },
   {
@@ -272,9 +287,9 @@
    "kind": "item",
    "name": "MEGA Bulk Storage Component",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -285,9 +300,9 @@
    "kind": "item",
    "name": "MEGA Bulk Item Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -334,9 +349,9 @@
    "kind": "item",
    "name": "16M MEGA Storage Component",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -347,9 +362,9 @@
    "kind": "item",
    "name": "1M MEGA Storage Component",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -360,9 +375,9 @@
    "kind": "item",
    "name": "256M MEGA Storage Component",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -373,9 +388,9 @@
    "kind": "item",
    "name": "4M MEGA Storage Component",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -386,9 +401,9 @@
    "kind": "item",
    "name": "64M MEGA Storage Component",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -435,9 +450,9 @@
    "kind": "item",
    "name": "16M MEGA Experience Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -448,9 +463,9 @@
    "kind": "item",
    "name": "1M MEGA Experience Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -461,9 +476,9 @@
    "kind": "item",
    "name": "256M MEGA Experience Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -474,9 +489,9 @@
    "kind": "item",
    "name": "4M MEGA Experience Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -487,9 +502,9 @@
    "kind": "item",
    "name": "64M MEGA Experience Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -500,9 +515,9 @@
    "kind": "item",
    "name": "16M MEGA Fluid Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -513,9 +528,9 @@
    "kind": "item",
    "name": "1M MEGA Fluid Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -526,9 +541,9 @@
    "kind": "item",
    "name": "256M MEGA Fluid Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -539,9 +554,9 @@
    "kind": "item",
    "name": "4M MEGA Fluid Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -552,9 +567,9 @@
    "kind": "item",
    "name": "64M MEGA Fluid Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -577,9 +592,9 @@
    "kind": "item",
    "name": "16M MEGA Item Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -590,9 +605,9 @@
    "kind": "item",
    "name": "1M MEGA Item Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -603,9 +618,9 @@
    "kind": "item",
    "name": "256M MEGA Item Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -616,9 +631,9 @@
    "kind": "item",
    "name": "4M MEGA Item Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -629,9 +644,9 @@
    "kind": "item",
    "name": "64M MEGA Item Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -642,9 +657,9 @@
    "kind": "item",
    "name": "16M MEGA Mana Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -655,9 +670,9 @@
    "kind": "item",
    "name": "1M MEGA Mana Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -668,9 +683,9 @@
    "kind": "item",
    "name": "256M MEGA Mana Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -681,9 +696,9 @@
    "kind": "item",
    "name": "4M MEGA Mana Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -694,9 +709,9 @@
    "kind": "item",
    "name": "64M MEGA Mana Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -780,10 +795,10 @@
    "name": "Portable Cell Workbench",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
     "function:craft",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -792,9 +807,9 @@
    "name": "16M Portable Experience Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -803,9 +818,9 @@
    "name": "1M Portable Experience Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -814,9 +829,9 @@
    "name": "256M Portable Experience Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -825,9 +840,9 @@
    "name": "4M Portable Experience Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -836,9 +851,9 @@
    "name": "64M Portable Experience Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -847,9 +862,9 @@
    "name": "16M Portable Fluid Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -858,9 +873,9 @@
    "name": "1M Portable Fluid Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -869,9 +884,9 @@
    "name": "256M Portable Fluid Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -880,9 +895,9 @@
    "name": "4M Portable Fluid Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -891,9 +906,9 @@
    "name": "64M Portable Fluid Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -902,9 +917,9 @@
    "name": "16M Portable Item Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -913,9 +928,9 @@
    "name": "1M Portable Item Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -924,9 +939,9 @@
    "name": "256M Portable Item Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -935,9 +950,9 @@
    "name": "4M Portable Item Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -946,9 +961,9 @@
    "name": "64M Portable Item Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -957,10 +972,9 @@
    "name": "16M Portable Mana Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "power-type:mana",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -969,10 +983,9 @@
    "name": "1M Portable Mana Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "power-type:mana",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -981,10 +994,9 @@
    "name": "256M Portable Mana Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "power-type:mana",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -993,10 +1005,9 @@
    "name": "4M Portable Mana Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "power-type:mana",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -1005,10 +1016,9 @@
    "name": "64M Portable Mana Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "power-type:mana",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -1017,10 +1027,9 @@
    "name": "16M Portable Source Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "power-type:source",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -1029,10 +1038,9 @@
    "name": "1M Portable Source Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "power-type:source",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -1041,10 +1049,9 @@
    "name": "256M Portable Source Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "power-type:source",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -1053,10 +1060,9 @@
    "name": "4M Portable Source Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "power-type:source",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -1065,10 +1071,9 @@
    "name": "64M Portable Source Cell",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "power-type:source",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -1078,9 +1083,9 @@
    "tags": [
     "kind:machine",
     "function:process",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1089,9 +1094,9 @@
    "name": "MEGA Radioactive Storage Component",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -1100,9 +1105,9 @@
    "name": "Sky Bronze Ingot",
    "tags": [
     "kind:material",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1111,9 +1116,9 @@
    "name": "Sky Osmium Ingot",
    "tags": [
     "kind:material",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1122,9 +1127,9 @@
    "name": "Sky Steel Ingot",
    "tags": [
     "kind:material",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1132,9 +1137,9 @@
    "kind": "item",
    "name": "16M MEGA Soul Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -1145,9 +1150,9 @@
    "kind": "item",
    "name": "1M MEGA Soul Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -1158,9 +1163,9 @@
    "kind": "item",
    "name": "256M MEGA Soul Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -1171,9 +1176,9 @@
    "kind": "item",
    "name": "4M MEGA Soul Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -1184,9 +1189,9 @@
    "kind": "item",
    "name": "64M MEGA Soul Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -1197,9 +1202,9 @@
    "kind": "item",
    "name": "16M MEGA Source Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -1210,9 +1215,9 @@
    "kind": "item",
    "name": "1M MEGA Source Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -1223,9 +1228,9 @@
    "kind": "item",
    "name": "256M MEGA Source Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -1236,9 +1241,9 @@
    "kind": "item",
    "name": "4M MEGA Source Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",
@@ -1249,9 +1254,9 @@
    "kind": "item",
    "name": "64M MEGA Source Storage Cell",
    "tags": [
+    "scale:tiered",
     "kind:storage",
     "function:store",
-    "scale:tiered",
     "needs:none",
     "power-role:none",
     "power-type:none",

@@ -1,0 +1,4004 @@
+{
+ "repo": "Team-EnderIO/EnderIO",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "endercore",
+  "enderio",
+  "enderio_modded_conduits",
+  "enderio_tests"
+ ],
+ "item_count": 363,
+ "compat": [
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "data-ref": 3,
+    "dependency": 2
+   }
+  },
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "compat-import": 1,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "iris",
+   "slug": "iris",
+   "evidence": {
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "jade",
+   "slug": "jade",
+   "evidence": {
+    "compat-import": 2
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 22,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "mekanism",
+   "slug": "mekanism",
+   "evidence": {
+    "data-ref": 6,
+    "dependency": 2
+   }
+  },
+  {
+   "id": "patchouli",
+   "slug": "patchouli",
+   "evidence": {
+    "data-ref": 1
+   }
+  }
+ ],
+ "items": {
+  "enderio:advanced_capacitor_bank": {
+   "kind": "block",
+   "name": "Advanced Capacitor Bank",
+   "tags": [
+    "scale:size-scaled",
+    "kind:multiblock",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:alloy_smelter": {
+   "kind": "block",
+   "name": "Alloy Smelter",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:attractor_obelisk": {
+   "kind": "block",
+   "name": "Attractor Obelisk",
+   "tags": [
+    "kind:machine",
+    "function:farm",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:aversion_obelisk": {
+   "kind": "block",
+   "name": "Aversion Obelisk",
+   "tags": [
+    "kind:machine",
+    "function:farm",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:basic_capacitor_bank": {
+   "kind": "block",
+   "name": "Basic Capacitor Bank",
+   "tags": [
+    "scale:size-scaled",
+    "kind:multiblock",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:block_detector": {
+   "kind": "block",
+   "name": "Block Detector",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass": {
+   "kind": "block",
+   "name": "Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_black": {
+   "kind": "block",
+   "name": "Black Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_blue": {
+   "kind": "block",
+   "name": "Blue Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_brown": {
+   "kind": "block",
+   "name": "Brown Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_cyan": {
+   "kind": "block",
+   "name": "Cyan Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_d": {
+   "kind": "block",
+   "name": "Dark Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_d_black": {
+   "kind": "block",
+   "name": "Black Dark Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_d_blue": {
+   "kind": "block",
+   "name": "Blue Dark Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_d_brown": {
+   "kind": "block",
+   "name": "Brown Dark Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_d_cyan": {
+   "kind": "block",
+   "name": "Cyan Dark Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_d_gray": {
+   "kind": "block",
+   "name": "Gray Dark Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_d_green": {
+   "kind": "block",
+   "name": "Green Dark Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_d_light_blue": {
+   "kind": "block",
+   "name": "Light Blue Dark Clear Glass",
+   "tags": [
+    "function:light",
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_d_light_gray": {
+   "kind": "block",
+   "name": "Light Gray Dark Clear Glass",
+   "tags": [
+    "function:light",
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_d_lime": {
+   "kind": "block",
+   "name": "Lime Dark Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_d_magenta": {
+   "kind": "block",
+   "name": "Magenta Dark Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_d_orange": {
+   "kind": "block",
+   "name": "Orange Dark Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_d_pink": {
+   "kind": "block",
+   "name": "Pink Dark Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_d_purple": {
+   "kind": "block",
+   "name": "Purple Dark Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_d_red": {
+   "kind": "block",
+   "name": "Red Dark Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_d_white": {
+   "kind": "block",
+   "name": "White Dark Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_d_yellow": {
+   "kind": "block",
+   "name": "Yellow Dark Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_e": {
+   "kind": "block",
+   "name": "Enlightened Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_e_black": {
+   "kind": "block",
+   "name": "Black Enlightened Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_e_blue": {
+   "kind": "block",
+   "name": "Blue Enlightened Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_e_brown": {
+   "kind": "block",
+   "name": "Brown Enlightened Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_e_cyan": {
+   "kind": "block",
+   "name": "Cyan Enlightened Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_e_gray": {
+   "kind": "block",
+   "name": "Gray Enlightened Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_e_green": {
+   "kind": "block",
+   "name": "Green Enlightened Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_e_light_blue": {
+   "kind": "block",
+   "name": "Light Blue Enlightened Clear Glass",
+   "tags": [
+    "function:light",
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_e_light_gray": {
+   "kind": "block",
+   "name": "Light Gray Enlightened Clear Glass",
+   "tags": [
+    "function:light",
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_e_lime": {
+   "kind": "block",
+   "name": "Lime Enlightened Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_e_magenta": {
+   "kind": "block",
+   "name": "Magenta Enlightened Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_e_orange": {
+   "kind": "block",
+   "name": "Orange Enlightened Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_e_pink": {
+   "kind": "block",
+   "name": "Pink Enlightened Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_e_purple": {
+   "kind": "block",
+   "name": "Purple Enlightened Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_e_red": {
+   "kind": "block",
+   "name": "Red Enlightened Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_e_white": {
+   "kind": "block",
+   "name": "White Enlightened Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_e_yellow": {
+   "kind": "block",
+   "name": "Yellow Enlightened Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_gray": {
+   "kind": "block",
+   "name": "Gray Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_green": {
+   "kind": "block",
+   "name": "Green Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_light_blue": {
+   "kind": "block",
+   "name": "Light Blue Clear Glass",
+   "tags": [
+    "function:light",
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_light_gray": {
+   "kind": "block",
+   "name": "Light Gray Clear Glass",
+   "tags": [
+    "function:light",
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_lime": {
+   "kind": "block",
+   "name": "Lime Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_magenta": {
+   "kind": "block",
+   "name": "Magenta Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_orange": {
+   "kind": "block",
+   "name": "Orange Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_pink": {
+   "kind": "block",
+   "name": "Pink Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_purple": {
+   "kind": "block",
+   "name": "Purple Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_red": {
+   "kind": "block",
+   "name": "Red Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_white": {
+   "kind": "block",
+   "name": "White Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:clear_glass_yellow": {
+   "kind": "block",
+   "name": "Yellow Clear Glass",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:cloud_seed": {
+   "kind": "block",
+   "name": "Cloud Seed",
+   "tags": [
+    "function:farm",
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:cloud_seed_concentrated": {
+   "kind": "block",
+   "name": "Cloud Seed Concentrated",
+   "tags": [
+    "function:farm",
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:cold_fire": {
+   "kind": "block",
+   "name": "Cold Fire",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:conductive_alloy_block": {
+   "kind": "block",
+   "name": "Conductive Alloy Block",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:conduit": {
+   "kind": "item",
+   "name": "<MISSING> Conduit",
+   "tags": [
+    "kind:block",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:crafter": {
+   "kind": "block",
+   "name": "Crafter",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:creative_power": {
+   "kind": "block",
+   "name": "Creative Power",
+   "tags": [
+    "role:dev-only",
+    "kind:block",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:dark_steel_bars": {
+   "kind": "block",
+   "name": "Dark Steel Bars",
+   "tags": [
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:dark_steel_block": {
+   "kind": "block",
+   "name": "Dark Steel Block",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:dark_steel_door": {
+   "kind": "block",
+   "name": "Dark Steel Door",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:dark_steel_ladder": {
+   "kind": "block",
+   "name": "Dark Steel Ladder",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:dark_steel_pressure_plate": {
+   "kind": "block",
+   "name": "Dark Steel Pressure Plate",
+   "tags": [
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:dark_steel_trapdoor": {
+   "kind": "block",
+   "name": "Dark Steel Trapdoor",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:dew_of_the_void": {
+   "kind": "block",
+   "name": "Dew of the Void",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:drain": {
+   "kind": "block",
+   "name": "Drain",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:enchanter": {
+   "kind": "block",
+   "name": "Enchanter",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:end_steel_bars": {
+   "kind": "block",
+   "name": "End Steel Bars",
+   "tags": [
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:end_steel_block": {
+   "kind": "block",
+   "name": "End Steel Block",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:enderface": {
+   "kind": "block",
+   "name": "Ender IO",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:enderman_head": {
+   "kind": "block",
+   "name": "Enderman Head",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:energetic_alloy_block": {
+   "kind": "block",
+   "name": "Energetic Alloy Block",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:energetic_photovoltaic_module": {
+   "kind": "block",
+   "name": "Energetic Photovoltaic Module",
+   "tags": [
+    "scale:tiered",
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "fuel:sun",
+    "needs:sun",
+    "review:checked"
+   ]
+  },
+  "enderio:ensouled_chassis": {
+   "kind": "block",
+   "name": "Ensouled Chassis",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:farming_station": {
+   "kind": "block",
+   "name": "Farming Station",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fire_water": {
+   "kind": "block",
+   "name": "Fire Water",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fluid_tank": {
+   "kind": "block",
+   "name": "Fluid Tank",
+   "tags": [
+    "function:store",
+    "kind:storage",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz": {
+   "kind": "block",
+   "name": "Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_black": {
+   "kind": "block",
+   "name": "Black Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_blue": {
+   "kind": "block",
+   "name": "Blue Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_brown": {
+   "kind": "block",
+   "name": "Brown Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_cyan": {
+   "kind": "block",
+   "name": "Cyan Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_d": {
+   "kind": "block",
+   "name": "Dark Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_d_black": {
+   "kind": "block",
+   "name": "Black Dark Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_d_blue": {
+   "kind": "block",
+   "name": "Blue Dark Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_d_brown": {
+   "kind": "block",
+   "name": "Brown Dark Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_d_cyan": {
+   "kind": "block",
+   "name": "Cyan Dark Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_d_gray": {
+   "kind": "block",
+   "name": "Gray Dark Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_d_green": {
+   "kind": "block",
+   "name": "Green Dark Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_d_light_blue": {
+   "kind": "block",
+   "name": "Light Blue Dark Fused Quartz",
+   "tags": [
+    "function:light",
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_d_light_gray": {
+   "kind": "block",
+   "name": "Light Gray Dark Fused Quartz",
+   "tags": [
+    "function:light",
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_d_lime": {
+   "kind": "block",
+   "name": "Lime Dark Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_d_magenta": {
+   "kind": "block",
+   "name": "Magenta Dark Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_d_orange": {
+   "kind": "block",
+   "name": "Orange Dark Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_d_pink": {
+   "kind": "block",
+   "name": "Pink Dark Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_d_purple": {
+   "kind": "block",
+   "name": "Purple Dark Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_d_red": {
+   "kind": "block",
+   "name": "Red Dark Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_d_white": {
+   "kind": "block",
+   "name": "White Dark Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_d_yellow": {
+   "kind": "block",
+   "name": "Yellow Dark Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_e": {
+   "kind": "block",
+   "name": "Enlightened Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_e_black": {
+   "kind": "block",
+   "name": "Black Enlightened Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_e_blue": {
+   "kind": "block",
+   "name": "Blue Enlightened Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_e_brown": {
+   "kind": "block",
+   "name": "Brown Enlightened Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_e_cyan": {
+   "kind": "block",
+   "name": "Cyan Enlightened Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_e_gray": {
+   "kind": "block",
+   "name": "Gray Enlightened Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_e_green": {
+   "kind": "block",
+   "name": "Green Enlightened Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_e_light_blue": {
+   "kind": "block",
+   "name": "Light Blue Enlightened Fused Quartz",
+   "tags": [
+    "function:light",
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_e_light_gray": {
+   "kind": "block",
+   "name": "Light Gray Enlightened Fused Quartz",
+   "tags": [
+    "function:light",
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_e_lime": {
+   "kind": "block",
+   "name": "Lime Enlightened Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_e_magenta": {
+   "kind": "block",
+   "name": "Magenta Enlightened Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_e_orange": {
+   "kind": "block",
+   "name": "Orange Enlightened Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_e_pink": {
+   "kind": "block",
+   "name": "Pink Enlightened Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_e_purple": {
+   "kind": "block",
+   "name": "Purple Enlightened Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_e_red": {
+   "kind": "block",
+   "name": "Red Enlightened Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_e_white": {
+   "kind": "block",
+   "name": "White Enlightened Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_e_yellow": {
+   "kind": "block",
+   "name": "Yellow Enlightened Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_gray": {
+   "kind": "block",
+   "name": "Gray Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_green": {
+   "kind": "block",
+   "name": "Green Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_light_blue": {
+   "kind": "block",
+   "name": "Light Blue Fused Quartz",
+   "tags": [
+    "function:light",
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_light_gray": {
+   "kind": "block",
+   "name": "Light Gray Fused Quartz",
+   "tags": [
+    "function:light",
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_lime": {
+   "kind": "block",
+   "name": "Lime Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_magenta": {
+   "kind": "block",
+   "name": "Magenta Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_orange": {
+   "kind": "block",
+   "name": "Orange Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_pink": {
+   "kind": "block",
+   "name": "Pink Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_purple": {
+   "kind": "block",
+   "name": "Purple Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_red": {
+   "kind": "block",
+   "name": "Red Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_white": {
+   "kind": "block",
+   "name": "White Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fused_quartz_yellow": {
+   "kind": "block",
+   "name": "Yellow Fused Quartz",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:hootch": {
+   "kind": "block",
+   "name": "Hootch",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:impulse_hopper": {
+   "kind": "block",
+   "name": "Impulse Hopper",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:industrial_insulation": {
+   "kind": "block",
+   "name": "Industrial Insulation",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:inhibitor_obelisk": {
+   "kind": "block",
+   "name": "Inhibitor Obelisk",
+   "tags": [
+    "kind:machine",
+    "function:farm",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:liquid_darkness": {
+   "kind": "block",
+   "name": "Liquid Darkness",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:liquid_sunshine": {
+   "kind": "block",
+   "name": "Liquid Sunshine",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:mind_killer": {
+   "kind": "block",
+   "name": "Mind Killer",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:niard": {
+   "kind": "block",
+   "name": "Niard",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:nutrient_distillation": {
+   "kind": "block",
+   "name": "Nutrient Distillation",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:painted_crafting_table": {
+   "kind": "block",
+   "name": "Painted Crafting Table",
+   "tags": [
+    "function:craft",
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:painted_fence": {
+   "kind": "block",
+   "name": "Painted Fence",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:painted_fence_gate": {
+   "kind": "block",
+   "name": "Painted Fence Gate",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:painted_glowstone": {
+   "kind": "block",
+   "name": "Painted Glowstone",
+   "tags": [
+    "function:light",
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:painted_redstone_block": {
+   "kind": "block",
+   "name": "Painted Redstone Block",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:painted_sand": {
+   "kind": "entity",
+   "name": "Falling Painted Sand",
+   "tags": [
+    "kind:mob",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:painted_slab": {
+   "kind": "block",
+   "name": "Painted Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:painted_stairs": {
+   "kind": "block",
+   "name": "Painted Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:painted_trapdoor": {
+   "kind": "block",
+   "name": "Painted Trapdoor",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:painted_travel_anchor": {
+   "kind": "block",
+   "name": "Painted Travel Anchor",
+   "tags": [
+    "kind:machine",
+    "function:travel",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:painted_wall": {
+   "kind": "block",
+   "name": "Painted Wall",
+   "tags": [
+    "kind:decoration",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:painted_wooden_pressure_plate": {
+   "kind": "block",
+   "name": "Painted Wooden Pressure Plate",
+   "tags": [
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:painting_machine": {
+   "kind": "block",
+   "name": "Painting Machine",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:powered_spawner": {
+   "kind": "block",
+   "name": "Powered Spawner",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:pressurized_fluid_tank": {
+   "kind": "block",
+   "name": "Pressurized Fluid Tank",
+   "tags": [
+    "function:store",
+    "kind:storage",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:pulsating_alloy_block": {
+   "kind": "block",
+   "name": "Pulsating Alloy Block",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:pulsating_photovoltaic_module": {
+   "kind": "block",
+   "name": "Pulsating Photovoltaic Module",
+   "tags": [
+    "scale:tiered",
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "fuel:sun",
+    "needs:sun",
+    "review:checked"
+   ]
+  },
+  "enderio:redstone_alloy_block": {
+   "kind": "block",
+   "name": "Redstone Alloy Block",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:reinforced_obsidian_block": {
+   "kind": "block",
+   "name": "Reinforced Obsidian",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:relocator_obelisk": {
+   "kind": "block",
+   "name": "Relocator Obelisk",
+   "tags": [
+    "kind:machine",
+    "function:farm",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:resetting_lever_five": {
+   "kind": "block",
+   "name": "Resetting Lever (5 seconds)",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:resetting_lever_five_inv": {
+   "kind": "block",
+   "name": "Resetting Lever Inverted (5 seconds)",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:resetting_lever_sixty": {
+   "kind": "block",
+   "name": "Resetting Lever (1 minute)",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:resetting_lever_sixty_inv": {
+   "kind": "block",
+   "name": "Resetting Lever Inverted (1 minute)",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:resetting_lever_ten": {
+   "kind": "block",
+   "name": "Resetting Lever (10 seconds)",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:resetting_lever_ten_inv": {
+   "kind": "block",
+   "name": "Resetting Lever Inverted (10 seconds)",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:resetting_lever_thirty": {
+   "kind": "block",
+   "name": "Resetting Lever (30 seconds)",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:resetting_lever_thirty_inv": {
+   "kind": "block",
+   "name": "Resetting Lever Inverted (30 seconds)",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:resetting_lever_three_hundred": {
+   "kind": "block",
+   "name": "Resetting Lever (5 minutes)",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:resetting_lever_three_hundred_inv": {
+   "kind": "block",
+   "name": "Resetting Lever Inverted (5 minutes)",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:rocket_fuel": {
+   "kind": "block",
+   "name": "Rocket Fuel",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:sag_mill": {
+   "kind": "block",
+   "name": "SAG Mill",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:silent_acacia_pressure_plate": {
+   "kind": "block",
+   "name": "Silent Acacia Pressure Plate",
+   "tags": [
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:silent_birch_pressure_plate": {
+   "kind": "block",
+   "name": "Silent Birch Pressure Plate",
+   "tags": [
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:silent_crimson_pressure_plate": {
+   "kind": "block",
+   "name": "Silent Crimson Pressure Plate",
+   "tags": [
+    "kind:material",
+    "needs:nether",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:silent_dark_oak_pressure_plate": {
+   "kind": "block",
+   "name": "Silent Dark Oak Pressure Plate",
+   "tags": [
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:silent_dark_steel_pressure_plate": {
+   "kind": "block",
+   "name": "Silent Dark Steel Pressure Plate",
+   "tags": [
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:silent_heavy_weighted_pressure_plate": {
+   "kind": "block",
+   "name": "Silent Heavy Weighted Pressure Plate",
+   "tags": [
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:silent_jungle_pressure_plate": {
+   "kind": "block",
+   "name": "Silent Jungle Pressure Plate",
+   "tags": [
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:silent_light_weighted_pressure_plate": {
+   "kind": "block",
+   "name": "Silent Light Weighted Pressure Plate",
+   "tags": [
+    "function:light",
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:silent_oak_pressure_plate": {
+   "kind": "block",
+   "name": "Silent Oak Pressure Plate",
+   "tags": [
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:silent_polished_blackstone_pressure_plate": {
+   "kind": "block",
+   "name": "Silent Polished Blackstone Pressure Plate",
+   "tags": [
+    "kind:material",
+    "needs:nether",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:silent_soularium_pressure_plate": {
+   "kind": "block",
+   "name": "Silent Soularium Pressure Plate",
+   "tags": [
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:silent_spruce_pressure_plate": {
+   "kind": "block",
+   "name": "Silent Spruce Pressure Plate",
+   "tags": [
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:silent_stone_pressure_plate": {
+   "kind": "block",
+   "name": "Silent Stone Pressure Plate",
+   "tags": [
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:silent_warped_pressure_plate": {
+   "kind": "block",
+   "name": "Silent Warped Pressure Plate",
+   "tags": [
+    "kind:material",
+    "needs:nether",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:slice_and_splice": {
+   "kind": "block",
+   "name": "Slice'N'Splice",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:soul_binder": {
+   "kind": "block",
+   "name": "Soul Binder",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:soul_chain": {
+   "kind": "block",
+   "name": "Soul Chain",
+   "tags": [
+    "needs:nether",
+    "kind:block",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:soul_engine": {
+   "kind": "block",
+   "name": "Soul Engine",
+   "tags": [
+    "needs:nether",
+    "kind:block",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:soularium_block": {
+   "kind": "block",
+   "name": "Soularium Block",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:soularium_pressure_plate": {
+   "kind": "block",
+   "name": "Soularium Pressure Plate",
+   "tags": [
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:stirling_generator": {
+   "kind": "block",
+   "name": "Stirling Generator",
+   "tags": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "fuel:solid",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:travel_anchor": {
+   "kind": "block",
+   "name": "Travel Anchor",
+   "tags": [
+    "kind:machine",
+    "function:travel",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:vacuum_chest": {
+   "kind": "block",
+   "name": "Vacuum Chest",
+   "tags": [
+    "kind:machine",
+    "function:farm",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:vapor_of_levity": {
+   "kind": "block",
+   "name": "Vapor of Levity",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:vat": {
+   "kind": "block",
+   "name": "VAT",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:vibrant_alloy_block": {
+   "kind": "block",
+   "name": "Vibrant Alloy Block",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:vibrant_capacitor_bank": {
+   "kind": "block",
+   "name": "Vibrant Capacitor Bank",
+   "tags": [
+    "scale:size-scaled",
+    "kind:multiblock",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:vibrant_photovoltaic_module": {
+   "kind": "block",
+   "name": "Vibrant Photovoltaic Module",
+   "tags": [
+    "scale:tiered",
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "fuel:sun",
+    "needs:sun",
+    "review:checked"
+   ]
+  },
+  "enderio:void_chassis": {
+   "kind": "block",
+   "name": "Void Chassis",
+   "tags": [
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:weather_obelisk": {
+   "kind": "block",
+   "name": "Weather Obelisk",
+   "tags": [
+    "kind:machine",
+    "function:farm",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:wired_charger": {
+   "kind": "block",
+   "name": "Wired Charger",
+   "tags": [
+    "kind:block",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:wireless_charger": {
+   "kind": "block",
+   "name": "Wireless Charger",
+   "tags": [
+    "kind:block",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:wireless_charger_antenna": {
+   "kind": "block",
+   "name": "Pulsating Wireless Antenna",
+   "tags": [
+    "kind:block",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:wireless_charger_antenna_advanced": {
+   "kind": "block",
+   "name": "Vibrant Wireless Antenna",
+   "tags": [
+    "kind:block",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:xp_juice": {
+   "kind": "block",
+   "name": "XP Juice",
+   "tags": [
+    "kind:food",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:xp_obelisk": {
+   "kind": "block",
+   "name": "XP Obelisk",
+   "tags": [
+    "kind:machine",
+    "function:farm",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:xp_vacuum": {
+   "kind": "block",
+   "name": "XP Vacuum",
+   "tags": [
+    "kind:machine",
+    "function:farm",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "review:checked"
+   ]
+  },
+  "enderio:advanced_item_filter": {
+   "kind": "item",
+   "name": "Advanced Item Filter",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:animal_token": {
+   "kind": "item",
+   "name": "Animal Token",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:basic_capacitor": {
+   "kind": "item",
+   "name": "Basic Capacitor",
+   "tags": [
+    "kind:material",
+    "function:store",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:basic_fluid_filter": {
+   "kind": "item",
+   "name": "Basic Fluid Filter",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:basic_item_filter": {
+   "kind": "item",
+   "name": "Basic Item Filter",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:basic_soul_filter": {
+   "kind": "item",
+   "name": "Basic Soul Filter",
+   "tags": [
+    "needs:nether",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:big_advanced_item_filter": {
+   "kind": "item",
+   "name": "Big Advanced Item Filter",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:big_item_filter": {
+   "kind": "item",
+   "name": "Big Item Filter",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:broken_spawner": {
+   "kind": "item",
+   "name": "Broken Spawner",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:cloud_seed_bucket": {
+   "kind": "item",
+   "name": "Cloud Seed Bucket",
+   "tags": [
+    "kind:tool",
+    "function:farm",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:cloud_seed_concentrated_bucket": {
+   "kind": "item",
+   "name": "Cloud Seed Concentrated Bucket",
+   "tags": [
+    "kind:tool",
+    "function:farm",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:cold_fire_igniter": {
+   "kind": "item",
+   "name": "Cold Fire Igniter",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:conductive_alloy_grinding_ball": {
+   "kind": "item",
+   "name": "Conductive Alloy Grinding Ball",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:conductive_alloy_ingot": {
+   "kind": "item",
+   "name": "Conductive Alloy Ingot",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:conductive_alloy_nugget": {
+   "kind": "item",
+   "name": "Conductive Alloy Nugget",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:conduit_binder": {
+   "kind": "item",
+   "name": "Conduit Binder",
+   "tags": [
+    "function:transfer",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:conduit_binder_composite": {
+   "kind": "item",
+   "name": "Conduit Binder Composite",
+   "tags": [
+    "function:transfer",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:conduit_facade": {
+   "kind": "item",
+   "name": "Conduit Facade",
+   "tags": [
+    "function:transfer",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:conduit_probe": {
+   "kind": "item",
+   "name": "Conduit Probe",
+   "tags": [
+    "function:transfer",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:confusing_powder": {
+   "kind": "item",
+   "name": "Confusion Powder",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:coordinate_selector": {
+   "kind": "item",
+   "name": "Coordinate Selector",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:creative_tab_icon": {
+   "kind": "item",
+   "name": "Internal Item - Unobtainable",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "enderio:dark_bimetal_gear": {
+   "kind": "item",
+   "name": "Dark Bimetal Gear",
+   "tags": [
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:dark_steel_grinding_ball": {
+   "kind": "item",
+   "name": "Dark Steel Grinding Ball",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:dark_steel_ingot": {
+   "kind": "item",
+   "name": "Dark Steel Ingot",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:dark_steel_nugget": {
+   "kind": "item",
+   "name": "Dark Steel Nugget",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:dark_steel_sword": {
+   "kind": "item",
+   "name": "The Ender",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:dew_of_the_void_bucket": {
+   "kind": "item",
+   "name": "Dew of the Void Bucket",
+   "tags": [
+    "kind:tool",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:double_layer_capacitor": {
+   "kind": "item",
+   "name": "Double-Layer Capacitor",
+   "tags": [
+    "kind:material",
+    "function:store",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:electromagnet": {
+   "kind": "item",
+   "name": "Electromagnet",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:end_steel_grinding_ball": {
+   "kind": "item",
+   "name": "End Steel Grinding Ball",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:end_steel_ingot": {
+   "kind": "item",
+   "name": "End Steel Ingot",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:end_steel_nugget": {
+   "kind": "item",
+   "name": "End Steel Nugget",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:ender_crystal": {
+   "kind": "item",
+   "name": "Ender Crystal",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:ender_crystal_powder": {
+   "kind": "item",
+   "name": "Grains of the End",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:ender_resonator": {
+   "kind": "item",
+   "name": "Ender Resonator",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:enderios": {
+   "kind": "item",
+   "name": "\"Enderios\"",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "enderio:energetic_alloy_grinding_ball": {
+   "kind": "item",
+   "name": "Energetic Alloy Grinding Ball",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:energetic_alloy_ingot": {
+   "kind": "item",
+   "name": "Energetic Alloy Ingot",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:energetic_alloy_nugget": {
+   "kind": "item",
+   "name": "Energetic Alloy Nugget",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:energized_gear": {
+   "kind": "item",
+   "name": "Energized Bimetal Gear",
+   "tags": [
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:enticing_crystal": {
+   "kind": "item",
+   "name": "Enticing Crystal",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:experience_rod": {
+   "kind": "item",
+   "name": "Experience Rod",
+   "tags": [
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:fire_water_bucket": {
+   "kind": "item",
+   "name": "Fire Water Bucket",
+   "tags": [
+    "kind:tool",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:frank_n_zombie": {
+   "kind": "item",
+   "name": "Frank'N'Zombie",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:glider": {
+   "kind": "item",
+   "name": "Glider",
+   "tags": [
+    "kind:machine",
+    "function:travel",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:glider_wing": {
+   "kind": "item",
+   "name": "Glider Wing",
+   "tags": [
+    "function:travel",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:grains_of_infinity": {
+   "kind": "item",
+   "name": "Grains of Infinity",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:guardian_diode": {
+   "kind": "item",
+   "name": "Guardian Diode",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:hardened_conduit_facade": {
+   "kind": "item",
+   "name": "Hardened Conduit Facade",
+   "tags": [
+    "function:transfer",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:hootch_bucket": {
+   "kind": "item",
+   "name": "Hootch Bucket",
+   "tags": [
+    "kind:tool",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:infinity_rod": {
+   "kind": "item",
+   "name": "Infinity Rod",
+   "tags": [
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:iron_gear": {
+   "kind": "item",
+   "name": "Infinity Bimetal Gear",
+   "tags": [
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:limited_item_filter": {
+   "kind": "item",
+   "name": "Limited Item Filter",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:liquid_darkness_bucket": {
+   "kind": "item",
+   "name": "Liquid Darkness Bucket",
+   "tags": [
+    "kind:tool",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:liquid_sunshine_bucket": {
+   "kind": "item",
+   "name": "Liquid Sunshine Bucket",
+   "tags": [
+    "kind:tool",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:location_printout": {
+   "kind": "item",
+   "name": "Location Printout",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:loot_capacitor": {
+   "kind": "item",
+   "name": "Loot Capacitor",
+   "tags": [
+    "kind:material",
+    "function:store",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:monster_token": {
+   "kind": "item",
+   "name": "Monster Token",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:nutrient_distillation_bucket": {
+   "kind": "item",
+   "name": "Nutrient Distillation Bucket",
+   "tags": [
+    "kind:tool",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:nutritious_stick": {
+   "kind": "item",
+   "name": "Nutritious Stick",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:octadic_capacitor": {
+   "kind": "item",
+   "name": "Octadic Capacitor",
+   "tags": [
+    "kind:material",
+    "function:store",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:photovoltaic_composite": {
+   "kind": "item",
+   "name": "Photovoltaic Composite",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:photovoltaic_plate": {
+   "kind": "item",
+   "name": "Photovoltaic Plate",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:plant_matter_brown": {
+   "kind": "item",
+   "name": "Twigs and Prunings",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:plant_matter_green": {
+   "kind": "item",
+   "name": "Clippings and Trimmings",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:player_token": {
+   "kind": "item",
+   "name": "Player Token",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:powdered_coal": {
+   "kind": "item",
+   "name": "Powdered Coal",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:powdered_copper": {
+   "kind": "item",
+   "name": "Powdered Copper",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:powdered_ender_pearl": {
+   "kind": "item",
+   "name": "Powdered Ender Pearl",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:powdered_gold": {
+   "kind": "item",
+   "name": "Powdered Gold",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:powdered_iron": {
+   "kind": "item",
+   "name": "Powdered Iron",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:powdered_lapis_lazuli": {
+   "kind": "item",
+   "name": "Powdered Lapis Lazuli",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:powdered_obsidian": {
+   "kind": "item",
+   "name": "Powdered Obsidian",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:powdered_quartz": {
+   "kind": "item",
+   "name": "Powdered Quartz",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:powdered_tin": {
+   "kind": "item",
+   "name": "Powdered Tin",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:prescient_crystal": {
+   "kind": "item",
+   "name": "Prescient Crystal",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:prescient_powder": {
+   "kind": "item",
+   "name": "Grains of Prescience",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:pulsating_alloy_grinding_ball": {
+   "kind": "item",
+   "name": "Pulsating Alloy Grinding Ball",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:pulsating_alloy_ingot": {
+   "kind": "item",
+   "name": "Pulsating Alloy Ingot",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:pulsating_alloy_nugget": {
+   "kind": "item",
+   "name": "Pulsating Alloy Nugget",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:pulsating_crystal": {
+   "kind": "item",
+   "name": "Pulsating Crystal",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:pulsating_powder": {
+   "kind": "item",
+   "name": "Grains of Piezallity",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:redstone_alloy_grinding_ball": {
+   "kind": "item",
+   "name": "Redstone Alloy Grinding Ball",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:redstone_alloy_ingot": {
+   "kind": "item",
+   "name": "Redstone Alloy Ingot",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:redstone_alloy_nugget": {
+   "kind": "item",
+   "name": "Redstone Alloy Nugget",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:redstone_and_filter": {
+   "kind": "item",
+   "name": "Redstone AND Filter",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:redstone_counting_filter": {
+   "kind": "item",
+   "name": "Redstone Count Filter",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:redstone_filter_base": {
+   "kind": "item",
+   "name": "Redstone Filter Base",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:redstone_nand_filter": {
+   "kind": "item",
+   "name": "Redstone NAND Filter",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:redstone_nor_filter": {
+   "kind": "item",
+   "name": "Redstone NOR Filter",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:redstone_not_filter": {
+   "kind": "item",
+   "name": "Redstone NOT Filter",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:redstone_or_filter": {
+   "kind": "item",
+   "name": "Redstone OR Filter",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:redstone_sensor_filter": {
+   "kind": "item",
+   "name": "Redstone Sensor Filter",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:redstone_timer_filter": {
+   "kind": "item",
+   "name": "Redstone Timer Filter",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:redstone_toggle_filter": {
+   "kind": "item",
+   "name": "Redstone Toggle Filter",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:redstone_xnor_filter": {
+   "kind": "item",
+   "name": "Redstone XNOR Filter",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:redstone_xor_filter": {
+   "kind": "item",
+   "name": "Redstone XOR Filter",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:rocket_fuel_bucket": {
+   "kind": "item",
+   "name": "Rocket Fuel Bucket",
+   "tags": [
+    "kind:tool",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:sentient_ender": {
+   "kind": "item",
+   "name": "Sentient Ender",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:silicon": {
+   "kind": "item",
+   "name": "Silicon",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:skeletal_contractor": {
+   "kind": "item",
+   "name": "Skeletal Contractor",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:soul_powder": {
+   "kind": "item",
+   "name": "Soul Powder",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:soul_vial": {
+   "kind": "item",
+   "name": "Soul Vial",
+   "tags": [
+    "kind:consumable",
+    "needs:nether",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:soularium_grinding_ball": {
+   "kind": "item",
+   "name": "Soularium Grinding Ball",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:soularium_ingot": {
+   "kind": "item",
+   "name": "Soularium Ingot",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:soularium_nugget": {
+   "kind": "item",
+   "name": "Soularium Nugget",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:staff_of_levity": {
+   "kind": "item",
+   "name": "Staff of Levity",
+   "tags": [
+    "kind:machine",
+    "function:travel",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:staff_of_travelling": {
+   "kind": "item",
+   "name": "Staff of Travelling",
+   "tags": [
+    "kind:machine",
+    "function:travel",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:suspicious_seed": {
+   "kind": "item",
+   "name": "Suspicious Seed",
+   "tags": [
+    "function:farm",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:transparent_conduit_facade": {
+   "kind": "item",
+   "name": "Transparent Conduit Facade",
+   "tags": [
+    "function:transfer",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:transparent_hardened_conduit_facade": {
+   "kind": "item",
+   "name": "Transparent Hardened Conduit Facade",
+   "tags": [
+    "function:transfer",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:vapor_of_levity_bucket": {
+   "kind": "item",
+   "name": "Vapor of Levity Bucket",
+   "tags": [
+    "kind:tool",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:vibrant_alloy_grinding_ball": {
+   "kind": "item",
+   "name": "Vibrant Alloy Grinding Ball",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:vibrant_alloy_ingot": {
+   "kind": "item",
+   "name": "Vibrant Alloy Ingot",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:vibrant_alloy_nugget": {
+   "kind": "item",
+   "name": "Vibrant Alloy Nugget",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:vibrant_crystal": {
+   "kind": "item",
+   "name": "Vibrant Crystal",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:vibrant_gear": {
+   "kind": "item",
+   "name": "Vibrant Bimetal Gear",
+   "tags": [
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:vibrant_powder": {
+   "kind": "item",
+   "name": "Grains of Vibrancy",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:void_vial": {
+   "kind": "item",
+   "name": "Vial of the Void",
+   "tags": [
+    "kind:consumable",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:weather_crystal": {
+   "kind": "item",
+   "name": "Weather Crystal",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:withering_powder": {
+   "kind": "item",
+   "name": "Withering Powder",
+   "tags": [
+    "kind:material",
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:xp_juice_bucket": {
+   "kind": "item",
+   "name": "XP Juice Bucket",
+   "tags": [
+    "kind:food",
+    "kind:tool",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:yeta_wrench": {
+   "kind": "item",
+   "name": "Yeta Wrench",
+   "tags": [
+    "kind:tool",
+    "function:craft",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:z_logic_controller": {
+   "kind": "item",
+   "name": "Z-Logic Controller",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "enderio:zombie_electrode": {
+   "kind": "item",
+   "name": "Zombie Electrode",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:enderio.blocks_travel_when_stood_on": {
+   "kind": "block",
+   "name": "Prevents Teleportation",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.mind_killer": {
+   "kind": "block",
+   "name": "Mind Killer",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.range_extender": {
+   "kind": "block",
+   "name": "Range Extender",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.redstone_connectable": {
+   "kind": "block",
+   "name": "Redstone Connectable",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.fluid_fuel.cold_fire_igniter": {
+   "kind": "fluid",
+   "name": "Cold Fire Igniter Fuel",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.fluid_fuel.staff_of_levity": {
+   "kind": "fluid",
+   "name": "Staff of Levity Fuel",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.solar_panel_dark": {
+   "kind": "fluid",
+   "name": "Solar Panel Dark",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.solar_panel_light": {
+   "kind": "fluid",
+   "name": "Solar Panel Light",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.amethyst": {
+   "kind": "item",
+   "name": "Amethyst",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.blacklists.broken_spawner": {
+   "kind": "item",
+   "name": "Broken Spawner Blacklist",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.blacklists.electromagnet": {
+   "kind": "item",
+   "name": "Electromagnet Blacklist",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.blaze_powder": {
+   "kind": "item",
+   "name": "Blaze Powder",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.cloud_cold": {
+   "kind": "item",
+   "name": "Cloud Cold",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.crops": {
+   "kind": "item",
+   "name": "Crops",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.enderio.hide_facades": {
+   "kind": "item",
+   "name": "Hides Facades",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.explosives": {
+   "kind": "item",
+   "name": "Explosives",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.insulation_metals": {
+   "kind": "item",
+   "name": "Insulation Metal",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.lightning_rod": {
+   "kind": "item",
+   "name": "Lightning Rod",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.meat": {
+   "kind": "item",
+   "name": "Meat",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.natural_lights": {
+   "kind": "item",
+   "name": "Natural Lights",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.prismarine": {
+   "kind": "item",
+   "name": "Prismarine",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.seeds": {
+   "kind": "item",
+   "name": "Seeds",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.sunflower": {
+   "kind": "item",
+   "name": "Sunflower",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.tools.glider": {
+   "kind": "item",
+   "name": "Gliders",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:enderio.wind_charges": {
+   "kind": "item",
+   "name": "Wind Charges",
+   "tags": [
+    "review:checked"
+   ]
+  }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21.1",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "Candidate (not in a pack). Capacitor bank (tiered FE storage that links adjacent banks: the Ender IO-style multiblock battery), stirling and photovoltaic generators, one-block conduits for power/items/fluids, and a machine set (alloy smelter, SAG mill, painting machine, soul binder, vat, farming station, crafter, spawner, travel anchors). Much of it overlaps Mekanism, Create, AE2 and Powah. Built-in support: AE2 and Mekanism (modded conduits), Curios, Jade, JEI, Iris. Needs alloys (energetic, pulsating, vibrant), so it would add an ore-dependent metal tier.",
+  "class": "candidate",
+  "purpose": "Not in any pack: capacitor banks, conduits, machines, generators"
+ }
+}

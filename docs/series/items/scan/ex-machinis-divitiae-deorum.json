@@ -29,13 +29,13 @@
    "kind": "block",
    "name": "Flux Compactor",
    "tags": [
+    "role:core",
+    "needs:none",
     "kind:machine",
     "function:process",
     "function:automate",
     "power-role:uses",
     "power-type:fe",
-    "role:core",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -43,13 +43,13 @@
    "kind": "block",
    "name": "Flux Hammer",
    "tags": [
+    "role:core",
+    "needs:none",
     "kind:machine",
     "function:process",
     "function:automate",
     "power-role:uses",
     "power-type:fe",
-    "role:core",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -57,13 +57,13 @@
    "kind": "block",
    "name": "Flux Sieve",
    "tags": [
+    "role:core",
+    "needs:none",
     "kind:machine",
     "function:process",
     "function:automate",
     "power-role:uses",
     "power-type:fe",
-    "role:core",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -71,12 +71,12 @@
    "kind": "block",
    "name": "Item Buffer",
    "tags": [
+    "needs:none",
     "kind:machine",
     "function:store",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -85,9 +85,9 @@
    "name": "Comparator Upgrade",
    "tags": [
     "kind:gadget",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -96,9 +96,9 @@
    "name": "Diamond Upgrade",
    "tags": [
     "kind:gadget",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -107,9 +107,9 @@
    "name": "Gold Upgrade",
    "tags": [
     "kind:gadget",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },

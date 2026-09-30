@@ -5,8 +5,15 @@
  "mod_ids": [
   "moonlight"
  ],
- "item_count": 1,
+ "item_count": 3,
  "compat": [
+  {
+   "id": "clothconfig2",
+   "slug": "cloth-config",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
   {
    "id": "create",
    "slug": "create",
@@ -42,9 +49,23 @@
    "name": "Unnamed Fluid",
    "tags": [
     "kind:fluid",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "review:checked"
+   ]
+  },
+  "tag:moonlight.non_recolorable": {
+   "kind": "block",
+   "name": "Non recolorable",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:minecraft.mineable.shear": {
+   "kind": "block",
+   "name": "Mineable by Shears",
+   "tags": [
     "review:checked"
    ]
   }

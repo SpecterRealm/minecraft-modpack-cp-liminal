@@ -16,6 +16,21 @@
    }
   },
   {
+   "id": "ae2wtlib_api",
+   "slug": "applied-energistics-2-wireless-terminals",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "ae2wtlib",
+   "slug": "applied-energistics-2-wireless-terminals",
+   "evidence": {
+    "data-ref": 4,
+    "dependency": 1
+   }
+  },
+  {
    "id": "geckolib",
    "slug": "geckolib",
    "evidence": {
@@ -81,9 +96,9 @@
    "name": "Quantum Alloy Block",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -92,9 +107,9 @@
    "name": "Quantum Alloy Slab",
    "tags": [
     "kind:decoration",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -103,9 +118,9 @@
    "name": "Quantum Alloy Stairs",
    "tags": [
     "kind:decoration",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -114,9 +129,9 @@
    "name": "Quantum Alloy Wall",
    "tags": [
     "kind:decoration",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -254,9 +269,9 @@
    "name": "Quantum Infusion",
    "tags": [
     "kind:fluid",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -265,9 +280,9 @@
    "name": "Quantum Infusion",
    "tags": [
     "kind:fluid",
-    "power-type:source",
-    "power-role:none",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -541,9 +556,9 @@
    "tags": [
     "kind:machine",
     "function:process",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -598,9 +613,9 @@
    "name": "Quantum Crafter Terminal",
    "tags": [
     "function:automate",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -621,9 +636,9 @@
    "name": "Quantum Infused Dust",
    "tags": [
     "kind:material",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -632,9 +647,9 @@
    "name": "Quantum Infusion Bucket",
    "tags": [
     "kind:tool",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -656,9 +671,9 @@
    "tags": [
     "kind:machine",
     "function:process",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -668,9 +683,9 @@
    "tags": [
     "kind:machine",
     "function:process",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -679,9 +694,9 @@
    "name": "Quantum Storage Component",
    "tags": [
     "function:store",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -690,9 +705,9 @@
    "name": "Quantum Upgrade Base Card",
    "tags": [
     "kind:gadget",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -736,9 +751,9 @@
    "kind": "item",
    "name": "Shattered Singularity",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -747,9 +762,9 @@
    "name": "Advanced Pattern Provider",
    "tags": [
     "function:automate",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -817,9 +832,9 @@
    "kind": "item",
    "name": "ME Throughput Monitor",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -852,9 +867,9 @@
    "name": "Wireless Quantum Crafter Terminal",
    "tags": [
     "function:automate",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   }

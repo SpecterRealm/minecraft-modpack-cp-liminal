@@ -145,6 +145,31 @@
    "kind": "block"
   },
   {
+   "match": "^furnator_",
+   "set": [
+    "fuel:solid"
+   ]
+  },
+  {
+   "match": "^magmator_",
+   "set": [
+    "fuel:liquid"
+   ]
+  },
+  {
+   "match": "^solar_panel_",
+   "set": [
+    "fuel:sun"
+   ]
+  },
+  {
+   "match": "^thermo_generator_",
+   "set": [
+    "fuel:liquid",
+    "power-type:heat"
+   ]
+  },
+  {
    "match": ".",
    "default": [
     "power-role:none",

@@ -5,8 +5,15 @@
  "mod_ids": [
   "twilightforest"
  ],
- "item_count": 995,
+ "item_count": 1045,
  "compat": [
+  {
+   "id": "architectury",
+   "slug": "architectury-api",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
   {
    "id": "bookshelf",
    "slug": "bookshelf",
@@ -28,6 +35,13 @@
    "evidence": {
     "compat-import": 18,
     "isLoaded": 1
+   }
+  },
+  {
+   "id": "gravestone",
+   "slug": "gravestone-mod",
+   "evidence": {
+    "data-ref": 2
    }
   },
   {
@@ -1060,9 +1074,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1072,9 +1086,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1085,9 +1099,9 @@
     "kind:machine",
     "function:process",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1097,9 +1111,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1109,9 +1123,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1121,9 +1135,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1133,9 +1147,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1145,9 +1159,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1157,9 +1171,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1169,9 +1183,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1181,9 +1195,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1193,9 +1207,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1205,9 +1219,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1224,9 +1238,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1236,9 +1250,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1248,9 +1262,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1260,9 +1274,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1272,9 +1286,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1284,9 +1298,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1297,9 +1311,9 @@
     "function:enchant",
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1309,9 +1323,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1321,9 +1335,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1333,9 +1347,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1345,9 +1359,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1357,9 +1371,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1369,9 +1383,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1381,9 +1395,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1393,9 +1407,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1405,9 +1419,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1417,9 +1431,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1429,9 +1443,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1441,9 +1455,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1453,9 +1467,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1466,9 +1480,9 @@
     "function:store",
     "kind:storage",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1478,9 +1492,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1490,9 +1504,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1502,9 +1516,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1514,9 +1528,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1526,9 +1540,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1539,9 +1553,9 @@
     "function:farm",
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1552,9 +1566,9 @@
     "function:farm",
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1564,9 +1578,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1576,9 +1590,9 @@
    "tags": [
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1589,9 +1603,9 @@
     "function:farm",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1601,9 +1615,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1613,9 +1627,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1625,9 +1639,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1637,9 +1651,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1650,9 +1664,9 @@
     "function:store",
     "kind:storage",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1662,9 +1676,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1674,9 +1688,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1686,9 +1700,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1698,9 +1712,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1711,9 +1725,9 @@
     "function:farm",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1723,9 +1737,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1735,9 +1749,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1746,11 +1760,11 @@
    "name": "Carminite Reactor",
    "tags": [
     "function:generate",
-    "power-role:makes",
     "kind:multiblock",
     "role:optional",
-    "power-type:none",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -1767,9 +1781,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1779,9 +1793,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1791,9 +1805,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1803,9 +1817,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1815,9 +1829,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1827,9 +1841,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1839,9 +1853,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1852,9 +1866,9 @@
     "function:store",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1865,9 +1879,9 @@
     "kind:machine",
     "function:process",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1877,9 +1891,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1889,9 +1903,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1901,9 +1915,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1913,9 +1927,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1925,9 +1939,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1937,9 +1951,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1949,9 +1963,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1961,9 +1975,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1973,9 +1987,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1985,9 +1999,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -1997,9 +2011,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2009,9 +2023,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2021,9 +2035,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2033,9 +2047,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2045,9 +2059,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2057,9 +2071,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2069,9 +2083,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2105,9 +2119,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2117,9 +2131,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2129,9 +2143,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2141,9 +2155,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2154,9 +2168,9 @@
     "function:store",
     "kind:storage",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2166,9 +2180,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2178,9 +2192,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2190,9 +2204,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2202,9 +2216,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2214,9 +2228,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2226,9 +2240,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2238,9 +2252,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2250,9 +2264,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2262,9 +2276,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2274,9 +2288,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2286,9 +2300,9 @@
    "tags": [
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2298,9 +2312,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2310,9 +2324,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2322,9 +2336,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2334,9 +2348,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2346,9 +2360,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2359,9 +2373,9 @@
     "function:store",
     "kind:storage",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2371,9 +2385,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2383,9 +2397,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2395,9 +2409,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2408,9 +2422,9 @@
     "function:farm",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2420,9 +2434,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2432,9 +2446,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2444,9 +2458,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2456,9 +2470,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2468,9 +2482,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2480,9 +2494,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2492,9 +2506,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2504,9 +2518,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2516,9 +2530,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2529,9 +2543,9 @@
     "kind:food",
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2541,9 +2555,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2553,9 +2567,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2565,9 +2579,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2577,9 +2591,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2589,9 +2603,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2601,9 +2615,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2613,9 +2627,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2626,9 +2640,9 @@
     "kind:machine",
     "function:process",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2638,9 +2652,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2650,9 +2664,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2663,9 +2677,9 @@
     "function:store",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2676,9 +2690,9 @@
     "kind:machine",
     "function:process",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2688,9 +2702,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2712,9 +2726,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2724,9 +2738,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2736,9 +2750,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2748,9 +2762,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2760,9 +2774,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2772,9 +2786,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2784,9 +2798,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2796,9 +2810,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2808,9 +2822,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2820,9 +2834,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2832,9 +2846,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2844,9 +2858,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2856,9 +2870,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2868,9 +2882,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2880,9 +2894,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2893,9 +2907,9 @@
     "function:farm",
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2906,9 +2920,9 @@
     "function:farm",
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2919,9 +2933,9 @@
     "function:farm",
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2931,9 +2945,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2943,9 +2957,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -2955,9 +2969,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3003,9 +3017,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3015,9 +3029,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3027,9 +3041,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3039,9 +3053,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3051,9 +3065,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3063,9 +3077,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3075,9 +3089,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3087,9 +3101,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3099,9 +3113,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3111,9 +3125,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3123,9 +3137,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3135,9 +3149,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3147,9 +3161,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3159,9 +3173,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3171,9 +3185,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3183,9 +3197,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3195,9 +3209,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3207,9 +3221,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3220,9 +3234,9 @@
     "function:farm",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3232,9 +3246,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3244,9 +3258,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3256,9 +3270,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3268,9 +3282,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3280,9 +3294,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3292,9 +3306,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3304,9 +3318,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3316,9 +3330,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3328,9 +3342,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3340,9 +3354,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3352,9 +3366,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3364,9 +3378,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3376,9 +3390,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3388,9 +3402,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3400,9 +3414,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3412,9 +3426,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3424,9 +3438,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3436,9 +3450,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3484,9 +3498,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3496,9 +3510,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3508,9 +3522,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3520,9 +3534,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3532,9 +3546,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3545,9 +3559,9 @@
     "kind:machine",
     "function:process",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3557,9 +3571,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3569,9 +3583,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3581,9 +3595,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3593,9 +3607,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3605,9 +3619,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3617,9 +3631,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3629,9 +3643,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3641,9 +3655,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3654,9 +3668,9 @@
     "kind:machine",
     "function:process",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3666,9 +3680,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3678,9 +3692,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3691,9 +3705,9 @@
     "kind:machine",
     "function:process",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3703,9 +3717,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3715,9 +3729,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3727,9 +3741,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3739,9 +3753,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3751,9 +3765,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3763,9 +3777,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3775,9 +3789,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3788,9 +3802,9 @@
     "function:store",
     "kind:storage",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3800,9 +3814,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3812,9 +3826,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3824,9 +3838,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3836,9 +3850,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3848,9 +3862,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3860,9 +3874,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3872,9 +3886,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3884,9 +3898,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3896,9 +3910,9 @@
    "tags": [
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3908,9 +3922,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3921,9 +3935,9 @@
     "function:farm",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3933,9 +3947,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3945,9 +3959,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3957,9 +3971,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3969,9 +3983,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3982,9 +3996,9 @@
     "function:store",
     "kind:storage",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -3994,9 +4008,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4006,9 +4020,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4018,9 +4032,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4031,9 +4045,9 @@
     "function:store",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4043,9 +4057,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4055,9 +4069,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4067,9 +4081,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4079,9 +4093,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4091,9 +4105,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4103,9 +4117,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4115,9 +4129,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4127,9 +4141,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4140,9 +4154,9 @@
     "function:store",
     "kind:storage",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4152,9 +4166,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4164,9 +4178,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4176,9 +4190,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4188,9 +4202,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4200,9 +4214,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4212,9 +4226,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4224,9 +4238,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4236,9 +4250,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4248,9 +4262,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4260,9 +4274,9 @@
    "tags": [
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4273,9 +4287,9 @@
     "function:farm",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4285,9 +4299,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4297,9 +4311,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4309,9 +4323,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4321,9 +4335,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4334,9 +4348,9 @@
     "function:store",
     "kind:storage",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4346,9 +4360,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4358,9 +4372,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4370,9 +4384,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4383,9 +4397,9 @@
     "kind:machine",
     "function:process",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4395,9 +4409,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4407,9 +4421,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4419,9 +4433,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4431,9 +4445,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4443,9 +4457,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4455,9 +4469,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4467,9 +4481,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4479,9 +4493,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4491,9 +4505,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4503,9 +4517,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4515,9 +4529,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4527,9 +4541,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4539,9 +4553,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4551,9 +4565,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4564,9 +4578,9 @@
     "kind:machine",
     "function:process",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4576,9 +4590,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4588,9 +4602,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4600,9 +4614,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4612,9 +4626,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4624,9 +4638,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4636,9 +4650,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4648,9 +4662,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4660,9 +4674,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4672,9 +4686,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4684,9 +4698,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4696,9 +4710,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4708,9 +4722,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4720,9 +4734,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4732,9 +4746,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4744,9 +4758,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4756,9 +4770,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4768,9 +4782,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4781,9 +4795,9 @@
     "function:light",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4794,9 +4808,9 @@
     "function:light",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4806,9 +4820,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4818,9 +4832,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4830,9 +4844,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4842,9 +4856,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4854,9 +4868,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4866,9 +4880,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4878,9 +4892,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4890,9 +4904,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4902,9 +4916,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4914,9 +4928,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4926,9 +4940,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4938,9 +4952,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4951,9 +4965,9 @@
     "function:enchant",
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4963,9 +4977,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4975,9 +4989,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4994,9 +5008,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5007,9 +5021,9 @@
     "function:farm",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5020,9 +5034,9 @@
     "function:farm",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5032,9 +5046,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5044,9 +5058,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5056,9 +5070,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5069,9 +5083,9 @@
     "function:farm",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5082,9 +5096,9 @@
     "function:farm",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5094,9 +5108,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5107,9 +5121,9 @@
     "function:farm",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5119,9 +5133,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5132,9 +5146,9 @@
     "function:farm",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5145,9 +5159,9 @@
     "function:farm",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5157,9 +5171,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5170,9 +5184,9 @@
     "function:farm",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5183,9 +5197,9 @@
     "function:farm",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5196,9 +5210,9 @@
     "function:farm",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5208,9 +5222,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5220,9 +5234,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5233,9 +5247,9 @@
     "function:farm",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5245,9 +5259,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5257,9 +5271,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5268,11 +5282,11 @@
    "name": "Reactor Debris",
    "tags": [
     "function:generate",
-    "power-role:makes",
     "kind:multiblock",
     "role:optional",
-    "power-type:none",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -5282,9 +5296,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5294,9 +5308,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5306,9 +5320,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5318,9 +5332,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5330,9 +5344,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5343,9 +5357,9 @@
     "kind:machine",
     "function:process",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5355,9 +5369,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5367,9 +5381,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5380,9 +5394,9 @@
     "function:store",
     "kind:storage",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5392,9 +5406,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5404,9 +5418,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5416,9 +5430,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5429,9 +5443,9 @@
     "kind:machine",
     "function:process",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5441,9 +5455,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5453,9 +5467,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5465,9 +5479,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5477,9 +5491,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5490,9 +5504,9 @@
     "function:store",
     "kind:storage",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5502,9 +5516,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5514,9 +5528,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5526,9 +5540,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5538,9 +5552,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5550,9 +5564,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5562,9 +5576,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5574,9 +5588,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5586,9 +5600,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5598,9 +5612,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5610,9 +5624,9 @@
    "tags": [
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5623,9 +5637,9 @@
     "function:farm",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5635,9 +5649,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5647,9 +5661,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5659,9 +5673,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5671,9 +5685,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5684,9 +5698,9 @@
     "function:store",
     "kind:storage",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5696,9 +5710,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5708,9 +5722,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5720,9 +5734,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5732,9 +5746,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5744,9 +5758,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5756,9 +5770,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5768,9 +5782,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5780,9 +5794,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5793,9 +5807,9 @@
     "function:farm",
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5806,9 +5820,9 @@
     "function:farm",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5818,9 +5832,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5830,9 +5844,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5842,9 +5856,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5854,9 +5868,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5866,9 +5880,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5878,9 +5892,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5890,9 +5904,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5902,9 +5916,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5914,9 +5928,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5926,9 +5940,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5938,9 +5952,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5950,9 +5964,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5962,9 +5976,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5974,9 +5988,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5987,9 +6001,9 @@
     "kind:armor",
     "function:defend",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -5999,9 +6013,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6011,9 +6025,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6023,9 +6037,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6035,9 +6049,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6047,9 +6061,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6059,9 +6073,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6071,9 +6085,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6083,9 +6097,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6096,9 +6110,9 @@
     "function:store",
     "kind:storage",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6108,9 +6122,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6120,9 +6134,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6132,9 +6146,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6144,9 +6158,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6156,9 +6170,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6168,9 +6182,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6180,9 +6194,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6192,9 +6206,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6204,9 +6218,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6216,9 +6230,9 @@
    "tags": [
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6229,9 +6243,9 @@
     "function:farm",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6241,9 +6255,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6253,9 +6267,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6265,9 +6279,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6277,9 +6291,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6290,9 +6304,9 @@
     "function:store",
     "kind:storage",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6302,9 +6316,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6314,9 +6328,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6326,9 +6340,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6338,9 +6352,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6350,9 +6364,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6362,9 +6376,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6374,9 +6388,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6387,9 +6401,9 @@
     "function:store",
     "kind:storage",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6399,9 +6413,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6411,9 +6425,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6423,9 +6437,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6435,9 +6449,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6447,9 +6461,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6459,9 +6473,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6471,9 +6485,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6483,9 +6497,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6495,9 +6509,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6507,9 +6521,9 @@
    "tags": [
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6520,9 +6534,9 @@
     "function:farm",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6532,9 +6546,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6544,9 +6558,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6556,9 +6570,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6568,9 +6582,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6581,9 +6595,9 @@
     "function:store",
     "kind:storage",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6593,9 +6607,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6605,9 +6619,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6617,9 +6631,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6629,9 +6643,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6641,9 +6655,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6653,9 +6667,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6665,9 +6679,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6677,9 +6691,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6689,9 +6703,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6702,9 +6716,9 @@
     "function:store",
     "kind:storage",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6714,9 +6728,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6726,9 +6740,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6738,9 +6752,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6750,9 +6764,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6762,9 +6776,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6774,9 +6788,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6786,9 +6800,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6798,9 +6812,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6810,9 +6824,9 @@
    "tags": [
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6823,9 +6837,9 @@
     "function:farm",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6835,9 +6849,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6847,9 +6861,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6859,9 +6873,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6871,9 +6885,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6884,9 +6898,9 @@
     "function:store",
     "kind:storage",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6896,9 +6910,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6908,9 +6922,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6920,9 +6934,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6933,9 +6947,9 @@
     "function:travel",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6946,9 +6960,9 @@
     "function:travel",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6958,9 +6972,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6970,9 +6984,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6983,9 +6997,9 @@
     "function:farm",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -6995,9 +7009,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7008,9 +7022,9 @@
     "function:craft",
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7027,9 +7041,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7039,9 +7053,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7051,9 +7065,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7088,9 +7102,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7100,9 +7114,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7112,9 +7126,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7124,9 +7138,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7137,9 +7151,9 @@
     "function:enchant",
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7149,9 +7163,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7185,9 +7199,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7197,9 +7211,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7233,9 +7247,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7245,9 +7259,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7257,9 +7271,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7276,9 +7290,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7289,9 +7303,9 @@
     "function:enchant",
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7301,9 +7315,9 @@
    "tags": [
     "kind:block",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7313,9 +7327,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7325,9 +7339,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7337,9 +7351,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7349,9 +7363,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7361,9 +7375,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7373,9 +7387,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7385,9 +7399,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7397,9 +7411,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7409,9 +7423,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7421,9 +7435,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7433,9 +7447,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7445,9 +7459,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7458,9 +7472,9 @@
     "kind:mob",
     "kind:gadget",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7469,9 +7483,9 @@
    "name": "Cube of Annihilation",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7481,9 +7495,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7493,9 +7507,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7505,9 +7519,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7517,9 +7531,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7530,9 +7544,9 @@
     "kind:mob",
     "function:mine",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7542,9 +7556,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7554,9 +7568,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7568,9 +7582,9 @@
     "kind:armor",
     "function:defend",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7580,9 +7594,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7592,9 +7606,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7604,9 +7618,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7618,9 +7632,9 @@
     "kind:consumable",
     "function:defend",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7631,9 +7645,9 @@
     "kind:mob",
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7643,9 +7657,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7655,9 +7669,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7667,9 +7681,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7686,9 +7700,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7698,9 +7712,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7712,9 +7726,9 @@
     "kind:consumable",
     "function:defend",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7726,9 +7740,9 @@
     "kind:consumable",
     "function:defend",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7738,9 +7752,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7750,9 +7764,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7762,9 +7776,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7774,9 +7788,9 @@
    "tags": [
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7786,9 +7800,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7798,9 +7812,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7810,9 +7824,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7822,9 +7836,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7834,9 +7848,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7846,9 +7860,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7858,9 +7872,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7872,9 +7886,9 @@
     "kind:consumable",
     "function:defend",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7884,9 +7898,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7898,9 +7912,9 @@
     "function:store",
     "kind:storage",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7910,9 +7924,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7922,9 +7936,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7934,9 +7948,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7946,9 +7960,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7958,9 +7972,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7970,9 +7984,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7984,9 +7998,9 @@
     "kind:consumable",
     "function:defend",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -7996,9 +8010,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8008,9 +8022,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8020,9 +8034,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8032,9 +8046,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8044,9 +8058,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8056,9 +8070,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8068,9 +8082,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8080,9 +8094,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8092,9 +8106,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8104,9 +8118,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8116,9 +8130,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8128,9 +8142,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8142,9 +8156,9 @@
     "kind:consumable",
     "function:defend",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8154,9 +8168,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8166,9 +8180,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8178,9 +8192,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8190,9 +8204,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8218,9 +8232,9 @@
     "kind:tool",
     "function:enchant",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8230,9 +8244,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8242,9 +8256,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8254,9 +8268,9 @@
    "tags": [
     "kind:mob",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8267,9 +8281,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8280,9 +8294,9 @@
     "function:automate",
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8291,9 +8305,9 @@
    "name": "Alpha Yeti Fur",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8304,9 +8318,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8314,12 +8328,12 @@
    "kind": "item",
    "name": "Arctic Boots",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8327,12 +8341,12 @@
    "kind": "item",
    "name": "Arctic Jacket",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8341,9 +8355,9 @@
    "name": "Arctic Fur",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8351,12 +8365,12 @@
    "kind": "item",
    "name": "Arctic Hood",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8364,12 +8378,12 @@
    "kind": "item",
    "name": "Arctic Leggings",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8381,9 +8395,9 @@
     "function:defend",
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8395,9 +8409,9 @@
     "function:defend",
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8408,9 +8422,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8420,9 +8434,9 @@
    "tags": [
     "kind:food",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8432,9 +8446,9 @@
    "tags": [
     "kind:food",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8445,9 +8459,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8456,9 +8470,9 @@
    "name": "Blackberry",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8467,9 +8481,9 @@
    "name": "Blightberry",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8478,9 +8492,9 @@
    "name": "Block and Chain",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8491,9 +8505,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8502,9 +8516,9 @@
    "name": "Blueberry",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8515,9 +8529,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8527,9 +8541,9 @@
    "tags": [
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8539,9 +8553,9 @@
    "tags": [
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8552,9 +8566,9 @@
     "function:travel",
     "kind:transport",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8567,9 +8581,9 @@
     "function:travel",
     "kind:transport",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8578,9 +8592,9 @@
    "name": "Carminite",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8591,9 +8605,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8604,9 +8618,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8617,9 +8631,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8630,9 +8644,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8642,9 +8656,9 @@
    "tags": [
     "kind:gadget",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8654,9 +8668,9 @@
    "tags": [
     "kind:gadget",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8666,9 +8680,9 @@
    "tags": [
     "kind:gadget",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8678,9 +8692,9 @@
    "tags": [
     "kind:gadget",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8690,9 +8704,9 @@
    "tags": [
     "kind:gadget",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8702,9 +8716,9 @@
    "tags": [
     "kind:food",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8714,9 +8728,9 @@
    "tags": [
     "kind:food",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8726,9 +8740,9 @@
    "tags": [
     "kind:food",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8738,9 +8752,9 @@
    "tags": [
     "kind:food",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8750,9 +8764,9 @@
    "tags": [
     "kind:food",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8762,9 +8776,9 @@
    "tags": [
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8773,9 +8787,9 @@
    "name": "Crown Splinter",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8784,9 +8798,9 @@
    "name": "Crumble Horn",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8795,9 +8809,9 @@
    "name": "Talisman of the Cube",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8808,9 +8822,9 @@
     "function:travel",
     "kind:transport",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8823,9 +8837,9 @@
     "function:travel",
     "kind:transport",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8836,9 +8850,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8846,11 +8860,11 @@
    "kind": "item",
    "name": "Diamond Minotaur Axe",
    "tags": [
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8859,9 +8873,9 @@
    "name": "Duskberry",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8872,9 +8886,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8883,9 +8897,9 @@
    "name": "Emperor's Cloth",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8894,11 +8908,11 @@
    "name": "Ender Bow",
    "tags": [
     "function:defend",
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8909,9 +8923,9 @@
     "kind:food",
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8921,9 +8935,9 @@
    "tags": [
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8932,9 +8946,9 @@
    "name": "Fiery Blood",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8942,12 +8956,12 @@
    "kind": "item",
    "name": "Fiery Boots",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8955,12 +8969,12 @@
    "kind": "item",
    "name": "Fiery Chestplate",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8968,12 +8982,12 @@
    "kind": "item",
    "name": "Fiery Helmet",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8983,9 +8997,9 @@
    "tags": [
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -8993,12 +9007,12 @@
    "kind": "item",
    "name": "Fiery Leggings",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9007,11 +9021,11 @@
    "name": "Fiery Pickaxe",
    "tags": [
     "function:mine",
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9020,11 +9034,11 @@
    "name": "Fiery Sword",
    "tags": [
     "function:defend",
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9033,9 +9047,9 @@
    "name": "Fiery Tears",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9045,9 +9059,9 @@
    "tags": [
     "kind:gadget",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9057,9 +9071,9 @@
    "tags": [
     "kind:gadget",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9069,9 +9083,9 @@
    "tags": [
     "kind:gadget",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9082,9 +9096,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9107,9 +9121,9 @@
    "name": "Scepter of Fortification",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9118,9 +9132,9 @@
    "name": "Four-Leaf Clover",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9129,9 +9143,9 @@
    "name": "Fugu Jerky",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9140,9 +9154,9 @@
    "name": "Gelatinous Maze Slime Drop",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9151,9 +9165,9 @@
    "name": "Gelatinous Slime Drop",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9165,9 +9179,9 @@
     "function:mine",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9176,11 +9190,11 @@
    "name": "Giant's Pickaxe",
    "tags": [
     "function:mine",
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9189,11 +9203,11 @@
    "name": "Giant's Sword",
    "tags": [
     "function:defend",
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9202,11 +9216,11 @@
    "name": "Glass Sword",
    "tags": [
     "function:defend",
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9216,9 +9230,9 @@
    "tags": [
     "kind:food",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9226,11 +9240,11 @@
    "kind": "item",
    "name": "Golden Minotaur Axe",
    "tags": [
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9241,9 +9255,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9254,9 +9268,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9269,9 +9283,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9282,9 +9296,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9295,9 +9309,9 @@
     "function:automate",
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9307,9 +9321,9 @@
    "tags": [
     "kind:food",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9320,9 +9334,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9331,9 +9345,9 @@
    "name": "Ice Bomb",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9342,11 +9356,11 @@
    "name": "Ice Bow",
    "tags": [
     "function:defend",
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9358,9 +9372,9 @@
     "kind:consumable",
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9369,11 +9383,11 @@
    "name": "Ice Sword",
    "tags": [
     "function:defend",
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9383,9 +9397,9 @@
    "tags": [
     "kind:food",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9393,11 +9407,11 @@
    "kind": "item",
    "name": "Ironwood Axe",
    "tags": [
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9405,12 +9419,12 @@
    "kind": "item",
    "name": "Ironwood Boots",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9418,12 +9432,12 @@
    "kind": "item",
    "name": "Ironwood Chestplate",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9431,12 +9445,12 @@
    "kind": "item",
    "name": "Ironwood Helmet",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9444,11 +9458,11 @@
    "kind": "item",
    "name": "Ironwood Hoe",
    "tags": [
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9458,9 +9472,9 @@
    "tags": [
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9468,12 +9482,12 @@
    "kind": "item",
    "name": "Ironwood Leggings",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9482,11 +9496,11 @@
    "name": "Ironwood Pickaxe",
    "tags": [
     "function:mine",
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9494,11 +9508,11 @@
    "kind": "item",
    "name": "Ironwood Shovel",
    "tags": [
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9507,11 +9521,11 @@
    "name": "Ironwood Sword",
    "tags": [
     "function:defend",
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9522,9 +9536,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9535,9 +9549,9 @@
     "function:automate",
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9548,9 +9562,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9558,11 +9572,11 @@
    "kind": "item",
    "name": "Knightmetal Axe",
    "tags": [
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9570,12 +9584,12 @@
    "kind": "item",
    "name": "Knightmetal Boots",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9583,12 +9597,12 @@
    "kind": "item",
    "name": "Knightmetal Chestplate",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9596,12 +9610,12 @@
    "kind": "item",
    "name": "Knightmetal Helmet",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9611,9 +9625,9 @@
    "tags": [
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9621,12 +9635,12 @@
    "kind": "item",
    "name": "Knightmetal Greaves",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9635,11 +9649,11 @@
    "name": "Knightmetal Pickaxe",
    "tags": [
     "function:mine",
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9649,9 +9663,9 @@
    "tags": [
     "kind:gadget",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9662,9 +9676,9 @@
     "kind:armor",
     "function:defend",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9673,11 +9687,11 @@
    "name": "Knightmetal Sword",
    "tags": [
     "function:defend",
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9688,9 +9702,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9700,9 +9714,9 @@
    "tags": [
     "function:light",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9713,9 +9727,9 @@
     "function:automate",
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9726,9 +9740,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9737,9 +9751,9 @@
    "name": "Scepter of Life Draining",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9748,9 +9762,9 @@
    "name": "Liveroot",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9761,9 +9775,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9772,9 +9786,9 @@
    "name": "Magic Beans",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9784,9 +9798,9 @@
    "tags": [
     "kind:gadget",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9798,9 +9812,9 @@
     "function:enchant",
     "kind:gadget",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9809,9 +9823,9 @@
    "name": "Maloberry",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9822,9 +9836,9 @@
     "function:travel",
     "kind:transport",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9837,9 +9851,9 @@
     "function:travel",
     "kind:transport",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9849,9 +9863,9 @@
    "tags": [
     "kind:gadget",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9870,9 +9884,9 @@
     "function:enchant",
     "kind:gadget",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9881,9 +9895,9 @@
    "name": "Maze Slimeball",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9894,9 +9908,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9905,9 +9919,9 @@
    "name": "Maze Wafer",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9916,11 +9930,11 @@
    "name": "Mazebreaker",
    "tags": [
     "function:mine",
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9929,9 +9943,9 @@
    "name": "Meef Jerky",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9940,9 +9954,9 @@
    "name": "Meef Stroganoff",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9953,9 +9967,9 @@
     "function:travel",
     "kind:transport",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9968,9 +9982,9 @@
     "function:travel",
     "kind:transport",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9981,9 +9995,9 @@
     "function:automate",
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -9994,9 +10008,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10007,9 +10021,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10020,9 +10034,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10031,9 +10045,9 @@
    "name": "Monster Jerky",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10042,9 +10056,9 @@
    "name": "Moon Dial",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10123,9 +10137,9 @@
    "name": "Moonworm Queen",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10136,9 +10150,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10148,9 +10162,9 @@
    "tags": [
     "kind:food",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10159,9 +10173,9 @@
    "name": "Music Disc",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10170,9 +10184,9 @@
    "name": "Music Disc",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10181,9 +10195,9 @@
    "name": "Music Disc",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10192,9 +10206,9 @@
    "name": "Music Disc",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10203,9 +10217,9 @@
    "name": "Music Disc",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10214,9 +10228,9 @@
    "name": "Music Disc",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10225,9 +10239,9 @@
    "name": "Music Disc",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10236,9 +10250,9 @@
    "name": "Music Disc",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10247,9 +10261,9 @@
    "name": "Music Disc",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10259,9 +10273,9 @@
    "tags": [
     "kind:food",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10270,9 +10284,9 @@
    "name": "Mystic Crown",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10283,9 +10297,9 @@
     "function:automate",
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10293,12 +10307,12 @@
    "kind": "item",
    "name": "Naga Scale Tunic",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10306,12 +10320,12 @@
    "kind": "item",
    "name": "Naga Scale Leggings",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10320,9 +10334,9 @@
    "name": "Naga Scale",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10333,9 +10347,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10345,9 +10359,9 @@
    "tags": [
     "kind:gadget",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10357,9 +10371,9 @@
    "tags": [
     "kind:gadget",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10368,9 +10382,9 @@
    "name": "Ore Meter",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10379,9 +10393,9 @@
    "name": "Peacock Feather Fan",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10389,12 +10403,12 @@
    "kind": "item",
    "name": "Phantom Chestplate",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10402,12 +10416,12 @@
    "kind": "item",
    "name": "Phantom Helmet",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10418,9 +10432,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10429,9 +10443,9 @@
    "name": "Rabbit's Pocket Watch",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10441,9 +10455,9 @@
    "tags": [
     "kind:food",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10454,9 +10468,9 @@
     "function:automate",
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10467,9 +10481,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10478,9 +10492,9 @@
    "name": "Rabbit Jerky",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10489,9 +10503,9 @@
    "name": "Raspberry",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10500,9 +10514,9 @@
    "name": "Raven Feather",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10513,9 +10527,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10525,9 +10539,9 @@
    "tags": [
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10537,9 +10551,9 @@
    "tags": [
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10549,9 +10563,9 @@
    "tags": [
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10562,9 +10576,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10575,9 +10589,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10587,9 +10601,9 @@
    "tags": [
     "kind:food",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10598,11 +10612,11 @@
    "name": "Seeker Bow",
    "tags": [
     "function:defend",
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10611,9 +10625,9 @@
    "name": "Shika Senbei",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10624,9 +10638,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10635,9 +10649,9 @@
    "name": "Skyberry",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10648,9 +10662,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10661,9 +10675,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10674,9 +10688,9 @@
     "function:automate",
     "kind:decoration",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10687,9 +10701,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10700,9 +10714,9 @@
     "function:travel",
     "kind:transport",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10715,9 +10729,9 @@
     "function:travel",
     "kind:transport",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10728,9 +10742,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10741,9 +10755,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10753,9 +10767,9 @@
    "tags": [
     "kind:food",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10763,11 +10777,11 @@
    "kind": "item",
    "name": "Steeleaf Axe",
    "tags": [
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10775,12 +10789,12 @@
    "kind": "item",
    "name": "Steeleaf Boots",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10788,12 +10802,12 @@
    "kind": "item",
    "name": "Steeleaf Chestplate",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10801,12 +10815,12 @@
    "kind": "item",
    "name": "Steeleaf Helmet",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10814,11 +10828,11 @@
    "kind": "item",
    "name": "Steeleaf Hoe",
    "tags": [
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10828,9 +10842,9 @@
    "tags": [
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10838,12 +10852,12 @@
    "kind": "item",
    "name": "Steeleaf Leggings",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10852,11 +10866,11 @@
    "name": "Steeleaf Pickaxe",
    "tags": [
     "function:mine",
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10864,11 +10878,11 @@
    "kind": "item",
    "name": "Steeleaf Shovel",
    "tags": [
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10877,11 +10891,11 @@
    "name": "Steeleaf Sword",
    "tags": [
     "function:defend",
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10890,9 +10904,9 @@
    "name": "Stingberry",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10903,9 +10917,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10914,9 +10928,9 @@
    "name": "Tanned Leather",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10925,9 +10939,9 @@
    "name": "Tannin",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10938,9 +10952,9 @@
     "function:travel",
     "kind:transport",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10953,9 +10967,9 @@
     "function:travel",
     "kind:transport",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10966,9 +10980,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10977,9 +10991,9 @@
    "name": "Torchberries",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -10990,9 +11004,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11003,9 +11017,9 @@
     "function:travel",
     "kind:transport",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11018,9 +11032,9 @@
     "function:travel",
     "kind:transport",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11030,9 +11044,9 @@
    "tags": [
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11043,9 +11057,9 @@
     "function:transfer",
     "kind:gadget",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11053,12 +11067,12 @@
    "kind": "item",
    "name": "Traveller's Boots",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11067,9 +11081,9 @@
    "name": "Traveller's Gloves",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11079,9 +11093,9 @@
    "tags": [
     "kind:gadget",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11090,9 +11104,9 @@
    "name": "Traveller's Vest",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11101,9 +11115,9 @@
    "name": "Traveller's Wings",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11112,9 +11126,9 @@
    "name": "Treated Leather",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11123,11 +11137,11 @@
    "name": "Tri-Bow",
    "tags": [
     "function:defend",
-    "kind:tool",
     "role:optional",
+    "needs:none",
+    "kind:tool",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11138,9 +11152,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11150,9 +11164,9 @@
    "tags": [
     "kind:food",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11163,9 +11177,9 @@
     "function:travel",
     "kind:transport",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11178,9 +11192,9 @@
     "function:travel",
     "kind:transport",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11189,9 +11203,9 @@
    "name": "Scepter of Twilight",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11202,9 +11216,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11239,9 +11253,9 @@
    "name": "Venison Jerky",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11252,9 +11266,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11265,9 +11279,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11277,9 +11291,9 @@
    "tags": [
     "kind:material",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11287,12 +11301,12 @@
    "kind": "item",
    "name": "Yeti Boots",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11300,12 +11314,12 @@
    "kind": "item",
    "name": "Yeti Jacket",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11313,12 +11327,12 @@
    "kind": "item",
    "name": "Yeti Horned Helm",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11326,12 +11340,12 @@
    "kind": "item",
    "name": "Yeti Leggings",
    "tags": [
+    "role:optional",
+    "needs:none",
     "kind:armor",
     "function:defend",
-    "role:optional",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11342,9 +11356,9 @@
     "kind:food",
     "kind:consumable",
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -11353,9 +11367,359 @@
    "name": "Zombie Scepter",
    "tags": [
     "role:optional",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.fire_jet_fuel": {
+   "kind": "fluid",
+   "name": "Fire Jet Fuel",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.gems.carminite": {
+   "kind": "item",
+   "name": "Carminite Gems",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.ingots.fiery": {
+   "kind": "item",
+   "name": "Fiery Ingots",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.ingots.ironwood": {
+   "kind": "item",
+   "name": "Ironwood Ingots",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.ingots.knightmetal": {
+   "kind": "item",
+   "name": "Knightmetal Ingots",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.ingots.steeleaf": {
+   "kind": "item",
+   "name": "Steeleaf Ingots",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.ingots.wrought_iron": {
+   "kind": "item",
+   "name": "Wrought Iron Ingots",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.paper": {
+   "kind": "item",
+   "name": "Papers",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.raw_materials.ironwood": {
+   "kind": "item",
+   "name": "Raw Ironwood",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.raw_materials.knightmetal": {
+   "kind": "item",
+   "name": "Raw Knightmetal",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.arctic_fur": {
+   "kind": "item",
+   "name": "Arctic Fur Storage Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.carminite": {
+   "kind": "item",
+   "name": "Carminite Storage Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.fiery": {
+   "kind": "item",
+   "name": "Fiery Storage Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.ironwood": {
+   "kind": "item",
+   "name": "Ironwood Storage Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.knightmetal": {
+   "kind": "item",
+   "name": "Knightmetal Storage Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.steeleaf": {
+   "kind": "item",
+   "name": "Steeleaf Storage Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.arctic_fur": {
+   "kind": "item",
+   "name": "Arctic Fur",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.banisters": {
+   "kind": "item",
+   "name": "Banisters",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.banned_uncraftables": {
+   "kind": "item",
+   "name": "Can't be Uncrafted",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.banned_uncrafting_ingredients": {
+   "kind": "item",
+   "name": "Banned Uncrafting Ingredients",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.boar_tempt_items": {
+   "kind": "item",
+   "name": "Boar Temptables",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.canopy_logs": {
+   "kind": "item",
+   "name": "Canopy Logs",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.darkwood_logs": {
+   "kind": "item",
+   "name": "Darkwood Logs",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.deer_tempt_items": {
+   "kind": "item",
+   "name": "Deer Temptables",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.dwarf_rabbit_tempt_items": {
+   "kind": "item",
+   "name": "Dwarf Rabbit Temptables",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.enchantable.block_and_chain": {
+   "kind": "item",
+   "name": "Block and Chain Enchantable",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.fiery_vial": {
+   "kind": "item",
+   "name": "Fiery Vials",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.immune_to_thorns": {
+   "kind": "item",
+   "name": "Immune to Thorns",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.kobold_pacification_breads": {
+   "kind": "item",
+   "name": "Kobold Pacification Items",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.logs": {
+   "kind": "item",
+   "name": "Twilight Forest Logs",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.mangrove_logs": {
+   "kind": "item",
+   "name": "Mangrove Logs",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.mining_logs": {
+   "kind": "item",
+   "name": "Miningwood Logs",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.portal.activator": {
+   "kind": "item",
+   "name": "Twilight Forest Portal Activators",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.raven_tempt_items": {
+   "kind": "item",
+   "name": "Raven Temptables",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.repairs_fiery_tools": {
+   "kind": "item",
+   "name": "Repairs Fiery Tools",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.repairs_giant_tools": {
+   "kind": "item",
+   "name": "Repairs Giant Tools",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.repairs_ice_tools": {
+   "kind": "item",
+   "name": "Repairs Ice Tools",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.repairs_ironwood_tools": {
+   "kind": "item",
+   "name": "Repairs Ironwood Tools",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.repairs_knightmetal_tools": {
+   "kind": "item",
+   "name": "Repairs Knightmetal Tools",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.repairs_steeleaf_tools": {
+   "kind": "item",
+   "name": "Repairs Steeleaf Tools",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.scepters": {
+   "kind": "item",
+   "name": "Scepters",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.sortwood_logs": {
+   "kind": "item",
+   "name": "Sortingwood Logs",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.squirrel_tempt_items": {
+   "kind": "item",
+   "name": "Squirrel Temptables",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.timewood_logs": {
+   "kind": "item",
+   "name": "Timewood Logs",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.tiny_bird_tempt_items": {
+   "kind": "item",
+   "name": "Tiny Bird Temptables",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.towerwood": {
+   "kind": "item",
+   "name": "Towerwood Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.transwood_logs": {
+   "kind": "item",
+   "name": "Transformation Logs",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.twilight_oak_logs": {
+   "kind": "item",
+   "name": "Twilight Oak Logs",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.uncrafting_ignores_cost": {
+   "kind": "item",
+   "name": "Uncrafting Table Ignores Cost",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:twilightforest.wip": {
+   "kind": "item",
+   "name": "Work In Progress Items",
+   "tags": [
     "review:checked"
    ]
   }

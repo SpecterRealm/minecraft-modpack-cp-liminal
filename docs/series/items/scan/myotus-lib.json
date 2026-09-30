@@ -16,10 +16,24 @@
    }
   },
   {
+   "id": "ae2wtlib",
+   "slug": "applied-energistics-2-wireless-terminals",
+   "evidence": {
+    "isLoaded": 1
+   }
+  },
+  {
    "id": "guideme",
    "slug": "guideme",
    "evidence": {
     "compat-import": 1
+   }
+  },
+  {
+   "id": "examplemod",
+   "slug": "txnilib",
+   "evidence": {
+    "isLoaded": 1
    }
   }
  ],
@@ -29,9 +43,9 @@
    "name": "Diamond Upgrade Card",
    "tags": [
     "kind:gadget",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   }

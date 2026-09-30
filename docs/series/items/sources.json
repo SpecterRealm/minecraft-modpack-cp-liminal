@@ -1574,6 +1574,24 @@
    "ref": "1.21",
    "ref_kind": "branch",
    "check": "ok"
+  },
+  "enderio": {
+   "repo": "Team-EnderIO/EnderIO",
+   "note": "candidate (not in any pack): capacitor banks, conduits, machines",
+   "candidate": true,
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "rftools-power": {
+   "repo": "McJtyMods/RFToolsPower",
+   "note": "candidate (not in any pack): power generation and storage",
+   "candidate": true,
+   "verified": true,
+   "ref": "1.21_neo",
+   "ref_kind": "branch",
+   "check": "ok"
   }
  }
 }

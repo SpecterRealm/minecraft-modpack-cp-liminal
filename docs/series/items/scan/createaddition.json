@@ -5,7 +5,7 @@
  "mod_ids": [
   "createaddition"
  ],
- "item_count": 57,
+ "item_count": 58,
  "compat": [
   {
    "id": "ae2",
@@ -60,9 +60,9 @@
    "name": "Barbed Wire",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -71,9 +71,9 @@
    "name": "Bioethanol",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -82,9 +82,9 @@
    "name": "Biomass Pallet",
    "tags": [
     "kind:material",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -93,9 +93,9 @@
    "name": "Chocolate Cake",
    "tags": [
     "kind:food",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -116,10 +116,10 @@
    "name": "Creative Generator",
    "tags": [
     "function:generate",
-    "power-role:makes",
     "kind:block",
-    "power-type:none",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -165,9 +165,9 @@
    "name": "Electrum Block",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -176,9 +176,9 @@
    "name": "Honey Cake",
    "tags": [
     "kind:food",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -210,11 +210,11 @@
    "kind": "block",
    "name": "Accumulator",
    "tags": [
+    "scale:size-scaled",
     "kind:multiblock",
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "scale:size-scaled",
     "needs:none",
     "review:checked"
    ]
@@ -261,9 +261,9 @@
    "tags": [
     "function:farm",
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -309,9 +309,9 @@
    "name": "Bucket of Biofuel",
    "tags": [
     "kind:tool",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -353,9 +353,9 @@
    "name": "Cake Base",
    "tags": [
     "kind:food",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -364,9 +364,9 @@
    "name": "Baked Cake Base",
    "tags": [
     "kind:food",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -431,9 +431,9 @@
    "name": "Diamond Grit Sand Paper",
    "tags": [
     "kind:material",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -442,9 +442,9 @@
    "name": "Pale Gold Amulet",
    "tags": [
     "kind:gadget",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -586,9 +586,9 @@
    "tags": [
     "kind:tool",
     "function:farm",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -596,9 +596,9 @@
    "kind": "item",
    "name": "Empty Spool",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -606,9 +606,9 @@
    "kind": "item",
    "name": "Straw",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -638,9 +638,9 @@
    "kind": "item",
    "name": "Brass Figurine",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -648,9 +648,9 @@
    "kind": "item",
    "name": "Copper Goblet",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -658,9 +658,9 @@
    "kind": "item",
    "name": "Ornate Goblet",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -675,12 +675,19 @@
    "kind": "block",
    "name": "Accumulator",
    "tags": [
+    "scale:size-scaled",
     "kind:multiblock",
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "scale:size-scaled",
     "needs:none",
+    "review:checked"
+   ]
+  },
+  "tag:c.ignites": {
+   "kind": "fluid",
+   "name": "Ignitable fluids",
+   "tags": [
     "review:checked"
    ]
   }

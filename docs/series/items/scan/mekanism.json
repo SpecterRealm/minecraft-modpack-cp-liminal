@@ -9,7 +9,7 @@
   "mekanismtests",
   "mekanismtools"
  ],
- "item_count": 861,
+ "item_count": 1073,
  "compat": [
   {
    "id": "ae2",
@@ -23,6 +23,13 @@
    "slug": "applied-energistics-2",
    "evidence": {
     "compat-import": 1
+   }
+  },
+  {
+   "id": "appmek",
+   "slug": "applied-mekanistics",
+   "evidence": {
+    "dependency": 1
    }
   },
   {
@@ -45,6 +52,13 @@
    "evidence": {
     "compat-import": 1,
     "data-ref": 12
+   }
+  },
+  {
+   "id": "fastbench",
+   "slug": "fastworkbench",
+   "evidence": {
+    "isLoaded": 1
    }
   },
   {
@@ -1963,9 +1977,9 @@
    "name": "Superheating Element",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -4154,6 +4168,1224 @@
     "review:checked"
    ]
   },
+  "tag:c.brine": {
+   "kind": "fluid",
+   "name": "Brine",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.chlorine": {
+   "kind": "fluid",
+   "name": "Chlorine",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.ethene": {
+   "kind": "fluid",
+   "name": "Ethene",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.heavy_water": {
+   "kind": "fluid",
+   "name": "Heavy Water",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.hydrofluoric_acid": {
+   "kind": "fluid",
+   "name": "Hydrofluoric Acid",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.hydrogen": {
+   "kind": "fluid",
+   "name": "Hydrogen",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.hydrogen_chloride": {
+   "kind": "fluid",
+   "name": "Hydrogen Chloride",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.lithium": {
+   "kind": "fluid",
+   "name": "Lithium",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.nutritional_paste": {
+   "kind": "fluid",
+   "name": "Nutritional Paste",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.oxygen": {
+   "kind": "fluid",
+   "name": "Oxygen",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.sodium": {
+   "kind": "fluid",
+   "name": "Sodium",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.steam": {
+   "kind": "fluid",
+   "name": "Steam",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.sulfur_dioxide": {
+   "kind": "fluid",
+   "name": "Sulfur Dioxide",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.sulfur_trioxide": {
+   "kind": "fluid",
+   "name": "Sulfur Trioxide",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.sulfuric_acid": {
+   "kind": "fluid",
+   "name": "Sulfuric Acid",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.superheated_sodium": {
+   "kind": "fluid",
+   "name": "Superheated Sodium",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.uranium_hexafluoride": {
+   "kind": "fluid",
+   "name": "Uranium Hexafluoride",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.uranium_oxide": {
+   "kind": "fluid",
+   "name": "Uranium Oxide",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.alloys": {
+   "kind": "item",
+   "name": "Alloys",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.alloys.advanced": {
+   "kind": "item",
+   "name": "Advanced Alloys",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.alloys.elite": {
+   "kind": "item",
+   "name": "Elite Alloys",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.alloys.ultimate": {
+   "kind": "item",
+   "name": "Ultimate Alloys",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.buckets.brine": {
+   "kind": "item",
+   "name": "Brine Buckets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.buckets.chlorine": {
+   "kind": "item",
+   "name": "Liquid Chlorine Buckets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.buckets.ethene": {
+   "kind": "item",
+   "name": "Liquid Ethene Buckets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.buckets.heavy_water": {
+   "kind": "item",
+   "name": "Heavy Water Buckets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.buckets.hydrofluoric_acid": {
+   "kind": "item",
+   "name": "Liquid Hydrofluoric Acid Buckets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.buckets.hydrogen": {
+   "kind": "item",
+   "name": "Liquid Hydrogen Buckets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.buckets.hydrogen_chloride": {
+   "kind": "item",
+   "name": "Liquid Hydrogen Chloride Buckets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.buckets.lithium": {
+   "kind": "item",
+   "name": "Liquid Lithium Buckets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.buckets.nutritional_paste": {
+   "kind": "item",
+   "name": "Nutritional Paste Buckets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.buckets.oxygen": {
+   "kind": "item",
+   "name": "Liquid Oxygen Buckets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.buckets.sodium": {
+   "kind": "item",
+   "name": "Liquid Sodium Buckets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.buckets.steam": {
+   "kind": "item",
+   "name": "Liquid Steam Buckets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.buckets.sulfur_dioxide": {
+   "kind": "item",
+   "name": "Liquid Sulfur Dioxide Buckets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.buckets.sulfur_trioxide": {
+   "kind": "item",
+   "name": "Liquid Sulfur Trioxide Buckets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.buckets.sulfuric_acid": {
+   "kind": "item",
+   "name": "Liquid Sulfuric Acid Buckets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.buckets.superheated_sodium": {
+   "kind": "item",
+   "name": "Liquid Superheated Sodium Buckets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.buckets.uranium_hexafluoride": {
+   "kind": "item",
+   "name": "Liquid Uranium Hexafluoride Buckets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.buckets.uranium_oxide": {
+   "kind": "item",
+   "name": "Liquid Uranium Oxide Buckets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.circuits": {
+   "kind": "item",
+   "name": "Circuits",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.circuits.advanced": {
+   "kind": "item",
+   "name": "Advanced Circuits",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.circuits.basic": {
+   "kind": "item",
+   "name": "Basic Circuits",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.circuits.elite": {
+   "kind": "item",
+   "name": "Elite Circuits",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.circuits.ultimate": {
+   "kind": "item",
+   "name": "Ultimate Circuits",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.clumps.copper": {
+   "kind": "item",
+   "name": "Copper Clumps",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.clumps.gold": {
+   "kind": "item",
+   "name": "Gold Clumps",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.clumps.iron": {
+   "kind": "item",
+   "name": "Iron Clumps",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.clumps.lead": {
+   "kind": "item",
+   "name": "Lead Clumps",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.clumps.osmium": {
+   "kind": "item",
+   "name": "Osmium Clumps",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.clumps.tin": {
+   "kind": "item",
+   "name": "Tin Clumps",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.clumps.uranium": {
+   "kind": "item",
+   "name": "Uranium Clumps",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.crystals.copper": {
+   "kind": "item",
+   "name": "Copper Crystals",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.crystals.gold": {
+   "kind": "item",
+   "name": "Gold Crystals",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.crystals.iron": {
+   "kind": "item",
+   "name": "Iron Crystals",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.crystals.lead": {
+   "kind": "item",
+   "name": "Lead Crystals",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.crystals.osmium": {
+   "kind": "item",
+   "name": "Osmium Crystals",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.crystals.tin": {
+   "kind": "item",
+   "name": "Tin Crystals",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.crystals.uranium": {
+   "kind": "item",
+   "name": "Uranium Crystals",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dirty_dusts.copper": {
+   "kind": "item",
+   "name": "Dirty Copper Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dirty_dusts.gold": {
+   "kind": "item",
+   "name": "Dirty Gold Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dirty_dusts.iron": {
+   "kind": "item",
+   "name": "Dirty Iron Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dirty_dusts.lead": {
+   "kind": "item",
+   "name": "Dirty Lead Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dirty_dusts.osmium": {
+   "kind": "item",
+   "name": "Dirty Osmium Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dirty_dusts.tin": {
+   "kind": "item",
+   "name": "Dirty Tin Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dirty_dusts.uranium": {
+   "kind": "item",
+   "name": "Dirty Uranium Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.bronze": {
+   "kind": "item",
+   "name": "Bronze Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.charcoal": {
+   "kind": "item",
+   "name": "Charcoal Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.coal": {
+   "kind": "item",
+   "name": "Coal Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.copper": {
+   "kind": "item",
+   "name": "Copper Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.diamond": {
+   "kind": "item",
+   "name": "Diamond Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.emerald": {
+   "kind": "item",
+   "name": "Emerald Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.fluorite": {
+   "kind": "item",
+   "name": "Fluorite Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.gold": {
+   "kind": "item",
+   "name": "Gold Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.iron": {
+   "kind": "item",
+   "name": "Iron Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.lapis": {
+   "kind": "item",
+   "name": "Lapis Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.lead": {
+   "kind": "item",
+   "name": "Lead Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.lithium": {
+   "kind": "item",
+   "name": "Lithium Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.netherite": {
+   "kind": "item",
+   "name": "Netherite Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.obsidian": {
+   "kind": "item",
+   "name": "Obsidian Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.osmium": {
+   "kind": "item",
+   "name": "Osmium Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.quartz": {
+   "kind": "item",
+   "name": "Quartz Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.refined_obsidian": {
+   "kind": "item",
+   "name": "Refined Obsidian Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.salt": {
+   "kind": "item",
+   "name": "Salts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.steel": {
+   "kind": "item",
+   "name": "Steel Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.sulfur": {
+   "kind": "item",
+   "name": "Sulfur Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.tin": {
+   "kind": "item",
+   "name": "Tin Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.uranium": {
+   "kind": "item",
+   "name": "Uranium Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.wood": {
+   "kind": "item",
+   "name": "Sawdusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.fuels": {
+   "kind": "item",
+   "name": "Fuels",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.fuels.bio": {
+   "kind": "item",
+   "name": "Bio Fuels",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.fuels.block.bio": {
+   "kind": "item",
+   "name": "Bio Storage Block Fuels",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.gems.fluorite": {
+   "kind": "item",
+   "name": "Fluorite",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.ingots.bronze": {
+   "kind": "item",
+   "name": "Bronze Ingots",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.ingots.lead": {
+   "kind": "item",
+   "name": "Lead Ingots",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.ingots.osmium": {
+   "kind": "item",
+   "name": "Osmium Ingots",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.ingots.refined_glowstone": {
+   "kind": "item",
+   "name": "Refined Glowstone Ingots",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.ingots.refined_obsidian": {
+   "kind": "item",
+   "name": "Refined Obsidian Ingots",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.ingots.steel": {
+   "kind": "item",
+   "name": "Steel Ingots",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.ingots.tin": {
+   "kind": "item",
+   "name": "Tin Ingots",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.ingots.uranium": {
+   "kind": "item",
+   "name": "Uranium Ingots",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.nuggets.bronze": {
+   "kind": "item",
+   "name": "Bronze Nuggets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.nuggets.lead": {
+   "kind": "item",
+   "name": "Lead Nuggets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.nuggets.osmium": {
+   "kind": "item",
+   "name": "Osmium Nuggets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.nuggets.refined_glowstone": {
+   "kind": "item",
+   "name": "Refined Glowstone Nuggets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.nuggets.refined_obsidian": {
+   "kind": "item",
+   "name": "Refined Obsidian Nuggets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.nuggets.steel": {
+   "kind": "item",
+   "name": "Steel Nuggets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.nuggets.tin": {
+   "kind": "item",
+   "name": "Tin Nuggets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.nuggets.uranium": {
+   "kind": "item",
+   "name": "Uranium Nuggets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.ores.fluorite": {
+   "kind": "item",
+   "name": "Fluorite Ores",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.ores.lead": {
+   "kind": "item",
+   "name": "Lead Ores",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.ores.osmium": {
+   "kind": "item",
+   "name": "Osmium Ores",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.ores.tin": {
+   "kind": "item",
+   "name": "Tin Ores",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.ores.uranium": {
+   "kind": "item",
+   "name": "Uranium Ores",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.pellets.antimatter": {
+   "kind": "item",
+   "name": "Antimatter Pellets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.pellets.plutonium": {
+   "kind": "item",
+   "name": "Plutonium Pellets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.pellets.polonium": {
+   "kind": "item",
+   "name": "Polonium Pellets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.raw_materials.lead": {
+   "kind": "item",
+   "name": "Raw Lead",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.raw_materials.osmium": {
+   "kind": "item",
+   "name": "Raw Osmium",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.raw_materials.tin": {
+   "kind": "item",
+   "name": "Raw Tin",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.raw_materials.uranium": {
+   "kind": "item",
+   "name": "Raw Uranium",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.rods.plastic": {
+   "kind": "item",
+   "name": "Plastic Rods",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.shards.copper": {
+   "kind": "item",
+   "name": "Copper Shards",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.shards.gold": {
+   "kind": "item",
+   "name": "Gold Shards",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.shards.iron": {
+   "kind": "item",
+   "name": "Iron Shards",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.shards.lead": {
+   "kind": "item",
+   "name": "Lead Shards",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.shards.osmium": {
+   "kind": "item",
+   "name": "Osmium Shards",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.shards.tin": {
+   "kind": "item",
+   "name": "Tin Shards",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.shards.uranium": {
+   "kind": "item",
+   "name": "Uranium Shards",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.bronze": {
+   "kind": "item",
+   "name": "Bronze Storage Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.charcoal": {
+   "kind": "item",
+   "name": "Charcoal Storage Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.fluorite": {
+   "kind": "item",
+   "name": "Fluorite Storage Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.lead": {
+   "kind": "item",
+   "name": "Lead Storage Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.osmium": {
+   "kind": "item",
+   "name": "Osmium Storage Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.raw_lead": {
+   "kind": "item",
+   "name": "Raw Lead Storage Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.raw_osmium": {
+   "kind": "item",
+   "name": "Raw Osmium Storage Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.raw_tin": {
+   "kind": "item",
+   "name": "Raw Tin Storage Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.raw_uranium": {
+   "kind": "item",
+   "name": "Raw Uranium Storage Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.refined_glowstone": {
+   "kind": "item",
+   "name": "Refined Glowstone Storage Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.refined_obsidian": {
+   "kind": "item",
+   "name": "Refined Obsidian Storage Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.steel": {
+   "kind": "item",
+   "name": "Steel Storage Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.tin": {
+   "kind": "item",
+   "name": "Tin Storage Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.uranium": {
+   "kind": "item",
+   "name": "Uranium Storage Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.alloys": {
+   "kind": "item",
+   "name": "Alloys",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.alloys.atomic": {
+   "kind": "item",
+   "name": "Atomic Alloys",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.alloys.basic": {
+   "kind": "item",
+   "name": "Basic Alloys",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.alloys.infused": {
+   "kind": "item",
+   "name": "Infused Alloys",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.alloys.reinforced": {
+   "kind": "item",
+   "name": "Reinforced Alloys",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.clumps": {
+   "kind": "item",
+   "name": "Clumps",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.colorable.banners": {
+   "kind": "item",
+   "name": "Colorable Banners",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.colorable.beds": {
+   "kind": "item",
+   "name": "Colorable Beds",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.colorable.candle": {
+   "kind": "item",
+   "name": "Colorable Candles",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.colorable.carpets": {
+   "kind": "item",
+   "name": "Colorable Carpets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.colorable.concrete": {
+   "kind": "item",
+   "name": "Colorable Concrete",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.colorable.concrete_powder": {
+   "kind": "item",
+   "name": "Colorable Concrete Powders",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.colorable.glass": {
+   "kind": "item",
+   "name": "Colorable Glass",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.colorable.glass_panes": {
+   "kind": "item",
+   "name": "Colorable Glass Panes",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.colorable.terracotta": {
+   "kind": "item",
+   "name": "Colorable Terracotta",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.colorable.wool": {
+   "kind": "item",
+   "name": "Colorable Wool",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.crystals": {
+   "kind": "item",
+   "name": "Crystals",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.dirty_dusts": {
+   "kind": "item",
+   "name": "Dirty Dusts",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.enriched": {
+   "kind": "item",
+   "name": "Enriched",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.enriched.carbon": {
+   "kind": "item",
+   "name": "Enriched Carbon",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.enriched.diamond": {
+   "kind": "item",
+   "name": "Enriched Diamond",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.enriched.gold": {
+   "kind": "item",
+   "name": "Enriched Gold",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.enriched.obsidian": {
+   "kind": "item",
+   "name": "Enriched Obsidian",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.enriched.redstone": {
+   "kind": "item",
+   "name": "Enriched Redstone",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.enriched.tin": {
+   "kind": "item",
+   "name": "Enriched Tin",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.mekasuit_hud_renderer": {
+   "kind": "item",
+   "name": "Renders MekaSuit HUD",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.muffling_center": {
+   "kind": "item",
+   "name": "Muffling Upgrade Usable Ingots",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.personal_storage": {
+   "kind": "item",
+   "name": "Personal Storage",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.shards": {
+   "kind": "item",
+   "name": "Shards",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.stone_crafting_materials": {
+   "kind": "item",
+   "name": "Stone Crafting Materials",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanism.unit": {
+   "kind": "item",
+   "name": "Meka Units",
+   "tags": [
+    "review:checked"
+   ]
+  },
   "mekanismgenerators:advanced_solar_generator": {
    "kind": "block",
    "name": "Advanced Solar Generator",
@@ -4163,6 +5395,7 @@
     "power-role:makes",
     "power-type:fe",
     "needs:none",
+    "fuel:sun",
     "review:checked"
    ]
   },
@@ -4175,6 +5408,7 @@
     "power-role:makes",
     "power-type:fe",
     "needs:none",
+    "fuel:biomass",
     "review:checked"
    ]
   },
@@ -4360,6 +5594,7 @@
     "power-role:makes",
     "power-type:fe",
     "needs:none",
+    "fuel:gas",
     "review:checked"
    ]
   },
@@ -4372,6 +5607,8 @@
     "power-role:makes",
     "power-type:fe",
     "needs:none",
+    "fuel:liquid",
+    "fuel:solid",
     "review:checked"
    ]
   },
@@ -4438,6 +5675,7 @@
     "power-role:makes",
     "power-type:fe",
     "needs:none",
+    "fuel:sun",
     "review:checked"
    ]
   },
@@ -4513,6 +5751,7 @@
     "power-role:makes",
     "power-type:fe",
     "needs:none",
+    "fuel:wind",
     "review:checked"
    ]
   },
@@ -4569,10 +5808,10 @@
    "name": "Solar Panel",
    "tags": [
     "function:generate",
-    "power-role:makes",
     "kind:decoration",
-    "power-type:none",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
     "review:checked"
    ]
   },
@@ -4600,13 +5839,69 @@
     "review:checked"
    ]
   },
+  "tag:c.bioethanol": {
+   "kind": "fluid",
+   "name": "Bioethanol",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.deuterium": {
+   "kind": "fluid",
+   "name": "Deuterium",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.fusion_fuel": {
+   "kind": "fluid",
+   "name": "D-T Fuels",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.tritium": {
+   "kind": "fluid",
+   "name": "Tritium",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.buckets.bioethanol": {
+   "kind": "item",
+   "name": "Bioethanol Buckets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.buckets.deuterium": {
+   "kind": "item",
+   "name": "Liquid Deuterium Buckets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.buckets.fusion_fuel": {
+   "kind": "item",
+   "name": "Liquid D-T Fuel Buckets",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.buckets.tritium": {
+   "kind": "item",
+   "name": "Liquid Tritium Buckets",
+   "tags": [
+    "review:checked"
+   ]
+  },
   "mekanismadditions:aqua_glow_panel": {
    "kind": "block",
    "name": "Aqua Glow Panel",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4616,9 +5911,9 @@
    "kind": "block",
    "name": "Aqua Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4628,9 +5923,9 @@
    "kind": "block",
    "name": "Aqua Plastic Barrier",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4640,9 +5935,9 @@
    "kind": "block",
    "name": "Aqua Plastic Gate",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4652,9 +5947,9 @@
    "kind": "block",
    "name": "Aqua Glow Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4664,9 +5959,9 @@
    "kind": "block",
    "name": "Aqua Glow Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4676,9 +5971,9 @@
    "kind": "block",
    "name": "Aqua Glow Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4688,9 +5983,9 @@
    "kind": "block",
    "name": "Aqua Plastic Road",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4700,9 +5995,9 @@
    "kind": "block",
    "name": "Aqua Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4712,9 +6007,9 @@
    "kind": "block",
    "name": "Aqua Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4724,9 +6019,9 @@
    "kind": "block",
    "name": "Aqua Transparent Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4736,9 +6031,9 @@
    "kind": "block",
    "name": "Aqua Transparent Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4748,9 +6043,9 @@
    "kind": "block",
    "name": "Aqua Transparent Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4760,9 +6055,9 @@
    "kind": "block",
    "name": "Aqua Reinforced Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4772,9 +6067,9 @@
    "kind": "block",
    "name": "Aqua Slick Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4784,9 +6079,9 @@
    "kind": "block",
    "name": "Black Glow Panel",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4796,9 +6091,9 @@
    "kind": "block",
    "name": "Black Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4808,9 +6103,9 @@
    "kind": "block",
    "name": "Black Plastic Barrier",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4820,9 +6115,9 @@
    "kind": "block",
    "name": "Black Plastic Gate",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4832,9 +6127,9 @@
    "kind": "block",
    "name": "Black Glow Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4844,9 +6139,9 @@
    "kind": "block",
    "name": "Black Glow Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4856,9 +6151,9 @@
    "kind": "block",
    "name": "Black Glow Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4868,9 +6163,9 @@
    "kind": "block",
    "name": "Black Plastic Road",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4880,9 +6175,9 @@
    "kind": "block",
    "name": "Black Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4892,9 +6187,9 @@
    "kind": "block",
    "name": "Black Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4904,9 +6199,9 @@
    "kind": "block",
    "name": "Black Transparent Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4916,9 +6211,9 @@
    "kind": "block",
    "name": "Black Transparent Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4928,9 +6223,9 @@
    "kind": "block",
    "name": "Black Transparent Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4940,9 +6235,9 @@
    "kind": "block",
    "name": "Black Reinforced Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4952,9 +6247,9 @@
    "kind": "block",
    "name": "Black Slick Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4964,9 +6259,9 @@
    "kind": "block",
    "name": "Blue Glow Panel",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4976,9 +6271,9 @@
    "kind": "block",
    "name": "Blue Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -4988,9 +6283,9 @@
    "kind": "block",
    "name": "Blue Plastic Barrier",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5000,9 +6295,9 @@
    "kind": "block",
    "name": "Blue Plastic Gate",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5012,9 +6307,9 @@
    "kind": "block",
    "name": "Blue Glow Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5024,9 +6319,9 @@
    "kind": "block",
    "name": "Blue Glow Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5036,9 +6331,9 @@
    "kind": "block",
    "name": "Blue Glow Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5048,9 +6343,9 @@
    "kind": "block",
    "name": "Blue Plastic Road",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5060,9 +6355,9 @@
    "kind": "block",
    "name": "Blue Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5072,9 +6367,9 @@
    "kind": "block",
    "name": "Blue Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5084,9 +6379,9 @@
    "kind": "block",
    "name": "Blue Transparent Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5096,9 +6391,9 @@
    "kind": "block",
    "name": "Blue Transparent Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5108,9 +6403,9 @@
    "kind": "block",
    "name": "Blue Transparent Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5120,9 +6415,9 @@
    "kind": "block",
    "name": "Blue Reinforced Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5132,9 +6427,9 @@
    "kind": "block",
    "name": "Blue Slick Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5144,9 +6439,9 @@
    "kind": "block",
    "name": "Brown Glow Panel",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5156,9 +6451,9 @@
    "kind": "block",
    "name": "Brown Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5168,9 +6463,9 @@
    "kind": "block",
    "name": "Brown Plastic Barrier",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5180,9 +6475,9 @@
    "kind": "block",
    "name": "Brown Plastic Gate",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5192,9 +6487,9 @@
    "kind": "block",
    "name": "Brown Glow Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5204,9 +6499,9 @@
    "kind": "block",
    "name": "Brown Glow Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5216,9 +6511,9 @@
    "kind": "block",
    "name": "Brown Glow Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5228,9 +6523,9 @@
    "kind": "block",
    "name": "Brown Plastic Road",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5240,9 +6535,9 @@
    "kind": "block",
    "name": "Brown Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5252,9 +6547,9 @@
    "kind": "block",
    "name": "Brown Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5264,9 +6559,9 @@
    "kind": "block",
    "name": "Brown Transparent Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5276,9 +6571,9 @@
    "kind": "block",
    "name": "Brown Transparent Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5288,9 +6583,9 @@
    "kind": "block",
    "name": "Brown Transparent Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5300,9 +6595,9 @@
    "kind": "block",
    "name": "Brown Reinforced Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5312,9 +6607,9 @@
    "kind": "block",
    "name": "Brown Slick Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5324,9 +6619,9 @@
    "kind": "block",
    "name": "Cyan Glow Panel",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5336,9 +6631,9 @@
    "kind": "block",
    "name": "Cyan Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5348,9 +6643,9 @@
    "kind": "block",
    "name": "Cyan Plastic Barrier",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5360,9 +6655,9 @@
    "kind": "block",
    "name": "Cyan Plastic Gate",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5372,9 +6667,9 @@
    "kind": "block",
    "name": "Cyan Glow Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5384,9 +6679,9 @@
    "kind": "block",
    "name": "Cyan Glow Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5396,9 +6691,9 @@
    "kind": "block",
    "name": "Cyan Glow Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5408,9 +6703,9 @@
    "kind": "block",
    "name": "Cyan Plastic Road",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5420,9 +6715,9 @@
    "kind": "block",
    "name": "Cyan Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5432,9 +6727,9 @@
    "kind": "block",
    "name": "Cyan Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5444,9 +6739,9 @@
    "kind": "block",
    "name": "Cyan Transparent Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5456,9 +6751,9 @@
    "kind": "block",
    "name": "Cyan Transparent Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5468,9 +6763,9 @@
    "kind": "block",
    "name": "Cyan Transparent Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5480,9 +6775,9 @@
    "kind": "block",
    "name": "Cyan Reinforced Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5492,9 +6787,9 @@
    "kind": "block",
    "name": "Cyan Slick Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5504,9 +6799,9 @@
    "kind": "block",
    "name": "Dark Red Glow Panel",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5516,9 +6811,9 @@
    "kind": "block",
    "name": "Dark Red Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5528,9 +6823,9 @@
    "kind": "block",
    "name": "Dark Red Plastic Barrier",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5540,9 +6835,9 @@
    "kind": "block",
    "name": "Dark Red Plastic Gate",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5552,9 +6847,9 @@
    "kind": "block",
    "name": "Dark Red Glow Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5564,9 +6859,9 @@
    "kind": "block",
    "name": "Dark Red Glow Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5576,9 +6871,9 @@
    "kind": "block",
    "name": "Dark Red Glow Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5588,9 +6883,9 @@
    "kind": "block",
    "name": "Dark Red Plastic Road",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5600,9 +6895,9 @@
    "kind": "block",
    "name": "Dark Red Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5612,9 +6907,9 @@
    "kind": "block",
    "name": "Dark Red Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5624,9 +6919,9 @@
    "kind": "block",
    "name": "Dark Red Transparent Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5636,9 +6931,9 @@
    "kind": "block",
    "name": "Dark Red Transparent Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5648,9 +6943,9 @@
    "kind": "block",
    "name": "Dark Red Transparent Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5660,9 +6955,9 @@
    "kind": "block",
    "name": "Dark Red Reinforced Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5672,9 +6967,9 @@
    "kind": "block",
    "name": "Dark Red Slick Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5684,9 +6979,9 @@
    "kind": "block",
    "name": "Gray Glow Panel",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5696,9 +6991,9 @@
    "kind": "block",
    "name": "Gray Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5708,9 +7003,9 @@
    "kind": "block",
    "name": "Gray Plastic Barrier",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5720,9 +7015,9 @@
    "kind": "block",
    "name": "Gray Plastic Gate",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5732,9 +7027,9 @@
    "kind": "block",
    "name": "Gray Glow Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5744,9 +7039,9 @@
    "kind": "block",
    "name": "Gray Glow Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5756,9 +7051,9 @@
    "kind": "block",
    "name": "Gray Glow Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5768,9 +7063,9 @@
    "kind": "block",
    "name": "Gray Plastic Road",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5780,9 +7075,9 @@
    "kind": "block",
    "name": "Gray Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5792,9 +7087,9 @@
    "kind": "block",
    "name": "Gray Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5804,9 +7099,9 @@
    "kind": "block",
    "name": "Gray Transparent Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5816,9 +7111,9 @@
    "kind": "block",
    "name": "Gray Transparent Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5828,9 +7123,9 @@
    "kind": "block",
    "name": "Gray Transparent Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5840,9 +7135,9 @@
    "kind": "block",
    "name": "Gray Reinforced Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5852,9 +7147,9 @@
    "kind": "block",
    "name": "Gray Slick Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5864,9 +7159,9 @@
    "kind": "block",
    "name": "Green Glow Panel",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5876,9 +7171,9 @@
    "kind": "block",
    "name": "Green Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5888,9 +7183,9 @@
    "kind": "block",
    "name": "Green Plastic Barrier",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5900,9 +7195,9 @@
    "kind": "block",
    "name": "Green Plastic Gate",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5912,9 +7207,9 @@
    "kind": "block",
    "name": "Green Glow Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5924,9 +7219,9 @@
    "kind": "block",
    "name": "Green Glow Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5936,9 +7231,9 @@
    "kind": "block",
    "name": "Green Glow Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5948,9 +7243,9 @@
    "kind": "block",
    "name": "Green Plastic Road",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5960,9 +7255,9 @@
    "kind": "block",
    "name": "Green Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5972,9 +7267,9 @@
    "kind": "block",
    "name": "Green Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5984,9 +7279,9 @@
    "kind": "block",
    "name": "Green Transparent Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -5996,9 +7291,9 @@
    "kind": "block",
    "name": "Green Transparent Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6008,9 +7303,9 @@
    "kind": "block",
    "name": "Green Transparent Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6020,9 +7315,9 @@
    "kind": "block",
    "name": "Green Reinforced Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6032,9 +7327,9 @@
    "kind": "block",
    "name": "Green Slick Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6044,9 +7339,9 @@
    "kind": "block",
    "name": "Light Blue Glow Panel",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6056,9 +7351,9 @@
    "kind": "block",
    "name": "Light Blue Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6068,9 +7363,9 @@
    "kind": "block",
    "name": "Light Blue Plastic Barrier",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6080,9 +7375,9 @@
    "kind": "block",
    "name": "Light Blue Plastic Gate",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6092,9 +7387,9 @@
    "kind": "block",
    "name": "Light Blue Glow Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6104,9 +7399,9 @@
    "kind": "block",
    "name": "Light Blue Glow Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6116,9 +7411,9 @@
    "kind": "block",
    "name": "Light Blue Glow Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6128,9 +7423,9 @@
    "kind": "block",
    "name": "Light Blue Plastic Road",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6140,9 +7435,9 @@
    "kind": "block",
    "name": "Light Blue Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6152,9 +7447,9 @@
    "kind": "block",
    "name": "Light Blue Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6164,9 +7459,9 @@
    "kind": "block",
    "name": "Light Blue Transparent Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6176,9 +7471,9 @@
    "kind": "block",
    "name": "Light Blue Transparent Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6188,9 +7483,9 @@
    "kind": "block",
    "name": "Light Blue Transparent Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6200,9 +7495,9 @@
    "kind": "block",
    "name": "Light Blue Reinforced Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6212,9 +7507,9 @@
    "kind": "block",
    "name": "Light Blue Slick Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6224,9 +7519,9 @@
    "kind": "block",
    "name": "Light Gray Glow Panel",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6236,9 +7531,9 @@
    "kind": "block",
    "name": "Light Gray Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6248,9 +7543,9 @@
    "kind": "block",
    "name": "Light Gray Plastic Barrier",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6260,9 +7555,9 @@
    "kind": "block",
    "name": "Light Gray Plastic Gate",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6272,9 +7567,9 @@
    "kind": "block",
    "name": "Light Gray Glow Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6284,9 +7579,9 @@
    "kind": "block",
    "name": "Light Gray Glow Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6296,9 +7591,9 @@
    "kind": "block",
    "name": "Light Gray Glow Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6308,9 +7603,9 @@
    "kind": "block",
    "name": "Light Gray Plastic Road",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6320,9 +7615,9 @@
    "kind": "block",
    "name": "Light Gray Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6332,9 +7627,9 @@
    "kind": "block",
    "name": "Light Gray Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6344,9 +7639,9 @@
    "kind": "block",
    "name": "Light Gray Transparent Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6356,9 +7651,9 @@
    "kind": "block",
    "name": "Light Gray Transparent Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6368,9 +7663,9 @@
    "kind": "block",
    "name": "Light Gray Transparent Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6380,9 +7675,9 @@
    "kind": "block",
    "name": "Light Gray Reinforced Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6392,9 +7687,9 @@
    "kind": "block",
    "name": "Light Gray Slick Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6404,9 +7699,9 @@
    "kind": "block",
    "name": "Lime Glow Panel",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6416,9 +7711,9 @@
    "kind": "block",
    "name": "Lime Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6428,9 +7723,9 @@
    "kind": "block",
    "name": "Lime Plastic Barrier",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6440,9 +7735,9 @@
    "kind": "block",
    "name": "Lime Plastic Gate",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6452,9 +7747,9 @@
    "kind": "block",
    "name": "Lime Glow Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6464,9 +7759,9 @@
    "kind": "block",
    "name": "Lime Glow Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6476,9 +7771,9 @@
    "kind": "block",
    "name": "Lime Glow Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6488,9 +7783,9 @@
    "kind": "block",
    "name": "Lime Plastic Road",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6500,9 +7795,9 @@
    "kind": "block",
    "name": "Lime Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6512,9 +7807,9 @@
    "kind": "block",
    "name": "Lime Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6524,9 +7819,9 @@
    "kind": "block",
    "name": "Lime Transparent Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6536,9 +7831,9 @@
    "kind": "block",
    "name": "Lime Transparent Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6548,9 +7843,9 @@
    "kind": "block",
    "name": "Lime Transparent Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6560,9 +7855,9 @@
    "kind": "block",
    "name": "Lime Reinforced Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6572,9 +7867,9 @@
    "kind": "block",
    "name": "Lime Slick Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6584,9 +7879,9 @@
    "kind": "block",
    "name": "Magenta Glow Panel",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6596,9 +7891,9 @@
    "kind": "block",
    "name": "Magenta Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6608,9 +7903,9 @@
    "kind": "block",
    "name": "Magenta Plastic Barrier",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6620,9 +7915,9 @@
    "kind": "block",
    "name": "Magenta Plastic Gate",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6632,9 +7927,9 @@
    "kind": "block",
    "name": "Magenta Glow Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6644,9 +7939,9 @@
    "kind": "block",
    "name": "Magenta Glow Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6656,9 +7951,9 @@
    "kind": "block",
    "name": "Magenta Glow Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6668,9 +7963,9 @@
    "kind": "block",
    "name": "Magenta Plastic Road",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6680,9 +7975,9 @@
    "kind": "block",
    "name": "Magenta Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6692,9 +7987,9 @@
    "kind": "block",
    "name": "Magenta Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6704,9 +7999,9 @@
    "kind": "block",
    "name": "Magenta Transparent Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6716,9 +8011,9 @@
    "kind": "block",
    "name": "Magenta Transparent Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6728,9 +8023,9 @@
    "kind": "block",
    "name": "Magenta Transparent Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6740,9 +8035,9 @@
    "kind": "block",
    "name": "Magenta Reinforced Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6752,9 +8047,9 @@
    "kind": "block",
    "name": "Magenta Slick Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6776,9 +8071,9 @@
    "kind": "block",
    "name": "Orange Glow Panel",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6788,9 +8083,9 @@
    "kind": "block",
    "name": "Orange Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6800,9 +8095,9 @@
    "kind": "block",
    "name": "Orange Plastic Barrier",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6812,9 +8107,9 @@
    "kind": "block",
    "name": "Orange Plastic Gate",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6824,9 +8119,9 @@
    "kind": "block",
    "name": "Orange Glow Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6836,9 +8131,9 @@
    "kind": "block",
    "name": "Orange Glow Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6848,9 +8143,9 @@
    "kind": "block",
    "name": "Orange Glow Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6860,9 +8155,9 @@
    "kind": "block",
    "name": "Orange Plastic Road",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6872,9 +8167,9 @@
    "kind": "block",
    "name": "Orange Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6884,9 +8179,9 @@
    "kind": "block",
    "name": "Orange Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6896,9 +8191,9 @@
    "kind": "block",
    "name": "Orange Transparent Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6908,9 +8203,9 @@
    "kind": "block",
    "name": "Orange Transparent Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6920,9 +8215,9 @@
    "kind": "block",
    "name": "Orange Transparent Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6932,9 +8227,9 @@
    "kind": "block",
    "name": "Orange Reinforced Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6944,9 +8239,9 @@
    "kind": "block",
    "name": "Orange Slick Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6956,9 +8251,9 @@
    "kind": "block",
    "name": "Pink Glow Panel",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6968,9 +8263,9 @@
    "kind": "block",
    "name": "Pink Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6980,9 +8275,9 @@
    "kind": "block",
    "name": "Pink Plastic Barrier",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -6992,9 +8287,9 @@
    "kind": "block",
    "name": "Pink Plastic Gate",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7004,9 +8299,9 @@
    "kind": "block",
    "name": "Pink Glow Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7016,9 +8311,9 @@
    "kind": "block",
    "name": "Pink Glow Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7028,9 +8323,9 @@
    "kind": "block",
    "name": "Pink Glow Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7040,9 +8335,9 @@
    "kind": "block",
    "name": "Pink Plastic Road",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7052,9 +8347,9 @@
    "kind": "block",
    "name": "Pink Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7064,9 +8359,9 @@
    "kind": "block",
    "name": "Pink Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7076,9 +8371,9 @@
    "kind": "block",
    "name": "Pink Transparent Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7088,9 +8383,9 @@
    "kind": "block",
    "name": "Pink Transparent Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7100,9 +8395,9 @@
    "kind": "block",
    "name": "Pink Transparent Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7112,9 +8407,9 @@
    "kind": "block",
    "name": "Pink Reinforced Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7124,9 +8419,9 @@
    "kind": "block",
    "name": "Pink Slick Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7136,9 +8431,9 @@
    "kind": "block",
    "name": "Purple Glow Panel",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7148,9 +8443,9 @@
    "kind": "block",
    "name": "Purple Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7160,9 +8455,9 @@
    "kind": "block",
    "name": "Purple Plastic Barrier",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7172,9 +8467,9 @@
    "kind": "block",
    "name": "Purple Plastic Gate",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7184,9 +8479,9 @@
    "kind": "block",
    "name": "Purple Glow Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7196,9 +8491,9 @@
    "kind": "block",
    "name": "Purple Glow Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7208,9 +8503,9 @@
    "kind": "block",
    "name": "Purple Glow Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7220,9 +8515,9 @@
    "kind": "block",
    "name": "Purple Plastic Road",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7232,9 +8527,9 @@
    "kind": "block",
    "name": "Purple Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7244,9 +8539,9 @@
    "kind": "block",
    "name": "Purple Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7256,9 +8551,9 @@
    "kind": "block",
    "name": "Purple Transparent Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7268,9 +8563,9 @@
    "kind": "block",
    "name": "Purple Transparent Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7280,9 +8575,9 @@
    "kind": "block",
    "name": "Purple Transparent Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7292,9 +8587,9 @@
    "kind": "block",
    "name": "Purple Reinforced Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7304,9 +8599,9 @@
    "kind": "block",
    "name": "Purple Slick Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7316,9 +8611,9 @@
    "kind": "block",
    "name": "Red Glow Panel",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7328,9 +8623,9 @@
    "kind": "block",
    "name": "Red Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7340,9 +8635,9 @@
    "kind": "block",
    "name": "Red Plastic Barrier",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7352,9 +8647,9 @@
    "kind": "block",
    "name": "Red Plastic Gate",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7364,9 +8659,9 @@
    "kind": "block",
    "name": "Red Glow Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7376,9 +8671,9 @@
    "kind": "block",
    "name": "Red Glow Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7388,9 +8683,9 @@
    "kind": "block",
    "name": "Red Glow Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7400,9 +8695,9 @@
    "kind": "block",
    "name": "Red Plastic Road",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7412,9 +8707,9 @@
    "kind": "block",
    "name": "Red Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7424,9 +8719,9 @@
    "kind": "block",
    "name": "Red Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7436,9 +8731,9 @@
    "kind": "block",
    "name": "Red Transparent Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7448,9 +8743,9 @@
    "kind": "block",
    "name": "Red Transparent Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7460,9 +8755,9 @@
    "kind": "block",
    "name": "Red Transparent Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7472,9 +8767,9 @@
    "kind": "block",
    "name": "Red Reinforced Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7484,9 +8779,9 @@
    "kind": "block",
    "name": "Red Slick Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7496,9 +8791,9 @@
    "kind": "block",
    "name": "White Glow Panel",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7508,9 +8803,9 @@
    "kind": "block",
    "name": "White Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7520,9 +8815,9 @@
    "kind": "block",
    "name": "White Plastic Barrier",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7532,9 +8827,9 @@
    "kind": "block",
    "name": "White Plastic Gate",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7544,9 +8839,9 @@
    "kind": "block",
    "name": "White Glow Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7556,9 +8851,9 @@
    "kind": "block",
    "name": "White Glow Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7568,9 +8863,9 @@
    "kind": "block",
    "name": "White Glow Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7580,9 +8875,9 @@
    "kind": "block",
    "name": "White Plastic Road",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7592,9 +8887,9 @@
    "kind": "block",
    "name": "White Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7604,9 +8899,9 @@
    "kind": "block",
    "name": "White Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7616,9 +8911,9 @@
    "kind": "block",
    "name": "White Transparent Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7628,9 +8923,9 @@
    "kind": "block",
    "name": "White Transparent Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7640,9 +8935,9 @@
    "kind": "block",
    "name": "White Transparent Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7652,9 +8947,9 @@
    "kind": "block",
    "name": "White Reinforced Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7664,9 +8959,9 @@
    "kind": "block",
    "name": "White Slick Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7676,9 +8971,9 @@
    "kind": "block",
    "name": "Yellow Glow Panel",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7688,9 +8983,9 @@
    "kind": "block",
    "name": "Yellow Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7700,9 +8995,9 @@
    "kind": "block",
    "name": "Yellow Plastic Barrier",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7712,9 +9007,9 @@
    "kind": "block",
    "name": "Yellow Plastic Gate",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7724,9 +9019,9 @@
    "kind": "block",
    "name": "Yellow Glow Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7736,9 +9031,9 @@
    "kind": "block",
    "name": "Yellow Glow Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7748,9 +9043,9 @@
    "kind": "block",
    "name": "Yellow Glow Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7760,9 +9055,9 @@
    "kind": "block",
    "name": "Yellow Plastic Road",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7772,9 +9067,9 @@
    "kind": "block",
    "name": "Yellow Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7784,9 +9079,9 @@
    "kind": "block",
    "name": "Yellow Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7796,9 +9091,9 @@
    "kind": "block",
    "name": "Yellow Transparent Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7808,9 +9103,9 @@
    "kind": "block",
    "name": "Yellow Transparent Plastic Slab",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7820,9 +9115,9 @@
    "kind": "block",
    "name": "Yellow Transparent Plastic Stairs",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7832,9 +9127,9 @@
    "kind": "block",
    "name": "Yellow Reinforced Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -7844,9 +9139,9 @@
    "kind": "block",
    "name": "Yellow Slick Plastic Block",
    "tags": [
+    "role:optional",
     "kind:decoration",
     "needs:none",
-    "role:optional",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -8201,6 +9496,209 @@
     "needs:none",
     "power-role:none",
     "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:c.fence_gates.plastic": {
+   "kind": "item",
+   "name": "Plastic Fence Gates",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.fences.plastic": {
+   "kind": "item",
+   "name": "Plastic Fences",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.slabs.plastic": {
+   "kind": "item",
+   "name": "Plastic Slabs",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.slabs.plastic.glow": {
+   "kind": "item",
+   "name": "Glow Plastic Slabs",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.slabs.plastic.transparent": {
+   "kind": "item",
+   "name": "Transparent Plastic Slabs",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.stairs.plastic": {
+   "kind": "item",
+   "name": "Plastic Stairs",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.stairs.plastic.glow": {
+   "kind": "item",
+   "name": "Glow Plastic Stairs",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:c.stairs.plastic.transparent": {
+   "kind": "item",
+   "name": "Transparent Plastic Stairs",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanismadditions.balloons": {
+   "kind": "item",
+   "name": "Balloons",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanismadditions.glow_panels": {
+   "kind": "item",
+   "name": "Glow Panels",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanismadditions.plastic_blocks": {
+   "kind": "item",
+   "name": "All Types of Plastic Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanismadditions.plastic_blocks.glow": {
+   "kind": "item",
+   "name": "Glow Plastic Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanismadditions.plastic_blocks.plastic": {
+   "kind": "item",
+   "name": "Plastic Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanismadditions.plastic_blocks.reinforced": {
+   "kind": "item",
+   "name": "Reinforced Plastic Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanismadditions.plastic_blocks.road": {
+   "kind": "item",
+   "name": "Plastic Roads",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanismadditions.plastic_blocks.slick": {
+   "kind": "item",
+   "name": "Slick Plastic Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanismadditions.plastic_blocks.transparent": {
+   "kind": "item",
+   "name": "Transparent Plastic Blocks",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanismadditions.plastic_fence_gates": {
+   "kind": "item",
+   "name": "Plastic Fence Gates",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanismadditions.plastic_fence_gates.normal": {
+   "kind": "item",
+   "name": "Normal Plastic Fence Gates",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanismadditions.plastic_fences": {
+   "kind": "item",
+   "name": "Plastic Fences",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanismadditions.plastic_fences.normal": {
+   "kind": "item",
+   "name": "Normal Plastic Fences",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanismadditions.plastic_slabs": {
+   "kind": "item",
+   "name": "Plastic Slabs",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanismadditions.plastic_slabs.glow": {
+   "kind": "item",
+   "name": "Glow Plastic Slabs",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanismadditions.plastic_slabs.normal": {
+   "kind": "item",
+   "name": "Normal Plastic Slabs",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanismadditions.plastic_slabs.transparent": {
+   "kind": "item",
+   "name": "Transparent Plastic Slabs",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanismadditions.plastic_stairs": {
+   "kind": "item",
+   "name": "Plastic Stairs",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanismadditions.plastic_stairs.glow": {
+   "kind": "item",
+   "name": "Glow Plastic Stairs",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanismadditions.plastic_stairs.normal": {
+   "kind": "item",
+   "name": "Normal Plastic Stairs",
+   "tags": [
+    "review:checked"
+   ]
+  },
+  "tag:mekanismadditions.plastic_stairs.transparent": {
+   "kind": "item",
+   "name": "Transparent Plastic Stairs",
+   "tags": [
     "review:checked"
    ]
   },
@@ -9701,6 +11199,13 @@
     "needs:none",
     "power-role:none",
     "power-type:none",
+    "review:checked"
+   ]
+  },
+  "tag:c.tools.paxel": {
+   "kind": "item",
+   "name": "Paxels",
+   "tags": [
     "review:checked"
    ]
   }

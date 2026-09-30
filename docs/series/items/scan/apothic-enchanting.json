@@ -30,6 +30,13 @@
    }
   },
   {
+   "id": "enchdesc",
+   "slug": "enchantment-descriptions",
+   "evidence": {
+    "isLoaded": 1
+   }
+  },
+  {
    "id": "jade",
    "slug": "jade",
    "evidence": {
@@ -57,12 +64,12 @@
    "kind": "block",
    "name": "Apothic Enchanting Table",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -70,12 +77,12 @@
    "kind": "block",
    "name": "Enchanting Table of the Raven",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -83,12 +90,12 @@
    "kind": "block",
    "name": "Hellshelf",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -96,12 +103,12 @@
    "kind": "block",
    "name": "Infused Hellshelf",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -109,12 +116,12 @@
    "kind": "block",
    "name": "Blazing Hellshelf",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -122,12 +129,12 @@
    "kind": "block",
    "name": "Glowing Hellshelf",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -135,12 +142,12 @@
    "kind": "block",
    "name": "Seashelf",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -148,12 +155,12 @@
    "kind": "block",
    "name": "Infused Seashelf",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -161,12 +168,12 @@
    "kind": "block",
    "name": "Crystalline Seashelf",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -174,12 +181,12 @@
    "kind": "block",
    "name": "Heart-Forged Seashelf",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -187,12 +194,12 @@
    "kind": "block",
    "name": "Dormant Deepshelf",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -200,12 +207,12 @@
    "kind": "block",
    "name": "Deepshelf",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -213,12 +220,12 @@
    "kind": "block",
    "name": "Echoing Deepshelf",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -227,9 +234,9 @@
    "name": "Soul-Touched Deepshelf",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -239,12 +246,12 @@
    "kind": "block",
    "name": "Echoing Sculkshelf",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -253,9 +260,9 @@
    "name": "Soul-Touched Sculkshelf",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
     "review:checked"
@@ -265,12 +272,12 @@
    "kind": "block",
    "name": "Endshelf",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -278,12 +285,12 @@
    "kind": "block",
    "name": "Infused Endshelf",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -291,12 +298,12 @@
    "kind": "block",
    "name": "Pearlescent Endshelf",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -304,12 +311,12 @@
    "kind": "block",
    "name": "Draconic Endshelf",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -317,12 +324,12 @@
    "kind": "block",
    "name": "Beeshelf",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -330,12 +337,12 @@
    "kind": "block",
    "name": "Melonshelf",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -343,12 +350,12 @@
    "kind": "block",
    "name": "Stoneshelf",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -356,12 +363,12 @@
    "kind": "block",
    "name": "Hellshelf of Sight",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -369,12 +376,12 @@
    "kind": "block",
    "name": "Hellshelf of Masterful Sight",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -382,12 +389,12 @@
    "kind": "block",
    "name": "Seashelf of Aquatic Filtration",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -395,12 +402,12 @@
    "kind": "block",
    "name": "Deepshelf of Arcane Treasures",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -408,12 +415,12 @@
    "kind": "block",
    "name": "Geode-Encased Bookshelf of Stability",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:enchant",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -422,9 +429,9 @@
    "name": "Enchantment Library",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -433,9 +440,9 @@
    "name": "Library of Alexandria",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -443,9 +450,9 @@
    "kind": "item",
    "name": "Prismatic Cobweb",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -455,9 +462,9 @@
    "tags": [
     "kind:weapon",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -465,9 +472,9 @@
    "kind": "item",
    "name": "Tome of the Others",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -477,9 +484,9 @@
    "tags": [
     "kind:armor",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -489,9 +496,9 @@
    "tags": [
     "kind:armor",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -501,9 +508,9 @@
    "tags": [
     "kind:armor",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -513,9 +520,9 @@
    "tags": [
     "kind:armor",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -523,9 +530,9 @@
    "kind": "item",
    "name": "Tome of Weaponry",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -535,9 +542,9 @@
    "tags": [
     "kind:tool",
     "function:mine",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -545,9 +552,9 @@
    "kind": "item",
    "name": "Tome of the Fishers",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -557,9 +564,9 @@
    "tags": [
     "kind:weapon",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -568,9 +575,9 @@
    "name": "Tome of Scrapping",
    "tags": [
     "kind:material",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -579,9 +586,9 @@
    "name": "Tome of Superior Scrapping",
    "tags": [
     "kind:material",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -589,9 +596,9 @@
    "kind": "item",
    "name": "Tome of Extraction",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -599,9 +606,9 @@
    "kind": "item",
    "name": "Warden Tendril",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -609,9 +616,9 @@
    "kind": "item",
    "name": "Infused Dragon's Breath",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -619,9 +626,9 @@
    "kind": "item",
    "name": "Flimsy Ender Lead",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -629,9 +636,9 @@
    "kind": "item",
    "name": "Ender Lead",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -639,9 +646,9 @@
    "kind": "item",
    "name": "Occult Ender Lead",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -649,9 +656,9 @@
    "kind": "item",
    "name": "Music Disc",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -659,9 +666,9 @@
    "kind": "item",
    "name": "Music Disc",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   },
@@ -669,9 +676,9 @@
    "kind": "item",
    "name": "Music Disc",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
     "review:checked"
    ]
   }
