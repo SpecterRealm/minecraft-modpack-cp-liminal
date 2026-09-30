@@ -78,8 +78,27 @@ A gear set earns its place only if it does something a Silent Gear build cannot:
 2. A **tier ladder per pack**: which family owns each stage, with one family per niche per tier.
 3. Hide the rest, at the item level if the mod stays for other reasons.
 
+## 3. Decisions so far (maintainer)
+
+| Pack | Direction chosen | Still to do |
+|---|---|---|
+| Influx | **Genetics: Resequenced** ("how to make yourself better": scrape mobs for genes, infuse powers) plus **Mutant Monsters** (mutant mobs as the combat content). Genes are the cure and the power-up; the mutants are what the experiments produce. | Scan both (Mutant Monsters source: Fuzss/mutant-monsters, branch 1.21.1; Genetics: Resequenced by aaronhowser1, repo not yet located). Check how genes connect to Hostile Neural Networks, Productive Bees and Replication. |
+| Verdant | **Megabuild with automated defenses**: a quest-gated factory goal, defended by turrets and farms the player built. | Define the target (for example a production number plus a wave to survive). No new mod yet. |
+| Elysian | Gateways to Eternity (already in pack). | The arena should cost things the player automated. |
+
+### Armor is also for looks
+
+Part of why many armor mods were collected is how the player looks in them, which is why the RPG class mods (rogue, wizard, paladin, archer) appeal. So the "every item has a job" rule has two kinds of job: a **gameplay niche** and a **look**. Options to keep both without 27 competing tiers:
+
+1. **Cosmetic layer**: a cosmetic-armor-slot mod (for example Cosmetic Armor Reworked, which has NeoForge 1.21.1 builds) lets any set be worn for looks while the tiered set provides stats. Then look variety costs no balance.
+2. **Class sets as the niche**: the RPG Series (Wizards, Archers, Rogues & Warriors, Paladins & Priests; all NeoForge 1.21.1, all require Spell Engine) gives each class armor a role (spell power, ranged, evasion, frontline, healing). The job is the class.
+3. Both: one stat family per niche per tier, class sets as the niche sets, cosmetic layer for everything else.
+
+Not yet scanned. These are discovery leads, not additions.
+
 ## Open questions
 
-1. Influx: is the outbreak the threat (spreads until stopped) or the content (mutant bosses)? Which one mod carries it?
-2. Verdant: a space program (Ad Astra), a production-target megabuild, or something else?
-3. Gear: do the roles above cover what you want, or are there jobs to add?
+1. Influx: Genetics: Resequenced plus Mutant Monsters chosen. Confirm after scanning that they fit the pack's power and breeding systems.
+2. Verdant: what is the megabuild target, and how big a wave or defense test is right?
+3. Armor: cosmetic layer, class sets, or both? Which RPG class mods did you mean (RPG Series, or others)?
+4. Gear: do the roles above cover what you want, or are there jobs to add?
