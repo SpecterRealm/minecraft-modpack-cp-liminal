@@ -1,0 +1,645 @@
+{
+ "repo": "ZsoltMolnarrr/Rogues",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "rogues"
+ ],
+ "item_count": 61,
+ "compat": [
+  {
+   "id": "lithostitched",
+   "slug": "lithostitched",
+   "evidence": {
+    "data-ref": 5
+   }
+  }
+ ],
+ "items": {
+  "rogues:arms_workbench": {
+   "kind": "block",
+   "name": "Arms Station",
+   "tags": [
+    "function:craft",
+    "kind:block",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:arms_workbench.hint": {
+   "kind": "block",
+   "name": "Workbench for Arms Merchant Villagers.",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "minecraft:villager.arms_merchant": {
+   "kind": "entity",
+   "name": "Arms Dealer",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "minecraft:villager.rogues.arms_merchant": {
+   "kind": "entity",
+   "name": "Arms Dealer",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:bear_trap": {
+   "kind": "entity",
+   "name": "Bear Trap",
+   "tags": [
+    "kind:mob",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:aeternium_dagger": {
+   "kind": "item",
+   "name": "Aeternium Dagger",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:aeternium_double_axe": {
+   "kind": "item",
+   "name": "Aeternium Double Axe",
+   "tags": [
+    "kind:tool",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:aeternium_glaive": {
+   "kind": "item",
+   "name": "Aeternium Glaive",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:aeternium_sickle": {
+   "kind": "item",
+   "name": "Aeternium Sickle",
+   "tags": [
+    "kind:tool",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:aether_dagger": {
+   "kind": "item",
+   "name": "Valkyrie Shiv",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:aether_double_axe": {
+   "kind": "item",
+   "name": "Holy Double Axe",
+   "tags": [
+    "kind:tool",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:aether_glaive": {
+   "kind": "item",
+   "name": "Gilded Battle Glaive",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:aether_sickle": {
+   "kind": "item",
+   "name": "Heavenly Harvester",
+   "tags": [
+    "kind:tool",
+    "function:farm",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:assassin_armor_chest": {
+   "kind": "item",
+   "name": "Assassin Tunic",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "function:store",
+    "kind:storage",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:assassin_armor_feet": {
+   "kind": "item",
+   "name": "Assassin Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:assassin_armor_head": {
+   "kind": "item",
+   "name": "Assassin Mask",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:assassin_armor_legs": {
+   "kind": "item",
+   "name": "Assassin Pants",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:berserker_armor_chest": {
+   "kind": "item",
+   "name": "Berserker Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "function:store",
+    "kind:storage",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:berserker_armor_feet": {
+   "kind": "item",
+   "name": "Berserker Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:berserker_armor_head": {
+   "kind": "item",
+   "name": "Berserker Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:berserker_armor_legs": {
+   "kind": "item",
+   "name": "Berserker Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:diamond_dagger": {
+   "kind": "item",
+   "name": "Diamond Dagger",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:diamond_double_axe": {
+   "kind": "item",
+   "name": "Diamond Double Axe",
+   "tags": [
+    "kind:tool",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:diamond_glaive": {
+   "kind": "item",
+   "name": "Diamond Glaive",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:diamond_sickle": {
+   "kind": "item",
+   "name": "Diamond Sickle",
+   "tags": [
+    "kind:tool",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:flint_dagger": {
+   "kind": "item",
+   "name": "Flint Dagger",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:golden_dagger": {
+   "kind": "item",
+   "name": "Golden Dagger",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:golden_double_axe": {
+   "kind": "item",
+   "name": "Golden Double Axe",
+   "tags": [
+    "kind:tool",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:golden_glaive": {
+   "kind": "item",
+   "name": "Golden Glaive",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:golden_sickle": {
+   "kind": "item",
+   "name": "Golden Sickle",
+   "tags": [
+    "kind:tool",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:iron_dagger": {
+   "kind": "item",
+   "name": "Iron Dagger",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:iron_double_axe": {
+   "kind": "item",
+   "name": "Iron Double Axe",
+   "tags": [
+    "kind:tool",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:iron_glaive": {
+   "kind": "item",
+   "name": "Iron Glaive",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:iron_sickle": {
+   "kind": "item",
+   "name": "Iron Sickle",
+   "tags": [
+    "kind:tool",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:netherite_assassin_armor_chest": {
+   "kind": "item",
+   "name": "Netherite Assassin Tunic",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "function:store",
+    "kind:storage",
+    "needs:nether",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:netherite_assassin_armor_feet": {
+   "kind": "item",
+   "name": "Netherite Assassin Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:nether",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:netherite_assassin_armor_head": {
+   "kind": "item",
+   "name": "Netherite Assassin Mask",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:nether",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:netherite_assassin_armor_legs": {
+   "kind": "item",
+   "name": "Netherite Assassin Pants",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:nether",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:netherite_berserker_armor_chest": {
+   "kind": "item",
+   "name": "Netherite Berserker Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "function:store",
+    "kind:storage",
+    "needs:nether",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:netherite_berserker_armor_feet": {
+   "kind": "item",
+   "name": "Netherite Berserker Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:nether",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:netherite_berserker_armor_head": {
+   "kind": "item",
+   "name": "Netherite Berserker Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:nether",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:netherite_berserker_armor_legs": {
+   "kind": "item",
+   "name": "Netherite Berserker Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:nether",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:netherite_dagger": {
+   "kind": "item",
+   "name": "Netherite Dagger",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "needs:nether",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:netherite_double_axe": {
+   "kind": "item",
+   "name": "Netherite Double Axe",
+   "tags": [
+    "kind:tool",
+    "needs:nether",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:netherite_glaive": {
+   "kind": "item",
+   "name": "Netherite Glaive",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "needs:nether",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:netherite_sickle": {
+   "kind": "item",
+   "name": "Netherite Sickle",
+   "tags": [
+    "kind:tool",
+    "needs:nether",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:rogue_armor_chest": {
+   "kind": "item",
+   "name": "Rogue Tunic",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "function:store",
+    "kind:storage",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:rogue_armor_feet": {
+   "kind": "item",
+   "name": "Rogue Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:rogue_armor_head": {
+   "kind": "item",
+   "name": "Rogue Mask",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:rogue_armor_legs": {
+   "kind": "item",
+   "name": "Rogue Pants",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:ruby_dagger": {
+   "kind": "item",
+   "name": "Ruby Dagger",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:ruby_double_axe": {
+   "kind": "item",
+   "name": "Ruby Double Axe",
+   "tags": [
+    "kind:tool",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:ruby_glaive": {
+   "kind": "item",
+   "name": "Ruby Glaive",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:ruby_sickle": {
+   "kind": "item",
+   "name": "Ruby Sickle",
+   "tags": [
+    "kind:tool",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:spell_scroll/rogue": {
+   "kind": "item",
+   "name": "Rogue Skill Scroll",
+   "tags": [
+    "function:enchant",
+    "kind:consumable",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:spell_scroll/warrior": {
+   "kind": "item",
+   "name": "Warriors Skill Scroll",
+   "tags": [
+    "function:enchant",
+    "kind:consumable",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:stone_double_axe": {
+   "kind": "item",
+   "name": "Stone Double Axe",
+   "tags": [
+    "kind:tool",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:warrior_armor_chest": {
+   "kind": "item",
+   "name": "Warrior Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "function:store",
+    "kind:storage",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:warrior_armor_feet": {
+   "kind": "item",
+   "name": "Warrior Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:warrior_armor_head": {
+   "kind": "item",
+   "name": "Warrior Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "rogues:warrior_armor_legs": {
+   "kind": "item",
+   "name": "Warrior Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:neutral",
+    "review:checked"
+   ]
+  }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21.1",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "First read from source (1.21 branch); see capstones-and-gear.md section 4.",
+  "class": "content",
+  "purpose": "Rogue and Warrior class gear: daggers, glaives, assassin and berserker sets"
+ }
+}

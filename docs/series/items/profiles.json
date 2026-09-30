@@ -3410,6 +3410,259 @@
    "works_with": "",
    "status": "candidate",
    "candidate": true
+  },
+  "genetics-resequenced": {
+   "feel": [
+    "sci-fi",
+    "breeding"
+   ],
+   "add": "content",
+   "also": [
+    "processing",
+    "combat"
+   ],
+   "gap": "Capstone for Influx: scrape mobs for genes, infuse powers into the player, incubate cells",
+   "fit": {
+    "I": [
+     "good",
+     "the mad-scientist capstone: make yourself better from mobs the experiments produced"
+    ],
+    "L": [
+     "good",
+     "all approaches meet; genes add player powers"
+    ],
+    "E": [
+     "poor",
+     "sci-fi feel against magic theme"
+    ],
+    "V": [
+     "poor",
+     "not the automate-everything theme"
+    ]
+   },
+   "note": "Has its own FE machines (incubator, cell analyzer, plasmid infuser) and a Coal Generator: check against Influx power before locking. Modonomicon guide.",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true,
+   "stages": [
+    5,
+    6
+   ]
+  },
+  "mutant-monsters": {
+   "feel": [
+    "survival"
+   ],
+   "add": "combat",
+   "also": [
+    "content"
+   ],
+   "gap": "Combat content for Influx's outbreak: mutant bosses that the experiments produce",
+   "fit": {
+    "I": [
+     "good",
+     "mutant mobs as what the mad scientist made"
+    ],
+    "L": [
+     "good",
+     "war-zone mobs"
+    ],
+    "E": [
+     "partial",
+     "Gateways already gives fights"
+    ],
+    "V": [
+     "poor",
+     "Verdant is the calm pack"
+    ]
+   },
+   "note": "No compat. Endersoul drops and Mutant Skeleton armor need a gear role; End-flavored parts sit outside the no-End rule in packs 1 to 3.",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true,
+   "stages": [
+    6
+   ]
+  },
+  "spell-engine": {
+   "feel": [
+    "magic"
+   ],
+   "add": "library",
+   "also": [
+    "combat"
+   ],
+   "gap": "Shared spell and class library for the RPG Series",
+   "fit": {
+    "V": [
+     "partial",
+     "required by Archers"
+    ],
+    "E": [
+     "good",
+     "required by Wizards and Rogues & Warriors"
+    ],
+    "I": [
+     "good",
+     "required by Paladins & Priests"
+    ],
+    "L": [
+     "good",
+     "all classes"
+    ]
+   },
+   "note": "Library; adds spell scrolls and the Spell Binding Table. Needs Curios, Player Animator, Cloth Config.",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true,
+   "stages": [
+    6
+   ]
+  },
+  "wizards": {
+   "feel": [
+    "magic"
+   ],
+   "add": "armor",
+   "also": [
+    "tooling",
+    "combat"
+   ],
+   "gap": "Wizard class: arcane, fire and frost robes, staffs and wands (look and spell-power niche)",
+   "fit": {
+    "E": [
+     "good",
+     "combat class for Elysian (chosen)"
+    ],
+    "L": [
+     "good",
+     "all classes"
+    ],
+    "V": [
+     "poor",
+     "class assigned elsewhere"
+    ],
+    "I": [
+     "poor",
+     "class assigned elsewhere"
+    ]
+   },
+   "note": "Netherite tier needs netherite ingot, ender pearl, blaze powder, prismarine: buildable via Ex Deorum sieving (see capstones-and-gear.md).",
+   "works_with": "spell-engine",
+   "status": "candidate",
+   "candidate": true,
+   "stages": [
+    6
+   ]
+  },
+  "archers": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "armor",
+   "also": [
+    "tooling",
+    "combat"
+   ],
+   "gap": "Archer class: bows, crossbows, spears, ranger sets (ranged niche; turret and defense teaching)",
+   "fit": {
+    "V": [
+     "good",
+     "chosen for Verdant"
+    ],
+    "L": [
+     "good",
+     "all classes"
+    ],
+    "E": [
+     "partial",
+     "combat fits but assigned to Verdant"
+    ],
+    "I": [
+     "poor",
+     "class assigned elsewhere"
+    ]
+   },
+   "note": "Mostly iron, leather, string; upper tier needs netherite.",
+   "works_with": "spell-engine",
+   "status": "candidate",
+   "candidate": true,
+   "stages": [
+    3,
+    6
+   ]
+  },
+  "rogues": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "armor",
+   "also": [
+    "tooling",
+    "combat"
+   ],
+   "gap": "Rogue and Warrior classes: daggers, sickles, glaives, double axes, assassin and berserker sets",
+   "fit": {
+    "E": [
+     "good",
+     "combat class for Elysian (chosen)"
+    ],
+    "L": [
+     "good",
+     "all classes"
+    ],
+    "V": [
+     "poor",
+     "class assigned elsewhere"
+    ],
+    "I": [
+     "poor",
+     "class assigned elsewhere"
+    ]
+   },
+   "note": "Iron and gold base; upper tier needs netherite.",
+   "works_with": "spell-engine",
+   "status": "candidate",
+   "candidate": true,
+   "stages": [
+    6
+   ]
+  },
+  "paladins": {
+   "feel": [
+    "magic"
+   ],
+   "add": "armor",
+   "also": [
+    "tooling",
+    "combat"
+   ],
+   "gap": "Paladin and Priest classes: maces, claymores, shields, holy wands and staffs (frontline and healing niche)",
+   "fit": {
+    "I": [
+     "good",
+     "utility class for Influx (chosen)"
+    ],
+    "L": [
+     "good",
+     "all classes"
+    ],
+    "E": [
+     "poor",
+     "class assigned elsewhere"
+    ],
+    "V": [
+     "poor",
+     "class assigned elsewhere"
+    ]
+   },
+   "note": "Iron, gold, diamond; ghast tears and netherite for upper tiers (both reachable by Ex Deorum sieving).",
+   "works_with": "spell-engine",
+   "status": "candidate",
+   "candidate": true,
+   "stages": [
+    6
+   ]
   }
  }
 }

@@ -1,0 +1,577 @@
+{
+ "repo": "Fuzss/mutant-monsters",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "mutantmonsters"
+ ],
+ "item_count": 64,
+ "compat": [],
+ "items": {
+  "mutantmonsters:mutant_skeleton_skull": {
+   "kind": "block",
+   "name": "Mutant Skeleton Skull",
+   "tags": [
+    "kind:block",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:body_part": {
+   "kind": "entity",
+   "name": "Body Part",
+   "tags": [
+    "kind:mob",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:creeper_minion": {
+   "kind": "entity",
+   "name": "Creeper Minion",
+   "tags": [
+    "kind:mob",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:creeper_minion_egg": {
+   "kind": "entity",
+   "name": "Creeper Minion Egg",
+   "tags": [
+    "kind:mob",
+    "kind:food",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:endersoul_clone": {
+   "kind": "entity",
+   "name": "Endersoul Clone",
+   "tags": [
+    "kind:mob",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:endersoul_fragment": {
+   "kind": "entity",
+   "name": "Endersoul Fragment",
+   "tags": [
+    "kind:mob",
+    "kind:material",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:mutant_arrow": {
+   "kind": "entity",
+   "name": "Mutant Arrow",
+   "tags": [
+    "kind:mob",
+    "kind:consumable",
+    "function:defend",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:mutant_creeper": {
+   "kind": "entity",
+   "name": "Mutant Creeper",
+   "tags": [
+    "kind:mob",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:mutant_enderman": {
+   "kind": "entity",
+   "name": "Mutant Enderman",
+   "tags": [
+    "kind:mob",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:mutant_skeleton": {
+   "kind": "entity",
+   "name": "Mutant Skeleton",
+   "tags": [
+    "kind:mob",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:mutant_snow_golem": {
+   "kind": "entity",
+   "name": "Mutant Snow Golem",
+   "tags": [
+    "kind:mob",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:mutant_zombie": {
+   "kind": "entity",
+   "name": "Mutant Zombie",
+   "tags": [
+    "kind:mob",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:skull_spirit": {
+   "kind": "entity",
+   "name": "Skull Spirit",
+   "tags": [
+    "kind:mob",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:spider_pig": {
+   "kind": "entity",
+   "name": "Spider Pig",
+   "tags": [
+    "kind:mob",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:throwable_block": {
+   "kind": "entity",
+   "name": "Throwable Block",
+   "tags": [
+    "kind:mob",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:creeper_minion_spawn_egg": {
+   "kind": "item",
+   "name": "Creeper Minion Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:creeper_minion_tracker": {
+   "kind": "item",
+   "name": "Creeper Minion Tracker",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:creeper_minion_tracker.tame_success": {
+   "kind": "item",
+   "name": "%1$s was tamed by %2$s",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:creeper_shard": {
+   "kind": "item",
+   "name": "Creeper Shard",
+   "tags": [
+    "kind:material",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:endersoul_hand": {
+   "kind": "item",
+   "name": "Endersoul Hand",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:endersoul_hand.teleport_failed": {
+   "kind": "item",
+   "name": "Unable to teleport to location",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:hulk_hammer": {
+   "kind": "item",
+   "name": "Hulk Hammer",
+   "tags": [
+    "kind:tool",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:mutant_creeper_spawn_egg": {
+   "kind": "item",
+   "name": "Mutant Creeper Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:mutant_enderman_spawn_egg": {
+   "kind": "item",
+   "name": "Mutant Enderman Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:mutant_skeleton_arms": {
+   "kind": "item",
+   "name": "Mutant Skeleton Arms",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:mutant_skeleton_boots": {
+   "kind": "item",
+   "name": "Mutant Skeleton Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:mutant_skeleton_chestplate": {
+   "kind": "item",
+   "name": "Mutant Skeleton Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:mutant_skeleton_leggings": {
+   "kind": "item",
+   "name": "Mutant Skeleton Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:mutant_skeleton_limb": {
+   "kind": "item",
+   "name": "Mutant Skeleton Limb",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:mutant_skeleton_pelvis": {
+   "kind": "item",
+   "name": "Mutant Skeleton Pelvis",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:mutant_skeleton_rib": {
+   "kind": "item",
+   "name": "Mutant Skeleton Rib",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:mutant_skeleton_rib_cage": {
+   "kind": "item",
+   "name": "Mutant Skeleton Rib Cage",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:mutant_skeleton_shoulder_pad": {
+   "kind": "item",
+   "name": "Mutant Skeleton Shoulder Pad",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:mutant_skeleton_spawn_egg": {
+   "kind": "item",
+   "name": "Mutant Skeleton Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:mutant_snow_golem_spawn_egg": {
+   "kind": "item",
+   "name": "Mutant Snow Golem Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:mutant_zombie_spawn_egg": {
+   "kind": "item",
+   "name": "Mutant Zombie Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "mutantmonsters:spider_pig_spawn_egg": {
+   "kind": "item",
+   "name": "Spider Pig Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable",
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:creeper_minion.ambient": {
+   "kind": "entity",
+   "name": "Creeper Minion hisses",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:creeper_minion.hurt": {
+   "kind": "entity",
+   "name": "Creeper Minion hurts",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:creeper_minion.primed": {
+   "kind": "entity",
+   "name": "Creeper Minion primes",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:creeper_minion_egg.hatch": {
+   "kind": "entity",
+   "name": "Creeper Minion Egg hatches",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:endersoul_clone.teleport": {
+   "kind": "entity",
+   "name": "Endersoul Clone teleports",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:endersoul_fragment.explode": {
+   "kind": "entity",
+   "name": "Endersoul Fragment explodes",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:mutant_creeper.ambient": {
+   "kind": "entity",
+   "name": "Mutant Creeper hisses",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:mutant_creeper.charge": {
+   "kind": "entity",
+   "name": "Mutant Creeper charges",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:mutant_creeper.hurt": {
+   "kind": "entity",
+   "name": "Mutant Creeper hurts",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:mutant_creeper.primed": {
+   "kind": "entity",
+   "name": "Mutant Creeper primes",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:mutant_enderman.ambient": {
+   "kind": "entity",
+   "name": "Mutant Enderman breathes",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:mutant_enderman.hurt": {
+   "kind": "entity",
+   "name": "Mutant Enderman hurts",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:mutant_enderman.morph": {
+   "kind": "entity",
+   "name": "Mutant Enderman morphs",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:mutant_enderman.scream": {
+   "kind": "entity",
+   "name": "Mutant Enderman screams",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:mutant_enderman.stare": {
+   "kind": "entity",
+   "name": "Mutant Enderman cries out",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:mutant_enderman.teleport": {
+   "kind": "entity",
+   "name": "Mutant Enderman teleports",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:mutant_skeleton.ambient": {
+   "kind": "entity",
+   "name": "Mutant Skeleton rattles",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:mutant_skeleton.hurt": {
+   "kind": "entity",
+   "name": "Mutant Skeleton hurts",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:mutant_skeleton.step": {
+   "kind": "entity",
+   "name": "Footsteps",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:mutant_snow_golem.hurt": {
+   "kind": "entity",
+   "name": "Mutant Snow Golem hurts",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:mutant_zombie.ambient": {
+   "kind": "entity",
+   "name": "Mutant Zombie grumbles",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:mutant_zombie.attack": {
+   "kind": "entity",
+   "name": "Mutant Zombie attacks",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:mutant_zombie.grunt": {
+   "kind": "entity",
+   "name": "Mutant Zombie grunts",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:mutant_zombie.hurt": {
+   "kind": "entity",
+   "name": "Mutant Zombie hurts",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:mutant_zombie.roar": {
+   "kind": "entity",
+   "name": "Mutant Zombie roars",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:spider_pig.ambient": {
+   "kind": "entity",
+   "name": "Spider Pig oinks",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "subtitles:spider_pig.hurt": {
+   "kind": "entity",
+   "name": "Spider Pig hurts",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21.1",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "First read from source (1.21 branch); see capstones-and-gear.md section 4.",
+  "class": "content",
+  "purpose": "Mutant boss mobs, Hulk Hammer, Mutant Skeleton armor (Influx outbreak content)"
+ }
+}

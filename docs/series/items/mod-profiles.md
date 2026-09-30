@@ -9,7 +9,11 @@ Packs: V Verdant (overworld, no ore, tech-first), E Elysian (void, magic only, n
 | Mod | Packs | Feel | Main add | Also | Gap it fills | V | E | I | L |
 |---|---|---|---|---|---|---|---|---|---|
 | apotheosis | EL | magic | armor | tooling, content | Gear power: sockets, reforging, affixes, bosses | - | partial | - | good |
+| archers | - | neutral | armor | tooling, combat | Archer class: bows, crossbows, spears, ranger sets (ranged niche; turr | good | partial | poor | good |
 | irons-jewelry | EL | magic | armor |  | Jewelry for Iron's Spells | - | partial | - | partial |
+| paladins | - | magic | armor | tooling, combat | Paladin and Priest classes: maces, claymores, shields, holy wands and  | poor | poor | good | good |
+| rogues | - | neutral | armor | tooling, combat | Rogue and Warrior classes: daggers, sickles, glaives, double axes, ass | poor | good | poor | good |
+| wizards | - | magic | armor | tooling, combat | Wizard class: arcane, fire and frost robes, staffs and wands (look and | poor | good | poor | good |
 | actually-additions | - | tech+nature | automation | food | Mixed tech and nature machines; FE; supports Mekanism and Powah | partial | poor | - | - |
 | ars-controle | EL | magic | automation |  | Remote entity control, portable relays | - | partial | - |  |
 | botania | - | nature+magic | automation | resources, armor, tooling | Mana (not FE) runs generating and functional flowers: Orechid makes or | poor | good | partial | - |
@@ -27,6 +31,7 @@ Packs: V Verdant (overworld, no ore, tech-first), E Elysian (void, magic only, n
 | ars-elemental | EL | magic | combat | armor | Four elemental schools: glyphs, armor, foci | - | good | - |  |
 | ars-zero | EL | magic | combat |  | New cast devices and glyphs | - | partial | - |  |
 | irons-spells-n-spellbooks | EL | magic | combat | armor, content | Spellbooks, staffs, armor, mithril | - | good | - | good |
+| mutant-monsters | - | survival | combat | content | Combat content for Influx's outbreak: mutant bosses that the experimen | poor | partial | good | good |
 | apothic-spawners | EL | magic | content |  | Spawner tweaks for Apotheosis | - | partial | - | partial |
 | ars-nouveau | EL | magic | content | power, automation, processing | Spell system; Source power; familiars automate | - | good | - |  |
 | blood-magic-neovitae | - | magic | content | automation | Blood magic: life-essence network, altars, rituals and sigils | - | partial | - | - |
@@ -34,6 +39,7 @@ Packs: V Verdant (overworld, no ore, tech-first), E Elysian (void, magic only, n
 | evilcraft | - | magic | content | armor, tooling | Dark magic: blood infuser, undead trees, spirit furnace, gear; fluids  | - | partial | - | - |
 | forbidden-arcanus | - | magic | content | armor, tooling | Dark-arts crafting: Hephaestus forge, essences, darkstone, bosses | - | partial | - | - |
 | gateways-to-eternity | EL | magic | content |  | Gateway mob-wave challenges with rewards | - | partial | - | good |
+| genetics-resequenced | - | sci-fi+breeding | content | processing, combat | Capstone for Influx: scrape mobs for genes, infuse powers into the pla | poor | poor | good | good |
 | improved-village-placement | L | nature | content |  | World generation / structures | - | - | - |  |
 | malum | - | magic | content | armor, tooling | Spirit magic: totems, spirit infusion, gear sets, dungeons | - | partial | - | partial |
 | minecolonies | - | neutral | content | automation | Colonies, citizens, buildings; the colony mod for Liminal | - | - | - | good |
