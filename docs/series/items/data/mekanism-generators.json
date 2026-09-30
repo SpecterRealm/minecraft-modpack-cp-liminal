@@ -7,22 +7,220 @@
   "tag": "v1.21.1-10.7.19.85",
   "read": "cloned at the tag; config in src/generators/java/mekanism/generators/common/config, item list in src/datagen/generated/mekanismgenerators/assets/mekanismgenerators/lang/en_us.json"
  },
- "packs": ["see mod-inventory.md"],
+ "packs": [
+  "see mod-inventory.md"
+ ],
  "unverified": "Defaults are raw config values from source. Mekanism config energy values are in its internal unit (Joules); the in-game display converts to FE, so confirm the unit conversion in a running game before comparing against Powah FE/t.",
  "tuning": [
-  {"lever": "config", "where": "config/mekanism/generators.toml (server)", "effect": "Generation rates, tank sizes, turbine flow, fission/fusion energy per fuel, wind Y range, meltdown toggle"},
-  {"lever": "config", "where": "config/mekanism/generators-storage.toml (server)", "effect": "Energy storage caps for heat, bio, solar, advanced solar, wind generators"},
-  {"lever": "recipe", "where": "data/mekanismgenerators/recipe/*", "effect": "Replace or gate through KubeJS recipe events"}
+  {
+   "lever": "config",
+   "where": "config/mekanism/generators.toml (server)",
+   "effect": "Generation rates, tank sizes, turbine flow, fission/fusion energy per fuel, wind Y range, meltdown toggle"
+  },
+  {
+   "lever": "config",
+   "where": "config/mekanism/generators-storage.toml (server)",
+   "effect": "Energy storage caps for heat, bio, solar, advanced solar, wind generators"
+  },
+  {
+   "lever": "recipe",
+   "where": "data/mekanismgenerators/recipe/*",
+   "effect": "Replace or gate through KubeJS recipe events"
+  }
+ ],
+ "compat": [
+  {
+   "mod": "flux-networks",
+   "kind": "compat-import",
+   "what": "Mekanism ships Flux Networks integration",
+   "weight": "high"
+  },
+  {
+   "mod": "projecte",
+   "kind": "compat-import",
+   "what": "Large ProjectE integration (22 files): EMC values for Mekanism items",
+   "weight": "high"
+  },
+  {
+   "mod": "applied-energistics-2",
+   "kind": "data-ref",
+   "what": "AE2 recipes and AppMek support (56 data refs)",
+   "weight": "medium"
+  },
+  {
+   "mod": "farmers-delight",
+   "kind": "data-ref",
+   "what": "Farmer's Delight data refs (12)",
+   "weight": "low"
+  },
+  {
+   "mod": "curios",
+   "kind": "compat-import",
+   "what": "Curios slot support for gear",
+   "weight": "low"
+  },
+  {
+   "mod": "mekanism-tools",
+   "kind": "data-ref",
+   "what": "Same-family tool/armor data",
+   "weight": "n/a"
+  }
  ],
  "items": [
-  {"id": "mekanismgenerators:heat_generator", "name": "Heat Generator", "category": "generator", "subcategory": "heat", "stats": {"output_raw": 200, "lava_bonus_raw": 30, "nether_bonus_raw": 100, "tank_mb": 24000}, "input": "Burns any fuel item plus lava (and nether biome bonus)", "needs_power_to_start": false, "needs_ore": false, "tunable": ["config", "recipe"], "notes": "Natural early generator: no steel/ore chain needed beyond Mekanism basics. Direct rival to Powah Magmator/Furnator at the low end."},
-  {"id": "mekanismgenerators:solar_generator", "name": "Solar Generator", "category": "generator", "subcategory": "solar", "stats": {"output_raw": 50}, "input": "Sunlight", "needs_power_to_start": false, "needs_ore": false, "tunable": ["config", "recipe"]},
-  {"id": "mekanismgenerators:advanced_solar_generator", "name": "Advanced Solar Generator", "category": "generator", "subcategory": "solar", "stats": {"output_raw": 300}, "input": "Sunlight", "needs_power_to_start": false, "needs_ore": false, "tunable": ["config", "recipe"], "notes": "Overlaps Powah Solar Panel tiers."},
-  {"id": "mekanismgenerators:wind_generator", "name": "Wind Generator", "category": "generator", "subcategory": "wind", "stats": {"output_raw_min": 60, "output_raw_max": 480, "min_y": 24}, "input": "Height (Y) above min Y", "needs_power_to_start": false, "needs_ore": false, "tunable": ["config", "recipe"]},
-  {"id": "mekanismgenerators:bio_generator", "name": "Bio-Generator", "category": "generator", "subcategory": "bio", "stats": {"output_raw": 350, "tank_mb": 24000}, "input": "Bioethanol (from crops/plant matter)", "needs_power_to_start": false, "needs_ore": false, "tunable": ["config", "recipe"], "notes": "Fits the grow-what-you-cannot-mine theme; check it against the crop mods."},
-  {"id": "mekanismgenerators:gas_burning_generator", "name": "Gas-Burning Generator", "category": "generator", "subcategory": "chemical", "stats": {"tank_capacity": 18000}, "input": "Hydrogen / ethene and other burnable gases", "needs_power_to_start": false, "needs_ore": false, "tunable": ["config", "recipe"]},
-  {"id": "mekanismgenerators:turbine_casing", "name": "Industrial Turbine (multiblock)", "category": "generator", "subcategory": "steam-turbine", "stats": {"blades_per_coil": 4, "vent_flow_mb_t": 32000, "disperser_flow": 1280}, "input": "Steam from fission or fusion, or boiler", "needs_power_to_start": false, "needs_ore": true, "tunable": ["config", "recipe"]},
-  {"id": "mekanismgenerators:fission_reactor_casing", "name": "Fission Reactor (multiblock)", "category": "generator", "subcategory": "fission", "stats": {"energy_per_fuel_raw": 1000000}, "input": "Fissile fuel, coolant", "needs_power_to_start": false, "needs_ore": true, "tunable": ["config", "recipe"], "notes": "Meltdowns are on by default; direct overlap with Extreme Reactors."},
-  {"id": "mekanismgenerators:fusion_reactor_controller", "name": "Fusion Reactor (multiblock)", "category": "generator", "subcategory": "fusion", "stats": {}, "input": "Deuterium + tritium via Hohlraum/laser", "needs_power_to_start": true, "needs_ore": true, "tunable": ["config", "recipe"], "notes": "Endgame; needs power to ignite."}
+  {
+   "id": "mekanismgenerators:heat_generator",
+   "name": "Heat Generator",
+   "category": "generator",
+   "subcategory": "heat",
+   "stats": {
+    "output_raw": 200,
+    "lava_bonus_raw": 30,
+    "nether_bonus_raw": 100,
+    "tank_mb": 24000
+   },
+   "input": "Burns any fuel item plus lava (and nether biome bonus)",
+   "needs_power_to_start": false,
+   "needs_ore": false,
+   "tunable": [
+    "config",
+    "recipe"
+   ],
+   "notes": "Natural early generator: no steel/ore chain needed beyond Mekanism basics. Direct rival to Powah Magmator/Furnator at the low end."
+  },
+  {
+   "id": "mekanismgenerators:solar_generator",
+   "name": "Solar Generator",
+   "category": "generator",
+   "subcategory": "solar",
+   "stats": {
+    "output_raw": 50
+   },
+   "input": "Sunlight",
+   "needs_power_to_start": false,
+   "needs_ore": false,
+   "tunable": [
+    "config",
+    "recipe"
+   ]
+  },
+  {
+   "id": "mekanismgenerators:advanced_solar_generator",
+   "name": "Advanced Solar Generator",
+   "category": "generator",
+   "subcategory": "solar",
+   "stats": {
+    "output_raw": 300
+   },
+   "input": "Sunlight",
+   "needs_power_to_start": false,
+   "needs_ore": false,
+   "tunable": [
+    "config",
+    "recipe"
+   ],
+   "notes": "Overlaps Powah Solar Panel tiers."
+  },
+  {
+   "id": "mekanismgenerators:wind_generator",
+   "name": "Wind Generator",
+   "category": "generator",
+   "subcategory": "wind",
+   "stats": {
+    "output_raw_min": 60,
+    "output_raw_max": 480,
+    "min_y": 24
+   },
+   "input": "Height (Y) above min Y",
+   "needs_power_to_start": false,
+   "needs_ore": false,
+   "tunable": [
+    "config",
+    "recipe"
+   ]
+  },
+  {
+   "id": "mekanismgenerators:bio_generator",
+   "name": "Bio-Generator",
+   "category": "generator",
+   "subcategory": "bio",
+   "stats": {
+    "output_raw": 350,
+    "tank_mb": 24000
+   },
+   "input": "Bioethanol (from crops/plant matter)",
+   "needs_power_to_start": false,
+   "needs_ore": false,
+   "tunable": [
+    "config",
+    "recipe"
+   ],
+   "notes": "Fits the grow-what-you-cannot-mine theme; check it against the crop mods."
+  },
+  {
+   "id": "mekanismgenerators:gas_burning_generator",
+   "name": "Gas-Burning Generator",
+   "category": "generator",
+   "subcategory": "chemical",
+   "stats": {
+    "tank_capacity": 18000
+   },
+   "input": "Hydrogen / ethene and other burnable gases",
+   "needs_power_to_start": false,
+   "needs_ore": false,
+   "tunable": [
+    "config",
+    "recipe"
+   ]
+  },
+  {
+   "id": "mekanismgenerators:turbine_casing",
+   "name": "Industrial Turbine (multiblock)",
+   "category": "generator",
+   "subcategory": "steam-turbine",
+   "stats": {
+    "blades_per_coil": 4,
+    "vent_flow_mb_t": 32000,
+    "disperser_flow": 1280
+   },
+   "input": "Steam from fission or fusion, or boiler",
+   "needs_power_to_start": false,
+   "needs_ore": true,
+   "tunable": [
+    "config",
+    "recipe"
+   ]
+  },
+  {
+   "id": "mekanismgenerators:fission_reactor_casing",
+   "name": "Fission Reactor (multiblock)",
+   "category": "generator",
+   "subcategory": "fission",
+   "stats": {
+    "energy_per_fuel_raw": 1000000
+   },
+   "input": "Fissile fuel, coolant",
+   "needs_power_to_start": false,
+   "needs_ore": true,
+   "tunable": [
+    "config",
+    "recipe"
+   ],
+   "notes": "Meltdowns are on by default; direct overlap with Extreme Reactors."
+  },
+  {
+   "id": "mekanismgenerators:fusion_reactor_controller",
+   "name": "Fusion Reactor (multiblock)",
+   "category": "generator",
+   "subcategory": "fusion",
+   "stats": {},
+   "input": "Deuterium + tritium via Hohlraum/laser",
+   "needs_power_to_start": true,
+   "needs_ore": true,
+   "tunable": [
+    "config",
+    "recipe"
+   ],
+   "notes": "Endgame; needs power to ignite."
+  }
  ]
 }

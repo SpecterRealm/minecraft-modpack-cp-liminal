@@ -11,7 +11,11 @@ This is not a wish list. Each entry records what the item does, its numbers, wha
 | `data/<mod>.json` | One file per mod: pin, source, tuning levers, items |
 | `sources.json` / [`sources.md`](sources.md) | Where each mod's source lives and which ref matches our pin (the running list) |
 | `../../../scripts/series-mod-sources.py` | `check` verifies repos with `git ls-remote`; `report` writes `sources.md` |
+| `../../../scripts/series-mod-compat.py` | Scans a cloned source for built-in support for other pack mods |
+| `review-process.md` | The per-mod review procedure |
 | `../../../scripts/series-item-catalog.py` | `list`, `report --category <c>`, `levers --mod <m>` |
+
+The step-by-step review (source, item list, numbers, built-in compat with other mods, game check, decision) is in [`review-process.md`](review-process.md).
 
 ## How a mod gets catalogued
 
@@ -26,6 +30,7 @@ Mark anything not verified in-game as such (`unverified` field). Numbers come fr
 
 ## Entry fields
 
+- Top-level `compat`: list of `{mod, kind, what, weight}` for built-in support for other pack mods
 - `id`, `name`, `category`, `subcategory`, `tiers`
 - `stats`: named arrays aligned to `tiers` (`output_fe_t`, `capacity_fe`, `transfer_fe_t`, more as needed)
 - `input`: what it consumes or needs; `needs_ore`, `needs_power_to_start`
@@ -51,4 +56,5 @@ Order to reach for, cheapest first:
 
 | Mod | Catalogued | Notes |
 |---|---|---|
+| Mekanism Generators, Create Additions, Extreme Reactors | Generators, storage, transfer, compat | See `findings-generators.md` |
 | Powah! | Partly (generators, storage, transfer, key tools) | Pilot; item list from `lang/en_us.json` still to be fully merged |

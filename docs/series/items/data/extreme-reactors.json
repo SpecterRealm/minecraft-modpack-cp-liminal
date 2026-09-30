@@ -9,16 +9,119 @@
  },
  "unverified": "Reactor and turbine output depends on multiblock layout, so no single FE/t is given. Requires ZeroCore. Confirm ore worldgen is actually off in Verdant/Elysian (data/bigreactors/worldgen ships yellorite, anglesite and benitoite ores).",
  "tuning": [
-  {"lever": "config", "where": "config/bigreactors-common.toml -> general.powerProductionMultiplier / reactor.reactorPowerProductionMultiplier / turbine.turbinePowerProductionMultiplier / fuelUsageMultiplier", "effect": "Global and per-type output multipliers (0.005 to 100) and fuel usage"},
-  {"lever": "config", "where": "reactor.maxReactorHeight (48) / maxReactorSize (32), turbine.maxTurbineHeight (32) / maxTurbineSize (32)", "effect": "Multiblock size caps"},
-  {"lever": "datapack", "where": "data/bigreactors/worldgen, data/bigreactors/tags", "effect": "Ore generation and coolant/fuel definitions"},
-  {"lever": "recipe", "where": "data/bigreactors/recipe/*", "effect": "Gate tiers (Basic vs Reinforced) via KubeJS"}
+  {
+   "lever": "config",
+   "where": "config/bigreactors-common.toml -> general.powerProductionMultiplier / reactor.reactorPowerProductionMultiplier / turbine.turbinePowerProductionMultiplier / fuelUsageMultiplier",
+   "effect": "Global and per-type output multipliers (0.005 to 100) and fuel usage"
+  },
+  {
+   "lever": "config",
+   "where": "reactor.maxReactorHeight (48) / maxReactorSize (32), turbine.maxTurbineHeight (32) / maxTurbineSize (32)",
+   "effect": "Multiblock size caps"
+  },
+  {
+   "lever": "datapack",
+   "where": "data/bigreactors/worldgen, data/bigreactors/tags",
+   "effect": "Ore generation and coolant/fuel definitions"
+  },
+  {
+   "lever": "recipe",
+   "where": "data/bigreactors/recipe/*",
+   "effect": "Gate tiers (Basic vs Reinforced) via KubeJS"
+  }
+ ],
+ "compat": [
+  {
+   "mod": "zerocore",
+   "kind": "dependency",
+   "what": "Required library",
+   "weight": "n/a"
+  },
+  {
+   "mod": "powah",
+   "kind": "data-ref",
+   "what": "Powah dry ice is listed in a coolant tag (1 entry); no code support",
+   "weight": "low"
+  }
  ],
  "items": [
-  {"id": "bigreactors:basic_reactorcontroller", "name": "Reactor (Basic / Reinforced)", "category": "generator", "subcategory": "multiblock-nuclear", "stats": {"max_size": 32, "max_height": 48}, "input": "Yellorium / blutonium fuel rods, optional coolant (steam mode feeds a turbine)", "needs_power_to_start": false, "needs_ore": true, "tunable": ["config", "recipe", "datapack"], "notes": "Overlaps Powah Reactor and Mekanism Fission. Fuel needs yellorite ore, which Verdant/Elysian disable; check the source path."},
-  {"id": "bigreactors:basic_turbinecontroller", "name": "Turbine (Basic / Reinforced)", "category": "generator", "subcategory": "steam-turbine", "stats": {"max_size": 32, "max_height": 32}, "input": "Steam", "needs_power_to_start": false, "needs_ore": true, "tunable": ["config", "recipe"], "notes": "Overlaps Mekanism Industrial Turbine."},
-  {"id": "bigreactors:energycore", "name": "Energy Core", "category": "energy-storage", "subcategory": "multiblock", "stats": {}, "input": "FE", "needs_power_to_start": false, "needs_ore": false, "tunable": ["recipe"], "notes": "Multiblock battery, the closest match to the Ender IO capacitor bank the pack wants. Confirm size, capacity and recipe."},
-  {"id": "bigreactors:wrench", "name": "Extreme Wrench", "category": "tool", "subcategory": "wrench", "stats": {}, "input": "None", "needs_power_to_start": false, "needs_ore": false, "tunable": ["recipe"], "notes": "Another wrench: overlaps Create, Mekanism (Configurator), Morph-o-Tool and Metalworks tools. Morph-o-Tool test candidate."},
-  {"id": "bigreactors:fluidizercontroller", "name": "Fluidizer (multiblock)", "category": "utility", "subcategory": "fluid-processing", "stats": {}, "input": "Solids into fluids", "needs_power_to_start": true, "needs_ore": false, "tunable": ["recipe"]}
+  {
+   "id": "bigreactors:basic_reactorcontroller",
+   "name": "Reactor (Basic / Reinforced)",
+   "category": "generator",
+   "subcategory": "multiblock-nuclear",
+   "stats": {
+    "max_size": 32,
+    "max_height": 48
+   },
+   "input": "Yellorium / blutonium fuel rods, optional coolant (steam mode feeds a turbine)",
+   "needs_power_to_start": false,
+   "needs_ore": true,
+   "tunable": [
+    "config",
+    "recipe",
+    "datapack"
+   ],
+   "notes": "Overlaps Powah Reactor and Mekanism Fission. Fuel needs yellorite ore, which Verdant/Elysian disable; check the source path."
+  },
+  {
+   "id": "bigreactors:basic_turbinecontroller",
+   "name": "Turbine (Basic / Reinforced)",
+   "category": "generator",
+   "subcategory": "steam-turbine",
+   "stats": {
+    "max_size": 32,
+    "max_height": 32
+   },
+   "input": "Steam",
+   "needs_power_to_start": false,
+   "needs_ore": true,
+   "tunable": [
+    "config",
+    "recipe"
+   ],
+   "notes": "Overlaps Mekanism Industrial Turbine."
+  },
+  {
+   "id": "bigreactors:energycore",
+   "name": "Energy Core",
+   "category": "energy-storage",
+   "subcategory": "multiblock",
+   "stats": {},
+   "input": "FE",
+   "needs_power_to_start": false,
+   "needs_ore": false,
+   "tunable": [
+    "recipe"
+   ],
+   "notes": "Multiblock battery, the closest match to the Ender IO capacitor bank the pack wants. Confirm size, capacity and recipe."
+  },
+  {
+   "id": "bigreactors:wrench",
+   "name": "Extreme Wrench",
+   "category": "tool",
+   "subcategory": "wrench",
+   "stats": {},
+   "input": "None",
+   "needs_power_to_start": false,
+   "needs_ore": false,
+   "tunable": [
+    "recipe"
+   ],
+   "notes": "Another wrench: overlaps Create, Mekanism (Configurator), Morph-o-Tool and Metalworks tools. Morph-o-Tool test candidate."
+  },
+  {
+   "id": "bigreactors:fluidizercontroller",
+   "name": "Fluidizer (multiblock)",
+   "category": "utility",
+   "subcategory": "fluid-processing",
+   "stats": {},
+   "input": "Solids into fluids",
+   "needs_power_to_start": true,
+   "needs_ore": false,
+   "tunable": [
+    "recipe"
+   ]
+  }
  ]
 }
