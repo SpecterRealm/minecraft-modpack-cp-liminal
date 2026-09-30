@@ -24,9 +24,14 @@ scripts/__pycache__/
 .venv/
 .venv-patchouli/
 
-# Generated offline recipe dump (run make recipe-wiki; do not reuse Verdant dumps)
-docs/recipe_data.json
+# Offline recipe wiki HTML embeds textures and is often huge — open locally after make recipe-wiki.
+# Track docs/recipe_data.json and docs/recipe-analyze/ so agents can audit without Prism.
+# Regenerate after mod list / KubeJS changes: make recipe-audit (do not copy Verdant dumps).
 docs/recipe_wiki.html
+
+# Assembled on first make recipe-wiki from .github/recipe-wiki-parts/
+scripts/recipe_wiki_core.py
+scripts/analyze_recipe_wiki.py
 
 # Minecraft runtime (if someone opens the repo as instance)
 logs/

@@ -35,7 +35,7 @@ INSTALLER_URL  := https://github.com/packwiz/packwiz-installer/releases/latest/d
 	dev dev-launch stop logs configure-dev setup-dev prune-dev-mods prune-instance-orphans \
 	version set-version sync-issue-templates version-check \
 	config-pull config-diff config-promote config-ship-full \
-	docs recipe-wiki
+	docs recipe-wiki recipe-analyze recipe-audit
 
 help:
 	@echo "Colony Protocol: Liminal — packwiz targets"
@@ -71,11 +71,13 @@ help:
 	@echo "  make validate-export      verify CF zip (after export-cf)"
 	@echo "  make export-mr            → $(MR_OUT)"
 	@echo "  make all                  version-check + export-cf + export-mr"
-	@echo "  make recipe-wiki          offline recipe dump → docs/recipe_data.json + recipe_wiki.html"
+	@echo "  make recipe-wiki          offline dump → docs/recipe_data.json + recipe_wiki.html"
+	@echo "  make recipe-analyze       summarize dump + AgriCraft plants → docs/recipe-analyze/"
+	@echo "  make recipe-audit         recipe-wiki + recipe-analyze (commit after mod list changes)"
 	@echo "  make docs                 serve docs/ at http://localhost:8000/"
 	@echo ""
 	@echo "  PRISM_INSTANCE=$(PRISM_INSTANCE)  DEV_MAX_MEM=$(DEV_MAX_MEM)"
-	@echo "  RECIPE_WIKI_MODS_DIR=…    override mods JAR folder for recipe-wiki"
+	@echo "  RECIPE_WIKI_MODS_DIR=…    override mods JAR folder for recipe-wiki / recipe-analyze"
 
 setup-dev: configure-dev
 	@[ -d "$(DEV_MC_DIR)" ] || { echo "✗ Instance '$(PRISM_INSTANCE)' minecraft folder not found"; exit 1; }
@@ -144,12 +146,7 @@ logs:
 		&& tail -f "$(PRISM_DATA)/instances/$(PRISM_INSTANCE)/minecraft/logs/latest.log" \
 		|| echo "⚠️  No log for $(PRISM_INSTANCE)"
 
-# Offline recipe dump from Prism mods JARs + kubejs (see docs/recipe-wiki.md).
-# Needs installed JARs under CP-Liminal-Dev (or RECIPE_WIKI_MODS_DIR).
-recipe-wiki:
-	@echo "→ building recipe wiki from mods JARs + kubejs..."
-	python3 scripts/build_recipe_wiki.py
-	@echo "→ open docs/recipe_wiki.html or run: make docs"
+include scripts/recipe-audit.mk
 
 docs:
 	@echo "→ serving docs at http://localhost:8000/ (recipe_wiki.html after make recipe-wiki)"
