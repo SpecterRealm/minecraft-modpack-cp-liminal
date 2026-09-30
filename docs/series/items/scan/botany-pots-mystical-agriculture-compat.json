@@ -1,0 +1,47 @@
+{
+ "repo": "Darkhax-Minecraft/Botany-Pots-Mystical-Agriculture",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [],
+ "item_count": 0,
+ "compat": [
+  {
+   "id": "bookshelf",
+   "slug": "bookshelf",
+   "evidence": {
+    "data-ref": 166,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "botanypots",
+   "slug": "botany-pots",
+   "evidence": {
+    "data-ref": 12,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "mysticalagriculture",
+   "slug": "mystical-agriculture",
+   "evidence": {
+    "data-ref": 165
+   }
+  },
+  {
+   "id": "mysticalcustomization",
+   "slug": "mystical-customization",
+   "evidence": {
+    "data-ref": 12
+   }
+  },
+  {
+   "id": "prickle",
+   "slug": "prickle",
+   "evidence": {
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {}
+}

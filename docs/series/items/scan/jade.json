@@ -1,0 +1,28 @@
+{
+ "repo": "Snownee/Jade",
+ "ref": "fabric-15.10.5",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "jade"
+ ],
+ "item_count": 2,
+ "compat": [
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 1
+   }
+  }
+ ],
+ "items": {
+  "minecraft:villager.none": {
+   "kind": "entity",
+   "name": "Unemployed"
+  },
+  "minecraft:villager.nitwit": {
+   "kind": "entity",
+   "name": "Nitwit"
+  }
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "repo": "RakSrinaNa/FallingTree",
+ "ref": "1.21.1.11",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "${modId}",
+  "fallingtree"
+ ],
+ "item_count": 0,
+ "compat": [
+  {
+   "id": "cloth_config",
+   "slug": "cloth-config",
+   "evidence": {
+    "isLoaded": 2
+   }
+  },
+  {
+   "id": "cloth-config",
+   "slug": "cloth-config",
+   "evidence": {
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {}
+}

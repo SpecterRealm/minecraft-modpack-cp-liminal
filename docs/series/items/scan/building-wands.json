@@ -1,0 +1,80 @@
+{
+ "repo": "nicguzzo/wands",
+ "ref": "default",
+ "ref_kind": "none",
+ "mod_ids": [
+  "wands"
+ ],
+ "item_count": 15,
+ "compat": [
+  {
+   "id": "cloth_config",
+   "slug": "cloth-config",
+   "evidence": {
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "wands:wooden_wand": {
+   "kind": "item",
+   "name": "Wooden Wand"
+  },
+  "wands:gold_wand": {
+   "kind": "item",
+   "name": "Gold Wand"
+  },
+  "wands:copper_wand": {
+   "kind": "item",
+   "name": "Copper Wand"
+  },
+  "wands:creative_wand": {
+   "kind": "item",
+   "name": "Creative Wand"
+  },
+  "wands:diamond_wand": {
+   "kind": "item",
+   "name": "Diamond Wand"
+  },
+  "wands:gradient": {
+   "kind": "item",
+   "name": "Gradient"
+  },
+  "wands:iron_wand": {
+   "kind": "item",
+   "name": "Iron Wand"
+  },
+  "wands:magic_bag_1": {
+   "kind": "item",
+   "name": "Magic Bag Tier 1"
+  },
+  "wands:magic_bag_2": {
+   "kind": "item",
+   "name": "Magic Bag Tier 2"
+  },
+  "wands:magic_bag_3": {
+   "kind": "item",
+   "name": "Magic Bag Tier 3"
+  },
+  "wands:netherite_wand": {
+   "kind": "item",
+   "name": "Netherite Wand"
+  },
+  "wands:palette": {
+   "kind": "item",
+   "name": "Palette"
+  },
+  "wands:random": {
+   "kind": "item",
+   "name": "Random"
+  },
+  "wands:round_robin": {
+   "kind": "item",
+   "name": "Sequential"
+  },
+  "wands:stone_wand": {
+   "kind": "item",
+   "name": "Stone Wand"
+  }
+ }
+}

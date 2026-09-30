@@ -1,0 +1,212 @@
+{
+ "repo": "FTBTeam/FTB-Quests",
+ "ref": "v2101.1.24",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "ftbquests"
+ ],
+ "item_count": 48,
+ "compat": [
+  {
+   "id": "ftbxmodcompat",
+   "slug": "ftb-xmod-compat",
+   "evidence": {
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "ftbquests:screen.missing_data": {
+   "kind": "block",
+   "name": "Broken Block / Missing Data!"
+  },
+  "ftbquests:aux_task_screen": {
+   "kind": "block",
+   "name": "Task Screen"
+  },
+  "ftbquests:screen_1": {
+   "kind": "block",
+   "name": "Task Screen (1x1)"
+  },
+  "ftbquests:screen_3": {
+   "kind": "block",
+   "name": "Task Screen (3x3)"
+  },
+  "ftbquests:screen_5": {
+   "kind": "block",
+   "name": "Task Screen (5x5)"
+  },
+  "ftbquests:screen_7": {
+   "kind": "block",
+   "name": "Task Screen (7x7)"
+  },
+  "ftbquests:screen.task_index": {
+   "kind": "block",
+   "name": "Task Index"
+  },
+  "ftbquests:screen.size": {
+   "kind": "block",
+   "name": "Size"
+  },
+  "ftbquests:screen.skin": {
+   "kind": "block",
+   "name": "Skin"
+  },
+  "ftbquests:screen.indestructible": {
+   "kind": "block",
+   "name": "Indestructible"
+  },
+  "ftbquests:screen.input_only": {
+   "kind": "block",
+   "name": "Input Only"
+  },
+  "ftbquests:screen.input_mode_icon": {
+   "kind": "block",
+   "name": "Input Mode Icon"
+  },
+  "ftbquests:screen.text_shadow": {
+   "kind": "block",
+   "name": "Draw Text Shadows"
+  },
+  "ftbquests:screen.fullscreen": {
+   "kind": "block",
+   "name": "Fullscreen"
+  },
+  "ftbquests:screen.hide_icons": {
+   "kind": "block",
+   "name": "Hide Icons"
+  },
+  "ftbquests:screen.no_permission": {
+   "kind": "block",
+   "name": "You don't have permission to configure this!"
+  },
+  "ftbquests:progress_detector": {
+   "kind": "block",
+   "name": "Quest Progress Detector"
+  },
+  "ftbquests:progress_detector.object": {
+   "kind": "block",
+   "name": "Object ID"
+  },
+  "ftbquests:progress_detector.level": {
+   "kind": "block",
+   "name": "Output Level"
+  },
+  "ftbquests:barrier": {
+   "kind": "block",
+   "name": "Quest Barrier"
+  },
+  "ftbquests:stage_barrier": {
+   "kind": "block",
+   "name": "Stage Barrier"
+  },
+  "ftbquests:barrier.object": {
+   "kind": "block",
+   "name": "Object ID"
+  },
+  "ftbquests:barrier.invis_when_open": {
+   "kind": "item",
+   "name": "Invisible when open: %s"
+  },
+  "ftbquests:detector": {
+   "kind": "block",
+   "name": "Quest Detector"
+  },
+  "ftbquests:detector.task": {
+   "kind": "block",
+   "name": "Task"
+  },
+  "ftbquests:detector.notifications": {
+   "kind": "block",
+   "name": "Notifications"
+  },
+  "ftbquests:detector.redstone": {
+   "kind": "block",
+   "name": "Redstone Detector"
+  },
+  "ftbquests:detector.redstone.required_redstone": {
+   "kind": "block",
+   "name": "Required Redstone Level"
+  },
+  "ftbquests:detector.player": {
+   "kind": "block",
+   "name": "Player Detector"
+  },
+  "ftbquests:detector.player.radius": {
+   "kind": "block",
+   "name": "Radius"
+  },
+  "ftbquests:detector.player.offset_y": {
+   "kind": "block",
+   "name": "Offset Y"
+  },
+  "ftbquests:detector.player.height": {
+   "kind": "block",
+   "name": "Height"
+  },
+  "ftbquests:progress_screen": {
+   "kind": "block",
+   "name": "Progress Screen"
+  },
+  "ftbquests:chest": {
+   "kind": "block",
+   "name": "Quest Chest"
+  },
+  "ftbquests:chest.transfer_all": {
+   "kind": "block",
+   "name": "Auto-Transfer All Items"
+  },
+  "ftbquests:chest.input": {
+   "kind": "block",
+   "name": "Input Slot"
+  },
+  "ftbquests:chest.output": {
+   "kind": "block",
+   "name": "Output Slot"
+  },
+  "ftbquests:loot_crate_storage": {
+   "kind": "block",
+   "name": "Loot Crate Storage"
+  },
+  "ftbquests:loot_crate_opener": {
+   "kind": "block",
+   "name": "Loot Crate Opener"
+  },
+  "ftbquests:loot_crate_opener.rightclick": {
+   "kind": "block",
+   "name": "Stored items: %d"
+  },
+  "ftbquests:missing_item": {
+   "kind": "item",
+   "name": "Missing Item"
+  },
+  "ftbquests:barrier.rightclick": {
+   "kind": "item",
+   "name": "Right-click to configure settings\nMiddle-click to pick a copy, including settings"
+  },
+  "ftbquests:barrier.object.quest_barrier": {
+   "kind": "item",
+   "name": "Configured Quest: %s"
+  },
+  "ftbquests:barrier.object.stage_barrier": {
+   "kind": "item",
+   "name": "Configured Stage: %s"
+  },
+  "ftbquests:barrier.skin": {
+   "kind": "item",
+   "name": "Appears As: %s"
+  },
+  "ftbquests:lootcrate": {
+   "kind": "item",
+   "name": "Loot Crate"
+  },
+  "ftbquests:lootcrate.missing": {
+   "kind": "item",
+   "name": "ERROR: unknown loot crate '%s'!"
+  },
+  "ftbquests:custom_icon": {
+   "kind": "item",
+   "name": "Custom Icon"
+  }
+ }
+}

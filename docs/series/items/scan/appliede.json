@@ -1,0 +1,72 @@
+{
+ "repo": "62832/AppliedE",
+ "ref": "1.0.8-beta",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "appliede"
+ ],
+ "item_count": 9,
+ "compat": [
+  {
+   "id": "appeng",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "compat-import": 7
+   }
+  },
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "data-ref": 9,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "projecte",
+   "slug": "projecte",
+   "evidence": {
+    "data-ref": 7,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "appliede:emc_interface": {
+   "kind": "block",
+   "name": "ME Transmutation Interface"
+  },
+  "appliede:cable_emc_interface": {
+   "kind": "item",
+   "name": "ME Transmutation Interface"
+  },
+  "appliede:emc_module": {
+   "kind": "item",
+   "name": "ME Transmutation Module"
+  },
+  "appliede:emc_export_bus": {
+   "kind": "item",
+   "name": "ME Transmutation Export Bus"
+  },
+  "appliede:emc_import_bus": {
+   "kind": "item",
+   "name": "ME Transmutation Import Bus"
+  },
+  "appliede:learning_card": {
+   "kind": "item",
+   "name": "Alchemical Mastery Card"
+  },
+  "appliede:transmutation_terminal": {
+   "kind": "item",
+   "name": "ME Transmutation Terminal"
+  },
+  "appliede:wireless_transmutation_terminal": {
+   "kind": "item",
+   "name": "Wireless Transmutation Terminal"
+  },
+  "appliede:dummy_emc_item": {
+   "kind": "item",
+   "name": "Dummy EMC Item"
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "repo": "mc-myo-s-mod/AE2-Tangible-Bookmarks",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "${mod_id}",
+  "ae2tb"
+ ],
+ "item_count": 0,
+ "compat": [
+  {
+   "id": "appeng",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "data-ref": 1,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "emi",
+   "slug": "emi",
+   "evidence": {
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "dependency": 1,
+    "isLoaded": 1
+   }
+  }
+ ],
+ "items": {}
+}

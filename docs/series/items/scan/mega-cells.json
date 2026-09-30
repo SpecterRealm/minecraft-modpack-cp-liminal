@@ -1,0 +1,465 @@
+{
+ "repo": "62832/MEGACells",
+ "ref": "4.11.0",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "megacells"
+ ],
+ "item_count": 98,
+ "compat": [
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "compat-import": 3,
+    "data-ref": 197,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "appeng",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "compat-import": 18
+   }
+  },
+  {
+   "id": "appliede",
+   "slug": "appliede",
+   "evidence": {
+    "compat-import": 4,
+    "data-ref": 2
+   }
+  },
+  {
+   "id": "ars_nouveau",
+   "slug": "ars-nouveau",
+   "evidence": {
+    "data-ref": 1
+   }
+  },
+  {
+   "id": "arsnouveau",
+   "slug": "ars-nouveau",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "mekanism",
+   "slug": "mekanism",
+   "evidence": {
+    "compat-import": 3,
+    "data-ref": 3
+   }
+  },
+  {
+   "id": "mekanismgenerators",
+   "slug": "mekanism-generators",
+   "evidence": {
+    "data-ref": 1
+   }
+  },
+  {
+   "id": "mysticalagriculture",
+   "slug": "mystical-agriculture",
+   "evidence": {
+    "data-ref": 1
+   }
+  }
+ ],
+ "items": {
+  "megacells:16m_crafting_storage": {
+   "kind": "block",
+   "name": "16M MEGA Crafting Storage"
+  },
+  "megacells:1m_crafting_storage": {
+   "kind": "block",
+   "name": "1M MEGA Crafting Storage"
+  },
+  "megacells:256m_crafting_storage": {
+   "kind": "block",
+   "name": "256M MEGA Crafting Storage"
+  },
+  "megacells:4m_crafting_storage": {
+   "kind": "block",
+   "name": "4M MEGA Crafting Storage"
+  },
+  "megacells:64m_crafting_storage": {
+   "kind": "block",
+   "name": "64M MEGA Crafting Storage"
+  },
+  "megacells:mega_crafting_accelerator": {
+   "kind": "block",
+   "name": "MEGA Crafting Co-Processing Unit"
+  },
+  "megacells:mega_crafting_monitor": {
+   "kind": "block",
+   "name": "MEGA Crafting Monitor"
+  },
+  "megacells:mega_crafting_unit": {
+   "kind": "block",
+   "name": "MEGA Crafting Unit"
+  },
+  "megacells:mega_emc_interface": {
+   "kind": "block",
+   "name": "MEGA Transmutation Interface"
+  },
+  "megacells:mega_energy_cell": {
+   "kind": "block",
+   "name": "Superdense Energy Cell"
+  },
+  "megacells:mega_interface": {
+   "kind": "block",
+   "name": "MEGA Interface"
+  },
+  "megacells:mega_pattern_provider": {
+   "kind": "block",
+   "name": "MEGA Pattern Provider"
+  },
+  "megacells:sky_bronze_block": {
+   "kind": "block",
+   "name": "Sky Bronze Block"
+  },
+  "megacells:sky_osmium_block": {
+   "kind": "block",
+   "name": "Sky Osmium Block"
+  },
+  "megacells:sky_steel_block": {
+   "kind": "block",
+   "name": "Sky Steel Block"
+  },
+  "megacells:accumulation_processor": {
+   "kind": "item",
+   "name": "Accumulation Processor"
+  },
+  "megacells:accumulation_processor_press": {
+   "kind": "item",
+   "name": "Inscriber Accumulation Press"
+  },
+  "megacells:bulk_cell_component": {
+   "kind": "item",
+   "name": "MEGA Bulk Storage Component"
+  },
+  "megacells:bulk_item_cell": {
+   "kind": "item",
+   "name": "MEGA Bulk Item Storage Cell"
+  },
+  "megacells:cable_mega_emc_interface": {
+   "kind": "item",
+   "name": "MEGA Transmutation Interface"
+  },
+  "megacells:cable_mega_interface": {
+   "kind": "item",
+   "name": "MEGA Interface"
+  },
+  "megacells:cable_mega_pattern_provider": {
+   "kind": "item",
+   "name": "MEGA Pattern Provider"
+  },
+  "megacells:cell_component_16m": {
+   "kind": "item",
+   "name": "16M MEGA Storage Component"
+  },
+  "megacells:cell_component_1m": {
+   "kind": "item",
+   "name": "1M MEGA Storage Component"
+  },
+  "megacells:cell_component_256m": {
+   "kind": "item",
+   "name": "256M MEGA Storage Component"
+  },
+  "megacells:cell_component_4m": {
+   "kind": "item",
+   "name": "4M MEGA Storage Component"
+  },
+  "megacells:cell_component_64m": {
+   "kind": "item",
+   "name": "64M MEGA Storage Component"
+  },
+  "megacells:cell_dock": {
+   "kind": "item",
+   "name": "ME Cell Dock"
+  },
+  "megacells:compression_card": {
+   "kind": "item",
+   "name": "Compression Card"
+  },
+  "megacells:decompression_module": {
+   "kind": "item",
+   "name": "MEGA Decompression Module"
+  },
+  "megacells:experience_storage_cell_16m": {
+   "kind": "item",
+   "name": "16M MEGA Experience Storage Cell"
+  },
+  "megacells:experience_storage_cell_1m": {
+   "kind": "item",
+   "name": "1M MEGA Experience Storage Cell"
+  },
+  "megacells:experience_storage_cell_256m": {
+   "kind": "item",
+   "name": "256M MEGA Experience Storage Cell"
+  },
+  "megacells:experience_storage_cell_4m": {
+   "kind": "item",
+   "name": "4M MEGA Experience Storage Cell"
+  },
+  "megacells:experience_storage_cell_64m": {
+   "kind": "item",
+   "name": "64M MEGA Experience Storage Cell"
+  },
+  "megacells:fluid_storage_cell_16m": {
+   "kind": "item",
+   "name": "16M MEGA Fluid Storage Cell"
+  },
+  "megacells:fluid_storage_cell_1m": {
+   "kind": "item",
+   "name": "1M MEGA Fluid Storage Cell"
+  },
+  "megacells:fluid_storage_cell_256m": {
+   "kind": "item",
+   "name": "256M MEGA Fluid Storage Cell"
+  },
+  "megacells:fluid_storage_cell_4m": {
+   "kind": "item",
+   "name": "4M MEGA Fluid Storage Cell"
+  },
+  "megacells:fluid_storage_cell_64m": {
+   "kind": "item",
+   "name": "64M MEGA Fluid Storage Cell"
+  },
+  "megacells:greater_energy_card": {
+   "kind": "item",
+   "name": "Greater Energy Card"
+  },
+  "megacells:item_storage_cell_16m": {
+   "kind": "item",
+   "name": "16M MEGA Item Storage Cell"
+  },
+  "megacells:item_storage_cell_1m": {
+   "kind": "item",
+   "name": "1M MEGA Item Storage Cell"
+  },
+  "megacells:item_storage_cell_256m": {
+   "kind": "item",
+   "name": "256M MEGA Item Storage Cell"
+  },
+  "megacells:item_storage_cell_4m": {
+   "kind": "item",
+   "name": "4M MEGA Item Storage Cell"
+  },
+  "megacells:item_storage_cell_64m": {
+   "kind": "item",
+   "name": "64M MEGA Item Storage Cell"
+  },
+  "megacells:mana_storage_cell_16m": {
+   "kind": "item",
+   "name": "16M MEGA Mana Storage Cell"
+  },
+  "megacells:mana_storage_cell_1m": {
+   "kind": "item",
+   "name": "1M MEGA Mana Storage Cell"
+  },
+  "megacells:mana_storage_cell_256m": {
+   "kind": "item",
+   "name": "256M MEGA Mana Storage Cell"
+  },
+  "megacells:mana_storage_cell_4m": {
+   "kind": "item",
+   "name": "4M MEGA Mana Storage Cell"
+  },
+  "megacells:mana_storage_cell_64m": {
+   "kind": "item",
+   "name": "64M MEGA Mana Storage Cell"
+  },
+  "megacells:mega_experience_cell_housing": {
+   "kind": "item",
+   "name": "MEGA Experience Cell Housing"
+  },
+  "megacells:mega_fluid_cell_housing": {
+   "kind": "item",
+   "name": "MEGA Fluid Cell Housing"
+  },
+  "megacells:mega_item_cell_housing": {
+   "kind": "item",
+   "name": "MEGA Item Cell Housing"
+  },
+  "megacells:mega_mana_cell_housing": {
+   "kind": "item",
+   "name": "MEGA Mana Cell Housing"
+  },
+  "megacells:mega_soul_cell_housing": {
+   "kind": "item",
+   "name": "MEGA Soul Cell Housing"
+  },
+  "megacells:mega_source_cell_housing": {
+   "kind": "item",
+   "name": "MEGA Source Cell Housing"
+  },
+  "megacells:portable_cell_workbench": {
+   "kind": "item",
+   "name": "Portable Cell Workbench"
+  },
+  "megacells:portable_experience_cell_16m": {
+   "kind": "item",
+   "name": "16M Portable Experience Cell"
+  },
+  "megacells:portable_experience_cell_1m": {
+   "kind": "item",
+   "name": "1M Portable Experience Cell"
+  },
+  "megacells:portable_experience_cell_256m": {
+   "kind": "item",
+   "name": "256M Portable Experience Cell"
+  },
+  "megacells:portable_experience_cell_4m": {
+   "kind": "item",
+   "name": "4M Portable Experience Cell"
+  },
+  "megacells:portable_experience_cell_64m": {
+   "kind": "item",
+   "name": "64M Portable Experience Cell"
+  },
+  "megacells:portable_fluid_cell_16m": {
+   "kind": "item",
+   "name": "16M Portable Fluid Cell"
+  },
+  "megacells:portable_fluid_cell_1m": {
+   "kind": "item",
+   "name": "1M Portable Fluid Cell"
+  },
+  "megacells:portable_fluid_cell_256m": {
+   "kind": "item",
+   "name": "256M Portable Fluid Cell"
+  },
+  "megacells:portable_fluid_cell_4m": {
+   "kind": "item",
+   "name": "4M Portable Fluid Cell"
+  },
+  "megacells:portable_fluid_cell_64m": {
+   "kind": "item",
+   "name": "64M Portable Fluid Cell"
+  },
+  "megacells:portable_item_cell_16m": {
+   "kind": "item",
+   "name": "16M Portable Item Cell"
+  },
+  "megacells:portable_item_cell_1m": {
+   "kind": "item",
+   "name": "1M Portable Item Cell"
+  },
+  "megacells:portable_item_cell_256m": {
+   "kind": "item",
+   "name": "256M Portable Item Cell"
+  },
+  "megacells:portable_item_cell_4m": {
+   "kind": "item",
+   "name": "4M Portable Item Cell"
+  },
+  "megacells:portable_item_cell_64m": {
+   "kind": "item",
+   "name": "64M Portable Item Cell"
+  },
+  "megacells:portable_mana_cell_16m": {
+   "kind": "item",
+   "name": "16M Portable Mana Cell"
+  },
+  "megacells:portable_mana_cell_1m": {
+   "kind": "item",
+   "name": "1M Portable Mana Cell"
+  },
+  "megacells:portable_mana_cell_256m": {
+   "kind": "item",
+   "name": "256M Portable Mana Cell"
+  },
+  "megacells:portable_mana_cell_4m": {
+   "kind": "item",
+   "name": "4M Portable Mana Cell"
+  },
+  "megacells:portable_mana_cell_64m": {
+   "kind": "item",
+   "name": "64M Portable Mana Cell"
+  },
+  "megacells:portable_source_cell_16m": {
+   "kind": "item",
+   "name": "16M Portable Source Cell"
+  },
+  "megacells:portable_source_cell_1m": {
+   "kind": "item",
+   "name": "1M Portable Source Cell"
+  },
+  "megacells:portable_source_cell_256m": {
+   "kind": "item",
+   "name": "256M Portable Source Cell"
+  },
+  "megacells:portable_source_cell_4m": {
+   "kind": "item",
+   "name": "4M Portable Source Cell"
+  },
+  "megacells:portable_source_cell_64m": {
+   "kind": "item",
+   "name": "64M Portable Source Cell"
+  },
+  "megacells:printed_accumulation_processor": {
+   "kind": "item",
+   "name": "Printed Accumulation Circuit"
+  },
+  "megacells:radioactive_cell_component": {
+   "kind": "item",
+   "name": "MEGA Radioactive Storage Component"
+  },
+  "megacells:sky_bronze_ingot": {
+   "kind": "item",
+   "name": "Sky Bronze Ingot"
+  },
+  "megacells:sky_osmium_ingot": {
+   "kind": "item",
+   "name": "Sky Osmium Ingot"
+  },
+  "megacells:sky_steel_ingot": {
+   "kind": "item",
+   "name": "Sky Steel Ingot"
+  },
+  "megacells:soul_storage_cell_16m": {
+   "kind": "item",
+   "name": "16M MEGA Soul Storage Cell"
+  },
+  "megacells:soul_storage_cell_1m": {
+   "kind": "item",
+   "name": "1M MEGA Soul Storage Cell"
+  },
+  "megacells:soul_storage_cell_256m": {
+   "kind": "item",
+   "name": "256M MEGA Soul Storage Cell"
+  },
+  "megacells:soul_storage_cell_4m": {
+   "kind": "item",
+   "name": "4M MEGA Soul Storage Cell"
+  },
+  "megacells:soul_storage_cell_64m": {
+   "kind": "item",
+   "name": "64M MEGA Soul Storage Cell"
+  },
+  "megacells:source_storage_cell_16m": {
+   "kind": "item",
+   "name": "16M MEGA Source Storage Cell"
+  },
+  "megacells:source_storage_cell_1m": {
+   "kind": "item",
+   "name": "1M MEGA Source Storage Cell"
+  },
+  "megacells:source_storage_cell_256m": {
+   "kind": "item",
+   "name": "256M MEGA Source Storage Cell"
+  },
+  "megacells:source_storage_cell_4m": {
+   "kind": "item",
+   "name": "4M MEGA Source Storage Cell"
+  },
+  "megacells:source_storage_cell_64m": {
+   "kind": "item",
+   "name": "64M MEGA Source Storage Cell"
+  }
+ }
+}

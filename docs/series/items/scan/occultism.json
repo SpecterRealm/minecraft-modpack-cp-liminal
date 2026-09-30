@@ -1,0 +1,2420 @@
+{
+ "repo": "klikli-dev/occultism",
+ "ref": "release/v1.21.1-1.224.4",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "${mod_id}",
+  "occultism"
+ ],
+ "item_count": 579,
+ "compat": [
+  {
+   "id": "apothic_enchanting",
+   "slug": "apothic-enchanting",
+   "evidence": {
+    "compat-import": 1,
+    "dependency": 1,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "data-ref": 4
+   }
+  },
+  {
+   "id": "create",
+   "slug": "create",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "emi",
+   "slug": "emi",
+   "evidence": {
+    "compat-import": 12,
+    "dependency": 1,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "geckolib",
+   "slug": "geckolib",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "jade",
+   "slug": "jade",
+   "evidence": {
+    "compat-import": 3,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 10,
+    "dependency": 1,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "modonomicon",
+   "slug": "modonomicon",
+   "evidence": {
+    "compat-import": 16,
+    "data-ref": 257,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "smartbrainlib",
+   "slug": "smartbrainlib",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "theurgy",
+   "slug": "theurgy",
+   "evidence": {
+    "compat-import": 1,
+    "data-ref": 2,
+    "dependency": 1,
+    "isLoaded": 1,
+    "mod_loaded": 2
+   }
+  }
+ ],
+ "items": {
+  "occultism:celestial_chalice": {
+   "kind": "block",
+   "name": "Celestial Chalice"
+  },
+  "occultism:chalk_glyph_black": {
+   "kind": "block",
+   "name": "Black Chalk Glyph"
+  },
+  "occultism:chalk_glyph_blue": {
+   "kind": "block",
+   "name": "Blue Chalk Glyph"
+  },
+  "occultism:chalk_glyph_brown": {
+   "kind": "block",
+   "name": "Brown Chalk Glyph"
+  },
+  "occultism:chalk_glyph_cyan": {
+   "kind": "block",
+   "name": "Cyan Chalk Glyph"
+  },
+  "occultism:chalk_glyph_gold": {
+   "kind": "block",
+   "name": "Yellow Chalk Glyph"
+  },
+  "occultism:chalk_glyph_gray": {
+   "kind": "block",
+   "name": "Gray Chalk Glyph"
+  },
+  "occultism:chalk_glyph_green": {
+   "kind": "block",
+   "name": "Green Chalk Glyph"
+  },
+  "occultism:chalk_glyph_light_blue": {
+   "kind": "block",
+   "name": "Light Blue Chalk Glyph"
+  },
+  "occultism:chalk_glyph_light_gray": {
+   "kind": "block",
+   "name": "Light Gray Chalk Glyph"
+  },
+  "occultism:chalk_glyph_lime": {
+   "kind": "block",
+   "name": "Lime Chalk Glyph"
+  },
+  "occultism:chalk_glyph_magenta": {
+   "kind": "block",
+   "name": "Magenta Chalk Glyph"
+  },
+  "occultism:chalk_glyph_orange": {
+   "kind": "block",
+   "name": "Orange Chalk Glyph"
+  },
+  "occultism:chalk_glyph_pink": {
+   "kind": "block",
+   "name": "Pink Chalk Glyph"
+  },
+  "occultism:chalk_glyph_purple": {
+   "kind": "block",
+   "name": "Purple Chalk Glyph"
+  },
+  "occultism:chalk_glyph_rainbow": {
+   "kind": "block",
+   "name": "Rainbow Chalk Glyph"
+  },
+  "occultism:chalk_glyph_red": {
+   "kind": "block",
+   "name": "Red Chalk Glyph"
+  },
+  "occultism:chalk_glyph_void": {
+   "kind": "block",
+   "name": "Void Chalk Glyph"
+  },
+  "occultism:chalk_glyph_white": {
+   "kind": "block",
+   "name": "White Chalk Glyph"
+  },
+  "occultism:chiseled_otherrock_bricks": {
+   "kind": "block",
+   "name": "Chiseled Otherrock Bricks"
+  },
+  "occultism:chiseled_otherstone_bricks": {
+   "kind": "block",
+   "name": "Chiseled Otherstone Bricks"
+  },
+  "occultism:copper_sacrificial_bowl": {
+   "kind": "block",
+   "name": "Copper Sacrificial Bowl"
+  },
+  "occultism:cracked_otherrock_bricks": {
+   "kind": "block",
+   "name": "Cracked Otherrock Bricks"
+  },
+  "occultism:cracked_otherstone_bricks": {
+   "kind": "block",
+   "name": "Cracked Otherstone Bricks"
+  },
+  "occultism:dark_copper_sacrificial_bowl": {
+   "kind": "block",
+   "name": "Dark Copper Sacrificial Bowl"
+  },
+  "occultism:dark_golden_sacrificial_bowl": {
+   "kind": "block",
+   "name": "Dark Golden Ritual Bowl"
+  },
+  "occultism:dark_iesnium_sacrificial_bowl": {
+   "kind": "block",
+   "name": "Dark Iesnium Ritual Bowl"
+  },
+  "occultism:dark_sacrificial_bowl": {
+   "kind": "block",
+   "name": "Dark Sacrificial Bowl"
+  },
+  "occultism:dark_silver_sacrificial_bowl": {
+   "kind": "block",
+   "name": "Dark Silver Sacrificial Bowl"
+  },
+  "occultism:datura": {
+   "kind": "item",
+   "name": "Demon's Dream Fruit"
+  },
+  "occultism:dimensional_battlefield": {
+   "kind": "block",
+   "name": "Dimensional Battlefield"
+  },
+  "occultism:dimensional_extractor": {
+   "kind": "block",
+   "name": "Dimensional Extractor"
+  },
+  "occultism:dimensional_mineshaft": {
+   "kind": "block",
+   "name": "Dimensional Mineshaft"
+  },
+  "occultism:eldritch_chalice": {
+   "kind": "block",
+   "name": "Eldritch Chalice"
+  },
+  "occultism:entity_wormhole": {
+   "kind": "block",
+   "name": "Entity Wormhole"
+  },
+  "occultism:entity_wormhole_dark": {
+   "kind": "block",
+   "name": "Dark Entity Wormhole"
+  },
+  "occultism:golden_sacrificial_bowl": {
+   "kind": "block",
+   "name": "Golden Ritual Bowl"
+  },
+  "occultism:iesnium_anvil": {
+   "kind": "block",
+   "name": "Iesnium Anvil"
+  },
+  "occultism:iesnium_block": {
+   "kind": "block",
+   "name": "Block of Iesnium"
+  },
+  "occultism:iesnium_ore": {
+   "kind": "block",
+   "name": "Iesnium Ore"
+  },
+  "occultism:iesnium_sacrificial_bowl": {
+   "kind": "block",
+   "name": "Iesnium Ritual Bowl"
+  },
+  "occultism:large_candle": {
+   "kind": "block",
+   "name": "Large Candle"
+  },
+  "occultism:large_candle_black": {
+   "kind": "block",
+   "name": "Large Black Candle"
+  },
+  "occultism:large_candle_blue": {
+   "kind": "block",
+   "name": "Large Blue Candle"
+  },
+  "occultism:large_candle_brown": {
+   "kind": "block",
+   "name": "Large Brown Candle"
+  },
+  "occultism:large_candle_cyan": {
+   "kind": "block",
+   "name": "Large Cyan Candle"
+  },
+  "occultism:large_candle_gray": {
+   "kind": "block",
+   "name": "Large Gray Candle"
+  },
+  "occultism:large_candle_green": {
+   "kind": "block",
+   "name": "Large Green Candle"
+  },
+  "occultism:large_candle_light_blue": {
+   "kind": "block",
+   "name": "Large Light Blue Candle"
+  },
+  "occultism:large_candle_light_gray": {
+   "kind": "block",
+   "name": "Large Light Gray Candle"
+  },
+  "occultism:large_candle_lime": {
+   "kind": "block",
+   "name": "Large Lime Candle"
+  },
+  "occultism:large_candle_magenta": {
+   "kind": "block",
+   "name": "Large Magenta Candle"
+  },
+  "occultism:large_candle_orange": {
+   "kind": "block",
+   "name": "Large Orange Candle"
+  },
+  "occultism:large_candle_pink": {
+   "kind": "block",
+   "name": "Large Pink Candle"
+  },
+  "occultism:large_candle_purple": {
+   "kind": "block",
+   "name": "Large Purple Candle"
+  },
+  "occultism:large_candle_red": {
+   "kind": "block",
+   "name": "Large Red Candle"
+  },
+  "occultism:large_candle_white": {
+   "kind": "block",
+   "name": "Large White Candle"
+  },
+  "occultism:large_candle_yellow": {
+   "kind": "block",
+   "name": "Large Yellow Candle"
+  },
+  "occultism:lighted_air": {
+   "kind": "block",
+   "name": "Lighted Air"
+  },
+  "occultism:othercobblerock": {
+   "kind": "block",
+   "name": "Othercobblerock"
+  },
+  "occultism:othercobblerock_slab": {
+   "kind": "block",
+   "name": "Othercobblerock Slab"
+  },
+  "occultism:othercobblerock_stairs": {
+   "kind": "block",
+   "name": "Othercobblerock Stairs"
+  },
+  "occultism:othercobblerock_wall": {
+   "kind": "block",
+   "name": "Othercobblerock Wall"
+  },
+  "occultism:othercobblestone": {
+   "kind": "block",
+   "name": "Othercobblestone"
+  },
+  "occultism:othercobblestone_slab": {
+   "kind": "block",
+   "name": "Othercobblestone Slab"
+  },
+  "occultism:othercobblestone_stairs": {
+   "kind": "block",
+   "name": "Othercobblestone Stairs"
+  },
+  "occultism:othercobblestone_wall": {
+   "kind": "block",
+   "name": "Othercobblestone Wall"
+  },
+  "occultism:otherflower": {
+   "kind": "block",
+   "name": "Otherflower"
+  },
+  "occultism:otherglass": {
+   "kind": "block",
+   "name": "Otherglass"
+  },
+  "occultism:otherplanks": {
+   "kind": "block",
+   "name": "Otherplanks"
+  },
+  "occultism:otherplanks_button": {
+   "kind": "block",
+   "name": "Otherplanks Button"
+  },
+  "occultism:otherplanks_door": {
+   "kind": "block",
+   "name": "Otherplanks Door"
+  },
+  "occultism:otherplanks_fence": {
+   "kind": "block",
+   "name": "Otherplanks Fence"
+  },
+  "occultism:otherplanks_fence_gate": {
+   "kind": "block",
+   "name": "Otherplanks Fence Gate"
+  },
+  "occultism:otherplanks_hanging_sign": {
+   "kind": "block",
+   "name": "Otherplanks Hanging Sign"
+  },
+  "occultism:otherplanks_pressure_plate": {
+   "kind": "block",
+   "name": "Otherplanks Pressure Plate"
+  },
+  "occultism:otherplanks_sign": {
+   "kind": "block",
+   "name": "Otherplanks Sign"
+  },
+  "occultism:otherplanks_slab": {
+   "kind": "block",
+   "name": "Otherplanks Slab"
+  },
+  "occultism:otherplanks_stairs": {
+   "kind": "block",
+   "name": "Otherplanks Stairs"
+  },
+  "occultism:otherplanks_trapdoor": {
+   "kind": "block",
+   "name": "Otherplanks Trapdoor"
+  },
+  "occultism:otherrock": {
+   "kind": "block",
+   "name": "Otherrock"
+  },
+  "occultism:otherrock_bricks": {
+   "kind": "block",
+   "name": "Otherrock Bricks"
+  },
+  "occultism:otherrock_bricks_slab": {
+   "kind": "block",
+   "name": "Otherrock Bricks Slab"
+  },
+  "occultism:otherrock_bricks_stairs": {
+   "kind": "block",
+   "name": "Otherrock Bricks Stairs"
+  },
+  "occultism:otherrock_bricks_wall": {
+   "kind": "block",
+   "name": "Otherrock Bricks Wall"
+  },
+  "occultism:otherrock_button": {
+   "kind": "block",
+   "name": "Otherrock Button"
+  },
+  "occultism:otherrock_pressure_plate": {
+   "kind": "block",
+   "name": "Otherrock Pressure Plate"
+  },
+  "occultism:otherrock_slab": {
+   "kind": "block",
+   "name": "Otherrock Slab"
+  },
+  "occultism:otherrock_stairs": {
+   "kind": "block",
+   "name": "Otherrock Stairs"
+  },
+  "occultism:otherrock_wall": {
+   "kind": "block",
+   "name": "Otherrock Wall"
+  },
+  "occultism:otherstone": {
+   "kind": "block",
+   "name": "Otherstone"
+  },
+  "occultism:otherstone_bricks": {
+   "kind": "block",
+   "name": "Otherstone Bricks"
+  },
+  "occultism:otherstone_bricks_slab": {
+   "kind": "block",
+   "name": "Otherstone Bricks Slab"
+  },
+  "occultism:otherstone_bricks_stairs": {
+   "kind": "block",
+   "name": "Otherstone Bricks Stairs"
+  },
+  "occultism:otherstone_bricks_wall": {
+   "kind": "block",
+   "name": "Otherstone Bricks Wall"
+  },
+  "occultism:otherstone_button": {
+   "kind": "block",
+   "name": "Otherstone Button"
+  },
+  "occultism:otherstone_pedestal": {
+   "kind": "block",
+   "name": "Otherstone Pedestal"
+  },
+  "occultism:otherstone_pedestal_silver": {
+   "kind": "block",
+   "name": "Otherrock Pedestal"
+  },
+  "occultism:otherstone_pressure_plate": {
+   "kind": "block",
+   "name": "Otherstone Pressure Plate"
+  },
+  "occultism:otherstone_slab": {
+   "kind": "block",
+   "name": "Otherstone Slab"
+  },
+  "occultism:otherstone_stairs": {
+   "kind": "block",
+   "name": "Otherstone Stairs"
+  },
+  "occultism:otherstone_wall": {
+   "kind": "block",
+   "name": "Otherstone Wall"
+  },
+  "occultism:otherworld_leaves": {
+   "kind": "block",
+   "name": "Otherworld Leaves"
+  },
+  "occultism:otherworld_log": {
+   "kind": "block",
+   "name": "Otherworld Log"
+  },
+  "occultism:otherworld_sapling": {
+   "kind": "item",
+   "name": "Otherworld Sapling"
+  },
+  "occultism:otherworld_wood": {
+   "kind": "block",
+   "name": "Otherworld Wood"
+  },
+  "occultism:polished_otherrock": {
+   "kind": "block",
+   "name": "Polished Otherrock"
+  },
+  "occultism:polished_otherrock_slab": {
+   "kind": "block",
+   "name": "Polished Otherrock Slab"
+  },
+  "occultism:polished_otherrock_stairs": {
+   "kind": "block",
+   "name": "Polished Otherrock Stairs"
+  },
+  "occultism:polished_otherrock_wall": {
+   "kind": "block",
+   "name": "Polished Otherrock Wall"
+  },
+  "occultism:polished_otherstone": {
+   "kind": "block",
+   "name": "Polished Otherstone"
+  },
+  "occultism:polished_otherstone_slab": {
+   "kind": "block",
+   "name": "Polished Otherstone Slab"
+  },
+  "occultism:polished_otherstone_stairs": {
+   "kind": "block",
+   "name": "Polished Otherstone Stairs"
+  },
+  "occultism:polished_otherstone_wall": {
+   "kind": "block",
+   "name": "Polished Otherstone Wall"
+  },
+  "occultism:raw_iesnium_block": {
+   "kind": "block",
+   "name": "Block of Raw Iesnium"
+  },
+  "occultism:raw_silver_block": {
+   "kind": "block",
+   "name": "Block of Raw Silver"
+  },
+  "occultism:sacrificial_bowl": {
+   "kind": "block",
+   "name": "Sacrificial Bowl"
+  },
+  "occultism:silver_block": {
+   "kind": "block",
+   "name": "Block of Silver"
+  },
+  "occultism:silver_ore": {
+   "kind": "block",
+   "name": "Silver Ore"
+  },
+  "occultism:silver_ore_deepslate": {
+   "kind": "block",
+   "name": "Deepslate Silver Ore"
+  },
+  "occultism:silver_sacrificial_bowl": {
+   "kind": "block",
+   "name": "Silver Sacrificial Bowl"
+  },
+  "occultism:skeleton_skull_dummy": {
+   "kind": "block",
+   "name": "Skeleton Skull"
+  },
+  "occultism:spirit_attuned_crystal": {
+   "kind": "block",
+   "name": "Spirit Attuned Crystal"
+  },
+  "occultism:spirit_campfire": {
+   "kind": "block",
+   "name": "Spirit Campfire"
+  },
+  "occultism:spirit_fire": {
+   "kind": "block",
+   "name": "Spiritfire"
+  },
+  "occultism:spirit_grindstone": {
+   "kind": "block",
+   "name": "Spirit Grindstone"
+  },
+  "occultism:spirit_lantern": {
+   "kind": "block",
+   "name": "Spirit Lantern"
+  },
+  "occultism:spirit_torch": {
+   "kind": "block",
+   "name": "Spirit Torch"
+  },
+  "occultism:stable_wormhole": {
+   "kind": "block",
+   "name": "Stable Wormhole"
+  },
+  "occultism:stable_wormhole_dark": {
+   "kind": "block",
+   "name": "Dark Stable Wormhole"
+  },
+  "occultism:storage_controller": {
+   "kind": "block",
+   "name": "Dimensional Storage Actuator"
+  },
+  "occultism:storage_controller_base": {
+   "kind": "block",
+   "name": "Storage Actuator Base"
+  },
+  "occultism:storage_controller_base_dark": {
+   "kind": "block",
+   "name": "Dark Storage Actuator Base"
+  },
+  "occultism:storage_controller_dark": {
+   "kind": "block",
+   "name": "Dark Dimensional Storage Actuator"
+  },
+  "occultism:storage_controller_stabilized": {
+   "kind": "block",
+   "name": "Stabilized Dimensional Storage Actuator"
+  },
+  "occultism:storage_controller_stabilized_dark": {
+   "kind": "block",
+   "name": "Dark Stabilized Dimensional Storage Actuator"
+  },
+  "occultism:storage_stabilizer_tier0": {
+   "kind": "block",
+   "name": "Dimensional Storage Stabilizer Base"
+  },
+  "occultism:storage_stabilizer_tier0_dark": {
+   "kind": "block",
+   "name": "Dark Dimensional Storage Stabilizer Base"
+  },
+  "occultism:storage_stabilizer_tier1": {
+   "kind": "block",
+   "name": "Tier 1 Dimensional Storage Stabilizer"
+  },
+  "occultism:storage_stabilizer_tier1_dark": {
+   "kind": "block",
+   "name": "Tier 1 Dark Dimensional Storage Stabilizer"
+  },
+  "occultism:storage_stabilizer_tier2": {
+   "kind": "block",
+   "name": "Tier 2 Dimensional Storage Stabilizer"
+  },
+  "occultism:storage_stabilizer_tier2_dark": {
+   "kind": "block",
+   "name": "Tier 2 Dark Dimensional Storage Stabilizer"
+  },
+  "occultism:storage_stabilizer_tier3": {
+   "kind": "block",
+   "name": "Tier 3 Dimensional Storage Stabilizer"
+  },
+  "occultism:storage_stabilizer_tier3_dark": {
+   "kind": "block",
+   "name": "Tier 3 Dark Dimensional Storage Stabilizer"
+  },
+  "occultism:storage_stabilizer_tier4": {
+   "kind": "block",
+   "name": "Tier 4 Dimensional Storage Stabilizer"
+  },
+  "occultism:storage_stabilizer_tier4_dark": {
+   "kind": "block",
+   "name": "Tier 4 Dark Dimensional Storage Stabilizer"
+  },
+  "occultism:storage_stabilizer_tier5": {
+   "kind": "block",
+   "name": "Tier 5 Dimensional Storage Stabilizer"
+  },
+  "occultism:storage_stabilizer_tier5_dark": {
+   "kind": "block",
+   "name": "Tier 5 Dark Dimensional Storage Stabilizer"
+  },
+  "occultism:stripped_otherworld_log": {
+   "kind": "block",
+   "name": "Stripped Otherworld Log"
+  },
+  "occultism:stripped_otherworld_wood": {
+   "kind": "block",
+   "name": "Stripped Otherworld Wood"
+  },
+  "occultism:tallow_block": {
+   "kind": "block",
+   "name": "Tallow Block"
+  },
+  "occultism:wither_skeleton_skull_dummy": {
+   "kind": "block",
+   "name": "Wither Skeleton Skull"
+  },
+  "occultism:afrit": {
+   "kind": "entity",
+   "name": "Afrit"
+  },
+  "occultism:afrit_wild": {
+   "kind": "entity",
+   "name": "Unbound Afrit"
+  },
+  "occultism:bat_familiar": {
+   "kind": "entity",
+   "name": "Bat Familiar"
+  },
+  "occultism:beaver_familiar": {
+   "kind": "entity",
+   "name": "Beaver Familiar"
+  },
+  "occultism:beholder_familiar": {
+   "kind": "entity",
+   "name": "Beholder Familiar"
+  },
+  "occultism:blacksmith_familiar": {
+   "kind": "entity",
+   "name": "Blacksmith Familiar"
+  },
+  "occultism:chimera_familiar": {
+   "kind": "entity",
+   "name": "Chimera Familiar"
+  },
+  "occultism:cthulhu_familiar": {
+   "kind": "entity",
+   "name": "Cthulhu Familiar"
+  },
+  "occultism:deer_familiar": {
+   "kind": "entity",
+   "name": "Deer Familiar"
+  },
+  "occultism:demonic_husband": {
+   "kind": "entity",
+   "name": "Demonic Husband"
+  },
+  "occultism:demonic_wife": {
+   "kind": "entity",
+   "name": "Demonic Wife"
+  },
+  "occultism:devil_familiar": {
+   "kind": "entity",
+   "name": "Devil Familiar"
+  },
+  "occultism:djinni": {
+   "kind": "entity",
+   "name": "Djinni"
+  },
+  "occultism:dragon_familiar": {
+   "kind": "entity",
+   "name": "Dragon Familiar"
+  },
+  "occultism:fairy_familiar": {
+   "kind": "entity",
+   "name": "Fairy Familiar"
+  },
+  "occultism:foliot": {
+   "kind": "entity",
+   "name": "Foliot"
+  },
+  "occultism:goat_familiar": {
+   "kind": "entity",
+   "name": "Goat Familiar"
+  },
+  "occultism:greedy_familiar": {
+   "kind": "entity",
+   "name": "Greedy Familiar"
+  },
+  "occultism:guardian_familiar": {
+   "kind": "entity",
+   "name": "Guardian Familiar"
+  },
+  "occultism:headless_familiar": {
+   "kind": "entity",
+   "name": "Headless Familiar"
+  },
+  "occultism:iesnium_golem": {
+   "kind": "entity",
+   "name": "Iesnium Golem"
+  },
+  "occultism:marid": {
+   "kind": "entity",
+   "name": "Marid"
+  },
+  "occultism:marid_unbound": {
+   "kind": "entity",
+   "name": "Unbound Marid"
+  },
+  "occultism:mercy_goat": {
+   "kind": "entity",
+   "name": "Goat of Mercy"
+  },
+  "occultism:mummy_familiar": {
+   "kind": "entity",
+   "name": "Mummy Familiar"
+  },
+  "occultism:otherworld_bird": {
+   "kind": "entity",
+   "name": "Drikwing"
+  },
+  "occultism:possessed_bee": {
+   "kind": "entity",
+   "name": "Possessed Bee"
+  },
+  "occultism:possessed_blaze": {
+   "kind": "entity",
+   "name": "Possessed Blaze"
+  },
+  "occultism:possessed_breeze": {
+   "kind": "entity",
+   "name": "Wild Breeze"
+  },
+  "occultism:possessed_elder_guardian": {
+   "kind": "entity",
+   "name": "Possessed Elder Guardian"
+  },
+  "occultism:possessed_enderman": {
+   "kind": "entity",
+   "name": "Possessed Enderman"
+  },
+  "occultism:possessed_endermite": {
+   "kind": "entity",
+   "name": "Possessed Endermite"
+  },
+  "occultism:possessed_evoker": {
+   "kind": "entity",
+   "name": "Wild Evoker"
+  },
+  "occultism:possessed_ghast": {
+   "kind": "entity",
+   "name": "Possessed Ghast"
+  },
+  "occultism:possessed_guardian": {
+   "kind": "entity",
+   "name": "Possessed Guardian"
+  },
+  "occultism:possessed_hoglin": {
+   "kind": "entity",
+   "name": "Possessed Hoglin"
+  },
+  "occultism:possessed_phantom": {
+   "kind": "entity",
+   "name": "Possessed Phantom"
+  },
+  "occultism:possessed_shulker": {
+   "kind": "entity",
+   "name": "Possessed Shulker"
+  },
+  "occultism:possessed_skeleton": {
+   "kind": "entity",
+   "name": "Possessed Skeleton"
+  },
+  "occultism:possessed_strong_breeze": {
+   "kind": "entity",
+   "name": "Wild Strong Breeze"
+  },
+  "occultism:possessed_warden": {
+   "kind": "entity",
+   "name": "Possessed Warden"
+  },
+  "occultism:possessed_weak_breeze": {
+   "kind": "entity",
+   "name": "Wild Weak Breeze"
+  },
+  "occultism:possessed_weak_shulker": {
+   "kind": "entity",
+   "name": "Possessed Weak Shulker"
+  },
+  "occultism:possessed_witch": {
+   "kind": "entity",
+   "name": "Possessed Witch"
+  },
+  "occultism:possessed_zombie_piglin": {
+   "kind": "entity",
+   "name": "Possessed Zombified Piglin"
+  },
+  "occultism:shub_niggurath_familiar": {
+   "kind": "entity",
+   "name": "Shub Niggurath Familiar"
+  },
+  "occultism:shub_niggurath_spawn": {
+   "kind": "entity",
+   "name": "Shub Niggurath Spawn"
+  },
+  "occultism:thrown_sword": {
+   "kind": "entity",
+   "name": "Thrown Sword"
+  },
+  "occultism:wild_bogged": {
+   "kind": "entity",
+   "name": "Wild Bogged"
+  },
+  "occultism:wild_cave_spider": {
+   "kind": "entity",
+   "name": "Wild Cave Spider"
+  },
+  "occultism:wild_horde_creeper": {
+   "kind": "entity",
+   "name": "Wild Horde Creeper"
+  },
+  "occultism:wild_horde_drowned": {
+   "kind": "entity",
+   "name": "Wild Horde Drowned"
+  },
+  "occultism:wild_horde_husk": {
+   "kind": "entity",
+   "name": "Wild Horde Husk"
+  },
+  "occultism:wild_horde_silverfish": {
+   "kind": "entity",
+   "name": "Wild Horde Silverfish"
+  },
+  "occultism:wild_hunt_skeleton": {
+   "kind": "entity",
+   "name": "Wild Hunt Skeleton"
+  },
+  "occultism:wild_hunt_wither_skeleton": {
+   "kind": "entity",
+   "name": "Wild Hunt Wither Skeleton"
+  },
+  "occultism:wild_husk": {
+   "kind": "entity",
+   "name": "Wild Husk"
+  },
+  "occultism:wild_silverfish": {
+   "kind": "entity",
+   "name": "Wild Silverfish"
+  },
+  "occultism:wild_skeleton": {
+   "kind": "entity",
+   "name": "Wild Skeleton"
+  },
+  "occultism:wild_slime": {
+   "kind": "entity",
+   "name": "Wild Slime"
+  },
+  "occultism:wild_spider": {
+   "kind": "entity",
+   "name": "Wild Spider"
+  },
+  "occultism:wild_stray": {
+   "kind": "entity",
+   "name": "Wild Stray"
+  },
+  "occultism:wild_zombie": {
+   "kind": "entity",
+   "name": "Wild Zombie"
+  },
+  "occultism:wondering_trader": {
+   "kind": "entity",
+   "name": "Wondering Trader"
+  },
+  "occultism:afrit_essence": {
+   "kind": "item",
+   "name": "Afrit Essence"
+  },
+  "occultism:amethyst_dust": {
+   "kind": "item",
+   "name": "Amethyst Dust"
+  },
+  "occultism:awakened_feather": {
+   "kind": "item",
+   "name": "Awakened Feather"
+  },
+  "occultism:beaver_nugget": {
+   "kind": "item",
+   "name": "Beaver Nugget"
+  },
+  "occultism:brush": {
+   "kind": "item",
+   "name": "Chalk Brush"
+  },
+  "occultism:burnt_otherrock": {
+   "kind": "item",
+   "name": "Burnt Otherrock"
+  },
+  "occultism:burnt_otherstone": {
+   "kind": "item",
+   "name": "Burnt Otherstone"
+  },
+  "occultism:butcher_knife": {
+   "kind": "item",
+   "name": "Butcher Knife"
+  },
+  "occultism:chalk_black": {
+   "kind": "item",
+   "name": "Black Chalk"
+  },
+  "occultism:chalk_black_impure": {
+   "kind": "item",
+   "name": "Impure Black Chalk"
+  },
+  "occultism:chalk_blue": {
+   "kind": "item",
+   "name": "Blue Chalk"
+  },
+  "occultism:chalk_blue_impure": {
+   "kind": "item",
+   "name": "Impure Blue Chalk"
+  },
+  "occultism:chalk_brown": {
+   "kind": "item",
+   "name": "Brown Chalk"
+  },
+  "occultism:chalk_brown_impure": {
+   "kind": "item",
+   "name": "Impure Brown Chalk"
+  },
+  "occultism:chalk_cyan": {
+   "kind": "item",
+   "name": "Cyan Chalk"
+  },
+  "occultism:chalk_cyan_impure": {
+   "kind": "item",
+   "name": "Impure Cyan Chalk"
+  },
+  "occultism:chalk_gold": {
+   "kind": "item",
+   "name": "Yellow Chalk"
+  },
+  "occultism:chalk_gray": {
+   "kind": "item",
+   "name": "Gray Chalk"
+  },
+  "occultism:chalk_gray_impure": {
+   "kind": "item",
+   "name": "Impure Gray Chalk"
+  },
+  "occultism:chalk_green": {
+   "kind": "item",
+   "name": "Green Chalk"
+  },
+  "occultism:chalk_green_impure": {
+   "kind": "item",
+   "name": "Impure Green Chalk"
+  },
+  "occultism:chalk_light_blue": {
+   "kind": "item",
+   "name": "Light Blue Chalk"
+  },
+  "occultism:chalk_light_blue_impure": {
+   "kind": "item",
+   "name": "Impure Light Blue Chalk"
+  },
+  "occultism:chalk_light_gray": {
+   "kind": "item",
+   "name": "Light Gray Chalk"
+  },
+  "occultism:chalk_light_gray_impure": {
+   "kind": "item",
+   "name": "Impure Light Gray Chalk"
+  },
+  "occultism:chalk_lime": {
+   "kind": "item",
+   "name": "Lime Chalk"
+  },
+  "occultism:chalk_lime_impure": {
+   "kind": "item",
+   "name": "Impure Lime Chalk"
+  },
+  "occultism:chalk_magenta": {
+   "kind": "item",
+   "name": "Magenta Chalk"
+  },
+  "occultism:chalk_magenta_impure": {
+   "kind": "item",
+   "name": "Impure Magenta Chalk"
+  },
+  "occultism:chalk_orange": {
+   "kind": "item",
+   "name": "Orange Chalk"
+  },
+  "occultism:chalk_orange_impure": {
+   "kind": "item",
+   "name": "Impure Orange Chalk"
+  },
+  "occultism:chalk_pink": {
+   "kind": "item",
+   "name": "Pink Chalk"
+  },
+  "occultism:chalk_pink_impure": {
+   "kind": "item",
+   "name": "Impure Pink Chalk"
+  },
+  "occultism:chalk_purple": {
+   "kind": "item",
+   "name": "Purple Chalk"
+  },
+  "occultism:chalk_purple_impure": {
+   "kind": "item",
+   "name": "Impure Purple Chalk"
+  },
+  "occultism:chalk_rainbow": {
+   "kind": "item",
+   "name": "Rainbow Chalk"
+  },
+  "occultism:chalk_red": {
+   "kind": "item",
+   "name": "Red Chalk"
+  },
+  "occultism:chalk_red_impure": {
+   "kind": "item",
+   "name": "Impure Red Chalk"
+  },
+  "occultism:chalk_void": {
+   "kind": "item",
+   "name": "Void Chalk"
+  },
+  "occultism:chalk_white": {
+   "kind": "item",
+   "name": "White Chalk"
+  },
+  "occultism:chalk_white_impure": {
+   "kind": "item",
+   "name": "Impure White Chalk"
+  },
+  "occultism:chalk_yellow_impure": {
+   "kind": "item",
+   "name": "Impure Yellow Chalk"
+  },
+  "occultism:copper_dust": {
+   "kind": "item",
+   "name": "Copper Dust"
+  },
+  "occultism:cruelty_essence": {
+   "kind": "item",
+   "name": "Cruelty Essence"
+  },
+  "occultism:crushed_blackstone": {
+   "kind": "item",
+   "name": "Crushed Blackstone"
+  },
+  "occultism:crushed_blue_ice": {
+   "kind": "item",
+   "name": "Crushed Blue Ice"
+  },
+  "occultism:crushed_calcite": {
+   "kind": "item",
+   "name": "Crushed Calcite"
+  },
+  "occultism:crushed_end_stone": {
+   "kind": "item",
+   "name": "Crushed End Stone"
+  },
+  "occultism:crushed_ice": {
+   "kind": "item",
+   "name": "Crushed Ice"
+  },
+  "occultism:crushed_packed_ice": {
+   "kind": "item",
+   "name": "Crushed Packed Ice"
+  },
+  "occultism:cursed_honey": {
+   "kind": "item",
+   "name": "Cursed Honey"
+  },
+  "occultism:datura_seeds": {
+   "kind": "item",
+   "name": "Demon's Dream Seeds"
+  },
+  "occultism:debug_djinni_manage_machine": {
+   "kind": "item",
+   "name": "Summon Debug Djinni Manage Machine"
+  },
+  "occultism:debug_djinni_test": {
+   "kind": "item",
+   "name": "Summon Debug Djinni Test"
+  },
+  "occultism:debug_foliot_cleaner": {
+   "kind": "item",
+   "name": "Summon Debug Foliot Janitor"
+  },
+  "occultism:debug_foliot_farmer": {
+   "kind": "item",
+   "name": "Summon Debug Foliot Farmer"
+  },
+  "occultism:debug_foliot_lumberjack": {
+   "kind": "item",
+   "name": "Summon Debug Foliot Lumberjack"
+  },
+  "occultism:debug_foliot_trader": {
+   "kind": "item",
+   "name": "Summon Debug Foliot Trader"
+  },
+  "occultism:debug_foliot_transport_items": {
+   "kind": "item",
+   "name": "Summon Debug Foliot Transporter"
+  },
+  "occultism:debug_wand": {
+   "kind": "item",
+   "name": "Debug Wand"
+  },
+  "occultism:demonic_meat": {
+   "kind": "item",
+   "name": "Demonic Meat"
+  },
+  "occultism:demons_dream_essence": {
+   "kind": "item",
+   "name": "Demon's Dream Essence"
+  },
+  "occultism:dimensional_matrix": {
+   "kind": "item",
+   "name": "Dimensional Crystal Matrix"
+  },
+  "occultism:divination_rod": {
+   "kind": "item",
+   "name": "Divination Rod"
+  },
+  "occultism:dragonyst_dust": {
+   "kind": "item",
+   "name": "Dragonyst Dust"
+  },
+  "occultism:echo_dust": {
+   "kind": "item",
+   "name": "Echo Dust"
+  },
+  "occultism:emerald_dust": {
+   "kind": "item",
+   "name": "Emerald Dust"
+  },
+  "occultism:ender_satchel": {
+   "kind": "item",
+   "name": "Ender Satchel"
+  },
+  "occultism:ender_satchel.chest_menu": {
+   "kind": "item",
+   "name": "%s's Ender Chest"
+  },
+  "occultism:familiar_ring": {
+   "kind": "item",
+   "name": "Familiar Ring"
+  },
+  "occultism:flame_of_automation": {
+   "kind": "item",
+   "name": "Flame of Automation"
+  },
+  "occultism:fragile_soul_gem": {
+   "kind": "item",
+   "name": "Fragile Soul Gem"
+  },
+  "occultism:fragile_soul_gem_empty": {
+   "kind": "item",
+   "name": "Fragile Empty Soul Gem"
+  },
+  "occultism:gold_dust": {
+   "kind": "item",
+   "name": "Gold Dust"
+  },
+  "occultism:gray_paste": {
+   "kind": "item",
+   "name": "Gray Paste"
+  },
+  "occultism:iesnium_butcher_knife": {
+   "kind": "item",
+   "name": "Iesnium Butcher Knife"
+  },
+  "occultism:iesnium_dust": {
+   "kind": "item",
+   "name": "Iesnium Dust"
+  },
+  "occultism:iesnium_ingot": {
+   "kind": "item",
+   "name": "Iesnium Ingot"
+  },
+  "occultism:iesnium_nugget": {
+   "kind": "item",
+   "name": "Iesnium Nugget"
+  },
+  "occultism:iesnium_pickaxe": {
+   "kind": "item",
+   "name": "Iesnium Pickaxe"
+  },
+  "occultism:infused_lenses": {
+   "kind": "item",
+   "name": "Infused Lenses"
+  },
+  "occultism:infused_pickaxe": {
+   "kind": "item",
+   "name": "Infused Pickaxe"
+  },
+  "occultism:iron_dust": {
+   "kind": "item",
+   "name": "Iron Dust"
+  },
+  "occultism:knowledge_tablet": {
+   "kind": "item",
+   "name": "Knowledge Tablet"
+  },
+  "occultism:lapis_dust": {
+   "kind": "item",
+   "name": "Lapis Dust"
+  },
+  "occultism:lens_frame": {
+   "kind": "item",
+   "name": "Lens Frame"
+  },
+  "occultism:lenses": {
+   "kind": "item",
+   "name": "Glass Lenses"
+  },
+  "occultism:magic_lamp_empty": {
+   "kind": "item",
+   "name": "Empty Magic Lamp"
+  },
+  "occultism:magic_lamp_filled": {
+   "kind": "item",
+   "name": "Magic Lamp"
+  },
+  "occultism:marid_essence": {
+   "kind": "item",
+   "name": "Marid Essence"
+  },
+  "occultism:miner_afrit_deeps": {
+   "kind": "item",
+   "name": "Deep Ore Miner Afrit"
+  },
+  "occultism:miner_ancient_eldritch": {
+   "kind": "item",
+   "name": "Eldritch Ancient Miner"
+  },
+  "occultism:miner_debug_unspecialized": {
+   "kind": "item",
+   "name": "Debug Miner"
+  },
+  "occultism:miner_djinni_ores": {
+   "kind": "item",
+   "name": "Ore Miner Djinni"
+  },
+  "occultism:miner_foliot_unspecialized": {
+   "kind": "item",
+   "name": "Miner Foliot"
+  },
+  "occultism:miner_marid_master": {
+   "kind": "item",
+   "name": "Master Miner Marid"
+  },
+  "occultism:mining_dim_core": {
+   "kind": "item",
+   "name": "Mining Dimension Core Piece"
+  },
+  "occultism:mysterious_egg_icon": {
+   "kind": "item",
+   "name": "Mysterious Egg Icon"
+  },
+  "occultism:nature_paste": {
+   "kind": "item",
+   "name": "Nature Paste"
+  },
+  "occultism:netherite_dust": {
+   "kind": "item",
+   "name": "Netherite Dust"
+  },
+  "occultism:netherite_scrap_dust": {
+   "kind": "item",
+   "name": "Netherite Scrap Dust"
+  },
+  "occultism:obsidian_dust": {
+   "kind": "item",
+   "name": "Obsidian Dust"
+  },
+  "occultism:otherrock_frame": {
+   "kind": "item",
+   "name": "Otherrock Frame"
+  },
+  "occultism:otherstone_frame": {
+   "kind": "item",
+   "name": "Otherstone Frame"
+  },
+  "occultism:otherstone_tablet": {
+   "kind": "item",
+   "name": "Otherworldly Tablet"
+  },
+  "occultism:otherworld_ashes": {
+   "kind": "item",
+   "name": "Otherworld Ashes"
+  },
+  "occultism:otherworld_essence": {
+   "kind": "item",
+   "name": "Otherworld Essence"
+  },
+  "occultism:otherworld_goggles": {
+   "kind": "item",
+   "name": "Otherworld Goggles"
+  },
+  "occultism:otherworld_sapling_natural": {
+   "kind": "item",
+   "name": "Unstable Otherworld Sapling"
+  },
+  "occultism:pentacle_craft": {
+   "kind": "item",
+   "name": "Pentacle Craft"
+  },
+  "occultism:pentacle_misc": {
+   "kind": "item",
+   "name": "Pentacle Misc"
+  },
+  "occultism:pentacle_possess": {
+   "kind": "item",
+   "name": "Pentacle Possess"
+  },
+  "occultism:pentacle_summon": {
+   "kind": "item",
+   "name": "Pentacle Summon"
+  },
+  "occultism:purified_ink": {
+   "kind": "item",
+   "name": "Purified Ink"
+  },
+  "occultism:raw_iesnium": {
+   "kind": "item",
+   "name": "Raw Iesnium"
+  },
+  "occultism:raw_silver": {
+   "kind": "item",
+   "name": "Raw Silver"
+  },
+  "occultism:repair_icon": {
+   "kind": "item",
+   "name": "Repair Icon"
+  },
+  "occultism:research_fragment_dust": {
+   "kind": "item",
+   "name": "Research Fragment Dust"
+  },
+  "occultism:resurrect_icon": {
+   "kind": "item",
+   "name": "Resurrect Icon"
+  },
+  "occultism:ritual_dummy.craft_dark_iesnium_sacrificial_bowl": {
+   "kind": "item",
+   "name": "Ritual: Craft Dark Iesnium Ritual Bowl"
+  },
+  "occultism:ritual_dummy.craft_dimensional_battlefield": {
+   "kind": "item",
+   "name": "Ritual: Craft Dimensional Battlefield"
+  },
+  "occultism:ritual_dummy.craft_dimensional_extractor": {
+   "kind": "item",
+   "name": "Ritual: Craft Dimensional Extractor"
+  },
+  "occultism:ritual_dummy.craft_dimensional_matrix": {
+   "kind": "item",
+   "name": "Ritual: Craft Dimensional Matrix"
+  },
+  "occultism:ritual_dummy.craft_dimensional_mineshaft": {
+   "kind": "item",
+   "name": "Ritual: Craft Dimensional Mineshaft"
+  },
+  "occultism:ritual_dummy.craft_dragonyst_dust": {
+   "kind": "item",
+   "name": "Ritual: Craft Dragonyst Dust"
+  },
+  "occultism:ritual_dummy.craft_ender_satchel": {
+   "kind": "item",
+   "name": "Ritual: Craft Ender Satchel"
+  },
+  "occultism:ritual_dummy.craft_entity_wormhole": {
+   "kind": "item",
+   "name": "Ritual: Craft Entity Wormhole"
+  },
+  "occultism:ritual_dummy.craft_entity_wormhole_dark": {
+   "kind": "item",
+   "name": "Ritual: Craft Dark Entity Wormhole"
+  },
+  "occultism:ritual_dummy.craft_familiar_ring": {
+   "kind": "item",
+   "name": "Ritual: Craft Familiar Ring"
+  },
+  "occultism:ritual_dummy.craft_fragile_soul_gem": {
+   "kind": "item",
+   "name": "Ritual: Craft Fragile Soul Gem"
+  },
+  "occultism:ritual_dummy.craft_gray_paste": {
+   "kind": "item",
+   "name": "Ritual: Craft Gray Paste"
+  },
+  "occultism:ritual_dummy.craft_iesnium_anvil": {
+   "kind": "item",
+   "name": "Ritual: Craft Iesnium Anvil"
+  },
+  "occultism:ritual_dummy.craft_iesnium_butcher_knife": {
+   "kind": "item",
+   "name": "Ritual: Craft Iesnium Butcher Knife"
+  },
+  "occultism:ritual_dummy.craft_iesnium_sacrificial_bowl": {
+   "kind": "item",
+   "name": "Ritual: Craft Iesnium Ritual Bowl"
+  },
+  "occultism:ritual_dummy.craft_infused_lenses": {
+   "kind": "item",
+   "name": "Ritual: Craft Infused Lenses"
+  },
+  "occultism:ritual_dummy.craft_infused_pickaxe": {
+   "kind": "item",
+   "name": "Ritual: Craft Infused Pickaxe"
+  },
+  "occultism:ritual_dummy.craft_knowledge_tablet": {
+   "kind": "item",
+   "name": "Ritual: Craft Knowledge Tablet"
+  },
+  "occultism:ritual_dummy.craft_miner_afrit_deeps": {
+   "kind": "item",
+   "name": "Ritual: Infuse Afrit Deep Ore Miner"
+  },
+  "occultism:ritual_dummy.craft_miner_djinni_ores": {
+   "kind": "item",
+   "name": "Ritual: Infuse Djinni Ore Miner"
+  },
+  "occultism:ritual_dummy.craft_miner_foliot_unspecialized": {
+   "kind": "item",
+   "name": "Ritual: Infuse Foliot Miner"
+  },
+  "occultism:ritual_dummy.craft_miner_marid_master": {
+   "kind": "item",
+   "name": "Ritual: Infuse Marid Master Miner"
+  },
+  "occultism:ritual_dummy.craft_nature_paste": {
+   "kind": "item",
+   "name": "Ritual: Craft Nature Paste"
+  },
+  "occultism:ritual_dummy.craft_research_fragment_dust": {
+   "kind": "item",
+   "name": "Ritual: Craft Research Fragment Dust"
+  },
+  "occultism:ritual_dummy.craft_ritual_satchel_t1": {
+   "kind": "item",
+   "name": "Ritual: Craft Apprentice Ritual Satchel"
+  },
+  "occultism:ritual_dummy.craft_ritual_satchel_t2": {
+   "kind": "item",
+   "name": "Ritual: Craft Artisanal Ritual Satchel"
+  },
+  "occultism:ritual_dummy.craft_satchel": {
+   "kind": "item",
+   "name": "Ritual: Craft Surprisingly Substantial Satchel"
+  },
+  "occultism:ritual_dummy.craft_soul_gem": {
+   "kind": "item",
+   "name": "Ritual: Craft Soul Gem"
+  },
+  "occultism:ritual_dummy.craft_spirit_grindstone": {
+   "kind": "item",
+   "name": "Ritual: Craft Spirit Grindstone"
+  },
+  "occultism:ritual_dummy.craft_stabilizer_tier1": {
+   "kind": "item",
+   "name": "Ritual: Craft Storage Stabilizer Tier 1"
+  },
+  "occultism:ritual_dummy.craft_stabilizer_tier1_dark": {
+   "kind": "item",
+   "name": "Ritual: Craft Dark Storage Stabilizer Tier 1"
+  },
+  "occultism:ritual_dummy.craft_stabilizer_tier2": {
+   "kind": "item",
+   "name": "Ritual: Craft Storage Stabilizer Tier 2"
+  },
+  "occultism:ritual_dummy.craft_stabilizer_tier2_dark": {
+   "kind": "item",
+   "name": "Ritual: Craft Dark Storage Stabilizer Tier 2"
+  },
+  "occultism:ritual_dummy.craft_stabilizer_tier3": {
+   "kind": "item",
+   "name": "Ritual: Craft Storage Stabilizer Tier 3"
+  },
+  "occultism:ritual_dummy.craft_stabilizer_tier3_dark": {
+   "kind": "item",
+   "name": "Ritual: Craft Dark Storage Stabilizer Tier 3"
+  },
+  "occultism:ritual_dummy.craft_stabilizer_tier4": {
+   "kind": "item",
+   "name": "Ritual: Craft Storage Stabilizer Tier 4"
+  },
+  "occultism:ritual_dummy.craft_stabilizer_tier4_dark": {
+   "kind": "item",
+   "name": "Ritual: Craft Dark Storage Stabilizer Tier 4"
+  },
+  "occultism:ritual_dummy.craft_stable_wormhole": {
+   "kind": "item",
+   "name": "Ritual: Craft Stable Wormhole"
+  },
+  "occultism:ritual_dummy.craft_stable_wormhole_dark": {
+   "kind": "item",
+   "name": "Ritual: Craft Dark Stable Wormhole"
+  },
+  "occultism:ritual_dummy.craft_storage_controller_base": {
+   "kind": "item",
+   "name": "Ritual: Craft Storage Actuator Base"
+  },
+  "occultism:ritual_dummy.craft_storage_controller_base_dark": {
+   "kind": "item",
+   "name": "Ritual: Craft Dark Storage Actuator Base"
+  },
+  "occultism:ritual_dummy.craft_storage_remote": {
+   "kind": "item",
+   "name": "Ritual: Craft Storage Accessor"
+  },
+  "occultism:ritual_dummy.craft_true_sight_staff": {
+   "kind": "item",
+   "name": "Ritual: Craft True Sight Staff"
+  },
+  "occultism:ritual_dummy.craft_upgrade_ritual_satchel": {
+   "kind": "item",
+   "name": "Ritual: Craft Artisanal Ritual Satchel"
+  },
+  "occultism:ritual_dummy.craft_vitality_compass": {
+   "kind": "item",
+   "name": "Ritual: Craft Vitality Compass"
+  },
+  "occultism:ritual_dummy.craft_witherite_dust": {
+   "kind": "item",
+   "name": "Ritual: Craft Witherite Dust"
+  },
+  "occultism:ritual_dummy.custom_ritual_craft": {
+   "kind": "item",
+   "name": "Custom Ritual Dummy"
+  },
+  "occultism:ritual_dummy.custom_ritual_misc": {
+   "kind": "item",
+   "name": "Custom Ritual Dummy"
+  },
+  "occultism:ritual_dummy.custom_ritual_possess": {
+   "kind": "item",
+   "name": "Custom Ritual Dummy"
+  },
+  "occultism:ritual_dummy.custom_ritual_summon": {
+   "kind": "item",
+   "name": "Custom Ritual Dummy"
+  },
+  "occultism:ritual_dummy.familiar_bat": {
+   "kind": "item",
+   "name": "Ritual: Summon Bat Familiar"
+  },
+  "occultism:ritual_dummy.familiar_beaver": {
+   "kind": "item",
+   "name": "Ritual: Summon Beaver Familiar"
+  },
+  "occultism:ritual_dummy.familiar_beholder": {
+   "kind": "item",
+   "name": "Ritual: Summon Beholder Familiar"
+  },
+  "occultism:ritual_dummy.familiar_blacksmith": {
+   "kind": "item",
+   "name": "Ritual: Summon Blacksmith Familiar"
+  },
+  "occultism:ritual_dummy.familiar_chimera": {
+   "kind": "item",
+   "name": "Ritual: Summon Chimera Familiar"
+  },
+  "occultism:ritual_dummy.familiar_cthulhu": {
+   "kind": "item",
+   "name": "Ritual: Summon Cthulhu Familiar"
+  },
+  "occultism:ritual_dummy.familiar_deer": {
+   "kind": "item",
+   "name": "Ritual: Summon Deer Familiar"
+  },
+  "occultism:ritual_dummy.familiar_devil": {
+   "kind": "item",
+   "name": "Ritual: Summon Devil Familiar"
+  },
+  "occultism:ritual_dummy.familiar_dragon": {
+   "kind": "item",
+   "name": "Ritual: Summon Dragon Familiar"
+  },
+  "occultism:ritual_dummy.familiar_fairy": {
+   "kind": "item",
+   "name": "Ritual: Summon Fairy Familiar"
+  },
+  "occultism:ritual_dummy.familiar_greedy": {
+   "kind": "item",
+   "name": "Ritual: Summon Greedy Familiar"
+  },
+  "occultism:ritual_dummy.familiar_guardian": {
+   "kind": "item",
+   "name": "Ritual: Summon Guardian Familiar"
+  },
+  "occultism:ritual_dummy.familiar_headless": {
+   "kind": "item",
+   "name": "Ritual: Summon Headless Ratman Familiar"
+  },
+  "occultism:ritual_dummy.familiar_mummy": {
+   "kind": "item",
+   "name": "Ritual: Summon Mummy Familiar"
+  },
+  "occultism:ritual_dummy.familiar_otherworld_bird": {
+   "kind": "item",
+   "name": "Ritual: Summon Drikwing Familiar"
+  },
+  "occultism:ritual_dummy.familiar_parrot": {
+   "kind": "item",
+   "name": "Ritual: Summon Parrot Familiar"
+  },
+  "occultism:ritual_dummy.misc_bee_nest": {
+   "kind": "item",
+   "name": "Ritual: Forge Bee Nest"
+  },
+  "occultism:ritual_dummy.misc_bell": {
+   "kind": "item",
+   "name": "Ritual: Forge Bell"
+  },
+  "occultism:ritual_dummy.misc_budding_amethyst": {
+   "kind": "item",
+   "name": "Ritual: Forge Budding Amethyst"
+  },
+  "occultism:ritual_dummy.misc_celestial_chalice": {
+   "kind": "item",
+   "name": "Ritual: Forge Celestial Chalice"
+  },
+  "occultism:ritual_dummy.misc_chalk_rainbow": {
+   "kind": "item",
+   "name": "Ritual: Forge Rainbow Chalk"
+  },
+  "occultism:ritual_dummy.misc_chalk_void": {
+   "kind": "item",
+   "name": "Ritual: Forge Void Chalk"
+  },
+  "occultism:ritual_dummy.misc_diamond_horse_armor": {
+   "kind": "item",
+   "name": "Ritual: Forge Diamond Horse Armor"
+  },
+  "occultism:ritual_dummy.misc_eldritch_chalice": {
+   "kind": "item",
+   "name": "Ritual: Forge Eldritch Chalice"
+  },
+  "occultism:ritual_dummy.misc_golden_horse_armor": {
+   "kind": "item",
+   "name": "Ritual: Forge Golden Horse Armor"
+  },
+  "occultism:ritual_dummy.misc_iron_horse_armor": {
+   "kind": "item",
+   "name": "Ritual: Forge Iron Horse Armor"
+  },
+  "occultism:ritual_dummy.misc_miner_ancient_eldritch": {
+   "kind": "item",
+   "name": "Ritual: Infuse Eldritch Ancient Miner"
+  },
+  "occultism:ritual_dummy.misc_reinforced_deepslate": {
+   "kind": "item",
+   "name": "Ritual: Forge Reinforced Deepslate"
+  },
+  "occultism:ritual_dummy.misc_stabilized_storage": {
+   "kind": "item",
+   "name": "Ritual: Forge Stabilized Dimensional Storage Actuator"
+  },
+  "occultism:ritual_dummy.misc_stabilized_storage_dark": {
+   "kind": "item",
+   "name": "Ritual: Forge Dark Stabilized Dimensional Storage Actuator"
+  },
+  "occultism:ritual_dummy.misc_stabilizer_tier5": {
+   "kind": "item",
+   "name": "Ritual: Forge Storage Stabilizer Tier 5"
+  },
+  "occultism:ritual_dummy.misc_stabilizer_tier5_dark": {
+   "kind": "item",
+   "name": "Ritual: Forge Dark Storage Stabilizer Tier 5"
+  },
+  "occultism:ritual_dummy.misc_trinity_gem": {
+   "kind": "item",
+   "name": "Ritual: Forge Trinity Gem"
+  },
+  "occultism:ritual_dummy.misc_wild_trim": {
+   "kind": "item",
+   "name": "Ritual: Forge Wild Armor Trim Smithing Template"
+  },
+  "occultism:ritual_dummy.possess_bee": {
+   "kind": "item",
+   "name": "Ritual: Summon Possessed Bee"
+  },
+  "occultism:ritual_dummy.possess_blaze": {
+   "kind": "item",
+   "name": "Ritual: Summon Possessed Blaze"
+  },
+  "occultism:ritual_dummy.possess_elder_guardian": {
+   "kind": "item",
+   "name": "Ritual: Summon Possessed Elder Guardian"
+  },
+  "occultism:ritual_dummy.possess_enderman": {
+   "kind": "item",
+   "name": "Ritual: Summon Possessed Enderman"
+  },
+  "occultism:ritual_dummy.possess_endermite": {
+   "kind": "item",
+   "name": "Ritual: Summon Possessed Endermite"
+  },
+  "occultism:ritual_dummy.possess_ghast": {
+   "kind": "item",
+   "name": "Ritual: Summon Possessed Ghast"
+  },
+  "occultism:ritual_dummy.possess_goat": {
+   "kind": "item",
+   "name": "Ritual: Summon Goat of Mercy"
+  },
+  "occultism:ritual_dummy.possess_guardian": {
+   "kind": "item",
+   "name": "Ritual: Summon Possessed Guardian"
+  },
+  "occultism:ritual_dummy.possess_hoglin": {
+   "kind": "item",
+   "name": "Ritual: Summon Possessed Hoglin"
+  },
+  "occultism:ritual_dummy.possess_iesnium_golem": {
+   "kind": "item",
+   "name": "Ritual: Summon Iesnium Golem"
+  },
+  "occultism:ritual_dummy.possess_phantom": {
+   "kind": "item",
+   "name": "Ritual: Summon Possessed Phantom"
+  },
+  "occultism:ritual_dummy.possess_random_animal_common": {
+   "kind": "item",
+   "name": "Ritual: Summon Common Random Animal"
+  },
+  "occultism:ritual_dummy.possess_random_animal_rideable": {
+   "kind": "item",
+   "name": "Ritual: Summon Rideable Random Animal"
+  },
+  "occultism:ritual_dummy.possess_random_animal_small": {
+   "kind": "item",
+   "name": "Ritual: Summon Small Random Animal"
+  },
+  "occultism:ritual_dummy.possess_random_animal_special": {
+   "kind": "item",
+   "name": "Ritual: Summon Special Random Animal"
+  },
+  "occultism:ritual_dummy.possess_random_animal_water": {
+   "kind": "item",
+   "name": "Ritual: Summon Water Random Animal"
+  },
+  "occultism:ritual_dummy.possess_shulker": {
+   "kind": "item",
+   "name": "Ritual: Summon Possessed Shulker"
+  },
+  "occultism:ritual_dummy.possess_skeleton": {
+   "kind": "item",
+   "name": "Ritual: Summon Possessed Skeleton"
+  },
+  "occultism:ritual_dummy.possess_unbound_otherworld_bird": {
+   "kind": "item",
+   "name": "Ritual: Possess Unbound Drikwing"
+  },
+  "occultism:ritual_dummy.possess_unbound_parrot": {
+   "kind": "item",
+   "name": "Ritual: Possess Unbound Parrot"
+  },
+  "occultism:ritual_dummy.possess_villager": {
+   "kind": "item",
+   "name": "Ritual: Summon Villager"
+  },
+  "occultism:ritual_dummy.possess_warden": {
+   "kind": "item",
+   "name": "Ritual: Summon Possessed Warden"
+  },
+  "occultism:ritual_dummy.possess_weak_shulker": {
+   "kind": "item",
+   "name": "Ritual: Summon Possessed Weak Shulker"
+  },
+  "occultism:ritual_dummy.possess_witch": {
+   "kind": "item",
+   "name": "Ritual: Summon Possessed Witch"
+  },
+  "occultism:ritual_dummy.possess_zombie_piglin": {
+   "kind": "item",
+   "name": "Ritual: Summon Possessed Zombified Piglin"
+  },
+  "occultism:ritual_dummy.repair_armors": {
+   "kind": "item",
+   "name": "Ritual: Repair Armor"
+  },
+  "occultism:ritual_dummy.repair_chalks": {
+   "kind": "item",
+   "name": "Ritual: Repair Chalk"
+  },
+  "occultism:ritual_dummy.repair_miners": {
+   "kind": "item",
+   "name": "Ritual: Repair Miner"
+  },
+  "occultism:ritual_dummy.repair_tools": {
+   "kind": "item",
+   "name": "Ritual: Repair Tool"
+  },
+  "occultism:ritual_dummy.resurrect_allay": {
+   "kind": "item",
+   "name": "Ritual: Purify Vex to Allay"
+  },
+  "occultism:ritual_dummy.resurrect_familiar": {
+   "kind": "item",
+   "name": "Ritual: Resurrect Familiar"
+  },
+  "occultism:ritual_dummy.resurrect_mob": {
+   "kind": "item",
+   "name": "Ritual: Resurrect Mob"
+  },
+  "occultism:ritual_dummy.summon_afrit_crusher": {
+   "kind": "item",
+   "name": "Ritual: Summon Afrit Crusher"
+  },
+  "occultism:ritual_dummy.summon_afrit_crystallizer": {
+   "kind": "item",
+   "name": "Ritual: Summon Afrit Crystallizer"
+  },
+  "occultism:ritual_dummy.summon_afrit_rain_weather": {
+   "kind": "item",
+   "name": "Ritual: Summoning of Rain"
+  },
+  "occultism:ritual_dummy.summon_afrit_smelter": {
+   "kind": "item",
+   "name": "Ritual: Summon Afrit Smelter"
+  },
+  "occultism:ritual_dummy.summon_afrit_thunder_weather": {
+   "kind": "item",
+   "name": "Ritual: Summoning of Thunderstorm"
+  },
+  "occultism:ritual_dummy.summon_demonic_husband": {
+   "kind": "item",
+   "name": "Ritual: Summon Demonic Husband"
+  },
+  "occultism:ritual_dummy.summon_demonic_wife": {
+   "kind": "item",
+   "name": "Ritual: Summon Demonic Wife"
+  },
+  "occultism:ritual_dummy.summon_djinni_clear_weather": {
+   "kind": "item",
+   "name": "Ritual: Summoning of Clear Sky"
+  },
+  "occultism:ritual_dummy.summon_djinni_crusher": {
+   "kind": "item",
+   "name": "Ritual: Summon Djinni Crusher"
+  },
+  "occultism:ritual_dummy.summon_djinni_crystallizer": {
+   "kind": "item",
+   "name": "Ritual: Summon Djinni Crystallizer"
+  },
+  "occultism:ritual_dummy.summon_djinni_day_time": {
+   "kind": "item",
+   "name": "Ritual: Summoning of Dawn"
+  },
+  "occultism:ritual_dummy.summon_djinni_gambler": {
+   "kind": "item",
+   "name": "Ritual: Summon Djinni Gambler"
+  },
+  "occultism:ritual_dummy.summon_djinni_manage_machine": {
+   "kind": "item",
+   "name": "Ritual: Summon Djinni Machine Operator"
+  },
+  "occultism:ritual_dummy.summon_djinni_night_time": {
+   "kind": "item",
+   "name": "Ritual: Summoning of Dusk"
+  },
+  "occultism:ritual_dummy.summon_djinni_smelter": {
+   "kind": "item",
+   "name": "Ritual: Summon Djinni Smelter"
+  },
+  "occultism:ritual_dummy.summon_foliot_cleaner": {
+   "kind": "item",
+   "name": "Ritual: Summon Foliot Janitor"
+  },
+  "occultism:ritual_dummy.summon_foliot_crusher": {
+   "kind": "item",
+   "name": "Ritual: Summon Foliot Crusher"
+  },
+  "occultism:ritual_dummy.summon_foliot_crystallizer": {
+   "kind": "item",
+   "name": "Ritual: Summon Foliot Crystallizer"
+  },
+  "occultism:ritual_dummy.summon_foliot_farmer": {
+   "kind": "item",
+   "name": "Ritual: Summon Foliot Farmer"
+  },
+  "occultism:ritual_dummy.summon_foliot_lumberjack": {
+   "kind": "item",
+   "name": "Ritual: Summon Foliot Lumberjack"
+  },
+  "occultism:ritual_dummy.summon_foliot_otherrock_trader": {
+   "kind": "item",
+   "name": "Ritual: Summon Otherrock Trader"
+  },
+  "occultism:ritual_dummy.summon_foliot_otherstone_trader": {
+   "kind": "item",
+   "name": "Ritual: Summon Otherstone Trader"
+  },
+  "occultism:ritual_dummy.summon_foliot_sapling_trader": {
+   "kind": "item",
+   "name": "Ritual: Summon Otherworld Sapling Trader"
+  },
+  "occultism:ritual_dummy.summon_foliot_smelter": {
+   "kind": "item",
+   "name": "Ritual: Summon Foliot Smelter"
+  },
+  "occultism:ritual_dummy.summon_foliot_transport_items": {
+   "kind": "item",
+   "name": "Ritual: Summon Foliot Transporter"
+  },
+  "occultism:ritual_dummy.summon_marid_crusher": {
+   "kind": "item",
+   "name": "Ritual: Summon Marid Crusher"
+  },
+  "occultism:ritual_dummy.summon_marid_crystallizer": {
+   "kind": "item",
+   "name": "Ritual: Summon Marid Crystallizer"
+  },
+  "occultism:ritual_dummy.summon_marid_smelter": {
+   "kind": "item",
+   "name": "Ritual: Summon Marid Smelter"
+  },
+  "occultism:ritual_dummy.summon_unbound_afrit": {
+   "kind": "item",
+   "name": "Ritual: Summon Unbound Afrit"
+  },
+  "occultism:ritual_dummy.summon_unbound_marid": {
+   "kind": "item",
+   "name": "Ritual: Summon Unbound Marid"
+  },
+  "occultism:ritual_dummy.summon_wondering_trader": {
+   "kind": "item",
+   "name": "Ritual: Summon Wondering Trader"
+  },
+  "occultism:ritual_dummy.wild_breeze": {
+   "kind": "item",
+   "name": "Ritual: Invoke Wild Breeze"
+  },
+  "occultism:ritual_dummy.wild_creeper": {
+   "kind": "item",
+   "name": "Ritual: Invoke a Horde of Creeper"
+  },
+  "occultism:ritual_dummy.wild_drowned": {
+   "kind": "item",
+   "name": "Ritual: Invoke a Horde of Drowned"
+  },
+  "occultism:ritual_dummy.wild_horde_illager": {
+   "kind": "item",
+   "name": "Ritual: Invoke Wild Illagers"
+  },
+  "occultism:ritual_dummy.wild_hunt": {
+   "kind": "item",
+   "name": "Ritual: Invoke The Wild Hunt"
+  },
+  "occultism:ritual_dummy.wild_husk": {
+   "kind": "item",
+   "name": "Ritual: Invoke a Horde of Husk"
+  },
+  "occultism:ritual_dummy.wild_random_animal_common": {
+   "kind": "item",
+   "name": "Ritual: Invoke Common Random Animal Group"
+  },
+  "occultism:ritual_dummy.wild_random_animal_rideable": {
+   "kind": "item",
+   "name": "Ritual: Invoke Rideable Random Animal Group"
+  },
+  "occultism:ritual_dummy.wild_random_animal_small": {
+   "kind": "item",
+   "name": "Ritual: Invoke Small Random Animal Group"
+  },
+  "occultism:ritual_dummy.wild_random_animal_special": {
+   "kind": "item",
+   "name": "Ritual: Invoke Special Random Animal Group"
+  },
+  "occultism:ritual_dummy.wild_random_animal_water": {
+   "kind": "item",
+   "name": "Ritual: Invoke Water Random Animal Group"
+  },
+  "occultism:ritual_dummy.wild_silverfish": {
+   "kind": "item",
+   "name": "Ritual: Invoke a Horde of Silverfish"
+  },
+  "occultism:ritual_dummy.wild_strong_breeze": {
+   "kind": "item",
+   "name": "Ritual: Invoke Wild Strong Breeze"
+  },
+  "occultism:ritual_dummy.wild_villager": {
+   "kind": "item",
+   "name": "Ritual: Invoke Villager Group"
+  },
+  "occultism:ritual_dummy.wild_weak_breeze": {
+   "kind": "item",
+   "name": "Ritual: Invoke Wild Weak Breeze"
+  },
+  "occultism:ritual_satchel.block_above_not_air": {
+   "kind": "item",
+   "name": "The block above the clicked position is not empty."
+  },
+  "occultism:ritual_satchel.block_at_position_not_air": {
+   "kind": "item",
+   "name": "The block at the clicked position is not empty."
+  },
+  "occultism:ritual_satchel.glyph_cannot_survive": {
+   "kind": "item",
+   "name": "Cannot place a glyph here."
+  },
+  "occultism:ritual_satchel.invalid_matcher": {
+   "kind": "item",
+   "name": "Cannot place a block for an ANY or DISPLAY_ONLY multiblock matcher"
+  },
+  "occultism:ritual_satchel.no_preview_block_targeted": {
+   "kind": "item",
+   "name": "You need to aim the ritual satchel at a preview block."
+  },
+  "occultism:ritual_satchel.no_preview_in_world": {
+   "kind": "item",
+   "name": " You need to preview a pentacle using the Dictionary of Spirits."
+  },
+  "occultism:ritual_satchel.no_valid_item_in_satchel": {
+   "kind": "item",
+   "name": "There is no valid item in the satchel for this previewed block."
+  },
+  "occultism:ritual_satchel.will_break_item": {
+   "kind": "item",
+   "name": "Some item is breaking, repair it!"
+  },
+  "occultism:ritual_satchel_t1": {
+   "kind": "item",
+   "name": "Apprentice Ritual Satchel"
+  },
+  "occultism:ritual_satchel_t2": {
+   "kind": "item",
+   "name": "Artisanal Ritual Satchel"
+  },
+  "occultism:satchel": {
+   "kind": "item",
+   "name": "Surprisingly Substantial Satchel"
+  },
+  "occultism:silver_dust": {
+   "kind": "item",
+   "name": "Silver Dust"
+  },
+  "occultism:silver_ingot": {
+   "kind": "item",
+   "name": "Silver Ingot"
+  },
+  "occultism:silver_nugget": {
+   "kind": "item",
+   "name": "Silver Nugget"
+  },
+  "occultism:soul_gem": {
+   "kind": "item",
+   "name": "Soul Gem"
+  },
+  "occultism:soul_gem_empty": {
+   "kind": "item",
+   "name": "Empty Soul Gem"
+  },
+  "occultism:soul_shard": {
+   "kind": "item",
+   "name": "Soul Shard"
+  },
+  "occultism:soul_shattered": {
+   "kind": "item",
+   "name": "Shattered Soul Shard"
+  },
+  "occultism:spawn_egg.afrit": {
+   "kind": "item",
+   "name": "Afrit Spawn Egg"
+  },
+  "occultism:spawn_egg.afrit_unbound": {
+   "kind": "item",
+   "name": "Unbound Afrit Spawn Egg"
+  },
+  "occultism:spawn_egg.demonic_husband": {
+   "kind": "item",
+   "name": "Demonic Husband Spawn Egg"
+  },
+  "occultism:spawn_egg.demonic_wife": {
+   "kind": "item",
+   "name": "Demonic Wife Spawn Egg"
+  },
+  "occultism:spawn_egg.djinni": {
+   "kind": "item",
+   "name": "Djinni Spawn Egg"
+  },
+  "occultism:spawn_egg.familiar_bat": {
+   "kind": "item",
+   "name": "Bat Familiar Spawn Egg"
+  },
+  "occultism:spawn_egg.familiar_beaver": {
+   "kind": "item",
+   "name": "Beaver Familiar Spawn Egg"
+  },
+  "occultism:spawn_egg.familiar_beholder": {
+   "kind": "item",
+   "name": "Beholder Familiar Spawn Egg"
+  },
+  "occultism:spawn_egg.familiar_blacksmith": {
+   "kind": "item",
+   "name": "Blacksmith Familiar Spawn Egg"
+  },
+  "occultism:spawn_egg.familiar_chimera": {
+   "kind": "item",
+   "name": "Chimera Familiar Spawn Egg"
+  },
+  "occultism:spawn_egg.familiar_cthulhu": {
+   "kind": "item",
+   "name": "Cthulhu Familiar Spawn Egg"
+  },
+  "occultism:spawn_egg.familiar_deer": {
+   "kind": "item",
+   "name": "Deer Familiar Spawn Egg"
+  },
+  "occultism:spawn_egg.familiar_devil": {
+   "kind": "item",
+   "name": "Devil Familiar Spawn Egg"
+  },
+  "occultism:spawn_egg.familiar_dragon": {
+   "kind": "item",
+   "name": "Dragon Familiar Spawn Egg"
+  },
+  "occultism:spawn_egg.familiar_fairy": {
+   "kind": "item",
+   "name": "Fairy Familiar Spawn Egg"
+  },
+  "occultism:spawn_egg.familiar_goat": {
+   "kind": "item",
+   "name": "Goat Familiar Spawn Egg"
+  },
+  "occultism:spawn_egg.familiar_greedy": {
+   "kind": "item",
+   "name": "Greedy Familiar Spawn Egg"
+  },
+  "occultism:spawn_egg.familiar_guardian": {
+   "kind": "item",
+   "name": "Guardian Familiar Spawn Egg"
+  },
+  "occultism:spawn_egg.familiar_headless": {
+   "kind": "item",
+   "name": "Headless Ratman Familiar Spawn Egg"
+  },
+  "occultism:spawn_egg.familiar_mummy": {
+   "kind": "item",
+   "name": "Mummy Familiar Spawn Egg"
+  },
+  "occultism:spawn_egg.familiar_shub_niggurath": {
+   "kind": "item",
+   "name": "Shub Niggurath Familiar Spawn Egg"
+  },
+  "occultism:spawn_egg.foliot": {
+   "kind": "item",
+   "name": "Foliot Spawn Egg"
+  },
+  "occultism:spawn_egg.iesnium_golem": {
+   "kind": "item",
+   "name": "Iesnium Golem Spawn Egg"
+  },
+  "occultism:spawn_egg.marid": {
+   "kind": "item",
+   "name": "Marid Spawn Egg"
+  },
+  "occultism:spawn_egg.marid_unbound": {
+   "kind": "item",
+   "name": "Unbound Marid Spawn Egg"
+  },
+  "occultism:spawn_egg.otherworld_bird": {
+   "kind": "item",
+   "name": "Drikwing Spawn Egg"
+  },
+  "occultism:spawn_egg.possessed_bee": {
+   "kind": "item",
+   "name": "Possessed Bee Spawn Egg"
+  },
+  "occultism:spawn_egg.possessed_blaze": {
+   "kind": "item",
+   "name": "Possessed Blaze Spawn Egg"
+  },
+  "occultism:spawn_egg.possessed_elder_guardian": {
+   "kind": "item",
+   "name": "Possessed Elder Guardian Spawn Egg"
+  },
+  "occultism:spawn_egg.possessed_enderman": {
+   "kind": "item",
+   "name": "Possessed Enderman Spawn Egg"
+  },
+  "occultism:spawn_egg.possessed_endermite": {
+   "kind": "item",
+   "name": "Possessed Endermite Spawn Egg"
+  },
+  "occultism:spawn_egg.possessed_ghast": {
+   "kind": "item",
+   "name": "Possessed Ghast Spawn Egg"
+  },
+  "occultism:spawn_egg.possessed_goat": {
+   "kind": "item",
+   "name": "Goat of Mercy Spawn Egg"
+  },
+  "occultism:spawn_egg.possessed_guardian": {
+   "kind": "item",
+   "name": "Possessed Guardian Spawn Egg"
+  },
+  "occultism:spawn_egg.possessed_hoglin": {
+   "kind": "item",
+   "name": "Possessed Hoglin Spawn Egg"
+  },
+  "occultism:spawn_egg.possessed_phantom": {
+   "kind": "item",
+   "name": "Possessed Phantom Spawn Egg"
+  },
+  "occultism:spawn_egg.possessed_shulker": {
+   "kind": "item",
+   "name": "Possessed Shulker Spawn Egg"
+  },
+  "occultism:spawn_egg.possessed_skeleton": {
+   "kind": "item",
+   "name": "Possessed Skeleton Spawn Egg"
+  },
+  "occultism:spawn_egg.possessed_warden": {
+   "kind": "item",
+   "name": "Possessed Warden Spawn Egg"
+  },
+  "occultism:spawn_egg.possessed_weak_shulker": {
+   "kind": "item",
+   "name": "Possessed Weak Shulker Spawn Egg"
+  },
+  "occultism:spawn_egg.possessed_witch": {
+   "kind": "item",
+   "name": "Possessed Witch Spawn Egg"
+  },
+  "occultism:spawn_egg.possessed_zombie_piglin": {
+   "kind": "item",
+   "name": "Possessed Zombified Piglin Spawn Egg"
+  },
+  "occultism:spawn_egg.wild_breeze": {
+   "kind": "item",
+   "name": "Wild Breeze Spawn Egg"
+  },
+  "occultism:spawn_egg.wild_evoker": {
+   "kind": "item",
+   "name": "Wild Evoker Spawn Egg"
+  },
+  "occultism:spawn_egg.wild_horde_creeper": {
+   "kind": "item",
+   "name": "Wild Horde Creeper Spawn Egg"
+  },
+  "occultism:spawn_egg.wild_horde_drowned": {
+   "kind": "item",
+   "name": "Wild Horde Drowned Spawn Egg"
+  },
+  "occultism:spawn_egg.wild_horde_husk": {
+   "kind": "item",
+   "name": "Wild Horde Husk Spawn Egg"
+  },
+  "occultism:spawn_egg.wild_horde_silverfish": {
+   "kind": "item",
+   "name": "Wild Horde Silverfish Spawn Egg"
+  },
+  "occultism:spawn_egg.wild_hunt_skeleton": {
+   "kind": "item",
+   "name": "Wild Hunt Skeleton Spawn Egg"
+  },
+  "occultism:spawn_egg.wild_hunt_wither_skeleton": {
+   "kind": "item",
+   "name": "Wild Hunt Wither Skeleton Spawn Egg"
+  },
+  "occultism:spawn_egg.wild_strong_breeze": {
+   "kind": "item",
+   "name": "Wild Strong Breeze Spawn Egg"
+  },
+  "occultism:spawn_egg.wild_weak_breeze": {
+   "kind": "item",
+   "name": "Wild Weak Breeze Spawn Egg"
+  },
+  "occultism:spawn_egg.wondering_trader": {
+   "kind": "item",
+   "name": "Wondering Trader Spawn Egg"
+  },
+  "occultism:spirit_attuned_gem": {
+   "kind": "item",
+   "name": "Spirit Attuned Gem"
+  },
+  "occultism:spirit_attuned_pickaxe_head": {
+   "kind": "item",
+   "name": "Spirit Attuned Pickaxe Head"
+  },
+  "occultism:storage_remote": {
+   "kind": "item",
+   "name": "Storage Accessor"
+  },
+  "occultism:storage_remote_inert": {
+   "kind": "item",
+   "name": "Inert Storage Accessor"
+  },
+  "occultism:sweet_honey_heart": {
+   "kind": "item",
+   "name": "Sweet-Honey-Heart"
+  },
+  "occultism:tallow": {
+   "kind": "item",
+   "name": "Tallow"
+  },
+  "occultism:trinity_gem": {
+   "kind": "item",
+   "name": "Trinity Gem"
+  },
+  "occultism:trinity_gem_empty": {
+   "kind": "item",
+   "name": "Empty Trinity Gem"
+  },
+  "occultism:true_sight_staff": {
+   "kind": "item",
+   "name": "True Sight Staff"
+  },
+  "occultism:vitality_compass": {
+   "kind": "item",
+   "name": "Vitality Compass"
+  },
+  "occultism:witherite_dust": {
+   "kind": "item",
+   "name": "Witherite Dust"
+  }
+ }
+}

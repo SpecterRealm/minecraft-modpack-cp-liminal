@@ -1,0 +1,51 @@
+{
+ "repo": "JamCoreModding/right-click-harvest",
+ "ref": "4.6.1+1.21.1",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "rightclickharvest"
+ ],
+ "item_count": 6,
+ "compat": [
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "data-ref": 2
+   }
+  },
+  {
+   "id": "jamlib",
+   "slug": "jamlib",
+   "evidence": {
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "tag:rightclickharvest.blacklist": {
+   "kind": "block",
+   "name": "Harvest Blacklist"
+  },
+  "tag:rightclickharvest.hoe_never_required": {
+   "kind": "block",
+   "name": "Hoe Not Required"
+  },
+  "tag:rightclickharvest.radius_harvest_blacklist": {
+   "kind": "block",
+   "name": "Radius Harvest Blacklist"
+  },
+  "tag:rightclickharvest.low_tier_hoes": {
+   "kind": "item",
+   "name": "Low Tier Hoes"
+  },
+  "tag:rightclickharvest.mid_tier_hoes": {
+   "kind": "item",
+   "name": "Mid Tier Hoes"
+  },
+  "tag:rightclickharvest.high_tier_hoes": {
+   "kind": "item",
+   "name": "High Tier Hoes"
+  }
+ }
+}

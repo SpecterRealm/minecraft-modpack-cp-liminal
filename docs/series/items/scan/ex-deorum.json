@@ -1,0 +1,1026 @@
+{
+ "repo": "thedarkcolour/ExDeorum",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "exdeorum"
+ ],
+ "item_count": 241,
+ "compat": [
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "data-ref": 48
+   }
+  },
+  {
+   "id": "ars_nouveau",
+   "slug": "ars-nouveau",
+   "evidence": {
+    "data-ref": 82
+   }
+  },
+  {
+   "id": "emi",
+   "slug": "emi",
+   "evidence": {
+    "compat-import": 12
+   }
+  },
+  {
+   "id": "jade",
+   "slug": "jade",
+   "evidence": {
+    "compat-import": 5
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 14
+   }
+  },
+  {
+   "id": "kubejs",
+   "slug": "kubejs",
+   "evidence": {
+    "compat-import": 4
+   }
+  },
+  {
+   "id": "rhino",
+   "slug": "rhino",
+   "evidence": {
+    "compat-import": 1
+   }
+  }
+ ],
+ "items": {
+  "exdeorum:acacia_barrel": {
+   "kind": "block",
+   "name": "Acacia Barrel"
+  },
+  "exdeorum:acacia_compressed_sieve": {
+   "kind": "block",
+   "name": "Acacia Compressed Sieve"
+  },
+  "exdeorum:acacia_crucible": {
+   "kind": "block",
+   "name": "Acacia Crucible"
+  },
+  "exdeorum:acacia_sieve": {
+   "kind": "block",
+   "name": "Acacia Sieve"
+  },
+  "exdeorum:archwood_barrel": {
+   "kind": "block",
+   "name": "Archwood Barrel"
+  },
+  "exdeorum:archwood_sieve": {
+   "kind": "block",
+   "name": "Archwood Sieve"
+  },
+  "exdeorum:bamboo_barrel": {
+   "kind": "block",
+   "name": "Bamboo Barrel"
+  },
+  "exdeorum:bamboo_compressed_sieve": {
+   "kind": "block",
+   "name": "Bamboo Compressed Sieve"
+  },
+  "exdeorum:bamboo_crucible": {
+   "kind": "block",
+   "name": "Bamboo Crucible"
+  },
+  "exdeorum:bamboo_sieve": {
+   "kind": "block",
+   "name": "Bamboo Sieve"
+  },
+  "exdeorum:birch_barrel": {
+   "kind": "block",
+   "name": "Birch Barrel"
+  },
+  "exdeorum:birch_compressed_sieve": {
+   "kind": "block",
+   "name": "Birch Compressed Sieve"
+  },
+  "exdeorum:birch_crucible": {
+   "kind": "block",
+   "name": "Birch Crucible"
+  },
+  "exdeorum:birch_sieve": {
+   "kind": "block",
+   "name": "Birch Sieve"
+  },
+  "exdeorum:blue_archwood_compressed_sieve": {
+   "kind": "block",
+   "name": "Blue Archwood Compressed Sieve"
+  },
+  "exdeorum:blue_archwood_crucible": {
+   "kind": "block",
+   "name": "Cascading Archwood Crucible"
+  },
+  "exdeorum:bluebright_barrel": {
+   "kind": "block",
+   "name": "Bluebright Barrel"
+  },
+  "exdeorum:bluebright_compressed_sieve": {
+   "kind": "block",
+   "name": "Bluebright Compressed Sieve"
+  },
+  "exdeorum:bluebright_crucible": {
+   "kind": "block",
+   "name": "Bluebright Crucible"
+  },
+  "exdeorum:bluebright_sieve": {
+   "kind": "block",
+   "name": "Bluebright Sieve"
+  },
+  "exdeorum:cherry_barrel": {
+   "kind": "block",
+   "name": "Cherry Barrel"
+  },
+  "exdeorum:cherry_compressed_sieve": {
+   "kind": "block",
+   "name": "Cherry Compressed Sieve"
+  },
+  "exdeorum:cherry_crucible": {
+   "kind": "block",
+   "name": "Cherry Crucible"
+  },
+  "exdeorum:cherry_sieve": {
+   "kind": "block",
+   "name": "Cherry Sieve"
+  },
+  "exdeorum:comet_barrel": {
+   "kind": "block",
+   "name": "Comet Barrel"
+  },
+  "exdeorum:comet_compressed_sieve": {
+   "kind": "block",
+   "name": "Comet Compressed Sieve"
+  },
+  "exdeorum:comet_crucible": {
+   "kind": "block",
+   "name": "Comet Crucible"
+  },
+  "exdeorum:comet_sieve": {
+   "kind": "block",
+   "name": "Comet Sieve"
+  },
+  "exdeorum:compressed_andesite": {
+   "kind": "block",
+   "name": "Compressed Andesite"
+  },
+  "exdeorum:compressed_blackstone": {
+   "kind": "block",
+   "name": "Compressed Blackstone"
+  },
+  "exdeorum:compressed_cobbled_deepslate": {
+   "kind": "block",
+   "name": "Compressed Cobbled Deepslate"
+  },
+  "exdeorum:compressed_cobblestone": {
+   "kind": "block",
+   "name": "Compressed Cobblestone"
+  },
+  "exdeorum:compressed_crushed_blackstone": {
+   "kind": "block",
+   "name": "Compressed Crushed Blackstone"
+  },
+  "exdeorum:compressed_crushed_deepslate": {
+   "kind": "block",
+   "name": "Compressed Crushed Deepslate"
+  },
+  "exdeorum:compressed_crushed_end_stone": {
+   "kind": "block",
+   "name": "Compressed Crushed End Stone"
+  },
+  "exdeorum:compressed_crushed_netherrack": {
+   "kind": "block",
+   "name": "Compressed Crushed Netherrack"
+  },
+  "exdeorum:compressed_deepslate": {
+   "kind": "block",
+   "name": "Compressed Deepslate"
+  },
+  "exdeorum:compressed_diorite": {
+   "kind": "block",
+   "name": "Compressed Diorite"
+  },
+  "exdeorum:compressed_dirt": {
+   "kind": "block",
+   "name": "Compressed Dirt"
+  },
+  "exdeorum:compressed_dust": {
+   "kind": "block",
+   "name": "Compressed Dust"
+  },
+  "exdeorum:compressed_end_stone": {
+   "kind": "block",
+   "name": "Compressed End Stone"
+  },
+  "exdeorum:compressed_granite": {
+   "kind": "block",
+   "name": "Compressed Granite"
+  },
+  "exdeorum:compressed_gravel": {
+   "kind": "block",
+   "name": "Compressed Gravel"
+  },
+  "exdeorum:compressed_moss_block": {
+   "kind": "block",
+   "name": "Compressed Moss Block"
+  },
+  "exdeorum:compressed_netherrack": {
+   "kind": "block",
+   "name": "Compressed Netherrack"
+  },
+  "exdeorum:compressed_red_sand": {
+   "kind": "block",
+   "name": "Compressed Red Sand"
+  },
+  "exdeorum:compressed_sand": {
+   "kind": "block",
+   "name": "Compressed Sand"
+  },
+  "exdeorum:compressed_soul_sand": {
+   "kind": "block",
+   "name": "Compressed Soul Sand"
+  },
+  "exdeorum:crimson_barrel": {
+   "kind": "block",
+   "name": "Crimson Barrel"
+  },
+  "exdeorum:crimson_compressed_sieve": {
+   "kind": "block",
+   "name": "Crimson Compressed Sieve"
+  },
+  "exdeorum:crimson_crucible": {
+   "kind": "block",
+   "name": "Crimson Crucible"
+  },
+  "exdeorum:crimson_sieve": {
+   "kind": "block",
+   "name": "Crimson Sieve"
+  },
+  "exdeorum:crushed_blackstone": {
+   "kind": "block",
+   "name": "Crushed Blackstone"
+  },
+  "exdeorum:crushed_deepslate": {
+   "kind": "block",
+   "name": "Crushed Deepslate"
+  },
+  "exdeorum:crushed_end_stone": {
+   "kind": "block",
+   "name": "Crushed End Stone"
+  },
+  "exdeorum:crushed_netherrack": {
+   "kind": "block",
+   "name": "Crushed Netherrack"
+  },
+  "exdeorum:crystallized_barrel": {
+   "kind": "block",
+   "name": "Crystallized Barrel"
+  },
+  "exdeorum:crystallized_compressed_sieve": {
+   "kind": "block",
+   "name": "Crystallized Compressed Sieve"
+  },
+  "exdeorum:crystallized_crucible": {
+   "kind": "block",
+   "name": "Crystallized Crucible"
+  },
+  "exdeorum:crystallized_sieve": {
+   "kind": "block",
+   "name": "Crystallized Sieve"
+  },
+  "exdeorum:dark_oak_barrel": {
+   "kind": "block",
+   "name": "Dark Oak Barrel"
+  },
+  "exdeorum:dark_oak_compressed_sieve": {
+   "kind": "block",
+   "name": "Dark Oak Compressed Sieve"
+  },
+  "exdeorum:dark_oak_crucible": {
+   "kind": "block",
+   "name": "Dark Oak Crucible"
+  },
+  "exdeorum:dark_oak_sieve": {
+   "kind": "block",
+   "name": "Dark Oak Sieve"
+  },
+  "exdeorum:dead_barrel": {
+   "kind": "block",
+   "name": "Dead Barrel"
+  },
+  "exdeorum:dead_compressed_sieve": {
+   "kind": "block",
+   "name": "Dead Compressed Sieve"
+  },
+  "exdeorum:dead_crucible": {
+   "kind": "block",
+   "name": "Dead Crucible"
+  },
+  "exdeorum:dead_sieve": {
+   "kind": "block",
+   "name": "Dead Sieve"
+  },
+  "exdeorum:dusk_barrel": {
+   "kind": "block",
+   "name": "Dusk Barrel"
+  },
+  "exdeorum:dusk_compressed_sieve": {
+   "kind": "block",
+   "name": "Dusk Compressed Sieve"
+  },
+  "exdeorum:dusk_crucible": {
+   "kind": "block",
+   "name": "Dusk Crucible"
+  },
+  "exdeorum:dusk_sieve": {
+   "kind": "block",
+   "name": "Dusk Sieve"
+  },
+  "exdeorum:dust": {
+   "kind": "block",
+   "name": "Dust"
+  },
+  "exdeorum:end_cake": {
+   "kind": "block",
+   "name": "End Cake"
+  },
+  "exdeorum:fir_barrel": {
+   "kind": "block",
+   "name": "Fir Barrel"
+  },
+  "exdeorum:fir_compressed_sieve": {
+   "kind": "block",
+   "name": "Fir Compressed Sieve"
+  },
+  "exdeorum:fir_crucible": {
+   "kind": "block",
+   "name": "Fir Crucible"
+  },
+  "exdeorum:fir_sieve": {
+   "kind": "block",
+   "name": "Fir Sieve"
+  },
+  "exdeorum:frostbright_barrel": {
+   "kind": "block",
+   "name": "Frostbright Barrel"
+  },
+  "exdeorum:frostbright_compressed_sieve": {
+   "kind": "block",
+   "name": "Frostbright Compressed Sieve"
+  },
+  "exdeorum:frostbright_crucible": {
+   "kind": "block",
+   "name": "Frostbright Crucible"
+  },
+  "exdeorum:frostbright_sieve": {
+   "kind": "block",
+   "name": "Frostbright Sieve"
+  },
+  "exdeorum:golden_oak_compressed_sieve": {
+   "kind": "block",
+   "name": "Golden Oak Compressed Sieve"
+  },
+  "exdeorum:golden_oak_crucible": {
+   "kind": "block",
+   "name": "Golden Oak Crucible"
+  },
+  "exdeorum:green_archwood_compressed_sieve": {
+   "kind": "block",
+   "name": "Green Archwood Compressed Sieve"
+  },
+  "exdeorum:green_archwood_crucible": {
+   "kind": "block",
+   "name": "Flourishing Archwood Crucible"
+  },
+  "exdeorum:hellbark_barrel": {
+   "kind": "block",
+   "name": "Hellbark Barrel"
+  },
+  "exdeorum:hellbark_compressed_sieve": {
+   "kind": "block",
+   "name": "Hellbark Compressed Sieve"
+  },
+  "exdeorum:hellbark_crucible": {
+   "kind": "block",
+   "name": "Hellbark Crucible"
+  },
+  "exdeorum:hellbark_sieve": {
+   "kind": "block",
+   "name": "Hellbark Sieve"
+  },
+  "exdeorum:infested_leaves": {
+   "kind": "block",
+   "name": "Infested Leaves"
+  },
+  "exdeorum:infested_leaves.fully_infested": {
+   "kind": "block",
+   "name": "Fully Infested"
+  },
+  "exdeorum:jacaranda_barrel": {
+   "kind": "block",
+   "name": "Jacaranda Barrel"
+  },
+  "exdeorum:jacaranda_compressed_sieve": {
+   "kind": "block",
+   "name": "Jacaranda Compressed Sieve"
+  },
+  "exdeorum:jacaranda_crucible": {
+   "kind": "block",
+   "name": "Jacaranda Crucible"
+  },
+  "exdeorum:jacaranda_sieve": {
+   "kind": "block",
+   "name": "Jacaranda Sieve"
+  },
+  "exdeorum:jungle_barrel": {
+   "kind": "block",
+   "name": "Jungle Barrel"
+  },
+  "exdeorum:jungle_compressed_sieve": {
+   "kind": "block",
+   "name": "Jungle Compressed Sieve"
+  },
+  "exdeorum:jungle_crucible": {
+   "kind": "block",
+   "name": "Jungle Crucible"
+  },
+  "exdeorum:jungle_sieve": {
+   "kind": "block",
+   "name": "Jungle Sieve"
+  },
+  "exdeorum:lunar_barrel": {
+   "kind": "block",
+   "name": "Lunar Barrel"
+  },
+  "exdeorum:lunar_compressed_sieve": {
+   "kind": "block",
+   "name": "Lunar Compressed Sieve"
+  },
+  "exdeorum:lunar_crucible": {
+   "kind": "block",
+   "name": "Lunar Crucible"
+  },
+  "exdeorum:lunar_sieve": {
+   "kind": "block",
+   "name": "Lunar Sieve"
+  },
+  "exdeorum:magic_barrel": {
+   "kind": "block",
+   "name": "Magic Barrel"
+  },
+  "exdeorum:magic_compressed_sieve": {
+   "kind": "block",
+   "name": "Magic Compressed Sieve"
+  },
+  "exdeorum:magic_crucible": {
+   "kind": "block",
+   "name": "Magic Crucible"
+  },
+  "exdeorum:magic_sieve": {
+   "kind": "block",
+   "name": "Magic Sieve"
+  },
+  "exdeorum:mahogany_barrel": {
+   "kind": "block",
+   "name": "Mahogany Barrel"
+  },
+  "exdeorum:mahogany_compressed_sieve": {
+   "kind": "block",
+   "name": "Mahogany Compressed Sieve"
+  },
+  "exdeorum:mahogany_crucible": {
+   "kind": "block",
+   "name": "Mahogany Crucible"
+  },
+  "exdeorum:mahogany_sieve": {
+   "kind": "block",
+   "name": "Mahogany Sieve"
+  },
+  "exdeorum:mangrove_barrel": {
+   "kind": "block",
+   "name": "Mangrove Barrel"
+  },
+  "exdeorum:mangrove_compressed_sieve": {
+   "kind": "block",
+   "name": "Mangrove Compressed Sieve"
+  },
+  "exdeorum:mangrove_crucible": {
+   "kind": "block",
+   "name": "Mangrove Crucible"
+  },
+  "exdeorum:mangrove_sieve": {
+   "kind": "block",
+   "name": "Mangrove Sieve"
+  },
+  "exdeorum:maple_barrel": {
+   "kind": "block",
+   "name": "Maple Barrel"
+  },
+  "exdeorum:maple_compressed_sieve": {
+   "kind": "block",
+   "name": "Maple Compressed Sieve"
+  },
+  "exdeorum:maple_crucible": {
+   "kind": "block",
+   "name": "Maple Crucible"
+  },
+  "exdeorum:maple_sieve": {
+   "kind": "block",
+   "name": "Maple Sieve"
+  },
+  "exdeorum:mechanical_hammer": {
+   "kind": "block",
+   "name": "Mechanical Hammer"
+  },
+  "exdeorum:mechanical_sieve": {
+   "kind": "block",
+   "name": "Mechanical Sieve"
+  },
+  "exdeorum:oak_barrel": {
+   "kind": "block",
+   "name": "Oak Barrel"
+  },
+  "exdeorum:oak_compressed_sieve": {
+   "kind": "block",
+   "name": "Oak Compressed Sieve"
+  },
+  "exdeorum:oak_crucible": {
+   "kind": "block",
+   "name": "Oak Crucible"
+  },
+  "exdeorum:oak_sieve": {
+   "kind": "block",
+   "name": "Oak Sieve"
+  },
+  "exdeorum:palm_barrel": {
+   "kind": "block",
+   "name": "Palm Barrel"
+  },
+  "exdeorum:palm_compressed_sieve": {
+   "kind": "block",
+   "name": "Palm Compressed Sieve"
+  },
+  "exdeorum:palm_crucible": {
+   "kind": "block",
+   "name": "Palm Crucible"
+  },
+  "exdeorum:palm_sieve": {
+   "kind": "block",
+   "name": "Palm Sieve"
+  },
+  "exdeorum:porcelain_crucible": {
+   "kind": "block",
+   "name": "Porcelain Crucible"
+  },
+  "exdeorum:purple_archwood_compressed_sieve": {
+   "kind": "block",
+   "name": "Purple Archwood Compressed Sieve"
+  },
+  "exdeorum:purple_archwood_crucible": {
+   "kind": "block",
+   "name": "Vexing Archwood Crucible"
+  },
+  "exdeorum:red_archwood_compressed_sieve": {
+   "kind": "block",
+   "name": "Red Archwood Compressed Sieve"
+  },
+  "exdeorum:red_archwood_crucible": {
+   "kind": "block",
+   "name": "Blazing Archwood Crucible"
+  },
+  "exdeorum:redwood_barrel": {
+   "kind": "block",
+   "name": "Redwood Barrel"
+  },
+  "exdeorum:redwood_compressed_sieve": {
+   "kind": "block",
+   "name": "Redwood Compressed Sieve"
+  },
+  "exdeorum:redwood_crucible": {
+   "kind": "block",
+   "name": "Redwood Crucible"
+  },
+  "exdeorum:redwood_sieve": {
+   "kind": "block",
+   "name": "Redwood Sieve"
+  },
+  "exdeorum:skyroot_barrel": {
+   "kind": "block",
+   "name": "Skyroot Barrel"
+  },
+  "exdeorum:skyroot_compressed_sieve": {
+   "kind": "block",
+   "name": "Skyroot Compressed Sieve"
+  },
+  "exdeorum:skyroot_crucible": {
+   "kind": "block",
+   "name": "Skyroot Crucible"
+  },
+  "exdeorum:skyroot_sieve": {
+   "kind": "block",
+   "name": "Skyroot Sieve"
+  },
+  "exdeorum:spruce_barrel": {
+   "kind": "block",
+   "name": "Spruce Barrel"
+  },
+  "exdeorum:spruce_compressed_sieve": {
+   "kind": "block",
+   "name": "Spruce Compressed Sieve"
+  },
+  "exdeorum:spruce_crucible": {
+   "kind": "block",
+   "name": "Spruce Crucible"
+  },
+  "exdeorum:spruce_sieve": {
+   "kind": "block",
+   "name": "Spruce Sieve"
+  },
+  "exdeorum:starlit_barrel": {
+   "kind": "block",
+   "name": "Starlit Barrel"
+  },
+  "exdeorum:starlit_compressed_sieve": {
+   "kind": "block",
+   "name": "Starlit Compressed Sieve"
+  },
+  "exdeorum:starlit_crucible": {
+   "kind": "block",
+   "name": "Starlit Crucible"
+  },
+  "exdeorum:starlit_sieve": {
+   "kind": "block",
+   "name": "Starlit Sieve"
+  },
+  "exdeorum:stone_barrel": {
+   "kind": "block",
+   "name": "Stone Barrel"
+  },
+  "exdeorum:umbran_barrel": {
+   "kind": "block",
+   "name": "Umbran Barrel"
+  },
+  "exdeorum:umbran_compressed_sieve": {
+   "kind": "block",
+   "name": "Umbran Compressed Sieve"
+  },
+  "exdeorum:umbran_crucible": {
+   "kind": "block",
+   "name": "Umbran Crucible"
+  },
+  "exdeorum:umbran_sieve": {
+   "kind": "block",
+   "name": "Umbran Sieve"
+  },
+  "exdeorum:unfired_porcelain_crucible": {
+   "kind": "block",
+   "name": "Unfired Porcelain Crucible"
+  },
+  "exdeorum:warped_barrel": {
+   "kind": "block",
+   "name": "Warped Barrel"
+  },
+  "exdeorum:warped_compressed_sieve": {
+   "kind": "block",
+   "name": "Warped Compressed Sieve"
+  },
+  "exdeorum:warped_crucible": {
+   "kind": "block",
+   "name": "Warped Crucible"
+  },
+  "exdeorum:warped_sieve": {
+   "kind": "block",
+   "name": "Warped Sieve"
+  },
+  "exdeorum:willow_barrel": {
+   "kind": "block",
+   "name": "Willow Barrel"
+  },
+  "exdeorum:willow_compressed_sieve": {
+   "kind": "block",
+   "name": "Willow Compressed Sieve"
+  },
+  "exdeorum:willow_crucible": {
+   "kind": "block",
+   "name": "Willow Crucible"
+  },
+  "exdeorum:willow_sieve": {
+   "kind": "block",
+   "name": "Willow Sieve"
+  },
+  "exdeorum:witch_water": {
+   "kind": "block",
+   "name": "Witch Water"
+  },
+  "exdeorum:aluminum_ore_chunk": {
+   "kind": "item",
+   "name": "Aluminum Ore Chunk"
+  },
+  "exdeorum:andesite_pebble": {
+   "kind": "item",
+   "name": "Andesite Pebble"
+  },
+  "exdeorum:basalt_pebble": {
+   "kind": "item",
+   "name": "Basalt Pebble"
+  },
+  "exdeorum:blackstone_pebble": {
+   "kind": "item",
+   "name": "Blackstone Pebble"
+  },
+  "exdeorum:bone_crook": {
+   "kind": "item",
+   "name": "Bone Crook"
+  },
+  "exdeorum:boron_ore_chunk": {
+   "kind": "item",
+   "name": "Boron Ore Chunk"
+  },
+  "exdeorum:calcite_pebble": {
+   "kind": "item",
+   "name": "Calcite Pebble"
+  },
+  "exdeorum:cobalt_ore_chunk": {
+   "kind": "item",
+   "name": "Cobalt Ore Chunk"
+  },
+  "exdeorum:compressed_diamond_hammer": {
+   "kind": "item",
+   "name": "Compressed Diamond Hammer"
+  },
+  "exdeorum:compressed_golden_hammer": {
+   "kind": "item",
+   "name": "Compressed Golden Hammer"
+  },
+  "exdeorum:compressed_iron_hammer": {
+   "kind": "item",
+   "name": "Compressed Iron Hammer"
+  },
+  "exdeorum:compressed_netherite_hammer": {
+   "kind": "item",
+   "name": "Compressed Netherite Hammer"
+  },
+  "exdeorum:compressed_stone_hammer": {
+   "kind": "item",
+   "name": "Compressed Stone Hammer"
+  },
+  "exdeorum:compressed_wooden_hammer": {
+   "kind": "item",
+   "name": "Compressed Wooden Hammer"
+  },
+  "exdeorum:cooked_silkworm": {
+   "kind": "item",
+   "name": "Cooked Silkworm"
+  },
+  "exdeorum:copper_ore_chunk": {
+   "kind": "item",
+   "name": "Copper Ore Chunk"
+  },
+  "exdeorum:crimson_nylium_spores": {
+   "kind": "item",
+   "name": "Crimson Nylium Spores"
+  },
+  "exdeorum:crook": {
+   "kind": "item",
+   "name": "Crook"
+  },
+  "exdeorum:deepslate_pebble": {
+   "kind": "item",
+   "name": "Deepslate Pebble"
+  },
+  "exdeorum:diamond_hammer": {
+   "kind": "item",
+   "name": "Diamond Hammer"
+  },
+  "exdeorum:diamond_mesh": {
+   "kind": "item",
+   "name": "Diamond Mesh"
+  },
+  "exdeorum:diamond_watering_can": {
+   "kind": "item",
+   "name": "Diamond Watering Can"
+  },
+  "exdeorum:diorite_pebble": {
+   "kind": "item",
+   "name": "Diorite Pebble"
+  },
+  "exdeorum:flint_mesh": {
+   "kind": "item",
+   "name": "Flint Mesh"
+  },
+  "exdeorum:gold_ore_chunk": {
+   "kind": "item",
+   "name": "Gold Ore Chunk"
+  },
+  "exdeorum:golden_hammer": {
+   "kind": "item",
+   "name": "Golden Hammer"
+  },
+  "exdeorum:golden_mesh": {
+   "kind": "item",
+   "name": "Golden Mesh"
+  },
+  "exdeorum:golden_watering_can": {
+   "kind": "item",
+   "name": "Golden Watering Can"
+  },
+  "exdeorum:granite_pebble": {
+   "kind": "item",
+   "name": "Granite Pebble"
+  },
+  "exdeorum:grass_seeds": {
+   "kind": "item",
+   "name": "Grass Seeds"
+  },
+  "exdeorum:iridium_ore_chunk": {
+   "kind": "item",
+   "name": "Iridium Ore Chunk"
+  },
+  "exdeorum:iron_hammer": {
+   "kind": "item",
+   "name": "Iron Hammer"
+  },
+  "exdeorum:iron_mesh": {
+   "kind": "item",
+   "name": "Iron Mesh"
+  },
+  "exdeorum:iron_ore_chunk": {
+   "kind": "item",
+   "name": "Iron Ore Chunk"
+  },
+  "exdeorum:iron_watering_can": {
+   "kind": "item",
+   "name": "Iron Watering Can"
+  },
+  "exdeorum:lead_ore_chunk": {
+   "kind": "item",
+   "name": "Lead Ore Chunk"
+  },
+  "exdeorum:lithium_ore_chunk": {
+   "kind": "item",
+   "name": "Lithium Ore Chunk"
+  },
+  "exdeorum:magnesium_ore_chunk": {
+   "kind": "item",
+   "name": "Magnesium Ore Chunk"
+  },
+  "exdeorum:mechanical_hammer.hammer_label": {
+   "kind": "item",
+   "name": "Hammer: "
+  },
+  "exdeorum:mechanical_sieve.mesh_label": {
+   "kind": "item",
+   "name": "Mesh: "
+  },
+  "exdeorum:mycelium_spores": {
+   "kind": "item",
+   "name": "Mycelium Spores"
+  },
+  "exdeorum:netherite_hammer": {
+   "kind": "item",
+   "name": "Netherite Hammer"
+  },
+  "exdeorum:netherite_mesh": {
+   "kind": "item",
+   "name": "Netherite Mesh"
+  },
+  "exdeorum:netherite_watering_can": {
+   "kind": "item",
+   "name": "Netherite Watering Can"
+  },
+  "exdeorum:nickel_ore_chunk": {
+   "kind": "item",
+   "name": "Nickel Ore Chunk"
+  },
+  "exdeorum:osmium_ore_chunk": {
+   "kind": "item",
+   "name": "Osmium Ore Chunk"
+  },
+  "exdeorum:platinum_ore_chunk": {
+   "kind": "item",
+   "name": "Platinum Ore Chunk"
+  },
+  "exdeorum:porcelain_bucket": {
+   "kind": "item",
+   "name": "Porcelain Bucket"
+  },
+  "exdeorum:porcelain_clay_ball": {
+   "kind": "item",
+   "name": "Porcelain Clay Ball"
+  },
+  "exdeorum:porcelain_lava_bucket": {
+   "kind": "item",
+   "name": "Porcelain Lava Bucket"
+  },
+  "exdeorum:porcelain_milk_bucket": {
+   "kind": "item",
+   "name": "Porcelain Milk Bucket"
+  },
+  "exdeorum:porcelain_water_bucket": {
+   "kind": "item",
+   "name": "Porcelain Water Bucket"
+  },
+  "exdeorum:porcelain_witch_water_bucket": {
+   "kind": "item",
+   "name": "Porcelain Witch Water Bucket"
+  },
+  "exdeorum:random_armor_trim": {
+   "kind": "item",
+   "name": "Random Armor Trim"
+  },
+  "exdeorum:random_armor_trim.no_upgrade": {
+   "kind": "item",
+   "name": "Does not drop Netherite Upgrade"
+  },
+  "exdeorum:random_pottery_sherd": {
+   "kind": "item",
+   "name": "Random Pottery Sherd"
+  },
+  "exdeorum:sculk_core": {
+   "kind": "item",
+   "name": "Sculk Core"
+  },
+  "exdeorum:silkworm": {
+   "kind": "item",
+   "name": "Silkworm"
+  },
+  "exdeorum:silver_ore_chunk": {
+   "kind": "item",
+   "name": "Silver Ore Chunk"
+  },
+  "exdeorum:stone_hammer": {
+   "kind": "item",
+   "name": "Stone Hammer"
+  },
+  "exdeorum:stone_pebble": {
+   "kind": "item",
+   "name": "Stone Pebble"
+  },
+  "exdeorum:stone_watering_can": {
+   "kind": "item",
+   "name": "Stone Watering Can"
+  },
+  "exdeorum:string_mesh": {
+   "kind": "item",
+   "name": "String Mesh"
+  },
+  "exdeorum:thorium_ore_chunk": {
+   "kind": "item",
+   "name": "Thorium Ore Chunk"
+  },
+  "exdeorum:tin_ore_chunk": {
+   "kind": "item",
+   "name": "Tin Ore Chunk"
+  },
+  "exdeorum:tuff_pebble": {
+   "kind": "item",
+   "name": "Tuff Pebble"
+  },
+  "exdeorum:unfired_porcelain_bucket": {
+   "kind": "item",
+   "name": "Unfired Porcelain Bucket"
+  },
+  "exdeorum:uranium_ore_chunk": {
+   "kind": "item",
+   "name": "Uranium Ore Chunk"
+  },
+  "exdeorum:warped_nylium_spores": {
+   "kind": "item",
+   "name": "Warped Nylium Spores"
+  },
+  "exdeorum:watering_can_fluid_display": {
+   "kind": "item",
+   "name": ": %s / %s"
+  },
+  "exdeorum:witch_water_bucket": {
+   "kind": "item",
+   "name": "Witch Water Bucket"
+  },
+  "exdeorum:wood_chippings": {
+   "kind": "item",
+   "name": "Wood Chippings"
+  },
+  "exdeorum:wooden_hammer": {
+   "kind": "item",
+   "name": "Wooden Hammer"
+  },
+  "exdeorum:wooden_watering_can": {
+   "kind": "item",
+   "name": "Wooden Watering Can"
+  },
+  "exdeorum:zinc_ore_chunk": {
+   "kind": "item",
+   "name": "Zinc Ore Chunk"
+  }
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "repo": "iron431/irons-jewelry",
+ "ref": "v26.1.2-2.0.2",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "irons_jewelry"
+ ],
+ "item_count": 13,
+ "compat": [
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "irons_lib",
+   "slug": "irons-lib",
+   "evidence": {
+    "data-ref": 8,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 4
+   }
+  }
+ ],
+ "items": {
+  "irons_jewelry:ring": {
+   "kind": "item",
+   "name": "Ring"
+  },
+  "irons_jewelry:necklace": {
+   "kind": "item",
+   "name": "Necklace"
+  },
+  "irons_jewelry:invalid_jewelry": {
+   "kind": "item",
+   "name": "Invalid Jewelry"
+  },
+  "irons_jewelry:recipe": {
+   "kind": "item",
+   "name": "Artisan Scroll"
+  },
+  "irons_jewelry:ruby": {
+   "kind": "item",
+   "name": "Ruby"
+  },
+  "irons_jewelry:sapphire": {
+   "kind": "item",
+   "name": "Sapphire"
+  },
+  "irons_jewelry:topaz": {
+   "kind": "item",
+   "name": "Topaz"
+  },
+  "irons_jewelry:moonstone": {
+   "kind": "item",
+   "name": "Moonstone"
+  },
+  "irons_jewelry:peridot": {
+   "kind": "item",
+   "name": "Peridot"
+  },
+  "irons_jewelry:onyx": {
+   "kind": "item",
+   "name": "Onyx"
+  },
+  "irons_jewelry:garnet": {
+   "kind": "item",
+   "name": "Garnet"
+  },
+  "irons_jewelry:jewelcrafting_station": {
+   "kind": "block",
+   "name": "Jewelcrafting Station"
+  },
+  "minecraft:villager.irons_jewelry.jeweler": {
+   "kind": "entity",
+   "name": "Jeweler"
+  }
+ }
+}

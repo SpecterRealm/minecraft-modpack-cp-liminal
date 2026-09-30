@@ -1,0 +1,26 @@
+{
+ "repo": "Vonr/Ars-Polymorphia",
+ "ref": "1.0.3",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "${mod_id}"
+ ],
+ "item_count": 0,
+ "compat": [
+  {
+   "id": "ars_nouveau",
+   "slug": "ars-nouveau",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "polymorph",
+   "slug": "polymorph",
+   "evidence": {
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {}
+}

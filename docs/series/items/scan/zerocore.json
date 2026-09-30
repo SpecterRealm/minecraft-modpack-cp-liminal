@@ -1,0 +1,31 @@
+{
+ "repo": "ZeroNoRyouki/ZeroCore2",
+ "ref": "1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "zerocore"
+ ],
+ "item_count": 1,
+ "compat": [
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 4
+   }
+  },
+  {
+   "id": "patchouli",
+   "slug": "patchouli",
+   "evidence": {
+    "compat-import": 9
+   }
+  }
+ ],
+ "items": {
+  "zerocore:debugtool": {
+   "kind": "item",
+   "name": "Debug Tool"
+  }
+ }
+}

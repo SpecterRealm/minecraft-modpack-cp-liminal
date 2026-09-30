@@ -1,0 +1,94 @@
+{
+ "repo": "TheCBProject/ForgeMultipart",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "cb_microblock",
+  "cb_multipart",
+  "cb_multipart_minecraft"
+ ],
+ "item_count": 18,
+ "compat": [
+  {
+   "id": "codechickenlib",
+   "slug": "codechicken-lib",
+   "evidence": {
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "cb_microblock:stone_saw": {
+   "kind": "item",
+   "name": "Stone Saw"
+  },
+  "cb_microblock:iron_saw": {
+   "kind": "item",
+   "name": "Iron Saw"
+  },
+  "cb_microblock:gold_saw": {
+   "kind": "item",
+   "name": "Gold Saw"
+  },
+  "cb_microblock:diamond_saw": {
+   "kind": "item",
+   "name": "Diamond Saw"
+  },
+  "cb_microblock:netherite_saw": {
+   "kind": "item",
+   "name": "Netherite Saw"
+  },
+  "cb_microblock:stone_rod": {
+   "kind": "item",
+   "name": "Stone Rod"
+  },
+  "cb_microblock:face.1": {
+   "kind": "item",
+   "name": "%s Cover"
+  },
+  "cb_microblock:face.2": {
+   "kind": "item",
+   "name": "%s Panel"
+  },
+  "cb_microblock:face.4": {
+   "kind": "item",
+   "name": "%s Slab"
+  },
+  "cb_microblock:hollow.1": {
+   "kind": "item",
+   "name": "Hollow %s Cover"
+  },
+  "cb_microblock:hollow.2": {
+   "kind": "item",
+   "name": "Hollow %s Panel"
+  },
+  "cb_microblock:hollow.4": {
+   "kind": "item",
+   "name": "Hollow %s Slab"
+  },
+  "cb_microblock:edge.1": {
+   "kind": "item",
+   "name": "%s Strip"
+  },
+  "cb_microblock:edge.2": {
+   "kind": "item",
+   "name": "%s Post"
+  },
+  "cb_microblock:edge.4": {
+   "kind": "item",
+   "name": "%s Pillar"
+  },
+  "cb_microblock:corner.1": {
+   "kind": "item",
+   "name": "%s Nook"
+  },
+  "cb_microblock:corner.2": {
+   "kind": "item",
+   "name": "%s Corner"
+  },
+  "cb_microblock:corner.4": {
+   "kind": "item",
+   "name": "%s Notch"
+  }
+ }
+}

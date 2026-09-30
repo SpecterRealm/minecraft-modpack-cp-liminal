@@ -1,0 +1,34 @@
+{
+ "repo": "Shadows-of-Fire/Apothic-Attributes",
+ "ref": "1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "apothic_attributes"
+ ],
+ "item_count": 0,
+ "compat": [
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "compat-import": 2,
+    "isLoaded": 3
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "placebo",
+   "slug": "placebo",
+   "evidence": {
+    "dependency": 2
+   }
+  }
+ ],
+ "items": {}
+}

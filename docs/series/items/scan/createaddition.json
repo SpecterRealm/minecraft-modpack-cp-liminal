@@ -1,0 +1,274 @@
+{
+ "repo": "mrh0/createaddition",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "createaddition"
+ ],
+ "item_count": 57,
+ "compat": [
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "data-ref": 1,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "create",
+   "slug": "create",
+   "evidence": {
+    "compat-import": 10,
+    "data-ref": 80,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 4,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "mekanism",
+   "slug": "mekanism",
+   "evidence": {
+    "data-ref": 2,
+    "isLoaded": 1
+   }
+  }
+ ],
+ "items": {
+  "createaddition:alternator": {
+   "kind": "block",
+   "name": "Alternator"
+  },
+  "createaddition:barbed_wire": {
+   "kind": "block",
+   "name": "Barbed Wire"
+  },
+  "createaddition:bioethanol": {
+   "kind": "block",
+   "name": "Bioethanol"
+  },
+  "createaddition:biomass_pellet_block": {
+   "kind": "block",
+   "name": "Biomass Pallet"
+  },
+  "createaddition:chocolate_cake": {
+   "kind": "block",
+   "name": "Chocolate Cake"
+  },
+  "createaddition:connector": {
+   "kind": "block",
+   "name": "Small Connector"
+  },
+  "createaddition:creative_energy": {
+   "kind": "block",
+   "name": "Creative Generator"
+  },
+  "createaddition:digital_adapter": {
+   "kind": "block",
+   "name": "Digital Adapter"
+  },
+  "createaddition:electric_motor": {
+   "kind": "block",
+   "name": "Electric Motor"
+  },
+  "createaddition:electric_pump": {
+   "kind": "block",
+   "name": "Electric Pump"
+  },
+  "createaddition:electrum_block": {
+   "kind": "block",
+   "name": "Electrum Block"
+  },
+  "createaddition:honey_cake": {
+   "kind": "block",
+   "name": "Honey Cake"
+  },
+  "createaddition:large_connector": {
+   "kind": "block",
+   "name": "Large Connector"
+  },
+  "createaddition:liquid_blaze_burner": {
+   "kind": "block",
+   "name": "Blaze Burner with Straw"
+  },
+  "createaddition:modular_accumulator": {
+   "kind": "block",
+   "name": "Accumulator"
+  },
+  "createaddition:portable_energy_interface": {
+   "kind": "block",
+   "name": "Portable Energy Interface"
+  },
+  "createaddition:redstone_relay": {
+   "kind": "block",
+   "name": "Redstone Relay"
+  },
+  "createaddition:rolling_mill": {
+   "kind": "block",
+   "name": "Rolling Mill"
+  },
+  "createaddition:seed_oil": {
+   "kind": "block",
+   "name": "Seed Oil"
+  },
+  "createaddition:servo_motor": {
+   "kind": "block",
+   "name": "Servo Motor"
+  },
+  "createaddition:small_light_connector": {
+   "kind": "block",
+   "name": "Small Connector With Light"
+  },
+  "createaddition:tesla_coil": {
+   "kind": "block",
+   "name": "Tesla Coil"
+  },
+  "createaddition:bioethanol_bucket": {
+   "kind": "item",
+   "name": "Bucket of Biofuel"
+  },
+  "createaddition:biomass": {
+   "kind": "item",
+   "name": "Biomass"
+  },
+  "createaddition:biomass_pellet": {
+   "kind": "item",
+   "name": "Biomass Pellet"
+  },
+  "createaddition:brass_rod": {
+   "kind": "item",
+   "name": "Brass Rod"
+  },
+  "createaddition:cake_base": {
+   "kind": "item",
+   "name": "Cake Base"
+  },
+  "createaddition:cake_base_baked": {
+   "kind": "item",
+   "name": "Baked Cake Base"
+  },
+  "createaddition:capacitor": {
+   "kind": "item",
+   "name": "Capacitor"
+  },
+  "createaddition:copper_rod": {
+   "kind": "item",
+   "name": "Copper Rod"
+  },
+  "createaddition:copper_spool": {
+   "kind": "item",
+   "name": "Copper Spool"
+  },
+  "createaddition:copper_wire": {
+   "kind": "item",
+   "name": "Copper Wire"
+  },
+  "createaddition:diamond_grit": {
+   "kind": "item",
+   "name": "Diamond Grit"
+  },
+  "createaddition:diamond_grit_sandpaper": {
+   "kind": "item",
+   "name": "Diamond Grit Sand Paper"
+  },
+  "createaddition:electrum_amulet": {
+   "kind": "item",
+   "name": "Pale Gold Amulet"
+  },
+  "createaddition:electrum_ingot": {
+   "kind": "item",
+   "name": "Electrum Ingot"
+  },
+  "createaddition:electrum_nugget": {
+   "kind": "item",
+   "name": "Electrum Nugget"
+  },
+  "createaddition:electrum_rod": {
+   "kind": "item",
+   "name": "Electrum Rod"
+  },
+  "createaddition:electrum_sheet": {
+   "kind": "item",
+   "name": "Electrum Sheet"
+  },
+  "createaddition:electrum_spool": {
+   "kind": "item",
+   "name": "Electrum Spool"
+  },
+  "createaddition:electrum_wire": {
+   "kind": "item",
+   "name": "Electrum Wire"
+  },
+  "createaddition:festive_spool": {
+   "kind": "item",
+   "name": "Copper Spool with Festive Lights"
+  },
+  "createaddition:gold_rod": {
+   "kind": "item",
+   "name": "Gold Rod"
+  },
+  "createaddition:gold_spool": {
+   "kind": "item",
+   "name": "Gold Spool"
+  },
+  "createaddition:gold_wire": {
+   "kind": "item",
+   "name": "Gold Wire"
+  },
+  "createaddition:iron_rod": {
+   "kind": "item",
+   "name": "Iron Rod"
+  },
+  "createaddition:iron_wire": {
+   "kind": "item",
+   "name": "Iron Wire"
+  },
+  "createaddition:seed_oil_bucket": {
+   "kind": "item",
+   "name": "Bucket of Seed Oil"
+  },
+  "createaddition:spool": {
+   "kind": "item",
+   "name": "Empty Spool"
+  },
+  "createaddition:straw": {
+   "kind": "item",
+   "name": "Straw"
+  },
+  "createaddition:zinc_sheet": {
+   "kind": "item",
+   "name": "Zinc Sheet"
+  },
+  "createaddition:bronze_rod": {
+   "kind": "item",
+   "name": "Bronze Rod"
+  },
+  "createaddition:brass_figurine": {
+   "kind": "item",
+   "name": "Brass Figurine"
+  },
+  "createaddition:copper_goblet": {
+   "kind": "item",
+   "name": "Copper Goblet"
+  },
+  "createaddition:gold_goblet": {
+   "kind": "item",
+   "name": "Ornate Goblet"
+  },
+  "createaddition:spool.nbt": {
+   "kind": "item",
+   "name": "Stores connection location."
+  },
+  "createaddition:accumulator": {
+   "kind": "block",
+   "name": "Accumulator"
+  }
+ }
+}

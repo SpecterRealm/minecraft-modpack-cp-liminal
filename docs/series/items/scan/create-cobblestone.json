@@ -1,0 +1,33 @@
+{
+ "repo": "StickyPiston-development/CreateCobblestone",
+ "ref": "1.21.1-neoforge",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "createcobblestone"
+ ],
+ "item_count": 3,
+ "compat": [
+  {
+   "id": "create",
+   "slug": "create",
+   "evidence": {
+    "data-ref": 4,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "createcobblestone:mechanical_generator": {
+   "kind": "block",
+   "name": "Mechanical Generator"
+  },
+  "createcobblestone:generators.hovertext.itemprefix": {
+   "kind": "block",
+   "name": "Generates: "
+  },
+  "createcobblestone:generators.hovertext.no_item": {
+   "kind": "block",
+   "name": "Click on the generator with a stone type to set the generator type."
+  }
+ }
+}

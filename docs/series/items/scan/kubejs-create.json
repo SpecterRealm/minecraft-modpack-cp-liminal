@@ -1,0 +1,27 @@
+{
+ "repo": "KubeJS-Mods/KubeJS-Create",
+ "ref": "default",
+ "ref_kind": "none",
+ "mod_ids": [
+  "kubejs_create"
+ ],
+ "item_count": 0,
+ "compat": [
+  {
+   "id": "create",
+   "slug": "create",
+   "evidence": {
+    "data-ref": 20,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "kubejs",
+   "slug": "kubejs",
+   "evidence": {
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {}
+}

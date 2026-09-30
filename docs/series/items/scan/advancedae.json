@@ -1,0 +1,318 @@
+{
+ "repo": "pedroksl/AdvancedAE",
+ "ref": "1.6.11-1.21.1-neoforge",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "advanced_ae"
+ ],
+ "item_count": 69,
+ "compat": [
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "data-ref": 85,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "geckolib",
+   "slug": "geckolib",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "megacells",
+   "slug": "mega-cells",
+   "evidence": {
+    "data-ref": 3
+   }
+  },
+  {
+   "id": "mekanism",
+   "slug": "mekanism",
+   "evidence": {
+    "data-ref": 1
+   }
+  }
+ ],
+ "items": {
+  "advanced_ae:adv_pattern_provider": {
+   "kind": "block",
+   "name": "Advanced Extended Pattern Provider"
+  },
+  "advanced_ae:data_entangler": {
+   "kind": "block",
+   "name": "Quantum Data Entangler"
+  },
+  "advanced_ae:quantum_accelerator": {
+   "kind": "block",
+   "name": "Quantum Computer Accelerator"
+  },
+  "advanced_ae:quantum_alloy_block": {
+   "kind": "block",
+   "name": "Quantum Alloy Block"
+  },
+  "advanced_ae:quantum_alloy_slab": {
+   "kind": "block",
+   "name": "Quantum Alloy Slab"
+  },
+  "advanced_ae:quantum_alloy_stairs": {
+   "kind": "block",
+   "name": "Quantum Alloy Stairs"
+  },
+  "advanced_ae:quantum_alloy_wall": {
+   "kind": "block",
+   "name": "Quantum Alloy Wall"
+  },
+  "advanced_ae:quantum_core": {
+   "kind": "block",
+   "name": "Quantum Computer Core"
+  },
+  "advanced_ae:quantum_crafter": {
+   "kind": "block",
+   "name": "Quantum Crafter"
+  },
+  "advanced_ae:quantum_infusion_block": {
+   "kind": "block",
+   "name": "Quantum Infusion"
+  },
+  "advanced_ae:quantum_multi_threader": {
+   "kind": "block",
+   "name": "Quantum Computer Multi-Threader"
+  },
+  "advanced_ae:quantum_storage_128": {
+   "kind": "block",
+   "name": "128M Quantum Computer Storage"
+  },
+  "advanced_ae:quantum_storage_256": {
+   "kind": "block",
+   "name": "256M Quantum Computer Storage"
+  },
+  "advanced_ae:quantum_structure": {
+   "kind": "block",
+   "name": "Quantum Computer Structural Glass"
+  },
+  "advanced_ae:quantum_unit": {
+   "kind": "block",
+   "name": "Quantum Crafting Unit"
+  },
+  "advanced_ae:reaction_chamber": {
+   "kind": "block",
+   "name": "Reaction Chamber"
+  },
+  "advanced_ae:small_adv_pattern_provider": {
+   "kind": "block",
+   "name": "Advanced Pattern Provider"
+  },
+  "advanced_ae:quantum_infusion_flowing": {
+   "kind": "fluid",
+   "name": "Quantum Infusion"
+  },
+  "advanced_ae:quantum_infusion_source": {
+   "kind": "fluid",
+   "name": "Quantum Infusion"
+  },
+  "advanced_ae:adv_pattern_encoder": {
+   "kind": "item",
+   "name": "Advanced Pattern Encoder"
+  },
+  "advanced_ae:adv_pattern_provider_capacity_upgrade": {
+   "kind": "item",
+   "name": "Advanced Pattern Provider Capacity Upgrade"
+  },
+  "advanced_ae:adv_pattern_provider_part": {
+   "kind": "item",
+   "name": "Advanced Extended Pattern Provider"
+  },
+  "advanced_ae:adv_pattern_provider_upgrade": {
+   "kind": "item",
+   "name": "Advanced Pattern Provider Upgrade"
+  },
+  "advanced_ae:adv_processing_pattern": {
+   "kind": "item",
+   "name": "Advanced Processing Pattern"
+  },
+  "advanced_ae:advanced_io_bus_part": {
+   "kind": "item",
+   "name": "ME Advanced IO Bus"
+  },
+  "advanced_ae:attack_speed_card": {
+   "kind": "item",
+   "name": "Attack Speed Card"
+  },
+  "advanced_ae:auto_feeding_card": {
+   "kind": "item",
+   "name": "Auto Feeding Card"
+  },
+  "advanced_ae:auto_stock_card": {
+   "kind": "item",
+   "name": "Auto Stock Card"
+  },
+  "advanced_ae:camo_card": {
+   "kind": "item",
+   "name": "Camo Card"
+  },
+  "advanced_ae:evasion_card": {
+   "kind": "item",
+   "name": "Evasion Card"
+  },
+  "advanced_ae:flight_card": {
+   "kind": "item",
+   "name": "Flight Card"
+  },
+  "advanced_ae:flight_drift_card": {
+   "kind": "item",
+   "name": "Flight Drift Card"
+  },
+  "advanced_ae:hp_buffer_card": {
+   "kind": "item",
+   "name": "HP Buffer Card"
+  },
+  "advanced_ae:import_export_bus_part": {
+   "kind": "item",
+   "name": "ME Import Export Bus"
+  },
+  "advanced_ae:jump_height_card": {
+   "kind": "item",
+   "name": "Jump Height Card"
+  },
+  "advanced_ae:lava_immunity_card": {
+   "kind": "item",
+   "name": "Lava Immunity Card"
+  },
+  "advanced_ae:luck_card": {
+   "kind": "item",
+   "name": "Luck Card"
+  },
+  "advanced_ae:magnet_card": {
+   "kind": "item",
+   "name": "Magnet Card"
+  },
+  "advanced_ae:night_vision_card": {
+   "kind": "item",
+   "name": "Night Vision Card"
+  },
+  "advanced_ae:pick_craft_card": {
+   "kind": "item",
+   "name": "Pick Craft Card"
+  },
+  "advanced_ae:portable_workbench_card": {
+   "kind": "item",
+   "name": "Portable Workbench Card"
+  },
+  "advanced_ae:printed_quantum_processor": {
+   "kind": "item",
+   "name": "Printed Quantum Circuit"
+  },
+  "advanced_ae:quantum_alloy": {
+   "kind": "item",
+   "name": "Quantum Alloy"
+  },
+  "advanced_ae:quantum_alloy_plate": {
+   "kind": "item",
+   "name": "Quantum Alloy Plate"
+  },
+  "advanced_ae:quantum_boots": {
+   "kind": "item",
+   "name": "Quantum Boots"
+  },
+  "advanced_ae:quantum_chestplate": {
+   "kind": "item",
+   "name": "Quantum Chestplate"
+  },
+  "advanced_ae:quantum_crafter_terminal": {
+   "kind": "item",
+   "name": "Quantum Crafter Terminal"
+  },
+  "advanced_ae:quantum_helmet": {
+   "kind": "item",
+   "name": "Quantum Helmet"
+  },
+  "advanced_ae:quantum_infused_dust": {
+   "kind": "item",
+   "name": "Quantum Infused Dust"
+  },
+  "advanced_ae:quantum_infusion_bucket": {
+   "kind": "item",
+   "name": "Quantum Infusion Bucket"
+  },
+  "advanced_ae:quantum_leggings": {
+   "kind": "item",
+   "name": "Quantum Leggings"
+  },
+  "advanced_ae:quantum_processor": {
+   "kind": "item",
+   "name": "Quantum Processor"
+  },
+  "advanced_ae:quantum_processor_press": {
+   "kind": "item",
+   "name": "Inscriber Quantum Press"
+  },
+  "advanced_ae:quantum_storage_component": {
+   "kind": "item",
+   "name": "Quantum Storage Component"
+  },
+  "advanced_ae:quantum_upgrade_base": {
+   "kind": "item",
+   "name": "Quantum Upgrade Base Card"
+  },
+  "advanced_ae:reach_card": {
+   "kind": "item",
+   "name": "Reach Card"
+  },
+  "advanced_ae:recharging_card": {
+   "kind": "item",
+   "name": "ME Recharging Card"
+  },
+  "advanced_ae:regeneration_card": {
+   "kind": "item",
+   "name": "Regeneration Card"
+  },
+  "advanced_ae:shattered_singularity": {
+   "kind": "item",
+   "name": "Shattered Singularity"
+  },
+  "advanced_ae:small_adv_pattern_provider_part": {
+   "kind": "item",
+   "name": "Advanced Pattern Provider"
+  },
+  "advanced_ae:sprint_speed_card": {
+   "kind": "item",
+   "name": "Sprint Speed Card"
+  },
+  "advanced_ae:step_assist_card": {
+   "kind": "item",
+   "name": "Step Assist Card"
+  },
+  "advanced_ae:stock_export_bus_part": {
+   "kind": "item",
+   "name": "ME Stock Export Bus"
+  },
+  "advanced_ae:strength_card": {
+   "kind": "item",
+   "name": "Strength Card"
+  },
+  "advanced_ae:swim_speed_card": {
+   "kind": "item",
+   "name": "Swim Speed Card"
+  },
+  "advanced_ae:throughput_monitor": {
+   "kind": "item",
+   "name": "ME Throughput Monitor"
+  },
+  "advanced_ae:walk_speed_card": {
+   "kind": "item",
+   "name": "Walk Speed Card"
+  },
+  "advanced_ae:water_breathing_card": {
+   "kind": "item",
+   "name": "Water Breathing Card"
+  },
+  "advanced_ae:wireless_quantum_crafter_terminal": {
+   "kind": "item",
+   "name": "Wireless Quantum Crafter Terminal"
+  }
+ }
+}

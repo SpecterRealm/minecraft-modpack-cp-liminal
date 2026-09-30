@@ -1,0 +1,456 @@
+{
+ "repo": "Alexthw46/Ars-Elemancy",
+ "ref": "default",
+ "ref_kind": "none",
+ "mod_ids": [
+  "ars_elemancy"
+ ],
+ "item_count": 105,
+ "compat": [
+  {
+   "id": "ars_elemental",
+   "slug": "ars-elemental",
+   "evidence": {
+    "data-ref": 241,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "ars_nouveau",
+   "slug": "ars-nouveau",
+   "evidence": {
+    "data-ref": 32,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "terrablender",
+   "slug": "terrablender",
+   "evidence": {
+    "isLoaded": 1
+   }
+  }
+ ],
+ "items": {
+  "ars_elemancy:cinder_hat": {
+   "kind": "item",
+   "name": "Cindermancer Hat"
+  },
+  "ars_elemancy:cinder_robes": {
+   "kind": "item",
+   "name": "Cindermancer Robes"
+  },
+  "ars_elemancy:cinder_leggings": {
+   "kind": "item",
+   "name": "Cindermancer Leggings"
+  },
+  "ars_elemancy:cinder_boots": {
+   "kind": "item",
+   "name": "Cindermancer Boots"
+  },
+  "ars_elemancy:cinder_helmet": {
+   "kind": "item",
+   "name": "Ashguard's Helmet"
+  },
+  "ars_elemancy:cinder_chestplate": {
+   "kind": "item",
+   "name": "Ashguard's Chestplate"
+  },
+  "ars_elemancy:cinder_leggings_heavy": {
+   "kind": "item",
+   "name": "Ashguard's Leggings"
+  },
+  "ars_elemancy:cinder_boots_heavy": {
+   "kind": "item",
+   "name": "Ashguard's Boots"
+  },
+  "ars_elemancy:cinder_hood": {
+   "kind": "item",
+   "name": "Phoenix's Hood"
+  },
+  "ars_elemancy:cinder_tunic": {
+   "kind": "item",
+   "name": "Phoenix's Tunic"
+  },
+  "ars_elemancy:cinder_pants": {
+   "kind": "item",
+   "name": "Phoenix's Pants"
+  },
+  "ars_elemancy:cinder_shoes": {
+   "kind": "item",
+   "name": "Phoenix's Shoes"
+  },
+  "ars_elemancy:cinder_focus": {
+   "kind": "item",
+   "name": "Focus of Cinder"
+  },
+  "ars_elemancy:cinder_essence": {
+   "kind": "item",
+   "name": "Cinder Essence"
+  },
+  "ars_elemancy:tempest_hat": {
+   "kind": "item",
+   "name": "Tempestmancer Hat"
+  },
+  "ars_elemancy:tempest_robes": {
+   "kind": "item",
+   "name": "Tempestmancer Robes"
+  },
+  "ars_elemancy:tempest_leggings": {
+   "kind": "item",
+   "name": "Tempestmancer Leggings"
+  },
+  "ars_elemancy:tempest_boots": {
+   "kind": "item",
+   "name": "Tempestmancer Boots"
+  },
+  "ars_elemancy:tempest_helmet": {
+   "kind": "item",
+   "name": "Stormguard's Helmet"
+  },
+  "ars_elemancy:tempest_chestplate": {
+   "kind": "item",
+   "name": "Stormguard's Chestplate"
+  },
+  "ars_elemancy:tempest_leggings_heavy": {
+   "kind": "item",
+   "name": "Stormguard's Leggings"
+  },
+  "ars_elemancy:tempest_boots_heavy": {
+   "kind": "item",
+   "name": "Stormguard's Boots"
+  },
+  "ars_elemancy:tempest_hood": {
+   "kind": "item",
+   "name": "Kirin's Hood"
+  },
+  "ars_elemancy:tempest_tunic": {
+   "kind": "item",
+   "name": "Kirin's Tunic"
+  },
+  "ars_elemancy:tempest_pants": {
+   "kind": "item",
+   "name": "Kirin's Pants"
+  },
+  "ars_elemancy:tempest_shoes": {
+   "kind": "item",
+   "name": "Kirin's Shoes"
+  },
+  "ars_elemancy:tempest_focus": {
+   "kind": "item",
+   "name": "Focus of Tempest"
+  },
+  "ars_elemancy:tempest_essence": {
+   "kind": "item",
+   "name": "Tempest Essence"
+  },
+  "ars_elemancy:vapor_hat": {
+   "kind": "item",
+   "name": "Vapormancer Hat"
+  },
+  "ars_elemancy:vapor_robes": {
+   "kind": "item",
+   "name": "Vapormancer Robes"
+  },
+  "ars_elemancy:vapor_leggings": {
+   "kind": "item",
+   "name": "Vapormancer Leggings"
+  },
+  "ars_elemancy:vapor_boots": {
+   "kind": "item",
+   "name": "Vapormancer Boots"
+  },
+  "ars_elemancy:vapor_helmet": {
+   "kind": "item",
+   "name": "Steamguard's Helmet"
+  },
+  "ars_elemancy:vapor_chestplate": {
+   "kind": "item",
+   "name": "Steamguard's Chestplate"
+  },
+  "ars_elemancy:vapor_leggings_heavy": {
+   "kind": "item",
+   "name": "Steamguard's Leggings"
+  },
+  "ars_elemancy:vapor_boots_heavy": {
+   "kind": "item",
+   "name": "Steamguard's Boots"
+  },
+  "ars_elemancy:vapor_hood": {
+   "kind": "item",
+   "name": "Bannik's Hood"
+  },
+  "ars_elemancy:vapor_tunic": {
+   "kind": "item",
+   "name": "Bannik's Tunic"
+  },
+  "ars_elemancy:vapor_pants": {
+   "kind": "item",
+   "name": "Bannik's Pants"
+  },
+  "ars_elemancy:vapor_shoes": {
+   "kind": "item",
+   "name": "Bannik's Shoes"
+  },
+  "ars_elemancy:vapor_focus": {
+   "kind": "item",
+   "name": "Focus of Vapor"
+  },
+  "ars_elemancy:vapor_essence": {
+   "kind": "item",
+   "name": "Vapor Essence"
+  },
+  "ars_elemancy:mire_hat": {
+   "kind": "item",
+   "name": "Miremancer Hat"
+  },
+  "ars_elemancy:mire_robes": {
+   "kind": "item",
+   "name": "Miremancer Robes"
+  },
+  "ars_elemancy:mire_leggings": {
+   "kind": "item",
+   "name": "Miremancer Leggings"
+  },
+  "ars_elemancy:mire_boots": {
+   "kind": "item",
+   "name": "Miremancer Boots"
+  },
+  "ars_elemancy:mire_helmet": {
+   "kind": "item",
+   "name": "Swampguard's Helmet"
+  },
+  "ars_elemancy:mire_chestplate": {
+   "kind": "item",
+   "name": "Swampguard's Chestplate"
+  },
+  "ars_elemancy:mire_leggings_heavy": {
+   "kind": "item",
+   "name": "Swampguard's Leggings"
+  },
+  "ars_elemancy:mire_boots_heavy": {
+   "kind": "item",
+   "name": "Swampguard's Boots"
+  },
+  "ars_elemancy:mire_hood": {
+   "kind": "item",
+   "name": "Hydra's Hood"
+  },
+  "ars_elemancy:mire_tunic": {
+   "kind": "item",
+   "name": "Hydra's Tunic"
+  },
+  "ars_elemancy:mire_pants": {
+   "kind": "item",
+   "name": "Hydra's Pants"
+  },
+  "ars_elemancy:mire_shoes": {
+   "kind": "item",
+   "name": "Hydra's Shoes"
+  },
+  "ars_elemancy:mire_focus": {
+   "kind": "item",
+   "name": "Focus of Mire"
+  },
+  "ars_elemancy:mire_essence": {
+   "kind": "item",
+   "name": "Mire Essence"
+  },
+  "ars_elemancy:lava_hat": {
+   "kind": "item",
+   "name": "Lavamancer Hat"
+  },
+  "ars_elemancy:lava_robes": {
+   "kind": "item",
+   "name": "Lavamancer Robes"
+  },
+  "ars_elemancy:lava_leggings": {
+   "kind": "item",
+   "name": "Lavamancer Leggings"
+  },
+  "ars_elemancy:lava_boots": {
+   "kind": "item",
+   "name": "Lavamancer Boots"
+  },
+  "ars_elemancy:lava_helmet": {
+   "kind": "item",
+   "name": "Magmaguard's Helmet"
+  },
+  "ars_elemancy:lava_chestplate": {
+   "kind": "item",
+   "name": "Magmaguard's Chestplate"
+  },
+  "ars_elemancy:lava_leggings_heavy": {
+   "kind": "item",
+   "name": "Magmaguard's Leggings"
+  },
+  "ars_elemancy:lava_boots_heavy": {
+   "kind": "item",
+   "name": "Magmaguard's Boots"
+  },
+  "ars_elemancy:lava_hood": {
+   "kind": "item",
+   "name": "Typhon's Hood"
+  },
+  "ars_elemancy:lava_tunic": {
+   "kind": "item",
+   "name": "Typhon's Tunic"
+  },
+  "ars_elemancy:lava_pants": {
+   "kind": "item",
+   "name": "Typhon's Pants"
+  },
+  "ars_elemancy:lava_shoes": {
+   "kind": "item",
+   "name": "Typhon's Shoes"
+  },
+  "ars_elemancy:lava_focus": {
+   "kind": "item",
+   "name": "Focus of Lava"
+  },
+  "ars_elemancy:lava_essence": {
+   "kind": "item",
+   "name": "Lava Essence"
+  },
+  "ars_elemancy:silt_hat": {
+   "kind": "item",
+   "name": "Siltmancer Hat"
+  },
+  "ars_elemancy:silt_robes": {
+   "kind": "item",
+   "name": "Siltmancer Robes"
+  },
+  "ars_elemancy:silt_leggings": {
+   "kind": "item",
+   "name": "Siltmancer Leggings"
+  },
+  "ars_elemancy:silt_boots": {
+   "kind": "item",
+   "name": "Siltmancer Boots"
+  },
+  "ars_elemancy:silt_helmet": {
+   "kind": "item",
+   "name": "Desertguard's Helmet"
+  },
+  "ars_elemancy:silt_chestplate": {
+   "kind": "item",
+   "name": "Desertguard's Chestplate"
+  },
+  "ars_elemancy:silt_leggings_heavy": {
+   "kind": "item",
+   "name": "Desertguard's Leggings"
+  },
+  "ars_elemancy:silt_boots_heavy": {
+   "kind": "item",
+   "name": "Desertguard's Boots"
+  },
+  "ars_elemancy:silt_hood": {
+   "kind": "item",
+   "name": "Sphinx's Hood"
+  },
+  "ars_elemancy:silt_tunic": {
+   "kind": "item",
+   "name": "Sphinx's Tunic"
+  },
+  "ars_elemancy:silt_pants": {
+   "kind": "item",
+   "name": "Sphinx's Pants"
+  },
+  "ars_elemancy:silt_shoes": {
+   "kind": "item",
+   "name": "Sphinx's Shoes"
+  },
+  "ars_elemancy:silt_focus": {
+   "kind": "item",
+   "name": "Focus of Silt"
+  },
+  "ars_elemancy:silt_essence": {
+   "kind": "item",
+   "name": "Silt Essence"
+  },
+  "ars_elemancy:elemancer_hat": {
+   "kind": "item",
+   "name": "Elemancer Hat"
+  },
+  "ars_elemancy:elemancer_robes": {
+   "kind": "item",
+   "name": "Elemancer Robes"
+  },
+  "ars_elemancy:elemancer_leggings": {
+   "kind": "item",
+   "name": "Elemancer Leggings"
+  },
+  "ars_elemancy:elemancer_boots": {
+   "kind": "item",
+   "name": "Elemancer Boots"
+  },
+  "ars_elemancy:elemancer_helmet": {
+   "kind": "item",
+   "name": "Omniguard's Helmet"
+  },
+  "ars_elemancy:elemancer_chestplate": {
+   "kind": "item",
+   "name": "Omniguard's Chestplate"
+  },
+  "ars_elemancy:elemancer_leggings_heavy": {
+   "kind": "item",
+   "name": "Omniguard's Leggings"
+  },
+  "ars_elemancy:elemancer_boots_heavy": {
+   "kind": "item",
+   "name": "Omniguard's Boots"
+  },
+  "ars_elemancy:elemancer_hood": {
+   "kind": "item",
+   "name": "Tiamat's Hood"
+  },
+  "ars_elemancy:elemancer_tunic": {
+   "kind": "item",
+   "name": "Tiamat's Tunic"
+  },
+  "ars_elemancy:elemancer_pants": {
+   "kind": "item",
+   "name": "Tiamat's Pants"
+  },
+  "ars_elemancy:elemancer_shoes": {
+   "kind": "item",
+   "name": "Tiamat's Shoes"
+  },
+  "ars_elemancy:elemancer_focus": {
+   "kind": "item",
+   "name": "Focus of Elemancy"
+  },
+  "ars_elemancy:elemancer_essence": {
+   "kind": "item",
+   "name": "Elemancer Shard"
+  },
+  "ars_elemancy:cinder_bangle": {
+   "kind": "item",
+   "name": "Cinder Bangle"
+  },
+  "ars_elemancy:vapor_bangle": {
+   "kind": "item",
+   "name": "Vapor Bangle"
+  },
+  "ars_elemancy:lava_bangle": {
+   "kind": "item",
+   "name": "Lava Bangle"
+  },
+  "ars_elemancy:silt_bangle": {
+   "kind": "item",
+   "name": "Silt Bangle"
+  },
+  "ars_elemancy:tempest_bangle": {
+   "kind": "item",
+   "name": "Tempest Bangle"
+  },
+  "ars_elemancy:mire_bangle": {
+   "kind": "item",
+   "name": "Mire Bangle"
+  },
+  "ars_elemancy:elemancer_bangle": {
+   "kind": "item",
+   "name": "Elemancer Bangle"
+  }
+ }
+}

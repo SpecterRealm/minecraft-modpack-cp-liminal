@@ -1,0 +1,33 @@
+{
+ "repo": "henkelmax/gravestone",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "gravestone"
+ ],
+ "item_count": 3,
+ "compat": [
+  {
+   "id": "jade",
+   "slug": "jade",
+   "evidence": {
+    "compat-import": 2,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "gravestone:gravestone": {
+   "kind": "block",
+   "name": "Grave"
+  },
+  "gravestone:obituary": {
+   "kind": "item",
+   "name": "Obituary"
+  },
+  "gravestone:player_ghost": {
+   "kind": "entity",
+   "name": "Ghost of Player"
+  }
+ }
+}

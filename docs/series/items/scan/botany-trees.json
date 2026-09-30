@@ -1,0 +1,68 @@
+{
+ "repo": "Darkhax-Minecraft/BotanyTrees",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [],
+ "item_count": 0,
+ "compat": [
+  {
+   "id": "ars_elemental",
+   "slug": "ars-elemental",
+   "evidence": {
+    "data-ref": 2
+   }
+  },
+  {
+   "id": "ars_nouveau",
+   "slug": "ars-nouveau",
+   "evidence": {
+    "data-ref": 8
+   }
+  },
+  {
+   "id": "bookshelf",
+   "slug": "bookshelf",
+   "evidence": {
+    "data-ref": 754,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "botanypots",
+   "slug": "botany-pots",
+   "evidence": {
+    "data-ref": 377,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "botanytrees",
+   "slug": "botany-trees",
+   "evidence": {
+    "data-ref": 754
+   }
+  },
+  {
+   "id": "occultism",
+   "slug": "occultism",
+   "evidence": {
+    "data-ref": 4
+   }
+  },
+  {
+   "id": "prickle",
+   "slug": "prickle",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "silentgear",
+   "slug": "silent-gear",
+   "evidence": {
+    "data-ref": 2
+   }
+  }
+ ],
+ "items": {}
+}

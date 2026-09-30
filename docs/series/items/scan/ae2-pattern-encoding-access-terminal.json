@@ -1,0 +1,56 @@
+{
+ "repo": "yuuki1293/AE2PatternEncodingAccessTerminal",
+ "ref": "neoforge/v1.21.1-1.1.0-rc.1",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "ae2peat"
+ ],
+ "item_count": 2,
+ "compat": [
+  {
+   "id": "ae2jeiintegration",
+   "slug": "ae2-jei-integration",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "data-ref": 5
+   }
+  },
+  {
+   "id": "appeng",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "compat-import": 6
+   }
+  },
+  {
+   "id": "emi",
+   "slug": "emi",
+   "evidence": {
+    "compat-import": 3
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 2
+   }
+  }
+ ],
+ "items": {
+  "ae2peat:pattern_encoding_access_terminal": {
+   "kind": "item",
+   "name": "ME Pattern Encoding Access Terminal"
+  },
+  "ae2peat:wireless_pattern_encoding_access_terminal": {
+   "kind": "item",
+   "name": "Wireless Pattern Encoding Access Terminal"
+  }
+ }
+}

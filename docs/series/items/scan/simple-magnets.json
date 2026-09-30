@@ -1,0 +1,28 @@
+{
+ "repo": "SuperMartijn642/SimpleMagnets",
+ "ref": "forge-1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "simplemagnets"
+ ],
+ "item_count": 4,
+ "compat": [],
+ "items": {
+  "simplemagnets:basicmagnet": {
+   "kind": "item",
+   "name": "Magnet"
+  },
+  "simplemagnets:advancedmagnet": {
+   "kind": "item",
+   "name": "Advanced Magnet"
+  },
+  "simplemagnets:basic_demagnetization_coil": {
+   "kind": "block",
+   "name": "Demagnetization Coil"
+  },
+  "simplemagnets:advanced_demagnetization_coil": {
+   "kind": "block",
+   "name": "Advanced Demagnetization Coil"
+  }
+ }
+}

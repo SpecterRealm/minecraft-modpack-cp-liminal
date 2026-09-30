@@ -1,0 +1,141 @@
+{
+ "repo": "Traverse-Joe/Baubley-Heart-Canisters",
+ "ref": "1.21-neoforge",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "${mod_id}",
+  "bhc"
+ ],
+ "item_count": 32,
+ "compat": [],
+ "items": {
+  "bhc:red_heart": {
+   "kind": "item",
+   "name": "Miniature Red Heart"
+  },
+  "bhc:yellow_heart": {
+   "kind": "item",
+   "name": "Miniature Yellow Heart"
+  },
+  "bhc:green_heart": {
+   "kind": "item",
+   "name": "Miniature Green Heart"
+  },
+  "bhc:blue_heart": {
+   "kind": "item",
+   "name": "Miniature Blue Heart"
+  },
+  "bhc:canister": {
+   "kind": "item",
+   "name": "Canister"
+  },
+  "bhc:red_heart_canister": {
+   "kind": "item",
+   "name": "Red Heart Canister"
+  },
+  "bhc:yellow_heart_canister": {
+   "kind": "item",
+   "name": "Yellow Heart Canister"
+  },
+  "bhc:green_heart_canister": {
+   "kind": "item",
+   "name": "Green Heart Canister"
+  },
+  "bhc:blue_heart_canister": {
+   "kind": "item",
+   "name": "Blue Heart Canister"
+  },
+  "bhc:soul_heart_canister": {
+   "kind": "item",
+   "name": "Soul Heart Canister"
+  },
+  "bhc:red_heart_melted": {
+   "kind": "item",
+   "name": "Melted Red Heart"
+  },
+  "bhc:yellow_heart_melted": {
+   "kind": "item",
+   "name": "Melted Yellow Heart"
+  },
+  "bhc:green_heart_melted": {
+   "kind": "item",
+   "name": "Melted Green Heart"
+  },
+  "bhc:blue_heart_melted": {
+   "kind": "item",
+   "name": "Melted Blue Heart"
+  },
+  "bhc:red_heart_patch": {
+   "kind": "item",
+   "name": "Red Health Patch"
+  },
+  "bhc:yellow_heart_patch": {
+   "kind": "item",
+   "name": "Yellow Health Patch"
+  },
+  "bhc:green_heart_patch": {
+   "kind": "item",
+   "name": "Green Health Patch"
+  },
+  "bhc:blue_heart_patch": {
+   "kind": "item",
+   "name": "Blue Health Patch"
+  },
+  "bhc:red_heartpulse_belt": {
+   "kind": "item",
+   "name": "Red Heartpulse Belt"
+  },
+  "bhc:yellow_heartpulse_belt": {
+   "kind": "item",
+   "name": "Yellow Heartpulse Belt"
+  },
+  "bhc:green_heartpulse_belt": {
+   "kind": "item",
+   "name": "Green Heartpulse Belt"
+  },
+  "bhc:blue_heartpulse_belt": {
+   "kind": "item",
+   "name": "Blue Heartpulse Belt"
+  },
+  "bhc:wither_bone": {
+   "kind": "item",
+   "name": "Wither Bone"
+  },
+  "bhc:relic_apple": {
+   "kind": "item",
+   "name": "Relic Apple"
+  },
+  "bhc:heart_amulet": {
+   "kind": "item",
+   "name": "Heart Amulet"
+  },
+  "bhc:soul_heart_crystal": {
+   "kind": "item",
+   "name": "Soul Heart Crystal"
+  },
+  "bhc:blade_of_vitality": {
+   "kind": "item",
+   "name": "Vitality Blade"
+  },
+  "bhc:soul_heart_amulet": {
+   "kind": "item",
+   "name": "Soul Amulet"
+  },
+  "bhc:vigor_bow": {
+   "kind": "item",
+   "name": "Vigor Bow"
+  },
+  "bhc:passive_mobs": {
+   "kind": "entity",
+   "name": "Passive Mobs"
+  },
+  "bhc:hostile_mobs": {
+   "kind": "entity",
+   "name": "Hostile Mobs"
+  },
+  "bhc:boss_mobs": {
+   "kind": "entity",
+   "name": "Boss Mobs"
+  }
+ }
+}

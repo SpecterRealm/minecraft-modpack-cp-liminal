@@ -1,0 +1,196 @@
+{
+ "repo": "TheIllusiveC4/Comforts",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "comforts"
+ ],
+ "item_count": 44,
+ "compat": [
+  {
+   "id": "farmersdelight",
+   "slug": "farmers-delight",
+   "evidence": {
+    "data-ref": 1
+   }
+  }
+ ],
+ "items": {
+  "comforts:hammock_black": {
+   "kind": "block",
+   "name": "Black Hammock Cloth"
+  },
+  "comforts:hammock_blue": {
+   "kind": "block",
+   "name": "Blue Hammock Cloth"
+  },
+  "comforts:hammock_brown": {
+   "kind": "block",
+   "name": "Brown Hammock Cloth"
+  },
+  "comforts:hammock_cyan": {
+   "kind": "block",
+   "name": "Cyan Hammock Cloth"
+  },
+  "comforts:hammock_gray": {
+   "kind": "block",
+   "name": "Gray Hammock Cloth"
+  },
+  "comforts:hammock_green": {
+   "kind": "block",
+   "name": "Green Hammock Cloth"
+  },
+  "comforts:hammock_light_blue": {
+   "kind": "block",
+   "name": "Light Blue Hammock Cloth"
+  },
+  "comforts:hammock_light_gray": {
+   "kind": "block",
+   "name": "Light Gray Hammock Cloth"
+  },
+  "comforts:hammock_lime": {
+   "kind": "block",
+   "name": "Lime Hammock Cloth"
+  },
+  "comforts:hammock_magenta": {
+   "kind": "block",
+   "name": "Magenta Hammock Cloth"
+  },
+  "comforts:hammock_orange": {
+   "kind": "block",
+   "name": "Orange Hammock Cloth"
+  },
+  "comforts:hammock_pink": {
+   "kind": "block",
+   "name": "Pink Hammock Cloth"
+  },
+  "comforts:hammock_purple": {
+   "kind": "block",
+   "name": "Purple Hammock Cloth"
+  },
+  "comforts:hammock_red": {
+   "kind": "block",
+   "name": "Red Hammock Cloth"
+  },
+  "comforts:hammock_white": {
+   "kind": "block",
+   "name": "White Hammock Cloth"
+  },
+  "comforts:hammock_yellow": {
+   "kind": "block",
+   "name": "Yellow Hammock Cloth"
+  },
+  "comforts:rope_and_nail": {
+   "kind": "block",
+   "name": "Rope and Nail"
+  },
+  "comforts:sleeping_bag_black": {
+   "kind": "block",
+   "name": "Black Sleeping Bag"
+  },
+  "comforts:sleeping_bag_blue": {
+   "kind": "block",
+   "name": "Blue Sleeping Bag"
+  },
+  "comforts:sleeping_bag_brown": {
+   "kind": "block",
+   "name": "Brown Sleeping Bag"
+  },
+  "comforts:sleeping_bag_cyan": {
+   "kind": "block",
+   "name": "Cyan Sleeping Bag"
+  },
+  "comforts:sleeping_bag_gray": {
+   "kind": "block",
+   "name": "Gray Sleeping Bag"
+  },
+  "comforts:sleeping_bag_green": {
+   "kind": "block",
+   "name": "Green Sleeping Bag"
+  },
+  "comforts:sleeping_bag_light_blue": {
+   "kind": "block",
+   "name": "Light Blue Sleeping Bag"
+  },
+  "comforts:sleeping_bag_light_gray": {
+   "kind": "block",
+   "name": "Light Gray Sleeping Bag"
+  },
+  "comforts:sleeping_bag_lime": {
+   "kind": "block",
+   "name": "Lime Sleeping Bag"
+  },
+  "comforts:sleeping_bag_magenta": {
+   "kind": "block",
+   "name": "Magenta Sleeping Bag"
+  },
+  "comforts:sleeping_bag_orange": {
+   "kind": "block",
+   "name": "Orange Sleeping Bag"
+  },
+  "comforts:sleeping_bag_pink": {
+   "kind": "block",
+   "name": "Pink Sleeping Bag"
+  },
+  "comforts:sleeping_bag_purple": {
+   "kind": "block",
+   "name": "Purple Sleeping Bag"
+  },
+  "comforts:sleeping_bag_red": {
+   "kind": "block",
+   "name": "Red Sleeping Bag"
+  },
+  "comforts:sleeping_bag_white": {
+   "kind": "block",
+   "name": "White Sleeping Bag"
+  },
+  "comforts:sleeping_bag_yellow": {
+   "kind": "block",
+   "name": "Yellow Sleeping Bag"
+  },
+  "comforts:hammock.occupied": {
+   "kind": "block",
+   "name": "This hammock is occupied"
+  },
+  "comforts:sleeping_bag.occupied": {
+   "kind": "block",
+   "name": "This sleeping bag is occupied"
+  },
+  "comforts:hammock.too_far_away": {
+   "kind": "block",
+   "name": "You may not rest now; the hammock is too far away"
+  },
+  "comforts:sleeping_bag.too_far_away": {
+   "kind": "block",
+   "name": "You may not rest now; the sleeping bag is too far away"
+  },
+  "comforts:no_sleep": {
+   "kind": "block",
+   "name": "This is decorative, you cannot sleep here"
+  },
+  "comforts:hammock.no_sleep": {
+   "kind": "block",
+   "name": "You can only sleep during the day"
+  },
+  "comforts:hammock.no_sleep.2": {
+   "kind": "block",
+   "name": "You can only sleep during the day, at night, or during thunderstorms"
+  },
+  "comforts:hammock.no_rope": {
+   "kind": "block",
+   "name": "You must hang the hammock on a pair of rope and nail"
+  },
+  "comforts:hammock.no_space": {
+   "kind": "block",
+   "name": "There is not enough space to fit the hammock"
+  },
+  "comforts:hammock.missing_rope": {
+   "kind": "block",
+   "name": "There must also be a rope and nail on the other end to hang the hammock"
+  },
+  "comforts:sleeping_bag.broke": {
+   "kind": "block",
+   "name": "The sleeping bag broke"
+  }
+ }
+}

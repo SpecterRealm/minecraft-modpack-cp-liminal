@@ -1,0 +1,238 @@
+{
+ "repo": "BONNePlayground/AnimalPen",
+ "ref": "2.4.3-1.21",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "animal_pen"
+ ],
+ "item_count": 51,
+ "compat": [
+  {
+   "id": "cloth_config",
+   "slug": "cloth-config",
+   "evidence": {
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 5
+   }
+  },
+  {
+   "id": "patchouli",
+   "slug": "patchouli",
+   "evidence": {
+    "data-ref": 3
+   }
+  }
+ ],
+ "items": {
+  "animal_pen:animal_cage": {
+   "kind": "item",
+   "name": "Animal Cage"
+  },
+  "animal_pen:animal_cage.entity": {
+   "kind": "item",
+   "name": "Entity: %s"
+  },
+  "animal_pen:animal_cage.amount": {
+   "kind": "item",
+   "name": "Count: %d"
+  },
+  "animal_pen:animal_cage.variants": {
+   "kind": "item",
+   "name": "Variants: %d"
+  },
+  "animal_pen:animal_cage.tip": {
+   "kind": "item",
+   "name": "Right-click an animal to catch it"
+  },
+  "animal_pen:animal_cage.release": {
+   "kind": "item",
+   "name": "Sneak + right-click on a block to release it"
+  },
+  "animal_pen:animal_cage.error.baby": {
+   "kind": "item",
+   "name": "Cannot catch baby animals"
+  },
+  "animal_pen:animal_cage.error.tame": {
+   "kind": "item",
+   "name": "Cannot catch tamed animals"
+  },
+  "animal_pen:animal_cage.error.wrong": {
+   "kind": "item",
+   "name": "This cage contains a different animal"
+  },
+  "animal_pen:animal_cage.error.unknown": {
+   "kind": "item",
+   "name": "Failed to catch animal"
+  },
+  "animal_pen:animal_cage.error.not_allowed": {
+   "kind": "item",
+   "name": "This animal cannot be caught with an Animal Cage"
+  },
+  "animal_pen:animal_cage.error.too_many_variants": {
+   "kind": "item",
+   "name": "Cannot store another variant. The cage is full"
+  },
+  "animal_pen:animal_cage.error.chested": {
+   "kind": "item",
+   "name": "Cannot catch animals carrying chests"
+  },
+  "animal_pen:animal_cage.error.full": {
+   "kind": "item",
+   "name": "Animal Cage is full"
+  },
+  "animal_pen:water_animal_container": {
+   "kind": "item",
+   "name": "Aquatic Jar"
+  },
+  "animal_pen:bird_catcher": {
+   "kind": "item",
+   "name": "Avian Net"
+  },
+  "animal_pen:bird_catcher.entity": {
+   "kind": "item",
+   "name": "Entity: %s"
+  },
+  "animal_pen:bird_catcher.amount": {
+   "kind": "item",
+   "name": "Count: %d"
+  },
+  "animal_pen:bird_catcher.variants": {
+   "kind": "item",
+   "name": "Variants: %d"
+  },
+  "animal_pen:bird_catcher.tip": {
+   "kind": "item",
+   "name": "Right-click a flying animal to capture it"
+  },
+  "animal_pen:bird_catcher.release": {
+   "kind": "item",
+   "name": "Sneak + right-click on a block to release it"
+  },
+  "animal_pen:bird_catcher.error.baby": {
+   "kind": "item",
+   "name": "Cannot capture baby flying animals"
+  },
+  "animal_pen:bird_catcher.error.wrong": {
+   "kind": "item",
+   "name": "This net contains a different flying animal"
+  },
+  "animal_pen:bird_catcher.error.unknown": {
+   "kind": "item",
+   "name": "Failed to capture flying animal"
+  },
+  "animal_pen:bird_catcher.error.not_allowed": {
+   "kind": "item",
+   "name": "This animal cannot be captured with an Avian Net"
+  },
+  "animal_pen:bird_catcher.error.too_many_variants": {
+   "kind": "item",
+   "name": "Cannot store another variant. The net is full"
+  },
+  "animal_pen:bird_catcher.error.tame": {
+   "kind": "item",
+   "name": "Cannot capture tamed flying animals"
+  },
+  "animal_pen:bird_catcher.error.chested": {
+   "kind": "item",
+   "name": "Cannot capture animals carrying chests"
+  },
+  "animal_pen:bird_catcher.error.full": {
+   "kind": "item",
+   "name": "Avian Net is full"
+  },
+  "animal_pen:animal_pen_acacia": {
+   "kind": "block",
+   "name": "Animal Pen"
+  },
+  "animal_pen:animal_pen_bamboo": {
+   "kind": "block",
+   "name": "Animal Pen"
+  },
+  "animal_pen:animal_pen_birch": {
+   "kind": "block",
+   "name": "Animal Pen"
+  },
+  "animal_pen:animal_pen_cherry": {
+   "kind": "block",
+   "name": "Animal Pen"
+  },
+  "animal_pen:animal_pen_crimson": {
+   "kind": "block",
+   "name": "Animal Pen"
+  },
+  "animal_pen:animal_pen_dark_oak": {
+   "kind": "block",
+   "name": "Animal Pen"
+  },
+  "animal_pen:animal_pen_jungle": {
+   "kind": "block",
+   "name": "Animal Pen"
+  },
+  "animal_pen:animal_pen_oak": {
+   "kind": "block",
+   "name": "Animal Pen"
+  },
+  "animal_pen:animal_pen_spruce": {
+   "kind": "block",
+   "name": "Animal Pen"
+  },
+  "animal_pen:animal_pen_warped": {
+   "kind": "block",
+   "name": "Animal Pen"
+  },
+  "animal_pen:animal_pen_mangrove": {
+   "kind": "block",
+   "name": "Animal Pen"
+  },
+  "animal_pen:aquarium_block": {
+   "kind": "block",
+   "name": "Aquarium"
+  },
+  "animal_pen:aviary": {
+   "kind": "block",
+   "name": "Iron Aviary"
+  },
+  "animal_pen:gold_aviary": {
+   "kind": "block",
+   "name": "Gold Aviary"
+  },
+  "animal_pen:copper_aviary": {
+   "kind": "block",
+   "name": "Copper Aviary"
+  },
+  "animal_pen:exposed_copper_aviary": {
+   "kind": "block",
+   "name": "Exposed Copper Aviary"
+  },
+  "animal_pen:weathered_copper_aviary": {
+   "kind": "block",
+   "name": "Weathered Copper Aviary"
+  },
+  "animal_pen:oxidized_copper_aviary": {
+   "kind": "block",
+   "name": "Oxidized Copper Aviary"
+  },
+  "animal_pen:waxed_copper_aviary": {
+   "kind": "block",
+   "name": "Waxed Copper Aviary"
+  },
+  "animal_pen:waxed_exposed_copper_aviary": {
+   "kind": "block",
+   "name": "Waxed Exposed Copper Aviary"
+  },
+  "animal_pen:waxed_weathered_copper_aviary": {
+   "kind": "block",
+   "name": "Waxed Weathered Copper Aviary"
+  },
+  "animal_pen:waxed_oxidized_copper_aviary": {
+   "kind": "block",
+   "name": "Waxed Oxidized Copper Aviary"
+  }
+ }
+}

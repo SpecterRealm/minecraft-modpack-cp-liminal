@@ -1,0 +1,45 @@
+{
+ "repo": "MehVahdJukaar/Moonlight",
+ "ref": "1.21.1-beforebreakingchanges",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "moonlight"
+ ],
+ "item_count": 1,
+ "compat": [
+  {
+   "id": "create",
+   "slug": "create",
+   "evidence": {
+    "data-ref": 3
+   }
+  },
+  {
+   "id": "farmersdelight",
+   "slug": "farmers-delight",
+   "evidence": {
+    "data-ref": 1
+   }
+  },
+  {
+   "id": "iris",
+   "slug": "iris",
+   "evidence": {
+    "compat-import": 2
+   }
+  },
+  {
+   "id": "modernfix",
+   "slug": "modernfix",
+   "evidence": {
+    "compat-import": 1
+   }
+  }
+ ],
+ "items": {
+  "moonlight:generic_fluid": {
+   "kind": "fluid",
+   "name": "Unnamed Fluid"
+  }
+ }
+}

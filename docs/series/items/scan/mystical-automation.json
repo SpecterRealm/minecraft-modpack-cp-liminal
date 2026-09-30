@@ -1,0 +1,66 @@
+{
+ "repo": "BlakeBr0/MysticalAutomation",
+ "ref": "1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "mysticalautomation"
+ ],
+ "item_count": 7,
+ "compat": [
+  {
+   "id": "cucumber",
+   "slug": "cucumber",
+   "evidence": {
+    "compat-import": 5,
+    "data-ref": 7,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 8
+   }
+  },
+  {
+   "id": "mysticalagriculture",
+   "slug": "mystical-agriculture",
+   "evidence": {
+    "compat-import": 5,
+    "data-ref": 16,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "mysticalautomation:infuser": {
+   "kind": "block",
+   "name": "Infuser"
+  },
+  "mysticalautomation:crafter": {
+   "kind": "block",
+   "name": "Crafter"
+  },
+  "mysticalautomation:farmer": {
+   "kind": "block",
+   "name": "Farmer"
+  },
+  "mysticalautomation:fertilizer": {
+   "kind": "block",
+   "name": "Fertilizer"
+  },
+  "mysticalautomation:enchanternator": {
+   "kind": "block",
+   "name": "Enchanternator"
+  },
+  "mysticalautomation:infusion_altarnator": {
+   "kind": "block",
+   "name": "Infusion Altarnator"
+  },
+  "mysticalautomation:awakening_altarnator": {
+   "kind": "block",
+   "name": "Awakening Altarnator"
+  }
+ }
+}

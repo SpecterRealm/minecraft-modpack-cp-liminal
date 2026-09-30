@@ -1,0 +1,32 @@
+{
+ "repo": "mc-myo-s-mod/Myotus",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "${mod_id}",
+  "myotus"
+ ],
+ "item_count": 1,
+ "compat": [
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "guideme",
+   "slug": "guideme",
+   "evidence": {
+    "compat-import": 1
+   }
+  }
+ ],
+ "items": {
+  "myotus:diamond_upgrade_card": {
+   "kind": "item",
+   "name": "Diamond Upgrade Card"
+  }
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "repo": "Vonr/Ars-Controle",
+ "ref": "1.6.16",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "${mod_id}",
+  "ars_controle"
+ ],
+ "item_count": 8,
+ "compat": [
+  {
+   "id": "ars_nouveau",
+   "slug": "ars-nouveau",
+   "evidence": {
+    "data-ref": 18,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "ars_controle:scroll_holder": {
+   "kind": "block",
+   "name": "Warp Scroll Holder"
+  },
+  "ars_controle:scryers_linkage": {
+   "kind": "block",
+   "name": "Scryer's Linkage"
+  },
+  "ars_controle:temporal_stability_sensor": {
+   "kind": "block",
+   "name": "Temporal Stability Sensor"
+  },
+  "ars_controle:warping_spell_prism": {
+   "kind": "block",
+   "name": "Warping Spell Prism"
+  },
+  "ars_controle:portable_brazier_relay": {
+   "kind": "item",
+   "name": "Portable Brazier Relay"
+  },
+  "ars_controle:portable_brazier_relay.with_ritual": {
+   "kind": "item",
+   "name": "Portable Brazier Relay (%s)"
+  },
+  "ars_controle:remote": {
+   "kind": "item",
+   "name": "Remote"
+  },
+  "ars_controle:remote.with_target": {
+   "kind": "item",
+   "name": "Remote (%s)"
+  }
+ }
+}

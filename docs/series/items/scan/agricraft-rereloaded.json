@@ -1,0 +1,122 @@
+{
+ "repo": "AgriCraft/AgriCraft",
+ "ref": "1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "agricraft"
+ ],
+ "item_count": 20,
+ "compat": [
+  {
+   "id": "emi",
+   "slug": "emi",
+   "evidence": {
+    "compat-import": 5
+   }
+  },
+  {
+   "id": "jade",
+   "slug": "jade",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 8
+   }
+  },
+  {
+   "id": "mysticalagriculture",
+   "slug": "mystical-agriculture",
+   "evidence": {
+    "compat-import": 1,
+    "isLoaded": 1
+   }
+  }
+ ],
+ "items": {
+  "agricraft:seed_analyzer": {
+   "kind": "block",
+   "name": "Seed analyzer"
+  },
+  "agricraft:crop_sticks": {
+   "kind": "block",
+   "name": "Crop Sticks"
+  },
+  "agricraft:debugger": {
+   "kind": "item",
+   "name": "Debugger"
+  },
+  "agricraft:journal": {
+   "kind": "item",
+   "name": "Agricultural Journal"
+  },
+  "agricraft:clipper": {
+   "kind": "item",
+   "name": "Plant Clipper"
+  },
+  "agricraft:magnifying_glass": {
+   "kind": "item",
+   "name": "Magnifying Glass"
+  },
+  "agricraft:wooden_rake": {
+   "kind": "item",
+   "name": "Wooden Hand Rake"
+  },
+  "agricraft:iron_rake": {
+   "kind": "item",
+   "name": "Iron Hand Rake"
+  },
+  "agricraft:trowel": {
+   "kind": "item",
+   "name": "Gardening Trowel"
+  },
+  "agricraft:wooden_crop_sticks": {
+   "kind": "item",
+   "name": "Crop Sticks"
+  },
+  "agricraft:iron_crop_sticks": {
+   "kind": "item",
+   "name": "Iron Crop Sticks"
+  },
+  "agricraft:obsidian_crop_sticks": {
+   "kind": "item",
+   "name": "Obsidian Crop Sticks"
+  },
+  "agricraft:seed_bag": {
+   "kind": "item",
+   "name": "Suspiciously Savvy Seed Sorting Sack"
+  },
+  "agricraft:copper_nugget": {
+   "kind": "item",
+   "name": "Copper Nugget"
+  },
+  "agricraft:coal_pebble": {
+   "kind": "item",
+   "name": "Coal Pebble"
+  },
+  "agricraft:diamond_shard": {
+   "kind": "item",
+   "name": "Diamond Shard"
+  },
+  "agricraft:emerald_shard": {
+   "kind": "item",
+   "name": "Emerald Shard"
+  },
+  "agricraft:quartz_shard": {
+   "kind": "item",
+   "name": "Quartz Shard"
+  },
+  "agricraft:netherite_sliver": {
+   "kind": "item",
+   "name": "Netherite Sliver"
+  },
+  "agricraft:amathyllis_petal": {
+   "kind": "item",
+   "name": "Amathyllis Petal"
+  }
+ }
+}

@@ -1,0 +1,437 @@
+{
+ "repo": "sinkillerj/ProjectE",
+ "ref": "mc1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "projecte"
+ ],
+ "item_count": 97,
+ "compat": [
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "compat-import": 3
+   }
+  },
+  {
+   "id": "emi",
+   "slug": "emi",
+   "evidence": {
+    "compat-import": 5
+   }
+  },
+  {
+   "id": "jade",
+   "slug": "jade",
+   "evidence": {
+    "compat-import": 2
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 4,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "mekanism",
+   "slug": "mekanism",
+   "evidence": {
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "projecte:aeternalis_fuel_block": {
+   "kind": "block",
+   "name": "Aeternalis Fuel Block"
+  },
+  "projecte:collector_mk1": {
+   "kind": "block",
+   "name": "Energy Collector MK1"
+  },
+  "projecte:collector_mk2": {
+   "kind": "block",
+   "name": "Energy Collector MK2"
+  },
+  "projecte:collector_mk3": {
+   "kind": "block",
+   "name": "Energy Collector MK3"
+  },
+  "projecte:condenser_mk1": {
+   "kind": "block",
+   "name": "Energy Condenser"
+  },
+  "projecte:condenser_mk2": {
+   "kind": "block",
+   "name": "Energy Condenser MK2"
+  },
+  "projecte:dark_matter_block": {
+   "kind": "block",
+   "name": "Dark Matter Block"
+  },
+  "projecte:dm_furnace": {
+   "kind": "block",
+   "name": "Dark Matter Furnace"
+  },
+  "projecte:dm_pedestal": {
+   "kind": "block",
+   "name": "Dark Matter Pedestal"
+  },
+  "projecte:interdiction_torch": {
+   "kind": "block",
+   "name": "Interdiction Torch"
+  },
+  "projecte:mobius_fuel_block": {
+   "kind": "block",
+   "name": "Mobius Fuel Block"
+  },
+  "projecte:nova_cataclysm": {
+   "kind": "block",
+   "name": "Nova Cataclysm"
+  },
+  "projecte:nova_catalyst": {
+   "kind": "block",
+   "name": "Nova Catalyst"
+  },
+  "projecte:red_matter_block": {
+   "kind": "block",
+   "name": "Red Matter Block"
+  },
+  "projecte:relay_mk1": {
+   "kind": "block",
+   "name": "Anti-Matter Relay MK1"
+  },
+  "projecte:relay_mk2": {
+   "kind": "block",
+   "name": "Anti-Matter Relay MK2"
+  },
+  "projecte:relay_mk3": {
+   "kind": "block",
+   "name": "Anti-Matter Relay MK3"
+  },
+  "projecte:rm_furnace": {
+   "kind": "block",
+   "name": "Red Matter Furnace"
+  },
+  "projecte:transmutation_table": {
+   "kind": "block",
+   "name": "Transmutation Table"
+  },
+  "projecte:fire_projectile": {
+   "kind": "entity",
+   "name": "Fireball"
+  },
+  "projecte:homing_arrow": {
+   "kind": "entity",
+   "name": "Homing Arrow"
+  },
+  "projecte:lava_projectile": {
+   "kind": "entity",
+   "name": "Lava Orb"
+  },
+  "projecte:lens_projectile": {
+   "kind": "entity",
+   "name": "Explosive Lens"
+  },
+  "projecte:mob_randomizer": {
+   "kind": "entity",
+   "name": "Randomizer Orb"
+  },
+  "projecte:nova_cataclysm_primed": {
+   "kind": "entity",
+   "name": "Primed Nova Cataclysm"
+  },
+  "projecte:nova_catalyst_primed": {
+   "kind": "entity",
+   "name": "Primed Nova Catalyst"
+  },
+  "projecte:swrg_projectile": {
+   "kind": "entity",
+   "name": "SWRG Projectile"
+  },
+  "projecte:water_projectile": {
+   "kind": "entity",
+   "name": "Water Orb"
+  },
+  "projecte:aeternalis_fuel": {
+   "kind": "item",
+   "name": "Aeternalis Fuel"
+  },
+  "projecte:arcana_ring": {
+   "kind": "item",
+   "name": "Ring of Arcana"
+  },
+  "projecte:archangel_smite": {
+   "kind": "item",
+   "name": "Archangel's Smite"
+  },
+  "projecte:black_hole_band": {
+   "kind": "item",
+   "name": "Black Hole Band"
+  },
+  "projecte:body_stone": {
+   "kind": "item",
+   "name": "Body Stone"
+  },
+  "projecte:catalytic_lens": {
+   "kind": "item",
+   "name": "Catalytic Lens"
+  },
+  "projecte:dark_matter": {
+   "kind": "item",
+   "name": "Dark Matter"
+  },
+  "projecte:destruction_catalyst": {
+   "kind": "item",
+   "name": "Destruction Catalyst"
+  },
+  "projecte:divining_rod_1": {
+   "kind": "item",
+   "name": "Divining Rod (low)"
+  },
+  "projecte:divining_rod_2": {
+   "kind": "item",
+   "name": "Divining Rod (medium)"
+  },
+  "projecte:divining_rod_3": {
+   "kind": "item",
+   "name": "Divining Rod (high)"
+  },
+  "projecte:dm_axe": {
+   "kind": "item",
+   "name": "Dark Matter Axe"
+  },
+  "projecte:dm_boots": {
+   "kind": "item",
+   "name": "Dark Matter Boots"
+  },
+  "projecte:dm_chestplate": {
+   "kind": "item",
+   "name": "Dark Matter Chestplate"
+  },
+  "projecte:dm_hammer": {
+   "kind": "item",
+   "name": "Dark Matter Hammer"
+  },
+  "projecte:dm_helmet": {
+   "kind": "item",
+   "name": "Dark Matter Helmet"
+  },
+  "projecte:dm_hoe": {
+   "kind": "item",
+   "name": "Dark Matter Hoe"
+  },
+  "projecte:dm_leggings": {
+   "kind": "item",
+   "name": "Dark Matter Leggings"
+  },
+  "projecte:dm_pick": {
+   "kind": "item",
+   "name": "Dark Matter Pickaxe"
+  },
+  "projecte:dm_shears": {
+   "kind": "item",
+   "name": "Dark Matter Shears"
+  },
+  "projecte:dm_shovel": {
+   "kind": "item",
+   "name": "Dark Matter Shovel"
+  },
+  "projecte:dm_sword": {
+   "kind": "item",
+   "name": "Dark Matter Sword"
+  },
+  "projecte:evertide_amulet": {
+   "kind": "item",
+   "name": "Evertide Amulet"
+  },
+  "projecte:gem_boots": {
+   "kind": "item",
+   "name": "Gem Boots"
+  },
+  "projecte:gem_chestplate": {
+   "kind": "item",
+   "name": "Gem Chestplate"
+  },
+  "projecte:gem_helmet": {
+   "kind": "item",
+   "name": "Gem Helmet"
+  },
+  "projecte:gem_leggings": {
+   "kind": "item",
+   "name": "Gem Leggings"
+  },
+  "projecte:gem_of_eternal_density": {
+   "kind": "item",
+   "name": "Gem of Eternal Density"
+  },
+  "projecte:harvest_goddess_band": {
+   "kind": "item",
+   "name": "Harvest Goddess Band"
+  },
+  "projecte:high_covalence_dust": {
+   "kind": "item",
+   "name": "High Covalence Dust"
+  },
+  "projecte:hyperkinetic_lens": {
+   "kind": "item",
+   "name": "Hyperkinetic Lens"
+  },
+  "projecte:ignition_ring": {
+   "kind": "item",
+   "name": "Ignition Ring"
+  },
+  "projecte:iron_band": {
+   "kind": "item",
+   "name": "Iron Band"
+  },
+  "projecte:klein_star_drei": {
+   "kind": "item",
+   "name": "Klein Star Drei"
+  },
+  "projecte:klein_star_ein": {
+   "kind": "item",
+   "name": "Klein Star Ein"
+  },
+  "projecte:klein_star_omega": {
+   "kind": "item",
+   "name": "Klein Star Omega"
+  },
+  "projecte:klein_star_sphere": {
+   "kind": "item",
+   "name": "Klein Star Sphere"
+  },
+  "projecte:klein_star_vier": {
+   "kind": "item",
+   "name": "Klein Star Vier"
+  },
+  "projecte:klein_star_zwei": {
+   "kind": "item",
+   "name": "Klein Star Zwei"
+  },
+  "projecte:life_stone": {
+   "kind": "item",
+   "name": "Life Stone"
+  },
+  "projecte:low_covalence_dust": {
+   "kind": "item",
+   "name": "Low Covalence Dust"
+  },
+  "projecte:medium_covalence_dust": {
+   "kind": "item",
+   "name": "Medium Covalence Dust"
+  },
+  "projecte:mercurial_eye": {
+   "kind": "item",
+   "name": "Mercurial Eye"
+  },
+  "projecte:mind_stone": {
+   "kind": "item",
+   "name": "Mind Stone"
+  },
+  "projecte:mobius_fuel": {
+   "kind": "item",
+   "name": "Mobius Fuel"
+  },
+  "projecte:philosophers_stone": {
+   "kind": "item",
+   "name": "Philosopher's Stone"
+  },
+  "projecte:red_matter": {
+   "kind": "item",
+   "name": "Red Matter"
+  },
+  "projecte:repair_talisman": {
+   "kind": "item",
+   "name": "Repair Talisman"
+  },
+  "projecte:rm_axe": {
+   "kind": "item",
+   "name": "Red Matter Axe"
+  },
+  "projecte:rm_boots": {
+   "kind": "item",
+   "name": "Red Matter Boots"
+  },
+  "projecte:rm_chestplate": {
+   "kind": "item",
+   "name": "Red Matter Chestplate"
+  },
+  "projecte:rm_hammer": {
+   "kind": "item",
+   "name": "Red Matter Hammer"
+  },
+  "projecte:rm_helmet": {
+   "kind": "item",
+   "name": "Red Matter Helmet"
+  },
+  "projecte:rm_hoe": {
+   "kind": "item",
+   "name": "Red Matter Hoe"
+  },
+  "projecte:rm_katar": {
+   "kind": "item",
+   "name": "Red Katar"
+  },
+  "projecte:rm_leggings": {
+   "kind": "item",
+   "name": "Red Matter Leggings"
+  },
+  "projecte:rm_morning_star": {
+   "kind": "item",
+   "name": "Red Morningstar"
+  },
+  "projecte:rm_pick": {
+   "kind": "item",
+   "name": "Red Matter Pickaxe"
+  },
+  "projecte:rm_shears": {
+   "kind": "item",
+   "name": "Red Matter Shears"
+  },
+  "projecte:rm_shovel": {
+   "kind": "item",
+   "name": "Red Matter Shovel"
+  },
+  "projecte:rm_sword": {
+   "kind": "item",
+   "name": "Red Matter Sword"
+  },
+  "projecte:soul_stone": {
+   "kind": "item",
+   "name": "Soul Stone"
+  },
+  "projecte:swiftwolf_rending_gale": {
+   "kind": "item",
+   "name": "Swiftwolf's Rending Gale"
+  },
+  "projecte:tome": {
+   "kind": "item",
+   "name": "Tome of Knowledge"
+  },
+  "projecte:transmutation_tablet": {
+   "kind": "item",
+   "name": "Transmutation Tablet"
+  },
+  "projecte:void_ring": {
+   "kind": "item",
+   "name": "Void Ring"
+  },
+  "projecte:volcanite_amulet": {
+   "kind": "item",
+   "name": "Volcanite Amulet"
+  },
+  "projecte:watch_of_flowing_time": {
+   "kind": "item",
+   "name": "Watch of Flowing Time"
+  },
+  "projecte:zero_ring": {
+   "kind": "item",
+   "name": "Zero Ring"
+  }
+ }
+}

@@ -1,0 +1,1580 @@
+{
+ "repo": "emilyploszaj/emi",
+ "ref": "1.1.24+1.21.1",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "emi"
+ ],
+ "item_count": 392,
+ "compat": [],
+ "items": {
+  "emi:amount.liters": {
+   "kind": "fluid",
+   "name": "%s L"
+  },
+  "emi:amount.millibuckets": {
+   "kind": "fluid",
+   "name": "%smB"
+  },
+  "emi:amount.droplets": {
+   "kind": "fluid",
+   "name": "%s d"
+  },
+  "tag:minecraft.logs": {
+   "kind": "item",
+   "name": "Logs"
+  },
+  "tag:minecraft.oak_logs": {
+   "kind": "item",
+   "name": "Oak Logs"
+  },
+  "tag:minecraft.birch_logs": {
+   "kind": "item",
+   "name": "Birch Logs"
+  },
+  "tag:minecraft.spruce_logs": {
+   "kind": "item",
+   "name": "Spruce Logs"
+  },
+  "tag:minecraft.jungle_logs": {
+   "kind": "item",
+   "name": "Jungle Logs"
+  },
+  "tag:minecraft.dark_oak_logs": {
+   "kind": "item",
+   "name": "Dark Oak Logs"
+  },
+  "tag:minecraft.crimson_stems": {
+   "kind": "item",
+   "name": "Crimson Stems"
+  },
+  "tag:minecraft.warped_stems": {
+   "kind": "item",
+   "name": "Warped Stems"
+  },
+  "tag:minecraft.acacia_logs": {
+   "kind": "item",
+   "name": "Acacia Logs"
+  },
+  "tag:minecraft.logs_that_burn": {
+   "kind": "item",
+   "name": "Burnable Logs"
+  },
+  "tag:minecraft.planks": {
+   "kind": "item",
+   "name": "Planks"
+  },
+  "tag:minecraft.non_flammable_wood": {
+   "kind": "item",
+   "name": "Non-Flammable Wood"
+  },
+  "tag:minecraft.coal_ores": {
+   "kind": "item",
+   "name": "Coal Ores"
+  },
+  "tag:minecraft.copper_ores": {
+   "kind": "item",
+   "name": "Copper Ores"
+  },
+  "tag:minecraft.diamond_ores": {
+   "kind": "item",
+   "name": "Diamond Ores"
+  },
+  "tag:minecraft.emerald_ores": {
+   "kind": "item",
+   "name": "Emerald Ores"
+  },
+  "tag:minecraft.gold_ores": {
+   "kind": "item",
+   "name": "Gold Ores"
+  },
+  "tag:minecraft.iron_ores": {
+   "kind": "item",
+   "name": "Iron Ores"
+  },
+  "tag:minecraft.lapis_ores": {
+   "kind": "item",
+   "name": "Lapis Lazuli Ores"
+  },
+  "tag:minecraft.redstone_ores": {
+   "kind": "item",
+   "name": "Redstone Ores"
+  },
+  "tag:minecraft.anvil": {
+   "kind": "item",
+   "name": "Anvils"
+  },
+  "tag:minecraft.arrows": {
+   "kind": "item",
+   "name": "Arrows"
+  },
+  "tag:minecraft.axolotl_tempt_items": {
+   "kind": "item",
+   "name": "Axolotl Temptables"
+  },
+  "tag:minecraft.banners": {
+   "kind": "item",
+   "name": "Banners"
+  },
+  "tag:minecraft.beacon_payment_items": {
+   "kind": "item",
+   "name": "Beacon Payments"
+  },
+  "tag:minecraft.beds": {
+   "kind": "item",
+   "name": "Beds"
+  },
+  "tag:minecraft.boats": {
+   "kind": "item",
+   "name": "Boats"
+  },
+  "tag:minecraft.buttons": {
+   "kind": "item",
+   "name": "Buttons"
+  },
+  "tag:minecraft.candles": {
+   "kind": "item",
+   "name": "Candles"
+  },
+  "tag:minecraft.carpets": {
+   "kind": "item",
+   "name": "Carpets"
+  },
+  "tag:minecraft.coals": {
+   "kind": "item",
+   "name": "Coals"
+  },
+  "tag:minecraft.creeper_drop_music_discs": {
+   "kind": "item",
+   "name": "Creeper Drop Music Discs"
+  },
+  "tag:minecraft.creeper_igniters": {
+   "kind": "item",
+   "name": "Creeper Igniters"
+  },
+  "tag:minecraft.dirt": {
+   "kind": "item",
+   "name": "Dirt"
+  },
+  "tag:minecraft.doors": {
+   "kind": "item",
+   "name": "Doors"
+  },
+  "tag:minecraft.fences": {
+   "kind": "item",
+   "name": "Fences"
+  },
+  "tag:minecraft.fence_gates": {
+   "kind": "item",
+   "name": "Fence Gates"
+  },
+  "tag:minecraft.fishes": {
+   "kind": "item",
+   "name": "Fishes"
+  },
+  "tag:minecraft.flowers": {
+   "kind": "item",
+   "name": "Flowers"
+  },
+  "tag:minecraft.fox_food": {
+   "kind": "item",
+   "name": "Fox Food"
+  },
+  "tag:minecraft.freeze_immune_wearables": {
+   "kind": "item",
+   "name": "Freeze Immune Equipment"
+  },
+  "tag:minecraft.ignored_by_piglin_babies": {
+   "kind": "item",
+   "name": "Ignored by Piglin Babies"
+  },
+  "tag:minecraft.leaves": {
+   "kind": "item",
+   "name": "Leaves"
+  },
+  "tag:minecraft.music_discs": {
+   "kind": "item",
+   "name": "Music Discs"
+  },
+  "tag:minecraft.occludes_vibration_signals": {
+   "kind": "item",
+   "name": "Occludes Vibration Signals"
+  },
+  "tag:minecraft.piglin_food": {
+   "kind": "item",
+   "name": "Piglin Food"
+  },
+  "tag:minecraft.piglin_loved": {
+   "kind": "item",
+   "name": "Loved by Piglins"
+  },
+  "tag:minecraft.piglin_repellents": {
+   "kind": "item",
+   "name": "Piglin Repellents"
+  },
+  "tag:minecraft.rails": {
+   "kind": "item",
+   "name": "Rails"
+  },
+  "tag:minecraft.sand": {
+   "kind": "item",
+   "name": "Sand"
+  },
+  "tag:minecraft.saplings": {
+   "kind": "item",
+   "name": "Saplings"
+  },
+  "tag:minecraft.signs": {
+   "kind": "item",
+   "name": "Signs"
+  },
+  "tag:minecraft.slabs": {
+   "kind": "item",
+   "name": "Slabs"
+  },
+  "tag:minecraft.small_flowers": {
+   "kind": "item",
+   "name": "Small Flowers"
+  },
+  "tag:minecraft.soul_fire_base_blocks": {
+   "kind": "item",
+   "name": "Soul Fire Bases"
+  },
+  "tag:minecraft.stairs": {
+   "kind": "item",
+   "name": "Stairs"
+  },
+  "tag:minecraft.stone_bricks": {
+   "kind": "item",
+   "name": "Stone Bricks"
+  },
+  "tag:minecraft.stone_crafting_materials": {
+   "kind": "item",
+   "name": "Stone Crafting Materials"
+  },
+  "tag:minecraft.stone_tool_materials": {
+   "kind": "item",
+   "name": "Stone Tool Materials"
+  },
+  "tag:minecraft.tall_flowers": {
+   "kind": "item",
+   "name": "Tall Flowers"
+  },
+  "tag:minecraft.terracotta": {
+   "kind": "item",
+   "name": "Terracotta"
+  },
+  "tag:minecraft.trapdoors": {
+   "kind": "item",
+   "name": "Trapdoors"
+  },
+  "tag:minecraft.walls": {
+   "kind": "item",
+   "name": "Walls"
+  },
+  "tag:minecraft.wooden_buttons": {
+   "kind": "item",
+   "name": "Wooden Buttons"
+  },
+  "tag:minecraft.wooden_doors": {
+   "kind": "item",
+   "name": "Wooden Doors"
+  },
+  "tag:minecraft.wooden_fences": {
+   "kind": "item",
+   "name": "Wooden Fences"
+  },
+  "tag:minecraft.wooden_pressure_plates": {
+   "kind": "item",
+   "name": "Wooden Pressure Plates"
+  },
+  "tag:minecraft.wooden_slabs": {
+   "kind": "item",
+   "name": "Wooden Slabs"
+  },
+  "tag:minecraft.wooden_stairs": {
+   "kind": "item",
+   "name": "Wooden Stairs"
+  },
+  "tag:minecraft.wooden_trapdoors": {
+   "kind": "item",
+   "name": "Wooden Trapdoors"
+  },
+  "tag:minecraft.wool": {
+   "kind": "item",
+   "name": "Wool"
+  },
+  "tag:minecraft.wart_blocks": {
+   "kind": "item",
+   "name": "Wart Blocks"
+  },
+  "tag:minecraft.wool_carpets": {
+   "kind": "item",
+   "name": "Wool Carpets"
+  },
+  "tag:minecraft.mangrove_logs": {
+   "kind": "item",
+   "name": "Mangrove Logs"
+  },
+  "tag:minecraft.compasses": {
+   "kind": "item",
+   "name": "Compasses"
+  },
+  "tag:minecraft.chest_boats": {
+   "kind": "item",
+   "name": "Chest Boats"
+  },
+  "tag:minecraft.overworld_natural_logs": {
+   "kind": "item",
+   "name": "Natural Overworld Logs"
+  },
+  "tag:minecraft.axes": {
+   "kind": "item",
+   "name": "Axes"
+  },
+  "tag:minecraft.hoes": {
+   "kind": "item",
+   "name": "Hoes"
+  },
+  "tag:minecraft.pickaxes": {
+   "kind": "item",
+   "name": "Pickaxes"
+  },
+  "tag:minecraft.shovels": {
+   "kind": "item",
+   "name": "Shovels"
+  },
+  "tag:minecraft.smelts_to_glass": {
+   "kind": "item",
+   "name": "Smelts to Glass"
+  },
+  "tag:minecraft.swords": {
+   "kind": "item",
+   "name": "Swords"
+  },
+  "tag:minecraft.tools": {
+   "kind": "item",
+   "name": "Tools"
+  },
+  "tag:minecraft.bamboo_blocks": {
+   "kind": "item",
+   "name": "Bamboo Blocks"
+  },
+  "tag:minecraft.breaks_decorated_pots": {
+   "kind": "item",
+   "name": "Breaks Decorated Pots"
+  },
+  "tag:minecraft.cherry_logs": {
+   "kind": "item",
+   "name": "Cherry Logs"
+  },
+  "tag:minecraft.decorated_pot_ingredients": {
+   "kind": "item",
+   "name": "Decorated Pot Ingredients"
+  },
+  "tag:minecraft.decorated_pot_sherds": {
+   "kind": "item",
+   "name": "Decorated Pot Sherds"
+  },
+  "tag:minecraft.hanging_signs": {
+   "kind": "item",
+   "name": "Hanging Signs"
+  },
+  "tag:minecraft.noteblock_top_instruments": {
+   "kind": "item",
+   "name": "Noteblock Top Instruments"
+  },
+  "tag:minecraft.sniffer_food": {
+   "kind": "item",
+   "name": "Sniffer Food"
+  },
+  "tag:minecraft.stone_buttons": {
+   "kind": "item",
+   "name": "Stone Buttons"
+  },
+  "tag:minecraft.trim_materials": {
+   "kind": "item",
+   "name": "Trim Materials"
+  },
+  "tag:minecraft.trim_templates": {
+   "kind": "item",
+   "name": "Trim Templates"
+  },
+  "tag:minecraft.trimmable_armor": {
+   "kind": "item",
+   "name": "Trimmable Armor"
+  },
+  "tag:minecraft.villager_plantable_seeds": {
+   "kind": "item",
+   "name": "Villager Plantable Seeds"
+  },
+  "tag:minecraft.water": {
+   "kind": "fluid",
+   "name": "Water"
+  },
+  "tag:minecraft.lava": {
+   "kind": "fluid",
+   "name": "Lava"
+  },
+  "tag:c.water": {
+   "kind": "fluid",
+   "name": "Water"
+  },
+  "tag:c.lava": {
+   "kind": "fluid",
+   "name": "Lava"
+  },
+  "tag:c.milk": {
+   "kind": "fluid",
+   "name": "Milk"
+  },
+  "tag:c.stone": {
+   "kind": "item",
+   "name": "Stone"
+  },
+  "tag:c.cobblestone": {
+   "kind": "item",
+   "name": "Cobblestone"
+  },
+  "tag:c.cobblestone.deepslate": {
+   "kind": "item",
+   "name": "Deepslate Cobblestone"
+  },
+  "tag:c.cobblestone.infested": {
+   "kind": "item",
+   "name": "Infested Cobblestone"
+  },
+  "tag:c.cobblestone.mossy": {
+   "kind": "item",
+   "name": "Mossy Cobblestone"
+  },
+  "tag:c.cobblestone.normal": {
+   "kind": "item",
+   "name": "Cobblestone"
+  },
+  "tag:c.sandstone": {
+   "kind": "item",
+   "name": "Sandstone"
+  },
+  "tag:c.glass_blocks": {
+   "kind": "item",
+   "name": "Glass Blocks"
+  },
+  "tag:c.stained_glass": {
+   "kind": "item",
+   "name": "Stained Glass"
+  },
+  "tag:c.stained_glass_panes": {
+   "kind": "item",
+   "name": "Stained Glass Panes"
+  },
+  "tag:c.glass": {
+   "kind": "item",
+   "name": "Glass"
+  },
+  "tag:c.glass.colorless": {
+   "kind": "item",
+   "name": "Colorless Glass"
+  },
+  "tag:c.glass.silica": {
+   "kind": "item",
+   "name": "Silica Glass"
+  },
+  "tag:c.quartz_blocks": {
+   "kind": "item",
+   "name": "Quartz Blocks"
+  },
+  "tag:c.glass_panes": {
+   "kind": "item",
+   "name": "Glass Panes"
+  },
+  "tag:c.glass.tinted": {
+   "kind": "item",
+   "name": "Tinted Glass"
+  },
+  "tag:c.glass_panes.colorless": {
+   "kind": "item",
+   "name": "Colorless Glass Panes"
+  },
+  "tag:c.raw_materials": {
+   "kind": "item",
+   "name": "Raw Materials"
+  },
+  "tag:c.rods": {
+   "kind": "item",
+   "name": "Rods"
+  },
+  "tag:c.ores": {
+   "kind": "item",
+   "name": "Ores"
+  },
+  "tag:c.nuggets": {
+   "kind": "item",
+   "name": "Nuggets"
+  },
+  "tag:c.ingots": {
+   "kind": "item",
+   "name": "Ingots"
+  },
+  "tag:c.gems": {
+   "kind": "item",
+   "name": "Gems"
+  },
+  "tag:c.plates": {
+   "kind": "item",
+   "name": "Plates"
+  },
+  "tag:c.dusts": {
+   "kind": "item",
+   "name": "Dusts"
+  },
+  "tag:c.storage_blocks": {
+   "kind": "item",
+   "name": "Storage Blocks"
+  },
+  "tag:c.seeds": {
+   "kind": "item",
+   "name": "Seeds"
+  },
+  "tag:c.crops": {
+   "kind": "item",
+   "name": "Crops"
+  },
+  "tag:c.heads": {
+   "kind": "item",
+   "name": "Heads"
+  },
+  "tag:c.dyes": {
+   "kind": "item",
+   "name": "Dyes"
+  },
+  "tag:c.mushrooms": {
+   "kind": "item",
+   "name": "Mushrooms"
+  },
+  "tag:c.fence_gates": {
+   "kind": "item",
+   "name": "Fence Gates"
+  },
+  "tag:c.fence_gates.wooden": {
+   "kind": "item",
+   "name": "Wooden Fence Gates"
+  },
+  "tag:c.chests": {
+   "kind": "item",
+   "name": "Chests"
+  },
+  "tag:c.wooden_chests": {
+   "kind": "item",
+   "name": "Wooden Chests"
+  },
+  "tag:c.ores_in_ground.stone": {
+   "kind": "item",
+   "name": "Stone Ores"
+  },
+  "tag:c.ores_in_ground.deepslate": {
+   "kind": "item",
+   "name": "Deepslate Ores"
+  },
+  "tag:c.ores_in_ground.netherrack": {
+   "kind": "item",
+   "name": "Netherrack Ores"
+  },
+  "tag:c.chest": {
+   "kind": "item",
+   "name": "Chests"
+  },
+  "tag:c.coal": {
+   "kind": "item",
+   "name": "Coals"
+  },
+  "tag:c.sand": {
+   "kind": "item",
+   "name": "Sands"
+  },
+  "tag:c.glass_pane": {
+   "kind": "item",
+   "name": "Glass Panes"
+  },
+  "tag:c.beacon_payment": {
+   "kind": "item",
+   "name": "Beacon Payments"
+  },
+  "tag:c.fences": {
+   "kind": "item",
+   "name": "Fences"
+  },
+  "tag:c.fences.wooden": {
+   "kind": "item",
+   "name": "Wooden Fences"
+  },
+  "tag:c.ores.coal": {
+   "kind": "item",
+   "name": "Coal Ores"
+  },
+  "tag:c.ores.copper": {
+   "kind": "item",
+   "name": "Copper Ores"
+  },
+  "tag:c.ores.iron": {
+   "kind": "item",
+   "name": "Iron Ores"
+  },
+  "tag:c.ores.gold": {
+   "kind": "item",
+   "name": "Gold Ores"
+  },
+  "tag:c.ores.redstone": {
+   "kind": "item",
+   "name": "Redstone Ores"
+  },
+  "tag:c.ores.lapis": {
+   "kind": "item",
+   "name": "Lapis Ores"
+  },
+  "tag:c.ores.emerald": {
+   "kind": "item",
+   "name": "Emerald Ores"
+  },
+  "tag:c.ores.diamond": {
+   "kind": "item",
+   "name": "Diamond Ores"
+  },
+  "tag:c.storage_blocks.coal": {
+   "kind": "item",
+   "name": "Coal Storage Blocks"
+  },
+  "tag:c.raw_materials.copper": {
+   "kind": "item",
+   "name": "Raw Copper"
+  },
+  "tag:c.copper_dusts": {
+   "kind": "item",
+   "name": "Copper Dusts"
+  },
+  "tag:c.dusts.copper": {
+   "kind": "item",
+   "name": "Copper Dusts"
+  },
+  "tag:c.copper_ingots": {
+   "kind": "item",
+   "name": "Copper Ingots"
+  },
+  "tag:c.ingots.copper": {
+   "kind": "item",
+   "name": "Copper Ingots"
+  },
+  "tag:c.copper_nuggets": {
+   "kind": "item",
+   "name": "Copper Nuggets"
+  },
+  "tag:c.nuggets.copper": {
+   "kind": "item",
+   "name": "Copper Nuggets"
+  },
+  "tag:c.plates.copper": {
+   "kind": "item",
+   "name": "Copper Plates"
+  },
+  "tag:c.raw_copper_ores": {
+   "kind": "item",
+   "name": "Raw Copper Ores"
+  },
+  "tag:c.raw_copper_blocks": {
+   "kind": "item",
+   "name": "Raw Copper Blocks"
+  },
+  "tag:c.copper_blocks": {
+   "kind": "item",
+   "name": "Copper Blocks"
+  },
+  "tag:c.storage_blocks.raw_copper": {
+   "kind": "item",
+   "name": "Raw Copper Storage Blocks"
+  },
+  "tag:c.storage_blocks.copper": {
+   "kind": "item",
+   "name": "Copper Storage Blocks"
+  },
+  "tag:c.raw_materials.iron": {
+   "kind": "item",
+   "name": "Raw Iron"
+  },
+  "tag:c.iron_dusts": {
+   "kind": "item",
+   "name": "Iron Dusts"
+  },
+  "tag:c.dusts.iron": {
+   "kind": "item",
+   "name": "Iron Dusts"
+  },
+  "tag:c.iron_ingots": {
+   "kind": "item",
+   "name": "Iron Ingots"
+  },
+  "tag:c.ingots.iron": {
+   "kind": "item",
+   "name": "Iron Ingots"
+  },
+  "tag:c.iron_nuggets": {
+   "kind": "item",
+   "name": "Iron Nuggets"
+  },
+  "tag:c.nuggets.iron": {
+   "kind": "item",
+   "name": "Iron Nuggets"
+  },
+  "tag:c.plates.iron": {
+   "kind": "item",
+   "name": "Iron Plates"
+  },
+  "tag:c.raw_iron_ores": {
+   "kind": "item",
+   "name": "Raw Iron Ores"
+  },
+  "tag:c.raw_iron_blocks": {
+   "kind": "item",
+   "name": "Raw Iron Blocks"
+  },
+  "tag:c.iron_blocks": {
+   "kind": "item",
+   "name": "Iron Blocks"
+  },
+  "tag:c.storage_blocks.raw_iron": {
+   "kind": "item",
+   "name": "Raw Iron Storage Blocks"
+  },
+  "tag:c.storage_blocks.iron": {
+   "kind": "item",
+   "name": "Iron Storage Blocks"
+  },
+  "tag:c.raw_materials.gold": {
+   "kind": "item",
+   "name": "Raw Gold"
+  },
+  "tag:c.gold_dusts": {
+   "kind": "item",
+   "name": "Gold Dusts"
+  },
+  "tag:c.dusts.gold": {
+   "kind": "item",
+   "name": "Gold Dusts"
+  },
+  "tag:c.gold_ingots": {
+   "kind": "item",
+   "name": "Gold Ingots"
+  },
+  "tag:c.ingots.gold": {
+   "kind": "item",
+   "name": "Gold Ingots"
+  },
+  "tag:c.gold_nuggets": {
+   "kind": "item",
+   "name": "Gold Nuggets"
+  },
+  "tag:c.nuggets.gold": {
+   "kind": "item",
+   "name": "Gold Nuggets"
+  },
+  "tag:c.plates.gold": {
+   "kind": "item",
+   "name": "Gold Plates"
+  },
+  "tag:c.raw_gold_ores": {
+   "kind": "item",
+   "name": "Raw Gold Ores"
+  },
+  "tag:c.raw_gold_blocks": {
+   "kind": "item",
+   "name": "Raw Gold Blocks"
+  },
+  "tag:c.gold_blocks": {
+   "kind": "item",
+   "name": "Gold Blocks"
+  },
+  "tag:c.storage_blocks.gold": {
+   "kind": "item",
+   "name": "Gold Storage Blocks"
+  },
+  "tag:c.storage_blocks.raw_gold": {
+   "kind": "item",
+   "name": "Raw Gold Storage Blocks"
+  },
+  "tag:c.gems.amethyst": {
+   "kind": "item",
+   "name": "Amethysts"
+  },
+  "tag:c.amethyst_dusts": {
+   "kind": "item",
+   "name": "Amethyst Dusts"
+  },
+  "tag:c.storage_blocks.amethyst": {
+   "kind": "item",
+   "name": "Amethyst Storage Blocks"
+  },
+  "tag:c.storage_blocks.diamond": {
+   "kind": "item",
+   "name": "Diamond Storage Blocks"
+  },
+  "tag:c.storage_blocks.emerald": {
+   "kind": "item",
+   "name": "Emerald Storage Blocks"
+  },
+  "tag:c.storage_blocks.lapis": {
+   "kind": "item",
+   "name": "Lapis Storage Blocks"
+  },
+  "tag:c.storage_blocks.netherite": {
+   "kind": "item",
+   "name": "Netherite Storage Blocks"
+  },
+  "tag:c.storage_blocks.quartz": {
+   "kind": "item",
+   "name": "Quartz Storage Blocks"
+  },
+  "tag:c.storage_blocks.redstone": {
+   "kind": "item",
+   "name": "Redstone Storage Blocks"
+  },
+  "tag:c.redstone_dusts": {
+   "kind": "item",
+   "name": "Redstone Dusts"
+  },
+  "tag:c.redstone_ores": {
+   "kind": "item",
+   "name": "Redstone Ores"
+  },
+  "tag:c.quartz": {
+   "kind": "item",
+   "name": "Quartz"
+  },
+  "tag:c.quartz_ores": {
+   "kind": "item",
+   "name": "Quartz Ores"
+  },
+  "tag:c.diamond_dusts": {
+   "kind": "item",
+   "name": "Diamond Dusts"
+  },
+  "tag:c.diamonds": {
+   "kind": "item",
+   "name": "Diamonds"
+  },
+  "tag:c.dusts.glowstone": {
+   "kind": "item",
+   "name": "Glowstone Dusts"
+  },
+  "tag:c.dusts.prismarine": {
+   "kind": "item",
+   "name": "Prismarine Dusts"
+  },
+  "tag:c.dusts.redstone": {
+   "kind": "item",
+   "name": "Redstone Dusts"
+  },
+  "tag:c.emeralds": {
+   "kind": "item",
+   "name": "Emeralds"
+  },
+  "tag:c.ender_pearl_dusts": {
+   "kind": "item",
+   "name": "Ender Pearl Dusts"
+  },
+  "tag:c.ender_pearls": {
+   "kind": "item",
+   "name": "Ender Pearls"
+  },
+  "tag:c.gems.diamond": {
+   "kind": "item",
+   "name": "Diamonds"
+  },
+  "tag:c.gems.emerald": {
+   "kind": "item",
+   "name": "Emeralds"
+  },
+  "tag:c.gems.lapis": {
+   "kind": "item",
+   "name": "Lapis Lazuli"
+  },
+  "tag:c.gems.prismarine": {
+   "kind": "item",
+   "name": "Prismarine"
+  },
+  "tag:c.gems.quartz": {
+   "kind": "item",
+   "name": "Quartz"
+  },
+  "tag:c.ingots.brick": {
+   "kind": "item",
+   "name": "Bricks"
+  },
+  "tag:c.ingots.nether_brick": {
+   "kind": "item",
+   "name": "Nether Bricks"
+  },
+  "tag:c.ingots.netherite": {
+   "kind": "item",
+   "name": "Netherite Ingots"
+  },
+  "tag:c.lapis": {
+   "kind": "item",
+   "name": "Lapis Lazuli"
+  },
+  "tag:c.nether_quartz_dusts": {
+   "kind": "item",
+   "name": "Nether Quartz Dusts"
+  },
+  "tag:c.netherite_ingots": {
+   "kind": "item",
+   "name": "Netherite Ingots"
+  },
+  "tag:c.netherite_scrap_dusts": {
+   "kind": "item",
+   "name": "Netherite Scrap Dusts"
+  },
+  "tag:c.ores.netherite_scrap": {
+   "kind": "item",
+   "name": "Netherite Scrap Ores"
+  },
+  "tag:c.ores.quartz": {
+   "kind": "item",
+   "name": "Quartz Ores"
+  },
+  "tag:c.spears": {
+   "kind": "item",
+   "name": "Spears"
+  },
+  "tag:c.axes": {
+   "kind": "item",
+   "name": "Axes"
+  },
+  "tag:c.barrels": {
+   "kind": "item",
+   "name": "Barrels"
+  },
+  "tag:c.barrels.wooden": {
+   "kind": "item",
+   "name": "Wooden Barrels"
+  },
+  "tag:c.white_dyes": {
+   "kind": "item",
+   "name": "White Dyes"
+  },
+  "tag:c.orange_dyes": {
+   "kind": "item",
+   "name": "Orange Dyes"
+  },
+  "tag:c.magenta_dyes": {
+   "kind": "item",
+   "name": "Magenta Dyes"
+  },
+  "tag:c.light_blue_dyes": {
+   "kind": "item",
+   "name": "Light Blue Dyes"
+  },
+  "tag:c.yellow_dyes": {
+   "kind": "item",
+   "name": "Yellow Dyes"
+  },
+  "tag:c.lime_dyes": {
+   "kind": "item",
+   "name": "Lime Dyes"
+  },
+  "tag:c.pink_dyes": {
+   "kind": "item",
+   "name": "Pink Dyes"
+  },
+  "tag:c.gray_dyes": {
+   "kind": "item",
+   "name": "Gray Dyes"
+  },
+  "tag:c.light_gray_dyes": {
+   "kind": "item",
+   "name": "Light Gray Dyes"
+  },
+  "tag:c.cyan_dyes": {
+   "kind": "item",
+   "name": "Cyan Dyes"
+  },
+  "tag:c.purple_dyes": {
+   "kind": "item",
+   "name": "Purple Dyes"
+  },
+  "tag:c.blue_dyes": {
+   "kind": "item",
+   "name": "Blue Dyes"
+  },
+  "tag:c.brown_dyes": {
+   "kind": "item",
+   "name": "Brown Dyes"
+  },
+  "tag:c.green_dyes": {
+   "kind": "item",
+   "name": "Green Dyes"
+  },
+  "tag:c.red_dyes": {
+   "kind": "item",
+   "name": "Red Dyes"
+  },
+  "tag:c.black_dyes": {
+   "kind": "item",
+   "name": "Black Dyes"
+  },
+  "tag:c.dyes.white": {
+   "kind": "item",
+   "name": "White Dyes"
+  },
+  "tag:c.dyes.orange": {
+   "kind": "item",
+   "name": "Orange Dyes"
+  },
+  "tag:c.dyes.magenta": {
+   "kind": "item",
+   "name": "Magenta Dyes"
+  },
+  "tag:c.dyes.light_blue": {
+   "kind": "item",
+   "name": "Light Blue Dyes"
+  },
+  "tag:c.dyes.yellow": {
+   "kind": "item",
+   "name": "Yellow Dyes"
+  },
+  "tag:c.dyes.lime": {
+   "kind": "item",
+   "name": "Lime Dyes"
+  },
+  "tag:c.dyes.pink": {
+   "kind": "item",
+   "name": "Pink Dyes"
+  },
+  "tag:c.dyes.gray": {
+   "kind": "item",
+   "name": "Gray Dyes"
+  },
+  "tag:c.dyes.light_gray": {
+   "kind": "item",
+   "name": "Light Gray Dyes"
+  },
+  "tag:c.dyes.cyan": {
+   "kind": "item",
+   "name": "Cyan Dyes"
+  },
+  "tag:c.dyes.purple": {
+   "kind": "item",
+   "name": "Purple Dyes"
+  },
+  "tag:c.dyes.blue": {
+   "kind": "item",
+   "name": "Blue Dyes"
+  },
+  "tag:c.dyes.brown": {
+   "kind": "item",
+   "name": "Brown Dyes"
+  },
+  "tag:c.dyes.green": {
+   "kind": "item",
+   "name": "Green Dyes"
+  },
+  "tag:c.dyes.red": {
+   "kind": "item",
+   "name": "Red Dyes"
+  },
+  "tag:c.dyes.black": {
+   "kind": "item",
+   "name": "Black Dyes"
+  },
+  "tag:c.glass.white": {
+   "kind": "item",
+   "name": "White Glass"
+  },
+  "tag:c.glass.orange": {
+   "kind": "item",
+   "name": "Orange Glass"
+  },
+  "tag:c.glass.magenta": {
+   "kind": "item",
+   "name": "Magenta Glass"
+  },
+  "tag:c.glass.light_blue": {
+   "kind": "item",
+   "name": "Light Blue Glass"
+  },
+  "tag:c.glass.yellow": {
+   "kind": "item",
+   "name": "Yellow Glass"
+  },
+  "tag:c.glass.lime": {
+   "kind": "item",
+   "name": "Lime Glass"
+  },
+  "tag:c.glass.pink": {
+   "kind": "item",
+   "name": "Pink Glass"
+  },
+  "tag:c.glass.gray": {
+   "kind": "item",
+   "name": "Gray Glass"
+  },
+  "tag:c.glass.light_gray": {
+   "kind": "item",
+   "name": "Light Gray Glass"
+  },
+  "tag:c.glass.cyan": {
+   "kind": "item",
+   "name": "Cyan Glass"
+  },
+  "tag:c.glass.purple": {
+   "kind": "item",
+   "name": "Purple Glass"
+  },
+  "tag:c.glass.blue": {
+   "kind": "item",
+   "name": "Blue Glass"
+  },
+  "tag:c.glass.brown": {
+   "kind": "item",
+   "name": "Brown Glass"
+  },
+  "tag:c.glass.green": {
+   "kind": "item",
+   "name": "Green Glass"
+  },
+  "tag:c.glass.red": {
+   "kind": "item",
+   "name": "Red Glass"
+  },
+  "tag:c.glass.black": {
+   "kind": "item",
+   "name": "Black Glass"
+  },
+  "tag:c.glass_panes.white": {
+   "kind": "item",
+   "name": "White Glass Panes"
+  },
+  "tag:c.glass_panes.orange": {
+   "kind": "item",
+   "name": "Orange Glass Panes"
+  },
+  "tag:c.glass_panes.magenta": {
+   "kind": "item",
+   "name": "Magenta Glass Panes"
+  },
+  "tag:c.glass_panes.light_blue": {
+   "kind": "item",
+   "name": "Light Blue Glass Panes"
+  },
+  "tag:c.glass_panes.yellow": {
+   "kind": "item",
+   "name": "Yellow Glass Panes"
+  },
+  "tag:c.glass_panes.lime": {
+   "kind": "item",
+   "name": "Lime Glass Panes"
+  },
+  "tag:c.glass_panes.pink": {
+   "kind": "item",
+   "name": "Pink Glass Panes"
+  },
+  "tag:c.glass_panes.gray": {
+   "kind": "item",
+   "name": "Gray Glass Panes"
+  },
+  "tag:c.glass_panes.light_gray": {
+   "kind": "item",
+   "name": "Light Gray Glass Panes"
+  },
+  "tag:c.glass_panes.cyan": {
+   "kind": "item",
+   "name": "Cyan Glass Panes"
+  },
+  "tag:c.glass_panes.purple": {
+   "kind": "item",
+   "name": "Purple Glass Panes"
+  },
+  "tag:c.glass_panes.blue": {
+   "kind": "item",
+   "name": "Blue Glass Panes"
+  },
+  "tag:c.glass_panes.brown": {
+   "kind": "item",
+   "name": "Brown Glass Panes"
+  },
+  "tag:c.glass_panes.green": {
+   "kind": "item",
+   "name": "Green Glass Panes"
+  },
+  "tag:c.glass_panes.red": {
+   "kind": "item",
+   "name": "Red Glass Panes"
+  },
+  "tag:c.glass_panes.black": {
+   "kind": "item",
+   "name": "Black Glass Panes"
+  },
+  "tag:c.bones": {
+   "kind": "item",
+   "name": "Bones"
+  },
+  "tag:c.bows": {
+   "kind": "item",
+   "name": "Bows"
+  },
+  "tag:c.buckets.honey": {
+   "kind": "item",
+   "name": "Honey Buckets"
+  },
+  "tag:c.chests.ender": {
+   "kind": "item",
+   "name": "Ender Chests"
+  },
+  "tag:c.chests.trapped": {
+   "kind": "item",
+   "name": "Trapped Chests"
+  },
+  "tag:c.chests.wooden": {
+   "kind": "item",
+   "name": "Wooden Chests"
+  },
+  "tag:c.circuits": {
+   "kind": "item",
+   "name": "Circuits"
+  },
+  "tag:c.crops.beetroot": {
+   "kind": "item",
+   "name": "Beetroots"
+  },
+  "tag:c.crops.carrot": {
+   "kind": "item",
+   "name": "Carrots"
+  },
+  "tag:c.crops.nether_wart": {
+   "kind": "item",
+   "name": "Nether Warts"
+  },
+  "tag:c.crops.potato": {
+   "kind": "item",
+   "name": "Potatoes"
+  },
+  "tag:c.crops.wheat": {
+   "kind": "item",
+   "name": "Wheat"
+  },
+  "tag:c.eggs": {
+   "kind": "item",
+   "name": "Eggs"
+  },
+  "tag:c.empty_buckets": {
+   "kind": "item",
+   "name": "Empty Buckets"
+  },
+  "tag:c.enchanting_fuels": {
+   "kind": "item",
+   "name": "Enchanting Fuels"
+  },
+  "tag:c.end_stones": {
+   "kind": "item",
+   "name": "End Stones"
+  },
+  "tag:c.feathers": {
+   "kind": "item",
+   "name": "Feathers"
+  },
+  "tag:c.fences.nether_brick": {
+   "kind": "item",
+   "name": "Nether Brick Fences"
+  },
+  "tag:c.foods": {
+   "kind": "item",
+   "name": "Food"
+  },
+  "tag:c.gravel": {
+   "kind": "item",
+   "name": "Gravel"
+  },
+  "tag:c.gunpowder": {
+   "kind": "item",
+   "name": "Gunpowder"
+  },
+  "tag:c.hoes": {
+   "kind": "item",
+   "name": "Hoes"
+  },
+  "tag:c.lava_buckets": {
+   "kind": "item",
+   "name": "Lava Buckets"
+  },
+  "tag:c.leather": {
+   "kind": "item",
+   "name": "Leather"
+  },
+  "tag:c.milk_bottles": {
+   "kind": "item",
+   "name": "Milk Bottles"
+  },
+  "tag:c.milk_buckets": {
+   "kind": "item",
+   "name": "Milk Buckets"
+  },
+  "tag:c.nether_stars": {
+   "kind": "item",
+   "name": "Nether Stars"
+  },
+  "tag:c.netherrack": {
+   "kind": "item",
+   "name": "Netherrack"
+  },
+  "tag:c.obsidian": {
+   "kind": "item",
+   "name": "Obsidian"
+  },
+  "tag:c.pickaxes": {
+   "kind": "item",
+   "name": "Pickaxes"
+  },
+  "tag:c.red_sandstone": {
+   "kind": "item",
+   "name": "Red Sandstone"
+  },
+  "tag:c.red_sandstone_slabs": {
+   "kind": "item",
+   "name": "Red Sandstone Slabs"
+  },
+  "tag:c.red_sandstone_stairs": {
+   "kind": "item",
+   "name": "Red Sandstone Stairs"
+  },
+  "tag:c.rods.blaze": {
+   "kind": "item",
+   "name": "Blaze Rods"
+  },
+  "tag:c.rods.wooden": {
+   "kind": "item",
+   "name": "Wooden Rods"
+  },
+  "tag:c.sand.colorless": {
+   "kind": "item",
+   "name": "Colorless Sand"
+  },
+  "tag:c.sand.red": {
+   "kind": "item",
+   "name": "Red Sand"
+  },
+  "tag:c.sandstone_slabs": {
+   "kind": "item",
+   "name": "Sandstone Slabs"
+  },
+  "tag:c.sandstone_stairs": {
+   "kind": "item",
+   "name": "Sandstone Stairs"
+  },
+  "tag:c.seeds.beetroot": {
+   "kind": "item",
+   "name": "Beetroot Seeds"
+  },
+  "tag:c.seeds.melon": {
+   "kind": "item",
+   "name": "Melon Seeds"
+  },
+  "tag:c.seeds.pumpkin": {
+   "kind": "item",
+   "name": "Pumpkin Seeds"
+  },
+  "tag:c.seeds.wheat": {
+   "kind": "item",
+   "name": "Wheat Seeds"
+  },
+  "tag:c.shears": {
+   "kind": "item",
+   "name": "Shears"
+  },
+  "tag:c.shields": {
+   "kind": "item",
+   "name": "Shields"
+  },
+  "tag:c.shovels": {
+   "kind": "item",
+   "name": "Shovels"
+  },
+  "tag:c.shulker_boxes": {
+   "kind": "item",
+   "name": "Shulker Boxes"
+  },
+  "tag:c.skulls": {
+   "kind": "item",
+   "name": "Skulls"
+  },
+  "tag:c.slime_balls": {
+   "kind": "item",
+   "name": "Slime Balls"
+  },
+  "tag:c.slimeballs": {
+   "kind": "item",
+   "name": "Slime Balls"
+  },
+  "tag:c.stone_dusts": {
+   "kind": "item",
+   "name": "Stone Dusts"
+  },
+  "tag:c.stones": {
+   "kind": "item",
+   "name": "Stones"
+  },
+  "tag:c.string": {
+   "kind": "item",
+   "name": "String"
+  },
+  "tag:c.strings": {
+   "kind": "item",
+   "name": "String"
+  },
+  "tag:c.swords": {
+   "kind": "item",
+   "name": "Swords"
+  },
+  "tag:c.water_buckets": {
+   "kind": "item",
+   "name": "Water Buckets"
+  },
+  "tag:c.wrenches": {
+   "kind": "item",
+   "name": "Wrenches"
+  },
+  "tag:c.budding_blocks": {
+   "kind": "item",
+   "name": "Budding Blocks"
+  },
+  "tag:c.buds": {
+   "kind": "item",
+   "name": "Buds"
+  },
+  "tag:c.clusters": {
+   "kind": "item",
+   "name": "Clusters"
+  },
+  "tag:c.entity_water_buckets": {
+   "kind": "item",
+   "name": "Entity Water Buckets"
+  },
+  "tag:c.raw_ores": {
+   "kind": "item",
+   "name": "Raw Ores"
+  },
+  "tag:c.red_sandstone_blocks": {
+   "kind": "item",
+   "name": "Red Sandstone Blocks"
+  },
+  "tag:c.sandstone_blocks": {
+   "kind": "item",
+   "name": "Sandstone Blocks"
+  },
+  "tag:c.uncolored_sandstone_blocks": {
+   "kind": "item",
+   "name": "Uncolored Sandstone Blocks"
+  },
+  "tag:c.uncolored_sandstone_slabs": {
+   "kind": "item",
+   "name": "Uncolored Sandstone Slabs"
+  },
+  "tag:c.uncolored_sandstone_stairs": {
+   "kind": "item",
+   "name": "Uncolored Sandstone Stairs"
+  },
+  "tag:c.villager_job_sites": {
+   "kind": "item",
+   "name": "Villager Job Sites"
+  },
+  "tag:c.wooden_barrels": {
+   "kind": "item",
+   "name": "Wooden Barrels"
+  },
+  "tag:c.armors": {
+   "kind": "item",
+   "name": "Armor"
+  },
+  "tag:c.armors.boots": {
+   "kind": "item",
+   "name": "Boots"
+  },
+  "tag:c.armors.chestplates": {
+   "kind": "item",
+   "name": "Chestplates"
+  },
+  "tag:c.armors.helmets": {
+   "kind": "item",
+   "name": "Helmets"
+  },
+  "tag:c.armors.leggings": {
+   "kind": "item",
+   "name": "Leggings"
+  },
+  "tag:c.tools": {
+   "kind": "item",
+   "name": "Tools"
+  },
+  "tag:c.tools.axes": {
+   "kind": "item",
+   "name": "Axes"
+  },
+  "tag:c.tools.bows": {
+   "kind": "item",
+   "name": "Bows"
+  },
+  "tag:c.tools.crossbows": {
+   "kind": "item",
+   "name": "Crossbows"
+  },
+  "tag:c.tools.fishing_rods": {
+   "kind": "item",
+   "name": "Fishing Rods"
+  },
+  "tag:c.tools.hoes": {
+   "kind": "item",
+   "name": "Hoes"
+  },
+  "tag:c.tools.pickaxes": {
+   "kind": "item",
+   "name": "Pickaxes"
+  },
+  "tag:c.tools.shields": {
+   "kind": "item",
+   "name": "Shields"
+  },
+  "tag:c.tools.shovels": {
+   "kind": "item",
+   "name": "Shovels"
+  },
+  "tag:c.tools.swords": {
+   "kind": "item",
+   "name": "Swords"
+  },
+  "tag:c.tools.tridents": {
+   "kind": "item",
+   "name": "Tridents"
+  },
+  "tag:fabric.pickaxes": {
+   "kind": "item",
+   "name": "Pickaxes"
+  },
+  "tag:fabric.axes": {
+   "kind": "item",
+   "name": "Axes"
+  },
+  "tag:fabric.shovels": {
+   "kind": "item",
+   "name": "Shovels"
+  },
+  "tag:fabric.hoes": {
+   "kind": "item",
+   "name": "Hoes"
+  },
+  "tag:fabric.swords": {
+   "kind": "item",
+   "name": "Swords"
+  },
+  "tag:fabric.shears": {
+   "kind": "item",
+   "name": "Shears"
+  }
+ }
+}

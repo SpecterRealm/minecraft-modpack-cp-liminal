@@ -1,0 +1,24 @@
+{
+ "repo": "Rearth/ae2helpers",
+ "ref": "default",
+ "ref_kind": "none",
+ "mod_ids": [
+  "ae2helpers"
+ ],
+ "item_count": 1,
+ "compat": [
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "data-ref": 1
+   }
+  }
+ ],
+ "items": {
+  "ae2helpers:result_import_card": {
+   "kind": "item",
+   "name": "Crafting Result Import Card"
+  }
+ }
+}

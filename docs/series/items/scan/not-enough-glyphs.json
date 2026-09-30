@@ -1,0 +1,94 @@
+{
+ "repo": "Alexthw46/NotEnoughGlyphs",
+ "ref": "1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "not_enough_glyphs"
+ ],
+ "item_count": 14,
+ "compat": [
+  {
+   "id": "ars_controle",
+   "slug": "ars-controle",
+   "evidence": {
+    "data-ref": 1,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "ars_elemental",
+   "slug": "ars-elemental",
+   "evidence": {
+    "data-ref": 8,
+    "dependency": 1,
+    "isLoaded": 2
+   }
+  },
+  {
+   "id": "ars_nouveau",
+   "slug": "ars-nouveau",
+   "evidence": {
+    "data-ref": 60,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "not_enough_glyphs:spell_binder": {
+   "kind": "item",
+   "name": "Spell Binder"
+  },
+  "not_enough_glyphs:thread_air_focus": {
+   "kind": "item",
+   "name": "Air Focus"
+  },
+  "not_enough_glyphs:thread_cheap_damage": {
+   "kind": "item",
+   "name": "Cheap Damage"
+  },
+  "not_enough_glyphs:thread_earth_focus": {
+   "kind": "item",
+   "name": "Earth Focus"
+  },
+  "not_enough_glyphs:thread_fire_focus": {
+   "kind": "item",
+   "name": "Fire Focus"
+  },
+  "not_enough_glyphs:thread_knockback": {
+   "kind": "item",
+   "name": "Heavy Cover"
+  },
+  "not_enough_glyphs:thread_scritchance": {
+   "kind": "item",
+   "name": "Lucky Cover"
+  },
+  "not_enough_glyphs:thread_scritdamage": {
+   "kind": "item",
+   "name": "Keen Cover"
+  },
+  "not_enough_glyphs:thread_shaper_focus": {
+   "kind": "item",
+   "name": "BlockShaping Focus"
+  },
+  "not_enough_glyphs:thread_sharp_paper": {
+   "kind": "item",
+   "name": "Sharp Pages"
+  },
+  "not_enough_glyphs:thread_slow_power": {
+   "kind": "item",
+   "name": "Slow Power"
+  },
+  "not_enough_glyphs:thread_summon_focus": {
+   "kind": "item",
+   "name": "Summoning Focus"
+  },
+  "not_enough_glyphs:thread_water_focus": {
+   "kind": "item",
+   "name": "Water Focus"
+  },
+  "not_enough_glyphs:thread_wild_magic": {
+   "kind": "item",
+   "name": "Wheel of Fortune"
+  }
+ }
+}

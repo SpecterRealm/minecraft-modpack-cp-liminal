@@ -1,0 +1,120 @@
+{
+ "repo": "Buuz135/Replication",
+ "ref": "1.21-1.2.7",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "replication"
+ ],
+ "item_count": 18,
+ "compat": [
+  {
+   "id": "guideme",
+   "slug": "guideme",
+   "evidence": {
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "jade",
+   "slug": "jade",
+   "evidence": {
+    "compat-import": 2
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 2
+   }
+  },
+  {
+   "id": "kubejs",
+   "slug": "kubejs",
+   "evidence": {
+    "compat-import": 2
+   }
+  },
+  {
+   "id": "titanium",
+   "slug": "titanium",
+   "evidence": {
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "replication:chip_storage": {
+   "kind": "block",
+   "name": "Chip Storage"
+  },
+  "replication:creative_matter_tank": {
+   "kind": "block",
+   "name": "Creative Matter Tank"
+  },
+  "replication:deepslate_replica_ore": {
+   "kind": "block",
+   "name": "Deepslate Replica Ore"
+  },
+  "replication:disintegrator": {
+   "kind": "block",
+   "name": "Disintegrator"
+  },
+  "replication:identification_chamber": {
+   "kind": "block",
+   "name": "Identification Chamber"
+  },
+  "replication:matter_network_pipe": {
+   "kind": "block",
+   "name": "Matter Network Pipe"
+  },
+  "replication:matter_tank": {
+   "kind": "block",
+   "name": "Matter Tank"
+  },
+  "replication:raw_replica_block": {
+   "kind": "block",
+   "name": "Raw Replica Block"
+  },
+  "replication:replica_block": {
+   "kind": "block",
+   "name": "Replica Block"
+  },
+  "replication:replication_terminal": {
+   "kind": "block",
+   "name": "Replication Terminal"
+  },
+  "replication:replicator": {
+   "kind": "block",
+   "name": "Replicator"
+  },
+  "replication:creative_memory_chip": {
+   "kind": "item",
+   "name": "Creative Memory Chip"
+  },
+  "replication:matter_blueprint": {
+   "kind": "item",
+   "name": "Matter Blueprint"
+  },
+  "replication:memory_chip": {
+   "kind": "item",
+   "name": "Memory Chip"
+  },
+  "replication:raw_replica": {
+   "kind": "item",
+   "name": "Raw Replica"
+  },
+  "replication:replica_ingot": {
+   "kind": "item",
+   "name": "Replica Ingot"
+  },
+  "replication:replicator_enclosure": {
+   "kind": "item",
+   "name": "Replicator Enclosure"
+  },
+  "replication:replicator_motor": {
+   "kind": "item",
+   "name": "Replicator Motor"
+  }
+ }
+}

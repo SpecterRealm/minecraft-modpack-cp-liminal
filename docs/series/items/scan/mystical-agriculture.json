@@ -1,0 +1,858 @@
+{
+ "repo": "BlakeBr0/MysticalAgriculture",
+ "ref": "1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "mysticalagriculture"
+ ],
+ "item_count": 195,
+ "compat": [
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "data-ref": 9
+   }
+  },
+  {
+   "id": "create",
+   "slug": "create",
+   "evidence": {
+    "data-ref": 6
+   }
+  },
+  {
+   "id": "cucumber",
+   "slug": "cucumber",
+   "evidence": {
+    "compat-import": 11,
+    "data-ref": 109,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "draconicevolution",
+   "slug": "draconic-evolution",
+   "evidence": {
+    "data-ref": 1
+   }
+  },
+  {
+   "id": "jade",
+   "slug": "jade",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 8
+   }
+  },
+  {
+   "id": "mekanism",
+   "slug": "mekanism",
+   "evidence": {
+    "data-ref": 4
+   }
+  },
+  {
+   "id": "patchouli",
+   "slug": "patchouli",
+   "evidence": {
+    "data-ref": 2
+   }
+  },
+  {
+   "id": "powah",
+   "slug": "powah",
+   "evidence": {
+    "data-ref": 5
+   }
+  }
+ ],
+ "items": {
+  "mysticalagriculture:prosperity_block": {
+   "kind": "block",
+   "name": "Prosperity Block"
+  },
+  "mysticalagriculture:inferium_block": {
+   "kind": "block",
+   "name": "Inferium Block"
+  },
+  "mysticalagriculture:prudentium_block": {
+   "kind": "block",
+   "name": "Prudentium Block"
+  },
+  "mysticalagriculture:tertium_block": {
+   "kind": "block",
+   "name": "Tertium Block"
+  },
+  "mysticalagriculture:imperium_block": {
+   "kind": "block",
+   "name": "Imperium Block"
+  },
+  "mysticalagriculture:soulium_block": {
+   "kind": "block",
+   "name": "Soulium Block"
+  },
+  "mysticalagriculture:prosperity_ingot_block": {
+   "kind": "block",
+   "name": "Prosperity Ingot Block"
+  },
+  "mysticalagriculture:inferium_ingot_block": {
+   "kind": "block",
+   "name": "Inferium Ingot Block"
+  },
+  "mysticalagriculture:prudentium_ingot_block": {
+   "kind": "block",
+   "name": "Prudentium Ingot Block"
+  },
+  "mysticalagriculture:tertium_ingot_block": {
+   "kind": "block",
+   "name": "Tertium Ingot Block"
+  },
+  "mysticalagriculture:imperium_ingot_block": {
+   "kind": "block",
+   "name": "Imperium Ingot Block"
+  },
+  "mysticalagriculture:soulium_ingot_block": {
+   "kind": "block",
+   "name": "Soulium Ingot Block"
+  },
+  "mysticalagriculture:prosperity_gemstone_block": {
+   "kind": "block",
+   "name": "Prosperity Gemstone Block"
+  },
+  "mysticalagriculture:inferium_gemstone_block": {
+   "kind": "block",
+   "name": "Inferium Gemstone Block"
+  },
+  "mysticalagriculture:prudentium_gemstone_block": {
+   "kind": "block",
+   "name": "Prudentium Gemstone Block"
+  },
+  "mysticalagriculture:tertium_gemstone_block": {
+   "kind": "block",
+   "name": "Tertium Gemstone Block"
+  },
+  "mysticalagriculture:imperium_gemstone_block": {
+   "kind": "block",
+   "name": "Imperium Gemstone Block"
+  },
+  "mysticalagriculture:soulium_gemstone_block": {
+   "kind": "block",
+   "name": "Soulium Gemstone Block"
+  },
+  "mysticalagriculture:inferium_farmland": {
+   "kind": "block",
+   "name": "Inferium Farmland"
+  },
+  "mysticalagriculture:prudentium_farmland": {
+   "kind": "block",
+   "name": "Prudentium Farmland"
+  },
+  "mysticalagriculture:tertium_farmland": {
+   "kind": "block",
+   "name": "Tertium Farmland"
+  },
+  "mysticalagriculture:imperium_farmland": {
+   "kind": "block",
+   "name": "Imperium Farmland"
+  },
+  "mysticalagriculture:inferium_growth_accelerator": {
+   "kind": "block",
+   "name": "Inferium Growth Accelerator"
+  },
+  "mysticalagriculture:prudentium_growth_accelerator": {
+   "kind": "block",
+   "name": "Prudentium Growth Accelerator"
+  },
+  "mysticalagriculture:tertium_growth_accelerator": {
+   "kind": "block",
+   "name": "Tertium Growth Accelerator"
+  },
+  "mysticalagriculture:imperium_growth_accelerator": {
+   "kind": "block",
+   "name": "Imperium Growth Accelerator"
+  },
+  "mysticalagriculture:prosperity_ore": {
+   "kind": "block",
+   "name": "Prosperity Ore"
+  },
+  "mysticalagriculture:deepslate_prosperity_ore": {
+   "kind": "block",
+   "name": "Deepslate Prosperity Ore"
+  },
+  "mysticalagriculture:inferium_ore": {
+   "kind": "block",
+   "name": "Inferium Ore"
+  },
+  "mysticalagriculture:deepslate_inferium_ore": {
+   "kind": "block",
+   "name": "Deepslate Inferium Ore"
+  },
+  "mysticalagriculture:soulium_ore": {
+   "kind": "block",
+   "name": "Soulium Ore"
+  },
+  "mysticalagriculture:soulstone": {
+   "kind": "block",
+   "name": "Soulstone"
+  },
+  "mysticalagriculture:soulstone_cobble": {
+   "kind": "block",
+   "name": "Cobbled Soulstone"
+  },
+  "mysticalagriculture:soulstone_bricks": {
+   "kind": "block",
+   "name": "Soulstone Bricks"
+  },
+  "mysticalagriculture:soulstone_cracked_bricks": {
+   "kind": "block",
+   "name": "Cracked Soulstone Bricks"
+  },
+  "mysticalagriculture:soulstone_chiseled_bricks": {
+   "kind": "block",
+   "name": "Chiseled Soulstone Bricks"
+  },
+  "mysticalagriculture:soulstone_smooth": {
+   "kind": "block",
+   "name": "Smooth Soulstone"
+  },
+  "mysticalagriculture:soul_glass": {
+   "kind": "block",
+   "name": "Soul Glass"
+  },
+  "mysticalagriculture:soulstone_slab": {
+   "kind": "block",
+   "name": "Soulstone Slab"
+  },
+  "mysticalagriculture:soulstone_cobble_slab": {
+   "kind": "block",
+   "name": "Cobbled Soulstone Slab"
+  },
+  "mysticalagriculture:soulstone_bricks_slab": {
+   "kind": "block",
+   "name": "Soulstone Bricks Slab"
+  },
+  "mysticalagriculture:soulstone_smooth_slab": {
+   "kind": "block",
+   "name": "Smooth Soulstone Slab"
+  },
+  "mysticalagriculture:soulstone_stairs": {
+   "kind": "block",
+   "name": "Soulstone Stairs"
+  },
+  "mysticalagriculture:soulstone_cobble_stairs": {
+   "kind": "block",
+   "name": "Cobbled Soulstone Stairs"
+  },
+  "mysticalagriculture:soulstone_bricks_stairs": {
+   "kind": "block",
+   "name": "Soulstone Bricks Stairs"
+  },
+  "mysticalagriculture:soulstone_cobble_wall": {
+   "kind": "block",
+   "name": "Cobbled Soulstone Wall"
+  },
+  "mysticalagriculture:soulstone_bricks_wall": {
+   "kind": "block",
+   "name": "Soulstone Bricks Wall"
+  },
+  "mysticalagriculture:witherproof_block": {
+   "kind": "block",
+   "name": "Witherproof Block"
+  },
+  "mysticalagriculture:witherproof_bricks": {
+   "kind": "block",
+   "name": "Witherproof Bricks"
+  },
+  "mysticalagriculture:witherproof_glass": {
+   "kind": "block",
+   "name": "Witherproof Glass"
+  },
+  "mysticalagriculture:infusion_pedestal": {
+   "kind": "block",
+   "name": "Infusion Pedestal"
+  },
+  "mysticalagriculture:infusion_altar": {
+   "kind": "block",
+   "name": "Infusion Altar"
+  },
+  "mysticalagriculture:awakening_pedestal": {
+   "kind": "block",
+   "name": "Awakening Pedestal"
+  },
+  "mysticalagriculture:awakening_altar": {
+   "kind": "block",
+   "name": "Awakening Altar"
+  },
+  "mysticalagriculture:essence_vessel": {
+   "kind": "block",
+   "name": "Essence Vessel"
+  },
+  "mysticalagriculture:tinkering_table": {
+   "kind": "block",
+   "name": "Tinkering Table"
+  },
+  "mysticalagriculture:enchanter": {
+   "kind": "block",
+   "name": "Enchanter"
+  },
+  "mysticalagriculture:machine_frame": {
+   "kind": "block",
+   "name": "Machine Frame"
+  },
+  "mysticalagriculture:furnace": {
+   "kind": "block",
+   "name": "Furnace"
+  },
+  "mysticalagriculture:seed_reprocessor": {
+   "kind": "block",
+   "name": "Seed Reprocessor"
+  },
+  "mysticalagriculture:soul_extractor": {
+   "kind": "block",
+   "name": "Soul Extractor"
+  },
+  "mysticalagriculture:harvester": {
+   "kind": "block",
+   "name": "Harvester"
+  },
+  "mysticalagriculture:soulium_spawner": {
+   "kind": "block",
+   "name": "Soulium Spawner"
+  },
+  "mysticalagriculture:mystical_crop": {
+   "kind": "block",
+   "name": "%s Crop"
+  },
+  "mysticalagriculture:prosperity_shard": {
+   "kind": "item",
+   "name": "Prosperity Shard"
+  },
+  "mysticalagriculture:inferium_essence": {
+   "kind": "item",
+   "name": "Inferium Essence"
+  },
+  "mysticalagriculture:prudentium_essence": {
+   "kind": "item",
+   "name": "Prudentium Essence"
+  },
+  "mysticalagriculture:tertium_essence": {
+   "kind": "item",
+   "name": "Tertium Essence"
+  },
+  "mysticalagriculture:imperium_essence": {
+   "kind": "item",
+   "name": "Imperium Essence"
+  },
+  "mysticalagriculture:prosperity_ingot": {
+   "kind": "item",
+   "name": "Prosperity Ingot"
+  },
+  "mysticalagriculture:inferium_ingot": {
+   "kind": "item",
+   "name": "Inferium Ingot"
+  },
+  "mysticalagriculture:prudentium_ingot": {
+   "kind": "item",
+   "name": "Prudentium Ingot"
+  },
+  "mysticalagriculture:tertium_ingot": {
+   "kind": "item",
+   "name": "Tertium Ingot"
+  },
+  "mysticalagriculture:imperium_ingot": {
+   "kind": "item",
+   "name": "Imperium Ingot"
+  },
+  "mysticalagriculture:soulium_ingot": {
+   "kind": "item",
+   "name": "Soulium Ingot"
+  },
+  "mysticalagriculture:prosperity_nugget": {
+   "kind": "item",
+   "name": "Prosperity Nugget"
+  },
+  "mysticalagriculture:inferium_nugget": {
+   "kind": "item",
+   "name": "Inferium Nugget"
+  },
+  "mysticalagriculture:prudentium_nugget": {
+   "kind": "item",
+   "name": "Prudentium Nugget"
+  },
+  "mysticalagriculture:tertium_nugget": {
+   "kind": "item",
+   "name": "Tertium Nugget"
+  },
+  "mysticalagriculture:imperium_nugget": {
+   "kind": "item",
+   "name": "Imperium Nugget"
+  },
+  "mysticalagriculture:soulium_nugget": {
+   "kind": "item",
+   "name": "Soulium Nugget"
+  },
+  "mysticalagriculture:prosperity_gemstone": {
+   "kind": "item",
+   "name": "Prosperity Gemstone"
+  },
+  "mysticalagriculture:inferium_gemstone": {
+   "kind": "item",
+   "name": "Inferium Gemstone"
+  },
+  "mysticalagriculture:prudentium_gemstone": {
+   "kind": "item",
+   "name": "Prudentium Gemstone"
+  },
+  "mysticalagriculture:tertium_gemstone": {
+   "kind": "item",
+   "name": "Tertium Gemstone"
+  },
+  "mysticalagriculture:imperium_gemstone": {
+   "kind": "item",
+   "name": "Imperium Gemstone"
+  },
+  "mysticalagriculture:soulium_gemstone": {
+   "kind": "item",
+   "name": "Soulium Gemstone"
+  },
+  "mysticalagriculture:prosperity_seed_base": {
+   "kind": "item",
+   "name": "Prosperity Seed Base"
+  },
+  "mysticalagriculture:soulium_seed_base": {
+   "kind": "item",
+   "name": "Soulium Seed Base"
+  },
+  "mysticalagriculture:soul_dust": {
+   "kind": "item",
+   "name": "Soul Dust"
+  },
+  "mysticalagriculture:soulium_dust": {
+   "kind": "item",
+   "name": "Soulium Dust"
+  },
+  "mysticalagriculture:cognizant_dust": {
+   "kind": "item",
+   "name": "Cognizant Dust"
+  },
+  "mysticalagriculture:soulium_dagger": {
+   "kind": "item",
+   "name": "Soulium Dagger"
+  },
+  "mysticalagriculture:infusion_crystal": {
+   "kind": "item",
+   "name": "Infusion Crystal"
+  },
+  "mysticalagriculture:master_infusion_crystal": {
+   "kind": "item",
+   "name": "Master Infusion Crystal"
+  },
+  "mysticalagriculture:fertilized_essence": {
+   "kind": "item",
+   "name": "Fertilized Essence"
+  },
+  "mysticalagriculture:mystical_fertilizer": {
+   "kind": "item",
+   "name": "Mystical Fertilizer"
+  },
+  "mysticalagriculture:air_agglomeratio": {
+   "kind": "item",
+   "name": "Air Agglomeratio"
+  },
+  "mysticalagriculture:earth_agglomeratio": {
+   "kind": "item",
+   "name": "Earth Agglomeratio"
+  },
+  "mysticalagriculture:water_agglomeratio": {
+   "kind": "item",
+   "name": "Water Agglomeratio"
+  },
+  "mysticalagriculture:fire_agglomeratio": {
+   "kind": "item",
+   "name": "Fire Agglomeratio"
+  },
+  "mysticalagriculture:nature_agglomeratio": {
+   "kind": "item",
+   "name": "Nature Agglomeratio"
+  },
+  "mysticalagriculture:dye_agglomeratio": {
+   "kind": "item",
+   "name": "Dye Agglomeratio"
+  },
+  "mysticalagriculture:nether_agglomeratio": {
+   "kind": "item",
+   "name": "Nether Agglomeratio"
+  },
+  "mysticalagriculture:coral_agglomeratio": {
+   "kind": "item",
+   "name": "Coral Agglomeratio"
+  },
+  "mysticalagriculture:honey_agglomeratio": {
+   "kind": "item",
+   "name": "Honey Agglomeratio"
+  },
+  "mysticalagriculture:prismarine_agglomeratio": {
+   "kind": "item",
+   "name": "Prismarine Agglomeratio"
+  },
+  "mysticalagriculture:end_agglomeratio": {
+   "kind": "item",
+   "name": "End Agglomeratio"
+  },
+  "mysticalagriculture:mystical_flower_agglomeratio": {
+   "kind": "item",
+   "name": "Mystical Flower Agglomeratio"
+  },
+  "mysticalagriculture:experience_droplet": {
+   "kind": "item",
+   "name": "Experience Droplet"
+  },
+  "mysticalagriculture:wand": {
+   "kind": "item",
+   "name": "Wand"
+  },
+  "mysticalagriculture:blank_skull": {
+   "kind": "item",
+   "name": "Blank Skull"
+  },
+  "mysticalagriculture:blank_record": {
+   "kind": "item",
+   "name": "Blank Record"
+  },
+  "mysticalagriculture:unattuned_augment": {
+   "kind": "item",
+   "name": "Unattuned Augment"
+  },
+  "mysticalagriculture:soul_jar": {
+   "kind": "item",
+   "name": "Soul Jar"
+  },
+  "mysticalagriculture:experience_capsule": {
+   "kind": "item",
+   "name": "Experience Capsule"
+  },
+  "mysticalagriculture:watering_can": {
+   "kind": "item",
+   "name": "Watering Can"
+  },
+  "mysticalagriculture:diamond_sickle": {
+   "kind": "item",
+   "name": "Diamond Sickle"
+  },
+  "mysticalagriculture:diamond_scythe": {
+   "kind": "item",
+   "name": "Diamond Scythe"
+  },
+  "mysticalagriculture:upgrade_base": {
+   "kind": "item",
+   "name": "Machine Upgrade Base"
+  },
+  "mysticalagriculture:inferium_upgrade": {
+   "kind": "item",
+   "name": "Inferium Machine Upgrade"
+  },
+  "mysticalagriculture:prudentium_upgrade": {
+   "kind": "item",
+   "name": "Prudentium Machine Upgrade"
+  },
+  "mysticalagriculture:tertium_upgrade": {
+   "kind": "item",
+   "name": "Tertium Machine Upgrade"
+  },
+  "mysticalagriculture:imperium_upgrade": {
+   "kind": "item",
+   "name": "Imperium Machine Upgrade"
+  },
+  "mysticalagriculture:mystical_essence": {
+   "kind": "item",
+   "name": "%s Essence"
+  },
+  "mysticalagriculture:mystical_seeds": {
+   "kind": "item",
+   "name": "%s Seeds"
+  },
+  "mysticalagriculture:inferium_sword": {
+   "kind": "item",
+   "name": "Inferium Sword"
+  },
+  "mysticalagriculture:inferium_pickaxe": {
+   "kind": "item",
+   "name": "Inferium Pickaxe"
+  },
+  "mysticalagriculture:inferium_shovel": {
+   "kind": "item",
+   "name": "Inferium Shovel"
+  },
+  "mysticalagriculture:inferium_axe": {
+   "kind": "item",
+   "name": "Inferium Axe"
+  },
+  "mysticalagriculture:inferium_hoe": {
+   "kind": "item",
+   "name": "Inferium Hoe"
+  },
+  "mysticalagriculture:inferium_staff": {
+   "kind": "item",
+   "name": "Inferium Staff"
+  },
+  "mysticalagriculture:inferium_watering_can": {
+   "kind": "item",
+   "name": "Inferium Watering Can"
+  },
+  "mysticalagriculture:inferium_bow": {
+   "kind": "item",
+   "name": "Inferium Bow"
+  },
+  "mysticalagriculture:inferium_crossbow": {
+   "kind": "item",
+   "name": "Inferium Crossbow"
+  },
+  "mysticalagriculture:inferium_shears": {
+   "kind": "item",
+   "name": "Inferium Shears"
+  },
+  "mysticalagriculture:inferium_fishing_rod": {
+   "kind": "item",
+   "name": "Inferium Fishing Rod"
+  },
+  "mysticalagriculture:inferium_sickle": {
+   "kind": "item",
+   "name": "Inferium Sickle"
+  },
+  "mysticalagriculture:inferium_scythe": {
+   "kind": "item",
+   "name": "Inferium Scythe"
+  },
+  "mysticalagriculture:prudentium_sword": {
+   "kind": "item",
+   "name": "Prudentium Sword"
+  },
+  "mysticalagriculture:prudentium_pickaxe": {
+   "kind": "item",
+   "name": "Prudentium Pickaxe"
+  },
+  "mysticalagriculture:prudentium_shovel": {
+   "kind": "item",
+   "name": "Prudentium Shovel"
+  },
+  "mysticalagriculture:prudentium_axe": {
+   "kind": "item",
+   "name": "Prudentium Axe"
+  },
+  "mysticalagriculture:prudentium_hoe": {
+   "kind": "item",
+   "name": "Prudentium Hoe"
+  },
+  "mysticalagriculture:prudentium_staff": {
+   "kind": "item",
+   "name": "Prudentium Staff"
+  },
+  "mysticalagriculture:prudentium_watering_can": {
+   "kind": "item",
+   "name": "Prudentium Watering Can"
+  },
+  "mysticalagriculture:prudentium_bow": {
+   "kind": "item",
+   "name": "Prudentium Bow"
+  },
+  "mysticalagriculture:prudentium_crossbow": {
+   "kind": "item",
+   "name": "Prudentium Crossbow"
+  },
+  "mysticalagriculture:prudentium_shears": {
+   "kind": "item",
+   "name": "Prudentium Shears"
+  },
+  "mysticalagriculture:prudentium_fishing_rod": {
+   "kind": "item",
+   "name": "Prudentium Fishing Rod"
+  },
+  "mysticalagriculture:prudentium_sickle": {
+   "kind": "item",
+   "name": "Prudentium Sickle"
+  },
+  "mysticalagriculture:prudentium_scythe": {
+   "kind": "item",
+   "name": "Prudentium Scythe"
+  },
+  "mysticalagriculture:tertium_sword": {
+   "kind": "item",
+   "name": "Tertium Sword"
+  },
+  "mysticalagriculture:tertium_pickaxe": {
+   "kind": "item",
+   "name": "Tertium Pickaxe"
+  },
+  "mysticalagriculture:tertium_shovel": {
+   "kind": "item",
+   "name": "Tertium Shovel"
+  },
+  "mysticalagriculture:tertium_axe": {
+   "kind": "item",
+   "name": "Tertium Axe"
+  },
+  "mysticalagriculture:tertium_hoe": {
+   "kind": "item",
+   "name": "Tertium Hoe"
+  },
+  "mysticalagriculture:tertium_staff": {
+   "kind": "item",
+   "name": "Tertium Staff"
+  },
+  "mysticalagriculture:tertium_watering_can": {
+   "kind": "item",
+   "name": "Tertium Watering Can"
+  },
+  "mysticalagriculture:tertium_bow": {
+   "kind": "item",
+   "name": "Tertium Bow"
+  },
+  "mysticalagriculture:tertium_crossbow": {
+   "kind": "item",
+   "name": "Tertium Crossbow"
+  },
+  "mysticalagriculture:tertium_shears": {
+   "kind": "item",
+   "name": "Tertium Shears"
+  },
+  "mysticalagriculture:tertium_fishing_rod": {
+   "kind": "item",
+   "name": "Tertium Fishing Rod"
+  },
+  "mysticalagriculture:tertium_sickle": {
+   "kind": "item",
+   "name": "Tertium Sickle"
+  },
+  "mysticalagriculture:tertium_scythe": {
+   "kind": "item",
+   "name": "Tertium Scythe"
+  },
+  "mysticalagriculture:imperium_sword": {
+   "kind": "item",
+   "name": "Imperium Sword"
+  },
+  "mysticalagriculture:imperium_pickaxe": {
+   "kind": "item",
+   "name": "Imperium Pickaxe"
+  },
+  "mysticalagriculture:imperium_shovel": {
+   "kind": "item",
+   "name": "Imperium Shovel"
+  },
+  "mysticalagriculture:imperium_axe": {
+   "kind": "item",
+   "name": "Imperium Axe"
+  },
+  "mysticalagriculture:imperium_hoe": {
+   "kind": "item",
+   "name": "Imperium Hoe"
+  },
+  "mysticalagriculture:imperium_staff": {
+   "kind": "item",
+   "name": "Imperium Staff"
+  },
+  "mysticalagriculture:imperium_watering_can": {
+   "kind": "item",
+   "name": "Imperium Watering Can"
+  },
+  "mysticalagriculture:imperium_bow": {
+   "kind": "item",
+   "name": "Imperium Bow"
+  },
+  "mysticalagriculture:imperium_crossbow": {
+   "kind": "item",
+   "name": "Imperium Crossbow"
+  },
+  "mysticalagriculture:imperium_shears": {
+   "kind": "item",
+   "name": "Imperium Shears"
+  },
+  "mysticalagriculture:imperium_fishing_rod": {
+   "kind": "item",
+   "name": "Imperium Fishing Rod"
+  },
+  "mysticalagriculture:imperium_sickle": {
+   "kind": "item",
+   "name": "Imperium Sickle"
+  },
+  "mysticalagriculture:imperium_scythe": {
+   "kind": "item",
+   "name": "Imperium Scythe"
+  },
+  "mysticalagriculture:inferium_helmet": {
+   "kind": "item",
+   "name": "Inferium Helmet"
+  },
+  "mysticalagriculture:inferium_chestplate": {
+   "kind": "item",
+   "name": "Inferium Chestplate"
+  },
+  "mysticalagriculture:inferium_leggings": {
+   "kind": "item",
+   "name": "Inferium Leggings"
+  },
+  "mysticalagriculture:inferium_boots": {
+   "kind": "item",
+   "name": "Inferium Boots"
+  },
+  "mysticalagriculture:prudentium_helmet": {
+   "kind": "item",
+   "name": "Prudentium Helmet"
+  },
+  "mysticalagriculture:prudentium_chestplate": {
+   "kind": "item",
+   "name": "Prudentium Chestplate"
+  },
+  "mysticalagriculture:prudentium_leggings": {
+   "kind": "item",
+   "name": "Prudentium Leggings"
+  },
+  "mysticalagriculture:prudentium_boots": {
+   "kind": "item",
+   "name": "Prudentium Boots"
+  },
+  "mysticalagriculture:tertium_helmet": {
+   "kind": "item",
+   "name": "Tertium Helmet"
+  },
+  "mysticalagriculture:tertium_chestplate": {
+   "kind": "item",
+   "name": "Tertium Chestplate"
+  },
+  "mysticalagriculture:tertium_leggings": {
+   "kind": "item",
+   "name": "Tertium Leggings"
+  },
+  "mysticalagriculture:tertium_boots": {
+   "kind": "item",
+   "name": "Tertium Boots"
+  },
+  "mysticalagriculture:imperium_helmet": {
+   "kind": "item",
+   "name": "Imperium Helmet"
+  },
+  "mysticalagriculture:imperium_chestplate": {
+   "kind": "item",
+   "name": "Imperium Chestplate"
+  },
+  "mysticalagriculture:imperium_leggings": {
+   "kind": "item",
+   "name": "Imperium Leggings"
+  },
+  "mysticalagriculture:imperium_boots": {
+   "kind": "item",
+   "name": "Imperium Boots"
+  },
+  "mysticalagriculture:augment": {
+   "kind": "item",
+   "name": "%s Augment"
+  }
+ }
+}

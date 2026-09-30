@@ -1,0 +1,33 @@
+{
+ "repo": "klikli-dev/modonomicon",
+ "ref": "release/v1.21.1-1.120.7",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "${mod_id}",
+  "modonomicon"
+ ],
+ "item_count": 1,
+ "compat": [
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 1,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "patchouli",
+   "slug": "patchouli",
+   "evidence": {
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "modonomicon:modonomicon": {
+   "kind": "item",
+   "name": "Modonomicon"
+  }
+ }
+}

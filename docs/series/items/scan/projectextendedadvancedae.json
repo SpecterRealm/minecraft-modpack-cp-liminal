@@ -1,0 +1,43 @@
+{
+ "repo": "VincentZhou11/ProjectExtendedAdvancedAE",
+ "ref": "default",
+ "ref_kind": "none",
+ "mod_ids": [
+  "projectextendedadvancedae"
+ ],
+ "item_count": 2,
+ "compat": [
+  {
+   "id": "advanced_ae",
+   "slug": "advancedae",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "data-ref": 1
+   }
+  },
+  {
+   "id": "projecte",
+   "slug": "projecte",
+   "evidence": {
+    "data-ref": 1,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "projectextendedadvancedae:example_block": {
+   "kind": "block",
+   "name": "Example Block"
+  },
+  "projectextendedadvancedae:example_item": {
+   "kind": "item",
+   "name": "Example Item"
+  }
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "repo": "Shadows-of-Fire/GatewaysToEternity",
+ "ref": "1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "gateways"
+ ],
+ "item_count": 2,
+ "compat": [
+  {
+   "id": "apothic_attributes",
+   "slug": "apothic-attributes",
+   "evidence": {
+    "data-ref": 6,
+    "dependency": 2
+   }
+  },
+  {
+   "id": "jade",
+   "slug": "jade",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "placebo",
+   "slug": "placebo",
+   "evidence": {
+    "compat-import": 1,
+    "dependency": 2
+   }
+  }
+ ],
+ "items": {
+  "gateways:gateway": {
+   "kind": "entity",
+   "name": "Gateway to Eternity"
+  },
+  "gateways:gate_pearl": {
+   "kind": "item",
+   "name": "Gate Pearl"
+  }
+ }
+}

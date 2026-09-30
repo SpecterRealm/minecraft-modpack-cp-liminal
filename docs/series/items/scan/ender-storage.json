@@ -1,0 +1,32 @@
+{
+ "repo": "TheCBProject/EnderStorage",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "enderstorage"
+ ],
+ "item_count": 3,
+ "compat": [
+  {
+   "id": "codechickenlib",
+   "slug": "codechicken-lib",
+   "evidence": {
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "enderstorage:ender_pouch": {
+   "kind": "item",
+   "name": "Ender Pouch"
+  },
+  "enderstorage:ender_chest": {
+   "kind": "block",
+   "name": "Ender Chest"
+  },
+  "enderstorage:ender_tank": {
+   "kind": "block",
+   "name": "Ender Tank"
+  }
+ }
+}

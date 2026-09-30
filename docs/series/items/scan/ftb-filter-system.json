@@ -1,0 +1,32 @@
+{
+ "repo": "FTBTeam/FTB-Filter-System",
+ "ref": "v21.1.4",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "ftbfiltersystem"
+ ],
+ "item_count": 1,
+ "compat": [
+  {
+   "id": "ftbxmodcompat",
+   "slug": "ftb-xmod-compat",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 3,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "ftbfiltersystem:smart_filter": {
+   "kind": "item",
+   "name": "Smart Filter"
+  }
+ }
+}
