@@ -69,7 +69,7 @@ Goal: read each mod's source (item list, config, data, recipes) at the ref that 
 | Theurgy KubeJS | EL | `theurgy_kubejs-1.21.1-neoforge-1.6.0.jar` | [klikli-dev/theurgy-kubejs](https://github.com/klikli-dev/theurgy-kubejs) | tag: `release/v1.21.1-1.6.0` |  |
 | Wooden Shears | VEIL | `woodenshears-neoforge-1.21-3.2.3.0.jar` | [cech12/WoodenShears](https://github.com/cech12/WoodenShears) | tag: `1.21-3.2.3.0` |  |
 
-## Source found, Minecraft-version branch (94)
+## Source found, Minecraft-version branch (93)
 
 | Mod | Packs | Pin | Repo | Ref | Note |
 |---|---|---|---|---|---|
@@ -81,23 +81,22 @@ Goal: read each mod's source (item list, config, data, recipes) at the ref that 
 | Apothic Enchanting | EL | `ApothicEnchanting-1.21.1-1.6.2.jar` | [Shadows-of-Fire/Apothic-Enchanting](https://github.com/Shadows-of-Fire/Apothic-Enchanting) | branch: `1.21` |  |
 | Apothic Spawners | EL | `ApothicSpawners-1.21.1-1.4.0.jar` | [Shadows-of-Fire/Apothic-Spawners](https://github.com/Shadows-of-Fire/Apothic-Spawners) | branch: `1.21` |  |
 | Applied Sorting | VL | `appliedsorting-neo-1.21.1-v1.0.0.jar` | [Meatwo310/applied-sorting](https://github.com/Meatwo310/applied-sorting) | branch: `old/neo-1.21.1` |  |
-| Architectury API | VEIL | `architectury-13.0.8-neoforge.jar` | [architectury/architectury-api](https://github.com/architectury/architectury-api) | branch: `1.21.10` |  |
+| Architectury API | VEIL | `architectury-13.0.8-neoforge.jar` | [architectury/architectury-api](https://github.com/architectury/architectury-api) | branch: `1.21` |  |
 | Ars Caelum | EL | `ars_caelum-1.21.1-3.0.0.jar` | [baileyholl/Ars-Caelum](https://github.com/baileyholl/Ars-Caelum) | branch: `1.21.x` | Repo has per-version branches (1.21.x); author baileyholl2. |
 | Ars Creo | L | `ars_creo-1.21.1-5.4.0.jar` | [baileyholl/Ars-Creo](https://github.com/baileyholl/Ars-Creo) | branch: `1.21.x` |  |
 | Ars Elemental | EL | `ars_elemental-1.21.1-0.7.10.3.jar` | [Alexthw46/Ars-Elemental](https://github.com/Alexthw46/Ars-Elemental) | branch: `1.21` |  |
 | Ars Nouveau | EL | `ars_nouveau-1.21.1-5.13.2.jar` | [baileyholl/Ars-Nouveau](https://github.com/baileyholl/Ars-Nouveau) | branch: `1.21.x` |  |
 | Ars Zero | EL | `ars_zero-1.21.1-2.0.2.jar` | [zeroregard/Ars-Zero](https://github.com/zeroregard/Ars-Zero) | branch: `1.21.1` |  |
-| Baubley Heart Canisters | VEIL | `baubley-heart-canisters-1.21.1-1.4.0.jar` | [Traverse-Joe/Baubley-Heart-Canisters](https://github.com/Traverse-Joe/Baubley-Heart-Canisters) | branch: `1.21.11-neoforge` |  |
+| Baubley Heart Canisters | VEIL | `baubley-heart-canisters-1.21.1-1.4.0.jar` | [Traverse-Joe/Baubley-Heart-Canisters](https://github.com/Traverse-Joe/Baubley-Heart-Canisters) | branch: `1.21-neoforge` |  |
+| Better Fusion Reactor for Mekanism PLUS | VL | `BetterFusionReactor-1.21.1-1.5.9rc1.jar` | [igentuman/Better-Fusion-Reactor](https://github.com/igentuman/Better-Fusion-Reactor) | branch: `1.21x` |  |
 | Bookshelf | VEIL | `bookshelf-neoforge-1.21.1-21.1.81.jar` | [Darkhax-Minecraft/Bookshelf](https://github.com/Darkhax-Minecraft/Bookshelf) | branch: `1.21.1` |  |
 | Botany Pots | EIL | `botanypots-neoforge-1.21.1-21.1.44.jar` | [Darkhax-Minecraft/BotanyPots](https://github.com/Darkhax-Minecraft/BotanyPots) | branch: `1.21.1` |  |
 | Botany Pots - Mystical Agriculture Compat | EL | `botanypotsmystical-neoforge-1.21.1-21.1.12.jar` | [Darkhax-Minecraft/Botany-Pots-Mystical-Agriculture](https://github.com/Darkhax-Minecraft/Botany-Pots-Mystical-Agriculture) | branch: `1.21.1` |  |
 | Botany Trees | EIL | `botanytrees-neoforge-1.21.1-21.1.7.jar` | [Darkhax-Minecraft/BotanyTrees](https://github.com/Darkhax-Minecraft/BotanyTrees) | branch: `1.21.1` |  |
 | Brandon's Core | L | `BrandonsCore-1.21.1-3.2.1.309.jar` | [brandon3055/BrandonsCore](https://github.com/brandon3055/BrandonsCore) | branch: `1.21` |  |
 | Building Gadgets | VL | `buildinggadgets2-1.3.9.jar` | [Direwolf20-MC/BuildingGadgets2](https://github.com/Direwolf20-MC/BuildingGadgets2) | branch: `1.21.1` |  |
-| Building Wands | VEL | `BuildingWands-neoforge-MC1.21.1-3.0.4.jar` | [nicguzzo/wands](https://github.com/nicguzzo/wands) | branch: `1.21.10` |  |
 | CB Multipart | EL | `CBMultipart-1.21.1-3.5.0.155.jar` | [TheCBProject/ForgeMultipart](https://github.com/TheCBProject/ForgeMultipart) | branch: `1.21.1` |  |
 | Charging Gadgets | VL | `charginggadgets-1.14.1.jar` | [Direwolf20-MC/ChargingGadgets](https://github.com/Direwolf20-MC/ChargingGadgets) | branch: `1.21.1` |  |
-| Cloth Config API (Fabric/Forge/NeoForge) | VEIL | `cloth-config-15.0.140-neoforge.jar` | [shedaniel/cloth-config](https://github.com/shedaniel/cloth-config) | branch: `v21.11` |  |
 | CodeChicken Lib | EL | `CodeChickenLib-1.21.1-4.6.1.529.jar` | [TheCBProject/CodeChickenLib](https://github.com/TheCBProject/CodeChickenLib) | branch: `1.21.1` |  |
 | Comforts | VEIL | `comforts-neoforge-9.0.5+1.21.1.jar` | [TheIllusiveC4/Comforts](https://github.com/TheIllusiveC4/Comforts) | branch: `1.21.1` |  |
 | Controlling | VEIL | `Controlling-neoforge-1.21.1-19.0.5.jar` | [jaredlll08/Controlling](https://github.com/jaredlll08/Controlling) | branch: `1.21.1` |  |
@@ -151,15 +150,15 @@ Goal: read each mod's source (item list, config, data, recipes) at the ref that 
 | Moonlight Lib | VEIL | `moonlight-1.21.1-3.7.0-neoforge.jar` | [MehVahdJukaar/Moonlight](https://github.com/MehVahdJukaar/Moonlight) | branch: `1.21.1-beforebreakingchanges` |  |
 | Silent Gear | VEIL | `silent-gear-1.21.1-neoforge-4.2.1.1.jar` | [SilentChaos512/Silent-Gear](https://github.com/SilentChaos512/Silent-Gear) | branch: `1.21.1` |  |
 | Silent Lib (silentlib) | VEIL | `silent-lib-1.21.1-neoforge-10.6.0.jar` | [SilentChaos512/SilentLib](https://github.com/SilentChaos512/SilentLib) | branch: `1.21.1` |  |
-| Simple Magnets | VEIL | `simplemagnets-1.1.12c-neoforge-mc1.21.jar` | [SuperMartijn642/SimpleMagnets](https://github.com/SuperMartijn642/SimpleMagnets) | branch: `fabric-1.21.11` |  |
+| Simple Magnets | VEIL | `simplemagnets-1.1.12c-neoforge-mc1.21.jar` | [SuperMartijn642/SimpleMagnets](https://github.com/SuperMartijn642/SimpleMagnets) | branch: `forge-1.21` |  |
 | Skyblock Builder | EL | `SkyblockBuilder-21.1.37.jar` | [MelanX/SkyblockBuilder](https://github.com/MelanX/SkyblockBuilder) | branch: `1.21.x` |  |
-| SmartBrainLib | EL | `SmartBrainLib-neoforge-1.21.1-1.16.11.jar` | [Tslat/SmartBrainLib](https://github.com/Tslat/SmartBrainLib) | branch: `1.21.10` |  |
-| Sophisticated Backpacks | VEIL | `sophisticatedbackpacks-1.21.1-3.25.49.1791.jar` | [P3pp3rF1y/SophisticatedBackpacks](https://github.com/P3pp3rF1y/SophisticatedBackpacks) | branch: `1.21.10` |  |
-| Sophisticated Core | VEIL | `sophisticatedcore-1.21.1-1.4.42.1892.jar` | [P3pp3rF1y/SophisticatedCore](https://github.com/P3pp3rF1y/SophisticatedCore) | branch: `1.21.10` |  |
-| Sophisticated Storage | VEIL | `sophisticatedstorage-1.21.1-1.5.52.1756.jar` | [P3pp3rF1y/SophisticatedStorage](https://github.com/P3pp3rF1y/SophisticatedStorage) | branch: `1.21.10` |  |
-| Sophisticated Storage Create Integration | VL | `sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar` | [P3pp3rF1y/SophisticatedStorageCreateIntegration](https://github.com/P3pp3rF1y/SophisticatedStorageCreateIntegration) | branch: `1.21.10` |  |
-| SuperMartijn642's Config Lib | VEIL | `supermartijn642configlib-1.1.8-neoforge-mc1.21.jar` | [SuperMartijn642/SuperMartijn642sConfigLib](https://github.com/SuperMartijn642/SuperMartijn642sConfigLib) | branch: `fabric-1.21.11` |  |
-| SuperMartijn642's Core Lib | VEIL | `supermartijn642corelib-1.1.21-neoforge-mc1.21.jar` | [SuperMartijn642/SuperMartijn642sCoreLib](https://github.com/SuperMartijn642/SuperMartijn642sCoreLib) | branch: `fabric-1.21.11` |  |
+| SmartBrainLib | EL | `SmartBrainLib-neoforge-1.21.1-1.16.11.jar` | [Tslat/SmartBrainLib](https://github.com/Tslat/SmartBrainLib) | branch: `1.21` |  |
+| Sophisticated Backpacks | VEIL | `sophisticatedbackpacks-1.21.1-3.25.49.1791.jar` | [P3pp3rF1y/SophisticatedBackpacks](https://github.com/P3pp3rF1y/SophisticatedBackpacks) | branch: `1.21.x` |  |
+| Sophisticated Core | VEIL | `sophisticatedcore-1.21.1-1.4.42.1892.jar` | [P3pp3rF1y/SophisticatedCore](https://github.com/P3pp3rF1y/SophisticatedCore) | branch: `1.21.x` |  |
+| Sophisticated Storage | VEIL | `sophisticatedstorage-1.21.1-1.5.52.1756.jar` | [P3pp3rF1y/SophisticatedStorage](https://github.com/P3pp3rF1y/SophisticatedStorage) | branch: `1.21.x` |  |
+| Sophisticated Storage Create Integration | VL | `sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar` | [P3pp3rF1y/SophisticatedStorageCreateIntegration](https://github.com/P3pp3rF1y/SophisticatedStorageCreateIntegration) | branch: `1.21.x` |  |
+| SuperMartijn642's Config Lib | VEIL | `supermartijn642configlib-1.1.8-neoforge-mc1.21.jar` | [SuperMartijn642/SuperMartijn642sConfigLib](https://github.com/SuperMartijn642/SuperMartijn642sConfigLib) | branch: `forge-1.21` |  |
+| SuperMartijn642's Core Lib | VEIL | `supermartijn642corelib-1.1.21-neoforge-mc1.21.jar` | [SuperMartijn642/SuperMartijn642sCoreLib](https://github.com/SuperMartijn642/SuperMartijn642sCoreLib) | branch: `forge-1.21` |  |
 | TerraBlender (NeoForge) | EL | `TerraBlender-neoforge-1.21.1-4.1.0.8.jar` | [Glitchfiend/TerraBlender](https://github.com/Glitchfiend/TerraBlender) | branch: `1.21.1` |  |
 | The Twilight Forest | L | `twilightforest-1.21.1-4.8.3345-universal.jar` | [TeamTwilight/twilightforest](https://github.com/TeamTwilight/twilightforest) | branch: `1.21.1` |  |
 | Titanium | IL | `titanium-1.21-4.0.50.jar` | [InnovativeOnlineIndustries/Titanium](https://github.com/InnovativeOnlineIndustries/Titanium) | branch: `1.21` |  |
@@ -168,7 +167,7 @@ Goal: read each mod's source (item list, config, data, recipes) at the ref that 
 | Translocators | EL | `Translocators-1.21.1-2.8.0.89.jar` | [TheCBProject/Translocators](https://github.com/TheCBProject/Translocators) | branch: `1.21.1` |  |
 | ZeroCore 2 | VIL | `ZeroCore2-1.21.1-2.4.21.jar` | [ZeroNoRyouki/ZeroCore2](https://github.com/ZeroNoRyouki/ZeroCore2) | branch: `1.21` |  |
 
-## Source found, no clear ref (or not verified) (26)
+## Source found, no clear ref (or not verified) (27)
 
 | Mod | Packs | Pin | Repo | Ref | Note |
 |---|---|---|---|---|---|
@@ -176,9 +175,10 @@ Goal: read each mod's source (item list, config, data, recipes) at the ref that 
 | ae2helpers | VL | `ae2helpers-1.0.1.jar` | [Rearth/ae2helpers](https://github.com/Rearth/ae2helpers) | none |  |
 | Ars Elemancy | EL | `ars_elemancy-1.21.1-1.18.3.jar` | [Alexthw46/Ars-Elemancy](https://github.com/Alexthw46/Ars-Elemancy) | none |  |
 | AutoEMC | IL | `autoemc-2.1.1.jar` | [yifayun/Auto-EMC](https://github.com/yifayun/Auto-EMC) | none | Repo is Auto EMC Burner (1.20.1 in the listing); pin autoemc-2.1.1 may be a different project. Check. |
-| Better Fusion Reactor for Mekanism PLUS | VL | `BetterFusionReactor-1.21.1-1.5.9rc1.jar` | [igentuman/Better-Fusion-Reactor](https://github.com/igentuman/Better-Fusion-Reactor) | none |  |
 | Botany Pots Tiers | EIL | `botanypotstiers-neoforge-1.21.1-7.0.11.jar` | [starforcraft/Botany-Pots-Tiers](https://github.com/starforcraft/Botany-Pots-Tiers) | none |  |
+| Building Wands | VEL | `BuildingWands-neoforge-MC1.21.1-3.0.4.jar` | [nicguzzo/wands](https://github.com/nicguzzo/wands) | none |  |
 | Certain Questing Additions | VEIL | `certain_questing_additions-neoforge-1.1.7+mc1.21.1.jar` | [HollowHorizon/CertainQuestingAdditions](https://github.com/HollowHorizon/CertainQuestingAdditions) | none |  |
+| Cloth Config API (Fabric/Forge/NeoForge) | VEIL | `cloth-config-15.0.140-neoforge.jar` | [shedaniel/cloth-config](https://github.com/shedaniel/cloth-config) | none |  |
 | Cucumber Library | EL | `Cucumber-1.21.1-8.0.16.jar` | [BlakeBr0/Cucumber](https://github.com/BlakeBr0/Cucumber) | none |  |
 | Distraction Free Recipes (EMI / REI / JEI) | VEIL | `distraction_free_recipes-neoforge-1.2.2-1.21.1.jar` | [txnimc/DistractionFreeRecipes](https://github.com/txnimc/DistractionFreeRecipes) | none |  |
 | Improved Village Placement | L | `improved-village-placement-1.2.0-neoforge-21.1.jar` | [Apollounknowndev/improved-village-placement](https://github.com/Apollounknowndev/improved-village-placement) | none |  |

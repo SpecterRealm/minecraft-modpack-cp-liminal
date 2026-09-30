@@ -25,7 +25,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SOURCES = os.path.join(HERE, "..", "docs", "series", "items", "sources.json")
 PACKS = {"V": "verdant", "E": "elysian", "I": "influx", "L": "liminal"}
 MC_VERSIONS = {"1.21", "1.21.1", "21.1", "1.21.11", "1.21.0"}
-BRANCH_PATTERNS = (r"^1\.21\.1", r"1\.21\.1", r"^1\.21\b", r"^1\.21\.x", r"21\.1", r"2101", r"neoforge")
+BRANCH_PATTERNS = (r"(?<![\d.])1\.21\.1(?!\d)", r"(?<![\d.])1\.21\.x", r"(?<![\d.])1\.21(?![\d.]*\d)", r"(?<!\d)21\.1(?!\d)", r"(?<!\d)2101(?!\d)", r"neoforge")
 
 
 def load():
@@ -80,8 +80,9 @@ def pick_ref(tags, heads, vers):
                     suspect = suspect or t
                     continue
                 return t, "tag"
+    usable = [h for h in heads if "fabric" not in h.lower() and "forge-1.20" not in h.lower()]
     for pat in BRANCH_PATTERNS:
-        for h in heads:
+        for h in usable:
             if re.search(pat, h):
                 return h, "branch"
     if suspect:
