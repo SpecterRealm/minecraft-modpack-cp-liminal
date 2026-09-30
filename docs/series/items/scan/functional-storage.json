@@ -1,0 +1,636 @@
+{
+ "repo": "Buuz135/FunctionalStorage",
+ "ref": "1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "functionalstorage"
+ ],
+ "item_count": 74,
+ "compat": [
+  {
+   "id": "jade",
+   "slug": "jade",
+   "evidence": {
+    "compat-import": 3
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 3
+   }
+  },
+  {
+   "id": "titanium",
+   "slug": "titanium",
+   "evidence": {
+    "compat-import": 3,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "functionalstorage:acacia_1": {
+   "kind": "block",
+   "name": "Acacia Drawer (1x1)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:acacia_2": {
+   "kind": "block",
+   "name": "Acacia Drawer (1x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:acacia_4": {
+   "kind": "block",
+   "name": "Acacia Drawer (2x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:armory_cabinet": {
+   "kind": "block",
+   "name": "Armory Cabinet",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:birch_1": {
+   "kind": "block",
+   "name": "Birch Drawer (1x1)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:birch_2": {
+   "kind": "block",
+   "name": "Birch Drawer (1x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:birch_4": {
+   "kind": "block",
+   "name": "Birch Drawer (2x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:cherry_1": {
+   "kind": "block",
+   "name": "Cherry Drawer (1x1)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:cherry_2": {
+   "kind": "block",
+   "name": "Cherry Drawer (1x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:cherry_4": {
+   "kind": "block",
+   "name": "Cherry Drawer (2x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:compacting_drawer": {
+   "kind": "block",
+   "name": "Compacting Drawer",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:compacting_framed_drawer": {
+   "kind": "block",
+   "name": "Framed Compacting Drawer",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:controller_extension": {
+   "kind": "block",
+   "name": "Controller Access Point",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:crimson_1": {
+   "kind": "block",
+   "name": "Crimson Drawer (1x1)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:crimson_2": {
+   "kind": "block",
+   "name": "Crimson Drawer (1x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:crimson_4": {
+   "kind": "block",
+   "name": "Crimson Drawer (2x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:dark_oak_1": {
+   "kind": "block",
+   "name": "Dark Oak Drawer (1x1)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:dark_oak_2": {
+   "kind": "block",
+   "name": "Dark Oak Drawer (1x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:dark_oak_4": {
+   "kind": "block",
+   "name": "Dark Oak Drawer (2x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:ender_drawer": {
+   "kind": "block",
+   "name": "Ender Drawer",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:fluid_1": {
+   "kind": "block",
+   "name": "Fluid Drawer (1x1)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:fluid_2": {
+   "kind": "block",
+   "name": "Fluid Drawer (1x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:fluid_4": {
+   "kind": "block",
+   "name": "Fluid Drawer (2x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:framed_1": {
+   "kind": "block",
+   "name": "Framed Drawer (1x1)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:framed_2": {
+   "kind": "block",
+   "name": "Framed Drawer (1x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:framed_4": {
+   "kind": "block",
+   "name": "Framed Drawer (2x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:framed_controller_extension": {
+   "kind": "block",
+   "name": "Framed Controller Access Point",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:framed_fluid_1": {
+   "kind": "block",
+   "name": "Framed Fluid Drawer (1x1)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:framed_fluid_2": {
+   "kind": "block",
+   "name": "Framed Fluid Drawer (1x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:framed_fluid_4": {
+   "kind": "block",
+   "name": "Framed Fluid Drawer (2x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:framed_simple_compacting_drawer": {
+   "kind": "block",
+   "name": "Framed Simple Compacting Drawer",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:framed_storage_controller": {
+   "kind": "block",
+   "name": "Framed Storage Controller",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:jungle_1": {
+   "kind": "block",
+   "name": "Jungle Drawer (1x1)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:jungle_2": {
+   "kind": "block",
+   "name": "Jungle Drawer (1x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:jungle_4": {
+   "kind": "block",
+   "name": "Jungle Drawer (2x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:mangrove_1": {
+   "kind": "block",
+   "name": "Mangrove Drawer (1x1)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:mangrove_2": {
+   "kind": "block",
+   "name": "Mangrove Drawer (1x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:mangrove_4": {
+   "kind": "block",
+   "name": "Mangrove Drawer (2x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:oak_1": {
+   "kind": "block",
+   "name": "Oak Drawer (1x1)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:oak_2": {
+   "kind": "block",
+   "name": "Oak Drawer (1x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:oak_4": {
+   "kind": "block",
+   "name": "Oak Drawer (2x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:simple_compacting_drawer": {
+   "kind": "block",
+   "name": "Simple Compacting Drawer",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:spruce_1": {
+   "kind": "block",
+   "name": "Spruce Drawer (1x1)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:spruce_2": {
+   "kind": "block",
+   "name": "Spruce Drawer (1x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:spruce_4": {
+   "kind": "block",
+   "name": "Spruce Drawer (2x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:storage_controller": {
+   "kind": "block",
+   "name": "Storage Controller",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:warped_1": {
+   "kind": "block",
+   "name": "Warped Drawer (1x1)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:warped_2": {
+   "kind": "block",
+   "name": "Warped Drawer (1x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:warped_4": {
+   "kind": "block",
+   "name": "Warped Drawer (2x2)",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "drawer:contents": {
+   "kind": "block",
+   "name": "Contents: ",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "drawer:multiplier": {
+   "kind": "block",
+   "name": "Storage multiplier: %s",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "drawer:upgrades": {
+   "kind": "block",
+   "name": "Upgrades:",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "drawer:upgrades.is_creative": {
+   "kind": "block",
+   "name": "Creative",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "drawer:upgrades.is_void": {
+   "kind": "block",
+   "name": "Void",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "drawer:upgrades.none": {
+   "kind": "block",
+   "name": "None",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:collector_upgrade": {
+   "kind": "item",
+   "name": "Collector Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:copper_upgrade": {
+   "kind": "item",
+   "name": "Copper Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:creative_vending_upgrade": {
+   "kind": "item",
+   "name": "Creative Vending Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:diamond_upgrade": {
+   "kind": "item",
+   "name": "Diamond Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:dripping_upgrade": {
+   "kind": "item",
+   "name": "Dripping Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:gold_upgrade": {
+   "kind": "item",
+   "name": "Gold Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:iron_downgrade": {
+   "kind": "item",
+   "name": "Iron Downgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:linking_tool": {
+   "kind": "item",
+   "name": "Linking Tool",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:max_storage_upgrade": {
+   "kind": "item",
+   "name": "Max Storage Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:netherite_upgrade": {
+   "kind": "item",
+   "name": "Netherite Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:obsidian_upgrade": {
+   "kind": "item",
+   "name": "Obsidian Generator Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:puller_upgrade": {
+   "kind": "item",
+   "name": "Puller Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:pusher_upgrade": {
+   "kind": "item",
+   "name": "Pusher Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:redstone_upgrade": {
+   "kind": "item",
+   "name": "Redstone Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:void_upgrade": {
+   "kind": "item",
+   "name": "Void Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "functionalstorage:water_generator_upgrade": {
+   "kind": "item",
+   "name": "Water Generator Upgrade",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "utility:direction": {
+   "kind": "item",
+   "name": "Direction: ",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "utility:downgrade": {
+   "kind": "item",
+   "name": "Downgrades the slots to a max of 64 items",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "utility:slot": {
+   "kind": "item",
+   "name": "Slot: ",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21",
+  "pass": "loop-back",
+  "note": "Candidate scanned for the discovery pass; auto tags only.",
+  "class": "candidate",
+  "purpose": "Candidate (not in any pack)"
+ }
+}

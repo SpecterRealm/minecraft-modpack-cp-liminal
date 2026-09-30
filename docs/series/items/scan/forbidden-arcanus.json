@@ -1,0 +1,2077 @@
+{
+ "repo": "stal111/Forbidden-Arcanus",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "forbidden_arcanus"
+ ],
+ "item_count": 256,
+ "compat": [
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 6
+   }
+  }
+ ],
+ "items": {
+  "forbidden_arcanus:arcane_crystal_block": {
+   "kind": "block",
+   "name": "Arcane Crystal Block",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:arcane_crystal_obelisk": {
+   "kind": "block",
+   "name": "Arcane Crystal Obelisk",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:arcane_crystal_ore": {
+   "kind": "block",
+   "name": "Arcane Crystal Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:arcane_dragon_egg": {
+   "kind": "block",
+   "name": "Arcane Dragon Egg",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:arcane_edelwood_door": {
+   "kind": "block",
+   "name": "Arcane Edelwood Door",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:arcane_edelwood_planks": {
+   "kind": "block",
+   "name": "Arcane Edelwood Planks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:arcane_edelwood_trapdoor": {
+   "kind": "block",
+   "name": "Arcane Edelwood Trapdoor",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:arcane_polished_darkstone": {
+   "kind": "block",
+   "name": "Arcane Polished Darkstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:arcane_polished_darkstone_pillar": {
+   "kind": "block",
+   "name": "Arcane Polished Darkstone Pillar",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:arcane_polished_darkstone_slab": {
+   "kind": "block",
+   "name": "Arcane Polished Darkstone Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:arcane_polished_darkstone_stairs": {
+   "kind": "block",
+   "name": "Arcane Polished Darkstone Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:arcane_polished_darkstone_wall": {
+   "kind": "block",
+   "name": "Arcane Polished Darkstone Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:aurealic_obsidian_skull": {
+   "kind": "block",
+   "name": "Aurealic Obsidian Skull",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:aurum_button": {
+   "kind": "block",
+   "name": "Aurum Button",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:aurum_door": {
+   "kind": "block",
+   "name": "Aurum Door",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:aurum_fence": {
+   "kind": "block",
+   "name": "Aurum Fence",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:aurum_fence_gate": {
+   "kind": "block",
+   "name": "Aurum Fence Gate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:aurum_leaves": {
+   "kind": "block",
+   "name": "Aurum Leaves",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:aurum_log": {
+   "kind": "block",
+   "name": "Aurum Log",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:aurum_planks": {
+   "kind": "block",
+   "name": "Aurum Planks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:aurum_pressure_plate": {
+   "kind": "block",
+   "name": "Aurum Pressure Plate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:aurum_sapling": {
+   "kind": "block",
+   "name": "Aurum Sapling",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:aurum_slab": {
+   "kind": "block",
+   "name": "Aurum Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:aurum_stairs": {
+   "kind": "block",
+   "name": "Aurum Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:aurum_trapdoor": {
+   "kind": "block",
+   "name": "Aurum Trapdoor",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:aurum_wood": {
+   "kind": "block",
+   "name": "Aurum Wood",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:carved_edelwood_log": {
+   "kind": "block",
+   "name": "Carved Edelwood Log",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:chiseled_arcane_polished_darkstone": {
+   "kind": "block",
+   "name": "Chiseled Arcane Polished Darkstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:chiseled_polished_darkstone": {
+   "kind": "block",
+   "name": "Chiseled Polished Darkstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:clibano_core": {
+   "kind": "block",
+   "name": "Clibano Core",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:corrupted_arcane_crystal_block": {
+   "kind": "block",
+   "name": "Corrupted Arcane Crystal Block",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:corrupted_arcane_crystal_obelisk": {
+   "kind": "block",
+   "name": "Corrupted Arcane Crystal Obelisk",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:cracked_obsidian_skull": {
+   "kind": "block",
+   "name": "Cracked Obsidian Skull",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:cracked_polished_darkstone_bricks": {
+   "kind": "block",
+   "name": "Cracked Polished Darkstone Bricks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:cut_soulless_sandstone": {
+   "kind": "block",
+   "name": "Cut Soulless Sandstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:cut_soulless_sandstone_slab": {
+   "kind": "block",
+   "name": "Cut Soulless Sandstone Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:darkstone": {
+   "kind": "block",
+   "name": "Darkstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:darkstone_pedestal": {
+   "kind": "block",
+   "name": "Darkstone Pedestal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:darkstone_slab": {
+   "kind": "block",
+   "name": "Darkstone Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:darkstone_stairs": {
+   "kind": "block",
+   "name": "Darkstone Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:darkstone_wall": {
+   "kind": "block",
+   "name": "Darkstone Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:deepslate_arcane_crystal_ore": {
+   "kind": "block",
+   "name": "Deepslate Arcane Crystal Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:deorum_block": {
+   "kind": "block",
+   "name": "Deorum Block",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:deorum_chain": {
+   "kind": "block",
+   "name": "Deorum Chain",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:deorum_door": {
+   "kind": "block",
+   "name": "Deorum Door",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:deorum_glass": {
+   "kind": "block",
+   "name": "Deorum Glass",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:deorum_glass_pane": {
+   "kind": "block",
+   "name": "Deorum Glass Pane",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:deorum_lantern": {
+   "kind": "block",
+   "name": "Deorum Lantern",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:deorum_soul_lantern": {
+   "kind": "block",
+   "name": "Deorum Soul Lantern",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:deorum_trapdoor": {
+   "kind": "block",
+   "name": "Deorum Trapdoor",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:edelwood_branch": {
+   "kind": "block",
+   "name": "Edelwood Branch",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:edelwood_button": {
+   "kind": "block",
+   "name": "Edelwood Button",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:edelwood_door": {
+   "kind": "block",
+   "name": "Edelwood Door",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:edelwood_fence": {
+   "kind": "block",
+   "name": "Edelwood Fence",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:edelwood_fence_gate": {
+   "kind": "block",
+   "name": "Edelwood Fence Gate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:edelwood_ladder": {
+   "kind": "block",
+   "name": "Edelwood Ladder",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:edelwood_log": {
+   "kind": "block",
+   "name": "Edelwood Log",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:edelwood_planks": {
+   "kind": "block",
+   "name": "Edelwood Planks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:edelwood_pressure_plate": {
+   "kind": "block",
+   "name": "Edelwood Pressure Plate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:edelwood_slab": {
+   "kind": "block",
+   "name": "Edelwood Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:edelwood_stairs": {
+   "kind": "block",
+   "name": "Edelwood Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:edelwood_trapdoor": {
+   "kind": "block",
+   "name": "Edelwood Trapdoor",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:eternal_obsidian_skull": {
+   "kind": "block",
+   "name": "Eternal Obsidian Skull",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:fading_obsidian_skull": {
+   "kind": "block",
+   "name": "Fading Obsidian Skull",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:fragmented_obsidian_skull": {
+   "kind": "block",
+   "name": "Fragmented Obsidian Skull",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:fungyss": {
+   "kind": "block",
+   "name": "Fungyss",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:fungyss_block": {
+   "kind": "block",
+   "name": "Fungyss Block",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:fungyss_button": {
+   "kind": "block",
+   "name": "Fungyss Button",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:fungyss_door": {
+   "kind": "block",
+   "name": "Fungyss Door",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:fungyss_fence": {
+   "kind": "block",
+   "name": "Fungyss Fence",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:fungyss_fence_gate": {
+   "kind": "block",
+   "name": "Fungyss Fence Gate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:fungyss_hyphae": {
+   "kind": "block",
+   "name": "Fungyss Hyphae",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:fungyss_planks": {
+   "kind": "block",
+   "name": "Fungyss Planks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:fungyss_pressure_plate": {
+   "kind": "block",
+   "name": "Fungyss Pressure Plate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:fungyss_slab": {
+   "kind": "block",
+   "name": "Fungyss Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:fungyss_stairs": {
+   "kind": "block",
+   "name": "Fungyss Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:fungyss_stem": {
+   "kind": "block",
+   "name": "Fungyss Stem",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:fungyss_trapdoor": {
+   "kind": "block",
+   "name": "Fungyss Trapdoor",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:gilded_chiseled_polished_darkstone": {
+   "kind": "block",
+   "name": "Gilded Chiseled Polished Darkstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:growing_edelwood": {
+   "kind": "block",
+   "name": "Growing Edelwood",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:hephaestus_forge": {
+   "kind": "block",
+   "name": "Hephaestus Forge",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:hephaestus_forge.slot_unlocked_at": {
+   "kind": "block",
+   "name": "Unlocked at tier %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:hephaestus_forge.tier": {
+   "kind": "block",
+   "name": "Tier %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:hephaestus_forge.tier.at_least": {
+   "kind": "block",
+   "name": "Requires at least tier %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:hephaestus_forge.tier.match_exact": {
+   "kind": "block",
+   "name": "Requires exactly tier %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:magical_farmland": {
+   "kind": "block",
+   "name": "Magical Farmland",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:magnetized_darkstone_pedestal": {
+   "kind": "block",
+   "name": "Magnetized Darkstone Pedestal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:mortar": {
+   "kind": "block",
+   "name": "Mortar",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:nuggety_aurum_leaves": {
+   "kind": "block",
+   "name": "Nuggety Aurum Leaves",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:obsidian_skull": {
+   "kind": "block",
+   "name": "Obsidian Skull",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:obsidiansteel_block": {
+   "kind": "block",
+   "name": "Obsidiansteel Block",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:polished_darkstone": {
+   "kind": "block",
+   "name": "Polished Darkstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:polished_darkstone_brick_slab": {
+   "kind": "block",
+   "name": "Polished Darkstone Brick Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:polished_darkstone_brick_stairs": {
+   "kind": "block",
+   "name": "Polished Darkstone Brick Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:polished_darkstone_brick_wall": {
+   "kind": "block",
+   "name": "Polished Darkstone Brick Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:polished_darkstone_bricks": {
+   "kind": "block",
+   "name": "Polished Darkstone Bricks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:polished_darkstone_button": {
+   "kind": "block",
+   "name": "Polished Darkstone Button",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:polished_darkstone_pressure_plate": {
+   "kind": "block",
+   "name": "Polished Darkstone Pressure Plate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:polished_darkstone_slab": {
+   "kind": "block",
+   "name": "Polished Darkstone Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:polished_darkstone_stairs": {
+   "kind": "block",
+   "name": "Polished Darkstone Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:polished_darkstone_wall": {
+   "kind": "block",
+   "name": "Polished Darkstone Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:polished_soulless_sandstone": {
+   "kind": "block",
+   "name": "Polished Soulless Sandstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:polished_soulless_sandstone_slab": {
+   "kind": "block",
+   "name": "Polished Soulless Sandstone Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:polished_soulless_sandstone_stairs": {
+   "kind": "block",
+   "name": "Polished Soulless Sandstone Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:quantum_core": {
+   "kind": "block",
+   "name": "Quantum Core",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:quantum_injector": {
+   "kind": "block",
+   "name": "Quantum Injector",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:rune_block": {
+   "kind": "block",
+   "name": "Rune Block",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:runic_darkstone": {
+   "kind": "block",
+   "name": "Runic Darkstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:runic_deepslate": {
+   "kind": "block",
+   "name": "Runic Deepslate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:runic_glass": {
+   "kind": "block",
+   "name": "Runic Glass",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:runic_glass_pane": {
+   "kind": "block",
+   "name": "Runic Glass Pane",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:runic_stone": {
+   "kind": "block",
+   "name": "Runic Stone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:soulless_sand": {
+   "kind": "block",
+   "name": "Soulless Sand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:soulless_sandstone": {
+   "kind": "block",
+   "name": "Soulless Sandstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:soulless_sandstone_slab": {
+   "kind": "block",
+   "name": "Soulless Sandstone Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:soulless_sandstone_stairs": {
+   "kind": "block",
+   "name": "Soulless Sandstone Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:soulless_sandstone_wall": {
+   "kind": "block",
+   "name": "Soulless Sandstone Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:stella_arcanum": {
+   "kind": "block",
+   "name": "Stella Arcanum",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:stellarite_block": {
+   "kind": "block",
+   "name": "Stellarite Block",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:stripped_aurum_log": {
+   "kind": "block",
+   "name": "Stripped Aurum Log",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:stripped_aurum_wood": {
+   "kind": "block",
+   "name": "Stripped Aurum Wood",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:tiled_polished_darkstone_bricks": {
+   "kind": "block",
+   "name": "Tiled Polished Darkstone Bricks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:utrem_jar": {
+   "kind": "block",
+   "name": "Utrem Jar",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:yellow_orchid": {
+   "kind": "block",
+   "name": "Yellow Orchid",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:corrupt_lost_soul": {
+   "kind": "entity",
+   "name": "Corrupt Lost Soul",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:dark_trader": {
+   "kind": "entity",
+   "name": "Dark Trader",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:enchanted_lost_soul": {
+   "kind": "entity",
+   "name": "Enchanted Lost Soul",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:lost_soul": {
+   "kind": "entity",
+   "name": "Lost Soul",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:apply_modifier_smithing_template": {
+   "kind": "item",
+   "name": "Smithing Template",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:aquatic_dragon_scale": {
+   "kind": "item",
+   "name": "Aquatic Dragon Scale",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:arcane_bone_meal": {
+   "kind": "item",
+   "name": "Arcane Bone Meal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:arcane_crystal": {
+   "kind": "item",
+   "name": "Arcane Crystal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:arcane_crystal_dust": {
+   "kind": "item",
+   "name": "Arcane Crystal Dust",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:arcane_crystal_dust_speck": {
+   "kind": "item",
+   "name": "Arcane Crystal Dust Speck",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:artisan_relic": {
+   "kind": "item",
+   "name": "Artisan Relic",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:aureal_bottle": {
+   "kind": "item",
+   "name": "Aureal Bottle",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:aureal_tank": {
+   "kind": "item",
+   "name": "Aureal Tank",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:aureal_wardstone": {
+   "kind": "item",
+   "name": "Aureal Wardstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:aurum_boat": {
+   "kind": "item",
+   "name": "Aurum Boat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:aurum_chest_boat": {
+   "kind": "item",
+   "name": "Aurum Chest Boat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:bat_soup": {
+   "kind": "item",
+   "name": "Bat Soup",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:bat_wing": {
+   "kind": "item",
+   "name": "Bat Wing",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:black_quantum_catcher": {
+   "kind": "item",
+   "name": "Black Quantum Catcher",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:blacksmith_gavel_head": {
+   "kind": "item",
+   "name": "Blacksmith Gavel Head",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:blue_quantum_catcher": {
+   "kind": "item",
+   "name": "Blue Quantum Catcher",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:boom_arrow": {
+   "kind": "item",
+   "name": "Boom Arrow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:boss_catcher": {
+   "kind": "item",
+   "name": "Boss Catcher",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:brown_quantum_catcher": {
+   "kind": "item",
+   "name": "Brown Quantum Catcher",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:cooked_tentacle": {
+   "kind": "item",
+   "name": "Cooked Tentacle",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:corrupt_soul": {
+   "kind": "item",
+   "name": "Corrupt Soul",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:corrupted_arcane_crystal": {
+   "kind": "item",
+   "name": "Corrupted Arcane Crystal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:corrupti_dust": {
+   "kind": "item",
+   "name": "Corrupti Dust",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:crescent_moon": {
+   "kind": "item",
+   "name": "Crescent Moon",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:crimson_stone": {
+   "kind": "item",
+   "name": "Crimson Stone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:cyan_quantum_catcher": {
+   "kind": "item",
+   "name": "Cyan Quantum Catcher",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:dark_matter": {
+   "kind": "item",
+   "name": "Dark Matter",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:dark_nether_star": {
+   "kind": "item",
+   "name": "Dark Nether Star",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:deorum_ingot": {
+   "kind": "item",
+   "name": "Deorum Ingot",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:deorum_nugget": {
+   "kind": "item",
+   "name": "Deorum Nugget",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:diamond_blacksmith_gavel": {
+   "kind": "item",
+   "name": "Diamond Blacksmith Gavel",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:divine_pact": {
+   "kind": "item",
+   "name": "Divine Pact",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:draco_arcanus_arrow": {
+   "kind": "item",
+   "name": "Draco Arcanus Arrow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:draco_arcanus_axe": {
+   "kind": "item",
+   "name": "Draco Arcanus Axe",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:draco_arcanus_boots": {
+   "kind": "item",
+   "name": "Draco Arcanus Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:draco_arcanus_chestplate": {
+   "kind": "item",
+   "name": "Draco Arcanus Chestplate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:draco_arcanus_helmet": {
+   "kind": "item",
+   "name": "Draco Arcanus Helmet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:draco_arcanus_hoe": {
+   "kind": "item",
+   "name": "Draco Arcanus Hoe",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:draco_arcanus_leggings": {
+   "kind": "item",
+   "name": "Draco Arcanus Leggings",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:draco_arcanus_pickaxe": {
+   "kind": "item",
+   "name": "Draco Arcanus Pickaxe",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:draco_arcanus_scepter": {
+   "kind": "item",
+   "name": "Draco Arcanus Scepter",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:draco_arcanus_shovel": {
+   "kind": "item",
+   "name": "Draco Arcanus Shovel",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:draco_arcanus_staff": {
+   "kind": "item",
+   "name": "Draco Arcanus Staff",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:draco_arcanus_sword": {
+   "kind": "item",
+   "name": "Draco Arcanus Sword",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:dragon_scale": {
+   "kind": "item",
+   "name": "Dragon Scale",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:edelwood_boat": {
+   "kind": "item",
+   "name": "Edelwood Boat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:edelwood_bucket": {
+   "kind": "item",
+   "name": "Edelwood Bucket",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:edelwood_chest_boat": {
+   "kind": "item",
+   "name": "Edelwood Chest Boat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:edelwood_lava_bucket": {
+   "kind": "item",
+   "name": "Edelwood Lava Bucket",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:edelwood_milk_bucket": {
+   "kind": "item",
+   "name": "Edelwood Milk Bucket",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:edelwood_oil": {
+   "kind": "item",
+   "name": "Edelwood Oil",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:edelwood_stick": {
+   "kind": "item",
+   "name": "Edelwood Stick",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:edelwood_water_bucket": {
+   "kind": "item",
+   "name": "Edelwood Water Bucket",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:elementarium": {
+   "kind": "item",
+   "name": "Elementarium",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:enchanted_soul": {
+   "kind": "item",
+   "name": "Enchanted Soul",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:ender_pearl_fragment": {
+   "kind": "item",
+   "name": "Ender Pearl Fragment",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:enhancer": {
+   "kind": "item",
+   "name": "Enhancer Relic",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:enhancer.artisan_relic.clibano": {
+   "kind": "item",
+   "name": "Allows you to create new alloys.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:enhancer.artisan_relic.hephaestus_forge": {
+   "kind": "item",
+   "name": "Saves you a lot of experience.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:enhancer.clibano_effect": {
+   "kind": "item",
+   "name": "Clibano effect:",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:enhancer.crescent_moon.hephaestus_forge": {
+   "kind": "item",
+   "name": "Reduces the required Aureal depending on the time of the day.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:enhancer.crimson_stone.clibano": {
+   "kind": "item",
+   "name": "Used souls will last longer. (Soon)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:enhancer.crimson_stone.hephaestus_forge": {
+   "kind": "item",
+   "name": "Heavily decreases the amount of required souls.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:enhancer.divine_pact.hephaestus_forge": {
+   "kind": "item",
+   "name": "Allows the creation of celestial items.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:enhancer.elementarium.hephaestus_forge": {
+   "kind": "item",
+   "name": "Allows the creation of elemental items.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:enhancer.hephaestus_forge_effect": {
+   "kind": "item",
+   "name": "Hephaestus Forge effect:",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:enhancer.maledictus_pact.hephaestus_forge": {
+   "kind": "item",
+   "name": "Allows the creation of cursed items.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:enhancer.soul_crimson_stone.hephaestus_forge": {
+   "kind": "item",
+   "name": "Completely removes the essence requirement for one ritual.",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:eternal_stella": {
+   "kind": "item",
+   "name": "Eternal Stella",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:ferrognetic_mixture": {
+   "kind": "item",
+   "name": "Ferrognetic Mixture",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:golden_blacksmith_gavel": {
+   "kind": "item",
+   "name": "Golden Blacksmith Gavel",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:golden_dragon_scale": {
+   "kind": "item",
+   "name": "Golden Dragon Scale",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:gray_quantum_catcher": {
+   "kind": "item",
+   "name": "Gray Quantum Catcher",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:green_quantum_catcher": {
+   "kind": "item",
+   "name": "Green Quantum Catcher",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:iron_blacksmith_gavel": {
+   "kind": "item",
+   "name": "Iron Blacksmith Gavel",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:light_blue_quantum_catcher": {
+   "kind": "item",
+   "name": "Light Blue Quantum Catcher",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:light_gray_quantum_catcher": {
+   "kind": "item",
+   "name": "Light Gray Quantum Catcher",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:lime_quantum_catcher": {
+   "kind": "item",
+   "name": "Lime Quantum Catcher",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:magenta_quantum_catcher": {
+   "kind": "item",
+   "name": "Magenta Quantum Catcher",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:magic_wand": {
+   "kind": "item",
+   "name": "Magic Wand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:maledictus_pact": {
+   "kind": "item",
+   "name": "Maledictus Pact",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:mortem_boots": {
+   "kind": "item",
+   "name": "Mortem Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:mortem_chestplate": {
+   "kind": "item",
+   "name": "Mortem Chestplate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:mortem_helmet": {
+   "kind": "item",
+   "name": "Mortem Helmet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:mortem_leggings": {
+   "kind": "item",
+   "name": "Mortem Leggings",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:mundabitur_dust": {
+   "kind": "item",
+   "name": "Mundabitur Dust",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:netherite_blacksmith_gavel": {
+   "kind": "item",
+   "name": "Netherite Blacksmith Gavel",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:obsidiansteel_ingot": {
+   "kind": "item",
+   "name": "Obsidiansteel Ingot",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:orange_quantum_catcher": {
+   "kind": "item",
+   "name": "Orange Quantum Catcher",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:pink_quantum_catcher": {
+   "kind": "item",
+   "name": "Pink Quantum Catcher",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:purple_quantum_catcher": {
+   "kind": "item",
+   "name": "Purple Quantum Catcher",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:quantum_catcher": {
+   "kind": "item",
+   "name": "Quantum Catcher",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:red_quantum_catcher": {
+   "kind": "item",
+   "name": "Red Quantum Catcher",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:reinforced_deorum_blacksmith_gavel": {
+   "kind": "item",
+   "name": "Reinforced Deorum Blacksmith Gavel",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:rune": {
+   "kind": "item",
+   "name": "Rune",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:sea_prism": {
+   "kind": "item",
+   "name": "Sea Prism",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:silver_dragon_scale": {
+   "kind": "item",
+   "name": "Silver Dragon Scale",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:smelter_prism": {
+   "kind": "item",
+   "name": "Smelter Prism",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:smithing_template.darkstone_upgrade.applies_to": {
+   "kind": "item",
+   "name": "Equipment",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:smithing_template.darkstone_upgrade.ingredients": {
+   "kind": "item",
+   "name": "Modifier Item",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:soul": {
+   "kind": "item",
+   "name": "Soul",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:soul_binding_crystal": {
+   "kind": "item",
+   "name": "Soul Binding Crystal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:soul_crimson_stone": {
+   "kind": "item",
+   "name": "Soul Crimson Stone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:soul_extractor": {
+   "kind": "item",
+   "name": "Soul Extractor",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:spawner_scrap": {
+   "kind": "item",
+   "name": "Spawner Scrap",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:spectral_eye_amulet": {
+   "kind": "item",
+   "name": "Spectral Eye Amulet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:splash_aureal_bottle": {
+   "kind": "item",
+   "name": "Splash Aureal Bottle",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:stellarite_piece": {
+   "kind": "item",
+   "name": "Stellarite Piece",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:stone_blacksmith_gavel": {
+   "kind": "item",
+   "name": "Stone Blacksmith Gavel",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:stored_entity": {
+   "kind": "item",
+   "name": "Entity: %s",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:stored_entity.with_name": {
+   "kind": "item",
+   "name": "Entity: %s (%s)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:tentacle": {
+   "kind": "item",
+   "name": "Tentacle",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:terrastomp_prism": {
+   "kind": "item",
+   "name": "Terrastomp Prism",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:test_tube": {
+   "kind": "item",
+   "name": "Test Tube",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:toggle_state": {
+   "kind": "item",
+   "name": "(Right-Click to toggle)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:toggle_state.activated": {
+   "kind": "item",
+   "name": "Activated",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:toggle_state.deactivated": {
+   "kind": "item",
+   "name": "Deactivated",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:tyr_boots": {
+   "kind": "item",
+   "name": "Tyr Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:tyr_chestplate": {
+   "kind": "item",
+   "name": "Tyr Chestplate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:tyr_helmet": {
+   "kind": "item",
+   "name": "Tyr Helmet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:tyr_leggings": {
+   "kind": "item",
+   "name": "Tyr Leggings",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:wax": {
+   "kind": "item",
+   "name": "Wax",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:whirlwind_prism": {
+   "kind": "item",
+   "name": "Whirlwind Prism",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:white_quantum_catcher": {
+   "kind": "item",
+   "name": "White Quantum Catcher",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:wooden_blacksmith_gavel": {
+   "kind": "item",
+   "name": "Wooden Blacksmith Gavel",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:xpetrified_orb": {
+   "kind": "item",
+   "name": "Xpetrified Orb",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forbidden_arcanus:yellow_quantum_catcher": {
+   "kind": "item",
+   "name": "Yellow Quantum Catcher",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "Candidate scanned for the discovery pass; auto tags only.",
+  "class": "candidate",
+  "purpose": "Candidate (not in any pack)"
+ }
+}

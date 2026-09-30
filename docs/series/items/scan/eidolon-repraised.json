@@ -1,0 +1,733 @@
+{
+ "repo": "Elucent/eidolon",
+ "ref": "default",
+ "ref_kind": "none",
+ "mod_ids": [
+  "eidolon"
+ ],
+ "item_count": 89,
+ "compat": [],
+ "items": {
+  "eidolon:lead_ingot": {
+   "kind": "item",
+   "name": "Lead Ingot",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:lead_nugget": {
+   "kind": "item",
+   "name": "Lead Nugget",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:pewter_blend": {
+   "kind": "item",
+   "name": "Pewter Blend",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:pewter_ingot": {
+   "kind": "item",
+   "name": "Pewter Ingot",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:pewter_nugget": {
+   "kind": "item",
+   "name": "Pewter Nugget",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:pewter_inlay": {
+   "kind": "item",
+   "name": "Pewter Inlay",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:arcane_gold_ingot": {
+   "kind": "item",
+   "name": "Arcane Gold Ingot",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:arcane_gold_nugget": {
+   "kind": "item",
+   "name": "Arcane Gold Nugget",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:gold_inlay": {
+   "kind": "item",
+   "name": "Gold Inlay",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:top_hat": {
+   "kind": "item",
+   "name": "Top Hat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:basic_ring": {
+   "kind": "item",
+   "name": "Basic Ring",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:basic_amulet": {
+   "kind": "item",
+   "name": "Basic Amulet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:basic_belt": {
+   "kind": "item",
+   "name": "Basic Belt",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:shadow_gem": {
+   "kind": "item",
+   "name": "Shadow Gem",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:sulfur": {
+   "kind": "item",
+   "name": "Sulfur",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:wraith_heart": {
+   "kind": "item",
+   "name": "Wraith Heart",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:zombie_heart": {
+   "kind": "item",
+   "name": "Zombie Heart",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:tattered_cloth": {
+   "kind": "item",
+   "name": "Tattered Cloth",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:soul_shard": {
+   "kind": "item",
+   "name": "Soul Shard",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:crimson_essence": {
+   "kind": "item",
+   "name": "Refined Crimson",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:fungus_sprouts": {
+   "kind": "item",
+   "name": "Sprouting Fungus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:warped_sprouts": {
+   "kind": "item",
+   "name": "Warped Sprouts",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:ender_calx": {
+   "kind": "item",
+   "name": "Calx of End",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:tallow": {
+   "kind": "item",
+   "name": "Tallow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:lesser_soul_gem": {
+   "kind": "item",
+   "name": "Lesser Soul Gem",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:unholy_symbol": {
+   "kind": "item",
+   "name": "Unholy Symbol",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:reaper_scythe": {
+   "kind": "item",
+   "name": "Reaper's Scythe",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:cleaving_axe": {
+   "kind": "item",
+   "name": "Axe of Cleaving",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:sapping_sword": {
+   "kind": "item",
+   "name": "Sword of Sapping",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:wicked_weave": {
+   "kind": "item",
+   "name": "Wicked Weave",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:warlock_hat": {
+   "kind": "item",
+   "name": "Warlock's Hat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:warlock_cloak": {
+   "kind": "item",
+   "name": "Warlock's Cloak",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:warlock_boots": {
+   "kind": "item",
+   "name": "Warlock's Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:void_amulet": {
+   "kind": "item",
+   "name": "Void Amulet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:warded_mail": {
+   "kind": "item",
+   "name": "Warded Mail",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:mind_shielding_plate": {
+   "kind": "item",
+   "name": "Mind-Shielding Plate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:prestigious_palm": {
+   "kind": "item",
+   "name": "Prestigious Palm",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:gravity_belt": {
+   "kind": "item",
+   "name": "Gravity Belt",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:resolute_belt": {
+   "kind": "item",
+   "name": "Resolute Belt",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:soulfire_wand": {
+   "kind": "item",
+   "name": "Soulfire Wand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:bonechill_wand": {
+   "kind": "item",
+   "name": "Bonechill Wand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:spawn_wraith": {
+   "kind": "item",
+   "name": "Spawn Wraith",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:spawn_zombie_brute": {
+   "kind": "item",
+   "name": "Spawn Zombie Brute",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:spawn_necromancer": {
+   "kind": "item",
+   "name": "Spawn Necromancer",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:codex": {
+   "kind": "item",
+   "name": "Ars Ecclesia",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:music_disc_parousia": {
+   "kind": "item",
+   "name": "Music Disc",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:reversal_pick": {
+   "kind": "item",
+   "name": "Pickaxe of Inversion",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:glass_hand": {
+   "kind": "item",
+   "name": "Glass Hand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:lead_block": {
+   "kind": "block",
+   "name": "Lead Block",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:lead_ore": {
+   "kind": "block",
+   "name": "Lead Ore",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:pewter_block": {
+   "kind": "block",
+   "name": "Pewter Block",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:arcane_gold_block": {
+   "kind": "block",
+   "name": "Arcane Gold Block",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:smooth_stone_bricks": {
+   "kind": "block",
+   "name": "Smooth Stone Bricks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:smooth_stone_bricks_slab": {
+   "kind": "block",
+   "name": "Smooth Stone Bricks Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:smooth_stone_bricks_stairs": {
+   "kind": "block",
+   "name": "Smooth Stone Bricks Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:smooth_stone_bricks_wall": {
+   "kind": "block",
+   "name": "Smooth Stone Bricks Wall",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:smooth_stone_tiles": {
+   "kind": "block",
+   "name": "Smooth Stone Tiles",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:smooth_stone_tiles_slab": {
+   "kind": "block",
+   "name": "Smooth Stone Tiles Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:smooth_stone_tiles_stairs": {
+   "kind": "block",
+   "name": "Smooth Stone Tiles Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:polished_planks": {
+   "kind": "block",
+   "name": "Polished Wood Planks",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:polished_planks_slab": {
+   "kind": "block",
+   "name": "Polished Wood Slab",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:polished_planks_stairs": {
+   "kind": "block",
+   "name": "Polished Wood Stairs",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:polished_planks_fence": {
+   "kind": "block",
+   "name": "Polished Wood Fence",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:polished_planks_fence_gate": {
+   "kind": "block",
+   "name": "Polished Wood Fence Gate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:polished_wood_pillar": {
+   "kind": "block",
+   "name": "Polished Wood Pillar",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:brazier": {
+   "kind": "block",
+   "name": "Brazier",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:planter": {
+   "kind": "block",
+   "name": "Planter",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:crucible": {
+   "kind": "block",
+   "name": "Crucible",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:crafting_altar": {
+   "kind": "block",
+   "name": "Crafting Altar",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:plinth": {
+   "kind": "block",
+   "name": "Plinth",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:stone_hand": {
+   "kind": "block",
+   "name": "Stone Hand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:enchanted_ash": {
+   "kind": "block",
+   "name": "Enchanted Ash",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:necrotic_focus": {
+   "kind": "block",
+   "name": "Necrotic Focus",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:wooden_altar": {
+   "kind": "block",
+   "name": "Wooden Altar",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:stone_altar": {
+   "kind": "block",
+   "name": "Stone Altar",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:candle": {
+   "kind": "block",
+   "name": "Candle",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:candlestick": {
+   "kind": "block",
+   "name": "Candlestick",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:goblet": {
+   "kind": "block",
+   "name": "Goblet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:unholy_effigy": {
+   "kind": "block",
+   "name": "Elder Statue",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:straw_effigy": {
+   "kind": "block",
+   "name": "Straw Effigy",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:worktable": {
+   "kind": "block",
+   "name": "Magic Workbench",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:soul_enchanter": {
+   "kind": "block",
+   "name": "Soul Enchanter",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:wooden_brewing_stand": {
+   "kind": "block",
+   "name": "Apothecary Stand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:zombie_brute": {
+   "kind": "entity",
+   "name": "Zombie Brute",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:wraith": {
+   "kind": "entity",
+   "name": "Wraith",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:necromancer": {
+   "kind": "entity",
+   "name": "Necromancer",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:soulfire_projectile": {
+   "kind": "entity",
+   "name": "Soulfire Projectile",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:bonechill_projectile": {
+   "kind": "entity",
+   "name": "Bonechill Projectile",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "eidolon:chant_caster": {
+   "kind": "entity",
+   "name": "Chant Caster",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "default",
+  "pass": "loop-back",
+  "note": "Candidate scanned for the discovery pass; auto tags only.",
+  "class": "candidate",
+  "purpose": "Candidate (not in any pack)"
+ }
+}

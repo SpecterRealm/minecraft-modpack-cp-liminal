@@ -1,0 +1,781 @@
+{
+ "repo": "WayofTime/BloodMagic",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "bloodmagic"
+ ],
+ "item_count": 95,
+ "compat": [],
+ "items": {
+  "bloodmagic:alchemy_table": {
+   "kind": "block",
+   "name": "Alchemy Table",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:arc": {
+   "kind": "block",
+   "name": "Alchemical Reaction Chamber",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:blood_altar": {
+   "kind": "block",
+   "name": "Blood Altar",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:blood_tank": {
+   "kind": "block",
+   "name": "Blood Tank",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:bloodstone": {
+   "kind": "block",
+   "name": "Polished Bloodstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:bloodstone_brick": {
+   "kind": "block",
+   "name": "Bloodstone Brick",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:crystal_cluster": {
+   "kind": "block",
+   "name": "Crystal Cluster",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:crystal_cluster_brick": {
+   "kind": "block",
+   "name": "Crystal Cluster Brick",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:doubt_block": {
+   "kind": "block",
+   "name": "Liquid Doubt",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:hellfire_forge": {
+   "kind": "block",
+   "name": "Hellfire Forge",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:hellforged_block": {
+   "kind": "block",
+   "name": "Hellforged Block",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:life_essence_block": {
+   "kind": "block",
+   "name": "Life Essence",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:living_station": {
+   "kind": "block",
+   "name": "Living Upgrade Station",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:ritual_stone_imperfect": {
+   "kind": "block",
+   "name": "Imperfect Ritual Stone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:rune_2_acceleration": {
+   "kind": "block",
+   "name": "Reinforced Acceleration Rune",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:rune_2_capacity": {
+   "kind": "block",
+   "name": "Reinforced Capacity Rune",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:rune_2_capacity_augmented": {
+   "kind": "block",
+   "name": "Reinforced Augmented Capacity Rune",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:rune_2_charging": {
+   "kind": "block",
+   "name": "Reinforced Charging Rune",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:rune_2_dislocation": {
+   "kind": "block",
+   "name": "Reinforced Displacement Rune",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:rune_2_efficiency": {
+   "kind": "block",
+   "name": "Reinforced Rune of Efficiency",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:rune_2_orb": {
+   "kind": "block",
+   "name": "Reinforced Rune of the Orb",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:rune_2_sacrifice": {
+   "kind": "block",
+   "name": "Reinforced Rune of Sacrifice",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:rune_2_sacrifice_self": {
+   "kind": "block",
+   "name": "Reinforced Rune of Self Sacrifice",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:rune_2_speed": {
+   "kind": "block",
+   "name": "Reinforced Speed Rune",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:rune_acceleration": {
+   "kind": "block",
+   "name": "Acceleration Rune",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:rune_blank": {
+   "kind": "block",
+   "name": "Blank Rune",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:rune_capacity": {
+   "kind": "block",
+   "name": "Capacity Rune",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:rune_capacity_augmented": {
+   "kind": "block",
+   "name": "Augmented Capacity Rune",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:rune_charging": {
+   "kind": "block",
+   "name": "Charging Rune",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:rune_dislocation": {
+   "kind": "block",
+   "name": "Displacement Rune",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:rune_efficiency": {
+   "kind": "block",
+   "name": "Rune of Efficiency",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:rune_orb": {
+   "kind": "block",
+   "name": "Rune of the Orb",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:rune_sacrifice": {
+   "kind": "block",
+   "name": "Rune of Sacrifice",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:rune_sacrifice_self": {
+   "kind": "block",
+   "name": "Rune of Self Sacrifice",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:rune_speed": {
+   "kind": "block",
+   "name": "Speed Rune",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:doubt_fluid": {
+   "kind": "fluid",
+   "name": "Liquid Doubt",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:life_essence_fluid": {
+   "kind": "fluid",
+   "name": "Life Essence",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:blood_orb_apprentice": {
+   "kind": "item",
+   "name": "Apprentice Blood Orb",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:blood_orb_archmage": {
+   "kind": "item",
+   "name": "Archmage Blood Orb",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:blood_orb_magician": {
+   "kind": "item",
+   "name": "Magician Blood Orb",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:blood_orb_master": {
+   "kind": "item",
+   "name": "Master Blood Orb",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:blood_orb_transcendent": {
+   "kind": "item",
+   "name": "Transcendent Blood Orb",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:blood_orb_weak": {
+   "kind": "item",
+   "name": "Weak Blood Orb",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:doubt_bucket": {
+   "kind": "item",
+   "name": "Doubt Bucket",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:life_essence_bucket": {
+   "kind": "item",
+   "name": "Bucket of Life",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:living_boots": {
+   "kind": "item",
+   "name": "Living Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:living_helmet": {
+   "kind": "item",
+   "name": "Living Helmet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:living_leggings": {
+   "kind": "item",
+   "name": "Living Leggings",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:living_plate": {
+   "kind": "item",
+   "name": "Living Plate",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:raw_will": {
+   "kind": "item",
+   "name": "Raw Will",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:sacrificial_dagger": {
+   "kind": "item",
+   "name": "Sacrificial Dagger",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:sigil.divination": {
+   "kind": "item",
+   "name": "Divination Sigil",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:sigil.invalid": {
+   "kind": "item",
+   "name": "INVALID - NO TYPE",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:sigil.lava": {
+   "kind": "item",
+   "name": "Lava Sigil",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:sigil.miner": {
+   "kind": "item",
+   "name": "Sigil of the Fast Miner",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:sigil.seer": {
+   "kind": "item",
+   "name": "Seer Sigil",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:sigil.void": {
+   "kind": "item",
+   "name": "Void Sigil",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:sigil.water": {
+   "kind": "item",
+   "name": "Water Sigil",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:soul_gem_common": {
+   "kind": "item",
+   "name": "Common Tartaric Gem",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:soul_gem_grand": {
+   "kind": "item",
+   "name": "Grand Tartaric Gem",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:soul_gem_greater": {
+   "kind": "item",
+   "name": "Greater Tartaric Gem",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:soul_gem_lesser": {
+   "kind": "item",
+   "name": "Lesser Tartaric Gem",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:soul_gem_petty": {
+   "kind": "item",
+   "name": "Petty Tartaric Gem",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:synthetic_point": {
+   "kind": "item",
+   "name": "Synthetic Upgrade Points",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:training_bracelet": {
+   "kind": "item",
+   "name": "Living Training Bracelet",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_scrap": {
+   "kind": "item",
+   "name": "Upgrade Tome Scrap",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome": {
+   "kind": "item",
+   "name": "Upgrade Tome",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.arrow_protect": {
+   "kind": "item",
+   "name": "Upgrade Tome (Pin Cushion)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.battle_hungry": {
+   "kind": "item",
+   "name": "Upgrade Tome (Battle Hungry)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.crippled_arm": {
+   "kind": "item",
+   "name": "Upgrade Tome (Crippled Arm)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.dig_slowdown": {
+   "kind": "item",
+   "name": "Upgrade Tome (Leadened Pick)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.digging": {
+   "kind": "item",
+   "name": "Upgrade Tome (Dwarven Might)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.elytra": {
+   "kind": "item",
+   "name": "Upgrade Tome (Elytra)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.experienced": {
+   "kind": "item",
+   "name": "Upgrade Tome (Experienced)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.fall_protect": {
+   "kind": "item",
+   "name": "Upgrade Tome (Soft Fall)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.fire_resist": {
+   "kind": "item",
+   "name": "Upgrade Tome (Gift of Ignis)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.gilded": {
+   "kind": "item",
+   "name": "Upgrade Tome (Gilded)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.health": {
+   "kind": "item",
+   "name": "Upgrade Tome (Healthy)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.jump": {
+   "kind": "item",
+   "name": "Upgrade Tome (Strong Legs)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.knockback_resist": {
+   "kind": "item",
+   "name": "Upgrade Tome (Body Builder)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.luck": {
+   "kind": "item",
+   "name": "Upgrade Tome (Skilled)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.melee_damage": {
+   "kind": "item",
+   "name": "Upgrade Tome (Fierce Strike)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.melee_decrease": {
+   "kind": "item",
+   "name": "Upgrade Tome (Dulled Blade)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.netherite_protect": {
+   "kind": "item",
+   "name": "Upgrade Tome (Forgotten)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.physical_protect": {
+   "kind": "item",
+   "name": "Upgrade Tome (Tough)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.poison_resist": {
+   "kind": "item",
+   "name": "Upgrade Tome (Poison Resistance)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.quenched": {
+   "kind": "item",
+   "name": "Upgrade Tome (Quenched)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.repair": {
+   "kind": "item",
+   "name": "Upgrade Tome (Repair)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.self_sacrifice": {
+   "kind": "item",
+   "name": "Upgrade Tome (Tough Palms)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.slow_heal": {
+   "kind": "item",
+   "name": "Upgrade Tome (Slow Heal)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.speed": {
+   "kind": "item",
+   "name": "Upgrade Tome (Quick Feet)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.speed_decrease": {
+   "kind": "item",
+   "name": "Upgrade Tome (Limp Leg)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.sprint_attack": {
+   "kind": "item",
+   "name": "Upgrade Tome (Charging Strike)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.storm_trooper": {
+   "kind": "item",
+   "name": "Upgrade Tome (Storm Trooper)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bloodmagic:upgrade_tome.swim_decrease": {
+   "kind": "item",
+   "name": "Upgrade Tome (Concrete Shoes)",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "Candidate scanned for the discovery pass; auto tags only.",
+  "class": "candidate",
+  "purpose": "Candidate (not in any pack)"
+ }
+}

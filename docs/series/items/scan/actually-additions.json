@@ -1,0 +1,2631 @@
+{
+ "repo": "Ellpeck/ActuallyAdditions",
+ "ref": "1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "actuallyadditions"
+ ],
+ "item_count": 286,
+ "compat": [
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "fastbench",
+   "slug": "fastworkbench",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "mekanism",
+   "slug": "mekanism",
+   "evidence": {
+    "data-ref": 5
+   }
+  },
+  {
+   "id": "patchouli",
+   "slug": "patchouli",
+   "evidence": {
+    "isLoaded": 2
+   }
+  },
+  {
+   "id": "powah",
+   "slug": "powah",
+   "evidence": {
+    "data-ref": 1
+   }
+  }
+ ],
+ "items": {
+  "actuallyadditions:refined_canola_oil": {
+   "kind": "block",
+   "name": "Refined Canola Oil",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:canola_oil": {
+   "kind": "block",
+   "name": "Canola Oil",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:crystallized_oil": {
+   "kind": "block",
+   "name": "Crystallized Oil",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:empowered_oil": {
+   "kind": "block",
+   "name": "Empowered Oil",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "minecraft:villager.actuallyadditions.engineer": {
+   "kind": "entity",
+   "name": "Engineer",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:black_quartz_ore": {
+   "kind": "block",
+   "name": "Black Quartz Ore",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:black_quartz_block": {
+   "kind": "block",
+   "name": "Block of Black Quartz",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:chiseled_black_quartz_block": {
+   "kind": "block",
+   "name": "Chiseled Black Quartz",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:black_quartz_pillar_block": {
+   "kind": "block",
+   "name": "Pillar of Black Quartz",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:smooth_black_quartz_block": {
+   "kind": "block",
+   "name": "Smooth Black Quartz",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:black_quartz_brick_block": {
+   "kind": "block",
+   "name": "Black Quartz Bricks",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:feeder": {
+   "kind": "block",
+   "name": "Automatic Feeder",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:crusher": {
+   "kind": "block",
+   "name": "Crusher",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:crusher_double": {
+   "kind": "block",
+   "name": "Double Crusher",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:powered_furnace": {
+   "kind": "block",
+   "name": "Powered Furnace",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:heat_collector": {
+   "kind": "block",
+   "name": "Heat Collector",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:wood_casing": {
+   "kind": "block",
+   "name": "Wood Casing",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:greenhouse_glass": {
+   "kind": "block",
+   "name": "Greenhouse Glass",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:energizer": {
+   "kind": "block",
+   "name": "Energizer",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:enervator": {
+   "kind": "block",
+   "name": "Enervator",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:rice": {
+   "kind": "item",
+   "name": "Rice",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:coal_generator": {
+   "kind": "block",
+   "name": "Coal Generator",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lamp_controller": {
+   "kind": "block",
+   "name": "Lamp Controller (WIP)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lamp_white": {
+   "kind": "block",
+   "name": "White Lamp",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lamp_orange": {
+   "kind": "block",
+   "name": "Orange Lamp",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lamp_magenta": {
+   "kind": "block",
+   "name": "Magenta Lamp",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lamp_yellow": {
+   "kind": "block",
+   "name": "Yellow Lamp",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lamp_light_blue": {
+   "kind": "block",
+   "name": "Light Blue Lamp",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lamp_blue": {
+   "kind": "block",
+   "name": "Blue Lamp",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lamp_gray": {
+   "kind": "block",
+   "name": "Gray Lamp",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lamp_light_gray": {
+   "kind": "block",
+   "name": "Light Gray Lamp",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lamp_green": {
+   "kind": "block",
+   "name": "Green Lamp",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lamp_black": {
+   "kind": "block",
+   "name": "Black Lamp",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lamp_brown": {
+   "kind": "block",
+   "name": "Brown Lamp",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lamp_red": {
+   "kind": "block",
+   "name": "Red Lamp",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lamp_lime": {
+   "kind": "block",
+   "name": "Lime Lamp",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lamp_pink": {
+   "kind": "block",
+   "name": "Pink Lamp",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lamp_cyan": {
+   "kind": "block",
+   "name": "Cyan Lamp",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lamp_purple": {
+   "kind": "block",
+   "name": "Purple Lamp",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:phantom_itemface": {
+   "kind": "block",
+   "name": "Phantom Itemface",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:player_interface": {
+   "kind": "block",
+   "name": "Player Interface",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:phantom_energyface": {
+   "kind": "block",
+   "name": "Phantom Energyface",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:phantom_redstoneface": {
+   "kind": "block",
+   "name": "Phantom Redstoneface",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:phantom_liquiface": {
+   "kind": "block",
+   "name": "Phantom Liquiface",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:phantom_placer": {
+   "kind": "block",
+   "name": "Phantom Placer",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:phantom_breaker": {
+   "kind": "block",
+   "name": "Phantom Breaker",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lava_factory_controller": {
+   "kind": "block",
+   "name": "Lava Factory Controller",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lava_factory_casing": {
+   "kind": "block",
+   "name": "Lava Factory Casing",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:fluid_placer": {
+   "kind": "block",
+   "name": "Fluid Placer",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:fluid_collector": {
+   "kind": "block",
+   "name": "Fluid Collector",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:phantom_booster": {
+   "kind": "block",
+   "name": "Range Booster",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:coffee": {
+   "kind": "block",
+   "name": "Coffee Plant",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:ethetic_green_block": {
+   "kind": "block",
+   "name": "Ethetic Green Quartz",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:ethetic_white_block": {
+   "kind": "block",
+   "name": "Ethetic Quartz",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:ethetic_green_stairs": {
+   "kind": "block",
+   "name": "Ethetic Green Quartz Stairs",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:ethetic_white_stairs": {
+   "kind": "block",
+   "name": "Ethetic Quartz Stairs",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:ethetic_green_slab": {
+   "kind": "block",
+   "name": "Ethetic Green Quartz Slab",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:ethetic_white_slab": {
+   "kind": "block",
+   "name": "Ethetic Quartz Slab",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:canola": {
+   "kind": "item",
+   "name": "Canola",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:canola_press": {
+   "kind": "block",
+   "name": "Canola Press",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:fermenting_barrel": {
+   "kind": "block",
+   "name": "Fermenting Barrel",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:oil_generator": {
+   "kind": "block",
+   "name": "Oil Generator",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:breaker": {
+   "kind": "block",
+   "name": "Auto-Breaker",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:placer": {
+   "kind": "block",
+   "name": "Auto-Placer",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:dropper": {
+   "kind": "block",
+   "name": "Automatic Precision Dropper",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:ender_casing": {
+   "kind": "block",
+   "name": "Ender Casing",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:flax": {
+   "kind": "block",
+   "name": "Flax Plant",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:coffee_machine": {
+   "kind": "block",
+   "name": "Coffee Maker",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:xp_solidifier": {
+   "kind": "block",
+   "name": "Experience Solidifier",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:leaf_generator": {
+   "kind": "block",
+   "name": "Leaf-Eating Generator",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:long_range_breaker": {
+   "kind": "block",
+   "name": "Long-Range Breaker",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:ranged_collector": {
+   "kind": "block",
+   "name": "Ranged Collector",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:laser_relay": {
+   "kind": "block",
+   "name": "Energy Laser Relay",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:laser_relay_advanced": {
+   "kind": "block",
+   "name": "Advanced Energy Laser Relay",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:laser_relay_extreme": {
+   "kind": "block",
+   "name": "Extreme Energy Laser Relay",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:laser_relay_fluids": {
+   "kind": "block",
+   "name": "Fluid Laser Relay",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:iron_casing": {
+   "kind": "block",
+   "name": "Iron Casing",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:black_lotus": {
+   "kind": "block",
+   "name": "Black Lotus",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:ethetic_white_wall": {
+   "kind": "block",
+   "name": "Ethetic Quartz Wall",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:ethetic_green_wall": {
+   "kind": "block",
+   "name": "Ethetic Green Quartz Wall",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:restonia_crystal_block": {
+   "kind": "block",
+   "name": "Restonia Crystal Block",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:palis_crystal_block": {
+   "kind": "block",
+   "name": "Palis Crystal Block",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:diamatine_crystal_block": {
+   "kind": "block",
+   "name": "Diamatine Crystal Block",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:emeradic_crystal_block": {
+   "kind": "block",
+   "name": "Emeradic Crystal Block",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:void_crystal_block": {
+   "kind": "block",
+   "name": "Void Crystal Block",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:enori_crystal_block": {
+   "kind": "block",
+   "name": "Enori Crystal Block",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:empowered_restonia_crystal_block": {
+   "kind": "block",
+   "name": "Empowered Restonia Crystal Block",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:empowered_palis_crystal_block": {
+   "kind": "block",
+   "name": "Empowered Palis Crystal Block",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:empowered_diamatine_crystal_block": {
+   "kind": "block",
+   "name": "Empowered Diamatine Crystal Block",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:empowered_emeradic_crystal_block": {
+   "kind": "block",
+   "name": "Empowered Emeradic Crystal Block",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:empowered_void_crystal_block": {
+   "kind": "block",
+   "name": "Empowered Void Crystal Block",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:empowered_enori_crystal_block": {
+   "kind": "block",
+   "name": "Empowered Enori Crystal Block",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:vertical_digger": {
+   "kind": "block",
+   "name": "Vertical Digger",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:firework_box": {
+   "kind": "block",
+   "name": "Firework Box",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:black_quartz_wall": {
+   "kind": "block",
+   "name": "Black Quartz Wall",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:black_quartz_stair": {
+   "kind": "block",
+   "name": "Black Quartz Stairs",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:black_quartz_slab": {
+   "kind": "block",
+   "name": "Black Quartz Slab",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:chiseled_black_quartz_wall": {
+   "kind": "block",
+   "name": "Chiseled Black Quartz Wall",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:chiseled_black_quartz_stair": {
+   "kind": "block",
+   "name": "Chiseled Black Quartz Stairs",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:chiseled_black_quartz_slab": {
+   "kind": "block",
+   "name": "Chiseled Black Quartz Slab",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:smooth_black_quartz_wall": {
+   "kind": "block",
+   "name": "Smooth Black Quartz Wall",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:smooth_black_quartz_stair": {
+   "kind": "block",
+   "name": "Smooth Black Quartz Stairs",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:smooth_black_quartz_slab": {
+   "kind": "block",
+   "name": "Smooth Black Quartz Slab",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:black_quartz_brick_wall": {
+   "kind": "block",
+   "name": "Black Quartz Brick Wall",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:black_quartz_brick_stair": {
+   "kind": "block",
+   "name": "Black Quartz Brick Stairs",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:black_quartz_brick_slab": {
+   "kind": "block",
+   "name": "Black Quartz Brick Slab",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:black_quartz_pillar_wall": {
+   "kind": "block",
+   "name": "Black Quartz Pillar Wall",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:black_quartz_pillar_stair": {
+   "kind": "block",
+   "name": "Black Quartz Pillar Stairs",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:black_quartz_pillar_slab": {
+   "kind": "block",
+   "name": "Black Quartz Pillar Slab",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:laser_relay_item": {
+   "kind": "block",
+   "name": "Item Laser Relay",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:laser_relay_item_advanced": {
+   "kind": "block",
+   "name": "Advanced Item Laser Relay",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:item_interface": {
+   "kind": "block",
+   "name": "Item Interface",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:hopping_item_interface": {
+   "kind": "block",
+   "name": "Hopping Item Interface",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:display_stand": {
+   "kind": "block",
+   "name": "Display Stand",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:shock_suppressor": {
+   "kind": "block",
+   "name": "Shock Absorber",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:tiny_torch": {
+   "kind": "block",
+   "name": "Tiny Torch",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:empowerer": {
+   "kind": "block",
+   "name": "Empowerer",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:distributor_item": {
+   "kind": "block",
+   "name": "Item Distributor (WIP)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:bio_reactor": {
+   "kind": "block",
+   "name": "Bio Reactor",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:farmer": {
+   "kind": "block",
+   "name": "Farmer",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:battery_box": {
+   "kind": "block",
+   "name": "Battery Box",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:restonia_crystal_cluster": {
+   "kind": "block",
+   "name": "Red Crystal Cluster",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:palis_crystal_cluster": {
+   "kind": "block",
+   "name": "Blue Crystal Cluster",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:diamatine_crystal_cluster": {
+   "kind": "block",
+   "name": "Light Blue Crystal Cluster",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:void_crystal_cluster": {
+   "kind": "block",
+   "name": "Black Crystal Cluster",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:emeradic_crystal_cluster": {
+   "kind": "block",
+   "name": "Green Crystal Cluster",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:enori_crystal_cluster": {
+   "kind": "block",
+   "name": "White Crystal Cluster",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor": {
+   "kind": "block",
+   "name": "Atomic Reconstructor",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.1.1": {
+   "kind": "block",
+   "name": "Molecular",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.1.2": {
+   "kind": "block",
+   "name": "Material",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.1.3": {
+   "kind": "block",
+   "name": "Quarkal",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.1.4": {
+   "kind": "block",
+   "name": "Atomatic",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.1.5": {
+   "kind": "block",
+   "name": "Tiny Bit",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.1.6": {
+   "kind": "block",
+   "name": "Component",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.1.7": {
+   "kind": "block",
+   "name": "Vittle",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.1.8": {
+   "kind": "block",
+   "name": "Transmaterial",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.1.9": {
+   "kind": "block",
+   "name": "Partial",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.1.10": {
+   "kind": "block",
+   "name": "Spatial",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.1.11": {
+   "kind": "block",
+   "name": "Stuffy",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.1.12": {
+   "kind": "block",
+   "name": "Interdimensional",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.2.1": {
+   "kind": "block",
+   "name": "Recombobulizer",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.2.2": {
+   "kind": "block",
+   "name": "Shiftulator",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.2.3": {
+   "kind": "block",
+   "name": "Recombinator",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.2.4": {
+   "kind": "block",
+   "name": "Modulator",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.2.5": {
+   "kind": "block",
+   "name": "Moleculizer",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.2.6": {
+   "kind": "block",
+   "name": "Modificulator",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.2.7": {
+   "kind": "block",
+   "name": "Changer",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.2.8": {
+   "kind": "block",
+   "name": "Atomizer",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.2.9": {
+   "kind": "block",
+   "name": "Makerator",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.2.10": {
+   "kind": "block",
+   "name": "Swapper",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.2.11": {
+   "kind": "block",
+   "name": "Exchanger",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.2.12": {
+   "kind": "block",
+   "name": "Replacer",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.2.13": {
+   "kind": "block",
+   "name": "Differentiator",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:atomic_reconstructor.info.2.14": {
+   "kind": "block",
+   "name": "Receiver",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:crate_small": {
+   "kind": "block",
+   "name": "Small Storage Crate (WIP)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:crate_medium": {
+   "kind": "block",
+   "name": "Medium Storage Crate (WIP)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:crate_large": {
+   "kind": "block",
+   "name": "Large Storage Crate (WIP)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_blue": {
+   "kind": "item",
+   "name": "Blue Drill",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_light_blue": {
+   "kind": "item",
+   "name": "Light Blue Drill",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_brown": {
+   "kind": "item",
+   "name": "Brown Drill",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_black": {
+   "kind": "item",
+   "name": "Black Drill",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_white": {
+   "kind": "item",
+   "name": "White Drill",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_magenta": {
+   "kind": "item",
+   "name": "Magenta Drill",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_orange": {
+   "kind": "item",
+   "name": "Orange Drill",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_pink": {
+   "kind": "item",
+   "name": "Pink Drill",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_purple": {
+   "kind": "item",
+   "name": "Purple Drill",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_red": {
+   "kind": "item",
+   "name": "Red Drill",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_yellow": {
+   "kind": "item",
+   "name": "Yellow Drill",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_cyan": {
+   "kind": "item",
+   "name": "Cyan Drill",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_gray": {
+   "kind": "item",
+   "name": "Gray Drill",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_green": {
+   "kind": "item",
+   "name": "Green Drill",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_light_gray": {
+   "kind": "item",
+   "name": "Light Gray Drill",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_lime": {
+   "kind": "item",
+   "name": "Lime Drill",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:rice_dough": {
+   "kind": "item",
+   "name": "Rice Dough",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:rice_seeds": {
+   "kind": "item",
+   "name": "Rice Seeds",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:tiny_coal": {
+   "kind": "item",
+   "name": "Tiny Coal",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:tiny_charcoal": {
+   "kind": "item",
+   "name": "Tiny Charcoal",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:rice_slimeball": {
+   "kind": "item",
+   "name": "Rice Slimeball",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:single_battery": {
+   "kind": "item",
+   "name": "Single Battery",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:double_battery": {
+   "kind": "item",
+   "name": "Double Battery",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:triple_battery": {
+   "kind": "item",
+   "name": "Triple Battery",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:quadruple_battery": {
+   "kind": "item",
+   "name": "Quadruple Battery",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:quintuple_battery": {
+   "kind": "item",
+   "name": "Quintuple Battery",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:ring_of_growth": {
+   "kind": "item",
+   "name": "Ring of Growth",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:ring_of_magnetizing": {
+   "kind": "item",
+   "name": "Ring of Magnetizing",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:canola_oil_bucket": {
+   "kind": "item",
+   "name": "Canola Oil Bucket",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:refined_canola_oil_bucket": {
+   "kind": "item",
+   "name": "Refined Canola Oil Bucket",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:crystallized_oil_bucket": {
+   "kind": "item",
+   "name": "Crystallized Oil Bucket",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:empowered_oil_bucket": {
+   "kind": "item",
+   "name": "Empowered Oil Bucket",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:wings_of_the_bats": {
+   "kind": "item",
+   "name": "Wings Of The Bats (WIP)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:bats_wing": {
+   "kind": "item",
+   "name": "Bat's Wing",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:wooden_aiot": {
+   "kind": "item",
+   "name": "Wooden AIOT",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:stone_aiot": {
+   "kind": "item",
+   "name": "Stone AIOT",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:iron_aiot": {
+   "kind": "item",
+   "name": "Iron AIOT",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:gold_aiot": {
+   "kind": "item",
+   "name": "Golden AIOT",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:diamond_aiot": {
+   "kind": "item",
+   "name": "Diamond AIOT",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:netherite_aiot": {
+   "kind": "item",
+   "name": "Netherite AIOT",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:phantom_connector": {
+   "kind": "item",
+   "name": "Phantom Connector",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:empty_cup": {
+   "kind": "item",
+   "name": "Empty Cup",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:coffee_cup": {
+   "kind": "item",
+   "name": "Cup with Coffee",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:coffee_seeds": {
+   "kind": "item",
+   "name": "Coffee Seeds",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:coffee_beans": {
+   "kind": "item",
+   "name": "Coffee Beans",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:canola_seeds": {
+   "kind": "item",
+   "name": "Canola Seeds",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:resonant_rice": {
+   "kind": "item",
+   "name": "Resonant Rice",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_upgrade_speed": {
+   "kind": "item",
+   "name": "Drill Speed Augment",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_upgrade_speed_ii": {
+   "kind": "item",
+   "name": "Drill Speed Augment II",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_upgrade_speed_iii": {
+   "kind": "item",
+   "name": "Drill Speed Augment III",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_upgrade_silk_touch": {
+   "kind": "item",
+   "name": "Drill Silk Touch Augment",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_upgrade_fortune": {
+   "kind": "item",
+   "name": "Drill Fortune Augment I",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_upgrade_fortune_ii": {
+   "kind": "item",
+   "name": "Drill Fortune Augment II (Gives Fortune III!)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_upgrade_block_placing": {
+   "kind": "item",
+   "name": "Drill Block Placing Augment",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_upgrade_three_by_three": {
+   "kind": "item",
+   "name": "Drill Area Augment I",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_upgrade_five_by_five": {
+   "kind": "item",
+   "name": "Drill Area Augment II",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:dough": {
+   "kind": "item",
+   "name": "Dough (WIP)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:black_quartz": {
+   "kind": "item",
+   "name": "Black Quartz",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:ring": {
+   "kind": "item",
+   "name": "Ring",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:ring.storage": {
+   "kind": "item",
+   "name": "Blaze Stored (WIP)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:teleport_staff": {
+   "kind": "item",
+   "name": "Teleport Staff",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:leaf_blower": {
+   "kind": "item",
+   "name": "Leaf Blower",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:advanced_leaf_blower": {
+   "kind": "item",
+   "name": "Advanced Leaf Blower",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:crafter_on_a_stick": {
+   "kind": "item",
+   "name": "Crafting Table On A Stick",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:basic_coil": {
+   "kind": "item",
+   "name": "Basic Coil",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:advanced_coil": {
+   "kind": "item",
+   "name": "Advanced Coil",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:solidified_experience": {
+   "kind": "item",
+   "name": "Solidified Experience",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:dust_iron": {
+   "kind": "item",
+   "name": "Crushed Iron (WIP)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:dust_gold": {
+   "kind": "item",
+   "name": "Crushed Gold (WIP)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:dust_diamond": {
+   "kind": "item",
+   "name": "Crushed Diamond (WIP)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:dust_lapis": {
+   "kind": "item",
+   "name": "Crushed Lapis (WIP)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:dust_emerald": {
+   "kind": "item",
+   "name": "Crushed Emerald (WIP)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:dust_quartz": {
+   "kind": "item",
+   "name": "Crushed Quartz (WIP)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:dust_coal": {
+   "kind": "item",
+   "name": "Crushed Coal (WIP)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:dust_quartz_black": {
+   "kind": "item",
+   "name": "Crushed Black Quartz (WIP)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:flax_seeds": {
+   "kind": "item",
+   "name": "Flax Seeds",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:rarmor_module_reconstructor": {
+   "kind": "item",
+   "name": "Reconstruction Module (WIP)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:laser_wrench": {
+   "kind": "item",
+   "name": "Laser Wrench",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_core": {
+   "kind": "item",
+   "name": "Drill Core",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:restonia_crystal": {
+   "kind": "item",
+   "name": "Restonia Crystal",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:palis_crystal": {
+   "kind": "item",
+   "name": "Palis Crystal",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:diamatine_crystal": {
+   "kind": "item",
+   "name": "Diamatine Crystal",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:emeradic_crystal": {
+   "kind": "item",
+   "name": "Emeradic Crystal",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:void_crystal": {
+   "kind": "item",
+   "name": "Void Crystal",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:enori_crystal": {
+   "kind": "item",
+   "name": "Enori Crystal",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:empowered_restonia_crystal": {
+   "kind": "item",
+   "name": "Empowered Restonia Crystal",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:empowered_palis_crystal": {
+   "kind": "item",
+   "name": "Empowered Palis Crystal",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:empowered_diamatine_crystal": {
+   "kind": "item",
+   "name": "Empowered Diamatine Crystal",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:empowered_emeradic_crystal": {
+   "kind": "item",
+   "name": "Empowered Emeradic Crystal",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:empowered_void_crystal": {
+   "kind": "item",
+   "name": "Empowered Void Crystal",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:empowered_enori_crystal": {
+   "kind": "item",
+   "name": "Empowered Enori Crystal",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lens": {
+   "kind": "item",
+   "name": "Lens",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lens_of_color": {
+   "kind": "item",
+   "name": "Lens of Color",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lens_of_detonation": {
+   "kind": "item",
+   "name": "Lens of Detonation",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lens_of_disenchanting": {
+   "kind": "item",
+   "name": "Lens of Disenchanting",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:crate_keeper": {
+   "kind": "item",
+   "name": "Storage Crate Keeper (WIP)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:paxel_crystal_red": {
+   "kind": "item",
+   "name": "Restonia Crystal AIOT",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:paxel_crystal_blue": {
+   "kind": "item",
+   "name": "Palis Crystal AIOT",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:paxel_crystal_light_blue": {
+   "kind": "item",
+   "name": "Diamatine Crystal AIOT",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:paxel_crystal_black": {
+   "kind": "item",
+   "name": "Void Crystal AIOT",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:paxel_crystal_white": {
+   "kind": "item",
+   "name": "Enori Crystal AIOT)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:paxel_crystal_green": {
+   "kind": "item",
+   "name": "Emeradic Crystal AIOT",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:ender_star": {
+   "kind": "item",
+   "name": "Ender Star",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:minecart_firework_box": {
+   "kind": "item",
+   "name": "Firework Box Cart (WIP)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:water_bowl": {
+   "kind": "item",
+   "name": "Bowl of Water",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:filter": {
+   "kind": "item",
+   "name": "Item Filter",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:player_probe": {
+   "kind": "item",
+   "name": "Player Probe",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:worm": {
+   "kind": "item",
+   "name": "Worm",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:travelers_sack": {
+   "kind": "item",
+   "name": "Traveler's Sack",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:void_sack": {
+   "kind": "item",
+   "name": "Void Sack",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:crystallized_canola_seed": {
+   "kind": "item",
+   "name": "Crystallized Canola Seeds",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:empowered_canola_seed": {
+   "kind": "item",
+   "name": "Empowered Canola Seeds",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lens_of_the_miner": {
+   "kind": "item",
+   "name": "Lens of the Miner",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:lens_of_the_killer": {
+   "kind": "item",
+   "name": "Lens of the Killer (WIP)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:handheld_filler": {
+   "kind": "item",
+   "name": "Handheld Filler",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:laser_upgrade_invisibility": {
+   "kind": "item",
+   "name": "Laser Relay Modifier: Invisibility (WIP)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:engineers_goggles": {
+   "kind": "item",
+   "name": "Engineer's Goggles",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:engineers_goggles_advanced": {
+   "kind": "item",
+   "name": "Engineer's Infrared Goggles",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:laser_upgrade_range": {
+   "kind": "item",
+   "name": "Laser Relay Modifier: Range (WIP)",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:restonia_crystal_shard": {
+   "kind": "item",
+   "name": "Red Crystal Shard",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:palis_crystal_shard": {
+   "kind": "item",
+   "name": "Blue Crystal Shard",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:diamatine_crystal_shard": {
+   "kind": "item",
+   "name": "Light Blue Crystal Shard",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:void_crystal_shard": {
+   "kind": "item",
+   "name": "Black Crystal Shard",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:emeradic_crystal_shard": {
+   "kind": "item",
+   "name": "Green Crystal Shard",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:enori_crystal_shard": {
+   "kind": "item",
+   "name": "White Crystal Shard",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:drill_pattern": {
+   "kind": "item",
+   "name": "Banner Pattern",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:leaf_blo_pattern": {
+   "kind": "item",
+   "name": "Banner Pattern",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:phan_con_pattern": {
+   "kind": "item",
+   "name": "Banner Pattern",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
+  "actuallyadditions:item_tag": {
+   "kind": "item",
+   "name": "Item Tag",
+   "tags": [
+    "feel:tech",
+    "feel:nature",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21",
+  "pass": "loop-back",
+  "note": "Candidate scanned for the discovery pass; auto tags only.",
+  "class": "candidate",
+  "purpose": "Candidate (not in any pack)"
+ }
+}

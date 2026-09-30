@@ -2609,6 +2609,580 @@
    },
    "note": "Shares the Mekanism repo and scan",
    "status": "pending"
+  },
+  "botania": {
+   "feel": [
+    "nature",
+    "magic"
+   ],
+   "add": "automation",
+   "also": [
+    "resources",
+    "armor",
+    "tooling"
+   ],
+   "gap": "Mana (not FE) runs generating and functional flowers: Orechid makes ore from stone, Pure Daisy makes living wood and rock, Hopperhock/Agricarnation/Rannuncarpus farm; includes the Garden of Glass void start",
+   "fit": {
+    "E": [
+     "good",
+     "nature-magic automation without FE; ore from stone; void-start support"
+    ],
+    "V": [
+     "poor",
+     "magic in a tech pack"
+    ],
+    "I": [
+     "partial",
+     "nature feel, mana is a second power system"
+    ]
+   },
+   "note": "Architecture notes say Botania is not a pillar; worth reopening because it answers Elysian's farming, wood and ore needs without power",
+   "works_with": "AE2, Occultism, Productive Bees",
+   "status": "candidate",
+   "candidate": true
+  },
+  "natures-aura": {
+   "feel": [
+    "nature",
+    "magic"
+   ],
+   "add": "automation",
+   "also": [
+    "power",
+    "resources"
+   ],
+   "gap": "Aura powers a large machine set without FE: field creator (farm), auto crafter, item distributor, placer, animal spawner; many aura generators; RF converter if wanted",
+   "fit": {
+    "E": [
+     "good",
+     "aura-powered farming and crafting, nature-magic feel"
+    ],
+    "I": [
+     "partial",
+     "nature feel, compact generators"
+    ]
+   },
+   "note": "Generators turn items (flowers, animals, fireworks) into aura; ancient wood and infused stone are its own materials",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true
+  },
+  "pneumaticcraft-repressurized": {
+   "feel": [
+    "steampunk",
+    "tech"
+   ],
+   "add": "power",
+   "also": [
+    "processing",
+    "automation"
+   ],
+   "gap": "Pressure (air) is the power system: compressors, pressure tubes, assembly line, pressure chamber, heat system, plastic, drones; FE conversion exists",
+   "fit": {
+    "V": [
+     "good",
+     "steampunk feel, non-FE power, pairs with Create"
+    ],
+    "I": [
+     "good",
+     "compact closed-loop machines"
+    ],
+    "E": [
+     "poor",
+     "tech in a magic pack"
+    ]
+   },
+   "note": "Air compressors burn fuel, so it can run without FE",
+   "works_with": "Create, Mekanism, Occultism, Powah",
+   "status": "candidate",
+   "candidate": true
+  },
+  "immersive-engineering": {
+   "feel": [
+    "steampunk",
+    "tech"
+   ],
+   "add": "power",
+   "also": [
+    "processing",
+    "resources"
+   ],
+   "gap": "Retro-industrial multiblocks: dynamo and generators, windmill/water wheel, excavator (mines ore deposits), crusher, arc furnace, wires and capacitors",
+   "fit": {
+    "V": [
+     "partial",
+     "steampunk feel but overlaps Create plus Mekanism; its ores need sieving"
+    ],
+    "I": [
+     "poor",
+     "large multiblocks in a space-limited ship"
+    ],
+    "E": [
+     "poor",
+     "tech"
+    ]
+   },
+   "note": "No built-in support for our mods was found",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true
+  },
+  "modular-routers": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "automation",
+   "also": [
+    "storage"
+   ],
+   "gap": "Item routers with modules: no power, no pipes; filters, sorters, extractors, placers in one small block",
+   "fit": {
+    "E": [
+     "good",
+     "automation without power"
+    ],
+    "V": [
+     "partial",
+     "overlaps AE2 and Create logistics"
+    ],
+    "I": [
+     "good",
+     "compact item logistics"
+    ]
+   },
+   "note": "Works with FTB filter items",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true
+  },
+  "functional-storage": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "storage",
+   "also": [],
+   "gap": "Storage drawers with upgrades and a controller; compact bulk storage",
+   "fit": {
+    "V": [
+     "partial",
+     "overlaps Sophisticated Storage"
+    ],
+    "E": [
+     "partial",
+     ""
+    ],
+    "I": [
+     "good",
+     "dense storage"
+    ]
+   },
+   "note": "Overlaps Sophisticated Storage and AE2",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true
+  },
+  "refined-storage": {
+   "feel": [
+    "tech"
+   ],
+   "add": "storage",
+   "also": [
+    "automation"
+   ],
+   "gap": "Network storage and autocrafting (Refined Storage 2): the main alternative to AE2",
+   "fit": {
+    "V": [
+     "poor",
+     "AE2 is the taught pillar"
+    ],
+    "I": [
+     "poor",
+     "AE2 is the pillar"
+    ]
+   },
+   "note": "Replacing AE2 means replacing its 41 add-ons",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true
+  },
+  "integrated-dynamics": {
+   "feel": [
+    "tech"
+   ],
+   "add": "automation",
+   "also": [],
+   "gap": "Logic-programmed automation with variables, readers and proxies; heavy",
+   "fit": {
+    "I": [
+     "partial",
+     "programmable closed loops"
+    ],
+    "V": [
+     "poor",
+     "overlaps Create and AE2"
+    ]
+   },
+   "note": "No built-in support for our mods was found",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true
+  },
+  "integrated-crafting": {
+   "feel": [
+    "tech"
+   ],
+   "add": "automation",
+   "also": [],
+   "gap": "Crafting interface for Integrated Dynamics",
+   "fit": {},
+   "note": "Depends on Integrated Dynamics",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true
+  },
+  "blood-magic-neovitae": {
+   "feel": [
+    "magic"
+   ],
+   "add": "content",
+   "also": [
+    "automation"
+   ],
+   "gap": "Blood magic: life-essence network, altars, rituals and sigils",
+   "fit": {
+    "E": [
+     "partial",
+     "magic content; rituals can automate but are complex"
+    ]
+   },
+   "note": "No built-in support for our mods was found",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true
+  },
+  "forbidden-arcanus": {
+   "feel": [
+    "magic"
+   ],
+   "add": "content",
+   "also": [
+    "armor",
+    "tooling"
+   ],
+   "gap": "Dark-arts crafting: Hephaestus forge, essences, darkstone, bosses",
+   "fit": {
+    "E": [
+     "partial",
+     "magic content and gear"
+    ]
+   },
+   "note": "Hephaestus forge automation has known 1.21.1 issues",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true
+  },
+  "eidolon-repraised": {
+   "feel": [
+    "magic"
+   ],
+   "add": "content",
+   "also": [
+    "armor"
+   ],
+   "gap": "Witchcraft, souls, research and gear",
+   "fit": {
+    "E": [
+     "partial",
+     "magic content"
+    ]
+   },
+   "note": "No built-in support for our mods was found",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true
+  },
+  "malum": {
+   "feel": [
+    "magic"
+   ],
+   "add": "content",
+   "also": [
+    "armor",
+    "tooling"
+   ],
+   "gap": "Spirit magic: totems, spirit infusion, gear sets, dungeons",
+   "fit": {
+    "E": [
+     "partial",
+     "magic content and gear; many integrations"
+    ],
+    "L": [
+     "partial",
+     "supports Create, Iron's, Occultism, Twilight Forest"
+    ]
+   },
+   "note": "",
+   "works_with": "Create, Farmer's Delight, Farming for Blockheads, Iron's Spells, Occultism, Twilight Forest",
+   "status": "candidate",
+   "candidate": true
+  },
+  "roots-classic": {
+   "feel": [
+    "nature",
+    "magic"
+   ],
+   "add": "content",
+   "also": [
+    "resources"
+   ],
+   "gap": "Druidic rituals and herbs (Roots 4 is the new version)",
+   "fit": {
+    "E": [
+     "partial",
+     "nature-magic content"
+    ]
+   },
+   "note": "Roots Classic (Lothrazar) and Roots 4 (MysticMods) are separate mods",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true
+  },
+  "just-dire-things": {
+   "feel": [
+    "tech"
+   ],
+   "add": "automation",
+   "also": [
+    "tooling"
+   ],
+   "gap": "Machines and tools (goo, ferricore tools, portal tools); FE",
+   "fit": {
+    "V": [
+     "partial",
+     "overlaps Mekanism and Create"
+    ],
+    "E": [
+     "poor",
+     "tech"
+    ]
+   },
+   "note": "No built-in support for our mods was found",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true
+  },
+  "industrial-foregoing": {
+   "feel": [
+    "tech"
+   ],
+   "add": "automation",
+   "also": [
+    "resources",
+    "processing"
+   ],
+   "gap": "Big machine set: crops, mobs, plastics, laser drill; FE",
+   "fit": {
+    "V": [
+     "partial",
+     "overlaps Mekanism and Create"
+    ],
+    "E": [
+     "poor",
+     "tech"
+    ]
+   },
+   "note": "Only Titanium integration found",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true
+  },
+  "actually-additions": {
+   "feel": [
+    "tech",
+    "nature"
+   ],
+   "add": "automation",
+   "also": [
+    "food"
+   ],
+   "gap": "Mixed tech and nature machines; FE; supports Mekanism and Powah",
+   "fit": {
+    "V": [
+     "partial",
+     "supports Mekanism and Powah, overlaps them"
+    ],
+    "E": [
+     "poor",
+     "FE machines"
+    ]
+   },
+   "note": "",
+   "works_with": "Mekanism, Powah, FastWorkbench",
+   "status": "candidate",
+   "candidate": true
+  },
+  "supplementaries": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "building",
+   "also": [
+    "qol"
+   ],
+   "gap": "Decor, small gadgets and quality of life (sack, cage, pulley, flags)",
+   "fit": {
+    "V": [
+     "partial",
+     "decor and QoL"
+    ],
+    "E": [
+     "partial",
+     ""
+    ],
+    "I": [
+     "partial",
+     ""
+    ],
+    "L": [
+     "partial",
+     ""
+    ]
+   },
+   "note": "Wide integration with our mods",
+   "works_with": "Ars Nouveau, Create, Farmer's Delight, Twilight Forest",
+   "status": "candidate",
+   "candidate": true
+  },
+  "waystones": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Teleport waystones and warp stones; travel QoL",
+   "fit": {
+    "V": [
+     "partial",
+     ""
+    ],
+    "E": [
+     "partial",
+     ""
+    ],
+    "I": [
+     "poor",
+     "a locked ship needs no travel"
+    ],
+    "L": [
+     "good",
+     "colony travel"
+    ]
+   },
+   "note": "",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true
+  },
+  "compact-machines": {
+   "feel": [
+    "sci-fi"
+   ],
+   "add": "storage",
+   "also": [
+    "automation"
+   ],
+   "gap": "Pocket rooms inside a block: build inward, not outward",
+   "fit": {
+    "I": [
+     "good",
+     "the space lesson: go in, not out"
+    ]
+   },
+   "note": "Scan found no lang items; check in game",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true
+  },
+  "minecolonies": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "content",
+   "also": [
+    "automation"
+   ],
+   "gap": "Colonies, citizens, buildings; the colony mod for Liminal",
+   "fit": {
+    "L": [
+     "good",
+     "the colony fantasy Liminal owns"
+    ]
+   },
+   "note": "Scan found no items; check in game",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true
+  },
+  "thermal-expansion": {
+   "feel": [
+    "tech"
+   ],
+   "add": "power",
+   "also": [
+    "processing"
+   ],
+   "gap": "Thermal series: machines, dynamos, flux storage",
+   "fit": {
+    "V": [
+     "partial",
+     "overlaps Mekanism and Powah"
+    ]
+   },
+   "note": "Scan found no items; check in game",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true
+  },
+  "create-steam-n-rails": {
+   "feel": [
+    "steampunk"
+   ],
+   "add": "processing",
+   "also": [
+    "content"
+   ],
+   "gap": "Create add-on: trains and rails",
+   "fit": {
+    "V": [
+     "partial",
+     "extends Create; content not resources"
+    ]
+   },
+   "note": "",
+   "works_with": "Create, Twilight Forest",
+   "status": "candidate",
+   "candidate": true
+  },
+  "evilcraft": {
+   "feel": [
+    "magic"
+   ],
+   "add": "content",
+   "also": [
+    "armor",
+    "tooling"
+   ],
+   "gap": "Dark magic: blood infuser, undead trees, spirit furnace, gear; fluids from blood",
+   "fit": {
+    "E": [
+     "partial",
+     "dark-magic content and gear"
+    ]
+   },
+   "note": "No built-in support for our mods was found",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true
   }
  }
 }
