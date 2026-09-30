@@ -1,0 +1,48 @@
+# Item catalog
+
+Goal: one comparable list of what every mod adds, so we can see **gaps** (what the series lacks) and **overlaps** (several mods adding the same kind of item), and decide which is worth keeping. Examples: the generators from Mekanism, Powah, AE2, Create and the others; every mod that adds a sword or wrench; every mod that adds a storage block.
+
+This is not a wish list. Each entry records what the item does, its numbers, what it needs, and **how it can be changed** (config, data map, recipe, KubeJS), so "could we make it scale better" has an answer.
+
+## Layout
+
+| Path | What |
+|---|---|
+| `data/<mod>.json` | One file per mod: pin, source, tuning levers, items |
+| `../../../scripts/series-item-catalog.py` | `list`, `report --category <c>`, `levers --mod <m>` |
+
+## How a mod gets catalogued
+
+1. **Find the source** and check out the tag that matches our pin (public mods can be cloned; the file name in `mods/<mod>.pw.toml` gives the version). Read from the source, not the jar, when the source exists.
+2. **Item list**: `src/main/resources/assets/<modid>/lang/en_us.json` lists every block and item name.
+3. **Numbers**: the config class and its defaults (NeoForge `ModConfigSpec` or Cloth AutoConfig), plus generated data in `src/generated/resources/data/<modid>/` (recipes, data maps, tags, loot).
+4. **Behavior**: the block or tile classes for anything the numbers do not explain (for example: what a generator burns, what limits output).
+5. **Docs the author wrote**: a `guidebook/` folder or wiki lists the items the author wants players to notice.
+6. Write `data/<mod>.json`, then run the report to compare with other mods.
+
+Mark anything not verified in-game as such (`unverified` field). Numbers come from source defaults; the shipped config in a pack can override them.
+
+## Entry fields
+
+- `id`, `name`, `category`, `subcategory`, `tiers`
+- `stats`: named arrays aligned to `tiers` (`output_fe_t`, `capacity_fe`, `transfer_fe_t`, more as needed)
+- `input`: what it consumes or needs; `needs_ore`, `needs_power_to_start`
+- `starter_recipe` / `obtain`: how a player first makes or finds it
+- `tunable`: which of `config`, `datamap`, `recipe`, `kubejs` can change it
+- `notes`: forgotten-item candidates (useful items players rarely discover), overlaps, tests
+
+Categories in use: `generator`, `energy-storage`, `energy-transfer`, `crafting-station`, `tool`, `consumable`, `utility`. Add more as needed (weapons, armor, storage, automation, food).
+
+## Tuning levers (the "before KubeJS" question)
+
+Order to reach for, cheapest first:
+
+1. **Config**: numbers the mod exposes (for example Powah's per-tier generation, capacity and transfer). No script, and easy to explain to players.
+2. **Data maps and datapack files**: NeoForge data maps and generated data (Powah's magmator fuels, heat sources and coolants are data maps). Can be edited in a datapack or with KubeJS.
+3. **KubeJS**: recipes, tags, loot, and mod-specific addon hooks, for anything the first two cannot change.
+
+## Status
+
+| Mod | Catalogued | Notes |
+|---|---|---|
+| Powah! | Partly (generators, storage, transfer, key tools) | Pilot; item list from `lang/en_us.json` still to be fully merged |

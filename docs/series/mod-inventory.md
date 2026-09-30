@@ -1,20 +1,21 @@
 # Mod inventory
 
-> **Generated** by `scripts/series-mod-inventory.py` on 2026-09-29 from the `mods/` folders of all four repos. Do not edit the tables by hand — edit the *Decision* notes in [`mod-audit.md`](mod-audit.md) or rerun the script.
+> **Generated** by `scripts/series-mod-inventory.py` on 2026-09-30 from the `mods/` folders of all four repos. Do not edit the tables by hand — edit the *Decision* notes in [`mod-audit.md`](mod-audit.md) or rerun the script.
 
-Pack totals: **V** 123 · **E** 125 · **I** 94 · **L** 208 · **unique** 208
+Pack totals: **V** 127 · **E** 127 · **I** 101 · **L** 207 · **unique** 207
 
 Category is filled only where obvious (library, client / perf). Blank means "not yet classified" — that is the audit work list.
 
 Columns: **Side** = packwiz side (both / client). **Src** = where the pin comes from (CF = CurseForge, MR = Modrinth).
 
-## Shared core — in all four packs (70)
+## Shared core — in all four packs (78)
 
 | Mod | Id | Side | Src | Category |
 |---|---|---|---|---|
 | Akashic Tome | `akashic-tome` | both | CF |  |
 | Architectury API | `architectury-api` | both | CF | library |
 | Balm | `balm` | both | CF | library |
+| Baubley Heart Canisters | `baubley-heart-canisters` | both | CF |  |
 | Bookshelf | `bookshelf` | both | CF | library |
 | Certain Questing Additions | `certain-questing-additions` | both | CF |  |
 | Cloth Config API (Fabric/Forge/NeoForge) | `cloth-config` | both | CF | library |
@@ -27,10 +28,13 @@ Columns: **Side** = packwiz side (both / client). **Src** = where the pin comes 
 | EMI++ Forked | `emi-backport` | both | CF |  |
 | Enchantment Descriptions | `enchantment-descriptions` | both | CF |  |
 | Entity Culling | `entityculling` | client | CF | client / perf |
+| Essential Mod | `essential-mod` | client | CF | client / perf |
 | FallingTree | `falling-tree` | both | CF |  |
 | FancyMenu | `fancymenu` | both | CF |  |
 | Farmer's Delight | `farmers-delight` | both | CF |  |
 | Farming for Blockheads | `farming-for-blockheads` | both | CF |  |
+| FastSuite | `fastsuite` | both | CF |  |
+| FastWorkbench | `fastworkbench` | both | CF |  |
 | FerriteCore ((Neo)Forge) | `ferritecore` | both | CF | client / perf |
 | FTB Backups 3 | `ftb-backups-3` | both | CF |  |
 | FTB Filter System | `ftb-filter-system` | both | CF |  |
@@ -50,6 +54,7 @@ Columns: **Side** = packwiz side (both / client). **Src** = where the pin comes 
 | Kotlin for Forge | `kotlin-for-forge` | both | CF | library |
 | KubeJS | `kubejs` | both | CF |  |
 | KubeJS Delight | `kubejs-delight` | both | CF |  |
+| KubeJS Tweaks | `kubejs-tweaks` | both | CF |  |
 | libIPN | `libipn` | both | CF | library |
 | Melody | `melody` | both | CF | library |
 | MmmMmmMmmMmm (Target Dummy) | `mmmmmmmmmmmm` | both | CF |  |
@@ -61,12 +66,15 @@ Columns: **Side** = packwiz side (both / client). **Src** = where the pin comes 
 | Mouse Tweaks | `mouse-tweaks` | both | CF |  |
 | No Farmland Trample | `notrample` | both | CF |  |
 | Patchouli | `patchouli` | both | CF |  |
+| Placebo | `placebo` | both | CF | library |
 | Polymorph | `polymorph` | both | CF |  |
 | Prickle | `prickle` | both | CF | library |
+| Productive Metalworks | `productive-metalworks` | both | CF |  |
 | Rhino | `rhino` | both | CF | library |
 | RightClickHarvest | `rightclickharvest` | both | CF |  |
 | Searchables | `searchables` | both | CF | library |
 | Silent Gear | `silent-gear` | both | CF |  |
+| Silent Gear Metalworks | `silent-gear-metalworks` | both | CF |  |
 | Silent Lib (silentlib) | `silent-lib` | both | CF | library |
 | Simple Custom Early Loading | `simple-custom-early-loading` | both | CF | library |
 | Simple Magnets | `simple-magnets` | both | CF |  |
@@ -83,7 +91,7 @@ Columns: **Side** = packwiz side (both / client). **Src** = where the pin comes 
 | Xaero's Minimap | `xaeros-minimap` | both | CF |  |
 | Xaero's World Map | `xaeros-world-map` | both | CF |  |
 
-## Verdant-owned (also in Liminal) (44)
+## Verdant-owned (also in Liminal) (40)
 
 | Mod | Id | Side | Src | Category |
 |---|---|---|---|---|
@@ -106,18 +114,14 @@ Columns: **Side** = packwiz side (both / client). **Src** = where the pin comes 
 | Create | `create` | both | CF |  |
 | Create Cobblestone | `create-cobblestone` | both | CF |  |
 | Create Crafts & Additions | `createaddition` | both | CF |  |
-| Energy Meter | `energymeter` | both | CF |  |
 | Ex Deorum | `ex-deorum` | both | CF |  |
 | Ex Machinis: Divitiae Deorum | `ex-machinis-divitiae-deorum` | both | CF |  |
 | Extended Terminal | `extended-terminal` | both | CF |  |
-| Extreme Reactors | `extreme-reactors` | both | CF |  |
 | Extreme Reactors Create Compat | `extreme-reactors-create-compat` | both | CF |  |
-| Flux Networks | `flux-networks` | both | CF |  |
 | KubeJS Create | `kubejs-create` | both | CF |  |
 | KubeJS Create Automation | `kubejs-create-automation` | both | CF |  |
 | KubeJS Ex Deorum | `kubejs-ex-deorum` | both | CF |  |
 | KubeJS Mekanism | `kubejs-mekanism` | both | CF |  |
-| KubeJS Mekanism Extends | `kubejs-mekanism-extends` | both | CF |  |
 | ME Requester | `merequester` | both | CF |  |
 | MEGA Cells | `mega-cells` | both | CF |  |
 | Mekanism | `mekanism` | both | CF |  |
@@ -128,9 +132,9 @@ Columns: **Side** = packwiz side (both / client). **Src** = where the pin comes 
 | Mob Grinding Utils | `mob-grinding-utils` | both | CF |  |
 | Myotus Lib | `myotus-lib` | both | CF | library |
 | Not Enough Patterns | `not-enough-patterns` | both | CF |  |
+| Powah! | `powah` | both | CF |  |
 | Sophisticated Storage Create Integration | `sophisticated-storage-create-integration` | both | CF |  |
 | Terralith | `terralith` | both | CF |  |
-| ZeroCore 2 | `zerocore` | both | CF | library |
 
 ## Elysian-owned (also in Liminal) (40)
 
@@ -177,11 +181,12 @@ Columns: **Side** = packwiz side (both / client). **Src** = where the pin comes 
 | Theurgy KubeJS | `theurgy-kubejs` | both | CF |  |
 | Translocators | `translocators` | both | MR |  |
 
-## Influx-owned (also in Liminal) (16)
+## Influx-owned (also in Liminal) (15)
 
 | Mod | Id | Side | Src | Category |
 |---|---|---|---|---|
 | AgriCraft ReReloaded | `agricraft-rereloaded` | both | CF |  |
+| Animal Pens | `animal-pens` | both | CF |  |
 | AppliedE | `appliede` | both | CF |  |
 | AutoEMC | `autoemc` | both | CF |  |
 | Azurum Miner | `azurum-miner` | both | CF |  |
@@ -189,20 +194,17 @@ Columns: **Side** = packwiz side (both / client). **Src** = where the pin comes 
 | KubeJS ProjectE | `kubejs-projecte` | both | CF |  |
 | Productive Bees | `productivebees` | both | CF |  |
 | Productive Farming | `productivefarming` | both | CF |  |
-| Productive Metalworks | `productive-metalworks` | both | CF |  |
 | Productive Trees | `productivetrees` | both | CF |  |
 | ProjectE | `projecte` | both | CF |  |
 | ProjectE Integration | `projecte-integration` | both | CF |  |
 | Replication | `replication` | both | CF |  |
-| Silent Gear Metalworks | `silent-gear-metalworks` | both | CF |  |
 | Titanium | `titanium` | both | CF | library |
 | Useful ProjectE | `useful-projecte` | both | CF |  |
 
-## Liminal-only (22)
+## Liminal-only (21)
 
 | Mod | Id | Side | Src | Category |
 |---|---|---|---|---|
-| Animal Pens | `animal-pens` | both | CF |  |
 | Ars Creo | `ars-creo` | both | CF |  |
 | Ars Mekanica | `ars-mekanica` | both | MR |  |
 | Ars Technica | `ars-technica` | both | CF |  |
@@ -217,42 +219,39 @@ Columns: **Side** = packwiz side (both / client). **Src** = where the pin comes 
 | Jungle Treehouse Village | `jungle-treehouse-village` | both | CF |  |
 | Lithostitched | `lithostitched` | both | CF | library |
 | ProjectExtendedAdvancedAE | `projectextendedadvancedae` | both | CF |  |
+| Resourceful Config | `resourceful-config` | both | MR |  |
 | Ruined Lighthouse | `ruined-lighthouse` | both | CF |  |
 | Skeleton Ghost Ship | `skeleton-ghost-ship` | both | CF |  |
-| Structory: Towers | `structory-towers` | both | CF |  |
 | The Twilight Forest | `the-twilight-forest` | both | CF |  |
 | Towns and Towers | `towns-and-towers` | both | CF |  |
 | Underwater Village | `underwater-village` | both | CF |  |
 | Wizard Tower | `wizard-tower` | both | CF |  |
 
-## Verdant + Elysian + Liminal (not Influx) (8)
+## Verdant + Elysian + Liminal (not Influx) (5)
 
 | Mod | Id | Side | Src | Category |
 |---|---|---|---|---|
-| Baubley Heart Canisters | `baubley-heart-canisters` | both | CF |  |
 | Building Wands | `building-wands` | both | CF |  |
-| Essential Mod | `essential-mod` | both | CF |  |
 | GeckoLib | `geckolib` | both | CF | library |
 | GlitchCore | `glitchcore` | both | CF | library |
-| KubeJS Tweaks | `kubejs-tweaks` | both | CF |  |
 | Tough As Nails | `tough-as-nails` | both | CF |  |
 | Tough As Nails - Vanilla Pack | `tough-as-nails-vanilla-pack` | both | MR |  |
 
-## Verdant + Influx + Liminal (not Elysian) (1)
+## Verdant + Influx + Liminal (not Elysian) (4)
 
 | Mod | Id | Side | Src | Category |
 |---|---|---|---|---|
 | Applied Energistics 2 | `applied-energistics-2` | both | CF |  |
+| Extreme Reactors | `extreme-reactors` | both | CF |  |
+| Flux Networks | `flux-networks` | both | CF |  |
+| ZeroCore 2 | `zerocore` | both | CF | library |
 
-## Elysian + Influx + Liminal (not Verdant) (7)
+## Elysian + Influx + Liminal (not Verdant) (4)
 
 | Mod | Id | Side | Src | Category |
 |---|---|---|---|---|
 | Botany Pots | `botany-pots` | both | CF |  |
 | Botany Pots Tiers | `botany-pots-tiers` | both | CF |  |
 | Botany Trees | `botany-trees` | both | CF |  |
-| FastSuite | `fastsuite` | both | CF |  |
-| FastWorkbench | `fastworkbench` | both | CF |  |
 | KubeJS Botany Pots | `kubejs-botany-pots` | both | CF |  |
-| Placebo | `placebo` | both | CF | library |
 

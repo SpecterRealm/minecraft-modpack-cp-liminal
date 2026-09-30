@@ -1,0 +1,586 @@
+{
+ "mod": "powah",
+ "name": "Powah!",
+ "version_pinned": "6.2.10",
+ "source": {
+  "repo": "https://github.com/Technici4n/Powah",
+  "tag": "v6.2.10",
+  "read": "cloned at the tag; config in src/main/java/owmii/powah/config/v2, data in src/generated/resources/data/powah"
+ },
+ "packs": [
+  "verdant",
+  "liminal"
+ ],
+ "unverified": "Numbers come from the mod source defaults, not a running game. Confirm in-game (and against the shipped config file) before relying on them.",
+ "tuning": [
+  {
+   "lever": "config",
+   "where": "config/powah.json5 -> general.energy_per_fuel_tick",
+   "default": 30,
+   "effect": "FE produced per fuel tick in every Furnator; 1 coal (1600 ticks) = 48,000 FE at default"
+  },
+  {
+   "lever": "config",
+   "where": "config/powah.json5 -> general.energizing_energy_ratio",
+   "default": 1.0,
+   "effect": "Multiplier on the FE cost of every energizing recipe (0.001 to 1000)"
+  },
+  {
+   "lever": "config",
+   "where": "config/powah.json5 -> generators.<type>.{capacities,transfer_rates,generation_rates}.<tier>",
+   "default": "see per-item stats",
+   "effect": "Per-tier capacity, transfer and generation for furnators, magmators, reactors, solar_panels, thermo_generators"
+  },
+  {
+   "lever": "config",
+   "where": "config/powah.json5 -> devices.<type>",
+   "default": "see per-item stats",
+   "effect": "Per-tier capacity/transfer for energy_cells, batteries, dischargers, cables, ender_cells, ender_gates, energizing_rods, hoppers, player_transmitters"
+  },
+  {
+   "lever": "config",
+   "where": "config/powah.json5 -> general.{player_aerial_pearl,dimensional_binding_card,lens_of_ender}",
+   "default": true,
+   "effect": "Toggle the right-click-a-mob ways of getting these three items"
+  },
+  {
+   "lever": "datamap",
+   "where": "data/powah/data_maps/fluid/magmator_fuel.json",
+   "default": {
+    "#c:lava": {
+     "energy_produced": 10000
+    }
+   },
+   "effect": "Which fluids the Magmator burns and their energy value; add or change entries in a datapack or KubeJS"
+  },
+  {
+   "lever": "datamap",
+   "where": "data/powah/data_maps/fluid/heat_source.json, block/heat_source.json",
+   "default": {
+    "#c:lava": 1000,
+    "minecraft:magma_block": 800,
+    "powah:blazing_crystal_block": 2800
+   },
+   "effect": "Heat sources for the Thermo Generator (temperature)"
+  },
+  {
+   "lever": "datamap",
+   "where": "data/powah/data_maps/fluid/fluid_coolant.json, item/solid_coolant.json",
+   "default": {
+    "#c:water": 0,
+    "minecraft:ice": -5,
+    "minecraft:blue_ice": -17,
+    "powah:dry_ice": -32
+   },
+   "effect": "Coolants for the Thermo Generator and Reactor"
+  },
+  {
+   "lever": "recipe",
+   "where": "data/powah/recipe/crafting/*.json and recipe/energizing/*.json",
+   "effect": "All tier recipes; edit or replace through KubeJS recipe events"
+  }
+ ],
+ "items": [
+  {
+   "id": "powah:furnator_<tier>",
+   "name": "Furnator",
+   "category": "generator",
+   "subcategory": "solid-fuel",
+   "tiers": [
+    "starter",
+    "basic",
+    "hardened",
+    "blazing",
+    "niotic",
+    "spirited",
+    "nitro"
+   ],
+   "stats": {
+    "output_fe_t": [
+     20,
+     80,
+     200,
+     800,
+     2000,
+     8000,
+     40000
+    ],
+    "capacity_fe": [
+     20000,
+     80000,
+     200000,
+     800000,
+     2000000,
+     8000000,
+     40000000
+    ],
+    "transfer_fe_t": [
+     80,
+     320,
+     800,
+     3200,
+     8000,
+     32000,
+     160000
+    ]
+   },
+   "input": "Any furnace fuel (coal, charcoal, wood). Energy per item = burn time x 30 FE. Higher tiers burn faster, not more efficiently.",
+   "fuel_yield_fe": {
+    "coal_or_charcoal": 48000,
+    "planks_or_logs": 9000,
+    "stick": 3000
+   },
+   "needs_power_to_start": false,
+   "needs_ore": false,
+   "starter_recipe": "3 dielectric paste + tiny basic capacitor x2 + dielectric casing + furnace",
+   "tunable": [
+    "config",
+    "recipe"
+   ]
+  },
+  {
+   "id": "powah:magmator_<tier>",
+   "name": "Magmator",
+   "category": "generator",
+   "subcategory": "fluid-fuel",
+   "tiers": [
+    "starter",
+    "basic",
+    "hardened",
+    "blazing",
+    "niotic",
+    "spirited",
+    "nitro"
+   ],
+   "stats": {
+    "output_fe_t": [
+     20,
+     80,
+     200,
+     800,
+     2000,
+     8000,
+     40000
+    ],
+    "capacity_fe": [
+     20000,
+     80000,
+     200000,
+     800000,
+     2000000,
+     8000000,
+     40000000
+    ],
+    "transfer_fe_t": [
+     80,
+     320,
+     800,
+     3200,
+     8000,
+     32000,
+     160000
+    ]
+   },
+   "input": "Lava (default data map: energy_produced 10000 per drain; unit not yet verified). Holds 4 buckets.",
+   "needs_power_to_start": false,
+   "needs_ore": false,
+   "starter_recipe": "same as Furnator with a bucket instead of a furnace",
+   "tunable": [
+    "config",
+    "datamap",
+    "recipe"
+   ]
+  },
+  {
+   "id": "powah:solar_panel_<tier>",
+   "name": "Solar Panel",
+   "category": "generator",
+   "subcategory": "solar",
+   "tiers": [
+    "starter",
+    "basic",
+    "hardened",
+    "blazing",
+    "niotic",
+    "spirited",
+    "nitro"
+   ],
+   "stats": {
+    "output_fe_t": [
+     20,
+     60,
+     100,
+     200,
+     400,
+     800,
+     2000
+    ],
+    "capacity_fe": [
+     20000,
+     80000,
+     200000,
+     800000,
+     2000000,
+     8000000,
+     40000000
+    ],
+    "transfer_fe_t": [
+     80,
+     320,
+     800,
+     3200,
+     8000,
+     32000,
+     160000
+    ]
+   },
+   "input": "Daylight with sky access (or a Lens of Ender). No fuel.",
+   "needs_power_to_start": false,
+   "needs_ore": false,
+   "starter_recipe": "photoelectric pane x3 (lapis x4 + paste + glass pane each), tiny capacitors, casing, paste",
+   "tunable": [
+    "config",
+    "recipe"
+   ]
+  },
+  {
+   "id": "powah:thermo_generator_<tier>",
+   "name": "Thermo Generator",
+   "category": "generator",
+   "subcategory": "heat-differential",
+   "tiers": [
+    "starter",
+    "basic",
+    "hardened",
+    "blazing",
+    "niotic",
+    "spirited",
+    "nitro"
+   ],
+   "stats": {
+    "output_fe_t": [
+     20,
+     60,
+     100,
+     200,
+     400,
+     800,
+     2000
+    ],
+    "capacity_fe": [
+     20000,
+     80000,
+     200000,
+     800000,
+     2000000,
+     8000000,
+     40000000
+    ],
+    "transfer_fe_t": [
+     80,
+     320,
+     800,
+     3200,
+     8000,
+     32000,
+     160000
+    ]
+   },
+   "input": "Heat source below (lava 1000, magma block 800, Blazing Crystal Block 2800) plus a coolant (water, ice, dry ice). Output = generation x heat/1000 x coolant ratio.",
+   "needs_power_to_start": false,
+   "needs_ore": false,
+   "starter_recipe": "thermoelectric plate x3 (blaze powder + redstone + tiny capacitor each), casing, paste",
+   "tunable": [
+    "config",
+    "datamap",
+    "recipe"
+   ]
+  },
+  {
+   "id": "powah:reactor_<tier>",
+   "name": "Reactor",
+   "category": "generator",
+   "subcategory": "multiblock-nuclear",
+   "tiers": [
+    "starter",
+    "basic",
+    "hardened",
+    "blazing",
+    "niotic",
+    "spirited",
+    "nitro"
+   ],
+   "stats": {
+    "output_fe_t": [
+     250,
+     1000,
+     2500,
+     10000,
+     25000,
+     100000,
+     500000
+    ],
+    "capacity_fe": [
+     250000,
+     1000000,
+     2500000,
+     10000000,
+     25000000,
+     100000000,
+     500000000
+    ],
+    "transfer_fe_t": [
+     1000,
+     4000,
+     10000,
+     40000,
+     100000,
+     400000,
+     2000000
+    ]
+   },
+   "input": "Uraninite fuel, coolant; multiblock. Fuel source (ore) not yet checked.",
+   "needs_power_to_start": false,
+   "needs_ore": true,
+   "tunable": [
+    "config",
+    "datamap",
+    "recipe"
+   ]
+  },
+  {
+   "id": "powah:energy_cell_<tier>",
+   "name": "Energy Cell",
+   "category": "energy-storage",
+   "subcategory": "block",
+   "tiers": [
+    "starter",
+    "basic",
+    "hardened",
+    "blazing",
+    "niotic",
+    "spirited",
+    "nitro"
+   ],
+   "stats": {
+    "capacity_fe": [
+     1000000,
+     4000000,
+     10000000,
+     40000000,
+     100000000,
+     400000000,
+     2000000000
+    ],
+    "transfer_fe_t": [
+     1000,
+     4000,
+     10000,
+     40000,
+     100000,
+     400000,
+     2000000
+    ]
+   },
+   "input": "Stores FE; not a multiblock.",
+   "tunable": [
+    "config",
+    "recipe"
+   ]
+  },
+  {
+   "id": "powah:battery_<tier>",
+   "name": "Battery",
+   "category": "energy-storage",
+   "subcategory": "portable",
+   "tiers": [
+    "starter",
+    "basic",
+    "hardened",
+    "blazing",
+    "niotic",
+    "spirited",
+    "nitro"
+   ],
+   "stats": {
+    "capacity_fe": [
+     1000000,
+     4000000,
+     10000000,
+     40000000,
+     100000000,
+     400000000,
+     2000000000
+    ],
+    "transfer_fe_t": [
+     1000,
+     4000,
+     10000,
+     40000,
+     100000,
+     400000,
+     2000000
+    ]
+   },
+   "tunable": [
+    "config",
+    "recipe"
+   ]
+  },
+  {
+   "id": "powah:energy_cable_<tier>",
+   "name": "Energy Cable",
+   "category": "energy-transfer",
+   "subcategory": "cable",
+   "tiers": [
+    "starter",
+    "basic",
+    "hardened",
+    "blazing",
+    "niotic",
+    "spirited",
+    "nitro"
+   ],
+   "stats": {
+    "transfer_fe_t": [
+     500,
+     2000,
+     5000,
+     20000,
+     50000,
+     200000,
+     1000000
+    ]
+   },
+   "tunable": [
+    "config",
+    "recipe"
+   ]
+  },
+  {
+   "id": "powah:ender_cell_<tier>, powah:ender_gate_<tier>",
+   "name": "Ender Cell / Ender Gate",
+   "category": "energy-transfer",
+   "subcategory": "wireless-channel",
+   "tiers": [
+    "starter",
+    "basic",
+    "hardened",
+    "blazing",
+    "niotic",
+    "spirited",
+    "nitro"
+   ],
+   "input": "Ender Cell holds a battery or energy cell on a channel; Ender Gates on the same channel connect; works across dimensions.",
+   "tunable": [
+    "config",
+    "recipe"
+   ]
+  },
+  {
+   "id": "powah:player_transmitter_<tier>, powah:energy_hopper_<tier>, powah:energy_discharger_<tier>",
+   "name": "Player Transmitter, Energy Hopper, Energy Discharger",
+   "category": "energy-transfer",
+   "subcategory": "charging",
+   "tiers": [
+    "starter",
+    "basic",
+    "hardened",
+    "blazing",
+    "niotic",
+    "spirited",
+    "nitro"
+   ],
+   "input": "Charge or discharge items and players' inventories; a candidate for a forgotten-item note.",
+   "tunable": [
+    "config",
+    "recipe"
+   ]
+  },
+  {
+   "id": "powah:energizing_rod_<tier>, powah:energizing_orb",
+   "name": "Energizing Rod and Orb",
+   "category": "crafting-station",
+   "subcategory": "energizing",
+   "stats": {
+    "transfer_fe_t": [
+     100,
+     400,
+     1000,
+     4000,
+     10000,
+     40000,
+     200000
+    ],
+    "capacity_fe": [
+     10000,
+     40000,
+     100000,
+     400000,
+     1000000,
+     4000000,
+     20000000
+    ]
+   },
+   "tiers": [
+    "starter",
+    "basic",
+    "hardened",
+    "blazing",
+    "niotic",
+    "spirited",
+    "nitro"
+   ],
+   "input": "Powah's crafting system: rods feed FE to an orb holding the inputs. Recipes have an FE cost (scaled by general.energizing_energy_ratio).",
+   "tunable": [
+    "config",
+    "recipe"
+   ]
+  },
+  {
+   "id": "powah:wrench",
+   "name": "Wrench",
+   "category": "tool",
+   "subcategory": "wrench",
+   "input": "Rotate and configure Powah blocks; recipe: 2 iron + 3 dielectric paste. Candidate to replace with Morph-o-Tool (test).",
+   "tunable": [
+    "recipe"
+   ]
+  },
+  {
+   "id": "powah:charged_snowball",
+   "name": "Charged Snowball",
+   "category": "consumable",
+   "subcategory": "projectile",
+   "input": "Energizing recipe (500,000 FE per snowball). Never mentioned in packs today; forgotten-item candidate.",
+   "tunable": [
+    "recipe"
+   ]
+  },
+  {
+   "id": "powah:binding_card, powah:binding_card_dim",
+   "name": "Binding Card / Dimensional Binding Card",
+   "category": "utility",
+   "subcategory": "linking",
+   "input": "Binding Card links Powah devices (e.g. Player Transmitter). The dimensional card is a right-click-an-Enderman drop (config toggle). Forgotten-item candidate.",
+   "tunable": [
+    "config"
+   ]
+  }
+ ],
+ "starter_path": {
+  "needs": [
+   "iron ingots",
+   "coal",
+   "clay",
+   "lava bucket OR blaze powder (for dielectric paste)",
+   "redstone BLOCK (for basic capacitor)",
+   "furnace (Furnator)"
+  ],
+  "paste_recipes": [
+   "3 coal + 2 clay + lava bucket -> 24 paste",
+   "2 coal + clay + blaze powder -> 16 paste"
+  ],
+  "note": "Everything for a Starter Furnator is available without Powah's own ore; the pinch points in a skyblock/ship start are the lava bucket or blaze powder, and 9 redstone for the block."
+ }
+}
