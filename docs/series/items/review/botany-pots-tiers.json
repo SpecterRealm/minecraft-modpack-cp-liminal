@@ -1,0 +1,45 @@
+{
+ "note": "Tiered pots (elite, ultra, mega) that speed up or multiply the base Botany Pots; a scale step, not a new source. Upgrades raise the tier. Built-in support: Bookshelf, Botany Pots, Prickle. Yield data: yields/botany-pots-tiers.json.",
+ "rules": [
+  {
+   "match": "_botany_pot$",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:block",
+    "function:farm",
+    "scale:tiered"
+   ]
+  },
+  {
+   "match": "_hopper_botany_pot$",
+   "kind": "block",
+   "set": [
+    "function:automate"
+   ]
+  },
+  {
+   "match": "_upgrade$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:gadget",
+    "function:farm",
+    "scale:tiered"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

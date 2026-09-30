@@ -1,0 +1,148 @@
+{
+ "note": "Essence-crop farming: seeds grow essences that craft into resources, by tiers (inferium to supremium). Resource crops are defined in ModCrops.java (see yields/mystical-agriculture.json: iron is a tier 3 crop). Machines that use FE: seed reprocessor, soul extractor, harvester, essence furnace, soulium spawner. Ores in the world (prosperity, inferium, soulium) need ore worldgen. Built-in support: AE2, Create, Draconic Evolution, Mekanism, Powah, Patchouli, Cucumber.",
+ "rules": [
+  {
+   "match": "_(essence|ingot|nugget|gemstone|shard|dust|seed_base)$|^(soul_dust|cognizant_dust|fertilized_essence|mystical_fertilizer|mystical_essence)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:material"
+   ]
+  },
+  {
+   "match": "_agglomeratio$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:ingredient"
+   ]
+  },
+  {
+   "match": "_(block|ingot_block|gemstone_block)$",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:block"
+   ]
+  },
+  {
+   "match": "_farmland$",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:block",
+    "function:farm",
+    "scale:tiered"
+   ]
+  },
+  {
+   "match": "_growth_accelerator$",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:block",
+    "function:farm",
+    "scale:tiered"
+   ]
+  },
+  {
+   "match": "_upgrade$|^upgrade_base$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:gadget",
+    "scale:tiered"
+   ]
+  },
+  {
+   "match": "^(infusion|awakening)_(altar|pedestal)$",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:multiblock",
+    "function:craft"
+   ]
+  },
+  {
+   "match": "^(tinkering_table|enchanter)$",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:machine",
+    "function:craft"
+   ]
+  },
+  {
+   "match": "^(seed_reprocessor|soul_extractor|harvester|soulium_spawner|furnace)$",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe"
+   ]
+  },
+  {
+   "match": "^(prosperity|inferium|soulium)_ore$|^deepslate_",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "needs:ore"
+   ]
+  },
+  {
+   "match": "^(inferium|prudentium|tertium|imperium|supremium)_(sword|pickaxe|shovel|axe|hoe|staff|bow|crossbow|shears|fishing_rod|sickle|scythe|watering_can)$",
+   "set": [
+    "scale:tiered"
+   ]
+  },
+  {
+   "match": "soul",
+   "clear": [
+    "needs"
+   ],
+   "set": [
+    "needs:none"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

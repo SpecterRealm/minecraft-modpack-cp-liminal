@@ -1,0 +1,1024 @@
+{
+ "mod": "mystical-agriculture",
+ "version": "1.21",
+ "source": "src/main/java/com/blakebr0/mysticalagriculture/lib/ModCrops.java (branch 1.21)",
+ "entries": [
+  {
+   "resource": "air",
+   "form": "seed -> essence -> CropTextures.ELEMENTAL_CROP_TEXTURES, 0xDAD64D, LazyIngredient.item(\"mysticalagr",
+   "source": "crop",
+   "tier": "elemental",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "earth",
+   "form": "seed -> essence -> CropTextures.ELEMENTAL_CROP_TEXTURES, 0x54DA4D, LazyIngredient.item(\"mysticalagr",
+   "source": "crop",
+   "tier": "elemental",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "water",
+   "form": "seed -> essence -> CropTextures.ELEMENTAL_CROP_TEXTURES, 0x4D7EDA, LazyIngredient.item(\"mysticalagr",
+   "source": "crop",
+   "tier": "elemental",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "fire",
+   "form": "seed -> essence -> CropTextures.ELEMENTAL_CROP_TEXTURES, 0xDA4D4D, LazyIngredient.item(\"mysticalagr",
+   "source": "crop",
+   "tier": "elemental",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "inferium",
+   "form": "seed -> essence -> mysticalagriculture:inferium_essence",
+   "source": "crop",
+   "tier": "1 inferium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "stone",
+   "form": "seed -> essence -> minecraft:stone",
+   "source": "crop",
+   "tier": "1 inferium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "dirt",
+   "form": "seed -> essence -> minecraft:dirt",
+   "source": "crop",
+   "tier": "1 inferium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "wood",
+   "form": "seed -> essence -> minecraft:logs",
+   "source": "crop",
+   "tier": "1 inferium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "ice",
+   "form": "seed -> essence -> minecraft:ice",
+   "source": "crop",
+   "tier": "1 inferium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "deepslate",
+   "form": "seed -> essence -> minecraft:deepslate",
+   "source": "crop",
+   "tier": "1 inferium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "nature",
+   "form": "seed -> essence -> mysticalagriculture:nature_agglomeratio",
+   "source": "crop",
+   "tier": "2 prudentium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "dye",
+   "form": "seed -> essence -> mysticalagriculture:dye_agglomeratio",
+   "source": "crop",
+   "tier": "2 prudentium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "nether",
+   "form": "seed -> essence -> mysticalagriculture:nether_agglomeratio",
+   "source": "crop",
+   "tier": "2 prudentium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "coal",
+   "form": "seed -> essence -> minecraft:coal",
+   "source": "crop",
+   "tier": "2 prudentium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "coral",
+   "form": "seed -> essence -> mysticalagriculture:coral_agglomeratio",
+   "source": "crop",
+   "tier": "2 prudentium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "honey",
+   "form": "seed -> essence -> mysticalagriculture:honey_agglomeratio",
+   "source": "crop",
+   "tier": "2 prudentium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "amethyst",
+   "form": "seed -> essence -> minecraft:amethyst_shard",
+   "source": "crop",
+   "tier": "2 prudentium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "iron",
+   "form": "seed -> essence -> c:ingots/iron",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "copper",
+   "form": "seed -> essence -> minecraft:copper_ingot",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "nether_quartz",
+   "form": "seed -> essence -> c:gems/quartz",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "glowstone",
+   "form": "seed -> essence -> c:dusts/glowstone",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "redstone",
+   "form": "seed -> essence -> c:dusts/redstone",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "obsidian",
+   "form": "seed -> essence -> minecraft:obsidian",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "prismarine",
+   "form": "seed -> essence -> mysticalagriculture:prismarine_agglomeratio",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "sculk",
+   "form": "seed -> essence -> minecraft:sculk",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "gold",
+   "form": "seed -> essence -> c:ingots/gold",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "lapis_lazuli",
+   "form": "seed -> essence -> c:gems/lapis",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "end",
+   "form": "seed -> essence -> mysticalagriculture:end_agglomeratio",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "experience",
+   "form": "seed -> essence -> mysticalagriculture:experience_capsule",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "diamond",
+   "form": "seed -> essence -> c:gems/diamond",
+   "source": "crop",
+   "tier": "5 supremium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "emerald",
+   "form": "seed -> essence -> c:gems/emerald",
+   "source": "crop",
+   "tier": "5 supremium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "netherite",
+   "form": "seed -> essence -> minecraft:netherite_ingot",
+   "source": "crop",
+   "tier": "5 supremium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "rubber",
+   "form": "seed -> essence -> c:rubber",
+   "source": "crop",
+   "tier": "2 prudentium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "silicon",
+   "form": "seed -> essence -> c:silicon",
+   "source": "crop",
+   "tier": "2 prudentium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "sulfur",
+   "form": "seed -> essence -> c:dusts/sulfur",
+   "source": "crop",
+   "tier": "2 prudentium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "aluminum",
+   "form": "seed -> essence -> c:ingots/aluminum",
+   "source": "crop",
+   "tier": "2 prudentium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "saltpeter",
+   "form": "seed -> essence -> mysticalagriculture:material/saltpeter",
+   "source": "crop",
+   "tier": "2 prudentium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "tin",
+   "form": "seed -> essence -> c:ingots/tin",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "bronze",
+   "form": "seed -> essence -> c:ingots/bronze",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "zinc",
+   "form": "seed -> essence -> c:ingots/zinc",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "brass",
+   "form": "seed -> essence -> c:ingots/brass",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "silver",
+   "form": "seed -> essence -> c:ingots/silver",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "lead",
+   "form": "seed -> essence -> c:ingots/lead",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "graphite",
+   "form": "seed -> essence -> c:ingots/graphite",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "steel",
+   "form": "seed -> essence -> c:ingots/steel",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "nickel",
+   "form": "seed -> essence -> c:ingots/nickel",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "constantan",
+   "form": "seed -> essence -> c:ingots/constantan",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "electrum",
+   "form": "seed -> essence -> c:ingots/electrum",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "invar",
+   "form": "seed -> essence -> c:ingots/invar",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "uranium",
+   "form": "seed -> essence -> c:ingots/uranium",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "platinum",
+   "form": "seed -> essence -> c:ingots/platinum",
+   "source": "crop",
+   "tier": "5 supremium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "iridium",
+   "form": "seed -> essence -> c:ingots/iridium",
+   "source": "crop",
+   "tier": "5 supremium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "apatite",
+   "form": "seed -> essence -> c:gems/apatite",
+   "source": "crop",
+   "tier": "2 prudentium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "ruby",
+   "form": "seed -> essence -> c:gems/ruby",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "sapphire",
+   "form": "seed -> essence -> c:gems/sapphire",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "peridot",
+   "form": "seed -> essence -> c:gems/peridot",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "soulium",
+   "form": "seed -> essence -> mysticalagriculture:soulium_dust",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "signalum",
+   "form": "seed -> essence -> c:ingots/signalum",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "lumium",
+   "form": "seed -> essence -> c:ingots/lumium",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "enderium",
+   "form": "seed -> essence -> c:ingots/enderium",
+   "source": "crop",
+   "tier": "5 supremium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "flux_infused_ingot",
+   "form": "seed -> essence -> redstone_arsenal:flux_ingot",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "flux_infused_gem",
+   "form": "seed -> essence -> redstone_arsenal:flux_gem",
+   "source": "crop",
+   "tier": "5 supremium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "hop_graphite",
+   "form": "seed -> essence -> c:ingots/hop_graphite",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "amethyst_bronze",
+   "form": "seed -> essence -> c:ingots/amethyst_bronze",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "slimesteel",
+   "form": "seed -> essence -> c:ingots/slimesteel",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "pig_iron",
+   "form": "seed -> essence -> c:ingots/pig_iron",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "cobalt",
+   "form": "seed -> essence -> c:ingots/cobalt",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "rose_gold",
+   "form": "seed -> essence -> c:ingots/rose_gold",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "manyullyn",
+   "form": "seed -> essence -> c:ingots/manyullyn",
+   "source": "crop",
+   "tier": "5 supremium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "queens_slime",
+   "form": "seed -> essence -> c:ingots/queens_slime",
+   "source": "crop",
+   "tier": "5 supremium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "hepatizon",
+   "form": "seed -> essence -> c:ingots/hepatizon",
+   "source": "crop",
+   "tier": "5 supremium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "grains_of_infinity",
+   "form": "seed -> essence -> enderio:grains_of_infinity",
+   "source": "crop",
+   "tier": "2 prudentium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "copper_alloy",
+   "form": "seed -> essence -> enderio:copper_alloy_ingot",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "redstone_alloy",
+   "form": "seed -> essence -> enderio:redstone_alloy_ingot",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "conductive_alloy",
+   "form": "seed -> essence -> enderio:conductive_alloy_ingot",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "soularium",
+   "form": "seed -> essence -> enderio:soularium_ingot",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "dark_steel",
+   "form": "seed -> essence -> enderio:dark_steel_ingot",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "pulsating_alloy",
+   "form": "seed -> essence -> enderio:pulsating_alloy_ingot",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "energetic_alloy",
+   "form": "seed -> essence -> enderio:energetic_alloy_ingot",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "vibrant_alloy",
+   "form": "seed -> essence -> enderio:vibrant_alloy_ingot",
+   "source": "crop",
+   "tier": "5 supremium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "end_steel",
+   "form": "seed -> essence -> enderio:end_steel_ingot",
+   "source": "crop",
+   "tier": "5 supremium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "mystical_flower",
+   "form": "seed -> essence -> mysticalagriculture:mystical_flower_agglomeratio",
+   "source": "crop",
+   "tier": "2 prudentium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "manasteel",
+   "form": "seed -> essence -> botania:manasteel_ingot",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "elementium",
+   "form": "seed -> essence -> botania:elementium_ingot",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "terrasteel",
+   "form": "seed -> essence -> botania:terrasteel_ingot",
+   "source": "crop",
+   "tier": "5 supremium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "osmium",
+   "form": "seed -> essence -> c:ingots/osmium",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "fluorite",
+   "form": "seed -> essence -> c:gems/fluorite",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "refined_glowstone",
+   "form": "seed -> essence -> c:ingots/refined_glowstone",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "refined_obsidian",
+   "form": "seed -> essence -> c:ingots/refined_obsidian",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "marble",
+   "form": "seed -> essence -> mysticalagriculture:material/marble",
+   "source": "crop",
+   "tier": "2 prudentium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "limestone",
+   "form": "seed -> essence -> mysticalagriculture:material/limestone",
+   "source": "crop",
+   "tier": "2 prudentium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "basalt",
+   "form": "seed -> essence -> chisel:basalt",
+   "source": "crop",
+   "tier": "2 prudentium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "steeleaf",
+   "form": "seed -> essence -> twilightforest:steeleaf_ingot",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "ironwood",
+   "form": "seed -> essence -> twilightforest:ironwood_ingot",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "knightmetal",
+   "form": "seed -> essence -> twilightforest:knightmetal_ingot",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "fiery_ingot",
+   "form": "seed -> essence -> twilightforest:fiery_ingot",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "menril",
+   "form": "seed -> essence -> integrateddynamics:menril_berries",
+   "source": "crop",
+   "tier": "2 prudentium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "aquamarine",
+   "form": "seed -> essence -> astralsorcery:aquamarine",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "starmetal",
+   "form": "seed -> essence -> astralsorcery:starmetal_ingot",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "rock_crystal",
+   "form": "seed -> essence -> astralsorcery:rock_crystal",
+   "source": "crop",
+   "tier": "5 supremium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "compressed_iron",
+   "form": "seed -> essence -> c:ingots/compressed_iron",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "draconium",
+   "form": "seed -> essence -> c:ingots/draconium",
+   "source": "crop",
+   "tier": "5 supremium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "yellorium",
+   "form": "seed -> essence -> c:ingots/yellorium",
+   "source": "crop",
+   "tier": "5 supremium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "cyanite",
+   "form": "seed -> essence -> c:ingots/cyanite",
+   "source": "crop",
+   "tier": "5 supremium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "sky_stone",
+   "form": "seed -> essence -> ae2:sky_stone_block",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "certus_quartz",
+   "form": "seed -> essence -> c:gems/certus_quartz",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "fluix",
+   "form": "seed -> essence -> c:gems/fluix",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "quartz_enriched_iron",
+   "form": "seed -> essence -> refinedstorage:quartz_enriched_iron",
+   "source": "crop",
+   "tier": "3 tertium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "energized_steel",
+   "form": "seed -> essence -> powah:steel_energized",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "blazing_crystal",
+   "form": "seed -> essence -> powah:crystal_blazing",
+   "source": "crop",
+   "tier": "4 imperium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "niotic_crystal",
+   "form": "seed -> essence -> powah:crystal_niotic",
+   "source": "crop",
+   "tier": "5 supremium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "spirited_crystal",
+   "form": "seed -> essence -> powah:crystal_spirited",
+   "source": "crop",
+   "tier": "5 supremium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  },
+  {
+   "resource": "uraninite",
+   "form": "seed -> essence -> powah:uraninite",
+   "source": "crop",
+   "tier": "5 supremium",
+   "power": "none",
+   "stage": "scale",
+   "note": "Mystical Agriculture resource crop; tier sets the farmland and essence needed. Output item per source definition (ModCrops.java)."
+  }
+ ]
+}
