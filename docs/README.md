@@ -25,5 +25,6 @@ Liminal is the **source of truth for the whole Colony Protocol series**. Start w
 | [curseforge-export.md](curseforge-export.md) | CF zip rules (no CF JARs in overrides/mods) |
 | [config-workflow.md](config-workflow.md) | `config/` pull / promote / ship |
 | [quest-rewards.md](quest-rewards.md) | Quest reward tables |
+| [recipe-wiki.md](recipe-wiki.md) | Offline recipe dump (`make recipe-wiki`) vs per-mod EMI; do not reuse Verdant dump data |
 
 **Reference tooling:** Verdant [`docs/pack-template.md`](https://github.com/MichaelHeaton/minecraft-modpack-cp-verdant/blob/main/docs/pack-template.md).

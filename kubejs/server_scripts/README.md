@@ -4,6 +4,9 @@
 |--------|------|
 | `quest_book_login.js` | Give `ftbquests:book` if missing on join + short login tip |
 | `emi_hide_creative.js` | Tag creative/unobtainable items → `c:hidden_from_recipe_viewers` |
+| `recipe_dump.js` | Dev: log recipe counts by type on world load (`[CPL]`). Comment out before release. |
+
+Offline JAR+KubeJS index: `make recipe-wiki` / `docs/recipe-wiki.md` (do not reuse Verdant `recipe_data.json`).
 
 Client companion: `kubejs/client_scripts/emi_hide_creative.js`.
 
