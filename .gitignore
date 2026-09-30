@@ -33,3 +33,8 @@ logs/
 crash-reports/
 saves/
 screenshots/
+world/
+
+# Export outputs (keep zips out of git)
+*.zip
+*.mrpack
