@@ -1,0 +1,154 @@
+{
+ "note": "163 tree species: wood, fruit and nuts, sap, rubber, cork, pollen. No metal or ore yields and no powered machines. Good for food, wood and bee habitat (expansion boxes), not for metal progression. Built-in support: Botany Pots, Farming for Blockheads, Mekanism (sawmill recipes), Patchouli, Productive Bees/Farming. Yield data: yields/productivetrees.json.",
+ "rules": [
+  {
+   "match": "(\\.latin$|_display$)",
+   "ui": true
+  },
+  {
+   "match": "_sapling$",
+   "clear": [
+    "kind",
+    "function",
+    "needs"
+   ],
+   "set": [
+    "kind:ingredient",
+    "function:farm"
+   ]
+  },
+  {
+   "match": "(_log|_wood)$|^stripped_",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "function",
+    "needs"
+   ],
+   "set": [
+    "kind:block"
+   ]
+  },
+  {
+   "match": "_leaves$",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "function",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:farm"
+   ]
+  },
+  {
+   "match": "_(planks|slab|stairs|fence|fence_gate|door|trapdoor|button|pressure_plate|sign|wall_sign|hanging_sign)$",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "function",
+    "needs"
+   ],
+   "set": [
+    "kind:decoration"
+   ]
+  },
+  {
+   "match": "_beehive$",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:block",
+    "function:farm"
+   ]
+  },
+  {
+   "match": "_crate$",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:storage",
+    "function:store"
+   ]
+  },
+  {
+   "match": "^expansion_box_",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:block",
+    "function:farm"
+   ]
+  },
+  {
+   "match": "^(sawmill|stripper|pollen_sifter)$",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "function",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:process",
+    "power-role:none",
+    "power-type:none"
+   ]
+  },
+  {
+   "match": "^wood_worker$",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "function",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:craft",
+    "power-role:none",
+    "power-type:none"
+   ]
+  },
+  {
+   "match": ".",
+   "kind": "item",
+   "clear": [
+    "kind",
+    "function",
+    "needs"
+   ],
+   "set": [
+    "kind:food"
+   ]
+  },
+  {
+   "match": "^(pollen|sawdust|rubber|cured_rubber|cork|haematoxylin|fustic|sandalwood_oil|dracaena_sap|date_palm_juice|maple_sap_bucket)$",
+   "kind": "item",
+   "clear": [
+    "kind"
+   ],
+   "set": [
+    "kind:ingredient"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

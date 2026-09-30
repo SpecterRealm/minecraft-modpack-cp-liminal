@@ -1,0 +1,397 @@
+{
+ "mod": "ex-deorum",
+ "version": "1.21.1",
+ "source": "data/exdeorum/recipe/sieve/**/*_ore_chunk.json (generated data)",
+ "entries": [
+  {
+   "resource": "aluminum",
+   "form": "ore chunk",
+   "source": "sieve",
+   "inputs": [
+    "gravel"
+   ],
+   "meshes": [
+    "string",
+    "flint",
+    "iron",
+    "golden",
+    "diamond",
+    "netherite"
+   ],
+   "chance_min": 0.04,
+   "chance_max": 0.09,
+   "power": "none (manual); mechanical sieve uses FE",
+   "stage": "bootstrap",
+   "note": "4 chunks craft 1 aluminum ore block; smelt to ingot. Best: gravel with netherite mesh (0.09); worst: gravel with string mesh (0.04)."
+  },
+  {
+   "resource": "boron",
+   "form": "ore chunk",
+   "source": "sieve",
+   "inputs": [
+    "crushed_deepslate",
+    "gravel"
+   ],
+   "meshes": [
+    "string",
+    "flint",
+    "iron",
+    "golden",
+    "diamond",
+    "netherite"
+   ],
+   "chance_min": 0.03,
+   "chance_max": 0.09,
+   "power": "none (manual); mechanical sieve uses FE",
+   "stage": "bootstrap",
+   "note": "4 chunks craft 1 boron ore block; smelt to ingot. Best: crushed_deepslate with netherite mesh (0.09); worst: gravel with string mesh (0.03)."
+  },
+  {
+   "resource": "cobalt",
+   "form": "ore chunk",
+   "source": "sieve",
+   "inputs": [
+    "crushed_netherrack"
+   ],
+   "meshes": [
+    "string",
+    "flint",
+    "iron",
+    "golden",
+    "diamond",
+    "netherite"
+   ],
+   "chance_min": 0.04,
+   "chance_max": 0.11,
+   "power": "none (manual); mechanical sieve uses FE",
+   "stage": "bootstrap",
+   "note": "4 chunks craft 1 cobalt ore block; smelt to ingot. Best: crushed_netherrack with netherite mesh (0.11); worst: crushed_netherrack with string mesh (0.04)."
+  },
+  {
+   "resource": "copper",
+   "form": "ore chunk",
+   "source": "sieve",
+   "inputs": [
+    "crushed_deepslate",
+    "gravel"
+   ],
+   "meshes": [
+    "string",
+    "flint",
+    "iron",
+    "golden",
+    "diamond",
+    "netherite"
+   ],
+   "chance_min": 0.07,
+   "chance_max": 0.12,
+   "power": "none (manual); mechanical sieve uses FE",
+   "stage": "bootstrap",
+   "note": "4 chunks craft 1 copper ore block; smelt to ingot. Best: crushed_deepslate with string mesh (0.12); worst: gravel with diamond mesh (0.07)."
+  },
+  {
+   "resource": "gold",
+   "form": "ore chunk",
+   "source": "sieve",
+   "inputs": [
+    "crushed_deepslate",
+    "gravel"
+   ],
+   "meshes": [
+    "string",
+    "flint",
+    "iron",
+    "golden",
+    "diamond",
+    "netherite"
+   ],
+   "chance_min": 0.03,
+   "chance_max": 0.15,
+   "power": "none (manual); mechanical sieve uses FE",
+   "stage": "bootstrap",
+   "note": "4 chunks craft 1 gold ore block; smelt to ingot. Best: crushed_deepslate with golden mesh (0.15); worst: gravel with string mesh (0.03)."
+  },
+  {
+   "resource": "iridium",
+   "form": "ore chunk",
+   "source": "sieve",
+   "inputs": [
+    "crushed_deepslate",
+    "gravel"
+   ],
+   "meshes": [
+    "string",
+    "flint",
+    "iron",
+    "golden",
+    "diamond",
+    "netherite"
+   ],
+   "chance_min": 0.03,
+   "chance_max": 0.065,
+   "power": "none (manual); mechanical sieve uses FE",
+   "stage": "bootstrap",
+   "note": "4 chunks craft 1 iridium ore block; smelt to ingot. Best: crushed_deepslate with diamond mesh (0.065); worst: gravel with string mesh (0.03)."
+  },
+  {
+   "resource": "iron",
+   "form": "ore chunk",
+   "source": "sieve",
+   "inputs": [
+    "crushed_deepslate",
+    "gravel"
+   ],
+   "meshes": [
+    "string",
+    "flint",
+    "iron",
+    "golden",
+    "diamond",
+    "netherite"
+   ],
+   "chance_min": 0.1,
+   "chance_max": 0.2,
+   "power": "none (manual); mechanical sieve uses FE",
+   "stage": "bootstrap",
+   "note": "4 chunks craft 1 iron ore block; smelt to ingot. Best: crushed_deepslate with netherite mesh (0.2); worst: gravel with string mesh (0.1)."
+  },
+  {
+   "resource": "lead",
+   "form": "ore chunk",
+   "source": "sieve",
+   "inputs": [
+    "crushed_deepslate",
+    "gravel"
+   ],
+   "meshes": [
+    "string",
+    "flint",
+    "iron",
+    "golden",
+    "diamond",
+    "netherite"
+   ],
+   "chance_min": 0.04,
+   "chance_max": 0.12,
+   "power": "none (manual); mechanical sieve uses FE",
+   "stage": "bootstrap",
+   "note": "4 chunks craft 1 lead ore block; smelt to ingot. Best: crushed_deepslate with netherite mesh (0.12); worst: gravel with string mesh (0.04)."
+  },
+  {
+   "resource": "lithium",
+   "form": "ore chunk",
+   "source": "sieve",
+   "inputs": [
+    "crushed_deepslate"
+   ],
+   "meshes": [
+    "string",
+    "flint",
+    "iron",
+    "golden",
+    "diamond",
+    "netherite"
+   ],
+   "chance_min": 0.045,
+   "chance_max": 0.085,
+   "power": "none (manual); mechanical sieve uses FE",
+   "stage": "bootstrap",
+   "note": "4 chunks craft 1 lithium ore block; smelt to ingot. Best: crushed_deepslate with netherite mesh (0.085); worst: crushed_deepslate with string mesh (0.045)."
+  },
+  {
+   "resource": "magnesium",
+   "form": "ore chunk",
+   "source": "sieve",
+   "inputs": [
+    "crushed_deepslate",
+    "gravel"
+   ],
+   "meshes": [
+    "string",
+    "flint",
+    "iron",
+    "golden",
+    "diamond",
+    "netherite"
+   ],
+   "chance_min": 0.04,
+   "chance_max": 0.14,
+   "power": "none (manual); mechanical sieve uses FE",
+   "stage": "bootstrap",
+   "note": "4 chunks craft 1 magnesium ore block; smelt to ingot. Best: crushed_deepslate with netherite mesh (0.14); worst: gravel with golden mesh (0.04)."
+  },
+  {
+   "resource": "nickel",
+   "form": "ore chunk",
+   "source": "sieve",
+   "inputs": [
+    "crushed_deepslate",
+    "gravel"
+   ],
+   "meshes": [
+    "string",
+    "flint",
+    "iron",
+    "golden",
+    "diamond",
+    "netherite"
+   ],
+   "chance_min": 0.04,
+   "chance_max": 0.15,
+   "power": "none (manual); mechanical sieve uses FE",
+   "stage": "bootstrap",
+   "note": "4 chunks craft 1 nickel ore block; smelt to ingot. Best: crushed_deepslate with netherite mesh (0.15); worst: crushed_deepslate with string mesh (0.04)."
+  },
+  {
+   "resource": "osmium",
+   "form": "ore chunk",
+   "source": "sieve",
+   "inputs": [
+    "crushed_deepslate",
+    "gravel"
+   ],
+   "meshes": [
+    "string",
+    "flint",
+    "iron",
+    "golden",
+    "diamond",
+    "netherite"
+   ],
+   "chance_min": 0.03,
+   "chance_max": 0.14,
+   "power": "none (manual); mechanical sieve uses FE",
+   "stage": "bootstrap",
+   "note": "4 chunks craft 1 osmium ore block; smelt to ingot. Best: crushed_deepslate with netherite mesh (0.14); worst: gravel with string mesh (0.03)."
+  },
+  {
+   "resource": "platinum",
+   "form": "ore chunk",
+   "source": "sieve",
+   "inputs": [
+    "crushed_deepslate"
+   ],
+   "meshes": [
+    "string",
+    "flint",
+    "iron",
+    "golden",
+    "diamond",
+    "netherite"
+   ],
+   "chance_min": 0.03,
+   "chance_max": 0.09,
+   "power": "none (manual); mechanical sieve uses FE",
+   "stage": "bootstrap",
+   "note": "4 chunks craft 1 platinum ore block; smelt to ingot. Best: crushed_deepslate with golden mesh (0.09); worst: crushed_deepslate with string mesh (0.03)."
+  },
+  {
+   "resource": "silver",
+   "form": "ore chunk",
+   "source": "sieve",
+   "inputs": [
+    "crushed_deepslate",
+    "gravel"
+   ],
+   "meshes": [
+    "string",
+    "flint",
+    "iron",
+    "golden",
+    "diamond",
+    "netherite"
+   ],
+   "chance_min": 0.04,
+   "chance_max": 0.15,
+   "power": "none (manual); mechanical sieve uses FE",
+   "stage": "bootstrap",
+   "note": "4 chunks craft 1 silver ore block; smelt to ingot. Best: crushed_deepslate with golden mesh (0.15); worst: gravel with string mesh (0.04)."
+  },
+  {
+   "resource": "thorium",
+   "form": "ore chunk",
+   "source": "sieve",
+   "inputs": [
+    "crushed_deepslate",
+    "gravel"
+   ],
+   "meshes": [
+    "string",
+    "flint",
+    "iron",
+    "golden",
+    "diamond",
+    "netherite"
+   ],
+   "chance_min": 0.04,
+   "chance_max": 0.11,
+   "power": "none (manual); mechanical sieve uses FE",
+   "stage": "bootstrap",
+   "note": "4 chunks craft 1 thorium ore block; smelt to ingot. Best: crushed_deepslate with netherite mesh (0.11); worst: gravel with golden mesh (0.04)."
+  },
+  {
+   "resource": "tin",
+   "form": "ore chunk",
+   "source": "sieve",
+   "inputs": [
+    "crushed_deepslate",
+    "gravel"
+   ],
+   "meshes": [
+    "string",
+    "flint",
+    "iron",
+    "golden",
+    "diamond",
+    "netherite"
+   ],
+   "chance_min": 0.05,
+   "chance_max": 0.16,
+   "power": "none (manual); mechanical sieve uses FE",
+   "stage": "bootstrap",
+   "note": "4 chunks craft 1 tin ore block; smelt to ingot. Best: crushed_deepslate with netherite mesh (0.16); worst: crushed_deepslate with string mesh (0.05)."
+  },
+  {
+   "resource": "uranium",
+   "form": "ore chunk",
+   "source": "sieve",
+   "inputs": [
+    "crushed_deepslate"
+   ],
+   "meshes": [
+    "string",
+    "flint",
+    "iron",
+    "golden",
+    "diamond",
+    "netherite"
+   ],
+   "chance_min": 0.04,
+   "chance_max": 0.12,
+   "power": "none (manual); mechanical sieve uses FE",
+   "stage": "bootstrap",
+   "note": "4 chunks craft 1 uranium ore block; smelt to ingot. Best: crushed_deepslate with netherite mesh (0.12); worst: crushed_deepslate with string mesh (0.04)."
+  },
+  {
+   "resource": "zinc",
+   "form": "ore chunk",
+   "source": "sieve",
+   "inputs": [
+    "gravel"
+   ],
+   "meshes": [
+    "string",
+    "flint",
+    "iron",
+    "golden",
+    "diamond",
+    "netherite"
+   ],
+   "chance_min": 0.035,
+   "chance_max": 0.08,
+   "power": "none (manual); mechanical sieve uses FE",
+   "stage": "bootstrap",
+   "note": "4 chunks craft 1 zinc ore block; smelt to ingot. Best: gravel with diamond mesh (0.08); worst: gravel with string mesh (0.035)."
+  }
+ ]
+}

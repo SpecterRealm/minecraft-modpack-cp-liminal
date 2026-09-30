@@ -1,0 +1,115 @@
+{
+ "note": "Bee species for most resources, including metals, plus hives, nests, feeders and the machines around them. Many species are compat bees for mods not in the pack, so whether a given bee is active is unverified. Powered: honey generator makes FE; powered and heated centrifuge, breeding chamber and incubator use FE; the plain centrifuge does not. Built-in support: AE2, Ars Nouveau, Create, Draconic Evolution, Flux Networks, Mekanism, Mystical Agriculture, Occultism, Powah, Silent Gear and others. Yield data: yields/productivebees.json (species names only, outputs unverified).",
+ "rules": [
+  {
+   "match": "_bee$",
+   "clear": [
+    "kind",
+    "function",
+    "needs"
+   ],
+   "set": [
+    "kind:mob",
+    "function:farm"
+   ]
+  },
+  {
+   "match": "(_beehive|_nest|_hive)$|^expansion_box_",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:block",
+    "function:farm"
+   ]
+  },
+  {
+   "match": "canvas$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:decoration"
+   ]
+  },
+  {
+   "match": "^(comb_|wax_block|honey|quartz_netherrack)",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:ingredient"
+   ]
+  },
+  {
+   "match": "^centrifuge$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "kind:machine",
+    "function:process",
+    "power-role:none",
+    "power-type:none"
+   ]
+  },
+  {
+   "match": "^(heated_centrifuge|powered_centrifuge|breeding_chamber|incubator)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "kind:machine",
+    "function:process",
+    "function:farm",
+    "power-role:uses",
+    "power-type:fe"
+   ]
+  },
+  {
+   "match": "^honey_generator$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "fuel:biomass"
+   ]
+  },
+  {
+   "match": "^(bottler|catcher|feeder|feeder_double|gene_indexer|cryo_stasis|purple_hopper|jar_oak)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:machine",
+    "function:farm"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

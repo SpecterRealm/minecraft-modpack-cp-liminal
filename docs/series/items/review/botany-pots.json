@@ -1,0 +1,39 @@
+{
+ "note": "Pot blocks in colour and material variants (plain, hopper, waxed). Crops and soils are datapack-driven, so the lang file lists only the pots. Built-in support: Bookshelf, Farmers Delight, Farming for Blockheads, Occultism, Prickle, Silent Gear. Yield data: yields/botany-pots.json (none from source).",
+ "rules": [
+  {
+   "match": "_botany_pot$",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:block",
+    "function:farm"
+   ]
+  },
+  {
+   "match": "_hopper_botany_pot$",
+   "kind": "block",
+   "set": [
+    "function:automate"
+   ]
+  },
+  {
+   "match": "(^|_)hopper($|_)",
+   "kind": "block",
+   "set": [
+    "function:transfer"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

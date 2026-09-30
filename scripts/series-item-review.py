@@ -9,6 +9,7 @@ A review file docs/series/items/review/<mod>.json holds the decisions made while
         {"match": "_ore_chunk$", "kind": "item",            # regex on the id after the colon; optional block|item|entity|fluid
          "clear": ["kind", "needs"],                        # drop every tag of these facets first
          "set": ["kind:material", "needs:none"],            # then add these tags
+         "default": ["power-role:none"],                    # add a tag only when its facet has none yet
          "ui": false}                                       # true: UI/label text, no tags at all
       ]
     }
@@ -50,7 +51,8 @@ def apply(mod, dry=False):
         for r in rules["rules"]:
             if r.get("kind") and r["kind"] != it["kind"]:
                 continue
-            if not re.search(r["match"], name):
+            m = re.search(r["match"], name)
+            if not m:
                 continue
             if r.get("ui"):
                 tags = []
@@ -58,7 +60,11 @@ def apply(mod, dry=False):
             for facet in r.get("clear", []):
                 tags = [t for t in tags if not t.startswith(facet + ":")]
             for t in r.get("set", []):
+                t = t.format(*m.groups()) if "{" in t else t  # e.g. "yields:{1}" from a capture group
                 if t not in tags:
+                    tags.append(t)
+            for t in r.get("default", []):  # add only if the facet has no tag yet
+                if not any(x.startswith(t.split(":")[0] + ":") for x in tags):
                     tags.append(t)
             for t in r.get("remove", []):
                 if t in tags:

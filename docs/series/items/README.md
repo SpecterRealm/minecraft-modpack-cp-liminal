@@ -17,6 +17,9 @@ This is not a wish list. Each entry records what the item does, its numbers, wha
 | `compat.md` | Generated: per-mod item count and supported mods, plus which mods other mods build support for |
 | `tags.md` | Tag vocabulary (facets), multiblock scaling notes, the three passes |
 | `../../../scripts/series-item-tags.py` | `check [--missing]`, `find facet:value ...` |
+| `yields/<mod>.json` | What resources a mod can produce, how, and whether it is a bootstrap or scale route |
+| `../../../scripts/series-yields.py` | `report <resource>`, `resources`, `mods` |
+| `review/<mod>.json` | Per-mod loop-back corrections (see `series-item-review.py`) |
 | `review-process.md` | The per-mod review procedure |
 | `../../../scripts/series-item-catalog.py` | `list`, `report --category <c>`, `levers --mod <m>` |
 

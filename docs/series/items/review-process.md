@@ -63,6 +63,10 @@ Do this when the mod has no public source, no clear ref, or the item list looks 
 ]
 ```
 
+## 6b. Record what it yields (progression paths)
+
+For any mod that produces a resource (crops, bees, sieves, machines), write `yields/<mod>.json` so we can answer "how do I get my first iron, and how do I scale it up". Each entry has a `resource`, the `form` (chunk, essence, comb), the `source`, its `power`, a `stage` (`bootstrap` for the first way to get it, `scale` for the ways to get more), and a `note`. Item lists alone cannot show this: in data-driven mods (Productive Bees, Mystical Agriculture, Botany Pots) the crops and species are defined in data or Java, so read those. Then `python3 scripts/series-yields.py report iron` lists every source with the packs that carry it. A mod with no yields still gets a file with a `note`, so we know it was checked.
+
 ## 7. Decide
 
 Run `python3 scripts/series-item-catalog.py report --category <c>` for overlaps. For each overlap group, prefer:
