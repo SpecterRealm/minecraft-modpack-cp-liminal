@@ -1,0 +1,37 @@
+{
+ "class": "qol-gameplay",
+ "purpose": "Heart canisters and relic hearts for max health",
+ "note": "Red/yellow/green/blue hearts, canisters and heartpulse belts that raise maximum health (decided: keep in all four packs). Built-in support: Curios.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^(.*_heart|.*_heart_canister|canister|.*_heart_melted|.*_heart_patch|relic_apple|wither_bone)$",
+   "clear": [
+    "kind"
+   ],
+   "set": [
+    "kind:consumable"
+   ]
+  },
+  {
+   "match": "^(.*_heartpulse_belt|heart_amu.*)$",
+   "clear": [
+    "kind"
+   ],
+   "set": [
+    "kind:gadget"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

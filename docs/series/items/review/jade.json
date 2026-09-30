@@ -1,0 +1,19 @@
+{
+ "class": "qol-client",
+ "purpose": "Jade: block/entity tooltips",
+ "note": "In-world tooltip overlay; all four packs.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

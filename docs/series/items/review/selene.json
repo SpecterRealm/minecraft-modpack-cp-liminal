@@ -1,0 +1,19 @@
+{
+ "class": "library",
+ "purpose": "Moonlight Lib predecessor / library used by Comforts? (shared library)",
+ "note": "Library.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

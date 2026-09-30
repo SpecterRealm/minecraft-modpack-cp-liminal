@@ -36,116 +36,195 @@
    "kind": "item",
    "name": "Stack Upgrade Tier 5",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:gadget",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "more_tier_upgrade:stack_upgrade_tier_sb_6": {
    "kind": "item",
    "name": "Stack Upgrade Tier 6",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:gadget",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "more_tier_upgrade:stack_upgrade_tier_sb_7": {
    "kind": "item",
    "name": "Stack Upgrade Tier 7",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:gadget",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "more_tier_upgrade:stack_upgrade_tier_sb_8": {
    "kind": "item",
    "name": "Stack Upgrade Tier 8",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:gadget",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "more_tier_upgrade:stack_upgrade_tier_sb_9": {
    "kind": "item",
    "name": "Stack Upgrade Tier 9",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:gadget",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "more_tier_upgrade:stack_upgrade_tier_sb_10": {
    "kind": "item",
    "name": "Stack Upgrade Tier 10",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:gadget",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "more_tier_upgrade:stack_upgrade_tier_sb_11": {
    "kind": "item",
    "name": "Stack Upgrade Tier 11",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:gadget",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "more_tier_upgrade:stack_upgrade_tier_ss_6": {
    "kind": "item",
    "name": "Stack Upgrade Tier 6",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:gadget",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "more_tier_upgrade:stack_upgrade_tier_ss_7": {
    "kind": "item",
    "name": "Stack Upgrade Tier 7",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:gadget",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "more_tier_upgrade:stack_upgrade_tier_ss_8": {
    "kind": "item",
    "name": "Stack Upgrade Tier 8",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:gadget",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "more_tier_upgrade:stack_upgrade_tier_ss_9": {
    "kind": "item",
    "name": "Stack Upgrade Tier 9",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:gadget",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "more_tier_upgrade:stack_upgrade_tier_ss_10": {
    "kind": "item",
    "name": "Stack Upgrade Tier 10",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:gadget",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "more_tier_upgrade:stack_upgrade_tier_ss_11": {
    "kind": "item",
    "name": "Stack Upgrade Tier 11",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:gadget",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "more_tier_upgrade:stack_upgrade_tier_ss_12": {
    "kind": "item",
    "name": "Stack Upgrade Tier 12",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:gadget",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21.1-neoforge"
+ "tagged_version": "1.21.1-neoforge",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1-neoforge",
+  "pass": "loop-back",
+  "note": "Extends the stack upgrade tiers (decided: keep in all four packs).",
+  "class": "qol-gameplay",
+  "purpose": "More stack upgrade tiers for Sophisticated Backpacks and Storage"
+ }
 }

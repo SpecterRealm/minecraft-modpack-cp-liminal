@@ -27,6 +27,14 @@
    }
   },
   {
+   "id": "ae2wtlib",
+   "slug": "applied-energistics-2-wireless-terminals",
+   "evidence": {
+    "compat-import": 1,
+    "isLoaded": 1
+   }
+  },
+  {
    "id": "jei",
    "slug": "jei",
    "evidence": {
@@ -35,5 +43,14 @@
    }
   }
  ],
- "items": {}
+ "items": {},
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "default",
+  "pass": "loop-back",
+  "note": "AE2 add-on (terminal, pattern or network feature)",
+  "class": "ae2-addon",
+  "purpose": "AE2 add-on (terminal, pattern or network feature)"
+ }
 }

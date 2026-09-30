@@ -12,12 +12,26 @@
    "kind": "item",
    "name": "Wooden Shears",
    "tags": [
+    "needs:none",
     "kind:tool",
-    "review:auto"
+    "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21-3.2.3.0"
+ "tagged_version": "1.21-3.2.3.0",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21-3.2.3.0",
+  "pass": "loop-back",
+  "note": "Adds wooden shears; Verdant #331 replaces iron-shears start and tests a leaf recipe.",
+  "class": "content",
+  "purpose": "Wooden shears (our early-game replacement for iron shears)"
+ }
 }

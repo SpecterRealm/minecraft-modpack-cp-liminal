@@ -1,0 +1,30 @@
+{
+ "class": "content",
+ "purpose": "Market, chicken nest and fertilized farmland",
+ "note": "A market for trading crops plus farm helpers. Built-in support: Botany Pots, Productive Trees, Farmer's Delight, Mekanism... (supports Create and others).",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^market$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:machine",
+    "function:farm"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

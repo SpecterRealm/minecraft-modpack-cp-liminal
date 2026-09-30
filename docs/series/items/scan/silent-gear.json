@@ -5,7 +5,7 @@
  "mod_ids": [
   "silentgear"
  ],
- "item_count": 256,
+ "item_count": 257,
  "compat": [
   {
    "id": "curios",
@@ -36,9 +36,14 @@
    "kind": "block",
    "name": "Alloy Forge",
    "tags": [
+    "kind:machine",
     "function:craft",
-    "kind:block",
-    "review:auto"
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:azure_electrum_block": {
@@ -46,7 +51,11 @@
    "name": "Block of Azure Electrum",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:azure_silver_block": {
@@ -54,16 +63,23 @@
    "name": "Block of Azure Silver",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:azure_silver_ore": {
    "kind": "block",
    "name": "Azure Silver Ore",
    "tags": [
-    "needs:ore",
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:black_fluffy_block": {
@@ -71,26 +87,35 @@
    "name": "Black Fluffy Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:blackstone_crimson_iron_ore": {
    "kind": "block",
    "name": "Blackstone Crimson Iron Ore",
    "tags": [
-    "needs:ore",
-    "needs:nether",
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:blaze_gold_block": {
    "kind": "block",
    "name": "Block of Blaze Gold",
    "tags": [
-    "needs:nether",
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:blue_fluffy_block": {
@@ -98,7 +123,11 @@
    "name": "Blue Fluffy Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:bort_block": {
@@ -106,7 +135,11 @@
    "name": "Block of Bort",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:bort_ore": {
@@ -114,7 +147,11 @@
    "name": "Bort Ore",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:brown_fluffy_block": {
@@ -122,35 +159,47 @@
    "name": "Brown Fluffy Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:crimson_iron_block": {
    "kind": "block",
    "name": "Block of Crimson Iron",
    "tags": [
-    "needs:nether",
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:crimson_iron_ore": {
    "kind": "block",
    "name": "Crimson Iron Ore",
    "tags": [
-    "needs:ore",
-    "needs:nether",
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:crimson_steel_block": {
    "kind": "block",
    "name": "Block of Crimson Steel",
    "tags": [
-    "needs:nether",
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:crude_mixer": {
@@ -158,8 +207,13 @@
    "name": "Crude Mixer",
    "tags": [
     "kind:machine",
+    "function:craft",
     "function:process",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:cyan_fluffy_block": {
@@ -167,16 +221,23 @@
    "name": "Cyan Fluffy Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:deepslate_bort_ore": {
    "kind": "block",
    "name": "Deepslate Bort Ore",
    "tags": [
-    "needs:ore",
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:flax_plant": {
@@ -184,7 +245,11 @@
    "name": "Flax Plant",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:fluffy_plant": {
@@ -192,16 +257,25 @@
    "name": "Fluffy Plant",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:gear_smithing_table": {
    "kind": "block",
    "name": "Gear Smithing Table",
    "tags": [
+    "kind:machine",
     "function:craft",
-    "kind:material",
-    "review:auto"
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:gray_fluffy_block": {
@@ -209,7 +283,11 @@
    "name": "Gray Fluffy Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:green_fluffy_block": {
@@ -217,25 +295,35 @@
    "name": "Green Fluffy Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:light_blue_fluffy_block": {
    "kind": "block",
    "name": "Light Blue Fluffy Block",
    "tags": [
-    "function:light",
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:light_gray_fluffy_block": {
    "kind": "block",
    "name": "Light Gray Fluffy Block",
    "tags": [
-    "function:light",
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:lime_fluffy_block": {
@@ -243,7 +331,11 @@
    "name": "Lime Fluffy Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:magenta_fluffy_block": {
@@ -251,15 +343,25 @@
    "name": "Magenta Fluffy Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:material_grader": {
    "kind": "block",
    "name": "Material Grader",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:craft",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:metal_press": {
@@ -267,16 +369,25 @@
    "name": "Metal Press",
    "tags": [
     "kind:machine",
+    "function:craft",
     "function:process",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:netherwood_charcoal_block": {
    "kind": "block",
    "name": "Block of Netherwood Charcoal",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:decoration",
+    "needs:nether",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:netherwood_door": {
@@ -284,7 +395,11 @@
    "name": "Netherwood Door",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "needs:nether",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:netherwood_fence": {
@@ -292,7 +407,11 @@
    "name": "Netherwood Fence",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "needs:nether",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:netherwood_fence_gate": {
@@ -300,7 +419,11 @@
    "name": "Netherwood Fence Gate",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "needs:nether",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:netherwood_leaves": {
@@ -308,7 +431,11 @@
    "name": "Netherwood Leaves",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "needs:nether",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:netherwood_log": {
@@ -316,7 +443,11 @@
    "name": "Netherwood",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "needs:nether",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:netherwood_planks": {
@@ -324,16 +455,23 @@
    "name": "Netherwood Planks",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "needs:nether",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:netherwood_sapling": {
    "kind": "block",
    "name": "Netherwood Sapling",
    "tags": [
-    "function:farm",
-    "kind:block",
-    "review:auto"
+    "kind:decoration",
+    "needs:nether",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:netherwood_slab": {
@@ -341,7 +479,11 @@
    "name": "Netherwood Slab",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "needs:nether",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:netherwood_stairs": {
@@ -349,7 +491,11 @@
    "name": "Netherwood Stairs",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "needs:nether",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:netherwood_trapdoor": {
@@ -357,15 +503,23 @@
    "name": "Netherwood Trapdoor",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "needs:nether",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:netherwood_wood": {
    "kind": "block",
    "name": "Netherwood Wood",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:decoration",
+    "needs:nether",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:orange_fluffy_block": {
@@ -373,7 +527,11 @@
    "name": "Orange Fluffy Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:paint_mixer": {
@@ -381,8 +539,13 @@
    "name": "Paint Mixer",
    "tags": [
     "kind:machine",
+    "function:craft",
     "function:process",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:phantom_light": {
@@ -391,7 +554,11 @@
    "tags": [
     "function:light",
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:pink_fluffy_block": {
@@ -399,16 +566,23 @@
    "name": "Pink Fluffy Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:potted_netherwood_sapling": {
    "kind": "block",
    "name": "Potted Netherwood Sapling",
    "tags": [
-    "function:farm",
-    "kind:block",
-    "review:auto"
+    "kind:decoration",
+    "needs:nether",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:purple_fluffy_block": {
@@ -416,32 +590,49 @@
    "name": "Purple Fluffy Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:raw_azure_silver_block": {
    "kind": "block",
    "name": "Raw Azure Silver Block",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:raw_crimson_iron_block": {
    "kind": "block",
    "name": "Raw Crimson Iron Block",
    "tags": [
-    "kind:material",
-    "needs:nether",
-    "review:auto"
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:recrystallizer": {
    "kind": "block",
    "name": "Recrystallizer",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:craft",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:red_fluffy_block": {
@@ -449,23 +640,39 @@
    "name": "Red Fluffy Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:refabricator": {
    "kind": "block",
    "name": "Refabricator",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:craft",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:salvager": {
    "kind": "block",
    "name": "Salvager",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:machine",
+    "function:craft",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:starlight_charger": {
@@ -473,17 +680,27 @@
    "name": "Starlight Charger",
    "tags": [
     "kind:machine",
+    "function:craft",
     "function:process",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:stone_anvil": {
    "kind": "block",
    "name": "Stone Anvil",
    "tags": [
+    "kind:machine",
     "function:craft",
-    "kind:decoration",
-    "review:auto"
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:stone_torch": {
@@ -492,7 +709,11 @@
    "tags": [
     "function:light",
     "kind:decoration",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:stripped_netherwood_log": {
@@ -500,15 +721,23 @@
    "name": "Stripped Netherwood Log",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "needs:nether",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:stripped_netherwood_wood": {
    "kind": "block",
    "name": "Stripped Netherwood Wood",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:decoration",
+    "needs:nether",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:super_mixer": {
@@ -516,8 +745,13 @@
    "name": "Super Mixer",
    "tags": [
     "kind:machine",
+    "function:craft",
     "function:process",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:tyrian_steel_block": {
@@ -525,7 +759,11 @@
    "name": "Block of Tyrian Steel",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:white_fluffy_block": {
@@ -533,7 +771,11 @@
    "name": "White Fluffy Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:wild_flax_plant": {
@@ -541,7 +783,11 @@
    "name": "Wild Flax Plant",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:wild_fluffy_plant": {
@@ -549,7 +795,11 @@
    "name": "Wild Fluffy Plant",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:yellow_fluffy_block": {
@@ -557,14 +807,19 @@
    "name": "Yellow Fluffy Block",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "minecraft:villager.silentgear.gear_smith": {
    "kind": "entity",
    "name": "Gear Smith",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:advanced_upgrade_base": {
@@ -572,7 +827,11 @@
    "name": "Advanced Upgrade Base",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:alloy_ingot": {
@@ -580,7 +839,11 @@
    "name": "%s Alloy",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:armor_body": {
@@ -589,7 +852,11 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:arrow": {
@@ -598,7 +865,11 @@
    "tags": [
     "kind:consumable",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:arrow_heads": {
@@ -607,7 +878,11 @@
    "tags": [
     "kind:consumable",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:axe": {
@@ -615,7 +890,11 @@
    "name": "Axe",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:axe_head": {
@@ -623,7 +902,11 @@
    "name": "Axe Head",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:azure_electrum_dust": {
@@ -631,7 +914,11 @@
    "name": "Azure Electrum Dust",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:azure_electrum_ingot": {
@@ -639,7 +926,11 @@
    "name": "Azure Electrum Ingot",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:azure_electrum_nugget": {
@@ -647,14 +938,22 @@
    "name": "Azure Electrum Nugget",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:azure_repair_kit": {
    "kind": "item",
    "name": "Azure Repair Kit",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:azure_silver_chunks": {
@@ -662,8 +961,11 @@
    "name": "Azure Silver Ore Chunks",
    "tags": [
     "kind:material",
-    "needs:ore",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:azure_silver_dust": {
@@ -671,7 +973,11 @@
    "name": "Azure Silver Dust",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:azure_silver_ingot": {
@@ -679,7 +985,11 @@
    "name": "Azure Silver Ingot",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:azure_silver_nugget": {
@@ -687,7 +997,11 @@
    "name": "Azure Silver Nugget",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:binding": {
@@ -695,7 +1009,11 @@
    "name": "Binding",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:blaze_gold_dust": {
@@ -704,7 +1022,10 @@
    "tags": [
     "kind:material",
     "needs:nether",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:blaze_gold_ingot": {
@@ -713,7 +1034,10 @@
    "tags": [
     "kind:material",
     "needs:nether",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:blaze_gold_nugget": {
@@ -722,7 +1046,10 @@
    "tags": [
     "kind:material",
     "needs:nether",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:blazing_dust": {
@@ -730,35 +1057,52 @@
    "name": "Blazing Dust",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:blueprint": {
    "kind": "item",
    "name": "%s Blueprint",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:blueprint.disabled": {
    "kind": "item",
    "name": "Disabled in config!",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:blueprint_package": {
    "kind": "item",
    "name": "Blueprint Package",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:blueprint_paper": {
    "kind": "item",
    "name": "Blueprint Paper",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:boot_plates": {
@@ -766,7 +1110,11 @@
    "name": "Boot Plates",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:boots": {
@@ -775,14 +1123,22 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:bort": {
    "kind": "item",
    "name": "Bort",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:bow": {
@@ -791,14 +1147,19 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:bow.unstrung": {
    "kind": "item",
    "name": "Unstrung %s",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:bow_limbs": {
@@ -807,21 +1168,33 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:bracelet": {
    "kind": "item",
    "name": "Bracelet",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:bracelet_band": {
    "kind": "item",
    "name": "Bracelet Band",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:bronze_ingot": {
@@ -829,7 +1202,11 @@
    "name": "Bronze Ingot",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:chestplate": {
@@ -838,7 +1215,11 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:chestplate_plates": {
@@ -848,14 +1229,22 @@
     "kind:armor",
     "function:defend",
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:coating": {
    "kind": "item",
    "name": "Coating",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:coating_smithing_template": {
@@ -863,21 +1252,30 @@
    "name": "Coating Smithing Template",
    "tags": [
     "function:craft",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:compound_part.part_name": {
    "kind": "item",
    "name": "Gear Part: %s",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:cord": {
    "kind": "item",
    "name": "Cord",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:crimson_iron_chunks": {
@@ -885,9 +1283,11 @@
    "name": "Crimson Iron Ore Chunks",
    "tags": [
     "kind:material",
-    "needs:ore",
     "needs:nether",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:crimson_iron_dust": {
@@ -896,7 +1296,10 @@
    "tags": [
     "kind:material",
     "needs:nether",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:crimson_iron_ingot": {
@@ -905,7 +1308,10 @@
    "tags": [
     "kind:material",
     "needs:nether",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:crimson_iron_nugget": {
@@ -914,7 +1320,10 @@
    "tags": [
     "kind:material",
     "needs:nether",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:crimson_repair_kit": {
@@ -922,7 +1331,10 @@
    "name": "Crimson Repair Kit",
    "tags": [
     "needs:nether",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:crimson_steel_dust": {
@@ -931,7 +1343,10 @@
    "tags": [
     "kind:material",
     "needs:nether",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:crimson_steel_ingot": {
@@ -940,7 +1355,10 @@
    "tags": [
     "kind:material",
     "needs:nether",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:crimson_steel_nugget": {
@@ -949,7 +1367,10 @@
    "tags": [
     "kind:material",
     "needs:nether",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:crossbow": {
@@ -958,14 +1379,19 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:crossbow.unstrung": {
    "kind": "item",
    "name": "Unstrung %s",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:crossbow_limbs": {
@@ -974,14 +1400,22 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:crude_alloy": {
    "kind": "item",
    "name": "Crude %s Alloy",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:crude_hammer": {
@@ -989,7 +1423,11 @@
    "name": "Crude Hammer",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:crude_knife": {
@@ -997,21 +1435,33 @@
    "name": "Crude Knife",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:crude_repair_kit": {
    "kind": "item",
    "name": "Crude Repair Kit",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:crude_tool_parts": {
    "kind": "item",
    "name": "Crude Tool Parts",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:crushed_shulker_shell": {
@@ -1020,7 +1470,10 @@
    "tags": [
     "function:store",
     "needs:end",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:custom_gem": {
@@ -1028,14 +1481,19 @@
    "name": "%s",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:custom_gem.literal": {
    "kind": "item",
    "name": "Custom Gem",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:custom_ingot": {
@@ -1043,14 +1501,19 @@
    "name": "%s Ingot",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:custom_ingot.literal": {
    "kind": "item",
    "name": "Custom Ingot",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:dagger": {
@@ -1059,7 +1522,11 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:dagger_blade": {
@@ -1068,7 +1535,11 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:diamond_shard": {
@@ -1076,14 +1547,22 @@
    "name": "Diamond Shard",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:dried_sinew": {
    "kind": "item",
    "name": "Dried Sinew",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:elytra": {
@@ -1091,7 +1570,11 @@
    "name": "Elytra",
    "tags": [
     "function:travel",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:elytra_wings": {
@@ -1099,7 +1582,11 @@
    "name": "Elytra Wings",
    "tags": [
     "function:travel",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:emerald_shard": {
@@ -1107,7 +1594,11 @@
    "name": "Emerald Shard",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:excavator": {
@@ -1116,7 +1607,11 @@
    "tags": [
     "kind:tool",
     "function:mine",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:excavator_head": {
@@ -1125,28 +1620,44 @@
    "tags": [
     "kind:tool",
     "function:mine",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:fine_silk": {
    "kind": "item",
    "name": "Fine Silk",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:fine_silk_cloth": {
    "kind": "item",
    "name": "Fine Silk Cloth",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:fishing_reel_and_hook": {
    "kind": "item",
    "name": "Fishing Reel and Hook",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:fishing_rod": {
@@ -1155,14 +1666,22 @@
    "tags": [
     "kind:tool",
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:flax_fiber": {
    "kind": "item",
    "name": "Flax Fiber",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:flax_flowers": {
@@ -1171,7 +1690,11 @@
    "tags": [
     "function:farm",
     "kind:decoration",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:flax_seeds": {
@@ -1179,42 +1702,66 @@
    "name": "Flax Seeds",
    "tags": [
     "function:farm",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:flax_string": {
    "kind": "item",
    "name": "Flax String",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:fletching": {
    "kind": "item",
    "name": "Fletching",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:fluffy_fabric": {
    "kind": "item",
    "name": "Fluffy Fabric",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:fluffy_feather": {
    "kind": "item",
    "name": "Fluffy Feather",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:fluffy_puff": {
    "kind": "item",
    "name": "Fluffy Puff",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:fluffy_seeds": {
@@ -1222,14 +1769,22 @@
    "name": "Fluffy Seeds",
    "tags": [
     "function:farm",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:fluffy_string": {
    "kind": "item",
    "name": "Fluffy String",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:fragment": {
@@ -1237,21 +1792,27 @@
    "name": "%s Fragment",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:fragment.hint": {
    "kind": "item",
    "name": "Combine eight (8) in a crafting grid",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:fragment.invalid": {
    "kind": "item",
    "name": "Fragment (Unknown Material)",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:glittery_dust": {
@@ -1259,7 +1820,11 @@
    "name": "Glittery Dust",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:glowing_dust": {
@@ -1267,7 +1832,11 @@
    "name": "Glowing Dust",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:glowstone_coated_upgrade": {
@@ -1276,7 +1845,11 @@
    "tags": [
     "function:light",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:golden_nether_banana": {
@@ -1284,14 +1857,21 @@
    "name": "Golden Nether Banana",
    "tags": [
     "needs:nether",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:grip": {
    "kind": "item",
    "name": "Grip",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:hammer": {
@@ -1299,7 +1879,11 @@
    "name": "Hammer",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:hammer_head": {
@@ -1307,7 +1891,11 @@
    "name": "Hammer Head",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:helmet": {
@@ -1316,7 +1904,11 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:helmet_plates": {
@@ -1326,7 +1918,11 @@
     "kind:armor",
     "function:defend",
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:hoe": {
@@ -1334,7 +1930,11 @@
    "name": "Hoe",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:hoe_head": {
@@ -1342,7 +1942,11 @@
    "name": "Hoe Head",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:hybrid_gem": {
@@ -1350,7 +1954,11 @@
    "name": "%s Hybrid Gem",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:iron_rod": {
@@ -1358,14 +1966,22 @@
    "name": "Iron Rod",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:jeweler_tools": {
    "kind": "item",
    "name": "Jeweler Tools",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:katana": {
@@ -1374,7 +1990,11 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:katana_blade": {
@@ -1383,7 +2003,11 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:knife": {
@@ -1391,7 +2015,11 @@
    "name": "Knife",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:knife_blade": {
@@ -1401,7 +2029,11 @@
     "kind:weapon",
     "function:defend",
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:lapis_coated_upgrade": {
@@ -1409,7 +2041,11 @@
    "name": "Lapis-Coated Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:leather_scrap": {
@@ -1417,7 +2053,11 @@
    "name": "Leather Scrap",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:legging_plates": {
@@ -1425,7 +2065,11 @@
    "name": "Legging Plates",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:leggings": {
@@ -1434,14 +2078,22 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:lining": {
    "kind": "item",
    "name": "Lining",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:mace": {
@@ -1450,7 +2102,11 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:mace_core": {
@@ -1459,14 +2115,22 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:machete": {
    "kind": "item",
    "name": "Machete",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:machete_blade": {
@@ -1475,7 +2139,11 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:magnetic_upgrade": {
@@ -1483,7 +2151,11 @@
    "name": "Magnetic Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:mattock": {
@@ -1491,7 +2163,11 @@
    "name": "Mattock",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:mattock_head": {
@@ -1499,14 +2175,22 @@
    "name": "Mattock Head",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:mixed_fabric": {
    "kind": "item",
    "name": "%s Mixed Fabric",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:mod_kit": {
@@ -1514,49 +2198,59 @@
    "name": "Gear Mod Kit",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:mod_kit.can_paint_and_remove": {
    "kind": "item",
    "name": "Can %1$s and %2$s parts of this type",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:mod_kit.can_paint_or_remove": {
    "kind": "item",
    "name": "Can %s parts of this type",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:mod_kit.no_actions": {
    "kind": "item",
    "name": "Cannot modify parts of this type",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:mod_kit.paint": {
    "kind": "item",
    "name": "paint",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:mod_kit.remove": {
    "kind": "item",
    "name": "remove",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:mod_kit.selected": {
    "kind": "item",
    "name": "Part Type: %s",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:necklace": {
@@ -1564,7 +2258,11 @@
    "name": "Necklace",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:necklace_chain": {
@@ -1572,7 +2270,11 @@
    "name": "Necklace Chain",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:nether_banana": {
@@ -1580,7 +2282,10 @@
    "name": "Nether Banana",
    "tags": [
     "needs:nether",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:nether_star_fragment": {
@@ -1589,35 +2294,51 @@
    "tags": [
     "kind:material",
     "needs:nether",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:netherwood_charcoal": {
    "kind": "item",
    "name": "Netherwood Charcoal",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:netherwood_stick": {
    "kind": "item",
    "name": "Netherwood Stick",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:paint": {
    "kind": "item",
    "name": "Paint",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:paint.color": {
    "kind": "item",
    "name": "Color: %s",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:paxel": {
@@ -1625,7 +2346,11 @@
    "name": "Paxel",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:paxel_head": {
@@ -1633,14 +2358,22 @@
    "name": "Paxel Head",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:pebble": {
    "kind": "item",
    "name": "Pebble",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:pickaxe": {
@@ -1649,7 +2382,11 @@
    "tags": [
     "kind:tool",
     "function:mine",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:pickaxe_head": {
@@ -1658,7 +2395,11 @@
    "tags": [
     "kind:tool",
     "function:mine",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:prospector_hammer": {
@@ -1666,21 +2407,27 @@
    "name": "Prospector Hammer",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:prospector_hammer.finds": {
    "kind": "item",
    "name": "Finds: %s",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:prospector_hammer.no_finds": {
    "kind": "item",
    "name": "Nothing found",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:prospector_hammer_head": {
@@ -1688,7 +2435,11 @@
    "name": "Prospector Hammer Head",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:raw_azure_silver": {
@@ -1696,7 +2447,11 @@
    "name": "Raw Azure Silver",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:raw_crimson_iron": {
@@ -1705,7 +2460,10 @@
    "tags": [
     "kind:material",
     "needs:nether",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:red_card_upgrade": {
@@ -1713,7 +2471,11 @@
    "name": "Red Card",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:redstone_coated_upgrade": {
@@ -1721,49 +2483,59 @@
    "name": "Redstone-Coated Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:repair_kit.capacity": {
    "kind": "item",
    "name": "Materials: %s / %s",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:repair_kit.efficiency": {
    "kind": "item",
    "name": "Repair Efficiency: %d%%",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:repair_kit.hint1": {
    "kind": "item",
    "name": "Used to repair gear items",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:repair_kit.hint2": {
    "kind": "item",
    "name": "Craft with materials to fill, or a stick to empty",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:repair_kit.hint3": {
    "kind": "item",
    "name": "Craft with a gear item to repair it",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:repair_kit.material": {
    "kind": "item",
    "name": "- %s: %s",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:ring": {
@@ -1771,7 +2543,11 @@
    "name": "Ring",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:ring_shank": {
@@ -1779,7 +2555,11 @@
    "name": "Ring Shank",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:road_maker_upgrade": {
@@ -1787,7 +2567,11 @@
    "name": "Road Maker Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:rod": {
@@ -1795,7 +2579,11 @@
    "name": "Tool Rod",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:rough_rod": {
@@ -1803,7 +2591,11 @@
    "name": "Rough Rod",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:saw": {
@@ -1811,7 +2603,11 @@
    "name": "Saw",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:saw_blade": {
@@ -1821,14 +2617,22 @@
     "kind:weapon",
     "function:defend",
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:setting": {
    "kind": "item",
    "name": "Jewelry Setting",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:shear_blades": {
@@ -1837,7 +2641,11 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:shears": {
@@ -1845,7 +2653,11 @@
    "name": "Shears",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:sheet_metal": {
@@ -1853,7 +2665,11 @@
    "name": "%s Sheet Metal",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:shield": {
@@ -1862,7 +2678,11 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:shield_plate": {
@@ -1872,7 +2692,11 @@
     "kind:armor",
     "function:defend",
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:shovel": {
@@ -1880,7 +2704,11 @@
    "name": "Shovel",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:shovel_head": {
@@ -1888,7 +2716,11 @@
    "name": "Shovel Head",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:sickle": {
@@ -1896,7 +2728,11 @@
    "name": "Sickle",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:sickle_blade": {
@@ -1906,35 +2742,55 @@
     "kind:weapon",
     "function:defend",
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:sinew": {
    "kind": "item",
    "name": "Sinew",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:sinew_fiber": {
    "kind": "item",
    "name": "Sinew Fiber",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:slingshot": {
    "kind": "item",
    "name": "Slingshot",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:slingshot_limbs": {
    "kind": "item",
    "name": "Slingshot Limbs",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:spear": {
@@ -1943,7 +2799,11 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:spear_tip": {
@@ -1952,7 +2812,11 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:spoon_upgrade": {
@@ -1960,7 +2824,11 @@
    "name": "Spoon Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:starmetal_dust": {
@@ -1968,7 +2836,11 @@
    "name": "Starmetal Dust",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:stone_rod": {
@@ -1976,21 +2848,33 @@
    "name": "Stone Rod",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:sturdy_repair_kit": {
    "kind": "item",
    "name": "Sturdy Repair Kit",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:super_alloy": {
    "kind": "item",
    "name": "%s Super Alloy",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:sword": {
@@ -1999,7 +2883,11 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:sword_blade": {
@@ -2008,21 +2896,33 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:template": {
    "kind": "item",
    "name": "%s Template",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:template_board": {
    "kind": "item",
    "name": "Template Board",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:tip": {
@@ -2030,7 +2930,11 @@
    "name": "Tip Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:trident": {
@@ -2039,7 +2943,11 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:trident_prongs": {
@@ -2048,7 +2956,11 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:tyrian_steel_dust": {
@@ -2056,7 +2968,11 @@
    "name": "Tyrian Steel Dust",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:tyrian_steel_ingot": {
@@ -2064,7 +2980,11 @@
    "name": "Tyrian Steel Ingot",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:tyrian_steel_nugget": {
@@ -2072,7 +2992,11 @@
    "name": "Tyrian Steel Nugget",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:upgrade_base": {
@@ -2080,14 +3004,22 @@
    "name": "Upgrade Base",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:very_crude_repair_kit": {
    "kind": "item",
    "name": "Very Crude Repair Kit",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "silentgear:wide_plate_upgrade": {
@@ -2096,11 +3028,32 @@
    "tags": [
     "kind:gadget",
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "subtitles:silentgear.gear_damaged": {
+   "kind": "item",
+   "name": "Gear item damaged",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21.1"
+ "tagged_version": "1.21.1",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "Silent Gear: build tools and armor from parts and materials (blueprints, material grader, gear smithing table, alloy forge, metal press). Adds crimson iron, azure silver, tyrian steel and bort (ores need world ore or Metalworks/Productive Metalworks). Decided: Silent Gear Metalworks stays in all packs, so gear follows Tinkers-style casting. Built-in support: Botany Pots, Farmer's Delight, Hostile Neural Networks, Productive Bees.",
+  "class": "content",
+  "purpose": "Modular gear crafting: parts, materials, blueprints, smithing"
+ }
 }

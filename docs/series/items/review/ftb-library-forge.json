@@ -1,0 +1,19 @@
+{
+ "class": "library",
+ "purpose": "FTB library; required by FTB Quests and Teams",
+ "note": "Shared FTB library.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

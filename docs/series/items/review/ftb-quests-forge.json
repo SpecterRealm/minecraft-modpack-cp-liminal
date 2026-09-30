@@ -1,0 +1,30 @@
+{
+ "class": "qol-gameplay",
+ "purpose": "Quest system (FTB Quests)",
+ "note": "Quest book and blocks (task screens, barriers, detectors, stage barrier); the pack's progression UI.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^(aux_task_screen|screen_\\d|progress_detector|detector|barrier|stage_barrier)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:block",
+    "function:research"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

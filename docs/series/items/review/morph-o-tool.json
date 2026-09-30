@@ -1,0 +1,28 @@
+{
+ "class": "qol-gameplay",
+ "purpose": "One tool that replaces multiple wrenches and tools",
+ "note": "Decided: keep in all four packs; test whether it can replace other mods' wrenches and hammers.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^tool$",
+   "clear": [
+    "kind"
+   ],
+   "set": [
+    "kind:tool"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

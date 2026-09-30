@@ -1,0 +1,121 @@
+{
+ "note": "About 160 crops (vegetables, fruit, berries, grains, herbs, flowers, mushrooms) with crates, plus a farm controller, hatch and feeding trough for bees/animals integration. Food and dye only: no metal or ore yields. Built-in support: supported by Productive Trees and Productive Bees; Botany Pots. Influx #31 decides AgriCraft vs Productive Farming.",
+ "rules": [
+  {
+   "match": "_stem$|^attached_|_leaves$|_growth$",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:block",
+    "function:farm"
+   ]
+  },
+  {
+   "match": "^(farm_controller|farm_hatch|feeding_trough)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:farm",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "_crate$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:storage",
+    "function:store",
+    "needs:none"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^potted_.*$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:decoration",
+    "needs:none"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^nutrient_water$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:fluid",
+    "function:farm",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(.*_growth|.*_truffle_growth|.*_mushroom_growth|.*_fungus_growth)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:farm",
+    "needs:none"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": ".",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:food",
+    "function:farm",
+    "needs:none"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "class": "library",
+ "purpose": "Titanium: dev library for Hrznstudio mods (test blocks only)",
+ "note": "Library; its items are test blocks.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": ".",
+   "ui": true
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

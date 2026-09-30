@@ -1,0 +1,41 @@
+{
+ "class": "content",
+ "purpose": "Thirst and temperature survival layer",
+ "note": "Adds thirst and body temperature: canteens, water purifier, rain collector, thermoregulator, temperature gauge, juices. Not progression; kept in Influx (decided, revisit). Built-in support: none found.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^(rain_collector|water_purifier|thermoregulator)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:machine",
+    "function:process"
+   ]
+  },
+  {
+   "match": "_canteen$|_juice$|_bottle$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:consumable",
+    "function:cook"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

@@ -12,11 +12,25 @@
    "kind": "item",
    "name": "Morphing Tool",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "kind:tool",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "release-1.21.1-1.8-39"
+ "tagged_version": "release-1.21.1-1.8-39",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "release-1.21.1-1.8-39",
+  "pass": "loop-back",
+  "note": "Decided: keep in all four packs; test whether it can replace other mods' wrenches and hammers.",
+  "class": "qol-gameplay",
+  "purpose": "One tool that replaces multiple wrenches and tools"
+ }
 }

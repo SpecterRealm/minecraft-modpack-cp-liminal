@@ -38,6 +38,13 @@
    }
   },
   {
+   "id": "bigreactors",
+   "slug": "extreme-reactors",
+   "evidence": {
+    "data-ref": 2
+   }
+  },
+  {
    "id": "jade",
    "slug": "jade",
    "evidence": {
@@ -71,6 +78,13 @@
    "evidence": {
     "data-ref": 5
    }
+  },
+  {
+   "id": "twilightforest",
+   "slug": "the-twilight-forest",
+   "evidence": {
+    "data-ref": 4
+   }
   }
  ],
  "items": {
@@ -78,10 +92,12 @@
    "kind": "block",
    "name": "Prosperity Block",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -89,10 +105,12 @@
    "kind": "block",
    "name": "Inferium Block",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -100,10 +118,12 @@
    "kind": "block",
    "name": "Prudentium Block",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -111,10 +131,12 @@
    "kind": "block",
    "name": "Tertium Block",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -122,10 +144,12 @@
    "kind": "block",
    "name": "Imperium Block",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -133,10 +157,12 @@
    "kind": "block",
    "name": "Soulium Block",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "kind:block",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -144,10 +170,12 @@
    "kind": "block",
    "name": "Prosperity Ingot Block",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -155,10 +183,12 @@
    "kind": "block",
    "name": "Inferium Ingot Block",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -166,10 +196,12 @@
    "kind": "block",
    "name": "Prudentium Ingot Block",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -177,10 +209,12 @@
    "kind": "block",
    "name": "Tertium Ingot Block",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -188,10 +222,12 @@
    "kind": "block",
    "name": "Imperium Ingot Block",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -199,10 +235,12 @@
    "kind": "block",
    "name": "Soulium Ingot Block",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "kind:block",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -210,10 +248,12 @@
    "kind": "block",
    "name": "Prosperity Gemstone Block",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -221,10 +261,12 @@
    "kind": "block",
    "name": "Inferium Gemstone Block",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -232,10 +274,12 @@
    "kind": "block",
    "name": "Prudentium Gemstone Block",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -243,10 +287,12 @@
    "kind": "block",
    "name": "Tertium Gemstone Block",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -254,10 +300,12 @@
    "kind": "block",
    "name": "Imperium Gemstone Block",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -265,10 +313,12 @@
    "kind": "block",
    "name": "Soulium Gemstone Block",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "kind:block",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -277,11 +327,13 @@
    "name": "Inferium Farmland",
    "tags": [
     "scale:tiered",
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
     "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -290,11 +342,13 @@
    "name": "Prudentium Farmland",
    "tags": [
     "scale:tiered",
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
     "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -303,11 +357,13 @@
    "name": "Tertium Farmland",
    "tags": [
     "scale:tiered",
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
     "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -316,11 +372,13 @@
    "name": "Imperium Farmland",
    "tags": [
     "scale:tiered",
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
     "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -329,11 +387,13 @@
    "name": "Inferium Growth Accelerator",
    "tags": [
     "scale:tiered",
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
     "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -342,11 +402,13 @@
    "name": "Prudentium Growth Accelerator",
    "tags": [
     "scale:tiered",
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
     "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -355,11 +417,13 @@
    "name": "Tertium Growth Accelerator",
    "tags": [
     "scale:tiered",
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
     "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -368,11 +432,13 @@
    "name": "Imperium Growth Accelerator",
    "tags": [
     "scale:tiered",
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
     "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -380,10 +446,12 @@
    "kind": "block",
    "name": "Prosperity Ore",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "kind:block",
     "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -391,10 +459,12 @@
    "kind": "block",
    "name": "Deepslate Prosperity Ore",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "kind:block",
     "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -402,10 +472,12 @@
    "kind": "block",
    "name": "Inferium Ore",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "kind:block",
     "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -413,10 +485,12 @@
    "kind": "block",
    "name": "Deepslate Inferium Ore",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "kind:block",
     "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -424,10 +498,12 @@
    "kind": "block",
    "name": "Soulium Ore",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "kind:block",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -436,9 +512,11 @@
    "name": "Soulstone",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -447,9 +525,11 @@
    "name": "Cobbled Soulstone",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -458,9 +538,11 @@
    "name": "Soulstone Bricks",
    "tags": [
     "kind:decoration",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -469,9 +551,11 @@
    "name": "Cracked Soulstone Bricks",
    "tags": [
     "kind:decoration",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -480,9 +564,11 @@
    "name": "Chiseled Soulstone Bricks",
    "tags": [
     "kind:decoration",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -491,9 +577,11 @@
    "name": "Smooth Soulstone",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -502,9 +590,11 @@
    "name": "Soul Glass",
    "tags": [
     "kind:decoration",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -513,9 +603,11 @@
    "name": "Soulstone Slab",
    "tags": [
     "kind:decoration",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -524,9 +616,11 @@
    "name": "Cobbled Soulstone Slab",
    "tags": [
     "kind:decoration",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -535,9 +629,11 @@
    "name": "Soulstone Bricks Slab",
    "tags": [
     "kind:decoration",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -546,9 +642,11 @@
    "name": "Smooth Soulstone Slab",
    "tags": [
     "kind:decoration",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -557,9 +655,11 @@
    "name": "Soulstone Stairs",
    "tags": [
     "kind:decoration",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -568,9 +668,11 @@
    "name": "Cobbled Soulstone Stairs",
    "tags": [
     "kind:decoration",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -579,9 +681,11 @@
    "name": "Soulstone Bricks Stairs",
    "tags": [
     "kind:decoration",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -590,9 +694,11 @@
    "name": "Cobbled Soulstone Wall",
    "tags": [
     "kind:decoration",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -601,9 +707,11 @@
    "name": "Soulstone Bricks Wall",
    "tags": [
     "kind:decoration",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -611,10 +719,12 @@
    "kind": "block",
    "name": "Witherproof Block",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:block",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -623,9 +733,11 @@
    "name": "Witherproof Bricks",
    "tags": [
     "kind:decoration",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -634,9 +746,11 @@
    "name": "Witherproof Glass",
    "tags": [
     "kind:decoration",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -644,11 +758,13 @@
    "kind": "block",
    "name": "Infusion Pedestal",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:multiblock",
     "function:craft",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -656,11 +772,13 @@
    "kind": "block",
    "name": "Infusion Altar",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:multiblock",
     "function:craft",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -668,11 +786,13 @@
    "kind": "block",
    "name": "Awakening Pedestal",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:multiblock",
     "function:craft",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -680,11 +800,13 @@
    "kind": "block",
    "name": "Awakening Altar",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:multiblock",
     "function:craft",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -693,9 +815,11 @@
    "name": "Essence Vessel",
    "tags": [
     "kind:material",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -703,11 +827,13 @@
    "kind": "block",
    "name": "Tinkering Table",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:machine",
     "function:craft",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -715,11 +841,13 @@
    "kind": "block",
    "name": "Enchanter",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:machine",
     "function:craft",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -728,9 +856,11 @@
    "name": "Machine Frame",
    "tags": [
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -743,6 +873,8 @@
     "function:process",
     "power-role:uses",
     "power-type:fe",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -755,6 +887,8 @@
     "function:process",
     "power-role:uses",
     "power-type:fe",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -767,6 +901,8 @@
     "power-role:uses",
     "power-type:fe",
     "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -779,6 +915,8 @@
     "function:process",
     "power-role:uses",
     "power-type:fe",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -791,6 +929,8 @@
     "power-role:uses",
     "power-type:fe",
     "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -800,9 +940,11 @@
    "tags": [
     "function:farm",
     "kind:block",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -810,10 +952,12 @@
    "kind": "item",
    "name": "Prosperity Shard",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -821,10 +965,12 @@
    "kind": "item",
    "name": "Inferium Essence",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -832,10 +978,12 @@
    "kind": "item",
    "name": "Prudentium Essence",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -843,10 +991,12 @@
    "kind": "item",
    "name": "Tertium Essence",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -854,10 +1004,12 @@
    "kind": "item",
    "name": "Imperium Essence",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -865,10 +1017,12 @@
    "kind": "item",
    "name": "Prosperity Ingot",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -876,10 +1030,12 @@
    "kind": "item",
    "name": "Inferium Ingot",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -887,10 +1043,12 @@
    "kind": "item",
    "name": "Prudentium Ingot",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -898,10 +1056,12 @@
    "kind": "item",
    "name": "Tertium Ingot",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -909,10 +1069,12 @@
    "kind": "item",
    "name": "Imperium Ingot",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -920,10 +1082,12 @@
    "kind": "item",
    "name": "Soulium Ingot",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "kind:material",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -931,10 +1095,12 @@
    "kind": "item",
    "name": "Prosperity Nugget",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -942,10 +1108,12 @@
    "kind": "item",
    "name": "Inferium Nugget",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -953,10 +1121,12 @@
    "kind": "item",
    "name": "Prudentium Nugget",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -964,10 +1134,12 @@
    "kind": "item",
    "name": "Tertium Nugget",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -975,10 +1147,12 @@
    "kind": "item",
    "name": "Imperium Nugget",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -986,10 +1160,12 @@
    "kind": "item",
    "name": "Soulium Nugget",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "kind:material",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -997,10 +1173,12 @@
    "kind": "item",
    "name": "Prosperity Gemstone",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1008,10 +1186,12 @@
    "kind": "item",
    "name": "Inferium Gemstone",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1019,10 +1199,12 @@
    "kind": "item",
    "name": "Prudentium Gemstone",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1030,10 +1212,12 @@
    "kind": "item",
    "name": "Tertium Gemstone",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1041,10 +1225,12 @@
    "kind": "item",
    "name": "Imperium Gemstone",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1052,10 +1238,12 @@
    "kind": "item",
    "name": "Soulium Gemstone",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "kind:material",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1063,10 +1251,12 @@
    "kind": "item",
    "name": "Prosperity Seed Base",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1074,10 +1264,12 @@
    "kind": "item",
    "name": "Soulium Seed Base",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "kind:material",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1085,10 +1277,12 @@
    "kind": "item",
    "name": "Soul Dust",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "kind:material",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1096,10 +1290,12 @@
    "kind": "item",
    "name": "Soulium Dust",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "kind:material",
     "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1107,10 +1303,12 @@
    "kind": "item",
    "name": "Cognizant Dust",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1120,9 +1318,11 @@
    "tags": [
     "kind:weapon",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1131,9 +1331,11 @@
    "name": "Infusion Crystal",
    "tags": [
     "kind:material",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1142,9 +1344,11 @@
    "name": "Master Infusion Crystal",
    "tags": [
     "kind:material",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1152,10 +1356,12 @@
    "kind": "item",
    "name": "Fertilized Essence",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1163,10 +1369,12 @@
    "kind": "item",
    "name": "Mystical Fertilizer",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1174,10 +1382,12 @@
    "kind": "item",
    "name": "Air Agglomeratio",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:ingredient",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1185,10 +1395,12 @@
    "kind": "item",
    "name": "Earth Agglomeratio",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:ingredient",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1196,10 +1408,12 @@
    "kind": "item",
    "name": "Water Agglomeratio",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:ingredient",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1207,10 +1421,12 @@
    "kind": "item",
    "name": "Fire Agglomeratio",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:ingredient",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1218,10 +1434,12 @@
    "kind": "item",
    "name": "Nature Agglomeratio",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:ingredient",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1229,10 +1447,12 @@
    "kind": "item",
    "name": "Dye Agglomeratio",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:ingredient",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1241,9 +1461,11 @@
    "name": "Nether Agglomeratio",
    "tags": [
     "needs:nether",
+    "kind:ingredient",
     "power-role:none",
     "power-type:none",
-    "kind:ingredient",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1251,10 +1473,12 @@
    "kind": "item",
    "name": "Coral Agglomeratio",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:ingredient",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1262,10 +1486,12 @@
    "kind": "item",
    "name": "Honey Agglomeratio",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:ingredient",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1273,10 +1499,12 @@
    "kind": "item",
    "name": "Prismarine Agglomeratio",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:ingredient",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1284,10 +1512,12 @@
    "kind": "item",
    "name": "End Agglomeratio",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:ingredient",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1295,10 +1525,12 @@
    "kind": "item",
    "name": "Mystical Flower Agglomeratio",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:ingredient",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1306,9 +1538,11 @@
    "kind": "item",
    "name": "Experience Droplet",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1318,9 +1552,11 @@
    "tags": [
     "kind:tool",
     "function:enchant",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1328,9 +1564,11 @@
    "kind": "item",
    "name": "Blank Skull",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1338,9 +1576,11 @@
    "kind": "item",
    "name": "Blank Record",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1348,9 +1588,11 @@
    "kind": "item",
    "name": "Unattuned Augment",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1359,9 +1601,11 @@
    "name": "Soul Jar",
    "tags": [
     "function:store",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1369,9 +1613,11 @@
    "kind": "item",
    "name": "Experience Capsule",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1379,9 +1625,11 @@
    "kind": "item",
    "name": "Watering Can",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1390,9 +1638,11 @@
    "name": "Diamond Sickle",
    "tags": [
     "kind:tool",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1402,9 +1652,11 @@
    "tags": [
     "kind:weapon",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1413,10 +1665,12 @@
    "name": "Machine Upgrade Base",
    "tags": [
     "scale:tiered",
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:gadget",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1425,10 +1679,12 @@
    "name": "Inferium Machine Upgrade",
    "tags": [
     "scale:tiered",
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:gadget",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1437,10 +1693,12 @@
    "name": "Prudentium Machine Upgrade",
    "tags": [
     "scale:tiered",
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:gadget",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1449,10 +1707,12 @@
    "name": "Tertium Machine Upgrade",
    "tags": [
     "scale:tiered",
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:gadget",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1461,10 +1721,12 @@
    "name": "Imperium Machine Upgrade",
    "tags": [
     "scale:tiered",
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:gadget",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1472,10 +1734,12 @@
    "kind": "item",
    "name": "%s Essence",
    "tags": [
-    "power-role:none",
-    "power-type:none",
     "needs:none",
     "kind:material",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1484,9 +1748,11 @@
    "name": "%s Seeds",
    "tags": [
     "function:farm",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1497,9 +1763,11 @@
     "kind:weapon",
     "function:defend",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1510,9 +1778,11 @@
     "kind:tool",
     "function:mine",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1522,9 +1792,11 @@
    "tags": [
     "kind:tool",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1534,9 +1806,11 @@
    "tags": [
     "kind:tool",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1546,9 +1820,11 @@
    "tags": [
     "kind:tool",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1559,9 +1835,11 @@
     "kind:tool",
     "function:enchant",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1570,9 +1848,11 @@
    "name": "Inferium Watering Can",
    "tags": [
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1583,9 +1863,11 @@
     "kind:weapon",
     "function:defend",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1596,9 +1878,11 @@
     "kind:weapon",
     "function:defend",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1608,9 +1892,11 @@
    "tags": [
     "kind:tool",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1621,9 +1907,11 @@
     "kind:tool",
     "kind:material",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1633,9 +1921,11 @@
    "tags": [
     "kind:tool",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1646,9 +1936,11 @@
     "kind:weapon",
     "function:defend",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1659,9 +1951,11 @@
     "kind:weapon",
     "function:defend",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1672,9 +1966,11 @@
     "kind:tool",
     "function:mine",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1684,9 +1980,11 @@
    "tags": [
     "kind:tool",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1696,9 +1994,11 @@
    "tags": [
     "kind:tool",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1708,9 +2008,11 @@
    "tags": [
     "kind:tool",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1721,9 +2023,11 @@
     "kind:tool",
     "function:enchant",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1732,9 +2036,11 @@
    "name": "Prudentium Watering Can",
    "tags": [
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1745,9 +2051,11 @@
     "kind:weapon",
     "function:defend",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1758,9 +2066,11 @@
     "kind:weapon",
     "function:defend",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1770,9 +2080,11 @@
    "tags": [
     "kind:tool",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1783,9 +2095,11 @@
     "kind:tool",
     "kind:material",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1795,9 +2109,11 @@
    "tags": [
     "kind:tool",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1808,9 +2124,11 @@
     "kind:weapon",
     "function:defend",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1821,9 +2139,11 @@
     "kind:weapon",
     "function:defend",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1834,9 +2154,11 @@
     "kind:tool",
     "function:mine",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1846,9 +2168,11 @@
    "tags": [
     "kind:tool",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1858,9 +2182,11 @@
    "tags": [
     "kind:tool",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1870,9 +2196,11 @@
    "tags": [
     "kind:tool",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1883,9 +2211,11 @@
     "kind:tool",
     "function:enchant",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1894,9 +2224,11 @@
    "name": "Tertium Watering Can",
    "tags": [
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1907,9 +2239,11 @@
     "kind:weapon",
     "function:defend",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1920,9 +2254,11 @@
     "kind:weapon",
     "function:defend",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1932,9 +2268,11 @@
    "tags": [
     "kind:tool",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1945,9 +2283,11 @@
     "kind:tool",
     "kind:material",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1957,9 +2297,11 @@
    "tags": [
     "kind:tool",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1970,9 +2312,11 @@
     "kind:weapon",
     "function:defend",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1983,9 +2327,11 @@
     "kind:weapon",
     "function:defend",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1996,9 +2342,11 @@
     "kind:tool",
     "function:mine",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2008,9 +2356,11 @@
    "tags": [
     "kind:tool",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2020,9 +2370,11 @@
    "tags": [
     "kind:tool",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2032,9 +2384,11 @@
    "tags": [
     "kind:tool",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2045,9 +2399,11 @@
     "kind:tool",
     "function:enchant",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2056,9 +2412,11 @@
    "name": "Imperium Watering Can",
    "tags": [
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2069,9 +2427,11 @@
     "kind:weapon",
     "function:defend",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2082,9 +2442,11 @@
     "kind:weapon",
     "function:defend",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2094,9 +2456,11 @@
    "tags": [
     "kind:tool",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2107,9 +2471,11 @@
     "kind:tool",
     "kind:material",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2119,9 +2485,11 @@
    "tags": [
     "kind:tool",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2132,9 +2500,11 @@
     "kind:weapon",
     "function:defend",
     "scale:tiered",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2144,9 +2514,11 @@
    "tags": [
     "kind:armor",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2156,9 +2528,11 @@
    "tags": [
     "kind:armor",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2168,9 +2542,11 @@
    "tags": [
     "kind:armor",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2180,9 +2556,11 @@
    "tags": [
     "kind:armor",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2192,9 +2570,11 @@
    "tags": [
     "kind:armor",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2204,9 +2584,11 @@
    "tags": [
     "kind:armor",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2216,9 +2598,11 @@
    "tags": [
     "kind:armor",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2228,9 +2612,11 @@
    "tags": [
     "kind:armor",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2240,9 +2626,11 @@
    "tags": [
     "kind:armor",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2252,9 +2640,11 @@
    "tags": [
     "kind:armor",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2264,9 +2654,11 @@
    "tags": [
     "kind:armor",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2276,9 +2668,11 @@
    "tags": [
     "kind:armor",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2288,9 +2682,11 @@
    "tags": [
     "kind:armor",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2300,9 +2696,11 @@
    "tags": [
     "kind:armor",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2312,9 +2710,11 @@
    "tags": [
     "kind:armor",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2324,9 +2724,11 @@
    "tags": [
     "kind:armor",
     "function:defend",
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2334,9 +2736,11 @@
    "kind": "item",
    "name": "%s Augment",
    "tags": [
+    "needs:none",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:magic",
+    "feel:nature",
     "review:checked"
    ]
   }

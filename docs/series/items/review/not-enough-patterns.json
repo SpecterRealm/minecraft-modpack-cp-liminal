@@ -1,0 +1,45 @@
+{
+ "class": "ae2-addon",
+ "purpose": "AE2 patterns for Create, sequenced assembly and more",
+ "note": "Adds AE2 pattern types (mechanical crafting, sequenced assembly, fusion, empowering, atomic reconstruction) and sequenced-assembly controllers. Built-in support: AE2, Create, Draconic Evolution, Mystical Agriculture, Placebo, ProjectE Integration.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^.*_pattern$|^(import_card|machine_hub|hub_linker)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:gadget",
+    "function:automate"
+   ]
+  },
+  {
+   "match": "^(sequenced_assembly_controller|sequenced_assembly_linker|sequenced_assembly_matrix)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

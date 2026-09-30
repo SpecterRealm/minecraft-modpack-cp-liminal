@@ -1,0 +1,30 @@
+{
+ "class": "content",
+ "purpose": "Wooden shears (our early-game replacement for iron shears)",
+ "note": "Adds wooden shears; Verdant #331 replaces iron-shears start and tests a leaf recipe.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^wooden_shears$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:tool",
+    "function:farm"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

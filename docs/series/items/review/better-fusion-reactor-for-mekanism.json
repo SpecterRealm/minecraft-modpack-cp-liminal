@@ -1,0 +1,64 @@
+{
+ "class": "content",
+ "purpose": "Fusion reactor rebuild for Mekanism Generators (ore irradiation)",
+ "note": "Replaces Mekanism fusion with a more involved reactor and an irradiator producing irradiated ores. Built-in support: Mekanism Generators. Overlaps Mekanism fusion. Candidate to cut.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^(fusion_reactor_.*|laser_focus_matrix)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "fuel"
+   ],
+   "set": [
+    "kind:multiblock",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "power-type:heat",
+    "fuel:nuclear"
+   ]
+  },
+  {
+   "match": "^irradiat.*ore$",
+   "clear": [
+    "kind",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "needs:ore"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^irradiator$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "power-role:uses",
+    "power-type:fe",
+    "kind:machine",
+    "function:process"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,243 @@
+{
+ "note": "Equivalent Exchange: every item has an EMC value; the transmutation table turns EMC into any item you have learned (once per item). Collectors (Mk1 to Mk3) make EMC from sunlight, relays move it, condensers convert it; Klein Stars store it. Philosopher's stone is the core tool. Dark and Red Matter gear is an endgame tier. Influx's EMC destination (pattern first, then convert, then EMC). Built-in support: supports Mekanism, AE2 via add-ons (AppliedE, ProjectExtendedAdvancedAE); supported by 4 mods. Mekanism has a large ProjectE integration (22 files).",
+ "rules": [
+  {
+   "match": "_projectile$|^(nova_.*_primed)$",
+   "ui": true
+  },
+  {
+   "match": "^(collector_mk\\d)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:emc",
+    "fuel:sun",
+    "scale:tiered",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(relay_mk\\d)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:emc",
+    "scale:tiered",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(condenser_mk\\d)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:process",
+    "function:store",
+    "power-role:uses",
+    "power-role:stores",
+    "power-type:emc",
+    "scale:tiered",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(transmutation_table)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:craft",
+    "power-role:uses",
+    "power-type:emc",
+    "needs:none",
+    "role:core"
+   ]
+  },
+  {
+   "match": "^(dm_furnace|rm_furnace|dm_pedestal)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:emc",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(aeternalis_fuel_block|mobius_fuel_block|dark_matter_block|.*_matter_block|interdiction_torch|nova_cataclysm|nova_catalyst)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "needs:none"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(klein_star_.*|philosophers_stone|mind_stone|life_stone|soul_stone|body_stone|gem_of_eternal_density|transmutation_tablet|catalytic_lens|destruction_catalyst|hyperkinetic_lens|.*_band|.*_ring|arcana_ring|evertide_amulet|volcanite_amulet|watch_of_flowing_time|repair_talisman|divining_rod_\\d|tome|mercurial_eye|swiftwolf_rending_gale|archangel_smite|void_ring|zero_ring|ignition_ring|harvest_goddess_band|mob_randomizer)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(klein_star_.*)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "kind:gadget",
+    "function:store",
+    "power-role:stores",
+    "power-type:emc"
+   ]
+  },
+  {
+   "match": "^(philosophers_stone|transmutation_tablet)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "kind:tool",
+    "function:craft",
+    "power-role:uses",
+    "power-type:emc",
+    "role:core"
+   ]
+  },
+  {
+   "match": "^(dm_(axe|hammer|hoe|pick|shears|shovel)|rm_(axe|hammer|hoe|pick|shears|shovel))$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:tool",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(dm_sword|rm_sword|rm_katar|rm_morning_star)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:weapon",
+    "function:defend",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(dm_(helmet|chestplate|leggings|boots)|rm_(helmet|chestplate|leggings|boots)|gem_(helmet|chestplate|leggings|boots))$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:armor",
+    "function:defend",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(dark_matter|red_matter|.*_matter|aeternalis_fuel|mobius_fuel|.*_covalence_dust)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "power-type:emc",
+    "needs:none"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^homing_arrow$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:consumable",
+    "function:defend"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

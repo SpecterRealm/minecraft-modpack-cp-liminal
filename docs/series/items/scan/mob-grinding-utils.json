@@ -12,52 +12,84 @@
    "kind": "block",
    "name": "Mob Fan",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "kind:machine",
+    "function:process",
+    "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:saw": {
    "kind": "block",
    "name": "Mob Masher",
    "tags": [
-    "kind:tool",
-    "review:auto"
+    "needs:none",
+    "kind:machine",
+    "function:process",
+    "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:absorption_hopper": {
    "kind": "block",
    "name": "Absorption Hopper",
    "tags": [
-    "function:transfer",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "kind:machine",
+    "function:process",
+    "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:absorption_hopper_d_u": {
    "kind": "block",
    "name": "Offset D/U",
    "tags": [
-    "function:transfer",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "kind:machine",
+    "function:process",
+    "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:absorption_hopper_n_s": {
    "kind": "block",
    "name": "Offset N/S",
    "tags": [
-    "function:transfer",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "kind:machine",
+    "function:process",
+    "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:absorption_hopper_w_e": {
    "kind": "block",
    "name": "Offset W/E",
    "tags": [
-    "function:transfer",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "kind:machine",
+    "function:process",
+    "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:spikes": {
@@ -65,33 +97,53 @@
    "name": "Iron Spikes",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:tank": {
    "kind": "block",
    "name": "Singularity Tank",
    "tags": [
-    "function:store",
-    "kind:storage",
-    "review:auto"
+    "needs:none",
+    "kind:machine",
+    "function:process",
+    "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:tank_sink": {
    "kind": "block",
    "name": "XP Drain Singularity Tank",
    "tags": [
-    "function:store",
-    "kind:storage",
-    "review:auto"
+    "needs:none",
+    "kind:machine",
+    "function:process",
+    "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:xp_tap": {
    "kind": "block",
    "name": "XP Tap",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "kind:machine",
+    "function:process",
+    "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:wither_muffler": {
@@ -100,7 +152,10 @@
    "tags": [
     "needs:nether",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:dragon_muffler": {
@@ -109,7 +164,10 @@
    "tags": [
     "needs:end",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:dark_oak_stone": {
@@ -117,7 +175,11 @@
    "name": "Dark Oak Stone",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:ender_inhibitor_on": {
@@ -125,7 +187,11 @@
    "name": "Ender Inhibitor Active",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:ender_inhibitor_off": {
@@ -133,16 +199,25 @@
    "name": "Ender Inhibitor Inactive",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:entity_conveyor": {
    "kind": "block",
    "name": "Entity Conveyor",
    "tags": [
-    "function:transfer",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "kind:machine",
+    "function:process",
+    "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:tinted_glass": {
@@ -150,24 +225,39 @@
    "name": "Tinted Glass",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:jumbo_tank": {
    "kind": "block",
    "name": "Jumbo Tank",
    "tags": [
-    "function:store",
-    "kind:storage",
-    "review:auto"
+    "needs:none",
+    "kind:machine",
+    "function:process",
+    "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:xpsolidifier": {
    "kind": "block",
    "name": "XP Solidifier",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "kind:machine",
+    "function:process",
+    "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:dreadful_dirt": {
@@ -175,7 +265,11 @@
    "name": "Dreadful Dirt",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:solid_xp_block": {
@@ -183,7 +277,11 @@
    "name": "Solid XP",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:delightful_dirt": {
@@ -191,30 +289,47 @@
    "name": "Delightful Dirt",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:entity_spawner": {
    "kind": "block",
    "name": "Entity Spawner",
    "tags": [
+    "needs:none",
     "kind:machine",
     "function:process",
-    "review:auto"
+    "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:mob_swab": {
    "kind": "item",
    "name": "Mob Swab",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:mob_swab_used": {
    "kind": "item",
    "name": "Mob Swab Used",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:gm_chicken_feed": {
@@ -222,7 +337,11 @@
    "name": "GM Chicken Feed",
    "tags": [
     "kind:food",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:gm_chicken_feed_cursed": {
@@ -230,7 +349,11 @@
    "name": "GM Chicken Feed Cursed",
    "tags": [
     "kind:food",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:nutritious_chicken_feed": {
@@ -238,7 +361,11 @@
    "name": "Nutritious Chicken Feed",
    "tags": [
     "kind:food",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:fan_upgrade_width": {
@@ -246,7 +373,11 @@
    "name": "Mob Fan Width Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:fan_upgrade_height": {
@@ -254,7 +385,11 @@
    "name": "Mob Fan Height Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:fan_upgrade_speed": {
@@ -262,7 +397,11 @@
    "name": "Mob Fan Distance Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:absorption_upgrade": {
@@ -270,7 +409,11 @@
    "name": "Absorption Radius Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:saw_upgrade_sharpness": {
@@ -279,7 +422,11 @@
    "tags": [
     "kind:tool",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:saw_upgrade_looting": {
@@ -288,7 +435,11 @@
    "tags": [
     "kind:tool",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:saw_upgrade_fire": {
@@ -297,7 +448,11 @@
    "tags": [
     "kind:tool",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:saw_upgrade_smite": {
@@ -306,7 +461,11 @@
    "tags": [
     "kind:tool",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:saw_upgrade_arthropod": {
@@ -315,7 +474,11 @@
    "tags": [
     "kind:tool",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:saw_upgrade_beheading": {
@@ -324,7 +487,11 @@
    "tags": [
     "kind:tool",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:null_sword": {
@@ -333,7 +500,11 @@
    "tags": [
     "kind:weapon",
     "function:defend",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:fluid_xp_bucket": {
@@ -341,7 +512,11 @@
    "name": "Fluid XP Bucket",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:rotten_egg": {
@@ -349,7 +524,11 @@
    "name": "Rotten Egg",
    "tags": [
     "kind:food",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:golden_egg": {
@@ -357,28 +536,44 @@
    "name": "Golden Egg",
    "tags": [
     "kind:food",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:solid_xp_mould_blank": {
    "kind": "item",
    "name": "XP Mould Blank",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:solid_xp_mould_baby": {
    "kind": "item",
    "name": "XP Mould Jelly Baby",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:solid_xp_baby": {
    "kind": "item",
    "name": "XP Jelly Baby",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:xp_solidifier_upgrade": {
@@ -386,7 +581,11 @@
    "name": "XP Speed Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:spawner_upgrade_width": {
@@ -396,7 +595,11 @@
     "kind:machine",
     "function:process",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:spawner_upgrade_height": {
@@ -406,18 +609,35 @@
     "kind:machine",
     "function:process",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "mob_grinding_utils:monocle": {
    "kind": "item",
    "name": "Monocle",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "MC1.21.1"
+ "tagged_version": "MC1.21.1",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "MC1.21.1",
+  "pass": "loop-back",
+  "note": "Mob farming and XP handling (fan, saw, spikes, absorption hopper, xp tap, solidifier, chicken feeds). Excluded from Elysian (tech aesthetic). Built-in support: none found.",
+  "class": "content",
+  "purpose": "Mob farming utilities: fan, saw, absorption hopper, XP tap"
+ }
 }

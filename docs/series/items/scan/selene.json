@@ -5,8 +5,15 @@
  "mod_ids": [
   "moonlight"
  ],
- "item_count": 1,
+ "item_count": 3,
  "compat": [
+  {
+   "id": "clothconfig2",
+   "slug": "cloth-config",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
   {
    "id": "create",
    "slug": "create",
@@ -42,11 +49,40 @@
    "name": "Unnamed Fluid",
    "tags": [
     "kind:fluid",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:moonlight.non_recolorable": {
+   "kind": "block",
+   "name": "Non recolorable",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "tag:minecraft.mineable.shear": {
+   "kind": "block",
+   "name": "Mineable by Shears",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21.1-beforebreakingchanges"
+ "tagged_version": "1.21.1-beforebreakingchanges",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1-beforebreakingchanges",
+  "pass": "loop-back",
+  "note": "Library.",
+  "class": "library",
+  "purpose": "Moonlight Lib predecessor / library used by Comforts? (shared library)"
+ }
 }

@@ -37,7 +37,11 @@
    "name": "Quantum Bridge Card",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "ae2wtlib:magnet_card": {
@@ -45,35 +49,63 @@
    "name": "Magnet Card",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "ae2wtlib:wireless_pattern_encoding_terminal": {
    "kind": "item",
    "name": "Wireless Pattern Encoding Terminal",
    "tags": [
+    "needs:none",
+    "kind:gadget",
     "function:automate",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "ae2wtlib:wireless_pattern_access_terminal": {
    "kind": "item",
    "name": "Wireless Pattern Access Terminal",
    "tags": [
+    "needs:none",
+    "kind:gadget",
     "function:automate",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "ae2wtlib:wireless_universal_terminal": {
    "kind": "item",
    "name": "Wireless Universal Terminal",
    "tags": [
+    "needs:none",
+    "kind:gadget",
     "function:automate",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "feel:tech",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "19.5.0"
+ "tagged_version": "19.5.0",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "19.5.0",
+  "pass": "loop-back",
+  "note": "Wireless universal and pattern terminals, magnet and bridge cards. Overlaps Extended Terminal for convenience.",
+  "class": "ae2-addon",
+  "purpose": "Wireless AE2 terminals and cards"
+ }
 }

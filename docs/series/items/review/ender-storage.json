@@ -1,0 +1,41 @@
+{
+ "class": "qol-gameplay",
+ "purpose": "Ender chest, tank and pouch (shared by frequency)",
+ "note": "Colour-coded shared chest/tank. Requires CB Multipart. Overlaps dimensional storage and AE2 wireless.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^(ender_chest|ender_pouch)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:storage",
+    "function:store"
+   ]
+  },
+  {
+   "match": "^ender_tank$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:storage",
+    "function:store"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

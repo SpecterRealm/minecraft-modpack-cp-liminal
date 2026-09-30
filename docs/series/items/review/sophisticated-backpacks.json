@@ -1,0 +1,97 @@
+{
+ "note": "Wearable storage: backpack tiers and the same upgrade family as Sophisticated Storage, plus backpack-only upgrades (battery, tool swapper, mob catcher, restock, refill). Built-in support: Sophisticated Core, Powah (battery/charging), Flux Networks.",
+ "rules": [
+  {
+   "match": "\\.|^debug_tool$",
+   "ui": true
+  },
+  {
+   "match": "^(.*_)?backpack$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:storage",
+    "function:store",
+    "scale:tiered",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^stack_.*|.*_tier_upgrade$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "scale:tiered",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "_upgrade$|^upgrade_base$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(pickup|filter|magnet|feeding|compacting|void|restock|deposit|refill|tool_swapper|mob_catcher|pump|xp_pump|hopper)_upgrade$|_(pickup|filter|magnet|feeding|compacting|void|restock|deposit|refill|tool_swapper|mob_catcher|pump)_upgrade$",
+   "clear": [
+    "function"
+   ],
+   "set": [
+    "function:automate"
+   ]
+  },
+  {
+   "match": "^(smelting|auto_smelting|smoking|auto_smoking|blasting|auto_blasting|crafting|stonecutter|alchemy|.*_alchemy|anvil|smithing)_upgrade$",
+   "clear": [
+    "function"
+   ],
+   "set": [
+    "function:process"
+   ]
+  },
+  {
+   "match": "^battery_upgrade$",
+   "clear": [
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "power-role:stores",
+    "power-type:fe"
+   ]
+  },
+  {
+   "match": "^(inception|everlasting|infinity|survival_infinity)_upgrade$",
+   "set": [
+    "role:optional"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

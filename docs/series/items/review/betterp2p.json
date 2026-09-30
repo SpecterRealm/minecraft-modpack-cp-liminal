@@ -1,0 +1,19 @@
+{
+ "class": "ae2-addon",
+ "purpose": "Better AE2 P2P memory card",
+ "note": "Advanced memory card for P2P tunnels. Niche convenience.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

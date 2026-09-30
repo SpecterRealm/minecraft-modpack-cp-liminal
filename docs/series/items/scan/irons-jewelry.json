@@ -23,6 +23,20 @@
    }
   },
   {
+   "id": "ironsspellbooks",
+   "slug": "irons-spells-n-spellbooks",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "irons_spellbooks",
+   "slug": "irons-spells-n-spellbooks",
+   "evidence": {
+    "data-ref": 4
+   }
+  },
+  {
    "id": "jei",
    "slug": "jei",
    "evidence": {
@@ -35,23 +49,35 @@
    "kind": "item",
    "name": "Ring",
    "tags": [
+    "needs:none",
     "kind:gadget",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "irons_jewelry:necklace": {
    "kind": "item",
    "name": "Necklace",
    "tags": [
+    "needs:none",
     "kind:gadget",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "irons_jewelry:invalid_jewelry": {
    "kind": "item",
    "name": "Invalid Jewelry",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "irons_jewelry:recipe": {
@@ -59,76 +85,122 @@
    "name": "Artisan Scroll",
    "tags": [
     "kind:consumable",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "irons_jewelry:ruby": {
    "kind": "item",
    "name": "Ruby",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "irons_jewelry:sapphire": {
    "kind": "item",
    "name": "Sapphire",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "irons_jewelry:topaz": {
    "kind": "item",
    "name": "Topaz",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "irons_jewelry:moonstone": {
    "kind": "item",
    "name": "Moonstone",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "irons_jewelry:peridot": {
    "kind": "item",
    "name": "Peridot",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "irons_jewelry:onyx": {
    "kind": "item",
    "name": "Onyx",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "irons_jewelry:garnet": {
    "kind": "item",
    "name": "Garnet",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "irons_jewelry:jewelcrafting_station": {
    "kind": "block",
    "name": "Jewelcrafting Station",
    "tags": [
+    "needs:none",
+    "kind:machine",
     "function:craft",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "minecraft:villager.irons_jewelry.jeweler": {
    "kind": "entity",
    "name": "Jeweler",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "v26.1.2-2.0.2"
+ "tagged_version": "v26.1.2-2.0.2",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "26.1.2-2.0.2",
+  "pass": "loop-back",
+  "note": "Jewelcrafting station with rings and necklaces from gems. Built-in support: supports Iron's Spells.",
+  "class": "content",
+  "purpose": "Jewelry crafting for Iron's Spells"
+ }
 }

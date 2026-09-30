@@ -5,6 +5,9 @@ A review file docs/series/items/review/<mod>.json holds the decisions made while
 
     {
       "note": "what the mod is for in the pack, anything odd",
+      "class": "library|perf-client|qol-client|qol-gameplay|viewer|kubejs-addon|compat|ae2-addon|worldgen|guide|server-tool|content",
+      "purpose": "one line: what it does and who needs it",
+      "reset_power": true,        # default true: drop the keyword pass's power and fuel tags; rules set them
       "rules": [
         {"match": "_ore_chunk$", "kind": "item",            # regex on the id after the colon; optional block|item|entity|fluid
          "clear": ["kind", "needs"],                        # drop every tag of these facets first
@@ -40,6 +43,14 @@ def load(mod):
     return json.load(open(os.path.join(SCAN, mod + ".json"), encoding="utf-8"))
 
 
+def profile_feel(mod):
+    try:
+        prof = json.load(open(os.path.join(ITEMS, "profiles.json"), encoding="utf-8"))["mods"].get(mod, {})
+    except OSError:
+        return []
+    return [f"feel:{x}" for x in prof.get("feel", [])]
+
+
 def apply(mod, dry=False):
     rules = json.load(open(os.path.join(REVIEW, mod + ".json"), encoding="utf-8"))
     d = load(mod)
@@ -48,6 +59,8 @@ def apply(mod, dry=False):
         name = key.split(":", 1)[1]
         before = [t for t in it.get("tags", []) if not t.startswith("review:")]
         tags = list(before)
+        if rules.get("reset_power", True):  # power tags come only from this mod's rules, not the keyword pass
+            tags = [t for t in tags if not t.startswith(("power-role:", "power-type:", "fuel:"))]
         for r in rules["rules"]:
             if r.get("kind") and r["kind"] != it["kind"]:
                 continue
@@ -69,10 +82,15 @@ def apply(mod, dry=False):
             for t in r.get("remove", []):
                 if t in tags:
                     tags.remove(t)
+        if not any(t.startswith("feel:") for t in tags):  # mod-level default feel (profiles.json)
+            tags += profile_feel(mod)
         changed += tags != before
         it["tags"] = tags + ["review:checked"]
     d["review"] = {"status": "checked", "date": datetime.date.today().isoformat(), "mod_version": re.sub(r"^v", "", str(d.get("ref") or "")),
                    "pass": "loop-back", "note": rules.get("note", "")}
+    for k in ("class", "purpose"):
+        if rules.get(k):
+            d["review"][k] = rules[k]
     if dry:
         print(f"{mod}: would change tags on {changed} of {len(d['items'])} items")
         return
@@ -84,7 +102,7 @@ def status():
     done, todo = [], []
     for p in sorted(glob.glob(os.path.join(SCAN, "*.json"))):
         d = json.load(open(p, encoding="utf-8"))
-        if "same_repo_as" in d or not d.get("items"):
+        if "same_repo_as" in d or "error" in d:
             continue
         mod = os.path.basename(p)[:-5]
         (done if d.get("review") else todo).append((mod, len(d["items"]), d.get("review")))

@@ -1,0 +1,15 @@
+{
+ "mod": "hostile-neural-networks",
+ "version": "1.21",
+ "source": "lang; data model to drop mapping unverified",
+ "entries": [
+  {
+   "resource": "iron",
+   "form": "data model -> loot fabricator",
+   "source": "loot fabricator",
+   "power": "FE",
+   "stage": "scale",
+   "note": "Fabricates mob drops from trained data models; which model drops iron (for example an iron golem) and the rates are unverified."
+  }
+ ]
+}

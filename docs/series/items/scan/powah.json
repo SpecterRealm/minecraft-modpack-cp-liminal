@@ -6,7 +6,7 @@
   "lollipop",
   "powah"
  ],
- "item_count": 147,
+ "item_count": 155,
  "compat": [
   {
    "id": "cloth_config",
@@ -51,17 +51,24 @@
    "kind": "block",
    "name": "Block Of Blazing Crystal",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:deepslate_uraninite_ore": {
    "kind": "block",
    "name": "Deepslate Uraninite Ore",
    "tags": [
-    "needs:ore",
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:deepslate_uraninite_ore_dense": {
@@ -69,7 +76,11 @@
    "name": "Deepslate Uraninite Ore (Dense)",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:deepslate_uraninite_ore_poor": {
@@ -77,7 +88,11 @@
    "name": "Deepslate Uraninite Ore (Poor)",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:dry_ice": {
@@ -85,140 +100,207 @@
    "name": "Dry Ice",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:ender_cell_basic": {
    "kind": "block",
    "name": "Ender Cell (Basic)",
    "tags": [
-    "function:store",
-    "power-role:stores",
-    "power-type:fe",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:ender_cell_blazing": {
    "kind": "block",
    "name": "Ender Cell (Blazing)",
    "tags": [
-    "function:store",
-    "power-role:stores",
-    "power-type:fe",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:ender_cell_hardened": {
    "kind": "block",
    "name": "Ender Cell (Hardened)",
    "tags": [
-    "function:store",
-    "power-role:stores",
-    "power-type:fe",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:ender_cell_niotic": {
    "kind": "block",
    "name": "Ender Cell (Niotic)",
    "tags": [
-    "function:store",
-    "power-role:stores",
-    "power-type:fe",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:ender_cell_nitro": {
    "kind": "block",
    "name": "Ender Cell (Nitro)",
    "tags": [
-    "function:store",
-    "power-role:stores",
-    "power-type:fe",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:ender_cell_spirited": {
    "kind": "block",
    "name": "Ender Cell (Spirited)",
    "tags": [
-    "function:store",
-    "power-role:stores",
-    "power-type:fe",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:ender_cell_starter": {
    "kind": "block",
    "name": "Ender Cell (Starter)",
    "tags": [
-    "function:store",
-    "power-role:stores",
-    "power-type:fe",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:ender_gate_basic": {
    "kind": "block",
    "name": "Ender Gate (Basic)",
    "tags": [
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:ender_gate_blazing": {
    "kind": "block",
    "name": "Ender Gate (Blazing)",
    "tags": [
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:ender_gate_hardened": {
    "kind": "block",
    "name": "Ender Gate (Hardened)",
    "tags": [
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:ender_gate_niotic": {
    "kind": "block",
    "name": "Ender Gate (Niotic)",
    "tags": [
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:ender_gate_nitro": {
    "kind": "block",
    "name": "Ender Gate (Nitro)",
    "tags": [
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:ender_gate_spirited": {
    "kind": "block",
    "name": "Ender Gate (Spirited)",
    "tags": [
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:ender_gate_starter": {
    "kind": "block",
    "name": "Ender Gate (Starter)",
    "tags": [
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energized_steel_block": {
@@ -226,799 +308,1209 @@
    "name": "Block Of Energized Steel",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energizing_orb": {
    "kind": "block",
    "name": "Energizing Orb",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "scale:tiered",
+    "kind:machine",
+    "function:craft",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energizing_rod_basic": {
    "kind": "block",
    "name": "Energizing Rod (Basic)",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "scale:tiered",
+    "kind:machine",
+    "function:craft",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energizing_rod_blazing": {
    "kind": "block",
    "name": "Energizing Rod (Blazing)",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "scale:tiered",
+    "kind:machine",
+    "function:craft",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energizing_rod_hardened": {
    "kind": "block",
    "name": "Energizing Rod (Hardened)",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "scale:tiered",
+    "kind:machine",
+    "function:craft",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energizing_rod_niotic": {
    "kind": "block",
    "name": "Energizing Rod (Niotic)",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "scale:tiered",
+    "kind:machine",
+    "function:craft",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energizing_rod_nitro": {
    "kind": "block",
    "name": "Energizing Rod (Nitro)",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "scale:tiered",
+    "kind:machine",
+    "function:craft",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energizing_rod_spirited": {
    "kind": "block",
    "name": "Energizing Rod (Spirited)",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "scale:tiered",
+    "kind:machine",
+    "function:craft",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energizing_rod_starter": {
    "kind": "block",
    "name": "Energizing Rod (Starter)",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "scale:tiered",
+    "kind:machine",
+    "function:craft",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_cable_basic": {
    "kind": "block",
    "name": "Energy Cable (Basic)",
    "tags": [
+    "scale:tiered",
+    "kind:block",
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_cable_blazing": {
    "kind": "block",
    "name": "Energy Cable (Blazing)",
    "tags": [
+    "scale:tiered",
+    "kind:block",
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_cable_hardened": {
    "kind": "block",
    "name": "Energy Cable (Hardened)",
    "tags": [
+    "scale:tiered",
+    "kind:block",
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_cable_niotic": {
    "kind": "block",
    "name": "Energy Cable (Niotic)",
    "tags": [
+    "scale:tiered",
+    "kind:block",
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_cable_nitro": {
    "kind": "block",
    "name": "Energy Cable (Nitro)",
    "tags": [
+    "scale:tiered",
+    "kind:block",
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_cable_spirited": {
    "kind": "block",
    "name": "Energy Cable (Spirited)",
    "tags": [
+    "scale:tiered",
+    "kind:block",
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_cable_starter": {
    "kind": "block",
    "name": "Energy Cable (Starter)",
    "tags": [
+    "scale:tiered",
+    "kind:block",
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_cell_basic": {
    "kind": "block",
    "name": "Energy Cell (Basic)",
    "tags": [
+    "scale:tiered",
+    "kind:block",
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_cell_blazing": {
    "kind": "block",
    "name": "Energy Cell (Blazing)",
    "tags": [
+    "scale:tiered",
+    "kind:block",
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_cell_creative": {
    "kind": "block",
    "name": "Energy Cell (Creative)",
    "tags": [
+    "scale:tiered",
+    "kind:block",
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_cell_hardened": {
    "kind": "block",
    "name": "Energy Cell (Hardened)",
    "tags": [
+    "scale:tiered",
+    "kind:block",
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_cell_niotic": {
    "kind": "block",
    "name": "Energy Cell (Niotic)",
    "tags": [
+    "scale:tiered",
+    "kind:block",
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_cell_nitro": {
    "kind": "block",
    "name": "Energy Cell (Nitro)",
    "tags": [
+    "scale:tiered",
+    "kind:block",
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_cell_spirited": {
    "kind": "block",
    "name": "Energy Cell (Spirited)",
    "tags": [
+    "scale:tiered",
+    "kind:block",
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_cell_starter": {
    "kind": "block",
    "name": "Energy Cell (Starter)",
    "tags": [
+    "scale:tiered",
+    "kind:block",
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_discharger_basic": {
    "kind": "block",
    "name": "Energy Discharger (Basic)",
    "tags": [
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_discharger_blazing": {
    "kind": "block",
    "name": "Energy Discharger (Blazing)",
    "tags": [
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_discharger_hardened": {
    "kind": "block",
    "name": "Energy Discharger (Hardened)",
    "tags": [
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_discharger_niotic": {
    "kind": "block",
    "name": "Energy Discharger (Niotic)",
    "tags": [
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_discharger_nitro": {
    "kind": "block",
    "name": "Energy Discharger (Nitro)",
    "tags": [
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_discharger_spirited": {
    "kind": "block",
    "name": "Energy Discharger (Spirited)",
    "tags": [
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_discharger_starter": {
    "kind": "block",
    "name": "Energy Discharger (Starter)",
    "tags": [
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_hopper_basic": {
    "kind": "block",
    "name": "Energy Hopper (Basic)",
    "tags": [
+    "scale:tiered",
+    "kind:block",
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_hopper_blazing": {
    "kind": "block",
    "name": "Energy Hopper (Blazing)",
    "tags": [
+    "scale:tiered",
+    "kind:block",
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_hopper_hardened": {
    "kind": "block",
    "name": "Energy Hopper (Hardened)",
    "tags": [
+    "scale:tiered",
+    "kind:block",
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_hopper_niotic": {
    "kind": "block",
    "name": "Energy Hopper (Niotic)",
    "tags": [
+    "scale:tiered",
+    "kind:block",
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_hopper_nitro": {
    "kind": "block",
    "name": "Energy Hopper (Nitro)",
    "tags": [
+    "scale:tiered",
+    "kind:block",
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_hopper_spirited": {
    "kind": "block",
    "name": "Energy Hopper (Spirited)",
    "tags": [
+    "scale:tiered",
+    "kind:block",
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energy_hopper_starter": {
    "kind": "block",
    "name": "Energy Hopper (Starter)",
    "tags": [
+    "scale:tiered",
+    "kind:block",
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:furnator_basic": {
    "kind": "block",
    "name": "Furnator (Basic)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:solid",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:furnator_blazing": {
    "kind": "block",
    "name": "Furnator (Blazing)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:solid",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:furnator_hardened": {
    "kind": "block",
    "name": "Furnator (Hardened)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:solid",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:furnator_niotic": {
    "kind": "block",
    "name": "Furnator (Niotic)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:solid",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:furnator_nitro": {
    "kind": "block",
    "name": "Furnator (Nitro)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:solid",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:furnator_spirited": {
    "kind": "block",
    "name": "Furnator (Spirited)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:solid",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:furnator_starter": {
    "kind": "block",
    "name": "Furnator (Starter)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:solid",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:magmator_basic": {
    "kind": "block",
    "name": "Magmator (Basic)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:liquid",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:magmator_blazing": {
    "kind": "block",
    "name": "Magmator (Blazing)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:liquid",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:magmator_hardened": {
    "kind": "block",
    "name": "Magmator (Hardened)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:liquid",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:magmator_niotic": {
    "kind": "block",
    "name": "Magmator (Niotic)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:liquid",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:magmator_nitro": {
    "kind": "block",
    "name": "Magmator (Nitro)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:liquid",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:magmator_spirited": {
    "kind": "block",
    "name": "Magmator (Spirited)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:liquid",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:magmator_starter": {
    "kind": "block",
    "name": "Magmator (Starter)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:liquid",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:niotic_crystal_block": {
    "kind": "block",
    "name": "Block Of Niotic Crystal",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:nitro_crystal_block": {
    "kind": "block",
    "name": "Block Of Nitro Crystal",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:player_transmitter_basic": {
    "kind": "block",
    "name": "Player Transmitter (Basic)",
    "tags": [
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:player_transmitter_blazing": {
    "kind": "block",
    "name": "Player Transmitter (Blazing)",
    "tags": [
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:player_transmitter_hardened": {
    "kind": "block",
    "name": "Player Transmitter (Hardened)",
    "tags": [
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:player_transmitter_niotic": {
    "kind": "block",
    "name": "Player Transmitter (Niotic)",
    "tags": [
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:player_transmitter_nitro": {
    "kind": "block",
    "name": "Player Transmitter (Nitro)",
    "tags": [
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:player_transmitter_spirited": {
    "kind": "block",
    "name": "Player Transmitter (Spirited)",
    "tags": [
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:player_transmitter_starter": {
    "kind": "block",
    "name": "Player Transmitter (Starter)",
    "tags": [
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:reactor_basic": {
    "kind": "block",
    "name": "Reactor (Basic)",
    "tags": [
+    "scale:tiered",
+    "kind:multiblock",
     "function:generate",
     "power-role:makes",
-    "kind:multiblock",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "power-type:heat",
+    "fuel:nuclear",
+    "needs:ore",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:reactor_blazing": {
    "kind": "block",
    "name": "Reactor (Blazing)",
    "tags": [
+    "scale:tiered",
+    "kind:multiblock",
     "function:generate",
     "power-role:makes",
-    "kind:multiblock",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "power-type:heat",
+    "fuel:nuclear",
+    "needs:ore",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:reactor_hardened": {
    "kind": "block",
    "name": "Reactor (Hardened)",
    "tags": [
+    "scale:tiered",
+    "kind:multiblock",
     "function:generate",
     "power-role:makes",
-    "kind:multiblock",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "power-type:heat",
+    "fuel:nuclear",
+    "needs:ore",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:reactor_niotic": {
    "kind": "block",
    "name": "Reactor (Niotic)",
    "tags": [
+    "scale:tiered",
+    "kind:multiblock",
     "function:generate",
     "power-role:makes",
-    "kind:multiblock",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "power-type:heat",
+    "fuel:nuclear",
+    "needs:ore",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:reactor_nitro": {
    "kind": "block",
    "name": "Reactor (Nitro)",
    "tags": [
+    "scale:tiered",
+    "kind:multiblock",
     "function:generate",
     "power-role:makes",
-    "kind:multiblock",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "power-type:heat",
+    "fuel:nuclear",
+    "needs:ore",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:reactor_spirited": {
    "kind": "block",
    "name": "Reactor (Spirited)",
    "tags": [
+    "scale:tiered",
+    "kind:multiblock",
     "function:generate",
     "power-role:makes",
-    "kind:multiblock",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "power-type:heat",
+    "fuel:nuclear",
+    "needs:ore",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:reactor_starter": {
    "kind": "block",
    "name": "Reactor (Starter)",
    "tags": [
+    "scale:tiered",
+    "kind:multiblock",
     "function:generate",
     "power-role:makes",
-    "kind:multiblock",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "power-type:heat",
+    "fuel:nuclear",
+    "needs:ore",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:solar_panel_basic": {
    "kind": "block",
    "name": "Solar Panel (Basic)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:decoration",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:sun",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:solar_panel_blazing": {
    "kind": "block",
    "name": "Solar Panel (Blazing)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:decoration",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:sun",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:solar_panel_hardened": {
    "kind": "block",
    "name": "Solar Panel (Hardened)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:decoration",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:sun",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:solar_panel_niotic": {
    "kind": "block",
    "name": "Solar Panel (Niotic)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:decoration",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:sun",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:solar_panel_nitro": {
    "kind": "block",
    "name": "Solar Panel (Nitro)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:decoration",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:sun",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:solar_panel_spirited": {
    "kind": "block",
    "name": "Solar Panel (Spirited)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:decoration",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:sun",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:solar_panel_starter": {
    "kind": "block",
    "name": "Solar Panel (Starter)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:decoration",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:sun",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:spirited_crystal_block": {
    "kind": "block",
    "name": "Block Of Spirited Crystal",
    "tags": [
-    "kind:material",
-    "review:auto"
+    "kind:block",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:thermo_generator_basic": {
    "kind": "block",
    "name": "Thermo Generator (Basic)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:liquid",
+    "power-type:heat",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:thermo_generator_blazing": {
    "kind": "block",
    "name": "Thermo Generator (Blazing)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:liquid",
+    "power-type:heat",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:thermo_generator_hardened": {
    "kind": "block",
    "name": "Thermo Generator (Hardened)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:liquid",
+    "power-type:heat",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:thermo_generator_niotic": {
    "kind": "block",
    "name": "Thermo Generator (Niotic)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:liquid",
+    "power-type:heat",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:thermo_generator_nitro": {
    "kind": "block",
    "name": "Thermo Generator (Nitro)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:liquid",
+    "power-type:heat",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:thermo_generator_spirited": {
    "kind": "block",
    "name": "Thermo Generator (Spirited)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:liquid",
+    "power-type:heat",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:thermo_generator_starter": {
    "kind": "block",
    "name": "Thermo Generator (Starter)",
    "tags": [
+    "scale:tiered",
+    "kind:machine",
     "function:generate",
     "power-role:makes",
-    "kind:block",
-    "review:auto"
+    "power-type:fe",
+    "needs:none",
+    "fuel:liquid",
+    "power-type:heat",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:uraninite_block": {
@@ -1026,7 +1518,11 @@
    "name": "Block Of Uraninite",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:uraninite_ore": {
@@ -1034,7 +1530,11 @@
    "name": "Uraninite Ore",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:uraninite_ore_dense": {
@@ -1042,7 +1542,11 @@
    "name": "Uraninite Ore (Dense)",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:uraninite_ore_poor": {
@@ -1050,84 +1554,120 @@
    "name": "Uraninite Ore (Poor)",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:aerial_pearl": {
    "kind": "item",
    "name": "Aerial Pearl",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:battery_basic": {
    "kind": "item",
    "name": "Battery (Basic)",
    "tags": [
+    "scale:tiered",
+    "kind:gadget",
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:battery_blazing": {
    "kind": "item",
    "name": "Battery (Blazing)",
    "tags": [
+    "scale:tiered",
+    "kind:gadget",
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:battery_hardened": {
    "kind": "item",
    "name": "Battery (Hardened)",
    "tags": [
+    "scale:tiered",
+    "kind:gadget",
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:battery_niotic": {
    "kind": "item",
    "name": "Battery (Niotic)",
    "tags": [
+    "scale:tiered",
+    "kind:gadget",
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:battery_nitro": {
    "kind": "item",
    "name": "Battery (Nitro)",
    "tags": [
+    "scale:tiered",
+    "kind:gadget",
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:battery_spirited": {
    "kind": "item",
    "name": "Battery (Spirited)",
    "tags": [
+    "scale:tiered",
+    "kind:gadget",
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:battery_starter": {
    "kind": "item",
    "name": "Battery (Starter)",
    "tags": [
+    "scale:tiered",
+    "kind:gadget",
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:binding_card": {
@@ -1135,7 +1675,11 @@
    "name": "Binding Card",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:binding_card_dim": {
@@ -1143,7 +1687,11 @@
    "name": "Binding Card (Dimensional)",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:blank_card": {
@@ -1151,7 +1699,11 @@
    "name": "Blank Card",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:blazing_crystal": {
@@ -1159,7 +1711,11 @@
    "name": "Blazing Crystal",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:capacitor_basic": {
@@ -1167,9 +1723,11 @@
    "name": "Basic Capacitor",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:capacitor_basic_large": {
@@ -1177,9 +1735,11 @@
    "name": "Basic Capacitor (Large)",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:capacitor_basic_tiny": {
@@ -1187,9 +1747,11 @@
    "name": "Basic Capacitor (Tiny)",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:capacitor_blazing": {
@@ -1197,9 +1759,11 @@
    "name": "Blazing Capacitor",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:capacitor_hardened": {
@@ -1207,9 +1771,11 @@
    "name": "Hardened Capacitor",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:capacitor_niotic": {
@@ -1217,9 +1783,11 @@
    "name": "Niotic Capacitor",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:capacitor_nitro": {
@@ -1227,9 +1795,11 @@
    "name": "Nitro Capacitor",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:capacitor_spirited": {
@@ -1237,16 +1807,22 @@
    "name": "Spirited Capacitor",
    "tags": [
     "function:store",
-    "power-role:stores",
-    "power-type:fe",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:charged_snowball": {
    "kind": "item",
    "name": "Charged Snowball",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:crystal_blazing": {
@@ -1254,7 +1830,11 @@
    "name": "Blazing Crystal",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:crystal_niotic": {
@@ -1262,7 +1842,11 @@
    "name": "Niotic Crystal",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:crystal_nitro": {
@@ -1270,7 +1854,11 @@
    "name": "Nitro Crystal",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:crystal_spirited": {
@@ -1278,21 +1866,33 @@
    "name": "Spirited Crystal",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:dielectric_casing": {
    "kind": "item",
    "name": "Dielectric Casing",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:dielectric_paste": {
    "kind": "item",
    "name": "Dielectric Paste",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:dielectric_rod": {
@@ -1300,7 +1900,11 @@
    "name": "Dielectric Rod",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:dielectric_rod_horizontal": {
@@ -1308,28 +1912,44 @@
    "name": "Dielectric Rod (Horizontal)",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:ender_core": {
    "kind": "item",
    "name": "Ender Core",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:energised_steel": {
    "kind": "item",
    "name": "Energised Steel",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:lens_of_ender": {
    "kind": "item",
    "name": "Lens Of Ender",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:niotic_crystal": {
@@ -1337,7 +1957,11 @@
    "name": "Niotic Crystal",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:photoelectric_pane": {
@@ -1345,14 +1969,22 @@
    "name": "Photoelectric Pane",
    "tags": [
     "kind:decoration",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:player_aerial_pearl": {
    "kind": "item",
    "name": "Player Aerial Pearl",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:spirited_crystal": {
@@ -1360,14 +1992,22 @@
    "name": "Spirited Crystal",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:steel_energized": {
    "kind": "item",
    "name": "Energized Steel",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:thermoelectric_plate": {
@@ -1375,14 +2015,22 @@
    "name": "Thermo Plate",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:uraninite": {
    "kind": "item",
    "name": "Uraninite",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:uraninite_raw": {
@@ -1390,7 +2038,11 @@
    "name": "Raw Uraninite",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "powah:wrench": {
@@ -1399,11 +2051,112 @@
    "tags": [
     "kind:tool",
     "function:craft",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:c.blue_ices": {
+   "kind": "item",
+   "name": "Blue Ice",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:c.dry_ices": {
+   "kind": "item",
+   "name": "Dry Ice",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:c.ices": {
+   "kind": "item",
+   "name": "Any Ice",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:c.packed_ices": {
+   "kind": "item",
+   "name": "Packed Ice",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:c.raw_uraninite_ores": {
+   "kind": "item",
+   "name": "Raw Uraninite Ores",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:c.regular_ices": {
+   "kind": "item",
+   "name": "Ice",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:c.uraninite_blocks": {
+   "kind": "item",
+   "name": "Uraninite Blocks",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "tag:c.uraninite_ores": {
+   "kind": "item",
+   "name": "Uraninite Ores",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "v6.2.10"
+ "tagged_version": "v6.2.10",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "6.2.10",
+  "pass": "loop-back",
+  "note": "Powah: seven-tier generators (furnator, magmator, solar, thermo, reactor), energy cells and cables, ender cells/gates, energizing rods; fuel from coal, lava and the Powah data maps. Curated catalog in data/powah.json; this file covers the scan list. Uranium ore in the world feeds the reactor (needs ore). Built-in support: GuideME; supported by 5 mods (Extreme Reactors, Mystical Agriculture, Productive Bees, Sophisticated Backpacks, Theurgy).",
+  "class": "content",
+  "purpose": "Tiered power: generators, storage, cables, transfer (starter to nitro)"
+ }
 }

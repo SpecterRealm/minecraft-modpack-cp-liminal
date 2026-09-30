@@ -1,0 +1,48 @@
+{
+ "class": "content",
+ "purpose": "FE-powered sieve and hammer for Ex Deorum",
+ "note": "Flux sieve, flux hammer, flux compactor and item buffer: the powered, automated sieve chain for Ex Deorum (Verdant scale step). Built-in support: Ex Deorum (required).",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^(flux_sieve|flux_hammer|flux_compactor)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "kind:machine",
+    "function:process",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "role:core"
+   ]
+  },
+  {
+   "match": "^(item_buffer)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:machine",
+    "function:store",
+    "function:automate"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

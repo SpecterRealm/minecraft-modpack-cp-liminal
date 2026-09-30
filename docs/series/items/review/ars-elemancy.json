@@ -1,0 +1,19 @@
+{
+ "class": "content",
+ "purpose": "Elemancy: elemental magic variant with Iron's integration",
+ "note": "Elemancy armor and spells. Built-in support: Ars Nouveau, Ars Elemental, Iron's Spells.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech"
+   ]
+  }
+ ]
+}

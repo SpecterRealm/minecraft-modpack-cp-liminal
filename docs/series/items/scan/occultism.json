@@ -6,7 +6,7 @@
   "${mod_id}",
   "occultism"
  ],
- "item_count": 579,
+ "item_count": 691,
  "compat": [
   {
    "id": "apothic_enchanting",
@@ -104,209 +104,267 @@
    "kind": "block",
    "name": "Celestial Chalice",
    "tags": [
-    "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "function:craft",
+    "function:enchant",
+    "needs:spell-tech",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_glyph_black": {
    "kind": "block",
    "name": "Black Chalk Glyph",
    "tags": [
-    "function:enchant",
-    "power-type:mana",
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_glyph_blue": {
    "kind": "block",
    "name": "Blue Chalk Glyph",
    "tags": [
-    "function:enchant",
-    "power-type:mana",
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_glyph_brown": {
    "kind": "block",
    "name": "Brown Chalk Glyph",
    "tags": [
-    "function:enchant",
-    "power-type:mana",
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_glyph_cyan": {
    "kind": "block",
    "name": "Cyan Chalk Glyph",
    "tags": [
-    "function:enchant",
-    "power-type:mana",
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_glyph_gold": {
    "kind": "block",
    "name": "Yellow Chalk Glyph",
    "tags": [
-    "function:enchant",
-    "power-type:mana",
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_glyph_gray": {
    "kind": "block",
    "name": "Gray Chalk Glyph",
    "tags": [
-    "function:enchant",
-    "power-type:mana",
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_glyph_green": {
    "kind": "block",
    "name": "Green Chalk Glyph",
    "tags": [
-    "function:enchant",
-    "power-type:mana",
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_glyph_light_blue": {
    "kind": "block",
    "name": "Light Blue Chalk Glyph",
    "tags": [
-    "function:enchant",
-    "function:light",
-    "power-type:mana",
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_glyph_light_gray": {
    "kind": "block",
    "name": "Light Gray Chalk Glyph",
    "tags": [
-    "function:enchant",
-    "function:light",
-    "power-type:mana",
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_glyph_lime": {
    "kind": "block",
    "name": "Lime Chalk Glyph",
    "tags": [
-    "function:enchant",
-    "power-type:mana",
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_glyph_magenta": {
    "kind": "block",
    "name": "Magenta Chalk Glyph",
    "tags": [
-    "function:enchant",
-    "power-type:mana",
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_glyph_orange": {
    "kind": "block",
    "name": "Orange Chalk Glyph",
    "tags": [
-    "function:enchant",
-    "power-type:mana",
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_glyph_pink": {
    "kind": "block",
    "name": "Pink Chalk Glyph",
    "tags": [
-    "function:enchant",
-    "power-type:mana",
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_glyph_purple": {
    "kind": "block",
    "name": "Purple Chalk Glyph",
    "tags": [
-    "function:enchant",
-    "power-type:mana",
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_glyph_rainbow": {
    "kind": "block",
    "name": "Rainbow Chalk Glyph",
    "tags": [
-    "function:enchant",
-    "power-type:mana",
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_glyph_red": {
    "kind": "block",
    "name": "Red Chalk Glyph",
    "tags": [
-    "function:enchant",
-    "power-type:mana",
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_glyph_void": {
    "kind": "block",
    "name": "Void Chalk Glyph",
    "tags": [
-    "function:enchant",
-    "power-type:mana",
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_glyph_white": {
    "kind": "block",
    "name": "White Chalk Glyph",
    "tags": [
-    "function:enchant",
-    "power-type:mana",
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chiseled_otherrock_bricks": {
@@ -315,7 +373,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chiseled_otherstone_bricks": {
@@ -324,16 +386,26 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:copper_sacrificial_bowl": {
    "kind": "block",
    "name": "Copper Sacrificial Bowl",
    "tags": [
-    "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "function:craft",
+    "function:enchant",
+    "needs:spell-tech",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:cracked_otherrock_bricks": {
@@ -342,7 +414,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:cracked_otherstone_bricks": {
@@ -351,52 +427,86 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:dark_copper_sacrificial_bowl": {
    "kind": "block",
    "name": "Dark Copper Sacrificial Bowl",
    "tags": [
-    "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "function:craft",
+    "function:enchant",
+    "needs:spell-tech",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:dark_golden_sacrificial_bowl": {
    "kind": "block",
    "name": "Dark Golden Ritual Bowl",
    "tags": [
-    "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "function:craft",
+    "function:enchant",
+    "needs:spell-tech",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:dark_iesnium_sacrificial_bowl": {
    "kind": "block",
    "name": "Dark Iesnium Ritual Bowl",
    "tags": [
-    "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "function:craft",
+    "function:enchant",
+    "needs:spell-tech",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:dark_sacrificial_bowl": {
    "kind": "block",
    "name": "Dark Sacrificial Bowl",
    "tags": [
-    "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "function:craft",
+    "function:enchant",
+    "needs:spell-tech",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:dark_silver_sacrificial_bowl": {
    "kind": "block",
    "name": "Dark Silver Sacrificial Bowl",
    "tags": [
-    "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "function:craft",
+    "function:enchant",
+    "needs:spell-tech",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:datura": {
@@ -405,16 +515,26 @@
    "tags": [
     "kind:food",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:dimensional_battlefield": {
    "kind": "block",
    "name": "Dimensional Battlefield",
    "tags": [
+    "kind:machine",
+    "function:craft",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:dimensional_extractor": {
@@ -422,264 +542,392 @@
    "name": "Dimensional Extractor",
    "tags": [
     "kind:machine",
+    "function:craft",
     "function:process",
+    "power-role:none",
+    "power-type:none",
     "needs:spell-tech",
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:dimensional_mineshaft": {
    "kind": "block",
    "name": "Dimensional Mineshaft",
    "tags": [
+    "role:core",
+    "kind:machine",
+    "function:mine",
+    "power-role:none",
+    "power-type:none",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:eldritch_chalice": {
    "kind": "block",
    "name": "Eldritch Chalice",
    "tags": [
-    "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "function:craft",
+    "function:enchant",
+    "needs:spell-tech",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:entity_wormhole": {
    "kind": "block",
    "name": "Entity Wormhole",
    "tags": [
+    "kind:machine",
+    "function:craft",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:entity_wormhole_dark": {
    "kind": "block",
    "name": "Dark Entity Wormhole",
    "tags": [
+    "kind:machine",
+    "function:craft",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:golden_sacrificial_bowl": {
    "kind": "block",
    "name": "Golden Ritual Bowl",
    "tags": [
-    "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "function:craft",
+    "function:enchant",
+    "needs:spell-tech",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:iesnium_anvil": {
    "kind": "block",
    "name": "Iesnium Anvil",
    "tags": [
+    "kind:machine",
     "function:craft",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:iesnium_block": {
    "kind": "block",
    "name": "Block of Iesnium",
    "tags": [
-    "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:iesnium_ore": {
    "kind": "block",
    "name": "Iesnium Ore",
    "tags": [
-    "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:iesnium_sacrificial_bowl": {
    "kind": "block",
    "name": "Iesnium Ritual Bowl",
    "tags": [
-    "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "function:craft",
+    "function:enchant",
+    "needs:spell-tech",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:large_candle": {
    "kind": "block",
    "name": "Large Candle",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:large_candle_black": {
    "kind": "block",
    "name": "Large Black Candle",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:large_candle_blue": {
    "kind": "block",
    "name": "Large Blue Candle",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:large_candle_brown": {
    "kind": "block",
    "name": "Large Brown Candle",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:large_candle_cyan": {
    "kind": "block",
    "name": "Large Cyan Candle",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:large_candle_gray": {
    "kind": "block",
    "name": "Large Gray Candle",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:large_candle_green": {
    "kind": "block",
    "name": "Large Green Candle",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:large_candle_light_blue": {
    "kind": "block",
    "name": "Large Light Blue Candle",
    "tags": [
-    "function:light",
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:large_candle_light_gray": {
    "kind": "block",
    "name": "Large Light Gray Candle",
    "tags": [
-    "function:light",
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:large_candle_lime": {
    "kind": "block",
    "name": "Large Lime Candle",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:large_candle_magenta": {
    "kind": "block",
    "name": "Large Magenta Candle",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:large_candle_orange": {
    "kind": "block",
    "name": "Large Orange Candle",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:large_candle_pink": {
    "kind": "block",
    "name": "Large Pink Candle",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:large_candle_purple": {
    "kind": "block",
    "name": "Large Purple Candle",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:large_candle_red": {
    "kind": "block",
    "name": "Large Red Candle",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:large_candle_white": {
    "kind": "block",
    "name": "Large White Candle",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:large_candle_yellow": {
    "kind": "block",
    "name": "Large Yellow Candle",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:lighted_air": {
    "kind": "block",
    "name": "Lighted Air",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:othercobblerock": {
    "kind": "block",
    "name": "Othercobblerock",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:othercobblerock_slab": {
@@ -688,7 +936,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:othercobblerock_stairs": {
@@ -697,7 +949,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:othercobblerock_wall": {
@@ -706,16 +962,24 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:othercobblestone": {
    "kind": "block",
    "name": "Othercobblestone",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:othercobblestone_slab": {
@@ -724,7 +988,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:othercobblestone_stairs": {
@@ -733,7 +1001,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:othercobblestone_wall": {
@@ -742,43 +1014,63 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherflower": {
    "kind": "block",
    "name": "Otherflower",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherglass": {
    "kind": "block",
    "name": "Otherglass",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherplanks": {
    "kind": "block",
    "name": "Otherplanks",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherplanks_button": {
    "kind": "block",
    "name": "Otherplanks Button",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherplanks_door": {
@@ -787,7 +1079,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherplanks_fence": {
@@ -796,7 +1092,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherplanks_fence_gate": {
@@ -805,7 +1105,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherplanks_hanging_sign": {
@@ -814,16 +1118,24 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherplanks_pressure_plate": {
    "kind": "block",
    "name": "Otherplanks Pressure Plate",
    "tags": [
-    "kind:material",
+    "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherplanks_sign": {
@@ -832,7 +1144,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherplanks_slab": {
@@ -841,7 +1157,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherplanks_stairs": {
@@ -850,7 +1170,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherplanks_trapdoor": {
@@ -859,16 +1183,24 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherrock": {
    "kind": "block",
    "name": "Otherrock",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherrock_bricks": {
@@ -877,7 +1209,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherrock_bricks_slab": {
@@ -886,7 +1222,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherrock_bricks_stairs": {
@@ -895,7 +1235,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherrock_bricks_wall": {
@@ -904,25 +1248,37 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherrock_button": {
    "kind": "block",
    "name": "Otherrock Button",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherrock_pressure_plate": {
    "kind": "block",
    "name": "Otherrock Pressure Plate",
    "tags": [
-    "kind:material",
+    "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherrock_slab": {
@@ -931,7 +1287,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherrock_stairs": {
@@ -940,7 +1300,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherrock_wall": {
@@ -949,16 +1313,24 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherstone": {
    "kind": "block",
    "name": "Otherstone",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherstone_bricks": {
@@ -967,7 +1339,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherstone_bricks_slab": {
@@ -976,7 +1352,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherstone_bricks_stairs": {
@@ -985,7 +1365,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherstone_bricks_wall": {
@@ -994,43 +1378,63 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherstone_button": {
    "kind": "block",
    "name": "Otherstone Button",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherstone_pedestal": {
    "kind": "block",
    "name": "Otherstone Pedestal",
    "tags": [
+    "power-role:none",
+    "power-type:none",
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherstone_pedestal_silver": {
    "kind": "block",
    "name": "Otherrock Pedestal",
    "tags": [
+    "power-role:none",
+    "power-type:none",
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherstone_pressure_plate": {
    "kind": "block",
    "name": "Otherstone Pressure Plate",
    "tags": [
-    "kind:material",
+    "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherstone_slab": {
@@ -1039,7 +1443,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherstone_stairs": {
@@ -1048,7 +1456,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherstone_wall": {
@@ -1057,7 +1469,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherworld_leaves": {
@@ -1066,7 +1482,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherworld_log": {
@@ -1075,34 +1495,51 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherworld_sapling": {
    "kind": "item",
    "name": "Otherworld Sapling",
    "tags": [
+    "kind:ingredient",
     "function:farm",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherworld_wood": {
    "kind": "block",
    "name": "Otherworld Wood",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:polished_otherrock": {
    "kind": "block",
    "name": "Polished Otherrock",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:polished_otherrock_slab": {
@@ -1111,7 +1548,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:polished_otherrock_stairs": {
@@ -1120,7 +1561,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:polished_otherrock_wall": {
@@ -1129,16 +1574,24 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:polished_otherstone": {
    "kind": "block",
    "name": "Polished Otherstone",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:polished_otherstone_slab": {
@@ -1147,7 +1600,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:polished_otherstone_stairs": {
@@ -1156,7 +1613,11 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:polished_otherstone_wall": {
@@ -1165,82 +1626,119 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:raw_iesnium_block": {
    "kind": "block",
    "name": "Block of Raw Iesnium",
    "tags": [
-    "kind:material",
+    "kind:block",
     "needs:ore",
-    "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:raw_silver_block": {
    "kind": "block",
    "name": "Block of Raw Silver",
    "tags": [
-    "kind:material",
+    "kind:block",
     "needs:ore",
-    "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:sacrificial_bowl": {
    "kind": "block",
    "name": "Sacrificial Bowl",
    "tags": [
-    "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "function:craft",
+    "function:enchant",
+    "needs:spell-tech",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:silver_block": {
    "kind": "block",
    "name": "Block of Silver",
    "tags": [
-    "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:silver_ore": {
    "kind": "block",
    "name": "Silver Ore",
    "tags": [
-    "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:silver_ore_deepslate": {
    "kind": "block",
    "name": "Deepslate Silver Ore",
    "tags": [
-    "needs:ore",
-    "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:silver_sacrificial_bowl": {
    "kind": "block",
    "name": "Silver Sacrificial Bowl",
    "tags": [
-    "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "function:craft",
+    "function:enchant",
+    "needs:spell-tech",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:skeleton_skull_dummy": {
    "kind": "block",
    "name": "Skeleton Skull",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spirit_attuned_crystal": {
@@ -1249,252 +1747,378 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spirit_campfire": {
    "kind": "block",
    "name": "Spirit Campfire",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spirit_fire": {
    "kind": "block",
    "name": "Spiritfire",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spirit_grindstone": {
    "kind": "block",
    "name": "Spirit Grindstone",
    "tags": [
+    "kind:machine",
+    "function:craft",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spirit_lantern": {
    "kind": "block",
    "name": "Spirit Lantern",
    "tags": [
-    "function:light",
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spirit_torch": {
    "kind": "block",
    "name": "Spirit Torch",
    "tags": [
-    "function:light",
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:stable_wormhole": {
    "kind": "block",
    "name": "Stable Wormhole",
    "tags": [
+    "kind:machine",
+    "function:craft",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:stable_wormhole_dark": {
    "kind": "block",
    "name": "Dark Stable Wormhole",
    "tags": [
+    "kind:machine",
+    "function:craft",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:storage_controller": {
    "kind": "block",
    "name": "Dimensional Storage Actuator",
    "tags": [
-    "function:store",
-    "needs:spell-tech",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:store",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:storage_controller_base": {
    "kind": "block",
    "name": "Storage Actuator Base",
    "tags": [
-    "function:store",
-    "needs:spell-tech",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:store",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:storage_controller_base_dark": {
    "kind": "block",
    "name": "Dark Storage Actuator Base",
    "tags": [
-    "function:store",
-    "needs:spell-tech",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:store",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:storage_controller_dark": {
    "kind": "block",
    "name": "Dark Dimensional Storage Actuator",
    "tags": [
-    "function:store",
-    "needs:spell-tech",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:store",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:storage_controller_stabilized": {
    "kind": "block",
    "name": "Stabilized Dimensional Storage Actuator",
    "tags": [
-    "function:store",
-    "needs:spell-tech",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:store",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:storage_controller_stabilized_dark": {
    "kind": "block",
    "name": "Dark Stabilized Dimensional Storage Actuator",
    "tags": [
-    "function:store",
-    "needs:spell-tech",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:store",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:storage_stabilizer_tier0": {
    "kind": "block",
    "name": "Dimensional Storage Stabilizer Base",
    "tags": [
-    "function:store",
-    "needs:spell-tech",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:store",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:storage_stabilizer_tier0_dark": {
    "kind": "block",
    "name": "Dark Dimensional Storage Stabilizer Base",
    "tags": [
-    "function:store",
-    "needs:spell-tech",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:store",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:storage_stabilizer_tier1": {
    "kind": "block",
    "name": "Tier 1 Dimensional Storage Stabilizer",
    "tags": [
-    "function:store",
-    "needs:spell-tech",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:store",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:storage_stabilizer_tier1_dark": {
    "kind": "block",
    "name": "Tier 1 Dark Dimensional Storage Stabilizer",
    "tags": [
-    "function:store",
-    "needs:spell-tech",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:store",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:storage_stabilizer_tier2": {
    "kind": "block",
    "name": "Tier 2 Dimensional Storage Stabilizer",
    "tags": [
-    "function:store",
-    "needs:spell-tech",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:store",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:storage_stabilizer_tier2_dark": {
    "kind": "block",
    "name": "Tier 2 Dark Dimensional Storage Stabilizer",
    "tags": [
-    "function:store",
-    "needs:spell-tech",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:store",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:storage_stabilizer_tier3": {
    "kind": "block",
    "name": "Tier 3 Dimensional Storage Stabilizer",
    "tags": [
-    "function:store",
-    "needs:spell-tech",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:store",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:storage_stabilizer_tier3_dark": {
    "kind": "block",
    "name": "Tier 3 Dark Dimensional Storage Stabilizer",
    "tags": [
-    "function:store",
-    "needs:spell-tech",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:store",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:storage_stabilizer_tier4": {
    "kind": "block",
    "name": "Tier 4 Dimensional Storage Stabilizer",
    "tags": [
-    "function:store",
-    "needs:spell-tech",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:store",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:storage_stabilizer_tier4_dark": {
    "kind": "block",
    "name": "Tier 4 Dark Dimensional Storage Stabilizer",
    "tags": [
-    "function:store",
-    "needs:spell-tech",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:store",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:storage_stabilizer_tier5": {
    "kind": "block",
    "name": "Tier 5 Dimensional Storage Stabilizer",
    "tags": [
-    "function:store",
-    "needs:spell-tech",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:store",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:storage_stabilizer_tier5_dark": {
    "kind": "block",
    "name": "Tier 5 Dark Dimensional Storage Stabilizer",
    "tags": [
-    "function:store",
-    "needs:spell-tech",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:store",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:stripped_otherworld_log": {
@@ -1503,622 +2127,937 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:stripped_otherworld_wood": {
    "kind": "block",
    "name": "Stripped Otherworld Wood",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:tallow_block": {
    "kind": "block",
    "name": "Tallow Block",
    "tags": [
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:wither_skeleton_skull_dummy": {
    "kind": "block",
    "name": "Wither Skeleton Skull",
    "tags": [
-    "needs:nether",
+    "kind:decoration",
     "needs:spell-tech",
-    "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:afrit": {
    "kind": "entity",
    "name": "Afrit",
    "tags": [
-    "kind:mob",
+    "function:automate",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:afrit_wild": {
    "kind": "entity",
    "name": "Unbound Afrit",
    "tags": [
-    "kind:mob",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:bat_familiar": {
    "kind": "entity",
    "name": "Bat Familiar",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:beaver_familiar": {
    "kind": "entity",
    "name": "Beaver Familiar",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:beholder_familiar": {
    "kind": "entity",
    "name": "Beholder Familiar",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:blacksmith_familiar": {
    "kind": "entity",
    "name": "Blacksmith Familiar",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chimera_familiar": {
    "kind": "entity",
    "name": "Chimera Familiar",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:cthulhu_familiar": {
    "kind": "entity",
    "name": "Cthulhu Familiar",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:deer_familiar": {
    "kind": "entity",
    "name": "Deer Familiar",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:demonic_husband": {
    "kind": "entity",
    "name": "Demonic Husband",
    "tags": [
-    "kind:mob",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:demonic_wife": {
    "kind": "entity",
    "name": "Demonic Wife",
    "tags": [
-    "kind:mob",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:devil_familiar": {
    "kind": "entity",
    "name": "Devil Familiar",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:djinni": {
    "kind": "entity",
    "name": "Djinni",
    "tags": [
-    "kind:mob",
+    "function:automate",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:dragon_familiar": {
    "kind": "entity",
    "name": "Dragon Familiar",
    "tags": [
-    "kind:mob",
-    "needs:end",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:fairy_familiar": {
    "kind": "entity",
    "name": "Fairy Familiar",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:foliot": {
    "kind": "entity",
    "name": "Foliot",
    "tags": [
-    "kind:mob",
+    "function:automate",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:goat_familiar": {
    "kind": "entity",
    "name": "Goat Familiar",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:greedy_familiar": {
    "kind": "entity",
    "name": "Greedy Familiar",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:guardian_familiar": {
    "kind": "entity",
    "name": "Guardian Familiar",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:headless_familiar": {
    "kind": "entity",
    "name": "Headless Familiar",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:iesnium_golem": {
    "kind": "entity",
    "name": "Iesnium Golem",
    "tags": [
-    "kind:mob",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:marid": {
    "kind": "entity",
    "name": "Marid",
    "tags": [
-    "kind:mob",
+    "function:automate",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:marid_unbound": {
    "kind": "entity",
    "name": "Unbound Marid",
    "tags": [
-    "kind:mob",
+    "function:automate",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:mercy_goat": {
    "kind": "entity",
    "name": "Goat of Mercy",
    "tags": [
-    "kind:mob",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:mummy_familiar": {
    "kind": "entity",
    "name": "Mummy Familiar",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherworld_bird": {
    "kind": "entity",
    "name": "Drikwing",
    "tags": [
-    "kind:mob",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:possessed_bee": {
    "kind": "entity",
    "name": "Possessed Bee",
    "tags": [
-    "kind:mob",
-    "function:farm",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:possessed_blaze": {
    "kind": "entity",
    "name": "Possessed Blaze",
    "tags": [
-    "kind:mob",
-    "needs:nether",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:possessed_breeze": {
    "kind": "entity",
    "name": "Wild Breeze",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:possessed_elder_guardian": {
    "kind": "entity",
    "name": "Possessed Elder Guardian",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:possessed_enderman": {
    "kind": "entity",
    "name": "Possessed Enderman",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:possessed_endermite": {
    "kind": "entity",
    "name": "Possessed Endermite",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:possessed_evoker": {
    "kind": "entity",
    "name": "Wild Evoker",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:possessed_ghast": {
    "kind": "entity",
    "name": "Possessed Ghast",
    "tags": [
-    "kind:mob",
-    "needs:nether",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:possessed_guardian": {
    "kind": "entity",
    "name": "Possessed Guardian",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:possessed_hoglin": {
    "kind": "entity",
    "name": "Possessed Hoglin",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:possessed_phantom": {
    "kind": "entity",
    "name": "Possessed Phantom",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:possessed_shulker": {
    "kind": "entity",
    "name": "Possessed Shulker",
    "tags": [
-    "kind:mob",
-    "function:store",
-    "needs:end",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:possessed_skeleton": {
    "kind": "entity",
    "name": "Possessed Skeleton",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:possessed_strong_breeze": {
    "kind": "entity",
    "name": "Wild Strong Breeze",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:possessed_warden": {
    "kind": "entity",
    "name": "Possessed Warden",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:possessed_weak_breeze": {
    "kind": "entity",
    "name": "Wild Weak Breeze",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:possessed_weak_shulker": {
    "kind": "entity",
    "name": "Possessed Weak Shulker",
    "tags": [
-    "kind:mob",
-    "function:store",
-    "needs:end",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:possessed_witch": {
    "kind": "entity",
    "name": "Possessed Witch",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:possessed_zombie_piglin": {
    "kind": "entity",
    "name": "Possessed Zombified Piglin",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:shub_niggurath_familiar": {
    "kind": "entity",
    "name": "Shub Niggurath Familiar",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:shub_niggurath_spawn": {
    "kind": "entity",
    "name": "Shub Niggurath Spawn",
    "tags": [
-    "kind:mob",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:thrown_sword": {
    "kind": "entity",
    "name": "Thrown Sword",
    "tags": [
-    "kind:mob",
-    "kind:weapon",
-    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:wild_bogged": {
    "kind": "entity",
    "name": "Wild Bogged",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:wild_cave_spider": {
    "kind": "entity",
    "name": "Wild Cave Spider",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:wild_horde_creeper": {
    "kind": "entity",
    "name": "Wild Horde Creeper",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:wild_horde_drowned": {
    "kind": "entity",
    "name": "Wild Horde Drowned",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:wild_horde_husk": {
    "kind": "entity",
    "name": "Wild Horde Husk",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:wild_horde_silverfish": {
    "kind": "entity",
    "name": "Wild Horde Silverfish",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:wild_hunt_skeleton": {
    "kind": "entity",
    "name": "Wild Hunt Skeleton",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:wild_hunt_wither_skeleton": {
    "kind": "entity",
    "name": "Wild Hunt Wither Skeleton",
    "tags": [
-    "kind:mob",
-    "needs:nether",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:wild_husk": {
    "kind": "entity",
    "name": "Wild Husk",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:wild_silverfish": {
    "kind": "entity",
    "name": "Wild Silverfish",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:wild_skeleton": {
    "kind": "entity",
    "name": "Wild Skeleton",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:wild_slime": {
    "kind": "entity",
    "name": "Wild Slime",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:wild_spider": {
    "kind": "entity",
    "name": "Wild Spider",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:wild_stray": {
    "kind": "entity",
    "name": "Wild Stray",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:wild_zombie": {
    "kind": "entity",
    "name": "Wild Zombie",
    "tags": [
-    "kind:mob",
+    "function:defend",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:wondering_trader": {
    "kind": "entity",
    "name": "Wondering Trader",
    "tags": [
-    "kind:mob",
     "needs:spell-tech",
-    "review:auto"
+    "kind:mob",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:afrit_essence": {
@@ -2127,7 +3066,11 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:amethyst_dust": {
@@ -2136,15 +3079,24 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:awakened_feather": {
    "kind": "item",
    "name": "Awakened Feather",
    "tags": [
+    "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:beaver_nugget": {
@@ -2153,31 +3105,50 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:brush": {
    "kind": "item",
    "name": "Chalk Brush",
    "tags": [
+    "kind:tool",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:burnt_otherrock": {
    "kind": "item",
    "name": "Burnt Otherrock",
    "tags": [
+    "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:burnt_otherstone": {
    "kind": "item",
    "name": "Burnt Otherstone",
    "tags": [
+    "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:butcher_knife": {
@@ -2186,283 +3157,487 @@
    "tags": [
     "kind:tool",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_black": {
    "kind": "item",
    "name": "Black Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_black_impure": {
    "kind": "item",
    "name": "Impure Black Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_blue": {
    "kind": "item",
    "name": "Blue Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_blue_impure": {
    "kind": "item",
    "name": "Impure Blue Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_brown": {
    "kind": "item",
    "name": "Brown Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_brown_impure": {
    "kind": "item",
    "name": "Impure Brown Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_cyan": {
    "kind": "item",
    "name": "Cyan Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_cyan_impure": {
    "kind": "item",
    "name": "Impure Cyan Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_gold": {
    "kind": "item",
    "name": "Yellow Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_gray": {
    "kind": "item",
    "name": "Gray Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_gray_impure": {
    "kind": "item",
    "name": "Impure Gray Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_green": {
    "kind": "item",
    "name": "Green Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_green_impure": {
    "kind": "item",
    "name": "Impure Green Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_light_blue": {
    "kind": "item",
    "name": "Light Blue Chalk",
    "tags": [
-    "function:light",
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_light_blue_impure": {
    "kind": "item",
    "name": "Impure Light Blue Chalk",
    "tags": [
-    "function:light",
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_light_gray": {
    "kind": "item",
    "name": "Light Gray Chalk",
    "tags": [
-    "function:light",
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_light_gray_impure": {
    "kind": "item",
    "name": "Impure Light Gray Chalk",
    "tags": [
-    "function:light",
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_lime": {
    "kind": "item",
    "name": "Lime Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_lime_impure": {
    "kind": "item",
    "name": "Impure Lime Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_magenta": {
    "kind": "item",
    "name": "Magenta Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_magenta_impure": {
    "kind": "item",
    "name": "Impure Magenta Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_orange": {
    "kind": "item",
    "name": "Orange Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_orange_impure": {
    "kind": "item",
    "name": "Impure Orange Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_pink": {
    "kind": "item",
    "name": "Pink Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_pink_impure": {
    "kind": "item",
    "name": "Impure Pink Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_purple": {
    "kind": "item",
    "name": "Purple Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_purple_impure": {
    "kind": "item",
    "name": "Impure Purple Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_rainbow": {
    "kind": "item",
    "name": "Rainbow Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_red": {
    "kind": "item",
    "name": "Red Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_red_impure": {
    "kind": "item",
    "name": "Impure Red Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_void": {
    "kind": "item",
    "name": "Void Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_white": {
    "kind": "item",
    "name": "White Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_white_impure": {
    "kind": "item",
    "name": "Impure White Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:chalk_yellow_impure": {
    "kind": "item",
    "name": "Impure Yellow Chalk",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:copper_dust": {
@@ -2471,7 +3646,11 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:cruelty_essence": {
@@ -2480,151 +3659,201 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:crushed_blackstone": {
    "kind": "item",
    "name": "Crushed Blackstone",
    "tags": [
-    "needs:nether",
+    "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:crushed_blue_ice": {
    "kind": "item",
    "name": "Crushed Blue Ice",
    "tags": [
+    "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:crushed_calcite": {
    "kind": "item",
    "name": "Crushed Calcite",
    "tags": [
+    "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:crushed_end_stone": {
    "kind": "item",
    "name": "Crushed End Stone",
    "tags": [
-    "needs:end",
-    "kind:decoration",
+    "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:crushed_ice": {
    "kind": "item",
    "name": "Crushed Ice",
    "tags": [
+    "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:crushed_packed_ice": {
    "kind": "item",
    "name": "Crushed Packed Ice",
    "tags": [
+    "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:cursed_honey": {
    "kind": "item",
    "name": "Cursed Honey",
    "tags": [
-    "kind:food",
+    "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:datura_seeds": {
    "kind": "item",
    "name": "Demon's Dream Seeds",
    "tags": [
+    "kind:ingredient",
     "function:farm",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:debug_djinni_manage_machine": {
    "kind": "item",
    "name": "Summon Debug Djinni Manage Machine",
    "tags": [
-    "needs:spell-tech",
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:debug_djinni_test": {
    "kind": "item",
    "name": "Summon Debug Djinni Test",
    "tags": [
-    "needs:spell-tech",
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:debug_foliot_cleaner": {
    "kind": "item",
    "name": "Summon Debug Foliot Janitor",
    "tags": [
-    "needs:spell-tech",
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:debug_foliot_farmer": {
    "kind": "item",
    "name": "Summon Debug Foliot Farmer",
    "tags": [
-    "needs:spell-tech",
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:debug_foliot_lumberjack": {
    "kind": "item",
    "name": "Summon Debug Foliot Lumberjack",
    "tags": [
-    "needs:spell-tech",
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:debug_foliot_trader": {
    "kind": "item",
    "name": "Summon Debug Foliot Trader",
    "tags": [
-    "needs:spell-tech",
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:debug_foliot_transport_items": {
    "kind": "item",
    "name": "Summon Debug Foliot Transporter",
    "tags": [
-    "needs:spell-tech",
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:debug_wand": {
    "kind": "item",
    "name": "Debug Wand",
    "tags": [
-    "kind:tool",
-    "function:enchant",
-    "needs:spell-tech",
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:demonic_meat": {
    "kind": "item",
    "name": "Demonic Meat",
    "tags": [
-    "kind:food",
+    "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:demons_dream_essence": {
@@ -2633,7 +3862,11 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:dimensional_matrix": {
@@ -2642,16 +3875,24 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:divination_rod": {
    "kind": "item",
    "name": "Divination Rod",
    "tags": [
-    "kind:material",
+    "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:dragonyst_dust": {
@@ -2660,7 +3901,11 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:echo_dust": {
@@ -2669,7 +3914,11 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:emerald_dust": {
@@ -2678,22 +3927,33 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ender_satchel": {
    "kind": "item",
    "name": "Ender Satchel",
    "tags": [
+    "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ender_satchel.chest_menu": {
    "kind": "item",
    "name": "%s's Ender Chest",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:familiar_ring": {
@@ -2702,35 +3962,50 @@
    "tags": [
     "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:flame_of_automation": {
    "kind": "item",
    "name": "Flame of Automation",
    "tags": [
+    "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:fragile_soul_gem": {
    "kind": "item",
    "name": "Fragile Soul Gem",
    "tags": [
-    "kind:material",
-    "needs:nether",
+    "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:fragile_soul_gem_empty": {
    "kind": "item",
    "name": "Fragile Empty Soul Gem",
    "tags": [
-    "kind:material",
-    "needs:nether",
+    "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:gold_dust": {
@@ -2739,15 +4014,25 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:gray_paste": {
    "kind": "item",
    "name": "Gray Paste",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:iesnium_butcher_knife": {
@@ -2756,7 +4041,11 @@
    "tags": [
     "kind:tool",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:iesnium_dust": {
@@ -2765,7 +4054,11 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:iesnium_ingot": {
@@ -2774,7 +4067,11 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:iesnium_nugget": {
@@ -2783,7 +4080,11 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:iesnium_pickaxe": {
@@ -2791,17 +4092,25 @@
    "name": "Iesnium Pickaxe",
    "tags": [
     "kind:tool",
-    "function:mine",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:infused_lenses": {
    "kind": "item",
    "name": "Infused Lenses",
    "tags": [
+    "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:infused_pickaxe": {
@@ -2809,9 +4118,12 @@
    "name": "Infused Pickaxe",
    "tags": [
     "kind:tool",
-    "function:mine",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:iron_dust": {
@@ -2820,7 +4132,11 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:knowledge_tablet": {
@@ -2829,7 +4145,11 @@
    "tags": [
     "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:lapis_dust": {
@@ -2838,42 +4158,63 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:lens_frame": {
    "kind": "item",
    "name": "Lens Frame",
    "tags": [
+    "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:lenses": {
    "kind": "item",
    "name": "Glass Lenses",
    "tags": [
-    "kind:decoration",
+    "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:magic_lamp_empty": {
    "kind": "item",
    "name": "Empty Magic Lamp",
    "tags": [
-    "function:light",
+    "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:magic_lamp_filled": {
    "kind": "item",
    "name": "Magic Lamp",
    "tags": [
-    "function:light",
+    "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:marid_essence": {
@@ -2882,87 +4223,137 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:miner_afrit_deeps": {
    "kind": "item",
    "name": "Deep Ore Miner Afrit",
    "tags": [
+    "role:core",
+    "kind:gadget",
     "function:mine",
-    "needs:ore",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:miner_ancient_eldritch": {
    "kind": "item",
    "name": "Eldritch Ancient Miner",
    "tags": [
+    "role:core",
+    "kind:gadget",
     "function:mine",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:miner_debug_unspecialized": {
    "kind": "item",
    "name": "Debug Miner",
    "tags": [
+    "role:core",
+    "kind:gadget",
     "function:mine",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:miner_djinni_ores": {
    "kind": "item",
    "name": "Ore Miner Djinni",
    "tags": [
+    "role:core",
+    "kind:gadget",
     "function:mine",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:miner_foliot_unspecialized": {
    "kind": "item",
    "name": "Miner Foliot",
    "tags": [
+    "role:core",
+    "kind:gadget",
     "function:mine",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:miner_marid_master": {
    "kind": "item",
    "name": "Master Miner Marid",
    "tags": [
+    "role:core",
+    "kind:gadget",
     "function:mine",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:mining_dim_core": {
    "kind": "item",
    "name": "Mining Dimension Core Piece",
    "tags": [
+    "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:mysterious_egg_icon": {
    "kind": "item",
    "name": "Mysterious Egg Icon",
    "tags": [
-    "kind:food",
-    "needs:spell-tech",
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:nature_paste": {
    "kind": "item",
    "name": "Nature Paste",
    "tags": [
+    "kind:ingredient",
+    "function:craft",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:netherite_dust": {
@@ -2970,9 +4361,12 @@
    "name": "Netherite Dust",
    "tags": [
     "kind:material",
-    "needs:nether",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:netherite_scrap_dust": {
@@ -2980,9 +4374,12 @@
    "name": "Netherite Scrap Dust",
    "tags": [
     "kind:material",
-    "needs:nether",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:obsidian_dust": {
@@ -2991,23 +4388,37 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherrock_frame": {
    "kind": "item",
    "name": "Otherrock Frame",
    "tags": [
+    "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherstone_frame": {
    "kind": "item",
    "name": "Otherstone Frame",
    "tags": [
+    "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherstone_tablet": {
@@ -3016,15 +4427,24 @@
    "tags": [
     "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherworld_ashes": {
    "kind": "item",
    "name": "Otherworld Ashes",
    "tags": [
+    "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherworld_essence": {
@@ -3033,7 +4453,11 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherworld_goggles": {
@@ -3042,56 +4466,90 @@
    "tags": [
     "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:otherworld_sapling_natural": {
    "kind": "item",
    "name": "Unstable Otherworld Sapling",
    "tags": [
+    "kind:ingredient",
     "function:farm",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:pentacle_craft": {
    "kind": "item",
    "name": "Pentacle Craft",
    "tags": [
+    "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:pentacle_misc": {
    "kind": "item",
    "name": "Pentacle Misc",
    "tags": [
+    "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:pentacle_possess": {
    "kind": "item",
    "name": "Pentacle Possess",
    "tags": [
+    "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:pentacle_summon": {
    "kind": "item",
    "name": "Pentacle Summon",
    "tags": [
+    "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:purified_ink": {
    "kind": "item",
    "name": "Purified Ink",
    "tags": [
+    "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:raw_iesnium": {
@@ -3099,8 +4557,12 @@
    "name": "Raw Iesnium",
    "tags": [
     "kind:material",
-    "needs:spell-tech",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:raw_silver": {
@@ -3108,16 +4570,21 @@
    "name": "Raw Silver",
    "tags": [
     "kind:material",
-    "needs:spell-tech",
-    "review:auto"
+    "needs:ore",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:repair_icon": {
    "kind": "item",
    "name": "Repair Icon",
    "tags": [
-    "needs:spell-tech",
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:research_fragment_dust": {
@@ -3126,1229 +4593,1589 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:resurrect_icon": {
    "kind": "item",
    "name": "Resurrect Icon",
    "tags": [
-    "needs:spell-tech",
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_dark_iesnium_sacrificial_bowl": {
    "kind": "item",
    "name": "Ritual: Craft Dark Iesnium Ritual Bowl",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_dimensional_battlefield": {
    "kind": "item",
    "name": "Ritual: Craft Dimensional Battlefield",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_dimensional_extractor": {
    "kind": "item",
    "name": "Ritual: Craft Dimensional Extractor",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_dimensional_matrix": {
    "kind": "item",
    "name": "Ritual: Craft Dimensional Matrix",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_dimensional_mineshaft": {
    "kind": "item",
    "name": "Ritual: Craft Dimensional Mineshaft",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_dragonyst_dust": {
    "kind": "item",
    "name": "Ritual: Craft Dragonyst Dust",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_ender_satchel": {
    "kind": "item",
    "name": "Ritual: Craft Ender Satchel",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_entity_wormhole": {
    "kind": "item",
    "name": "Ritual: Craft Entity Wormhole",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_entity_wormhole_dark": {
    "kind": "item",
    "name": "Ritual: Craft Dark Entity Wormhole",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_familiar_ring": {
    "kind": "item",
    "name": "Ritual: Craft Familiar Ring",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_fragile_soul_gem": {
    "kind": "item",
    "name": "Ritual: Craft Fragile Soul Gem",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_gray_paste": {
    "kind": "item",
    "name": "Ritual: Craft Gray Paste",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_iesnium_anvil": {
    "kind": "item",
    "name": "Ritual: Craft Iesnium Anvil",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_iesnium_butcher_knife": {
    "kind": "item",
    "name": "Ritual: Craft Iesnium Butcher Knife",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_iesnium_sacrificial_bowl": {
    "kind": "item",
    "name": "Ritual: Craft Iesnium Ritual Bowl",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_infused_lenses": {
    "kind": "item",
    "name": "Ritual: Craft Infused Lenses",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_infused_pickaxe": {
    "kind": "item",
    "name": "Ritual: Craft Infused Pickaxe",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_knowledge_tablet": {
    "kind": "item",
    "name": "Ritual: Craft Knowledge Tablet",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_miner_afrit_deeps": {
    "kind": "item",
    "name": "Ritual: Infuse Afrit Deep Ore Miner",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_miner_djinni_ores": {
    "kind": "item",
    "name": "Ritual: Infuse Djinni Ore Miner",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_miner_foliot_unspecialized": {
    "kind": "item",
    "name": "Ritual: Infuse Foliot Miner",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_miner_marid_master": {
    "kind": "item",
    "name": "Ritual: Infuse Marid Master Miner",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_nature_paste": {
    "kind": "item",
    "name": "Ritual: Craft Nature Paste",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_research_fragment_dust": {
    "kind": "item",
    "name": "Ritual: Craft Research Fragment Dust",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_ritual_satchel_t1": {
    "kind": "item",
    "name": "Ritual: Craft Apprentice Ritual Satchel",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_ritual_satchel_t2": {
    "kind": "item",
    "name": "Ritual: Craft Artisanal Ritual Satchel",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_satchel": {
    "kind": "item",
    "name": "Ritual: Craft Surprisingly Substantial Satchel",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_soul_gem": {
    "kind": "item",
    "name": "Ritual: Craft Soul Gem",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_spirit_grindstone": {
    "kind": "item",
    "name": "Ritual: Craft Spirit Grindstone",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_stabilizer_tier1": {
    "kind": "item",
    "name": "Ritual: Craft Storage Stabilizer Tier 1",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_stabilizer_tier1_dark": {
    "kind": "item",
    "name": "Ritual: Craft Dark Storage Stabilizer Tier 1",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_stabilizer_tier2": {
    "kind": "item",
    "name": "Ritual: Craft Storage Stabilizer Tier 2",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_stabilizer_tier2_dark": {
    "kind": "item",
    "name": "Ritual: Craft Dark Storage Stabilizer Tier 2",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_stabilizer_tier3": {
    "kind": "item",
    "name": "Ritual: Craft Storage Stabilizer Tier 3",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_stabilizer_tier3_dark": {
    "kind": "item",
    "name": "Ritual: Craft Dark Storage Stabilizer Tier 3",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_stabilizer_tier4": {
    "kind": "item",
    "name": "Ritual: Craft Storage Stabilizer Tier 4",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_stabilizer_tier4_dark": {
    "kind": "item",
    "name": "Ritual: Craft Dark Storage Stabilizer Tier 4",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_stable_wormhole": {
    "kind": "item",
    "name": "Ritual: Craft Stable Wormhole",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_stable_wormhole_dark": {
    "kind": "item",
    "name": "Ritual: Craft Dark Stable Wormhole",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_storage_controller_base": {
    "kind": "item",
    "name": "Ritual: Craft Storage Actuator Base",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_storage_controller_base_dark": {
    "kind": "item",
    "name": "Ritual: Craft Dark Storage Actuator Base",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_storage_remote": {
    "kind": "item",
    "name": "Ritual: Craft Storage Accessor",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_true_sight_staff": {
    "kind": "item",
    "name": "Ritual: Craft True Sight Staff",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_upgrade_ritual_satchel": {
    "kind": "item",
    "name": "Ritual: Craft Artisanal Ritual Satchel",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_vitality_compass": {
    "kind": "item",
    "name": "Ritual: Craft Vitality Compass",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.craft_witherite_dust": {
    "kind": "item",
    "name": "Ritual: Craft Witherite Dust",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.custom_ritual_craft": {
    "kind": "item",
    "name": "Custom Ritual Dummy",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.custom_ritual_misc": {
    "kind": "item",
    "name": "Custom Ritual Dummy",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.custom_ritual_possess": {
    "kind": "item",
    "name": "Custom Ritual Dummy",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.custom_ritual_summon": {
    "kind": "item",
    "name": "Custom Ritual Dummy",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.familiar_bat": {
    "kind": "item",
    "name": "Ritual: Summon Bat Familiar",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.familiar_beaver": {
    "kind": "item",
    "name": "Ritual: Summon Beaver Familiar",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.familiar_beholder": {
    "kind": "item",
    "name": "Ritual: Summon Beholder Familiar",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.familiar_blacksmith": {
    "kind": "item",
    "name": "Ritual: Summon Blacksmith Familiar",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.familiar_chimera": {
    "kind": "item",
    "name": "Ritual: Summon Chimera Familiar",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.familiar_cthulhu": {
    "kind": "item",
    "name": "Ritual: Summon Cthulhu Familiar",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.familiar_deer": {
    "kind": "item",
    "name": "Ritual: Summon Deer Familiar",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.familiar_devil": {
    "kind": "item",
    "name": "Ritual: Summon Devil Familiar",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.familiar_dragon": {
    "kind": "item",
    "name": "Ritual: Summon Dragon Familiar",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.familiar_fairy": {
    "kind": "item",
    "name": "Ritual: Summon Fairy Familiar",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.familiar_greedy": {
    "kind": "item",
    "name": "Ritual: Summon Greedy Familiar",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.familiar_guardian": {
    "kind": "item",
    "name": "Ritual: Summon Guardian Familiar",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.familiar_headless": {
    "kind": "item",
    "name": "Ritual: Summon Headless Ratman Familiar",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.familiar_mummy": {
    "kind": "item",
    "name": "Ritual: Summon Mummy Familiar",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.familiar_otherworld_bird": {
    "kind": "item",
    "name": "Ritual: Summon Drikwing Familiar",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.familiar_parrot": {
    "kind": "item",
    "name": "Ritual: Summon Parrot Familiar",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.misc_bee_nest": {
    "kind": "item",
    "name": "Ritual: Forge Bee Nest",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.misc_bell": {
    "kind": "item",
    "name": "Ritual: Forge Bell",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.misc_budding_amethyst": {
    "kind": "item",
    "name": "Ritual: Forge Budding Amethyst",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.misc_celestial_chalice": {
    "kind": "item",
    "name": "Ritual: Forge Celestial Chalice",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.misc_chalk_rainbow": {
    "kind": "item",
    "name": "Ritual: Forge Rainbow Chalk",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.misc_chalk_void": {
    "kind": "item",
    "name": "Ritual: Forge Void Chalk",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.misc_diamond_horse_armor": {
    "kind": "item",
    "name": "Ritual: Forge Diamond Horse Armor",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.misc_eldritch_chalice": {
    "kind": "item",
    "name": "Ritual: Forge Eldritch Chalice",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.misc_golden_horse_armor": {
    "kind": "item",
    "name": "Ritual: Forge Golden Horse Armor",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.misc_iron_horse_armor": {
    "kind": "item",
    "name": "Ritual: Forge Iron Horse Armor",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.misc_miner_ancient_eldritch": {
    "kind": "item",
    "name": "Ritual: Infuse Eldritch Ancient Miner",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.misc_reinforced_deepslate": {
    "kind": "item",
    "name": "Ritual: Forge Reinforced Deepslate",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.misc_stabilized_storage": {
    "kind": "item",
    "name": "Ritual: Forge Stabilized Dimensional Storage Actuator",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.misc_stabilized_storage_dark": {
    "kind": "item",
    "name": "Ritual: Forge Dark Stabilized Dimensional Storage Actuator",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.misc_stabilizer_tier5": {
    "kind": "item",
    "name": "Ritual: Forge Storage Stabilizer Tier 5",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.misc_stabilizer_tier5_dark": {
    "kind": "item",
    "name": "Ritual: Forge Dark Storage Stabilizer Tier 5",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.misc_trinity_gem": {
    "kind": "item",
    "name": "Ritual: Forge Trinity Gem",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.misc_wild_trim": {
    "kind": "item",
    "name": "Ritual: Forge Wild Armor Trim Smithing Template",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_bee": {
    "kind": "item",
    "name": "Ritual: Summon Possessed Bee",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_blaze": {
    "kind": "item",
    "name": "Ritual: Summon Possessed Blaze",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_elder_guardian": {
    "kind": "item",
    "name": "Ritual: Summon Possessed Elder Guardian",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_enderman": {
    "kind": "item",
    "name": "Ritual: Summon Possessed Enderman",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_endermite": {
    "kind": "item",
    "name": "Ritual: Summon Possessed Endermite",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_ghast": {
    "kind": "item",
    "name": "Ritual: Summon Possessed Ghast",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_goat": {
    "kind": "item",
    "name": "Ritual: Summon Goat of Mercy",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_guardian": {
    "kind": "item",
    "name": "Ritual: Summon Possessed Guardian",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_hoglin": {
    "kind": "item",
    "name": "Ritual: Summon Possessed Hoglin",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_iesnium_golem": {
    "kind": "item",
    "name": "Ritual: Summon Iesnium Golem",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_phantom": {
    "kind": "item",
    "name": "Ritual: Summon Possessed Phantom",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_random_animal_common": {
    "kind": "item",
    "name": "Ritual: Summon Common Random Animal",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_random_animal_rideable": {
    "kind": "item",
    "name": "Ritual: Summon Rideable Random Animal",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_random_animal_small": {
    "kind": "item",
    "name": "Ritual: Summon Small Random Animal",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_random_animal_special": {
    "kind": "item",
    "name": "Ritual: Summon Special Random Animal",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_random_animal_water": {
    "kind": "item",
    "name": "Ritual: Summon Water Random Animal",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_shulker": {
    "kind": "item",
    "name": "Ritual: Summon Possessed Shulker",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_skeleton": {
    "kind": "item",
    "name": "Ritual: Summon Possessed Skeleton",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_unbound_otherworld_bird": {
    "kind": "item",
    "name": "Ritual: Possess Unbound Drikwing",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_unbound_parrot": {
    "kind": "item",
    "name": "Ritual: Possess Unbound Parrot",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_villager": {
    "kind": "item",
    "name": "Ritual: Summon Villager",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_warden": {
    "kind": "item",
    "name": "Ritual: Summon Possessed Warden",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_weak_shulker": {
    "kind": "item",
    "name": "Ritual: Summon Possessed Weak Shulker",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_witch": {
    "kind": "item",
    "name": "Ritual: Summon Possessed Witch",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.possess_zombie_piglin": {
    "kind": "item",
    "name": "Ritual: Summon Possessed Zombified Piglin",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.repair_armors": {
    "kind": "item",
    "name": "Ritual: Repair Armor",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.repair_chalks": {
    "kind": "item",
    "name": "Ritual: Repair Chalk",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.repair_miners": {
    "kind": "item",
    "name": "Ritual: Repair Miner",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.repair_tools": {
    "kind": "item",
    "name": "Ritual: Repair Tool",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.resurrect_allay": {
    "kind": "item",
    "name": "Ritual: Purify Vex to Allay",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.resurrect_familiar": {
    "kind": "item",
    "name": "Ritual: Resurrect Familiar",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.resurrect_mob": {
    "kind": "item",
    "name": "Ritual: Resurrect Mob",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_afrit_crusher": {
    "kind": "item",
    "name": "Ritual: Summon Afrit Crusher",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_afrit_crystallizer": {
    "kind": "item",
    "name": "Ritual: Summon Afrit Crystallizer",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_afrit_rain_weather": {
    "kind": "item",
    "name": "Ritual: Summoning of Rain",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_afrit_smelter": {
    "kind": "item",
    "name": "Ritual: Summon Afrit Smelter",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_afrit_thunder_weather": {
    "kind": "item",
    "name": "Ritual: Summoning of Thunderstorm",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_demonic_husband": {
    "kind": "item",
    "name": "Ritual: Summon Demonic Husband",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_demonic_wife": {
    "kind": "item",
    "name": "Ritual: Summon Demonic Wife",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_djinni_clear_weather": {
    "kind": "item",
    "name": "Ritual: Summoning of Clear Sky",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_djinni_crusher": {
    "kind": "item",
    "name": "Ritual: Summon Djinni Crusher",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_djinni_crystallizer": {
    "kind": "item",
    "name": "Ritual: Summon Djinni Crystallizer",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_djinni_day_time": {
    "kind": "item",
    "name": "Ritual: Summoning of Dawn",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_djinni_gambler": {
    "kind": "item",
    "name": "Ritual: Summon Djinni Gambler",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_djinni_manage_machine": {
    "kind": "item",
    "name": "Ritual: Summon Djinni Machine Operator",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_djinni_night_time": {
    "kind": "item",
    "name": "Ritual: Summoning of Dusk",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_djinni_smelter": {
    "kind": "item",
    "name": "Ritual: Summon Djinni Smelter",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_foliot_cleaner": {
    "kind": "item",
    "name": "Ritual: Summon Foliot Janitor",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_foliot_crusher": {
    "kind": "item",
    "name": "Ritual: Summon Foliot Crusher",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_foliot_crystallizer": {
    "kind": "item",
    "name": "Ritual: Summon Foliot Crystallizer",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_foliot_farmer": {
    "kind": "item",
    "name": "Ritual: Summon Foliot Farmer",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_foliot_lumberjack": {
    "kind": "item",
    "name": "Ritual: Summon Foliot Lumberjack",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_foliot_otherrock_trader": {
    "kind": "item",
    "name": "Ritual: Summon Otherrock Trader",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_foliot_otherstone_trader": {
    "kind": "item",
    "name": "Ritual: Summon Otherstone Trader",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_foliot_sapling_trader": {
    "kind": "item",
    "name": "Ritual: Summon Otherworld Sapling Trader",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_foliot_smelter": {
    "kind": "item",
    "name": "Ritual: Summon Foliot Smelter",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_foliot_transport_items": {
    "kind": "item",
    "name": "Ritual: Summon Foliot Transporter",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_marid_crusher": {
    "kind": "item",
    "name": "Ritual: Summon Marid Crusher",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_marid_crystallizer": {
    "kind": "item",
    "name": "Ritual: Summon Marid Crystallizer",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_marid_smelter": {
    "kind": "item",
    "name": "Ritual: Summon Marid Smelter",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_unbound_afrit": {
    "kind": "item",
    "name": "Ritual: Summon Unbound Afrit",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_unbound_marid": {
    "kind": "item",
    "name": "Ritual: Summon Unbound Marid",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.summon_wondering_trader": {
    "kind": "item",
    "name": "Ritual: Summon Wondering Trader",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.wild_breeze": {
    "kind": "item",
    "name": "Ritual: Invoke Wild Breeze",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.wild_creeper": {
    "kind": "item",
    "name": "Ritual: Invoke a Horde of Creeper",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.wild_drowned": {
    "kind": "item",
    "name": "Ritual: Invoke a Horde of Drowned",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.wild_horde_illager": {
    "kind": "item",
    "name": "Ritual: Invoke Wild Illagers",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.wild_hunt": {
    "kind": "item",
    "name": "Ritual: Invoke The Wild Hunt",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.wild_husk": {
    "kind": "item",
    "name": "Ritual: Invoke a Horde of Husk",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.wild_random_animal_common": {
    "kind": "item",
    "name": "Ritual: Invoke Common Random Animal Group",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.wild_random_animal_rideable": {
    "kind": "item",
    "name": "Ritual: Invoke Rideable Random Animal Group",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.wild_random_animal_small": {
    "kind": "item",
    "name": "Ritual: Invoke Small Random Animal Group",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.wild_random_animal_special": {
    "kind": "item",
    "name": "Ritual: Invoke Special Random Animal Group",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.wild_random_animal_water": {
    "kind": "item",
    "name": "Ritual: Invoke Water Random Animal Group",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.wild_silverfish": {
    "kind": "item",
    "name": "Ritual: Invoke a Horde of Silverfish",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.wild_strong_breeze": {
    "kind": "item",
    "name": "Ritual: Invoke Wild Strong Breeze",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.wild_villager": {
    "kind": "item",
    "name": "Ritual: Invoke Villager Group",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_dummy.wild_weak_breeze": {
    "kind": "item",
    "name": "Ritual: Invoke Wild Weak Breeze",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_satchel.block_above_not_air": {
    "kind": "item",
    "name": "The block above the clicked position is not empty.",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_satchel.block_at_position_not_air": {
    "kind": "item",
    "name": "The block at the clicked position is not empty.",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_satchel.glyph_cannot_survive": {
    "kind": "item",
    "name": "Cannot place a glyph here.",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_satchel.invalid_matcher": {
    "kind": "item",
    "name": "Cannot place a block for an ANY or DISPLAY_ONLY multiblock matcher",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_satchel.no_preview_block_targeted": {
    "kind": "item",
    "name": "You need to aim the ritual satchel at a preview block.",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_satchel.no_preview_in_world": {
    "kind": "item",
    "name": " You need to preview a pentacle using the Dictionary of Spirits.",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_satchel.no_valid_item_in_satchel": {
    "kind": "item",
    "name": "There is no valid item in the satchel for this previewed block.",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_satchel.will_break_item": {
    "kind": "item",
    "name": "Some item is breaking, repair it!",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_satchel_t1": {
    "kind": "item",
    "name": "Apprentice Ritual Satchel",
    "tags": [
+    "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:ritual_satchel_t2": {
    "kind": "item",
    "name": "Artisanal Ritual Satchel",
    "tags": [
+    "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:satchel": {
    "kind": "item",
    "name": "Surprisingly Substantial Satchel",
    "tags": [
+    "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:silver_dust": {
@@ -4357,7 +6184,11 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:silver_ingot": {
@@ -4366,7 +6197,11 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:silver_nugget": {
@@ -4375,17 +6210,24 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:soul_gem": {
    "kind": "item",
    "name": "Soul Gem",
    "tags": [
-    "kind:material",
-    "needs:nether",
+    "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:soul_gem_empty": {
@@ -4395,7 +6237,11 @@
     "kind:material",
     "needs:nether",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:soul_shard": {
@@ -4405,7 +6251,11 @@
     "kind:material",
     "needs:nether",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:soul_shattered": {
@@ -4415,378 +6265,488 @@
     "kind:material",
     "needs:nether",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.afrit": {
    "kind": "item",
    "name": "Afrit Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.afrit_unbound": {
    "kind": "item",
    "name": "Unbound Afrit Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.demonic_husband": {
    "kind": "item",
    "name": "Demonic Husband Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.demonic_wife": {
    "kind": "item",
    "name": "Demonic Wife Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.djinni": {
    "kind": "item",
    "name": "Djinni Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.familiar_bat": {
    "kind": "item",
    "name": "Bat Familiar Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.familiar_beaver": {
    "kind": "item",
    "name": "Beaver Familiar Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.familiar_beholder": {
    "kind": "item",
    "name": "Beholder Familiar Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.familiar_blacksmith": {
    "kind": "item",
    "name": "Blacksmith Familiar Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.familiar_chimera": {
    "kind": "item",
    "name": "Chimera Familiar Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.familiar_cthulhu": {
    "kind": "item",
    "name": "Cthulhu Familiar Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.familiar_deer": {
    "kind": "item",
    "name": "Deer Familiar Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.familiar_devil": {
    "kind": "item",
    "name": "Devil Familiar Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.familiar_dragon": {
    "kind": "item",
    "name": "Dragon Familiar Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.familiar_fairy": {
    "kind": "item",
    "name": "Fairy Familiar Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.familiar_goat": {
    "kind": "item",
    "name": "Goat Familiar Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.familiar_greedy": {
    "kind": "item",
    "name": "Greedy Familiar Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.familiar_guardian": {
    "kind": "item",
    "name": "Guardian Familiar Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.familiar_headless": {
    "kind": "item",
    "name": "Headless Ratman Familiar Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.familiar_mummy": {
    "kind": "item",
    "name": "Mummy Familiar Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.familiar_shub_niggurath": {
    "kind": "item",
    "name": "Shub Niggurath Familiar Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.foliot": {
    "kind": "item",
    "name": "Foliot Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.iesnium_golem": {
    "kind": "item",
    "name": "Iesnium Golem Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.marid": {
    "kind": "item",
    "name": "Marid Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.marid_unbound": {
    "kind": "item",
    "name": "Unbound Marid Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.otherworld_bird": {
    "kind": "item",
    "name": "Drikwing Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.possessed_bee": {
    "kind": "item",
    "name": "Possessed Bee Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.possessed_blaze": {
    "kind": "item",
    "name": "Possessed Blaze Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.possessed_elder_guardian": {
    "kind": "item",
    "name": "Possessed Elder Guardian Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.possessed_enderman": {
    "kind": "item",
    "name": "Possessed Enderman Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.possessed_endermite": {
    "kind": "item",
    "name": "Possessed Endermite Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.possessed_ghast": {
    "kind": "item",
    "name": "Possessed Ghast Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.possessed_goat": {
    "kind": "item",
    "name": "Goat of Mercy Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.possessed_guardian": {
    "kind": "item",
    "name": "Possessed Guardian Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.possessed_hoglin": {
    "kind": "item",
    "name": "Possessed Hoglin Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.possessed_phantom": {
    "kind": "item",
    "name": "Possessed Phantom Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.possessed_shulker": {
    "kind": "item",
    "name": "Possessed Shulker Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.possessed_skeleton": {
    "kind": "item",
    "name": "Possessed Skeleton Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.possessed_warden": {
    "kind": "item",
    "name": "Possessed Warden Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.possessed_weak_shulker": {
    "kind": "item",
    "name": "Possessed Weak Shulker Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.possessed_witch": {
    "kind": "item",
    "name": "Possessed Witch Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.possessed_zombie_piglin": {
    "kind": "item",
    "name": "Possessed Zombified Piglin Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.wild_breeze": {
    "kind": "item",
    "name": "Wild Breeze Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.wild_evoker": {
    "kind": "item",
    "name": "Wild Evoker Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.wild_horde_creeper": {
    "kind": "item",
    "name": "Wild Horde Creeper Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.wild_horde_drowned": {
    "kind": "item",
    "name": "Wild Horde Drowned Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.wild_horde_husk": {
    "kind": "item",
    "name": "Wild Horde Husk Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.wild_horde_silverfish": {
    "kind": "item",
    "name": "Wild Horde Silverfish Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.wild_hunt_skeleton": {
    "kind": "item",
    "name": "Wild Hunt Skeleton Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.wild_hunt_wither_skeleton": {
    "kind": "item",
    "name": "Wild Hunt Wither Skeleton Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.wild_strong_breeze": {
    "kind": "item",
    "name": "Wild Strong Breeze Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.wild_weak_breeze": {
    "kind": "item",
    "name": "Wild Weak Breeze Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spawn_egg.wondering_trader": {
    "kind": "item",
    "name": "Wondering Trader Spawn Egg",
    "tags": [
-    "review:auto"
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spirit_attuned_gem": {
@@ -4795,27 +6755,37 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:spirit_attuned_pickaxe_head": {
    "kind": "item",
    "name": "Spirit Attuned Pickaxe Head",
    "tags": [
-    "kind:tool",
-    "function:mine",
+    "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:storage_remote": {
    "kind": "item",
    "name": "Storage Accessor",
    "tags": [
-    "function:store",
     "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:storage_remote_inert": {
@@ -4825,7 +6795,11 @@
     "function:store",
     "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:sweet_honey_heart": {
@@ -4834,7 +6808,11 @@
    "tags": [
     "kind:food",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:tallow": {
@@ -4842,7 +6820,11 @@
    "name": "Tallow",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:trinity_gem": {
@@ -4851,7 +6833,11 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:trinity_gem_empty": {
@@ -4860,17 +6846,24 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:true_sight_staff": {
    "kind": "item",
    "name": "True Sight Staff",
    "tags": [
-    "kind:tool",
-    "function:enchant",
+    "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:vitality_compass": {
@@ -4879,7 +6872,11 @@
    "tags": [
     "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   },
   "occultism:witherite_dust": {
@@ -4888,11 +6885,1030 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.ores.iesnium": {
+   "kind": "item",
+   "name": "Iesnium Ore",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.ores.silver": {
+   "kind": "item",
+   "name": "Silver Ore",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.iesnium": {
+   "kind": "item",
+   "name": "Iesnium Storage Blocks",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.raw_iesnium": {
+   "kind": "item",
+   "name": "Raw Iesnium Storage Blocks",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.raw_silver": {
+   "kind": "item",
+   "name": "Raw Silver Storage Blocks",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.storage_blocks.silver": {
+   "kind": "item",
+   "name": "Silver Storage Blocks",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:minecraft.candles": {
+   "kind": "block",
+   "name": "Candles",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.cave_wall_blocks": {
+   "kind": "block",
+   "name": "Cave Wall Blocks",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.netherrack": {
+   "kind": "block",
+   "name": "Netherrack",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.otherworld_collects": {
+   "kind": "block",
+   "name": "Otherworld can collect",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.saplings.otherworld": {
+   "kind": "item",
+   "name": "Otherworld Saplings",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.saplings.otherworld_natural": {
+   "kind": "item",
+   "name": "Otherworld Saplings Natural",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.storage_stabilizer": {
+   "kind": "block",
+   "name": "Storage Stabilizer Blocks",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.tree_soil": {
+   "kind": "block",
+   "name": "Tree Soil Blocks",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.worldgen_blacklist": {
+   "kind": "block",
+   "name": "Worldgen Blacklisted Blocks",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.clay": {
+   "kind": "item",
+   "name": "Clay",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.crops.datura": {
+   "kind": "item",
+   "name": "Demon's Dream",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.amethyst": {
+   "kind": "item",
+   "name": "Amethyst Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.blackstone": {
+   "kind": "item",
+   "name": "Blackstone Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.blaze": {
+   "kind": "item",
+   "name": "Blaze Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.blue_ice": {
+   "kind": "item",
+   "name": "Blue Ice Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.calcite": {
+   "kind": "item",
+   "name": "Calcite Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.copper": {
+   "kind": "item",
+   "name": "Copper Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.dragonyst": {
+   "kind": "item",
+   "name": "Dragonyst Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.echo": {
+   "kind": "item",
+   "name": "Echo Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.emerald": {
+   "kind": "item",
+   "name": "Emerald Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.end_stone": {
+   "kind": "item",
+   "name": "Crushed End Stone",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.gold": {
+   "kind": "item",
+   "name": "Gold Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.ice": {
+   "kind": "item",
+   "name": "Ice Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.iesnium": {
+   "kind": "item",
+   "name": "Iesnium Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.iron": {
+   "kind": "item",
+   "name": "Iron Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.lapis": {
+   "kind": "item",
+   "name": "Lapis Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.netherite": {
+   "kind": "item",
+   "name": "Netherite Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.netherite_scrap": {
+   "kind": "item",
+   "name": "Netherite Scrap Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.obsidian": {
+   "kind": "item",
+   "name": "Crushed Obsidian",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.otherrock": {
+   "kind": "item",
+   "name": "Otherrock Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.otherstone": {
+   "kind": "item",
+   "name": "Otherstone Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.otherworld_wood": {
+   "kind": "item",
+   "name": "Otherworld Wood Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.packed_ice": {
+   "kind": "item",
+   "name": "Packed Ice Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.research": {
+   "kind": "item",
+   "name": "Research Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.silver": {
+   "kind": "item",
+   "name": "Silver Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.dusts.witherite": {
+   "kind": "item",
+   "name": "Witherite Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.enchanting_tables": {
+   "kind": "item",
+   "name": "Enchanting Tables",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.fruits": {
+   "kind": "item",
+   "name": "Fruits",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.ingots.iesnium": {
+   "kind": "item",
+   "name": "Iesnium Ingot",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.ingots.silver": {
+   "kind": "item",
+   "name": "Silver Ingot",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.iron_bars": {
+   "kind": "item",
+   "name": "Iron bars",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.lightning_rods": {
+   "kind": "item",
+   "name": "Lightning Rods",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.magma": {
+   "kind": "item",
+   "name": "Magma",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.mushroom_blocks": {
+   "kind": "item",
+   "name": "Mushroom Blocks",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.nuggets.iesnium": {
+   "kind": "item",
+   "name": "Iesnium Nugget",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.nuggets.silver": {
+   "kind": "item",
+   "name": "Silver Nugget",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.raw_materials.iesnium": {
+   "kind": "item",
+   "name": "Raw Iesnium",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.raw_materials.silver": {
+   "kind": "item",
+   "name": "Raw Silver",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.seeds.datura": {
+   "kind": "item",
+   "name": "Demon's Dream Seeds",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.tallow": {
+   "kind": "item",
+   "name": "Tallow",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.tools.knife": {
+   "kind": "item",
+   "name": "Knives",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.tools.metal.axes": {
+   "kind": "item",
+   "name": "Metal Axes",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:c.tube_corals": {
+   "kind": "item",
+   "name": "Tube Coral",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:curios.belt": {
+   "kind": "item",
+   "name": "Belts",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:curios.hands": {
+   "kind": "item",
+   "name": "Hands",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:curios.head": {
+   "kind": "item",
+   "name": "Head",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:curios.ring": {
+   "kind": "item",
+   "name": "Ring",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.armored_items": {
+   "kind": "item",
+   "name": "Scute or Shell",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.candles": {
+   "kind": "item",
+   "name": "Occultism Candles",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.demonic_partner_food": {
+   "kind": "item",
+   "name": "Demonic Partner Food",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.drop_from.possessed_blaze": {
+   "kind": "item",
+   "name": "Drop from Possessed Blaze",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.drop_from.possessed_breeze": {
+   "kind": "item",
+   "name": "Drop from Possessed Breeze",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.drop_from.possessed_elder_guardian": {
+   "kind": "item",
+   "name": "Drop from Possessed Elder Guardian",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.drop_from.possessed_enderman": {
+   "kind": "item",
+   "name": "Drop from Possessed Enderman",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.drop_from.possessed_endermite": {
+   "kind": "item",
+   "name": "Drop from Possessed Endermite",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.drop_from.possessed_evoker": {
+   "kind": "item",
+   "name": "Drop from Possessed Evoker",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.drop_from.possessed_ghast": {
+   "kind": "item",
+   "name": "Drop from Possessed Ghast",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.drop_from.possessed_guardian": {
+   "kind": "item",
+   "name": "Drop from Possessed Guardian",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.drop_from.possessed_hoglin": {
+   "kind": "item",
+   "name": "Drop from Possessed Hoglin",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.drop_from.possessed_phantom": {
+   "kind": "item",
+   "name": "Drop from Possessed Phantom",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.drop_from.possessed_shulker": {
+   "kind": "item",
+   "name": "Drop from Possessed Shulker",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.drop_from.possessed_skeleton": {
+   "kind": "item",
+   "name": "Drop from Possessed Skeleton",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.drop_from.possessed_strong_breeze": {
+   "kind": "item",
+   "name": "Drop from Possessed Strong Breeze",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.drop_from.possessed_warden": {
+   "kind": "item",
+   "name": "Drop from Possessed Warden",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.drop_from.possessed_weak_breeze": {
+   "kind": "item",
+   "name": "Drop from Possessed Weak Breeze",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.drop_from.possessed_weak_shulker": {
+   "kind": "item",
+   "name": "Drop from Possessed Weak Shulker",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.drop_from.possessed_witch": {
+   "kind": "item",
+   "name": "Drop from Possessed Witch",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.drop_from.possessed_zombie_piglin": {
+   "kind": "item",
+   "name": "Drop from Possessed Zombified Piglin",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.drop_from.wild_horde_creeper": {
+   "kind": "item",
+   "name": "Drop from Wild Horde Creeper",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.drop_from.wild_horde_drowned": {
+   "kind": "item",
+   "name": "Drop from Wild Horde Drowned",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.drop_from.wild_horde_husk": {
+   "kind": "item",
+   "name": "Drop from Wild Horde Husk",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.drop_from.wild_horde_silverfish": {
+   "kind": "item",
+   "name": "Drop from Wild Horde Silverfish",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.drop_from.wild_hunt_wither_skeleton": {
+   "kind": "item",
+   "name": "Drop from Wild Hunt",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.dusts.chalk_base": {
+   "kind": "item",
+   "name": "Chalk Base Dust",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.elytra": {
+   "kind": "item",
+   "name": "Elytras",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.miners": {
+   "kind": "item",
+   "name": "Dimensional Miners",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.miners.basic_resources": {
+   "kind": "item",
+   "name": "Basic Resource Miners",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.miners.deeps": {
+   "kind": "item",
+   "name": "Deepslate Miners",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.miners.eldritch": {
+   "kind": "item",
+   "name": "Eldritch Miners",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.miners.master": {
+   "kind": "item",
+   "name": "Rare Resource Miners",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.miners.ores": {
+   "kind": "item",
+   "name": "General Miners",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.othercobblestone": {
+   "kind": "item",
+   "name": "Other Cobblestone",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.otherstone": {
+   "kind": "item",
+   "name": "Otherstone",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.otherworld_goggles": {
+   "kind": "item",
+   "name": "Otherworld Goggles",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.otherworld_logs": {
+   "kind": "item",
+   "name": "Otherworld Logs",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.pentacle_materials": {
+   "kind": "item",
+   "name": "Pentacle Materials",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.random_spawn_from.common": {
+   "kind": "item",
+   "name": "Can spawn as Common Random Animal",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.random_spawn_from.rideable": {
+   "kind": "item",
+   "name": "Can spawn as Rideable Random Animal",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.random_spawn_from.small": {
+   "kind": "item",
+   "name": "Can spawn as Small Random Animal",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.random_spawn_from.special": {
+   "kind": "item",
+   "name": "Can spawn as Special Random Animal",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.random_spawn_from.villagers": {
+   "kind": "item",
+   "name": "Can spawn as Random Villager",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.random_spawn_from.water": {
+   "kind": "item",
+   "name": "Can spawn as Water Random Animal",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.start_spiritfire": {
+   "kind": "item",
+   "name": "Can Start Spirit Fire",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.tools.chalk": {
+   "kind": "item",
+   "name": "Chalks",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.tools.knife": {
+   "kind": "item",
+   "name": "Knives",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
+   ]
+  },
+  "tag:occultism.tools.knife.iesnium": {
+   "kind": "item",
+   "name": "Iesnium Knives",
+   "tags": [
+    "feel:magic",
+    "feel:alchemy",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "release/v1.21.1-1.224.4"
+ "tagged_version": "release/v1.21.1-1.224.4",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "release/v1.21.1-1.224.4",
+  "pass": "loop-back",
+  "note": "Spirit-magic pillar: rituals with chalk and sacrificial bowls summon familiars and spirits (foliot, djinni, afrit, marid), which do work. Miner spirits run the dimensional mineshaft and return ores from the mining dimension (yields/occultism.json); Iesnium and silver ores come that way. Dimensional storage (storage controller and stabilizers) is bulk storage. Mobs and most rituals are spell-tech. Built-in support: supported by 9 mods (Apotheosis, Botany Pots/Trees, Create, Productive Bees, ProjectE Integration, Theurgy, Ars Ocultas and Occultism KubeJS). No FE power. Note: the miner recipe conditions depend on ore tags being non-empty."
+ }
 }

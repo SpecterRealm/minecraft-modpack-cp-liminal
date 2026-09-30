@@ -43,19 +43,39 @@
    "kind": "entity",
    "name": "Gateway to Eternity",
    "tags": [
-    "kind:mob",
-    "review:auto"
+    "needs:none",
+    "kind:block",
+    "function:defend",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "gateways:gate_pearl": {
    "kind": "item",
    "name": "Gate Pearl",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "kind:consumable",
+    "function:defend",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21"
+ "tagged_version": "1.21",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21",
+  "pass": "loop-back",
+  "note": "Gateways that spawn mob waves for loot. Elysian lean (with Apotheosis). Built-in support: Placebo (required), Apothic Attributes.",
+  "class": "content",
+  "purpose": "Gateway challenge waves with rewards"
+ }
 }

@@ -1,0 +1,35 @@
+{
+ "class": "content",
+ "purpose": "Automation for Mystical Agriculture: infuser, crafter, farmer, altarnators",
+ "note": "Machines that automate Mystical Agriculture (infuser, crafter, farmer, enchanternator, altar-nators). FE powered. Scale step for essence farming. Built-in support: Mystical Agriculture (required), Cucumber.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^(infuser|crafter|farmer|enchanternator|infusion_altarnator|awakening_altarnator|fertilizer)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "kind:machine",
+    "function:automate",
+    "function:farm",
+    "power-role:uses",
+    "power-type:fe"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

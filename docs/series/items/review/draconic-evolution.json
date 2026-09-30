@@ -1,0 +1,228 @@
+{
+ "class": "content",
+ "purpose": "Endgame power and gear: energy core multiblock, reactor, draconium tiers",
+ "note": "Endgame tech: draconium ore (world ore, all dimensions), tiered gear (wyvern, draconic, chaotic), the Draconic Energy Core multiblock (tiered storage, up to very large), energy pylons and crystals, a generator and a reactor. The energy core is the closest thing to an Ender IO capacitor bank we carry. Keep for now; cut if no story role (audit). Built-in support: Applied Energistics 2 (recipes), Brandon's Core and CodeChicken Lib (required), Ender Storage; supported by 5 mods (Mystical Agriculture, Productive Bees, ProjectE Integration, Not Enough Patterns).",
+ "rules": [
+  {
+   "match": "\\.|^info_tablet$|^item_chaotic_.*$|^item_.*$",
+   "ui": true
+  },
+  {
+   "match": "^(draconic_energy_core|wyvern_energy_core|chaotic_energy_core|energy_core|energy_core_stabilizer)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:multiblock",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "scale:size-scaled",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(energy_pylon|.*_io_crystal|.*_relay_crystal|.*_wireless_crystal|energy_transfuser|flux_gate|fluid_gate|draconic_io_crystal|draconic_relay_crystal|draconic_wireless_crystal)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "scale:tiered",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(generator|particle_generator)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(reactor_core|reactor_injector|reactor_stabilizer)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:multiblock",
+    "function:generate",
+    "power-role:makes",
+    "power-role:uses",
+    "power-type:fe",
+    "power-type:heat",
+    "fuel:nuclear",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(.*_crafting_injector|crafting_core|awakened_crafting_injector|celestial_manipulator|disenchanter|grinder|stabilized_spawner|dislocator_pedestal|dislocator_receptacle)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:craft",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(.*draconium_ore|.*_draconium_ore|deepslate_draconium_ore|nether_draconium_ore|end_draconium_ore|overworld_draconium_ore)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "needs:ore"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(.*_capacitor|creative_capacitor|creative_op_capacitor|chaotic_capacitor|draconic_capacitor|wyvern_capacitor)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "scale:tiered",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(draconic|wyvern|chaotic)_(sword|bow|staff)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:weapon",
+    "function:defend",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(draconic|wyvern|chaotic)_(axe|hoe|pickaxe|shovel)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:tool",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(draconic|wyvern|chaotic)_(chestpiece|helmet|leggings|boots)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:armor",
+    "function:defend",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(.*_dislocator|dislocator|.*_magnet)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "kind:gadget",
+    "function:travel",
+    "power-role:uses",
+    "power-type:fe"
+   ]
+  },
+  {
+   "match": "^(awakened_|chaos_|draconium_|dragon_heart|chaotic_core|awakened_core|crystal_binder|infused_obsidian)",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:none"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^generator$",
+   "set": [
+    "fuel:solid"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

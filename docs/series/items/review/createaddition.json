@@ -1,0 +1,122 @@
+{
+ "class": "content",
+ "purpose": "FE bridge for Create: alternator, electric motor, accumulator, connectors",
+ "note": "Create Crafts & Additions: alternator (stress to FE), electric motor, modular accumulator, connectors, tesla coil, and Create metal processing items. Curated catalog in data/createaddition.json. Built-in support: Create (required), Mekanism, AE2.",
+ "rules": [
+  {
+   "match": "\\.|^debug",
+   "ui": true
+  },
+  {
+   "match": "^alternator$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "fuel:kinetic",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(electric_motor|servo_motor)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "power-type:stress",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(modular_accumulator|accumulator)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:multiblock",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "scale:size-scaled",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(connector|large_connector|small_light_connector|redstone_relay|portable_energy_interface|capacitor)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(tesla_coil|electric_pump|digital_adapter|rolling_mill|liquid_blaze_burner)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "_(ingot|nugget|sheet|rod|wire|spool|plate)$|^(biomass|biomass_pellet|copper_wire|diamond_grit)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:none"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

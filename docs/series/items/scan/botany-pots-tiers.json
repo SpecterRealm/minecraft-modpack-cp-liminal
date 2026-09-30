@@ -5,7 +5,7 @@
  "mod_ids": [
   "botanypotstiers"
  ],
- "item_count": 552,
+ "item_count": 553,
  "compat": [
   {
    "id": "bookshelf",
@@ -32,16 +32,28 @@
   }
  ],
  "items": {
+  "tag:botanypotstiers.botany_pots_tiers": {
+   "kind": "block",
+   "name": "All Botany Pots Tiers",
+   "tags": [
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:nature",
+    "review:checked"
+   ]
+  },
   "botanypotstiers:elite_upgrade": {
    "kind": "item",
    "name": "Elite Upgrade",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:gadget",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -49,12 +61,13 @@
    "kind": "item",
    "name": "Ultra Upgrade",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:gadget",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -62,12 +75,13 @@
    "kind": "item",
    "name": "Mega Upgrade",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:gadget",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -75,12 +89,13 @@
    "kind": "block",
    "name": "Elite Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -88,13 +103,14 @@
    "kind": "block",
    "name": "Elite Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -102,12 +118,13 @@
    "kind": "block",
    "name": "Elite Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -115,12 +132,13 @@
    "kind": "block",
    "name": "Elite White Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -128,13 +146,14 @@
    "kind": "block",
    "name": "Elite White Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -142,12 +161,13 @@
    "kind": "block",
    "name": "Elite White Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -155,12 +175,13 @@
    "kind": "block",
    "name": "Elite White Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -168,13 +189,14 @@
    "kind": "block",
    "name": "Elite White Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -182,12 +204,13 @@
    "kind": "block",
    "name": "Elite White Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -195,12 +218,13 @@
    "kind": "block",
    "name": "Elite White Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -208,13 +232,14 @@
    "kind": "block",
    "name": "Elite White Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -222,12 +247,13 @@
    "kind": "block",
    "name": "Elite White Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -235,12 +261,13 @@
    "kind": "block",
    "name": "Elite Orange Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -248,13 +275,14 @@
    "kind": "block",
    "name": "Elite Orange Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -262,12 +290,13 @@
    "kind": "block",
    "name": "Elite Orange Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -275,12 +304,13 @@
    "kind": "block",
    "name": "Elite Orange Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -288,13 +318,14 @@
    "kind": "block",
    "name": "Elite Orange Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -302,12 +333,13 @@
    "kind": "block",
    "name": "Elite Orange Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -315,12 +347,13 @@
    "kind": "block",
    "name": "Elite Orange Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -328,13 +361,14 @@
    "kind": "block",
    "name": "Elite Orange Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -342,12 +376,13 @@
    "kind": "block",
    "name": "Elite Orange Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -355,12 +390,13 @@
    "kind": "block",
    "name": "Elite Magenta Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -368,13 +404,14 @@
    "kind": "block",
    "name": "Elite Magenta Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -382,12 +419,13 @@
    "kind": "block",
    "name": "Elite Magenta Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -395,12 +433,13 @@
    "kind": "block",
    "name": "Elite Magenta Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -408,13 +447,14 @@
    "kind": "block",
    "name": "Elite Magenta Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -422,12 +462,13 @@
    "kind": "block",
    "name": "Elite Magenta Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -435,12 +476,13 @@
    "kind": "block",
    "name": "Elite Magenta Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -448,13 +490,14 @@
    "kind": "block",
    "name": "Elite Magenta Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -462,12 +505,13 @@
    "kind": "block",
    "name": "Elite Magenta Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -475,12 +519,13 @@
    "kind": "block",
    "name": "Elite Light Blue Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -488,13 +533,14 @@
    "kind": "block",
    "name": "Elite Light Blue Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -502,12 +548,13 @@
    "kind": "block",
    "name": "Elite Light Blue Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -515,12 +562,13 @@
    "kind": "block",
    "name": "Elite Light Blue Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -528,13 +576,14 @@
    "kind": "block",
    "name": "Elite Light Blue Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -542,12 +591,13 @@
    "kind": "block",
    "name": "Elite Light Blue Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -555,12 +605,13 @@
    "kind": "block",
    "name": "Elite Light Blue Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -568,13 +619,14 @@
    "kind": "block",
    "name": "Elite Light Blue Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -582,12 +634,13 @@
    "kind": "block",
    "name": "Elite Light Blue Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -595,12 +648,13 @@
    "kind": "block",
    "name": "Elite Yellow Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -608,13 +662,14 @@
    "kind": "block",
    "name": "Elite Yellow Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -622,12 +677,13 @@
    "kind": "block",
    "name": "Elite Yellow Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -635,12 +691,13 @@
    "kind": "block",
    "name": "Elite Yellow Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -648,13 +705,14 @@
    "kind": "block",
    "name": "Elite Yellow Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -662,12 +720,13 @@
    "kind": "block",
    "name": "Elite Yellow Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -675,12 +734,13 @@
    "kind": "block",
    "name": "Elite Yellow Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -688,13 +748,14 @@
    "kind": "block",
    "name": "Elite Yellow Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -702,12 +763,13 @@
    "kind": "block",
    "name": "Elite Yellow Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -715,12 +777,13 @@
    "kind": "block",
    "name": "Elite Lime Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -728,13 +791,14 @@
    "kind": "block",
    "name": "Elite Lime Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -742,12 +806,13 @@
    "kind": "block",
    "name": "Elite Lime Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -755,12 +820,13 @@
    "kind": "block",
    "name": "Elite Lime Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -768,13 +834,14 @@
    "kind": "block",
    "name": "Elite Lime Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -782,12 +849,13 @@
    "kind": "block",
    "name": "Elite Lime Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -795,12 +863,13 @@
    "kind": "block",
    "name": "Elite Lime Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -808,13 +877,14 @@
    "kind": "block",
    "name": "Elite Lime Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -822,12 +892,13 @@
    "kind": "block",
    "name": "Elite Lime Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -835,12 +906,13 @@
    "kind": "block",
    "name": "Elite Pink Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -848,13 +920,14 @@
    "kind": "block",
    "name": "Elite Pink Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -862,12 +935,13 @@
    "kind": "block",
    "name": "Elite Pink Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -875,12 +949,13 @@
    "kind": "block",
    "name": "Elite Pink Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -888,13 +963,14 @@
    "kind": "block",
    "name": "Elite Pink Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -902,12 +978,13 @@
    "kind": "block",
    "name": "Elite Pink Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -915,12 +992,13 @@
    "kind": "block",
    "name": "Elite Pink Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -928,13 +1006,14 @@
    "kind": "block",
    "name": "Elite Pink Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -942,12 +1021,13 @@
    "kind": "block",
    "name": "Elite Pink Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -955,12 +1035,13 @@
    "kind": "block",
    "name": "Elite Gray Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -968,13 +1049,14 @@
    "kind": "block",
    "name": "Elite Gray Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -982,12 +1064,13 @@
    "kind": "block",
    "name": "Elite Gray Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -995,12 +1078,13 @@
    "kind": "block",
    "name": "Elite Gray Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1008,13 +1092,14 @@
    "kind": "block",
    "name": "Elite Gray Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1022,12 +1107,13 @@
    "kind": "block",
    "name": "Elite Gray Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1035,12 +1121,13 @@
    "kind": "block",
    "name": "Elite Gray Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1048,13 +1135,14 @@
    "kind": "block",
    "name": "Elite Gray Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1062,12 +1150,13 @@
    "kind": "block",
    "name": "Elite Gray Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1075,12 +1164,13 @@
    "kind": "block",
    "name": "Elite Light Gray Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1088,13 +1178,14 @@
    "kind": "block",
    "name": "Elite Light Gray Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1102,12 +1193,13 @@
    "kind": "block",
    "name": "Elite Light Gray Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1115,12 +1207,13 @@
    "kind": "block",
    "name": "Elite Light Gray Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1128,13 +1221,14 @@
    "kind": "block",
    "name": "Elite Light Gray Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1142,12 +1236,13 @@
    "kind": "block",
    "name": "Elite Light Gray Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1155,12 +1250,13 @@
    "kind": "block",
    "name": "Elite Light Gray Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1168,13 +1264,14 @@
    "kind": "block",
    "name": "Elite Light Gray Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1182,12 +1279,13 @@
    "kind": "block",
    "name": "Elite Light Gray Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1195,12 +1293,13 @@
    "kind": "block",
    "name": "Elite Cyan Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1208,13 +1307,14 @@
    "kind": "block",
    "name": "Elite Cyan Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1222,12 +1322,13 @@
    "kind": "block",
    "name": "Elite Cyan Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1235,12 +1336,13 @@
    "kind": "block",
    "name": "Elite Cyan Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1248,13 +1350,14 @@
    "kind": "block",
    "name": "Elite Cyan Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1262,12 +1365,13 @@
    "kind": "block",
    "name": "Elite Cyan Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1275,12 +1379,13 @@
    "kind": "block",
    "name": "Elite Cyan Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1288,13 +1393,14 @@
    "kind": "block",
    "name": "Elite Cyan Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1302,12 +1408,13 @@
    "kind": "block",
    "name": "Elite Cyan Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1315,12 +1422,13 @@
    "kind": "block",
    "name": "Elite Purple Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1328,13 +1436,14 @@
    "kind": "block",
    "name": "Elite Purple Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1342,12 +1451,13 @@
    "kind": "block",
    "name": "Elite Purple Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1355,12 +1465,13 @@
    "kind": "block",
    "name": "Elite Purple Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1368,13 +1479,14 @@
    "kind": "block",
    "name": "Elite Purple Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1382,12 +1494,13 @@
    "kind": "block",
    "name": "Elite Purple Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1395,12 +1508,13 @@
    "kind": "block",
    "name": "Elite Purple Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1408,13 +1522,14 @@
    "kind": "block",
    "name": "Elite Purple Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1422,12 +1537,13 @@
    "kind": "block",
    "name": "Elite Purple Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1435,12 +1551,13 @@
    "kind": "block",
    "name": "Elite Blue Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1448,13 +1565,14 @@
    "kind": "block",
    "name": "Elite Blue Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1462,12 +1580,13 @@
    "kind": "block",
    "name": "Elite Blue Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1475,12 +1594,13 @@
    "kind": "block",
    "name": "Elite Blue Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1488,13 +1608,14 @@
    "kind": "block",
    "name": "Elite Blue Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1502,12 +1623,13 @@
    "kind": "block",
    "name": "Elite Blue Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1515,12 +1637,13 @@
    "kind": "block",
    "name": "Elite Blue Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1528,13 +1651,14 @@
    "kind": "block",
    "name": "Elite Blue Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1542,12 +1666,13 @@
    "kind": "block",
    "name": "Elite Blue Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1555,12 +1680,13 @@
    "kind": "block",
    "name": "Elite Brown Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1568,13 +1694,14 @@
    "kind": "block",
    "name": "Elite Brown Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1582,12 +1709,13 @@
    "kind": "block",
    "name": "Elite Brown Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1595,12 +1723,13 @@
    "kind": "block",
    "name": "Elite Brown Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1608,13 +1737,14 @@
    "kind": "block",
    "name": "Elite Brown Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1622,12 +1752,13 @@
    "kind": "block",
    "name": "Elite Brown Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1635,12 +1766,13 @@
    "kind": "block",
    "name": "Elite Brown Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1648,13 +1780,14 @@
    "kind": "block",
    "name": "Elite Brown Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1662,12 +1795,13 @@
    "kind": "block",
    "name": "Elite Brown Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1675,12 +1809,13 @@
    "kind": "block",
    "name": "Elite Green Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1688,13 +1823,14 @@
    "kind": "block",
    "name": "Elite Green Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1702,12 +1838,13 @@
    "kind": "block",
    "name": "Elite Green Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1715,12 +1852,13 @@
    "kind": "block",
    "name": "Elite Green Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1728,13 +1866,14 @@
    "kind": "block",
    "name": "Elite Green Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1742,12 +1881,13 @@
    "kind": "block",
    "name": "Elite Green Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1755,12 +1895,13 @@
    "kind": "block",
    "name": "Elite Green Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1768,13 +1909,14 @@
    "kind": "block",
    "name": "Elite Green Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1782,12 +1924,13 @@
    "kind": "block",
    "name": "Elite Green Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1795,12 +1938,13 @@
    "kind": "block",
    "name": "Elite Red Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1808,13 +1952,14 @@
    "kind": "block",
    "name": "Elite Red Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1822,12 +1967,13 @@
    "kind": "block",
    "name": "Elite Red Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1835,12 +1981,13 @@
    "kind": "block",
    "name": "Elite Red Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1848,13 +1995,14 @@
    "kind": "block",
    "name": "Elite Red Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1862,12 +2010,13 @@
    "kind": "block",
    "name": "Elite Red Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1875,12 +2024,13 @@
    "kind": "block",
    "name": "Elite Red Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1888,13 +2038,14 @@
    "kind": "block",
    "name": "Elite Red Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1902,12 +2053,13 @@
    "kind": "block",
    "name": "Elite Red Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1915,12 +2067,13 @@
    "kind": "block",
    "name": "Elite Black Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1928,13 +2081,14 @@
    "kind": "block",
    "name": "Elite Black Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1942,12 +2096,13 @@
    "kind": "block",
    "name": "Elite Black Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1955,12 +2110,13 @@
    "kind": "block",
    "name": "Elite Black Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1968,13 +2124,14 @@
    "kind": "block",
    "name": "Elite Black Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1982,12 +2139,13 @@
    "kind": "block",
    "name": "Elite Black Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -1995,12 +2153,13 @@
    "kind": "block",
    "name": "Elite Black Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2008,13 +2167,14 @@
    "kind": "block",
    "name": "Elite Black Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2022,12 +2182,13 @@
    "kind": "block",
    "name": "Elite Black Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2035,12 +2196,13 @@
    "kind": "block",
    "name": "Elite Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2048,13 +2210,14 @@
    "kind": "block",
    "name": "Elite Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2062,12 +2225,13 @@
    "kind": "block",
    "name": "Elite Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2075,12 +2239,13 @@
    "kind": "block",
    "name": "Elite Stone Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2088,13 +2253,14 @@
    "kind": "block",
    "name": "Elite Stone Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2102,12 +2268,13 @@
    "kind": "block",
    "name": "Elite Stone Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2115,12 +2282,13 @@
    "kind": "block",
    "name": "Elite Mossy Stone Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2128,13 +2296,14 @@
    "kind": "block",
    "name": "Elite Mossy Stone Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2142,12 +2311,13 @@
    "kind": "block",
    "name": "Elite Mossy Stone Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2155,12 +2325,13 @@
    "kind": "block",
    "name": "Elite Deepslate Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2168,13 +2339,14 @@
    "kind": "block",
    "name": "Elite Deepslate Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2182,12 +2354,13 @@
    "kind": "block",
    "name": "Elite Deepslate Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2195,12 +2368,13 @@
    "kind": "block",
    "name": "Elite Tuff Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2208,13 +2382,14 @@
    "kind": "block",
    "name": "Elite Tuff Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2222,12 +2397,13 @@
    "kind": "block",
    "name": "Elite Tuff Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2235,12 +2411,13 @@
    "kind": "block",
    "name": "Elite Mud Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2248,13 +2425,14 @@
    "kind": "block",
    "name": "Elite Mud Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2262,12 +2440,13 @@
    "kind": "block",
    "name": "Elite Mud Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2275,12 +2454,13 @@
    "kind": "block",
    "name": "Elite Prismarine Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2288,13 +2468,14 @@
    "kind": "block",
    "name": "Elite Prismarine Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2302,12 +2483,13 @@
    "kind": "block",
    "name": "Elite Prismarine Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2316,11 +2498,12 @@
    "name": "Elite Nether Brick Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2329,12 +2512,13 @@
    "name": "Elite Nether Brick Hopper Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2343,11 +2527,12 @@
    "name": "Elite Nether Brick Waxed Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2356,11 +2541,12 @@
    "name": "Elite Red Nether Brick Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2369,12 +2555,13 @@
    "name": "Elite Red Nether Brick Hopper Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2383,11 +2570,12 @@
    "name": "Elite Red Nether Brick Waxed Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2396,11 +2584,12 @@
    "name": "Elite Polished Blackstone Brick Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2409,12 +2598,13 @@
    "name": "Elite Polished Blackstone Brick Hopper Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2423,11 +2613,12 @@
    "name": "Elite Polished Blackstone Brick Waxed Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2436,11 +2627,12 @@
    "name": "Elite End Stone Brick Botany Pot",
    "tags": [
     "needs:end",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2449,12 +2641,13 @@
    "name": "Elite End Stone Brick Hopper Botany Pot",
    "tags": [
     "needs:end",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2463,11 +2656,12 @@
    "name": "Elite End Stone Brick Waxed Botany Pot",
    "tags": [
     "needs:end",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2475,12 +2669,13 @@
    "kind": "block",
    "name": "Elite Quartz Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2488,13 +2683,14 @@
    "kind": "block",
    "name": "Elite Quartz Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2502,12 +2698,13 @@
    "kind": "block",
    "name": "Elite Quartz Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2515,12 +2712,13 @@
    "kind": "block",
    "name": "Ultra Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2528,13 +2726,14 @@
    "kind": "block",
    "name": "Ultra Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2542,12 +2741,13 @@
    "kind": "block",
    "name": "Ultra Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2555,12 +2755,13 @@
    "kind": "block",
    "name": "Ultra White Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2568,13 +2769,14 @@
    "kind": "block",
    "name": "Ultra White Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2582,12 +2784,13 @@
    "kind": "block",
    "name": "Ultra White Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2595,12 +2798,13 @@
    "kind": "block",
    "name": "Ultra White Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2608,13 +2812,14 @@
    "kind": "block",
    "name": "Ultra White Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2622,12 +2827,13 @@
    "kind": "block",
    "name": "Ultra White Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2635,12 +2841,13 @@
    "kind": "block",
    "name": "Ultra White Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2648,13 +2855,14 @@
    "kind": "block",
    "name": "Ultra White Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2662,12 +2870,13 @@
    "kind": "block",
    "name": "Ultra White Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2675,12 +2884,13 @@
    "kind": "block",
    "name": "Ultra Orange Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2688,13 +2898,14 @@
    "kind": "block",
    "name": "Ultra Orange Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2702,12 +2913,13 @@
    "kind": "block",
    "name": "Ultra Orange Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2715,12 +2927,13 @@
    "kind": "block",
    "name": "Ultra Orange Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2728,13 +2941,14 @@
    "kind": "block",
    "name": "Ultra Orange Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2742,12 +2956,13 @@
    "kind": "block",
    "name": "Ultra Orange Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2755,12 +2970,13 @@
    "kind": "block",
    "name": "Ultra Orange Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2768,13 +2984,14 @@
    "kind": "block",
    "name": "Ultra Orange Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2782,12 +2999,13 @@
    "kind": "block",
    "name": "Ultra Orange Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2795,12 +3013,13 @@
    "kind": "block",
    "name": "Ultra Magenta Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2808,13 +3027,14 @@
    "kind": "block",
    "name": "Ultra Magenta Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2822,12 +3042,13 @@
    "kind": "block",
    "name": "Ultra Magenta Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2835,12 +3056,13 @@
    "kind": "block",
    "name": "Ultra Magenta Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2848,13 +3070,14 @@
    "kind": "block",
    "name": "Ultra Magenta Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2862,12 +3085,13 @@
    "kind": "block",
    "name": "Ultra Magenta Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2875,12 +3099,13 @@
    "kind": "block",
    "name": "Ultra Magenta Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2888,13 +3113,14 @@
    "kind": "block",
    "name": "Ultra Magenta Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2902,12 +3128,13 @@
    "kind": "block",
    "name": "Ultra Magenta Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2915,12 +3142,13 @@
    "kind": "block",
    "name": "Ultra Light Blue Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2928,13 +3156,14 @@
    "kind": "block",
    "name": "Ultra Light Blue Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2942,12 +3171,13 @@
    "kind": "block",
    "name": "Ultra Light Blue Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2955,12 +3185,13 @@
    "kind": "block",
    "name": "Ultra Light Blue Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2968,13 +3199,14 @@
    "kind": "block",
    "name": "Ultra Light Blue Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2982,12 +3214,13 @@
    "kind": "block",
    "name": "Ultra Light Blue Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -2995,12 +3228,13 @@
    "kind": "block",
    "name": "Ultra Light Blue Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3008,13 +3242,14 @@
    "kind": "block",
    "name": "Ultra Light Blue Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3022,12 +3257,13 @@
    "kind": "block",
    "name": "Ultra Light Blue Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3035,12 +3271,13 @@
    "kind": "block",
    "name": "Ultra Yellow Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3048,13 +3285,14 @@
    "kind": "block",
    "name": "Ultra Yellow Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3062,12 +3300,13 @@
    "kind": "block",
    "name": "Ultra Yellow Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3075,12 +3314,13 @@
    "kind": "block",
    "name": "Ultra Yellow Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3088,13 +3328,14 @@
    "kind": "block",
    "name": "Ultra Yellow Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3102,12 +3343,13 @@
    "kind": "block",
    "name": "Ultra Yellow Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3115,12 +3357,13 @@
    "kind": "block",
    "name": "Ultra Yellow Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3128,13 +3371,14 @@
    "kind": "block",
    "name": "Ultra Yellow Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3142,12 +3386,13 @@
    "kind": "block",
    "name": "Ultra Yellow Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3155,12 +3400,13 @@
    "kind": "block",
    "name": "Ultra Lime Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3168,13 +3414,14 @@
    "kind": "block",
    "name": "Ultra Lime Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3182,12 +3429,13 @@
    "kind": "block",
    "name": "Ultra Lime Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3195,12 +3443,13 @@
    "kind": "block",
    "name": "Ultra Lime Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3208,13 +3457,14 @@
    "kind": "block",
    "name": "Ultra Lime Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3222,12 +3472,13 @@
    "kind": "block",
    "name": "Ultra Lime Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3235,12 +3486,13 @@
    "kind": "block",
    "name": "Ultra Lime Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3248,13 +3500,14 @@
    "kind": "block",
    "name": "Ultra Lime Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3262,12 +3515,13 @@
    "kind": "block",
    "name": "Ultra Lime Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3275,12 +3529,13 @@
    "kind": "block",
    "name": "Ultra Pink Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3288,13 +3543,14 @@
    "kind": "block",
    "name": "Ultra Pink Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3302,12 +3558,13 @@
    "kind": "block",
    "name": "Ultra Pink Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3315,12 +3572,13 @@
    "kind": "block",
    "name": "Ultra Pink Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3328,13 +3586,14 @@
    "kind": "block",
    "name": "Ultra Pink Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3342,12 +3601,13 @@
    "kind": "block",
    "name": "Ultra Pink Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3355,12 +3615,13 @@
    "kind": "block",
    "name": "Ultra Pink Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3368,13 +3629,14 @@
    "kind": "block",
    "name": "Ultra Pink Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3382,12 +3644,13 @@
    "kind": "block",
    "name": "Ultra Pink Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3395,12 +3658,13 @@
    "kind": "block",
    "name": "Ultra Gray Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3408,13 +3672,14 @@
    "kind": "block",
    "name": "Ultra Gray Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3422,12 +3687,13 @@
    "kind": "block",
    "name": "Ultra Gray Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3435,12 +3701,13 @@
    "kind": "block",
    "name": "Ultra Gray Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3448,13 +3715,14 @@
    "kind": "block",
    "name": "Ultra Gray Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3462,12 +3730,13 @@
    "kind": "block",
    "name": "Ultra Gray Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3475,12 +3744,13 @@
    "kind": "block",
    "name": "Ultra Gray Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3488,13 +3758,14 @@
    "kind": "block",
    "name": "Ultra Gray Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3502,12 +3773,13 @@
    "kind": "block",
    "name": "Ultra Gray Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3515,12 +3787,13 @@
    "kind": "block",
    "name": "Ultra Light Gray Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3528,13 +3801,14 @@
    "kind": "block",
    "name": "Ultra Light Gray Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3542,12 +3816,13 @@
    "kind": "block",
    "name": "Ultra Light Gray Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3555,12 +3830,13 @@
    "kind": "block",
    "name": "Ultra Light Gray Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3568,13 +3844,14 @@
    "kind": "block",
    "name": "Ultra Light Gray Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3582,12 +3859,13 @@
    "kind": "block",
    "name": "Ultra Light Gray Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3595,12 +3873,13 @@
    "kind": "block",
    "name": "Ultra Light Gray Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3608,13 +3887,14 @@
    "kind": "block",
    "name": "Ultra Light Gray Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3622,12 +3902,13 @@
    "kind": "block",
    "name": "Ultra Light Gray Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3635,12 +3916,13 @@
    "kind": "block",
    "name": "Ultra Cyan Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3648,13 +3930,14 @@
    "kind": "block",
    "name": "Ultra Cyan Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3662,12 +3945,13 @@
    "kind": "block",
    "name": "Ultra Cyan Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3675,12 +3959,13 @@
    "kind": "block",
    "name": "Ultra Cyan Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3688,13 +3973,14 @@
    "kind": "block",
    "name": "Ultra Cyan Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3702,12 +3988,13 @@
    "kind": "block",
    "name": "Ultra Cyan Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3715,12 +4002,13 @@
    "kind": "block",
    "name": "Ultra Cyan Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3728,13 +4016,14 @@
    "kind": "block",
    "name": "Ultra Cyan Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3742,12 +4031,13 @@
    "kind": "block",
    "name": "Ultra Cyan Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3755,12 +4045,13 @@
    "kind": "block",
    "name": "Ultra Purple Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3768,13 +4059,14 @@
    "kind": "block",
    "name": "Ultra Purple Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3782,12 +4074,13 @@
    "kind": "block",
    "name": "Ultra Purple Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3795,12 +4088,13 @@
    "kind": "block",
    "name": "Ultra Purple Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3808,13 +4102,14 @@
    "kind": "block",
    "name": "Ultra Purple Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3822,12 +4117,13 @@
    "kind": "block",
    "name": "Ultra Purple Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3835,12 +4131,13 @@
    "kind": "block",
    "name": "Ultra Purple Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3848,13 +4145,14 @@
    "kind": "block",
    "name": "Ultra Purple Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3862,12 +4160,13 @@
    "kind": "block",
    "name": "Ultra Purple Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3875,12 +4174,13 @@
    "kind": "block",
    "name": "Ultra Blue Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3888,13 +4188,14 @@
    "kind": "block",
    "name": "Ultra Blue Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3902,12 +4203,13 @@
    "kind": "block",
    "name": "Ultra Blue Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3915,12 +4217,13 @@
    "kind": "block",
    "name": "Ultra Blue Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3928,13 +4231,14 @@
    "kind": "block",
    "name": "Ultra Blue Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3942,12 +4246,13 @@
    "kind": "block",
    "name": "Ultra Blue Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3955,12 +4260,13 @@
    "kind": "block",
    "name": "Ultra Blue Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3968,13 +4274,14 @@
    "kind": "block",
    "name": "Ultra Blue Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3982,12 +4289,13 @@
    "kind": "block",
    "name": "Ultra Blue Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -3995,12 +4303,13 @@
    "kind": "block",
    "name": "Ultra Brown Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4008,13 +4317,14 @@
    "kind": "block",
    "name": "Ultra Brown Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4022,12 +4332,13 @@
    "kind": "block",
    "name": "Ultra Brown Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4035,12 +4346,13 @@
    "kind": "block",
    "name": "Ultra Brown Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4048,13 +4360,14 @@
    "kind": "block",
    "name": "Ultra Brown Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4062,12 +4375,13 @@
    "kind": "block",
    "name": "Ultra Brown Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4075,12 +4389,13 @@
    "kind": "block",
    "name": "Ultra Brown Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4088,13 +4403,14 @@
    "kind": "block",
    "name": "Ultra Brown Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4102,12 +4418,13 @@
    "kind": "block",
    "name": "Ultra Brown Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4115,12 +4432,13 @@
    "kind": "block",
    "name": "Ultra Green Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4128,13 +4446,14 @@
    "kind": "block",
    "name": "Ultra Green Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4142,12 +4461,13 @@
    "kind": "block",
    "name": "Ultra Green Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4155,12 +4475,13 @@
    "kind": "block",
    "name": "Ultra Green Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4168,13 +4489,14 @@
    "kind": "block",
    "name": "Ultra Green Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4182,12 +4504,13 @@
    "kind": "block",
    "name": "Ultra Green Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4195,12 +4518,13 @@
    "kind": "block",
    "name": "Ultra Green Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4208,13 +4532,14 @@
    "kind": "block",
    "name": "Ultra Green Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4222,12 +4547,13 @@
    "kind": "block",
    "name": "Ultra Green Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4235,12 +4561,13 @@
    "kind": "block",
    "name": "Ultra Red Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4248,13 +4575,14 @@
    "kind": "block",
    "name": "Ultra Red Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4262,12 +4590,13 @@
    "kind": "block",
    "name": "Ultra Red Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4275,12 +4604,13 @@
    "kind": "block",
    "name": "Ultra Red Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4288,13 +4618,14 @@
    "kind": "block",
    "name": "Ultra Red Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4302,12 +4633,13 @@
    "kind": "block",
    "name": "Ultra Red Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4315,12 +4647,13 @@
    "kind": "block",
    "name": "Ultra Red Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4328,13 +4661,14 @@
    "kind": "block",
    "name": "Ultra Red Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4342,12 +4676,13 @@
    "kind": "block",
    "name": "Ultra Red Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4355,12 +4690,13 @@
    "kind": "block",
    "name": "Ultra Black Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4368,13 +4704,14 @@
    "kind": "block",
    "name": "Ultra Black Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4382,12 +4719,13 @@
    "kind": "block",
    "name": "Ultra Black Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4395,12 +4733,13 @@
    "kind": "block",
    "name": "Ultra Black Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4408,13 +4747,14 @@
    "kind": "block",
    "name": "Ultra Black Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4422,12 +4762,13 @@
    "kind": "block",
    "name": "Ultra Black Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4435,12 +4776,13 @@
    "kind": "block",
    "name": "Ultra Black Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4448,13 +4790,14 @@
    "kind": "block",
    "name": "Ultra Black Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4462,12 +4805,13 @@
    "kind": "block",
    "name": "Ultra Black Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4475,12 +4819,13 @@
    "kind": "block",
    "name": "Ultra Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4488,13 +4833,14 @@
    "kind": "block",
    "name": "Ultra Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4502,12 +4848,13 @@
    "kind": "block",
    "name": "Ultra Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4515,12 +4862,13 @@
    "kind": "block",
    "name": "Ultra Stone Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4528,13 +4876,14 @@
    "kind": "block",
    "name": "Ultra Stone Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4542,12 +4891,13 @@
    "kind": "block",
    "name": "Ultra Stone Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4555,12 +4905,13 @@
    "kind": "block",
    "name": "Ultra Mossy Stone Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4568,13 +4919,14 @@
    "kind": "block",
    "name": "Ultra Mossy Stone Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4582,12 +4934,13 @@
    "kind": "block",
    "name": "Ultra Mossy Stone Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4595,12 +4948,13 @@
    "kind": "block",
    "name": "Ultra Deepslate Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4608,13 +4962,14 @@
    "kind": "block",
    "name": "Ultra Deepslate Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4622,12 +4977,13 @@
    "kind": "block",
    "name": "Ultra Deepslate Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4635,12 +4991,13 @@
    "kind": "block",
    "name": "Ultra Tuff Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4648,13 +5005,14 @@
    "kind": "block",
    "name": "Ultra Tuff Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4662,12 +5020,13 @@
    "kind": "block",
    "name": "Ultra Tuff Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4675,12 +5034,13 @@
    "kind": "block",
    "name": "Ultra Mud Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4688,13 +5048,14 @@
    "kind": "block",
    "name": "Ultra Mud Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4702,12 +5063,13 @@
    "kind": "block",
    "name": "Ultra Mud Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4715,12 +5077,13 @@
    "kind": "block",
    "name": "Ultra Prismarine Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4728,13 +5091,14 @@
    "kind": "block",
    "name": "Ultra Prismarine Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4742,12 +5106,13 @@
    "kind": "block",
    "name": "Ultra Prismarine Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4756,11 +5121,12 @@
    "name": "Ultra Nether Brick Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4769,12 +5135,13 @@
    "name": "Ultra Nether Brick Hopper Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4783,11 +5150,12 @@
    "name": "Ultra Nether Brick Waxed Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4796,11 +5164,12 @@
    "name": "Ultra Red Nether Brick Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4809,12 +5178,13 @@
    "name": "Ultra Red Nether Brick Hopper Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4823,11 +5193,12 @@
    "name": "Ultra Red Nether Brick Waxed Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4836,11 +5207,12 @@
    "name": "Ultra Polished Blackstone Brick Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4849,12 +5221,13 @@
    "name": "Ultra Polished Blackstone Brick Hopper Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4863,11 +5236,12 @@
    "name": "Ultra Polished Blackstone Brick Waxed Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4876,11 +5250,12 @@
    "name": "Ultra End Stone Brick Botany Pot",
    "tags": [
     "needs:end",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4889,12 +5264,13 @@
    "name": "Ultra End Stone Brick Hopper Botany Pot",
    "tags": [
     "needs:end",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4903,11 +5279,12 @@
    "name": "Ultra End Stone Brick Waxed Botany Pot",
    "tags": [
     "needs:end",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4915,12 +5292,13 @@
    "kind": "block",
    "name": "Ultra Quartz Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4928,13 +5306,14 @@
    "kind": "block",
    "name": "Ultra Quartz Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4942,12 +5321,13 @@
    "kind": "block",
    "name": "Ultra Quartz Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4955,12 +5335,13 @@
    "kind": "block",
    "name": "Mega Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4968,13 +5349,14 @@
    "kind": "block",
    "name": "Mega Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4982,12 +5364,13 @@
    "kind": "block",
    "name": "Mega Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -4995,12 +5378,13 @@
    "kind": "block",
    "name": "Mega White Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5008,13 +5392,14 @@
    "kind": "block",
    "name": "Mega White Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5022,12 +5407,13 @@
    "kind": "block",
    "name": "Mega White Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5035,12 +5421,13 @@
    "kind": "block",
    "name": "Mega White Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5048,13 +5435,14 @@
    "kind": "block",
    "name": "Mega White Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5062,12 +5450,13 @@
    "kind": "block",
    "name": "Mega White Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5075,12 +5464,13 @@
    "kind": "block",
    "name": "Mega White Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5088,13 +5478,14 @@
    "kind": "block",
    "name": "Mega White Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5102,12 +5493,13 @@
    "kind": "block",
    "name": "Mega White Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5115,12 +5507,13 @@
    "kind": "block",
    "name": "Mega Orange Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5128,13 +5521,14 @@
    "kind": "block",
    "name": "Mega Orange Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5142,12 +5536,13 @@
    "kind": "block",
    "name": "Mega Orange Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5155,12 +5550,13 @@
    "kind": "block",
    "name": "Mega Orange Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5168,13 +5564,14 @@
    "kind": "block",
    "name": "Mega Orange Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5182,12 +5579,13 @@
    "kind": "block",
    "name": "Mega Orange Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5195,12 +5593,13 @@
    "kind": "block",
    "name": "Mega Orange Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5208,13 +5607,14 @@
    "kind": "block",
    "name": "Mega Orange Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5222,12 +5622,13 @@
    "kind": "block",
    "name": "Mega Orange Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5235,12 +5636,13 @@
    "kind": "block",
    "name": "Mega Magenta Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5248,13 +5650,14 @@
    "kind": "block",
    "name": "Mega Magenta Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5262,12 +5665,13 @@
    "kind": "block",
    "name": "Mega Magenta Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5275,12 +5679,13 @@
    "kind": "block",
    "name": "Mega Magenta Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5288,13 +5693,14 @@
    "kind": "block",
    "name": "Mega Magenta Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5302,12 +5708,13 @@
    "kind": "block",
    "name": "Mega Magenta Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5315,12 +5722,13 @@
    "kind": "block",
    "name": "Mega Magenta Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5328,13 +5736,14 @@
    "kind": "block",
    "name": "Mega Magenta Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5342,12 +5751,13 @@
    "kind": "block",
    "name": "Mega Magenta Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5355,12 +5765,13 @@
    "kind": "block",
    "name": "Mega Light Blue Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5368,13 +5779,14 @@
    "kind": "block",
    "name": "Mega Light Blue Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5382,12 +5794,13 @@
    "kind": "block",
    "name": "Mega Light Blue Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5395,12 +5808,13 @@
    "kind": "block",
    "name": "Mega Light Blue Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5408,13 +5822,14 @@
    "kind": "block",
    "name": "Mega Light Blue Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5422,12 +5837,13 @@
    "kind": "block",
    "name": "Mega Light Blue Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5435,12 +5851,13 @@
    "kind": "block",
    "name": "Mega Light Blue Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5448,13 +5865,14 @@
    "kind": "block",
    "name": "Mega Light Blue Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5462,12 +5880,13 @@
    "kind": "block",
    "name": "Mega Light Blue Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5475,12 +5894,13 @@
    "kind": "block",
    "name": "Mega Yellow Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5488,13 +5908,14 @@
    "kind": "block",
    "name": "Mega Yellow Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5502,12 +5923,13 @@
    "kind": "block",
    "name": "Mega Yellow Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5515,12 +5937,13 @@
    "kind": "block",
    "name": "Mega Yellow Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5528,13 +5951,14 @@
    "kind": "block",
    "name": "Mega Yellow Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5542,12 +5966,13 @@
    "kind": "block",
    "name": "Mega Yellow Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5555,12 +5980,13 @@
    "kind": "block",
    "name": "Mega Yellow Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5568,13 +5994,14 @@
    "kind": "block",
    "name": "Mega Yellow Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5582,12 +6009,13 @@
    "kind": "block",
    "name": "Mega Yellow Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5595,12 +6023,13 @@
    "kind": "block",
    "name": "Mega Lime Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5608,13 +6037,14 @@
    "kind": "block",
    "name": "Mega Lime Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5622,12 +6052,13 @@
    "kind": "block",
    "name": "Mega Lime Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5635,12 +6066,13 @@
    "kind": "block",
    "name": "Mega Lime Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5648,13 +6080,14 @@
    "kind": "block",
    "name": "Mega Lime Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5662,12 +6095,13 @@
    "kind": "block",
    "name": "Mega Lime Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5675,12 +6109,13 @@
    "kind": "block",
    "name": "Mega Lime Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5688,13 +6123,14 @@
    "kind": "block",
    "name": "Mega Lime Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5702,12 +6138,13 @@
    "kind": "block",
    "name": "Mega Lime Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5715,12 +6152,13 @@
    "kind": "block",
    "name": "Mega Pink Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5728,13 +6166,14 @@
    "kind": "block",
    "name": "Mega Pink Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5742,12 +6181,13 @@
    "kind": "block",
    "name": "Mega Pink Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5755,12 +6195,13 @@
    "kind": "block",
    "name": "Mega Pink Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5768,13 +6209,14 @@
    "kind": "block",
    "name": "Mega Pink Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5782,12 +6224,13 @@
    "kind": "block",
    "name": "Mega Pink Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5795,12 +6238,13 @@
    "kind": "block",
    "name": "Mega Pink Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5808,13 +6252,14 @@
    "kind": "block",
    "name": "Mega Pink Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5822,12 +6267,13 @@
    "kind": "block",
    "name": "Mega Pink Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5835,12 +6281,13 @@
    "kind": "block",
    "name": "Mega Gray Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5848,13 +6295,14 @@
    "kind": "block",
    "name": "Mega Gray Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5862,12 +6310,13 @@
    "kind": "block",
    "name": "Mega Gray Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5875,12 +6324,13 @@
    "kind": "block",
    "name": "Mega Gray Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5888,13 +6338,14 @@
    "kind": "block",
    "name": "Mega Gray Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5902,12 +6353,13 @@
    "kind": "block",
    "name": "Mega Gray Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5915,12 +6367,13 @@
    "kind": "block",
    "name": "Mega Gray Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5928,13 +6381,14 @@
    "kind": "block",
    "name": "Mega Gray Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5942,12 +6396,13 @@
    "kind": "block",
    "name": "Mega Gray Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5955,12 +6410,13 @@
    "kind": "block",
    "name": "Mega Light Gray Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5968,13 +6424,14 @@
    "kind": "block",
    "name": "Mega Light Gray Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5982,12 +6439,13 @@
    "kind": "block",
    "name": "Mega Light Gray Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -5995,12 +6453,13 @@
    "kind": "block",
    "name": "Mega Light Gray Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6008,13 +6467,14 @@
    "kind": "block",
    "name": "Mega Light Gray Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6022,12 +6482,13 @@
    "kind": "block",
    "name": "Mega Light Gray Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6035,12 +6496,13 @@
    "kind": "block",
    "name": "Mega Light Gray Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6048,13 +6510,14 @@
    "kind": "block",
    "name": "Mega Light Gray Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6062,12 +6525,13 @@
    "kind": "block",
    "name": "Mega Light Gray Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6075,12 +6539,13 @@
    "kind": "block",
    "name": "Mega Cyan Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6088,13 +6553,14 @@
    "kind": "block",
    "name": "Mega Cyan Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6102,12 +6568,13 @@
    "kind": "block",
    "name": "Mega Cyan Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6115,12 +6582,13 @@
    "kind": "block",
    "name": "Mega Cyan Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6128,13 +6596,14 @@
    "kind": "block",
    "name": "Mega Cyan Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6142,12 +6611,13 @@
    "kind": "block",
    "name": "Mega Cyan Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6155,12 +6625,13 @@
    "kind": "block",
    "name": "Mega Cyan Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6168,13 +6639,14 @@
    "kind": "block",
    "name": "Mega Cyan Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6182,12 +6654,13 @@
    "kind": "block",
    "name": "Mega Cyan Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6195,12 +6668,13 @@
    "kind": "block",
    "name": "Mega Purple Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6208,13 +6682,14 @@
    "kind": "block",
    "name": "Mega Purple Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6222,12 +6697,13 @@
    "kind": "block",
    "name": "Mega Purple Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6235,12 +6711,13 @@
    "kind": "block",
    "name": "Mega Purple Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6248,13 +6725,14 @@
    "kind": "block",
    "name": "Mega Purple Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6262,12 +6740,13 @@
    "kind": "block",
    "name": "Mega Purple Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6275,12 +6754,13 @@
    "kind": "block",
    "name": "Mega Purple Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6288,13 +6768,14 @@
    "kind": "block",
    "name": "Mega Purple Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6302,12 +6783,13 @@
    "kind": "block",
    "name": "Mega Purple Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6315,12 +6797,13 @@
    "kind": "block",
    "name": "Mega Blue Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6328,13 +6811,14 @@
    "kind": "block",
    "name": "Mega Blue Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6342,12 +6826,13 @@
    "kind": "block",
    "name": "Mega Blue Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6355,12 +6840,13 @@
    "kind": "block",
    "name": "Mega Blue Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6368,13 +6854,14 @@
    "kind": "block",
    "name": "Mega Blue Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6382,12 +6869,13 @@
    "kind": "block",
    "name": "Mega Blue Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6395,12 +6883,13 @@
    "kind": "block",
    "name": "Mega Blue Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6408,13 +6897,14 @@
    "kind": "block",
    "name": "Mega Blue Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6422,12 +6912,13 @@
    "kind": "block",
    "name": "Mega Blue Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6435,12 +6926,13 @@
    "kind": "block",
    "name": "Mega Brown Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6448,13 +6940,14 @@
    "kind": "block",
    "name": "Mega Brown Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6462,12 +6955,13 @@
    "kind": "block",
    "name": "Mega Brown Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6475,12 +6969,13 @@
    "kind": "block",
    "name": "Mega Brown Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6488,13 +6983,14 @@
    "kind": "block",
    "name": "Mega Brown Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6502,12 +6998,13 @@
    "kind": "block",
    "name": "Mega Brown Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6515,12 +7012,13 @@
    "kind": "block",
    "name": "Mega Brown Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6528,13 +7026,14 @@
    "kind": "block",
    "name": "Mega Brown Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6542,12 +7041,13 @@
    "kind": "block",
    "name": "Mega Brown Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6555,12 +7055,13 @@
    "kind": "block",
    "name": "Mega Green Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6568,13 +7069,14 @@
    "kind": "block",
    "name": "Mega Green Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6582,12 +7084,13 @@
    "kind": "block",
    "name": "Mega Green Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6595,12 +7098,13 @@
    "kind": "block",
    "name": "Mega Green Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6608,13 +7112,14 @@
    "kind": "block",
    "name": "Mega Green Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6622,12 +7127,13 @@
    "kind": "block",
    "name": "Mega Green Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6635,12 +7141,13 @@
    "kind": "block",
    "name": "Mega Green Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6648,13 +7155,14 @@
    "kind": "block",
    "name": "Mega Green Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6662,12 +7170,13 @@
    "kind": "block",
    "name": "Mega Green Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6675,12 +7184,13 @@
    "kind": "block",
    "name": "Mega Red Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6688,13 +7198,14 @@
    "kind": "block",
    "name": "Mega Red Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6702,12 +7213,13 @@
    "kind": "block",
    "name": "Mega Red Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6715,12 +7227,13 @@
    "kind": "block",
    "name": "Mega Red Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6728,13 +7241,14 @@
    "kind": "block",
    "name": "Mega Red Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6742,12 +7256,13 @@
    "kind": "block",
    "name": "Mega Red Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6755,12 +7270,13 @@
    "kind": "block",
    "name": "Mega Red Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6768,13 +7284,14 @@
    "kind": "block",
    "name": "Mega Red Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6782,12 +7299,13 @@
    "kind": "block",
    "name": "Mega Red Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6795,12 +7313,13 @@
    "kind": "block",
    "name": "Mega Black Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6808,13 +7327,14 @@
    "kind": "block",
    "name": "Mega Black Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6822,12 +7342,13 @@
    "kind": "block",
    "name": "Mega Black Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6835,12 +7356,13 @@
    "kind": "block",
    "name": "Mega Black Glazed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6848,13 +7370,14 @@
    "kind": "block",
    "name": "Mega Black Glazed Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6862,12 +7385,13 @@
    "kind": "block",
    "name": "Mega Black Glazed Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6875,12 +7399,13 @@
    "kind": "block",
    "name": "Mega Black Concrete Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6888,13 +7413,14 @@
    "kind": "block",
    "name": "Mega Black Concrete Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6902,12 +7428,13 @@
    "kind": "block",
    "name": "Mega Black Concrete Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6915,12 +7442,13 @@
    "kind": "block",
    "name": "Mega Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6928,13 +7456,14 @@
    "kind": "block",
    "name": "Mega Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6942,12 +7471,13 @@
    "kind": "block",
    "name": "Mega Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6955,12 +7485,13 @@
    "kind": "block",
    "name": "Mega Stone Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6968,13 +7499,14 @@
    "kind": "block",
    "name": "Mega Stone Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6982,12 +7514,13 @@
    "kind": "block",
    "name": "Mega Stone Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -6995,12 +7528,13 @@
    "kind": "block",
    "name": "Mega Mossy Stone Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7008,13 +7542,14 @@
    "kind": "block",
    "name": "Mega Mossy Stone Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7022,12 +7557,13 @@
    "kind": "block",
    "name": "Mega Mossy Stone Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7035,12 +7571,13 @@
    "kind": "block",
    "name": "Mega Deepslate Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7048,13 +7585,14 @@
    "kind": "block",
    "name": "Mega Deepslate Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7062,12 +7600,13 @@
    "kind": "block",
    "name": "Mega Deepslate Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7075,12 +7614,13 @@
    "kind": "block",
    "name": "Mega Tuff Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7088,13 +7628,14 @@
    "kind": "block",
    "name": "Mega Tuff Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7102,12 +7643,13 @@
    "kind": "block",
    "name": "Mega Tuff Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7115,12 +7657,13 @@
    "kind": "block",
    "name": "Mega Mud Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7128,13 +7671,14 @@
    "kind": "block",
    "name": "Mega Mud Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7142,12 +7686,13 @@
    "kind": "block",
    "name": "Mega Mud Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7155,12 +7700,13 @@
    "kind": "block",
    "name": "Mega Prismarine Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7168,13 +7714,14 @@
    "kind": "block",
    "name": "Mega Prismarine Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7182,12 +7729,13 @@
    "kind": "block",
    "name": "Mega Prismarine Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7196,11 +7744,12 @@
    "name": "Mega Nether Brick Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7209,12 +7758,13 @@
    "name": "Mega Nether Brick Hopper Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7223,11 +7773,12 @@
    "name": "Mega Nether Brick Waxed Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7236,11 +7787,12 @@
    "name": "Mega Red Nether Brick Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7249,12 +7801,13 @@
    "name": "Mega Red Nether Brick Hopper Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7263,11 +7816,12 @@
    "name": "Mega Red Nether Brick Waxed Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7276,11 +7830,12 @@
    "name": "Mega Polished Blackstone Brick Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7289,12 +7844,13 @@
    "name": "Mega Polished Blackstone Brick Hopper Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7303,11 +7859,12 @@
    "name": "Mega Polished Blackstone Brick Waxed Botany Pot",
    "tags": [
     "needs:nether",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7316,11 +7873,12 @@
    "name": "Mega End Stone Brick Botany Pot",
    "tags": [
     "needs:end",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7329,12 +7887,13 @@
    "name": "Mega End Stone Brick Hopper Botany Pot",
    "tags": [
     "needs:end",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7343,11 +7902,12 @@
    "name": "Mega End Stone Brick Waxed Botany Pot",
    "tags": [
     "needs:end",
+    "scale:tiered",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7355,12 +7915,13 @@
    "kind": "block",
    "name": "Mega Quartz Brick Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7368,13 +7929,14 @@
    "kind": "block",
    "name": "Mega Quartz Brick Hopper Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "function:automate",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   },
@@ -7382,12 +7944,13 @@
    "kind": "block",
    "name": "Mega Quartz Brick Waxed Botany Pot",
    "tags": [
+    "scale:tiered",
+    "needs:none",
     "kind:block",
     "function:farm",
-    "scale:tiered",
     "power-role:none",
     "power-type:none",
-    "needs:none",
+    "feel:nature",
     "review:checked"
    ]
   }

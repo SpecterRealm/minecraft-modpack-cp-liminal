@@ -64,18 +64,35 @@
    "name": "Bucket of Experience",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedcore:ender_linker": {
    "kind": "item",
    "name": "Ender Linker",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21.x"
+ "tagged_version": "1.21.x",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.x",
+  "pass": "loop-back",
+  "note": "Shared library.",
+  "class": "library",
+  "purpose": "Library for Sophisticated Storage/Backpacks; XP bucket, ender linker"
+ }
 }

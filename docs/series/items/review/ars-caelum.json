@@ -1,0 +1,30 @@
+{
+ "class": "content",
+ "purpose": "Ars ritual islands",
+ "note": "Rituals that conjure islands and summon; used for skyblock-style ritual sources. Built-in support: Ars Nouveau (required).",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^ritual_.*$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:consumable",
+    "function:enchant"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech"
+   ]
+  }
+ ]
+}

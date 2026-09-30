@@ -30,7 +30,10 @@
    "tags": [
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:archwood_lantern": {
@@ -40,7 +43,10 @@
     "function:light",
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:archwood_magelight_lantern": {
@@ -50,87 +56,106 @@
     "function:light",
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:cracked_polished_sourcestone": {
    "kind": "block",
    "name": "Cracked Polished Sourcestone",
    "tags": [
-    "power-type:source",
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:cracked_polished_sourcestone_large_bricks": {
    "kind": "block",
    "name": "Cracked Polished Sourcestone: Large Bricks",
    "tags": [
-    "power-type:source",
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:cracked_polished_sourcestone_small_bricks": {
    "kind": "block",
    "name": "Cracked Polished Sourcestone: Small Bricks",
    "tags": [
-    "power-type:source",
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:cracked_polished_sourcestone_wall": {
    "kind": "block",
    "name": "Cracked Polished Sourcestone Wall",
    "tags": [
-    "power-type:source",
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:cracked_sourcestone": {
    "kind": "block",
    "name": "Cracked Sourcestone",
    "tags": [
-    "power-type:source",
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:cracked_sourcestone_large_bricks": {
    "kind": "block",
    "name": "Cracked Sourcestone: Large Bricks",
    "tags": [
-    "power-type:source",
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:cracked_sourcestone_small_bricks": {
    "kind": "block",
    "name": "Cracked Sourcestone: Small Bricks",
    "tags": [
-    "power-type:source",
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:cracked_sourcestone_wall": {
    "kind": "block",
    "name": "Cracked Sourcestone Wall",
    "tags": [
-    "power-type:source",
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:enchanting_wixie_cauldron": {
@@ -140,7 +165,10 @@
     "function:enchant",
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:ender_source_jar": {
@@ -148,10 +176,12 @@
    "name": "Ender Source Jar",
    "tags": [
     "function:store",
-    "power-type:source",
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:golden_chain": {
@@ -160,7 +190,10 @@
    "tags": [
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:golden_lantern": {
@@ -170,7 +203,10 @@
     "function:light",
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:golden_magelight_lantern": {
@@ -180,7 +216,10 @@
     "function:light",
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:magebloom_carpet": {
@@ -189,7 +228,10 @@
    "tags": [
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:magelight_lantern": {
@@ -199,37 +241,46 @@
     "function:light",
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:polished_sourcestone_button": {
    "kind": "block",
    "name": "Polished Sourcestone Button",
    "tags": [
-    "power-type:source",
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:polished_sourcestone_chain": {
    "kind": "block",
    "name": "Polished Sourcestone Chain",
    "tags": [
-    "power-type:source",
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:polished_sourcestone_door": {
    "kind": "block",
    "name": "Polished Sourcestone Door",
    "tags": [
-    "power-type:source",
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:polished_sourcestone_lantern": {
@@ -237,10 +288,12 @@
    "name": "Polished Sourcestone Lantern",
    "tags": [
     "function:light",
-    "power-type:source",
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:polished_sourcestone_magelight_lantern": {
@@ -248,30 +301,36 @@
    "name": "Polished Sourcestone Magelight Lantern",
    "tags": [
     "function:light",
-    "power-type:source",
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:polished_sourcestone_trapdoor": {
    "kind": "block",
    "name": "Polished Sourcestone Trapdoor",
    "tags": [
-    "power-type:source",
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:polished_sourcestone_wall": {
    "kind": "block",
    "name": "Polished Sourcestone Wall",
    "tags": [
-    "power-type:source",
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:soul_magelight_lantern": {
@@ -282,7 +341,10 @@
     "needs:nether",
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:source_spawner": {
@@ -291,39 +353,47 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "power-type:source",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:sourcestone_button": {
    "kind": "block",
    "name": "Sourcestone Button",
    "tags": [
-    "power-type:source",
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:sourcestone_chain": {
    "kind": "block",
    "name": "Sourcestone Chain",
    "tags": [
-    "power-type:source",
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:sourcestone_door": {
    "kind": "block",
    "name": "Sourcestone Door",
    "tags": [
-    "power-type:source",
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:sourcestone_lantern": {
@@ -331,10 +401,12 @@
    "name": "Sourcestone Lantern",
    "tags": [
     "function:light",
-    "power-type:source",
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:sourcestone_magelight_lantern": {
@@ -342,30 +414,36 @@
    "name": "Sourcestone Magelight Lantern",
    "tags": [
     "function:light",
-    "power-type:source",
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:sourcestone_trapdoor": {
    "kind": "block",
    "name": "Sourcestone Trapdoor",
    "tags": [
-    "power-type:source",
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:sourcestone_wall": {
    "kind": "block",
    "name": "Sourcestone Wall",
    "tags": [
-    "power-type:source",
     "kind:decoration",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:warp_nexus": {
@@ -375,7 +453,10 @@
     "function:travel",
     "needs:spell-tech",
     "kind:block",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:advanced_dominion_wand": {
@@ -385,7 +466,10 @@
     "kind:tool",
     "function:enchant",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:ancient_codex_entry": {
@@ -393,7 +477,10 @@
    "name": "Ancient Codex Entry",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:bound_wayfinder": {
@@ -401,7 +488,10 @@
    "name": "Bound Wayfinder",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:codex_entry": {
@@ -409,7 +499,10 @@
    "name": "Codex Entry",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:dispel_protection_charm": {
@@ -418,7 +511,10 @@
    "tags": [
     "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:ender_mask_charm": {
@@ -429,7 +525,10 @@
     "function:defend",
     "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:exploration_warp_scroll": {
@@ -439,7 +538,10 @@
     "function:travel",
     "kind:consumable",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:fall_prevention_charm": {
@@ -448,7 +550,10 @@
    "tags": [
     "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:fire_resistance_charm": {
@@ -457,7 +562,10 @@
    "tags": [
     "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:golden_charm": {
@@ -466,7 +574,10 @@
    "tags": [
     "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:handy_haversack": {
@@ -474,7 +585,10 @@
    "name": "Handy Haversack",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:imbued_spell_parchment": {
@@ -482,9 +596,11 @@
    "name": "Imbued Spell Parchment",
    "tags": [
     "function:enchant",
-    "power-type:mana",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:lost_codex_entry": {
@@ -492,7 +608,10 @@
    "name": "Lost Codex Entry",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:memory_crystal": {
@@ -501,7 +620,10 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:nexus_warp_scroll": {
@@ -511,7 +633,10 @@
     "function:travel",
     "kind:consumable",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:night_vision_charm": {
@@ -520,7 +645,10 @@
    "tags": [
     "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:powdered_snow_walk_charm": {
@@ -529,7 +657,10 @@
    "tags": [
     "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:ritual_chunk_loading": {
@@ -538,7 +669,10 @@
    "tags": [
     "kind:material",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:ritual_locate_structure": {
@@ -546,7 +680,10 @@
    "name": "Locate Structure",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:sonic_boom_protection_charm": {
@@ -557,7 +694,10 @@
     "function:defend",
     "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:stabilized_warp_index": {
@@ -566,7 +706,10 @@
    "tags": [
     "function:travel",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:thread_reach": {
@@ -574,7 +717,10 @@
    "name": "Reach",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:undying_charm": {
@@ -583,7 +729,10 @@
    "tags": [
     "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:unstable_reliquary": {
@@ -591,7 +740,10 @@
    "name": "Unstable Reliquary",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:void_protection_charm": {
@@ -600,7 +752,10 @@
    "tags": [
     "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:warp_index": {
@@ -609,7 +764,10 @@
    "tags": [
     "function:travel",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:water_breathing_charm": {
@@ -618,7 +776,10 @@
    "tags": [
     "kind:gadget",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:wayfinder": {
@@ -626,7 +787,10 @@
    "name": "Wayfinder",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:wither_protection_charm": {
@@ -636,7 +800,10 @@
     "kind:gadget",
     "needs:nether",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_additions:xp_jar": {
@@ -645,11 +812,23 @@
    "tags": [
     "function:store",
     "needs:spell-tech",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "21.3.0"
+ "tagged_version": "21.3.0",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "21.3.0",
+  "pass": "loop-back",
+  "note": "Additions: extra tools, curios, source generators/collectors. Built-in support: Ars Nouveau (required).",
+  "class": "content",
+  "purpose": "QoL additions for Ars Nouveau (curios, sources, mechanical)"
+ }
 }

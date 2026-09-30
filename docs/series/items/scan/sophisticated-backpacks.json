@@ -15,6 +15,13 @@
    }
   },
   {
+   "id": "architectury",
+   "slug": "architectury-api",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
    "id": "create",
    "slug": "create",
    "evidence": {
@@ -71,6 +78,13 @@
    }
   },
   {
+   "id": "morphtool",
+   "slug": "morph-o-tool",
+   "evidence": {
+    "data-ref": 1
+   }
+  },
+  {
    "id": "powah",
    "slug": "powah",
    "evidence": {
@@ -92,55 +106,84 @@
    "kind": "block",
    "name": "Backpack",
    "tags": [
-    "function:store",
+    "scale:tiered",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:copper_backpack": {
    "kind": "block",
    "name": "Copper Backpack",
    "tags": [
-    "function:store",
+    "scale:tiered",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:iron_backpack": {
    "kind": "block",
    "name": "Iron Backpack",
    "tags": [
-    "function:store",
+    "scale:tiered",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:gold_backpack": {
    "kind": "block",
    "name": "Gold Backpack",
    "tags": [
-    "function:store",
+    "scale:tiered",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:diamond_backpack": {
    "kind": "block",
    "name": "Diamond Backpack",
    "tags": [
-    "function:store",
+    "scale:tiered",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:netherite_backpack": {
    "kind": "block",
    "name": "Netherite Backpack",
    "tags": [
-    "function:store",
+    "scale:tiered",
     "kind:storage",
-    "needs:nether",
-    "review:auto"
+    "function:store",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:upgrade_base": {
@@ -148,7 +191,11 @@
    "name": "Upgrade Base",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:pickup_upgrade": {
@@ -156,7 +203,12 @@
    "name": "Pickup Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:advanced_pickup_upgrade": {
@@ -164,7 +216,12 @@
    "name": "Advanced Pickup Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:filter_upgrade": {
@@ -172,7 +229,12 @@
    "name": "Filter Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:advanced_filter_upgrade": {
@@ -180,7 +242,12 @@
    "name": "Advanced Filter Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:magnet_upgrade": {
@@ -188,7 +255,12 @@
    "name": "Magnet Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:advanced_magnet_upgrade": {
@@ -196,7 +268,12 @@
    "name": "Advanced Magnet Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:feeding_upgrade": {
@@ -204,7 +281,12 @@
    "name": "Feeding Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:advanced_feeding_upgrade": {
@@ -212,7 +294,12 @@
    "name": "Advanced Feeding upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:compacting_upgrade": {
@@ -220,7 +307,12 @@
    "name": "Compacting Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:advanced_compacting_upgrade": {
@@ -228,7 +320,12 @@
    "name": "Advanced Compacting Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:void_upgrade": {
@@ -236,7 +333,12 @@
    "name": "Void Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:advanced_void_upgrade": {
@@ -244,7 +346,12 @@
    "name": "Advanced Void Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:restock_upgrade": {
@@ -252,7 +359,12 @@
    "name": "Restock Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:advanced_restock_upgrade": {
@@ -260,7 +372,12 @@
    "name": "Advanced Restock Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:deposit_upgrade": {
@@ -268,7 +385,12 @@
    "name": "Deposit Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:advanced_deposit_upgrade": {
@@ -276,7 +398,12 @@
    "name": "Advanced Deposit Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:refill_upgrade": {
@@ -284,7 +411,12 @@
    "name": "Refill Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:advanced_refill_upgrade": {
@@ -292,23 +424,38 @@
    "name": "Advanced Refill Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:inception_upgrade": {
    "kind": "item",
    "name": "Inception Upgrade",
    "tags": [
+    "role:optional",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:everlasting_upgrade": {
    "kind": "item",
    "name": "Everlasting Upgrade",
    "tags": [
+    "role:optional",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:smelting_upgrade": {
@@ -316,7 +463,12 @@
    "name": "Smelting Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:auto_smelting_upgrade": {
@@ -324,7 +476,12 @@
    "name": "Auto-smelting Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:smoking_upgrade": {
@@ -332,7 +489,12 @@
    "name": "Smoking Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:auto_smoking_upgrade": {
@@ -340,7 +502,12 @@
    "name": "Auto-smoking Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:blasting_upgrade": {
@@ -348,7 +515,12 @@
    "name": "Blasting Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:auto_blasting_upgrade": {
@@ -356,7 +528,12 @@
    "name": "Auto-blasting Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:crafting_upgrade": {
@@ -364,7 +541,12 @@
    "name": "Crafting Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:stonecutter_upgrade": {
@@ -372,7 +554,12 @@
    "name": "Stonecutter Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:jukebox_upgrade": {
@@ -380,7 +567,11 @@
    "name": "Jukebox Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:advanced_jukebox_upgrade": {
@@ -388,177 +579,282 @@
    "name": "Advanced Jukebox Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:stack_upgrade_starter_tier": {
    "kind": "item",
    "name": "Stack Upgrade Starter Tier",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:stack_upgrade_tier_1": {
    "kind": "item",
    "name": "Stack Upgrade Tier 1",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:stack_upgrade_tier_2": {
    "kind": "item",
    "name": "Stack Upgrade Tier 2",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:stack_upgrade_tier_3": {
    "kind": "item",
    "name": "Stack Upgrade Tier 3",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:stack_upgrade_tier_4": {
    "kind": "item",
    "name": "Stack Upgrade Tier 4",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_1_conversion": {
    "kind": "item",
    "name": "Stack Upgrade Conversion: Starter Tier to Tier 1",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_2_conversion": {
    "kind": "item",
    "name": "Stack Upgrade Conversion: Starter Tier to Tier 2",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_3_conversion": {
    "kind": "item",
    "name": "Stack Upgrade Conversion: Starter Tier to Tier 3",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_4_conversion": {
    "kind": "item",
    "name": "Stack Upgrade Conversion: Starter Tier to Tier 4",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:stack_upgrade_tier_1_to_tier_2_conversion": {
    "kind": "item",
    "name": "Stack Upgrade Conversion: Tier 1 to Tier 2",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:stack_upgrade_tier_1_to_tier_3_conversion": {
    "kind": "item",
    "name": "Stack Upgrade Conversion: Tier 1 to Tier 3",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:stack_upgrade_tier_1_to_tier_4_conversion": {
    "kind": "item",
    "name": "Stack Upgrade Conversion: Tier 1 to Tier 4",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:stack_upgrade_tier_2_to_tier_3_conversion": {
    "kind": "item",
    "name": "Stack Upgrade Conversion: Tier 2 to Tier 3",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:stack_upgrade_tier_2_to_tier_4_conversion": {
    "kind": "item",
    "name": "Stack Upgrade Conversion: Tier 2 to Tier 4",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:stack_upgrade_tier_3_to_tier_4_conversion": {
    "kind": "item",
    "name": "Stack Upgrade Conversion: Tier 3 to Tier 4",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:stack_upgrade_omega_tier": {
    "kind": "item",
    "name": "Stack Upgrade Omega Tier",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:stack_downgrade_tier_1": {
    "kind": "item",
    "name": "Stack Downgrade Tier 1",
    "tags": [
-    "review:auto"
+    "scale:tiered",
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:stack_downgrade_tier_2": {
    "kind": "item",
    "name": "Stack Downgrade Tier 2",
    "tags": [
-    "review:auto"
+    "scale:tiered",
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:stack_downgrade_tier_3": {
    "kind": "item",
    "name": "Stack Downgrade Tier 3",
    "tags": [
-    "review:auto"
+    "scale:tiered",
+    "kind:gadget",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:battery_upgrade": {
    "kind": "item",
    "name": "Battery Upgrade",
    "tags": [
-    "function:store",
+    "kind:gadget",
+    "needs:none",
     "power-role:stores",
     "power-type:fe",
-    "kind:gadget",
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:tank_upgrade": {
    "kind": "item",
    "name": "Tank Upgrade",
    "tags": [
-    "function:store",
-    "kind:storage",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:pump_upgrade": {
@@ -566,7 +862,12 @@
    "name": "Pump Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:xp_pump_upgrade": {
@@ -574,7 +875,12 @@
    "name": "Experience Pump Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:advanced_pump_upgrade": {
@@ -582,7 +888,12 @@
    "name": "Advanced Pump Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:tool_swapper_upgrade": {
@@ -590,7 +901,12 @@
    "name": "Tool Swapper Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:advanced_tool_swapper_upgrade": {
@@ -598,41 +914,64 @@
    "name": "Advanced Tool Swapper Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:anvil_upgrade": {
    "kind": "item",
    "name": "Anvil Upgrade",
    "tags": [
-    "function:craft",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:smithing_upgrade": {
    "kind": "item",
    "name": "Smithing Upgrade",
    "tags": [
-    "function:craft",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:infinity_upgrade": {
    "kind": "item",
    "name": "Infinity Upgrade (Admin)",
    "tags": [
+    "role:optional",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:survival_infinity_upgrade": {
    "kind": "item",
    "name": "Survival Infinity Upgrade",
    "tags": [
+    "role:optional",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:alchemy_upgrade": {
@@ -640,7 +979,12 @@
    "name": "Alchemy Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:advanced_alchemy_upgrade": {
@@ -648,7 +992,12 @@
    "name": "Advanced Alchemy Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:mob_catcher_upgrade": {
@@ -656,7 +1005,12 @@
    "name": "Mob Catcher Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:advanced_mob_catcher_upgrade": {
@@ -664,67 +1018,87 @@
    "name": "Advanced Mob Catcher Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:chipped.botanist_workbench_upgrade": {
    "kind": "item",
    "name": "Chipped: Botanist's Workbench Upgrade",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:chipped.glassblower_upgrade": {
    "kind": "item",
    "name": "Chipped: Glassblower Upgrade",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:chipped.carpenters_table_upgrade": {
    "kind": "item",
    "name": "Chipped: Carpenters Workbench Upgrade",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:chipped.mason_table_upgrade": {
    "kind": "item",
    "name": "Chipped: Mason Table Upgrade",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:chipped.loom_table_upgrade": {
    "kind": "item",
    "name": "Chipped: Loom Table Upgrade",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:chipped.alchemy_bench_upgrade": {
    "kind": "item",
    "name": "Chipped: Alchemy Bench Upgrade",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:chipped.tinkering_table_upgrade": {
    "kind": "item",
    "name": "Chipped: Tinkering Table Upgrade",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "sophisticatedbackpacks:sawmill.sawmill_upgrade": {
    "kind": "item",
    "name": "Sawmill Upgrade",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21.x"
+ "tagged_version": "1.21.x",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.x",
+  "pass": "loop-back",
+  "note": "Wearable storage: backpack tiers and the same upgrade family as Sophisticated Storage, plus backpack-only upgrades (battery, tool swapper, mob catcher, restock, refill). Built-in support: Sophisticated Core, Powah (battery/charging), Flux Networks."
+ }
 }

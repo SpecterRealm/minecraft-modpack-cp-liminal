@@ -1,0 +1,30 @@
+{
+ "class": "qol-gameplay",
+ "purpose": "Item and fluid translocators (non-powered transfer)",
+ "note": "Stays in Elysian as non-powered, no-pipe transfer. Built-in support: CB Multipart (required).",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^(item_translocator|fluid_translocator)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:block",
+    "function:transfer"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

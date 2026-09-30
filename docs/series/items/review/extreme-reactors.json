@@ -1,0 +1,190 @@
+{
+ "note": "Nuclear reactors and steam turbines as multiblocks (Basic and Reinforced), plus an energy core multiblock battery. Fuel is yellorium, from yellorite ore in the world; Ex Deorum has no sieve recipe for it, so with ore worldgen off in Verdant and Elysian there is no obvious source (see yields/extreme-reactors.json). Includes its own Extreme Wrench. Built-in support: ZeroCore (required), Powah (dry ice tag only); low integration with the rest of the pack.",
+ "rules": [
+  {
+   "match": "^(yellorite_ore|deepslate_yellorite_ore|anglesite_ore|benitoite_ore)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "needs:ore"
+   ]
+  },
+  {
+   "match": "^(raw_yellorium|yellorium_ingot|yellorium_nugget|yellorium_dust|cyanite_.*|blutonium_.*|magentite_.*|graphite_.*|ludicrite_.*|ridiculite_.*|inanite_.*|insanite_.*|anglesite_crystal|benitoite_crystal)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:ore"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(yellorium|cyanite|blutonium|magentite|verderium|rossinite|cryomisi|tangerium|redfrigium|steam|water)(_flowing)?$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:fluid",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "_bucket$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:tool",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "_block$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "needs:ore"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^wrench$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:tool",
+    "function:craft",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^energycore$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:multiblock",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "(reactorcasing|reactorglass|reactorsolidaccessport|reactorfluidaccessport|reactorredstoneport|reactorcomputerport|reactorfuelrod|reactorcontrolrod|reactorcontroller|reactorfluidport.*)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:multiblock",
+    "function:generate",
+    "power-role:makes",
+    "power-role:uses",
+    "power-type:fe",
+    "power-type:heat",
+    "fuel:nuclear",
+    "needs:ore"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "(turbineglass|turbinecasing|turbinecontroller|turbinerotor(bearing|shaft|blade)|turbinefluidport.*|turbineredstoneport)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:multiblock",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "fuel:kinetic",
+    "needs:none"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "(powertapfe_(active|passive)|chargingportfe)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "creativewatergenerator|creativesteamgenerator",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "role:dev-only"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

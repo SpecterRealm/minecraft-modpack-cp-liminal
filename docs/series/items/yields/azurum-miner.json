@@ -1,0 +1,15 @@
+{
+ "mod": "azurum-miner",
+ "version": "v1.21.1-1.4.2",
+ "source": "lang; miner output table unverified",
+ "entries": [
+  {
+   "resource": "azurum",
+   "form": "miner -> conglomerate -> processing",
+   "source": "miner blocks tier 1-5",
+   "power": "FE",
+   "stage": "scale",
+   "note": "Azurum Miner's own metals (azurum, galibium, palestium, thelxium) come from the miner and processing chain, not vanilla iron. Output rates unverified; see Influx #29."
+  }
+ ]
+}

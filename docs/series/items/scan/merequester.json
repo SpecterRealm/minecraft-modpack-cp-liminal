@@ -22,6 +22,15 @@
     "data-ref": 5,
     "dependency": 1
    }
+  },
+  {
+   "id": "ae2wtlib",
+   "slug": "applied-energistics-2-wireless-terminals",
+   "evidence": {
+    "compat-import": 5,
+    "data-ref": 4,
+    "dependency": 1
+   }
   }
  ],
  "items": {
@@ -29,28 +38,52 @@
    "kind": "item",
    "name": "ME Requester Terminal",
    "tags": [
+    "needs:none",
+    "kind:machine",
     "function:automate",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "merequester:wireless_requester_terminal": {
    "kind": "item",
    "name": "Wireless Requester Terminal",
    "tags": [
+    "needs:none",
+    "kind:machine",
     "function:automate",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "merequester:requester": {
    "kind": "block",
    "name": "ME Requester",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "feel:tech",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "v1.21.1-neoforge-1.4.2"
+ "tagged_version": "v1.21.1-neoforge-1.4.2",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1-neoforge-1.4.2",
+  "pass": "loop-back",
+  "note": "Requester terminal and requester block. Niche AE2 convenience.",
+  "class": "ae2-addon",
+  "purpose": "Request items into an AE2 network"
+ }
 }

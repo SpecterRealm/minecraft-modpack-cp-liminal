@@ -1,0 +1,221 @@
+{
+ "note": "Spell-combat pillar: spellbooks, scrolls, staffs, armor sets and rings that use mana, a mithril/arcane progression (mithril ore needs world ore), inscription table and scroll forge. Combat gear and loot rather than a resource engine. Built-in support: supports Apotheosis; supported by Apothic items and Ars add-ons; KubeJS Irons Spells.",
+ "rules": [
+  {
+   "match": "\\.|^dev_staff$|^debug",
+   "ui": true
+  },
+  {
+   "match": "^(inscription_table|scroll_forge|arcane_anvil|pedestal|.*_altar|alchemist_cauldron|portal.*)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:craft",
+    "function:enchant",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(deepslate_mithril_ore|mithril_ore)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "needs:ore"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(raw_mithril)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:ore"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(.*_(helmet|chestplate|leggings|boots|crown)|wizard_helmet|.*_mage_.*|paladin_chestplate|infernal_sorcerer_chestplate|speed_boots)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:armor",
+    "function:defend",
+    "power-type:mana",
+    "needs:spell-tech"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(.*_staff|staff_of_the_nines|blood_staff|improved_blood_staff|graybeard_staff|artificer_cane|lightning_rod|hither_thither_wand|pyrium_staff|ice_staff)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:weapon",
+    "function:enchant",
+    "function:defend",
+    "power-role:uses",
+    "power-type:mana",
+    "needs:spell-tech"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(magehunter|spellbreaker|amethyst_rapier|truthseeker|claymore|misery|keeper_flamberge|legionnaire_flamberge|hellrazor|decrepit_scythe|boreal_blade|twilight_gale|autoloader_crossbow|icy_fang)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:weapon",
+    "function:defend",
+    "needs:spell-tech"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(.*_ring|.*_amulet|.*necklace|conjurers_talisman|greater_conjurers_talisman|scroll_pouch|wayward_compass|antiquated_compass|firefly_jar|cinderous_soulcaller|energized_core|shriving_stone|divine_soulshard|betrayer_signet|wicked_bone_ring|dead_king_phylactery|.*_upgrade_orb|upgrade_orb|lesser_spell_slot_upgrade|.*_rune|blank_rune|mana_ring|amethyst_resonance_charm|invisibility_ring)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "power-type:mana",
+    "needs:spell-tech"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(scroll|.*_ink|.*_elixir|.*tea.*|fire_ale|netherward_tincture|tincture_of_forgetfulness|ice_spider_pheromones|blood_vial|ice_venom_vial|lightning_bottle|.*_spawn_egg|cooked_ice_spider_egg|prepared_ice_spider_egg)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:consumable",
+    "needs:spell-tech"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(scroll|.*_ink)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:consumable",
+    "function:enchant",
+    "power-type:mana",
+    "needs:spell-tech"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(pyrium_ingot|mithril_ingot|mithril_scrap|arcane_ingot|arcane_essence|cinder_essence|divine_pearl|hogskin|dragonskin|frozen_bone|timeless_slurry|arcane_salvage|weapon_parts|magic_cloth|mithril_weave|permafrost_shard|frosted_helve|dead_king_phylactery_shard|disc_fragment_.*|bloody_vellum|crypt_skull|arcane_debris|armor_pile|ancient_knowledge_fragment|eldritch_manuscript|handwritten_invoice|chronicle|translated_archevoker_log|archevoker_log)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:spell-tech"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(furled_map|furled_map_ancient|evoker_fort_battle_plans|failed_arctic_voyage_map|ancient_battleground_map|citadel_map|ice_spider_den_map)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "function:travel",
+    "needs:spell-tech"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^music_disc_.*$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "needs:none"
+   ]
+  },
+  {
+   "match": ".",
+   "kind": "entity",
+   "clear": [
+    "kind"
+   ],
+   "set": [
+    "kind:mob"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech"
+   ]
+  }
+ ]
+}

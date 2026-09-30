@@ -1,0 +1,19 @@
+{
+ "class": "library",
+ "purpose": "CB Multipart: microblocks (saw, face, edge, corner parts); library for Translocators/Ender Storage",
+ "note": "Multipart library with saws and rods; required by Translocators and Ender Storage.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

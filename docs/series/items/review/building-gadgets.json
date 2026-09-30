@@ -1,0 +1,49 @@
+{
+ "class": "content",
+ "purpose": "Gadgets that copy, paste and build; FE powered",
+ "note": "Building, copy/paste, cut/paste, exchanging and destruction gadgets using FE. Excluded from Elysian (tech). Built-in support: none found. Overlaps Building Wands.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^gadget_.*$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "kind:tool",
+    "function:craft",
+    "power-role:uses",
+    "power-type:fe"
+   ]
+  },
+  {
+   "match": "^template_manager$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "kind:machine",
+    "function:craft",
+    "power-role:uses",
+    "power-type:fe"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

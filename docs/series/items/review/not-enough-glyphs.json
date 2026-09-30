@@ -1,0 +1,19 @@
+{
+ "class": "content",
+ "purpose": "More Ars spell glyph threads",
+ "note": "Spell binder threads for Ars Nouveau.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech"
+   ]
+  }
+ ]
+}

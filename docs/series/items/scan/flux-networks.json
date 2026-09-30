@@ -28,68 +28,93 @@
    "kind": "block",
    "name": "Flux Block",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "fluxnetworks:flux_controller": {
    "kind": "block",
    "name": "Flux Controller",
    "tags": [
+    "kind:machine",
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "fluxnetworks:flux_point": {
    "kind": "block",
    "name": "Flux Point",
    "tags": [
+    "kind:machine",
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "fluxnetworks:flux_plug": {
    "kind": "block",
    "name": "Flux Plug",
    "tags": [
+    "kind:machine",
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "fluxnetworks:basic_flux_storage": {
    "kind": "block",
    "name": "Basic Flux Storage",
    "tags": [
-    "function:store",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "fluxnetworks:herculean_flux_storage": {
    "kind": "block",
    "name": "Herculean Flux Storage",
    "tags": [
-    "function:store",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "fluxnetworks:gargantuan_flux_storage": {
    "kind": "block",
    "name": "Gargantuan Flux Storage",
    "tags": [
-    "function:store",
+    "scale:tiered",
     "kind:block",
-    "review:auto"
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "fluxnetworks:flux_dust": {
@@ -97,18 +122,34 @@
    "name": "Flux Dust",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "fluxnetworks:flux_core": {
    "kind": "item",
    "name": "Flux Core",
    "tags": [
-    "review:auto"
+    "kind:material",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21"
+ "tagged_version": "1.21",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21",
+  "pass": "loop-back",
+  "note": "Wireless FE networks: flux plugs and points link machines through a controller, with flux storage tiers (basic, herculean, gargantuan). Flux dust is made from redstone. Built-in support: supported by Mekanism, Productive Bees and Sophisticated Backpacks."
+ }
 }

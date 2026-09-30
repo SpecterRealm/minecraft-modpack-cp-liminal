@@ -8,6 +8,13 @@
  "item_count": 31,
  "compat": [
   {
+   "id": "clothconfig2",
+   "slug": "cloth-config",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
    "id": "curios",
    "slug": "curios",
    "evidence": {
@@ -34,221 +41,261 @@
    "kind": "item",
    "name": "Black Dyes",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.dyes.blue": {
    "kind": "item",
    "name": "Blue Dyes",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.dyes.brown": {
    "kind": "item",
    "name": "Brown Dyes",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.dyes.cyan": {
    "kind": "item",
    "name": "Cyan Dyes",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.dyes.gray": {
    "kind": "item",
    "name": "Gray Dyes",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.dyes.green": {
    "kind": "item",
    "name": "Green Dyes",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.dyes.light_blue": {
    "kind": "item",
    "name": "Light Blue Dyes",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.dyes.light_gray": {
    "kind": "item",
    "name": "Light Gray Dyes",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.dyes.lime": {
    "kind": "item",
    "name": "Lime Dyes",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.dyes.magenta": {
    "kind": "item",
    "name": "Magenta Dyes",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.dyes.orange": {
    "kind": "item",
    "name": "Orange Dyes",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.dyes.pink": {
    "kind": "item",
    "name": "Pink Dyes",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.dyes.purple": {
    "kind": "item",
    "name": "Purple Dyes",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.dyes.red": {
    "kind": "item",
    "name": "Red Dyes",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.dyes.white": {
    "kind": "item",
    "name": "White Dyes",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.dyes.yellow": {
    "kind": "item",
    "name": "Yellow Dyes",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.cooking_oil": {
    "kind": "item",
    "name": "Cooking Oil",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.gems.diamond": {
    "kind": "item",
    "name": "Diamonds",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.dyes": {
    "kind": "item",
    "name": "Dyes",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.eggs": {
    "kind": "item",
    "name": "Eggs",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.gems.emerald": {
    "kind": "item",
    "name": "Emeralds",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.gems": {
    "kind": "item",
    "name": "Gems",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.nuggets.gold": {
    "kind": "item",
    "name": "Gold Nuggets",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.ingots": {
    "kind": "item",
    "name": "Ingots",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.ingots.iron": {
    "kind": "item",
    "name": "Iron Ingots",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.nuggets.iron": {
    "kind": "item",
    "name": "Iron Nuggets",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.nuggets": {
    "kind": "item",
    "name": "Nuggets",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.ores": {
    "kind": "item",
    "name": "Ores",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.stones": {
    "kind": "item",
    "name": "Stones",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.chests.chests": {
    "kind": "item",
    "name": "Wooden Chests",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "tag:c.rods.wooden": {
    "kind": "item",
    "name": "Wooden Rods",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "v21.0.56"
+ "tagged_version": "v21.0.56",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "21.0.56",
+  "pass": "loop-back",
+  "note": "Shared library; its lang entries are tag names.",
+  "class": "library",
+  "purpose": "Library for Waystones, Forge-family mods and more (tag items are UI)"
+ }
 }

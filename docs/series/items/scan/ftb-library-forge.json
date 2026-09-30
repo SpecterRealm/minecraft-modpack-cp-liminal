@@ -8,6 +8,14 @@
  "item_count": 2,
  "compat": [
   {
+   "id": "architectury",
+   "slug": "architectury-api",
+   "evidence": {
+    "compat-import": 2,
+    "dependency": 1
+   }
+  },
+  {
    "id": "emi",
    "slug": "emi",
    "evidence": {
@@ -27,18 +35,35 @@
    "kind": "item",
    "name": "Fluid Container",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftblibrary:icon_item": {
    "kind": "item",
    "name": "FTB Icon",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "v2101.1.31"
+ "tagged_version": "v2101.1.31",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "2101.1.31",
+  "pass": "loop-back",
+  "note": "Shared FTB library.",
+  "class": "library",
+  "purpose": "FTB library; required by FTB Quests and Teams"
+ }
 }

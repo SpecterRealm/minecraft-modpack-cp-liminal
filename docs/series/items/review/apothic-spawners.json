@@ -1,0 +1,30 @@
+{
+ "class": "content",
+ "purpose": "Spawner control for Apotheosis",
+ "note": "Spawner block tweaks.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^spawner$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:machine",
+    "function:farm"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

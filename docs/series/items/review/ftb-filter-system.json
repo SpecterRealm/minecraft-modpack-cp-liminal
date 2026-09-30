@@ -1,0 +1,19 @@
+{
+ "class": "library",
+ "purpose": "FTB filter system; used by FTB Quests",
+ "note": "Smart filter item and library.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

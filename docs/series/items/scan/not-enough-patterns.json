@@ -48,6 +48,15 @@
    }
   },
   {
+   "id": "ae2wtlib",
+   "slug": "applied-energistics-2-wireless-terminals",
+   "evidence": {
+    "compat-import": 1,
+    "dependency": 1,
+    "isLoaded": 1
+   }
+  },
+  {
    "id": "brandonscore",
    "slug": "brandons-core",
    "evidence": {
@@ -136,109 +145,178 @@
    "kind": "item",
    "name": "Mechanical Crafting Pattern",
    "tags": [
+    "needs:none",
+    "kind:gadget",
     "function:automate",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:andesite_crafting_pattern": {
    "kind": "item",
    "name": "Andesite Crafting Pattern",
    "tags": [
+    "needs:none",
+    "kind:gadget",
     "function:automate",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:sequenced_assembly_pattern": {
    "kind": "item",
    "name": "Sequenced Assembly Pattern",
    "tags": [
+    "needs:none",
+    "kind:gadget",
     "function:automate",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:fusion_crafting_pattern": {
    "kind": "item",
    "name": "Fusion Crafting Pattern",
    "tags": [
-    "kind:multiblock",
+    "needs:none",
+    "kind:gadget",
     "function:automate",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:empowering_pattern": {
    "kind": "item",
    "name": "Empowering Pattern",
    "tags": [
+    "needs:none",
+    "kind:gadget",
     "function:automate",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:atomic_reconstruction_pattern": {
    "kind": "item",
    "name": "Atomic Reconstruction Pattern",
    "tags": [
+    "needs:none",
+    "kind:gadget",
     "function:automate",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:import_card": {
    "kind": "item",
    "name": "Import Card",
    "tags": [
+    "needs:none",
     "kind:gadget",
-    "review:auto"
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:sequenced_assembly_controller": {
    "kind": "block",
    "name": "Sequenced Assembly Controller",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:sequenced_assembly_linker": {
    "kind": "item",
    "name": "Sequenced Assembly Linker",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:machine_hub": {
    "kind": "block",
    "name": "Machine Hub",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "kind:gadget",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:hub_linker": {
    "kind": "item",
    "name": "Hub Linker",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "kind:gadget",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:sequenced_assembly_matrix": {
    "kind": "block",
    "name": "Assembly Matrix",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:matrix_circuitry": {
    "kind": "item",
    "name": "Matrix Circuitry",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:empowered_matrix_circuitry": {
    "kind": "item",
    "name": "Empowered Matrix Circuitry",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:hardened_obsidian_plate": {
@@ -246,7 +324,11 @@
    "name": "Hardened Obsidian Plate",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:incomplete_hardened_obsidian_plate": {
@@ -254,14 +336,22 @@
    "name": "Incomplete Hardened Obsidian Plate",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:incomplete_sequenced_assembly_matrix": {
    "kind": "item",
    "name": "Incomplete Assembly Matrix",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:fusion_matrix": {
@@ -269,7 +359,11 @@
    "name": "Injector Fusion Matrix",
    "tags": [
     "kind:multiblock",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:atomic_empowering_matrix": {
@@ -277,15 +371,24 @@
    "name": "Atomic Empowering Matrix",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:miniaturization_pattern": {
    "kind": "item",
    "name": "Miniaturization Pattern",
    "tags": [
+    "needs:none",
+    "kind:gadget",
     "function:automate",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:miniaturization_matrix": {
@@ -293,7 +396,11 @@
    "name": "Miniaturization Matrix",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:miniaturization_controller": {
@@ -301,32 +408,50 @@
    "name": "Miniaturization Controller",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:infusion_pattern": {
    "kind": "item",
    "name": "Infusion Pattern",
    "tags": [
+    "needs:none",
+    "kind:gadget",
     "function:automate",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:awakening_pattern": {
    "kind": "item",
    "name": "Awakening Pattern",
    "tags": [
+    "needs:none",
+    "kind:gadget",
     "function:automate",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:enchanting_pattern": {
    "kind": "item",
    "name": "Enchanting Pattern",
    "tags": [
+    "needs:none",
+    "kind:gadget",
     "function:automate",
-    "function:enchant",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "nep:infused_awakening_matrix": {
@@ -334,11 +459,24 @@
    "name": "Infused Awakening Matrix",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "v0.5.1+1.21.1"
+ "tagged_version": "v0.5.1+1.21.1",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "0.5.1+1.21.1",
+  "pass": "loop-back",
+  "note": "Adds AE2 pattern types (mechanical crafting, sequenced assembly, fusion, empowering, atomic reconstruction) and sequenced-assembly controllers. Built-in support: AE2, Create, Draconic Evolution, Mystical Agriculture, Placebo, ProjectE Integration.",
+  "class": "ae2-addon",
+  "purpose": "AE2 patterns for Create, sequenced assembly and more"
+ }
 }

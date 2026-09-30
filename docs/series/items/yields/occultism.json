@@ -1,0 +1,15 @@
+{
+ "mod": "occultism",
+ "version": "release/v1.21.1-1.224.4",
+ "source": "src/generated/resources/data/occultism/recipe/miner/ores and crushing",
+ "entries": [
+  {
+   "resource": "iron",
+   "form": "miner spirit -> ore (mining dimension) -> crush",
+   "source": "miner_djinni_ores / dimensional mineshaft",
+   "power": "none (spirit labor, ritual-made)",
+   "stage": "scale",
+   "note": "Miner recipe returns c:ores/iron with weight 750 among ore results (weights for other ores differ; recipe exists only when ores exist in the tag). Occultism crushing turns 1 iron ore into 2 iron dust (x2), 1 raw iron into 2 dust. Needs ritual tier items and does not need world ore."
+  }
+ ]
+}

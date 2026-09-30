@@ -1,0 +1,45 @@
+{
+ "class": "content",
+ "purpose": "Adds the Twilight Forest dimension with bosses, loot and a large block set",
+ "note": "Adds a whole dimension (995 items): boss progression, armor/tool tiers (ironwood, steeleaf, knightmetal, fiery, arctic), naturally generated content, many decorative blocks. Entering needs a portal from the overworld. Not a pillar of any pack; kept for extra things to do (audit: cut if no story role). Built-in support: supported by Bookshelf and Enchantment Descriptions only; nothing else in the pack integrates with it.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^(.*_(helmet|chestplate|leggings|boots))$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:armor",
+    "function:defend"
+   ]
+  },
+  {
+   "match": "^(.*_(sword|axe|pickaxe|shovel|hoe|bow|crossbow))$",
+   "clear": [
+    "kind"
+   ],
+   "set": [
+    "kind:tool"
+   ]
+  },
+  {
+   "match": ".",
+   "set": [
+    "role:optional"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

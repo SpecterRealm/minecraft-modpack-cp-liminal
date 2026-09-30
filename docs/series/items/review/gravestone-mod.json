@@ -1,0 +1,28 @@
+{
+ "class": "qol-gameplay",
+ "purpose": "Gravestone on death",
+ "note": "Gravestone and obituary; death recovery QoL.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^gravestone$",
+   "clear": [
+    "kind"
+   ],
+   "set": [
+    "kind:block"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

@@ -36,7 +36,12 @@
    "name": "Conjure Island: Blazing",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "kind:consumable",
+    "function:enchant",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_caelum:ritual_conjure_island_cascading": {
@@ -44,16 +49,25 @@
    "name": "Conjure Island: Cascading",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "kind:consumable",
+    "function:enchant",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_caelum:ritual_conjure_island_end_portal": {
    "kind": "item",
    "name": "Conjure Island: End Portal",
    "tags": [
-    "function:travel",
     "needs:spell-tech",
-    "review:auto"
+    "kind:consumable",
+    "function:enchant",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_caelum:ritual_conjure_island_flourishing": {
@@ -61,7 +75,12 @@
    "name": "Conjure Island: Flourishing",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "kind:consumable",
+    "function:enchant",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_caelum:ritual_conjure_island_geode": {
@@ -69,7 +88,12 @@
    "name": "Conjure Island: Geode",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "kind:consumable",
+    "function:enchant",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_caelum:ritual_conjure_island_sculk": {
@@ -77,7 +101,12 @@
    "name": "Conjure Island: Deep Dark",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "kind:consumable",
+    "function:enchant",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_caelum:ritual_conjure_island_starter": {
@@ -85,7 +114,12 @@
    "name": "Conjure Island: Starter",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "kind:consumable",
+    "function:enchant",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_caelum:ritual_conjure_island_vexing": {
@@ -93,7 +127,12 @@
    "name": "Conjure Island: Vexing",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "kind:consumable",
+    "function:enchant",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_caelum:ritual_conjure_island_village": {
@@ -101,7 +140,12 @@
    "name": "Conjure Island: Village",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "kind:consumable",
+    "function:enchant",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_caelum:ritual_elder_summon": {
@@ -109,16 +153,25 @@
    "name": "Summon Guardians",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "kind:consumable",
+    "function:enchant",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_caelum:ritual_mana_regeneration": {
    "kind": "item",
    "name": "Mana Regeneration",
    "tags": [
-    "power-type:mana",
     "needs:spell-tech",
-    "review:auto"
+    "kind:consumable",
+    "function:enchant",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   },
   "ars_caelum:ritual_sedimentation": {
@@ -126,11 +179,25 @@
    "name": "Sedimentation",
    "tags": [
     "needs:spell-tech",
-    "review:auto"
+    "kind:consumable",
+    "function:enchant",
+    "power-role:none",
+    "power-type:none",
+    "feel:magic",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21.x"
+ "tagged_version": "1.21.x",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.x",
+  "pass": "loop-back",
+  "note": "Rituals that conjure islands and summon; used for skyblock-style ritual sources. Built-in support: Ars Nouveau (required).",
+  "class": "content",
+  "purpose": "Ars ritual islands"
+ }
 }

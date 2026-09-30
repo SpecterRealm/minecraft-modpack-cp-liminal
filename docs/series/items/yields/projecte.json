@@ -1,0 +1,23 @@
+{
+ "mod": "projecte",
+ "version": "mc1.21.1",
+ "source": "mod design (EMC); values unverified",
+ "entries": [
+  {
+   "resource": "iron",
+   "form": "EMC -> transmutation table",
+   "source": "transmutation",
+   "power": "none (EMC)",
+   "stage": "scale",
+   "note": "Learn an item once, then buy copies with EMC. Standard ProjectE EMC for an iron ingot is 256 (unverified; check config and any pack overrides). In Influx, EMC is meant to be earned late ('pattern first, then convert')."
+  },
+  {
+   "resource": "any",
+   "form": "EMC -> transmutation table",
+   "source": "transmutation",
+   "power": "none (EMC)",
+   "stage": "scale",
+   "note": "Every learned item is obtainable with EMC; this is the series' endgame way to make anything."
+  }
+ ]
+}

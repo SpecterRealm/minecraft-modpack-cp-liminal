@@ -1,0 +1,31 @@
+{
+ "class": "content",
+ "purpose": "Enchanting tables and shelves (hellshelf, seashelf, deepshelf)",
+ "note": "Tiered enchanting tables and shelf families that raise enchant levels. Built-in support: Apotheosis (required), Placebo, supported by Hostile Neural Networks and Occultism.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "(_enchanting_table|shelf)",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:block",
+    "function:enchant",
+    "scale:tiered"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

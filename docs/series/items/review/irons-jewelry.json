@@ -1,0 +1,39 @@
+{
+ "class": "content",
+ "purpose": "Jewelry crafting for Iron's Spells",
+ "note": "Jewelcrafting station with rings and necklaces from gems. Built-in support: supports Iron's Spells.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^(ring|necklace)$",
+   "clear": [
+    "kind"
+   ],
+   "set": [
+    "kind:gadget"
+   ]
+  },
+  {
+   "match": "^jewelcrafting_station$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:machine",
+    "function:craft"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

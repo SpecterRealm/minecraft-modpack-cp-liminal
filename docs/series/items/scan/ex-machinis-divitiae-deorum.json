@@ -29,33 +29,59 @@
    "kind": "block",
    "name": "Flux Compactor",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "role:core",
+    "needs:none",
+    "kind:machine",
+    "function:process",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "exmachinis:flux_hammer": {
    "kind": "block",
    "name": "Flux Hammer",
    "tags": [
-    "kind:tool",
-    "review:auto"
+    "role:core",
+    "needs:none",
+    "kind:machine",
+    "function:process",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "exmachinis:flux_sieve": {
    "kind": "block",
    "name": "Flux Sieve",
    "tags": [
+    "role:core",
+    "needs:none",
     "kind:machine",
     "function:process",
-    "review:auto"
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "exmachinis:item_buffer": {
    "kind": "block",
    "name": "Item Buffer",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "kind:machine",
+    "function:store",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "exmachinis:comparator_upgrade": {
@@ -63,7 +89,11 @@
    "name": "Comparator Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "exmachinis:diamond_upgrade": {
@@ -71,7 +101,11 @@
    "name": "Diamond Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "exmachinis:gold_upgrade": {
@@ -79,7 +113,11 @@
    "name": "Gold Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "exmachinis:netherite_upgrade": {
@@ -88,11 +126,23 @@
    "tags": [
     "kind:gadget",
     "needs:nether",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "v4.0.2"
+ "tagged_version": "v4.0.2",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "4.0.2",
+  "pass": "loop-back",
+  "note": "Flux sieve, flux hammer, flux compactor and item buffer: the powered, automated sieve chain for Ex Deorum (Verdant scale step). Built-in support: Ex Deorum (required).",
+  "class": "content",
+  "purpose": "FE-powered sieve and hammer for Ex Deorum"
+ }
 }

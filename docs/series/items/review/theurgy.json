@@ -1,0 +1,143 @@
+{
+ "note": "Alchemy pillar: metals from alchemical sulfur. Liquefaction turns 1 ore into 5 sulfur (with sal ammoniac), and incubation turns sulfur plus mineral salt and a mercury shard into an ingot (see yields/theurgy.json). Machines are not FE-powered (heat/mercury flux). Logistics nodes move items and fluids. Built-in support: Occultism and Productive Bees reference it; supports nothing else in the pack beyond tags.",
+ "rules": [
+  {
+   "match": "\\.|_icon$|^empty_.*",
+   "ui": true
+  },
+  {
+   "match": "^(calcination_oven|digestion_vat|distiller|fermentation_vat|incubator|liquefaction_cauldron|pyromantic_brazier)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:process",
+    "function:craft",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech",
+    "role:core"
+   ]
+  },
+  {
+   "match": "^(incubator_(mercury|salt|sulfur)_vessel|mercury_catalyst|reformation_(result|source|target)_pedestal|sal_ammoniac_accumulator|sal_ammoniac_tank)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech"
+   ]
+  },
+  {
+   "match": "^logistics_.*$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:transfer",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech"
+   ]
+  },
+  {
+   "match": "^(.*ore)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "needs:ore"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(.*divination_rod.*|amethyst_divination_rod|sulfur_attuned_.*|mercurial_wand|attribute_filter|list_filter)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:tool",
+    "function:mine",
+    "needs:spell-tech"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(mercurial_wand|attribute_filter|list_filter)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:tool",
+    "function:automate",
+    "needs:spell-tech"
+   ]
+  },
+  {
+   "match": "^(mercury_crystal|mercury_shard|sal_ammoniac_crystal|crystallized_lava|crystallized_water|fermentation_starter|purified_gold|.*_wire)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:spell-tech"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "_bucket$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:tool",
+    "needs:spell-tech"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech"
+   ]
+  }
+ ]
+}

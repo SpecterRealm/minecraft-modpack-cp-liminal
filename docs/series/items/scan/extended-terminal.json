@@ -24,6 +24,14 @@
    }
   },
   {
+   "id": "ae2wtlib",
+   "slug": "applied-energistics-2-wireless-terminals",
+   "evidence": {
+    "data-ref": 3,
+    "dependency": 1
+   }
+  },
+  {
    "id": "cucumber",
    "slug": "cucumber",
    "evidence": {
@@ -45,6 +53,15 @@
    }
   },
   {
+   "id": "myotus",
+   "slug": "myotus-lib",
+   "evidence": {
+    "compat-import": 25,
+    "data-ref": 13,
+    "dependency": 1
+   }
+  },
+  {
    "id": "polymorph",
    "slug": "polymorph",
    "evidence": {
@@ -58,89 +75,143 @@
    "kind": "item",
    "name": "Extended Terminal",
    "tags": [
+    "needs:none",
+    "kind:machine",
     "function:automate",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "extendedterminal:wireless_et_terminal": {
    "kind": "item",
    "name": "Wireless Extended Terminal",
    "tags": [
+    "needs:none",
+    "kind:machine",
     "function:automate",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "extendedterminal:basic_terminal": {
    "kind": "item",
    "name": "Basic Extended Crafting Terminal",
    "tags": [
+    "needs:none",
+    "kind:machine",
     "function:automate",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "extendedterminal:advanced_terminal": {
    "kind": "item",
    "name": "Advanced Extended Crafting Terminal",
    "tags": [
+    "needs:none",
+    "kind:machine",
     "function:automate",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "extendedterminal:elite_terminal": {
    "kind": "item",
    "name": "Elite Extended Crafting Terminal",
    "tags": [
+    "needs:none",
+    "kind:machine",
     "function:automate",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "extendedterminal:ultimate_terminal": {
    "kind": "item",
    "name": "Ultimate Extended Crafting Terminal",
    "tags": [
+    "needs:none",
+    "kind:machine",
     "function:automate",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "extendedterminal:sculk_terminal": {
    "kind": "item",
    "name": "Sculk Crafting Terminal",
    "tags": [
+    "needs:none",
+    "kind:machine",
     "function:automate",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "extendedterminal:nether_terminal": {
    "kind": "item",
    "name": "Nether Crafting Terminal",
    "tags": [
-    "function:automate",
     "needs:nether",
-    "review:auto"
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "extendedterminal:end_terminal": {
    "kind": "item",
    "name": "End Crafting Terminal",
    "tags": [
+    "needs:none",
+    "kind:machine",
     "function:automate",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "extendedterminal:extreme_terminal": {
    "kind": "item",
    "name": "Extreme Crafting Terminal",
    "tags": [
+    "needs:none",
+    "kind:machine",
     "function:automate",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "extendedterminal:neo_extreme_terminal": {
    "kind": "item",
    "name": "Extreme Crafting Terminal",
    "tags": [
+    "needs:none",
+    "kind:machine",
     "function:automate",
-    "review:auto"
+    "power-role:uses",
+    "power-type:fe",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "extendedterminal:compat_processor": {
@@ -149,7 +220,11 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "extendedterminal:printed_compat_processor": {
@@ -158,7 +233,11 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "extendedterminal:compat_press": {
@@ -167,18 +246,35 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   },
   "extendedterminal:charged_ender_pearl": {
    "kind": "item",
    "name": "Charged Ender Pearl",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:tech",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21.1"
+ "tagged_version": "1.21.1",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "Extra AE2 terminal tiers up to \"neo extreme\". Convenience upgrade; overlaps AE2 terminals and Wireless Terminals.",
+  "class": "ae2-addon",
+  "purpose": "Tiered AE2 terminals (extended terminal)"
+ }
 }

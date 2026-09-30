@@ -1,0 +1,15 @@
+{
+ "mod": "replication",
+ "version": "1.21-1.2.7",
+ "source": "lang and mod design; matter costs unverified",
+ "entries": [
+  {
+   "resource": "iron",
+   "form": "scan -> matter -> replicator",
+   "source": "replicator",
+   "power": "FE",
+   "stage": "scale",
+   "note": "Scan an item in the identification chamber, then replicate it from matter. Matter type and cost per item are unverified. Needs FE power."
+  }
+ ]
+}

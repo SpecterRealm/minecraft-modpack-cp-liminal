@@ -1,0 +1,19 @@
+{
+ "class": "content",
+ "purpose": "Capture and pen animals in cages",
+ "note": "Animal cage and bird catcher items for moving animals. Added to Influx. Built-in support: none found.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

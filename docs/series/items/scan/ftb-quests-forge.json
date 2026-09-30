@@ -8,6 +8,28 @@
  "item_count": 48,
  "compat": [
   {
+   "id": "architectury",
+   "slug": "architectury-api",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "ftblibrary",
+   "slug": "ftb-library-forge",
+   "evidence": {
+    "compat-import": 2,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "ftbteams",
+   "slug": "ftb-teams-forge",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
    "id": "ftbxmodcompat",
    "slug": "ftb-xmod-compat",
    "evidence": {
@@ -20,233 +42,301 @@
    "kind": "block",
    "name": "Broken Block / Missing Data!",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:aux_task_screen": {
    "kind": "block",
    "name": "Task Screen",
    "tags": [
+    "needs:none",
     "kind:block",
-    "review:auto"
+    "function:research",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:screen_1": {
    "kind": "block",
    "name": "Task Screen (1x1)",
    "tags": [
+    "needs:none",
     "kind:block",
-    "review:auto"
+    "function:research",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:screen_3": {
    "kind": "block",
    "name": "Task Screen (3x3)",
    "tags": [
+    "needs:none",
     "kind:block",
-    "review:auto"
+    "function:research",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:screen_5": {
    "kind": "block",
    "name": "Task Screen (5x5)",
    "tags": [
+    "needs:none",
     "kind:block",
-    "review:auto"
+    "function:research",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:screen_7": {
    "kind": "block",
    "name": "Task Screen (7x7)",
    "tags": [
+    "needs:none",
     "kind:block",
-    "review:auto"
+    "function:research",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:screen.task_index": {
    "kind": "block",
    "name": "Task Index",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:screen.size": {
    "kind": "block",
    "name": "Size",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:screen.skin": {
    "kind": "block",
    "name": "Skin",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:screen.indestructible": {
    "kind": "block",
    "name": "Indestructible",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:screen.input_only": {
    "kind": "block",
    "name": "Input Only",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:screen.input_mode_icon": {
    "kind": "block",
    "name": "Input Mode Icon",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:screen.text_shadow": {
    "kind": "block",
    "name": "Draw Text Shadows",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:screen.fullscreen": {
    "kind": "block",
    "name": "Fullscreen",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:screen.hide_icons": {
    "kind": "block",
    "name": "Hide Icons",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:screen.no_permission": {
    "kind": "block",
    "name": "You don't have permission to configure this!",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:progress_detector": {
    "kind": "block",
    "name": "Quest Progress Detector",
    "tags": [
+    "needs:none",
     "kind:block",
-    "review:auto"
+    "function:research",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:progress_detector.object": {
    "kind": "block",
    "name": "Object ID",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:progress_detector.level": {
    "kind": "block",
    "name": "Output Level",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:barrier": {
    "kind": "block",
    "name": "Quest Barrier",
    "tags": [
+    "needs:none",
     "kind:block",
-    "review:auto"
+    "function:research",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:stage_barrier": {
    "kind": "block",
    "name": "Stage Barrier",
    "tags": [
+    "needs:none",
     "kind:block",
-    "review:auto"
+    "function:research",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:barrier.object": {
    "kind": "block",
    "name": "Object ID",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:barrier.invis_when_open": {
    "kind": "item",
    "name": "Invisible when open: %s",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:detector": {
    "kind": "block",
    "name": "Quest Detector",
    "tags": [
+    "needs:none",
     "kind:block",
-    "review:auto"
+    "function:research",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:detector.task": {
    "kind": "block",
    "name": "Task",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:detector.notifications": {
    "kind": "block",
    "name": "Notifications",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:detector.redstone": {
    "kind": "block",
    "name": "Redstone Detector",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:detector.redstone.required_redstone": {
    "kind": "block",
    "name": "Required Redstone Level",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:detector.player": {
    "kind": "block",
    "name": "Player Detector",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:detector.player.radius": {
    "kind": "block",
    "name": "Radius",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:detector.player.offset_y": {
    "kind": "block",
    "name": "Offset Y",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:detector.player.height": {
    "kind": "block",
    "name": "Height",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:progress_screen": {
@@ -254,7 +344,11 @@
    "name": "Progress Screen",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:chest": {
@@ -263,28 +357,35 @@
    "tags": [
     "function:store",
     "kind:storage",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:chest.transfer_all": {
    "kind": "block",
    "name": "Auto-Transfer All Items",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:chest.input": {
    "kind": "block",
    "name": "Input Slot",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:chest.output": {
    "kind": "block",
    "name": "Output Slot",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:loot_crate_storage": {
@@ -293,7 +394,11 @@
    "tags": [
     "function:store",
     "kind:storage",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:loot_crate_opener": {
@@ -302,49 +407,62 @@
    "tags": [
     "function:store",
     "kind:storage",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:loot_crate_opener.rightclick": {
    "kind": "block",
    "name": "Stored items: %d",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:missing_item": {
    "kind": "item",
    "name": "Missing Item",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:barrier.rightclick": {
    "kind": "item",
    "name": "Right-click to configure settings\nMiddle-click to pick a copy, including settings",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:barrier.object.quest_barrier": {
    "kind": "item",
    "name": "Configured Quest: %s",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:barrier.object.stage_barrier": {
    "kind": "item",
    "name": "Configured Stage: %s",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:barrier.skin": {
    "kind": "item",
    "name": "Appears As: %s",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:lootcrate": {
@@ -353,25 +471,43 @@
    "tags": [
     "function:store",
     "kind:storage",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:lootcrate.missing": {
    "kind": "item",
    "name": "ERROR: unknown loot crate '%s'!",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "ftbquests:custom_icon": {
    "kind": "item",
    "name": "Custom Icon",
    "tags": [
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "v2101.1.24"
+ "tagged_version": "v2101.1.24",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "2101.1.24",
+  "pass": "loop-back",
+  "note": "Quest book and blocks (task screens, barriers, detectors, stage barrier); the pack's progression UI.",
+  "class": "qol-gameplay",
+  "purpose": "Quest system (FTB Quests)"
+ }
 }

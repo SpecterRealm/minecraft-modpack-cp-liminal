@@ -1,0 +1,62 @@
+{
+ "note": "Wireless FE networks: flux plugs and points link machines through a controller, with flux storage tiers (basic, herculean, gargantuan). Flux dust is made from redstone. Built-in support: supported by Mekanism, Productive Bees and Sophisticated Backpacks.",
+ "rules": [
+  {
+   "match": "^(flux_point|flux_plug|flux_controller)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "_flux_storage$|^flux_storage$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "scale:tiered",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(flux_block|flux_dust|flux_core)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:none"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

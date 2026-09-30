@@ -29,6 +29,13 @@
    }
   },
   {
+   "id": "ae2wtlib",
+   "slug": "applied-energistics-2-wireless-terminals",
+   "evidence": {
+    "data-ref": 4
+   }
+  },
+  {
    "id": "emi",
    "slug": "emi",
    "evidence": {
@@ -49,7 +56,8 @@
    "name": "ME Pattern Encoding Access Terminal",
    "tags": [
     "function:automate",
-    "review:auto"
+    "feel:tech",
+    "review:checked"
    ]
   },
   "ae2peat:wireless_pattern_encoding_access_terminal": {
@@ -57,11 +65,21 @@
    "name": "Wireless Pattern Encoding Access Terminal",
    "tags": [
     "function:automate",
-    "review:auto"
+    "feel:tech",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "neoforge/v1.21.1-1.1.0-rc.1"
+ "tagged_version": "neoforge/v1.21.1-1.1.0-rc.1",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "neoforge/v1.21.1-1.1.0-rc.1",
+  "pass": "loop-back",
+  "note": "AE2 add-on (terminal, pattern or network feature)",
+  "class": "ae2-addon",
+  "purpose": "AE2 add-on (terminal, pattern or network feature)"
+ }
 }

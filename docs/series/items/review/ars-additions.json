@@ -1,0 +1,19 @@
+{
+ "class": "content",
+ "purpose": "QoL additions for Ars Nouveau (curios, sources, mechanical)",
+ "note": "Additions: extra tools, curios, source generators/collectors. Built-in support: Ars Nouveau (required).",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:spell-tech"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "note": "Mob loot machines: a deep learner trains data models, a simulation chamber generates predictions, and the loot fabricator turns predictions into mob drops (so a path to iron, bone, ender pearls without a farm). All FE machines. Nether and End predictions need those dimensions' data. Influx owns this mod. Built-in support: Placebo (required); none other found.",
+ "rules": [
+  {
+   "match": "^(loot_fabricator|sim_chamber|data_center|data_center_io_port|deep_learner)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:process",
+    "function:farm",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "role:core"
+   ]
+  },
+  {
+   "match": "^(data_model|blank_data_model|prediction|prediction_matrix|overworld_prediction|nether_prediction|end_prediction|twilight_prediction|fab_directive)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "function:research",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(nether_prediction)$",
+   "set": [
+    "needs:nether"
+   ]
+  },
+  {
+   "match": "^(end_prediction)$",
+   "set": [
+    "needs:end"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

@@ -103,6 +103,14 @@ def one(mod, info, slugs, work):
 def cmd_run(a):
     src = json.load(open(os.path.join(ITEMS, "sources.json")))["mods"]
     slugs = compat.pack_slugs(a.root)
+    # resolve mod ids that differ from the file slug (e.g. "architectury" -> architectury-api) using earlier scans
+    for p in glob.glob(os.path.join(SCAN, "*.json")):
+        try:
+            ex = json.load(open(p))
+        except Exception:
+            continue
+        for mid in ex.get("mod_ids", []):
+            slugs.setdefault(compat.norm(mid), os.path.basename(p)[:-5])
     todo = {k: v for k, v in src.items() if v.get("repo") and (not a.only or k in a.only)}
     os.makedirs(SCAN, exist_ok=True)
     os.makedirs(a.work, exist_ok=True)

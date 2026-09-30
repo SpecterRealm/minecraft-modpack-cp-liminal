@@ -1,0 +1,29 @@
+{
+ "class": "qol-gameplay",
+ "purpose": "More stack upgrade tiers for Sophisticated Backpacks and Storage",
+ "note": "Extends the stack upgrade tiers (decided: keep in all four packs).",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^stack_upgrade_.*$",
+   "clear": [
+    "kind"
+   ],
+   "set": [
+    "kind:gadget",
+    "scale:tiered"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

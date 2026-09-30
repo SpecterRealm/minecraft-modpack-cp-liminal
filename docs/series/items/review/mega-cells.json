@@ -1,0 +1,82 @@
+{
+ "class": "ae2-addon",
+ "purpose": "Bigger AE2 storage cells and crafting (1M to 256M)",
+ "note": "Adds million-scale AE2 cells, mega crafting CPUs and interfaces, and an EMC interface for ProjectE; storage tiers past AE2's 256k. Overlaps MEGA-style scaling in other AE2 add-ons but is the only one for cells. Built-in support: AE2, Mekanism, ProjectE (EMC interface), Not Enough Patterns, Productive Bees.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^(mega_.*|.*_crafting_storage|cable_mega_.*|cell_dock)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(.*storage_cell_.*|cell_component_.*|bulk_item_cell|bulk_cell_component)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:storage",
+    "function:store",
+    "scale:tiered",
+    "needs:none"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(compression_card|decompression_module|greater_energy_card)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "function:automate",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(sky_.*_block|accumulation_processor.*)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:none"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

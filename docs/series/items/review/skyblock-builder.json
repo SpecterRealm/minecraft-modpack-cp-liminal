@@ -1,0 +1,25 @@
+{
+ "class": "qol-gameplay",
+ "purpose": "Skyblock structure tools (spawn block, structure saver)",
+ "note": "Dev tools for island templates; used in void starts. Remove once Elysian/Influx structures are final.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": ".",
+   "set": [
+    "role:dev-only"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

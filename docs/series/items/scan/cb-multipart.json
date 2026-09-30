@@ -23,7 +23,11 @@
    "name": "Stone Saw",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "cb_microblock:iron_saw": {
@@ -31,7 +35,11 @@
    "name": "Iron Saw",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "cb_microblock:gold_saw": {
@@ -39,7 +47,11 @@
    "name": "Gold Saw",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "cb_microblock:diamond_saw": {
@@ -47,7 +59,11 @@
    "name": "Diamond Saw",
    "tags": [
     "kind:tool",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "cb_microblock:netherite_saw": {
@@ -56,7 +72,10 @@
    "tags": [
     "kind:tool",
     "needs:nether",
-    "review:auto"
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "cb_microblock:stone_rod": {
@@ -64,95 +83,120 @@
    "name": "Stone Rod",
    "tags": [
     "kind:material",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "cb_microblock:face.1": {
    "kind": "item",
    "name": "%s Cover",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "cb_microblock:face.2": {
    "kind": "item",
    "name": "%s Panel",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "cb_microblock:face.4": {
    "kind": "item",
    "name": "%s Slab",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "cb_microblock:hollow.1": {
    "kind": "item",
    "name": "Hollow %s Cover",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "cb_microblock:hollow.2": {
    "kind": "item",
    "name": "Hollow %s Panel",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "cb_microblock:hollow.4": {
    "kind": "item",
    "name": "Hollow %s Slab",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "cb_microblock:edge.1": {
    "kind": "item",
    "name": "%s Strip",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "cb_microblock:edge.2": {
    "kind": "item",
    "name": "%s Post",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "cb_microblock:edge.4": {
    "kind": "item",
    "name": "%s Pillar",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "cb_microblock:corner.1": {
    "kind": "item",
    "name": "%s Nook",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "cb_microblock:corner.2": {
    "kind": "item",
    "name": "%s Corner",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   },
   "cb_microblock:corner.4": {
    "kind": "item",
    "name": "%s Notch",
    "tags": [
-    "review:auto"
+    "feel:neutral",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21.1"
+ "tagged_version": "1.21.1",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "Multipart library with saws and rods; required by Translocators and Ender Storage.",
+  "class": "library",
+  "purpose": "CB Multipart: microblocks (saw, face, edge, corner parts); library for Translocators/Ender Storage"
+ }
 }

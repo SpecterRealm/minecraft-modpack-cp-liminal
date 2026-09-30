@@ -56,6 +56,13 @@
    "evidence": {
     "compat-import": 2
    }
+  },
+  {
+   "id": "twilightforest",
+   "slug": "the-twilight-forest",
+   "evidence": {
+    "data-ref": 12
+   }
   }
  ],
  "items": {
@@ -63,8 +70,13 @@
    "kind": "block",
    "name": "Market",
    "tags": [
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "kind:machine",
+    "function:farm",
+    "power-role:none",
+    "power-type:none",
+    "feel:nature",
+    "review:checked"
    ]
   },
   "farmingforblockheads:chicken_nest": {
@@ -72,7 +84,11 @@
    "name": "Chicken Nest",
    "tags": [
     "kind:food",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:nature",
+    "review:checked"
    ]
   },
   "farmingforblockheads:feeding_trough": {
@@ -80,7 +96,11 @@
    "name": "Feeding Trough",
    "tags": [
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:nature",
+    "review:checked"
    ]
   },
   "farmingforblockheads:fertilized_farmland_rich": {
@@ -89,7 +109,11 @@
    "tags": [
     "function:farm",
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:nature",
+    "review:checked"
    ]
   },
   "farmingforblockheads:fertilized_farmland_healthy": {
@@ -98,7 +122,11 @@
    "tags": [
     "function:farm",
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:nature",
+    "review:checked"
    ]
   },
   "farmingforblockheads:fertilized_farmland_stable": {
@@ -107,7 +135,11 @@
    "tags": [
     "function:farm",
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:nature",
+    "review:checked"
    ]
   },
   "farmingforblockheads:fertilized_farmland_rich_stable": {
@@ -116,7 +148,11 @@
    "tags": [
     "function:farm",
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:nature",
+    "review:checked"
    ]
   },
   "farmingforblockheads:fertilized_farmland_healthy_stable": {
@@ -125,7 +161,11 @@
    "tags": [
     "function:farm",
     "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:nature",
+    "review:checked"
    ]
   },
   "farmingforblockheads:red_fertilizer": {
@@ -133,7 +173,11 @@
    "name": "Red Fertilizer",
    "tags": [
     "function:farm",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:nature",
+    "review:checked"
    ]
   },
   "farmingforblockheads:green_fertilizer": {
@@ -141,7 +185,11 @@
    "name": "Green Fertilizer",
    "tags": [
     "function:farm",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:nature",
+    "review:checked"
    ]
   },
   "farmingforblockheads:yellow_fertilizer": {
@@ -149,7 +197,11 @@
    "name": "Yellow Fertilizer",
    "tags": [
     "function:farm",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:nature",
+    "review:checked"
    ]
   },
   "farmingforblockheads:merchant": {
@@ -157,11 +209,24 @@
    "name": "Merchant",
    "tags": [
     "kind:mob",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "feel:nature",
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "v21.1.13"
+ "tagged_version": "v21.1.13",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "21.1.13",
+  "pass": "loop-back",
+  "note": "A market for trading crops plus farm helpers. Built-in support: Botany Pots, Productive Trees, Farmer's Delight, Mekanism... (supports Create and others).",
+  "class": "content",
+  "purpose": "Market, chicken nest and fertilized farmland"
+ }
 }
