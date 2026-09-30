@@ -120,6 +120,20 @@ Tech-feel mods in Elysian (pure tech, no magic co-feel): mystical-automation
 
 **Influx:** nature (10); breeding (4); tech (4); sci-fi (4); neutral (4); alchemy (1)
 
+## Stage matrix (a mod can sit in several stages)
+
+A mod lists every stage it serves. A stage with nothing under a pack is a gap; a stage with several mods for the same job is overlap to resolve.
+
+| Stage | Verdant | Elysian | Influx |
+|---|---|---|---|
+| 0 Start (shelter, food) | akashic-tome, comforts, farmers-delight, farming-for-blockheads, tough-as-nails, wooden-shears | akashic-tome, comforts, farmers-delight, farming-for-blockheads, tough-as-nails, wooden-shears | akashic-tome, comforts, farmers-delight, farming-for-blockheads, wooden-shears |
+| 1 Manual gathering | create-cobblestone, ex-deorum, farmers-delight, mekanism-tools, silent-gear, wooden-shears | ars-caelum, ars-nouveau, farmers-delight, silent-gear, wooden-shears | farmers-delight, silent-gear, wooden-shears |
+| 2 Storage and sorting | applied-energistics-2, extended-terminal, mekanism, more-tier-upgrade, simple-magnets, sophisticated-backpacks, sophisticated-storage | more-tier-upgrade, simple-magnets, sophisticated-backpacks, sophisticated-storage | applied-energistics-2, more-tier-upgrade, simple-magnets, sophisticated-backpacks, sophisticated-storage |
+| 3 Automate gathering | create, create-cobblestone, ex-deorum, farming-for-blockheads, mekanism, mekanism-generators, mob-grinding-utils | ars-additions, ars-caelum, ars-controle, ars-nouveau, botany-pots, botany-trees, farming-for-blockheads, mystical-agriculture, occultism | agricraft-rereloaded, animal-pens, azurum-miner, botany-pots, botany-trees, farming-for-blockheads, hostile-neural-networks, productivebees, productivefarming, productivetrees |
+| 4 Automate processing | applied-energistics-2, create, createaddition, ex-machinis-divitiae-deorum, mekanism, mekanism-generators, powah, silent-gear | ars-nouveau, occultism, silent-gear, theurgy | applied-energistics-2, projecte, replication, silent-gear |
+| 5 Scale loop | advancedae, applied-energistics-2, better-fusion-reactor-for-mekanism, charging-gadgets, create, extreme-reactors, flux-networks, mega-cells, mekanism, mekanism-generators, mekanism-unleashed, powah | botany-pots-tiers, mystical-agriculture, mystical-automation, occultism | applied-energistics-2, botany-pots-tiers, extreme-reactors, flux-networks, productivebees, projecte, replication |
+| 6 Capstone (content, gear, reason to play) | building-gadgets, building-wands, mekanism, mekanism-tools, silent-gear | apotheosis, apothic-enchanting, apothic-spawners, ars-elemancy, ars-elemental, ars-nouveau, ars-zero, building-wands, gateways-to-eternity, irons-jewelry, irons-spells-n-spellbooks, not-enough-glyphs, occultism, silent-gear | silent-gear |
+
 ## Main add by pack
 
 What each pack's non-library mods mainly contribute; a pack with nothing under a heading has a gap there.

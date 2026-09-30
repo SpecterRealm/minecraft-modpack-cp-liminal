@@ -84,6 +84,16 @@ def report(root):
             print(f"\nTech-feel mods in Elysian (pure tech, no magic co-feel): " + ", ".join(sorted(m for m, p in mods.items() if "E" in mem.get(m, "") and "tech" in p["feel"] and "magic" not in p["feel"] and p["add"] not in skip)) + "\n")
         if L == "V":
             print(f"\nMagic-feel mods in Verdant: " + (", ".join(sorted(m for m, p in mods.items() if "V" in mem.get(m, "") and "magic" in p["feel"] and p["add"] not in skip)) or "none") + "\n")
+    STAGES = {0: "Start (shelter, food)", 1: "Manual gathering", 2: "Storage and sorting", 3: "Automate gathering", 4: "Automate processing", 5: "Scale loop", 6: "Capstone (content, gear, reason to play)"}
+    print("\n## Stage matrix (a mod can sit in several stages)\n")
+    print("A mod lists every stage it serves. A stage with nothing under a pack is a gap; a stage with several mods for the same job is overlap to resolve.\n")
+    print("| Stage | Verdant | Elysian | Influx |\n|---|---|---|---|")
+    for st, label in STAGES.items():
+        cols = []
+        for L in "VEI":
+            ms = sorted(m for m, p in mods.items() if L in mem.get(m, "") and st in p.get("stages", []))
+            cols.append(", ".join(ms) or "**none**")
+        print(f"| {st} {label} | " + " | ".join(cols) + " |")
     print("\n## Main add by pack\n")
     print("What each pack's non-library mods mainly contribute; a pack with nothing under a heading has a gap there.\n")
     print("| Main add | Verdant | Elysian | Influx |\n|---|---|---|---|")
