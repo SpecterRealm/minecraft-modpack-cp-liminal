@@ -58,7 +58,7 @@ RULES = [
     (W("magnet", "jetpack", "goggles", "radar", "scanner", "remote", "tablet", "card", "upgrade", "module", "binding", "compass", "map", "charm", "ring", "amulet", "necklace", "belt"), ["kind:gadget"]),
     (W("potion", "elixir", "scroll", "tonic", "pill", "bandage", "medkit", "canteen", "spawn_egg", "flask", "vial", "tincture"), ["kind:consumable"]),
     (W("dust", "ingot", "nugget", "plate", "gear", "rod", "gem", "crystal", "shard", "powder", "sheet", "essence", "catalyst", "flake", "grit", "pellet", "bar", "raw", "scrap", "fragment", "chunk", "slag", "ash", "coal", "lump"), ["kind:material"]),
-    (re.compile(r"(?:^|[_:])(?:raw_[a-z_]+|[a-z_]+_ore|ore_[a-z_]+)$"), ["needs:ore"]),
+    (re.compile(r"(?:^|[_:])(?:raw_[a-z_]+|[a-z_]+_ore|ore_(?!chunk)[a-z_]+)$"), ["needs:ore"]),
     (W("nether", "netherite", "blaze", "wither", "soul", "ghast", "crimson", "warped", "basalt", "blackstone"), ["needs:nether"]),
     (W("end_stone", "end_rod", "chorus", "dragon", "purpur", "end_crystal", "shulker"), ["needs:end"]),
     (W("slab", "stairs", "wall", "fence", "door", "trapdoor", "planks", "log", "leaves", "carpet", "pane", "glass", "banner", "painting", "sign", "bed", "statue", "brick", "bricks", "tile", "pillar", "panel", "wool", "concrete", "terracotta", "stone", "cobblestone", "flower", "moss", "mushroom", "vine", "sand", "gravel", "dirt", "grass", "pot"), ["kind:decoration"]),

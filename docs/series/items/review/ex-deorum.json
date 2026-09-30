@@ -1,0 +1,271 @@
+{
+ "note": "Sieving skyblock engine (Verdant's ore source). Barrels, sieves, crucibles in every wood type, hammers and meshes are the core loop. Ore chunks come from sieving, so they need no ore in the world. Built-in support: AE2 (recipes), Ars Nouveau (archwood variants), plus JEI/EMI/Jade/KubeJS.",
+ "rules": [
+  {
+   "match": "(\\.|_label$|_display$)",
+   "ui": true
+  },
+  {
+   "match": "_ore_chunk$",
+   "clear": [
+    "kind",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:none",
+    "role:core"
+   ]
+  },
+  {
+   "match": "(^|_)(compressed_)?sieve$",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "role:core"
+   ]
+  },
+  {
+   "match": "crucible$",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "role:core"
+   ]
+  },
+  {
+   "match": "barrel$",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:storage",
+    "function:store",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "role:core"
+   ]
+  },
+  {
+   "match": "^mechanical_(sieve|hammer)$",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:process",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "role:core"
+   ]
+  },
+  {
+   "match": "^(compressed_|crushed_|dust$)",
+   "kind": "block",
+   "clear": [
+    "kind",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "netherrack|blackstone",
+   "kind": "block",
+   "set": [
+    "needs:nether"
+   ],
+   "clear": [
+    "needs"
+   ]
+  },
+  {
+   "match": "end_stone",
+   "kind": "block",
+   "set": [
+    "needs:end"
+   ],
+   "clear": [
+    "needs"
+   ]
+  },
+  {
+   "match": "hammer$",
+   "kind": "item",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:tool",
+    "function:process",
+    "role:core"
+   ]
+  },
+  {
+   "match": "^crook$|^bone_crook$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:tool",
+    "function:farm",
+    "role:core"
+   ]
+  },
+  {
+   "match": "watering_can$",
+   "clear": [
+    "kind",
+    "function",
+    "needs"
+   ],
+   "set": [
+    "kind:tool",
+    "function:farm",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "_mesh$",
+   "clear": [
+    "kind",
+    "needs"
+   ],
+   "set": [
+    "kind:ingredient",
+    "needs:none",
+    "role:core"
+   ]
+  },
+  {
+   "match": "(pebble|chippings|porcelain_clay_ball|silkworm$|sculk_core|pottery_sherd|armor_trim|spores|seeds)",
+   "kind": "item",
+   "clear": [
+    "kind",
+    "needs",
+    "function"
+   ],
+   "set": [
+    "kind:ingredient",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "spores$|seeds$",
+   "set": [
+    "function:farm"
+   ]
+  },
+  {
+   "match": "^cooked_silkworm$",
+   "clear": [
+    "kind"
+   ],
+   "set": [
+    "kind:food"
+   ]
+  },
+  {
+   "match": "bucket$",
+   "clear": [
+    "kind"
+   ],
+   "set": [
+    "kind:tool"
+   ]
+  },
+  {
+   "match": "witch_water$",
+   "kind": "block",
+   "clear": [
+    "kind"
+   ],
+   "set": [
+    "kind:fluid"
+   ]
+  },
+  {
+   "match": "^end_cake$",
+   "set": [
+    "needs:end"
+   ],
+   "clear": [
+    "needs"
+   ]
+  },
+  {
+   "match": "^infested_leaves$",
+   "kind": "block",
+   "clear": [
+    "kind"
+   ],
+   "set": [
+    "kind:block",
+    "function:farm"
+   ]
+  },
+  {
+   "match": "^(compressed_)?(diamond|golden|iron|stone|wooden|netherite)_hammer$",
+   "set": [
+    "role:core"
+   ]
+  },
+  {
+   "match": "netherite",
+   "set": [
+    "needs:nether"
+   ],
+   "clear": [
+    "needs"
+   ]
+  },
+  {
+   "match": "^(crimson|warped)_",
+   "clear": [
+    "needs"
+   ],
+   "set": [
+    "needs:nether"
+   ]
+  }
+ ]
+}

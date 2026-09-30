@@ -20,6 +20,7 @@ Every item gets several tags, written `facet:value`. An item can carry many valu
 
 Notes:
 - `review:auto` is set by the keyword tagger; `review:checked` means the item was read against source or the game and the tags confirmed. Loop-back work is the `review:auto` list.
+- `needs:ore` means the item needs ore **in the world** (mined ore, raw ore). Ore chunks from Ex Deorum sieving are `needs:none`: sieving is how Verdant gets metal without ore.
 - `power-type:source` is Ars Nouveau's Source; `mana` stays for Iron's Spells and general mana. Keep them apart so Ars and Iron's are not treated as one system.
 - `power-role` and `power-type` are separate on purpose: `power-role:makes` + `power-type:fe` + `fuel:solid` is a solid-fuel FE generator. A Create Additions alternator is `makes`/`fe` with `fuel:kinetic`; an electric motor is `uses` `fe` and `makes` `stress`.
 - `heat` (Thermo Generator, Mekanism Heat Generator, Blaze Burner) and `emc` (ProjectE) are power types so they show up in gap analysis.
@@ -68,3 +69,7 @@ Every hand-checked entry carries a `review` block so we can tell what is worth c
 - `pass`: `first`, `loop-back`, or `review`.
 - Auto-tagged scan files carry file-level `tagged_on` and `tagged_version` instead; every item in them is `review:auto` until checked.
 - `python3 scripts/series-item-tags.py stale` lists entries to revisit: no review record, reviewed against an older version than the current pin, or still `review:auto`. Run `series-mod-sources.py check` first so the current refs are up to date.
+
+## Loop-back pass, per mod
+
+Work one mod at a time, reading the whole item list (`series-item-review.py list <mod>`), then write `review/<mod>.json` with rules that correct the auto tags (see the script docstring) and run `series-item-review.py apply <mod>`. That marks every item in the mod `review:checked` and stamps the file with date, version and pass. `series-item-review.py status` shows which mods are done. Each review file also carries a short `note` (what the mod is for in the pack, and what it supports), and the rules are reproducible: re-scan, re-auto-tag, re-apply.
