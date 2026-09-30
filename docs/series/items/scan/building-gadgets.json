@@ -1,0 +1,70 @@
+{
+ "repo": "Direwolf20-MC/BuildingGadgets2",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "buildinggadgets2"
+ ],
+ "item_count": 9,
+ "compat": [
+  {
+   "id": "appeng",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "patchouli",
+   "slug": "patchouli",
+   "evidence": {
+    "data-ref": 1
+   }
+  }
+ ],
+ "items": {
+  "buildinggadgets2:render_block": {
+   "kind": "block",
+   "name": "Render Block (DO NOT USE)"
+  },
+  "buildinggadgets2:template_manager": {
+   "kind": "block",
+   "name": "Template Manager"
+  },
+  "buildinggadgets2:gadget_building": {
+   "kind": "item",
+   "name": "Building Gadget"
+  },
+  "buildinggadgets2:gadget_copy_paste": {
+   "kind": "item",
+   "name": "Copy Paste Gadget"
+  },
+  "buildinggadgets2:gadget_cut_paste": {
+   "kind": "item",
+   "name": "Cut Paste Gadget"
+  },
+  "buildinggadgets2:gadget_destruction": {
+   "kind": "item",
+   "name": "Destruction Gadget"
+  },
+  "buildinggadgets2:gadget_exchanging": {
+   "kind": "item",
+   "name": "Exchanging Gadget"
+  },
+  "buildinggadgets2:redprint": {
+   "kind": "item",
+   "name": "Redprint"
+  },
+  "buildinggadgets2:template": {
+   "kind": "item",
+   "name": "Template"
+  }
+ }
+}

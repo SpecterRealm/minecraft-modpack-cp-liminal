@@ -1,0 +1,33 @@
+{
+ "repo": "dphaldes/Ars-Ocultas",
+ "ref": "v2.6.1",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "ars_ocultas"
+ ],
+ "item_count": 1,
+ "compat": [
+  {
+   "id": "ars_nouveau",
+   "slug": "ars-nouveau",
+   "evidence": {
+    "data-ref": 4,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "occultism",
+   "slug": "occultism",
+   "evidence": {
+    "data-ref": 5,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "ars_ocultas:altar": {
+   "kind": "block",
+   "name": "Sacrificial Altar"
+  }
+ }
+}

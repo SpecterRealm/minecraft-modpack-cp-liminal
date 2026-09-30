@@ -1,0 +1,34 @@
+{
+ "repo": "brandon3055/BrandonsCore",
+ "ref": "1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "brandonscore"
+ ],
+ "item_count": 0,
+ "compat": [
+  {
+   "id": "codechickenlib",
+   "slug": "codechicken-lib",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "draconicevolution",
+   "slug": "draconic-evolution",
+   "evidence": {
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 3,
+    "isLoaded": 1
+   }
+  }
+ ],
+ "items": {}
+}

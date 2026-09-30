@@ -1,0 +1,56 @@
+{
+ "repo": "Mari023/AE2WirelessTerminalLibrary",
+ "ref": "19.5.0",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "ae2wtlib",
+  "ae2wtlib_api"
+ ],
+ "item_count": 5,
+ "compat": [
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "data-ref": 16,
+    "dependency": 2
+   }
+  },
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "megacells",
+   "slug": "mega-cells",
+   "evidence": {
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "ae2wtlib:quantum_bridge_card": {
+   "kind": "item",
+   "name": "Quantum Bridge Card"
+  },
+  "ae2wtlib:magnet_card": {
+   "kind": "item",
+   "name": "Magnet Card"
+  },
+  "ae2wtlib:wireless_pattern_encoding_terminal": {
+   "kind": "item",
+   "name": "Wireless Pattern Encoding Terminal"
+  },
+  "ae2wtlib:wireless_pattern_access_terminal": {
+   "kind": "item",
+   "name": "Wireless Pattern Access Terminal"
+  },
+  "ae2wtlib:wireless_universal_terminal": {
+   "kind": "item",
+   "name": "Wireless Universal Terminal"
+  }
+ }
+}

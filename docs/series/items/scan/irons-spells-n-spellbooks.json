@@ -1,0 +1,1450 @@
+{
+ "repo": "iron431/irons-spells-n-spellbooks",
+ "ref": "v1.21.1-3.16.3",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "irons_spellbooks"
+ ],
+ "item_count": 341,
+ "compat": [
+  {
+   "id": "apotheosis",
+   "slug": "apotheosis",
+   "evidence": {
+    "compat-import": 1,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "data-ref": 1
+   }
+  },
+  {
+   "id": "create",
+   "slug": "create",
+   "evidence": {
+    "data-ref": 30
+   }
+  },
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "data-ref": 2,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "geckolib",
+   "slug": "geckolib",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "irons_jewelry",
+   "slug": "irons-jewelry",
+   "evidence": {
+    "data-ref": 18
+   }
+  },
+  {
+   "id": "irons_lib",
+   "slug": "irons-lib",
+   "evidence": {
+    "data-ref": 3,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "patchouli",
+   "slug": "patchouli",
+   "evidence": {
+    "data-ref": 2
+   }
+  },
+  {
+   "id": "playeranimator",
+   "slug": "playeranimator",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "terralith",
+   "slug": "terralith",
+   "evidence": {
+    "data-ref": 1
+   }
+  }
+ ],
+ "items": {
+  "irons_spellbooks:scroll": {
+   "kind": "item",
+   "name": "Scroll"
+  },
+  "irons_spellbooks:scroll.unlearned": {
+   "kind": "item",
+   "name": "Unlearned Scroll"
+  },
+  "irons_spellbooks:common_ink": {
+   "kind": "item",
+   "name": "Common Ink"
+  },
+  "irons_spellbooks:uncommon_ink": {
+   "kind": "item",
+   "name": "Uncommon Ink"
+  },
+  "irons_spellbooks:rare_ink": {
+   "kind": "item",
+   "name": "Rare Ink"
+  },
+  "irons_spellbooks:epic_ink": {
+   "kind": "item",
+   "name": "Epic Ink"
+  },
+  "irons_spellbooks:legendary_ink": {
+   "kind": "item",
+   "name": "Legendary Ink"
+  },
+  "irons_spellbooks:lightning_bottle": {
+   "kind": "item",
+   "name": "Bottle o' Lightning"
+  },
+  "irons_spellbooks:frozen_bone": {
+   "kind": "item",
+   "name": "Frozen Bone"
+  },
+  "irons_spellbooks:blood_vial": {
+   "kind": "item",
+   "name": "Blood Vial"
+  },
+  "irons_spellbooks:ice_venom_vial": {
+   "kind": "item",
+   "name": "Ice Venom Vial"
+  },
+  "irons_spellbooks:divine_pearl": {
+   "kind": "item",
+   "name": "Divine Pearl"
+  },
+  "irons_spellbooks:hogskin": {
+   "kind": "item",
+   "name": "Hogskin"
+  },
+  "irons_spellbooks:dragonskin": {
+   "kind": "item",
+   "name": "Dragonskin"
+  },
+  "irons_spellbooks:arcane_essence": {
+   "kind": "item",
+   "name": "Arcane Essence"
+  },
+  "irons_spellbooks:cinder_essence": {
+   "kind": "item",
+   "name": "Cinder Essence"
+  },
+  "irons_spellbooks:dev_staff": {
+   "kind": "item",
+   "name": "Staff of Testing"
+  },
+  "irons_spellbooks:staff_of_the_nines": {
+   "kind": "item",
+   "name": "Staff of the Nines"
+  },
+  "irons_spellbooks:arcane_salvage": {
+   "kind": "item",
+   "name": "Arcane Salvage"
+  },
+  "irons_spellbooks:timeless_slurry": {
+   "kind": "item",
+   "name": "Timeless Slurry"
+  },
+  "irons_spellbooks:pyrium_ingot": {
+   "kind": "item",
+   "name": "Pyrium Ingot"
+  },
+  "irons_spellbooks:mithril_ingot": {
+   "kind": "item",
+   "name": "Mithril Ingot"
+  },
+  "irons_spellbooks:mithril_scrap": {
+   "kind": "item",
+   "name": "Mithril Scrap"
+  },
+  "irons_spellbooks:raw_mithril": {
+   "kind": "item",
+   "name": "Raw Mithril"
+  },
+  "irons_spellbooks:weapon_parts": {
+   "kind": "item",
+   "name": "Weapon Parts"
+  },
+  "irons_spellbooks:shriving_stone": {
+   "kind": "item",
+   "name": "Shriving Stone"
+  },
+  "irons_spellbooks:lesser_spell_slot_upgrade": {
+   "kind": "item",
+   "name": "Lesser Spell Slot Improvement"
+  },
+  "irons_spellbooks:arcane_ingot": {
+   "kind": "item",
+   "name": "Arcane Ingot"
+  },
+  "irons_spellbooks:magic_cloth": {
+   "kind": "item",
+   "name": "Arcane Cloth"
+  },
+  "irons_spellbooks:tarnished_helmet": {
+   "kind": "item",
+   "name": "Tarnished Crown"
+  },
+  "irons_spellbooks:gold_crown": {
+   "kind": "item",
+   "name": "Iron's Crown"
+  },
+  "irons_spellbooks:wandering_magician_helmet": {
+   "kind": "item",
+   "name": "Wandering Magician Hood"
+  },
+  "irons_spellbooks:wandering_magician_chestplate": {
+   "kind": "item",
+   "name": "Wandering Magician Robe"
+  },
+  "irons_spellbooks:wandering_magician_leggings": {
+   "kind": "item",
+   "name": "Wandering Magician Pants"
+  },
+  "irons_spellbooks:wandering_magician_boots": {
+   "kind": "item",
+   "name": "Wandering Magician Shoes"
+  },
+  "irons_spellbooks:pyromancer_helmet": {
+   "kind": "item",
+   "name": "Pyromancer Hat"
+  },
+  "irons_spellbooks:pyromancer_chestplate": {
+   "kind": "item",
+   "name": "Pyromancer Robe"
+  },
+  "irons_spellbooks:pyromancer_leggings": {
+   "kind": "item",
+   "name": "Pyromancer Leggings"
+  },
+  "irons_spellbooks:pyromancer_boots": {
+   "kind": "item",
+   "name": "Pyromancer Boots"
+  },
+  "irons_spellbooks:electromancer_helmet": {
+   "kind": "item",
+   "name": "Electromancer Hat"
+  },
+  "irons_spellbooks:electromancer_chestplate": {
+   "kind": "item",
+   "name": "Electromancer Robe"
+  },
+  "irons_spellbooks:electromancer_leggings": {
+   "kind": "item",
+   "name": "Electromancer Leggings"
+  },
+  "irons_spellbooks:electromancer_boots": {
+   "kind": "item",
+   "name": "Electromancer Boots"
+  },
+  "irons_spellbooks:cultist_helmet": {
+   "kind": "item",
+   "name": "Cultist Hood"
+  },
+  "irons_spellbooks:cultist_chestplate": {
+   "kind": "item",
+   "name": "Cultist Armor"
+  },
+  "irons_spellbooks:cultist_leggings": {
+   "kind": "item",
+   "name": "Cultist Leggings"
+  },
+  "irons_spellbooks:cultist_boots": {
+   "kind": "item",
+   "name": "Cultist Boots"
+  },
+  "irons_spellbooks:archevoker_helmet": {
+   "kind": "item",
+   "name": "Archevoker Hat"
+  },
+  "irons_spellbooks:archevoker_chestplate": {
+   "kind": "item",
+   "name": "Archevoker Coat"
+  },
+  "irons_spellbooks:archevoker_leggings": {
+   "kind": "item",
+   "name": "Archevoker Leggings"
+  },
+  "irons_spellbooks:archevoker_boots": {
+   "kind": "item",
+   "name": "Archevoker Boots"
+  },
+  "irons_spellbooks:cryomancer_helmet": {
+   "kind": "item",
+   "name": "Cryomancer Hood"
+  },
+  "irons_spellbooks:cryomancer_chestplate": {
+   "kind": "item",
+   "name": "Cryomancer Coat"
+  },
+  "irons_spellbooks:cryomancer_leggings": {
+   "kind": "item",
+   "name": "Cryomancer Leggings"
+  },
+  "irons_spellbooks:cryomancer_boots": {
+   "kind": "item",
+   "name": "Cryomancer Boots"
+  },
+  "irons_spellbooks:shadowwalker_helmet": {
+   "kind": "item",
+   "name": "Shadow-Walker Mask"
+  },
+  "irons_spellbooks:shadowwalker_chestplate": {
+   "kind": "item",
+   "name": "Shadow-Walker Armor"
+  },
+  "irons_spellbooks:shadowwalker_leggings": {
+   "kind": "item",
+   "name": "Shadow-Walker Leggings"
+  },
+  "irons_spellbooks:shadowwalker_boots": {
+   "kind": "item",
+   "name": "Shadow-Walker Boots"
+  },
+  "irons_spellbooks:priest_helmet": {
+   "kind": "item",
+   "name": "Priest Mask"
+  },
+  "irons_spellbooks:priest_chestplate": {
+   "kind": "item",
+   "name": "Priest Robes"
+  },
+  "irons_spellbooks:priest_leggings": {
+   "kind": "item",
+   "name": "Priest Leggings"
+  },
+  "irons_spellbooks:priest_boots": {
+   "kind": "item",
+   "name": "Priest Boots"
+  },
+  "irons_spellbooks:plagued_helmet": {
+   "kind": "item",
+   "name": "Plagued Mask"
+  },
+  "irons_spellbooks:plagued_chestplate": {
+   "kind": "item",
+   "name": "Plagued Coat"
+  },
+  "irons_spellbooks:plagued_leggings": {
+   "kind": "item",
+   "name": "Plagued Leggings"
+  },
+  "irons_spellbooks:plagued_boots": {
+   "kind": "item",
+   "name": "Plagued Boots"
+  },
+  "irons_spellbooks:pumpkin_helmet": {
+   "kind": "item",
+   "name": "Scarecrow Hat"
+  },
+  "irons_spellbooks:pumpkin_chestplate": {
+   "kind": "item",
+   "name": "Scarecrow Coat"
+  },
+  "irons_spellbooks:pumpkin_leggings": {
+   "kind": "item",
+   "name": "Scarecrow Leggings"
+  },
+  "irons_spellbooks:pumpkin_boots": {
+   "kind": "item",
+   "name": "Scarecrow Boots"
+  },
+  "irons_spellbooks:tarnished_crown": {
+   "kind": "item",
+   "name": "Tarnished Crown"
+  },
+  "irons_spellbooks:netherite_mage_helmet": {
+   "kind": "item",
+   "name": "Netherite Battlemage Hat"
+  },
+  "irons_spellbooks:netherite_mage_chestplate": {
+   "kind": "item",
+   "name": "Netherite Battlemage Robes"
+  },
+  "irons_spellbooks:netherite_mage_leggings": {
+   "kind": "item",
+   "name": "Netherite Battlemage Leggings"
+  },
+  "irons_spellbooks:netherite_mage_boots": {
+   "kind": "item",
+   "name": "Netherite Battlemage Boots"
+  },
+  "irons_spellbooks:wizard_helmet": {
+   "kind": "item",
+   "name": "Wizard Helmet"
+  },
+  "irons_spellbooks:wizard_helmet.hood": {
+   "kind": "item",
+   "name": "Wizard Hood"
+  },
+  "irons_spellbooks:wizard_helmet.hat": {
+   "kind": "item",
+   "name": "Wizard Hat"
+  },
+  "irons_spellbooks:wizard_chestplate": {
+   "kind": "item",
+   "name": "Wizard Robes"
+  },
+  "irons_spellbooks:wizard_leggings": {
+   "kind": "item",
+   "name": "Wizard Leggings"
+  },
+  "irons_spellbooks:wizard_boots": {
+   "kind": "item",
+   "name": "Wizard Boots"
+  },
+  "irons_spellbooks:blank_rune": {
+   "kind": "item",
+   "name": "Blank Runestone"
+  },
+  "irons_spellbooks:fire_rune": {
+   "kind": "item",
+   "name": "Fire Rune"
+  },
+  "irons_spellbooks:ice_rune": {
+   "kind": "item",
+   "name": "Ice Rune"
+  },
+  "irons_spellbooks:lightning_rune": {
+   "kind": "item",
+   "name": "Lightning Rune"
+  },
+  "irons_spellbooks:holy_rune": {
+   "kind": "item",
+   "name": "Holy Rune"
+  },
+  "irons_spellbooks:blood_rune": {
+   "kind": "item",
+   "name": "Blood Rune"
+  },
+  "irons_spellbooks:evocation_rune": {
+   "kind": "item",
+   "name": "Evocation Rune"
+  },
+  "irons_spellbooks:ender_rune": {
+   "kind": "item",
+   "name": "Ender Rune"
+  },
+  "irons_spellbooks:arcane_rune": {
+   "kind": "item",
+   "name": "Arcane Rune"
+  },
+  "irons_spellbooks:cooldown_rune": {
+   "kind": "item",
+   "name": "Recovery Rune"
+  },
+  "irons_spellbooks:protection_rune": {
+   "kind": "item",
+   "name": "Protective Rune"
+  },
+  "irons_spellbooks:nature_rune": {
+   "kind": "item",
+   "name": "Nature Rune"
+  },
+  "irons_spellbooks:crypt_skull": {
+   "kind": "item",
+   "name": "Skull of No-One Important"
+  },
+  "irons_spellbooks:blood_staff": {
+   "kind": "item",
+   "name": "The Blood Staff"
+  },
+  "irons_spellbooks:improved_blood_staff": {
+   "kind": "item",
+   "name": "Improved Blood Staff"
+  },
+  "irons_spellbooks:wayward_compass": {
+   "kind": "item",
+   "name": "Wayward Compass"
+  },
+  "irons_spellbooks:wayward_compass.error": {
+   "kind": "item",
+   "name": "No catacombs loaded. [%s] to search"
+  },
+  "irons_spellbooks:antiquated_compass": {
+   "kind": "item",
+   "name": "Antiquated Compass"
+  },
+  "irons_spellbooks:magehunter": {
+   "kind": "item",
+   "name": "Magehunter"
+  },
+  "irons_spellbooks:spellbreaker": {
+   "kind": "item",
+   "name": "Spellbreaker"
+  },
+  "irons_spellbooks:amethyst_rapier": {
+   "kind": "item",
+   "name": "Amethyst Rapier"
+  },
+  "irons_spellbooks:truthseeker": {
+   "kind": "item",
+   "name": "Truthseeker"
+  },
+  "irons_spellbooks:claymore": {
+   "kind": "item",
+   "name": "Claymore"
+  },
+  "irons_spellbooks:misery": {
+   "kind": "item",
+   "name": "Misery"
+  },
+  "irons_spellbooks:keeper_flamberge": {
+   "kind": "item",
+   "name": "Decrepit Flamberge"
+  },
+  "irons_spellbooks:upgrade_orb": {
+   "kind": "item",
+   "name": "Empty Upgrade Orb"
+  },
+  "irons_spellbooks:fire_upgrade_orb": {
+   "kind": "item",
+   "name": "Fire Upgrade Orb"
+  },
+  "irons_spellbooks:ice_upgrade_orb": {
+   "kind": "item",
+   "name": "Ice Upgrade Orb"
+  },
+  "irons_spellbooks:lightning_upgrade_orb": {
+   "kind": "item",
+   "name": "Lightning Upgrade Orb"
+  },
+  "irons_spellbooks:holy_upgrade_orb": {
+   "kind": "item",
+   "name": "Holy Upgrade Orb"
+  },
+  "irons_spellbooks:ender_upgrade_orb": {
+   "kind": "item",
+   "name": "Ender Upgrade Orb"
+  },
+  "irons_spellbooks:blood_upgrade_orb": {
+   "kind": "item",
+   "name": "Blood Upgrade Orb"
+  },
+  "irons_spellbooks:evocation_upgrade_orb": {
+   "kind": "item",
+   "name": "Evocation Upgrade Orb"
+  },
+  "irons_spellbooks:nature_upgrade_orb": {
+   "kind": "item",
+   "name": "Nature Upgrade Orb"
+  },
+  "irons_spellbooks:mana_upgrade_orb": {
+   "kind": "item",
+   "name": "Mana Upgrade Orb"
+  },
+  "irons_spellbooks:cooldown_upgrade_orb": {
+   "kind": "item",
+   "name": "Cooldown Upgrade Orb"
+  },
+  "irons_spellbooks:protection_upgrade_orb": {
+   "kind": "item",
+   "name": "Protection Upgrade Orb"
+  },
+  "irons_spellbooks:enchanted_ward_amulet": {
+   "kind": "item",
+   "name": "Amulet of Warding"
+  },
+  "irons_spellbooks:mana_ring": {
+   "kind": "item",
+   "name": "Ring of Mana"
+  },
+  "irons_spellbooks:silver_ring": {
+   "kind": "item",
+   "name": "Silver Ring"
+  },
+  "irons_spellbooks:cooldown_ring": {
+   "kind": "item",
+   "name": "Ring of Recovery"
+  },
+  "irons_spellbooks:cast_time_ring": {
+   "kind": "item",
+   "name": "Ring of Expediency"
+  },
+  "irons_spellbooks:emerald_stoneplate_ring": {
+   "kind": "item",
+   "name": "Emerald Stoneplate Ring"
+  },
+  "irons_spellbooks:fireward_ring": {
+   "kind": "item",
+   "name": "Fireward Ring"
+  },
+  "irons_spellbooks:poisonward_ring": {
+   "kind": "item",
+   "name": "Poisonward Ring"
+  },
+  "irons_spellbooks:frostward_ring": {
+   "kind": "item",
+   "name": "Frostward Ring"
+  },
+  "irons_spellbooks:heavy_chain_necklace": {
+   "kind": "item",
+   "name": "Heavy Chain"
+  },
+  "irons_spellbooks:conjurers_talisman": {
+   "kind": "item",
+   "name": "Conjurer's Talisman"
+  },
+  "irons_spellbooks:greater_conjurers_talisman": {
+   "kind": "item",
+   "name": "Greater Conjurer's Talisman"
+  },
+  "irons_spellbooks:affinity_ring": {
+   "kind": "item",
+   "name": "Ring of %s Affinity"
+  },
+  "irons_spellbooks:concentration_amulet": {
+   "kind": "item",
+   "name": "Amulet of Concentration"
+  },
+  "irons_spellbooks:invisibility_ring": {
+   "kind": "item",
+   "name": "Ring of Invisibility"
+  },
+  "irons_spellbooks:casters_tea": {
+   "kind": "item",
+   "name": "Caster's Tea"
+  },
+  "irons_spellbooks:oakskin_elixir": {
+   "kind": "item",
+   "name": "Oakskin Elixir"
+  },
+  "irons_spellbooks:greater_oakskin_elixir": {
+   "kind": "item",
+   "name": "Greater Oakskin Elixir"
+  },
+  "irons_spellbooks:invisibility_elixir": {
+   "kind": "item",
+   "name": "Invisibility Elixir"
+  },
+  "irons_spellbooks:greater_invisibility_elixir": {
+   "kind": "item",
+   "name": "Greater Invisibility Elixir"
+  },
+  "irons_spellbooks:evasion_elixir": {
+   "kind": "item",
+   "name": "Evasion Elixir"
+  },
+  "irons_spellbooks:greater_evasion_elixir": {
+   "kind": "item",
+   "name": "Greater Evasion Elixir"
+  },
+  "irons_spellbooks:ice_spider_pheromones": {
+   "kind": "item",
+   "name": "Ice Spider Pheromones"
+  },
+  "irons_spellbooks:lurker_ring": {
+   "kind": "item",
+   "name": "Ring of the Lurker"
+  },
+  "irons_spellbooks:amethyst_resonance_charm": {
+   "kind": "item",
+   "name": "Amethyst Resonance Charm"
+  },
+  "irons_spellbooks:expulsion_ring": {
+   "kind": "item",
+   "name": "Ring of Expulsion"
+  },
+  "irons_spellbooks:visibility_ring": {
+   "kind": "item",
+   "name": "Ring of Visibility"
+  },
+  "irons_spellbooks:eldritch_manuscript": {
+   "kind": "item",
+   "name": "Eldritch Manuscript"
+  },
+  "irons_spellbooks:ancient_knowledge_fragment": {
+   "kind": "item",
+   "name": "Ancient Knowledge Fragment"
+  },
+  "irons_spellbooks:autoloader_crossbow": {
+   "kind": "item",
+   "name": "Autoloader Crossbow"
+  },
+  "irons_spellbooks:scroll_pouch": {
+   "kind": "item",
+   "name": "Mystery Scroll Pouch"
+  },
+  "irons_spellbooks:furled_map": {
+   "kind": "item",
+   "name": "Furled Map"
+  },
+  "irons_spellbooks:furled_map_ancient": {
+   "kind": "item",
+   "name": "Ancient Furled Map"
+  },
+  "irons_spellbooks:furled_map.dimension_fail": {
+   "kind": "item",
+   "name": "This map does not lead to anything in this dimension."
+  },
+  "irons_spellbooks:evoker_fort_battle_plans": {
+   "kind": "item",
+   "name": "Evoker Fort Attack Plans"
+  },
+  "irons_spellbooks:failed_arctic_voyage_map": {
+   "kind": "item",
+   "name": "Arctic Expedition Route"
+  },
+  "irons_spellbooks:ancient_battleground_map": {
+   "kind": "item",
+   "name": "Legion Outpost"
+  },
+  "irons_spellbooks:citadel_map": {
+   "kind": "item",
+   "name": "The Citadel"
+  },
+  "irons_spellbooks:ice_spider_den_map": {
+   "kind": "item",
+   "name": "Infested Ruin"
+  },
+  "irons_spellbooks:pyrium_staff": {
+   "kind": "item",
+   "name": "Pyrium Staff"
+  },
+  "irons_spellbooks:graybeard_staff": {
+   "kind": "item",
+   "name": "Graybeard Staff"
+  },
+  "irons_spellbooks:artificer_cane": {
+   "kind": "item",
+   "name": "Artificer's Cane"
+  },
+  "irons_spellbooks:handwritten_invoice": {
+   "kind": "item",
+   "name": "Handwritten Invoice"
+  },
+  "irons_spellbooks:frosted_helve": {
+   "kind": "item",
+   "name": "Frosted Helve"
+  },
+  "irons_spellbooks:permafrost_shard": {
+   "kind": "item",
+   "name": "Permafrost Shard"
+  },
+  "irons_spellbooks:translated_archevoker_log": {
+   "kind": "item",
+   "name": "Translated Research Journal"
+  },
+  "irons_spellbooks:archevoker_log": {
+   "kind": "item",
+   "name": "Research Journal"
+  },
+  "irons_spellbooks:archevoker_log.header": {
+   "kind": "item",
+   "name": "Day "
+  },
+  "irons_spellbooks:archevoker_log.page_1": {
+   "kind": "item",
+   "name": "We arrived at the location He sent us to just before last dusk, a march of many days. One last time, we slept on the dirt; this morning we rose with purpose anew, beginning to etch a barrier of logs and home of stone."
+  },
+  "irons_spellbooks:archevoker_log.page_2": {
+   "kind": "item",
+   "name": "Construction is near complete. As I write, supplies make their way into our hospice - freshly hewn wood from the area, a shipment of glass from fort greater. Discovery awaits."
+  },
+  "irons_spellbooks:archevoker_log.page_3": {
+   "kind": "item",
+   "name": "I had never thought it possible, this magic seems to be messing with my mind. I swear there used to be a cellar below the chapel, yet even my second in command says it were never so... Surely I cannot be the one going mad?"
+  },
+  "irons_spellbooks:archevoker_log.page_4": {
+   "kind": "item",
+   "name": "Scouts have returned with fantastic news, that of a village, and not too far to return the supplies here with ease after laying siege. However, magical research in this area seems to be inconclusive. We may be abandoning soon."
+  },
+  "irons_spellbooks:archevoker_log.entry_1.1": {
+   "kind": "item",
+   "name": "We reached the location to which He bade us journey, a laborious march spanning many days. As the sun surrendered to dusk, we rested our wearied bodies upon the earth for what I trust to be the final time. This morn,"
+  },
+  "irons_spellbooks:archevoker_log.entry_1.2": {
+   "kind": "item",
+   "name": "we rose with purpose anew, and began to etch a barrier of logs and home of stone."
+  },
+  "irons_spellbooks:archevoker_log.entry_2.1": {
+   "kind": "item",
+   "name": "Our construction draws nigh its completion. As I pen these very words, the final shipment of supplies flow into our haven - enough timber, freshly hewn from the surrounding wilds, to finish the enclosure, and panes of glass"
+  },
+  "irons_spellbooks:archevoker_log.entry_2.2": {
+   "kind": "item",
+   "name": "sent from Fort Greater. Soon shall the research commence, the likes of which may yet shake the pillars of the world."
+  },
+  "irons_spellbooks:archevoker_log.entry_3.1": {
+   "kind": "item",
+   "name": "A strange unease takes root within my mind. This magic - though wondrous - doth twist the senses. I could have sworn there was a cellar beneath the chapel's floor, and yet now none recall it. Even my most trusted lieutenant"
+  },
+  "irons_spellbooks:archevoker_log.entry_3.2": {
+   "kind": "item",
+   "name": "claims such a thing never was. Am I alone in this delusion? Has madness begun to gnaw at me?"
+  },
+  "irons_spellbooks:archevoker_log.entry_4.1": {
+   "kind": "item",
+   "name": "Our scouts return with tidings of a village, not far from our encampment. This is good news, for supplies dwindle. We shall lay siege and easily procure what is needed, for the distance is not great."
+  },
+  "irons_spellbooks:archevoker_log.entry_4.2": {
+   "kind": "item",
+   "name": "However, the magical research in these lands proves troublesome - few are the answers we seek. It may soon come to pass that we abandon this place, move to the next site."
+  },
+  "irons_spellbooks:ice_staff": {
+   "kind": "item",
+   "name": "Ice Staff"
+  },
+  "irons_spellbooks:lightning_rod": {
+   "kind": "item",
+   "name": "Rod o' Lightning"
+  },
+  "irons_spellbooks:hither_thither_wand": {
+   "kind": "item",
+   "name": "Hither-Thither Wand"
+  },
+  "irons_spellbooks:teleportation_amulet": {
+   "kind": "item",
+   "name": "Amulet of Teleportation"
+  },
+  "irons_spellbooks:fire_ale": {
+   "kind": "item",
+   "name": "Fire Ale"
+  },
+  "irons_spellbooks:netherward_tincture": {
+   "kind": "item",
+   "name": "Netherward Tincture"
+  },
+  "irons_spellbooks:tincture_of_forgetfulness": {
+   "kind": "item",
+   "name": "Tincture of Forgetfulness"
+  },
+  "irons_spellbooks:energized_core": {
+   "kind": "item",
+   "name": "Energized Core"
+  },
+  "irons_spellbooks:energized_core.failure": {
+   "kind": "item",
+   "name": "A calm sky holds no power; the core remains inert"
+  },
+  "irons_spellbooks:keeper_spawn_egg": {
+   "kind": "item",
+   "name": "Ancient Knight Spawn Egg"
+  },
+  "irons_spellbooks:necromancer_spawn_egg": {
+   "kind": "item",
+   "name": "Necromancer Spawn Egg"
+  },
+  "irons_spellbooks:pyromancer_spawn_egg": {
+   "kind": "item",
+   "name": "Pyromancer Spawn Egg"
+  },
+  "irons_spellbooks:cryomancer_spawn_egg": {
+   "kind": "item",
+   "name": "Cryomancer Spawn Egg"
+  },
+  "irons_spellbooks:archevoker_spawn_egg": {
+   "kind": "item",
+   "name": "Archevoker Spawn Egg"
+  },
+  "irons_spellbooks:dead_king_corpse_spawn_egg": {
+   "kind": "item",
+   "name": "Dead King Corpse Spawn Egg"
+  },
+  "irons_spellbooks:priest_spawn_egg": {
+   "kind": "item",
+   "name": "Priest Spawn Egg"
+  },
+  "irons_spellbooks:apothecarist_spawn_egg": {
+   "kind": "item",
+   "name": "Apothecarist Spawn Egg"
+  },
+  "irons_spellbooks:ice_spider_spawn_egg": {
+   "kind": "item",
+   "name": "Ice Spider Spawn Egg"
+  },
+  "irons_spellbooks:music_disc_dead_king_lullaby": {
+   "kind": "item",
+   "name": "Music Disc"
+  },
+  "irons_spellbooks:music_disc_flame_still_burns": {
+   "kind": "item",
+   "name": "Music Disc"
+  },
+  "irons_spellbooks:music_disc_whispers_of_ice": {
+   "kind": "item",
+   "name": "Music Disc"
+  },
+  "irons_spellbooks:disc_fragment_flame_still_burns": {
+   "kind": "item",
+   "name": "Disc Fragment"
+  },
+  "irons_spellbooks:paladin_chestplate": {
+   "kind": "item",
+   "name": "Lightbringer Chestplate"
+  },
+  "irons_spellbooks:infernal_sorcerer_chestplate": {
+   "kind": "item",
+   "name": "Infernal Sorcerer Chestplate"
+  },
+  "irons_spellbooks:speed_boots": {
+   "kind": "item",
+   "name": "Boots of Speed"
+  },
+  "irons_spellbooks:mithril_weave": {
+   "kind": "item",
+   "name": "Mithril Weave"
+  },
+  "irons_spellbooks:cinderous_soulcaller": {
+   "kind": "item",
+   "name": "Cinderous Soulcaller"
+  },
+  "irons_spellbooks:cinderous_soulcaller.failure.no_soul": {
+   "kind": "item",
+   "name": "Nothing echoes back..."
+  },
+  "irons_spellbooks:cinderous_soulcaller.failure.in_progress": {
+   "kind": "item",
+   "name": "An echo has already answered."
+  },
+  "irons_spellbooks:hellrazor": {
+   "kind": "item",
+   "name": "Hellrazor"
+  },
+  "irons_spellbooks:decrepit_scythe": {
+   "kind": "item",
+   "name": "Decrepit Scythe"
+  },
+  "irons_spellbooks:legionnaire_flamberge": {
+   "kind": "item",
+   "name": "Legionnaire Flamberge"
+  },
+  "irons_spellbooks:divine_soulshard": {
+   "kind": "item",
+   "name": "Divine Soulshard"
+  },
+  "irons_spellbooks:betrayer_signet": {
+   "kind": "item",
+   "name": "Signet of the Betrayer"
+  },
+  "irons_spellbooks:bloody_vellum": {
+   "kind": "item",
+   "name": "Bloody Vellum"
+  },
+  "irons_spellbooks:icy_fang": {
+   "kind": "item",
+   "name": "Icy Fang"
+  },
+  "irons_spellbooks:prepared_ice_spider_egg": {
+   "kind": "item",
+   "name": "Prepared Ice Spider Egg"
+  },
+  "irons_spellbooks:cooked_ice_spider_egg": {
+   "kind": "block",
+   "name": "Cooked Ice Spider Egg"
+  },
+  "irons_spellbooks:boreal_blade": {
+   "kind": "item",
+   "name": "Boreal Blade"
+  },
+  "irons_spellbooks:twilight_gale": {
+   "kind": "item",
+   "name": "Twilight Gale"
+  },
+  "irons_spellbooks:chronicle": {
+   "kind": "item",
+   "name": "The Chronicle"
+  },
+  "irons_spellbooks:chronicle.chapter": {
+   "kind": "item",
+   "name": "Chapter %s:\n"
+  },
+  "irons_spellbooks:chronicle.chapter_1": {
+   "kind": "item",
+   "name": "The Loyal Souls"
+  },
+  "irons_spellbooks:chronicle.chapter_2": {
+   "kind": "item",
+   "name": "The Faithful Souls"
+  },
+  "irons_spellbooks:chronicle.chapter_3": {
+   "kind": "item",
+   "name": "The Lost Souls"
+  },
+  "irons_spellbooks:wicked_bone_ring": {
+   "kind": "item",
+   "name": "Wicked Bone Ring"
+  },
+  "irons_spellbooks:dead_king_phylactery": {
+   "kind": "item",
+   "name": "Dead King Phylactery"
+  },
+  "irons_spellbooks:dead_king_phylactery_shard": {
+   "kind": "item",
+   "name": "Dead King Phylactery Shard"
+  },
+  "irons_spellbooks:inscription_table": {
+   "kind": "block",
+   "name": "Inscription Table"
+  },
+  "irons_spellbooks:scroll_forge": {
+   "kind": "block",
+   "name": "Scroll Forge"
+  },
+  "irons_spellbooks:pedestal": {
+   "kind": "block",
+   "name": "Pedestal"
+  },
+  "irons_spellbooks:arcane_anvil": {
+   "kind": "block",
+   "name": "Arcane Anvil"
+  },
+  "irons_spellbooks:arcane_debris": {
+   "kind": "block",
+   "name": "Arcane Debris"
+  },
+  "irons_spellbooks:armor_pile": {
+   "kind": "block",
+   "name": "Armor Pile"
+  },
+  "irons_spellbooks:firefly_jar": {
+   "kind": "block",
+   "name": "Firefly Jar"
+  },
+  "irons_spellbooks:deepslate_mithril_ore": {
+   "kind": "block",
+   "name": "Deepslate Mithril Ore"
+  },
+  "irons_spellbooks:mithril_ore": {
+   "kind": "block",
+   "name": "Mithril Ore"
+  },
+  "irons_spellbooks:portal_frame": {
+   "kind": "block",
+   "name": "Portal Frame"
+  },
+  "irons_spellbooks:brazier": {
+   "kind": "block",
+   "name": "Brazier"
+  },
+  "irons_spellbooks:brazier_soul": {
+   "kind": "block",
+   "name": "Soul Brazier"
+  },
+  "irons_spellbooks:nether_brick_pillar": {
+   "kind": "block",
+   "name": "Nether Brick Pillar"
+  },
+  "irons_spellbooks:cinderous_soul_rune": {
+   "kind": "block",
+   "name": "Cinderous Soul Rune"
+  },
+  "irons_spellbooks:voidstone": {
+   "kind": "block",
+   "name": "Voidstone"
+  },
+  "irons_spellbooks:pocket_dimension_portal_frame": {
+   "kind": "block",
+   "name": "Pocket Dimension Portal Frame"
+  },
+  "irons_spellbooks:ice_spider_egg": {
+   "kind": "block",
+   "name": "Ice Spider Egg"
+  },
+  "irons_spellbooks:tyros_statue": {
+   "kind": "block",
+   "name": "Tyros Statue"
+  },
+  "irons_spellbooks:bone_vault": {
+   "kind": "block",
+   "name": "Bone Vault"
+  },
+  "irons_spellbooks:cinderous_vault": {
+   "kind": "block",
+   "name": "Cinderous Vault"
+  },
+  "irons_spellbooks:acid_orb": {
+   "kind": "entity",
+   "name": "Acid Orb"
+  },
+  "irons_spellbooks:apothecarist": {
+   "kind": "entity",
+   "name": "Apothecarist"
+  },
+  "irons_spellbooks:arcane_shackle": {
+   "kind": "entity",
+   "name": "Arcane Shackle"
+  },
+  "irons_spellbooks:archevoker": {
+   "kind": "entity",
+   "name": "Archevoker"
+  },
+  "irons_spellbooks:arrow_volley": {
+   "kind": "entity",
+   "name": "Arrow Volley"
+  },
+  "irons_spellbooks:ball_lightning": {
+   "kind": "entity",
+   "name": "Ball Lightning"
+  },
+  "irons_spellbooks:black_hole": {
+   "kind": "entity",
+   "name": "Black Hole"
+  },
+  "irons_spellbooks:blizzard_aoe": {
+   "kind": "entity",
+   "name": "Blizzard"
+  },
+  "irons_spellbooks:blood_needle": {
+   "kind": "entity",
+   "name": "Blood Needle"
+  },
+  "irons_spellbooks:blood_slash": {
+   "kind": "entity",
+   "name": "Blood Slash"
+  },
+  "irons_spellbooks:catacombs_zombie": {
+   "kind": "entity",
+   "name": "Catacombs Zombie"
+  },
+  "irons_spellbooks:chain_lightning": {
+   "kind": "entity",
+   "name": "Chain Lightning"
+  },
+  "irons_spellbooks:citadel_keeper": {
+   "kind": "entity",
+   "name": "Ancient Knight"
+  },
+  "irons_spellbooks:comet": {
+   "kind": "entity",
+   "name": "Comet"
+  },
+  "irons_spellbooks:cone_of_cold": {
+   "kind": "entity",
+   "name": "Cone of Cold"
+  },
+  "irons_spellbooks:creeper_head": {
+   "kind": "entity",
+   "name": "Creeper Head"
+  },
+  "irons_spellbooks:cryomancer": {
+   "kind": "entity",
+   "name": "Cryomancer"
+  },
+  "irons_spellbooks:cultist": {
+   "kind": "entity",
+   "name": "Cultist"
+  },
+  "irons_spellbooks:cursed_armor_stand": {
+   "kind": "entity",
+   "name": "Cursed Armor Stand"
+  },
+  "irons_spellbooks:dead_king": {
+   "kind": "entity",
+   "name": "The Dead King"
+  },
+  "irons_spellbooks:dead_king_corpse": {
+   "kind": "entity",
+   "name": "Skeleton"
+  },
+  "irons_spellbooks:dead_king_soul": {
+   "kind": "entity",
+   "name": "Dead King Soul"
+  },
+  "irons_spellbooks:debug_wizard": {
+   "kind": "entity",
+   "name": "Debug Wizard"
+  },
+  "irons_spellbooks:devour_jaw": {
+   "kind": "entity",
+   "name": "Devour Jaw"
+  },
+  "irons_spellbooks:dragon_breath": {
+   "kind": "entity",
+   "name": "Dragon Breath"
+  },
+  "irons_spellbooks:dragon_breath_pool": {
+   "kind": "entity",
+   "name": "Dragon Breath"
+  },
+  "irons_spellbooks:earthquake_aoe": {
+   "kind": "entity",
+   "name": "Earthquake"
+  },
+  "irons_spellbooks:echoing_strike": {
+   "kind": "entity",
+   "name": "Echoing Strike"
+  },
+  "irons_spellbooks:echoing_sword": {
+   "kind": "entity",
+   "name": "Echoing Strike"
+  },
+  "irons_spellbooks:echoing_arrow": {
+   "kind": "entity",
+   "name": "Echoing Arrow"
+  },
+  "irons_spellbooks:eldritch_blast": {
+   "kind": "entity",
+   "name": "Eldritch Blast"
+  },
+  "irons_spellbooks:electrocute": {
+   "kind": "entity",
+   "name": "Electrocute"
+  },
+  "irons_spellbooks:ender_chain": {
+   "kind": "entity",
+   "name": "Ender Chain"
+  },
+  "irons_spellbooks:fang_swirl": {
+   "kind": "entity",
+   "name": "Fang Swirl"
+  },
+  "irons_spellbooks:fire_arrow": {
+   "kind": "entity",
+   "name": "Fire Arrow"
+  },
+  "irons_spellbooks:fire_boss": {
+   "kind": "entity",
+   "name": "Echo of Tyros, First Flamebearer"
+  },
+  "irons_spellbooks:fire_breath": {
+   "kind": "entity",
+   "name": "Fire Breath"
+  },
+  "irons_spellbooks:fire_eruption": {
+   "kind": "entity",
+   "name": "Fire Eruption"
+  },
+  "irons_spellbooks:fire_field": {
+   "kind": "entity",
+   "name": "Fiery Field"
+  },
+  "irons_spellbooks:fireball": {
+   "kind": "entity",
+   "name": "Large Fireball"
+  },
+  "irons_spellbooks:firebolt": {
+   "kind": "entity",
+   "name": "Firebolt"
+  },
+  "irons_spellbooks:fiery_dagger": {
+   "kind": "entity",
+   "name": "Fiery Dagger"
+  },
+  "irons_spellbooks:firefly_swarm": {
+   "kind": "entity",
+   "name": "Firefly Swarm"
+  },
+  "irons_spellbooks:frost_field": {
+   "kind": "entity",
+   "name": "Frost Field"
+  },
+  "irons_spellbooks:frozen_humanoid": {
+   "kind": "entity",
+   "name": "Frozen"
+  },
+  "irons_spellbooks:gust": {
+   "kind": "entity",
+   "name": "Gust"
+  },
+  "irons_spellbooks:healing_aoe": {
+   "kind": "entity",
+   "name": "Healing Aoe"
+  },
+  "irons_spellbooks:ice_block_projectile": {
+   "kind": "entity",
+   "name": "Iceologer Block"
+  },
+  "irons_spellbooks:ice_spider": {
+   "kind": "entity",
+   "name": "Ice Spider"
+  },
+  "irons_spellbooks:ice_spike": {
+   "kind": "entity",
+   "name": "Ice Spike"
+  },
+  "irons_spellbooks:ice_tomb": {
+   "kind": "entity",
+   "name": "Ice Tomb"
+  },
+  "irons_spellbooks:icicle": {
+   "kind": "entity",
+   "name": "Icicle"
+  },
+  "irons_spellbooks:lightning_lance": {
+   "kind": "entity",
+   "name": "Lightning Lance"
+  },
+  "irons_spellbooks:lightning_strike": {
+   "kind": "entity",
+   "name": "Lightning Strike"
+  },
+  "irons_spellbooks:magehunter_vindicator": {
+   "kind": "entity",
+   "name": "Magehunter Vindicator"
+  },
+  "irons_spellbooks:magic_arrow": {
+   "kind": "entity",
+   "name": "Magic Arrow"
+  },
+  "irons_spellbooks:magic_missile": {
+   "kind": "entity",
+   "name": "Magic Missile"
+  },
+  "irons_spellbooks:magma_ball": {
+   "kind": "entity",
+   "name": "Magma Bomb"
+  },
+  "irons_spellbooks:necromancer": {
+   "kind": "entity",
+   "name": "Necromancer"
+  },
+  "irons_spellbooks:ominous_fire_orb": {
+   "kind": "entity",
+   "name": "Ominous Fire Orb"
+  },
+  "irons_spellbooks:poison_arrow": {
+   "kind": "entity",
+   "name": "Poison Arrow"
+  },
+  "irons_spellbooks:poison_breath": {
+   "kind": "entity",
+   "name": "Poison Breath"
+  },
+  "irons_spellbooks:poison_cloud": {
+   "kind": "entity",
+   "name": "Poison Cloud"
+  },
+  "irons_spellbooks:poison_splash": {
+   "kind": "entity",
+   "name": "Poison Splash"
+  },
+  "irons_spellbooks:portal": {
+   "kind": "entity",
+   "name": "Portal"
+  },
+  "irons_spellbooks:priest": {
+   "kind": "entity",
+   "name": "Priest"
+  },
+  "irons_spellbooks:pyromancer": {
+   "kind": "entity",
+   "name": "Pyromancer"
+  },
+  "irons_spellbooks:ray_of_frost": {
+   "kind": "entity",
+   "name": "Ray of Frost"
+  },
+  "irons_spellbooks:root": {
+   "kind": "entity",
+   "name": "Root"
+  },
+  "irons_spellbooks:sculk_tentacle": {
+   "kind": "entity",
+   "name": "Sculk Tentacle"
+  },
+  "irons_spellbooks:shield": {
+   "kind": "entity",
+   "name": "Shield"
+  },
+  "irons_spellbooks:small_fireball": {
+   "kind": "entity",
+   "name": "Small Fireball"
+  },
+  "irons_spellbooks:small_magic_arrow": {
+   "kind": "entity",
+   "name": "Magic Arrow"
+  },
+  "irons_spellbooks:snowball": {
+   "kind": "entity",
+   "name": "Snowball"
+  },
+  "irons_spellbooks:spear": {
+   "kind": "entity",
+   "name": "Spear"
+  },
+  "irons_spellbooks:spectral_hammer": {
+   "kind": "entity",
+   "name": "Spectral Hammer"
+  },
+  "irons_spellbooks:spectral_steed": {
+   "kind": "entity",
+   "name": "Spectral Steed"
+  },
+  "irons_spellbooks:stomp_aoe": {
+   "kind": "entity",
+   "name": "Stomp"
+  },
+  "irons_spellbooks:summoned_claymore": {
+   "kind": "entity",
+   "name": "Summoned Claymore"
+  },
+  "irons_spellbooks:summoned_polar_bear": {
+   "kind": "entity",
+   "name": "Summoned Polar Bear"
+  },
+  "irons_spellbooks:summoned_rapier": {
+   "kind": "entity",
+   "name": "Summoned Rapier"
+  },
+  "irons_spellbooks:summoned_skeleton": {
+   "kind": "entity",
+   "name": "Summoned Skeleton"
+  },
+  "irons_spellbooks:summoned_sword": {
+   "kind": "entity",
+   "name": "Summoned Sword"
+  },
+  "irons_spellbooks:summoned_vex": {
+   "kind": "entity",
+   "name": "Summoned Vex"
+  },
+  "irons_spellbooks:summoned_zombie": {
+   "kind": "entity",
+   "name": "Summoned Zombie"
+  },
+  "irons_spellbooks:sunbeam": {
+   "kind": "entity",
+   "name": "Sunbeam"
+  },
+  "irons_spellbooks:target_area": {
+   "kind": "entity",
+   "name": "Target Area"
+  },
+  "irons_spellbooks:thrown_item": {
+   "kind": "entity",
+   "name": "Thrown Item"
+  },
+  "irons_spellbooks:thunderstep_orb": {
+   "kind": "entity",
+   "name": "Thunderstep"
+  },
+  "irons_spellbooks:undead_rift": {
+   "kind": "entity",
+   "name": "Undead Rift"
+  },
+  "irons_spellbooks:visual_falling_block": {
+   "kind": "entity",
+   "name": "Falling Block"
+  },
+  "irons_spellbooks:wall_of_fire": {
+   "kind": "entity",
+   "name": "Wall of Fire"
+  },
+  "irons_spellbooks:wisp": {
+   "kind": "entity",
+   "name": "Wisp"
+  },
+  "irons_spellbooks:wither_skull": {
+   "kind": "entity",
+   "name": "Wither Skull"
+  }
+ }
+}

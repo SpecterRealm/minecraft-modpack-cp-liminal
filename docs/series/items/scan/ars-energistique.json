@@ -1,0 +1,93 @@
+{
+ "repo": "62832/ArsEnergistique",
+ "ref": "2.1.1-beta",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "arseng"
+ ],
+ "item_count": 16,
+ "compat": [
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "data-ref": 33,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "ars_nouveau",
+   "slug": "ars-nouveau",
+   "evidence": {
+    "data-ref": 4,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "arseng:me_source_jar": {
+   "kind": "block",
+   "name": "ME Source Jar"
+  },
+  "arseng:source_acceptor": {
+   "kind": "block",
+   "name": "ME Source Converter"
+  },
+  "arseng:cable_source_acceptor": {
+   "kind": "item",
+   "name": "ME Source Converter"
+  },
+  "arseng:portable_source_cell_16k": {
+   "kind": "item",
+   "name": "16k Portable Source Cell"
+  },
+  "arseng:portable_source_cell_1k": {
+   "kind": "item",
+   "name": "1k Portable Source Cell"
+  },
+  "arseng:portable_source_cell_256k": {
+   "kind": "item",
+   "name": "256k Portable Source Cell"
+  },
+  "arseng:portable_source_cell_4k": {
+   "kind": "item",
+   "name": "4k Portable Source Cell"
+  },
+  "arseng:portable_source_cell_64k": {
+   "kind": "item",
+   "name": "64k Portable Source Cell"
+  },
+  "arseng:source_cell_housing": {
+   "kind": "item",
+   "name": "ME Source Cell Housing"
+  },
+  "arseng:source_p2p_tunnel": {
+   "kind": "item",
+   "name": "ME Source P2P Tunnel"
+  },
+  "arseng:source_storage_cell_16k": {
+   "kind": "item",
+   "name": "16k ME Source Storage Cell"
+  },
+  "arseng:source_storage_cell_1k": {
+   "kind": "item",
+   "name": "1k ME Source Storage Cell"
+  },
+  "arseng:source_storage_cell_256k": {
+   "kind": "item",
+   "name": "256k ME Source Storage Cell"
+  },
+  "arseng:source_storage_cell_4k": {
+   "kind": "item",
+   "name": "4k ME Source Storage Cell"
+  },
+  "arseng:source_storage_cell_64k": {
+   "kind": "item",
+   "name": "64k ME Source Storage Cell"
+  },
+  "arseng:spell_p2p_tunnel": {
+   "kind": "item",
+   "name": "ME Spell P2P Tunnel"
+  }
+ }
+}

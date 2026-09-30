@@ -1,0 +1,351 @@
+{
+ "repo": "Shadows-of-Fire/Apotheosis",
+ "ref": "1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "apotheosis"
+ ],
+ "item_count": 66,
+ "compat": [
+  {
+   "id": "apothic_attributes",
+   "slug": "apothic-attributes",
+   "evidence": {
+    "compat-import": 4,
+    "data-ref": 80,
+    "dependency": 2
+   }
+  },
+  {
+   "id": "apothic_enchanting",
+   "slug": "apothic-enchanting",
+   "evidence": {
+    "compat-import": 4,
+    "data-ref": 22,
+    "dependency": 2
+   }
+  },
+  {
+   "id": "apothic_spawners",
+   "slug": "apothic-spawners",
+   "evidence": {
+    "compat-import": 1,
+    "data-ref": 40,
+    "dependency": 2
+   }
+  },
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "dependency": 2,
+    "isLoaded": 2
+   }
+  },
+  {
+   "id": "jade",
+   "slug": "jade",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 14
+   }
+  },
+  {
+   "id": "occultism",
+   "slug": "occultism",
+   "evidence": {
+    "data-ref": 1
+   }
+  },
+  {
+   "id": "patchouli",
+   "slug": "patchouli",
+   "evidence": {
+    "compat-import": 1,
+    "data-ref": 2,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "placebo",
+   "slug": "placebo",
+   "evidence": {
+    "compat-import": 14,
+    "data-ref": 85,
+    "dependency": 2
+   }
+  }
+ ],
+ "items": {
+  "apotheosis:boss_summoner": {
+   "kind": "item",
+   "name": "Apothic Invader Summoner"
+  },
+  "apotheosis:gem.cracked": {
+   "kind": "item",
+   "name": "Cracked %s"
+  },
+  "apotheosis:gem.chipped": {
+   "kind": "item",
+   "name": "Chipped %s"
+  },
+  "apotheosis:gem.flawed": {
+   "kind": "item",
+   "name": "Flawed %s"
+  },
+  "apotheosis:gem.normal": {
+   "kind": "item",
+   "name": "%s"
+  },
+  "apotheosis:gem.flawless": {
+   "kind": "item",
+   "name": "Flawless %s"
+  },
+  "apotheosis:gem.perfect": {
+   "kind": "item",
+   "name": "Perfect %s"
+  },
+  "apotheosis:vial_of_extraction": {
+   "kind": "item",
+   "name": "Vial of Arcane Extraction"
+  },
+  "apotheosis:vial_of_expulsion": {
+   "kind": "item",
+   "name": "Vial of Searing Expulsion"
+  },
+  "apotheosis:vial_of_unnaming": {
+   "kind": "item",
+   "name": "Vial of Unnaming"
+  },
+  "apotheosis:gem_dust": {
+   "kind": "item",
+   "name": "Gem Dust"
+  },
+  "apotheosis:mysterious_scrap_metal": {
+   "kind": "item",
+   "name": "Mysterious Scrap Metal"
+  },
+  "apotheosis:timeworn_fabric": {
+   "kind": "item",
+   "name": "Timeworn Fabric"
+  },
+  "apotheosis:luminous_crystal_shard": {
+   "kind": "item",
+   "name": "Luminous Crystal Shard"
+  },
+  "apotheosis:arcane_sands": {
+   "kind": "item",
+   "name": "Arcane Sands"
+  },
+  "apotheosis:godforged_pearl": {
+   "kind": "item",
+   "name": "Godforged Pearl"
+  },
+  "apotheosis:god_fused_pearl": {
+   "kind": "item",
+   "name": "God-Fused Pearl"
+  },
+  "apotheosis:ancient_material": {
+   "kind": "item",
+   "name": "Manifestation of Infinity"
+  },
+  "apotheosis:gem_fused_slate": {
+   "kind": "item",
+   "name": "Gem-Fused Slate"
+  },
+  "apotheosis:sigil_of_socketing": {
+   "kind": "item",
+   "name": "Sigil of Socketing"
+  },
+  "apotheosis:sigil_of_withdrawal": {
+   "kind": "item",
+   "name": "Sigil of Withdrawal"
+  },
+  "apotheosis:sigil_of_rebirth": {
+   "kind": "item",
+   "name": "Sigil of Rebirth"
+  },
+  "apotheosis:sigil_of_enhancement": {
+   "kind": "item",
+   "name": "Sigil of Enhancement"
+  },
+  "apotheosis:sigil_of_unnaming": {
+   "kind": "item",
+   "name": "Sigil of Unnaming"
+  },
+  "apotheosis:sigil_of_malice": {
+   "kind": "item",
+   "name": "Sigil of Malice"
+  },
+  "apotheosis:sigil_of_supremacy": {
+   "kind": "item",
+   "name": "Sigil of Supremacy"
+  },
+  "apotheosis:spawner_chain": {
+   "kind": "item",
+   "name": "Spawner Chain"
+  },
+  "apotheosis:spawner_rune": {
+   "kind": "item",
+   "name": "Spawner Rune"
+  },
+  "apotheosis:infused_spawner_rune": {
+   "kind": "item",
+   "name": "Infused Spawner Rune"
+  },
+  "apotheosis:frontier_spawner_upgrade_rune": {
+   "kind": "item",
+   "name": "Frontiersman's Spawner Upgrade Rune"
+  },
+  "apotheosis:ascent_spawner_upgrade_rune": {
+   "kind": "item",
+   "name": "Wayfarer's Spawner Upgrade Rune"
+  },
+  "apotheosis:summit_spawner_upgrade_rune": {
+   "kind": "item",
+   "name": "Mountaineer's Spawner Upgrade Rune"
+  },
+  "apotheosis:pinnacle_spawner_upgrade_rune": {
+   "kind": "item",
+   "name": "Thundering Spawner Upgrade Rune"
+  },
+  "apotheosis:spawn_range_spawner_rune": {
+   "kind": "item",
+   "name": "Rune of Spawning Range"
+  },
+  "apotheosis:redstone_control_spawner_rune": {
+   "kind": "item",
+   "name": "Rune of Control"
+  },
+  "apotheosis:ignore_light_spawner_rune": {
+   "kind": "item",
+   "name": "Rune of Perpetual Twilight"
+  },
+  "apotheosis:initial_health_spawner_rune": {
+   "kind": "item",
+   "name": "Rune of Debilitation"
+  },
+  "apotheosis:silent_spawner_rune": {
+   "kind": "item",
+   "name": "Rune of Silence"
+  },
+  "apotheosis:youthful_spawner_rune": {
+   "kind": "item",
+   "name": "Rune of Youth"
+  },
+  "apotheosis:burning_spawner_rune": {
+   "kind": "item",
+   "name": "Rune of Immolation"
+  },
+  "apotheosis:no_ai_spawner_rune": {
+   "kind": "item",
+   "name": "Rune of Stupor"
+  },
+  "apotheosis:ignore_conditions_spawner_rune": {
+   "kind": "item",
+   "name": "Rune of Defiance"
+  },
+  "apotheosis:ignore_players_spawner_rune": {
+   "kind": "item",
+   "name": "Rune of Solitude"
+  },
+  "apotheosis:echoing_spawner_rune": {
+   "kind": "item",
+   "name": "Rune of Echoes"
+  },
+  "apotheosis:iron_upgrade_smithing_template": {
+   "kind": "item",
+   "name": "Smithing Template"
+  },
+  "apotheosis:iron_upgrade_smithing_template.applies_to": {
+   "kind": "item",
+   "name": "Stone and Chain Equipment"
+  },
+  "apotheosis:iron_upgrade_smithing_template.ingredients": {
+   "kind": "item",
+   "name": "4 Iron Ingots"
+  },
+  "apotheosis:gold_upgrade_smithing_template": {
+   "kind": "item",
+   "name": "Smithing Template"
+  },
+  "apotheosis:gold_upgrade_smithing_template.applies_to": {
+   "kind": "item",
+   "name": "Iron Equipment"
+  },
+  "apotheosis:gold_upgrade_smithing_template.ingredients": {
+   "kind": "item",
+   "name": "4 Gold Ingots"
+  },
+  "apotheosis:diamond_upgrade_smithing_template": {
+   "kind": "item",
+   "name": "Smithing Template"
+  },
+  "apotheosis:diamond_upgrade_smithing_template.applies_to": {
+   "kind": "item",
+   "name": "Golden Equipment"
+  },
+  "apotheosis:diamond_upgrade_smithing_template.ingredients": {
+   "kind": "item",
+   "name": "4 Diamonds"
+  },
+  "apotheosis:boss_spawner": {
+   "kind": "block",
+   "name": "Caged Invader"
+  },
+  "apotheosis:gem_cutting_table": {
+   "kind": "block",
+   "name": "Gem Cutting Table"
+  },
+  "apotheosis:salvaging_table": {
+   "kind": "block",
+   "name": "Salvaging Table"
+  },
+  "apotheosis:simple_reforging_table": {
+   "kind": "block",
+   "name": "Simple Reforging Table"
+  },
+  "apotheosis:reforging_table": {
+   "kind": "block",
+   "name": "Reforging Table"
+  },
+  "apotheosis:augmenting_table": {
+   "kind": "block",
+   "name": "Augmenting Table"
+  },
+  "apotheosis:gem_case": {
+   "kind": "block",
+   "name": "Gem Case"
+  },
+  "apotheosis:ender_gem_case": {
+   "kind": "block",
+   "name": "Gem Case of House Fabergé"
+  },
+  "apotheosis:lucky_foot": {
+   "kind": "item",
+   "name": "Lucky Rabbit's Foot"
+  },
+  "apotheosis:ender_lead": {
+   "kind": "item",
+   "name": "Ender Lead"
+  },
+  "apotheosis:music_disc_flash": {
+   "kind": "item",
+   "name": "Music Disc"
+  },
+  "apotheosis:music_disc_glimmer": {
+   "kind": "item",
+   "name": "Music Disc"
+  },
+  "apotheosis:music_disc_shimmer": {
+   "kind": "item",
+   "name": "Music Disc"
+  }
+ }
+}

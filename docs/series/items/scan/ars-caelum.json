@@ -1,0 +1,83 @@
+{
+ "repo": "baileyholl/Ars-Caelum",
+ "ref": "1.21.x",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "ars_caelum"
+ ],
+ "item_count": 12,
+ "compat": [
+  {
+   "id": "ars_nouveau",
+   "slug": "ars-nouveau",
+   "evidence": {
+    "data-ref": 34,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "patchouli",
+   "slug": "patchouli",
+   "evidence": {
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "ars_caelum:ritual_conjure_island_blazing": {
+   "kind": "item",
+   "name": "Conjure Island: Blazing"
+  },
+  "ars_caelum:ritual_conjure_island_cascading": {
+   "kind": "item",
+   "name": "Conjure Island: Cascading"
+  },
+  "ars_caelum:ritual_conjure_island_end_portal": {
+   "kind": "item",
+   "name": "Conjure Island: End Portal"
+  },
+  "ars_caelum:ritual_conjure_island_flourishing": {
+   "kind": "item",
+   "name": "Conjure Island: Flourishing"
+  },
+  "ars_caelum:ritual_conjure_island_geode": {
+   "kind": "item",
+   "name": "Conjure Island: Geode"
+  },
+  "ars_caelum:ritual_conjure_island_sculk": {
+   "kind": "item",
+   "name": "Conjure Island: Deep Dark"
+  },
+  "ars_caelum:ritual_conjure_island_starter": {
+   "kind": "item",
+   "name": "Conjure Island: Starter"
+  },
+  "ars_caelum:ritual_conjure_island_vexing": {
+   "kind": "item",
+   "name": "Conjure Island: Vexing"
+  },
+  "ars_caelum:ritual_conjure_island_village": {
+   "kind": "item",
+   "name": "Conjure Island: Village"
+  },
+  "ars_caelum:ritual_elder_summon": {
+   "kind": "item",
+   "name": "Summon Guardians"
+  },
+  "ars_caelum:ritual_mana_regeneration": {
+   "kind": "item",
+   "name": "Mana Regeneration"
+  },
+  "ars_caelum:ritual_sedimentation": {
+   "kind": "item",
+   "name": "Sedimentation"
+  }
+ }
+}

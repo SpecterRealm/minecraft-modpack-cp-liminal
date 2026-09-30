@@ -1,0 +1,4030 @@
+{
+ "repo": "TeamTwilight/twilightforest",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "twilightforest"
+ ],
+ "item_count": 995,
+ "compat": [
+  {
+   "id": "bookshelf",
+   "slug": "bookshelf",
+   "evidence": {
+    "compat-import": 2
+   }
+  },
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "compat-import": 4,
+    "isLoaded": 5
+   }
+  },
+  {
+   "id": "emi",
+   "slug": "emi",
+   "evidence": {
+    "compat-import": 18,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "jade",
+   "slug": "jade",
+   "evidence": {
+    "compat-import": 4
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 22
+   }
+  }
+ ],
+ "items": {
+  "minecraft:banner.twilightforest.alpha_yeti.black": {
+   "kind": "block",
+   "name": "Black Alpha Yeti Face"
+  },
+  "minecraft:banner.twilightforest.alpha_yeti.blue": {
+   "kind": "block",
+   "name": "Blue Alpha Yeti Face"
+  },
+  "minecraft:banner.twilightforest.alpha_yeti.brown": {
+   "kind": "block",
+   "name": "Brown Alpha Yeti Face"
+  },
+  "minecraft:banner.twilightforest.alpha_yeti.cyan": {
+   "kind": "block",
+   "name": "Cyan Alpha Yeti Face"
+  },
+  "minecraft:banner.twilightforest.alpha_yeti.gray": {
+   "kind": "block",
+   "name": "Gray Alpha Yeti Face"
+  },
+  "minecraft:banner.twilightforest.alpha_yeti.green": {
+   "kind": "block",
+   "name": "Green Alpha Yeti Face"
+  },
+  "minecraft:banner.twilightforest.alpha_yeti.light_blue": {
+   "kind": "block",
+   "name": "Light Blue Alpha Yeti Face"
+  },
+  "minecraft:banner.twilightforest.alpha_yeti.light_gray": {
+   "kind": "block",
+   "name": "Light Gray Alpha Yeti Face"
+  },
+  "minecraft:banner.twilightforest.alpha_yeti.lime": {
+   "kind": "block",
+   "name": "Lime Alpha Yeti Face"
+  },
+  "minecraft:banner.twilightforest.alpha_yeti.magenta": {
+   "kind": "block",
+   "name": "Magenta Alpha Yeti Face"
+  },
+  "minecraft:banner.twilightforest.alpha_yeti.orange": {
+   "kind": "block",
+   "name": "Orange Alpha Yeti Face"
+  },
+  "minecraft:banner.twilightforest.alpha_yeti.pink": {
+   "kind": "block",
+   "name": "Pink Alpha Yeti Face"
+  },
+  "minecraft:banner.twilightforest.alpha_yeti.purple": {
+   "kind": "block",
+   "name": "Purple Alpha Yeti Face"
+  },
+  "minecraft:banner.twilightforest.alpha_yeti.red": {
+   "kind": "block",
+   "name": "Red Alpha Yeti Face"
+  },
+  "minecraft:banner.twilightforest.alpha_yeti.white": {
+   "kind": "block",
+   "name": "White Alpha Yeti Face"
+  },
+  "minecraft:banner.twilightforest.alpha_yeti.yellow": {
+   "kind": "block",
+   "name": "Yellow Alpha Yeti Face"
+  },
+  "minecraft:banner.twilightforest.hydra.black": {
+   "kind": "block",
+   "name": "Black Hydra Flame"
+  },
+  "minecraft:banner.twilightforest.hydra.blue": {
+   "kind": "block",
+   "name": "Blue Hydra Flame"
+  },
+  "minecraft:banner.twilightforest.hydra.brown": {
+   "kind": "block",
+   "name": "Brown Hydra Flame"
+  },
+  "minecraft:banner.twilightforest.hydra.cyan": {
+   "kind": "block",
+   "name": "Cyan Hydra Flame"
+  },
+  "minecraft:banner.twilightforest.hydra.gray": {
+   "kind": "block",
+   "name": "Gray Hydra Flame"
+  },
+  "minecraft:banner.twilightforest.hydra.green": {
+   "kind": "block",
+   "name": "Green Hydra Flame"
+  },
+  "minecraft:banner.twilightforest.hydra.light_blue": {
+   "kind": "block",
+   "name": "Light Blue Hydra Flame"
+  },
+  "minecraft:banner.twilightforest.hydra.light_gray": {
+   "kind": "block",
+   "name": "Light Gray Hydra Flame"
+  },
+  "minecraft:banner.twilightforest.hydra.lime": {
+   "kind": "block",
+   "name": "Lime Hydra Flame"
+  },
+  "minecraft:banner.twilightforest.hydra.magenta": {
+   "kind": "block",
+   "name": "Magenta Hydra Flame"
+  },
+  "minecraft:banner.twilightforest.hydra.orange": {
+   "kind": "block",
+   "name": "Orange Hydra Flame"
+  },
+  "minecraft:banner.twilightforest.hydra.pink": {
+   "kind": "block",
+   "name": "Pink Hydra Flame"
+  },
+  "minecraft:banner.twilightforest.hydra.purple": {
+   "kind": "block",
+   "name": "Purple Hydra Flame"
+  },
+  "minecraft:banner.twilightforest.hydra.red": {
+   "kind": "block",
+   "name": "Red Hydra Flame"
+  },
+  "minecraft:banner.twilightforest.hydra.white": {
+   "kind": "block",
+   "name": "White Hydra Flame"
+  },
+  "minecraft:banner.twilightforest.hydra.yellow": {
+   "kind": "block",
+   "name": "Yellow Hydra Flame"
+  },
+  "minecraft:banner.twilightforest.knight_phantom.black": {
+   "kind": "block",
+   "name": "Black Knight Helmet"
+  },
+  "minecraft:banner.twilightforest.knight_phantom.blue": {
+   "kind": "block",
+   "name": "Blue Knight Helmet"
+  },
+  "minecraft:banner.twilightforest.knight_phantom.brown": {
+   "kind": "block",
+   "name": "Brown Knight Helmet"
+  },
+  "minecraft:banner.twilightforest.knight_phantom.cyan": {
+   "kind": "block",
+   "name": "Cyan Knight Helmet"
+  },
+  "minecraft:banner.twilightforest.knight_phantom.gray": {
+   "kind": "block",
+   "name": "Gray Knight Helmet"
+  },
+  "minecraft:banner.twilightforest.knight_phantom.green": {
+   "kind": "block",
+   "name": "Green Knight Helmet"
+  },
+  "minecraft:banner.twilightforest.knight_phantom.light_blue": {
+   "kind": "block",
+   "name": "Light Blue Knight Helmet"
+  },
+  "minecraft:banner.twilightforest.knight_phantom.light_gray": {
+   "kind": "block",
+   "name": "Light Gray Knight Helmet"
+  },
+  "minecraft:banner.twilightforest.knight_phantom.lime": {
+   "kind": "block",
+   "name": "Lime Knight Helmet"
+  },
+  "minecraft:banner.twilightforest.knight_phantom.magenta": {
+   "kind": "block",
+   "name": "Magenta Knight Helmet"
+  },
+  "minecraft:banner.twilightforest.knight_phantom.orange": {
+   "kind": "block",
+   "name": "Orange Knight Helmet"
+  },
+  "minecraft:banner.twilightforest.knight_phantom.pink": {
+   "kind": "block",
+   "name": "Pink Knight Helmet"
+  },
+  "minecraft:banner.twilightforest.knight_phantom.purple": {
+   "kind": "block",
+   "name": "Purple Knight Helmet"
+  },
+  "minecraft:banner.twilightforest.knight_phantom.red": {
+   "kind": "block",
+   "name": "Red Knight Helmet"
+  },
+  "minecraft:banner.twilightforest.knight_phantom.white": {
+   "kind": "block",
+   "name": "White Knight Helmet"
+  },
+  "minecraft:banner.twilightforest.knight_phantom.yellow": {
+   "kind": "block",
+   "name": "Yellow Knight Helmet"
+  },
+  "minecraft:banner.twilightforest.lich.black": {
+   "kind": "block",
+   "name": "Black Lich Crown"
+  },
+  "minecraft:banner.twilightforest.lich.blue": {
+   "kind": "block",
+   "name": "Blue Lich Crown"
+  },
+  "minecraft:banner.twilightforest.lich.brown": {
+   "kind": "block",
+   "name": "Brown Lich Crown"
+  },
+  "minecraft:banner.twilightforest.lich.cyan": {
+   "kind": "block",
+   "name": "Cyan Lich Crown"
+  },
+  "minecraft:banner.twilightforest.lich.gray": {
+   "kind": "block",
+   "name": "Gray Lich Crown"
+  },
+  "minecraft:banner.twilightforest.lich.green": {
+   "kind": "block",
+   "name": "Green Lich Crown"
+  },
+  "minecraft:banner.twilightforest.lich.light_blue": {
+   "kind": "block",
+   "name": "Light Blue Lich Crown"
+  },
+  "minecraft:banner.twilightforest.lich.light_gray": {
+   "kind": "block",
+   "name": "Light Gray Lich Crown"
+  },
+  "minecraft:banner.twilightforest.lich.lime": {
+   "kind": "block",
+   "name": "Lime Lich Crown"
+  },
+  "minecraft:banner.twilightforest.lich.magenta": {
+   "kind": "block",
+   "name": "Magenta Lich Crown"
+  },
+  "minecraft:banner.twilightforest.lich.orange": {
+   "kind": "block",
+   "name": "Orange Lich Crown"
+  },
+  "minecraft:banner.twilightforest.lich.pink": {
+   "kind": "block",
+   "name": "Pink Lich Crown"
+  },
+  "minecraft:banner.twilightforest.lich.purple": {
+   "kind": "block",
+   "name": "Purple Lich Crown"
+  },
+  "minecraft:banner.twilightforest.lich.red": {
+   "kind": "block",
+   "name": "Red Lich Crown"
+  },
+  "minecraft:banner.twilightforest.lich.white": {
+   "kind": "block",
+   "name": "White Lich Crown"
+  },
+  "minecraft:banner.twilightforest.lich.yellow": {
+   "kind": "block",
+   "name": "Yellow Lich Crown"
+  },
+  "minecraft:banner.twilightforest.minoshroom.black": {
+   "kind": "block",
+   "name": "Black Minoshroom Axes"
+  },
+  "minecraft:banner.twilightforest.minoshroom.blue": {
+   "kind": "block",
+   "name": "Blue Minoshroom Axes"
+  },
+  "minecraft:banner.twilightforest.minoshroom.brown": {
+   "kind": "block",
+   "name": "Brown Minoshroom Axes"
+  },
+  "minecraft:banner.twilightforest.minoshroom.cyan": {
+   "kind": "block",
+   "name": "Cyan Minoshroom Axes"
+  },
+  "minecraft:banner.twilightforest.minoshroom.gray": {
+   "kind": "block",
+   "name": "Gray Minoshroom Axes"
+  },
+  "minecraft:banner.twilightforest.minoshroom.green": {
+   "kind": "block",
+   "name": "Green Minoshroom Axes"
+  },
+  "minecraft:banner.twilightforest.minoshroom.light_blue": {
+   "kind": "block",
+   "name": "Light Blue Minoshroom Axes"
+  },
+  "minecraft:banner.twilightforest.minoshroom.light_gray": {
+   "kind": "block",
+   "name": "Light Gray Minoshroom Axes"
+  },
+  "minecraft:banner.twilightforest.minoshroom.lime": {
+   "kind": "block",
+   "name": "Lime Minoshroom Axes"
+  },
+  "minecraft:banner.twilightforest.minoshroom.magenta": {
+   "kind": "block",
+   "name": "Magenta Minoshroom Axes"
+  },
+  "minecraft:banner.twilightforest.minoshroom.orange": {
+   "kind": "block",
+   "name": "Orange Minoshroom Axes"
+  },
+  "minecraft:banner.twilightforest.minoshroom.pink": {
+   "kind": "block",
+   "name": "Pink Minoshroom Axes"
+  },
+  "minecraft:banner.twilightforest.minoshroom.purple": {
+   "kind": "block",
+   "name": "Purple Minoshroom Axes"
+  },
+  "minecraft:banner.twilightforest.minoshroom.red": {
+   "kind": "block",
+   "name": "Red Minoshroom Axes"
+  },
+  "minecraft:banner.twilightforest.minoshroom.white": {
+   "kind": "block",
+   "name": "White Minoshroom Axes"
+  },
+  "minecraft:banner.twilightforest.minoshroom.yellow": {
+   "kind": "block",
+   "name": "Yellow Minoshroom Axes"
+  },
+  "minecraft:banner.twilightforest.naga.black": {
+   "kind": "block",
+   "name": "Black Naga Scales"
+  },
+  "minecraft:banner.twilightforest.naga.blue": {
+   "kind": "block",
+   "name": "Blue Naga Scales"
+  },
+  "minecraft:banner.twilightforest.naga.brown": {
+   "kind": "block",
+   "name": "Brown Naga Scales"
+  },
+  "minecraft:banner.twilightforest.naga.cyan": {
+   "kind": "block",
+   "name": "Cyan Naga Scales"
+  },
+  "minecraft:banner.twilightforest.naga.gray": {
+   "kind": "block",
+   "name": "Gray Naga Scales"
+  },
+  "minecraft:banner.twilightforest.naga.green": {
+   "kind": "block",
+   "name": "Green Naga Scales"
+  },
+  "minecraft:banner.twilightforest.naga.light_blue": {
+   "kind": "block",
+   "name": "Light Blue Naga Scales"
+  },
+  "minecraft:banner.twilightforest.naga.light_gray": {
+   "kind": "block",
+   "name": "Light Gray Naga Scales"
+  },
+  "minecraft:banner.twilightforest.naga.lime": {
+   "kind": "block",
+   "name": "Lime Naga Scales"
+  },
+  "minecraft:banner.twilightforest.naga.magenta": {
+   "kind": "block",
+   "name": "Magenta Naga Scales"
+  },
+  "minecraft:banner.twilightforest.naga.orange": {
+   "kind": "block",
+   "name": "Orange Naga Scales"
+  },
+  "minecraft:banner.twilightforest.naga.pink": {
+   "kind": "block",
+   "name": "Pink Naga Scales"
+  },
+  "minecraft:banner.twilightforest.naga.purple": {
+   "kind": "block",
+   "name": "Purple Naga Scales"
+  },
+  "minecraft:banner.twilightforest.naga.red": {
+   "kind": "block",
+   "name": "Red Naga Scales"
+  },
+  "minecraft:banner.twilightforest.naga.white": {
+   "kind": "block",
+   "name": "White Naga Scales"
+  },
+  "minecraft:banner.twilightforest.naga.yellow": {
+   "kind": "block",
+   "name": "Yellow Naga Scales"
+  },
+  "minecraft:banner.twilightforest.quest_ram.black": {
+   "kind": "block",
+   "name": "Black Questing Ram Swirls"
+  },
+  "minecraft:banner.twilightforest.quest_ram.blue": {
+   "kind": "block",
+   "name": "Blue Questing Ram Swirls"
+  },
+  "minecraft:banner.twilightforest.quest_ram.brown": {
+   "kind": "block",
+   "name": "Brown Questing Ram Swirls"
+  },
+  "minecraft:banner.twilightforest.quest_ram.cyan": {
+   "kind": "block",
+   "name": "Cyan Questing Ram Swirls"
+  },
+  "minecraft:banner.twilightforest.quest_ram.gray": {
+   "kind": "block",
+   "name": "Gray Questing Ram Swirls"
+  },
+  "minecraft:banner.twilightforest.quest_ram.green": {
+   "kind": "block",
+   "name": "Green Questing Ram Swirls"
+  },
+  "minecraft:banner.twilightforest.quest_ram.light_blue": {
+   "kind": "block",
+   "name": "Light Blue Questing Ram Swirls"
+  },
+  "minecraft:banner.twilightforest.quest_ram.light_gray": {
+   "kind": "block",
+   "name": "Light Gray Questing Ram Swirls"
+  },
+  "minecraft:banner.twilightforest.quest_ram.lime": {
+   "kind": "block",
+   "name": "Lime Questing Ram Swirls"
+  },
+  "minecraft:banner.twilightforest.quest_ram.magenta": {
+   "kind": "block",
+   "name": "Magenta Questing Ram Swirls"
+  },
+  "minecraft:banner.twilightforest.quest_ram.orange": {
+   "kind": "block",
+   "name": "Orange Questing Ram Swirls"
+  },
+  "minecraft:banner.twilightforest.quest_ram.pink": {
+   "kind": "block",
+   "name": "Pink Questing Ram Swirls"
+  },
+  "minecraft:banner.twilightforest.quest_ram.purple": {
+   "kind": "block",
+   "name": "Purple Questing Ram Swirls"
+  },
+  "minecraft:banner.twilightforest.quest_ram.red": {
+   "kind": "block",
+   "name": "Red Questing Ram Swirls"
+  },
+  "minecraft:banner.twilightforest.quest_ram.white": {
+   "kind": "block",
+   "name": "White Questing Ram Swirls"
+  },
+  "minecraft:banner.twilightforest.quest_ram.yellow": {
+   "kind": "block",
+   "name": "Yellow Questing Ram Swirls"
+  },
+  "minecraft:banner.twilightforest.snow_queen.black": {
+   "kind": "block",
+   "name": "Black Snowflake"
+  },
+  "minecraft:banner.twilightforest.snow_queen.blue": {
+   "kind": "block",
+   "name": "Blue Snowflake"
+  },
+  "minecraft:banner.twilightforest.snow_queen.brown": {
+   "kind": "block",
+   "name": "Brown Snowflake"
+  },
+  "minecraft:banner.twilightforest.snow_queen.cyan": {
+   "kind": "block",
+   "name": "Cyan Snowflake"
+  },
+  "minecraft:banner.twilightforest.snow_queen.gray": {
+   "kind": "block",
+   "name": "Gray Snowflake"
+  },
+  "minecraft:banner.twilightforest.snow_queen.green": {
+   "kind": "block",
+   "name": "Green Snowflake"
+  },
+  "minecraft:banner.twilightforest.snow_queen.light_blue": {
+   "kind": "block",
+   "name": "Light Blue Snowflake"
+  },
+  "minecraft:banner.twilightforest.snow_queen.light_gray": {
+   "kind": "block",
+   "name": "Light Gray Snowflake"
+  },
+  "minecraft:banner.twilightforest.snow_queen.lime": {
+   "kind": "block",
+   "name": "Lime Snowflake"
+  },
+  "minecraft:banner.twilightforest.snow_queen.magenta": {
+   "kind": "block",
+   "name": "Magenta Snowflake"
+  },
+  "minecraft:banner.twilightforest.snow_queen.orange": {
+   "kind": "block",
+   "name": "Orange Snowflake"
+  },
+  "minecraft:banner.twilightforest.snow_queen.pink": {
+   "kind": "block",
+   "name": "Pink Snowflake"
+  },
+  "minecraft:banner.twilightforest.snow_queen.purple": {
+   "kind": "block",
+   "name": "Purple Snowflake"
+  },
+  "minecraft:banner.twilightforest.snow_queen.red": {
+   "kind": "block",
+   "name": "Red Snowflake"
+  },
+  "minecraft:banner.twilightforest.snow_queen.white": {
+   "kind": "block",
+   "name": "White Snowflake"
+  },
+  "minecraft:banner.twilightforest.snow_queen.yellow": {
+   "kind": "block",
+   "name": "Yellow Snowflake"
+  },
+  "minecraft:banner.twilightforest.ur_ghast.black": {
+   "kind": "block",
+   "name": "Black Carminite Border"
+  },
+  "minecraft:banner.twilightforest.ur_ghast.blue": {
+   "kind": "block",
+   "name": "Blue Carminite Border"
+  },
+  "minecraft:banner.twilightforest.ur_ghast.brown": {
+   "kind": "block",
+   "name": "Brown Carminite Border"
+  },
+  "minecraft:banner.twilightforest.ur_ghast.cyan": {
+   "kind": "block",
+   "name": "Cyan Carminite Border"
+  },
+  "minecraft:banner.twilightforest.ur_ghast.gray": {
+   "kind": "block",
+   "name": "Gray Carminite Border"
+  },
+  "minecraft:banner.twilightforest.ur_ghast.green": {
+   "kind": "block",
+   "name": "Green Carminite Border"
+  },
+  "minecraft:banner.twilightforest.ur_ghast.light_blue": {
+   "kind": "block",
+   "name": "Light Blue Carminite Border"
+  },
+  "minecraft:banner.twilightforest.ur_ghast.light_gray": {
+   "kind": "block",
+   "name": "Light Gray Carminite Border"
+  },
+  "minecraft:banner.twilightforest.ur_ghast.lime": {
+   "kind": "block",
+   "name": "Lime Carminite Border"
+  },
+  "minecraft:banner.twilightforest.ur_ghast.magenta": {
+   "kind": "block",
+   "name": "Magenta Carminite Border"
+  },
+  "minecraft:banner.twilightforest.ur_ghast.orange": {
+   "kind": "block",
+   "name": "Orange Carminite Border"
+  },
+  "minecraft:banner.twilightforest.ur_ghast.pink": {
+   "kind": "block",
+   "name": "Pink Carminite Border"
+  },
+  "minecraft:banner.twilightforest.ur_ghast.purple": {
+   "kind": "block",
+   "name": "Purple Carminite Border"
+  },
+  "minecraft:banner.twilightforest.ur_ghast.red": {
+   "kind": "block",
+   "name": "Red Carminite Border"
+  },
+  "minecraft:banner.twilightforest.ur_ghast.white": {
+   "kind": "block",
+   "name": "White Carminite Border"
+  },
+  "minecraft:banner.twilightforest.ur_ghast.yellow": {
+   "kind": "block",
+   "name": "Yellow Carminite Border"
+  },
+  "twilightforest:acacia_banister": {
+   "kind": "block",
+   "name": "Acacia Banister"
+  },
+  "twilightforest:acacia_drying_rack": {
+   "kind": "block",
+   "name": "Acacia Drying Rack"
+  },
+  "twilightforest:alpha_yeti_boss_spawner": {
+   "kind": "block",
+   "name": "Alpha Yeti Boss Spawner"
+  },
+  "twilightforest:alpha_yeti_trophy": {
+   "kind": "block",
+   "name": "Alpha Yeti Trophy"
+  },
+  "twilightforest:antibuilder": {
+   "kind": "block",
+   "name": "Antibuilder"
+  },
+  "twilightforest:antibuilt_block": {
+   "kind": "block",
+   "name": "Antibuilt Block"
+  },
+  "twilightforest:arctic_fur_block": {
+   "kind": "block",
+   "name": "Block of Arctic Fur"
+  },
+  "twilightforest:aurora_block": {
+   "kind": "block",
+   "name": "Aurora Block"
+  },
+  "twilightforest:aurora_pillar": {
+   "kind": "block",
+   "name": "Aurora Pillar"
+  },
+  "twilightforest:aurora_slab": {
+   "kind": "block",
+   "name": "Aurora Slab"
+  },
+  "twilightforest:auroralized_glass": {
+   "kind": "block",
+   "name": "Auroralized Glass"
+  },
+  "twilightforest:bamboo_banister": {
+   "kind": "block",
+   "name": "Bamboo Banister"
+  },
+  "twilightforest:bamboo_drying_rack": {
+   "kind": "block",
+   "name": "Bamboo Drying Rack"
+  },
+  "twilightforest:banister.cycle": {
+   "kind": "block",
+   "name": "Right-click with axe to cycle"
+  },
+  "twilightforest:beanstalk_leaves": {
+   "kind": "block",
+   "name": "Beanstalk Leaves"
+  },
+  "twilightforest:birch_banister": {
+   "kind": "block",
+   "name": "Birch Banister"
+  },
+  "twilightforest:birch_drying_rack": {
+   "kind": "block",
+   "name": "Birch Drying Rack"
+  },
+  "twilightforest:blackberry_bush": {
+   "kind": "block",
+   "name": "Blackberry Bush"
+  },
+  "twilightforest:blightberry_bush": {
+   "kind": "block",
+   "name": "Blightberry Bush"
+  },
+  "twilightforest:blue_castle_door": {
+   "kind": "block",
+   "name": "Blue Castle Door"
+  },
+  "twilightforest:blue_castle_rune_brick": {
+   "kind": "block",
+   "name": "Blue Castle Rune Brick"
+  },
+  "twilightforest:blue_force_field": {
+   "kind": "block",
+   "name": "Blue Force Field"
+  },
+  "twilightforest:blueberry_bush": {
+   "kind": "block",
+   "name": "Blueberry Bush"
+  },
+  "twilightforest:bold_castle_brick_pillar": {
+   "kind": "block",
+   "name": "Bold Castle Brick Pillar"
+  },
+  "twilightforest:bold_castle_brick_stairs": {
+   "kind": "block",
+   "name": "Bold Castle Brick Stairs"
+  },
+  "twilightforest:bold_castle_brick_tile": {
+   "kind": "block",
+   "name": "Bold Castle Brick Tile"
+  },
+  "twilightforest:bold_stone_pillar": {
+   "kind": "block",
+   "name": "Bold Stone Pillar"
+  },
+  "twilightforest:brazier": {
+   "kind": "block",
+   "name": "Brazier"
+  },
+  "twilightforest:brown_thorns": {
+   "kind": "block",
+   "name": "Thorns"
+  },
+  "twilightforest:built_block": {
+   "kind": "block",
+   "name": "Built Block"
+  },
+  "twilightforest:burnt_thorns": {
+   "kind": "block",
+   "name": "Burnt Thorns"
+  },
+  "twilightforest:candelabra": {
+   "kind": "block",
+   "name": "Candelabra"
+  },
+  "twilightforest:canopy_banister": {
+   "kind": "block",
+   "name": "Canopy Banister"
+  },
+  "twilightforest:canopy_button": {
+   "kind": "block",
+   "name": "Canopy Button"
+  },
+  "twilightforest:canopy_chest": {
+   "kind": "block",
+   "name": "Canopy Chest"
+  },
+  "twilightforest:canopy_door": {
+   "kind": "block",
+   "name": "Canopy Door"
+  },
+  "twilightforest:canopy_drying_rack": {
+   "kind": "block",
+   "name": "Canopy Drying Rack"
+  },
+  "twilightforest:canopy_fence": {
+   "kind": "block",
+   "name": "Canopy Fence"
+  },
+  "twilightforest:canopy_fence_gate": {
+   "kind": "block",
+   "name": "Canopy Fence Gate"
+  },
+  "twilightforest:canopy_hanging_sign": {
+   "kind": "block",
+   "name": "Canopy Hanging Sign"
+  },
+  "twilightforest:canopy_leaves": {
+   "kind": "block",
+   "name": "Canopy Tree Leaves"
+  },
+  "twilightforest:canopy_log": {
+   "kind": "block",
+   "name": "Canopy Tree Log"
+  },
+  "twilightforest:canopy_planks": {
+   "kind": "block",
+   "name": "Canopy Planks"
+  },
+  "twilightforest:canopy_pressure_plate": {
+   "kind": "block",
+   "name": "Canopy Pressure Plate"
+  },
+  "twilightforest:canopy_sapling": {
+   "kind": "block",
+   "name": "Canopy Tree Sapling"
+  },
+  "twilightforest:canopy_sign": {
+   "kind": "block",
+   "name": "Canopy Sign"
+  },
+  "twilightforest:canopy_slab": {
+   "kind": "block",
+   "name": "Canopy Slab"
+  },
+  "twilightforest:canopy_stairs": {
+   "kind": "block",
+   "name": "Canopy Stairs"
+  },
+  "twilightforest:canopy_trapdoor": {
+   "kind": "block",
+   "name": "Canopy Trapdoor"
+  },
+  "twilightforest:canopy_trapped_chest": {
+   "kind": "block",
+   "name": "Trapped Canopy Chest"
+  },
+  "twilightforest:canopy_wall_hanging_sign": {
+   "kind": "block",
+   "name": "Canopy Wall Hanging Sign"
+  },
+  "twilightforest:canopy_wall_sign": {
+   "kind": "block",
+   "name": "Canopy Wall Sign"
+  },
+  "twilightforest:canopy_window": {
+   "kind": "block",
+   "name": "Canopy Window"
+  },
+  "twilightforest:canopy_window_pane": {
+   "kind": "block",
+   "name": "Canopy Window Pane"
+  },
+  "twilightforest:canopy_wood": {
+   "kind": "block",
+   "name": "Canopy Tree Wood"
+  },
+  "twilightforest:carminite_block": {
+   "kind": "block",
+   "name": "Block of Carminite"
+  },
+  "twilightforest:carminite_builder": {
+   "kind": "block",
+   "name": "Carminite Builder"
+  },
+  "twilightforest:carminite_reactor": {
+   "kind": "block",
+   "name": "Carminite Reactor"
+  },
+  "twilightforest:casket.locked": {
+   "kind": "block",
+   "name": "This Casket can only be opened by %s!"
+  },
+  "twilightforest:castle_brick": {
+   "kind": "block",
+   "name": "Castle Brick"
+  },
+  "twilightforest:castle_brick_stairs": {
+   "kind": "block",
+   "name": "Castle Brick Stairs"
+  },
+  "twilightforest:castle_roof_tile": {
+   "kind": "block",
+   "name": "Castle Roof Tile"
+  },
+  "twilightforest:cherry_banister": {
+   "kind": "block",
+   "name": "Cherry Banister"
+  },
+  "twilightforest:cherry_drying_rack": {
+   "kind": "block",
+   "name": "Cherry Drying Rack"
+  },
+  "twilightforest:chipped_keepsake_casket": {
+   "kind": "block",
+   "name": "Chipped Keepsake Casket"
+  },
+  "twilightforest:cicada": {
+   "kind": "block",
+   "name": "Cicada"
+  },
+  "twilightforest:cicada_jar": {
+   "kind": "block",
+   "name": "Cicada Jar"
+  },
+  "twilightforest:cinder_furnace": {
+   "kind": "block",
+   "name": "Cinder Furnace"
+  },
+  "twilightforest:cinder_log": {
+   "kind": "block",
+   "name": "Cinder Log"
+  },
+  "twilightforest:cinder_wood": {
+   "kind": "block",
+   "name": "Cinder Wood"
+  },
+  "twilightforest:clover_patch": {
+   "kind": "block",
+   "name": "Clover Patch"
+  },
+  "twilightforest:copper_oreberry": {
+   "kind": "block",
+   "name": "Copper Oreberry Bush"
+  },
+  "twilightforest:coronation_carpet": {
+   "kind": "block",
+   "name": "Coronation Carpet"
+  },
+  "twilightforest:cracked_castle_brick": {
+   "kind": "block",
+   "name": "Cracked Castle Brick"
+  },
+  "twilightforest:cracked_castle_brick_stairs": {
+   "kind": "block",
+   "name": "Cracked Castle Brick Stairs"
+  },
+  "twilightforest:cracked_deadrock": {
+   "kind": "block",
+   "name": "Cracked Deadrock"
+  },
+  "twilightforest:cracked_etched_nagastone": {
+   "kind": "block",
+   "name": "Cracked Etched Nagastone"
+  },
+  "twilightforest:cracked_mazestone": {
+   "kind": "block",
+   "name": "Cracked Mazestone Brick"
+  },
+  "twilightforest:cracked_nagastone_pillar": {
+   "kind": "block",
+   "name": "Cracked Nagastone Pillar"
+  },
+  "twilightforest:cracked_nagastone_stairs_left": {
+   "kind": "block",
+   "name": "Cracked Nagastone Stairs (Left)"
+  },
+  "twilightforest:cracked_nagastone_stairs_right": {
+   "kind": "block",
+   "name": "Cracked Nagastone Stairs (Right)"
+  },
+  "twilightforest:cracked_towerwood": {
+   "kind": "block",
+   "name": "Cracked Towerwood Planks"
+  },
+  "twilightforest:cracked_underbrick": {
+   "kind": "block",
+   "name": "Cracked Underbrick"
+  },
+  "twilightforest:creeper_skull_candle": {
+   "kind": "block",
+   "name": "Creeper Skull Candle"
+  },
+  "twilightforest:creeper_wall_skull_candle": {
+   "kind": "block",
+   "name": "Creeper Wall Skull Candle"
+  },
+  "twilightforest:crimson_banister": {
+   "kind": "block",
+   "name": "Crimson Banister"
+  },
+  "twilightforest:crimson_drying_rack": {
+   "kind": "block",
+   "name": "Crimson Drying Rack"
+  },
+  "twilightforest:cut_mazestone": {
+   "kind": "block",
+   "name": "Cut Mazestone"
+  },
+  "twilightforest:damaged_keepsake_casket": {
+   "kind": "block",
+   "name": "Damaged Keepsake Casket"
+  },
+  "twilightforest:dark_banister": {
+   "kind": "block",
+   "name": "Darkwood Banister"
+  },
+  "twilightforest:dark_button": {
+   "kind": "block",
+   "name": "Darkwood Button"
+  },
+  "twilightforest:dark_chest": {
+   "kind": "block",
+   "name": "Darkwood Chest"
+  },
+  "twilightforest:dark_door": {
+   "kind": "block",
+   "name": "Darkwood Door"
+  },
+  "twilightforest:dark_drying_rack": {
+   "kind": "block",
+   "name": "Darkwood Drying Rack"
+  },
+  "twilightforest:dark_fence": {
+   "kind": "block",
+   "name": "Darkwood Fence"
+  },
+  "twilightforest:dark_fence_gate": {
+   "kind": "block",
+   "name": "Darkwood Fence Gate"
+  },
+  "twilightforest:dark_hanging_sign": {
+   "kind": "block",
+   "name": "Darkwood Hanging Sign"
+  },
+  "twilightforest:dark_leaves": {
+   "kind": "block",
+   "name": "Darkwood Leaves"
+  },
+  "twilightforest:dark_log": {
+   "kind": "block",
+   "name": "Darkwood Log"
+  },
+  "twilightforest:dark_oak_banister": {
+   "kind": "block",
+   "name": "Dark Oak Banister"
+  },
+  "twilightforest:dark_oak_drying_rack": {
+   "kind": "block",
+   "name": "Dark Oak Drying Rack"
+  },
+  "twilightforest:dark_planks": {
+   "kind": "block",
+   "name": "Darkwood Planks"
+  },
+  "twilightforest:dark_pressure_plate": {
+   "kind": "block",
+   "name": "Darkwood Pressure Plate"
+  },
+  "twilightforest:dark_sign": {
+   "kind": "block",
+   "name": "Darkwood Sign"
+  },
+  "twilightforest:dark_slab": {
+   "kind": "block",
+   "name": "Darkwood Slab"
+  },
+  "twilightforest:dark_stairs": {
+   "kind": "block",
+   "name": "Darkwood Stairs"
+  },
+  "twilightforest:dark_tower_miniature_structure": {
+   "kind": "block",
+   "name": "Miniature Dark Tower"
+  },
+  "twilightforest:dark_trapdoor": {
+   "kind": "block",
+   "name": "Darkwood Trapdoor"
+  },
+  "twilightforest:dark_trapped_chest": {
+   "kind": "block",
+   "name": "Trapped Darkwood Chest"
+  },
+  "twilightforest:dark_wall_hanging_sign": {
+   "kind": "block",
+   "name": "Darkwood Wall Hanging Sign"
+  },
+  "twilightforest:dark_wall_sign": {
+   "kind": "block",
+   "name": "Darkwood Wall Sign"
+  },
+  "twilightforest:dark_wood": {
+   "kind": "block",
+   "name": "Darkwood Wood"
+  },
+  "twilightforest:darkwood_sapling": {
+   "kind": "block",
+   "name": "Darkwood Sapling"
+  },
+  "twilightforest:deadrock": {
+   "kind": "block",
+   "name": "Deadrock"
+  },
+  "twilightforest:decorative_mazestone": {
+   "kind": "block",
+   "name": "Decorative Mazestone Brick"
+  },
+  "twilightforest:duskberry_bush": {
+   "kind": "block",
+   "name": "Duskberry Bush"
+  },
+  "twilightforest:encased_castle_brick_pillar": {
+   "kind": "block",
+   "name": "Encased Castle Brick Pillar"
+  },
+  "twilightforest:encased_castle_brick_stairs": {
+   "kind": "block",
+   "name": "Encased Castle Brick Stairs"
+  },
+  "twilightforest:encased_castle_brick_tile": {
+   "kind": "block",
+   "name": "Encased Castle Brick Tile"
+  },
+  "twilightforest:encased_fire_jet": {
+   "kind": "block",
+   "name": "Encased Fire Jet"
+  },
+  "twilightforest:encased_smoker": {
+   "kind": "block",
+   "name": "Encased Smoker"
+  },
+  "twilightforest:encased_towerwood": {
+   "kind": "block",
+   "name": "Encased Towerwood Planks"
+  },
+  "twilightforest:essence_oreberry": {
+   "kind": "block",
+   "name": "Essence Berry Bush"
+  },
+  "twilightforest:etched_nagastone": {
+   "kind": "block",
+   "name": "Etched Nagastone"
+  },
+  "twilightforest:experiment_115": {
+   "kind": "block",
+   "name": "Experiment 115"
+  },
+  "twilightforest:fake_diamond": {
+   "kind": "block",
+   "name": "Diamond Block"
+  },
+  "twilightforest:fake_gold": {
+   "kind": "block",
+   "name": "Gold Block"
+  },
+  "twilightforest:fallen_leaves": {
+   "kind": "block",
+   "name": "Fallen Leaves"
+  },
+  "twilightforest:fiddlehead": {
+   "kind": "block",
+   "name": "Fiddlehead Fern"
+  },
+  "twilightforest:fiery_block": {
+   "kind": "block",
+   "name": "Block of Fiery Metal"
+  },
+  "twilightforest:final_boss_boss_spawner": {
+   "kind": "block",
+   "name": "Final Boss Boss Spawner"
+  },
+  "twilightforest:fire_jet": {
+   "kind": "block",
+   "name": "Fire Jet"
+  },
+  "twilightforest:firefly": {
+   "kind": "block",
+   "name": "Firefly"
+  },
+  "twilightforest:firefly_jar": {
+   "kind": "block",
+   "name": "Firefly Jar"
+  },
+  "twilightforest:firefly_particle_spawner": {
+   "kind": "block",
+   "name": "Firefly Particle Spawner"
+  },
+  "twilightforest:fluffy_cloud": {
+   "kind": "block",
+   "name": "Fluffy Cloud"
+  },
+  "twilightforest:ghast_trap": {
+   "kind": "block",
+   "name": "Ghast Trap"
+  },
+  "twilightforest:giant_cobblestone": {
+   "kind": "block",
+   "name": "Giant Cobblestone"
+  },
+  "twilightforest:giant_leaves": {
+   "kind": "block",
+   "name": "Giant Leaves"
+  },
+  "twilightforest:giant_log": {
+   "kind": "block",
+   "name": "Giant Log"
+  },
+  "twilightforest:giant_obsidian": {
+   "kind": "block",
+   "name": "Giant Obsidian"
+  },
+  "twilightforest:gold_oreberry": {
+   "kind": "block",
+   "name": "Gold Oreberry Bush"
+  },
+  "twilightforest:green_force_field": {
+   "kind": "block",
+   "name": "Green Force Field"
+  },
+  "twilightforest:green_thorns": {
+   "kind": "block",
+   "name": "Green Thorns"
+  },
+  "twilightforest:hardened_dark_leaves": {
+   "kind": "block",
+   "name": "Thick Darkwood Leaves"
+  },
+  "twilightforest:hedge": {
+   "kind": "block",
+   "name": "Hedge"
+  },
+  "twilightforest:hollow_acacia_log_climbable": {
+   "kind": "block",
+   "name": "Hollow Acacia Log"
+  },
+  "twilightforest:hollow_acacia_log_horizontal": {
+   "kind": "block",
+   "name": "Hollow Acacia Log"
+  },
+  "twilightforest:hollow_acacia_log_vertical": {
+   "kind": "block",
+   "name": "Hollow Acacia Log"
+  },
+  "twilightforest:hollow_birch_log_climbable": {
+   "kind": "block",
+   "name": "Hollow Birch Log"
+  },
+  "twilightforest:hollow_birch_log_horizontal": {
+   "kind": "block",
+   "name": "Hollow Birch Log"
+  },
+  "twilightforest:hollow_birch_log_vertical": {
+   "kind": "block",
+   "name": "Hollow Birch Log"
+  },
+  "twilightforest:hollow_canopy_log_climbable": {
+   "kind": "block",
+   "name": "Hollow Canopy Tree Log"
+  },
+  "twilightforest:hollow_canopy_log_horizontal": {
+   "kind": "block",
+   "name": "Hollow Canopy Tree Log"
+  },
+  "twilightforest:hollow_canopy_log_vertical": {
+   "kind": "block",
+   "name": "Hollow Canopy Tree Log"
+  },
+  "twilightforest:hollow_cherry_log_climbable": {
+   "kind": "block",
+   "name": "Hollow Cherry Log"
+  },
+  "twilightforest:hollow_cherry_log_horizontal": {
+   "kind": "block",
+   "name": "Hollow Cherry Log"
+  },
+  "twilightforest:hollow_cherry_log_vertical": {
+   "kind": "block",
+   "name": "Hollow Cherry Log"
+  },
+  "twilightforest:hollow_crimson_stem_climbable": {
+   "kind": "block",
+   "name": "Hollow Crimson Stem"
+  },
+  "twilightforest:hollow_crimson_stem_horizontal": {
+   "kind": "block",
+   "name": "Hollow Crimson Stem"
+  },
+  "twilightforest:hollow_crimson_stem_vertical": {
+   "kind": "block",
+   "name": "Hollow Crimson Stem"
+  },
+  "twilightforest:hollow_dark_log_climbable": {
+   "kind": "block",
+   "name": "Hollow Darkwood Log"
+  },
+  "twilightforest:hollow_dark_log_horizontal": {
+   "kind": "block",
+   "name": "Hollow Darkwood Log"
+  },
+  "twilightforest:hollow_dark_log_vertical": {
+   "kind": "block",
+   "name": "Hollow Darkwood Log"
+  },
+  "twilightforest:hollow_dark_oak_log_climbable": {
+   "kind": "block",
+   "name": "Hollow Dark Oak Log"
+  },
+  "twilightforest:hollow_dark_oak_log_horizontal": {
+   "kind": "block",
+   "name": "Hollow Dark Oak Log"
+  },
+  "twilightforest:hollow_dark_oak_log_vertical": {
+   "kind": "block",
+   "name": "Hollow Dark Oak Log"
+  },
+  "twilightforest:hollow_jungle_log_climbable": {
+   "kind": "block",
+   "name": "Hollow Jungle Log"
+  },
+  "twilightforest:hollow_jungle_log_horizontal": {
+   "kind": "block",
+   "name": "Hollow Jungle Log"
+  },
+  "twilightforest:hollow_jungle_log_vertical": {
+   "kind": "block",
+   "name": "Hollow Jungle Log"
+  },
+  "twilightforest:hollow_mangrove_log_climbable": {
+   "kind": "block",
+   "name": "Hollow Mangrove Log"
+  },
+  "twilightforest:hollow_mangrove_log_horizontal": {
+   "kind": "block",
+   "name": "Hollow Mangrove Log"
+  },
+  "twilightforest:hollow_mangrove_log_vertical": {
+   "kind": "block",
+   "name": "Hollow Mangrove Log"
+  },
+  "twilightforest:hollow_mining_log_climbable": {
+   "kind": "block",
+   "name": "Hollow Minewood Log"
+  },
+  "twilightforest:hollow_mining_log_horizontal": {
+   "kind": "block",
+   "name": "Hollow Minewood Log"
+  },
+  "twilightforest:hollow_mining_log_vertical": {
+   "kind": "block",
+   "name": "Hollow Minewood Log"
+  },
+  "twilightforest:hollow_oak_log_climbable": {
+   "kind": "block",
+   "name": "Hollow Oak Log"
+  },
+  "twilightforest:hollow_oak_log_horizontal": {
+   "kind": "block",
+   "name": "Hollow Oak Log"
+  },
+  "twilightforest:hollow_oak_log_vertical": {
+   "kind": "block",
+   "name": "Hollow Oak Log"
+  },
+  "twilightforest:hollow_oak_sapling": {
+   "kind": "block",
+   "name": "Robust Twilight Oak Sapling"
+  },
+  "twilightforest:hollow_sorting_log_climbable": {
+   "kind": "block",
+   "name": "Hollow Sortingwood Log"
+  },
+  "twilightforest:hollow_sorting_log_horizontal": {
+   "kind": "block",
+   "name": "Hollow Sortingwood Log"
+  },
+  "twilightforest:hollow_sorting_log_vertical": {
+   "kind": "block",
+   "name": "Hollow Sortingwood Log"
+  },
+  "twilightforest:hollow_spruce_log_climbable": {
+   "kind": "block",
+   "name": "Hollow Spruce Log"
+  },
+  "twilightforest:hollow_spruce_log_horizontal": {
+   "kind": "block",
+   "name": "Hollow Spruce Log"
+  },
+  "twilightforest:hollow_spruce_log_vertical": {
+   "kind": "block",
+   "name": "Hollow Spruce Log"
+  },
+  "twilightforest:hollow_time_log_climbable": {
+   "kind": "block",
+   "name": "Hollow Timewood Log"
+  },
+  "twilightforest:hollow_time_log_horizontal": {
+   "kind": "block",
+   "name": "Hollow Timewood Log"
+  },
+  "twilightforest:hollow_time_log_vertical": {
+   "kind": "block",
+   "name": "Hollow Timewood Log"
+  },
+  "twilightforest:hollow_transformation_log_climbable": {
+   "kind": "block",
+   "name": "Hollow Transwood Log"
+  },
+  "twilightforest:hollow_transformation_log_horizontal": {
+   "kind": "block",
+   "name": "Hollow Transwood Log"
+  },
+  "twilightforest:hollow_transformation_log_vertical": {
+   "kind": "block",
+   "name": "Hollow Transwood Log"
+  },
+  "twilightforest:hollow_twilight_oak_log_climbable": {
+   "kind": "block",
+   "name": "Hollow Twilight Oak Log"
+  },
+  "twilightforest:hollow_twilight_oak_log_horizontal": {
+   "kind": "block",
+   "name": "Hollow Twilight Oak Log"
+  },
+  "twilightforest:hollow_twilight_oak_log_vertical": {
+   "kind": "block",
+   "name": "Hollow Twilight Oak Log"
+  },
+  "twilightforest:hollow_vangrove_log_climbable": {
+   "kind": "block",
+   "name": "Hollow Mangrove Log"
+  },
+  "twilightforest:hollow_vangrove_log_horizontal": {
+   "kind": "block",
+   "name": "Hollow Mangrove Log"
+  },
+  "twilightforest:hollow_vangrove_log_vertical": {
+   "kind": "block",
+   "name": "Hollow Mangrove Log"
+  },
+  "twilightforest:hollow_warped_stem_climbable": {
+   "kind": "block",
+   "name": "Hollow Warped Stem"
+  },
+  "twilightforest:hollow_warped_stem_horizontal": {
+   "kind": "block",
+   "name": "Hollow Warped Stem"
+  },
+  "twilightforest:hollow_warped_stem_vertical": {
+   "kind": "block",
+   "name": "Hollow Warped Stem"
+  },
+  "twilightforest:huge_lily_pad": {
+   "kind": "block",
+   "name": "Huge Lily Pad"
+  },
+  "twilightforest:huge_mushgloom": {
+   "kind": "block",
+   "name": "Huge Mushgloom Block"
+  },
+  "twilightforest:huge_mushgloom_stem": {
+   "kind": "block",
+   "name": "Huge Mushgloom Stem"
+  },
+  "twilightforest:huge_stalk": {
+   "kind": "block",
+   "name": "Huge Stalk"
+  },
+  "twilightforest:huge_water_lily": {
+   "kind": "block",
+   "name": "Huge Water Lily"
+  },
+  "twilightforest:hydra_boss_spawner": {
+   "kind": "block",
+   "name": "Hydra Boss Spawner"
+  },
+  "twilightforest:hydra_trophy": {
+   "kind": "block",
+   "name": "Hydra Trophy"
+  },
+  "twilightforest:infested_towerwood": {
+   "kind": "block",
+   "name": "Infested Towerwood Planks"
+  },
+  "twilightforest:iron_ladder": {
+   "kind": "block",
+   "name": "Iron Ladder"
+  },
+  "twilightforest:iron_oreberry": {
+   "kind": "block",
+   "name": "Iron Oreberry Bush"
+  },
+  "twilightforest:ironwood_block": {
+   "kind": "block",
+   "name": "Block of Ironwood"
+  },
+  "twilightforest:jungle_banister": {
+   "kind": "block",
+   "name": "Jungle Banister"
+  },
+  "twilightforest:jungle_drying_rack": {
+   "kind": "block",
+   "name": "Jungle Drying Rack"
+  },
+  "twilightforest:keepsake_casket": {
+   "kind": "block",
+   "name": "Keepsake Casket"
+  },
+  "twilightforest:knight_phantom_boss_spawner": {
+   "kind": "block",
+   "name": "Knight Phantoms Boss Spawner"
+  },
+  "twilightforest:knight_phantom_trophy": {
+   "kind": "block",
+   "name": "Knight Phantom Trophy"
+  },
+  "twilightforest:knightmetal_block": {
+   "kind": "block",
+   "name": "Block of Knightmetal"
+  },
+  "twilightforest:lich_boss_spawner": {
+   "kind": "block",
+   "name": "Lich Boss Spawner"
+  },
+  "twilightforest:lich_tower_miniature_structure": {
+   "kind": "block",
+   "name": "Miniature Lich Tower"
+  },
+  "twilightforest:lich_trophy": {
+   "kind": "block",
+   "name": "Twilight Lich Trophy"
+  },
+  "twilightforest:liveroot_block": {
+   "kind": "block",
+   "name": "Liveroots"
+  },
+  "twilightforest:locked_vanishing_block": {
+   "kind": "block",
+   "name": "Locked Vanishing Block"
+  },
+  "twilightforest:maloberry_bush": {
+   "kind": "block",
+   "name": "Maloberry Bush"
+  },
+  "twilightforest:mangrove_banister": {
+   "kind": "block",
+   "name": "Mangrove Banister"
+  },
+  "twilightforest:mangrove_button": {
+   "kind": "block",
+   "name": "Mangrove Button"
+  },
+  "twilightforest:mangrove_chest": {
+   "kind": "block",
+   "name": "Mangrove Chest"
+  },
+  "twilightforest:mangrove_door": {
+   "kind": "block",
+   "name": "Mangrove Door"
+  },
+  "twilightforest:mangrove_drying_rack": {
+   "kind": "block",
+   "name": "Mangrove Drying Rack"
+  },
+  "twilightforest:mangrove_fence": {
+   "kind": "block",
+   "name": "Mangrove Fence"
+  },
+  "twilightforest:mangrove_fence_gate": {
+   "kind": "block",
+   "name": "Mangrove Fence Gate"
+  },
+  "twilightforest:mangrove_hanging_sign": {
+   "kind": "block",
+   "name": "Mangrove Hanging Sign"
+  },
+  "twilightforest:mangrove_leaves": {
+   "kind": "block",
+   "name": "Mangrove Leaves"
+  },
+  "twilightforest:mangrove_log": {
+   "kind": "block",
+   "name": "Mangrove Log"
+  },
+  "twilightforest:mangrove_planks": {
+   "kind": "block",
+   "name": "Mangrove Planks"
+  },
+  "twilightforest:mangrove_pressure_plate": {
+   "kind": "block",
+   "name": "Mangrove Pressure Plate"
+  },
+  "twilightforest:mangrove_root": {
+   "kind": "block",
+   "name": "Mangrove Roots"
+  },
+  "twilightforest:mangrove_sapling": {
+   "kind": "block",
+   "name": "Mangrove Sapling"
+  },
+  "twilightforest:mangrove_sign": {
+   "kind": "block",
+   "name": "Mangrove Sign"
+  },
+  "twilightforest:mangrove_slab": {
+   "kind": "block",
+   "name": "Mangrove Slab"
+  },
+  "twilightforest:mangrove_stairs": {
+   "kind": "block",
+   "name": "Mangrove Stairs"
+  },
+  "twilightforest:mangrove_trapdoor": {
+   "kind": "block",
+   "name": "Mangrove Trapdoor"
+  },
+  "twilightforest:mangrove_trapped_chest": {
+   "kind": "block",
+   "name": "Trapped Mangrove Chest"
+  },
+  "twilightforest:mangrove_wall_hanging_sign": {
+   "kind": "block",
+   "name": "Mangrove Wall Hanging Sign"
+  },
+  "twilightforest:mangrove_wall_sign": {
+   "kind": "block",
+   "name": "Mangrove Wall Sign"
+  },
+  "twilightforest:mangrove_wood": {
+   "kind": "block",
+   "name": "Mangrove Wood"
+  },
+  "twilightforest:mason_jar": {
+   "kind": "block",
+   "name": "Mason Jar"
+  },
+  "twilightforest:mayapple": {
+   "kind": "block",
+   "name": "Mayapple"
+  },
+  "twilightforest:maze_slime_block": {
+   "kind": "block",
+   "name": "Maze Slime Block"
+  },
+  "twilightforest:mazestone": {
+   "kind": "block",
+   "name": "Mazestone"
+  },
+  "twilightforest:mazestone_border": {
+   "kind": "block",
+   "name": "Mazestone Border"
+  },
+  "twilightforest:mazestone_brick": {
+   "kind": "block",
+   "name": "Mazestone Brick"
+  },
+  "twilightforest:mazestone_mosaic": {
+   "kind": "block",
+   "name": "Mazestone Mosaic"
+  },
+  "twilightforest:mining_banister": {
+   "kind": "block",
+   "name": "Minewood Banister"
+  },
+  "twilightforest:mining_button": {
+   "kind": "block",
+   "name": "Minewood Button"
+  },
+  "twilightforest:mining_chest": {
+   "kind": "block",
+   "name": "Minewood Chest"
+  },
+  "twilightforest:mining_door": {
+   "kind": "block",
+   "name": "Minewood Door"
+  },
+  "twilightforest:mining_drying_rack": {
+   "kind": "block",
+   "name": "Minewood Drying Rack"
+  },
+  "twilightforest:mining_fence": {
+   "kind": "block",
+   "name": "Minewood Fence"
+  },
+  "twilightforest:mining_fence_gate": {
+   "kind": "block",
+   "name": "Minewood Fence Gate"
+  },
+  "twilightforest:mining_hanging_sign": {
+   "kind": "block",
+   "name": "Minewood Hanging Sign"
+  },
+  "twilightforest:mining_leaves": {
+   "kind": "block",
+   "name": "Miner's Leaves"
+  },
+  "twilightforest:mining_log": {
+   "kind": "block",
+   "name": "Minewood Log"
+  },
+  "twilightforest:mining_log_core": {
+   "kind": "block",
+   "name": "Minewood Core"
+  },
+  "twilightforest:mining_planks": {
+   "kind": "block",
+   "name": "Minewood Planks"
+  },
+  "twilightforest:mining_pressure_plate": {
+   "kind": "block",
+   "name": "Minewood Pressure Plate"
+  },
+  "twilightforest:mining_sapling": {
+   "kind": "block",
+   "name": "Miner's Tree Sapling"
+  },
+  "twilightforest:mining_sign": {
+   "kind": "block",
+   "name": "Minewood Sign"
+  },
+  "twilightforest:mining_slab": {
+   "kind": "block",
+   "name": "Minewood Slab"
+  },
+  "twilightforest:mining_stairs": {
+   "kind": "block",
+   "name": "Minewood Stairs"
+  },
+  "twilightforest:mining_trapdoor": {
+   "kind": "block",
+   "name": "Minewood Trapdoor"
+  },
+  "twilightforest:mining_trapped_chest": {
+   "kind": "block",
+   "name": "Trapped Minewood Chest"
+  },
+  "twilightforest:mining_wall_hanging_sign": {
+   "kind": "block",
+   "name": "Minewood Wall Hanging Sign"
+  },
+  "twilightforest:mining_wall_sign": {
+   "kind": "block",
+   "name": "Minewood Wall Sign"
+  },
+  "twilightforest:mining_wood": {
+   "kind": "block",
+   "name": "Minewood Wood"
+  },
+  "twilightforest:minoshroom_boss_spawner": {
+   "kind": "block",
+   "name": "Minoshroom Boss Spawner"
+  },
+  "twilightforest:minoshroom_trophy": {
+   "kind": "block",
+   "name": "Minoshroom Trophy"
+  },
+  "twilightforest:minotaur_labyrinth_miniature_structure": {
+   "kind": "block",
+   "name": "Miniature Minotaur Labyrinth"
+  },
+  "twilightforest:moonworm": {
+   "kind": "block",
+   "name": "Moonworm"
+  },
+  "twilightforest:moss_patch": {
+   "kind": "block",
+   "name": "Moss Patch"
+  },
+  "twilightforest:mossy_castle_brick": {
+   "kind": "block",
+   "name": "Mossy Castle Brick"
+  },
+  "twilightforest:mossy_castle_brick_stairs": {
+   "kind": "block",
+   "name": "Mossy Castle Brick Stairs"
+  },
+  "twilightforest:mossy_etched_nagastone": {
+   "kind": "block",
+   "name": "Mossy Etched Nagastone"
+  },
+  "twilightforest:mossy_mazestone": {
+   "kind": "block",
+   "name": "Mossy Mazestone Brick"
+  },
+  "twilightforest:mossy_nagastone_pillar": {
+   "kind": "block",
+   "name": "Mossy Nagastone Pillar"
+  },
+  "twilightforest:mossy_nagastone_stairs_left": {
+   "kind": "block",
+   "name": "Mossy Nagastone Stairs (Left)"
+  },
+  "twilightforest:mossy_nagastone_stairs_right": {
+   "kind": "block",
+   "name": "Mossy Nagastone Stairs (Right)"
+  },
+  "twilightforest:mossy_towerwood": {
+   "kind": "block",
+   "name": "Mossy Towerwood Planks"
+  },
+  "twilightforest:mossy_underbrick": {
+   "kind": "block",
+   "name": "Mossy Underbrick"
+  },
+  "twilightforest:mushgloom": {
+   "kind": "block",
+   "name": "Mushgloom"
+  },
+  "twilightforest:naga_boss_spawner": {
+   "kind": "block",
+   "name": "Naga Boss Spawner"
+  },
+  "twilightforest:naga_courtyard_miniature_structure": {
+   "kind": "block",
+   "name": "Miniature Naga Courtyard"
+  },
+  "twilightforest:naga_trophy": {
+   "kind": "block",
+   "name": "Naga Trophy"
+  },
+  "twilightforest:nagastone": {
+   "kind": "block",
+   "name": "Nagastone"
+  },
+  "twilightforest:nagastone_head": {
+   "kind": "block",
+   "name": "Nagastone Head"
+  },
+  "twilightforest:nagastone_pillar": {
+   "kind": "block",
+   "name": "Nagastone Pillar"
+  },
+  "twilightforest:nagastone_stairs_left": {
+   "kind": "block",
+   "name": "Nagastone Stairs (Left)"
+  },
+  "twilightforest:nagastone_stairs_right": {
+   "kind": "block",
+   "name": "Nagastone Stairs (Right)"
+  },
+  "twilightforest:oak_banister": {
+   "kind": "block",
+   "name": "Oak Banister"
+  },
+  "twilightforest:oak_drying_rack": {
+   "kind": "block",
+   "name": "Oak Drying Rack"
+  },
+  "twilightforest:ominous_black_candle": {
+   "kind": "block",
+   "name": "Ominous Black Candle"
+  },
+  "twilightforest:ominous_blue_candle": {
+   "kind": "block",
+   "name": "Ominous Blue Candle"
+  },
+  "twilightforest:ominous_brown_candle": {
+   "kind": "block",
+   "name": "Ominous Brown Candle"
+  },
+  "twilightforest:ominous_candle": {
+   "kind": "block",
+   "name": "Ominous Candle"
+  },
+  "twilightforest:ominous_cyan_candle": {
+   "kind": "block",
+   "name": "Ominous Cyan Candle"
+  },
+  "twilightforest:ominous_fire": {
+   "kind": "block",
+   "name": "Ominous Fire"
+  },
+  "twilightforest:ominous_gray_candle": {
+   "kind": "block",
+   "name": "Ominous Gray Candle"
+  },
+  "twilightforest:ominous_green_candle": {
+   "kind": "block",
+   "name": "Ominous Green Candle"
+  },
+  "twilightforest:ominous_light_blue_candle": {
+   "kind": "block",
+   "name": "Ominous Light Blue Candle"
+  },
+  "twilightforest:ominous_light_gray_candle": {
+   "kind": "block",
+   "name": "Ominous Light Gray Candle"
+  },
+  "twilightforest:ominous_lime_candle": {
+   "kind": "block",
+   "name": "Ominous Lime Candle"
+  },
+  "twilightforest:ominous_magenta_candle": {
+   "kind": "block",
+   "name": "Ominous Magenta Candle"
+  },
+  "twilightforest:ominous_orange_candle": {
+   "kind": "block",
+   "name": "Ominous Orange Candle"
+  },
+  "twilightforest:ominous_pink_candle": {
+   "kind": "block",
+   "name": "Ominous Pink Candle"
+  },
+  "twilightforest:ominous_purple_candle": {
+   "kind": "block",
+   "name": "Ominous Purple Candle"
+  },
+  "twilightforest:ominous_red_candle": {
+   "kind": "block",
+   "name": "Ominous Red Candle"
+  },
+  "twilightforest:ominous_white_candle": {
+   "kind": "block",
+   "name": "Ominous White Candle"
+  },
+  "twilightforest:ominous_yellow_candle": {
+   "kind": "block",
+   "name": "Ominous Yellow Candle"
+  },
+  "twilightforest:orange_force_field": {
+   "kind": "block",
+   "name": "Orange Force Field"
+  },
+  "twilightforest:piglin_skull_candle": {
+   "kind": "block",
+   "name": "Piglin Skull Candle"
+  },
+  "twilightforest:piglin_wall_skull_candle": {
+   "kind": "block",
+   "name": "Piglin Wall Skull Candle"
+  },
+  "twilightforest:pink_castle_door": {
+   "kind": "block",
+   "name": "Magenta Castle Door"
+  },
+  "twilightforest:pink_castle_rune_brick": {
+   "kind": "block",
+   "name": "Magenta Castle Rune Brick"
+  },
+  "twilightforest:pink_force_field": {
+   "kind": "block",
+   "name": "Magenta Force Field"
+  },
+  "twilightforest:player_skull_candle": {
+   "kind": "block",
+   "name": "Player Skull Candle"
+  },
+  "twilightforest:player_skull_candle.named": {
+   "kind": "block",
+   "name": "%s's Head with Candles"
+  },
+  "twilightforest:player_wall_skull_candle": {
+   "kind": "block",
+   "name": "Player Wall Skull Candle"
+  },
+  "twilightforest:potted_canopy_sapling": {
+   "kind": "block",
+   "name": "Potted Canopy Tree Sapling"
+  },
+  "twilightforest:potted_darkwood_sapling": {
+   "kind": "block",
+   "name": "Potted Darkwood Sapling"
+  },
+  "twilightforest:potted_dead_thorn": {
+   "kind": "block",
+   "name": "Potted Burnt Thorn"
+  },
+  "twilightforest:potted_fiddlehead": {
+   "kind": "block",
+   "name": "Potted Fiddlehead"
+  },
+  "twilightforest:potted_green_thorn": {
+   "kind": "block",
+   "name": "Potted Green Thorn"
+  },
+  "twilightforest:potted_hollow_oak_sapling": {
+   "kind": "block",
+   "name": "Potted Robust Twilight Oak Sapling"
+  },
+  "twilightforest:potted_mangrove_sapling": {
+   "kind": "block",
+   "name": "Potted Mangrove Sapling"
+  },
+  "twilightforest:potted_mayapple": {
+   "kind": "block",
+   "name": "Potted Mayapple"
+  },
+  "twilightforest:potted_mining_sapling": {
+   "kind": "block",
+   "name": "Potted Miner's Tree Sapling"
+  },
+  "twilightforest:potted_mushgloom": {
+   "kind": "block",
+   "name": "Potted Mushgloom"
+  },
+  "twilightforest:potted_rainbow_oak_sapling": {
+   "kind": "block",
+   "name": "Potted Rainbow Oak Sapling"
+  },
+  "twilightforest:potted_sorting_sapling": {
+   "kind": "block",
+   "name": "Potted Sorting Tree Sapling"
+  },
+  "twilightforest:potted_thorn": {
+   "kind": "block",
+   "name": "Potted Thorn"
+  },
+  "twilightforest:potted_time_sapling": {
+   "kind": "block",
+   "name": "Potted Tree of Time Sapling"
+  },
+  "twilightforest:potted_transformation_sapling": {
+   "kind": "block",
+   "name": "Potted Tree of Transformation Sapling"
+  },
+  "twilightforest:potted_twilight_oak_sapling": {
+   "kind": "block",
+   "name": "Potted Sickly Twilight Oak Sapling"
+  },
+  "twilightforest:quest_ram_trophy": {
+   "kind": "block",
+   "name": "Questing Ram Trophy"
+  },
+  "twilightforest:rainbow_oak_leaves": {
+   "kind": "block",
+   "name": "Rainbow Oak Leaves"
+  },
+  "twilightforest:rainbow_oak_sapling": {
+   "kind": "block",
+   "name": "Rainbow Oak Sapling"
+  },
+  "twilightforest:rainy_cloud": {
+   "kind": "block",
+   "name": "Rainy Cloud"
+  },
+  "twilightforest:raspberry_bush": {
+   "kind": "block",
+   "name": "Raspberry Bush"
+  },
+  "twilightforest:reactor_debris": {
+   "kind": "block",
+   "name": "Reactor Debris"
+  },
+  "twilightforest:reappearing_block": {
+   "kind": "block",
+   "name": "Reappearing Block"
+  },
+  "twilightforest:red_thread": {
+   "kind": "block",
+   "name": "Red Thread"
+  },
+  "twilightforest:root": {
+   "kind": "block",
+   "name": "Roots"
+  },
+  "twilightforest:root_strand": {
+   "kind": "block",
+   "name": "Root Strands"
+  },
+  "twilightforest:rope": {
+   "kind": "block",
+   "name": "Rope"
+  },
+  "twilightforest:sinister_spawner": {
+   "kind": "block",
+   "name": "Sinister Spawner"
+  },
+  "twilightforest:skeleton_skull_candle": {
+   "kind": "block",
+   "name": "Skeleton Skull Candle"
+  },
+  "twilightforest:skeleton_wall_skull_candle": {
+   "kind": "block",
+   "name": "Skeleton Wall Skull Candle"
+  },
+  "twilightforest:skull_chest": {
+   "kind": "block",
+   "name": "Skull Chest"
+  },
+  "twilightforest:skyberry_bush": {
+   "kind": "block",
+   "name": "Skyberry Bush"
+  },
+  "twilightforest:slider": {
+   "kind": "entity",
+   "name": "Moving Slide Trap"
+  },
+  "twilightforest:smoker": {
+   "kind": "block",
+   "name": "Smoker"
+  },
+  "twilightforest:snow_queen_boss_spawner": {
+   "kind": "block",
+   "name": "Snow Queen Boss Spawner"
+  },
+  "twilightforest:snow_queen_trophy": {
+   "kind": "block",
+   "name": "Snow Queen Trophy"
+  },
+  "twilightforest:snowy_cloud": {
+   "kind": "block",
+   "name": "Snowy Cloud"
+  },
+  "twilightforest:sorting_banister": {
+   "kind": "block",
+   "name": "Sortingwood Banister"
+  },
+  "twilightforest:sorting_button": {
+   "kind": "block",
+   "name": "Sortingwood Button"
+  },
+  "twilightforest:sorting_chest": {
+   "kind": "block",
+   "name": "Sortingwood Chest"
+  },
+  "twilightforest:sorting_door": {
+   "kind": "block",
+   "name": "Sortingwood Door"
+  },
+  "twilightforest:sorting_drying_rack": {
+   "kind": "block",
+   "name": "Sortingwood Drying Rack"
+  },
+  "twilightforest:sorting_fence": {
+   "kind": "block",
+   "name": "Sortingwood Fence"
+  },
+  "twilightforest:sorting_fence_gate": {
+   "kind": "block",
+   "name": "Sortingwood Fence Gate"
+  },
+  "twilightforest:sorting_hanging_sign": {
+   "kind": "block",
+   "name": "Sortingwood Hanging Sign"
+  },
+  "twilightforest:sorting_leaves": {
+   "kind": "block",
+   "name": "Sorting Leaves"
+  },
+  "twilightforest:sorting_log": {
+   "kind": "block",
+   "name": "Sortingwood Log"
+  },
+  "twilightforest:sorting_log_core": {
+   "kind": "block",
+   "name": "Sortingwood Engine"
+  },
+  "twilightforest:sorting_planks": {
+   "kind": "block",
+   "name": "Sortingwood Planks"
+  },
+  "twilightforest:sorting_pressure_plate": {
+   "kind": "block",
+   "name": "Sortingwood Pressure Plate"
+  },
+  "twilightforest:sorting_sapling": {
+   "kind": "block",
+   "name": "Sorting Tree Sapling"
+  },
+  "twilightforest:sorting_sign": {
+   "kind": "block",
+   "name": "Sortingwood Sign"
+  },
+  "twilightforest:sorting_slab": {
+   "kind": "block",
+   "name": "Sortingwood Slab"
+  },
+  "twilightforest:sorting_stairs": {
+   "kind": "block",
+   "name": "Sortingwood Stairs"
+  },
+  "twilightforest:sorting_trapdoor": {
+   "kind": "block",
+   "name": "Sortingwood Trapdoor"
+  },
+  "twilightforest:sorting_trapped_chest": {
+   "kind": "block",
+   "name": "Trapped Sortingwood Chest"
+  },
+  "twilightforest:sorting_wall_hanging_sign": {
+   "kind": "block",
+   "name": "Sortingwood Wall Hanging Sign"
+  },
+  "twilightforest:sorting_wall_sign": {
+   "kind": "block",
+   "name": "Sortingwood Wall Sign"
+  },
+  "twilightforest:sorting_wood": {
+   "kind": "block",
+   "name": "Sortingwood Wood"
+  },
+  "twilightforest:spiral_bricks": {
+   "kind": "block",
+   "name": "Spiral Bricks"
+  },
+  "twilightforest:spruce_banister": {
+   "kind": "block",
+   "name": "Spruce Banister"
+  },
+  "twilightforest:spruce_drying_rack": {
+   "kind": "block",
+   "name": "Spruce Drying Rack"
+  },
+  "twilightforest:steeleaf_block": {
+   "kind": "block",
+   "name": "Block of Steeleaf"
+  },
+  "twilightforest:stingberry_bush": {
+   "kind": "block",
+   "name": "Stingberry Bush"
+  },
+  "twilightforest:stripped_canopy_log": {
+   "kind": "block",
+   "name": "Stripped Canopy Tree Log"
+  },
+  "twilightforest:stripped_canopy_wood": {
+   "kind": "block",
+   "name": "Stripped Canopy Tree Wood"
+  },
+  "twilightforest:stripped_dark_log": {
+   "kind": "block",
+   "name": "Stripped Darkwood Log"
+  },
+  "twilightforest:stripped_dark_wood": {
+   "kind": "block",
+   "name": "Stripped Darkwood Wood"
+  },
+  "twilightforest:stripped_mangrove_log": {
+   "kind": "block",
+   "name": "Stripped Mangrove Log"
+  },
+  "twilightforest:stripped_mangrove_wood": {
+   "kind": "block",
+   "name": "Stripped Mangrove Wood"
+  },
+  "twilightforest:stripped_mining_log": {
+   "kind": "block",
+   "name": "Stripped Minewood Log"
+  },
+  "twilightforest:stripped_mining_wood": {
+   "kind": "block",
+   "name": "Stripped Minewood Wood"
+  },
+  "twilightforest:stripped_sorting_log": {
+   "kind": "block",
+   "name": "Stripped Sortingwood Log"
+  },
+  "twilightforest:stripped_sorting_wood": {
+   "kind": "block",
+   "name": "Stripped Sortingwood Wood"
+  },
+  "twilightforest:stripped_time_log": {
+   "kind": "block",
+   "name": "Stripped Timewood Log"
+  },
+  "twilightforest:stripped_time_wood": {
+   "kind": "block",
+   "name": "Stripped Timewood Wood"
+  },
+  "twilightforest:stripped_transformation_log": {
+   "kind": "block",
+   "name": "Stripped Transwood Log"
+  },
+  "twilightforest:stripped_transformation_wood": {
+   "kind": "block",
+   "name": "Stripped Transwood Wood"
+  },
+  "twilightforest:stripped_twilight_oak_log": {
+   "kind": "block",
+   "name": "Stripped Twilight Oak Log"
+  },
+  "twilightforest:stripped_twilight_oak_wood": {
+   "kind": "block",
+   "name": "Stripped Twilight Oak Wood"
+  },
+  "twilightforest:stronghold_shield": {
+   "kind": "block",
+   "name": "Stronghold Shield"
+  },
+  "twilightforest:terrorcotta_arcs": {
+   "kind": "block",
+   "name": "Terrorcotta Arcs"
+  },
+  "twilightforest:terrorcotta_curves": {
+   "kind": "block",
+   "name": "Terrorcotta Curves"
+  },
+  "twilightforest:terrorcotta_lines": {
+   "kind": "block",
+   "name": "Terrorcotta Lines"
+  },
+  "twilightforest:thick_castle_brick": {
+   "kind": "block",
+   "name": "Thick Castle Brick"
+  },
+  "twilightforest:thorn_leaves": {
+   "kind": "block",
+   "name": "Thorn Leaves"
+  },
+  "twilightforest:thorn_rose": {
+   "kind": "block",
+   "name": "Thorn Rose"
+  },
+  "twilightforest:time_banister": {
+   "kind": "block",
+   "name": "Timewood Banister"
+  },
+  "twilightforest:time_button": {
+   "kind": "block",
+   "name": "Timewood Button"
+  },
+  "twilightforest:time_chest": {
+   "kind": "block",
+   "name": "Timewood Chest"
+  },
+  "twilightforest:time_door": {
+   "kind": "block",
+   "name": "Timewood Door"
+  },
+  "twilightforest:time_drying_rack": {
+   "kind": "block",
+   "name": "Timewood Drying Rack"
+  },
+  "twilightforest:time_fence": {
+   "kind": "block",
+   "name": "Timewood Fence"
+  },
+  "twilightforest:time_fence_gate": {
+   "kind": "block",
+   "name": "Timewood Fence Gate"
+  },
+  "twilightforest:time_hanging_sign": {
+   "kind": "block",
+   "name": "Timewood Hanging Sign"
+  },
+  "twilightforest:time_leaves": {
+   "kind": "block",
+   "name": "Timewood Leaves"
+  },
+  "twilightforest:time_log": {
+   "kind": "block",
+   "name": "Timewood Log"
+  },
+  "twilightforest:time_log_core": {
+   "kind": "block",
+   "name": "Timewood Clock"
+  },
+  "twilightforest:time_planks": {
+   "kind": "block",
+   "name": "Timewood Planks"
+  },
+  "twilightforest:time_pressure_plate": {
+   "kind": "block",
+   "name": "Timewood Pressure Plate"
+  },
+  "twilightforest:time_sapling": {
+   "kind": "block",
+   "name": "Tree of Time Sapling"
+  },
+  "twilightforest:time_sign": {
+   "kind": "block",
+   "name": "Timewood Sign"
+  },
+  "twilightforest:time_slab": {
+   "kind": "block",
+   "name": "Timewood Slab"
+  },
+  "twilightforest:time_stairs": {
+   "kind": "block",
+   "name": "Timewood Stairs"
+  },
+  "twilightforest:time_trapdoor": {
+   "kind": "block",
+   "name": "Timewood Trapdoor"
+  },
+  "twilightforest:time_trapped_chest": {
+   "kind": "block",
+   "name": "Trapped Timewood Chest"
+  },
+  "twilightforest:time_wall_hanging_sign": {
+   "kind": "block",
+   "name": "Timewood Wall Hanging Sign"
+  },
+  "twilightforest:time_wall_sign": {
+   "kind": "block",
+   "name": "Timewood Wall Sign"
+  },
+  "twilightforest:time_wood": {
+   "kind": "block",
+   "name": "Timewood Wood"
+  },
+  "twilightforest:torchberry_plant": {
+   "kind": "block",
+   "name": "Torchberry Plant"
+  },
+  "twilightforest:towerwood": {
+   "kind": "block",
+   "name": "Towerwood Planks"
+  },
+  "twilightforest:transformation_banister": {
+   "kind": "block",
+   "name": "Transwood Banister"
+  },
+  "twilightforest:transformation_button": {
+   "kind": "block",
+   "name": "Transwood Button"
+  },
+  "twilightforest:transformation_chest": {
+   "kind": "block",
+   "name": "Transwood Chest"
+  },
+  "twilightforest:transformation_door": {
+   "kind": "block",
+   "name": "Transwood Door"
+  },
+  "twilightforest:transformation_drying_rack": {
+   "kind": "block",
+   "name": "Transwood Drying Rack"
+  },
+  "twilightforest:transformation_fence": {
+   "kind": "block",
+   "name": "Transwood Fence"
+  },
+  "twilightforest:transformation_fence_gate": {
+   "kind": "block",
+   "name": "Transwood Fence Gate"
+  },
+  "twilightforest:transformation_hanging_sign": {
+   "kind": "block",
+   "name": "Transwood Hanging Sign"
+  },
+  "twilightforest:transformation_leaves": {
+   "kind": "block",
+   "name": "Leaves of Transformation"
+  },
+  "twilightforest:transformation_log": {
+   "kind": "block",
+   "name": "Transwood Log"
+  },
+  "twilightforest:transformation_log_core": {
+   "kind": "block",
+   "name": "Heart of Transformation"
+  },
+  "twilightforest:transformation_planks": {
+   "kind": "block",
+   "name": "Transwood Planks"
+  },
+  "twilightforest:transformation_pressure_plate": {
+   "kind": "block",
+   "name": "Transwood Pressure Plate"
+  },
+  "twilightforest:transformation_sapling": {
+   "kind": "block",
+   "name": "Tree of Transformation Sapling"
+  },
+  "twilightforest:transformation_sign": {
+   "kind": "block",
+   "name": "Transwood Sign"
+  },
+  "twilightforest:transformation_slab": {
+   "kind": "block",
+   "name": "Transwood Slab"
+  },
+  "twilightforest:transformation_stairs": {
+   "kind": "block",
+   "name": "Transwood Stairs"
+  },
+  "twilightforest:transformation_trapdoor": {
+   "kind": "block",
+   "name": "Transwood Trapdoor"
+  },
+  "twilightforest:transformation_trapped_chest": {
+   "kind": "block",
+   "name": "Trapped Transwood Chest"
+  },
+  "twilightforest:transformation_wall_hanging_sign": {
+   "kind": "block",
+   "name": "Transwood Wall Hanging Sign"
+  },
+  "twilightforest:transformation_wall_sign": {
+   "kind": "block",
+   "name": "Transwood Wall Sign"
+  },
+  "twilightforest:transformation_wood": {
+   "kind": "block",
+   "name": "Transwood Wood"
+  },
+  "twilightforest:trollber": {
+   "kind": "block",
+   "name": "Trollber"
+  },
+  "twilightforest:trollsteinn": {
+   "kind": "block",
+   "name": "Trollsteinn"
+  },
+  "twilightforest:trollvidr": {
+   "kind": "block",
+   "name": "Trollvidr"
+  },
+  "twilightforest:trophy_pedestal": {
+   "kind": "block",
+   "name": "Trophy Pedestal"
+  },
+  "twilightforest:twilight_oak_banister": {
+   "kind": "block",
+   "name": "Twilight Oak Banister"
+  },
+  "twilightforest:twilight_oak_button": {
+   "kind": "block",
+   "name": "Twilight Oak Button"
+  },
+  "twilightforest:twilight_oak_chest": {
+   "kind": "block",
+   "name": "Twilight Oak Chest"
+  },
+  "twilightforest:twilight_oak_door": {
+   "kind": "block",
+   "name": "Twilight Oak Door"
+  },
+  "twilightforest:twilight_oak_drying_rack": {
+   "kind": "block",
+   "name": "Twilight Oak Drying Rack"
+  },
+  "twilightforest:twilight_oak_fence": {
+   "kind": "block",
+   "name": "Twilight Oak Fence"
+  },
+  "twilightforest:twilight_oak_fence_gate": {
+   "kind": "block",
+   "name": "Twilight Oak Fence Gate"
+  },
+  "twilightforest:twilight_oak_hanging_sign": {
+   "kind": "block",
+   "name": "Twilight Oak Hanging Sign"
+  },
+  "twilightforest:twilight_oak_leaves": {
+   "kind": "block",
+   "name": "Twilight Oak Leaves"
+  },
+  "twilightforest:twilight_oak_log": {
+   "kind": "block",
+   "name": "Twilight Oak Log"
+  },
+  "twilightforest:twilight_oak_planks": {
+   "kind": "block",
+   "name": "Twilight Oak Planks"
+  },
+  "twilightforest:twilight_oak_pressure_plate": {
+   "kind": "block",
+   "name": "Twilight Oak Pressure Plate"
+  },
+  "twilightforest:twilight_oak_sapling": {
+   "kind": "block",
+   "name": "Sickly Twilight Oak Sapling"
+  },
+  "twilightforest:twilight_oak_sign": {
+   "kind": "block",
+   "name": "Twilight Oak Sign"
+  },
+  "twilightforest:twilight_oak_slab": {
+   "kind": "block",
+   "name": "Twilight Oak Slab"
+  },
+  "twilightforest:twilight_oak_stairs": {
+   "kind": "block",
+   "name": "Twilight Oak Stairs"
+  },
+  "twilightforest:twilight_oak_trapdoor": {
+   "kind": "block",
+   "name": "Twilight Oak Trapdoor"
+  },
+  "twilightforest:twilight_oak_trapped_chest": {
+   "kind": "block",
+   "name": "Trapped Twilight Oak Chest"
+  },
+  "twilightforest:twilight_oak_wall_hanging_sign": {
+   "kind": "block",
+   "name": "Twilight Oak Wall Hanging Sign"
+  },
+  "twilightforest:twilight_oak_wall_sign": {
+   "kind": "block",
+   "name": "Twilight Oak Wall Sign"
+  },
+  "twilightforest:twilight_oak_wood": {
+   "kind": "block",
+   "name": "Twilight Oak Wood"
+  },
+  "twilightforest:twilight_portal": {
+   "kind": "block",
+   "name": "Twilight Forest Portal"
+  },
+  "twilightforest:twilight_portal_miniature_structure": {
+   "kind": "block",
+   "name": "Miniature Twilight Forest Portal"
+  },
+  "twilightforest:twisted_stone": {
+   "kind": "block",
+   "name": "Twisted Stone"
+  },
+  "twilightforest:twisted_stone_pillar": {
+   "kind": "block",
+   "name": "Twisted Stone Pillar"
+  },
+  "twilightforest:uberous_soil": {
+   "kind": "block",
+   "name": "Uberous Soil"
+  },
+  "twilightforest:unbreakable_vanishing_block": {
+   "kind": "block",
+   "name": "Vanishing Block"
+  },
+  "twilightforest:uncrafting_table": {
+   "kind": "block",
+   "name": "Uncrafting Table"
+  },
+  "twilightforest:uncrafting_table.disabled": {
+   "kind": "block",
+   "name": "This block has been disabled."
+  },
+  "twilightforest:underbrick": {
+   "kind": "block",
+   "name": "Underbrick"
+  },
+  "twilightforest:underbrick_floor": {
+   "kind": "block",
+   "name": "Underbrick Floor"
+  },
+  "twilightforest:unripe_trollber": {
+   "kind": "block",
+   "name": "Unripe Trollber"
+  },
+  "twilightforest:ur_ghast_boss_spawner": {
+   "kind": "block",
+   "name": "Ur-Ghast Boss Spawner"
+  },
+  "twilightforest:ur_ghast_trophy": {
+   "kind": "block",
+   "name": "Ur-Ghast Trophy"
+  },
+  "twilightforest:vangrove_banister": {
+   "kind": "block",
+   "name": "Mangrove Banister"
+  },
+  "twilightforest:vangrove_drying_rack": {
+   "kind": "block",
+   "name": "Mangrove Drying Rack"
+  },
+  "twilightforest:vanishing_block": {
+   "kind": "block",
+   "name": "Vanishing Block"
+  },
+  "twilightforest:violet_castle_door": {
+   "kind": "block",
+   "name": "Violet Castle Door"
+  },
+  "twilightforest:violet_castle_rune_brick": {
+   "kind": "block",
+   "name": "Violet Castle Rune Brick"
+  },
+  "twilightforest:violet_force_field": {
+   "kind": "block",
+   "name": "Violet Force Field"
+  },
+  "twilightforest:warped_banister": {
+   "kind": "block",
+   "name": "Warped Banister"
+  },
+  "twilightforest:warped_drying_rack": {
+   "kind": "block",
+   "name": "Warped Drying Rack"
+  },
+  "twilightforest:weathered_deadrock": {
+   "kind": "block",
+   "name": "Weathered Deadrock"
+  },
+  "twilightforest:wispy_cloud": {
+   "kind": "block",
+   "name": "Wispy Cloud"
+  },
+  "twilightforest:wither_skeleton_skull_candle": {
+   "kind": "block",
+   "name": "Wither Skeleton Skull Candle"
+  },
+  "twilightforest:wither_skeleton_wall_skull_candle": {
+   "kind": "block",
+   "name": "Wither Skeleton Wall Skull Candle"
+  },
+  "twilightforest:worn_castle_brick": {
+   "kind": "block",
+   "name": "Worn Castle Brick"
+  },
+  "twilightforest:worn_castle_brick_stairs": {
+   "kind": "block",
+   "name": "Worn Castle Brick Stairs"
+  },
+  "twilightforest:wrought_iron_fence": {
+   "kind": "block",
+   "name": "Wrought Iron Fence"
+  },
+  "twilightforest:wrought_iron_fence.cap": {
+   "kind": "block",
+   "name": "Shift + right-click the same block to place finial"
+  },
+  "twilightforest:yellow_castle_door": {
+   "kind": "block",
+   "name": "Yellow Castle Door"
+  },
+  "twilightforest:yellow_castle_rune_brick": {
+   "kind": "block",
+   "name": "Yellow Castle Rune Brick"
+  },
+  "twilightforest:zombie_skull_candle": {
+   "kind": "block",
+   "name": "Zombie Skull Candle"
+  },
+  "twilightforest:zombie_wall_skull_candle": {
+   "kind": "block",
+   "name": "Zombie Wall Skull Candle"
+  },
+  "twilightforest:adherent": {
+   "kind": "entity",
+   "name": "Adherent"
+  },
+  "twilightforest:alpha_yeti": {
+   "kind": "entity",
+   "name": "Alpha Yeti"
+  },
+  "twilightforest:armored_giant": {
+   "kind": "entity",
+   "name": "Armored Giant"
+  },
+  "twilightforest:bighorn_sheep": {
+   "kind": "entity",
+   "name": "Bighorn Sheep"
+  },
+  "twilightforest:blockchain_goblin": {
+   "kind": "entity",
+   "name": "Block and Chain Goblin"
+  },
+  "twilightforest:boar": {
+   "kind": "entity",
+   "name": "Boar"
+  },
+  "twilightforest:carminite_broodling": {
+   "kind": "entity",
+   "name": "Carminite Broodling"
+  },
+  "twilightforest:carminite_ghastguard": {
+   "kind": "entity",
+   "name": "Carminite Ghastguard"
+  },
+  "twilightforest:carminite_ghastling": {
+   "kind": "entity",
+   "name": "Carminite Ghastling"
+  },
+  "twilightforest:carminite_golem": {
+   "kind": "entity",
+   "name": "Carminite Golem"
+  },
+  "twilightforest:chain_block": {
+   "kind": "entity",
+   "name": "Block and Chain"
+  },
+  "twilightforest:charm_effect": {
+   "kind": "entity",
+   "name": "Charm Effect"
+  },
+  "twilightforest:cube_of_annihilation": {
+   "kind": "item",
+   "name": "Cube of Annihilation"
+  },
+  "twilightforest:deer": {
+   "kind": "entity",
+   "name": "Deer"
+  },
+  "twilightforest:dwarf_rabbit": {
+   "kind": "entity",
+   "name": "Dwarf Rabbit"
+  },
+  "twilightforest:falling_ice": {
+   "kind": "entity",
+   "name": "Falling Ice"
+  },
+  "twilightforest:fire_beetle": {
+   "kind": "entity",
+   "name": "Fire Beetle"
+  },
+  "twilightforest:giant_miner": {
+   "kind": "entity",
+   "name": "Giant Miner"
+  },
+  "twilightforest:harbinger_cube": {
+   "kind": "entity",
+   "name": "Harbinger Cube"
+  },
+  "twilightforest:hedge_spider": {
+   "kind": "entity",
+   "name": "Hedge Spider"
+  },
+  "twilightforest:helmet_crab": {
+   "kind": "entity",
+   "name": "Helmet Crab"
+  },
+  "twilightforest:hostile_wolf": {
+   "kind": "entity",
+   "name": "Hostile Wolf"
+  },
+  "twilightforest:hydra": {
+   "kind": "entity",
+   "name": "Hydra"
+  },
+  "twilightforest:hydra_mortar": {
+   "kind": "entity",
+   "name": "Hydra Mortar"
+  },
+  "twilightforest:ice_arrow": {
+   "kind": "entity",
+   "name": "Ice Arrow"
+  },
+  "twilightforest:ice_crystal": {
+   "kind": "entity",
+   "name": "Ice Crystal"
+  },
+  "twilightforest:ice_snowball": {
+   "kind": "entity",
+   "name": "Ice Snowball"
+  },
+  "twilightforest:king_spider": {
+   "kind": "entity",
+   "name": "King Spider"
+  },
+  "twilightforest:knight_phantom": {
+   "kind": "entity",
+   "name": "Knight Phantom"
+  },
+  "twilightforest:knight_phantom.plural": {
+   "kind": "entity",
+   "name": "Knight Phantoms"
+  },
+  "twilightforest:kobold": {
+   "kind": "entity",
+   "name": "Kobold"
+  },
+  "twilightforest:lich": {
+   "kind": "entity",
+   "name": "Twilight Lich"
+  },
+  "twilightforest:lich_bolt": {
+   "kind": "entity",
+   "name": "Lich Bolt"
+  },
+  "twilightforest:lich_bomb": {
+   "kind": "entity",
+   "name": "Explosive Lich Bolt"
+  },
+  "twilightforest:lich_minion": {
+   "kind": "entity",
+   "name": "Lich Minion"
+  },
+  "twilightforest:lower_goblin_knight": {
+   "kind": "entity",
+   "name": "Lower Goblin Knight"
+  },
+  "twilightforest:loyal_zombie": {
+   "kind": "entity",
+   "name": "Loyal Zombie"
+  },
+  "twilightforest:magic_painting": {
+   "kind": "item",
+   "name": "Magic Painting"
+  },
+  "twilightforest:maze_slime": {
+   "kind": "entity",
+   "name": "Maze Slime"
+  },
+  "twilightforest:minoshroom": {
+   "kind": "entity",
+   "name": "Minoshroom"
+  },
+  "twilightforest:minotaur": {
+   "kind": "entity",
+   "name": "Minotaur"
+  },
+  "twilightforest:mist_wolf": {
+   "kind": "entity",
+   "name": "Mist Wolf"
+  },
+  "twilightforest:moonworm_shot": {
+   "kind": "entity",
+   "name": "Moonworm"
+  },
+  "twilightforest:mosquito_swarm": {
+   "kind": "entity",
+   "name": "Mosquito Swarm"
+  },
+  "twilightforest:naga": {
+   "kind": "entity",
+   "name": "Naga"
+  },
+  "twilightforest:nature_bolt": {
+   "kind": "entity",
+   "name": "Nature Bolt"
+  },
+  "twilightforest:pinch_beetle": {
+   "kind": "entity",
+   "name": "Pinch Beetle"
+  },
+  "twilightforest:protection_box": {
+   "kind": "entity",
+   "name": "Progression Protection Box"
+  },
+  "twilightforest:quest_ram": {
+   "kind": "entity",
+   "name": "Questing Ram"
+  },
+  "twilightforest:raven": {
+   "kind": "entity",
+   "name": "Raven"
+  },
+  "twilightforest:redcap": {
+   "kind": "entity",
+   "name": "Redcap"
+  },
+  "twilightforest:redcap_sapper": {
+   "kind": "entity",
+   "name": "Redcap Sapper"
+  },
+  "twilightforest:rising_zombie": {
+   "kind": "entity",
+   "name": "Zombie"
+  },
+  "twilightforest:roving_cube": {
+   "kind": "entity",
+   "name": "Roving Cube"
+  },
+  "twilightforest:seeker_arrow": {
+   "kind": "entity",
+   "name": "Seeker Arrow"
+  },
+  "twilightforest:skeleton_druid": {
+   "kind": "entity",
+   "name": "Skeleton Druid"
+  },
+  "twilightforest:slime_beetle": {
+   "kind": "entity",
+   "name": "Slime Beetle"
+  },
+  "twilightforest:slime_blob": {
+   "kind": "entity",
+   "name": "Slime Blob"
+  },
+  "twilightforest:snow_guardian": {
+   "kind": "entity",
+   "name": "Snow Guardian"
+  },
+  "twilightforest:snow_queen": {
+   "kind": "entity",
+   "name": "Snow Queen"
+  },
+  "twilightforest:squirrel": {
+   "kind": "entity",
+   "name": "Squirrel"
+  },
+  "twilightforest:stable_ice_core": {
+   "kind": "entity",
+   "name": "Stable Ice Core"
+  },
+  "twilightforest:swarm_spider": {
+   "kind": "entity",
+   "name": "Swarm Spider"
+  },
+  "twilightforest:thrown_block": {
+   "kind": "entity",
+   "name": "Thrown Block"
+  },
+  "twilightforest:thrown_ice": {
+   "kind": "entity",
+   "name": "Ice Bomb"
+  },
+  "twilightforest:thrown_wep": {
+   "kind": "entity",
+   "name": "Thrown Weapon"
+  },
+  "twilightforest:tiny_bird": {
+   "kind": "entity",
+   "name": "Tiny Bird"
+  },
+  "twilightforest:tome_bolt": {
+   "kind": "entity",
+   "name": "Death Tome Bolt"
+  },
+  "twilightforest:towerwood_borer": {
+   "kind": "entity",
+   "name": "Towerwood Borer"
+  },
+  "twilightforest:troll": {
+   "kind": "entity",
+   "name": "Troll"
+  },
+  "twilightforest:unstable_ice_core": {
+   "kind": "entity",
+   "name": "Unstable Ice Core"
+  },
+  "twilightforest:upper_goblin_knight": {
+   "kind": "entity",
+   "name": "Upper Goblin Knight"
+  },
+  "twilightforest:ur_ghast": {
+   "kind": "entity",
+   "name": "Ur-Ghast"
+  },
+  "twilightforest:wand_bolt": {
+   "kind": "entity",
+   "name": "Twilight Scepter Bolt"
+  },
+  "twilightforest:winter_wolf": {
+   "kind": "entity",
+   "name": "Winter Wolf"
+  },
+  "twilightforest:wraith": {
+   "kind": "entity",
+   "name": "Wraith"
+  },
+  "twilightforest:yeti": {
+   "kind": "entity",
+   "name": "Yeti"
+  },
+  "twilightforest:adherent_spawn_egg": {
+   "kind": "item",
+   "name": "Adherent Spawn Egg"
+  },
+  "twilightforest:alpha_yeti_banner_pattern": {
+   "kind": "item",
+   "name": "Banner Pattern"
+  },
+  "twilightforest:alpha_yeti_fur": {
+   "kind": "item",
+   "name": "Alpha Yeti Fur"
+  },
+  "twilightforest:alpha_yeti_spawn_egg": {
+   "kind": "item",
+   "name": "Alpha Yeti Spawn Egg"
+  },
+  "twilightforest:arctic_boots": {
+   "kind": "item",
+   "name": "Arctic Boots"
+  },
+  "twilightforest:arctic_chestplate": {
+   "kind": "item",
+   "name": "Arctic Jacket"
+  },
+  "twilightforest:arctic_fur": {
+   "kind": "item",
+   "name": "Arctic Fur"
+  },
+  "twilightforest:arctic_helmet": {
+   "kind": "item",
+   "name": "Arctic Hood"
+  },
+  "twilightforest:arctic_leggings": {
+   "kind": "item",
+   "name": "Arctic Leggings"
+  },
+  "twilightforest:armor_shard": {
+   "kind": "item",
+   "name": "Armor Shard"
+  },
+  "twilightforest:armor_shard_cluster": {
+   "kind": "item",
+   "name": "Armor Shard Cluster"
+  },
+  "twilightforest:armored_giant_spawn_egg": {
+   "kind": "item",
+   "name": "Armored Giant Spawn Egg"
+  },
+  "twilightforest:beef_jerky": {
+   "kind": "item",
+   "name": "Beef Jerky"
+  },
+  "twilightforest:berry_medley": {
+   "kind": "item",
+   "name": "Berry Medley"
+  },
+  "twilightforest:bighorn_sheep_spawn_egg": {
+   "kind": "item",
+   "name": "Bighorn Sheep Spawn Egg"
+  },
+  "twilightforest:blackberry": {
+   "kind": "item",
+   "name": "Blackberry"
+  },
+  "twilightforest:blightberry": {
+   "kind": "item",
+   "name": "Blightberry"
+  },
+  "twilightforest:block_and_chain": {
+   "kind": "item",
+   "name": "Block and Chain"
+  },
+  "twilightforest:blockchain_goblin_spawn_egg": {
+   "kind": "item",
+   "name": "Block and Chain Goblin Spawn Egg"
+  },
+  "twilightforest:blueberry": {
+   "kind": "item",
+   "name": "Blueberry"
+  },
+  "twilightforest:boar_spawn_egg": {
+   "kind": "item",
+   "name": "Boar Spawn Egg"
+  },
+  "twilightforest:boarkchop": {
+   "kind": "item",
+   "name": "Raw Boarkchop"
+  },
+  "twilightforest:borer_essence": {
+   "kind": "item",
+   "name": "Borer Essence"
+  },
+  "twilightforest:canopy_boat": {
+   "kind": "item",
+   "name": "Canopy Boat"
+  },
+  "twilightforest:canopy_chest_boat": {
+   "kind": "item",
+   "name": "Canopy Boat with Chest"
+  },
+  "twilightforest:carminite": {
+   "kind": "item",
+   "name": "Carminite"
+  },
+  "twilightforest:carminite_broodling_spawn_egg": {
+   "kind": "item",
+   "name": "Carminite Broodling Spawn Egg"
+  },
+  "twilightforest:carminite_ghastguard_spawn_egg": {
+   "kind": "item",
+   "name": "Carminite Ghastguard Spawn Egg"
+  },
+  "twilightforest:carminite_ghastling_spawn_egg": {
+   "kind": "item",
+   "name": "Carminite Ghastling Spawn Egg"
+  },
+  "twilightforest:carminite_golem_spawn_egg": {
+   "kind": "item",
+   "name": "Carminite Golem Spawn Egg"
+  },
+  "twilightforest:charm_of_keeping_1": {
+   "kind": "item",
+   "name": "Charm of Keeping I"
+  },
+  "twilightforest:charm_of_keeping_2": {
+   "kind": "item",
+   "name": "Charm of Keeping II"
+  },
+  "twilightforest:charm_of_keeping_3": {
+   "kind": "item",
+   "name": "Charm of Keeping III"
+  },
+  "twilightforest:charm_of_life_1": {
+   "kind": "item",
+   "name": "Charm of Life I"
+  },
+  "twilightforest:charm_of_life_2": {
+   "kind": "item",
+   "name": "Charm of Life II"
+  },
+  "twilightforest:chicken_jerky": {
+   "kind": "item",
+   "name": "Chicken Jerky"
+  },
+  "twilightforest:cod_jerky": {
+   "kind": "item",
+   "name": "Cod Jerky"
+  },
+  "twilightforest:cooked_meef": {
+   "kind": "item",
+   "name": "Meef Steak"
+  },
+  "twilightforest:cooked_venison": {
+   "kind": "item",
+   "name": "Venison Steak"
+  },
+  "twilightforest:copper_berry": {
+   "kind": "item",
+   "name": "Copper Oreberry"
+  },
+  "twilightforest:copper_nugget": {
+   "kind": "item",
+   "name": "Copper Nugget"
+  },
+  "twilightforest:crown_splinter": {
+   "kind": "item",
+   "name": "Crown Splinter"
+  },
+  "twilightforest:crumble_horn": {
+   "kind": "item",
+   "name": "Crumble Horn"
+  },
+  "twilightforest:cube_talisman": {
+   "kind": "item",
+   "name": "Talisman of the Cube"
+  },
+  "twilightforest:dark_boat": {
+   "kind": "item",
+   "name": "Darkwood Boat"
+  },
+  "twilightforest:dark_chest_boat": {
+   "kind": "item",
+   "name": "Darkwood Boat with Chest"
+  },
+  "twilightforest:deer_spawn_egg": {
+   "kind": "item",
+   "name": "Deer Spawn Egg"
+  },
+  "twilightforest:diamond_minotaur_axe": {
+   "kind": "item",
+   "name": "Diamond Minotaur Axe"
+  },
+  "twilightforest:duskberry": {
+   "kind": "item",
+   "name": "Duskberry"
+  },
+  "twilightforest:dwarf_rabbit_spawn_egg": {
+   "kind": "item",
+   "name": "Dwarf Rabbit Spawn Egg"
+  },
+  "twilightforest:emperors_cloth": {
+   "kind": "item",
+   "name": "Emperor's Cloth"
+  },
+  "twilightforest:ender_bow": {
+   "kind": "item",
+   "name": "Ender Bow"
+  },
+  "twilightforest:essence_berry": {
+   "kind": "item",
+   "name": "Concentrated Essence Berry"
+  },
+  "twilightforest:exanimate_essence": {
+   "kind": "item",
+   "name": "Exanimate Essence"
+  },
+  "twilightforest:fiery_blood": {
+   "kind": "item",
+   "name": "Fiery Blood"
+  },
+  "twilightforest:fiery_boots": {
+   "kind": "item",
+   "name": "Fiery Boots"
+  },
+  "twilightforest:fiery_chestplate": {
+   "kind": "item",
+   "name": "Fiery Chestplate"
+  },
+  "twilightforest:fiery_helmet": {
+   "kind": "item",
+   "name": "Fiery Helmet"
+  },
+  "twilightforest:fiery_ingot": {
+   "kind": "item",
+   "name": "Fiery Ingot"
+  },
+  "twilightforest:fiery_leggings": {
+   "kind": "item",
+   "name": "Fiery Leggings"
+  },
+  "twilightforest:fiery_pickaxe": {
+   "kind": "item",
+   "name": "Fiery Pickaxe"
+  },
+  "twilightforest:fiery_sword": {
+   "kind": "item",
+   "name": "Fiery Sword"
+  },
+  "twilightforest:fiery_tears": {
+   "kind": "item",
+   "name": "Fiery Tears"
+  },
+  "twilightforest:filled_magic_map": {
+   "kind": "item",
+   "name": "Magic Map"
+  },
+  "twilightforest:filled_maze_map": {
+   "kind": "item",
+   "name": "Maze Map"
+  },
+  "twilightforest:filled_ore_map": {
+   "kind": "item",
+   "name": "Maze/Ore Map"
+  },
+  "twilightforest:fire_beetle_spawn_egg": {
+   "kind": "item",
+   "name": "Fire Beetle Spawn Egg"
+  },
+  "twilightforest:flask.empty": {
+   "kind": "item",
+   "name": "Empty"
+  },
+  "twilightforest:flask.no_refill": {
+   "kind": "item",
+   "name": "Cannot be refilled"
+  },
+  "twilightforest:fortification_scepter": {
+   "kind": "item",
+   "name": "Scepter of Fortification"
+  },
+  "twilightforest:four_leaf_clover": {
+   "kind": "item",
+   "name": "Four-Leaf Clover"
+  },
+  "twilightforest:fugu_jerky": {
+   "kind": "item",
+   "name": "Fugu Jerky"
+  },
+  "twilightforest:gelatinous_maze_slime_drop": {
+   "kind": "item",
+   "name": "Gelatinous Maze Slime Drop"
+  },
+  "twilightforest:gelatinous_slime_drop": {
+   "kind": "item",
+   "name": "Gelatinous Slime Drop"
+  },
+  "twilightforest:giant_miner_spawn_egg": {
+   "kind": "item",
+   "name": "Giant Miner Spawn Egg"
+  },
+  "twilightforest:giant_pickaxe": {
+   "kind": "item",
+   "name": "Giant's Pickaxe"
+  },
+  "twilightforest:giant_sword": {
+   "kind": "item",
+   "name": "Giant's Sword"
+  },
+  "twilightforest:glass_sword": {
+   "kind": "item",
+   "name": "Glass Sword"
+  },
+  "twilightforest:gold_berry": {
+   "kind": "item",
+   "name": "Gold Oreberry"
+  },
+  "twilightforest:gold_minotaur_axe": {
+   "kind": "item",
+   "name": "Golden Minotaur Axe"
+  },
+  "twilightforest:harbinger_cube_spawn_egg": {
+   "kind": "item",
+   "name": "Harbinger Cube Spawn Egg"
+  },
+  "twilightforest:hedge_spider_spawn_egg": {
+   "kind": "item",
+   "name": "Hedge Spider Spawn Egg"
+  },
+  "twilightforest:helmet_crab_spawn_egg": {
+   "kind": "item",
+   "name": "Helmet Crab Spawn Egg"
+  },
+  "twilightforest:hostile_wolf_spawn_egg": {
+   "kind": "item",
+   "name": "Hostile Wolf Spawn Egg"
+  },
+  "twilightforest:hydra_banner_pattern": {
+   "kind": "item",
+   "name": "Banner Pattern"
+  },
+  "twilightforest:hydra_chop": {
+   "kind": "item",
+   "name": "Hydra Chop"
+  },
+  "twilightforest:hydra_spawn_egg": {
+   "kind": "item",
+   "name": "Hydra Spawn Egg"
+  },
+  "twilightforest:ice_bomb": {
+   "kind": "item",
+   "name": "Ice Bomb"
+  },
+  "twilightforest:ice_bow": {
+   "kind": "item",
+   "name": "Ice Bow"
+  },
+  "twilightforest:ice_crystal_spawn_egg": {
+   "kind": "item",
+   "name": "Ice Crystal Spawn Egg"
+  },
+  "twilightforest:ice_sword": {
+   "kind": "item",
+   "name": "Ice Sword"
+  },
+  "twilightforest:iron_berry": {
+   "kind": "item",
+   "name": "Iron Oreberry"
+  },
+  "twilightforest:ironwood_axe": {
+   "kind": "item",
+   "name": "Ironwood Axe"
+  },
+  "twilightforest:ironwood_boots": {
+   "kind": "item",
+   "name": "Ironwood Boots"
+  },
+  "twilightforest:ironwood_chestplate": {
+   "kind": "item",
+   "name": "Ironwood Chestplate"
+  },
+  "twilightforest:ironwood_helmet": {
+   "kind": "item",
+   "name": "Ironwood Helmet"
+  },
+  "twilightforest:ironwood_hoe": {
+   "kind": "item",
+   "name": "Ironwood Hoe"
+  },
+  "twilightforest:ironwood_ingot": {
+   "kind": "item",
+   "name": "Ironwood Ingot"
+  },
+  "twilightforest:ironwood_leggings": {
+   "kind": "item",
+   "name": "Ironwood Leggings"
+  },
+  "twilightforest:ironwood_pickaxe": {
+   "kind": "item",
+   "name": "Ironwood Pickaxe"
+  },
+  "twilightforest:ironwood_shovel": {
+   "kind": "item",
+   "name": "Ironwood Shovel"
+  },
+  "twilightforest:ironwood_sword": {
+   "kind": "item",
+   "name": "Ironwood Sword"
+  },
+  "twilightforest:king_spider_spawn_egg": {
+   "kind": "item",
+   "name": "King Spider Spawn Egg"
+  },
+  "twilightforest:knight_phantom_banner_pattern": {
+   "kind": "item",
+   "name": "Banner Pattern"
+  },
+  "twilightforest:knight_phantom_spawn_egg": {
+   "kind": "item",
+   "name": "Knight Phantom Spawn Egg"
+  },
+  "twilightforest:knightmetal_axe": {
+   "kind": "item",
+   "name": "Knightmetal Axe"
+  },
+  "twilightforest:knightmetal_boots": {
+   "kind": "item",
+   "name": "Knightmetal Boots"
+  },
+  "twilightforest:knightmetal_chestplate": {
+   "kind": "item",
+   "name": "Knightmetal Chestplate"
+  },
+  "twilightforest:knightmetal_helmet": {
+   "kind": "item",
+   "name": "Knightmetal Helmet"
+  },
+  "twilightforest:knightmetal_ingot": {
+   "kind": "item",
+   "name": "Knightmetal Ingot"
+  },
+  "twilightforest:knightmetal_leggings": {
+   "kind": "item",
+   "name": "Knightmetal Greaves"
+  },
+  "twilightforest:knightmetal_pickaxe": {
+   "kind": "item",
+   "name": "Knightmetal Pickaxe"
+  },
+  "twilightforest:knightmetal_ring": {
+   "kind": "item",
+   "name": "Knightmetal Loop"
+  },
+  "twilightforest:knightmetal_shield": {
+   "kind": "item",
+   "name": "Knightmetal Shield"
+  },
+  "twilightforest:knightmetal_sword": {
+   "kind": "item",
+   "name": "Knightmetal Sword"
+  },
+  "twilightforest:kobold_spawn_egg": {
+   "kind": "item",
+   "name": "Kobold Spawn Egg"
+  },
+  "twilightforest:lamp_of_cinders": {
+   "kind": "item",
+   "name": "Lamp of Cinders"
+  },
+  "twilightforest:lich_banner_pattern": {
+   "kind": "item",
+   "name": "Banner Pattern"
+  },
+  "twilightforest:lich_spawn_egg": {
+   "kind": "item",
+   "name": "Twilight Lich Spawn Egg"
+  },
+  "twilightforest:lifedrain_scepter": {
+   "kind": "item",
+   "name": "Scepter of Life Draining"
+  },
+  "twilightforest:liveroot": {
+   "kind": "item",
+   "name": "Liveroot"
+  },
+  "twilightforest:lower_goblin_knight_spawn_egg": {
+   "kind": "item",
+   "name": "Goblin Knight Spawn Egg"
+  },
+  "twilightforest:magic_beans": {
+   "kind": "item",
+   "name": "Magic Beans"
+  },
+  "twilightforest:magic_map": {
+   "kind": "item",
+   "name": "Blank Magic Map"
+  },
+  "twilightforest:magic_map_focus": {
+   "kind": "item",
+   "name": "Magic Map Focus"
+  },
+  "twilightforest:maloberry": {
+   "kind": "item",
+   "name": "Maloberry"
+  },
+  "twilightforest:mangrove_boat": {
+   "kind": "item",
+   "name": "Mangrove Boat"
+  },
+  "twilightforest:mangrove_chest_boat": {
+   "kind": "item",
+   "name": "Mangrove Boat with Chest"
+  },
+  "twilightforest:maze_map": {
+   "kind": "item",
+   "name": "Blank Maze Map"
+  },
+  "twilightforest:maze_map.y_level": {
+   "kind": "item",
+   "name": "Y level %s"
+  },
+  "twilightforest:maze_map_focus": {
+   "kind": "item",
+   "name": "Maze Map Focus"
+  },
+  "twilightforest:maze_slime_ball": {
+   "kind": "item",
+   "name": "Maze Slimeball"
+  },
+  "twilightforest:maze_slime_spawn_egg": {
+   "kind": "item",
+   "name": "Maze Slime Spawn Egg"
+  },
+  "twilightforest:maze_wafer": {
+   "kind": "item",
+   "name": "Maze Wafer"
+  },
+  "twilightforest:mazebreaker_pickaxe": {
+   "kind": "item",
+   "name": "Mazebreaker"
+  },
+  "twilightforest:meef_jerky": {
+   "kind": "item",
+   "name": "Meef Jerky"
+  },
+  "twilightforest:meef_stroganoff": {
+   "kind": "item",
+   "name": "Meef Stroganoff"
+  },
+  "twilightforest:mining_boat": {
+   "kind": "item",
+   "name": "Minewood Boat"
+  },
+  "twilightforest:mining_chest_boat": {
+   "kind": "item",
+   "name": "Minewood Boat with Chest"
+  },
+  "twilightforest:minoshroom_banner_pattern": {
+   "kind": "item",
+   "name": "Banner Pattern"
+  },
+  "twilightforest:minoshroom_spawn_egg": {
+   "kind": "item",
+   "name": "Minoshroom Spawn Egg"
+  },
+  "twilightforest:minotaur_spawn_egg": {
+   "kind": "item",
+   "name": "Minotaur Spawn Egg"
+  },
+  "twilightforest:mist_wolf_spawn_egg": {
+   "kind": "item",
+   "name": "Mist Wolf Spawn Egg"
+  },
+  "twilightforest:monster_jerky": {
+   "kind": "item",
+   "name": "Monster Jerky"
+  },
+  "twilightforest:moon_dial": {
+   "kind": "item",
+   "name": "Moon Dial"
+  },
+  "twilightforest:moon_dial.phase_0": {
+   "kind": "item",
+   "name": "Full Moon"
+  },
+  "twilightforest:moon_dial.phase_1": {
+   "kind": "item",
+   "name": "Waning Gibbous"
+  },
+  "twilightforest:moon_dial.phase_2": {
+   "kind": "item",
+   "name": "Third Quarter"
+  },
+  "twilightforest:moon_dial.phase_3": {
+   "kind": "item",
+   "name": "Waning Crescent"
+  },
+  "twilightforest:moon_dial.phase_4": {
+   "kind": "item",
+   "name": "New Moon"
+  },
+  "twilightforest:moon_dial.phase_5": {
+   "kind": "item",
+   "name": "Waxing Crescent"
+  },
+  "twilightforest:moon_dial.phase_6": {
+   "kind": "item",
+   "name": "First Quarter"
+  },
+  "twilightforest:moon_dial.phase_7": {
+   "kind": "item",
+   "name": "Waxing Gibbous"
+  },
+  "twilightforest:moon_dial.phase_unknown": {
+   "kind": "item",
+   "name": "Moon phase indeterminate"
+  },
+  "twilightforest:moon_dial.phase_unknown_fools": {
+   "kind": "item",
+   "name": "404 moon not found"
+  },
+  "twilightforest:moonworm_queen": {
+   "kind": "item",
+   "name": "Moonworm Queen"
+  },
+  "twilightforest:mosquito_swarm_spawn_egg": {
+   "kind": "item",
+   "name": "Mosquito Swarm Spawn Egg"
+  },
+  "twilightforest:moss_soup": {
+   "kind": "item",
+   "name": "Moss Soup"
+  },
+  "twilightforest:music_disc_findings": {
+   "kind": "item",
+   "name": "Music Disc"
+  },
+  "twilightforest:music_disc_home": {
+   "kind": "item",
+   "name": "Music Disc"
+  },
+  "twilightforest:music_disc_maker": {
+   "kind": "item",
+   "name": "Music Disc"
+  },
+  "twilightforest:music_disc_motion": {
+   "kind": "item",
+   "name": "Music Disc"
+  },
+  "twilightforest:music_disc_radiance": {
+   "kind": "item",
+   "name": "Music Disc"
+  },
+  "twilightforest:music_disc_steps": {
+   "kind": "item",
+   "name": "Music Disc"
+  },
+  "twilightforest:music_disc_superstitious": {
+   "kind": "item",
+   "name": "Music Disc"
+  },
+  "twilightforest:music_disc_thread": {
+   "kind": "item",
+   "name": "Music Disc"
+  },
+  "twilightforest:music_disc_wayfarer": {
+   "kind": "item",
+   "name": "Music Disc"
+  },
+  "twilightforest:mutton_jerky": {
+   "kind": "item",
+   "name": "Mutton Jerky"
+  },
+  "twilightforest:mystic_crown": {
+   "kind": "item",
+   "name": "Mystic Crown"
+  },
+  "twilightforest:naga_banner_pattern": {
+   "kind": "item",
+   "name": "Banner Pattern"
+  },
+  "twilightforest:naga_chestplate": {
+   "kind": "item",
+   "name": "Naga Scale Tunic"
+  },
+  "twilightforest:naga_leggings": {
+   "kind": "item",
+   "name": "Naga Scale Leggings"
+  },
+  "twilightforest:naga_scale": {
+   "kind": "item",
+   "name": "Naga Scale"
+  },
+  "twilightforest:naga_spawn_egg": {
+   "kind": "item",
+   "name": "Naga Spawn Egg"
+  },
+  "twilightforest:ore_magnet": {
+   "kind": "item",
+   "name": "Ore Magnet"
+  },
+  "twilightforest:ore_map": {
+   "kind": "item",
+   "name": "Blank Maze/Ore Map"
+  },
+  "twilightforest:ore_meter": {
+   "kind": "item",
+   "name": "Ore Meter"
+  },
+  "twilightforest:peacock_feather_fan": {
+   "kind": "item",
+   "name": "Peacock Feather Fan"
+  },
+  "twilightforest:phantom_chestplate": {
+   "kind": "item",
+   "name": "Phantom Chestplate"
+  },
+  "twilightforest:phantom_helmet": {
+   "kind": "item",
+   "name": "Phantom Helmet"
+  },
+  "twilightforest:pinch_beetle_spawn_egg": {
+   "kind": "item",
+   "name": "Pinch Beetle Spawn Egg"
+  },
+  "twilightforest:pocket_watch": {
+   "kind": "item",
+   "name": "Rabbit's Pocket Watch"
+  },
+  "twilightforest:pork_jerky": {
+   "kind": "item",
+   "name": "Pork Jerky"
+  },
+  "twilightforest:quest_ram_banner_pattern": {
+   "kind": "item",
+   "name": "Banner Pattern"
+  },
+  "twilightforest:quest_ram_spawn_egg": {
+   "kind": "item",
+   "name": "Questing Ram Spawn Egg"
+  },
+  "twilightforest:rabbit_jerky": {
+   "kind": "item",
+   "name": "Rabbit Jerky"
+  },
+  "twilightforest:raspberry": {
+   "kind": "item",
+   "name": "Raspberry"
+  },
+  "twilightforest:raven_feather": {
+   "kind": "item",
+   "name": "Raven Feather"
+  },
+  "twilightforest:raven_spawn_egg": {
+   "kind": "item",
+   "name": "Raven Spawn Egg"
+  },
+  "twilightforest:raw_ironwood": {
+   "kind": "item",
+   "name": "Raw Ironwood"
+  },
+  "twilightforest:raw_meef": {
+   "kind": "item",
+   "name": "Raw Meef"
+  },
+  "twilightforest:raw_venison": {
+   "kind": "item",
+   "name": "Raw Venison"
+  },
+  "twilightforest:redcap_sapper_spawn_egg": {
+   "kind": "item",
+   "name": "Redcap Sapper Spawn Egg"
+  },
+  "twilightforest:redcap_spawn_egg": {
+   "kind": "item",
+   "name": "Redcap Spawn Egg"
+  },
+  "twilightforest:salmon_jerky": {
+   "kind": "item",
+   "name": "Salmon Jerky"
+  },
+  "twilightforest:seeker_bow": {
+   "kind": "item",
+   "name": "Seeker Bow"
+  },
+  "twilightforest:shika_senbei": {
+   "kind": "item",
+   "name": "Shika Senbei"
+  },
+  "twilightforest:skeleton_druid_spawn_egg": {
+   "kind": "item",
+   "name": "Skeleton Druid Spawn Egg"
+  },
+  "twilightforest:skyberry": {
+   "kind": "item",
+   "name": "Skyberry"
+  },
+  "twilightforest:slime_beetle_spawn_egg": {
+   "kind": "item",
+   "name": "Slime Beetle Spawn Egg"
+  },
+  "twilightforest:snow_guardian_spawn_egg": {
+   "kind": "item",
+   "name": "Snow Guardian Spawn Egg"
+  },
+  "twilightforest:snow_queen_banner_pattern": {
+   "kind": "item",
+   "name": "Banner Pattern"
+  },
+  "twilightforest:snow_queen_spawn_egg": {
+   "kind": "item",
+   "name": "Snow Queen Spawn Egg"
+  },
+  "twilightforest:sorting_boat": {
+   "kind": "item",
+   "name": "Sortingwood Boat"
+  },
+  "twilightforest:sorting_chest_boat": {
+   "kind": "item",
+   "name": "Sortingwood Boat with Chest"
+  },
+  "twilightforest:squirrel_spawn_egg": {
+   "kind": "item",
+   "name": "Squirrel Spawn Egg"
+  },
+  "twilightforest:stable_ice_core_spawn_egg": {
+   "kind": "item",
+   "name": "Stable Ice Core Spawn Egg"
+  },
+  "twilightforest:stale_bread": {
+   "kind": "item",
+   "name": "Stale Bread"
+  },
+  "twilightforest:steeleaf_axe": {
+   "kind": "item",
+   "name": "Steeleaf Axe"
+  },
+  "twilightforest:steeleaf_boots": {
+   "kind": "item",
+   "name": "Steeleaf Boots"
+  },
+  "twilightforest:steeleaf_chestplate": {
+   "kind": "item",
+   "name": "Steeleaf Chestplate"
+  },
+  "twilightforest:steeleaf_helmet": {
+   "kind": "item",
+   "name": "Steeleaf Helmet"
+  },
+  "twilightforest:steeleaf_hoe": {
+   "kind": "item",
+   "name": "Steeleaf Hoe"
+  },
+  "twilightforest:steeleaf_ingot": {
+   "kind": "item",
+   "name": "Steeleaf"
+  },
+  "twilightforest:steeleaf_leggings": {
+   "kind": "item",
+   "name": "Steeleaf Leggings"
+  },
+  "twilightforest:steeleaf_pickaxe": {
+   "kind": "item",
+   "name": "Steeleaf Pickaxe"
+  },
+  "twilightforest:steeleaf_shovel": {
+   "kind": "item",
+   "name": "Steeleaf Shovel"
+  },
+  "twilightforest:steeleaf_sword": {
+   "kind": "item",
+   "name": "Steeleaf Sword"
+  },
+  "twilightforest:stingberry": {
+   "kind": "item",
+   "name": "Stingberry"
+  },
+  "twilightforest:swarm_spider_spawn_egg": {
+   "kind": "item",
+   "name": "Swarm Spider Spawn Egg"
+  },
+  "twilightforest:tanned_leather": {
+   "kind": "item",
+   "name": "Tanned Leather"
+  },
+  "twilightforest:tannin": {
+   "kind": "item",
+   "name": "Tannin"
+  },
+  "twilightforest:time_boat": {
+   "kind": "item",
+   "name": "Timewood Boat"
+  },
+  "twilightforest:time_chest_boat": {
+   "kind": "item",
+   "name": "Timewood Boat with Chest"
+  },
+  "twilightforest:tiny_bird_spawn_egg": {
+   "kind": "item",
+   "name": "Tiny Bird Spawn Egg"
+  },
+  "twilightforest:torchberries": {
+   "kind": "item",
+   "name": "Torchberries"
+  },
+  "twilightforest:towerwood_borer_spawn_egg": {
+   "kind": "item",
+   "name": "Towerwood Borer Spawn Egg"
+  },
+  "twilightforest:transformation_boat": {
+   "kind": "item",
+   "name": "Transwood Boat"
+  },
+  "twilightforest:transformation_chest_boat": {
+   "kind": "item",
+   "name": "Transwood Boat with Chest"
+  },
+  "twilightforest:transformation_powder": {
+   "kind": "item",
+   "name": "Transformation Powder"
+  },
+  "twilightforest:travellers_belt": {
+   "kind": "item",
+   "name": "Traveller's Belt"
+  },
+  "twilightforest:travellers_boots": {
+   "kind": "item",
+   "name": "Traveller's Boots"
+  },
+  "twilightforest:travellers_gloves": {
+   "kind": "item",
+   "name": "Traveller's Gloves"
+  },
+  "twilightforest:travellers_goggles": {
+   "kind": "item",
+   "name": "Traveller's Goggles"
+  },
+  "twilightforest:travellers_vest": {
+   "kind": "item",
+   "name": "Traveller's Vest"
+  },
+  "twilightforest:travellers_wings": {
+   "kind": "item",
+   "name": "Traveller's Wings"
+  },
+  "twilightforest:treated_leather": {
+   "kind": "item",
+   "name": "Treated Leather"
+  },
+  "twilightforest:triple_bow": {
+   "kind": "item",
+   "name": "Tri-Bow"
+  },
+  "twilightforest:troll_spawn_egg": {
+   "kind": "item",
+   "name": "Troll Spawn Egg"
+  },
+  "twilightforest:tropical_fish_jerky": {
+   "kind": "item",
+   "name": "Tropical Fish Jerky"
+  },
+  "twilightforest:twilight_oak_boat": {
+   "kind": "item",
+   "name": "Twilight Oak Boat"
+  },
+  "twilightforest:twilight_oak_chest_boat": {
+   "kind": "item",
+   "name": "Twilight Oak Boat with Chest"
+  },
+  "twilightforest:twilight_scepter": {
+   "kind": "item",
+   "name": "Scepter of Twilight"
+  },
+  "twilightforest:unstable_ice_core_spawn_egg": {
+   "kind": "item",
+   "name": "Unstable Ice Core Spawn Egg"
+  },
+  "twilightforest:ur_ghast_banner_pattern": {
+   "kind": "item",
+   "name": "Banner Pattern"
+  },
+  "twilightforest:ur_ghast_spawn_egg": {
+   "kind": "item",
+   "name": "Ur-Ghast Spawn Egg"
+  },
+  "twilightforest:venison_jerky": {
+   "kind": "item",
+   "name": "Venison Jerky"
+  },
+  "twilightforest:winter_wolf_spawn_egg": {
+   "kind": "item",
+   "name": "Winter Wolf Spawn Egg"
+  },
+  "twilightforest:wraith_spawn_egg": {
+   "kind": "item",
+   "name": "Wraith Spawn Egg"
+  },
+  "twilightforest:wrought_iron_bar": {
+   "kind": "item",
+   "name": "Wrought Iron Bar"
+  },
+  "twilightforest:yeti_boots": {
+   "kind": "item",
+   "name": "Yeti Boots"
+  },
+  "twilightforest:yeti_chestplate": {
+   "kind": "item",
+   "name": "Yeti Jacket"
+  },
+  "twilightforest:yeti_helmet": {
+   "kind": "item",
+   "name": "Yeti Horned Helm"
+  },
+  "twilightforest:yeti_leggings": {
+   "kind": "item",
+   "name": "Yeti Leggings"
+  },
+  "twilightforest:yeti_spawn_egg": {
+   "kind": "item",
+   "name": "Yeti Spawn Egg"
+  },
+  "twilightforest:zombie_scepter": {
+   "kind": "item",
+   "name": "Zombie Scepter"
+  }
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "repo": "BobVarioa/kjsarsnouveau",
+ "ref": "default",
+ "ref_kind": "none",
+ "mod_ids": [
+  "${mod_id}"
+ ],
+ "item_count": 0,
+ "compat": [
+  {
+   "id": "ars_nouveau",
+   "slug": "ars-nouveau",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "kubejs",
+   "slug": "kubejs",
+   "evidence": {
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {}
+}

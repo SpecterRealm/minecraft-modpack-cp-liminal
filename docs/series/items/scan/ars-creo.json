@@ -1,0 +1,33 @@
+{
+ "repo": "baileyholl/Ars-Creo",
+ "ref": "1.21.x",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "ars_creo"
+ ],
+ "item_count": 1,
+ "compat": [
+  {
+   "id": "ars_nouveau",
+   "slug": "ars-nouveau",
+   "evidence": {
+    "data-ref": 1,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "create",
+   "slug": "create",
+   "evidence": {
+    "data-ref": 1,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "ars_creo:starbuncle_wheel": {
+   "kind": "block",
+   "name": "Starbuncle Wheel"
+  }
+ }
+}

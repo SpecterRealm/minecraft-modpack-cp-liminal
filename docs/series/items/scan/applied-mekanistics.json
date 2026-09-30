@@ -1,0 +1,63 @@
+{
+ "repo": "AppliedEnergistics/Applied-Mekanistics",
+ "ref": "1.6.3",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "appmek"
+ ],
+ "item_count": 0,
+ "compat": [
+  {
+   "id": "ae2jeiintegration",
+   "slug": "ae2-jei-integration",
+   "evidence": {
+    "compat-import": 2
+   }
+  },
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "compat-import": 2,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "appeng",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "compat-import": 3
+   }
+  },
+  {
+   "id": "emi",
+   "slug": "emi",
+   "evidence": {
+    "compat-import": 2
+   }
+  },
+  {
+   "id": "jade",
+   "slug": "jade",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 2
+   }
+  },
+  {
+   "id": "mekanism",
+   "slug": "mekanism",
+   "evidence": {
+    "compat-import": 2,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {}
+}

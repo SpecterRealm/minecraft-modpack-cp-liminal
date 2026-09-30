@@ -1,0 +1,1522 @@
+{
+ "repo": "baileyholl/Ars-Nouveau",
+ "ref": "1.21.x",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "ars_nouveau"
+ ],
+ "item_count": 366,
+ "compat": [
+  {
+   "id": "create",
+   "slug": "create",
+   "evidence": {
+    "data-ref": 1
+   }
+  },
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "data-ref": 1,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "geckolib",
+   "slug": "geckolib",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "patchouli",
+   "slug": "patchouli",
+   "evidence": {
+    "compat-import": 1,
+    "dependency": 1,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "terrablender",
+   "slug": "terrablender",
+   "evidence": {
+    "isLoaded": 1
+   }
+  }
+ ],
+ "items": {
+  "ars_nouveau:agronomic_sourcelink": {
+   "kind": "block",
+   "name": "Agronomic Sourcelink"
+  },
+  "ars_nouveau:alteration_table": {
+   "kind": "block",
+   "name": "Alteration Table"
+  },
+  "ars_nouveau:arcane_core": {
+   "kind": "block",
+   "name": "Arcane Core"
+  },
+  "ars_nouveau:arcane_pedestal": {
+   "kind": "block",
+   "name": "Arcane Pedestal"
+  },
+  "ars_nouveau:arcane_platform": {
+   "kind": "block",
+   "name": "Arcane Platform"
+  },
+  "ars_nouveau:archwood_button": {
+   "kind": "block",
+   "name": "Archwood Button"
+  },
+  "ars_nouveau:archwood_chest": {
+   "kind": "block",
+   "name": "Archwood Chest"
+  },
+  "ars_nouveau:archwood_door": {
+   "kind": "block",
+   "name": "Archwood Door"
+  },
+  "ars_nouveau:archwood_fence": {
+   "kind": "block",
+   "name": "Archwood Fence"
+  },
+  "ars_nouveau:archwood_fence_gate": {
+   "kind": "block",
+   "name": "Archwood Fence Gate"
+  },
+  "ars_nouveau:archwood_grate": {
+   "kind": "block",
+   "name": "Archwood Grate"
+  },
+  "ars_nouveau:archwood_planks": {
+   "kind": "block",
+   "name": "Archwood Planks"
+  },
+  "ars_nouveau:archwood_pressure_plate": {
+   "kind": "block",
+   "name": "Archwood Pressure Plate"
+  },
+  "ars_nouveau:archwood_sconce": {
+   "kind": "block",
+   "name": "Archwood Sconce"
+  },
+  "ars_nouveau:archwood_slab": {
+   "kind": "block",
+   "name": "Archwood Slab"
+  },
+  "ars_nouveau:archwood_stairs": {
+   "kind": "block",
+   "name": "Archwood Stairs"
+  },
+  "ars_nouveau:archwood_trapdoor": {
+   "kind": "block",
+   "name": "Archwood Trapdoor"
+  },
+  "ars_nouveau:basic_spell_turret": {
+   "kind": "block",
+   "name": "Basic Spell Turret"
+  },
+  "ars_nouveau:bastion_pod": {
+   "kind": "item",
+   "name": "Bastion Fruit"
+  },
+  "ars_nouveau:blue_archwood_leaves": {
+   "kind": "block",
+   "name": "Cascading Archwood Leaves"
+  },
+  "ars_nouveau:blue_archwood_log": {
+   "kind": "block",
+   "name": "Cascading Archwood Log"
+  },
+  "ars_nouveau:blue_archwood_sapling": {
+   "kind": "block",
+   "name": "Cascading Archwood Sapling"
+  },
+  "ars_nouveau:blue_archwood_wood": {
+   "kind": "block",
+   "name": "Cascading Archwood Wood"
+  },
+  "ars_nouveau:blue_sbed": {
+   "kind": "block",
+   "name": "Blue Magebloom Bed"
+  },
+  "ars_nouveau:bombegranate_pod": {
+   "kind": "item",
+   "name": "Bombegranate"
+  },
+  "ars_nouveau:brazier_relay": {
+   "kind": "block",
+   "name": "Ritual Brazier Relay"
+  },
+  "ars_nouveau:creative_source_jar": {
+   "kind": "block",
+   "name": "Creative Source Jar"
+  },
+  "ars_nouveau:drygmy_stone": {
+   "kind": "block",
+   "name": "Drygmy Henge"
+  },
+  "ars_nouveau:enchanting_apparatus": {
+   "kind": "block",
+   "name": "Enchanting Apparatus"
+  },
+  "ars_nouveau:falseweave": {
+   "kind": "block",
+   "name": "Falseweave"
+  },
+  "ars_nouveau:frostaya_pod": {
+   "kind": "item",
+   "name": "Frostaya"
+  },
+  "ars_nouveau:ghostweave": {
+   "kind": "block",
+   "name": "Ghostweave"
+  },
+  "ars_nouveau:gilded_sourcestone_alternating": {
+   "kind": "block",
+   "name": "Gilded Sourcestone: Alternating"
+  },
+  "ars_nouveau:gilded_sourcestone_alternating_slab": {
+   "kind": "block",
+   "name": "Gilded Sourcestone: Alternating Slab"
+  },
+  "ars_nouveau:gilded_sourcestone_alternating_stairs": {
+   "kind": "block",
+   "name": "Gilded Sourcestone: Alternating Stairs"
+  },
+  "ars_nouveau:gilded_sourcestone_basketweave": {
+   "kind": "block",
+   "name": "Gilded Sourcestone: Basketweave"
+  },
+  "ars_nouveau:gilded_sourcestone_basketweave_slab": {
+   "kind": "block",
+   "name": "Gilded Sourcestone: Basketweave Slab"
+  },
+  "ars_nouveau:gilded_sourcestone_basketweave_stairs": {
+   "kind": "block",
+   "name": "Gilded Sourcestone: Basketweave Stairs"
+  },
+  "ars_nouveau:gilded_sourcestone_large_bricks": {
+   "kind": "block",
+   "name": "Gilded Sourcestone: Large Bricks"
+  },
+  "ars_nouveau:gilded_sourcestone_large_bricks_slab": {
+   "kind": "block",
+   "name": "Gilded Sourcestone: Large Bricks Slab"
+  },
+  "ars_nouveau:gilded_sourcestone_large_bricks_stairs": {
+   "kind": "block",
+   "name": "Gilded Sourcestone: Large Bricks Stairs"
+  },
+  "ars_nouveau:gilded_sourcestone_mosaic": {
+   "kind": "block",
+   "name": "Gilded Sourcestone: Mosaic"
+  },
+  "ars_nouveau:gilded_sourcestone_mosaic_slab": {
+   "kind": "block",
+   "name": "Gilded Sourcestone: Mosaic Slab"
+  },
+  "ars_nouveau:gilded_sourcestone_mosaic_stairs": {
+   "kind": "block",
+   "name": "Gilded Sourcestone: Mosaic Stairs"
+  },
+  "ars_nouveau:gilded_sourcestone_small_bricks": {
+   "kind": "block",
+   "name": "Gilded Sourcestone: Small Bricks"
+  },
+  "ars_nouveau:gilded_sourcestone_small_bricks_slab": {
+   "kind": "block",
+   "name": "Gilded Sourcestone: Small Bricks Slab"
+  },
+  "ars_nouveau:gilded_sourcestone_small_bricks_stairs": {
+   "kind": "block",
+   "name": "Gilded Sourcestone: Small Bricks Stairs"
+  },
+  "ars_nouveau:gold_grate": {
+   "kind": "block",
+   "name": "Gold Grate"
+  },
+  "ars_nouveau:green_archwood_leaves": {
+   "kind": "block",
+   "name": "Flourishing Archwood Leaves"
+  },
+  "ars_nouveau:green_archwood_log": {
+   "kind": "block",
+   "name": "Flourishing Archwood Log"
+  },
+  "ars_nouveau:green_archwood_sapling": {
+   "kind": "block",
+   "name": "Flourishing Archwood Sapling"
+  },
+  "ars_nouveau:green_archwood_wood": {
+   "kind": "block",
+   "name": "Flourishing Archwood Wood"
+  },
+  "ars_nouveau:green_sbed": {
+   "kind": "block",
+   "name": "Green Magebloom Bed"
+  },
+  "ars_nouveau:imbuement_chamber": {
+   "kind": "block",
+   "name": "Imbuement Chamber"
+  },
+  "ars_nouveau:intangible_air": {
+   "kind": "block",
+   "name": "Intangible Air"
+  },
+  "ars_nouveau:item_detector": {
+   "kind": "block",
+   "name": "Display Case"
+  },
+  "ars_nouveau:lava_lily": {
+   "kind": "block",
+   "name": "Lava Lily"
+  },
+  "ars_nouveau:light_block": {
+   "kind": "block",
+   "name": "Magelight"
+  },
+  "ars_nouveau:mage_block": {
+   "kind": "block",
+   "name": "Mage Block"
+  },
+  "ars_nouveau:magebloom_block": {
+   "kind": "block",
+   "name": "Magebloom Block"
+  },
+  "ars_nouveau:magebloom_crop": {
+   "kind": "block",
+   "name": "Magebloom Seed"
+  },
+  "ars_nouveau:magelight_torch": {
+   "kind": "block",
+   "name": "Magelight Torch"
+  },
+  "ars_nouveau:magic_fire": {
+   "kind": "block",
+   "name": "Mage Fire"
+  },
+  "ars_nouveau:mendosteen_pod": {
+   "kind": "item",
+   "name": "Mendosteen"
+  },
+  "ars_nouveau:mirrorweave": {
+   "kind": "block",
+   "name": "Mirrorweave"
+  },
+  "ars_nouveau:mob_jar": {
+   "kind": "block",
+   "name": "Containment Jar"
+  },
+  "ars_nouveau:mycelial_sourcelink": {
+   "kind": "block",
+   "name": "Mycelial Sourcelink"
+  },
+  "ars_nouveau:orange_sbed": {
+   "kind": "block",
+   "name": "Orange Magebloom Bed"
+  },
+  "ars_nouveau:polished_sconce": {
+   "kind": "block",
+   "name": "Polished Sourcestone Sconce"
+  },
+  "ars_nouveau:portal": {
+   "kind": "block",
+   "name": "Warp Portal"
+  },
+  "ars_nouveau:purple_archwood_leaves": {
+   "kind": "block",
+   "name": "Vexing Archwood Leaves"
+  },
+  "ars_nouveau:purple_archwood_log": {
+   "kind": "block",
+   "name": "Vexing Archwood Log"
+  },
+  "ars_nouveau:purple_archwood_sapling": {
+   "kind": "block",
+   "name": "Vexing Archwood Sapling"
+  },
+  "ars_nouveau:purple_archwood_wood": {
+   "kind": "block",
+   "name": "Vexing Archwood Wood"
+  },
+  "ars_nouveau:purple_sbed": {
+   "kind": "block",
+   "name": "Purple Magebloom Bed"
+  },
+  "ars_nouveau:red_archwood_leaves": {
+   "kind": "block",
+   "name": "Blazing Archwood Leaves"
+  },
+  "ars_nouveau:red_archwood_log": {
+   "kind": "block",
+   "name": "Blazing Archwood Log"
+  },
+  "ars_nouveau:red_archwood_sapling": {
+   "kind": "block",
+   "name": "Blazing Archwood Sapling"
+  },
+  "ars_nouveau:red_archwood_wood": {
+   "kind": "block",
+   "name": "Blazing Archwood Wood"
+  },
+  "ars_nouveau:red_sbed": {
+   "kind": "block",
+   "name": "Red Magebloom Bed"
+  },
+  "ars_nouveau:redstone_air": {
+   "kind": "block",
+   "name": "Redstone Air"
+  },
+  "ars_nouveau:redstone_relay": {
+   "kind": "block",
+   "name": "Redstone Relay"
+  },
+  "ars_nouveau:relay": {
+   "kind": "block",
+   "name": "Source Relay"
+  },
+  "ars_nouveau:relay_collector": {
+   "kind": "block",
+   "name": "Source Relay: Collector"
+  },
+  "ars_nouveau:relay_deposit": {
+   "kind": "block",
+   "name": "Source Relay: Depositor"
+  },
+  "ars_nouveau:relay_splitter": {
+   "kind": "block",
+   "name": "Source Relay: Splitter"
+  },
+  "ars_nouveau:relay_warp": {
+   "kind": "block",
+   "name": "Source Relay: Warper"
+  },
+  "ars_nouveau:repository": {
+   "kind": "block",
+   "name": "Repository"
+  },
+  "ars_nouveau:ritual_brazier": {
+   "kind": "block",
+   "name": "Ritual Brazier"
+  },
+  "ars_nouveau:rotating_spell_turret": {
+   "kind": "block",
+   "name": "Adjustable Spell Turret"
+  },
+  "ars_nouveau:rune": {
+   "kind": "block",
+   "name": "Rune"
+  },
+  "ars_nouveau:sconce": {
+   "kind": "block",
+   "name": "Gold Sconce"
+  },
+  "ars_nouveau:scribes_table": {
+   "kind": "block",
+   "name": "Scribe's Table"
+  },
+  "ars_nouveau:scryers_crystal": {
+   "kind": "block",
+   "name": "Scry Crystal"
+  },
+  "ars_nouveau:scryers_oculus": {
+   "kind": "block",
+   "name": "Scryer's Oculus"
+  },
+  "ars_nouveau:sky_block": {
+   "kind": "block",
+   "name": "Skyweave"
+  },
+  "ars_nouveau:smooth_gilded_sourcestone_alternating": {
+   "kind": "block",
+   "name": "Smooth Gilded Sourcestone: Alternating"
+  },
+  "ars_nouveau:smooth_gilded_sourcestone_alternating_slab": {
+   "kind": "block",
+   "name": "Smooth Gilded Sourcestone: Alternating Slab"
+  },
+  "ars_nouveau:smooth_gilded_sourcestone_alternating_stairs": {
+   "kind": "block",
+   "name": "Smooth Gilded Sourcestone: Alternating Stairs"
+  },
+  "ars_nouveau:smooth_gilded_sourcestone_basketweave": {
+   "kind": "block",
+   "name": "Smooth Gilded Sourcestone: Basketweave"
+  },
+  "ars_nouveau:smooth_gilded_sourcestone_basketweave_slab": {
+   "kind": "block",
+   "name": "Smooth Gilded Sourcestone: Basketweave Slab"
+  },
+  "ars_nouveau:smooth_gilded_sourcestone_basketweave_stairs": {
+   "kind": "block",
+   "name": "Smooth Gilded Sourcestone: Basketweave Stairs"
+  },
+  "ars_nouveau:smooth_gilded_sourcestone_large_bricks": {
+   "kind": "block",
+   "name": "Smooth Gilded Sourcestone: Large Bricks"
+  },
+  "ars_nouveau:smooth_gilded_sourcestone_large_bricks_slab": {
+   "kind": "block",
+   "name": "Smooth Gilded Sourcestone: Large Bricks Slab"
+  },
+  "ars_nouveau:smooth_gilded_sourcestone_large_bricks_stairs": {
+   "kind": "block",
+   "name": "Smooth Gilded Sourcestone: Large Bricks Stairs"
+  },
+  "ars_nouveau:smooth_gilded_sourcestone_mosaic": {
+   "kind": "block",
+   "name": "Smooth Gilded Sourcestone: Mosaic"
+  },
+  "ars_nouveau:smooth_gilded_sourcestone_mosaic_slab": {
+   "kind": "block",
+   "name": "Smooth Gilded Sourcestone: Mosaic Slab"
+  },
+  "ars_nouveau:smooth_gilded_sourcestone_mosaic_stairs": {
+   "kind": "block",
+   "name": "Smooth Gilded Sourcestone: Mosaic Stairs"
+  },
+  "ars_nouveau:smooth_gilded_sourcestone_small_bricks": {
+   "kind": "block",
+   "name": "Smooth Gilded Sourcestone: Small Bricks"
+  },
+  "ars_nouveau:smooth_gilded_sourcestone_small_bricks_slab": {
+   "kind": "block",
+   "name": "Smooth Gilded Sourcestone: Small Bricks Slab"
+  },
+  "ars_nouveau:smooth_gilded_sourcestone_small_bricks_stairs": {
+   "kind": "block",
+   "name": "Smooth Gilded Sourcestone: Small Bricks Stairs"
+  },
+  "ars_nouveau:smooth_sourcestone": {
+   "kind": "block",
+   "name": "Smooth Sourcestone"
+  },
+  "ars_nouveau:smooth_sourcestone_alternating": {
+   "kind": "block",
+   "name": "Smooth Sourcestone: Alternating"
+  },
+  "ars_nouveau:smooth_sourcestone_alternating_slab": {
+   "kind": "block",
+   "name": "Smooth Sourcestone: Alternating Slab"
+  },
+  "ars_nouveau:smooth_sourcestone_alternating_stairs": {
+   "kind": "block",
+   "name": "Smooth Sourcestone: Alternating Stairs"
+  },
+  "ars_nouveau:smooth_sourcestone_basketweave": {
+   "kind": "block",
+   "name": "Smooth Sourcestone: Basketweave"
+  },
+  "ars_nouveau:smooth_sourcestone_basketweave_slab": {
+   "kind": "block",
+   "name": "Smooth Sourcestone: Basketweave Slab"
+  },
+  "ars_nouveau:smooth_sourcestone_basketweave_stairs": {
+   "kind": "block",
+   "name": "Smooth Sourcestone: Basketweave Stairs"
+  },
+  "ars_nouveau:smooth_sourcestone_grate": {
+   "kind": "block",
+   "name": "Smooth Sourcestone Grate"
+  },
+  "ars_nouveau:smooth_sourcestone_large_bricks": {
+   "kind": "block",
+   "name": "Smooth Sourcestone: Large Bricks"
+  },
+  "ars_nouveau:smooth_sourcestone_large_bricks_slab": {
+   "kind": "block",
+   "name": "Smooth Sourcestone: Large Bricks Slab"
+  },
+  "ars_nouveau:smooth_sourcestone_large_bricks_stairs": {
+   "kind": "block",
+   "name": "Smooth Sourcestone: Large Bricks Stairs"
+  },
+  "ars_nouveau:smooth_sourcestone_mosaic": {
+   "kind": "block",
+   "name": "Smooth Sourcestone: Mosaic"
+  },
+  "ars_nouveau:smooth_sourcestone_mosaic_slab": {
+   "kind": "block",
+   "name": "Smooth Sourcestone: Mosaic Slab"
+  },
+  "ars_nouveau:smooth_sourcestone_mosaic_stairs": {
+   "kind": "block",
+   "name": "Smooth Sourcestone: Mosaic Stairs"
+  },
+  "ars_nouveau:smooth_sourcestone_slab": {
+   "kind": "block",
+   "name": "Smooth Sourcestone Slab"
+  },
+  "ars_nouveau:smooth_sourcestone_small_bricks": {
+   "kind": "block",
+   "name": "Smooth Sourcestone: Small Bricks"
+  },
+  "ars_nouveau:smooth_sourcestone_small_bricks_slab": {
+   "kind": "block",
+   "name": "Smooth Sourcestone: Small Bricks Slab"
+  },
+  "ars_nouveau:smooth_sourcestone_small_bricks_stairs": {
+   "kind": "block",
+   "name": "Smooth Sourcestone: Small Bricks Stairs"
+  },
+  "ars_nouveau:smooth_sourcestone_stairs": {
+   "kind": "block",
+   "name": "Smooth Sourcestone Stairs"
+  },
+  "ars_nouveau:source_gem_block": {
+   "kind": "block",
+   "name": "Source Gem Block"
+  },
+  "ars_nouveau:source_jar": {
+   "kind": "block",
+   "name": "Source Jar"
+  },
+  "ars_nouveau:source_lamp": {
+   "kind": "block",
+   "name": "Source Gem Lamp"
+  },
+  "ars_nouveau:sourceberry_bush": {
+   "kind": "block",
+   "name": "Sourceberry"
+  },
+  "ars_nouveau:sourceberry_sack": {
+   "kind": "block",
+   "name": "Sourceberry Sack"
+  },
+  "ars_nouveau:sourcestone": {
+   "kind": "block",
+   "name": "Sourcestone"
+  },
+  "ars_nouveau:sourcestone_alternating": {
+   "kind": "block",
+   "name": "Sourcestone: Alternating"
+  },
+  "ars_nouveau:sourcestone_alternating_slab": {
+   "kind": "block",
+   "name": "Sourcestone: Alternating Slab"
+  },
+  "ars_nouveau:sourcestone_alternating_stairs": {
+   "kind": "block",
+   "name": "Sourcestone: Alternating Stairs"
+  },
+  "ars_nouveau:sourcestone_basketweave": {
+   "kind": "block",
+   "name": "Sourcestone: Basketweave"
+  },
+  "ars_nouveau:sourcestone_basketweave_slab": {
+   "kind": "block",
+   "name": "Sourcestone: Basketweave Slab"
+  },
+  "ars_nouveau:sourcestone_basketweave_stairs": {
+   "kind": "block",
+   "name": "Sourcestone: Basketweave Stairs"
+  },
+  "ars_nouveau:sourcestone_grate": {
+   "kind": "block",
+   "name": "Sourcestone Grate"
+  },
+  "ars_nouveau:sourcestone_large_bricks": {
+   "kind": "block",
+   "name": "Sourcestone: Large Bricks"
+  },
+  "ars_nouveau:sourcestone_large_bricks_slab": {
+   "kind": "block",
+   "name": "Sourcestone: Large Bricks Slab"
+  },
+  "ars_nouveau:sourcestone_large_bricks_stairs": {
+   "kind": "block",
+   "name": "Sourcestone: Large Bricks Stairs"
+  },
+  "ars_nouveau:sourcestone_mosaic": {
+   "kind": "block",
+   "name": "Sourcestone: Mosaic"
+  },
+  "ars_nouveau:sourcestone_mosaic_slab": {
+   "kind": "block",
+   "name": "Sourcestone: Mosaic Slab"
+  },
+  "ars_nouveau:sourcestone_mosaic_stairs": {
+   "kind": "block",
+   "name": "Sourcestone: Mosaic Stairs"
+  },
+  "ars_nouveau:sourcestone_sconce": {
+   "kind": "block",
+   "name": "Sourcestone Sconce"
+  },
+  "ars_nouveau:sourcestone_slab": {
+   "kind": "block",
+   "name": "Sourcestone Slab"
+  },
+  "ars_nouveau:sourcestone_small_bricks": {
+   "kind": "block",
+   "name": "Sourcestone: Small Bricks"
+  },
+  "ars_nouveau:sourcestone_small_bricks_slab": {
+   "kind": "block",
+   "name": "Sourcestone: Small Bricks Slab"
+  },
+  "ars_nouveau:sourcestone_small_bricks_stairs": {
+   "kind": "block",
+   "name": "Sourcestone: Small Bricks Stairs"
+  },
+  "ars_nouveau:sourcestone_stairs": {
+   "kind": "block",
+   "name": "Sourcestone Stairs"
+  },
+  "ars_nouveau:spell_prism": {
+   "kind": "block",
+   "name": "Spell Prism"
+  },
+  "ars_nouveau:spell_sensor": {
+   "kind": "block",
+   "name": "Spell Sensor"
+  },
+  "ars_nouveau:spell_turret": {
+   "kind": "block",
+   "name": "Enchanted Spell Turret"
+  },
+  "ars_nouveau:storage_lectern": {
+   "kind": "block",
+   "name": "Storage Lectern"
+  },
+  "ars_nouveau:stripped_blue_archwood_log": {
+   "kind": "block",
+   "name": "Stripped Cascading Archwood Log"
+  },
+  "ars_nouveau:stripped_blue_archwood_wood": {
+   "kind": "block",
+   "name": "Stripped Cascading Archwood Wood"
+  },
+  "ars_nouveau:stripped_green_archwood_log": {
+   "kind": "block",
+   "name": "Stripped Flourishing Archwood Log"
+  },
+  "ars_nouveau:stripped_green_archwood_wood": {
+   "kind": "block",
+   "name": "Stripped Flourishing Archwood Wood"
+  },
+  "ars_nouveau:stripped_purple_archwood_log": {
+   "kind": "block",
+   "name": "Stripped Vexing Archwood Log"
+  },
+  "ars_nouveau:stripped_purple_archwood_wood": {
+   "kind": "block",
+   "name": "Stripped Vexing Archwood Wood"
+  },
+  "ars_nouveau:stripped_red_archwood_log": {
+   "kind": "block",
+   "name": "Stripped Blazing Archwood Log"
+  },
+  "ars_nouveau:stripped_red_archwood_wood": {
+   "kind": "block",
+   "name": "Stripped Blazing Archwood Wood"
+  },
+  "ars_nouveau:temporary_light_block": {
+   "kind": "block",
+   "name": "Temporary Magelight"
+  },
+  "ars_nouveau:timer_spell_turret": {
+   "kind": "block",
+   "name": "Timer Spell Turret"
+  },
+  "ars_nouveau:vitalic_sourcelink": {
+   "kind": "block",
+   "name": "Vitalic Sourcelink"
+  },
+  "ars_nouveau:void_prism": {
+   "kind": "block",
+   "name": "Void Prism"
+  },
+  "ars_nouveau:volcanic_sourcelink": {
+   "kind": "block",
+   "name": "Volcanic Sourcelink"
+  },
+  "ars_nouveau:warding_stone": {
+   "kind": "block",
+   "name": "Warding Stone"
+  },
+  "ars_nouveau:whirlisprig_flower": {
+   "kind": "block",
+   "name": "Whirlisprig Blossom"
+  },
+  "ars_nouveau:wixie_cauldron": {
+   "kind": "block",
+   "name": "Wixie Cauldron"
+  },
+  "ars_nouveau:yellow_sbed": {
+   "kind": "block",
+   "name": "Yellow Magebloom Bed"
+  },
+  "ars_nouveau:ally_vex": {
+   "kind": "entity",
+   "name": "Summoned Vex"
+  },
+  "ars_nouveau:amethyst_golem": {
+   "kind": "entity",
+   "name": "Amethyst Golem"
+  },
+  "ars_nouveau:an_lightning": {
+   "kind": "entity",
+   "name": "Lightning"
+  },
+  "ars_nouveau:animated_block": {
+   "kind": "entity",
+   "name": "Animated Block"
+  },
+  "ars_nouveau:animated_head": {
+   "kind": "entity",
+   "name": "Animated Head"
+  },
+  "ars_nouveau:arcing_spell_proj": {
+   "kind": "entity",
+   "name": "Arc Spell Projectile"
+  },
+  "ars_nouveau:blazing_weald_walker": {
+   "kind": "entity",
+   "name": "Blazing Weald Walker"
+  },
+  "ars_nouveau:cascading_weald_walker": {
+   "kind": "entity",
+   "name": "Cascading Weald Walker"
+  },
+  "ars_nouveau:drygmy": {
+   "kind": "entity",
+   "name": "Drygmy"
+  },
+  "ars_nouveau:dummy": {
+   "kind": "entity",
+   "name": "Dummy"
+  },
+  "ars_nouveau:enchanted_falling_block": {
+   "kind": "entity",
+   "name": "Enchanted Falling Block"
+  },
+  "ars_nouveau:enchanted_head_block": {
+   "kind": "entity",
+   "name": "Enchanted Falling Block"
+  },
+  "ars_nouveau:enchanted_mage_block": {
+   "kind": "entity",
+   "name": "Enchanted Falling Block"
+  },
+  "ars_nouveau:familiar_amethyst_golem": {
+   "kind": "item",
+   "name": "Amethyst Golem"
+  },
+  "ars_nouveau:familiar_drygmy": {
+   "kind": "item",
+   "name": "Drygmy"
+  },
+  "ars_nouveau:familiar_jabberwog": {
+   "kind": "entity",
+   "name": "Familiar Jabberwog"
+  },
+  "ars_nouveau:familiar_starbuncle": {
+   "kind": "item",
+   "name": "Starbuncle"
+  },
+  "ars_nouveau:familiar_whirlisprig": {
+   "kind": "item",
+   "name": "Whirlisprig"
+  },
+  "ars_nouveau:familiar_wixie": {
+   "kind": "item",
+   "name": "Wixie"
+  },
+  "ars_nouveau:fangs": {
+   "kind": "entity",
+   "name": "Fangs"
+  },
+  "ars_nouveau:flourishing_weald_walker": {
+   "kind": "entity",
+   "name": "Flourishing Weald Walker"
+  },
+  "ars_nouveau:flying_item": {
+   "kind": "entity",
+   "name": "Flying Item"
+  },
+  "ars_nouveau:follow_proj": {
+   "kind": "entity",
+   "name": "Projectile"
+  },
+  "ars_nouveau:gift_starby": {
+   "kind": "entity",
+   "name": "Starbuncle"
+  },
+  "ars_nouveau:homing_spell_proj": {
+   "kind": "entity",
+   "name": "Homing Spell Projectile"
+  },
+  "ars_nouveau:lily": {
+   "kind": "entity",
+   "name": "Lily"
+  },
+  "ars_nouveau:linger": {
+   "kind": "entity",
+   "name": "Linger"
+  },
+  "ars_nouveau:orbit": {
+   "kind": "entity",
+   "name": "Orbit"
+  },
+  "ars_nouveau:ritual": {
+   "kind": "entity",
+   "name": "Ritual"
+  },
+  "ars_nouveau:scryer_camera": {
+   "kind": "entity",
+   "name": "Scryer Camera"
+  },
+  "ars_nouveau:spell_arrow": {
+   "kind": "entity",
+   "name": "Spell Arrow"
+  },
+  "ars_nouveau:spell_proj": {
+   "kind": "entity",
+   "name": "Spell Projectile"
+  },
+  "ars_nouveau:spike": {
+   "kind": "entity",
+   "name": "Chimera Spike"
+  },
+  "ars_nouveau:starbuncle": {
+   "kind": "entity",
+   "name": "Starbuncle"
+  },
+  "ars_nouveau:summon_horse": {
+   "kind": "entity",
+   "name": "Summoned Horse"
+  },
+  "ars_nouveau:summon_skeleton": {
+   "kind": "entity",
+   "name": "Summoned Skeleton"
+  },
+  "ars_nouveau:summon_wolf": {
+   "kind": "entity",
+   "name": "Summoned Wolf"
+  },
+  "ars_nouveau:vexing_weald_walker": {
+   "kind": "entity",
+   "name": "Vexing Weald Walker"
+  },
+  "ars_nouveau:whirlisprig": {
+   "kind": "entity",
+   "name": "Whirlisprig"
+  },
+  "ars_nouveau:wilden_boss": {
+   "kind": "entity",
+   "name": "Wilden Chimera"
+  },
+  "ars_nouveau:wilden_guardian": {
+   "kind": "entity",
+   "name": "Wilden Defender"
+  },
+  "ars_nouveau:wilden_hunter": {
+   "kind": "entity",
+   "name": "Wilden Hunter"
+  },
+  "ars_nouveau:wilden_stalker": {
+   "kind": "entity",
+   "name": "Wilden Stalker"
+  },
+  "ars_nouveau:wixie": {
+   "kind": "entity",
+   "name": "Wixie"
+  },
+  "minecraft:villager.ars_nouveau.shady_wizard": {
+   "kind": "entity",
+   "name": "Shady Wizard"
+  },
+  "minecraft:villager.shady_wizard": {
+   "kind": "entity",
+   "name": "Shady Wizard"
+  },
+  "ars_nouveau:abjuration_essence": {
+   "kind": "item",
+   "name": "Abjuration Essence"
+  },
+  "ars_nouveau:air_essence": {
+   "kind": "item",
+   "name": "Air Essence"
+  },
+  "ars_nouveau:allow_scroll": {
+   "kind": "item",
+   "name": "Item Scroll: Allow"
+  },
+  "ars_nouveau:amethyst_golem_charm": {
+   "kind": "item",
+   "name": "Amethyst Golem Charm"
+  },
+  "ars_nouveau:amplify_arrow": {
+   "kind": "item",
+   "name": "Augment Arrow: Amplify"
+  },
+  "ars_nouveau:amulet_of_mana_boost": {
+   "kind": "item",
+   "name": "Amulet of Mana Boost"
+  },
+  "ars_nouveau:amulet_of_mana_regen": {
+   "kind": "item",
+   "name": "Amulet of Mana Regen"
+  },
+  "ars_nouveau:annotated_codex": {
+   "kind": "item",
+   "name": "Annotated Codex"
+  },
+  "ars_nouveau:arcanist_boots": {
+   "kind": "item",
+   "name": "Arcanist's Treads"
+  },
+  "ars_nouveau:arcanist_hood": {
+   "kind": "item",
+   "name": "Arcanist's Hat"
+  },
+  "ars_nouveau:arcanist_leggings": {
+   "kind": "item",
+   "name": "Arcanist's Pants"
+  },
+  "ars_nouveau:arcanist_robes": {
+   "kind": "item",
+   "name": "Arcanist's Robes"
+  },
+  "ars_nouveau:battlemage_boots": {
+   "kind": "item",
+   "name": "Battlemage's Boots"
+  },
+  "ars_nouveau:battlemage_hood": {
+   "kind": "item",
+   "name": "Battlemage's Hood"
+  },
+  "ars_nouveau:battlemage_leggings": {
+   "kind": "item",
+   "name": "Battlemage's Legguards"
+  },
+  "ars_nouveau:battlemage_robes": {
+   "kind": "item",
+   "name": "Battlemage's Gambeson"
+  },
+  "ars_nouveau:belt_of_levitation": {
+   "kind": "item",
+   "name": "Belt of Levitation"
+  },
+  "ars_nouveau:belt_of_unstable_gifts": {
+   "kind": "item",
+   "name": "Belt of Unstable Gifts"
+  },
+  "ars_nouveau:blank_glyph": {
+   "kind": "item",
+   "name": "Blank Glyph"
+  },
+  "ars_nouveau:blank_parchment": {
+   "kind": "item",
+   "name": "Blank Parchment"
+  },
+  "ars_nouveau:blank_thread": {
+   "kind": "item",
+   "name": "Blank Thread"
+  },
+  "ars_nouveau:blaze_fiber": {
+   "kind": "item",
+   "name": "Blaze Fiber"
+  },
+  "ars_nouveau:caster_tome": {
+   "kind": "item",
+   "name": "Caster Tome"
+  },
+  "ars_nouveau:conjuration_essence": {
+   "kind": "item",
+   "name": "Conjuration Essence"
+  },
+  "ars_nouveau:debug": {
+   "kind": "item",
+   "name": "Ars Nouveau Debugger"
+  },
+  "ars_nouveau:deny_scroll": {
+   "kind": "item",
+   "name": "Item Scroll: Deny"
+  },
+  "ars_nouveau:dominion_wand": {
+   "kind": "item",
+   "name": "Dominion Wand"
+  },
+  "ars_nouveau:dominion_wand.strict": {
+   "kind": "item",
+   "name": "Dominion Wand (Strict Mode)"
+  },
+  "ars_nouveau:dowsing_rod": {
+   "kind": "item",
+   "name": "Dowsing Rod"
+  },
+  "ars_nouveau:drygmy_charm": {
+   "kind": "item",
+   "name": "Drygmy Charm"
+  },
+  "ars_nouveau:drygmy_se": {
+   "kind": "item",
+   "name": "Drygmy Spawn Egg"
+  },
+  "ars_nouveau:drygmy_shard": {
+   "kind": "item",
+   "name": "Drygmy Token"
+  },
+  "ars_nouveau:dull_trinket": {
+   "kind": "item",
+   "name": "Dull Trinket"
+  },
+  "ars_nouveau:earth_essence": {
+   "kind": "item",
+   "name": "Earth Essence"
+  },
+  "ars_nouveau:enchanters_eye": {
+   "kind": "item",
+   "name": "Enchanter's Eye"
+  },
+  "ars_nouveau:enchanters_mirror": {
+   "kind": "item",
+   "name": "Enchanter's Mirror"
+  },
+  "ars_nouveau:enchanters_shield": {
+   "kind": "item",
+   "name": "Enchanter's Shield"
+  },
+  "ars_nouveau:enchanters_sword": {
+   "kind": "item",
+   "name": "Enchanter's Sword"
+  },
+  "ars_nouveau:end_fiber": {
+   "kind": "item",
+   "name": "End Fiber"
+  },
+  "ars_nouveau:experience_gem": {
+   "kind": "item",
+   "name": "Experience Gem"
+  },
+  "ars_nouveau:fire_essence": {
+   "kind": "item",
+   "name": "Fire Essence"
+  },
+  "ars_nouveau:greater_discount_ring": {
+   "kind": "item",
+   "name": "Ring of Greater Discount"
+  },
+  "ars_nouveau:greater_experience_gem": {
+   "kind": "item",
+   "name": "Greater Experience Gem"
+  },
+  "ars_nouveau:jar_of_light": {
+   "kind": "item",
+   "name": "Jar of Light"
+  },
+  "ars_nouveau:jump_ring": {
+   "kind": "item",
+   "name": "Ring of Jumping"
+  },
+  "ars_nouveau:lesser_discount_ring": {
+   "kind": "item",
+   "name": "Ring of Lesser Discount"
+  },
+  "ars_nouveau:lingering_flask_cannon": {
+   "kind": "item",
+   "name": "Lingering Flask Cannon"
+  },
+  "ars_nouveau:magebloom": {
+   "kind": "item",
+   "name": "Magebloom"
+  },
+  "ars_nouveau:magebloom_fiber": {
+   "kind": "item",
+   "name": "Magebloom Fiber"
+  },
+  "ars_nouveau:magic_clay": {
+   "kind": "item",
+   "name": "Magic Clay"
+  },
+  "ars_nouveau:manipulation_essence": {
+   "kind": "item",
+   "name": "Manipulation Essence"
+  },
+  "ars_nouveau:marvelous_clay": {
+   "kind": "item",
+   "name": "Marvelous Clay"
+  },
+  "ars_nouveau:mimic_scroll": {
+   "kind": "item",
+   "name": "Mimic Scroll"
+  },
+  "ars_nouveau:mundane_belt": {
+   "kind": "item",
+   "name": "Mundane Belt"
+  },
+  "ars_nouveau:music_disc_aria_biblio": {
+   "kind": "item",
+   "name": "Music Disc"
+  },
+  "ars_nouveau:music_disc_firel_the_wild_hunt": {
+   "kind": "item",
+   "name": "Music Disc"
+  },
+  "ars_nouveau:mythical_clay": {
+   "kind": "item",
+   "name": "Mythical Clay"
+  },
+  "ars_nouveau:pierce_arrow": {
+   "kind": "item",
+   "name": "Augment Arrow: Pierce"
+  },
+  "ars_nouveau:ring_of_amplify": {
+   "kind": "item",
+   "name": "Ring of Amplify"
+  },
+  "ars_nouveau:ring_of_greater_discount": {
+   "kind": "item",
+   "name": "Ring of Greater Discount"
+  },
+  "ars_nouveau:ring_of_lesser_discount": {
+   "kind": "item",
+   "name": "Ring of Lesser Discount"
+  },
+  "ars_nouveau:ring_of_potential": {
+   "kind": "item",
+   "name": "Ring of Potential"
+  },
+  "ars_nouveau:ritual_animal_summon": {
+   "kind": "item",
+   "name": "Summon Animals"
+  },
+  "ars_nouveau:ritual_awakening": {
+   "kind": "item",
+   "name": "Awakening"
+  },
+  "ars_nouveau:ritual_binding": {
+   "kind": "item",
+   "name": "Binding"
+  },
+  "ars_nouveau:ritual_burrowing": {
+   "kind": "item",
+   "name": "Burrowing"
+  },
+  "ars_nouveau:ritual_challenge": {
+   "kind": "item",
+   "name": "Challenge"
+  },
+  "ars_nouveau:ritual_cloudshaping": {
+   "kind": "item",
+   "name": "Cloudshaping"
+  },
+  "ars_nouveau:ritual_conjure_island_desert": {
+   "kind": "item",
+   "name": "Conjure Island: Desert"
+  },
+  "ars_nouveau:ritual_conjure_island_plains": {
+   "kind": "item",
+   "name": "Conjure Island: Plains"
+  },
+  "ars_nouveau:ritual_containment": {
+   "kind": "item",
+   "name": "Containment"
+  },
+  "ars_nouveau:ritual_disintegration": {
+   "kind": "item",
+   "name": "Disintegration"
+  },
+  "ars_nouveau:ritual_fertility": {
+   "kind": "item",
+   "name": "Fertility"
+  },
+  "ars_nouveau:ritual_flight": {
+   "kind": "item",
+   "name": "Flight"
+  },
+  "ars_nouveau:ritual_flowering": {
+   "kind": "item",
+   "name": "Flowering"
+  },
+  "ars_nouveau:ritual_forestation": {
+   "kind": "item",
+   "name": "Forestation"
+  },
+  "ars_nouveau:ritual_gravity": {
+   "kind": "item",
+   "name": "Gravity"
+  },
+  "ars_nouveau:ritual_harvest": {
+   "kind": "item",
+   "name": "Harvest"
+  },
+  "ars_nouveau:ritual_moonfall": {
+   "kind": "item",
+   "name": "Moonfall"
+  },
+  "ars_nouveau:ritual_overgrowth": {
+   "kind": "item",
+   "name": "Overgrowth"
+  },
+  "ars_nouveau:ritual_restoration": {
+   "kind": "item",
+   "name": "Restoration"
+  },
+  "ars_nouveau:ritual_sanctuary": {
+   "kind": "item",
+   "name": "Sanctuary"
+  },
+  "ars_nouveau:ritual_scrying": {
+   "kind": "item",
+   "name": "Scrying"
+  },
+  "ars_nouveau:ritual_sunrise": {
+   "kind": "item",
+   "name": "Sunrise"
+  },
+  "ars_nouveau:ritual_warping": {
+   "kind": "item",
+   "name": "Warping"
+  },
+  "ars_nouveau:ritual_wilden_summon": {
+   "kind": "item",
+   "name": "Summon Wilden"
+  },
+  "ars_nouveau:runic_chalk": {
+   "kind": "item",
+   "name": "Runic Chalk"
+  },
+  "ars_nouveau:scryer_scroll": {
+   "kind": "item",
+   "name": "Scryer's Scroll"
+  },
+  "ars_nouveau:shapers_focus": {
+   "kind": "item",
+   "name": "Focus of Block Shaping"
+  },
+  "ars_nouveau:sorcerer_boots": {
+   "kind": "item",
+   "name": "Sorceror's Footpads"
+  },
+  "ars_nouveau:sorcerer_hood": {
+   "kind": "item",
+   "name": "Sorceror's Collar"
+  },
+  "ars_nouveau:sorcerer_leggings": {
+   "kind": "item",
+   "name": "Sorceror's Leggings"
+  },
+  "ars_nouveau:sorcerer_robes": {
+   "kind": "item",
+   "name": "Sorceror's Wrap"
+  },
+  "ars_nouveau:source_berry_pie": {
+   "kind": "item",
+   "name": "Source Berry Pie"
+  },
+  "ars_nouveau:source_berry_roll": {
+   "kind": "item",
+   "name": "Source Berry Roll"
+  },
+  "ars_nouveau:source_gem": {
+   "kind": "item",
+   "name": "Source Gem"
+  },
+  "ars_nouveau:spell_bow": {
+   "kind": "item",
+   "name": "Enchanter's Bow"
+  },
+  "ars_nouveau:spell_crossbow": {
+   "kind": "item",
+   "name": "Enchanter's Crossbow"
+  },
+  "ars_nouveau:spell_parchment": {
+   "kind": "item",
+   "name": "Spell Parchment"
+  },
+  "ars_nouveau:splash_flask_cannon": {
+   "kind": "item",
+   "name": "Splash Flask Cannon"
+  },
+  "ars_nouveau:split_arrow": {
+   "kind": "item",
+   "name": "Augment Arrow: Split"
+  },
+  "ars_nouveau:stable_warp_scroll": {
+   "kind": "item",
+   "name": "Stabilized Warp Scroll"
+  },
+  "ars_nouveau:starbuncle_charm": {
+   "kind": "item",
+   "name": "Starbuncle Charm"
+  },
+  "ars_nouveau:starbuncle_se": {
+   "kind": "item",
+   "name": "Starbuncle Spawn Egg"
+  },
+  "ars_nouveau:starbuncle_shades": {
+   "kind": "item",
+   "name": "Starbuncle Shades"
+  },
+  "ars_nouveau:starbuncle_shards": {
+   "kind": "item",
+   "name": "Starbuncle Token"
+  },
+  "ars_nouveau:starby_gift": {
+   "kind": "item",
+   "name": "Starbuncle Gift"
+  },
+  "ars_nouveau:summon_focus": {
+   "kind": "item",
+   "name": "Focus of Summoning"
+  },
+  "ars_nouveau:thread_amethyst_golem": {
+   "kind": "item",
+   "name": "The Amethyst Golem"
+  },
+  "ars_nouveau:thread_chilling": {
+   "kind": "item",
+   "name": "Chilling"
+  },
+  "ars_nouveau:thread_depths": {
+   "kind": "item",
+   "name": "Depths"
+  },
+  "ars_nouveau:thread_drygmy": {
+   "kind": "item",
+   "name": "The Drygmy"
+  },
+  "ars_nouveau:thread_feather": {
+   "kind": "item",
+   "name": "Feather"
+  },
+  "ars_nouveau:thread_gliding": {
+   "kind": "item",
+   "name": "Gliding"
+  },
+  "ars_nouveau:thread_heights": {
+   "kind": "item",
+   "name": "Heights"
+  },
+  "ars_nouveau:thread_high_step": {
+   "kind": "item",
+   "name": "High Step"
+  },
+  "ars_nouveau:thread_immolation": {
+   "kind": "item",
+   "name": "Immolation"
+  },
+  "ars_nouveau:thread_kindling": {
+   "kind": "item",
+   "name": "Kindling"
+  },
+  "ars_nouveau:thread_life_drain": {
+   "kind": "item",
+   "name": "Life Drain"
+  },
+  "ars_nouveau:thread_magic_capacity": {
+   "kind": "item",
+   "name": "Magic Capacity"
+  },
+  "ars_nouveau:thread_repairing": {
+   "kind": "item",
+   "name": "Repairing"
+  },
+  "ars_nouveau:thread_spellpower": {
+   "kind": "item",
+   "name": "Spell Power"
+  },
+  "ars_nouveau:thread_starbuncle": {
+   "kind": "item",
+   "name": "The Starbuncle"
+  },
+  "ars_nouveau:thread_undying": {
+   "kind": "item",
+   "name": "Undying"
+  },
+  "ars_nouveau:thread_warding": {
+   "kind": "item",
+   "name": "Warding"
+  },
+  "ars_nouveau:thread_whirlisprig": {
+   "kind": "item",
+   "name": "The Whirlisprig"
+  },
+  "ars_nouveau:thread_wixie": {
+   "kind": "item",
+   "name": "The Wixie"
+  },
+  "ars_nouveau:void_jar": {
+   "kind": "item",
+   "name": "Jar of Voiding"
+  },
+  "ars_nouveau:wand": {
+   "kind": "item",
+   "name": "Enchanter's Wand"
+  },
+  "ars_nouveau:warp_scroll": {
+   "kind": "item",
+   "name": "Warp Scroll"
+  },
+  "ars_nouveau:water_essence": {
+   "kind": "item",
+   "name": "Water Essence"
+  },
+  "ars_nouveau:whirlisprig_charm": {
+   "kind": "item",
+   "name": "Whirlisprig Charm"
+  },
+  "ars_nouveau:whirlisprig_se": {
+   "kind": "item",
+   "name": "Whirlisprig Spawn Egg"
+  },
+  "ars_nouveau:whirlisprig_shards": {
+   "kind": "item",
+   "name": "Whirlisprig Token"
+  },
+  "ars_nouveau:wilden_guardian_se": {
+   "kind": "item",
+   "name": "Wilden Guardian Spawn Egg"
+  },
+  "ars_nouveau:wilden_horn": {
+   "kind": "item",
+   "name": "Wilden Horn"
+  },
+  "ars_nouveau:wilden_hunter_se": {
+   "kind": "item",
+   "name": "Wilden Hunter Spawn Egg"
+  },
+  "ars_nouveau:wilden_spike": {
+   "kind": "item",
+   "name": "Wilden Spike"
+  },
+  "ars_nouveau:wilden_stalker_se": {
+   "kind": "item",
+   "name": "Wilden Stalker Spawn Egg"
+  },
+  "ars_nouveau:wilden_tribute": {
+   "kind": "item",
+   "name": "Wilden Tribute"
+  },
+  "ars_nouveau:wilden_wing": {
+   "kind": "item",
+   "name": "Wilden Wing"
+  },
+  "ars_nouveau:wixie_charm": {
+   "kind": "item",
+   "name": "Wixie Charm"
+  },
+  "ars_nouveau:wixie_hat": {
+   "kind": "item",
+   "name": "Wixie Hat"
+  },
+  "ars_nouveau:wixie_shards": {
+   "kind": "item",
+   "name": "Wixie Token"
+  }
+ }
+}

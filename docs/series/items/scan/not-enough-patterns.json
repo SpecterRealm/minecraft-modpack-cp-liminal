@@ -1,0 +1,240 @@
+{
+ "repo": "LegendaryRylex/not-enough-patterns",
+ "ref": "v0.5.1+1.21.1",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "nep"
+ ],
+ "item_count": 26,
+ "compat": [
+  {
+   "id": "advanced_ae",
+   "slug": "advancedae",
+   "evidence": {
+    "compat-import": 6,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "ae2helpers",
+   "slug": "ae2helpers",
+   "evidence": {
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "apothic_enchanting",
+   "slug": "apothic-enchanting",
+   "evidence": {
+    "compat-import": 9,
+    "dependency": 1,
+    "isLoaded": 2
+   }
+  },
+  {
+   "id": "appeng",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "compat-import": 101
+   }
+  },
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "compat-import": 2,
+    "data-ref": 12,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "brandonscore",
+   "slug": "brandons-core",
+   "evidence": {
+    "compat-import": 7
+   }
+  },
+  {
+   "id": "create",
+   "slug": "create",
+   "evidence": {
+    "compat-import": 36,
+    "data-ref": 11,
+    "dependency": 1,
+    "isLoaded": 3
+   }
+  },
+  {
+   "id": "draconicevolution",
+   "slug": "draconic-evolution",
+   "evidence": {
+    "compat-import": 15,
+    "data-ref": 5,
+    "dependency": 1,
+    "isLoaded": 2
+   }
+  },
+  {
+   "id": "emi",
+   "slug": "emi",
+   "evidence": {
+    "compat-import": 1,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "guideme",
+   "slug": "guideme",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "jade",
+   "slug": "jade",
+   "evidence": {
+    "compat-import": 1,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 9,
+    "dependency": 1,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "megacells",
+   "slug": "mega-cells",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "mysticalagriculture",
+   "slug": "mystical-agriculture",
+   "evidence": {
+    "compat-import": 11,
+    "data-ref": 3,
+    "dependency": 1,
+    "isLoaded": 2
+   }
+  },
+  {
+   "id": "placebo",
+   "slug": "placebo",
+   "evidence": {
+    "compat-import": 1
+   }
+  }
+ ],
+ "items": {
+  "nep:mechanical_crafting_pattern": {
+   "kind": "item",
+   "name": "Mechanical Crafting Pattern"
+  },
+  "nep:andesite_crafting_pattern": {
+   "kind": "item",
+   "name": "Andesite Crafting Pattern"
+  },
+  "nep:sequenced_assembly_pattern": {
+   "kind": "item",
+   "name": "Sequenced Assembly Pattern"
+  },
+  "nep:fusion_crafting_pattern": {
+   "kind": "item",
+   "name": "Fusion Crafting Pattern"
+  },
+  "nep:empowering_pattern": {
+   "kind": "item",
+   "name": "Empowering Pattern"
+  },
+  "nep:atomic_reconstruction_pattern": {
+   "kind": "item",
+   "name": "Atomic Reconstruction Pattern"
+  },
+  "nep:import_card": {
+   "kind": "item",
+   "name": "Import Card"
+  },
+  "nep:sequenced_assembly_controller": {
+   "kind": "block",
+   "name": "Sequenced Assembly Controller"
+  },
+  "nep:sequenced_assembly_linker": {
+   "kind": "item",
+   "name": "Sequenced Assembly Linker"
+  },
+  "nep:machine_hub": {
+   "kind": "block",
+   "name": "Machine Hub"
+  },
+  "nep:hub_linker": {
+   "kind": "item",
+   "name": "Hub Linker"
+  },
+  "nep:sequenced_assembly_matrix": {
+   "kind": "block",
+   "name": "Assembly Matrix"
+  },
+  "nep:matrix_circuitry": {
+   "kind": "item",
+   "name": "Matrix Circuitry"
+  },
+  "nep:empowered_matrix_circuitry": {
+   "kind": "item",
+   "name": "Empowered Matrix Circuitry"
+  },
+  "nep:hardened_obsidian_plate": {
+   "kind": "item",
+   "name": "Hardened Obsidian Plate"
+  },
+  "nep:incomplete_hardened_obsidian_plate": {
+   "kind": "item",
+   "name": "Incomplete Hardened Obsidian Plate"
+  },
+  "nep:incomplete_sequenced_assembly_matrix": {
+   "kind": "item",
+   "name": "Incomplete Assembly Matrix"
+  },
+  "nep:fusion_matrix": {
+   "kind": "block",
+   "name": "Injector Fusion Matrix"
+  },
+  "nep:atomic_empowering_matrix": {
+   "kind": "block",
+   "name": "Atomic Empowering Matrix"
+  },
+  "nep:miniaturization_pattern": {
+   "kind": "item",
+   "name": "Miniaturization Pattern"
+  },
+  "nep:miniaturization_matrix": {
+   "kind": "block",
+   "name": "Miniaturization Matrix"
+  },
+  "nep:miniaturization_controller": {
+   "kind": "block",
+   "name": "Miniaturization Controller"
+  },
+  "nep:infusion_pattern": {
+   "kind": "item",
+   "name": "Infusion Pattern"
+  },
+  "nep:awakening_pattern": {
+   "kind": "item",
+   "name": "Awakening Pattern"
+  },
+  "nep:enchanting_pattern": {
+   "kind": "item",
+   "name": "Enchanting Pattern"
+  },
+  "nep:infused_awakening_matrix": {
+   "kind": "block",
+   "name": "Infused Awakening Matrix"
+  }
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "repo": "TheCBProject/Translocators",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "translocators"
+ ],
+ "item_count": 3,
+ "compat": [
+  {
+   "id": "cb_multipart",
+   "slug": "cb-multipart",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "codechickenlib",
+   "slug": "codechicken-lib",
+   "evidence": {
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "translocators:item_translocator": {
+   "kind": "item",
+   "name": "Item Translocator"
+  },
+  "translocators:fluid_translocator": {
+   "kind": "item",
+   "name": "Liquid Translocator"
+  },
+  "translocators:diamond_nugget": {
+   "kind": "item",
+   "name": "Diamond Nugget"
+  }
+ }
+}

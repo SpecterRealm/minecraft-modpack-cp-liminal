@@ -1,0 +1,26 @@
+{
+ "repo": "klikli-dev/theurgy-kubejs",
+ "ref": "release/v1.21.1-1.6.0",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "${mod_id}"
+ ],
+ "item_count": 0,
+ "compat": [
+  {
+   "id": "kubejs",
+   "slug": "kubejs",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "theurgy",
+   "slug": "theurgy",
+   "evidence": {
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {}
+}

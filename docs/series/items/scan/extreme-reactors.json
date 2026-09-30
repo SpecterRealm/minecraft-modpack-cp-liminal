@@ -1,0 +1,635 @@
+{
+ "repo": "ZeroNoRyouki/ExtremeReactors2",
+ "ref": "1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "bigreactors",
+  "bigreactorstest"
+ ],
+ "item_count": 146,
+ "compat": [
+  {
+   "id": "extremereactors",
+   "slug": "extreme-reactors",
+   "evidence": {
+    "compat-import": 17
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 16
+   }
+  },
+  {
+   "id": "patchouli",
+   "slug": "patchouli",
+   "evidence": {
+    "data-ref": 3
+   }
+  },
+  {
+   "id": "powah",
+   "slug": "powah",
+   "evidence": {
+    "data-ref": 1
+   }
+  },
+  {
+   "id": "zerocore",
+   "slug": "zerocore",
+   "evidence": {
+    "compat-import": 14,
+    "data-ref": 2,
+    "dependency": 2
+   }
+  }
+ ],
+ "items": {
+  "bigreactors:yellorium_ingot": {
+   "kind": "item",
+   "name": "Yellorium Ingot"
+  },
+  "bigreactors:cyanite_ingot": {
+   "kind": "item",
+   "name": "Cyanite Ingot"
+  },
+  "bigreactors:blutonium_ingot": {
+   "kind": "item",
+   "name": "Blutonium Ingot"
+  },
+  "bigreactors:magentite_ingot": {
+   "kind": "item",
+   "name": "Magentite Ingot"
+  },
+  "bigreactors:graphite_ingot": {
+   "kind": "item",
+   "name": "Graphite Bar"
+  },
+  "bigreactors:ludicrite_ingot": {
+   "kind": "item",
+   "name": "Ludicrite Ingot"
+  },
+  "bigreactors:ridiculite_ingot": {
+   "kind": "item",
+   "name": "Ridiculite Ingot"
+  },
+  "bigreactors:inanite_ingot": {
+   "kind": "item",
+   "name": "Inanite Ingot"
+  },
+  "bigreactors:insanite_ingot": {
+   "kind": "item",
+   "name": "Insanite Ingot"
+  },
+  "bigreactors:yellorium_nugget": {
+   "kind": "item",
+   "name": "Yellorium Nugget"
+  },
+  "bigreactors:blutonium_nugget": {
+   "kind": "item",
+   "name": "Blutonium Nugget"
+  },
+  "bigreactors:yellorium_dust": {
+   "kind": "item",
+   "name": "Yellorium Dust"
+  },
+  "bigreactors:cyanite_dust": {
+   "kind": "item",
+   "name": "Cyanite Dust"
+  },
+  "bigreactors:blutonium_dust": {
+   "kind": "item",
+   "name": "Blutonium Dust"
+  },
+  "bigreactors:magentite_dust": {
+   "kind": "item",
+   "name": "Magentite Dust"
+  },
+  "bigreactors:graphite_dust": {
+   "kind": "item",
+   "name": "Graphite Dust"
+  },
+  "bigreactors:ludicrite_dust": {
+   "kind": "item",
+   "name": "Ludicrite Dust"
+  },
+  "bigreactors:ridiculite_dust": {
+   "kind": "item",
+   "name": "Ridiculite Dust"
+  },
+  "bigreactors:inanite_dust": {
+   "kind": "item",
+   "name": "Inanite Dust"
+  },
+  "bigreactors:insanite_dust": {
+   "kind": "item",
+   "name": "Insanite Dust"
+  },
+  "bigreactors:anglesite_crystal": {
+   "kind": "item",
+   "name": "Anglesite (PbSO4)"
+  },
+  "bigreactors:benitoite_crystal": {
+   "kind": "item",
+   "name": "Benitoite (BaTiSi3O9)"
+  },
+  "bigreactors:wrench": {
+   "kind": "item",
+   "name": "Extreme Wrench"
+  },
+  "bigreactors:steam_bucket": {
+   "kind": "item",
+   "name": "Steam Bucket"
+  },
+  "bigreactors:yellorium_bucket": {
+   "kind": "item",
+   "name": "Yellorium Bucket"
+  },
+  "bigreactors:cyanite_bucket": {
+   "kind": "item",
+   "name": "Cyanite Bucket"
+  },
+  "bigreactors:blutonium_bucket": {
+   "kind": "item",
+   "name": "Blutonium Bucket"
+  },
+  "bigreactors:magentite_bucket": {
+   "kind": "item",
+   "name": "Magentite Bucket"
+  },
+  "bigreactors:verderium_bucket": {
+   "kind": "item",
+   "name": "Verderium Bucket"
+  },
+  "bigreactors:rossinite_bucket": {
+   "kind": "item",
+   "name": "Rossinite Bucket"
+  },
+  "bigreactors:cryomisi_bucket": {
+   "kind": "item",
+   "name": "Cryomisi Bucket"
+  },
+  "bigreactors:tangerium_bucket": {
+   "kind": "item",
+   "name": "Tangerium Bucket"
+  },
+  "bigreactors:redfrigium_bucket": {
+   "kind": "item",
+   "name": "Redfrigium Bucket"
+  },
+  "bigreactors:raw_yellorium": {
+   "kind": "item",
+   "name": "Raw Yellorium"
+  },
+  "bigreactors:energycore": {
+   "kind": "item",
+   "name": "Energy Core"
+  },
+  "bigreactors:water": {
+   "kind": "fluid",
+   "name": "Water"
+  },
+  "bigreactors:steam": {
+   "kind": "fluid",
+   "name": "Steam"
+  },
+  "bigreactors:steam_flowing": {
+   "kind": "fluid",
+   "name": "Steam"
+  },
+  "bigreactors:yellorium": {
+   "kind": "fluid",
+   "name": "Yellorium"
+  },
+  "bigreactors:yellorium_flowing": {
+   "kind": "fluid",
+   "name": "Yellorium"
+  },
+  "bigreactors:cyanite": {
+   "kind": "fluid",
+   "name": "Cyanite"
+  },
+  "bigreactors:cyanite_flowing": {
+   "kind": "fluid",
+   "name": "Cyanite"
+  },
+  "bigreactors:blutonium": {
+   "kind": "fluid",
+   "name": "Blutonium"
+  },
+  "bigreactors:blutonium_flowing": {
+   "kind": "fluid",
+   "name": "Blutonium"
+  },
+  "bigreactors:magentite": {
+   "kind": "fluid",
+   "name": "Magentite"
+  },
+  "bigreactors:magentite_flowing": {
+   "kind": "fluid",
+   "name": "Magentite"
+  },
+  "bigreactors:verderium": {
+   "kind": "fluid",
+   "name": "Verderium"
+  },
+  "bigreactors:verderium_flowing": {
+   "kind": "fluid",
+   "name": "Verderium"
+  },
+  "bigreactors:rossinite": {
+   "kind": "fluid",
+   "name": "Rossinite"
+  },
+  "bigreactors:rossinite_flowing": {
+   "kind": "fluid",
+   "name": "Rossinite"
+  },
+  "bigreactors:cryomisi": {
+   "kind": "fluid",
+   "name": "Cryomisi"
+  },
+  "bigreactors:cryomisi_flowing": {
+   "kind": "fluid",
+   "name": "Cryomisi"
+  },
+  "bigreactors:tangerium": {
+   "kind": "fluid",
+   "name": "Tangerium"
+  },
+  "bigreactors:tangerium_flowing": {
+   "kind": "fluid",
+   "name": "Tangerium"
+  },
+  "bigreactors:redfrigium": {
+   "kind": "fluid",
+   "name": "Redfrigium"
+  },
+  "bigreactors:redfrigium_flowing": {
+   "kind": "fluid",
+   "name": "Redfrigium"
+  },
+  "bigreactors:yellorium_block": {
+   "kind": "block",
+   "name": "Yellorium Block"
+  },
+  "bigreactors:raw_yellorium_block": {
+   "kind": "block",
+   "name": "Raw Yellorium Block"
+  },
+  "bigreactors:cyanite_block": {
+   "kind": "block",
+   "name": "Cyanite Block"
+  },
+  "bigreactors:blutonium_block": {
+   "kind": "block",
+   "name": "Blutonium Block"
+  },
+  "bigreactors:magentite_block": {
+   "kind": "block",
+   "name": "Magentite Block"
+  },
+  "bigreactors:graphite_block": {
+   "kind": "block",
+   "name": "Graphite Block"
+  },
+  "bigreactors:ludicrite_block": {
+   "kind": "block",
+   "name": "Ludicrite Block"
+  },
+  "bigreactors:ridiculite_block": {
+   "kind": "block",
+   "name": "Ridiculite Block"
+  },
+  "bigreactors:inanite_block": {
+   "kind": "block",
+   "name": "Inanite Block"
+  },
+  "bigreactors:insanite_block": {
+   "kind": "block",
+   "name": "Insanite Block"
+  },
+  "bigreactors:yellorite_ore": {
+   "kind": "block",
+   "name": "Yellorite Ore"
+  },
+  "bigreactors:deepslate_yellorite_ore": {
+   "kind": "block",
+   "name": "Deepslate Yellorite Ore"
+  },
+  "bigreactors:anglesite_ore": {
+   "kind": "block",
+   "name": "Anglesite Ore"
+  },
+  "bigreactors:benitoite_ore": {
+   "kind": "block",
+   "name": "Benitoite Ore"
+  },
+  "bigreactors:basic_reactorglass": {
+   "kind": "block",
+   "name": "Reactor Glass (Basic)"
+  },
+  "bigreactors:basic_reactorcasing": {
+   "kind": "block",
+   "name": "Reactor Casing (Basic)"
+  },
+  "bigreactors:basic_reactorcontroller": {
+   "kind": "block",
+   "name": "Reactor Controller (Basic)"
+  },
+  "bigreactors:basic_reactorpowertapfe_active": {
+   "kind": "block",
+   "name": "Reactor Active Forge Energy Power Tap (Basic)"
+  },
+  "bigreactors:basic_reactorpowertapfe_passive": {
+   "kind": "block",
+   "name": "Reactor Passive Forge Energy Power Tap (Basic)"
+  },
+  "bigreactors:basic_reactorsolidaccessport": {
+   "kind": "block",
+   "name": "Reactor Solid Access Port (Basic)"
+  },
+  "bigreactors:basic_reactorcontrolrod": {
+   "kind": "block",
+   "name": "Reactor Control Rod (Basic)"
+  },
+  "bigreactors:basic_reactorredstoneport": {
+   "kind": "block",
+   "name": "Reactor Redstone Port (Basic)"
+  },
+  "bigreactors:basic_reactorfuelrod": {
+   "kind": "block",
+   "name": "Reactor Fuel Rod (Basic)"
+  },
+  "bigreactors:basic_reactorchargingportfe": {
+   "kind": "block",
+   "name": "Reactor Forge Energy Charging Port (Basic)"
+  },
+  "bigreactors:reinforced_reactorglass": {
+   "kind": "block",
+   "name": "Reactor Glass (Reinforced)"
+  },
+  "bigreactors:reinforced_reactorcasing": {
+   "kind": "block",
+   "name": "Reactor Casing (Reinforced)"
+  },
+  "bigreactors:reinforced_reactorcontroller": {
+   "kind": "block",
+   "name": "Reactor Controller (Reinforced)"
+  },
+  "bigreactors:reinforced_reactorpowertapfe_active": {
+   "kind": "block",
+   "name": "Reactor Active Forge Energy Power Tap (Reinforced)"
+  },
+  "bigreactors:reinforced_reactorpowertapfe_passive": {
+   "kind": "block",
+   "name": "Reactor Passive Forge Energy Power Tap (Reinforced)"
+  },
+  "bigreactors:reinforced_reactorsolidaccessport": {
+   "kind": "block",
+   "name": "Reactor Solid Access Port (Reinforced)"
+  },
+  "bigreactors:reinforced_reactorfluidaccessport": {
+   "kind": "block",
+   "name": "Reactor Fuel Injection Port (Reinforced)"
+  },
+  "bigreactors:reinforced_reactorcontrolrod": {
+   "kind": "block",
+   "name": "Reactor Control Rod (Reinforced)"
+  },
+  "bigreactors:reinforced_reactorcomputerport": {
+   "kind": "block",
+   "name": "Reactor Computer Port (Reinforced)"
+  },
+  "bigreactors:reinforced_reactorredstoneport": {
+   "kind": "block",
+   "name": "Reactor Redstone Port (Reinforced)"
+  },
+  "bigreactors:reinforced_reactorfuelrod": {
+   "kind": "block",
+   "name": "Reactor Fuel Rod (Reinforced)"
+  },
+  "bigreactors:reinforced_reactorcreativewatergenerator": {
+   "kind": "block",
+   "name": "Reactor Creative Water Generator (Reinforced)"
+  },
+  "bigreactors:reinforced_reactorfluidport_forge_active": {
+   "kind": "block",
+   "name": "Reactor Active Forge Fluid Port (Reinforced)"
+  },
+  "bigreactors:reinforced_reactorfluidport_forge_passive": {
+   "kind": "block",
+   "name": "Reactor Passive Forge Fluid Port (Reinforced)"
+  },
+  "bigreactors:reinforced_reactorfluidport_mekanism_passive": {
+   "kind": "block",
+   "name": "Reactor Passive Mekanism Fluid Port (Reinforced)"
+  },
+  "bigreactors:reinforced_reactorchargingportfe": {
+   "kind": "block",
+   "name": "Reactor Forge Energy Charging Port (Reinforced)"
+  },
+  "bigreactors:basic_turbineglass": {
+   "kind": "block",
+   "name": "Turbine Glass (Basic)"
+  },
+  "bigreactors:basic_turbinecasing": {
+   "kind": "block",
+   "name": "Turbine Housing (Basic)"
+  },
+  "bigreactors:basic_turbinecontroller": {
+   "kind": "block",
+   "name": "Turbine Controller (Basic)"
+  },
+  "bigreactors:basic_turbinerotorbearing": {
+   "kind": "block",
+   "name": "Turbine Rotor Bearing (Basic)"
+  },
+  "bigreactors:basic_turbinerotorshaft": {
+   "kind": "block",
+   "name": "Turbine Rotor Shaft (Basic)"
+  },
+  "bigreactors:basic_turbinerotorblade": {
+   "kind": "block",
+   "name": "Turbine Rotor Blade (Basic)"
+  },
+  "bigreactors:basic_turbinepowertapfe_active": {
+   "kind": "block",
+   "name": "Turbine Active Forge Energy Power Tap (Basic)"
+  },
+  "bigreactors:basic_turbinepowertapfe_passive": {
+   "kind": "block",
+   "name": "Turbine Passive Forge Energy Power Tap (Basic)"
+  },
+  "bigreactors:basic_turbinefluidport_forge_active": {
+   "kind": "block",
+   "name": "Turbine Active Forge Fluid Port (Basic)"
+  },
+  "bigreactors:basic_turbinefluidport_forge_passive": {
+   "kind": "block",
+   "name": "Turbine Passive Forge Fluid Port (Basic)"
+  },
+  "bigreactors:basic_turbineredstoneport": {
+   "kind": "block",
+   "name": "Turbine Redstone Port (Basic)"
+  },
+  "bigreactors:basic_turbinecreativesteamgenerator": {
+   "kind": "block",
+   "name": "Turbine Creative Steam Generator (Basic)"
+  },
+  "bigreactors:basic_turbinechargingportfe": {
+   "kind": "block",
+   "name": "Turbine Forge Energy Charging Port (Basic)"
+  },
+  "bigreactors:reinforced_turbineglass": {
+   "kind": "block",
+   "name": "Turbine Glass (Reinforced)"
+  },
+  "bigreactors:reinforced_turbinecasing": {
+   "kind": "block",
+   "name": "Turbine Housing (Reinforced)"
+  },
+  "bigreactors:reinforced_turbinecontroller": {
+   "kind": "block",
+   "name": "Turbine Controller (Reinforced)"
+  },
+  "bigreactors:reinforced_turbinerotorbearing": {
+   "kind": "block",
+   "name": "Turbine Rotor Bearing (Reinforced)"
+  },
+  "bigreactors:reinforced_turbinerotorshaft": {
+   "kind": "block",
+   "name": "Turbine Rotor Shaft (Reinforced)"
+  },
+  "bigreactors:reinforced_turbinerotorblade": {
+   "kind": "block",
+   "name": "Turbine Rotor Blade (Reinforced)"
+  },
+  "bigreactors:reinforced_turbinepowertapfe_active": {
+   "kind": "block",
+   "name": "Turbine Active Forge Energy Power Tap (Reinforced)"
+  },
+  "bigreactors:reinforced_turbinepowertapfe_passive": {
+   "kind": "block",
+   "name": "Turbine Passive Forge Energy Power Tap (Reinforced)"
+  },
+  "bigreactors:reinforced_turbinefluidport_forge_active": {
+   "kind": "block",
+   "name": "Turbine Active Forge Fluid Port (Reinforced)"
+  },
+  "bigreactors:reinforced_turbinefluidport_forge_passive": {
+   "kind": "block",
+   "name": "Turbine Passive Forge Fluid Port (Reinforced)"
+  },
+  "bigreactors:reinforced_turbineredstoneport": {
+   "kind": "block",
+   "name": "Turbine Redstone Port (Reinforced)"
+  },
+  "bigreactors:reinforced_turbinecomputerport": {
+   "kind": "block",
+   "name": "Turbine Computer Port (Reinforced)"
+  },
+  "bigreactors:reinforced_turbinecreativesteamgenerator": {
+   "kind": "block",
+   "name": "Turbine Creative Steam Generator (Reinforced)"
+  },
+  "bigreactors:reinforced_turbinechargingportfe": {
+   "kind": "block",
+   "name": "Turbine Forge Energy Charging Port (Reinforced)"
+  },
+  "bigreactors:reprocessorcasing": {
+   "kind": "block",
+   "name": "Reprocessor Casing"
+  },
+  "bigreactors:reprocessorglass": {
+   "kind": "block",
+   "name": "Reprocessor Glass"
+  },
+  "bigreactors:reprocessorcontroller": {
+   "kind": "block",
+   "name": "Reprocessor Controller"
+  },
+  "bigreactors:reprocessorwasteinjector": {
+   "kind": "block",
+   "name": "Reprocessor Waste Injector"
+  },
+  "bigreactors:reprocessorfluidinjector": {
+   "kind": "block",
+   "name": "Reprocessor Fluid Injector"
+  },
+  "bigreactors:reprocessoroutputport": {
+   "kind": "block",
+   "name": "Reprocessor Output Port"
+  },
+  "bigreactors:reprocessorpowerport": {
+   "kind": "block",
+   "name": "Reprocessor Power Port"
+  },
+  "bigreactors:reprocessorcollector": {
+   "kind": "block",
+   "name": "Reprocessor Collector"
+  },
+  "bigreactors:fluidizercasing": {
+   "kind": "block",
+   "name": "Fluidizer Casing"
+  },
+  "bigreactors:fluidizerglass": {
+   "kind": "block",
+   "name": "Fluidizer Glass"
+  },
+  "bigreactors:fluidizercontroller": {
+   "kind": "block",
+   "name": "Fluidizer Controller"
+  },
+  "bigreactors:fluidizersolidinjector": {
+   "kind": "block",
+   "name": "Fluidizer Solid Injector"
+  },
+  "bigreactors:fluidizerfluidinjector": {
+   "kind": "block",
+   "name": "Fluidizer Fluid Injector"
+  },
+  "bigreactors:fluidizeroutputport": {
+   "kind": "block",
+   "name": "Fluidizer Output Port"
+  },
+  "bigreactors:fluidizerpowerport": {
+   "kind": "block",
+   "name": "Fluidizer Power Port"
+  },
+  "bigreactors:energizercasing": {
+   "kind": "block",
+   "name": "Energizer Casing"
+  },
+  "bigreactors:energizercontroller": {
+   "kind": "block",
+   "name": "Energizer Controller"
+  },
+  "bigreactors:energizerstatus": {
+   "kind": "block",
+   "name": "Energizer Status Display"
+  },
+  "bigreactors:energizerchargingportfe": {
+   "kind": "block",
+   "name": "Energizer FE Charging Port"
+  },
+  "bigreactors:energizerpowerportfe": {
+   "kind": "block",
+   "name": "Energizer Passive FE Power Port"
+  },
+  "bigreactors:energizerpowerportfe_active": {
+   "kind": "block",
+   "name": "Energizer Active FE Power Port"
+  },
+  "bigreactors:energizercomputerport": {
+   "kind": "block",
+   "name": "Energizer Computer Port"
+  },
+  "bigreactors:energizercell": {
+   "kind": "block",
+   "name": "Energy Cell"
+  }
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "repo": "klikli-dev/occultism-kubejs",
+ "ref": "release/v1.21.1-1.11.0",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "${mod_id}"
+ ],
+ "item_count": 0,
+ "compat": [
+  {
+   "id": "kubejs",
+   "slug": "kubejs",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "occultism",
+   "slug": "occultism",
+   "evidence": {
+    "data-ref": 1,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "occultism_kubejs",
+   "slug": "occultism-kubejs",
+   "evidence": {
+    "data-ref": 4
+   }
+  }
+ ],
+ "items": {}
+}

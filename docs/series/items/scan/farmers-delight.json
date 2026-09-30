@@ -1,0 +1,977 @@
+{
+ "repo": "vectorwing/FarmersDelight",
+ "ref": "1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "farmersdelight"
+ ],
+ "item_count": 234,
+ "compat": [
+  {
+   "id": "create",
+   "slug": "create",
+   "evidence": {
+    "data-ref": 16
+   }
+  },
+  {
+   "id": "emi",
+   "slug": "emi",
+   "evidence": {
+    "compat-import": 7
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 5
+   }
+  },
+  {
+   "id": "silentgear",
+   "slug": "silent-gear",
+   "evidence": {
+    "data-ref": 1
+   }
+  }
+ ],
+ "items": {
+  "farmersdelight:stove": {
+   "kind": "block",
+   "name": "Stove"
+  },
+  "farmersdelight:cooking_pot": {
+   "kind": "block",
+   "name": "Cooking Pot"
+  },
+  "farmersdelight:cutting_board": {
+   "kind": "block",
+   "name": "Cutting Board"
+  },
+  "farmersdelight:skillet": {
+   "kind": "block",
+   "name": "Skillet"
+  },
+  "farmersdelight:wooden_basket": {
+   "kind": "block",
+   "name": "Basket"
+  },
+  "farmersdelight:bamboo_basket": {
+   "kind": "block",
+   "name": "Bamboo Basket"
+  },
+  "farmersdelight:oak_cabinet": {
+   "kind": "block",
+   "name": "Oak Cabinet"
+  },
+  "farmersdelight:birch_cabinet": {
+   "kind": "block",
+   "name": "Birch Cabinet"
+  },
+  "farmersdelight:spruce_cabinet": {
+   "kind": "block",
+   "name": "Spruce Cabinet"
+  },
+  "farmersdelight:jungle_cabinet": {
+   "kind": "block",
+   "name": "Jungle Cabinet"
+  },
+  "farmersdelight:acacia_cabinet": {
+   "kind": "block",
+   "name": "Acacia Cabinet"
+  },
+  "farmersdelight:dark_oak_cabinet": {
+   "kind": "block",
+   "name": "Dark Oak Cabinet"
+  },
+  "farmersdelight:mangrove_cabinet": {
+   "kind": "block",
+   "name": "Mangrove Cabinet"
+  },
+  "farmersdelight:cherry_cabinet": {
+   "kind": "block",
+   "name": "Cherry Cabinet"
+  },
+  "farmersdelight:bamboo_cabinet": {
+   "kind": "block",
+   "name": "Bamboo Cabinet"
+  },
+  "farmersdelight:crimson_cabinet": {
+   "kind": "block",
+   "name": "Crimson Cabinet"
+  },
+  "farmersdelight:warped_cabinet": {
+   "kind": "block",
+   "name": "Warped Cabinet"
+  },
+  "farmersdelight:rope": {
+   "kind": "block",
+   "name": "Rope"
+  },
+  "farmersdelight:rope_fence": {
+   "kind": "block",
+   "name": "Rope Fence"
+  },
+  "farmersdelight:rope_fence_gate": {
+   "kind": "block",
+   "name": "Rope Fence Gate"
+  },
+  "farmersdelight:safety_net": {
+   "kind": "block",
+   "name": "Safety Net"
+  },
+  "farmersdelight:canvas_rug": {
+   "kind": "block",
+   "name": "Canvas Rug"
+  },
+  "farmersdelight:tatami": {
+   "kind": "block",
+   "name": "Tatami Block"
+  },
+  "farmersdelight:full_tatami_mat": {
+   "kind": "block",
+   "name": "Full Tatami Mat"
+  },
+  "farmersdelight:half_tatami_mat": {
+   "kind": "block",
+   "name": "Half Tatami Mat"
+  },
+  "farmersdelight:organic_compost": {
+   "kind": "block",
+   "name": "Organic Compost"
+  },
+  "farmersdelight:rich_soil": {
+   "kind": "block",
+   "name": "Rich Soil"
+  },
+  "farmersdelight:rich_soil_farmland": {
+   "kind": "block",
+   "name": "Rich Soil Farmland"
+  },
+  "farmersdelight:carrot_crate": {
+   "kind": "block",
+   "name": "Carrot Crate"
+  },
+  "farmersdelight:potato_crate": {
+   "kind": "block",
+   "name": "Potato Crate"
+  },
+  "farmersdelight:beetroot_crate": {
+   "kind": "block",
+   "name": "Beetroot Crate"
+  },
+  "farmersdelight:cabbage_crate": {
+   "kind": "block",
+   "name": "Cabbage Crate"
+  },
+  "farmersdelight:tomato_crate": {
+   "kind": "block",
+   "name": "Tomato Crate"
+  },
+  "farmersdelight:onion_crate": {
+   "kind": "block",
+   "name": "Onion Crate"
+  },
+  "farmersdelight:rice_bale": {
+   "kind": "block",
+   "name": "Rice Bale"
+  },
+  "farmersdelight:rice_bag": {
+   "kind": "block",
+   "name": "Bag of Rice"
+  },
+  "farmersdelight:straw_bale": {
+   "kind": "block",
+   "name": "Straw Bale"
+  },
+  "farmersdelight:canvas_sign": {
+   "kind": "block",
+   "name": "Canvas Sign"
+  },
+  "farmersdelight:white_canvas_sign": {
+   "kind": "block",
+   "name": "White Canvas Sign"
+  },
+  "farmersdelight:orange_canvas_sign": {
+   "kind": "block",
+   "name": "Orange Canvas Sign"
+  },
+  "farmersdelight:magenta_canvas_sign": {
+   "kind": "block",
+   "name": "Magenta Canvas Sign"
+  },
+  "farmersdelight:light_blue_canvas_sign": {
+   "kind": "block",
+   "name": "Light Blue Canvas Sign"
+  },
+  "farmersdelight:yellow_canvas_sign": {
+   "kind": "block",
+   "name": "Yellow Canvas Sign"
+  },
+  "farmersdelight:lime_canvas_sign": {
+   "kind": "block",
+   "name": "Lime Canvas Sign"
+  },
+  "farmersdelight:pink_canvas_sign": {
+   "kind": "block",
+   "name": "Pink Canvas Sign"
+  },
+  "farmersdelight:gray_canvas_sign": {
+   "kind": "block",
+   "name": "Gray Canvas Sign"
+  },
+  "farmersdelight:light_gray_canvas_sign": {
+   "kind": "block",
+   "name": "Light Gray Canvas Sign"
+  },
+  "farmersdelight:cyan_canvas_sign": {
+   "kind": "block",
+   "name": "Cyan Canvas Sign"
+  },
+  "farmersdelight:purple_canvas_sign": {
+   "kind": "block",
+   "name": "Purple Canvas Sign"
+  },
+  "farmersdelight:blue_canvas_sign": {
+   "kind": "block",
+   "name": "Blue Canvas Sign"
+  },
+  "farmersdelight:brown_canvas_sign": {
+   "kind": "block",
+   "name": "Brown Canvas Sign"
+  },
+  "farmersdelight:green_canvas_sign": {
+   "kind": "block",
+   "name": "Green Canvas Sign"
+  },
+  "farmersdelight:red_canvas_sign": {
+   "kind": "block",
+   "name": "Red Canvas Sign"
+  },
+  "farmersdelight:black_canvas_sign": {
+   "kind": "block",
+   "name": "Black Canvas Sign"
+  },
+  "farmersdelight:canvas_wall_sign": {
+   "kind": "block",
+   "name": "Canvas Wall Sign"
+  },
+  "farmersdelight:white_canvas_wall_sign": {
+   "kind": "block",
+   "name": "White Canvas Wall Sign"
+  },
+  "farmersdelight:orange_canvas_wall_sign": {
+   "kind": "block",
+   "name": "Orange Canvas Wall Sign"
+  },
+  "farmersdelight:magenta_canvas_wall_sign": {
+   "kind": "block",
+   "name": "Magenta Canvas Wall Sign"
+  },
+  "farmersdelight:light_blue_canvas_wall_sign": {
+   "kind": "block",
+   "name": "Light Blue Canvas Wall Sign"
+  },
+  "farmersdelight:yellow_canvas_wall_sign": {
+   "kind": "block",
+   "name": "Yellow Canvas Wall Sign"
+  },
+  "farmersdelight:lime_canvas_wall_sign": {
+   "kind": "block",
+   "name": "Lime Canvas Wall Sign"
+  },
+  "farmersdelight:pink_canvas_wall_sign": {
+   "kind": "block",
+   "name": "Pink Canvas Wall Sign"
+  },
+  "farmersdelight:gray_canvas_wall_sign": {
+   "kind": "block",
+   "name": "Gray Canvas Wall Sign"
+  },
+  "farmersdelight:light_gray_canvas_wall_sign": {
+   "kind": "block",
+   "name": "Light Gray Canvas Wall Sign"
+  },
+  "farmersdelight:cyan_canvas_wall_sign": {
+   "kind": "block",
+   "name": "Cyan Canvas Wall Sign"
+  },
+  "farmersdelight:purple_canvas_wall_sign": {
+   "kind": "block",
+   "name": "Purple Canvas Wall Sign"
+  },
+  "farmersdelight:blue_canvas_wall_sign": {
+   "kind": "block",
+   "name": "Blue Canvas Wall Sign"
+  },
+  "farmersdelight:brown_canvas_wall_sign": {
+   "kind": "block",
+   "name": "Brown Canvas Wall Sign"
+  },
+  "farmersdelight:green_canvas_wall_sign": {
+   "kind": "block",
+   "name": "Green Canvas Wall Sign"
+  },
+  "farmersdelight:red_canvas_wall_sign": {
+   "kind": "block",
+   "name": "Red Canvas Wall Sign"
+  },
+  "farmersdelight:black_canvas_wall_sign": {
+   "kind": "block",
+   "name": "Black Canvas Wall Sign"
+  },
+  "farmersdelight:hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Hanging Canvas Sign"
+  },
+  "farmersdelight:white_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "White Hanging Canvas Sign"
+  },
+  "farmersdelight:orange_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Orange Hanging Canvas Sign"
+  },
+  "farmersdelight:magenta_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Magenta Hanging Canvas Sign"
+  },
+  "farmersdelight:light_blue_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Light Blue Hanging Canvas Sign"
+  },
+  "farmersdelight:yellow_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Yellow Hanging Canvas Sign"
+  },
+  "farmersdelight:lime_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Lime Hanging Canvas Sign"
+  },
+  "farmersdelight:pink_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Pink Hanging Canvas Sign"
+  },
+  "farmersdelight:gray_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Gray Hanging Canvas Sign"
+  },
+  "farmersdelight:light_gray_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Light Gray Hanging Canvas Sign"
+  },
+  "farmersdelight:cyan_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Cyan Hanging Canvas Sign"
+  },
+  "farmersdelight:purple_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Purple Hanging Canvas Sign"
+  },
+  "farmersdelight:blue_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Blue Hanging Canvas Sign"
+  },
+  "farmersdelight:brown_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Brown Hanging Canvas Sign"
+  },
+  "farmersdelight:green_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Green Hanging Canvas Sign"
+  },
+  "farmersdelight:red_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Red Hanging Canvas Sign"
+  },
+  "farmersdelight:black_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Black Hanging Canvas Sign"
+  },
+  "farmersdelight:wall_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Wall Hanging Canvas Sign"
+  },
+  "farmersdelight:white_wall_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "White Wall Hanging Canvas Sign"
+  },
+  "farmersdelight:orange_wall_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Orange Wall Hanging Canvas Sign"
+  },
+  "farmersdelight:magenta_wall_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Magenta Wall Hanging Canvas Sign"
+  },
+  "farmersdelight:light_blue_wall_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Light Blue Wall Hanging Canvas Sign"
+  },
+  "farmersdelight:yellow_wall_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Yellow Wall Hanging Canvas Sign"
+  },
+  "farmersdelight:lime_wall_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Lime Wall Hanging Canvas Sign"
+  },
+  "farmersdelight:pink_wall_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Pink Wall Hanging Canvas Sign"
+  },
+  "farmersdelight:gray_wall_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Gray Wall Hanging Canvas Sign"
+  },
+  "farmersdelight:light_gray_wall_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Light Gray Wall Hanging Canvas Sign"
+  },
+  "farmersdelight:cyan_wall_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Cyan Wall Hanging Canvas Sign"
+  },
+  "farmersdelight:purple_wall_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Purple Wall Hanging Canvas Sign"
+  },
+  "farmersdelight:blue_wall_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Blue Wall Hanging Canvas Sign"
+  },
+  "farmersdelight:brown_wall_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Brown Wall Hanging Canvas Sign"
+  },
+  "farmersdelight:green_wall_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Green Wall Hanging Canvas Sign"
+  },
+  "farmersdelight:red_wall_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Red Wall Hanging Canvas Sign"
+  },
+  "farmersdelight:black_wall_hanging_canvas_sign": {
+   "kind": "block",
+   "name": "Black Wall Hanging Canvas Sign"
+  },
+  "farmersdelight:budding_tomatoes": {
+   "kind": "block",
+   "name": "Budding Tomato Vine"
+  },
+  "farmersdelight:tomatoes": {
+   "kind": "block",
+   "name": "Tomato Vine"
+  },
+  "farmersdelight:tomatoes_on_rope": {
+   "kind": "block",
+   "name": "Tomato Vine on Rope"
+  },
+  "farmersdelight:cabbages": {
+   "kind": "block",
+   "name": "Cabbage"
+  },
+  "farmersdelight:onions": {
+   "kind": "block",
+   "name": "Onions"
+  },
+  "farmersdelight:rice": {
+   "kind": "item",
+   "name": "Rice"
+  },
+  "farmersdelight:rice_panicles": {
+   "kind": "block",
+   "name": "Rice Panicles"
+  },
+  "farmersdelight:brown_mushroom_colony": {
+   "kind": "block",
+   "name": "Brown Mushroom Colony"
+  },
+  "farmersdelight:red_mushroom_colony": {
+   "kind": "block",
+   "name": "Red Mushroom Colony"
+  },
+  "farmersdelight:sandy_shrub": {
+   "kind": "block",
+   "name": "Sandy Shrub"
+  },
+  "farmersdelight:wild_cabbages": {
+   "kind": "block",
+   "name": "Wild Cabbage"
+  },
+  "farmersdelight:wild_tomatoes": {
+   "kind": "block",
+   "name": "Tomato Shrub"
+  },
+  "farmersdelight:wild_onions": {
+   "kind": "block",
+   "name": "Wild Onion"
+  },
+  "farmersdelight:wild_carrots": {
+   "kind": "block",
+   "name": "Wild Carrot"
+  },
+  "farmersdelight:wild_potatoes": {
+   "kind": "block",
+   "name": "Wild Potato"
+  },
+  "farmersdelight:wild_beetroots": {
+   "kind": "block",
+   "name": "Sea Beet"
+  },
+  "farmersdelight:wild_rice": {
+   "kind": "block",
+   "name": "Wild Rice"
+  },
+  "farmersdelight:apple_pie": {
+   "kind": "block",
+   "name": "Apple Pie"
+  },
+  "farmersdelight:sweet_berry_cheesecake": {
+   "kind": "block",
+   "name": "Sweet Berry Cheesecake"
+  },
+  "farmersdelight:chocolate_pie": {
+   "kind": "block",
+   "name": "Chocolate Pie"
+  },
+  "farmersdelight:pumpkin_pie": {
+   "kind": "block",
+   "name": "Pumpkin Pie"
+  },
+  "farmersdelight:tomato": {
+   "kind": "item",
+   "name": "Tomato"
+  },
+  "farmersdelight:cabbage": {
+   "kind": "item",
+   "name": "Cabbage"
+  },
+  "farmersdelight:onion": {
+   "kind": "item",
+   "name": "Onion"
+  },
+  "farmersdelight:cabbage_seeds": {
+   "kind": "item",
+   "name": "Cabbage Seeds"
+  },
+  "farmersdelight:tomato_seeds": {
+   "kind": "item",
+   "name": "Tomato Seeds"
+  },
+  "farmersdelight:rice_panicle": {
+   "kind": "item",
+   "name": "Rice Panicle"
+  },
+  "farmersdelight:rotten_tomato": {
+   "kind": "entity",
+   "name": "Rotten Tomato"
+  },
+  "farmersdelight:straw": {
+   "kind": "item",
+   "name": "Straw"
+  },
+  "farmersdelight:canvas": {
+   "kind": "item",
+   "name": "Canvas"
+  },
+  "farmersdelight:tree_bark": {
+   "kind": "item",
+   "name": "Tree Bark"
+  },
+  "farmersdelight:tomato_sauce": {
+   "kind": "item",
+   "name": "Tomato Sauce"
+  },
+  "farmersdelight:fried_egg": {
+   "kind": "item",
+   "name": "Fried Egg"
+  },
+  "farmersdelight:milk_bottle": {
+   "kind": "item",
+   "name": "Milk Bottle"
+  },
+  "farmersdelight:hot_cocoa": {
+   "kind": "item",
+   "name": "Hot Cocoa"
+  },
+  "farmersdelight:apple_cider": {
+   "kind": "item",
+   "name": "Apple Cider"
+  },
+  "farmersdelight:melon_juice": {
+   "kind": "item",
+   "name": "Melon Juice"
+  },
+  "farmersdelight:wheat_dough": {
+   "kind": "item",
+   "name": "Wheat Dough"
+  },
+  "farmersdelight:raw_pasta": {
+   "kind": "item",
+   "name": "Raw Pasta"
+  },
+  "farmersdelight:pumpkin_slice": {
+   "kind": "item",
+   "name": "Pumpkin Slice"
+  },
+  "farmersdelight:cabbage_leaf": {
+   "kind": "item",
+   "name": "Cabbage Leaf"
+  },
+  "farmersdelight:minced_beef": {
+   "kind": "item",
+   "name": "Minced Beef"
+  },
+  "farmersdelight:beef_patty": {
+   "kind": "item",
+   "name": "Beef Patty"
+  },
+  "farmersdelight:chicken_cuts": {
+   "kind": "item",
+   "name": "Raw Chicken Cuts"
+  },
+  "farmersdelight:cooked_chicken_cuts": {
+   "kind": "item",
+   "name": "Cooked Chicken Cuts"
+  },
+  "farmersdelight:bacon": {
+   "kind": "item",
+   "name": "Raw Bacon"
+  },
+  "farmersdelight:cooked_bacon": {
+   "kind": "item",
+   "name": "Cooked Bacon"
+  },
+  "farmersdelight:cod_slice": {
+   "kind": "item",
+   "name": "Raw Cod Slice"
+  },
+  "farmersdelight:cooked_cod_slice": {
+   "kind": "item",
+   "name": "Cooked Cod Slice"
+  },
+  "farmersdelight:salmon_slice": {
+   "kind": "item",
+   "name": "Raw Salmon Slice"
+  },
+  "farmersdelight:cooked_salmon_slice": {
+   "kind": "item",
+   "name": "Cooked Salmon Slice"
+  },
+  "farmersdelight:mutton_chops": {
+   "kind": "item",
+   "name": "Raw Mutton Chops"
+  },
+  "farmersdelight:cooked_mutton_chops": {
+   "kind": "item",
+   "name": "Cooked Mutton Chops"
+  },
+  "farmersdelight:ham": {
+   "kind": "item",
+   "name": "Ham"
+  },
+  "farmersdelight:smoked_ham": {
+   "kind": "item",
+   "name": "Smoked Ham"
+  },
+  "farmersdelight:pie_crust": {
+   "kind": "item",
+   "name": "Pie Crust"
+  },
+  "farmersdelight:cake_slice": {
+   "kind": "item",
+   "name": "Slice of Cake"
+  },
+  "farmersdelight:apple_pie_slice": {
+   "kind": "item",
+   "name": "Slice of Apple Pie"
+  },
+  "farmersdelight:sweet_berry_cheesecake_slice": {
+   "kind": "item",
+   "name": "Slice of Sweet Berry Cheesecake"
+  },
+  "farmersdelight:chocolate_pie_slice": {
+   "kind": "item",
+   "name": "Slice of Chocolate Pie"
+  },
+  "farmersdelight:pumpkin_pie_slice": {
+   "kind": "item",
+   "name": "Slice of Pumpkin Pie"
+  },
+  "farmersdelight:fruit_salad": {
+   "kind": "item",
+   "name": "Fruit Salad"
+  },
+  "farmersdelight:sweet_berry_cookie": {
+   "kind": "item",
+   "name": "Sweet Berry Cookie"
+  },
+  "farmersdelight:honey_cookie": {
+   "kind": "item",
+   "name": "Honey Cookie"
+  },
+  "farmersdelight:melon_popsicle": {
+   "kind": "item",
+   "name": "Melon Popsicle"
+  },
+  "farmersdelight:glow_berry_custard": {
+   "kind": "item",
+   "name": "Glow Berry Custard"
+  },
+  "farmersdelight:earthworm": {
+   "kind": "item",
+   "name": "Earthworm"
+  },
+  "farmersdelight:flint_knife": {
+   "kind": "item",
+   "name": "Flint Knife"
+  },
+  "farmersdelight:iron_knife": {
+   "kind": "item",
+   "name": "Iron Knife"
+  },
+  "farmersdelight:golden_knife": {
+   "kind": "item",
+   "name": "Golden Knife"
+  },
+  "farmersdelight:diamond_knife": {
+   "kind": "item",
+   "name": "Diamond Knife"
+  },
+  "farmersdelight:netherite_knife": {
+   "kind": "item",
+   "name": "Netherite Knife"
+  },
+  "farmersdelight:barbecue_stick": {
+   "kind": "item",
+   "name": "Barbecue on a Stick"
+  },
+  "farmersdelight:egg_sandwich": {
+   "kind": "item",
+   "name": "Egg Sandwich"
+  },
+  "farmersdelight:chicken_sandwich": {
+   "kind": "item",
+   "name": "Chicken Sandwich"
+  },
+  "farmersdelight:hamburger": {
+   "kind": "item",
+   "name": "Hamburger"
+  },
+  "farmersdelight:bacon_sandwich": {
+   "kind": "item",
+   "name": "Bacon Sandwich"
+  },
+  "farmersdelight:mutton_wrap": {
+   "kind": "item",
+   "name": "Mutton Wrap"
+  },
+  "farmersdelight:dumplings": {
+   "kind": "item",
+   "name": "Dumplings"
+  },
+  "farmersdelight:stuffed_potato": {
+   "kind": "item",
+   "name": "Stuffed Potato"
+  },
+  "farmersdelight:cabbage_rolls": {
+   "kind": "item",
+   "name": "Cabbage Rolls"
+  },
+  "farmersdelight:salmon_roll": {
+   "kind": "item",
+   "name": "Salmon Roll"
+  },
+  "farmersdelight:cod_roll": {
+   "kind": "item",
+   "name": "Cod Roll"
+  },
+  "farmersdelight:kelp_roll": {
+   "kind": "item",
+   "name": "Kelp Roll"
+  },
+  "farmersdelight:kelp_roll_slice": {
+   "kind": "item",
+   "name": "Kelp Roll Slice"
+  },
+  "farmersdelight:cooked_rice": {
+   "kind": "item",
+   "name": "Cooked Rice"
+  },
+  "farmersdelight:mixed_salad": {
+   "kind": "item",
+   "name": "Mixed Salad"
+  },
+  "farmersdelight:nether_salad": {
+   "kind": "item",
+   "name": "Nether Salad"
+  },
+  "farmersdelight:beef_stew": {
+   "kind": "item",
+   "name": "Beef Stew"
+  },
+  "farmersdelight:chicken_soup": {
+   "kind": "item",
+   "name": "Chicken Soup"
+  },
+  "farmersdelight:vegetable_soup": {
+   "kind": "item",
+   "name": "Vegetable Soup"
+  },
+  "farmersdelight:fish_stew": {
+   "kind": "item",
+   "name": "Fish Stew"
+  },
+  "farmersdelight:fried_rice": {
+   "kind": "item",
+   "name": "Fried Rice"
+  },
+  "farmersdelight:pumpkin_soup": {
+   "kind": "item",
+   "name": "Pumpkin Soup"
+  },
+  "farmersdelight:baked_cod_stew": {
+   "kind": "item",
+   "name": "Baked Cod Stew"
+  },
+  "farmersdelight:noodle_soup": {
+   "kind": "item",
+   "name": "Noodle Soup"
+  },
+  "farmersdelight:onion_soup": {
+   "kind": "item",
+   "name": "Onion Soup"
+  },
+  "farmersdelight:bone_broth": {
+   "kind": "item",
+   "name": "Bone Broth"
+  },
+  "farmersdelight:bacon_and_eggs": {
+   "kind": "item",
+   "name": "Bacon and Eggs"
+  },
+  "farmersdelight:pasta_with_meatballs": {
+   "kind": "item",
+   "name": "Pasta with Meatballs"
+  },
+  "farmersdelight:pasta_with_mutton_chop": {
+   "kind": "item",
+   "name": "Pasta with Mutton Chop"
+  },
+  "farmersdelight:roasted_mutton_chops": {
+   "kind": "item",
+   "name": "Roasted Mutton Chops"
+  },
+  "farmersdelight:steak_and_potatoes": {
+   "kind": "item",
+   "name": "Steak and Potatoes"
+  },
+  "farmersdelight:vegetable_noodles": {
+   "kind": "item",
+   "name": "Vegetable Noodles"
+  },
+  "farmersdelight:ratatouille": {
+   "kind": "item",
+   "name": "Ratatouille"
+  },
+  "farmersdelight:squid_ink_pasta": {
+   "kind": "item",
+   "name": "Squid Ink Pasta"
+  },
+  "farmersdelight:grilled_salmon": {
+   "kind": "item",
+   "name": "Grilled Salmon"
+  },
+  "farmersdelight:mushroom_rice": {
+   "kind": "item",
+   "name": "Mushroom Rice"
+  },
+  "farmersdelight:roast_chicken_block": {
+   "kind": "block",
+   "name": "Roast Chicken"
+  },
+  "farmersdelight:roast_chicken": {
+   "kind": "item",
+   "name": "Plate of Roast Chicken"
+  },
+  "farmersdelight:stuffed_pumpkin_block": {
+   "kind": "block",
+   "name": "Stuffed Pumpkin"
+  },
+  "farmersdelight:stuffed_pumpkin": {
+   "kind": "item",
+   "name": "Bowl of Stuffed Pumpkin"
+  },
+  "farmersdelight:honey_glazed_ham_block": {
+   "kind": "block",
+   "name": "Honey Glazed Ham"
+  },
+  "farmersdelight:honey_glazed_ham": {
+   "kind": "item",
+   "name": "Plate of Honey Glazed Ham"
+  },
+  "farmersdelight:shepherds_pie_block": {
+   "kind": "block",
+   "name": "Shepherd's Pie"
+  },
+  "farmersdelight:shepherds_pie": {
+   "kind": "item",
+   "name": "Plate of Shepherd's Pie"
+  },
+  "farmersdelight:gleaming_salad_block": {
+   "kind": "block",
+   "name": "Gleaming Salad"
+  },
+  "farmersdelight:gleaming_salad": {
+   "kind": "item",
+   "name": "Bowl of Gleaming Salad"
+  },
+  "farmersdelight:rice_roll_medley_block": {
+   "kind": "block",
+   "name": "Rice Roll Medley"
+  },
+  "farmersdelight:dog_food": {
+   "kind": "item",
+   "name": "Dog Food"
+  },
+  "farmersdelight:horse_feed": {
+   "kind": "item",
+   "name": "Horse Feed"
+  },
+  "farmersdelight:feast.use_container": {
+   "kind": "block",
+   "name": "You need a %s to eat this."
+  },
+  "farmersdelight:rice.invalid_placement": {
+   "kind": "block",
+   "name": "This seed must be planted in shallow water."
+  },
+  "farmersdelight:cutting_board.invalid_item": {
+   "kind": "block",
+   "name": "This doesn't seem cuttable..."
+  },
+  "farmersdelight:cutting_board.invalid_tool": {
+   "kind": "block",
+   "name": "Maybe with a different tool..."
+  },
+  "farmersdelight:cutting_board.remaining_items": {
+   "kind": "block",
+   "name": "%s remaining..."
+  },
+  "farmersdelight:skillet.invalid_item": {
+   "kind": "block",
+   "name": "This can't be cooked..."
+  },
+  "farmersdelight:skillet.underwater": {
+   "kind": "item",
+   "name": "Can't cook underwater..."
+  },
+  "farmersdelight:skillet.how_to_cook": {
+   "kind": "item",
+   "name": "Use your other hand to hold ingredients!"
+  }
+ }
+}

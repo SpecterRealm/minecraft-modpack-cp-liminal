@@ -1,0 +1,3479 @@
+{
+ "repo": "JDKDigital/productive-bees",
+ "ref": "default",
+ "ref_kind": "none",
+ "mod_ids": [
+  "productivebees"
+ ],
+ "item_count": 832,
+ "compat": [
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "data-ref": 12
+   }
+  },
+  {
+   "id": "ars_nouveau",
+   "slug": "ars-nouveau",
+   "evidence": {
+    "data-ref": 16
+   }
+  },
+  {
+   "id": "create",
+   "slug": "create",
+   "evidence": {
+    "data-ref": 9
+   }
+  },
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "compat-import": 2,
+    "isLoaded": 2
+   }
+  },
+  {
+   "id": "draconicevolution",
+   "slug": "draconic-evolution",
+   "evidence": {
+    "data-ref": 5
+   }
+  },
+  {
+   "id": "emi",
+   "slug": "emi",
+   "evidence": {
+    "compat-import": 13
+   }
+  },
+  {
+   "id": "farmingforblockheads",
+   "slug": "farming-for-blockheads",
+   "evidence": {
+    "data-ref": 1
+   }
+  },
+  {
+   "id": "fluxnetworks",
+   "slug": "flux-networks",
+   "evidence": {
+    "data-ref": 2
+   }
+  },
+  {
+   "id": "geckolib",
+   "slug": "geckolib",
+   "evidence": {
+    "compat-import": 2,
+    "dependency": 1,
+    "isLoaded": 2
+   }
+  },
+  {
+   "id": "jade",
+   "slug": "jade",
+   "evidence": {
+    "compat-import": 5
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 15
+   }
+  },
+  {
+   "id": "megacells",
+   "slug": "mega-cells",
+   "evidence": {
+    "data-ref": 6
+   }
+  },
+  {
+   "id": "mekanism",
+   "slug": "mekanism",
+   "evidence": {
+    "data-ref": 10
+   }
+  },
+  {
+   "id": "mysticalagriculture",
+   "slug": "mystical-agriculture",
+   "evidence": {
+    "data-ref": 25
+   }
+  },
+  {
+   "id": "occultism",
+   "slug": "occultism",
+   "evidence": {
+    "data-ref": 1
+   }
+  },
+  {
+   "id": "patchouli",
+   "slug": "patchouli",
+   "evidence": {
+    "compat-import": 1,
+    "data-ref": 2,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "powah",
+   "slug": "powah",
+   "evidence": {
+    "data-ref": 16
+   }
+  },
+  {
+   "id": "productivemetalworks",
+   "slug": "productive-metalworks",
+   "evidence": {
+    "data-ref": 2
+   }
+  },
+  {
+   "id": "silentgear",
+   "slug": "silent-gear",
+   "evidence": {
+    "data-ref": 4
+   }
+  }
+ ],
+ "items": {
+  "productivebees:acacia_wood_nest": {
+   "kind": "block",
+   "name": "Acacia Nest"
+  },
+  "productivebees:bamboo_hive": {
+   "kind": "block",
+   "name": "Bamboo Nest"
+  },
+  "productivebees:birch_wood_nest": {
+   "kind": "block",
+   "name": "Birch Nest"
+  },
+  "productivebees:bottler": {
+   "kind": "block",
+   "name": "Bottler"
+  },
+  "productivebees:breeding_chamber": {
+   "kind": "block",
+   "name": "Breeding Chamber"
+  },
+  "productivebees:bumble_bee_nest": {
+   "kind": "block",
+   "name": "Bumble Bee Nest"
+  },
+  "productivebees:catcher": {
+   "kind": "block",
+   "name": "Catcher"
+  },
+  "productivebees:centrifuge": {
+   "kind": "block",
+   "name": "Centrifuge"
+  },
+  "productivebees:coarse_dirt_nest": {
+   "kind": "block",
+   "name": "Dirt Nest"
+  },
+  "productivebees:comb_ghostly": {
+   "kind": "block",
+   "name": "Ghostly Comb Block"
+  },
+  "productivebees:comb_milky": {
+   "kind": "block",
+   "name": "Milky Comb Block"
+  },
+  "productivebees:comb_powdery": {
+   "kind": "block",
+   "name": "Powdery Comb Block"
+  },
+  "productivebees:cryo_stasis": {
+   "kind": "block",
+   "name": "Cryo Stasis"
+  },
+  "productivebees:crimson_bee_nest": {
+   "kind": "block",
+   "name": "Crimson Bee Nest"
+  },
+  "productivebees:dark_oak_wood_nest": {
+   "kind": "block",
+   "name": "Dark Oak Nest"
+  },
+  "productivebees:dragon_egg_hive": {
+   "kind": "block",
+   "name": "Dragon Egg Hive"
+  },
+  "productivebees:end_stone_nest": {
+   "kind": "block",
+   "name": "End Stone Nest"
+  },
+  "productivebees:feeder": {
+   "kind": "block",
+   "name": "Feeding Slab"
+  },
+  "productivebees:feeder_double": {
+   "kind": "block",
+   "name": "Double Feeding Slab"
+  },
+  "productivebees:gene_indexer": {
+   "kind": "block",
+   "name": "Gene Indexer"
+  },
+  "productivebees:glowstone_nest": {
+   "kind": "block",
+   "name": "Glowstone Nest"
+  },
+  "productivebees:gravel_nest": {
+   "kind": "block",
+   "name": "Gravel Nest"
+  },
+  "productivebees:heated_centrifuge": {
+   "kind": "block",
+   "name": "Heated Centrifuge"
+  },
+  "productivebees:honey_generator": {
+   "kind": "block",
+   "name": "Honey Generator"
+  },
+  "productivebees:inactive_dragon_egg": {
+   "kind": "block",
+   "name": "Inactive Dragon Egg"
+  },
+  "productivebees:incubator": {
+   "kind": "block",
+   "name": "BaBee Incubator"
+  },
+  "productivebees:jar_oak": {
+   "kind": "block",
+   "name": "Bee Jar"
+  },
+  "productivebees:jungle_wood_nest": {
+   "kind": "block",
+   "name": "Jungle Nest"
+  },
+  "productivebees:cherry_wood_nest": {
+   "kind": "block",
+   "name": "Cherry Nest"
+  },
+  "productivebees:mangrove_wood_nest": {
+   "kind": "block",
+   "name": "Mangrove Nest"
+  },
+  "productivebees:nether_brick_nest": {
+   "kind": "block",
+   "name": "Nether Brick Nest"
+  },
+  "productivebees:nether_gold_nest": {
+   "kind": "block",
+   "name": "Nether Gold Nest"
+  },
+  "productivebees:nether_quartz_nest": {
+   "kind": "block",
+   "name": "Quartz Nest"
+  },
+  "productivebees:oak_wood_nest": {
+   "kind": "block",
+   "name": "Oak Nest"
+  },
+  "productivebees:obsidian_nest": {
+   "kind": "block",
+   "name": "Obsidian Nest"
+  },
+  "productivebees:powered_centrifuge": {
+   "kind": "block",
+   "name": "Powered Centrifuge"
+  },
+  "productivebees:purple_hopper": {
+   "kind": "block",
+   "name": "Purple Hopper"
+  },
+  "productivebees:quartz_netherrack": {
+   "kind": "block",
+   "name": "Quartz in Netherrack"
+  },
+  "productivebees:sand_nest": {
+   "kind": "block",
+   "name": "Sand Nest"
+  },
+  "productivebees:slimy_nest": {
+   "kind": "block",
+   "name": "Slimy Nest"
+  },
+  "productivebees:snow_nest": {
+   "kind": "block",
+   "name": "Snow Nest"
+  },
+  "productivebees:soul_sand_nest": {
+   "kind": "block",
+   "name": "Soul Sand Nest"
+  },
+  "productivebees:spruce_wood_nest": {
+   "kind": "block",
+   "name": "Spruce Nest"
+  },
+  "productivebees:stone_nest": {
+   "kind": "block",
+   "name": "Stone Nest"
+  },
+  "productivebees:sugar_cane_nest": {
+   "kind": "block",
+   "name": "Reed Nest"
+  },
+  "productivebees:sugarbag_nest": {
+   "kind": "block",
+   "name": "Sugarbag Nest"
+  },
+  "productivebees:wax_block": {
+   "kind": "block",
+   "name": "Wax Block"
+  },
+  "productivebees:warped_bee_nest": {
+   "kind": "block",
+   "name": "Warped Bee Nest"
+  },
+  "productivebees:advanced_byg_ebony_beehive": {
+   "kind": "block",
+   "name": "Advanced Ebony Beehive"
+  },
+  "productivebees:expansion_box_byg_ebony": {
+   "kind": "block",
+   "name": "Ebony Expansion Box"
+  },
+  "productivebees:advanced_byg_witch_hazel_beehive": {
+   "kind": "block",
+   "name": "Advanced Witch Hazel Beehive"
+  },
+  "productivebees:expansion_box_byg_witch_hazel": {
+   "kind": "block",
+   "name": "Witch Hazel Expansion Box"
+  },
+  "productivebees:advanced_byg_skyris_beehive": {
+   "kind": "block",
+   "name": "Advanced Skyris Beehive"
+  },
+  "productivebees:expansion_box_byg_skyris": {
+   "kind": "block",
+   "name": "Skyris Expansion Box"
+  },
+  "productivebees:advanced_byg_ether_beehive": {
+   "kind": "block",
+   "name": "Advanced Ether Beehive"
+  },
+  "productivebees:expansion_box_byg_ether": {
+   "kind": "block",
+   "name": "Ether Expansion Box"
+  },
+  "productivebees:advanced_byg_pine_beehive": {
+   "kind": "block",
+   "name": "Advanced Pine Beehive"
+  },
+  "productivebees:expansion_box_byg_pine": {
+   "kind": "block",
+   "name": "Pine Expansion Box"
+  },
+  "productivebees:advanced_byg_zelkova_beehive": {
+   "kind": "block",
+   "name": "Advanced Zelkova Beehive"
+  },
+  "productivebees:expansion_box_byg_zelkova": {
+   "kind": "block",
+   "name": "Zelkova Expansion Box"
+  },
+  "productivebees:advanced_byg_lament_beehive": {
+   "kind": "block",
+   "name": "Advanced Lament Beehive"
+  },
+  "productivebees:expansion_box_byg_lament": {
+   "kind": "block",
+   "name": "Lament Expansion Box"
+  },
+  "productivebees:advanced_byg_palm_beehive": {
+   "kind": "block",
+   "name": "Advanced Palm Beehive"
+  },
+  "productivebees:expansion_box_byg_palm": {
+   "kind": "block",
+   "name": "Palm Expansion Box"
+  },
+  "productivebees:advanced_byg_sythian_beehive": {
+   "kind": "block",
+   "name": "Advanced Sythian Beehive"
+  },
+  "productivebees:expansion_box_byg_sythian": {
+   "kind": "block",
+   "name": "Sythian Expansion Box"
+  },
+  "productivebees:advanced_byg_jacaranda_beehive": {
+   "kind": "block",
+   "name": "Advanced Jacaranda Beehive"
+  },
+  "productivebees:expansion_box_byg_jacaranda": {
+   "kind": "block",
+   "name": "Jacaranda Expansion Box"
+  },
+  "productivebees:advanced_byg_fir_beehive": {
+   "kind": "block",
+   "name": "Advanced Fir Beehive"
+  },
+  "productivebees:expansion_box_byg_fir": {
+   "kind": "block",
+   "name": "Fir Expansion Box"
+  },
+  "productivebees:advanced_byg_cika_beehive": {
+   "kind": "block",
+   "name": "Advanced Cika Beehive"
+  },
+  "productivebees:expansion_box_byg_cika": {
+   "kind": "block",
+   "name": "Cika Expansion Box"
+  },
+  "productivebees:advanced_byg_embur_beehive": {
+   "kind": "block",
+   "name": "Advanced Embur Beehive"
+  },
+  "productivebees:expansion_box_byg_embur": {
+   "kind": "block",
+   "name": "Embur Expansion Box"
+  },
+  "productivebees:advanced_byg_green_enchanted_beehive": {
+   "kind": "block",
+   "name": "Advanced Green Enchanted Beehive"
+  },
+  "productivebees:expansion_box_byg_green_enchanted": {
+   "kind": "block",
+   "name": "Green Enchanted Expansion Box"
+  },
+  "productivebees:advanced_byg_mahogany_beehive": {
+   "kind": "block",
+   "name": "Advanced Mahogany Beehive"
+  },
+  "productivebees:expansion_box_byg_mahogany": {
+   "kind": "block",
+   "name": "Mahogany Expansion Box"
+  },
+  "productivebees:advanced_byg_redwood_beehive": {
+   "kind": "block",
+   "name": "Advanced Redwood Beehive"
+  },
+  "productivebees:expansion_box_byg_redwood": {
+   "kind": "block",
+   "name": "Redwood Expansion Box"
+  },
+  "productivebees:advanced_byg_imparius_beehive": {
+   "kind": "block",
+   "name": "Advanced Imparius Beehive"
+  },
+  "productivebees:expansion_box_byg_imparius": {
+   "kind": "block",
+   "name": "Imparius Expansion Box"
+  },
+  "productivebees:advanced_byg_aspen_beehive": {
+   "kind": "block",
+   "name": "Advanced Aspen Beehive"
+  },
+  "productivebees:expansion_box_byg_aspen": {
+   "kind": "block",
+   "name": "Aspen Expansion Box"
+  },
+  "productivebees:advanced_byg_bulbis_beehive": {
+   "kind": "block",
+   "name": "Advanced Bulbis Beehive"
+  },
+  "productivebees:expansion_box_byg_bulbis": {
+   "kind": "block",
+   "name": "Bulbis Expansion Box"
+  },
+  "productivebees:advanced_byg_nightshade_beehive": {
+   "kind": "block",
+   "name": "Advanced Nightshade Beehive"
+  },
+  "productivebees:expansion_box_byg_nightshade": {
+   "kind": "block",
+   "name": "Nightshade Expansion Box"
+  },
+  "productivebees:advanced_byg_white_mangrove_beehive": {
+   "kind": "block",
+   "name": "Advanced White Mangrove Beehive"
+  },
+  "productivebees:expansion_box_byg_white_mangrove": {
+   "kind": "block",
+   "name": "White Mangrove Expansion Box"
+  },
+  "productivebees:advanced_byg_cypress_beehive": {
+   "kind": "block",
+   "name": "Advanced Cypress Beehive"
+  },
+  "productivebees:expansion_box_byg_cypress": {
+   "kind": "block",
+   "name": "Cypress Expansion Box"
+  },
+  "productivebees:advanced_byg_willow_beehive": {
+   "kind": "block",
+   "name": "Advanced Willow Beehive"
+  },
+  "productivebees:expansion_box_byg_willow": {
+   "kind": "block",
+   "name": "Willow Expansion Box"
+  },
+  "productivebees:advanced_byg_blue_enchanted_beehive": {
+   "kind": "block",
+   "name": "Advanced Blue Enchanted Beehive"
+  },
+  "productivebees:expansion_box_byg_blue_enchanted": {
+   "kind": "block",
+   "name": "Blue Enchanted Expansion Box"
+  },
+  "productivebees:advanced_byg_baobab_beehive": {
+   "kind": "block",
+   "name": "Advanced Baobab Beehive"
+  },
+  "productivebees:expansion_box_byg_baobab": {
+   "kind": "block",
+   "name": "Baobab Expansion Box"
+  },
+  "productivebees:advanced_byg_maple_beehive": {
+   "kind": "block",
+   "name": "Advanced Maple Beehive"
+  },
+  "productivebees:expansion_box_byg_maple": {
+   "kind": "block",
+   "name": "Maple Expansion Box"
+  },
+  "productivebees:advanced_byg_holly_beehive": {
+   "kind": "block",
+   "name": "Advanced Holly Beehive"
+  },
+  "productivebees:expansion_box_byg_holly": {
+   "kind": "block",
+   "name": "Holly Expansion Box"
+  },
+  "productivebees:advanced_environmental_wisteria_beehive": {
+   "kind": "block",
+   "name": "Advanced Wisteria Beehive"
+  },
+  "productivebees:expansion_box_environmental_wisteria": {
+   "kind": "block",
+   "name": "Wisteria Expansion Box"
+  },
+  "productivebees:advanced_atmospheric_rosewood_beehive": {
+   "kind": "block",
+   "name": "Advanced Rosewood Beehive"
+  },
+  "productivebees:expansion_box_atmospheric_rosewood": {
+   "kind": "block",
+   "name": "Rosewood Expansion Box"
+  },
+  "productivebees:advanced_atmospheric_kousa_beehive": {
+   "kind": "block",
+   "name": "Advanced Kousa Beehive"
+  },
+  "productivebees:expansion_box_atmospheric_kousa": {
+   "kind": "block",
+   "name": "Kousa Expansion Box"
+  },
+  "productivebees:advanced_atmospheric_grimwood_beehive": {
+   "kind": "block",
+   "name": "Advanced Grimwood Beehive"
+  },
+  "productivebees:expansion_box_atmospheric_grimwood": {
+   "kind": "block",
+   "name": "Grimwood Expansion Box"
+  },
+  "productivebees:advanced_atmospheric_yucca_beehive": {
+   "kind": "block",
+   "name": "Advanced Yucca Beehive"
+  },
+  "productivebees:expansion_box_atmospheric_yucca": {
+   "kind": "block",
+   "name": "Yucca Expansion Box"
+  },
+  "productivebees:advanced_atmospheric_aspen_beehive": {
+   "kind": "block",
+   "name": "Advanced Aspen Beehive"
+  },
+  "productivebees:expansion_box_atmospheric_aspen": {
+   "kind": "block",
+   "name": "Aspen Expansion Box"
+  },
+  "productivebees:advanced_atmospheric_morado_beehive": {
+   "kind": "block",
+   "name": "Advanced Morado Beehive"
+  },
+  "productivebees:expansion_box_atmospheric_morado": {
+   "kind": "block",
+   "name": "Morado Expansion Box"
+  },
+  "productivebees:advanced_upgrade_aquatic_river_beehive": {
+   "kind": "block",
+   "name": "Advanced River Beehive"
+  },
+  "productivebees:expansion_box_upgrade_aquatic_river": {
+   "kind": "block",
+   "name": "River Expansion Box"
+  },
+  "productivebees:advanced_upgrade_aquatic_driftwood_beehive": {
+   "kind": "block",
+   "name": "Advanced Driftwood Beehive"
+  },
+  "productivebees:expansion_box_upgrade_aquatic_driftwood": {
+   "kind": "block",
+   "name": "Driftwood Expansion Box"
+  },
+  "productivebees:advanced_regions_unexplored_pine_beehive": {
+   "kind": "block",
+   "name": "Advanced Pine Beehive"
+  },
+  "productivebees:expansion_box_regions_unexplored_pine": {
+   "kind": "block",
+   "name": "Pine Expansion Box"
+  },
+  "productivebees:advanced_regions_unexplored_palm_beehive": {
+   "kind": "block",
+   "name": "Advanced Palm Beehive"
+  },
+  "productivebees:expansion_box_regions_unexplored_palm": {
+   "kind": "block",
+   "name": "Palm Expansion Box"
+  },
+  "productivebees:advanced_regions_unexplored_redwood_beehive": {
+   "kind": "block",
+   "name": "Advanced Redwood Beehive"
+  },
+  "productivebees:expansion_box_regions_unexplored_redwood": {
+   "kind": "block",
+   "name": "Redwood Expansion Box"
+  },
+  "productivebees:advanced_regions_unexplored_socotra_beehive": {
+   "kind": "block",
+   "name": "Advanced Socotra Beehive"
+  },
+  "productivebees:expansion_box_regions_unexplored_socotra": {
+   "kind": "block",
+   "name": "Socotra Expansion Box"
+  },
+  "productivebees:advanced_regions_unexplored_eucalyptus_beehive": {
+   "kind": "block",
+   "name": "Advanced Eucalyptus Beehive"
+  },
+  "productivebees:expansion_box_regions_unexplored_eucalyptus": {
+   "kind": "block",
+   "name": "Eucalyptus Expansion Box"
+  },
+  "productivebees:advanced_regions_unexplored_kapok_beehive": {
+   "kind": "block",
+   "name": "Advanced Kapok Beehive"
+  },
+  "productivebees:expansion_box_regions_unexplored_kapok": {
+   "kind": "block",
+   "name": "Kapok Expansion Box"
+  },
+  "productivebees:advanced_regions_unexplored_cobalt_beehive": {
+   "kind": "block",
+   "name": "Advanced Cobalt Beehive"
+  },
+  "productivebees:expansion_box_regions_unexplored_cobalt": {
+   "kind": "block",
+   "name": "Cobalt Expansion Box"
+  },
+  "productivebees:advanced_regions_unexplored_dead_beehive": {
+   "kind": "block",
+   "name": "Advanced Dead Beehive"
+  },
+  "productivebees:expansion_box_regions_unexplored_dead": {
+   "kind": "block",
+   "name": "Dead Expansion Box"
+  },
+  "productivebees:advanced_regions_unexplored_cypress_beehive": {
+   "kind": "block",
+   "name": "Advanced Cypress Beehive"
+  },
+  "productivebees:expansion_box_regions_unexplored_cypress": {
+   "kind": "block",
+   "name": "Cypress Expansion Box"
+  },
+  "productivebees:advanced_regions_unexplored_pink_bioshroom_beehive": {
+   "kind": "block",
+   "name": "Advanced Pink Bioshroom Beehive"
+  },
+  "productivebees:expansion_box_regions_unexplored_pink_bioshroom": {
+   "kind": "block",
+   "name": "Pink Bioshroom Expansion Box"
+  },
+  "productivebees:advanced_regions_unexplored_magnolia_beehive": {
+   "kind": "block",
+   "name": "Advanced Magnolia Beehive"
+  },
+  "productivebees:expansion_box_regions_unexplored_magnolia": {
+   "kind": "block",
+   "name": "Magnolia Expansion Box"
+  },
+  "productivebees:advanced_regions_unexplored_willow_beehive": {
+   "kind": "block",
+   "name": "Advanced Willow Beehive"
+  },
+  "productivebees:expansion_box_regions_unexplored_willow": {
+   "kind": "block",
+   "name": "Willow Expansion Box"
+  },
+  "productivebees:advanced_regions_unexplored_yellow_bioshroom_beehive": {
+   "kind": "block",
+   "name": "Advanced Yellow Bioshroom Beehive"
+  },
+  "productivebees:expansion_box_regions_unexplored_yellow_bioshroom": {
+   "kind": "block",
+   "name": "Yellow Bioshroom Expansion Box"
+  },
+  "productivebees:advanced_regions_unexplored_blue_bioshroom_beehive": {
+   "kind": "block",
+   "name": "Advanced Blue Bioshroom Beehive"
+  },
+  "productivebees:expansion_box_regions_unexplored_blue_bioshroom": {
+   "kind": "block",
+   "name": "Blue Bioshroom Expansion Box"
+  },
+  "productivebees:advanced_regions_unexplored_blackwood_beehive": {
+   "kind": "block",
+   "name": "Advanced Blackwood Beehive"
+  },
+  "productivebees:expansion_box_regions_unexplored_blackwood": {
+   "kind": "block",
+   "name": "Blackwood Expansion Box"
+  },
+  "productivebees:advanced_regions_unexplored_joshua_beehive": {
+   "kind": "block",
+   "name": "Advanced Joshua Beehive"
+  },
+  "productivebees:expansion_box_regions_unexplored_joshua": {
+   "kind": "block",
+   "name": "Joshua Expansion Box"
+  },
+  "productivebees:advanced_regions_unexplored_baobab_beehive": {
+   "kind": "block",
+   "name": "Advanced Baobab Beehive"
+  },
+  "productivebees:expansion_box_regions_unexplored_baobab": {
+   "kind": "block",
+   "name": "Baobab Expansion Box"
+  },
+  "productivebees:advanced_regions_unexplored_maple_beehive": {
+   "kind": "block",
+   "name": "Advanced Maple Beehive"
+  },
+  "productivebees:expansion_box_regions_unexplored_maple": {
+   "kind": "block",
+   "name": "Maple Expansion Box"
+  },
+  "productivebees:advanced_regions_unexplored_alpha_oak_beehive": {
+   "kind": "block",
+   "name": "Advanced Alpha Oak Beehive"
+  },
+  "productivebees:expansion_box_regions_unexplored_alpha_oak": {
+   "kind": "block",
+   "name": "Alpha Oak Expansion Box"
+  },
+  "productivebees:advanced_regions_unexplored_green_bioshroom_beehive": {
+   "kind": "block",
+   "name": "Advanced Green Bioshroom Beehive"
+  },
+  "productivebees:expansion_box_regions_unexplored_green_bioshroom": {
+   "kind": "block",
+   "name": "Green Bioshroom Expansion Box"
+  },
+  "productivebees:advanced_regions_unexplored_larch_beehive": {
+   "kind": "block",
+   "name": "Advanced Larch Beehive"
+  },
+  "productivebees:expansion_box_regions_unexplored_larch": {
+   "kind": "block",
+   "name": "Larch Expansion Box"
+  },
+  "productivebees:advanced_regions_unexplored_mauve_beehive": {
+   "kind": "block",
+   "name": "Advanced Mauve Beehive"
+  },
+  "productivebees:expansion_box_regions_unexplored_mauve": {
+   "kind": "block",
+   "name": "Mauve Expansion Box"
+  },
+  "productivebees:advanced_endergetic_poise_beehive": {
+   "kind": "block",
+   "name": "Advanced Poise Beehive"
+  },
+  "productivebees:expansion_box_endergetic_poise": {
+   "kind": "block",
+   "name": "Poise Expansion Box"
+  },
+  "productivebees:advanced_biomesoplenty_magic_beehive": {
+   "kind": "block",
+   "name": "Advanced Magic Beehive"
+  },
+  "productivebees:expansion_box_biomesoplenty_magic": {
+   "kind": "block",
+   "name": "Magic Expansion Box"
+  },
+  "productivebees:advanced_biomesoplenty_umbran_beehive": {
+   "kind": "block",
+   "name": "Advanced Umbran Beehive"
+  },
+  "productivebees:expansion_box_biomesoplenty_umbran": {
+   "kind": "block",
+   "name": "Umbran Expansion Box"
+  },
+  "productivebees:advanced_biomesoplenty_mahogany_beehive": {
+   "kind": "block",
+   "name": "Advanced Mahogany Beehive"
+  },
+  "productivebees:expansion_box_biomesoplenty_mahogany": {
+   "kind": "block",
+   "name": "Mahogany Expansion Box"
+  },
+  "productivebees:advanced_biomesoplenty_willow_beehive": {
+   "kind": "block",
+   "name": "Advanced Willow Beehive"
+  },
+  "productivebees:expansion_box_biomesoplenty_willow": {
+   "kind": "block",
+   "name": "Willow Expansion Box"
+  },
+  "productivebees:advanced_biomesoplenty_redwood_beehive": {
+   "kind": "block",
+   "name": "Advanced Redwood Beehive"
+  },
+  "productivebees:expansion_box_biomesoplenty_redwood": {
+   "kind": "block",
+   "name": "Redwood Expansion Box"
+  },
+  "productivebees:advanced_biomesoplenty_palm_beehive": {
+   "kind": "block",
+   "name": "Advanced Palm Beehive"
+  },
+  "productivebees:expansion_box_biomesoplenty_palm": {
+   "kind": "block",
+   "name": "Palm Expansion Box"
+  },
+  "productivebees:advanced_biomesoplenty_dead_beehive": {
+   "kind": "block",
+   "name": "Advanced Dead Beehive"
+  },
+  "productivebees:expansion_box_biomesoplenty_dead": {
+   "kind": "block",
+   "name": "Dead Expansion Box"
+  },
+  "productivebees:advanced_biomesoplenty_jacaranda_beehive": {
+   "kind": "block",
+   "name": "Advanced Jacaranda Beehive"
+  },
+  "productivebees:expansion_box_biomesoplenty_jacaranda": {
+   "kind": "block",
+   "name": "Jacaranda Expansion Box"
+  },
+  "productivebees:advanced_biomesoplenty_fir_beehive": {
+   "kind": "block",
+   "name": "Advanced Fir Beehive"
+  },
+  "productivebees:expansion_box_biomesoplenty_fir": {
+   "kind": "block",
+   "name": "Fir Expansion Box"
+  },
+  "productivebees:advanced_biomesoplenty_hellbark_beehive": {
+   "kind": "block",
+   "name": "Advanced Hellbark Beehive"
+  },
+  "productivebees:expansion_box_biomesoplenty_hellbark": {
+   "kind": "block",
+   "name": "Hellbark Expansion Box"
+  },
+  "productivebees:advanced_quark_blossom_beehive": {
+   "kind": "block",
+   "name": "Advanced Blossom Beehive"
+  },
+  "productivebees:expansion_box_quark_blossom": {
+   "kind": "block",
+   "name": "Blossom Expansion Box"
+  },
+  "productivebees:advanced_quark_azalea_beehive": {
+   "kind": "block",
+   "name": "Advanced Azalea Beehive"
+  },
+  "productivebees:expansion_box_quark_azalea": {
+   "kind": "block",
+   "name": "Azalea Expansion Box"
+  },
+  "productivebees:advanced_autumnity_maple_beehive": {
+   "kind": "block",
+   "name": "Advanced Maple Beehive"
+  },
+  "productivebees:expansion_box_autumnity_maple": {
+   "kind": "block",
+   "name": "Maple Expansion Box"
+  },
+  "productivebees:advanced_bamboo_beehive": {
+   "kind": "block",
+   "name": "Advanced Bamboo Beehive"
+  },
+  "productivebees:expansion_box_bamboo": {
+   "kind": "block",
+   "name": "Bamboo Expansion Box"
+  },
+  "productivebees:advanced_cherry_beehive": {
+   "kind": "block",
+   "name": "Advanced Cherry Beehive"
+  },
+  "productivebees:expansion_box_cherry": {
+   "kind": "block",
+   "name": "Cherry Expansion Box"
+  },
+  "productivebees:advanced_crimson_beehive": {
+   "kind": "block",
+   "name": "Advanced Crimson Beehive"
+  },
+  "productivebees:expansion_box_crimson": {
+   "kind": "block",
+   "name": "Crimson Expansion Box"
+  },
+  "productivebees:advanced_birch_beehive": {
+   "kind": "block",
+   "name": "Advanced Birch Beehive"
+  },
+  "productivebees:expansion_box_birch": {
+   "kind": "block",
+   "name": "Birch Expansion Box"
+  },
+  "productivebees:advanced_oak_beehive": {
+   "kind": "block",
+   "name": "Advanced Oak Beehive"
+  },
+  "productivebees:expansion_box_oak": {
+   "kind": "block",
+   "name": "Oak Expansion Box"
+  },
+  "productivebees:advanced_acacia_beehive": {
+   "kind": "block",
+   "name": "Advanced Acacia Beehive"
+  },
+  "productivebees:expansion_box_acacia": {
+   "kind": "block",
+   "name": "Acacia Expansion Box"
+  },
+  "productivebees:advanced_warped_beehive": {
+   "kind": "block",
+   "name": "Advanced Warped Beehive"
+  },
+  "productivebees:expansion_box_warped": {
+   "kind": "block",
+   "name": "Warped Expansion Box"
+  },
+  "productivebees:advanced_jungle_beehive": {
+   "kind": "block",
+   "name": "Advanced Jungle Beehive"
+  },
+  "productivebees:expansion_box_jungle": {
+   "kind": "block",
+   "name": "Jungle Expansion Box"
+  },
+  "productivebees:advanced_dark_oak_beehive": {
+   "kind": "block",
+   "name": "Advanced Dark Oak Beehive"
+  },
+  "productivebees:expansion_box_dark_oak": {
+   "kind": "block",
+   "name": "Dark Oak Expansion Box"
+  },
+  "productivebees:advanced_mangrove_beehive": {
+   "kind": "block",
+   "name": "Advanced Mangrove Beehive"
+  },
+  "productivebees:expansion_box_mangrove": {
+   "kind": "block",
+   "name": "Mangrove Expansion Box"
+  },
+  "productivebees:advanced_snake_block_beehive": {
+   "kind": "block",
+   "name": "Advanced Snake Block Beehive"
+  },
+  "productivebees:expansion_box_snake_block": {
+   "kind": "block",
+   "name": "Snake Block Expansion Box"
+  },
+  "productivebees:advanced_spruce_beehive": {
+   "kind": "block",
+   "name": "Advanced Spruce Beehive"
+  },
+  "productivebees:expansion_box_spruce": {
+   "kind": "block",
+   "name": "Spruce Expansion Box"
+  },
+  "productivebees:advanced_acacia_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_acacia_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_aspen_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_aspen_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_bamboo_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_bamboo_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_birch_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_birch_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_cherry_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_cherry_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_concrete_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_concrete_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_comb_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_comb_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_crimson_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_crimson_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_dark_oak_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_dark_oak_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_dead_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_dead_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_driftwood_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_driftwood_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_fir_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_fir_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_grimwood_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_grimwood_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_hellbark_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_hellbark_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_jacaranda_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_jacaranda_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_jungle_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_jungle_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_kousa_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_kousa_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_magic_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_magic_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_mahogany_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_mahogany_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_mangrove_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_mangrove_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_maple_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_maple_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_oak_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_oak_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_palm_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_palm_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_redwood_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_redwood_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_river_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_river_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_rosewood_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_rosewood_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_snake_block_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_snake_block_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_spruce_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_spruce_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_umbran_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_umbran_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_warped_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_warped_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_willow_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_willow_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_wisteria_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_wisteria_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:advanced_yucca_canvas_beehive": {
+   "kind": "block",
+   "name": "Advanced Canvas Beehive"
+  },
+  "productivebees:expansion_box_yucca_canvas": {
+   "kind": "block",
+   "name": "Canvas Expansion Box"
+  },
+  "productivebees:petrified_honey": {
+   "kind": "block",
+   "name": "Petrified Honey"
+  },
+  "productivebees:white_petrified_honey": {
+   "kind": "block",
+   "name": "White Petrified Honey"
+  },
+  "productivebees:black_petrified_honey": {
+   "kind": "block",
+   "name": "Black Petrified Honey"
+  },
+  "productivebees:gray_petrified_honey": {
+   "kind": "block",
+   "name": "Gray Petrified Honey"
+  },
+  "productivebees:light_gray_petrified_honey": {
+   "kind": "block",
+   "name": "Light Gray Petrified Honey"
+  },
+  "productivebees:blue_petrified_honey": {
+   "kind": "block",
+   "name": "Blue Petrified Honey"
+  },
+  "productivebees:light_blue_petrified_honey": {
+   "kind": "block",
+   "name": "Light Blue Petrified Honey"
+  },
+  "productivebees:lime_petrified_honey": {
+   "kind": "block",
+   "name": "Lime Petrified Honey"
+  },
+  "productivebees:yellow_petrified_honey": {
+   "kind": "block",
+   "name": "Yellow Petrified Honey"
+  },
+  "productivebees:orange_petrified_honey": {
+   "kind": "block",
+   "name": "Orange Petrified Honey"
+  },
+  "productivebees:brown_petrified_honey": {
+   "kind": "block",
+   "name": "Brown Petrified Honey"
+  },
+  "productivebees:green_petrified_honey": {
+   "kind": "block",
+   "name": "Green Petrified Honey"
+  },
+  "productivebees:magenta_petrified_honey": {
+   "kind": "block",
+   "name": "Magenta Petrified Honey"
+  },
+  "productivebees:purple_petrified_honey": {
+   "kind": "block",
+   "name": "Purple Petrified Honey"
+  },
+  "productivebees:pink_petrified_honey": {
+   "kind": "block",
+   "name": "Pink Petrified Honey"
+  },
+  "productivebees:cyan_petrified_honey": {
+   "kind": "block",
+   "name": "Cyan Petrified Honey"
+  },
+  "productivebees:red_petrified_honey": {
+   "kind": "block",
+   "name": "Red Petrified Honey"
+  },
+  "productivebees:amber": {
+   "kind": "block",
+   "name": "Amber"
+  },
+  "minecraft:villager.productivebees.beekeeper": {
+   "kind": "entity",
+   "name": "Beekeeper"
+  },
+  "productivebees:bee_bee": {
+   "kind": "entity",
+   "name": "Bee"
+  },
+  "productivebees:agate_bee": {
+   "kind": "entity",
+   "name": "Agate Bee"
+  },
+  "productivebees:alexandrite_bee": {
+   "kind": "entity",
+   "name": "Alexandrite Bee"
+  },
+  "productivebees:alfsteel_bee": {
+   "kind": "entity",
+   "name": "Alfsteel Bee"
+  },
+  "productivebees:allthemodium_bee": {
+   "kind": "entity",
+   "name": "Allthemodium Bee"
+  },
+  "productivebees:aluminum_bee": {
+   "kind": "entity",
+   "name": "Aluminium Bee"
+  },
+  "productivebees:amber_bee": {
+   "kind": "entity",
+   "name": "Amber Bee"
+  },
+  "productivebees:amber_gem_bee": {
+   "kind": "entity",
+   "name": "Amber Bee"
+  },
+  "productivebees:amethyst_bee": {
+   "kind": "entity",
+   "name": "Amethyst Bee"
+  },
+  "productivebees:amethyst_bronze_bee": {
+   "kind": "entity",
+   "name": "Amethyst Bronze Bee"
+  },
+  "productivebees:ametrine_bee": {
+   "kind": "entity",
+   "name": "Ametrine Bee"
+  },
+  "productivebees:ammolite_bee": {
+   "kind": "entity",
+   "name": "Ammolite Bee"
+  },
+  "productivebees:apatite_bee": {
+   "kind": "entity",
+   "name": "Apatite Bee"
+  },
+  "productivebees:aquamarine_bee": {
+   "kind": "entity",
+   "name": "Aquamarine Bee"
+  },
+  "productivebees:arcane_bee": {
+   "kind": "entity",
+   "name": "Arcane Bee"
+  },
+  "productivebees:ashy_mining_bee": {
+   "kind": "entity",
+   "name": "Ashy Mining Bee"
+  },
+  "productivebees:awakened_bee": {
+   "kind": "entity",
+   "name": "Awakened Bee"
+  },
+  "productivebees:basalz_bee": {
+   "kind": "entity",
+   "name": "BazBee"
+  },
+  "productivebees:beebee_bee": {
+   "kind": "entity",
+   "name": "BeeBee"
+  },
+  "productivebees:benitoite_bee": {
+   "kind": "entity",
+   "name": "Benitoite Bee"
+  },
+  "productivebees:bismuth_bee": {
+   "kind": "entity",
+   "name": "Bismuth Bee"
+  },
+  "productivebees:black_diamond_bee": {
+   "kind": "entity",
+   "name": "Black Diamond Bee"
+  },
+  "productivebees:black_opal_bee": {
+   "kind": "entity",
+   "name": "Black Opal Bee"
+  },
+  "productivebees:blazing_bee": {
+   "kind": "entity",
+   "name": "BlazBee"
+  },
+  "productivebees:blazing_crystal_bee": {
+   "kind": "entity",
+   "name": "Blazing Crystal Bee"
+  },
+  "productivebees:blitz_bee": {
+   "kind": "entity",
+   "name": "BitzBee"
+  },
+  "productivebees:blizz_bee": {
+   "kind": "entity",
+   "name": "BizBee"
+  },
+  "productivebees:bloody_bee": {
+   "kind": "entity",
+   "name": "Bloody Bee"
+  },
+  "productivebees:blue_banded_bee": {
+   "kind": "entity",
+   "name": "Blue Banded Bee"
+  },
+  "productivebees:brass_bee": {
+   "kind": "entity",
+   "name": "Brass Bee"
+  },
+  "productivebees:bronze_bee": {
+   "kind": "entity",
+   "name": "Bronze Bee"
+  },
+  "productivebees:brown_shroom_bee": {
+   "kind": "entity",
+   "name": "Brown Shroombee"
+  },
+  "productivebees:bumble_bee": {
+   "kind": "entity",
+   "name": "Bumble Bee"
+  },
+  "productivebees:butcher_bee": {
+   "kind": "entity",
+   "name": "Butcher Bee"
+  },
+  "productivebees:calorite_bee": {
+   "kind": "entity",
+   "name": "Calorite Bee"
+  },
+  "productivebees:carnelian_bee": {
+   "kind": "entity",
+   "name": "Carnelian Bee"
+  },
+  "productivebees:cats_eye_bee": {
+   "kind": "entity",
+   "name": "Cats Eye Bee"
+  },
+  "productivebees:chaos_bee": {
+   "kind": "entity",
+   "name": "Chaos Bee"
+  },
+  "productivebees:cheese_bee": {
+   "kind": "entity",
+   "name": "CheezyB"
+  },
+  "productivebees:chocolate_bee": {
+   "kind": "entity",
+   "name": "Choco Bee"
+  },
+  "productivebees:chocolate_mining_bee": {
+   "kind": "entity",
+   "name": "Chocolate Mining Bee"
+  },
+  "productivebees:chrysoprase_bee": {
+   "kind": "entity",
+   "name": "Chrysoprase Bee"
+  },
+  "productivebees:cinnabar_bee": {
+   "kind": "entity",
+   "name": "Cinnabar Bee"
+  },
+  "productivebees:citrine_bee": {
+   "kind": "entity",
+   "name": "Citrine Bee"
+  },
+  "productivebees:coal_bee": {
+   "kind": "entity",
+   "name": "Coal Bee"
+  },
+  "productivebees:cobalt_bee": {
+   "kind": "entity",
+   "name": "Cobalt Bee"
+  },
+  "productivebees:collector_bee": {
+   "kind": "entity",
+   "name": "Collector Bee"
+  },
+  "productivebees:common_salvage_bee": {
+   "kind": "entity",
+   "name": "Common Salvage Bee"
+  },
+  "productivebees:compressed_iron_bee": {
+   "kind": "entity",
+   "name": "Compressed Iron Bee"
+  },
+  "productivebees:constantan_bee": {
+   "kind": "entity",
+   "name": "Constantan Bee"
+  },
+  "productivebees:conductive_alloy_bee": {
+   "kind": "entity",
+   "name": "Conductive Alloy Bee"
+  },
+  "productivebees:copper_bee": {
+   "kind": "entity",
+   "name": "Copper Bee"
+  },
+  "productivebees:coral_bee": {
+   "kind": "entity",
+   "name": "Coral Bee"
+  },
+  "productivebees:cosmic_dust_bee": {
+   "kind": "entity",
+   "name": "Cosmic Bee"
+  },
+  "productivebees:creeper_bee": {
+   "kind": "entity",
+   "name": "CreeBee"
+  },
+  "productivebees:crimson_bee": {
+   "kind": "entity",
+   "name": "Crimson Shroombee"
+  },
+  "productivebees:crystalline_bee": {
+   "kind": "entity",
+   "name": "Crystalline Bee"
+  },
+  "productivebees:cupid_bee": {
+   "kind": "entity",
+   "name": "CuBee"
+  },
+  "productivebees:dark_gem_bee": {
+   "kind": "entity",
+   "name": "Dark Gem Bee"
+  },
+  "productivebees:dark_steel_bee": {
+   "kind": "entity",
+   "name": "Dark Steel Bee"
+  },
+  "productivebees:desh_bee": {
+   "kind": "entity",
+   "name": "Desh Bee"
+  },
+  "productivebees:destabilized_redstone_bee": {
+   "kind": "entity",
+   "name": "Destabilized Redstone Bee"
+  },
+  "productivebees:diamond_bee": {
+   "kind": "entity",
+   "name": "Diamond Bee"
+  },
+  "productivebees:digger_bee": {
+   "kind": "entity",
+   "name": "Digger Bee"
+  },
+  "productivebees:draconic_bee": {
+   "kind": "entity",
+   "name": "Draconic Bee"
+  },
+  "productivebees:draconium_bee": {
+   "kind": "entity",
+   "name": "Draconium Bee"
+  },
+  "productivebees:drenched_iron_bee": {
+   "kind": "entity",
+   "name": "Drenched Iron Bee"
+  },
+  "productivebees:dye_bee": {
+   "kind": "entity",
+   "name": "Dye Bee"
+  },
+  "productivebees:electrum_bee": {
+   "kind": "entity",
+   "name": "Electrum Bee"
+  },
+  "productivebees:elementium_bee": {
+   "kind": "entity",
+   "name": "Elementium Bee"
+  },
+  "productivebees:emerald_bee": {
+   "kind": "entity",
+   "name": "Emerald Bee"
+  },
+  "productivebees:emeraldite_bee": {
+   "kind": "entity",
+   "name": "Emeraldite Bee"
+  },
+  "productivebees:end_gobber_bee": {
+   "kind": "entity",
+   "name": "End Gobber Bee"
+  },
+  "productivebees:end_steel_bee": {
+   "kind": "entity",
+   "name": "End Steel Bee"
+  },
+  "productivebees:ender_bee": {
+   "kind": "entity",
+   "name": "Ender Bee"
+  },
+  "productivebees:ender_slimy_bee": {
+   "kind": "entity",
+   "name": "Ender Slimy Bee"
+  },
+  "productivebees:enderium_bee": {
+   "kind": "entity",
+   "name": "Enderium Bee"
+  },
+  "productivebees:energetic_alloy_bee": {
+   "kind": "entity",
+   "name": "Energetic Alloy Bee"
+  },
+  "productivebees:energized_glowstone_bee": {
+   "kind": "entity",
+   "name": "Energized Glowstone Bee"
+  },
+  "productivebees:energized_steel_bee": {
+   "kind": "entity",
+   "name": "Energized Steel Bee"
+  },
+  "productivebees:epic_salvage_bee": {
+   "kind": "entity",
+   "name": "Epic Salvage Bee"
+  },
+  "productivebees:ether_gas_bee": {
+   "kind": "entity",
+   "name": "Ether Gas Bee"
+  },
+  "productivebees:euclase_bee": {
+   "kind": "entity",
+   "name": "Euclase Bee"
+  },
+  "productivebees:experience_bee": {
+   "kind": "entity",
+   "name": "Experience Bee"
+  },
+  "productivebees:farmer_bee": {
+   "kind": "entity",
+   "name": "Farmer Bee"
+  },
+  "productivebees:fey_bee": {
+   "kind": "entity",
+   "name": "Fey Bee"
+  },
+  "productivebees:fbi_bee": {
+   "kind": "entity",
+   "name": "F. Bee I."
+  },
+  "productivebees:fireite_bee": {
+   "kind": "entity",
+   "name": "Fireite Bee"
+  },
+  "productivebees:fire_dragonsteel_bee": {
+   "kind": "entity",
+   "name": "Fire Dragonsteel Bee"
+  },
+  "productivebees:fluix_bee": {
+   "kind": "entity",
+   "name": "Fluix Bee"
+  },
+  "productivebees:fluorite_bee": {
+   "kind": "entity",
+   "name": "Fluorite Bee"
+  },
+  "productivebees:flux_bee": {
+   "kind": "entity",
+   "name": "Flux Dust Bee"
+  },
+  "productivebees:frosty_bee": {
+   "kind": "entity",
+   "name": "Frosty Bee"
+  },
+  "productivebees:gaiasteel_bee": {
+   "kind": "entity",
+   "name": "Gaiasteel Bee"
+  },
+  "productivebees:garnet_bee": {
+   "kind": "entity",
+   "name": "Garnet Bee"
+  },
+  "productivebees:geode_bee": {
+   "kind": "entity",
+   "name": "Geode Bee"
+  },
+  "productivebees:ghostly_bee": {
+   "kind": "entity",
+   "name": "Ghostly Bee"
+  },
+  "productivebees:glowing_bee": {
+   "kind": "entity",
+   "name": "Glowing Bee"
+  },
+  "productivebees:gobber_bee": {
+   "kind": "entity",
+   "name": "Gobber Bee"
+  },
+  "productivebees:gold_bee": {
+   "kind": "entity",
+   "name": "Gold Bee"
+  },
+  "productivebees:grave_bee": {
+   "kind": "entity",
+   "name": "Grave's Bee"
+  },
+  "productivebees:green_carpenter_bee": {
+   "kind": "entity",
+   "name": "Green Carpenter Bee"
+  },
+  "productivebees:green_sapphire_bee": {
+   "kind": "entity",
+   "name": "Green Sapphire Bee"
+  },
+  "productivebees:heliodor_bee": {
+   "kind": "entity",
+   "name": "Heliodor Bee"
+  },
+  "productivebees:hematophagous_bee": {
+   "kind": "entity",
+   "name": "Hematophagous Bee"
+  },
+  "productivebees:hepatizon_bee": {
+   "kind": "entity",
+   "name": "Hepatizon Bee"
+  },
+  "productivebees:hoarder_bee": {
+   "kind": "entity",
+   "name": "Hoarder Bee"
+  },
+  "productivebees:ice_dragonsteel_bee": {
+   "kind": "entity",
+   "name": "Ice Dragonsteel Bee"
+  },
+  "productivebees:ichor_slimy_bee": {
+   "kind": "entity",
+   "name": "Ichor Slimy Bee"
+  },
+  "productivebees:imperium_bee": {
+   "kind": "entity",
+   "name": "Imperium Bee"
+  },
+  "productivebees:iesnium_bee": {
+   "kind": "entity",
+   "name": "Iesnium Bee"
+  },
+  "productivebees:inert_crystal_bee": {
+   "kind": "entity",
+   "name": "Inert Crystal Bee"
+  },
+  "productivebees:infinity_bee": {
+   "kind": "entity",
+   "name": "Bee of Infinity"
+  },
+  "productivebees:air_crystal_bee": {
+   "kind": "entity",
+   "name": "Air Crystal Bee"
+  },
+  "productivebees:earth_crystal_bee": {
+   "kind": "entity",
+   "name": "Earth Crystal Bee"
+  },
+  "productivebees:fire_crystal_bee": {
+   "kind": "entity",
+   "name": "Fire Crystal Bee"
+  },
+  "productivebees:water_crystal_bee": {
+   "kind": "entity",
+   "name": "Water Crystal Bee"
+  },
+  "productivebees:inferium_bee": {
+   "kind": "entity",
+   "name": "Inferium Bee"
+  },
+  "productivebees:insanium_bee": {
+   "kind": "entity",
+   "name": "Insanium Bee"
+  },
+  "productivebees:invar_bee": {
+   "kind": "entity",
+   "name": "Invar Bee"
+  },
+  "productivebees:iolite_bee": {
+   "kind": "entity",
+   "name": "Iolite Bee"
+  },
+  "productivebees:iridium_bee": {
+   "kind": "entity",
+   "name": "Iridium Bee"
+  },
+  "productivebees:iron_bee": {
+   "kind": "entity",
+   "name": "Iron Bee"
+  },
+  "productivebees:jasper_bee": {
+   "kind": "entity",
+   "name": "Jasper Bee"
+  },
+  "productivebees:kamikaz_bee": {
+   "kind": "entity",
+   "name": "KamikazBee"
+  },
+  "productivebees:knightslime_bee": {
+   "kind": "entity",
+   "name": "Knightslime Bee"
+  },
+  "productivebees:kunzite_bee": {
+   "kind": "entity",
+   "name": "Kunzite Bee"
+  },
+  "productivebees:kyanite_bee": {
+   "kind": "entity",
+   "name": "Kyanite Bee"
+  },
+  "productivebees:lava_bee": {
+   "kind": "entity",
+   "name": "Lava Bee"
+  },
+  "productivebees:lapis_bee": {
+   "kind": "entity",
+   "name": "Lapis Bee"
+  },
+  "productivebees:lead_bee": {
+   "kind": "entity",
+   "name": "Lead Bee"
+  },
+  "productivebees:leafcutter_bee": {
+   "kind": "entity",
+   "name": "Leafcutter Bee"
+  },
+  "productivebees:legendary_salvage_bee": {
+   "kind": "entity",
+   "name": "Legendary Salvage Bee"
+  },
+  "productivebees:lightning_dragonsteel_bee": {
+   "kind": "entity",
+   "name": "Lightning Dragonsteel Bee"
+  },
+  "productivebees:lumber_bee": {
+   "kind": "entity",
+   "name": "Lumber Bee"
+  },
+  "productivebees:lumium_bee": {
+   "kind": "entity",
+   "name": "Lumium Bee"
+  },
+  "productivebees:magmatic_bee": {
+   "kind": "entity",
+   "name": "Magmatic Bee"
+  },
+  "productivebees:malachite_bee": {
+   "kind": "entity",
+   "name": "Malachite Bee"
+  },
+  "productivebees:mana_bee": {
+   "kind": "entity",
+   "name": "Mana Bee"
+  },
+  "productivebees:manasteel_bee": {
+   "kind": "entity",
+   "name": "Manasteel Bee"
+  },
+  "productivebees:manyullyn_bee": {
+   "kind": "entity",
+   "name": "Manyullyn Bee"
+  },
+  "productivebees:mason_bee": {
+   "kind": "entity",
+   "name": "Mason Bee"
+  },
+  "productivebees:menril_bee": {
+   "kind": "entity",
+   "name": "Menril Bee"
+  },
+  "productivebees:moldavite_bee": {
+   "kind": "entity",
+   "name": "Moldavite Bee"
+  },
+  "productivebees:moonstone_bee": {
+   "kind": "entity",
+   "name": "Moonstone Bee"
+  },
+  "productivebees:morganite_bee": {
+   "kind": "entity",
+   "name": "Morganite Bee"
+  },
+  "productivebees:neon_cuckoo_bee": {
+   "kind": "entity",
+   "name": "Neon Cuckoo Bee"
+  },
+  "productivebees:nether_gobber_bee": {
+   "kind": "entity",
+   "name": "Nether Gobber Bee"
+  },
+  "productivebees:netherite_bee": {
+   "kind": "entity",
+   "name": "Ancient Bee"
+  },
+  "productivebees:nickel_bee": {
+   "kind": "entity",
+   "name": "Nickel Bee"
+  },
+  "productivebees:niotic_crystal_bee": {
+   "kind": "entity",
+   "name": "Niotic Crystal Bee"
+  },
+  "productivebees:niter_bee": {
+   "kind": "entity",
+   "name": "Niter Bee"
+  },
+  "productivebees:nitro_crystal_bee": {
+   "kind": "entity",
+   "name": "Nitro Crystal Bee"
+  },
+  "productivebees:nomad_bee": {
+   "kind": "entity",
+   "name": "Nomad Bee"
+  },
+  "productivebees:obsidian_bee": {
+   "kind": "entity",
+   "name": "Obsidian Bee"
+  },
+  "productivebees:oily_bee": {
+   "kind": "entity",
+   "name": "Oily Bee"
+  },
+  "productivebees:onyx_bee": {
+   "kind": "entity",
+   "name": "Onyx Bee"
+  },
+  "productivebees:opal_bee": {
+   "kind": "entity",
+   "name": "Opal Bee"
+  },
+  "productivebees:osmium_bee": {
+   "kind": "entity",
+   "name": "Osmium Bee"
+  },
+  "productivebees:ostrum_bee": {
+   "kind": "entity",
+   "name": "Ostrum Bee"
+  },
+  "productivebees:patrick_bee": {
+   "kind": "entity",
+   "name": "Patrick Bee"
+  },
+  "productivebees:pearl_bee": {
+   "kind": "entity",
+   "name": "Pearl Bee"
+  },
+  "productivebees:pendorite_bee": {
+   "kind": "entity",
+   "name": "Pendorite Bee"
+  },
+  "productivebees:pepto_bismol_bee": {
+   "kind": "entity",
+   "name": "Pepto Beesmol"
+  },
+  "productivebees:peridot_bee": {
+   "kind": "entity",
+   "name": "Peridot Bee"
+  },
+  "productivebees:phosphophyllite_bee": {
+   "kind": "entity",
+   "name": "Phosphophyllite Bee"
+  },
+  "productivebees:pig_iron_bee": {
+   "kind": "entity",
+   "name": "Pig Iron Bee"
+  },
+  "productivebees:pink_slimy_bee": {
+   "kind": "entity",
+   "name": "Pink Slimy Bee"
+  },
+  "productivebees:plastic_bee": {
+   "kind": "entity",
+   "name": "Plastic Bee"
+  },
+  "productivebees:platinum_bee": {
+   "kind": "entity",
+   "name": "Platinum Bee"
+  },
+  "productivebees:prismarine_bee": {
+   "kind": "entity",
+   "name": "Prismarine Bee"
+  },
+  "productivebees:prosperity_bee": {
+   "kind": "entity",
+   "name": "ProsperiBee"
+  },
+  "productivebees:prudentium_bee": {
+   "kind": "entity",
+   "name": "Prudentium Bee"
+  },
+  "productivebees:pulsating_alloy_bee": {
+   "kind": "entity",
+   "name": "Pulsating Alloy Bee"
+  },
+  "productivebees:pure_bee": {
+   "kind": "entity",
+   "name": "Pure Bee"
+  },
+  "productivebees:pure_crystal_bee": {
+   "kind": "entity",
+   "name": "Pure Crystal Bee"
+  },
+  "productivebees:pyrope_bee": {
+   "kind": "entity",
+   "name": "Pyrope Bee"
+  },
+  "productivebees:quarry_bee": {
+   "kind": "entity",
+   "name": "Quarry Bee"
+  },
+  "productivebees:quartz_enriched_iron_bee": {
+   "kind": "entity",
+   "name": "Quartz Enriched Iron Bee"
+  },
+  "productivebees:queens_slime_bee": {
+   "kind": "entity",
+   "name": "Queens Slime Bee"
+  },
+  "productivebees:radioactive_bee": {
+   "kind": "entity",
+   "name": "Radioactive Bee"
+  },
+  "productivebees:rancher_bee": {
+   "kind": "entity",
+   "name": "Rancher Bee"
+  },
+  "productivebees:rare_salvage_bee": {
+   "kind": "entity",
+   "name": "Rare Salvage Bee"
+  },
+  "productivebees:red_shroom_bee": {
+   "kind": "entity",
+   "name": "Red Shroombee"
+  },
+  "productivebees:redstone_alloy_bee": {
+   "kind": "entity",
+   "name": "Redstone Alloy Bee"
+  },
+  "productivebees:redstone_bee": {
+   "kind": "entity",
+   "name": "Redstone Bee"
+  },
+  "productivebees:reed_bee": {
+   "kind": "entity",
+   "name": "Reed Bee"
+  },
+  "productivebees:refined_glowstone_bee": {
+   "kind": "entity",
+   "name": "Refined Glowstone Bee"
+  },
+  "productivebees:refined_obsidian_bee": {
+   "kind": "entity",
+   "name": "Refined Obsidian Bee"
+  },
+  "productivebees:regenerative_bee": {
+   "kind": "entity",
+   "name": "Regenerative Bee"
+  },
+  "productivebees:resin_bee": {
+   "kind": "entity",
+   "name": "Resin Bee"
+  },
+  "productivebees:resonant_ender_bee": {
+   "kind": "entity",
+   "name": "Resonant Ender Bee"
+  },
+  "productivebees:rock_crystal_bee": {
+   "kind": "entity",
+   "name": "Rock Crystal Bee"
+  },
+  "productivebees:rose_gold_bee": {
+   "kind": "entity",
+   "name": "Rose Gold Bee"
+  },
+  "productivebees:rose_quartz_bee": {
+   "kind": "entity",
+   "name": "Rose Quartz Bee"
+  },
+  "productivebees:ruby_bee": {
+   "kind": "entity",
+   "name": "RuBee"
+  },
+  "productivebees:sapphire_bee": {
+   "kind": "entity",
+   "name": "Sapphire Bee"
+  },
+  "productivebees:salty_bee": {
+   "kind": "entity",
+   "name": "Salty Bee"
+  },
+  "productivebees:sculk_bee": {
+   "kind": "entity",
+   "name": "Sculk Bee"
+  },
+  "productivebees:signalum_bee": {
+   "kind": "entity",
+   "name": "Signalum Bee"
+  },
+  "productivebees:silicon_bee": {
+   "kind": "entity",
+   "name": "Silicon Bee"
+  },
+  "productivebees:silky_bee": {
+   "kind": "entity",
+   "name": "Silky Bee"
+  },
+  "productivebees:silver_bee": {
+   "kind": "entity",
+   "name": "Silver Bee"
+  },
+  "productivebees:skeletal_bee": {
+   "kind": "entity",
+   "name": "Skeletal Bee"
+  },
+  "productivebees:sky_slimy_bee": {
+   "kind": "entity",
+   "name": "Sky Slimy Bee"
+  },
+  "productivebees:slimesteel_bee": {
+   "kind": "entity",
+   "name": "Slimesteel Bee"
+  },
+  "productivebees:slimy_bee": {
+   "kind": "entity",
+   "name": "Slimy Bee"
+  },
+  "productivebees:sodalite_bee": {
+   "kind": "entity",
+   "name": "Sodalite Bee"
+  },
+  "productivebees:soularium_bee": {
+   "kind": "entity",
+   "name": "Soularium Bee"
+  },
+  "productivebees:soulium_bee": {
+   "kind": "entity",
+   "name": "Soulium Bee"
+  },
+  "productivebees:soulsteel_bee": {
+   "kind": "entity",
+   "name": "Soulsteel Bee"
+  },
+  "productivebees:soul_lava_bee": {
+   "kind": "entity",
+   "name": "Soul Lava Bee"
+  },
+  "productivebees:spacial_bee": {
+   "kind": "entity",
+   "name": "Spatial Bee"
+  },
+  "productivebees:spectrum_bee": {
+   "kind": "entity",
+   "name": "Spectrum Bee"
+  },
+  "productivebees:spinel_bee": {
+   "kind": "entity",
+   "name": "Spinel Bee"
+  },
+  "productivebees:spirit_bee": {
+   "kind": "entity",
+   "name": "Spirit Bee"
+  },
+  "productivebees:spirited_crystal_bee": {
+   "kind": "entity",
+   "name": "Spirited Crystal Bee"
+  },
+  "productivebees:sponge_bee": {
+   "kind": "entity",
+   "name": "Sponge Bee"
+  },
+  "productivebees:springaline_bee": {
+   "kind": "entity",
+   "name": "Springaline Bee"
+  },
+  "productivebees:starmetal_bee": {
+   "kind": "entity",
+   "name": "Starmetal Bee"
+  },
+  "productivebees:starry_bee": {
+   "kind": "entity",
+   "name": "Starry Bee"
+  },
+  "productivebees:gregstar_bee": {
+   "kind": "entity",
+   "name": "GregStar Bee"
+  },
+  "productivebees:neutronium_bee": {
+   "kind": "entity",
+   "name": "Neutronium Bee"
+  },
+  "productivebees:steel_bee": {
+   "kind": "entity",
+   "name": "Steel Bee"
+  },
+  "productivebees:sticky_resin_bee": {
+   "kind": "entity",
+   "name": "Sticky Resin Bee"
+  },
+  "productivebees:sussy_bee": {
+   "kind": "entity",
+   "name": "Sussy Bee"
+  },
+  "productivebees:sugarbag_bee": {
+   "kind": "entity",
+   "name": "Sugarbag Bee"
+  },
+  "productivebees:sulfur_bee": {
+   "kind": "entity",
+   "name": "Sulfur Bee"
+  },
+  "productivebees:sunstone_bee": {
+   "kind": "entity",
+   "name": "Sunstone Bee"
+  },
+  "productivebees:sweat_bee": {
+   "kind": "entity",
+   "name": "Sweat Bee"
+  },
+  "productivebees:swift_alloy_bee": {
+   "kind": "entity",
+   "name": "Swift Alloy Bee"
+  },
+  "productivebees:tanzanite_bee": {
+   "kind": "entity",
+   "name": "Tanzanite Bee"
+  },
+  "productivebees:tea_bee": {
+   "kind": "entity",
+   "name": "Tea Bee"
+  },
+  "productivebees:tektite_bee": {
+   "kind": "entity",
+   "name": "Tektite Bee"
+  },
+  "productivebees:terrasteel_bee": {
+   "kind": "entity",
+   "name": "Terrasteel Bee"
+  },
+  "productivebees:tertium_bee": {
+   "kind": "entity",
+   "name": "Tertium Bee"
+  },
+  "productivebees:tin_bee": {
+   "kind": "entity",
+   "name": "Tin Bee"
+  },
+  "productivebees:titanium_bee": {
+   "kind": "entity",
+   "name": "Titanium Bee"
+  },
+  "productivebees:topaz_bee": {
+   "kind": "entity",
+   "name": "Topaz Bee"
+  },
+  "productivebees:tourmaline_bee": {
+   "kind": "entity",
+   "name": "Tourmaline Bee"
+  },
+  "productivebees:tungsten_bee": {
+   "kind": "entity",
+   "name": "Tungsten Bee"
+  },
+  "productivebees:turquoise_bee": {
+   "kind": "entity",
+   "name": "Turquoise Bee"
+  },
+  "productivebees:uncommon_salvage_bee": {
+   "kind": "entity",
+   "name": "Uncommon Salvage Bee"
+  },
+  "productivebees:unobtainium_bee": {
+   "kind": "entity",
+   "name": "Unobtainium Bee"
+  },
+  "productivebees:uraninite_bee": {
+   "kind": "entity",
+   "name": "Uraninite Bee"
+  },
+  "productivebees:vibranium_bee": {
+   "kind": "entity",
+   "name": "Vibranium Bee"
+  },
+  "productivebees:vibrant_alloy_bee": {
+   "kind": "entity",
+   "name": "Vibrant Alloy Bee"
+  },
+  "productivebees:wanna_bee": {
+   "kind": "entity",
+   "name": "WannaBee"
+  },
+  "productivebees:warped_bee": {
+   "kind": "entity",
+   "name": "Warped Shroombee"
+  },
+  "productivebees:wasted_radioactive_bee": {
+   "kind": "entity",
+   "name": "Wasted Radioactive Bee"
+  },
+  "productivebees:withered_bee": {
+   "kind": "entity",
+   "name": "Withered Bee"
+  },
+  "productivebees:white_diamond_bee": {
+   "kind": "entity",
+   "name": "White Diamond Bee"
+  },
+  "productivebees:yellow_black_carpenter_bee": {
+   "kind": "entity",
+   "name": "Yellow Carpenter Bee"
+  },
+  "productivebees:zinc_bee": {
+   "kind": "entity",
+   "name": "Zinc Bee"
+  },
+  "productivebees:zircon_bee": {
+   "kind": "entity",
+   "name": "Zircon Bee"
+  },
+  "productivebees:zombie_bee": {
+   "kind": "entity",
+   "name": "ZomBee"
+  },
+  "productivebees:actinium_bee": {
+   "kind": "entity",
+   "name": "Actinium Bee"
+  },
+  "productivebees:americium_bee": {
+   "kind": "entity",
+   "name": "Americium Bee"
+  },
+  "productivebees:antimony_bee": {
+   "kind": "entity",
+   "name": "Antimony Bee"
+  },
+  "productivebees:argon_bee": {
+   "kind": "entity",
+   "name": "Argon Bee"
+  },
+  "productivebees:arsenic_bee": {
+   "kind": "entity",
+   "name": "Arsenic Bee"
+  },
+  "productivebees:astatine_bee": {
+   "kind": "entity",
+   "name": "Astatine Bee"
+  },
+  "productivebees:barium_bee": {
+   "kind": "entity",
+   "name": "Barium Bee"
+  },
+  "productivebees:berkelium_bee": {
+   "kind": "entity",
+   "name": "Berkelium Bee"
+  },
+  "productivebees:beryllium_bee": {
+   "kind": "entity",
+   "name": "Beryllium Bee"
+  },
+  "productivebees:bohrium_bee": {
+   "kind": "entity",
+   "name": "Bohrium Bee"
+  },
+  "productivebees:boron_bee": {
+   "kind": "entity",
+   "name": "Boron Bee"
+  },
+  "productivebees:bromine_bee": {
+   "kind": "entity",
+   "name": "Bromine Bee"
+  },
+  "productivebees:cadmium_bee": {
+   "kind": "entity",
+   "name": "Cadmium Bee"
+  },
+  "productivebees:calcium_bee": {
+   "kind": "entity",
+   "name": "Calcium Bee"
+  },
+  "productivebees:californium_bee": {
+   "kind": "entity",
+   "name": "Californium Bee"
+  },
+  "productivebees:cerium_bee": {
+   "kind": "entity",
+   "name": "Cerium Bee"
+  },
+  "productivebees:cesium_bee": {
+   "kind": "entity",
+   "name": "Cesium Bee"
+  },
+  "productivebees:chlorine_bee": {
+   "kind": "entity",
+   "name": "Chlorine Bee"
+  },
+  "productivebees:chromium_bee": {
+   "kind": "entity",
+   "name": "Chromium Bee"
+  },
+  "productivebees:copernicium_bee": {
+   "kind": "entity",
+   "name": "Copernicium Bee"
+  },
+  "productivebees:curium_bee": {
+   "kind": "entity",
+   "name": "Curium Bee"
+  },
+  "productivebees:darmstadtium_bee": {
+   "kind": "entity",
+   "name": "Darmstadtium Bee"
+  },
+  "productivebees:dubnium_bee": {
+   "kind": "entity",
+   "name": "Dubnium Bee"
+  },
+  "productivebees:dysprosium_bee": {
+   "kind": "entity",
+   "name": "Dysprosium Bee"
+  },
+  "productivebees:einsteinium_bee": {
+   "kind": "entity",
+   "name": "Einsteinium Bee"
+  },
+  "productivebees:erbium_bee": {
+   "kind": "entity",
+   "name": "Erbium Bee"
+  },
+  "productivebees:europium_bee": {
+   "kind": "entity",
+   "name": "Europium Bee"
+  },
+  "productivebees:fermium_bee": {
+   "kind": "entity",
+   "name": "Fermium Bee"
+  },
+  "productivebees:flerovium_bee": {
+   "kind": "entity",
+   "name": "Flerovium Bee"
+  },
+  "productivebees:fluorine_bee": {
+   "kind": "entity",
+   "name": "Fluorine Bee"
+  },
+  "productivebees:francium_bee": {
+   "kind": "entity",
+   "name": "Francium Bee"
+  },
+  "productivebees:gadolinium_bee": {
+   "kind": "entity",
+   "name": "Gadolinium Bee"
+  },
+  "productivebees:gallium_bee": {
+   "kind": "entity",
+   "name": "Gallium Bee"
+  },
+  "productivebees:germanium_bee": {
+   "kind": "entity",
+   "name": "Germanium Bee"
+  },
+  "productivebees:hafnium_bee": {
+   "kind": "entity",
+   "name": "Hafnium Bee"
+  },
+  "productivebees:hassium_bee": {
+   "kind": "entity",
+   "name": "Hassium Bee"
+  },
+  "productivebees:helium_bee": {
+   "kind": "entity",
+   "name": "Helium Bee"
+  },
+  "productivebees:holmium_bee": {
+   "kind": "entity",
+   "name": "Holmium Bee"
+  },
+  "productivebees:hydrogen_bee": {
+   "kind": "entity",
+   "name": "Hydrogen Bee"
+  },
+  "productivebees:indium_bee": {
+   "kind": "entity",
+   "name": "Indium Bee"
+  },
+  "productivebees:iodine_bee": {
+   "kind": "entity",
+   "name": "Iodine Bee"
+  },
+  "productivebees:krypton_bee": {
+   "kind": "entity",
+   "name": "Krypton Bee"
+  },
+  "productivebees:lanthanum_bee": {
+   "kind": "entity",
+   "name": "Lanthanum Bee"
+  },
+  "productivebees:lawrencium_bee": {
+   "kind": "entity",
+   "name": "Lawrencium Bee"
+  },
+  "productivebees:lithium_bee": {
+   "kind": "entity",
+   "name": "Lithium Bee"
+  },
+  "productivebees:livermorium_bee": {
+   "kind": "entity",
+   "name": "Livermorium Bee"
+  },
+  "productivebees:lutetium_bee": {
+   "kind": "entity",
+   "name": "Lutetium Bee"
+  },
+  "productivebees:magnesium_bee": {
+   "kind": "entity",
+   "name": "Magnesium Bee"
+  },
+  "productivebees:manganese_bee": {
+   "kind": "entity",
+   "name": "Manganese Bee"
+  },
+  "productivebees:meitnerium_bee": {
+   "kind": "entity",
+   "name": "Meitnerium Bee"
+  },
+  "productivebees:mendelevium_bee": {
+   "kind": "entity",
+   "name": "Mendelevium Bee"
+  },
+  "productivebees:mercury_bee": {
+   "kind": "entity",
+   "name": "Mercury Bee"
+  },
+  "productivebees:molybdenum_bee": {
+   "kind": "entity",
+   "name": "Molybdenum Bee"
+  },
+  "productivebees:moscovium_bee": {
+   "kind": "entity",
+   "name": "Moscovium Bee"
+  },
+  "productivebees:neodymium_bee": {
+   "kind": "entity",
+   "name": "Neodymium Bee"
+  },
+  "productivebees:neon_bee": {
+   "kind": "entity",
+   "name": "Neon Bee"
+  },
+  "productivebees:neptunium_bee": {
+   "kind": "entity",
+   "name": "Neptunium Bee"
+  },
+  "productivebees:nihonium_bee": {
+   "kind": "entity",
+   "name": "Nihonium Bee"
+  },
+  "productivebees:nitrogen_bee": {
+   "kind": "entity",
+   "name": "Nitrogen Bee"
+  },
+  "productivebees:nobelium_bee": {
+   "kind": "entity",
+   "name": "Nobelium Bee"
+  },
+  "productivebees:niobium_bee": {
+   "kind": "entity",
+   "name": "Niobium Bee"
+  },
+  "productivebees:oganesson_bee": {
+   "kind": "entity",
+   "name": "Oganesson Bee"
+  },
+  "productivebees:oxygen_bee": {
+   "kind": "entity",
+   "name": "Oxygen Bee"
+  },
+  "productivebees:palladium_bee": {
+   "kind": "entity",
+   "name": "Palladium Bee"
+  },
+  "productivebees:phosphorus_bee": {
+   "kind": "entity",
+   "name": "Phosphorus Bee"
+  },
+  "productivebees:plutonium_bee": {
+   "kind": "entity",
+   "name": "Plutonium Bee"
+  },
+  "productivebees:polonium_bee": {
+   "kind": "entity",
+   "name": "Polonium Bee"
+  },
+  "productivebees:potassium_bee": {
+   "kind": "entity",
+   "name": "Potassium Bee"
+  },
+  "productivebees:praseodymium_bee": {
+   "kind": "entity",
+   "name": "Praseodymium Bee"
+  },
+  "productivebees:promethium_bee": {
+   "kind": "entity",
+   "name": "Promethium Bee"
+  },
+  "productivebees:protactinium_bee": {
+   "kind": "entity",
+   "name": "Protactinium Bee"
+  },
+  "productivebees:radium_bee": {
+   "kind": "entity",
+   "name": "Radium Bee"
+  },
+  "productivebees:radon_bee": {
+   "kind": "entity",
+   "name": "Radon Bee"
+  },
+  "productivebees:rhenium_bee": {
+   "kind": "entity",
+   "name": "Rhenium Bee"
+  },
+  "productivebees:rhodium_bee": {
+   "kind": "entity",
+   "name": "Rhodium Bee"
+  },
+  "productivebees:roentgenium_bee": {
+   "kind": "entity",
+   "name": "Roentgenium Bee"
+  },
+  "productivebees:rubidium_bee": {
+   "kind": "entity",
+   "name": "Rubidium Bee"
+  },
+  "productivebees:ruthenium_bee": {
+   "kind": "entity",
+   "name": "Ruthenium Bee"
+  },
+  "productivebees:rutherfordium_bee": {
+   "kind": "entity",
+   "name": "Rutherfordium Bee"
+  },
+  "productivebees:samarium_bee": {
+   "kind": "entity",
+   "name": "Samarium Bee"
+  },
+  "productivebees:scandium_bee": {
+   "kind": "entity",
+   "name": "Scandium Bee"
+  },
+  "productivebees:seaborgium_bee": {
+   "kind": "entity",
+   "name": "Seaborgium Bee"
+  },
+  "productivebees:selenium_bee": {
+   "kind": "entity",
+   "name": "Selenium Bee"
+  },
+  "productivebees:silicium_bee": {
+   "kind": "entity",
+   "name": "Silicium Bee"
+  },
+  "productivebees:sodium_bee": {
+   "kind": "entity",
+   "name": "Sodium Bee"
+  },
+  "productivebees:strontium_bee": {
+   "kind": "entity",
+   "name": "Strontium Bee"
+  },
+  "productivebees:tantalum_bee": {
+   "kind": "entity",
+   "name": "Tantalum Bee"
+  },
+  "productivebees:technetium_bee": {
+   "kind": "entity",
+   "name": "Technetium Bee"
+  },
+  "productivebees:tellurium_bee": {
+   "kind": "entity",
+   "name": "Tellurium Bee"
+  },
+  "productivebees:tennessine_bee": {
+   "kind": "entity",
+   "name": "Tennessine Bee"
+  },
+  "productivebees:terbium_bee": {
+   "kind": "entity",
+   "name": "Terbium Bee"
+  },
+  "productivebees:thallium_bee": {
+   "kind": "entity",
+   "name": "Thallium Bee"
+  },
+  "productivebees:thorium_bee": {
+   "kind": "entity",
+   "name": "Thorium Bee"
+  },
+  "productivebees:thulium_bee": {
+   "kind": "entity",
+   "name": "Thulium Bee"
+  },
+  "productivebees:vanadium_bee": {
+   "kind": "entity",
+   "name": "Vanadium Bee"
+  },
+  "productivebees:xenon_bee": {
+   "kind": "entity",
+   "name": "Xenon Bee"
+  },
+  "productivebees:ytterbium_bee": {
+   "kind": "entity",
+   "name": "Ytterbium Bee"
+  },
+  "productivebees:yttrium_bee": {
+   "kind": "entity",
+   "name": "Yttrium Bee"
+  },
+  "productivebees:zirconium_bee": {
+   "kind": "entity",
+   "name": "Zirconium Bee"
+  },
+  "productivebees:water_bee": {
+   "kind": "entity",
+   "name": "Water Bee"
+  },
+  "productivebees:gregshell_bee": {
+   "kind": "entity",
+   "name": "Full Metal Patrick Bee"
+  },
+  "productivebees:cyanite_bee": {
+   "kind": "entity",
+   "name": "Cyanite Bee"
+  },
+  "productivebees:blutonium_bee": {
+   "kind": "entity",
+   "name": "Blutonium Bee"
+  },
+  "productivebees:magentite_bee": {
+   "kind": "entity",
+   "name": "Magentite Bee"
+  },
+  "productivebees:ludicrite_bee": {
+   "kind": "entity",
+   "name": "Ludicrite Bee"
+  },
+  "productivebees:ridiculite_bee": {
+   "kind": "entity",
+   "name": "Ridiculite Bee"
+  },
+  "productivebees:inanite_bee": {
+   "kind": "entity",
+   "name": "Inanite Bee"
+  },
+  "productivebees:insanite_bee": {
+   "kind": "entity",
+   "name": "Insanite Bee"
+  },
+  "productivebees:arcane_crystal_bee": {
+   "kind": "entity",
+   "name": "Arcanus Bee"
+  },
+  "productivebees:deorum_bee": {
+   "kind": "entity",
+   "name": "Deorum Bee"
+  },
+  "productivebees:rune_bee": {
+   "kind": "entity",
+   "name": "Rune Bee"
+  },
+  "productivebees:stellarite_bee": {
+   "kind": "entity",
+   "name": "Stellarite Bee"
+  },
+  "productivebees:super_experience_bee": {
+   "kind": "entity",
+   "name": "Super Experience Bee"
+  },
+  "productivebees:soul_infused_bee": {
+   "kind": "entity",
+   "name": "Soul Infused Bee"
+  },
+  "productivebees:shellite_bee": {
+   "kind": "entity",
+   "name": "Shellite Bee"
+  },
+  "productivebees:twinite_bee": {
+   "kind": "entity",
+   "name": "Twinite Bee"
+  },
+  "productivebees:dragonsteel_bee": {
+   "kind": "entity",
+   "name": "Dragonsteel Bee"
+  },
+  "productivebees:arcane_debris_bee": {
+   "kind": "entity",
+   "name": "Arcane Debris Bee"
+  },
+  "productivebees:arcane_essence_bee": {
+   "kind": "entity",
+   "name": "Arcane Essence Bee"
+  },
+  "productivebees:infused_iron_bee": {
+   "kind": "entity",
+   "name": "Infused Iron Bee"
+  },
+  "productivebees:sky_ingot_bee": {
+   "kind": "entity",
+   "name": "Bee of the Sky"
+  },
+  "productivebees:tainted_gold_bee": {
+   "kind": "entity",
+   "name": "Tainted Gold Bee"
+  },
+  "productivebees:soul_shard_bee": {
+   "kind": "entity",
+   "name": "Soul Bee"
+  },
+  "productivebees:arcane_gold_bee": {
+   "kind": "entity",
+   "name": "Arcane Gold Bee"
+  },
+  "productivebees:pewter_bee": {
+   "kind": "entity",
+   "name": "Pewter Bee"
+  },
+  "productivebees:hop_graphite_bee": {
+   "kind": "entity",
+   "name": "HOP Graphite Bee"
+  },
+  "productivebees:hellfire_bee": {
+   "kind": "entity",
+   "name": "Hellfire Bee"
+  },
+  "productivebees:amaramber_bee": {
+   "kind": "entity",
+   "name": "Amaramber Bee"
+  },
+  "productivebees:deepsilver_bee": {
+   "kind": "entity",
+   "name": "Deepsilver Bee"
+  },
+  "productivebees:glacite_bee": {
+   "kind": "entity",
+   "name": "Glacite Bee"
+  },
+  "productivebees:malarite_bee": {
+   "kind": "entity",
+   "name": "Malarite Bee"
+  },
+  "productivebees:starcore_bee": {
+   "kind": "entity",
+   "name": "Starcore Bee"
+  },
+  "productivebees:starlit_diamond_bee": {
+   "kind": "entity",
+   "name": "Starlit Diamond Bee"
+  },
+  "productivebees:thermal_bee": {
+   "kind": "entity",
+   "name": "Thermal Bee"
+  },
+  "productivebees:sky_steel_bee": {
+   "kind": "entity",
+   "name": "Sky Steel Bee"
+  },
+  "productivebees:astral_bee": {
+   "kind": "entity",
+   "name": "Astral Bee"
+  },
+  "productivebees:etherium_ore_bee": {
+   "kind": "entity",
+   "name": "Etherium Bee"
+  },
+  "productivebees:bauxite_bee": {
+   "kind": "entity",
+   "name": "Bauxite Bee"
+  },
+  "productivebees:cobaltite_bee": {
+   "kind": "entity",
+   "name": "Cobaltite Bee"
+  },
+  "productivebees:chromite_bee": {
+   "kind": "entity",
+   "name": "Chromite Bee"
+  },
+  "productivebees:barite_bee": {
+   "kind": "entity",
+   "name": "Barite Bee"
+  },
+  "productivebees:electrotine_bee": {
+   "kind": "entity",
+   "name": "Electrotine Bee"
+  },
+  "productivebees:ilmenite_bee": {
+   "kind": "entity",
+   "name": "Ilmenite Bee"
+  },
+  "productivebees:galena_bee": {
+   "kind": "entity",
+   "name": "Galena Bee"
+  },
+  "productivebees:pyrochlore_bee": {
+   "kind": "entity",
+   "name": "Pyrochlore Bee"
+  },
+  "productivebees:lepidolite_bee": {
+   "kind": "entity",
+   "name": "Lepidolite Bee"
+  },
+  "productivebees:graphite_bee": {
+   "kind": "entity",
+   "name": "Graphite Bee"
+  },
+  "productivebees:bastnasite_bee": {
+   "kind": "entity",
+   "name": "Bastnasite Bee"
+  },
+  "productivebees:naquadah_bee": {
+   "kind": "entity",
+   "name": "Naquadah Bee"
+  },
+  "productivebees:oilsands_bee": {
+   "kind": "entity",
+   "name": "Oilsands Bee"
+  },
+  "productivebees:pyrolusite_bee": {
+   "kind": "entity",
+   "name": "Pyrolusite Bee"
+  },
+  "productivebees:realgar_bee": {
+   "kind": "entity",
+   "name": "Realgar Bee"
+  },
+  "productivebees:royal_bee": {
+   "kind": "entity",
+   "name": "Her Royal Beeness"
+  },
+  "productivebees:scheelite_bee": {
+   "kind": "entity",
+   "name": "Scheelite Bee"
+  },
+  "productivebees:sheldonite_bee": {
+   "kind": "entity",
+   "name": "Sheldonite Bee"
+  },
+  "productivebees:sphalerite_bee": {
+   "kind": "entity",
+   "name": "Sphalerite Bee"
+  },
+  "productivebees:stibnite_bee": {
+   "kind": "entity",
+   "name": "Stibnite Bee"
+  },
+  "productivebees:tantalite_bee": {
+   "kind": "entity",
+   "name": "Tantalite Bee"
+  },
+  "productivebees:tetrahedrite_bee": {
+   "kind": "entity",
+   "name": "Tetrahedrite Bee"
+  },
+  "productivebees:tricalcium_phosphate_bee": {
+   "kind": "entity",
+   "name": "Tricalcium Phosphate Bee"
+  },
+  "productivebees:tungstate_bee": {
+   "kind": "entity",
+   "name": "Tungstate Bee"
+  },
+  "productivebees:vanadium_magnetite_bee": {
+   "kind": "entity",
+   "name": "Vanadium Magnetite Bee"
+  },
+  "productivebees:monazite_bee": {
+   "kind": "entity",
+   "name": "Monazite Bee"
+  },
+  "productivebees:breeze_bee": {
+   "kind": "entity",
+   "name": "BreezBee"
+  },
+  "productivebees:ribbeet_bee": {
+   "kind": "entity",
+   "name": "Ribbeet"
+  },
+  "productivebees:ferricore_bee": {
+   "kind": "entity",
+   "name": "Ferricore Bee"
+  },
+  "productivebees:blazegold_bee": {
+   "kind": "entity",
+   "name": "Blazegold Bee"
+  },
+  "productivebees:eclipsealloy_bee": {
+   "kind": "entity",
+   "name": "Eclipse Alloy Bee"
+  },
+  "productivebees:celestigem_bee": {
+   "kind": "entity",
+   "name": "Celestigem Bee"
+  },
+  "productivebees:chaotic_bee": {
+   "kind": "entity",
+   "name": "Chaos Bee"
+  },
+  "productivebees:miracle_bee": {
+   "kind": "entity",
+   "name": "Miracle Bee"
+  },
+  "productivebees:mithril_bee": {
+   "kind": "entity",
+   "name": "Mithril Bee"
+  },
+  "productivebees:prismalium_bee": {
+   "kind": "entity",
+   "name": "Prismalium Bee"
+  },
+  "productivebees:melodium_bee": {
+   "kind": "entity",
+   "name": "Melodium Bee"
+  },
+  "productivebees:stellarium_bee": {
+   "kind": "entity",
+   "name": "Stellarium Bee"
+  },
+  "productivebees:entro_bee": {
+   "kind": "entity",
+   "name": "Entro Bee"
+  },
+  "productivebees:redstone_crystal_bee": {
+   "kind": "entity",
+   "name": "Redstone Crystal Bee"
+  },
+  "productivebees:sky_bronze_bee": {
+   "kind": "entity",
+   "name": "Sky Bronze Bee"
+  },
+  "productivebees:sky_osmium_bee": {
+   "kind": "entity",
+   "name": "Sky Osmium Bee"
+  },
+  "productivebees:time_crystal_bee": {
+   "kind": "entity",
+   "name": "Time Bee"
+  },
+  "productivebees:utheric_bee": {
+   "kind": "entity",
+   "name": "Utheric Bee"
+  },
+  "productivebees:cloggrum_bee": {
+   "kind": "entity",
+   "name": "Cloggrum Bee"
+  },
+  "productivebees:froststeel_bee": {
+   "kind": "entity",
+   "name": "Froststeel Bee"
+  },
+  "productivebees:regalium_bee": {
+   "kind": "entity",
+   "name": "Regalium Bee"
+  },
+  "productivebees:forgotten_bee": {
+   "kind": "entity",
+   "name": "Forgotten Bee"
+  },
+  "productivebees:azure_silver_bee": {
+   "kind": "entity",
+   "name": "Azure Silver Bee"
+  },
+  "productivebees:crimson_iron_bee": {
+   "kind": "entity",
+   "name": "Crimson Iron Bee"
+  },
+  "productivebees:villager_bee": {
+   "kind": "entity",
+   "name": "Mistake"
+  },
+  "productivebees:phil_bee": {
+   "kind": "entity",
+   "name": "Philbee"
+  },
+  "productivebees:black_quartz_bee": {
+   "kind": "entity",
+   "name": "Black Quartz Bee"
+  },
+  "productivebees:air_essence_bee": {
+   "kind": "entity",
+   "name": "Air Essence Bee"
+  },
+  "productivebees:earth_essence_bee": {
+   "kind": "entity",
+   "name": "Earth Essence Bee"
+  },
+  "productivebees:fire_essence_bee": {
+   "kind": "entity",
+   "name": "Fire Essence Bee"
+  },
+  "productivebees:water_essence_bee": {
+   "kind": "entity",
+   "name": "Water Essence Bee"
+  },
+  "productivebees:adamant_bee": {
+   "kind": "entity",
+   "name": "Adamant Bee"
+  },
+  "productivebees:biosteel_bee": {
+   "kind": "entity",
+   "name": "Biosteel Bee"
+  },
+  "productivebees:depth_ingot_bee": {
+   "kind": "entity",
+   "name": "Bee of the Depths"
+  },
+  "productivebees:dimensional_shard_bee": {
+   "kind": "entity",
+   "name": "Dimensional Bee"
+  },
+  "productivebees:duratium_bee": {
+   "kind": "entity",
+   "name": "Duratium Bee"
+  },
+  "productivebees:energite_bee": {
+   "kind": "entity",
+   "name": "Energite Bee"
+  },
+  "productivebees:fluxite_bee": {
+   "kind": "entity",
+   "name": "Fluxite Bee"
+  },
+  "productivebees:prometheum_bee": {
+   "kind": "entity",
+   "name": "Prometheum Bee"
+  },
+  "productivebees:sheol_fire_bee": {
+   "kind": "entity",
+   "name": "Sheol Fire Bee"
+  },
+  "productivebees:strange_matter_bee": {
+   "kind": "entity",
+   "name": "Strange Matter Bee"
+  },
+  "productivebees:sulfuric_acid_bee": {
+   "kind": "entity",
+   "name": "Sulfuric Acid Bee"
+  },
+  "productivebees:uranite_crystal_bee": {
+   "kind": "entity",
+   "name": "Uranite Crystal Bee"
+  },
+  "productivebees:benitoite_crystal_bee": {
+   "kind": "entity",
+   "name": "Benitoite Bee"
+  },
+  "productivebees:anglesite_crystal_bee": {
+   "kind": "entity",
+   "name": "Anglesite Bee"
+  },
+  "productivebees:imperial_bee": {
+   "kind": "entity",
+   "name": "Imperial Bee"
+  },
+  "productivebees:bee_bomb": {
+   "kind": "item",
+   "name": "Bee Bomb"
+  },
+  "productivebees:bee_bomb_angry": {
+   "kind": "item",
+   "name": "Aggravating Bee Bomb"
+  },
+  "productivebees:bee_cage": {
+   "kind": "item",
+   "name": "Bee Cage"
+  },
+  "productivebees:draconic_chunk": {
+   "kind": "item",
+   "name": "Draconic Chunk"
+  },
+  "productivebees:draconic_dust": {
+   "kind": "item",
+   "name": "Draconic Dust"
+  },
+  "productivebees:gene": {
+   "kind": "item",
+   "name": "Gene Sample"
+  },
+  "productivebees:gene_bottle": {
+   "kind": "item",
+   "name": "Squashed Bee Material"
+  },
+  "productivebees:honey_bucket": {
+   "kind": "item",
+   "name": "Honey Bucket"
+  },
+  "productivebees:honey_treat": {
+   "kind": "item",
+   "name": "Honey Treat"
+  },
+  "productivebees:bee_nest_diamond_helmet": {
+   "kind": "item",
+   "name": "Bee Nest Helmet"
+  },
+  "productivebees:honeycomb_alfsteel": {
+   "kind": "item",
+   "name": "Alfsteel Comb"
+  },
+  "productivebees:honeycomb_allthemodium": {
+   "kind": "item",
+   "name": "Allthemodium Comb"
+  },
+  "productivebees:honeycomb_amber": {
+   "kind": "item",
+   "name": "Amber Comb"
+  },
+  "productivebees:honeycomb_apatite": {
+   "kind": "item",
+   "name": "Apatite Comb"
+  },
+  "productivebees:honeycomb_basalz": {
+   "kind": "item",
+   "name": "Basalz Comb"
+  },
+  "productivebees:honeycomb_bauxite": {
+   "kind": "item",
+   "name": "Bauxite Comb"
+  },
+  "productivebees:honeycomb_bismuth": {
+   "kind": "item",
+   "name": "Bismuth Comb"
+  },
+  "productivebees:honeycomb_blazing": {
+   "kind": "item",
+   "name": "Blazing Comb"
+  },
+  "productivebees:honeycomb_blitz": {
+   "kind": "item",
+   "name": "Blitz Comb"
+  },
+  "productivebees:honeycomb_blizz": {
+   "kind": "item",
+   "name": "Blizz Comb"
+  },
+  "productivebees:honeycomb_bloody": {
+   "kind": "item",
+   "name": "Bloody Comb"
+  },
+  "productivebees:honeycomb_bone": {
+   "kind": "item",
+   "name": "Bone Comb"
+  },
+  "productivebees:honeycomb_brazen": {
+   "kind": "item",
+   "name": "Brazen Comb"
+  },
+  "productivebees:honeycomb_bronze": {
+   "kind": "item",
+   "name": "Bronze Comb"
+  },
+  "productivebees:honeycomb_chocolate": {
+   "kind": "item",
+   "name": "Choco Comb"
+  },
+  "productivebees:honeycomb_cinnabar": {
+   "kind": "item",
+   "name": "Cinnabar Comb"
+  },
+  "productivebees:honeycomb_cobalt": {
+   "kind": "item",
+   "name": "Cobalt Comb"
+  },
+  "productivebees:honeycomb_common_salvage": {
+   "kind": "item",
+   "name": "Common Ore Comb"
+  },
+  "productivebees:honeycomb_ghostly": {
+   "kind": "item",
+   "name": "Ghostly Comb"
+  },
+  "productivebees:honeycomb_milky": {
+   "kind": "item",
+   "name": "Milky Comb"
+  },
+  "productivebees:honeycomb_powdery": {
+   "kind": "item",
+   "name": "Powdery Comb"
+  },
+  "productivebees:milk_bottle": {
+   "kind": "item",
+   "name": "Milk"
+  },
+  "productivebees:nest_locator": {
+   "kind": "item",
+   "name": "Nest Locator"
+  },
+  "productivebees:spawn_egg_ashy_mining_bee": {
+   "kind": "item",
+   "name": "Ashy Mining Bee Spawn Egg"
+  },
+  "productivebees:spawn_egg_blue_banded_bee": {
+   "kind": "item",
+   "name": "Blue Banded Bee Spawn Egg"
+  },
+  "productivebees:spawn_egg_bumble_bee": {
+   "kind": "item",
+   "name": "Bumble Bee Spawn Egg"
+  },
+  "productivebees:spawn_egg_chocolate_mining_bee": {
+   "kind": "item",
+   "name": "Chocolate Mining Bee Spawn Egg"
+  },
+  "productivebees:spawn_egg_collector_bee": {
+   "kind": "item",
+   "name": "Collector Bee Spawn Egg"
+  },
+  "productivebees:spawn_egg_creeper_bee": {
+   "kind": "item",
+   "name": "CreeBee Spawn Egg"
+  },
+  "productivebees:spawn_egg_cupid_bee": {
+   "kind": "item",
+   "name": "CuBee Spawn Egg"
+  },
+  "productivebees:spawn_egg_digger_bee": {
+   "kind": "item",
+   "name": "Digger Bee Spawn Egg"
+  },
+  "productivebees:spawn_egg_dye_bee": {
+   "kind": "item",
+   "name": "Dye Bee Spawn Egg"
+  },
+  "productivebees:spawn_egg_farmer_bee": {
+   "kind": "item",
+   "name": "Farmer Bee Spawn Egg"
+  },
+  "productivebees:spawn_egg_green_carpenter_bee": {
+   "kind": "item",
+   "name": "Green Carpenter Bee Spawn Egg"
+  },
+  "productivebees:spawn_egg_hoarder_bee": {
+   "kind": "item",
+   "name": "Hoarder Bee Spawn Egg"
+  },
+  "productivebees:spawn_egg_leafcutter_bee": {
+   "kind": "item",
+   "name": "Leafcutter Bee Spawn Egg"
+  },
+  "productivebees:spawn_egg_lumber_bee": {
+   "kind": "item",
+   "name": "Lumber Bee Spawn Egg"
+  },
+  "productivebees:spawn_egg_mason_bee": {
+   "kind": "item",
+   "name": "Mason Bee Spawn Egg"
+  },
+  "productivebees:spawn_egg_neon_cuckoo_bee": {
+   "kind": "item",
+   "name": "Neon Cuckoo Bee Spawn Egg"
+  },
+  "productivebees:spawn_egg_nomad_bee": {
+   "kind": "item",
+   "name": "Nomad Bee Spawn Egg"
+  },
+  "productivebees:spawn_egg_quarry_bee": {
+   "kind": "item",
+   "name": "Quarry Bee Spawn Egg"
+  },
+  "productivebees:spawn_egg_rancher_bee": {
+   "kind": "item",
+   "name": "Rancher Bee Spawn Egg"
+  },
+  "productivebees:spawn_egg_reed_bee": {
+   "kind": "item",
+   "name": "Reed Bee Spawn Egg"
+  },
+  "productivebees:spawn_egg_resin_bee": {
+   "kind": "item",
+   "name": "Resin Bee Spawn Egg"
+  },
+  "productivebees:spawn_egg_sweat_bee": {
+   "kind": "item",
+   "name": "Sweat Bee Spawn Egg"
+  },
+  "productivebees:spawn_egg_yellow_black_carpenter_bee": {
+   "kind": "item",
+   "name": "Yellow Carpenter Bee Spawn Egg"
+  },
+  "productivebees:stone_chip": {
+   "kind": "item",
+   "name": "Stone Chip"
+  },
+  "productivebees:stone_chip.named": {
+   "kind": "item",
+   "name": "%s Chip"
+  },
+  "productivebees:sturdy_bee_cage": {
+   "kind": "item",
+   "name": "Sturdy Bee Cage"
+  },
+  "productivebees:sugarbag_honeycomb": {
+   "kind": "item",
+   "name": "Sugarbag Honeycomb"
+  },
+  "productivebees:treat_on_a_stick": {
+   "kind": "item",
+   "name": "Treat on a Stick"
+  },
+  "productivebees:wax": {
+   "kind": "item",
+   "name": "Wax"
+  },
+  "productivebees:wither_skull_chip": {
+   "kind": "item",
+   "name": "Wither Skull Chip"
+  },
+  "productivebees:obsidian_shard": {
+   "kind": "item",
+   "name": "Obsidian Shard"
+  },
+  "productivebees:wood_chip": {
+   "kind": "item",
+   "name": "Wood Chip"
+  },
+  "productivebees:wood_chip.named": {
+   "kind": "item",
+   "name": "%s Chip"
+  }
+ }
+}

@@ -1,0 +1,111 @@
+{
+ "repo": "TwelveIterationMods/FarmingForBlockheads",
+ "ref": "v21.1.13",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "farmingforblockheads"
+ ],
+ "item_count": 12,
+ "compat": [
+  {
+   "id": "ars_elemental",
+   "slug": "ars-elemental",
+   "evidence": {
+    "data-ref": 1
+   }
+  },
+  {
+   "id": "ars_nouveau",
+   "slug": "ars-nouveau",
+   "evidence": {
+    "data-ref": 5
+   }
+  },
+  {
+   "id": "balm",
+   "slug": "balm",
+   "evidence": {
+    "compat-import": 1,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "create",
+   "slug": "create",
+   "evidence": {
+    "data-ref": 1
+   }
+  },
+  {
+   "id": "emi",
+   "slug": "emi",
+   "evidence": {
+    "compat-import": 2
+   }
+  },
+  {
+   "id": "farmersdelight",
+   "slug": "farmers-delight",
+   "evidence": {
+    "data-ref": 15
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 2
+   }
+  }
+ ],
+ "items": {
+  "farmingforblockheads:market": {
+   "kind": "block",
+   "name": "Market"
+  },
+  "farmingforblockheads:chicken_nest": {
+   "kind": "block",
+   "name": "Chicken Nest"
+  },
+  "farmingforblockheads:feeding_trough": {
+   "kind": "block",
+   "name": "Feeding Trough"
+  },
+  "farmingforblockheads:fertilized_farmland_rich": {
+   "kind": "block",
+   "name": "Fertilized Farmland"
+  },
+  "farmingforblockheads:fertilized_farmland_healthy": {
+   "kind": "block",
+   "name": "Fertilized Farmland"
+  },
+  "farmingforblockheads:fertilized_farmland_stable": {
+   "kind": "block",
+   "name": "Fertilized Farmland"
+  },
+  "farmingforblockheads:fertilized_farmland_rich_stable": {
+   "kind": "block",
+   "name": "Fertilized Farmland"
+  },
+  "farmingforblockheads:fertilized_farmland_healthy_stable": {
+   "kind": "block",
+   "name": "Fertilized Farmland"
+  },
+  "farmingforblockheads:red_fertilizer": {
+   "kind": "item",
+   "name": "Red Fertilizer"
+  },
+  "farmingforblockheads:green_fertilizer": {
+   "kind": "item",
+   "name": "Green Fertilizer"
+  },
+  "farmingforblockheads:yellow_fertilizer": {
+   "kind": "item",
+   "name": "Yellow Fertilizer"
+  },
+  "farmingforblockheads:merchant": {
+   "kind": "entity",
+   "name": "Merchant"
+  }
+ }
+}

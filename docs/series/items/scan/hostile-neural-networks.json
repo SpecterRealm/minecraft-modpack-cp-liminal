@@ -1,0 +1,111 @@
+{
+ "repo": "Shadows-of-Fire/Hostile-Neural-Networks",
+ "ref": "1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "hostilenetworks"
+ ],
+ "item_count": 14,
+ "compat": [
+  {
+   "id": "apothic_enchanting",
+   "slug": "apothic-enchanting",
+   "evidence": {
+    "data-ref": 1
+   }
+  },
+  {
+   "id": "ars_nouveau",
+   "slug": "ars-nouveau",
+   "evidence": {
+    "data-ref": 1
+   }
+  },
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "isLoaded": 3
+   }
+  },
+  {
+   "id": "jade",
+   "slug": "jade",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "placebo",
+   "slug": "placebo",
+   "evidence": {
+    "dependency": 2
+   }
+  },
+  {
+   "id": "silentgear",
+   "slug": "silent-gear",
+   "evidence": {
+    "data-ref": 1
+   }
+  }
+ ],
+ "items": {
+  "hostilenetworks:sim_chamber": {
+   "kind": "block",
+   "name": "Simulation Chamber"
+  },
+  "hostilenetworks:loot_fabricator": {
+   "kind": "block",
+   "name": "Loot Fabricator"
+  },
+  "hostilenetworks:data_center": {
+   "kind": "block",
+   "name": "Data Center"
+  },
+  "hostilenetworks:data_center_io_port": {
+   "kind": "block",
+   "name": "Data Center IO Port"
+  },
+  "hostilenetworks:deep_learner": {
+   "kind": "item",
+   "name": "Deep Learner"
+  },
+  "hostilenetworks:data_model": {
+   "kind": "item",
+   "name": "%s Data Model"
+  },
+  "hostilenetworks:blank_data_model": {
+   "kind": "item",
+   "name": "Model Framework"
+  },
+  "hostilenetworks:prediction": {
+   "kind": "item",
+   "name": "%s Prediction"
+  },
+  "hostilenetworks:prediction_matrix": {
+   "kind": "item",
+   "name": "Prediction Matrix"
+  },
+  "hostilenetworks:overworld_prediction": {
+   "kind": "item",
+   "name": "Generalized Overworld Prediction"
+  },
+  "hostilenetworks:nether_prediction": {
+   "kind": "item",
+   "name": "Generalized Nether Prediction"
+  },
+  "hostilenetworks:end_prediction": {
+   "kind": "item",
+   "name": "Generalized Ender Prediction"
+  },
+  "hostilenetworks:twilight_prediction": {
+   "kind": "item",
+   "name": "Generalized Twilight Prediction"
+  },
+  "hostilenetworks:fab_directive": {
+   "kind": "item",
+   "name": "Fabrication Directive"
+  }
+ }
+}

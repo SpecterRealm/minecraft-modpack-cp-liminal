@@ -12,6 +12,9 @@ This is not a wish list. Each entry records what the item does, its numbers, wha
 | `sources.json` / [`sources.md`](sources.md) | Where each mod's source lives and which ref matches our pin (the running list) |
 | `../../../scripts/series-mod-sources.py` | `check` verifies repos with `git ls-remote`; `report` writes `sources.md` |
 | `../../../scripts/series-mod-compat.py` | Scans a cloned source for built-in support for other pack mods |
+| `../../../scripts/series-mod-scan.py` | `run` clones each mod (shallow, at its ref), writes `scan/<mod>.json` (item list + pack-mod support); `report` writes `compat.md` |
+| `scan/<mod>.json` | Generated item list (from lang files) and built-in support found in source. Raw input for the catalog; not hand-edited |
+| `compat.md` | Generated: per-mod item count and supported mods, plus which mods other mods build support for |
 | `review-process.md` | The per-mod review procedure |
 | `../../../scripts/series-item-catalog.py` | `list`, `report --category <c>`, `levers --mod <m>` |
 

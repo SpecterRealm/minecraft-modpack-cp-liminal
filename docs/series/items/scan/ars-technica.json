@@ -1,0 +1,168 @@
+{
+ "repo": "zeroregard/Ars-Technica",
+ "ref": "2.7.6",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "ars_technica"
+ ],
+ "item_count": 33,
+ "compat": [
+  {
+   "id": "ars_elemental",
+   "slug": "ars-elemental",
+   "evidence": {
+    "data-ref": 12
+   }
+  },
+  {
+   "id": "ars_nouveau",
+   "slug": "ars-nouveau",
+   "evidence": {
+    "data-ref": 66,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "create",
+   "slug": "create",
+   "evidence": {
+    "data-ref": 17,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "ars_technica:calibrated_precision_mechanism": {
+   "kind": "item",
+   "name": "Calibrated Precision Mechanism"
+  },
+  "ars_technica:mark_of_technomancy": {
+   "kind": "item",
+   "name": "Mark of Technomancy"
+  },
+  "ars_technica:technomancer_boots": {
+   "kind": "item",
+   "name": "Technomancer's Boots"
+  },
+  "ars_technica:technomancer_chestplate": {
+   "kind": "item",
+   "name": "Technomancer's Robes"
+  },
+  "ars_technica:technomancer_helmet": {
+   "kind": "item",
+   "name": "Technomancer's Hat"
+  },
+  "ars_technica:technomancer_leggings": {
+   "kind": "item",
+   "name": "Technomancer's Leggings"
+  },
+  "ars_technica:artificer_cap": {
+   "kind": "item",
+   "name": "Artificer's Cap"
+  },
+  "ars_technica:artificer_tunic": {
+   "kind": "item",
+   "name": "Artificer's Tunic"
+  },
+  "ars_technica:artificer_pants": {
+   "kind": "item",
+   "name": "Artificer's Pants"
+  },
+  "ars_technica:artificer_shoes": {
+   "kind": "item",
+   "name": "Artificer's Shoes"
+  },
+  "ars_technica:machinaguard_helmet": {
+   "kind": "item",
+   "name": "Machinaguard's Helmet"
+  },
+  "ars_technica:machinaguard_chestplate": {
+   "kind": "item",
+   "name": "Machinaguard's Chestplate"
+  },
+  "ars_technica:machinaguard_leggings": {
+   "kind": "item",
+   "name": "Machinaguard's Leggings"
+  },
+  "ars_technica:machinaguard_boots": {
+   "kind": "item",
+   "name": "Machinaguard's Boots"
+  },
+  "ars_technica:runic_spanner": {
+   "kind": "item",
+   "name": "Arcane Wrench"
+  },
+  "ars_technica:source_motor": {
+   "kind": "block",
+   "name": "Source Motor"
+  },
+  "ars_technica:precise_relay": {
+   "kind": "block",
+   "name": "Precise Relay"
+  },
+  "ars_technica:transmutation_turret": {
+   "kind": "item",
+   "name": "Transmutation Turret"
+  },
+  "ars_technica:pocket_factory": {
+   "kind": "item",
+   "name": "§bMusic Disc"
+  },
+  "ars_technica:transmutation_focus": {
+   "kind": "item",
+   "name": "Focus of Transmutation"
+  },
+  "ars_technica:giant_experience_gem": {
+   "kind": "item",
+   "name": "Giant Experience Gem"
+  },
+  "ars_technica:gargantuan_experience_gem": {
+   "kind": "item",
+   "name": "Gargantuan Experience Gem"
+  },
+  "ars_technica:thread_pressure": {
+   "kind": "item",
+   "name": "Pressure"
+  },
+  "ars_technica:spy_monocle": {
+   "kind": "item",
+   "name": "Spy Monocle"
+  },
+  "ars_technica:arcane_fusion_entity": {
+   "kind": "entity",
+   "name": "Arcane Fusion"
+  },
+  "ars_technica:arcane_hammer_entity": {
+   "kind": "entity",
+   "name": "Arcane Hammer"
+  },
+  "ars_technica:arcane_polish_entity": {
+   "kind": "entity",
+   "name": "Arcane Polisher"
+  },
+  "ars_technica:arcane_press_entity": {
+   "kind": "entity",
+   "name": "Arcane Press"
+  },
+  "ars_technica:arcane_compact_entity": {
+   "kind": "entity",
+   "name": "Arcane Compactor"
+  },
+  "ars_technica:arcane_pack_entity": {
+   "kind": "entity",
+   "name": "Arcane Packer"
+  },
+  "ars_technica:arcane_whirl_entity": {
+   "kind": "entity",
+   "name": "Arcane Whirl"
+  },
+  "ars_technica:item_projectile_entity": {
+   "kind": "entity",
+   "name": "Item Bubble"
+  },
+  "ars_technica:blank_disc": {
+   "kind": "item",
+   "name": "Blank Disc"
+  }
+ }
+}

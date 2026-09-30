@@ -1,0 +1,35 @@
+{
+ "repo": "MelanX/SkyblockBuilder",
+ "ref": "1.21.x",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "skyblockbuilder"
+ ],
+ "item_count": 2,
+ "compat": [
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "libx",
+   "slug": "libx",
+   "evidence": {
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "skyblockbuilder:spawn_block": {
+   "kind": "block",
+   "name": "Spawn Block"
+  },
+  "skyblockbuilder:structure_saver": {
+   "kind": "item",
+   "name": "Structure Saver"
+  }
+ }
+}

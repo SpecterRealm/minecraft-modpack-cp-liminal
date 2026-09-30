@@ -1,0 +1,118 @@
+{
+ "repo": "mc-myo-s-mod/ExtendedTerminal",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "${mod_id}",
+  "extendedterminal"
+ ],
+ "item_count": 15,
+ "compat": [
+  {
+   "id": "appeng",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "compat-import": 20
+   }
+  },
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "data-ref": 16,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "cucumber",
+   "slug": "cucumber",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "emi",
+   "slug": "emi",
+   "evidence": {
+    "compat-import": 21
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 29
+   }
+  },
+  {
+   "id": "polymorph",
+   "slug": "polymorph",
+   "evidence": {
+    "compat-import": 1,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "extendedterminal:et_terminal": {
+   "kind": "item",
+   "name": "Extended Terminal"
+  },
+  "extendedterminal:wireless_et_terminal": {
+   "kind": "item",
+   "name": "Wireless Extended Terminal"
+  },
+  "extendedterminal:basic_terminal": {
+   "kind": "item",
+   "name": "Basic Extended Crafting Terminal"
+  },
+  "extendedterminal:advanced_terminal": {
+   "kind": "item",
+   "name": "Advanced Extended Crafting Terminal"
+  },
+  "extendedterminal:elite_terminal": {
+   "kind": "item",
+   "name": "Elite Extended Crafting Terminal"
+  },
+  "extendedterminal:ultimate_terminal": {
+   "kind": "item",
+   "name": "Ultimate Extended Crafting Terminal"
+  },
+  "extendedterminal:sculk_terminal": {
+   "kind": "item",
+   "name": "Sculk Crafting Terminal"
+  },
+  "extendedterminal:nether_terminal": {
+   "kind": "item",
+   "name": "Nether Crafting Terminal"
+  },
+  "extendedterminal:end_terminal": {
+   "kind": "item",
+   "name": "End Crafting Terminal"
+  },
+  "extendedterminal:extreme_terminal": {
+   "kind": "item",
+   "name": "Extreme Crafting Terminal"
+  },
+  "extendedterminal:neo_extreme_terminal": {
+   "kind": "item",
+   "name": "Extreme Crafting Terminal"
+  },
+  "extendedterminal:compat_processor": {
+   "kind": "item",
+   "name": "Compat Processor"
+  },
+  "extendedterminal:printed_compat_processor": {
+   "kind": "item",
+   "name": "Printed Compat Circuit"
+  },
+  "extendedterminal:compat_press": {
+   "kind": "item",
+   "name": "Inscriber Compat Press"
+  },
+  "extendedterminal:charged_ender_pearl": {
+   "kind": "item",
+   "name": "Charged Ender Pearl"
+  }
+ }
+}

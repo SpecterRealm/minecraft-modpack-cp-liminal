@@ -1,0 +1,64 @@
+{
+ "repo": "SonarSonic/Flux-Networks",
+ "ref": "1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "fluxnetworks"
+ ],
+ "item_count": 9,
+ "compat": [
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "compat-import": 1,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "fluxnetworks:flux_block": {
+   "kind": "block",
+   "name": "Flux Block"
+  },
+  "fluxnetworks:flux_controller": {
+   "kind": "block",
+   "name": "Flux Controller"
+  },
+  "fluxnetworks:flux_point": {
+   "kind": "block",
+   "name": "Flux Point"
+  },
+  "fluxnetworks:flux_plug": {
+   "kind": "block",
+   "name": "Flux Plug"
+  },
+  "fluxnetworks:basic_flux_storage": {
+   "kind": "block",
+   "name": "Basic Flux Storage"
+  },
+  "fluxnetworks:herculean_flux_storage": {
+   "kind": "block",
+   "name": "Herculean Flux Storage"
+  },
+  "fluxnetworks:gargantuan_flux_storage": {
+   "kind": "block",
+   "name": "Gargantuan Flux Storage"
+  },
+  "fluxnetworks:flux_dust": {
+   "kind": "item",
+   "name": "Flux Dust"
+  },
+  "fluxnetworks:flux_core": {
+   "kind": "item",
+   "name": "Flux Core"
+  }
+ }
+}

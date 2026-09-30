@@ -1,0 +1,639 @@
+{
+ "repo": "Technici4n/Powah",
+ "ref": "v6.2.10",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "lollipop",
+  "powah"
+ ],
+ "item_count": 147,
+ "compat": [
+  {
+   "id": "cloth_config",
+   "slug": "cloth-config",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "compat-import": 2,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "emi",
+   "slug": "emi",
+   "evidence": {
+    "compat-import": 8
+   }
+  },
+  {
+   "id": "guideme",
+   "slug": "guideme",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 8,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "powah:blazing_crystal_block": {
+   "kind": "block",
+   "name": "Block Of Blazing Crystal"
+  },
+  "powah:deepslate_uraninite_ore": {
+   "kind": "block",
+   "name": "Deepslate Uraninite Ore"
+  },
+  "powah:deepslate_uraninite_ore_dense": {
+   "kind": "block",
+   "name": "Deepslate Uraninite Ore (Dense)"
+  },
+  "powah:deepslate_uraninite_ore_poor": {
+   "kind": "block",
+   "name": "Deepslate Uraninite Ore (Poor)"
+  },
+  "powah:dry_ice": {
+   "kind": "block",
+   "name": "Dry Ice"
+  },
+  "powah:ender_cell_basic": {
+   "kind": "block",
+   "name": "Ender Cell (Basic)"
+  },
+  "powah:ender_cell_blazing": {
+   "kind": "block",
+   "name": "Ender Cell (Blazing)"
+  },
+  "powah:ender_cell_hardened": {
+   "kind": "block",
+   "name": "Ender Cell (Hardened)"
+  },
+  "powah:ender_cell_niotic": {
+   "kind": "block",
+   "name": "Ender Cell (Niotic)"
+  },
+  "powah:ender_cell_nitro": {
+   "kind": "block",
+   "name": "Ender Cell (Nitro)"
+  },
+  "powah:ender_cell_spirited": {
+   "kind": "block",
+   "name": "Ender Cell (Spirited)"
+  },
+  "powah:ender_cell_starter": {
+   "kind": "block",
+   "name": "Ender Cell (Starter)"
+  },
+  "powah:ender_gate_basic": {
+   "kind": "block",
+   "name": "Ender Gate (Basic)"
+  },
+  "powah:ender_gate_blazing": {
+   "kind": "block",
+   "name": "Ender Gate (Blazing)"
+  },
+  "powah:ender_gate_hardened": {
+   "kind": "block",
+   "name": "Ender Gate (Hardened)"
+  },
+  "powah:ender_gate_niotic": {
+   "kind": "block",
+   "name": "Ender Gate (Niotic)"
+  },
+  "powah:ender_gate_nitro": {
+   "kind": "block",
+   "name": "Ender Gate (Nitro)"
+  },
+  "powah:ender_gate_spirited": {
+   "kind": "block",
+   "name": "Ender Gate (Spirited)"
+  },
+  "powah:ender_gate_starter": {
+   "kind": "block",
+   "name": "Ender Gate (Starter)"
+  },
+  "powah:energized_steel_block": {
+   "kind": "block",
+   "name": "Block Of Energized Steel"
+  },
+  "powah:energizing_orb": {
+   "kind": "block",
+   "name": "Energizing Orb"
+  },
+  "powah:energizing_rod_basic": {
+   "kind": "block",
+   "name": "Energizing Rod (Basic)"
+  },
+  "powah:energizing_rod_blazing": {
+   "kind": "block",
+   "name": "Energizing Rod (Blazing)"
+  },
+  "powah:energizing_rod_hardened": {
+   "kind": "block",
+   "name": "Energizing Rod (Hardened)"
+  },
+  "powah:energizing_rod_niotic": {
+   "kind": "block",
+   "name": "Energizing Rod (Niotic)"
+  },
+  "powah:energizing_rod_nitro": {
+   "kind": "block",
+   "name": "Energizing Rod (Nitro)"
+  },
+  "powah:energizing_rod_spirited": {
+   "kind": "block",
+   "name": "Energizing Rod (Spirited)"
+  },
+  "powah:energizing_rod_starter": {
+   "kind": "block",
+   "name": "Energizing Rod (Starter)"
+  },
+  "powah:energy_cable_basic": {
+   "kind": "block",
+   "name": "Energy Cable (Basic)"
+  },
+  "powah:energy_cable_blazing": {
+   "kind": "block",
+   "name": "Energy Cable (Blazing)"
+  },
+  "powah:energy_cable_hardened": {
+   "kind": "block",
+   "name": "Energy Cable (Hardened)"
+  },
+  "powah:energy_cable_niotic": {
+   "kind": "block",
+   "name": "Energy Cable (Niotic)"
+  },
+  "powah:energy_cable_nitro": {
+   "kind": "block",
+   "name": "Energy Cable (Nitro)"
+  },
+  "powah:energy_cable_spirited": {
+   "kind": "block",
+   "name": "Energy Cable (Spirited)"
+  },
+  "powah:energy_cable_starter": {
+   "kind": "block",
+   "name": "Energy Cable (Starter)"
+  },
+  "powah:energy_cell_basic": {
+   "kind": "block",
+   "name": "Energy Cell (Basic)"
+  },
+  "powah:energy_cell_blazing": {
+   "kind": "block",
+   "name": "Energy Cell (Blazing)"
+  },
+  "powah:energy_cell_creative": {
+   "kind": "block",
+   "name": "Energy Cell (Creative)"
+  },
+  "powah:energy_cell_hardened": {
+   "kind": "block",
+   "name": "Energy Cell (Hardened)"
+  },
+  "powah:energy_cell_niotic": {
+   "kind": "block",
+   "name": "Energy Cell (Niotic)"
+  },
+  "powah:energy_cell_nitro": {
+   "kind": "block",
+   "name": "Energy Cell (Nitro)"
+  },
+  "powah:energy_cell_spirited": {
+   "kind": "block",
+   "name": "Energy Cell (Spirited)"
+  },
+  "powah:energy_cell_starter": {
+   "kind": "block",
+   "name": "Energy Cell (Starter)"
+  },
+  "powah:energy_discharger_basic": {
+   "kind": "block",
+   "name": "Energy Discharger (Basic)"
+  },
+  "powah:energy_discharger_blazing": {
+   "kind": "block",
+   "name": "Energy Discharger (Blazing)"
+  },
+  "powah:energy_discharger_hardened": {
+   "kind": "block",
+   "name": "Energy Discharger (Hardened)"
+  },
+  "powah:energy_discharger_niotic": {
+   "kind": "block",
+   "name": "Energy Discharger (Niotic)"
+  },
+  "powah:energy_discharger_nitro": {
+   "kind": "block",
+   "name": "Energy Discharger (Nitro)"
+  },
+  "powah:energy_discharger_spirited": {
+   "kind": "block",
+   "name": "Energy Discharger (Spirited)"
+  },
+  "powah:energy_discharger_starter": {
+   "kind": "block",
+   "name": "Energy Discharger (Starter)"
+  },
+  "powah:energy_hopper_basic": {
+   "kind": "block",
+   "name": "Energy Hopper (Basic)"
+  },
+  "powah:energy_hopper_blazing": {
+   "kind": "block",
+   "name": "Energy Hopper (Blazing)"
+  },
+  "powah:energy_hopper_hardened": {
+   "kind": "block",
+   "name": "Energy Hopper (Hardened)"
+  },
+  "powah:energy_hopper_niotic": {
+   "kind": "block",
+   "name": "Energy Hopper (Niotic)"
+  },
+  "powah:energy_hopper_nitro": {
+   "kind": "block",
+   "name": "Energy Hopper (Nitro)"
+  },
+  "powah:energy_hopper_spirited": {
+   "kind": "block",
+   "name": "Energy Hopper (Spirited)"
+  },
+  "powah:energy_hopper_starter": {
+   "kind": "block",
+   "name": "Energy Hopper (Starter)"
+  },
+  "powah:furnator_basic": {
+   "kind": "block",
+   "name": "Furnator (Basic)"
+  },
+  "powah:furnator_blazing": {
+   "kind": "block",
+   "name": "Furnator (Blazing)"
+  },
+  "powah:furnator_hardened": {
+   "kind": "block",
+   "name": "Furnator (Hardened)"
+  },
+  "powah:furnator_niotic": {
+   "kind": "block",
+   "name": "Furnator (Niotic)"
+  },
+  "powah:furnator_nitro": {
+   "kind": "block",
+   "name": "Furnator (Nitro)"
+  },
+  "powah:furnator_spirited": {
+   "kind": "block",
+   "name": "Furnator (Spirited)"
+  },
+  "powah:furnator_starter": {
+   "kind": "block",
+   "name": "Furnator (Starter)"
+  },
+  "powah:magmator_basic": {
+   "kind": "block",
+   "name": "Magmator (Basic)"
+  },
+  "powah:magmator_blazing": {
+   "kind": "block",
+   "name": "Magmator (Blazing)"
+  },
+  "powah:magmator_hardened": {
+   "kind": "block",
+   "name": "Magmator (Hardened)"
+  },
+  "powah:magmator_niotic": {
+   "kind": "block",
+   "name": "Magmator (Niotic)"
+  },
+  "powah:magmator_nitro": {
+   "kind": "block",
+   "name": "Magmator (Nitro)"
+  },
+  "powah:magmator_spirited": {
+   "kind": "block",
+   "name": "Magmator (Spirited)"
+  },
+  "powah:magmator_starter": {
+   "kind": "block",
+   "name": "Magmator (Starter)"
+  },
+  "powah:niotic_crystal_block": {
+   "kind": "block",
+   "name": "Block Of Niotic Crystal"
+  },
+  "powah:nitro_crystal_block": {
+   "kind": "block",
+   "name": "Block Of Nitro Crystal"
+  },
+  "powah:player_transmitter_basic": {
+   "kind": "block",
+   "name": "Player Transmitter (Basic)"
+  },
+  "powah:player_transmitter_blazing": {
+   "kind": "block",
+   "name": "Player Transmitter (Blazing)"
+  },
+  "powah:player_transmitter_hardened": {
+   "kind": "block",
+   "name": "Player Transmitter (Hardened)"
+  },
+  "powah:player_transmitter_niotic": {
+   "kind": "block",
+   "name": "Player Transmitter (Niotic)"
+  },
+  "powah:player_transmitter_nitro": {
+   "kind": "block",
+   "name": "Player Transmitter (Nitro)"
+  },
+  "powah:player_transmitter_spirited": {
+   "kind": "block",
+   "name": "Player Transmitter (Spirited)"
+  },
+  "powah:player_transmitter_starter": {
+   "kind": "block",
+   "name": "Player Transmitter (Starter)"
+  },
+  "powah:reactor_basic": {
+   "kind": "block",
+   "name": "Reactor (Basic)"
+  },
+  "powah:reactor_blazing": {
+   "kind": "block",
+   "name": "Reactor (Blazing)"
+  },
+  "powah:reactor_hardened": {
+   "kind": "block",
+   "name": "Reactor (Hardened)"
+  },
+  "powah:reactor_niotic": {
+   "kind": "block",
+   "name": "Reactor (Niotic)"
+  },
+  "powah:reactor_nitro": {
+   "kind": "block",
+   "name": "Reactor (Nitro)"
+  },
+  "powah:reactor_spirited": {
+   "kind": "block",
+   "name": "Reactor (Spirited)"
+  },
+  "powah:reactor_starter": {
+   "kind": "block",
+   "name": "Reactor (Starter)"
+  },
+  "powah:solar_panel_basic": {
+   "kind": "block",
+   "name": "Solar Panel (Basic)"
+  },
+  "powah:solar_panel_blazing": {
+   "kind": "block",
+   "name": "Solar Panel (Blazing)"
+  },
+  "powah:solar_panel_hardened": {
+   "kind": "block",
+   "name": "Solar Panel (Hardened)"
+  },
+  "powah:solar_panel_niotic": {
+   "kind": "block",
+   "name": "Solar Panel (Niotic)"
+  },
+  "powah:solar_panel_nitro": {
+   "kind": "block",
+   "name": "Solar Panel (Nitro)"
+  },
+  "powah:solar_panel_spirited": {
+   "kind": "block",
+   "name": "Solar Panel (Spirited)"
+  },
+  "powah:solar_panel_starter": {
+   "kind": "block",
+   "name": "Solar Panel (Starter)"
+  },
+  "powah:spirited_crystal_block": {
+   "kind": "block",
+   "name": "Block Of Spirited Crystal"
+  },
+  "powah:thermo_generator_basic": {
+   "kind": "block",
+   "name": "Thermo Generator (Basic)"
+  },
+  "powah:thermo_generator_blazing": {
+   "kind": "block",
+   "name": "Thermo Generator (Blazing)"
+  },
+  "powah:thermo_generator_hardened": {
+   "kind": "block",
+   "name": "Thermo Generator (Hardened)"
+  },
+  "powah:thermo_generator_niotic": {
+   "kind": "block",
+   "name": "Thermo Generator (Niotic)"
+  },
+  "powah:thermo_generator_nitro": {
+   "kind": "block",
+   "name": "Thermo Generator (Nitro)"
+  },
+  "powah:thermo_generator_spirited": {
+   "kind": "block",
+   "name": "Thermo Generator (Spirited)"
+  },
+  "powah:thermo_generator_starter": {
+   "kind": "block",
+   "name": "Thermo Generator (Starter)"
+  },
+  "powah:uraninite_block": {
+   "kind": "block",
+   "name": "Block Of Uraninite"
+  },
+  "powah:uraninite_ore": {
+   "kind": "block",
+   "name": "Uraninite Ore"
+  },
+  "powah:uraninite_ore_dense": {
+   "kind": "block",
+   "name": "Uraninite Ore (Dense)"
+  },
+  "powah:uraninite_ore_poor": {
+   "kind": "block",
+   "name": "Uraninite Ore (Poor)"
+  },
+  "powah:aerial_pearl": {
+   "kind": "item",
+   "name": "Aerial Pearl"
+  },
+  "powah:battery_basic": {
+   "kind": "item",
+   "name": "Battery (Basic)"
+  },
+  "powah:battery_blazing": {
+   "kind": "item",
+   "name": "Battery (Blazing)"
+  },
+  "powah:battery_hardened": {
+   "kind": "item",
+   "name": "Battery (Hardened)"
+  },
+  "powah:battery_niotic": {
+   "kind": "item",
+   "name": "Battery (Niotic)"
+  },
+  "powah:battery_nitro": {
+   "kind": "item",
+   "name": "Battery (Nitro)"
+  },
+  "powah:battery_spirited": {
+   "kind": "item",
+   "name": "Battery (Spirited)"
+  },
+  "powah:battery_starter": {
+   "kind": "item",
+   "name": "Battery (Starter)"
+  },
+  "powah:binding_card": {
+   "kind": "item",
+   "name": "Binding Card"
+  },
+  "powah:binding_card_dim": {
+   "kind": "item",
+   "name": "Binding Card (Dimensional)"
+  },
+  "powah:blank_card": {
+   "kind": "item",
+   "name": "Blank Card"
+  },
+  "powah:blazing_crystal": {
+   "kind": "item",
+   "name": "Blazing Crystal"
+  },
+  "powah:capacitor_basic": {
+   "kind": "item",
+   "name": "Basic Capacitor"
+  },
+  "powah:capacitor_basic_large": {
+   "kind": "item",
+   "name": "Basic Capacitor (Large)"
+  },
+  "powah:capacitor_basic_tiny": {
+   "kind": "item",
+   "name": "Basic Capacitor (Tiny)"
+  },
+  "powah:capacitor_blazing": {
+   "kind": "item",
+   "name": "Blazing Capacitor"
+  },
+  "powah:capacitor_hardened": {
+   "kind": "item",
+   "name": "Hardened Capacitor"
+  },
+  "powah:capacitor_niotic": {
+   "kind": "item",
+   "name": "Niotic Capacitor"
+  },
+  "powah:capacitor_nitro": {
+   "kind": "item",
+   "name": "Nitro Capacitor"
+  },
+  "powah:capacitor_spirited": {
+   "kind": "item",
+   "name": "Spirited Capacitor"
+  },
+  "powah:charged_snowball": {
+   "kind": "item",
+   "name": "Charged Snowball"
+  },
+  "powah:crystal_blazing": {
+   "kind": "item",
+   "name": "Blazing Crystal"
+  },
+  "powah:crystal_niotic": {
+   "kind": "item",
+   "name": "Niotic Crystal"
+  },
+  "powah:crystal_nitro": {
+   "kind": "item",
+   "name": "Nitro Crystal"
+  },
+  "powah:crystal_spirited": {
+   "kind": "item",
+   "name": "Spirited Crystal"
+  },
+  "powah:dielectric_casing": {
+   "kind": "item",
+   "name": "Dielectric Casing"
+  },
+  "powah:dielectric_paste": {
+   "kind": "item",
+   "name": "Dielectric Paste"
+  },
+  "powah:dielectric_rod": {
+   "kind": "item",
+   "name": "Dielectric Rod"
+  },
+  "powah:dielectric_rod_horizontal": {
+   "kind": "item",
+   "name": "Dielectric Rod (Horizontal)"
+  },
+  "powah:ender_core": {
+   "kind": "item",
+   "name": "Ender Core"
+  },
+  "powah:energised_steel": {
+   "kind": "item",
+   "name": "Energised Steel"
+  },
+  "powah:lens_of_ender": {
+   "kind": "item",
+   "name": "Lens Of Ender"
+  },
+  "powah:niotic_crystal": {
+   "kind": "item",
+   "name": "Niotic Crystal"
+  },
+  "powah:photoelectric_pane": {
+   "kind": "item",
+   "name": "Photoelectric Pane"
+  },
+  "powah:player_aerial_pearl": {
+   "kind": "item",
+   "name": "Player Aerial Pearl"
+  },
+  "powah:spirited_crystal": {
+   "kind": "item",
+   "name": "Spirited Crystal"
+  },
+  "powah:steel_energized": {
+   "kind": "item",
+   "name": "Energized Steel"
+  },
+  "powah:thermoelectric_plate": {
+   "kind": "item",
+   "name": "Thermo Plate"
+  },
+  "powah:uraninite": {
+   "kind": "item",
+   "name": "Uraninite"
+  },
+  "powah:uraninite_raw": {
+   "kind": "item",
+   "name": "Raw Uraninite"
+  },
+  "powah:wrench": {
+   "kind": "item",
+   "name": "Wrench"
+  }
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "repo": "AlmostReliable/merequester",
+ "ref": "v1.21.1-neoforge-1.4.2",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "${modId}",
+  "merequester"
+ ],
+ "item_count": 3,
+ "compat": [
+  {
+   "id": "appeng",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "compat-import": 5
+   }
+  },
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "data-ref": 5,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "merequester:requester_terminal": {
+   "kind": "item",
+   "name": "ME Requester Terminal"
+  },
+  "merequester:wireless_requester_terminal": {
+   "kind": "item",
+   "name": "Wireless Requester Terminal"
+  },
+  "merequester:requester": {
+   "kind": "block",
+   "name": "ME Requester"
+  }
+ }
+}

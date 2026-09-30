@@ -1,0 +1,78 @@
+{
+ "repo": "igentuman/Better-Fusion-Reactor",
+ "ref": "1.21x",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "bfr",
+  "mekanism"
+ ],
+ "item_count": 14,
+ "compat": [
+  {
+   "id": "mekanismgenerators",
+   "slug": "mekanism-generators",
+   "evidence": {
+    "data-ref": 2,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "bfr:fusion_reactor_controller": {
+   "kind": "block",
+   "name": "Fusion Reactor Controller"
+  },
+  "bfr:fusion_reactor_frame": {
+   "kind": "block",
+   "name": "Fusion Reactor Frame"
+  },
+  "bfr:fusion_reactor_logic_adapter": {
+   "kind": "block",
+   "name": "Fusion Reactor Logic Adapter"
+  },
+  "bfr:fusion_reactor_port": {
+   "kind": "block",
+   "name": "Fusion Reactor Port"
+  },
+  "bfr:irradiated_copper_ore": {
+   "kind": "block",
+   "name": "Irradiated Copper Ore"
+  },
+  "bfr:irradiated_gold_ore": {
+   "kind": "block",
+   "name": "Irradiated Gold Ore"
+  },
+  "bfr:irradiated_iron_ore": {
+   "kind": "block",
+   "name": "Irradiated Iron Ore"
+  },
+  "bfr:irradiated_lead_ore": {
+   "kind": "block",
+   "name": "Irradiated Lead Ore"
+  },
+  "bfr:irradiated_osmium_ore": {
+   "kind": "block",
+   "name": "Irradiated Osmium Ore"
+  },
+  "bfr:irradiated_tin_ore": {
+   "kind": "block",
+   "name": "Irradiated Tin Ore"
+  },
+  "bfr:irradiated_uranium_ore": {
+   "kind": "block",
+   "name": "Irradiated Uranium Ore"
+  },
+  "bfr:irradiator": {
+   "kind": "block",
+   "name": "Irradiator"
+  },
+  "bfr:laser_focus_matrix": {
+   "kind": "block",
+   "name": "Laser Focus Matrix"
+  },
+  "bfr:solidified_waste": {
+   "kind": "item",
+   "name": "Solidified Nuclear Waste"
+  }
+ }
+}

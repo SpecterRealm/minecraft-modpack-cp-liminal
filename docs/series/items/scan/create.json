@@ -1,0 +1,3083 @@
+{
+ "repo": "Creators-of-Create/Create",
+ "ref": "mc1.21.1-6.0.10",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "${mod_id}",
+  "create"
+ ],
+ "item_count": 751,
+ "compat": [
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "data-ref": 5
+   }
+  },
+  {
+   "id": "ars_elemental",
+   "slug": "ars-elemental",
+   "evidence": {
+    "data-ref": 2
+   }
+  },
+  {
+   "id": "ars_nouveau",
+   "slug": "ars-nouveau",
+   "evidence": {
+    "data-ref": 8
+   }
+  },
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "compat-import": 4
+   }
+  },
+  {
+   "id": "farmersdelight",
+   "slug": "farmers-delight",
+   "evidence": {
+    "compat-import": 1,
+    "data-ref": 4
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 31
+   }
+  },
+  {
+   "id": "mekanism",
+   "slug": "mekanism",
+   "evidence": {
+    "data-ref": 12
+   }
+  },
+  {
+   "id": "occultism",
+   "slug": "occultism",
+   "evidence": {
+    "data-ref": 1
+   }
+  },
+  {
+   "id": "sodium",
+   "slug": "sodium",
+   "evidence": {
+    "compat-import": 1,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "create:acacia_window": {
+   "kind": "block",
+   "name": "Acacia Window"
+  },
+  "create:acacia_window_pane": {
+   "kind": "block",
+   "name": "Acacia Window Pane"
+  },
+  "create:adjustable_chain_gearshift": {
+   "kind": "block",
+   "name": "Adjustable Chain Gearshift"
+  },
+  "create:analog_lever": {
+   "kind": "block",
+   "name": "Analog Lever"
+  },
+  "create:andesite_alloy_block": {
+   "kind": "block",
+   "name": "Block of Andesite Alloy"
+  },
+  "create:andesite_bars": {
+   "kind": "block",
+   "name": "Andesite Bars"
+  },
+  "create:andesite_belt_funnel": {
+   "kind": "block",
+   "name": "Andesite Belt Funnel"
+  },
+  "create:andesite_casing": {
+   "kind": "block",
+   "name": "Andesite Casing"
+  },
+  "create:andesite_door": {
+   "kind": "block",
+   "name": "Andesite Door"
+  },
+  "create:andesite_encased_cogwheel": {
+   "kind": "block",
+   "name": "Andesite Encased Cogwheel"
+  },
+  "create:andesite_encased_large_cogwheel": {
+   "kind": "block",
+   "name": "Andesite Encased Large Cogwheel"
+  },
+  "create:andesite_encased_shaft": {
+   "kind": "block",
+   "name": "Andesite Encased Shaft"
+  },
+  "create:andesite_funnel": {
+   "kind": "block",
+   "name": "Andesite Funnel"
+  },
+  "create:andesite_ladder": {
+   "kind": "block",
+   "name": "Andesite Ladder"
+  },
+  "create:andesite_pillar": {
+   "kind": "block",
+   "name": "Andesite Pillar"
+  },
+  "create:andesite_scaffolding": {
+   "kind": "block",
+   "name": "Andesite Scaffolding"
+  },
+  "create:andesite_table_cloth": {
+   "kind": "block",
+   "name": "Andesite Table Cover"
+  },
+  "create:andesite_tunnel": {
+   "kind": "block",
+   "name": "Andesite Tunnel"
+  },
+  "create:asurine": {
+   "kind": "block",
+   "name": "Asurine"
+  },
+  "create:asurine_pillar": {
+   "kind": "block",
+   "name": "Asurine Pillar"
+  },
+  "create:bamboo_window": {
+   "kind": "block",
+   "name": "Bamboo Window"
+  },
+  "create:bamboo_window_pane": {
+   "kind": "block",
+   "name": "Bamboo Window Pane"
+  },
+  "create:basin": {
+   "kind": "block",
+   "name": "Basin"
+  },
+  "create:belt": {
+   "kind": "block",
+   "name": "Belt"
+  },
+  "create:birch_window": {
+   "kind": "block",
+   "name": "Birch Window"
+  },
+  "create:birch_window_pane": {
+   "kind": "block",
+   "name": "Birch Window Pane"
+  },
+  "create:black_nixie_tube": {
+   "kind": "block",
+   "name": "Black Nixie Tube"
+  },
+  "create:black_postbox": {
+   "kind": "block",
+   "name": "Black Postbox"
+  },
+  "create:black_sail": {
+   "kind": "block",
+   "name": "Black Sail"
+  },
+  "create:black_seat": {
+   "kind": "block",
+   "name": "Black Seat"
+  },
+  "create:black_table_cloth": {
+   "kind": "block",
+   "name": "Black Table Cloth"
+  },
+  "create:black_toolbox": {
+   "kind": "block",
+   "name": "Black Toolbox"
+  },
+  "create:black_valve_handle": {
+   "kind": "block",
+   "name": "Black Valve Handle"
+  },
+  "create:blaze_burner": {
+   "kind": "block",
+   "name": "Blaze Burner"
+  },
+  "create:blue_nixie_tube": {
+   "kind": "block",
+   "name": "Blue Nixie Tube"
+  },
+  "create:blue_postbox": {
+   "kind": "block",
+   "name": "Blue Postbox"
+  },
+  "create:blue_sail": {
+   "kind": "block",
+   "name": "Blue Sail"
+  },
+  "create:blue_seat": {
+   "kind": "block",
+   "name": "Blue Seat"
+  },
+  "create:blue_table_cloth": {
+   "kind": "block",
+   "name": "Blue Table Cloth"
+  },
+  "create:blue_toolbox": {
+   "kind": "block",
+   "name": "Blue Toolbox"
+  },
+  "create:blue_valve_handle": {
+   "kind": "block",
+   "name": "Blue Valve Handle"
+  },
+  "create:bound_cardboard_block": {
+   "kind": "block",
+   "name": "Bound Block of Cardboard"
+  },
+  "create:brass_bars": {
+   "kind": "block",
+   "name": "Brass Bars"
+  },
+  "create:brass_belt_funnel": {
+   "kind": "block",
+   "name": "Brass Belt Funnel"
+  },
+  "create:brass_block": {
+   "kind": "block",
+   "name": "Block of Brass"
+  },
+  "create:brass_casing": {
+   "kind": "block",
+   "name": "Brass Casing"
+  },
+  "create:brass_door": {
+   "kind": "block",
+   "name": "Brass Door"
+  },
+  "create:brass_encased_cogwheel": {
+   "kind": "block",
+   "name": "Brass Encased Cogwheel"
+  },
+  "create:brass_encased_large_cogwheel": {
+   "kind": "block",
+   "name": "Brass Encased Large Cogwheel"
+  },
+  "create:brass_encased_shaft": {
+   "kind": "block",
+   "name": "Brass Encased Shaft"
+  },
+  "create:brass_funnel": {
+   "kind": "block",
+   "name": "Brass Funnel"
+  },
+  "create:brass_ladder": {
+   "kind": "block",
+   "name": "Brass Ladder"
+  },
+  "create:brass_scaffolding": {
+   "kind": "block",
+   "name": "Brass Scaffolding"
+  },
+  "create:brass_table_cloth": {
+   "kind": "block",
+   "name": "Brass Table Cover"
+  },
+  "create:brass_tunnel": {
+   "kind": "block",
+   "name": "Brass Tunnel"
+  },
+  "create:brown_nixie_tube": {
+   "kind": "block",
+   "name": "Brown Nixie Tube"
+  },
+  "create:brown_postbox": {
+   "kind": "block",
+   "name": "Brown Postbox"
+  },
+  "create:brown_sail": {
+   "kind": "block",
+   "name": "Brown Sail"
+  },
+  "create:brown_seat": {
+   "kind": "block",
+   "name": "Brown Seat"
+  },
+  "create:brown_table_cloth": {
+   "kind": "block",
+   "name": "Brown Table Cloth"
+  },
+  "create:brown_toolbox": {
+   "kind": "block",
+   "name": "Brown Toolbox"
+  },
+  "create:brown_valve_handle": {
+   "kind": "block",
+   "name": "Brown Valve Handle"
+  },
+  "create:calcite_pillar": {
+   "kind": "block",
+   "name": "Calcite Pillar"
+  },
+  "create:cardboard_block": {
+   "kind": "block",
+   "name": "Block of Cardboard"
+  },
+  "create:cart_assembler": {
+   "kind": "block",
+   "name": "Cart Assembler"
+  },
+  "create:chain_conveyor": {
+   "kind": "block",
+   "name": "Chain Conveyor"
+  },
+  "create:cherry_window": {
+   "kind": "block",
+   "name": "Cherry Window"
+  },
+  "create:cherry_window_pane": {
+   "kind": "block",
+   "name": "Cherry Window Pane"
+  },
+  "create:chocolate": {
+   "kind": "fluid",
+   "name": "Chocolate"
+  },
+  "create:chute": {
+   "kind": "block",
+   "name": "Chute"
+  },
+  "create:clipboard": {
+   "kind": "block",
+   "name": "Clipboard"
+  },
+  "create:clockwork_bearing": {
+   "kind": "block",
+   "name": "Clockwork Bearing"
+  },
+  "create:clutch": {
+   "kind": "block",
+   "name": "Clutch"
+  },
+  "create:cogwheel": {
+   "kind": "block",
+   "name": "Cogwheel"
+  },
+  "create:content_observer": {
+   "kind": "block",
+   "name": "Smart Observer"
+  },
+  "create:contraption_controls": {
+   "kind": "block",
+   "name": "Contraption Controls"
+  },
+  "create:controller_rail": {
+   "kind": "block",
+   "name": "Controller Rail"
+  },
+  "create:controls": {
+   "kind": "block",
+   "name": "Train Controls"
+  },
+  "create:copper_backtank": {
+   "kind": "item",
+   "name": "Copper Backtank"
+  },
+  "create:copper_bars": {
+   "kind": "block",
+   "name": "Copper Bars"
+  },
+  "create:copper_casing": {
+   "kind": "block",
+   "name": "Copper Casing"
+  },
+  "create:copper_door": {
+   "kind": "block",
+   "name": "Copper Door"
+  },
+  "create:copper_ladder": {
+   "kind": "block",
+   "name": "Copper Ladder"
+  },
+  "create:copper_scaffolding": {
+   "kind": "block",
+   "name": "Copper Scaffolding"
+  },
+  "create:copper_shingle_slab": {
+   "kind": "block",
+   "name": "Copper Shingle Slab"
+  },
+  "create:copper_shingle_stairs": {
+   "kind": "block",
+   "name": "Copper Shingle Stairs"
+  },
+  "create:copper_shingles": {
+   "kind": "block",
+   "name": "Copper Shingles"
+  },
+  "create:copper_table_cloth": {
+   "kind": "block",
+   "name": "Copper Table Cover"
+  },
+  "create:copper_tile_slab": {
+   "kind": "block",
+   "name": "Copper Tile Slab"
+  },
+  "create:copper_tile_stairs": {
+   "kind": "block",
+   "name": "Copper Tile Stairs"
+  },
+  "create:copper_tiles": {
+   "kind": "block",
+   "name": "Copper Tiles"
+  },
+  "create:copper_valve_handle": {
+   "kind": "block",
+   "name": "Copper Valve Handle"
+  },
+  "create:copycat_bars": {
+   "kind": "block",
+   "name": "Copycat Bars"
+  },
+  "create:copycat_base": {
+   "kind": "block",
+   "name": "Copycat Base"
+  },
+  "create:copycat_panel": {
+   "kind": "block",
+   "name": "Copycat Panel"
+  },
+  "create:copycat_step": {
+   "kind": "block",
+   "name": "Copycat Step"
+  },
+  "create:creative_crate": {
+   "kind": "block",
+   "name": "Creative Crate"
+  },
+  "create:creative_fluid_tank": {
+   "kind": "block",
+   "name": "Creative Fluid Tank"
+  },
+  "create:creative_motor": {
+   "kind": "block",
+   "name": "Creative Motor"
+  },
+  "create:crimsite": {
+   "kind": "block",
+   "name": "Crimsite"
+  },
+  "create:crimsite_pillar": {
+   "kind": "block",
+   "name": "Crimsite Pillar"
+  },
+  "create:crimson_window": {
+   "kind": "block",
+   "name": "Crimson Window"
+  },
+  "create:crimson_window_pane": {
+   "kind": "block",
+   "name": "Crimson Window Pane"
+  },
+  "create:crushing_wheel": {
+   "kind": "block",
+   "name": "Crushing Wheel"
+  },
+  "create:crushing_wheel_controller": {
+   "kind": "block",
+   "name": "Crushing Wheel Controller"
+  },
+  "create:cuckoo_clock": {
+   "kind": "block",
+   "name": "Cuckoo Clock"
+  },
+  "create:cut_andesite": {
+   "kind": "block",
+   "name": "Cut Andesite"
+  },
+  "create:cut_andesite_brick_slab": {
+   "kind": "block",
+   "name": "Cut Andesite Brick Slab"
+  },
+  "create:cut_andesite_brick_stairs": {
+   "kind": "block",
+   "name": "Cut Andesite Brick Stairs"
+  },
+  "create:cut_andesite_brick_wall": {
+   "kind": "block",
+   "name": "Cut Andesite Brick Wall"
+  },
+  "create:cut_andesite_bricks": {
+   "kind": "block",
+   "name": "Cut Andesite Bricks"
+  },
+  "create:cut_andesite_slab": {
+   "kind": "block",
+   "name": "Cut Andesite Slab"
+  },
+  "create:cut_andesite_stairs": {
+   "kind": "block",
+   "name": "Cut Andesite Stairs"
+  },
+  "create:cut_andesite_wall": {
+   "kind": "block",
+   "name": "Cut Andesite Wall"
+  },
+  "create:cut_asurine": {
+   "kind": "block",
+   "name": "Cut Asurine"
+  },
+  "create:cut_asurine_brick_slab": {
+   "kind": "block",
+   "name": "Cut Asurine Brick Slab"
+  },
+  "create:cut_asurine_brick_stairs": {
+   "kind": "block",
+   "name": "Cut Asurine Brick Stairs"
+  },
+  "create:cut_asurine_brick_wall": {
+   "kind": "block",
+   "name": "Cut Asurine Brick Wall"
+  },
+  "create:cut_asurine_bricks": {
+   "kind": "block",
+   "name": "Cut Asurine Bricks"
+  },
+  "create:cut_asurine_slab": {
+   "kind": "block",
+   "name": "Cut Asurine Slab"
+  },
+  "create:cut_asurine_stairs": {
+   "kind": "block",
+   "name": "Cut Asurine Stairs"
+  },
+  "create:cut_asurine_wall": {
+   "kind": "block",
+   "name": "Cut Asurine Wall"
+  },
+  "create:cut_calcite": {
+   "kind": "block",
+   "name": "Cut Calcite"
+  },
+  "create:cut_calcite_brick_slab": {
+   "kind": "block",
+   "name": "Cut Calcite Brick Slab"
+  },
+  "create:cut_calcite_brick_stairs": {
+   "kind": "block",
+   "name": "Cut Calcite Brick Stairs"
+  },
+  "create:cut_calcite_brick_wall": {
+   "kind": "block",
+   "name": "Cut Calcite Brick Wall"
+  },
+  "create:cut_calcite_bricks": {
+   "kind": "block",
+   "name": "Cut Calcite Bricks"
+  },
+  "create:cut_calcite_slab": {
+   "kind": "block",
+   "name": "Cut Calcite Slab"
+  },
+  "create:cut_calcite_stairs": {
+   "kind": "block",
+   "name": "Cut Calcite Stairs"
+  },
+  "create:cut_calcite_wall": {
+   "kind": "block",
+   "name": "Cut Calcite Wall"
+  },
+  "create:cut_crimsite": {
+   "kind": "block",
+   "name": "Cut Crimsite"
+  },
+  "create:cut_crimsite_brick_slab": {
+   "kind": "block",
+   "name": "Cut Crimsite Brick Slab"
+  },
+  "create:cut_crimsite_brick_stairs": {
+   "kind": "block",
+   "name": "Cut Crimsite Brick Stairs"
+  },
+  "create:cut_crimsite_brick_wall": {
+   "kind": "block",
+   "name": "Cut Crimsite Brick Wall"
+  },
+  "create:cut_crimsite_bricks": {
+   "kind": "block",
+   "name": "Cut Crimsite Bricks"
+  },
+  "create:cut_crimsite_slab": {
+   "kind": "block",
+   "name": "Cut Crimsite Slab"
+  },
+  "create:cut_crimsite_stairs": {
+   "kind": "block",
+   "name": "Cut Crimsite Stairs"
+  },
+  "create:cut_crimsite_wall": {
+   "kind": "block",
+   "name": "Cut Crimsite Wall"
+  },
+  "create:cut_deepslate": {
+   "kind": "block",
+   "name": "Cut Deepslate"
+  },
+  "create:cut_deepslate_brick_slab": {
+   "kind": "block",
+   "name": "Cut Deepslate Brick Slab"
+  },
+  "create:cut_deepslate_brick_stairs": {
+   "kind": "block",
+   "name": "Cut Deepslate Brick Stairs"
+  },
+  "create:cut_deepslate_brick_wall": {
+   "kind": "block",
+   "name": "Cut Deepslate Brick Wall"
+  },
+  "create:cut_deepslate_bricks": {
+   "kind": "block",
+   "name": "Cut Deepslate Bricks"
+  },
+  "create:cut_deepslate_slab": {
+   "kind": "block",
+   "name": "Cut Deepslate Slab"
+  },
+  "create:cut_deepslate_stairs": {
+   "kind": "block",
+   "name": "Cut Deepslate Stairs"
+  },
+  "create:cut_deepslate_wall": {
+   "kind": "block",
+   "name": "Cut Deepslate Wall"
+  },
+  "create:cut_diorite": {
+   "kind": "block",
+   "name": "Cut Diorite"
+  },
+  "create:cut_diorite_brick_slab": {
+   "kind": "block",
+   "name": "Cut Diorite Brick Slab"
+  },
+  "create:cut_diorite_brick_stairs": {
+   "kind": "block",
+   "name": "Cut Diorite Brick Stairs"
+  },
+  "create:cut_diorite_brick_wall": {
+   "kind": "block",
+   "name": "Cut Diorite Brick Wall"
+  },
+  "create:cut_diorite_bricks": {
+   "kind": "block",
+   "name": "Cut Diorite Bricks"
+  },
+  "create:cut_diorite_slab": {
+   "kind": "block",
+   "name": "Cut Diorite Slab"
+  },
+  "create:cut_diorite_stairs": {
+   "kind": "block",
+   "name": "Cut Diorite Stairs"
+  },
+  "create:cut_diorite_wall": {
+   "kind": "block",
+   "name": "Cut Diorite Wall"
+  },
+  "create:cut_dripstone": {
+   "kind": "block",
+   "name": "Cut Dripstone"
+  },
+  "create:cut_dripstone_brick_slab": {
+   "kind": "block",
+   "name": "Cut Dripstone Brick Slab"
+  },
+  "create:cut_dripstone_brick_stairs": {
+   "kind": "block",
+   "name": "Cut Dripstone Brick Stairs"
+  },
+  "create:cut_dripstone_brick_wall": {
+   "kind": "block",
+   "name": "Cut Dripstone Brick Wall"
+  },
+  "create:cut_dripstone_bricks": {
+   "kind": "block",
+   "name": "Cut Dripstone Bricks"
+  },
+  "create:cut_dripstone_slab": {
+   "kind": "block",
+   "name": "Cut Dripstone Slab"
+  },
+  "create:cut_dripstone_stairs": {
+   "kind": "block",
+   "name": "Cut Dripstone Stairs"
+  },
+  "create:cut_dripstone_wall": {
+   "kind": "block",
+   "name": "Cut Dripstone Wall"
+  },
+  "create:cut_granite": {
+   "kind": "block",
+   "name": "Cut Granite"
+  },
+  "create:cut_granite_brick_slab": {
+   "kind": "block",
+   "name": "Cut Granite Brick Slab"
+  },
+  "create:cut_granite_brick_stairs": {
+   "kind": "block",
+   "name": "Cut Granite Brick Stairs"
+  },
+  "create:cut_granite_brick_wall": {
+   "kind": "block",
+   "name": "Cut Granite Brick Wall"
+  },
+  "create:cut_granite_bricks": {
+   "kind": "block",
+   "name": "Cut Granite Bricks"
+  },
+  "create:cut_granite_slab": {
+   "kind": "block",
+   "name": "Cut Granite Slab"
+  },
+  "create:cut_granite_stairs": {
+   "kind": "block",
+   "name": "Cut Granite Stairs"
+  },
+  "create:cut_granite_wall": {
+   "kind": "block",
+   "name": "Cut Granite Wall"
+  },
+  "create:cut_limestone": {
+   "kind": "block",
+   "name": "Cut Limestone"
+  },
+  "create:cut_limestone_brick_slab": {
+   "kind": "block",
+   "name": "Cut Limestone Brick Slab"
+  },
+  "create:cut_limestone_brick_stairs": {
+   "kind": "block",
+   "name": "Cut Limestone Brick Stairs"
+  },
+  "create:cut_limestone_brick_wall": {
+   "kind": "block",
+   "name": "Cut Limestone Brick Wall"
+  },
+  "create:cut_limestone_bricks": {
+   "kind": "block",
+   "name": "Cut Limestone Bricks"
+  },
+  "create:cut_limestone_slab": {
+   "kind": "block",
+   "name": "Cut Limestone Slab"
+  },
+  "create:cut_limestone_stairs": {
+   "kind": "block",
+   "name": "Cut Limestone Stairs"
+  },
+  "create:cut_limestone_wall": {
+   "kind": "block",
+   "name": "Cut Limestone Wall"
+  },
+  "create:cut_ochrum": {
+   "kind": "block",
+   "name": "Cut Ochrum"
+  },
+  "create:cut_ochrum_brick_slab": {
+   "kind": "block",
+   "name": "Cut Ochrum Brick Slab"
+  },
+  "create:cut_ochrum_brick_stairs": {
+   "kind": "block",
+   "name": "Cut Ochrum Brick Stairs"
+  },
+  "create:cut_ochrum_brick_wall": {
+   "kind": "block",
+   "name": "Cut Ochrum Brick Wall"
+  },
+  "create:cut_ochrum_bricks": {
+   "kind": "block",
+   "name": "Cut Ochrum Bricks"
+  },
+  "create:cut_ochrum_slab": {
+   "kind": "block",
+   "name": "Cut Ochrum Slab"
+  },
+  "create:cut_ochrum_stairs": {
+   "kind": "block",
+   "name": "Cut Ochrum Stairs"
+  },
+  "create:cut_ochrum_wall": {
+   "kind": "block",
+   "name": "Cut Ochrum Wall"
+  },
+  "create:cut_scorchia": {
+   "kind": "block",
+   "name": "Cut Scorchia"
+  },
+  "create:cut_scorchia_brick_slab": {
+   "kind": "block",
+   "name": "Cut Scorchia Brick Slab"
+  },
+  "create:cut_scorchia_brick_stairs": {
+   "kind": "block",
+   "name": "Cut Scorchia Brick Stairs"
+  },
+  "create:cut_scorchia_brick_wall": {
+   "kind": "block",
+   "name": "Cut Scorchia Brick Wall"
+  },
+  "create:cut_scorchia_bricks": {
+   "kind": "block",
+   "name": "Cut Scorchia Bricks"
+  },
+  "create:cut_scorchia_slab": {
+   "kind": "block",
+   "name": "Cut Scorchia Slab"
+  },
+  "create:cut_scorchia_stairs": {
+   "kind": "block",
+   "name": "Cut Scorchia Stairs"
+  },
+  "create:cut_scorchia_wall": {
+   "kind": "block",
+   "name": "Cut Scorchia Wall"
+  },
+  "create:cut_scoria": {
+   "kind": "block",
+   "name": "Cut Scoria"
+  },
+  "create:cut_scoria_brick_slab": {
+   "kind": "block",
+   "name": "Cut Scoria Brick Slab"
+  },
+  "create:cut_scoria_brick_stairs": {
+   "kind": "block",
+   "name": "Cut Scoria Brick Stairs"
+  },
+  "create:cut_scoria_brick_wall": {
+   "kind": "block",
+   "name": "Cut Scoria Brick Wall"
+  },
+  "create:cut_scoria_bricks": {
+   "kind": "block",
+   "name": "Cut Scoria Bricks"
+  },
+  "create:cut_scoria_slab": {
+   "kind": "block",
+   "name": "Cut Scoria Slab"
+  },
+  "create:cut_scoria_stairs": {
+   "kind": "block",
+   "name": "Cut Scoria Stairs"
+  },
+  "create:cut_scoria_wall": {
+   "kind": "block",
+   "name": "Cut Scoria Wall"
+  },
+  "create:cut_tuff": {
+   "kind": "block",
+   "name": "Cut Tuff"
+  },
+  "create:cut_tuff_brick_slab": {
+   "kind": "block",
+   "name": "Cut Tuff Brick Slab"
+  },
+  "create:cut_tuff_brick_stairs": {
+   "kind": "block",
+   "name": "Cut Tuff Brick Stairs"
+  },
+  "create:cut_tuff_brick_wall": {
+   "kind": "block",
+   "name": "Cut Tuff Brick Wall"
+  },
+  "create:cut_tuff_bricks": {
+   "kind": "block",
+   "name": "Cut Tuff Bricks"
+  },
+  "create:cut_tuff_slab": {
+   "kind": "block",
+   "name": "Cut Tuff Slab"
+  },
+  "create:cut_tuff_stairs": {
+   "kind": "block",
+   "name": "Cut Tuff Stairs"
+  },
+  "create:cut_tuff_wall": {
+   "kind": "block",
+   "name": "Cut Tuff Wall"
+  },
+  "create:cut_veridium": {
+   "kind": "block",
+   "name": "Cut Veridium"
+  },
+  "create:cut_veridium_brick_slab": {
+   "kind": "block",
+   "name": "Cut Veridium Brick Slab"
+  },
+  "create:cut_veridium_brick_stairs": {
+   "kind": "block",
+   "name": "Cut Veridium Brick Stairs"
+  },
+  "create:cut_veridium_brick_wall": {
+   "kind": "block",
+   "name": "Cut Veridium Brick Wall"
+  },
+  "create:cut_veridium_bricks": {
+   "kind": "block",
+   "name": "Cut Veridium Bricks"
+  },
+  "create:cut_veridium_slab": {
+   "kind": "block",
+   "name": "Cut Veridium Slab"
+  },
+  "create:cut_veridium_stairs": {
+   "kind": "block",
+   "name": "Cut Veridium Stairs"
+  },
+  "create:cut_veridium_wall": {
+   "kind": "block",
+   "name": "Cut Veridium Wall"
+  },
+  "create:cyan_nixie_tube": {
+   "kind": "block",
+   "name": "Cyan Nixie Tube"
+  },
+  "create:cyan_postbox": {
+   "kind": "block",
+   "name": "Cyan Postbox"
+  },
+  "create:cyan_sail": {
+   "kind": "block",
+   "name": "Cyan Sail"
+  },
+  "create:cyan_seat": {
+   "kind": "block",
+   "name": "Cyan Seat"
+  },
+  "create:cyan_table_cloth": {
+   "kind": "block",
+   "name": "Cyan Table Cloth"
+  },
+  "create:cyan_toolbox": {
+   "kind": "block",
+   "name": "Cyan Toolbox"
+  },
+  "create:cyan_valve_handle": {
+   "kind": "block",
+   "name": "Cyan Valve Handle"
+  },
+  "create:dark_oak_window": {
+   "kind": "block",
+   "name": "Dark Oak Window"
+  },
+  "create:dark_oak_window_pane": {
+   "kind": "block",
+   "name": "Dark Oak Window Pane"
+  },
+  "create:deepslate_pillar": {
+   "kind": "block",
+   "name": "Deepslate Pillar"
+  },
+  "create:deepslate_zinc_ore": {
+   "kind": "block",
+   "name": "Deepslate Zinc Ore"
+  },
+  "create:deployer": {
+   "kind": "block",
+   "name": "Deployer"
+  },
+  "create:depot": {
+   "kind": "block",
+   "name": "Depot"
+  },
+  "create:desk_bell": {
+   "kind": "block",
+   "name": "Desk Bell"
+  },
+  "create:diorite_pillar": {
+   "kind": "block",
+   "name": "Diorite Pillar"
+  },
+  "create:display_board": {
+   "kind": "block",
+   "name": "Display Board"
+  },
+  "create:display_link": {
+   "kind": "block",
+   "name": "Display Link"
+  },
+  "create:dripstone_pillar": {
+   "kind": "block",
+   "name": "Dripstone Pillar"
+  },
+  "create:elevator_contact": {
+   "kind": "block",
+   "name": "Elevator Contact"
+  },
+  "create:elevator_pulley": {
+   "kind": "block",
+   "name": "Elevator Pulley"
+  },
+  "create:encased_chain_drive": {
+   "kind": "block",
+   "name": "Encased Chain Drive"
+  },
+  "create:encased_fan": {
+   "kind": "block",
+   "name": "Encased Fan"
+  },
+  "create:encased_fluid_pipe": {
+   "kind": "block",
+   "name": "Encased Fluid Pipe"
+  },
+  "create:experience_block": {
+   "kind": "block",
+   "name": "Block of Experience"
+  },
+  "create:exposed_copper_shingle_slab": {
+   "kind": "block",
+   "name": "Exposed Copper Shingle Slab"
+  },
+  "create:exposed_copper_shingle_stairs": {
+   "kind": "block",
+   "name": "Exposed Copper Shingle Stairs"
+  },
+  "create:exposed_copper_shingles": {
+   "kind": "block",
+   "name": "Exposed Copper Shingles"
+  },
+  "create:exposed_copper_tile_slab": {
+   "kind": "block",
+   "name": "Exposed Copper Tile Slab"
+  },
+  "create:exposed_copper_tile_stairs": {
+   "kind": "block",
+   "name": "Exposed Copper Tile Stairs"
+  },
+  "create:exposed_copper_tiles": {
+   "kind": "block",
+   "name": "Exposed Copper Tiles"
+  },
+  "create:factory_gauge": {
+   "kind": "block",
+   "name": "Factory Gauge"
+  },
+  "create:fake_track": {
+   "kind": "block",
+   "name": "Track Marker for Maps"
+  },
+  "create:fluid_pipe": {
+   "kind": "block",
+   "name": "Fluid Pipe"
+  },
+  "create:fluid_tank": {
+   "kind": "block",
+   "name": "Fluid Tank"
+  },
+  "create:fluid_valve": {
+   "kind": "block",
+   "name": "Fluid Valve"
+  },
+  "create:flywheel": {
+   "kind": "block",
+   "name": "Flywheel"
+  },
+  "create:framed_glass": {
+   "kind": "block",
+   "name": "Framed Glass"
+  },
+  "create:framed_glass_door": {
+   "kind": "block",
+   "name": "Framed Glass Door"
+  },
+  "create:framed_glass_pane": {
+   "kind": "block",
+   "name": "Framed Glass Pane"
+  },
+  "create:framed_glass_trapdoor": {
+   "kind": "block",
+   "name": "Framed Glass Trapdoor"
+  },
+  "create:gantry_carriage": {
+   "kind": "block",
+   "name": "Gantry Carriage"
+  },
+  "create:gantry_shaft": {
+   "kind": "block",
+   "name": "Gantry Shaft"
+  },
+  "create:gearbox": {
+   "kind": "block",
+   "name": "Gearbox"
+  },
+  "create:gearshift": {
+   "kind": "block",
+   "name": "Gearshift"
+  },
+  "create:glass_fluid_pipe": {
+   "kind": "block",
+   "name": "Glass Fluid Pipe"
+  },
+  "create:granite_pillar": {
+   "kind": "block",
+   "name": "Granite Pillar"
+  },
+  "create:gray_nixie_tube": {
+   "kind": "block",
+   "name": "Gray Nixie Tube"
+  },
+  "create:gray_postbox": {
+   "kind": "block",
+   "name": "Gray Postbox"
+  },
+  "create:gray_sail": {
+   "kind": "block",
+   "name": "Gray Sail"
+  },
+  "create:gray_seat": {
+   "kind": "block",
+   "name": "Gray Seat"
+  },
+  "create:gray_table_cloth": {
+   "kind": "block",
+   "name": "Gray Table Cloth"
+  },
+  "create:gray_toolbox": {
+   "kind": "block",
+   "name": "Gray Toolbox"
+  },
+  "create:gray_valve_handle": {
+   "kind": "block",
+   "name": "Gray Valve Handle"
+  },
+  "create:green_nixie_tube": {
+   "kind": "block",
+   "name": "Green Nixie Tube"
+  },
+  "create:green_postbox": {
+   "kind": "block",
+   "name": "Green Postbox"
+  },
+  "create:green_sail": {
+   "kind": "block",
+   "name": "Green Sail"
+  },
+  "create:green_seat": {
+   "kind": "block",
+   "name": "Green Seat"
+  },
+  "create:green_table_cloth": {
+   "kind": "block",
+   "name": "Green Table Cloth"
+  },
+  "create:green_toolbox": {
+   "kind": "block",
+   "name": "Green Toolbox"
+  },
+  "create:green_valve_handle": {
+   "kind": "block",
+   "name": "Green Valve Handle"
+  },
+  "create:hand_crank": {
+   "kind": "block",
+   "name": "Hand Crank"
+  },
+  "create:haunted_bell": {
+   "kind": "block",
+   "name": "Haunted Bell"
+  },
+  "create:honey": {
+   "kind": "fluid",
+   "name": "Honey"
+  },
+  "create:horizontal_framed_glass": {
+   "kind": "block",
+   "name": "Horizontal Framed Glass"
+  },
+  "create:horizontal_framed_glass_pane": {
+   "kind": "block",
+   "name": "Horizontal Framed Glass Pane"
+  },
+  "create:hose_pulley": {
+   "kind": "block",
+   "name": "Hose Pulley"
+  },
+  "create:industrial_iron_block": {
+   "kind": "block",
+   "name": "Block of Industrial Iron"
+  },
+  "create:industrial_iron_window": {
+   "kind": "block",
+   "name": "Industrial Iron Window"
+  },
+  "create:industrial_iron_window_pane": {
+   "kind": "block",
+   "name": "Industrial Iron Window Pane"
+  },
+  "create:item_drain": {
+   "kind": "block",
+   "name": "Item Drain"
+  },
+  "create:item_hatch": {
+   "kind": "block",
+   "name": "Item Hatch"
+  },
+  "create:item_vault": {
+   "kind": "block",
+   "name": "Item Vault"
+  },
+  "create:jungle_window": {
+   "kind": "block",
+   "name": "Jungle Window"
+  },
+  "create:jungle_window_pane": {
+   "kind": "block",
+   "name": "Jungle Window Pane"
+  },
+  "create:large_bogey": {
+   "kind": "block",
+   "name": "Large Bogey"
+  },
+  "create:large_cogwheel": {
+   "kind": "block",
+   "name": "Large Cogwheel"
+  },
+  "create:large_water_wheel": {
+   "kind": "block",
+   "name": "Large Water Wheel"
+  },
+  "create:layered_andesite": {
+   "kind": "block",
+   "name": "Layered Andesite"
+  },
+  "create:layered_asurine": {
+   "kind": "block",
+   "name": "Layered Asurine"
+  },
+  "create:layered_calcite": {
+   "kind": "block",
+   "name": "Layered Calcite"
+  },
+  "create:layered_crimsite": {
+   "kind": "block",
+   "name": "Layered Crimsite"
+  },
+  "create:layered_deepslate": {
+   "kind": "block",
+   "name": "Layered Deepslate"
+  },
+  "create:layered_diorite": {
+   "kind": "block",
+   "name": "Layered Diorite"
+  },
+  "create:layered_dripstone": {
+   "kind": "block",
+   "name": "Layered Dripstone"
+  },
+  "create:layered_granite": {
+   "kind": "block",
+   "name": "Layered Granite"
+  },
+  "create:layered_limestone": {
+   "kind": "block",
+   "name": "Layered Limestone"
+  },
+  "create:layered_ochrum": {
+   "kind": "block",
+   "name": "Layered Ochrum"
+  },
+  "create:layered_scorchia": {
+   "kind": "block",
+   "name": "Layered Scorchia"
+  },
+  "create:layered_scoria": {
+   "kind": "block",
+   "name": "Layered Scoria"
+  },
+  "create:layered_tuff": {
+   "kind": "block",
+   "name": "Layered Tuff"
+  },
+  "create:layered_veridium": {
+   "kind": "block",
+   "name": "Layered Veridium"
+  },
+  "create:lectern_controller": {
+   "kind": "block",
+   "name": "Lectern Controller"
+  },
+  "create:light_blue_nixie_tube": {
+   "kind": "block",
+   "name": "Light Blue Nixie Tube"
+  },
+  "create:light_blue_postbox": {
+   "kind": "block",
+   "name": "Light Blue Postbox"
+  },
+  "create:light_blue_sail": {
+   "kind": "block",
+   "name": "Light Blue Sail"
+  },
+  "create:light_blue_seat": {
+   "kind": "block",
+   "name": "Light Blue Seat"
+  },
+  "create:light_blue_table_cloth": {
+   "kind": "block",
+   "name": "Light Blue Table Cloth"
+  },
+  "create:light_blue_toolbox": {
+   "kind": "block",
+   "name": "Light Blue Toolbox"
+  },
+  "create:light_blue_valve_handle": {
+   "kind": "block",
+   "name": "Light Blue Valve Handle"
+  },
+  "create:light_gray_nixie_tube": {
+   "kind": "block",
+   "name": "Light Gray Nixie Tube"
+  },
+  "create:light_gray_postbox": {
+   "kind": "block",
+   "name": "Light Gray Postbox"
+  },
+  "create:light_gray_sail": {
+   "kind": "block",
+   "name": "Light Gray Sail"
+  },
+  "create:light_gray_seat": {
+   "kind": "block",
+   "name": "Light Gray Seat"
+  },
+  "create:light_gray_table_cloth": {
+   "kind": "block",
+   "name": "Light Gray Table Cloth"
+  },
+  "create:light_gray_toolbox": {
+   "kind": "block",
+   "name": "Light Gray Toolbox"
+  },
+  "create:light_gray_valve_handle": {
+   "kind": "block",
+   "name": "Light Gray Valve Handle"
+  },
+  "create:lime_nixie_tube": {
+   "kind": "block",
+   "name": "Lime Nixie Tube"
+  },
+  "create:lime_postbox": {
+   "kind": "block",
+   "name": "Lime Postbox"
+  },
+  "create:lime_sail": {
+   "kind": "block",
+   "name": "Lime Sail"
+  },
+  "create:lime_seat": {
+   "kind": "block",
+   "name": "Lime Seat"
+  },
+  "create:lime_table_cloth": {
+   "kind": "block",
+   "name": "Lime Table Cloth"
+  },
+  "create:lime_toolbox": {
+   "kind": "block",
+   "name": "Lime Toolbox"
+  },
+  "create:lime_valve_handle": {
+   "kind": "block",
+   "name": "Lime Valve Handle"
+  },
+  "create:limestone": {
+   "kind": "block",
+   "name": "Limestone"
+  },
+  "create:limestone_pillar": {
+   "kind": "block",
+   "name": "Limestone Pillar"
+  },
+  "create:linear_chassis": {
+   "kind": "block",
+   "name": "Linear Chassis"
+  },
+  "create:lit_blaze_burner": {
+   "kind": "block",
+   "name": "Lit Blaze Burner"
+  },
+  "create:magenta_nixie_tube": {
+   "kind": "block",
+   "name": "Magenta Nixie Tube"
+  },
+  "create:magenta_postbox": {
+   "kind": "block",
+   "name": "Magenta Postbox"
+  },
+  "create:magenta_sail": {
+   "kind": "block",
+   "name": "Magenta Sail"
+  },
+  "create:magenta_seat": {
+   "kind": "block",
+   "name": "Magenta Seat"
+  },
+  "create:magenta_table_cloth": {
+   "kind": "block",
+   "name": "Magenta Table Cloth"
+  },
+  "create:magenta_toolbox": {
+   "kind": "block",
+   "name": "Magenta Toolbox"
+  },
+  "create:magenta_valve_handle": {
+   "kind": "block",
+   "name": "Magenta Valve Handle"
+  },
+  "create:mangrove_window": {
+   "kind": "block",
+   "name": "Mangrove Window"
+  },
+  "create:mangrove_window_pane": {
+   "kind": "block",
+   "name": "Mangrove Window Pane"
+  },
+  "create:mechanical_arm": {
+   "kind": "block",
+   "name": "Mechanical Arm"
+  },
+  "create:mechanical_bearing": {
+   "kind": "block",
+   "name": "Mechanical Bearing"
+  },
+  "create:mechanical_crafter": {
+   "kind": "block",
+   "name": "Mechanical Crafter"
+  },
+  "create:mechanical_drill": {
+   "kind": "block",
+   "name": "Mechanical Drill"
+  },
+  "create:mechanical_harvester": {
+   "kind": "block",
+   "name": "Mechanical Harvester"
+  },
+  "create:mechanical_mixer": {
+   "kind": "block",
+   "name": "Mechanical Mixer"
+  },
+  "create:mechanical_piston": {
+   "kind": "block",
+   "name": "Mechanical Piston"
+  },
+  "create:mechanical_piston_head": {
+   "kind": "block",
+   "name": "Mechanical Piston Head"
+  },
+  "create:mechanical_plough": {
+   "kind": "block",
+   "name": "Mechanical Plough"
+  },
+  "create:mechanical_press": {
+   "kind": "block",
+   "name": "Mechanical Press"
+  },
+  "create:mechanical_pump": {
+   "kind": "block",
+   "name": "Mechanical Pump"
+  },
+  "create:mechanical_roller": {
+   "kind": "block",
+   "name": "Mechanical Roller"
+  },
+  "create:mechanical_saw": {
+   "kind": "block",
+   "name": "Mechanical Saw"
+  },
+  "create:metal_bracket": {
+   "kind": "block",
+   "name": "Metal Bracket"
+  },
+  "create:metal_girder": {
+   "kind": "block",
+   "name": "Metal Girder"
+  },
+  "create:metal_girder_encased_shaft": {
+   "kind": "block",
+   "name": "Metal Girder Encased Shaft"
+  },
+  "create:millstone": {
+   "kind": "block",
+   "name": "Millstone"
+  },
+  "create:minecart_anchor": {
+   "kind": "block",
+   "name": "Minecart Anchor"
+  },
+  "create:mysterious_cuckoo_clock": {
+   "kind": "block",
+   "name": "Cuckoo Clock"
+  },
+  "create:netherite_backtank": {
+   "kind": "item",
+   "name": "Netherite Backtank"
+  },
+  "create:nixie_tube": {
+   "kind": "block",
+   "name": "Nixie Tube"
+  },
+  "create:nozzle": {
+   "kind": "block",
+   "name": "Nozzle"
+  },
+  "create:oak_window": {
+   "kind": "block",
+   "name": "Oak Window"
+  },
+  "create:oak_window_pane": {
+   "kind": "block",
+   "name": "Oak Window Pane"
+  },
+  "create:ochrum": {
+   "kind": "block",
+   "name": "Ochrum"
+  },
+  "create:ochrum_pillar": {
+   "kind": "block",
+   "name": "Ochrum Pillar"
+  },
+  "create:orange_postbox": {
+   "kind": "block",
+   "name": "Orange Postbox"
+  },
+  "create:orange_sail": {
+   "kind": "block",
+   "name": "Orange Sail"
+  },
+  "create:orange_seat": {
+   "kind": "block",
+   "name": "Orange Seat"
+  },
+  "create:orange_table_cloth": {
+   "kind": "block",
+   "name": "Orange Table Cloth"
+  },
+  "create:orange_toolbox": {
+   "kind": "block",
+   "name": "Orange Toolbox"
+  },
+  "create:orange_valve_handle": {
+   "kind": "block",
+   "name": "Orange Valve Handle"
+  },
+  "create:ornate_iron_window": {
+   "kind": "block",
+   "name": "Ornate Iron Window"
+  },
+  "create:ornate_iron_window_pane": {
+   "kind": "block",
+   "name": "Ornate Iron Window Pane"
+  },
+  "create:oxidized_copper_shingle_slab": {
+   "kind": "block",
+   "name": "Oxidized Copper Shingle Slab"
+  },
+  "create:oxidized_copper_shingle_stairs": {
+   "kind": "block",
+   "name": "Oxidized Copper Shingle Stairs"
+  },
+  "create:oxidized_copper_shingles": {
+   "kind": "block",
+   "name": "Oxidized Copper Shingles"
+  },
+  "create:oxidized_copper_tile_slab": {
+   "kind": "block",
+   "name": "Oxidized Copper Tile Slab"
+  },
+  "create:oxidized_copper_tile_stairs": {
+   "kind": "block",
+   "name": "Oxidized Copper Tile Stairs"
+  },
+  "create:oxidized_copper_tiles": {
+   "kind": "block",
+   "name": "Oxidized Copper Tiles"
+  },
+  "create:package_frogport": {
+   "kind": "block",
+   "name": "Package Frogport"
+  },
+  "create:packager": {
+   "kind": "block",
+   "name": "Packager"
+  },
+  "create:peculiar_bell": {
+   "kind": "block",
+   "name": "Peculiar Bell"
+  },
+  "create:pink_nixie_tube": {
+   "kind": "block",
+   "name": "Pink Nixie Tube"
+  },
+  "create:pink_postbox": {
+   "kind": "block",
+   "name": "Pink Postbox"
+  },
+  "create:pink_sail": {
+   "kind": "block",
+   "name": "Pink Sail"
+  },
+  "create:pink_seat": {
+   "kind": "block",
+   "name": "Pink Seat"
+  },
+  "create:pink_table_cloth": {
+   "kind": "block",
+   "name": "Pink Table Cloth"
+  },
+  "create:pink_toolbox": {
+   "kind": "block",
+   "name": "Pink Toolbox"
+  },
+  "create:pink_valve_handle": {
+   "kind": "block",
+   "name": "Pink Valve Handle"
+  },
+  "create:piston_extension_pole": {
+   "kind": "block",
+   "name": "Piston Extension Pole"
+  },
+  "create:placard": {
+   "kind": "block",
+   "name": "Placard"
+  },
+  "create:polished_cut_andesite": {
+   "kind": "block",
+   "name": "Polished Cut Andesite"
+  },
+  "create:polished_cut_andesite_slab": {
+   "kind": "block",
+   "name": "Polished Cut Andesite Slab"
+  },
+  "create:polished_cut_andesite_stairs": {
+   "kind": "block",
+   "name": "Polished Cut Andesite Stairs"
+  },
+  "create:polished_cut_andesite_wall": {
+   "kind": "block",
+   "name": "Polished Cut Andesite Wall"
+  },
+  "create:polished_cut_asurine": {
+   "kind": "block",
+   "name": "Polished Cut Asurine"
+  },
+  "create:polished_cut_asurine_slab": {
+   "kind": "block",
+   "name": "Polished Cut Asurine Slab"
+  },
+  "create:polished_cut_asurine_stairs": {
+   "kind": "block",
+   "name": "Polished Cut Asurine Stairs"
+  },
+  "create:polished_cut_asurine_wall": {
+   "kind": "block",
+   "name": "Polished Cut Asurine Wall"
+  },
+  "create:polished_cut_calcite": {
+   "kind": "block",
+   "name": "Polished Cut Calcite"
+  },
+  "create:polished_cut_calcite_slab": {
+   "kind": "block",
+   "name": "Polished Cut Calcite Slab"
+  },
+  "create:polished_cut_calcite_stairs": {
+   "kind": "block",
+   "name": "Polished Cut Calcite Stairs"
+  },
+  "create:polished_cut_calcite_wall": {
+   "kind": "block",
+   "name": "Polished Cut Calcite Wall"
+  },
+  "create:polished_cut_crimsite": {
+   "kind": "block",
+   "name": "Polished Cut Crimsite"
+  },
+  "create:polished_cut_crimsite_slab": {
+   "kind": "block",
+   "name": "Polished Cut Crimsite Slab"
+  },
+  "create:polished_cut_crimsite_stairs": {
+   "kind": "block",
+   "name": "Polished Cut Crimsite Stairs"
+  },
+  "create:polished_cut_crimsite_wall": {
+   "kind": "block",
+   "name": "Polished Cut Crimsite Wall"
+  },
+  "create:polished_cut_deepslate": {
+   "kind": "block",
+   "name": "Polished Cut Deepslate"
+  },
+  "create:polished_cut_deepslate_slab": {
+   "kind": "block",
+   "name": "Polished Cut Deepslate Slab"
+  },
+  "create:polished_cut_deepslate_stairs": {
+   "kind": "block",
+   "name": "Polished Cut Deepslate Stairs"
+  },
+  "create:polished_cut_deepslate_wall": {
+   "kind": "block",
+   "name": "Polished Cut Deepslate Wall"
+  },
+  "create:polished_cut_diorite": {
+   "kind": "block",
+   "name": "Polished Cut Diorite"
+  },
+  "create:polished_cut_diorite_slab": {
+   "kind": "block",
+   "name": "Polished Cut Diorite Slab"
+  },
+  "create:polished_cut_diorite_stairs": {
+   "kind": "block",
+   "name": "Polished Cut Diorite Stairs"
+  },
+  "create:polished_cut_diorite_wall": {
+   "kind": "block",
+   "name": "Polished Cut Diorite Wall"
+  },
+  "create:polished_cut_dripstone": {
+   "kind": "block",
+   "name": "Polished Cut Dripstone"
+  },
+  "create:polished_cut_dripstone_slab": {
+   "kind": "block",
+   "name": "Polished Cut Dripstone Slab"
+  },
+  "create:polished_cut_dripstone_stairs": {
+   "kind": "block",
+   "name": "Polished Cut Dripstone Stairs"
+  },
+  "create:polished_cut_dripstone_wall": {
+   "kind": "block",
+   "name": "Polished Cut Dripstone Wall"
+  },
+  "create:polished_cut_granite": {
+   "kind": "block",
+   "name": "Polished Cut Granite"
+  },
+  "create:polished_cut_granite_slab": {
+   "kind": "block",
+   "name": "Polished Cut Granite Slab"
+  },
+  "create:polished_cut_granite_stairs": {
+   "kind": "block",
+   "name": "Polished Cut Granite Stairs"
+  },
+  "create:polished_cut_granite_wall": {
+   "kind": "block",
+   "name": "Polished Cut Granite Wall"
+  },
+  "create:polished_cut_limestone": {
+   "kind": "block",
+   "name": "Polished Cut Limestone"
+  },
+  "create:polished_cut_limestone_slab": {
+   "kind": "block",
+   "name": "Polished Cut Limestone Slab"
+  },
+  "create:polished_cut_limestone_stairs": {
+   "kind": "block",
+   "name": "Polished Cut Limestone Stairs"
+  },
+  "create:polished_cut_limestone_wall": {
+   "kind": "block",
+   "name": "Polished Cut Limestone Wall"
+  },
+  "create:polished_cut_ochrum": {
+   "kind": "block",
+   "name": "Polished Cut Ochrum"
+  },
+  "create:polished_cut_ochrum_slab": {
+   "kind": "block",
+   "name": "Polished Cut Ochrum Slab"
+  },
+  "create:polished_cut_ochrum_stairs": {
+   "kind": "block",
+   "name": "Polished Cut Ochrum Stairs"
+  },
+  "create:polished_cut_ochrum_wall": {
+   "kind": "block",
+   "name": "Polished Cut Ochrum Wall"
+  },
+  "create:polished_cut_scorchia": {
+   "kind": "block",
+   "name": "Polished Cut Scorchia"
+  },
+  "create:polished_cut_scorchia_slab": {
+   "kind": "block",
+   "name": "Polished Cut Scorchia Slab"
+  },
+  "create:polished_cut_scorchia_stairs": {
+   "kind": "block",
+   "name": "Polished Cut Scorchia Stairs"
+  },
+  "create:polished_cut_scorchia_wall": {
+   "kind": "block",
+   "name": "Polished Cut Scorchia Wall"
+  },
+  "create:polished_cut_scoria": {
+   "kind": "block",
+   "name": "Polished Cut Scoria"
+  },
+  "create:polished_cut_scoria_slab": {
+   "kind": "block",
+   "name": "Polished Cut Scoria Slab"
+  },
+  "create:polished_cut_scoria_stairs": {
+   "kind": "block",
+   "name": "Polished Cut Scoria Stairs"
+  },
+  "create:polished_cut_scoria_wall": {
+   "kind": "block",
+   "name": "Polished Cut Scoria Wall"
+  },
+  "create:polished_cut_tuff": {
+   "kind": "block",
+   "name": "Polished Cut Tuff"
+  },
+  "create:polished_cut_tuff_slab": {
+   "kind": "block",
+   "name": "Polished Cut Tuff Slab"
+  },
+  "create:polished_cut_tuff_stairs": {
+   "kind": "block",
+   "name": "Polished Cut Tuff Stairs"
+  },
+  "create:polished_cut_tuff_wall": {
+   "kind": "block",
+   "name": "Polished Cut Tuff Wall"
+  },
+  "create:polished_cut_veridium": {
+   "kind": "block",
+   "name": "Polished Cut Veridium"
+  },
+  "create:polished_cut_veridium_slab": {
+   "kind": "block",
+   "name": "Polished Cut Veridium Slab"
+  },
+  "create:polished_cut_veridium_stairs": {
+   "kind": "block",
+   "name": "Polished Cut Veridium Stairs"
+  },
+  "create:polished_cut_veridium_wall": {
+   "kind": "block",
+   "name": "Polished Cut Veridium Wall"
+  },
+  "create:portable_fluid_interface": {
+   "kind": "block",
+   "name": "Portable Fluid Interface"
+  },
+  "create:portable_storage_interface": {
+   "kind": "block",
+   "name": "Portable Storage Interface"
+  },
+  "create:powered_latch": {
+   "kind": "block",
+   "name": "Powered Latch"
+  },
+  "create:powered_shaft": {
+   "kind": "block",
+   "name": "Powered Shaft"
+  },
+  "create:powered_toggle_latch": {
+   "kind": "block",
+   "name": "Powered Toggle Latch"
+  },
+  "create:pulley_magnet": {
+   "kind": "block",
+   "name": "Pulley Magnet"
+  },
+  "create:pulse_extender": {
+   "kind": "block",
+   "name": "Pulse Extender"
+  },
+  "create:pulse_repeater": {
+   "kind": "block",
+   "name": "Pulse Repeater"
+  },
+  "create:pulse_timer": {
+   "kind": "block",
+   "name": "Pulse Timer"
+  },
+  "create:purple_nixie_tube": {
+   "kind": "block",
+   "name": "Purple Nixie Tube"
+  },
+  "create:purple_postbox": {
+   "kind": "block",
+   "name": "Purple Postbox"
+  },
+  "create:purple_sail": {
+   "kind": "block",
+   "name": "Purple Sail"
+  },
+  "create:purple_seat": {
+   "kind": "block",
+   "name": "Purple Seat"
+  },
+  "create:purple_table_cloth": {
+   "kind": "block",
+   "name": "Purple Table Cloth"
+  },
+  "create:purple_toolbox": {
+   "kind": "block",
+   "name": "Purple Toolbox"
+  },
+  "create:purple_valve_handle": {
+   "kind": "block",
+   "name": "Purple Valve Handle"
+  },
+  "create:radial_chassis": {
+   "kind": "block",
+   "name": "Radial Chassis"
+  },
+  "create:railway_casing": {
+   "kind": "block",
+   "name": "Train Casing"
+  },
+  "create:raw_zinc_block": {
+   "kind": "block",
+   "name": "Block of Raw Zinc"
+  },
+  "create:red_nixie_tube": {
+   "kind": "block",
+   "name": "Red Nixie Tube"
+  },
+  "create:red_postbox": {
+   "kind": "block",
+   "name": "Red Postbox"
+  },
+  "create:red_sail": {
+   "kind": "block",
+   "name": "Red Sail"
+  },
+  "create:red_seat": {
+   "kind": "block",
+   "name": "Red Seat"
+  },
+  "create:red_table_cloth": {
+   "kind": "block",
+   "name": "Red Table Cloth"
+  },
+  "create:red_toolbox": {
+   "kind": "block",
+   "name": "Red Toolbox"
+  },
+  "create:red_valve_handle": {
+   "kind": "block",
+   "name": "Red Valve Handle"
+  },
+  "create:redstone_contact": {
+   "kind": "block",
+   "name": "Redstone Contact"
+  },
+  "create:redstone_link": {
+   "kind": "block",
+   "name": "Redstone Link"
+  },
+  "create:redstone_requester": {
+   "kind": "block",
+   "name": "Redstone Requester"
+  },
+  "create:refined_radiance_casing": {
+   "kind": "block",
+   "name": "Radiant Casing"
+  },
+  "create:repackager": {
+   "kind": "block",
+   "name": "Re-Packager"
+  },
+  "create:rope": {
+   "kind": "block",
+   "name": "Rope"
+  },
+  "create:rope_pulley": {
+   "kind": "block",
+   "name": "Rope Pulley"
+  },
+  "create:rose_quartz_block": {
+   "kind": "block",
+   "name": "Block of Rose Quartz"
+  },
+  "create:rose_quartz_lamp": {
+   "kind": "block",
+   "name": "Rose Quartz Lamp"
+  },
+  "create:rose_quartz_tiles": {
+   "kind": "block",
+   "name": "Rose Quartz Tiles"
+  },
+  "create:rotation_speed_controller": {
+   "kind": "block",
+   "name": "Rotation Speed Controller"
+  },
+  "create:sail_frame": {
+   "kind": "block",
+   "name": "Windmill Sail Frame"
+  },
+  "create:schematic_table": {
+   "kind": "block",
+   "name": "Schematic Table"
+  },
+  "create:schematicannon": {
+   "kind": "block",
+   "name": "Schematicannon"
+  },
+  "create:scorchia": {
+   "kind": "block",
+   "name": "Scorchia"
+  },
+  "create:scorchia_pillar": {
+   "kind": "block",
+   "name": "Scorchia Pillar"
+  },
+  "create:scoria": {
+   "kind": "block",
+   "name": "Scoria"
+  },
+  "create:scoria_pillar": {
+   "kind": "block",
+   "name": "Scoria Pillar"
+  },
+  "create:secondary_linear_chassis": {
+   "kind": "block",
+   "name": "Secondary Linear Chassis"
+  },
+  "create:sequenced_gearshift": {
+   "kind": "block",
+   "name": "Sequenced Gearshift"
+  },
+  "create:shadow_steel_casing": {
+   "kind": "block",
+   "name": "Shadow Casing"
+  },
+  "create:shaft": {
+   "kind": "block",
+   "name": "Shaft"
+  },
+  "create:small_andesite_brick_slab": {
+   "kind": "block",
+   "name": "Small Andesite Brick Slab"
+  },
+  "create:small_andesite_brick_stairs": {
+   "kind": "block",
+   "name": "Small Andesite Brick Stairs"
+  },
+  "create:small_andesite_brick_wall": {
+   "kind": "block",
+   "name": "Small Andesite Brick Wall"
+  },
+  "create:small_andesite_bricks": {
+   "kind": "block",
+   "name": "Small Andesite Bricks"
+  },
+  "create:small_asurine_brick_slab": {
+   "kind": "block",
+   "name": "Small Asurine Brick Slab"
+  },
+  "create:small_asurine_brick_stairs": {
+   "kind": "block",
+   "name": "Small Asurine Brick Stairs"
+  },
+  "create:small_asurine_brick_wall": {
+   "kind": "block",
+   "name": "Small Asurine Brick Wall"
+  },
+  "create:small_asurine_bricks": {
+   "kind": "block",
+   "name": "Small Asurine Bricks"
+  },
+  "create:small_bogey": {
+   "kind": "block",
+   "name": "Small Bogey"
+  },
+  "create:small_calcite_brick_slab": {
+   "kind": "block",
+   "name": "Small Calcite Brick Slab"
+  },
+  "create:small_calcite_brick_stairs": {
+   "kind": "block",
+   "name": "Small Calcite Brick Stairs"
+  },
+  "create:small_calcite_brick_wall": {
+   "kind": "block",
+   "name": "Small Calcite Brick Wall"
+  },
+  "create:small_calcite_bricks": {
+   "kind": "block",
+   "name": "Small Calcite Bricks"
+  },
+  "create:small_crimsite_brick_slab": {
+   "kind": "block",
+   "name": "Small Crimsite Brick Slab"
+  },
+  "create:small_crimsite_brick_stairs": {
+   "kind": "block",
+   "name": "Small Crimsite Brick Stairs"
+  },
+  "create:small_crimsite_brick_wall": {
+   "kind": "block",
+   "name": "Small Crimsite Brick Wall"
+  },
+  "create:small_crimsite_bricks": {
+   "kind": "block",
+   "name": "Small Crimsite Bricks"
+  },
+  "create:small_deepslate_brick_slab": {
+   "kind": "block",
+   "name": "Small Deepslate Brick Slab"
+  },
+  "create:small_deepslate_brick_stairs": {
+   "kind": "block",
+   "name": "Small Deepslate Brick Stairs"
+  },
+  "create:small_deepslate_brick_wall": {
+   "kind": "block",
+   "name": "Small Deepslate Brick Wall"
+  },
+  "create:small_deepslate_bricks": {
+   "kind": "block",
+   "name": "Small Deepslate Bricks"
+  },
+  "create:small_diorite_brick_slab": {
+   "kind": "block",
+   "name": "Small Diorite Brick Slab"
+  },
+  "create:small_diorite_brick_stairs": {
+   "kind": "block",
+   "name": "Small Diorite Brick Stairs"
+  },
+  "create:small_diorite_brick_wall": {
+   "kind": "block",
+   "name": "Small Diorite Brick Wall"
+  },
+  "create:small_diorite_bricks": {
+   "kind": "block",
+   "name": "Small Diorite Bricks"
+  },
+  "create:small_dripstone_brick_slab": {
+   "kind": "block",
+   "name": "Small Dripstone Brick Slab"
+  },
+  "create:small_dripstone_brick_stairs": {
+   "kind": "block",
+   "name": "Small Dripstone Brick Stairs"
+  },
+  "create:small_dripstone_brick_wall": {
+   "kind": "block",
+   "name": "Small Dripstone Brick Wall"
+  },
+  "create:small_dripstone_bricks": {
+   "kind": "block",
+   "name": "Small Dripstone Bricks"
+  },
+  "create:small_granite_brick_slab": {
+   "kind": "block",
+   "name": "Small Granite Brick Slab"
+  },
+  "create:small_granite_brick_stairs": {
+   "kind": "block",
+   "name": "Small Granite Brick Stairs"
+  },
+  "create:small_granite_brick_wall": {
+   "kind": "block",
+   "name": "Small Granite Brick Wall"
+  },
+  "create:small_granite_bricks": {
+   "kind": "block",
+   "name": "Small Granite Bricks"
+  },
+  "create:small_limestone_brick_slab": {
+   "kind": "block",
+   "name": "Small Limestone Brick Slab"
+  },
+  "create:small_limestone_brick_stairs": {
+   "kind": "block",
+   "name": "Small Limestone Brick Stairs"
+  },
+  "create:small_limestone_brick_wall": {
+   "kind": "block",
+   "name": "Small Limestone Brick Wall"
+  },
+  "create:small_limestone_bricks": {
+   "kind": "block",
+   "name": "Small Limestone Bricks"
+  },
+  "create:small_ochrum_brick_slab": {
+   "kind": "block",
+   "name": "Small Ochrum Brick Slab"
+  },
+  "create:small_ochrum_brick_stairs": {
+   "kind": "block",
+   "name": "Small Ochrum Brick Stairs"
+  },
+  "create:small_ochrum_brick_wall": {
+   "kind": "block",
+   "name": "Small Ochrum Brick Wall"
+  },
+  "create:small_ochrum_bricks": {
+   "kind": "block",
+   "name": "Small Ochrum Bricks"
+  },
+  "create:small_rose_quartz_tiles": {
+   "kind": "block",
+   "name": "Small Rose Quartz Tiles"
+  },
+  "create:small_scorchia_brick_slab": {
+   "kind": "block",
+   "name": "Small Scorchia Brick Slab"
+  },
+  "create:small_scorchia_brick_stairs": {
+   "kind": "block",
+   "name": "Small Scorchia Brick Stairs"
+  },
+  "create:small_scorchia_brick_wall": {
+   "kind": "block",
+   "name": "Small Scorchia Brick Wall"
+  },
+  "create:small_scorchia_bricks": {
+   "kind": "block",
+   "name": "Small Scorchia Bricks"
+  },
+  "create:small_scoria_brick_slab": {
+   "kind": "block",
+   "name": "Small Scoria Brick Slab"
+  },
+  "create:small_scoria_brick_stairs": {
+   "kind": "block",
+   "name": "Small Scoria Brick Stairs"
+  },
+  "create:small_scoria_brick_wall": {
+   "kind": "block",
+   "name": "Small Scoria Brick Wall"
+  },
+  "create:small_scoria_bricks": {
+   "kind": "block",
+   "name": "Small Scoria Bricks"
+  },
+  "create:small_tuff_brick_slab": {
+   "kind": "block",
+   "name": "Small Tuff Brick Slab"
+  },
+  "create:small_tuff_brick_stairs": {
+   "kind": "block",
+   "name": "Small Tuff Brick Stairs"
+  },
+  "create:small_tuff_brick_wall": {
+   "kind": "block",
+   "name": "Small Tuff Brick Wall"
+  },
+  "create:small_tuff_bricks": {
+   "kind": "block",
+   "name": "Small Tuff Bricks"
+  },
+  "create:small_veridium_brick_slab": {
+   "kind": "block",
+   "name": "Small Veridium Brick Slab"
+  },
+  "create:small_veridium_brick_stairs": {
+   "kind": "block",
+   "name": "Small Veridium Brick Stairs"
+  },
+  "create:small_veridium_brick_wall": {
+   "kind": "block",
+   "name": "Small Veridium Brick Wall"
+  },
+  "create:small_veridium_bricks": {
+   "kind": "block",
+   "name": "Small Veridium Bricks"
+  },
+  "create:smart_chute": {
+   "kind": "block",
+   "name": "Smart Chute"
+  },
+  "create:smart_fluid_pipe": {
+   "kind": "block",
+   "name": "Smart Fluid Pipe"
+  },
+  "create:speedometer": {
+   "kind": "block",
+   "name": "Speedometer"
+  },
+  "create:spout": {
+   "kind": "block",
+   "name": "Spout"
+  },
+  "create:spruce_window": {
+   "kind": "block",
+   "name": "Spruce Window"
+  },
+  "create:spruce_window_pane": {
+   "kind": "block",
+   "name": "Spruce Window Pane"
+  },
+  "create:steam_engine": {
+   "kind": "block",
+   "name": "Steam Engine"
+  },
+  "create:steam_whistle": {
+   "kind": "block",
+   "name": "Steam Whistle"
+  },
+  "create:steam_whistle_extension": {
+   "kind": "block",
+   "name": "Steam Whistle Extension"
+  },
+  "create:sticker": {
+   "kind": "block",
+   "name": "Sticker"
+  },
+  "create:sticky_mechanical_piston": {
+   "kind": "block",
+   "name": "Sticky Mechanical Piston"
+  },
+  "create:stock_link": {
+   "kind": "block",
+   "name": "Stock Link"
+  },
+  "create:stock_ticker": {
+   "kind": "block",
+   "name": "Stock Ticker"
+  },
+  "create:stockpile_switch": {
+   "kind": "block",
+   "name": "Threshold Switch"
+  },
+  "create:stressometer": {
+   "kind": "block",
+   "name": "Stressometer"
+  },
+  "create:tiled_glass": {
+   "kind": "block",
+   "name": "Tiled Glass"
+  },
+  "create:tiled_glass_pane": {
+   "kind": "block",
+   "name": "Tiled Glass Pane"
+  },
+  "create:track": {
+   "kind": "block",
+   "name": "Train Track"
+  },
+  "create:track_observer": {
+   "kind": "block",
+   "name": "Train Observer"
+  },
+  "create:track_signal": {
+   "kind": "block",
+   "name": "Train Signal"
+  },
+  "create:track_station": {
+   "kind": "block",
+   "name": "Train Station"
+  },
+  "create:train_door": {
+   "kind": "block",
+   "name": "Train Door"
+  },
+  "create:train_trapdoor": {
+   "kind": "block",
+   "name": "Train Trapdoor"
+  },
+  "create:tuff_pillar": {
+   "kind": "block",
+   "name": "Tuff Pillar"
+  },
+  "create:turntable": {
+   "kind": "block",
+   "name": "Turntable"
+  },
+  "create:veridium": {
+   "kind": "block",
+   "name": "Veridium"
+  },
+  "create:veridium_pillar": {
+   "kind": "block",
+   "name": "Veridium Pillar"
+  },
+  "create:vertical_framed_glass": {
+   "kind": "block",
+   "name": "Vertical Framed Glass"
+  },
+  "create:vertical_framed_glass_pane": {
+   "kind": "block",
+   "name": "Vertical Framed Glass Pane"
+  },
+  "create:warped_window": {
+   "kind": "block",
+   "name": "Warped Window"
+  },
+  "create:warped_window_pane": {
+   "kind": "block",
+   "name": "Warped Window Pane"
+  },
+  "create:water_wheel": {
+   "kind": "block",
+   "name": "Water Wheel"
+  },
+  "create:water_wheel_structure": {
+   "kind": "block",
+   "name": "Large Water Wheel"
+  },
+  "create:waxed_copper_shingle_slab": {
+   "kind": "block",
+   "name": "Waxed Copper Shingle Slab"
+  },
+  "create:waxed_copper_shingle_stairs": {
+   "kind": "block",
+   "name": "Waxed Copper Shingle Stairs"
+  },
+  "create:waxed_copper_shingles": {
+   "kind": "block",
+   "name": "Waxed Copper Shingles"
+  },
+  "create:waxed_copper_tile_slab": {
+   "kind": "block",
+   "name": "Waxed Copper Tile Slab"
+  },
+  "create:waxed_copper_tile_stairs": {
+   "kind": "block",
+   "name": "Waxed Copper Tile Stairs"
+  },
+  "create:waxed_copper_tiles": {
+   "kind": "block",
+   "name": "Waxed Copper Tiles"
+  },
+  "create:waxed_exposed_copper_shingle_slab": {
+   "kind": "block",
+   "name": "Waxed Exposed Copper Shingle Slab"
+  },
+  "create:waxed_exposed_copper_shingle_stairs": {
+   "kind": "block",
+   "name": "Waxed Exposed Copper Shingle Stairs"
+  },
+  "create:waxed_exposed_copper_shingles": {
+   "kind": "block",
+   "name": "Waxed Exposed Copper Shingles"
+  },
+  "create:waxed_exposed_copper_tile_slab": {
+   "kind": "block",
+   "name": "Waxed Exposed Copper Tile Slab"
+  },
+  "create:waxed_exposed_copper_tile_stairs": {
+   "kind": "block",
+   "name": "Waxed Exposed Copper Tile Stairs"
+  },
+  "create:waxed_exposed_copper_tiles": {
+   "kind": "block",
+   "name": "Waxed Exposed Copper Tiles"
+  },
+  "create:waxed_oxidized_copper_shingle_slab": {
+   "kind": "block",
+   "name": "Waxed Oxidized Copper Shingle Slab"
+  },
+  "create:waxed_oxidized_copper_shingle_stairs": {
+   "kind": "block",
+   "name": "Waxed Oxidized Copper Shingle Stairs"
+  },
+  "create:waxed_oxidized_copper_shingles": {
+   "kind": "block",
+   "name": "Waxed Oxidized Copper Shingles"
+  },
+  "create:waxed_oxidized_copper_tile_slab": {
+   "kind": "block",
+   "name": "Waxed Oxidized Copper Tile Slab"
+  },
+  "create:waxed_oxidized_copper_tile_stairs": {
+   "kind": "block",
+   "name": "Waxed Oxidized Copper Tile Stairs"
+  },
+  "create:waxed_oxidized_copper_tiles": {
+   "kind": "block",
+   "name": "Waxed Oxidized Copper Tiles"
+  },
+  "create:waxed_weathered_copper_shingle_slab": {
+   "kind": "block",
+   "name": "Waxed Weathered Copper Shingle Slab"
+  },
+  "create:waxed_weathered_copper_shingle_stairs": {
+   "kind": "block",
+   "name": "Waxed Weathered Copper Shingle Stairs"
+  },
+  "create:waxed_weathered_copper_shingles": {
+   "kind": "block",
+   "name": "Waxed Weathered Copper Shingles"
+  },
+  "create:waxed_weathered_copper_tile_slab": {
+   "kind": "block",
+   "name": "Waxed Weathered Copper Tile Slab"
+  },
+  "create:waxed_weathered_copper_tile_stairs": {
+   "kind": "block",
+   "name": "Waxed Weathered Copper Tile Stairs"
+  },
+  "create:waxed_weathered_copper_tiles": {
+   "kind": "block",
+   "name": "Waxed Weathered Copper Tiles"
+  },
+  "create:weathered_copper_shingle_slab": {
+   "kind": "block",
+   "name": "Weathered Copper Shingle Slab"
+  },
+  "create:weathered_copper_shingle_stairs": {
+   "kind": "block",
+   "name": "Weathered Copper Shingle Stairs"
+  },
+  "create:weathered_copper_shingles": {
+   "kind": "block",
+   "name": "Weathered Copper Shingles"
+  },
+  "create:weathered_copper_tile_slab": {
+   "kind": "block",
+   "name": "Weathered Copper Tile Slab"
+  },
+  "create:weathered_copper_tile_stairs": {
+   "kind": "block",
+   "name": "Weathered Copper Tile Stairs"
+  },
+  "create:weathered_copper_tiles": {
+   "kind": "block",
+   "name": "Weathered Copper Tiles"
+  },
+  "create:weathered_iron_block": {
+   "kind": "block",
+   "name": "Block of Weathered Iron"
+  },
+  "create:weathered_iron_window": {
+   "kind": "block",
+   "name": "Weathered Iron Window"
+  },
+  "create:weathered_iron_window_pane": {
+   "kind": "block",
+   "name": "Weathered Iron Window Pane"
+  },
+  "create:weighted_ejector": {
+   "kind": "block",
+   "name": "Weighted Ejector"
+  },
+  "create:white_nixie_tube": {
+   "kind": "block",
+   "name": "White Nixie Tube"
+  },
+  "create:white_postbox": {
+   "kind": "block",
+   "name": "White Postbox"
+  },
+  "create:white_sail": {
+   "kind": "block",
+   "name": "Windmill Sail"
+  },
+  "create:white_seat": {
+   "kind": "block",
+   "name": "White Seat"
+  },
+  "create:white_table_cloth": {
+   "kind": "block",
+   "name": "White Table Cloth"
+  },
+  "create:white_toolbox": {
+   "kind": "block",
+   "name": "White Toolbox"
+  },
+  "create:white_valve_handle": {
+   "kind": "block",
+   "name": "White Valve Handle"
+  },
+  "create:windmill_bearing": {
+   "kind": "block",
+   "name": "Windmill Bearing"
+  },
+  "create:wooden_bracket": {
+   "kind": "block",
+   "name": "Wooden Bracket"
+  },
+  "create:yellow_nixie_tube": {
+   "kind": "block",
+   "name": "Yellow Nixie Tube"
+  },
+  "create:yellow_postbox": {
+   "kind": "block",
+   "name": "Yellow Postbox"
+  },
+  "create:yellow_sail": {
+   "kind": "block",
+   "name": "Yellow Sail"
+  },
+  "create:yellow_seat": {
+   "kind": "block",
+   "name": "Yellow Seat"
+  },
+  "create:yellow_table_cloth": {
+   "kind": "block",
+   "name": "Yellow Table Cloth"
+  },
+  "create:yellow_toolbox": {
+   "kind": "block",
+   "name": "Yellow Toolbox"
+  },
+  "create:yellow_valve_handle": {
+   "kind": "block",
+   "name": "Yellow Valve Handle"
+  },
+  "create:zinc_block": {
+   "kind": "block",
+   "name": "Block of Zinc"
+  },
+  "create:zinc_ore": {
+   "kind": "block",
+   "name": "Zinc Ore"
+  },
+  "create:carriage_contraption": {
+   "kind": "entity",
+   "name": "Carriage Contraption"
+  },
+  "create:contraption": {
+   "kind": "entity",
+   "name": "Contraption"
+  },
+  "create:crafting_blueprint": {
+   "kind": "item",
+   "name": "Crafting Blueprint"
+  },
+  "create:gantry_contraption": {
+   "kind": "entity",
+   "name": "Gantry Contraption"
+  },
+  "create:package": {
+   "kind": "item",
+   "name": "Cardboard Package"
+  },
+  "create:potato_projectile": {
+   "kind": "entity",
+   "name": "Potato Projectile"
+  },
+  "create:seat": {
+   "kind": "entity",
+   "name": "Seat"
+  },
+  "create:stationary_contraption": {
+   "kind": "entity",
+   "name": "Stationary Contraption"
+  },
+  "create:super_glue": {
+   "kind": "item",
+   "name": "Super Glue"
+  },
+  "create:tea": {
+   "kind": "fluid",
+   "name": "Builder's Tea"
+  },
+  "create:andesite_alloy": {
+   "kind": "item",
+   "name": "Andesite Alloy"
+  },
+  "create:attribute_filter": {
+   "kind": "item",
+   "name": "Attribute Filter"
+  },
+  "create:bar_of_chocolate": {
+   "kind": "item",
+   "name": "Bar of Chocolate"
+  },
+  "create:belt_connector": {
+   "kind": "item",
+   "name": "Mechanical Belt"
+  },
+  "create:blaze_cake": {
+   "kind": "item",
+   "name": "Blaze Cake"
+  },
+  "create:blaze_cake_base": {
+   "kind": "item",
+   "name": "Blaze Cake Base"
+  },
+  "create:brass_hand": {
+   "kind": "item",
+   "name": "Brass Hand"
+  },
+  "create:brass_ingot": {
+   "kind": "item",
+   "name": "Brass Ingot"
+  },
+  "create:brass_nugget": {
+   "kind": "item",
+   "name": "Brass Nugget"
+  },
+  "create:brass_sheet": {
+   "kind": "item",
+   "name": "Brass Sheet"
+  },
+  "create:builders_tea": {
+   "kind": "item",
+   "name": "Builder's Tea"
+  },
+  "create:cardboard": {
+   "kind": "item",
+   "name": "Cardboard"
+  },
+  "create:cardboard_boots": {
+   "kind": "item",
+   "name": "Cardboard Boots"
+  },
+  "create:cardboard_chestplate": {
+   "kind": "item",
+   "name": "Cardboard Chestplate"
+  },
+  "create:cardboard_helmet": {
+   "kind": "item",
+   "name": "Cardboard Helmet"
+  },
+  "create:cardboard_leggings": {
+   "kind": "item",
+   "name": "Cardboard Leggings"
+  },
+  "create:cardboard_sword": {
+   "kind": "item",
+   "name": "Cardboard Sword"
+  },
+  "create:chest_minecart_contraption": {
+   "kind": "item",
+   "name": "Chest Minecart Contraption"
+  },
+  "create:chocolate_bucket": {
+   "kind": "item",
+   "name": "Chocolate Bucket"
+  },
+  "create:chocolate_glazed_berries": {
+   "kind": "item",
+   "name": "Chocolate Glazed Berries"
+  },
+  "create:chromatic_compound": {
+   "kind": "item",
+   "name": "Chromatic Compound"
+  },
+  "create:cinder_flour": {
+   "kind": "item",
+   "name": "Cinder Flour"
+  },
+  "create:copper_backtank_placeable": {
+   "kind": "item",
+   "name": "Copper Backtank Placeable"
+  },
+  "create:copper_diving_boots": {
+   "kind": "item",
+   "name": "Copper Diving Boots"
+  },
+  "create:copper_diving_helmet": {
+   "kind": "item",
+   "name": "Copper Diving Helmet"
+  },
+  "create:copper_nugget": {
+   "kind": "item",
+   "name": "Copper Nugget"
+  },
+  "create:copper_sheet": {
+   "kind": "item",
+   "name": "Copper Sheet"
+  },
+  "create:crafter_slot_cover": {
+   "kind": "item",
+   "name": "Crafter Slot Cover"
+  },
+  "create:crafting_blueprint.behaviour1": {
+   "kind": "item",
+   "name": "Opens a _Crafting_ _menu_ allowing you to _configure_ a _recipe_ and items to display."
+  },
+  "create:crafting_blueprint.behaviour2": {
+   "kind": "item",
+   "name": "_Applies_ the _configured_ _recipe_ with matching Ingredients found in your _Inventory_. _Sneak_ to craft up to a _Stack_ of items."
+  },
+  "create:crafting_blueprint.condition1": {
+   "kind": "item",
+   "name": "R-Click empty Slot"
+  },
+  "create:crafting_blueprint.condition2": {
+   "kind": "item",
+   "name": "R-Click configured Slot"
+  },
+  "create:creative_blaze_cake": {
+   "kind": "item",
+   "name": "Creative Blaze Cake"
+  },
+  "create:crushed_raw_aluminum": {
+   "kind": "item",
+   "name": "Crushed Raw Aluminum"
+  },
+  "create:crushed_raw_copper": {
+   "kind": "item",
+   "name": "Crushed Raw Copper"
+  },
+  "create:crushed_raw_gold": {
+   "kind": "item",
+   "name": "Crushed Raw Gold"
+  },
+  "create:crushed_raw_iron": {
+   "kind": "item",
+   "name": "Crushed Raw Iron"
+  },
+  "create:crushed_raw_lead": {
+   "kind": "item",
+   "name": "Crushed Raw Lead"
+  },
+  "create:crushed_raw_nickel": {
+   "kind": "item",
+   "name": "Crushed Raw Nickel"
+  },
+  "create:crushed_raw_osmium": {
+   "kind": "item",
+   "name": "Crushed Raw Osmium"
+  },
+  "create:crushed_raw_platinum": {
+   "kind": "item",
+   "name": "Crushed Raw Platinum"
+  },
+  "create:crushed_raw_quicksilver": {
+   "kind": "item",
+   "name": "Crushed Raw Quicksilver"
+  },
+  "create:crushed_raw_silver": {
+   "kind": "item",
+   "name": "Crushed Raw Silver"
+  },
+  "create:crushed_raw_tin": {
+   "kind": "item",
+   "name": "Crushed Raw Tin"
+  },
+  "create:crushed_raw_uranium": {
+   "kind": "item",
+   "name": "Crushed Raw Uranium"
+  },
+  "create:crushed_raw_zinc": {
+   "kind": "item",
+   "name": "Crushed Raw Zinc"
+  },
+  "create:dough": {
+   "kind": "item",
+   "name": "Dough"
+  },
+  "create:electron_tube": {
+   "kind": "item",
+   "name": "Electron Tube"
+  },
+  "create:empty_blaze_burner": {
+   "kind": "item",
+   "name": "Empty Blaze Burner"
+  },
+  "create:empty_schematic": {
+   "kind": "item",
+   "name": "Empty Schematic"
+  },
+  "create:experience_nugget": {
+   "kind": "item",
+   "name": "Nugget of Experience"
+  },
+  "create:extendo_grip": {
+   "kind": "item",
+   "name": "Extendo Grip"
+  },
+  "create:filter": {
+   "kind": "item",
+   "name": "List Filter"
+  },
+  "create:furnace_minecart_contraption": {
+   "kind": "item",
+   "name": "Furnace Minecart Contraption"
+  },
+  "create:goggles": {
+   "kind": "item",
+   "name": "Engineer's Goggles"
+  },
+  "create:golden_sheet": {
+   "kind": "item",
+   "name": "Golden Sheet"
+  },
+  "create:handheld_worldshaper": {
+   "kind": "item",
+   "name": "Creative Worldshaper"
+  },
+  "create:honey_bucket": {
+   "kind": "item",
+   "name": "Honey Bucket"
+  },
+  "create:honeyed_apple": {
+   "kind": "item",
+   "name": "Honeyed Apple"
+  },
+  "create:incomplete_precision_mechanism": {
+   "kind": "item",
+   "name": "Incomplete Precision Mechanism"
+  },
+  "create:incomplete_track": {
+   "kind": "item",
+   "name": "Incomplete Track"
+  },
+  "create:iron_sheet": {
+   "kind": "item",
+   "name": "Iron Sheet"
+  },
+  "create:linked_controller": {
+   "kind": "item",
+   "name": "Linked Controller"
+  },
+  "create:minecart_contraption": {
+   "kind": "item",
+   "name": "Minecart Contraption"
+  },
+  "create:minecart_coupling": {
+   "kind": "item",
+   "name": "Minecart Coupling"
+  },
+  "create:netherite_backtank_placeable": {
+   "kind": "item",
+   "name": "Netherite Backtank Placeable"
+  },
+  "create:netherite_diving_boots": {
+   "kind": "item",
+   "name": "Netherite Diving Boots"
+  },
+  "create:netherite_diving_helmet": {
+   "kind": "item",
+   "name": "Netherite Diving Helmet"
+  },
+  "create:package_filter": {
+   "kind": "item",
+   "name": "Package Filter"
+  },
+  "create:polished_rose_quartz": {
+   "kind": "item",
+   "name": "Polished Rose Quartz"
+  },
+  "create:potato_cannon": {
+   "kind": "item",
+   "name": "Potato Cannon"
+  },
+  "create:powdered_obsidian": {
+   "kind": "item",
+   "name": "Powdered Obsidian"
+  },
+  "create:precision_mechanism": {
+   "kind": "item",
+   "name": "Precision Mechanism"
+  },
+  "create:propeller": {
+   "kind": "item",
+   "name": "Propeller"
+  },
+  "create:pulp": {
+   "kind": "item",
+   "name": "Pulp"
+  },
+  "create:rare_package": {
+   "kind": "item",
+   "name": "Rare Package"
+  },
+  "create:raw_zinc": {
+   "kind": "item",
+   "name": "Raw Zinc"
+  },
+  "create:red_sand_paper": {
+   "kind": "item",
+   "name": "Red Sand Paper"
+  },
+  "create:refined_radiance": {
+   "kind": "item",
+   "name": "Refined Radiance"
+  },
+  "create:rose_quartz": {
+   "kind": "item",
+   "name": "Rose Quartz"
+  },
+  "create:sand_paper": {
+   "kind": "item",
+   "name": "Sand Paper"
+  },
+  "create:schedule": {
+   "kind": "item",
+   "name": "Train Schedule"
+  },
+  "create:schematic": {
+   "kind": "item",
+   "name": "Schematic"
+  },
+  "create:schematic_and_quill": {
+   "kind": "item",
+   "name": "Schematic And Quill"
+  },
+  "create:shadow_steel": {
+   "kind": "item",
+   "name": "Shadow Steel"
+  },
+  "create:shopping_list": {
+   "kind": "item",
+   "name": "Shopping List"
+  },
+  "create:sturdy_sheet": {
+   "kind": "item",
+   "name": "Sturdy Sheet"
+  },
+  "create:sweet_roll": {
+   "kind": "item",
+   "name": "Sweet Roll"
+  },
+  "create:transmitter": {
+   "kind": "item",
+   "name": "Transmitter"
+  },
+  "create:tree_fertilizer": {
+   "kind": "item",
+   "name": "Tree Fertilizer"
+  },
+  "create:unprocessed_obsidian_sheet": {
+   "kind": "item",
+   "name": "Unprocessed Obsidian Sheet"
+  },
+  "create:vertical_gearbox": {
+   "kind": "item",
+   "name": "Vertical Gearbox"
+  },
+  "create:wand_of_symmetry": {
+   "kind": "item",
+   "name": "Wand Of Symmetry"
+  },
+  "create:wheat_flour": {
+   "kind": "item",
+   "name": "Wheat Flour"
+  },
+  "create:whisk": {
+   "kind": "item",
+   "name": "Whisk"
+  },
+  "create:wrench": {
+   "kind": "item",
+   "name": "Wrench"
+  },
+  "create:zinc_ingot": {
+   "kind": "item",
+   "name": "Zinc Ingot"
+  },
+  "create:zinc_nugget": {
+   "kind": "item",
+   "name": "Zinc Nugget"
+  }
+ }
+}

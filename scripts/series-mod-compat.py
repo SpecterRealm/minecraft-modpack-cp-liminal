@@ -48,17 +48,11 @@ def walk(src):
             yield os.path.join(base, f)
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("src")
-    ap.add_argument("--self", nargs="*", default=[])
-    ap.add_argument("--root", default="..")
-    ap.add_argument("--all", action="store_true", help="also list ids that are not pack mods (noisy)")
-    a = ap.parse_args()
-    own = {norm(x) for x in a.self} | SKIP_IDS
-    found = defaultdict(lambda: defaultdict(set))  # modid -> kind -> {paths}
-    for path in walk(a.src):
-        rel = os.path.relpath(path, a.src)
+def scan(src, own_ids=()):
+    own = {norm(x) for x in own_ids} | SKIP_IDS
+    found = defaultdict(lambda: defaultdict(set))
+    for path in walk(src):
+        rel = os.path.relpath(path, src)
         name = os.path.basename(path)
         try:
             if name == "neoforge.mods.toml":
@@ -66,18 +60,14 @@ def main():
                 for blk in re.split(r"\[\[dependencies", txt)[1:]:
                     mid = re.search(r'modId\s*=\s*"([^"]+)"', blk)
                     if mid:
-                        opt = re.search(r'type\s*=\s*"(optional|required)"', blk) or re.search(r'mandatory\s*=\s*(true|false)', blk)
                         found[mid.group(1)]["dependency"].add(rel)
             elif name.endswith(".java"):
                 txt = open(path, encoding="utf-8", errors="ignore").read()
                 for m in re.finditer(r'isLoaded\(\s*"([a-z0-9_]+)"\s*\)', txt):
                     found[m.group(1)]["isLoaded"].add(rel)
-                for m in re.finditer(r'\bimport\s+((?:[a-z0-9_]+\.){2,}[a-z0-9_]+)', txt):
-                    parts = m.group(1).split(".")
-                    if any(p in ("compat", "integration", "compatibility") for p in rel.lower().split(os.sep)):
-                        for p in parts[:4]:
-                            if norm(p) in a.self:  # ignore self
-                                continue
+                if any(p in ("compat", "integration", "compatibility") for p in rel.lower().split(os.sep)):
+                    for m in re.finditer(r'\bimport\s+((?:[a-z0-9_]+\.){2,}[a-z0-9_]+)', txt):
+                        for p in m.group(1).split(".")[:4]:
                             found[p]["compat-import"].add(rel)
             elif name.endswith(".json") and "/data/" in "/" + rel.replace(os.sep, "/"):
                 txt = open(path, encoding="utf-8", errors="ignore").read()
@@ -87,12 +77,24 @@ def main():
                     found[m.group(1)]["data-ref"].add(rel)
         except OSError:
             pass
+    return {k: v for k, v in found.items() if norm(k) not in own}
+
+
+def resolve(mid, slugs):
+    return slugs.get(norm(mid)) or (ALIASES.get(mid) if ALIASES.get(mid) in slugs.values() else None)
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("src")
+    ap.add_argument("--self", nargs="*", default=[])
+    ap.add_argument("--root", default="..")
+    ap.add_argument("--all", action="store_true", help="also list ids that are not pack mods (noisy)")
+    a = ap.parse_args()
     slugs = pack_slugs(a.root)
     rows = []
-    for mid, kinds in found.items():
-        if norm(mid) in own:
-            continue
-        slug = slugs.get(norm(mid)) or (ALIASES.get(mid) if ALIASES.get(mid) in slugs.values() else None)
+    for mid, kinds in scan(a.src, a.self).items():
+        slug = resolve(mid, slugs)
         rows.append((bool(slug), mid, slug or "-", kinds))
     rows.sort(key=lambda r: (not r[0], r[1]))
     print("| Pack mod? | Id | Pack slug | Evidence |")

@@ -1,0 +1,39 @@
+{
+ "repo": "Tamaized/AE2-JEI-Integration",
+ "ref": "default",
+ "ref_kind": "none",
+ "mod_ids": [],
+ "item_count": 0,
+ "compat": [
+  {
+   "id": "ae2jeiintegration",
+   "slug": "ae2-jei-integration",
+   "evidence": {
+    "compat-import": 12
+   }
+  },
+  {
+   "id": "appeng",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "compat-import": 21
+   }
+  },
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 22,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {}
+}

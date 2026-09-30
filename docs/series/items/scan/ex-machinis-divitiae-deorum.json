@@ -1,0 +1,61 @@
+{
+ "repo": "jeremiahwinsley/ExMachinisDeorum",
+ "ref": "v4.0.2",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "exmachinis"
+ ],
+ "item_count": 8,
+ "compat": [
+  {
+   "id": "exdeorum",
+   "slug": "ex-deorum",
+   "evidence": {
+    "compat-import": 2,
+    "data-ref": 25,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 2
+   }
+  }
+ ],
+ "items": {
+  "exmachinis:flux_compactor": {
+   "kind": "block",
+   "name": "Flux Compactor"
+  },
+  "exmachinis:flux_hammer": {
+   "kind": "block",
+   "name": "Flux Hammer"
+  },
+  "exmachinis:flux_sieve": {
+   "kind": "block",
+   "name": "Flux Sieve"
+  },
+  "exmachinis:item_buffer": {
+   "kind": "block",
+   "name": "Item Buffer"
+  },
+  "exmachinis:comparator_upgrade": {
+   "kind": "item",
+   "name": "Comparator Upgrade"
+  },
+  "exmachinis:diamond_upgrade": {
+   "kind": "item",
+   "name": "Diamond Upgrade"
+  },
+  "exmachinis:gold_upgrade": {
+   "kind": "item",
+   "name": "Gold Upgrade"
+  },
+  "exmachinis:netherite_upgrade": {
+   "kind": "item",
+   "name": "Netherite Upgrade"
+  }
+ }
+}

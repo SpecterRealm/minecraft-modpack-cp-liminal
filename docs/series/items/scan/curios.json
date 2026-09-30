@@ -1,0 +1,45 @@
+{
+ "repo": "TheIllusiveC4/Curios",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "curios",
+  "curiostest"
+ ],
+ "item_count": 4,
+ "compat": [
+  {
+   "id": "emi",
+   "slug": "emi",
+   "evidence": {
+    "compat-import": 2,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 2
+   }
+  }
+ ],
+ "items": {
+  "curiostest:amulet": {
+   "kind": "item",
+   "name": "Curious Amulet"
+  },
+  "curiostest:ring": {
+   "kind": "item",
+   "name": "Curious Ring"
+  },
+  "curiostest:crown": {
+   "kind": "item",
+   "name": "Curious Crown"
+  },
+  "curiostest:knuckles": {
+   "kind": "item",
+   "name": "Curious Knuckles"
+  }
+ }
+}

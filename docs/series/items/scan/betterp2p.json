@@ -1,0 +1,29 @@
+{
+ "repo": "LasmGratel/BetterP2P",
+ "ref": "v1.5.2",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "betterp2p"
+ ],
+ "item_count": 2,
+ "compat": [
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "data-ref": 1,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "betterp2p:advanced_memory_card": {
+   "kind": "item",
+   "name": "Advanced Memory Card"
+  },
+  "betterp2p:advanced_memory_card.selected": {
+   "kind": "item",
+   "name": "Frequency:"
+  }
+ }
+}

@@ -1,0 +1,498 @@
+{
+ "repo": "zeroregard/Ars-Zero",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "ars_zero",
+  "ars_zero_tests",
+  "jade"
+ ],
+ "item_count": 113,
+ "compat": [
+  {
+   "id": "ars_elemental",
+   "slug": "ars-elemental",
+   "evidence": {
+    "data-ref": 8
+   }
+  },
+  {
+   "id": "ars_nouveau",
+   "slug": "ars-nouveau",
+   "evidence": {
+    "data-ref": 43,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "data-ref": 1,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "terrablender",
+   "slug": "terrablender",
+   "evidence": {
+    "dependency": 1,
+    "isLoaded": 2
+   }
+  }
+ ],
+ "items": {
+  "ars_zero:novice_spell_staff": {
+   "kind": "item",
+   "name": "Novice Spell Staff"
+  },
+  "ars_zero:mage_spell_staff": {
+   "kind": "item",
+   "name": "Mage Spell Staff"
+  },
+  "ars_zero:archmage_spell_staff": {
+   "kind": "item",
+   "name": "Archmage Spell Staff"
+  },
+  "ars_zero:creative_spell_staff": {
+   "kind": "item",
+   "name": "Creative Spell Staff"
+  },
+  "ars_zero:staff_telekinesis": {
+   "kind": "item",
+   "name": "Staff of Telekinesis"
+  },
+  "ars_zero:staff_demonbane": {
+   "kind": "item",
+   "name": "Staff of Demonbane"
+  },
+  "ars_zero:staff_lakes": {
+   "kind": "item",
+   "name": "Staff of Lakes"
+  },
+  "ars_zero:staff_switcheroo": {
+   "kind": "item",
+   "name": "Staff of Switcheroo"
+  },
+  "ars_zero:staff_geometrize": {
+   "kind": "item",
+   "name": "Staff of Geometrize"
+  },
+  "ars_zero:staff_convergence": {
+   "kind": "item",
+   "name": "Staff of the Explosion Arch Wizard"
+  },
+  "ars_zero:dull_circlet": {
+   "kind": "item",
+   "name": "Dull Circlet"
+  },
+  "ars_zero:spellcasting_circlet": {
+   "kind": "item",
+   "name": "Psion's Circlet"
+  },
+  "ars_zero:archwood_rod": {
+   "kind": "item",
+   "name": "Archwood Rod"
+  },
+  "ars_zero:multiphase_spell_parchment": {
+   "kind": "item",
+   "name": "Multiphase Spell Parchment"
+  },
+  "ars_zero:multiphase_orb": {
+   "kind": "item",
+   "name": "Phased Orb"
+  },
+  "ars_zero:acolyte": {
+   "kind": "entity",
+   "name": "Acolyte"
+  },
+  "ars_zero:necromancer": {
+   "kind": "entity",
+   "name": "Necromancer"
+  },
+  "ars_zero:lich": {
+   "kind": "entity",
+   "name": "Lich"
+  },
+  "ars_zero:bone_golem": {
+   "kind": "entity",
+   "name": "Bone Golem"
+  },
+  "ars_zero:acolyte_spawn_egg": {
+   "kind": "item",
+   "name": "Acolyte Spawn Egg"
+  },
+  "ars_zero:necromancer_spawn_egg": {
+   "kind": "item",
+   "name": "Necromancer Spawn Egg"
+  },
+  "ars_zero:lich_spawn_egg": {
+   "kind": "item",
+   "name": "Lich Spawn Egg"
+  },
+  "ars_zero:bone_golem_spawn_egg": {
+   "kind": "item",
+   "name": "Bone Golem Spawn Egg"
+  },
+  "ars_zero:arcane_voxel_spawner": {
+   "kind": "block",
+   "name": "Arcane Voxel Spawner"
+  },
+  "ars_zero:fire_voxel_spawner": {
+   "kind": "block",
+   "name": "Fire Voxel Spawner"
+  },
+  "ars_zero:water_voxel_spawner": {
+   "kind": "block",
+   "name": "Water Voxel Spawner"
+  },
+  "ars_zero:wind_voxel_spawner": {
+   "kind": "block",
+   "name": "Wind Voxel Spawner"
+  },
+  "ars_zero:stone_voxel_spawner": {
+   "kind": "block",
+   "name": "Stone Voxel Spawner"
+  },
+  "ars_zero:ice_voxel_spawner": {
+   "kind": "block",
+   "name": "Ice Voxel Spawner"
+  },
+  "ars_zero:lightning_voxel_spawner": {
+   "kind": "block",
+   "name": "Lightning Voxel Spawner"
+  },
+  "ars_zero:blight_voxel_spawner": {
+   "kind": "block",
+   "name": "Blight Voxel Spawner"
+  },
+  "ars_zero:blight_fluid": {
+   "kind": "block",
+   "name": "Blight Fluid"
+  },
+  "ars_zero:blight_cauldron": {
+   "kind": "block",
+   "name": "Blight Cauldron"
+  },
+  "ars_zero:blighted_soil": {
+   "kind": "block",
+   "name": "Blighted Soil"
+  },
+  "ars_zero:frozen_blight": {
+   "kind": "block",
+   "name": "Frozen Blight"
+  },
+  "ars_zero:multiphase_spell_turret": {
+   "kind": "block",
+   "name": "Multiphase Spell Turret"
+  },
+  "ars_zero:blight_archwood_log": {
+   "kind": "block",
+   "name": "Dead Archwood Log"
+  },
+  "ars_zero:blight_archwood_leaves": {
+   "kind": "block",
+   "name": "Dead Archwood Leaves"
+  },
+  "ars_zero:staff_display": {
+   "kind": "block",
+   "name": "Spellcaster Pedestal"
+  },
+  "ars_zero:ossuary_beacon": {
+   "kind": "block",
+   "name": "Ossuary Beacon"
+  },
+  "ars_zero:corrupted_sourcestone": {
+   "kind": "block",
+   "name": "Corrupted Sourcestone"
+  },
+  "ars_zero:corrupted_sourcestone_stairs": {
+   "kind": "block",
+   "name": "Corrupted Sourcestone Stairs"
+  },
+  "ars_zero:corrupted_sourcestone_slab": {
+   "kind": "block",
+   "name": "Corrupted Sourcestone Slab"
+  },
+  "ars_zero:corrupted_sourcestone_mosaic": {
+   "kind": "block",
+   "name": "Corrupted Sourcestone Mosaic"
+  },
+  "ars_zero:corrupted_sourcestone_mosaic_stairs": {
+   "kind": "block",
+   "name": "Corrupted Sourcestone Mosaic Stairs"
+  },
+  "ars_zero:corrupted_sourcestone_mosaic_slab": {
+   "kind": "block",
+   "name": "Corrupted Sourcestone Mosaic Slab"
+  },
+  "ars_zero:corrupted_sourcestone_basketweave": {
+   "kind": "block",
+   "name": "Corrupted Sourcestone Basketweave"
+  },
+  "ars_zero:corrupted_sourcestone_basketweave_stairs": {
+   "kind": "block",
+   "name": "Corrupted Sourcestone Basketweave Stairs"
+  },
+  "ars_zero:corrupted_sourcestone_basketweave_slab": {
+   "kind": "block",
+   "name": "Corrupted Sourcestone Basketweave Slab"
+  },
+  "ars_zero:corrupted_sourcestone_alternating": {
+   "kind": "block",
+   "name": "Corrupted Sourcestone Alternating"
+  },
+  "ars_zero:corrupted_sourcestone_alternating_stairs": {
+   "kind": "block",
+   "name": "Corrupted Sourcestone Alternating Stairs"
+  },
+  "ars_zero:corrupted_sourcestone_alternating_slab": {
+   "kind": "block",
+   "name": "Corrupted Sourcestone Alternating Slab"
+  },
+  "ars_zero:corrupted_sourcestone_large_bricks": {
+   "kind": "block",
+   "name": "Corrupted Sourcestone Large Bricks"
+  },
+  "ars_zero:corrupted_sourcestone_large_bricks_stairs": {
+   "kind": "block",
+   "name": "Corrupted Sourcestone Large Bricks Stairs"
+  },
+  "ars_zero:corrupted_sourcestone_large_bricks_slab": {
+   "kind": "block",
+   "name": "Corrupted Sourcestone Large Bricks Slab"
+  },
+  "ars_zero:corrupted_sourcestone_small_bricks": {
+   "kind": "block",
+   "name": "Corrupted Sourcestone Small Bricks"
+  },
+  "ars_zero:corrupted_sourcestone_small_bricks_stairs": {
+   "kind": "block",
+   "name": "Corrupted Sourcestone Small Bricks Stairs"
+  },
+  "ars_zero:corrupted_sourcestone_small_bricks_slab": {
+   "kind": "block",
+   "name": "Corrupted Sourcestone Small Bricks Slab"
+  },
+  "ars_zero:smooth_corrupted_sourcestone": {
+   "kind": "block",
+   "name": "Smooth Corrupted Sourcestone"
+  },
+  "ars_zero:smooth_corrupted_sourcestone_stairs": {
+   "kind": "block",
+   "name": "Smooth Corrupted Sourcestone Stairs"
+  },
+  "ars_zero:smooth_corrupted_sourcestone_slab": {
+   "kind": "block",
+   "name": "Smooth Corrupted Sourcestone Slab"
+  },
+  "ars_zero:smooth_corrupted_sourcestone_mosaic": {
+   "kind": "block",
+   "name": "Smooth Corrupted Sourcestone Mosaic"
+  },
+  "ars_zero:smooth_corrupted_sourcestone_mosaic_stairs": {
+   "kind": "block",
+   "name": "Smooth Corrupted Sourcestone Mosaic Stairs"
+  },
+  "ars_zero:smooth_corrupted_sourcestone_mosaic_slab": {
+   "kind": "block",
+   "name": "Smooth Corrupted Sourcestone Mosaic Slab"
+  },
+  "ars_zero:smooth_corrupted_sourcestone_basketweave": {
+   "kind": "block",
+   "name": "Smooth Corrupted Sourcestone Basketweave"
+  },
+  "ars_zero:smooth_corrupted_sourcestone_basketweave_stairs": {
+   "kind": "block",
+   "name": "Smooth Corrupted Sourcestone Basketweave Stairs"
+  },
+  "ars_zero:smooth_corrupted_sourcestone_basketweave_slab": {
+   "kind": "block",
+   "name": "Smooth Corrupted Sourcestone Basketweave Slab"
+  },
+  "ars_zero:smooth_corrupted_sourcestone_alternating": {
+   "kind": "block",
+   "name": "Smooth Corrupted Sourcestone Alternating"
+  },
+  "ars_zero:smooth_corrupted_sourcestone_alternating_stairs": {
+   "kind": "block",
+   "name": "Smooth Corrupted Sourcestone Alternating Stairs"
+  },
+  "ars_zero:smooth_corrupted_sourcestone_alternating_slab": {
+   "kind": "block",
+   "name": "Smooth Corrupted Sourcestone Alternating Slab"
+  },
+  "ars_zero:smooth_corrupted_sourcestone_large_bricks": {
+   "kind": "block",
+   "name": "Smooth Corrupted Sourcestone Large Bricks"
+  },
+  "ars_zero:smooth_corrupted_sourcestone_large_bricks_stairs": {
+   "kind": "block",
+   "name": "Smooth Corrupted Sourcestone Large Bricks Stairs"
+  },
+  "ars_zero:smooth_corrupted_sourcestone_large_bricks_slab": {
+   "kind": "block",
+   "name": "Smooth Corrupted Sourcestone Large Bricks Slab"
+  },
+  "ars_zero:smooth_corrupted_sourcestone_small_bricks": {
+   "kind": "block",
+   "name": "Smooth Corrupted Sourcestone Small Bricks"
+  },
+  "ars_zero:smooth_corrupted_sourcestone_small_bricks_stairs": {
+   "kind": "block",
+   "name": "Smooth Corrupted Sourcestone Small Bricks Stairs"
+  },
+  "ars_zero:smooth_corrupted_sourcestone_small_bricks_slab": {
+   "kind": "block",
+   "name": "Smooth Corrupted Sourcestone Small Bricks Slab"
+  },
+  "ars_zero:blight_fluid_bucket": {
+   "kind": "item",
+   "name": "Blight Fluid Bucket"
+  },
+  "ars_zero:arcane_voxel_entity": {
+   "kind": "entity",
+   "name": "Arcane Voxel"
+  },
+  "ars_zero:water_voxel_entity": {
+   "kind": "entity",
+   "name": "Water Voxel"
+  },
+  "ars_zero:fire_voxel_entity": {
+   "kind": "entity",
+   "name": "Fire Voxel"
+  },
+  "ars_zero:stone_voxel_entity": {
+   "kind": "entity",
+   "name": "Stone Voxel"
+  },
+  "ars_zero:wind_voxel_entity": {
+   "kind": "entity",
+   "name": "Wind Voxel"
+  },
+  "ars_zero:ice_voxel_entity": {
+   "kind": "entity",
+   "name": "Ice Voxel"
+  },
+  "ars_zero:lightning_voxel_entity": {
+   "kind": "entity",
+   "name": "Lightning Voxel"
+  },
+  "ars_zero:blight_voxel_entity": {
+   "kind": "entity",
+   "name": "Blight Voxel"
+  },
+  "ars_zero:block_group": {
+   "kind": "entity",
+   "name": "Block Group"
+  },
+  "ars_zero:water_convergence_controller": {
+   "kind": "entity",
+   "name": "Water Convergence"
+  },
+  "ars_zero:geometry_break_controller": {
+   "kind": "entity",
+   "name": "Earth Golem"
+  },
+  "ars_zero:geometry_terrain_controller": {
+   "kind": "entity",
+   "name": "Earth Golem"
+  },
+  "ars_zero:geometry_controller": {
+   "kind": "entity",
+   "name": "Arcane Golem"
+  },
+  "ars_zero:arcane_circle": {
+   "kind": "entity",
+   "name": "Arcane Circle"
+  },
+  "ars_zero:effect_beam": {
+   "kind": "entity",
+   "name": "Beam"
+  },
+  "ars_zero:sustain_effect": {
+   "kind": "item",
+   "name": "Sustain"
+  },
+  "ars_zero:anchor_effect": {
+   "kind": "item",
+   "name": "Anchor"
+  },
+  "ars_zero:staff_aetherwalk": {
+   "kind": "item",
+   "name": "Staff of Aetherwalk"
+  },
+  "ars_zero:tattered_arcanist_helmet": {
+   "kind": "item",
+   "name": "Tattered Arcanist's Hat"
+  },
+  "ars_zero:tattered_arcanist_chestplate": {
+   "kind": "item",
+   "name": "Tattered Arcanist's Robes"
+  },
+  "ars_zero:tattered_arcanist_leggings": {
+   "kind": "item",
+   "name": "Tattered Arcanist's Breeches"
+  },
+  "ars_zero:tattered_arcanist_boots": {
+   "kind": "item",
+   "name": "Tattered Arcanist's Boots"
+  },
+  "ars_zero:rotted_arcanist_helmet": {
+   "kind": "item",
+   "name": "Rotted Arcanist's Hat"
+  },
+  "ars_zero:rotted_arcanist_chestplate": {
+   "kind": "item",
+   "name": "Rotted Arcanist's Robes"
+  },
+  "ars_zero:rotted_arcanist_leggings": {
+   "kind": "item",
+   "name": "Rotted Arcanist's Breeches"
+  },
+  "ars_zero:rotted_arcanist_boots": {
+   "kind": "item",
+   "name": "Rotted Arcanist's Boots"
+  },
+  "ars_zero:bone_chest": {
+   "kind": "block",
+   "name": "Bone Chest"
+  },
+  "ars_zero:air_filial": {
+   "kind": "item",
+   "name": "Vortex Gale"
+  },
+  "ars_zero:earth_filial": {
+   "kind": "item",
+   "name": "Oakheart"
+  },
+  "ars_zero:fire_filial": {
+   "kind": "item",
+   "name": "Emberclast"
+  },
+  "ars_zero:water_filial": {
+   "kind": "item",
+   "name": "Crux of the Sea"
+  },
+  "ars_zero:abjuration_filial": {
+   "kind": "item",
+   "name": "Crucible"
+  },
+  "ars_zero:conjuration_filial": {
+   "kind": "item",
+   "name": "Soulwell"
+  },
+  "ars_zero:manipulation_filial": {
+   "kind": "item",
+   "name": "Metacarpus"
+  },
+  "ars_zero:necromancy_filial": {
+   "kind": "item",
+   "name": "Ossuary Sigil"
+  },
+  "ars_zero:blight_vein": {
+   "kind": "block",
+   "name": "Blight Vein"
+  }
+ }
+}

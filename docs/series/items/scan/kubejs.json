@@ -1,0 +1,44 @@
+{
+ "repo": "KubeJS-Mods/KubeJS",
+ "ref": "2101",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "kubejs"
+ ],
+ "item_count": 0,
+ "compat": [
+  {
+   "id": "emi",
+   "slug": "emi",
+   "evidence": {
+    "compat-import": 5,
+    "dependency": 1,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "jade",
+   "slug": "jade",
+   "evidence": {
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 9,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "rhino",
+   "slug": "rhino",
+   "evidence": {
+    "compat-import": 22,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {}
+}

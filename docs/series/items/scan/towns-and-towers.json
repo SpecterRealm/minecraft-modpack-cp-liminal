@@ -1,0 +1,31 @@
+{
+ "repo": "Cristelknight/Towns-and-Towers",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [],
+ "item_count": 0,
+ "compat": [
+  {
+   "id": "cristellib",
+   "slug": "cristel-lib",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "terralith",
+   "slug": "terralith",
+   "evidence": {
+    "data-ref": 46
+   }
+  },
+  {
+   "id": "towns_and_towers",
+   "slug": "towns-and-towers",
+   "evidence": {
+    "data-ref": 9
+   }
+  }
+ ],
+ "items": {}
+}

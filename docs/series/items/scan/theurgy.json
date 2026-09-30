@@ -1,0 +1,451 @@
+{
+ "repo": "klikli-dev/theurgy",
+ "ref": "release/v1.21.1-1.76.1",
+ "ref_kind": "tag",
+ "mod_ids": [
+  "${mod_id}",
+  "theurgy"
+ ],
+ "item_count": 94,
+ "compat": [
+  {
+   "id": "emi",
+   "slug": "emi",
+   "evidence": {
+    "compat-import": 9
+   }
+  },
+  {
+   "id": "geckolib",
+   "slug": "geckolib",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "jade",
+   "slug": "jade",
+   "evidence": {
+    "compat-import": 2,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 13,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "kubejs",
+   "slug": "kubejs",
+   "evidence": {
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "modonomicon",
+   "slug": "modonomicon",
+   "evidence": {
+    "compat-import": 17,
+    "data-ref": 101,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "occultism",
+   "slug": "occultism",
+   "evidence": {
+    "compat-import": 1,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "powah",
+   "slug": "powah",
+   "evidence": {
+    "data-ref": 1
+   }
+  }
+ ],
+ "items": {
+  "theurgy:calcination_oven": {
+   "kind": "block",
+   "name": "Calcination Oven"
+  },
+  "theurgy:deepslate_sal_ammoniac_ore": {
+   "kind": "block",
+   "name": "Deepslate Sal Ammoniac Ore"
+  },
+  "theurgy:digestion_vat": {
+   "kind": "block",
+   "name": "Digestion Vat"
+  },
+  "theurgy:distiller": {
+   "kind": "block",
+   "name": "Mercury Distiller"
+  },
+  "theurgy:fermentation_vat": {
+   "kind": "block",
+   "name": "Fermentation Vat"
+  },
+  "theurgy:incubator": {
+   "kind": "block",
+   "name": "Incubator"
+  },
+  "theurgy:incubator_mercury_vessel": {
+   "kind": "block",
+   "name": "Incubator Mercury Vessel"
+  },
+  "theurgy:incubator_salt_vessel": {
+   "kind": "block",
+   "name": "Incubator Salt Vessel"
+  },
+  "theurgy:incubator_sulfur_vessel": {
+   "kind": "block",
+   "name": "Incubator Sulfur Vessel"
+  },
+  "theurgy:liquefaction_cauldron": {
+   "kind": "block",
+   "name": "Liquefaction Cauldron"
+  },
+  "theurgy:logistics_connector_node": {
+   "kind": "block",
+   "name": "Mercurial Connection Node"
+  },
+  "theurgy:logistics_fluid_extractor": {
+   "kind": "block",
+   "name": "Mercurial Fluid Extractor"
+  },
+  "theurgy:logistics_fluid_inserter": {
+   "kind": "block",
+   "name": "Mercurial Fluid Inserter"
+  },
+  "theurgy:logistics_item_extractor": {
+   "kind": "block",
+   "name": "Mercurial Item Extractor"
+  },
+  "theurgy:logistics_item_inserter": {
+   "kind": "block",
+   "name": "Mercurial Item Inserter"
+  },
+  "theurgy:mercury_catalyst": {
+   "kind": "block",
+   "name": "Mercury Catalyst"
+  },
+  "theurgy:pyromantic_brazier": {
+   "kind": "block",
+   "name": "Pyromantic Brazier"
+  },
+  "theurgy:reformation_result_pedestal": {
+   "kind": "block",
+   "name": "Reformation Result Pedestal"
+  },
+  "theurgy:reformation_source_pedestal": {
+   "kind": "block",
+   "name": "Reformation Source Pedestal"
+  },
+  "theurgy:reformation_target_pedestal": {
+   "kind": "block",
+   "name": "Reformation Target Pedestal"
+  },
+  "theurgy:sal_ammoniac_accumulator": {
+   "kind": "block",
+   "name": "Sal Ammoniac Accumulator"
+  },
+  "theurgy:sal_ammoniac_ore": {
+   "kind": "block",
+   "name": "Sal Ammoniac Ore"
+  },
+  "theurgy:sal_ammoniac_tank": {
+   "kind": "block",
+   "name": "Sal Ammoniac Tank"
+  },
+  "mode:theurgy.mercurial_wand.disabled": {
+   "kind": "item",
+   "name": "Disabled"
+  },
+  "mode:theurgy.mercurial_wand.enabled": {
+   "kind": "item",
+   "name": "Enabled"
+  },
+  "mode:theurgy.mercurial_wand.rotate_selected_direction": {
+   "kind": "item",
+   "name": "Cycle selected direction"
+  },
+  "mode:theurgy.mercurial_wand.rotate_selected_direction.success": {
+   "kind": "item",
+   "name": "Cycle direction to %s"
+  },
+  "mode:theurgy.mercurial_wand.rotate_selected_direction.with_target": {
+   "kind": "item",
+   "name": "Set direction from %s to %s"
+  },
+  "mode:theurgy.mercurial_wand.select_direction": {
+   "kind": "item",
+   "name": "Select direction (Currently: %s)"
+  },
+  "mode:theurgy.mercurial_wand.select_direction.success": {
+   "kind": "item",
+   "name": "Direction: %s"
+  },
+  "mode:theurgy.mercurial_wand.select_frequency": {
+   "kind": "item",
+   "name": "Selected frequency: %s"
+  },
+  "mode:theurgy.mercurial_wand.set_selected_direction": {
+   "kind": "item",
+   "name": "Set direction to %s"
+  },
+  "mode:theurgy.mercurial_wand.set_selected_direction.success": {
+   "kind": "item",
+   "name": "Set direction to %s"
+  },
+  "mode:theurgy.mercurial_wand.set_selected_direction.with_target": {
+   "kind": "item",
+   "name": "Set direction from %s to %s"
+  },
+  "mode:theurgy.mercurial_wand.set_selected_frequency": {
+   "kind": "item",
+   "name": "Set frequency to %s"
+  },
+  "mode:theurgy.mercurial_wand.set_selected_frequency.success": {
+   "kind": "item",
+   "name": "Set frequency to %s"
+  },
+  "mode:theurgy.mercurial_wand.set_selected_frequency.with_target": {
+   "kind": "item",
+   "name": "Set frequency from %s to %s"
+  },
+  "mode:theurgy.mercurial_wand.switch_logistics_enabled": {
+   "kind": "item",
+   "name": "Enable/Disable"
+  },
+  "mode:theurgy.mercurial_wand.switch_logistics_enabled.hud": {
+   "kind": "item",
+   "name": " (Currently: %s)"
+  },
+  "mode:theurgy.mercurial_wand.switch_logistics_enabled.success": {
+   "kind": "item",
+   "name": "Logistics Connector is now %s"
+  },
+  "theurgy:amethyst_divination_rod": {
+   "kind": "item",
+   "name": "Divination Rod: Amethyst"
+  },
+  "theurgy:amethyst_divination_rod.linked": {
+   "kind": "item",
+   "name": "Divination Rod: %s"
+  },
+  "theurgy:attribute_filter": {
+   "kind": "item",
+   "name": "Mercurial Attribute Filter"
+  },
+  "theurgy:copper_wire": {
+   "kind": "item",
+   "name": "Mercurial Copper Wire"
+  },
+  "theurgy:crystallized_lava": {
+   "kind": "item",
+   "name": "Crystallized Lava"
+  },
+  "theurgy:crystallized_water": {
+   "kind": "item",
+   "name": "Crystallized Water"
+  },
+  "theurgy:divination_rod.unknown_linked_block": {
+   "kind": "item",
+   "name": "Unknown Block (something went wrong)"
+  },
+  "theurgy:divination_rod_t1": {
+   "kind": "item",
+   "name": "Glass Divination Rod"
+  },
+  "theurgy:divination_rod_t1.linked": {
+   "kind": "item",
+   "name": "Glass Divination Rod %s"
+  },
+  "theurgy:divination_rod_t2": {
+   "kind": "item",
+   "name": "Iron Divination Rod"
+  },
+  "theurgy:divination_rod_t2.linked": {
+   "kind": "item",
+   "name": "Iron Divination Rod %s"
+  },
+  "theurgy:divination_rod_t3": {
+   "kind": "item",
+   "name": "Diamond Divination Rod"
+  },
+  "theurgy:divination_rod_t3.linked": {
+   "kind": "item",
+   "name": "Diamond Divination Rod %s"
+  },
+  "theurgy:divination_rod_t4": {
+   "kind": "item",
+   "name": "Netherite Divination Rod"
+  },
+  "theurgy:divination_rod_t4.linked": {
+   "kind": "item",
+   "name": "Netherite Divination Rod %s"
+  },
+  "theurgy:empty_ceramic_jar_icon": {
+   "kind": "item",
+   "name": "Empty Ceramic Jar Icon"
+  },
+  "theurgy:empty_ceramic_jar_labeled_icon": {
+   "kind": "item",
+   "name": "Labeled Empty Ceramic Jar Icon"
+  },
+  "theurgy:empty_jar_icon": {
+   "kind": "item",
+   "name": "Empty Jar Icon"
+  },
+  "theurgy:empty_jar_iron_band_icon": {
+   "kind": "item",
+   "name": "Empty Jar with Iron Band Icon"
+  },
+  "theurgy:empty_jar_labeled_icon": {
+   "kind": "item",
+   "name": "Labeled Empty Jar Icon"
+  },
+  "theurgy:fermentation_starter": {
+   "kind": "item",
+   "name": "Fermentation Starter"
+  },
+  "theurgy:gems_abundant_icon": {
+   "kind": "item",
+   "name": "Abundant Gems Icon"
+  },
+  "theurgy:gems_common_icon": {
+   "kind": "item",
+   "name": "Common Gems Icon"
+  },
+  "theurgy:gems_precious_icon": {
+   "kind": "item",
+   "name": "Precious Gems Icon"
+  },
+  "theurgy:gems_rare_icon": {
+   "kind": "item",
+   "name": "Rare Gems Icon"
+  },
+  "theurgy:jar_label_frame_abundant_icon": {
+   "kind": "item",
+   "name": "Jar Label Frame Abundant Icon"
+  },
+  "theurgy:jar_label_frame_common_icon": {
+   "kind": "item",
+   "name": "Jar Label Frame Common Icon"
+  },
+  "theurgy:jar_label_frame_precious_icon": {
+   "kind": "item",
+   "name": "Jar Label Frame Precious Icon"
+  },
+  "theurgy:jar_label_frame_rare_icon": {
+   "kind": "item",
+   "name": "Jar Label Frame Rare Icon"
+  },
+  "theurgy:jar_label_icon": {
+   "kind": "item",
+   "name": "Jar Label Icon"
+  },
+  "theurgy:list_filter": {
+   "kind": "item",
+   "name": "Mercurial List Filter"
+  },
+  "theurgy:mercurial_wand": {
+   "kind": "item",
+   "name": "Mercurial Wand"
+  },
+  "theurgy:mercury_crystal": {
+   "kind": "item",
+   "name": "Mercury Crystal"
+  },
+  "theurgy:mercury_shard": {
+   "kind": "item",
+   "name": "Mercury Shard"
+  },
+  "theurgy:metals_abundant_icon": {
+   "kind": "item",
+   "name": "Abundant Metals Icon"
+  },
+  "theurgy:metals_common_icon": {
+   "kind": "item",
+   "name": "Common Metals Icon"
+  },
+  "theurgy:metals_precious_icon": {
+   "kind": "item",
+   "name": "Precious Metals Icon"
+  },
+  "theurgy:metals_rare_icon": {
+   "kind": "item",
+   "name": "Rare Metals Icon"
+  },
+  "theurgy:other_minerals_abundant_icon": {
+   "kind": "item",
+   "name": "Abundant Other Minerals Icon"
+  },
+  "theurgy:other_minerals_common_icon": {
+   "kind": "item",
+   "name": "Common Other Minerals Icon"
+  },
+  "theurgy:other_minerals_precious_icon": {
+   "kind": "item",
+   "name": "Precious Other Minerals Icon"
+  },
+  "theurgy:other_minerals_rare_icon": {
+   "kind": "item",
+   "name": "Rare Other Minerals Icon"
+  },
+  "theurgy:purified_gold": {
+   "kind": "item",
+   "name": "Purified Gold"
+  },
+  "theurgy:sal_ammoniac_bucket": {
+   "kind": "item",
+   "name": "Sal Ammoniac Bucket"
+  },
+  "theurgy:sal_ammoniac_crystal": {
+   "kind": "item",
+   "name": "Sal Ammoniac Crystal"
+  },
+  "theurgy:sulfur_attuned_divination_rod_abundant": {
+   "kind": "item",
+   "name": "Divination Rod: Abundant Materials"
+  },
+  "theurgy:sulfur_attuned_divination_rod_abundant.linked": {
+   "kind": "item",
+   "name": "Divination Rod: Abundant Materials %s"
+  },
+  "theurgy:sulfur_attuned_divination_rod_common": {
+   "kind": "item",
+   "name": "Divination Rod: Common Materials"
+  },
+  "theurgy:sulfur_attuned_divination_rod_common.linked": {
+   "kind": "item",
+   "name": "Divination Rod: Common Materials %s"
+  },
+  "theurgy:sulfur_attuned_divination_rod_precious": {
+   "kind": "item",
+   "name": "Divination Rod: Precious Materials"
+  },
+  "theurgy:sulfur_attuned_divination_rod_precious.linked": {
+   "kind": "item",
+   "name": "Divination Rod: Precious Materials %s"
+  },
+  "theurgy:sulfur_attuned_divination_rod_rare": {
+   "kind": "item",
+   "name": "Divination Rod: Rare Materials"
+  },
+  "theurgy:sulfur_attuned_divination_rod_rare.linked": {
+   "kind": "item",
+   "name": "Divination Rod: Rare Materials %s"
+  },
+  "theurgy:the_hermetica_icon": {
+   "kind": "item",
+   "name": "The Hermetica Icon"
+  }
+ }
+}

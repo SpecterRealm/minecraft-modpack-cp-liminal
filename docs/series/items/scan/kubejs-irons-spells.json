@@ -1,0 +1,25 @@
+{
+ "repo": "sentwayfarer/irons_spells_js",
+ "ref": "2101",
+ "ref_kind": "branch",
+ "mod_ids": [],
+ "item_count": 0,
+ "compat": [
+  {
+   "id": "geckolib",
+   "slug": "geckolib",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "kubejs",
+   "slug": "kubejs",
+   "evidence": {
+    "compat-import": 4,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {}
+}
