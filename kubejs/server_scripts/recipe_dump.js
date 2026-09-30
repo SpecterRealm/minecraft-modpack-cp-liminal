@@ -1,6 +1,7 @@
 // CP Liminal — Recipe Dump (server-side)
 // Makes NO changes. Logs recipe counts by type on world load.
 // Dev aid for offline audits — comment out or remove before a player-facing release.
+// Companion to scripts/build_recipe_wiki.py (make recipe-wiki).
 
 ServerEvents.recipes(function (event) {
   // recipe.type is a Java ResourceLocation — '' + obj can throw in Rhino if the
