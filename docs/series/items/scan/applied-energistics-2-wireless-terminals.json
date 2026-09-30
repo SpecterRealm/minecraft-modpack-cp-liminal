@@ -36,37 +36,44 @@
    "kind": "item",
    "name": "Quantum Bridge Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "ae2wtlib:magnet_card": {
    "kind": "item",
    "name": "Magnet Card",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "ae2wtlib:wireless_pattern_encoding_terminal": {
    "kind": "item",
    "name": "Wireless Pattern Encoding Terminal",
    "tags": [
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   },
   "ae2wtlib:wireless_pattern_access_terminal": {
    "kind": "item",
    "name": "Wireless Pattern Access Terminal",
    "tags": [
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   },
   "ae2wtlib:wireless_universal_terminal": {
    "kind": "item",
    "name": "Wireless Universal Terminal",
    "tags": [
-    "function:automate"
+    "function:automate",
+    "review:auto"
    ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "19.5.0"
 }

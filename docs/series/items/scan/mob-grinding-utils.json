@@ -12,14 +12,16 @@
    "kind": "block",
    "name": "Mob Fan",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:saw": {
    "kind": "block",
    "name": "Mob Masher",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:absorption_hopper": {
@@ -27,7 +29,8 @@
    "name": "Absorption Hopper",
    "tags": [
     "function:transfer",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:absorption_hopper_d_u": {
@@ -35,7 +38,8 @@
    "name": "Offset D/U",
    "tags": [
     "function:transfer",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:absorption_hopper_n_s": {
@@ -43,7 +47,8 @@
    "name": "Offset N/S",
    "tags": [
     "function:transfer",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:absorption_hopper_w_e": {
@@ -51,14 +56,16 @@
    "name": "Offset W/E",
    "tags": [
     "function:transfer",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:spikes": {
    "kind": "block",
    "name": "Iron Spikes",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:tank": {
@@ -66,7 +73,8 @@
    "name": "Singularity Tank",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:tank_sink": {
@@ -74,14 +82,16 @@
    "name": "XP Drain Singularity Tank",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:xp_tap": {
    "kind": "block",
    "name": "XP Tap",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:wither_muffler": {
@@ -89,7 +99,8 @@
    "name": "Wither Boss Death Muffler",
    "tags": [
     "needs:nether",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:dragon_muffler": {
@@ -97,28 +108,32 @@
    "name": "Ender Dragon Death Muffler",
    "tags": [
     "needs:end",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:dark_oak_stone": {
    "kind": "block",
    "name": "Dark Oak Stone",
    "tags": [
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:ender_inhibitor_on": {
    "kind": "block",
    "name": "Ender Inhibitor Active",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:ender_inhibitor_off": {
    "kind": "block",
    "name": "Ender Inhibitor Inactive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:entity_conveyor": {
@@ -126,14 +141,16 @@
    "name": "Entity Conveyor",
    "tags": [
     "function:transfer",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:tinted_glass": {
    "kind": "block",
    "name": "Tinted Glass",
    "tags": [
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:jumbo_tank": {
@@ -141,35 +158,40 @@
    "name": "Jumbo Tank",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:xpsolidifier": {
    "kind": "block",
    "name": "XP Solidifier",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:dreadful_dirt": {
    "kind": "block",
    "name": "Dreadful Dirt",
    "tags": [
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:solid_xp_block": {
    "kind": "block",
    "name": "Solid XP",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:delightful_dirt": {
    "kind": "block",
    "name": "Delightful Dirt",
    "tags": [
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:entity_spawner": {
@@ -177,66 +199,78 @@
    "name": "Entity Spawner",
    "tags": [
     "kind:machine",
-    "function:process"
+    "function:process",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:mob_swab": {
    "kind": "item",
    "name": "Mob Swab",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "mob_grinding_utils:mob_swab_used": {
    "kind": "item",
    "name": "Mob Swab Used",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "mob_grinding_utils:gm_chicken_feed": {
    "kind": "item",
    "name": "GM Chicken Feed",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:gm_chicken_feed_cursed": {
    "kind": "item",
    "name": "GM Chicken Feed Cursed",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:nutritious_chicken_feed": {
    "kind": "item",
    "name": "Nutritious Chicken Feed",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:fan_upgrade_width": {
    "kind": "item",
    "name": "Mob Fan Width Upgrade",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:fan_upgrade_height": {
    "kind": "item",
    "name": "Mob Fan Height Upgrade",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:fan_upgrade_speed": {
    "kind": "item",
    "name": "Mob Fan Distance Upgrade",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:absorption_upgrade": {
    "kind": "item",
    "name": "Absorption Radius Upgrade",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:saw_upgrade_sharpness": {
@@ -244,7 +278,8 @@
    "name": "Mob Masher Upgrade Sharpness",
    "tags": [
     "kind:tool",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:saw_upgrade_looting": {
@@ -252,7 +287,8 @@
    "name": "Mob Masher Upgrade Looting",
    "tags": [
     "kind:tool",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:saw_upgrade_fire": {
@@ -260,7 +296,8 @@
    "name": "Mob Masher Upgrade Fire",
    "tags": [
     "kind:tool",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:saw_upgrade_smite": {
@@ -268,7 +305,8 @@
    "name": "Mob Masher Upgrade Smite",
    "tags": [
     "kind:tool",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:saw_upgrade_arthropod": {
@@ -276,7 +314,8 @@
    "name": "Mob Masher Upgrade Arthropods",
    "tags": [
     "kind:tool",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:saw_upgrade_beheading": {
@@ -284,7 +323,8 @@
    "name": "Mob Masher Upgrade Beheading",
    "tags": [
     "kind:tool",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:null_sword": {
@@ -292,50 +332,61 @@
    "name": "Imaginary Not Here Sword",
    "tags": [
     "kind:weapon",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:fluid_xp_bucket": {
    "kind": "item",
    "name": "Fluid XP Bucket",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:rotten_egg": {
    "kind": "item",
    "name": "Rotten Egg",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:golden_egg": {
    "kind": "item",
    "name": "Golden Egg",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:solid_xp_mould_blank": {
    "kind": "item",
    "name": "XP Mould Blank",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "mob_grinding_utils:solid_xp_mould_baby": {
    "kind": "item",
    "name": "XP Mould Jelly Baby",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "mob_grinding_utils:solid_xp_baby": {
    "kind": "item",
    "name": "XP Jelly Baby",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "mob_grinding_utils:xp_solidifier_upgrade": {
    "kind": "item",
    "name": "XP Speed Upgrade",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:spawner_upgrade_width": {
@@ -344,7 +395,8 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:spawner_upgrade_height": {
@@ -353,14 +405,19 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "mob_grinding_utils:monocle": {
    "kind": "item",
    "name": "Monocle",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "MC1.21.1"
 }

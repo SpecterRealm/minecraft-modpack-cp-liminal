@@ -28,7 +28,8 @@
    "kind": "block",
    "name": "Flux Block",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "fluxnetworks:flux_controller": {
@@ -38,7 +39,8 @@
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "fluxnetworks:flux_point": {
@@ -48,7 +50,8 @@
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "fluxnetworks:flux_plug": {
@@ -58,7 +61,8 @@
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "fluxnetworks:basic_flux_storage": {
@@ -66,7 +70,8 @@
    "name": "Basic Flux Storage",
    "tags": [
     "function:store",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "fluxnetworks:herculean_flux_storage": {
@@ -74,7 +79,8 @@
    "name": "Herculean Flux Storage",
    "tags": [
     "function:store",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "fluxnetworks:gargantuan_flux_storage": {
@@ -82,21 +88,27 @@
    "name": "Gargantuan Flux Storage",
    "tags": [
     "function:store",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "fluxnetworks:flux_dust": {
    "kind": "item",
    "name": "Flux Dust",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "fluxnetworks:flux_core": {
    "kind": "item",
    "name": "Flux Core",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21"
 }

@@ -39,7 +39,8 @@
    "name": "Infuser",
    "tags": [
     "kind:machine",
-    "function:process"
+    "function:process",
+    "review:auto"
    ]
   },
   "mysticalautomation:crafter": {
@@ -47,14 +48,16 @@
    "name": "Crafter",
    "tags": [
     "function:automate",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "mysticalautomation:farmer": {
    "kind": "block",
    "name": "Farmer",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "mysticalautomation:fertilizer": {
@@ -62,30 +65,36 @@
    "name": "Fertilizer",
    "tags": [
     "function:farm",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "mysticalautomation:enchanternator": {
    "kind": "block",
    "name": "Enchanternator",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "mysticalautomation:infusion_altarnator": {
    "kind": "block",
    "name": "Infusion Altarnator",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "mysticalautomation:awakening_altarnator": {
    "kind": "block",
    "name": "Awakening Altarnator",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21"
 }

@@ -35,76 +35,100 @@
    "kind": "item",
    "name": "Ring",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "irons_jewelry:necklace": {
    "kind": "item",
    "name": "Necklace",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "irons_jewelry:invalid_jewelry": {
    "kind": "item",
    "name": "Invalid Jewelry",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_jewelry:recipe": {
    "kind": "item",
    "name": "Artisan Scroll",
    "tags": [
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "irons_jewelry:ruby": {
    "kind": "item",
    "name": "Ruby",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_jewelry:sapphire": {
    "kind": "item",
    "name": "Sapphire",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_jewelry:topaz": {
    "kind": "item",
    "name": "Topaz",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_jewelry:moonstone": {
    "kind": "item",
    "name": "Moonstone",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_jewelry:peridot": {
    "kind": "item",
    "name": "Peridot",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_jewelry:onyx": {
    "kind": "item",
    "name": "Onyx",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_jewelry:garnet": {
    "kind": "item",
    "name": "Garnet",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "irons_jewelry:jewelcrafting_station": {
    "kind": "block",
    "name": "Jewelcrafting Station",
    "tags": [
     "function:craft",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "minecraft:villager.irons_jewelry.jeweler": {
    "kind": "entity",
    "name": "Jeweler",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "v26.1.2-2.0.2"
 }

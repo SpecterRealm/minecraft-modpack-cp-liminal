@@ -144,8 +144,16 @@
     "power-type:fe",
     "fuel:solid",
     "needs:none",
-    "scale:tiered"
-   ]
+    "scale:tiered",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "6.2.10",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "powah:magmator_<tier>",
@@ -206,8 +214,16 @@
     "power-type:fe",
     "fuel:liquid",
     "needs:none",
-    "scale:tiered"
-   ]
+    "scale:tiered",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "6.2.10",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "powah:solar_panel_<tier>",
@@ -267,8 +283,16 @@
     "power-type:fe",
     "fuel:sun",
     "needs:sun",
-    "scale:tiered"
-   ]
+    "scale:tiered",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "6.2.10",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "powah:thermo_generator_<tier>",
@@ -330,8 +354,16 @@
     "power-type:heat",
     "fuel:liquid",
     "needs:water",
-    "scale:tiered"
-   ]
+    "scale:tiered",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "6.2.10",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "powah:reactor_<tier>",
@@ -393,7 +425,8 @@
     "power-type:heat",
     "fuel:nuclear",
     "needs:ore",
-    "scale:tiered"
+    "scale:tiered",
+    "review:checked"
    ],
    "scaling": {
     "model": "tiered",
@@ -401,6 +434,13 @@
     "formula": "fixed layout: core plus parts placed around it (Builder.getPosList); no size variable found. Output comes from the tier's generation rate, fuel temperature and coolant",
     "source": "owmii/powah/block/reactor/Builder.java, ReactorTile.java:178",
     "note": "Bigger is a higher tier, not a bigger structure"
+   },
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "6.2.10",
+    "pass": "first",
+    "note": "hand-tagged from source"
    }
   },
   {
@@ -448,8 +488,16 @@
     "power-role:stores",
     "power-type:fe",
     "needs:none",
-    "scale:tiered"
-   ]
+    "scale:tiered",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "6.2.10",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "powah:battery_<tier>",
@@ -495,8 +543,16 @@
     "power-role:stores",
     "power-type:fe",
     "needs:none",
-    "scale:tiered"
-   ]
+    "scale:tiered",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "6.2.10",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "powah:energy_cable_<tier>",
@@ -533,8 +589,16 @@
     "power-role:transfers",
     "power-type:fe",
     "needs:none",
-    "scale:tiered"
-   ]
+    "scale:tiered",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "6.2.10",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "powah:ender_cell_<tier>, powah:ender_gate_<tier>",
@@ -562,8 +626,16 @@
     "power-role:stores",
     "power-type:fe",
     "needs:none",
-    "scale:tiered"
-   ]
+    "scale:tiered",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "6.2.10",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "powah:player_transmitter_<tier>, powah:energy_hopper_<tier>, powah:energy_discharger_<tier>",
@@ -590,8 +662,16 @@
     "power-role:transfers",
     "power-type:fe",
     "needs:none",
-    "scale:tiered"
-   ]
+    "scale:tiered",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "6.2.10",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "powah:energizing_rod_<tier>, powah:energizing_orb",
@@ -638,8 +718,16 @@
     "power-role:uses",
     "power-type:fe",
     "needs:none",
-    "scale:tiered"
-   ]
+    "scale:tiered",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "6.2.10",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "powah:wrench",
@@ -656,8 +744,16 @@
     "power-role:none",
     "power-type:none",
     "needs:none",
-    "scale:fixed"
-   ]
+    "scale:fixed",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "6.2.10",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "powah:charged_snowball",
@@ -674,8 +770,16 @@
     "power-role:none",
     "power-type:none",
     "needs:none",
-    "scale:fixed"
-   ]
+    "scale:fixed",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "6.2.10",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   },
   {
    "id": "powah:binding_card, powah:binding_card_dim",
@@ -692,8 +796,16 @@
     "power-role:transfers",
     "power-type:fe",
     "needs:none",
-    "scale:fixed"
-   ]
+    "scale:fixed",
+    "review:checked"
+   ],
+   "review": {
+    "status": "checked",
+    "date": "2026-09-30",
+    "mod_version": "6.2.10",
+    "pass": "first",
+    "note": "hand-tagged from source"
+   }
   }
  ],
  "starter_path": {

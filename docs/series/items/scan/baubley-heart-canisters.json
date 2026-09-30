@@ -12,101 +12,137 @@
   "bhc:red_heart": {
    "kind": "item",
    "name": "Miniature Red Heart",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "bhc:yellow_heart": {
    "kind": "item",
    "name": "Miniature Yellow Heart",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "bhc:green_heart": {
    "kind": "item",
    "name": "Miniature Green Heart",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "bhc:blue_heart": {
    "kind": "item",
    "name": "Miniature Blue Heart",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "bhc:canister": {
    "kind": "item",
    "name": "Canister",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "bhc:red_heart_canister": {
    "kind": "item",
    "name": "Red Heart Canister",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "bhc:yellow_heart_canister": {
    "kind": "item",
    "name": "Yellow Heart Canister",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "bhc:green_heart_canister": {
    "kind": "item",
    "name": "Green Heart Canister",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "bhc:blue_heart_canister": {
    "kind": "item",
    "name": "Blue Heart Canister",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "bhc:soul_heart_canister": {
    "kind": "item",
    "name": "Soul Heart Canister",
    "tags": [
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "bhc:red_heart_melted": {
    "kind": "item",
    "name": "Melted Red Heart",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "bhc:yellow_heart_melted": {
    "kind": "item",
    "name": "Melted Yellow Heart",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "bhc:green_heart_melted": {
    "kind": "item",
    "name": "Melted Green Heart",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "bhc:blue_heart_melted": {
    "kind": "item",
    "name": "Melted Blue Heart",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "bhc:red_heart_patch": {
    "kind": "item",
    "name": "Red Health Patch",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "bhc:yellow_heart_patch": {
    "kind": "item",
    "name": "Yellow Health Patch",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "bhc:green_heart_patch": {
    "kind": "item",
    "name": "Green Health Patch",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "bhc:blue_heart_patch": {
    "kind": "item",
    "name": "Blue Health Patch",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "bhc:red_heartpulse_belt": {
    "kind": "item",
    "name": "Red Heartpulse Belt",
    "tags": [
     "function:transfer",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "bhc:yellow_heartpulse_belt": {
@@ -114,7 +150,8 @@
    "name": "Yellow Heartpulse Belt",
    "tags": [
     "function:transfer",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "bhc:green_heartpulse_belt": {
@@ -122,7 +159,8 @@
    "name": "Green Heartpulse Belt",
    "tags": [
     "function:transfer",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "bhc:blue_heartpulse_belt": {
@@ -130,28 +168,32 @@
    "name": "Blue Heartpulse Belt",
    "tags": [
     "function:transfer",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "bhc:wither_bone": {
    "kind": "item",
    "name": "Wither Bone",
    "tags": [
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "bhc:relic_apple": {
    "kind": "item",
    "name": "Relic Apple",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "bhc:heart_amulet": {
    "kind": "item",
    "name": "Heart Amulet",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "bhc:soul_heart_crystal": {
@@ -159,7 +201,8 @@
    "name": "Soul Heart Crystal",
    "tags": [
     "kind:material",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "bhc:blade_of_vitality": {
@@ -167,7 +210,8 @@
    "name": "Vitality Blade",
    "tags": [
     "kind:weapon",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "bhc:soul_heart_amulet": {
@@ -175,7 +219,8 @@
    "name": "Soul Amulet",
    "tags": [
     "kind:gadget",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "bhc:vigor_bow": {
@@ -183,30 +228,36 @@
    "name": "Vigor Bow",
    "tags": [
     "kind:weapon",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "bhc:passive_mobs": {
    "kind": "entity",
    "name": "Passive Mobs",
    "tags": [
-    "kind:mob"
+    "kind:mob",
+    "review:auto"
    ]
   },
   "bhc:hostile_mobs": {
    "kind": "entity",
    "name": "Hostile Mobs",
    "tags": [
-    "kind:mob"
+    "kind:mob",
+    "review:auto"
    ]
   },
   "bhc:boss_mobs": {
    "kind": "entity",
    "name": "Boss Mobs",
    "tags": [
-    "kind:mob"
+    "kind:mob",
+    "review:auto"
    ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21-neoforge"
 }

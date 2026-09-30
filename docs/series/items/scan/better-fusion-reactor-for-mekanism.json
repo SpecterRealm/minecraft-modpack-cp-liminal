@@ -24,7 +24,8 @@
    "tags": [
     "function:generate",
     "power-role:makes",
-    "kind:multiblock"
+    "kind:multiblock",
+    "review:auto"
    ]
   },
   "bfr:fusion_reactor_frame": {
@@ -33,7 +34,8 @@
    "tags": [
     "function:generate",
     "power-role:makes",
-    "kind:multiblock"
+    "kind:multiblock",
+    "review:auto"
    ]
   },
   "bfr:fusion_reactor_logic_adapter": {
@@ -42,7 +44,8 @@
    "tags": [
     "function:generate",
     "power-role:makes",
-    "kind:multiblock"
+    "kind:multiblock",
+    "review:auto"
    ]
   },
   "bfr:fusion_reactor_port": {
@@ -51,7 +54,8 @@
    "tags": [
     "function:generate",
     "power-role:makes",
-    "kind:multiblock"
+    "kind:multiblock",
+    "review:auto"
    ]
   },
   "bfr:irradiated_copper_ore": {
@@ -59,7 +63,8 @@
    "name": "Irradiated Copper Ore",
    "tags": [
     "needs:ore",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "bfr:irradiated_gold_ore": {
@@ -67,7 +72,8 @@
    "name": "Irradiated Gold Ore",
    "tags": [
     "needs:ore",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "bfr:irradiated_iron_ore": {
@@ -75,7 +81,8 @@
    "name": "Irradiated Iron Ore",
    "tags": [
     "needs:ore",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "bfr:irradiated_lead_ore": {
@@ -83,7 +90,8 @@
    "name": "Irradiated Lead Ore",
    "tags": [
     "needs:ore",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "bfr:irradiated_osmium_ore": {
@@ -91,7 +99,8 @@
    "name": "Irradiated Osmium Ore",
    "tags": [
     "needs:ore",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "bfr:irradiated_tin_ore": {
@@ -99,7 +108,8 @@
    "name": "Irradiated Tin Ore",
    "tags": [
     "needs:ore",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "bfr:irradiated_uranium_ore": {
@@ -107,14 +117,16 @@
    "name": "Irradiated Uranium Ore",
    "tags": [
     "needs:ore",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "bfr:irradiator": {
    "kind": "block",
    "name": "Irradiator",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "bfr:laser_focus_matrix": {
@@ -122,14 +134,19 @@
    "name": "Laser Focus Matrix",
    "tags": [
     "kind:tool",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "bfr:solidified_waste": {
    "kind": "item",
    "name": "Solidified Nuclear Waste",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21x"
 }

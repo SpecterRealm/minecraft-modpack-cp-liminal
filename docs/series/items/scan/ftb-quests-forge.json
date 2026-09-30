@@ -19,186 +19,242 @@
   "ftbquests:screen.missing_data": {
    "kind": "block",
    "name": "Broken Block / Missing Data!",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:aux_task_screen": {
    "kind": "block",
    "name": "Task Screen",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ftbquests:screen_1": {
    "kind": "block",
    "name": "Task Screen (1x1)",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ftbquests:screen_3": {
    "kind": "block",
    "name": "Task Screen (3x3)",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ftbquests:screen_5": {
    "kind": "block",
    "name": "Task Screen (5x5)",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ftbquests:screen_7": {
    "kind": "block",
    "name": "Task Screen (7x7)",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ftbquests:screen.task_index": {
    "kind": "block",
    "name": "Task Index",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:screen.size": {
    "kind": "block",
    "name": "Size",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:screen.skin": {
    "kind": "block",
    "name": "Skin",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:screen.indestructible": {
    "kind": "block",
    "name": "Indestructible",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:screen.input_only": {
    "kind": "block",
    "name": "Input Only",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:screen.input_mode_icon": {
    "kind": "block",
    "name": "Input Mode Icon",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:screen.text_shadow": {
    "kind": "block",
    "name": "Draw Text Shadows",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:screen.fullscreen": {
    "kind": "block",
    "name": "Fullscreen",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:screen.hide_icons": {
    "kind": "block",
    "name": "Hide Icons",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:screen.no_permission": {
    "kind": "block",
    "name": "You don't have permission to configure this!",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:progress_detector": {
    "kind": "block",
    "name": "Quest Progress Detector",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ftbquests:progress_detector.object": {
    "kind": "block",
    "name": "Object ID",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:progress_detector.level": {
    "kind": "block",
    "name": "Output Level",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:barrier": {
    "kind": "block",
    "name": "Quest Barrier",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ftbquests:stage_barrier": {
    "kind": "block",
    "name": "Stage Barrier",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ftbquests:barrier.object": {
    "kind": "block",
    "name": "Object ID",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:barrier.invis_when_open": {
    "kind": "item",
    "name": "Invisible when open: %s",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:detector": {
    "kind": "block",
    "name": "Quest Detector",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ftbquests:detector.task": {
    "kind": "block",
    "name": "Task",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:detector.notifications": {
    "kind": "block",
    "name": "Notifications",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:detector.redstone": {
    "kind": "block",
    "name": "Redstone Detector",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:detector.redstone.required_redstone": {
    "kind": "block",
    "name": "Required Redstone Level",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:detector.player": {
    "kind": "block",
    "name": "Player Detector",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:detector.player.radius": {
    "kind": "block",
    "name": "Radius",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:detector.player.offset_y": {
    "kind": "block",
    "name": "Offset Y",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:detector.player.height": {
    "kind": "block",
    "name": "Height",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:progress_screen": {
    "kind": "block",
    "name": "Progress Screen",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "ftbquests:chest": {
@@ -206,30 +262,38 @@
    "name": "Quest Chest",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "ftbquests:chest.transfer_all": {
    "kind": "block",
    "name": "Auto-Transfer All Items",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:chest.input": {
    "kind": "block",
    "name": "Input Slot",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:chest.output": {
    "kind": "block",
    "name": "Output Slot",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:loot_crate_storage": {
    "kind": "block",
    "name": "Loot Crate Storage",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "ftbquests:loot_crate_opener": {
@@ -237,57 +301,77 @@
    "name": "Loot Crate Opener",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "ftbquests:loot_crate_opener.rightclick": {
    "kind": "block",
    "name": "Stored items: %d",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:missing_item": {
    "kind": "item",
    "name": "Missing Item",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:barrier.rightclick": {
    "kind": "item",
    "name": "Right-click to configure settings\nMiddle-click to pick a copy, including settings",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:barrier.object.quest_barrier": {
    "kind": "item",
    "name": "Configured Quest: %s",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:barrier.object.stage_barrier": {
    "kind": "item",
    "name": "Configured Stage: %s",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:barrier.skin": {
    "kind": "item",
    "name": "Appears As: %s",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:lootcrate": {
    "kind": "item",
    "name": "Loot Crate",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "ftbquests:lootcrate.missing": {
    "kind": "item",
    "name": "ERROR: unknown loot crate '%s'!",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "ftbquests:custom_icon": {
    "kind": "item",
    "name": "Custom Icon",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "v2101.1.24"
 }

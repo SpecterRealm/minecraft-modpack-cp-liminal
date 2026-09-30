@@ -19,13 +19,19 @@
   "minecraft:villager.none": {
    "kind": "entity",
    "name": "Unemployed",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "minecraft:villager.nitwit": {
    "kind": "entity",
    "name": "Nitwit",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "fabric-15.10.5"
 }

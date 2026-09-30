@@ -151,7 +151,8 @@
    "kind": "block",
    "name": "Acacia Nest",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:bamboo_hive": {
@@ -159,28 +160,32 @@
    "name": "Bamboo Nest",
    "tags": [
     "function:farm",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:birch_wood_nest": {
    "kind": "block",
    "name": "Birch Nest",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:bottler": {
    "kind": "block",
    "name": "Bottler",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:breeding_chamber": {
    "kind": "block",
    "name": "Breeding Chamber",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:bumble_bee_nest": {
@@ -188,14 +193,16 @@
    "name": "Bumble Bee Nest",
    "tags": [
     "function:farm",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:catcher": {
    "kind": "block",
    "name": "Catcher",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:centrifuge": {
@@ -203,14 +210,16 @@
    "name": "Centrifuge",
    "tags": [
     "kind:machine",
-    "function:process"
+    "function:process",
+    "review:auto"
    ]
   },
   "productivebees:coarse_dirt_nest": {
    "kind": "block",
    "name": "Dirt Nest",
    "tags": [
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "productivebees:comb_ghostly": {
@@ -218,7 +227,8 @@
    "name": "Ghostly Comb Block",
    "tags": [
     "function:farm",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:comb_milky": {
@@ -226,7 +236,8 @@
    "name": "Milky Comb Block",
    "tags": [
     "function:farm",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:comb_powdery": {
@@ -234,14 +245,16 @@
    "name": "Powdery Comb Block",
    "tags": [
     "function:farm",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:cryo_stasis": {
    "kind": "block",
    "name": "Cryo Stasis",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:crimson_bee_nest": {
@@ -250,14 +263,16 @@
    "tags": [
     "function:farm",
     "needs:nether",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:dark_oak_wood_nest": {
    "kind": "block",
    "name": "Dark Oak Nest",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:dragon_egg_hive": {
@@ -266,7 +281,8 @@
    "tags": [
     "kind:food",
     "function:farm",
-    "needs:end"
+    "needs:end",
+    "review:auto"
    ]
   },
   "productivebees:end_stone_nest": {
@@ -274,28 +290,32 @@
    "name": "End Stone Nest",
    "tags": [
     "needs:end",
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "productivebees:feeder": {
    "kind": "block",
    "name": "Feeding Slab",
    "tags": [
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "productivebees:feeder_double": {
    "kind": "block",
    "name": "Double Feeding Slab",
    "tags": [
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "productivebees:gene_indexer": {
    "kind": "block",
    "name": "Gene Indexer",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:glowstone_nest": {
@@ -303,14 +323,16 @@
    "name": "Glowstone Nest",
    "tags": [
     "function:light",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:gravel_nest": {
    "kind": "block",
    "name": "Gravel Nest",
    "tags": [
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "productivebees:heated_centrifuge": {
@@ -318,7 +340,8 @@
    "name": "Heated Centrifuge",
    "tags": [
     "kind:machine",
-    "function:process"
+    "function:process",
+    "review:auto"
    ]
   },
   "productivebees:honey_generator": {
@@ -327,7 +350,8 @@
    "tags": [
     "kind:food",
     "function:generate",
-    "power-role:makes"
+    "power-role:makes",
+    "review:auto"
    ]
   },
   "productivebees:inactive_dragon_egg": {
@@ -335,7 +359,8 @@
    "name": "Inactive Dragon Egg",
    "tags": [
     "kind:food",
-    "needs:end"
+    "needs:end",
+    "review:auto"
    ]
   },
   "productivebees:incubator": {
@@ -343,7 +368,8 @@
    "name": "BaBee Incubator",
    "tags": [
     "kind:machine",
-    "function:process"
+    "function:process",
+    "review:auto"
    ]
   },
   "productivebees:jar_oak": {
@@ -352,28 +378,32 @@
    "tags": [
     "function:store",
     "function:farm",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:jungle_wood_nest": {
    "kind": "block",
    "name": "Jungle Nest",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:cherry_wood_nest": {
    "kind": "block",
    "name": "Cherry Nest",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:mangrove_wood_nest": {
    "kind": "block",
    "name": "Mangrove Nest",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:nether_brick_nest": {
@@ -381,7 +411,8 @@
    "name": "Nether Brick Nest",
    "tags": [
     "needs:nether",
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "productivebees:nether_gold_nest": {
@@ -389,7 +420,8 @@
    "name": "Nether Gold Nest",
    "tags": [
     "needs:nether",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:nether_quartz_nest": {
@@ -397,21 +429,24 @@
    "name": "Quartz Nest",
    "tags": [
     "needs:nether",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:oak_wood_nest": {
    "kind": "block",
    "name": "Oak Nest",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:obsidian_nest": {
    "kind": "block",
    "name": "Obsidian Nest",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:powered_centrifuge": {
@@ -419,7 +454,8 @@
    "name": "Powered Centrifuge",
    "tags": [
     "kind:machine",
-    "function:process"
+    "function:process",
+    "review:auto"
    ]
   },
   "productivebees:purple_hopper": {
@@ -427,35 +463,40 @@
    "name": "Purple Hopper",
    "tags": [
     "function:transfer",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:quartz_netherrack": {
    "kind": "block",
    "name": "Quartz in Netherrack",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:sand_nest": {
    "kind": "block",
    "name": "Sand Nest",
    "tags": [
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "productivebees:slimy_nest": {
    "kind": "block",
    "name": "Slimy Nest",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:snow_nest": {
    "kind": "block",
    "name": "Snow Nest",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:soul_sand_nest": {
@@ -463,42 +504,48 @@
    "name": "Soul Sand Nest",
    "tags": [
     "needs:nether",
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "productivebees:spruce_wood_nest": {
    "kind": "block",
    "name": "Spruce Nest",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:stone_nest": {
    "kind": "block",
    "name": "Stone Nest",
    "tags": [
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "productivebees:sugar_cane_nest": {
    "kind": "block",
    "name": "Reed Nest",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:sugarbag_nest": {
    "kind": "block",
    "name": "Sugarbag Nest",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:wax_block": {
    "kind": "block",
    "name": "Wax Block",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:warped_bee_nest": {
@@ -507,14 +554,16 @@
    "tags": [
     "function:farm",
     "needs:nether",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_ebony_beehive": {
    "kind": "block",
    "name": "Advanced Ebony Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_ebony": {
@@ -522,14 +571,16 @@
    "name": "Ebony Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_witch_hazel_beehive": {
    "kind": "block",
    "name": "Advanced Witch Hazel Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_witch_hazel": {
@@ -537,14 +588,16 @@
    "name": "Witch Hazel Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_skyris_beehive": {
    "kind": "block",
    "name": "Advanced Skyris Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_skyris": {
@@ -552,14 +605,16 @@
    "name": "Skyris Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_ether_beehive": {
    "kind": "block",
    "name": "Advanced Ether Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_ether": {
@@ -567,14 +622,16 @@
    "name": "Ether Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_pine_beehive": {
    "kind": "block",
    "name": "Advanced Pine Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_pine": {
@@ -582,14 +639,16 @@
    "name": "Pine Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_zelkova_beehive": {
    "kind": "block",
    "name": "Advanced Zelkova Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_zelkova": {
@@ -597,14 +656,16 @@
    "name": "Zelkova Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_lament_beehive": {
    "kind": "block",
    "name": "Advanced Lament Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_lament": {
@@ -612,14 +673,16 @@
    "name": "Lament Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_palm_beehive": {
    "kind": "block",
    "name": "Advanced Palm Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_palm": {
@@ -627,14 +690,16 @@
    "name": "Palm Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_sythian_beehive": {
    "kind": "block",
    "name": "Advanced Sythian Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_sythian": {
@@ -642,14 +707,16 @@
    "name": "Sythian Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_jacaranda_beehive": {
    "kind": "block",
    "name": "Advanced Jacaranda Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_jacaranda": {
@@ -657,14 +724,16 @@
    "name": "Jacaranda Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_fir_beehive": {
    "kind": "block",
    "name": "Advanced Fir Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_fir": {
@@ -672,14 +741,16 @@
    "name": "Fir Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_cika_beehive": {
    "kind": "block",
    "name": "Advanced Cika Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_cika": {
@@ -687,14 +758,16 @@
    "name": "Cika Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_embur_beehive": {
    "kind": "block",
    "name": "Advanced Embur Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_embur": {
@@ -702,14 +775,16 @@
    "name": "Embur Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_green_enchanted_beehive": {
    "kind": "block",
    "name": "Advanced Green Enchanted Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_green_enchanted": {
@@ -717,14 +792,16 @@
    "name": "Green Enchanted Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_mahogany_beehive": {
    "kind": "block",
    "name": "Advanced Mahogany Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_mahogany": {
@@ -732,14 +809,16 @@
    "name": "Mahogany Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_redwood_beehive": {
    "kind": "block",
    "name": "Advanced Redwood Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_redwood": {
@@ -747,14 +826,16 @@
    "name": "Redwood Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_imparius_beehive": {
    "kind": "block",
    "name": "Advanced Imparius Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_imparius": {
@@ -762,14 +843,16 @@
    "name": "Imparius Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_aspen_beehive": {
    "kind": "block",
    "name": "Advanced Aspen Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_aspen": {
@@ -777,14 +860,16 @@
    "name": "Aspen Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_bulbis_beehive": {
    "kind": "block",
    "name": "Advanced Bulbis Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_bulbis": {
@@ -792,14 +877,16 @@
    "name": "Bulbis Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_nightshade_beehive": {
    "kind": "block",
    "name": "Advanced Nightshade Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_nightshade": {
@@ -807,14 +894,16 @@
    "name": "Nightshade Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_white_mangrove_beehive": {
    "kind": "block",
    "name": "Advanced White Mangrove Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_white_mangrove": {
@@ -822,14 +911,16 @@
    "name": "White Mangrove Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_cypress_beehive": {
    "kind": "block",
    "name": "Advanced Cypress Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_cypress": {
@@ -837,14 +928,16 @@
    "name": "Cypress Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_willow_beehive": {
    "kind": "block",
    "name": "Advanced Willow Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_willow": {
@@ -852,14 +945,16 @@
    "name": "Willow Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_blue_enchanted_beehive": {
    "kind": "block",
    "name": "Advanced Blue Enchanted Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_blue_enchanted": {
@@ -867,14 +962,16 @@
    "name": "Blue Enchanted Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_baobab_beehive": {
    "kind": "block",
    "name": "Advanced Baobab Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_baobab": {
@@ -882,14 +979,16 @@
    "name": "Baobab Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_maple_beehive": {
    "kind": "block",
    "name": "Advanced Maple Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_maple": {
@@ -897,14 +996,16 @@
    "name": "Maple Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_byg_holly_beehive": {
    "kind": "block",
    "name": "Advanced Holly Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_byg_holly": {
@@ -912,14 +1013,16 @@
    "name": "Holly Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_environmental_wisteria_beehive": {
    "kind": "block",
    "name": "Advanced Wisteria Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_environmental_wisteria": {
@@ -927,14 +1030,16 @@
    "name": "Wisteria Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_atmospheric_rosewood_beehive": {
    "kind": "block",
    "name": "Advanced Rosewood Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_atmospheric_rosewood": {
@@ -942,14 +1047,16 @@
    "name": "Rosewood Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_atmospheric_kousa_beehive": {
    "kind": "block",
    "name": "Advanced Kousa Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_atmospheric_kousa": {
@@ -957,14 +1064,16 @@
    "name": "Kousa Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_atmospheric_grimwood_beehive": {
    "kind": "block",
    "name": "Advanced Grimwood Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_atmospheric_grimwood": {
@@ -972,14 +1081,16 @@
    "name": "Grimwood Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_atmospheric_yucca_beehive": {
    "kind": "block",
    "name": "Advanced Yucca Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_atmospheric_yucca": {
@@ -987,14 +1098,16 @@
    "name": "Yucca Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_atmospheric_aspen_beehive": {
    "kind": "block",
    "name": "Advanced Aspen Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_atmospheric_aspen": {
@@ -1002,14 +1115,16 @@
    "name": "Aspen Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_atmospheric_morado_beehive": {
    "kind": "block",
    "name": "Advanced Morado Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_atmospheric_morado": {
@@ -1017,14 +1132,16 @@
    "name": "Morado Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_upgrade_aquatic_river_beehive": {
    "kind": "block",
    "name": "Advanced River Beehive",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_upgrade_aquatic_river": {
@@ -1033,14 +1150,16 @@
    "tags": [
     "function:store",
     "kind:storage",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "productivebees:advanced_upgrade_aquatic_driftwood_beehive": {
    "kind": "block",
    "name": "Advanced Driftwood Beehive",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_upgrade_aquatic_driftwood": {
@@ -1049,14 +1168,16 @@
    "tags": [
     "function:store",
     "kind:storage",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "productivebees:advanced_regions_unexplored_pine_beehive": {
    "kind": "block",
    "name": "Advanced Pine Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_regions_unexplored_pine": {
@@ -1064,14 +1185,16 @@
    "name": "Pine Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_regions_unexplored_palm_beehive": {
    "kind": "block",
    "name": "Advanced Palm Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_regions_unexplored_palm": {
@@ -1079,14 +1202,16 @@
    "name": "Palm Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_regions_unexplored_redwood_beehive": {
    "kind": "block",
    "name": "Advanced Redwood Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_regions_unexplored_redwood": {
@@ -1094,14 +1219,16 @@
    "name": "Redwood Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_regions_unexplored_socotra_beehive": {
    "kind": "block",
    "name": "Advanced Socotra Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_regions_unexplored_socotra": {
@@ -1109,14 +1236,16 @@
    "name": "Socotra Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_regions_unexplored_eucalyptus_beehive": {
    "kind": "block",
    "name": "Advanced Eucalyptus Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_regions_unexplored_eucalyptus": {
@@ -1124,14 +1253,16 @@
    "name": "Eucalyptus Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_regions_unexplored_kapok_beehive": {
    "kind": "block",
    "name": "Advanced Kapok Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_regions_unexplored_kapok": {
@@ -1139,14 +1270,16 @@
    "name": "Kapok Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_regions_unexplored_cobalt_beehive": {
    "kind": "block",
    "name": "Advanced Cobalt Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_regions_unexplored_cobalt": {
@@ -1154,14 +1287,16 @@
    "name": "Cobalt Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_regions_unexplored_dead_beehive": {
    "kind": "block",
    "name": "Advanced Dead Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_regions_unexplored_dead": {
@@ -1169,14 +1304,16 @@
    "name": "Dead Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_regions_unexplored_cypress_beehive": {
    "kind": "block",
    "name": "Advanced Cypress Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_regions_unexplored_cypress": {
@@ -1184,14 +1321,16 @@
    "name": "Cypress Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_regions_unexplored_pink_bioshroom_beehive": {
    "kind": "block",
    "name": "Advanced Pink Bioshroom Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_regions_unexplored_pink_bioshroom": {
@@ -1199,14 +1338,16 @@
    "name": "Pink Bioshroom Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_regions_unexplored_magnolia_beehive": {
    "kind": "block",
    "name": "Advanced Magnolia Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_regions_unexplored_magnolia": {
@@ -1214,14 +1355,16 @@
    "name": "Magnolia Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_regions_unexplored_willow_beehive": {
    "kind": "block",
    "name": "Advanced Willow Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_regions_unexplored_willow": {
@@ -1229,14 +1372,16 @@
    "name": "Willow Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_regions_unexplored_yellow_bioshroom_beehive": {
    "kind": "block",
    "name": "Advanced Yellow Bioshroom Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_regions_unexplored_yellow_bioshroom": {
@@ -1244,14 +1389,16 @@
    "name": "Yellow Bioshroom Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_regions_unexplored_blue_bioshroom_beehive": {
    "kind": "block",
    "name": "Advanced Blue Bioshroom Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_regions_unexplored_blue_bioshroom": {
@@ -1259,14 +1406,16 @@
    "name": "Blue Bioshroom Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_regions_unexplored_blackwood_beehive": {
    "kind": "block",
    "name": "Advanced Blackwood Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_regions_unexplored_blackwood": {
@@ -1274,14 +1423,16 @@
    "name": "Blackwood Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_regions_unexplored_joshua_beehive": {
    "kind": "block",
    "name": "Advanced Joshua Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_regions_unexplored_joshua": {
@@ -1289,14 +1440,16 @@
    "name": "Joshua Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_regions_unexplored_baobab_beehive": {
    "kind": "block",
    "name": "Advanced Baobab Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_regions_unexplored_baobab": {
@@ -1304,14 +1457,16 @@
    "name": "Baobab Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_regions_unexplored_maple_beehive": {
    "kind": "block",
    "name": "Advanced Maple Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_regions_unexplored_maple": {
@@ -1319,14 +1474,16 @@
    "name": "Maple Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_regions_unexplored_alpha_oak_beehive": {
    "kind": "block",
    "name": "Advanced Alpha Oak Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_regions_unexplored_alpha_oak": {
@@ -1334,14 +1491,16 @@
    "name": "Alpha Oak Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_regions_unexplored_green_bioshroom_beehive": {
    "kind": "block",
    "name": "Advanced Green Bioshroom Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_regions_unexplored_green_bioshroom": {
@@ -1349,14 +1508,16 @@
    "name": "Green Bioshroom Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_regions_unexplored_larch_beehive": {
    "kind": "block",
    "name": "Advanced Larch Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_regions_unexplored_larch": {
@@ -1364,14 +1525,16 @@
    "name": "Larch Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_regions_unexplored_mauve_beehive": {
    "kind": "block",
    "name": "Advanced Mauve Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_regions_unexplored_mauve": {
@@ -1379,14 +1542,16 @@
    "name": "Mauve Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_endergetic_poise_beehive": {
    "kind": "block",
    "name": "Advanced Poise Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_endergetic_poise": {
@@ -1394,14 +1559,16 @@
    "name": "Poise Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_biomesoplenty_magic_beehive": {
    "kind": "block",
    "name": "Advanced Magic Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_biomesoplenty_magic": {
@@ -1409,14 +1576,16 @@
    "name": "Magic Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_biomesoplenty_umbran_beehive": {
    "kind": "block",
    "name": "Advanced Umbran Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_biomesoplenty_umbran": {
@@ -1424,14 +1593,16 @@
    "name": "Umbran Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_biomesoplenty_mahogany_beehive": {
    "kind": "block",
    "name": "Advanced Mahogany Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_biomesoplenty_mahogany": {
@@ -1439,14 +1610,16 @@
    "name": "Mahogany Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_biomesoplenty_willow_beehive": {
    "kind": "block",
    "name": "Advanced Willow Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_biomesoplenty_willow": {
@@ -1454,14 +1627,16 @@
    "name": "Willow Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_biomesoplenty_redwood_beehive": {
    "kind": "block",
    "name": "Advanced Redwood Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_biomesoplenty_redwood": {
@@ -1469,14 +1644,16 @@
    "name": "Redwood Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_biomesoplenty_palm_beehive": {
    "kind": "block",
    "name": "Advanced Palm Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_biomesoplenty_palm": {
@@ -1484,14 +1661,16 @@
    "name": "Palm Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_biomesoplenty_dead_beehive": {
    "kind": "block",
    "name": "Advanced Dead Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_biomesoplenty_dead": {
@@ -1499,14 +1678,16 @@
    "name": "Dead Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_biomesoplenty_jacaranda_beehive": {
    "kind": "block",
    "name": "Advanced Jacaranda Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_biomesoplenty_jacaranda": {
@@ -1514,14 +1695,16 @@
    "name": "Jacaranda Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_biomesoplenty_fir_beehive": {
    "kind": "block",
    "name": "Advanced Fir Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_biomesoplenty_fir": {
@@ -1529,14 +1712,16 @@
    "name": "Fir Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_biomesoplenty_hellbark_beehive": {
    "kind": "block",
    "name": "Advanced Hellbark Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_biomesoplenty_hellbark": {
@@ -1544,14 +1729,16 @@
    "name": "Hellbark Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_quark_blossom_beehive": {
    "kind": "block",
    "name": "Advanced Blossom Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_quark_blossom": {
@@ -1559,14 +1746,16 @@
    "name": "Blossom Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_quark_azalea_beehive": {
    "kind": "block",
    "name": "Advanced Azalea Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_quark_azalea": {
@@ -1574,14 +1763,16 @@
    "name": "Azalea Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_autumnity_maple_beehive": {
    "kind": "block",
    "name": "Advanced Maple Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_autumnity_maple": {
@@ -1589,14 +1780,16 @@
    "name": "Maple Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_bamboo_beehive": {
    "kind": "block",
    "name": "Advanced Bamboo Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_bamboo": {
@@ -1604,14 +1797,16 @@
    "name": "Bamboo Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_cherry_beehive": {
    "kind": "block",
    "name": "Advanced Cherry Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_cherry": {
@@ -1619,7 +1814,8 @@
    "name": "Cherry Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_crimson_beehive": {
@@ -1627,7 +1823,8 @@
    "name": "Advanced Crimson Beehive",
    "tags": [
     "needs:nether",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_crimson": {
@@ -1636,14 +1833,16 @@
    "tags": [
     "function:store",
     "kind:storage",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "productivebees:advanced_birch_beehive": {
    "kind": "block",
    "name": "Advanced Birch Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_birch": {
@@ -1651,14 +1850,16 @@
    "name": "Birch Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_oak_beehive": {
    "kind": "block",
    "name": "Advanced Oak Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_oak": {
@@ -1666,14 +1867,16 @@
    "name": "Oak Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_acacia_beehive": {
    "kind": "block",
    "name": "Advanced Acacia Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_acacia": {
@@ -1681,7 +1884,8 @@
    "name": "Acacia Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_warped_beehive": {
@@ -1689,7 +1893,8 @@
    "name": "Advanced Warped Beehive",
    "tags": [
     "needs:nether",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_warped": {
@@ -1698,14 +1903,16 @@
    "tags": [
     "function:store",
     "kind:storage",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "productivebees:advanced_jungle_beehive": {
    "kind": "block",
    "name": "Advanced Jungle Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_jungle": {
@@ -1713,14 +1920,16 @@
    "name": "Jungle Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_dark_oak_beehive": {
    "kind": "block",
    "name": "Advanced Dark Oak Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_dark_oak": {
@@ -1728,14 +1937,16 @@
    "name": "Dark Oak Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_mangrove_beehive": {
    "kind": "block",
    "name": "Advanced Mangrove Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_mangrove": {
@@ -1743,14 +1954,16 @@
    "name": "Mangrove Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_snake_block_beehive": {
    "kind": "block",
    "name": "Advanced Snake Block Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_snake_block": {
@@ -1758,14 +1971,16 @@
    "name": "Snake Block Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_spruce_beehive": {
    "kind": "block",
    "name": "Advanced Spruce Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_spruce": {
@@ -1773,14 +1988,16 @@
    "name": "Spruce Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_acacia_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_acacia_canvas": {
@@ -1788,14 +2005,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_aspen_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_aspen_canvas": {
@@ -1803,14 +2022,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_bamboo_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_bamboo_canvas": {
@@ -1818,14 +2039,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_birch_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_birch_canvas": {
@@ -1833,14 +2056,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_cherry_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_cherry_canvas": {
@@ -1848,14 +2073,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_concrete_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_concrete_canvas": {
@@ -1863,7 +2090,8 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_comb_canvas_beehive": {
@@ -1871,7 +2099,8 @@
    "name": "Advanced Canvas Beehive",
    "tags": [
     "function:farm",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_comb_canvas": {
@@ -1880,7 +2109,8 @@
    "tags": [
     "function:store",
     "kind:storage",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:advanced_crimson_canvas_beehive": {
@@ -1888,7 +2118,8 @@
    "name": "Advanced Canvas Beehive",
    "tags": [
     "needs:nether",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_crimson_canvas": {
@@ -1897,14 +2128,16 @@
    "tags": [
     "function:store",
     "kind:storage",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "productivebees:advanced_dark_oak_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_dark_oak_canvas": {
@@ -1912,14 +2145,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_dead_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_dead_canvas": {
@@ -1927,14 +2162,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_driftwood_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_driftwood_canvas": {
@@ -1942,14 +2179,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_fir_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_fir_canvas": {
@@ -1957,14 +2196,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_grimwood_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_grimwood_canvas": {
@@ -1972,14 +2213,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_hellbark_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_hellbark_canvas": {
@@ -1987,14 +2230,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_jacaranda_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_jacaranda_canvas": {
@@ -2002,14 +2247,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_jungle_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_jungle_canvas": {
@@ -2017,14 +2264,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_kousa_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_kousa_canvas": {
@@ -2032,14 +2281,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_magic_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_magic_canvas": {
@@ -2047,14 +2298,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_mahogany_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_mahogany_canvas": {
@@ -2062,14 +2315,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_mangrove_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_mangrove_canvas": {
@@ -2077,14 +2332,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_maple_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_maple_canvas": {
@@ -2092,14 +2349,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_oak_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_oak_canvas": {
@@ -2107,14 +2366,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_palm_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_palm_canvas": {
@@ -2122,14 +2383,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_redwood_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_redwood_canvas": {
@@ -2137,14 +2400,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_river_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_river_canvas": {
@@ -2152,14 +2417,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_rosewood_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_rosewood_canvas": {
@@ -2167,14 +2434,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_snake_block_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_snake_block_canvas": {
@@ -2182,14 +2451,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_spruce_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_spruce_canvas": {
@@ -2197,14 +2468,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_umbran_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_umbran_canvas": {
@@ -2212,7 +2485,8 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_warped_canvas_beehive": {
@@ -2220,7 +2494,8 @@
    "name": "Advanced Canvas Beehive",
    "tags": [
     "needs:nether",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_warped_canvas": {
@@ -2229,14 +2504,16 @@
    "tags": [
     "function:store",
     "kind:storage",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "productivebees:advanced_willow_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_willow_canvas": {
@@ -2244,14 +2521,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_wisteria_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_wisteria_canvas": {
@@ -2259,14 +2538,16 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:advanced_yucca_canvas_beehive": {
    "kind": "block",
    "name": "Advanced Canvas Beehive",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "productivebees:expansion_box_yucca_canvas": {
@@ -2274,35 +2555,40 @@
    "name": "Canvas Expansion Box",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "productivebees:petrified_honey": {
    "kind": "block",
    "name": "Petrified Honey",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "productivebees:white_petrified_honey": {
    "kind": "block",
    "name": "White Petrified Honey",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "productivebees:black_petrified_honey": {
    "kind": "block",
    "name": "Black Petrified Honey",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "productivebees:gray_petrified_honey": {
    "kind": "block",
    "name": "Gray Petrified Honey",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "productivebees:light_gray_petrified_honey": {
@@ -2310,14 +2596,16 @@
    "name": "Light Gray Petrified Honey",
    "tags": [
     "kind:food",
-    "function:light"
+    "function:light",
+    "review:auto"
    ]
   },
   "productivebees:blue_petrified_honey": {
    "kind": "block",
    "name": "Blue Petrified Honey",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "productivebees:light_blue_petrified_honey": {
@@ -2325,97 +2613,112 @@
    "name": "Light Blue Petrified Honey",
    "tags": [
     "kind:food",
-    "function:light"
+    "function:light",
+    "review:auto"
    ]
   },
   "productivebees:lime_petrified_honey": {
    "kind": "block",
    "name": "Lime Petrified Honey",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "productivebees:yellow_petrified_honey": {
    "kind": "block",
    "name": "Yellow Petrified Honey",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "productivebees:orange_petrified_honey": {
    "kind": "block",
    "name": "Orange Petrified Honey",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "productivebees:brown_petrified_honey": {
    "kind": "block",
    "name": "Brown Petrified Honey",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "productivebees:green_petrified_honey": {
    "kind": "block",
    "name": "Green Petrified Honey",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "productivebees:magenta_petrified_honey": {
    "kind": "block",
    "name": "Magenta Petrified Honey",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "productivebees:purple_petrified_honey": {
    "kind": "block",
    "name": "Purple Petrified Honey",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "productivebees:pink_petrified_honey": {
    "kind": "block",
    "name": "Pink Petrified Honey",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "productivebees:cyan_petrified_honey": {
    "kind": "block",
    "name": "Cyan Petrified Honey",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "productivebees:red_petrified_honey": {
    "kind": "block",
    "name": "Red Petrified Honey",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "productivebees:amber": {
    "kind": "block",
    "name": "Amber",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "minecraft:villager.productivebees.beekeeper": {
    "kind": "entity",
    "name": "Beekeeper",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "productivebees:bee_bee": {
    "kind": "entity",
    "name": "Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:agate_bee": {
@@ -2423,7 +2726,8 @@
    "name": "Agate Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:alexandrite_bee": {
@@ -2431,7 +2735,8 @@
    "name": "Alexandrite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:alfsteel_bee": {
@@ -2439,7 +2744,8 @@
    "name": "Alfsteel Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:allthemodium_bee": {
@@ -2447,7 +2753,8 @@
    "name": "Allthemodium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:aluminum_bee": {
@@ -2455,7 +2762,8 @@
    "name": "Aluminium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:amber_bee": {
@@ -2463,7 +2771,8 @@
    "name": "Amber Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:amber_gem_bee": {
@@ -2472,7 +2781,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:amethyst_bee": {
@@ -2480,7 +2790,8 @@
    "name": "Amethyst Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:amethyst_bronze_bee": {
@@ -2488,7 +2799,8 @@
    "name": "Amethyst Bronze Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:ametrine_bee": {
@@ -2496,7 +2808,8 @@
    "name": "Ametrine Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:ammolite_bee": {
@@ -2504,7 +2817,8 @@
    "name": "Ammolite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:apatite_bee": {
@@ -2512,7 +2826,8 @@
    "name": "Apatite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:aquamarine_bee": {
@@ -2520,7 +2835,8 @@
    "name": "Aquamarine Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:arcane_bee": {
@@ -2528,7 +2844,8 @@
    "name": "Arcane Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:ashy_mining_bee": {
@@ -2536,7 +2853,8 @@
    "name": "Ashy Mining Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:awakened_bee": {
@@ -2544,7 +2862,8 @@
    "name": "Awakened Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:basalz_bee": {
@@ -2552,7 +2871,8 @@
    "name": "BazBee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:beebee_bee": {
@@ -2560,7 +2880,8 @@
    "name": "BeeBee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:benitoite_bee": {
@@ -2568,7 +2889,8 @@
    "name": "Benitoite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:bismuth_bee": {
@@ -2576,7 +2898,8 @@
    "name": "Bismuth Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:black_diamond_bee": {
@@ -2584,7 +2907,8 @@
    "name": "Black Diamond Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:black_opal_bee": {
@@ -2592,7 +2916,8 @@
    "name": "Black Opal Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:blazing_bee": {
@@ -2600,7 +2925,8 @@
    "name": "BlazBee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:blazing_crystal_bee": {
@@ -2609,7 +2935,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:blitz_bee": {
@@ -2617,7 +2944,8 @@
    "name": "BitzBee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:blizz_bee": {
@@ -2625,7 +2953,8 @@
    "name": "BizBee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:bloody_bee": {
@@ -2633,7 +2962,8 @@
    "name": "Bloody Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:blue_banded_bee": {
@@ -2641,7 +2971,8 @@
    "name": "Blue Banded Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:brass_bee": {
@@ -2649,7 +2980,8 @@
    "name": "Brass Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:bronze_bee": {
@@ -2657,7 +2989,8 @@
    "name": "Bronze Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:brown_shroom_bee": {
@@ -2665,7 +2998,8 @@
    "name": "Brown Shroombee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:bumble_bee": {
@@ -2673,7 +3007,8 @@
    "name": "Bumble Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:butcher_bee": {
@@ -2681,7 +3016,8 @@
    "name": "Butcher Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:calorite_bee": {
@@ -2689,7 +3025,8 @@
    "name": "Calorite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:carnelian_bee": {
@@ -2697,7 +3034,8 @@
    "name": "Carnelian Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:cats_eye_bee": {
@@ -2705,7 +3043,8 @@
    "name": "Cats Eye Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:chaos_bee": {
@@ -2713,7 +3052,8 @@
    "name": "Chaos Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:cheese_bee": {
@@ -2722,7 +3062,8 @@
    "tags": [
     "kind:mob",
     "kind:food",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:chocolate_bee": {
@@ -2730,7 +3071,8 @@
    "name": "Choco Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:chocolate_mining_bee": {
@@ -2738,7 +3080,8 @@
    "name": "Chocolate Mining Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:chrysoprase_bee": {
@@ -2746,7 +3089,8 @@
    "name": "Chrysoprase Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:cinnabar_bee": {
@@ -2754,7 +3098,8 @@
    "name": "Cinnabar Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:citrine_bee": {
@@ -2762,7 +3107,8 @@
    "name": "Citrine Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:coal_bee": {
@@ -2771,7 +3117,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:cobalt_bee": {
@@ -2779,7 +3126,8 @@
    "name": "Cobalt Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:collector_bee": {
@@ -2787,7 +3135,8 @@
    "name": "Collector Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:common_salvage_bee": {
@@ -2795,7 +3144,8 @@
    "name": "Common Salvage Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:compressed_iron_bee": {
@@ -2803,7 +3153,8 @@
    "name": "Compressed Iron Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:constantan_bee": {
@@ -2811,7 +3162,8 @@
    "name": "Constantan Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:conductive_alloy_bee": {
@@ -2819,7 +3171,8 @@
    "name": "Conductive Alloy Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:copper_bee": {
@@ -2827,7 +3180,8 @@
    "name": "Copper Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:coral_bee": {
@@ -2835,7 +3189,8 @@
    "name": "Coral Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:cosmic_dust_bee": {
@@ -2844,7 +3199,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:creeper_bee": {
@@ -2852,7 +3208,8 @@
    "name": "CreeBee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:crimson_bee": {
@@ -2861,7 +3218,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "productivebees:crystalline_bee": {
@@ -2869,7 +3227,8 @@
    "name": "Crystalline Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:cupid_bee": {
@@ -2877,7 +3236,8 @@
    "name": "CuBee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:dark_gem_bee": {
@@ -2886,7 +3246,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:dark_steel_bee": {
@@ -2894,7 +3255,8 @@
    "name": "Dark Steel Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:desh_bee": {
@@ -2902,7 +3264,8 @@
    "name": "Desh Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:destabilized_redstone_bee": {
@@ -2910,7 +3273,8 @@
    "name": "Destabilized Redstone Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:diamond_bee": {
@@ -2918,7 +3282,8 @@
    "name": "Diamond Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:digger_bee": {
@@ -2927,7 +3292,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "function:mine"
+    "function:mine",
+    "review:auto"
    ]
   },
   "productivebees:draconic_bee": {
@@ -2935,7 +3301,8 @@
    "name": "Draconic Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:draconium_bee": {
@@ -2943,7 +3310,8 @@
    "name": "Draconium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:drenched_iron_bee": {
@@ -2951,7 +3319,8 @@
    "name": "Drenched Iron Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:dye_bee": {
@@ -2959,7 +3328,8 @@
    "name": "Dye Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:electrum_bee": {
@@ -2967,7 +3337,8 @@
    "name": "Electrum Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:elementium_bee": {
@@ -2975,7 +3346,8 @@
    "name": "Elementium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:emerald_bee": {
@@ -2983,7 +3355,8 @@
    "name": "Emerald Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:emeraldite_bee": {
@@ -2991,7 +3364,8 @@
    "name": "Emeraldite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:end_gobber_bee": {
@@ -2999,7 +3373,8 @@
    "name": "End Gobber Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:end_steel_bee": {
@@ -3007,7 +3382,8 @@
    "name": "End Steel Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:ender_bee": {
@@ -3015,7 +3391,8 @@
    "name": "Ender Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:ender_slimy_bee": {
@@ -3023,7 +3400,8 @@
    "name": "Ender Slimy Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:enderium_bee": {
@@ -3031,7 +3409,8 @@
    "name": "Enderium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:energetic_alloy_bee": {
@@ -3039,7 +3418,8 @@
    "name": "Energetic Alloy Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:energized_glowstone_bee": {
@@ -3048,7 +3428,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "function:light"
+    "function:light",
+    "review:auto"
    ]
   },
   "productivebees:energized_steel_bee": {
@@ -3056,7 +3437,8 @@
    "name": "Energized Steel Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:epic_salvage_bee": {
@@ -3064,7 +3446,8 @@
    "name": "Epic Salvage Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:ether_gas_bee": {
@@ -3072,7 +3455,8 @@
    "name": "Ether Gas Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:euclase_bee": {
@@ -3080,7 +3464,8 @@
    "name": "Euclase Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:experience_bee": {
@@ -3088,7 +3473,8 @@
    "name": "Experience Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:farmer_bee": {
@@ -3096,7 +3482,8 @@
    "name": "Farmer Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:fey_bee": {
@@ -3104,7 +3491,8 @@
    "name": "Fey Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:fbi_bee": {
@@ -3112,7 +3500,8 @@
    "name": "F. Bee I.",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:fireite_bee": {
@@ -3120,7 +3509,8 @@
    "name": "Fireite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:fire_dragonsteel_bee": {
@@ -3128,7 +3518,8 @@
    "name": "Fire Dragonsteel Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:fluix_bee": {
@@ -3136,7 +3527,8 @@
    "name": "Fluix Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:fluorite_bee": {
@@ -3144,7 +3536,8 @@
    "name": "Fluorite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:flux_bee": {
@@ -3153,7 +3546,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:frosty_bee": {
@@ -3161,7 +3555,8 @@
    "name": "Frosty Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:gaiasteel_bee": {
@@ -3169,7 +3564,8 @@
    "name": "Gaiasteel Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:garnet_bee": {
@@ -3177,7 +3573,8 @@
    "name": "Garnet Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:geode_bee": {
@@ -3185,7 +3582,8 @@
    "name": "Geode Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:ghostly_bee": {
@@ -3193,7 +3591,8 @@
    "name": "Ghostly Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:glowing_bee": {
@@ -3201,7 +3600,8 @@
    "name": "Glowing Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:gobber_bee": {
@@ -3209,7 +3609,8 @@
    "name": "Gobber Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:gold_bee": {
@@ -3217,7 +3618,8 @@
    "name": "Gold Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:grave_bee": {
@@ -3225,7 +3627,8 @@
    "name": "Grave's Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:green_carpenter_bee": {
@@ -3233,7 +3636,8 @@
    "name": "Green Carpenter Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:green_sapphire_bee": {
@@ -3241,7 +3645,8 @@
    "name": "Green Sapphire Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:heliodor_bee": {
@@ -3249,7 +3654,8 @@
    "name": "Heliodor Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:hematophagous_bee": {
@@ -3257,7 +3663,8 @@
    "name": "Hematophagous Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:hepatizon_bee": {
@@ -3265,7 +3672,8 @@
    "name": "Hepatizon Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:hoarder_bee": {
@@ -3273,7 +3681,8 @@
    "name": "Hoarder Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:ice_dragonsteel_bee": {
@@ -3281,7 +3690,8 @@
    "name": "Ice Dragonsteel Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:ichor_slimy_bee": {
@@ -3289,7 +3699,8 @@
    "name": "Ichor Slimy Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:imperium_bee": {
@@ -3297,7 +3708,8 @@
    "name": "Imperium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:iesnium_bee": {
@@ -3305,7 +3717,8 @@
    "name": "Iesnium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:inert_crystal_bee": {
@@ -3314,7 +3727,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:infinity_bee": {
@@ -3322,7 +3736,8 @@
    "name": "Bee of Infinity",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:air_crystal_bee": {
@@ -3331,7 +3746,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:earth_crystal_bee": {
@@ -3340,7 +3756,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:fire_crystal_bee": {
@@ -3349,7 +3766,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:water_crystal_bee": {
@@ -3358,7 +3776,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:inferium_bee": {
@@ -3366,7 +3785,8 @@
    "name": "Inferium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:insanium_bee": {
@@ -3374,7 +3794,8 @@
    "name": "Insanium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:invar_bee": {
@@ -3382,7 +3803,8 @@
    "name": "Invar Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:iolite_bee": {
@@ -3390,7 +3812,8 @@
    "name": "Iolite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:iridium_bee": {
@@ -3398,7 +3821,8 @@
    "name": "Iridium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:iron_bee": {
@@ -3406,7 +3830,8 @@
    "name": "Iron Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:jasper_bee": {
@@ -3414,7 +3839,8 @@
    "name": "Jasper Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:kamikaz_bee": {
@@ -3422,7 +3848,8 @@
    "name": "KamikazBee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:knightslime_bee": {
@@ -3430,7 +3857,8 @@
    "name": "Knightslime Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:kunzite_bee": {
@@ -3438,7 +3866,8 @@
    "name": "Kunzite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:kyanite_bee": {
@@ -3446,7 +3875,8 @@
    "name": "Kyanite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:lava_bee": {
@@ -3454,7 +3884,8 @@
    "name": "Lava Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:lapis_bee": {
@@ -3462,7 +3893,8 @@
    "name": "Lapis Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:lead_bee": {
@@ -3470,7 +3902,8 @@
    "name": "Lead Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:leafcutter_bee": {
@@ -3478,7 +3911,8 @@
    "name": "Leafcutter Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:legendary_salvage_bee": {
@@ -3486,7 +3920,8 @@
    "name": "Legendary Salvage Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:lightning_dragonsteel_bee": {
@@ -3494,7 +3929,8 @@
    "name": "Lightning Dragonsteel Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:lumber_bee": {
@@ -3502,7 +3938,8 @@
    "name": "Lumber Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:lumium_bee": {
@@ -3510,7 +3947,8 @@
    "name": "Lumium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:magmatic_bee": {
@@ -3518,7 +3956,8 @@
    "name": "Magmatic Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:malachite_bee": {
@@ -3526,7 +3965,8 @@
    "name": "Malachite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:mana_bee": {
@@ -3535,7 +3975,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "power-type:mana"
+    "power-type:mana",
+    "review:auto"
    ]
   },
   "productivebees:manasteel_bee": {
@@ -3543,7 +3984,8 @@
    "name": "Manasteel Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:manyullyn_bee": {
@@ -3551,7 +3993,8 @@
    "name": "Manyullyn Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:mason_bee": {
@@ -3559,7 +4002,8 @@
    "name": "Mason Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:menril_bee": {
@@ -3567,7 +4011,8 @@
    "name": "Menril Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:moldavite_bee": {
@@ -3575,7 +4020,8 @@
    "name": "Moldavite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:moonstone_bee": {
@@ -3583,7 +4029,8 @@
    "name": "Moonstone Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:morganite_bee": {
@@ -3591,7 +4038,8 @@
    "name": "Morganite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:neon_cuckoo_bee": {
@@ -3599,7 +4047,8 @@
    "name": "Neon Cuckoo Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:nether_gobber_bee": {
@@ -3608,7 +4057,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "productivebees:netherite_bee": {
@@ -3617,7 +4067,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "productivebees:nickel_bee": {
@@ -3625,7 +4076,8 @@
    "name": "Nickel Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:niotic_crystal_bee": {
@@ -3634,7 +4086,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:niter_bee": {
@@ -3642,7 +4095,8 @@
    "name": "Niter Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:nitro_crystal_bee": {
@@ -3651,7 +4105,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:nomad_bee": {
@@ -3659,7 +4114,8 @@
    "name": "Nomad Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:obsidian_bee": {
@@ -3667,7 +4123,8 @@
    "name": "Obsidian Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:oily_bee": {
@@ -3675,7 +4132,8 @@
    "name": "Oily Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:onyx_bee": {
@@ -3683,7 +4141,8 @@
    "name": "Onyx Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:opal_bee": {
@@ -3691,7 +4150,8 @@
    "name": "Opal Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:osmium_bee": {
@@ -3699,7 +4159,8 @@
    "name": "Osmium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:ostrum_bee": {
@@ -3707,7 +4168,8 @@
    "name": "Ostrum Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:patrick_bee": {
@@ -3715,7 +4177,8 @@
    "name": "Patrick Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:pearl_bee": {
@@ -3723,7 +4186,8 @@
    "name": "Pearl Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:pendorite_bee": {
@@ -3731,7 +4195,8 @@
    "name": "Pendorite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:pepto_bismol_bee": {
@@ -3739,7 +4204,8 @@
    "name": "Pepto Beesmol",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:peridot_bee": {
@@ -3747,7 +4213,8 @@
    "name": "Peridot Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:phosphophyllite_bee": {
@@ -3755,7 +4222,8 @@
    "name": "Phosphophyllite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:pig_iron_bee": {
@@ -3763,7 +4231,8 @@
    "name": "Pig Iron Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:pink_slimy_bee": {
@@ -3771,7 +4240,8 @@
    "name": "Pink Slimy Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:plastic_bee": {
@@ -3779,7 +4249,8 @@
    "name": "Plastic Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:platinum_bee": {
@@ -3787,7 +4258,8 @@
    "name": "Platinum Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:prismarine_bee": {
@@ -3795,7 +4267,8 @@
    "name": "Prismarine Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:prosperity_bee": {
@@ -3803,7 +4276,8 @@
    "name": "ProsperiBee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:prudentium_bee": {
@@ -3811,7 +4285,8 @@
    "name": "Prudentium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:pulsating_alloy_bee": {
@@ -3819,7 +4294,8 @@
    "name": "Pulsating Alloy Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:pure_bee": {
@@ -3827,7 +4303,8 @@
    "name": "Pure Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:pure_crystal_bee": {
@@ -3836,7 +4313,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:pyrope_bee": {
@@ -3844,7 +4322,8 @@
    "name": "Pyrope Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:quarry_bee": {
@@ -3853,7 +4332,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "function:mine"
+    "function:mine",
+    "review:auto"
    ]
   },
   "productivebees:quartz_enriched_iron_bee": {
@@ -3861,7 +4341,8 @@
    "name": "Quartz Enriched Iron Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:queens_slime_bee": {
@@ -3869,7 +4350,8 @@
    "name": "Queens Slime Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:radioactive_bee": {
@@ -3877,7 +4359,8 @@
    "name": "Radioactive Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:rancher_bee": {
@@ -3885,7 +4368,8 @@
    "name": "Rancher Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:rare_salvage_bee": {
@@ -3893,7 +4377,8 @@
    "name": "Rare Salvage Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:red_shroom_bee": {
@@ -3901,7 +4386,8 @@
    "name": "Red Shroombee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:redstone_alloy_bee": {
@@ -3909,7 +4395,8 @@
    "name": "Redstone Alloy Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:redstone_bee": {
@@ -3917,7 +4404,8 @@
    "name": "Redstone Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:reed_bee": {
@@ -3925,7 +4413,8 @@
    "name": "Reed Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:refined_glowstone_bee": {
@@ -3934,7 +4423,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "function:light"
+    "function:light",
+    "review:auto"
    ]
   },
   "productivebees:refined_obsidian_bee": {
@@ -3942,7 +4432,8 @@
    "name": "Refined Obsidian Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:regenerative_bee": {
@@ -3950,7 +4441,8 @@
    "name": "Regenerative Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:resin_bee": {
@@ -3958,7 +4450,8 @@
    "name": "Resin Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:resonant_ender_bee": {
@@ -3966,7 +4459,8 @@
    "name": "Resonant Ender Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:rock_crystal_bee": {
@@ -3975,7 +4469,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:rose_gold_bee": {
@@ -3983,7 +4478,8 @@
    "name": "Rose Gold Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:rose_quartz_bee": {
@@ -3991,7 +4487,8 @@
    "name": "Rose Quartz Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:ruby_bee": {
@@ -3999,7 +4496,8 @@
    "name": "RuBee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:sapphire_bee": {
@@ -4007,7 +4505,8 @@
    "name": "Sapphire Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:salty_bee": {
@@ -4015,7 +4514,8 @@
    "name": "Salty Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:sculk_bee": {
@@ -4023,7 +4523,8 @@
    "name": "Sculk Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:signalum_bee": {
@@ -4031,7 +4532,8 @@
    "name": "Signalum Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:silicon_bee": {
@@ -4039,7 +4541,8 @@
    "name": "Silicon Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:silky_bee": {
@@ -4047,7 +4550,8 @@
    "name": "Silky Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:silver_bee": {
@@ -4055,7 +4559,8 @@
    "name": "Silver Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:skeletal_bee": {
@@ -4063,7 +4568,8 @@
    "name": "Skeletal Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:sky_slimy_bee": {
@@ -4071,7 +4577,8 @@
    "name": "Sky Slimy Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:slimesteel_bee": {
@@ -4079,7 +4586,8 @@
    "name": "Slimesteel Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:slimy_bee": {
@@ -4087,7 +4595,8 @@
    "name": "Slimy Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:sodalite_bee": {
@@ -4095,7 +4604,8 @@
    "name": "Sodalite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:soularium_bee": {
@@ -4103,7 +4613,8 @@
    "name": "Soularium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:soulium_bee": {
@@ -4111,7 +4622,8 @@
    "name": "Soulium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:soulsteel_bee": {
@@ -4119,7 +4631,8 @@
    "name": "Soulsteel Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:soul_lava_bee": {
@@ -4128,7 +4641,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "productivebees:spacial_bee": {
@@ -4136,7 +4650,8 @@
    "name": "Spatial Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:spectrum_bee": {
@@ -4144,7 +4659,8 @@
    "name": "Spectrum Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:spinel_bee": {
@@ -4152,7 +4668,8 @@
    "name": "Spinel Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:spirit_bee": {
@@ -4160,7 +4677,8 @@
    "name": "Spirit Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:spirited_crystal_bee": {
@@ -4169,7 +4687,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:sponge_bee": {
@@ -4177,7 +4696,8 @@
    "name": "Sponge Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:springaline_bee": {
@@ -4185,7 +4705,8 @@
    "name": "Springaline Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:starmetal_bee": {
@@ -4193,7 +4714,8 @@
    "name": "Starmetal Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:starry_bee": {
@@ -4201,7 +4723,8 @@
    "name": "Starry Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:gregstar_bee": {
@@ -4209,7 +4732,8 @@
    "name": "GregStar Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:neutronium_bee": {
@@ -4217,7 +4741,8 @@
    "name": "Neutronium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:steel_bee": {
@@ -4225,7 +4750,8 @@
    "name": "Steel Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:sticky_resin_bee": {
@@ -4233,7 +4759,8 @@
    "name": "Sticky Resin Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:sussy_bee": {
@@ -4241,7 +4768,8 @@
    "name": "Sussy Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:sugarbag_bee": {
@@ -4249,7 +4777,8 @@
    "name": "Sugarbag Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:sulfur_bee": {
@@ -4257,7 +4786,8 @@
    "name": "Sulfur Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:sunstone_bee": {
@@ -4265,7 +4795,8 @@
    "name": "Sunstone Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:sweat_bee": {
@@ -4273,7 +4804,8 @@
    "name": "Sweat Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:swift_alloy_bee": {
@@ -4281,7 +4813,8 @@
    "name": "Swift Alloy Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:tanzanite_bee": {
@@ -4289,7 +4822,8 @@
    "name": "Tanzanite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:tea_bee": {
@@ -4297,7 +4831,8 @@
    "name": "Tea Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:tektite_bee": {
@@ -4305,7 +4840,8 @@
    "name": "Tektite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:terrasteel_bee": {
@@ -4313,7 +4849,8 @@
    "name": "Terrasteel Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:tertium_bee": {
@@ -4321,7 +4858,8 @@
    "name": "Tertium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:tin_bee": {
@@ -4329,7 +4867,8 @@
    "name": "Tin Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:titanium_bee": {
@@ -4337,7 +4876,8 @@
    "name": "Titanium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:topaz_bee": {
@@ -4345,7 +4885,8 @@
    "name": "Topaz Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:tourmaline_bee": {
@@ -4353,7 +4894,8 @@
    "name": "Tourmaline Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:tungsten_bee": {
@@ -4361,7 +4903,8 @@
    "name": "Tungsten Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:turquoise_bee": {
@@ -4369,7 +4912,8 @@
    "name": "Turquoise Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:uncommon_salvage_bee": {
@@ -4377,7 +4921,8 @@
    "name": "Uncommon Salvage Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:unobtainium_bee": {
@@ -4385,7 +4930,8 @@
    "name": "Unobtainium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:uraninite_bee": {
@@ -4393,7 +4939,8 @@
    "name": "Uraninite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:vibranium_bee": {
@@ -4401,7 +4948,8 @@
    "name": "Vibranium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:vibrant_alloy_bee": {
@@ -4409,7 +4957,8 @@
    "name": "Vibrant Alloy Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:wanna_bee": {
@@ -4417,7 +4966,8 @@
    "name": "WannaBee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:warped_bee": {
@@ -4426,7 +4976,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "productivebees:wasted_radioactive_bee": {
@@ -4434,7 +4985,8 @@
    "name": "Wasted Radioactive Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:withered_bee": {
@@ -4442,7 +4994,8 @@
    "name": "Withered Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:white_diamond_bee": {
@@ -4450,7 +5003,8 @@
    "name": "White Diamond Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:yellow_black_carpenter_bee": {
@@ -4458,7 +5012,8 @@
    "name": "Yellow Carpenter Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:zinc_bee": {
@@ -4466,7 +5021,8 @@
    "name": "Zinc Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:zircon_bee": {
@@ -4474,7 +5030,8 @@
    "name": "Zircon Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:zombie_bee": {
@@ -4482,7 +5039,8 @@
    "name": "ZomBee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:actinium_bee": {
@@ -4490,7 +5048,8 @@
    "name": "Actinium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:americium_bee": {
@@ -4498,7 +5057,8 @@
    "name": "Americium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:antimony_bee": {
@@ -4506,7 +5066,8 @@
    "name": "Antimony Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:argon_bee": {
@@ -4514,7 +5075,8 @@
    "name": "Argon Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:arsenic_bee": {
@@ -4522,7 +5084,8 @@
    "name": "Arsenic Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:astatine_bee": {
@@ -4530,7 +5093,8 @@
    "name": "Astatine Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:barium_bee": {
@@ -4538,7 +5102,8 @@
    "name": "Barium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:berkelium_bee": {
@@ -4546,7 +5111,8 @@
    "name": "Berkelium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:beryllium_bee": {
@@ -4554,7 +5120,8 @@
    "name": "Beryllium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:bohrium_bee": {
@@ -4562,7 +5129,8 @@
    "name": "Bohrium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:boron_bee": {
@@ -4570,7 +5138,8 @@
    "name": "Boron Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:bromine_bee": {
@@ -4578,7 +5147,8 @@
    "name": "Bromine Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:cadmium_bee": {
@@ -4586,7 +5156,8 @@
    "name": "Cadmium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:calcium_bee": {
@@ -4594,7 +5165,8 @@
    "name": "Calcium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:californium_bee": {
@@ -4602,7 +5174,8 @@
    "name": "Californium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:cerium_bee": {
@@ -4610,7 +5183,8 @@
    "name": "Cerium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:cesium_bee": {
@@ -4618,7 +5192,8 @@
    "name": "Cesium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:chlorine_bee": {
@@ -4626,7 +5201,8 @@
    "name": "Chlorine Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:chromium_bee": {
@@ -4634,7 +5210,8 @@
    "name": "Chromium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:copernicium_bee": {
@@ -4642,7 +5219,8 @@
    "name": "Copernicium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:curium_bee": {
@@ -4650,7 +5228,8 @@
    "name": "Curium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:darmstadtium_bee": {
@@ -4658,7 +5237,8 @@
    "name": "Darmstadtium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:dubnium_bee": {
@@ -4666,7 +5246,8 @@
    "name": "Dubnium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:dysprosium_bee": {
@@ -4674,7 +5255,8 @@
    "name": "Dysprosium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:einsteinium_bee": {
@@ -4682,7 +5264,8 @@
    "name": "Einsteinium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:erbium_bee": {
@@ -4690,7 +5273,8 @@
    "name": "Erbium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:europium_bee": {
@@ -4698,7 +5282,8 @@
    "name": "Europium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:fermium_bee": {
@@ -4706,7 +5291,8 @@
    "name": "Fermium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:flerovium_bee": {
@@ -4714,7 +5300,8 @@
    "name": "Flerovium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:fluorine_bee": {
@@ -4722,7 +5309,8 @@
    "name": "Fluorine Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:francium_bee": {
@@ -4730,7 +5318,8 @@
    "name": "Francium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:gadolinium_bee": {
@@ -4738,7 +5327,8 @@
    "name": "Gadolinium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:gallium_bee": {
@@ -4746,7 +5336,8 @@
    "name": "Gallium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:germanium_bee": {
@@ -4754,7 +5345,8 @@
    "name": "Germanium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:hafnium_bee": {
@@ -4762,7 +5354,8 @@
    "name": "Hafnium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:hassium_bee": {
@@ -4770,7 +5363,8 @@
    "name": "Hassium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:helium_bee": {
@@ -4778,7 +5372,8 @@
    "name": "Helium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:holmium_bee": {
@@ -4786,7 +5381,8 @@
    "name": "Holmium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:hydrogen_bee": {
@@ -4794,7 +5390,8 @@
    "name": "Hydrogen Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:indium_bee": {
@@ -4802,7 +5399,8 @@
    "name": "Indium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:iodine_bee": {
@@ -4810,7 +5408,8 @@
    "name": "Iodine Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:krypton_bee": {
@@ -4818,7 +5417,8 @@
    "name": "Krypton Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:lanthanum_bee": {
@@ -4826,7 +5426,8 @@
    "name": "Lanthanum Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:lawrencium_bee": {
@@ -4834,7 +5435,8 @@
    "name": "Lawrencium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:lithium_bee": {
@@ -4842,7 +5444,8 @@
    "name": "Lithium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:livermorium_bee": {
@@ -4850,7 +5453,8 @@
    "name": "Livermorium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:lutetium_bee": {
@@ -4858,7 +5462,8 @@
    "name": "Lutetium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:magnesium_bee": {
@@ -4866,7 +5471,8 @@
    "name": "Magnesium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:manganese_bee": {
@@ -4874,7 +5480,8 @@
    "name": "Manganese Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:meitnerium_bee": {
@@ -4882,7 +5489,8 @@
    "name": "Meitnerium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:mendelevium_bee": {
@@ -4890,7 +5498,8 @@
    "name": "Mendelevium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:mercury_bee": {
@@ -4898,7 +5507,8 @@
    "name": "Mercury Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:molybdenum_bee": {
@@ -4906,7 +5516,8 @@
    "name": "Molybdenum Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:moscovium_bee": {
@@ -4914,7 +5525,8 @@
    "name": "Moscovium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:neodymium_bee": {
@@ -4922,7 +5534,8 @@
    "name": "Neodymium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:neon_bee": {
@@ -4930,7 +5543,8 @@
    "name": "Neon Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:neptunium_bee": {
@@ -4938,7 +5552,8 @@
    "name": "Neptunium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:nihonium_bee": {
@@ -4946,7 +5561,8 @@
    "name": "Nihonium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:nitrogen_bee": {
@@ -4954,7 +5570,8 @@
    "name": "Nitrogen Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:nobelium_bee": {
@@ -4962,7 +5579,8 @@
    "name": "Nobelium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:niobium_bee": {
@@ -4970,7 +5588,8 @@
    "name": "Niobium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:oganesson_bee": {
@@ -4978,7 +5597,8 @@
    "name": "Oganesson Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:oxygen_bee": {
@@ -4986,7 +5606,8 @@
    "name": "Oxygen Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:palladium_bee": {
@@ -4994,7 +5615,8 @@
    "name": "Palladium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:phosphorus_bee": {
@@ -5002,7 +5624,8 @@
    "name": "Phosphorus Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:plutonium_bee": {
@@ -5010,7 +5633,8 @@
    "name": "Plutonium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:polonium_bee": {
@@ -5018,7 +5642,8 @@
    "name": "Polonium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:potassium_bee": {
@@ -5026,7 +5651,8 @@
    "name": "Potassium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:praseodymium_bee": {
@@ -5034,7 +5660,8 @@
    "name": "Praseodymium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:promethium_bee": {
@@ -5042,7 +5669,8 @@
    "name": "Promethium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:protactinium_bee": {
@@ -5050,7 +5678,8 @@
    "name": "Protactinium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:radium_bee": {
@@ -5058,7 +5687,8 @@
    "name": "Radium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:radon_bee": {
@@ -5066,7 +5696,8 @@
    "name": "Radon Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:rhenium_bee": {
@@ -5074,7 +5705,8 @@
    "name": "Rhenium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:rhodium_bee": {
@@ -5082,7 +5714,8 @@
    "name": "Rhodium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:roentgenium_bee": {
@@ -5090,7 +5723,8 @@
    "name": "Roentgenium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:rubidium_bee": {
@@ -5098,7 +5732,8 @@
    "name": "Rubidium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:ruthenium_bee": {
@@ -5106,7 +5741,8 @@
    "name": "Ruthenium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:rutherfordium_bee": {
@@ -5114,7 +5750,8 @@
    "name": "Rutherfordium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:samarium_bee": {
@@ -5122,7 +5759,8 @@
    "name": "Samarium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:scandium_bee": {
@@ -5130,7 +5768,8 @@
    "name": "Scandium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:seaborgium_bee": {
@@ -5138,7 +5777,8 @@
    "name": "Seaborgium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:selenium_bee": {
@@ -5146,7 +5786,8 @@
    "name": "Selenium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:silicium_bee": {
@@ -5154,7 +5795,8 @@
    "name": "Silicium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:sodium_bee": {
@@ -5162,7 +5804,8 @@
    "name": "Sodium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:strontium_bee": {
@@ -5170,7 +5813,8 @@
    "name": "Strontium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:tantalum_bee": {
@@ -5178,7 +5822,8 @@
    "name": "Tantalum Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:technetium_bee": {
@@ -5186,7 +5831,8 @@
    "name": "Technetium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:tellurium_bee": {
@@ -5194,7 +5840,8 @@
    "name": "Tellurium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:tennessine_bee": {
@@ -5202,7 +5849,8 @@
    "name": "Tennessine Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:terbium_bee": {
@@ -5210,7 +5858,8 @@
    "name": "Terbium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:thallium_bee": {
@@ -5218,7 +5867,8 @@
    "name": "Thallium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:thorium_bee": {
@@ -5226,7 +5876,8 @@
    "name": "Thorium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:thulium_bee": {
@@ -5234,7 +5885,8 @@
    "name": "Thulium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:vanadium_bee": {
@@ -5242,7 +5894,8 @@
    "name": "Vanadium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:xenon_bee": {
@@ -5250,7 +5903,8 @@
    "name": "Xenon Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:ytterbium_bee": {
@@ -5258,7 +5912,8 @@
    "name": "Ytterbium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:yttrium_bee": {
@@ -5266,7 +5921,8 @@
    "name": "Yttrium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:zirconium_bee": {
@@ -5274,7 +5930,8 @@
    "name": "Zirconium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:water_bee": {
@@ -5282,7 +5939,8 @@
    "name": "Water Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:gregshell_bee": {
@@ -5290,7 +5948,8 @@
    "name": "Full Metal Patrick Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:cyanite_bee": {
@@ -5298,7 +5957,8 @@
    "name": "Cyanite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:blutonium_bee": {
@@ -5306,7 +5966,8 @@
    "name": "Blutonium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:magentite_bee": {
@@ -5314,7 +5975,8 @@
    "name": "Magentite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:ludicrite_bee": {
@@ -5322,7 +5984,8 @@
    "name": "Ludicrite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:ridiculite_bee": {
@@ -5330,7 +5993,8 @@
    "name": "Ridiculite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:inanite_bee": {
@@ -5338,7 +6002,8 @@
    "name": "Inanite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:insanite_bee": {
@@ -5346,7 +6011,8 @@
    "name": "Insanite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:arcane_crystal_bee": {
@@ -5355,7 +6021,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:deorum_bee": {
@@ -5363,7 +6030,8 @@
    "name": "Deorum Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:rune_bee": {
@@ -5372,7 +6040,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "productivebees:stellarite_bee": {
@@ -5380,7 +6049,8 @@
    "name": "Stellarite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:super_experience_bee": {
@@ -5388,7 +6058,8 @@
    "name": "Super Experience Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:soul_infused_bee": {
@@ -5397,7 +6068,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "productivebees:shellite_bee": {
@@ -5405,7 +6077,8 @@
    "name": "Shellite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:twinite_bee": {
@@ -5413,7 +6086,8 @@
    "name": "Twinite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:dragonsteel_bee": {
@@ -5421,7 +6095,8 @@
    "name": "Dragonsteel Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:arcane_debris_bee": {
@@ -5429,7 +6104,8 @@
    "name": "Arcane Debris Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:arcane_essence_bee": {
@@ -5438,7 +6114,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:infused_iron_bee": {
@@ -5446,7 +6123,8 @@
    "name": "Infused Iron Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:sky_ingot_bee": {
@@ -5455,7 +6133,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:tainted_gold_bee": {
@@ -5463,7 +6142,8 @@
    "name": "Tainted Gold Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:soul_shard_bee": {
@@ -5473,7 +6153,8 @@
     "kind:mob",
     "function:farm",
     "kind:material",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "productivebees:arcane_gold_bee": {
@@ -5481,7 +6162,8 @@
    "name": "Arcane Gold Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:pewter_bee": {
@@ -5489,7 +6171,8 @@
    "name": "Pewter Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:hop_graphite_bee": {
@@ -5497,7 +6180,8 @@
    "name": "HOP Graphite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:hellfire_bee": {
@@ -5505,7 +6189,8 @@
    "name": "Hellfire Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:amaramber_bee": {
@@ -5513,7 +6198,8 @@
    "name": "Amaramber Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:deepsilver_bee": {
@@ -5521,7 +6207,8 @@
    "name": "Deepsilver Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:glacite_bee": {
@@ -5529,7 +6216,8 @@
    "name": "Glacite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:malarite_bee": {
@@ -5537,7 +6225,8 @@
    "name": "Malarite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:starcore_bee": {
@@ -5545,7 +6234,8 @@
    "name": "Starcore Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:starlit_diamond_bee": {
@@ -5553,7 +6243,8 @@
    "name": "Starlit Diamond Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:thermal_bee": {
@@ -5561,7 +6252,8 @@
    "name": "Thermal Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:sky_steel_bee": {
@@ -5569,7 +6261,8 @@
    "name": "Sky Steel Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:astral_bee": {
@@ -5577,7 +6270,8 @@
    "name": "Astral Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:etherium_ore_bee": {
@@ -5585,7 +6279,8 @@
    "name": "Etherium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:bauxite_bee": {
@@ -5593,7 +6288,8 @@
    "name": "Bauxite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:cobaltite_bee": {
@@ -5601,7 +6297,8 @@
    "name": "Cobaltite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:chromite_bee": {
@@ -5609,7 +6306,8 @@
    "name": "Chromite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:barite_bee": {
@@ -5617,7 +6315,8 @@
    "name": "Barite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:electrotine_bee": {
@@ -5625,7 +6324,8 @@
    "name": "Electrotine Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:ilmenite_bee": {
@@ -5633,7 +6333,8 @@
    "name": "Ilmenite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:galena_bee": {
@@ -5641,7 +6342,8 @@
    "name": "Galena Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:pyrochlore_bee": {
@@ -5649,7 +6351,8 @@
    "name": "Pyrochlore Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:lepidolite_bee": {
@@ -5657,7 +6360,8 @@
    "name": "Lepidolite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:graphite_bee": {
@@ -5665,7 +6369,8 @@
    "name": "Graphite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:bastnasite_bee": {
@@ -5673,7 +6378,8 @@
    "name": "Bastnasite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:naquadah_bee": {
@@ -5681,7 +6387,8 @@
    "name": "Naquadah Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:oilsands_bee": {
@@ -5689,7 +6396,8 @@
    "name": "Oilsands Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:pyrolusite_bee": {
@@ -5697,7 +6405,8 @@
    "name": "Pyrolusite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:realgar_bee": {
@@ -5705,7 +6414,8 @@
    "name": "Realgar Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:royal_bee": {
@@ -5713,7 +6423,8 @@
    "name": "Her Royal Beeness",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:scheelite_bee": {
@@ -5721,7 +6432,8 @@
    "name": "Scheelite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:sheldonite_bee": {
@@ -5729,7 +6441,8 @@
    "name": "Sheldonite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:sphalerite_bee": {
@@ -5737,7 +6450,8 @@
    "name": "Sphalerite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:stibnite_bee": {
@@ -5745,7 +6459,8 @@
    "name": "Stibnite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:tantalite_bee": {
@@ -5753,7 +6468,8 @@
    "name": "Tantalite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:tetrahedrite_bee": {
@@ -5761,7 +6477,8 @@
    "name": "Tetrahedrite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:tricalcium_phosphate_bee": {
@@ -5769,7 +6486,8 @@
    "name": "Tricalcium Phosphate Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:tungstate_bee": {
@@ -5777,7 +6495,8 @@
    "name": "Tungstate Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:vanadium_magnetite_bee": {
@@ -5785,7 +6504,8 @@
    "name": "Vanadium Magnetite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:monazite_bee": {
@@ -5793,7 +6513,8 @@
    "name": "Monazite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:breeze_bee": {
@@ -5801,7 +6522,8 @@
    "name": "BreezBee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:ribbeet_bee": {
@@ -5809,7 +6531,8 @@
    "name": "Ribbeet",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:ferricore_bee": {
@@ -5817,7 +6540,8 @@
    "name": "Ferricore Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:blazegold_bee": {
@@ -5825,7 +6549,8 @@
    "name": "Blazegold Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:eclipsealloy_bee": {
@@ -5833,7 +6558,8 @@
    "name": "Eclipse Alloy Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:celestigem_bee": {
@@ -5841,7 +6567,8 @@
    "name": "Celestigem Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:chaotic_bee": {
@@ -5849,7 +6576,8 @@
    "name": "Chaos Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:miracle_bee": {
@@ -5857,7 +6585,8 @@
    "name": "Miracle Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:mithril_bee": {
@@ -5865,7 +6594,8 @@
    "name": "Mithril Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:prismalium_bee": {
@@ -5873,7 +6603,8 @@
    "name": "Prismalium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:melodium_bee": {
@@ -5881,7 +6612,8 @@
    "name": "Melodium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:stellarium_bee": {
@@ -5889,7 +6621,8 @@
    "name": "Stellarium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:entro_bee": {
@@ -5897,7 +6630,8 @@
    "name": "Entro Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:redstone_crystal_bee": {
@@ -5906,7 +6640,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:sky_bronze_bee": {
@@ -5914,7 +6649,8 @@
    "name": "Sky Bronze Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:sky_osmium_bee": {
@@ -5922,7 +6658,8 @@
    "name": "Sky Osmium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:time_crystal_bee": {
@@ -5931,7 +6668,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:utheric_bee": {
@@ -5939,7 +6677,8 @@
    "name": "Utheric Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:cloggrum_bee": {
@@ -5947,7 +6686,8 @@
    "name": "Cloggrum Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:froststeel_bee": {
@@ -5955,7 +6695,8 @@
    "name": "Froststeel Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:regalium_bee": {
@@ -5963,7 +6704,8 @@
    "name": "Regalium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:forgotten_bee": {
@@ -5971,7 +6713,8 @@
    "name": "Forgotten Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:azure_silver_bee": {
@@ -5979,7 +6722,8 @@
    "name": "Azure Silver Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:crimson_iron_bee": {
@@ -5988,7 +6732,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "productivebees:villager_bee": {
@@ -5996,7 +6741,8 @@
    "name": "Mistake",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:phil_bee": {
@@ -6004,7 +6750,8 @@
    "name": "Philbee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:black_quartz_bee": {
@@ -6012,7 +6759,8 @@
    "name": "Black Quartz Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:air_essence_bee": {
@@ -6021,7 +6769,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:earth_essence_bee": {
@@ -6030,7 +6779,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:fire_essence_bee": {
@@ -6039,7 +6789,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:water_essence_bee": {
@@ -6048,7 +6799,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:adamant_bee": {
@@ -6056,7 +6808,8 @@
    "name": "Adamant Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:biosteel_bee": {
@@ -6064,7 +6817,8 @@
    "name": "Biosteel Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:depth_ingot_bee": {
@@ -6073,7 +6827,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:dimensional_shard_bee": {
@@ -6082,7 +6837,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:duratium_bee": {
@@ -6090,7 +6846,8 @@
    "name": "Duratium Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:energite_bee": {
@@ -6098,7 +6855,8 @@
    "name": "Energite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:fluxite_bee": {
@@ -6106,7 +6864,8 @@
    "name": "Fluxite Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:prometheum_bee": {
@@ -6114,7 +6873,8 @@
    "name": "Prometheum Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:sheol_fire_bee": {
@@ -6122,7 +6882,8 @@
    "name": "Sheol Fire Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:strange_matter_bee": {
@@ -6130,7 +6891,8 @@
    "name": "Strange Matter Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:sulfuric_acid_bee": {
@@ -6138,7 +6900,8 @@
    "name": "Sulfuric Acid Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:uranite_crystal_bee": {
@@ -6147,7 +6910,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:benitoite_crystal_bee": {
@@ -6156,7 +6920,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:anglesite_crystal_bee": {
@@ -6165,7 +6930,8 @@
    "tags": [
     "kind:mob",
     "function:farm",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:imperial_bee": {
@@ -6173,54 +6939,63 @@
    "name": "Imperial Bee",
    "tags": [
     "kind:mob",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:bee_bomb": {
    "kind": "item",
    "name": "Bee Bomb",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:bee_bomb_angry": {
    "kind": "item",
    "name": "Aggravating Bee Bomb",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:bee_cage": {
    "kind": "item",
    "name": "Bee Cage",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:draconic_chunk": {
    "kind": "item",
    "name": "Draconic Chunk",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:draconic_dust": {
    "kind": "item",
    "name": "Draconic Dust",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:gene": {
    "kind": "item",
    "name": "Gene Sample",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "productivebees:gene_bottle": {
    "kind": "item",
    "name": "Squashed Bee Material",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:honey_bucket": {
@@ -6228,14 +7003,16 @@
    "name": "Honey Bucket",
    "tags": [
     "kind:food",
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "productivebees:honey_treat": {
    "kind": "item",
    "name": "Honey Treat",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "productivebees:bee_nest_diamond_helmet": {
@@ -6244,126 +7021,144 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:honeycomb_alfsteel": {
    "kind": "item",
    "name": "Alfsteel Comb",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:honeycomb_allthemodium": {
    "kind": "item",
    "name": "Allthemodium Comb",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:honeycomb_amber": {
    "kind": "item",
    "name": "Amber Comb",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:honeycomb_apatite": {
    "kind": "item",
    "name": "Apatite Comb",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:honeycomb_basalz": {
    "kind": "item",
    "name": "Basalz Comb",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:honeycomb_bauxite": {
    "kind": "item",
    "name": "Bauxite Comb",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:honeycomb_bismuth": {
    "kind": "item",
    "name": "Bismuth Comb",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:honeycomb_blazing": {
    "kind": "item",
    "name": "Blazing Comb",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:honeycomb_blitz": {
    "kind": "item",
    "name": "Blitz Comb",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:honeycomb_blizz": {
    "kind": "item",
    "name": "Blizz Comb",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:honeycomb_bloody": {
    "kind": "item",
    "name": "Bloody Comb",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:honeycomb_bone": {
    "kind": "item",
    "name": "Bone Comb",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:honeycomb_brazen": {
    "kind": "item",
    "name": "Brazen Comb",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:honeycomb_bronze": {
    "kind": "item",
    "name": "Bronze Comb",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:honeycomb_chocolate": {
    "kind": "item",
    "name": "Choco Comb",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:honeycomb_cinnabar": {
    "kind": "item",
    "name": "Cinnabar Comb",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:honeycomb_cobalt": {
    "kind": "item",
    "name": "Cobalt Comb",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:honeycomb_common_salvage": {
@@ -6371,41 +7166,48 @@
    "name": "Common Ore Comb",
    "tags": [
     "function:farm",
-    "needs:ore"
+    "needs:ore",
+    "review:auto"
    ]
   },
   "productivebees:honeycomb_ghostly": {
    "kind": "item",
    "name": "Ghostly Comb",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:honeycomb_milky": {
    "kind": "item",
    "name": "Milky Comb",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:honeycomb_powdery": {
    "kind": "item",
    "name": "Powdery Comb",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:milk_bottle": {
    "kind": "item",
    "name": "Milk",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "productivebees:nest_locator": {
    "kind": "item",
    "name": "Nest Locator",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "productivebees:spawn_egg_ashy_mining_bee": {
    "kind": "item",
@@ -6413,7 +7215,8 @@
    "tags": [
     "kind:food",
     "function:farm",
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "productivebees:spawn_egg_blue_banded_bee": {
@@ -6422,7 +7225,8 @@
    "tags": [
     "kind:food",
     "function:farm",
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "productivebees:spawn_egg_bumble_bee": {
@@ -6431,7 +7235,8 @@
    "tags": [
     "kind:food",
     "function:farm",
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "productivebees:spawn_egg_chocolate_mining_bee": {
@@ -6440,7 +7245,8 @@
    "tags": [
     "kind:food",
     "function:farm",
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "productivebees:spawn_egg_collector_bee": {
@@ -6449,7 +7255,8 @@
    "tags": [
     "kind:food",
     "function:farm",
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "productivebees:spawn_egg_creeper_bee": {
@@ -6458,7 +7265,8 @@
    "tags": [
     "kind:food",
     "function:farm",
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "productivebees:spawn_egg_cupid_bee": {
@@ -6467,7 +7275,8 @@
    "tags": [
     "kind:food",
     "function:farm",
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "productivebees:spawn_egg_digger_bee": {
@@ -6477,7 +7286,8 @@
     "kind:food",
     "function:farm",
     "function:mine",
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "productivebees:spawn_egg_dye_bee": {
@@ -6486,7 +7296,8 @@
    "tags": [
     "kind:food",
     "function:farm",
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "productivebees:spawn_egg_farmer_bee": {
@@ -6495,7 +7306,8 @@
    "tags": [
     "kind:food",
     "function:farm",
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "productivebees:spawn_egg_green_carpenter_bee": {
@@ -6504,7 +7316,8 @@
    "tags": [
     "kind:food",
     "function:farm",
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "productivebees:spawn_egg_hoarder_bee": {
@@ -6513,7 +7326,8 @@
    "tags": [
     "kind:food",
     "function:farm",
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "productivebees:spawn_egg_leafcutter_bee": {
@@ -6522,7 +7336,8 @@
    "tags": [
     "kind:food",
     "function:farm",
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "productivebees:spawn_egg_lumber_bee": {
@@ -6531,7 +7346,8 @@
    "tags": [
     "kind:food",
     "function:farm",
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "productivebees:spawn_egg_mason_bee": {
@@ -6540,7 +7356,8 @@
    "tags": [
     "kind:food",
     "function:farm",
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "productivebees:spawn_egg_neon_cuckoo_bee": {
@@ -6549,7 +7366,8 @@
    "tags": [
     "kind:food",
     "function:farm",
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "productivebees:spawn_egg_nomad_bee": {
@@ -6558,7 +7376,8 @@
    "tags": [
     "kind:food",
     "function:farm",
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "productivebees:spawn_egg_quarry_bee": {
@@ -6568,7 +7387,8 @@
     "kind:food",
     "function:farm",
     "function:mine",
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "productivebees:spawn_egg_rancher_bee": {
@@ -6577,7 +7397,8 @@
    "tags": [
     "kind:food",
     "function:farm",
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "productivebees:spawn_egg_reed_bee": {
@@ -6586,7 +7407,8 @@
    "tags": [
     "kind:food",
     "function:farm",
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "productivebees:spawn_egg_resin_bee": {
@@ -6595,7 +7417,8 @@
    "tags": [
     "kind:food",
     "function:farm",
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "productivebees:spawn_egg_sweat_bee": {
@@ -6604,7 +7427,8 @@
    "tags": [
     "kind:food",
     "function:farm",
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "productivebees:spawn_egg_yellow_black_carpenter_bee": {
@@ -6613,67 +7437,86 @@
    "tags": [
     "kind:food",
     "function:farm",
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "productivebees:stone_chip": {
    "kind": "item",
    "name": "Stone Chip",
    "tags": [
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "productivebees:stone_chip.named": {
    "kind": "item",
    "name": "%s Chip",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "productivebees:sturdy_bee_cage": {
    "kind": "item",
    "name": "Sturdy Bee Cage",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "productivebees:sugarbag_honeycomb": {
    "kind": "item",
    "name": "Sugarbag Honeycomb",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "productivebees:treat_on_a_stick": {
    "kind": "item",
    "name": "Treat on a Stick",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "productivebees:wax": {
    "kind": "item",
    "name": "Wax",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "productivebees:wither_skull_chip": {
    "kind": "item",
    "name": "Wither Skull Chip",
    "tags": [
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "productivebees:obsidian_shard": {
    "kind": "item",
    "name": "Obsidian Shard",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "productivebees:wood_chip": {
    "kind": "item",
    "name": "Wood Chip",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "productivebees:wood_chip.named": {
    "kind": "item",
    "name": "%s Chip",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "default"
 }

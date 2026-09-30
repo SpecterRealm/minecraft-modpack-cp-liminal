@@ -23,19 +23,26 @@
    "tags": [
     "function:generate",
     "power-role:makes",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "createcobblestone:generators.hovertext.itemprefix": {
    "kind": "block",
    "name": "Generates: ",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "createcobblestone:generators.hovertext.no_item": {
    "kind": "block",
    "name": "Click on the generator with a stone type to set the generator type.",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21.1-neoforge"
 }

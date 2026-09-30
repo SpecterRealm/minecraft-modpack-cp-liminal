@@ -21,7 +21,8 @@
    "name": "Wooden Wand",
    "tags": [
     "kind:tool",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "wands:gold_wand": {
@@ -29,7 +30,8 @@
    "name": "Gold Wand",
    "tags": [
     "kind:tool",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "wands:copper_wand": {
@@ -37,7 +39,8 @@
    "name": "Copper Wand",
    "tags": [
     "kind:tool",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "wands:creative_wand": {
@@ -45,7 +48,8 @@
    "name": "Creative Wand",
    "tags": [
     "kind:tool",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "wands:diamond_wand": {
@@ -53,41 +57,48 @@
    "name": "Diamond Wand",
    "tags": [
     "kind:tool",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "wands:gradient": {
    "kind": "item",
    "name": "Gradient",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "wands:iron_wand": {
    "kind": "item",
    "name": "Iron Wand",
    "tags": [
     "kind:tool",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "wands:magic_bag_1": {
    "kind": "item",
    "name": "Magic Bag Tier 1",
    "tags": [
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "wands:magic_bag_2": {
    "kind": "item",
    "name": "Magic Bag Tier 2",
    "tags": [
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "wands:magic_bag_3": {
    "kind": "item",
    "name": "Magic Bag Tier 3",
    "tags": [
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "wands:netherite_wand": {
@@ -96,32 +107,42 @@
    "tags": [
     "kind:tool",
     "function:enchant",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "wands:palette": {
    "kind": "item",
    "name": "Palette",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "wands:random": {
    "kind": "item",
    "name": "Random",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "wands:round_robin": {
    "kind": "item",
    "name": "Sequential",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "wands:stone_wand": {
    "kind": "item",
    "name": "Stone Wand",
    "tags": [
     "kind:tool",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "default"
 }

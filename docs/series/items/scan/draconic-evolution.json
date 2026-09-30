@@ -58,28 +58,32 @@
    "kind": "block",
    "name": "Draconic Fusion Crafting Injector",
    "tags": [
-    "kind:multiblock"
+    "kind:multiblock",
+    "review:auto"
    ]
   },
   "draconicevolution:awakened_draconium_block": {
    "kind": "block",
    "name": "Awakened Draconium Block",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:basic_crafting_injector": {
    "kind": "block",
    "name": "Draconium Fusion Crafting Injector",
    "tags": [
-    "kind:multiblock"
+    "kind:multiblock",
+    "review:auto"
    ]
   },
   "draconicevolution:basic_io_crystal": {
    "kind": "block",
    "name": "Basic Energy I/O Crystal",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "draconicevolution:basic_relay_crystal": {
@@ -89,42 +93,48 @@
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "draconicevolution:basic_wireless_crystal": {
    "kind": "block",
    "name": "Basic Wireless Energy Crystal",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "draconicevolution:celestial_manipulator": {
    "kind": "block",
    "name": "Celestial Manipulator",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:chaos_crystal": {
    "kind": "block",
    "name": "Chaos Crystal",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "draconicevolution:chaotic_crafting_injector": {
    "kind": "block",
    "name": "Chaotic Fusion Crafting Injector",
    "tags": [
-    "kind:multiblock"
+    "kind:multiblock",
+    "review:auto"
    ]
   },
   "draconicevolution:crafting_core": {
    "kind": "block",
    "name": "Fusion Crafting Core",
    "tags": [
-    "kind:multiblock"
+    "kind:multiblock",
+    "review:auto"
    ]
   },
   "draconicevolution:creative_op_capacitor": {
@@ -134,8 +144,9 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "power-type:mana",
-    "kind:block"
+    "power-type:source",
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:deepslate_draconium_ore": {
@@ -143,42 +154,48 @@
    "name": "Deepslate Draconium Ore",
    "tags": [
     "needs:ore",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:disenchanter": {
    "kind": "block",
    "name": "Disenchanter",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:dislocation_inhibitor": {
    "kind": "block",
    "name": "Dislocation Normalization Field Projector",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:dislocator_pedestal": {
    "kind": "block",
    "name": "Dislocator Pedestal",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:dislocator_receptacle": {
    "kind": "block",
    "name": "Dislocator Receptacle",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:draconic_io_crystal": {
    "kind": "block",
    "name": "Draconic Energy I/O Crystal",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "draconicevolution:draconic_relay_crystal": {
@@ -188,21 +205,24 @@
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "draconicevolution:draconic_wireless_crystal": {
    "kind": "block",
    "name": "Draconic Wireless Energy Crystal",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "draconicevolution:draconium_block": {
    "kind": "block",
    "name": "Draconium Block",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:draconium_chest": {
@@ -210,7 +230,8 @@
    "name": "Draconium Chest",
    "tags": [
     "function:store",
-    "kind:storage"
+    "kind:storage",
+    "review:auto"
    ]
   },
   "draconicevolution:end_draconium_ore": {
@@ -218,7 +239,8 @@
    "name": "Ender Draconium Ore",
    "tags": [
     "needs:ore",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:energy_core": {
@@ -228,7 +250,8 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:energy_core_stabilizer": {
@@ -238,49 +261,56 @@
     "function:store",
     "power-role:stores",
     "power-type:fe",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:energy_pylon": {
    "kind": "block",
    "name": "Energy Pylon",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:energy_transfuser": {
    "kind": "block",
    "name": "Energy Transfuser",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:entity_detector": {
    "kind": "block",
    "name": "Entity Detector",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:entity_detector_advanced": {
    "kind": "block",
    "name": "Advanced Entity Detector",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:fluid_gate": {
    "kind": "block",
    "name": "Fluid Gate",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:flux_gate": {
    "kind": "block",
    "name": "Flux Gate",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:generator": {
@@ -289,7 +319,8 @@
    "tags": [
     "function:generate",
     "power-role:makes",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:grinder": {
@@ -297,14 +328,16 @@
    "name": "Mob Grinder",
    "tags": [
     "kind:machine",
-    "function:process"
+    "function:process",
+    "review:auto"
    ]
   },
   "draconicevolution:infused_obsidian": {
    "kind": "block",
    "name": "Draconium Infused Obsidian",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:nether_draconium_ore": {
@@ -313,14 +346,16 @@
    "tags": [
     "needs:ore",
     "needs:nether",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:overworld_draconium_ore": {
    "kind": "block",
    "name": "Draconium Ore",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:particle_generator": {
@@ -329,14 +364,16 @@
    "tags": [
     "function:generate",
     "power-role:makes",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:placed_item": {
    "kind": "block",
    "name": "Placed Item",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:portal": {
@@ -344,21 +381,24 @@
    "name": "Portal",
    "tags": [
     "function:travel",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:potentiometer": {
    "kind": "block",
    "name": "Potentiometer",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:rain_sensor": {
    "kind": "block",
    "name": "Rain Sensor",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:reactor_core": {
@@ -367,7 +407,8 @@
    "tags": [
     "function:generate",
     "power-role:makes",
-    "kind:multiblock"
+    "kind:multiblock",
+    "review:auto"
    ]
   },
   "draconicevolution:reactor_injector": {
@@ -376,7 +417,8 @@
    "tags": [
     "function:generate",
     "power-role:makes",
-    "kind:multiblock"
+    "kind:multiblock",
+    "review:auto"
    ]
   },
   "draconicevolution:reactor_stabilizer": {
@@ -385,7 +427,8 @@
    "tags": [
     "function:generate",
     "power-role:makes",
-    "kind:multiblock"
+    "kind:multiblock",
+    "review:auto"
    ]
   },
   "draconicevolution:stabilized_spawner": {
@@ -393,28 +436,32 @@
    "name": "Stabilized Mob Spawner",
    "tags": [
     "kind:machine",
-    "function:process"
+    "function:process",
+    "review:auto"
    ]
   },
   "draconicevolution:structure_block": {
    "kind": "block",
    "name": "",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "draconicevolution:wyvern_crafting_injector": {
    "kind": "block",
    "name": "Wyvern Fusion Crafting Injector",
    "tags": [
-    "kind:multiblock"
+    "kind:multiblock",
+    "review:auto"
    ]
   },
   "draconicevolution:wyvern_io_crystal": {
    "kind": "block",
    "name": "Wyvern Energy I/O Crystal",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "draconicevolution:wyvern_relay_crystal": {
@@ -424,14 +471,16 @@
     "function:transfer",
     "power-role:transfers",
     "power-type:fe",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "draconicevolution:wyvern_wireless_crystal": {
    "kind": "block",
    "name": "Wyvern Wireless Energy Crystal",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "draconicevolution:draconic_arrow": {
@@ -440,14 +489,16 @@
    "tags": [
     "kind:mob",
     "kind:consumable",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "draconicevolution:draconic_guardian": {
    "kind": "entity",
    "name": "Chaos Guardian",
    "tags": [
-    "kind:mob"
+    "kind:mob",
+    "review:auto"
    ]
   },
   "draconicevolution:guardian_crystal": {
@@ -455,14 +506,16 @@
    "name": "Guardian Crystal",
    "tags": [
     "kind:mob",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "draconicevolution:guardian_projectile": {
    "kind": "entity",
    "name": "Guardian Projectile",
    "tags": [
-    "kind:mob"
+    "kind:mob",
+    "review:auto"
    ]
   },
   "draconicevolution:guardian_wither": {
@@ -470,66 +523,78 @@
    "name": "Guardian Wither",
    "tags": [
     "kind:mob",
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "draconicevolution:persistent_item": {
    "kind": "entity",
    "name": "Persistent Item",
    "tags": [
-    "kind:mob"
+    "kind:mob",
+    "review:auto"
    ]
   },
   "draconicevolution:advanced_dislocator": {
    "kind": "item",
    "name": "Advanced Dislocator",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "draconicevolution:advanced_magnet": {
    "kind": "item",
    "name": "Awakened Item Dislocator",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:awakened_core": {
    "kind": "item",
    "name": "Draconic Core",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "draconicevolution:awakened_draconium_dust": {
    "kind": "item",
    "name": "Awakened Draconium Dust",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "draconicevolution:awakened_draconium_ingot": {
    "kind": "item",
    "name": "Awakened Draconium Ingot",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "draconicevolution:awakened_draconium_nugget": {
    "kind": "item",
    "name": "Awakened Draconium Nugget",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "draconicevolution:chaos_shard": {
    "kind": "item",
    "name": "Chaos Shard",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "draconicevolution:chaotic_axe": {
    "kind": "item",
    "name": "Chaotic Axe",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "draconicevolution:chaotic_bow": {
@@ -537,7 +602,8 @@
    "name": "Chaotic Bow",
    "tags": [
     "kind:weapon",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "draconicevolution:chaotic_capacitor": {
@@ -546,18 +612,23 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "draconicevolution:chaotic_chestpiece": {
    "kind": "item",
    "name": "Chaotic Chestpiece",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "draconicevolution:chaotic_core": {
    "kind": "item",
    "name": "Chaotic Core",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "draconicevolution:chaotic_energy_core": {
    "kind": "item",
@@ -565,14 +636,16 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "draconicevolution:chaotic_hoe": {
    "kind": "item",
    "name": "Chaotic Hoe",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "draconicevolution:chaotic_pickaxe": {
@@ -580,14 +653,16 @@
    "name": "Chaotic Pickaxe",
    "tags": [
     "kind:tool",
-    "function:mine"
+    "function:mine",
+    "review:auto"
    ]
   },
   "draconicevolution:chaotic_shovel": {
    "kind": "item",
    "name": "Chaotic Shovel",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "draconicevolution:chaotic_staff": {
@@ -595,7 +670,8 @@
    "name": "Chaotic Staff of Power",
    "tags": [
     "kind:tool",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "draconicevolution:chaotic_sword": {
@@ -603,7 +679,8 @@
    "name": "Chaotic Sword",
    "tags": [
     "kind:weapon",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "draconicevolution:creative_capacitor": {
@@ -612,26 +689,31 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "draconicevolution:crystal_binder": {
    "kind": "item",
    "name": "Crystal Binder",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "draconicevolution:dislocator": {
    "kind": "item",
    "name": "Dislocator",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "draconicevolution:draconic_axe": {
    "kind": "item",
    "name": "Draconic Axe",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "draconicevolution:draconic_bow": {
@@ -639,7 +721,8 @@
    "name": "Draconic Bow",
    "tags": [
     "kind:weapon",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "draconicevolution:draconic_capacitor": {
@@ -648,13 +731,16 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "draconicevolution:draconic_chestpiece": {
    "kind": "item",
    "name": "Draconic Chestpiece",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "draconicevolution:draconic_energy_core": {
    "kind": "item",
@@ -662,14 +748,16 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "draconicevolution:draconic_hoe": {
    "kind": "item",
    "name": "Draconic Hoe",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "draconicevolution:draconic_pickaxe": {
@@ -677,14 +765,16 @@
    "name": "Draconic Pickaxe",
    "tags": [
     "kind:tool",
-    "function:mine"
+    "function:mine",
+    "review:auto"
    ]
   },
   "draconicevolution:draconic_shovel": {
    "kind": "item",
    "name": "Draconic Shovel",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "draconicevolution:draconic_staff": {
@@ -692,7 +782,8 @@
    "name": "Draconic Staff of Power",
    "tags": [
     "kind:tool",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "draconicevolution:draconic_sword": {
@@ -700,87 +791,102 @@
    "name": "Draconic Sword",
    "tags": [
     "kind:weapon",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "draconicevolution:draconium_core": {
    "kind": "item",
    "name": "Draconium Core",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "draconicevolution:draconium_dust": {
    "kind": "item",
    "name": "Draconium Dust",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "draconicevolution:draconium_ingot": {
    "kind": "item",
    "name": "Draconium Ingot",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "draconicevolution:draconium_nugget": {
    "kind": "item",
    "name": "Draconium Nugget",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "draconicevolution:dragon_heart": {
    "kind": "item",
    "name": "Dragon Heart",
    "tags": [
-    "needs:end"
+    "needs:end",
+    "review:auto"
    ]
   },
   "draconicevolution:info_tablet": {
    "kind": "item",
    "name": "Information Tablet",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_chaotic_aoe": {
    "kind": "item",
    "name": "Chaotic AOE Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_chaotic_damage": {
    "kind": "item",
    "name": "Chaotic Damage Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_chaotic_energy": {
    "kind": "item",
    "name": "Chaotic Energy Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_chaotic_energy_link": {
    "kind": "item",
    "name": "Chaos-Entangled Quantum Energy Tunnel",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "draconicevolution:item_chaotic_flight": {
    "kind": "item",
    "name": "Chaotic Flight Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_chaotic_jump": {
    "kind": "item",
    "name": "Chaotic Jump Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_chaotic_large_shield_capacity": {
@@ -789,42 +895,48 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_chaotic_proj_accuracy": {
    "kind": "item",
    "name": "Chaotic Projectile Accuracy Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_chaotic_proj_damage": {
    "kind": "item",
    "name": "Chaotic Projectile Damage Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_chaotic_proj_grav_comp": {
    "kind": "item",
    "name": "Chaotic Projectile Gravity Compensation Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_chaotic_proj_penetration": {
    "kind": "item",
    "name": "Chaotic Projectile Penetration Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_chaotic_proj_velocity": {
    "kind": "item",
    "name": "Chaotic Projectile Velocity Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_chaotic_shield_capacity": {
@@ -833,7 +945,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_chaotic_shield_control": {
@@ -842,7 +955,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_chaotic_shield_recovery": {
@@ -851,14 +965,16 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_chaotic_speed": {
    "kind": "item",
    "name": "Chaotic Speed Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_chaotic_tree_harvest": {
@@ -866,68 +982,79 @@
    "name": "Chaotic Deforestation Module",
    "tags": [
     "function:farm",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_chaotic_undying": {
    "kind": "item",
    "name": "Chaotic Undying Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconic_aoe": {
    "kind": "item",
    "name": "Draconic AOE Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconic_auto_feed": {
    "kind": "item",
    "name": "Draconic Auto Feed Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconic_damage": {
    "kind": "item",
    "name": "Draconic Damage Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconic_ender_collection": {
    "kind": "item",
    "name": "Filterable Ender Collection Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconic_energy": {
    "kind": "item",
    "name": "Draconic Energy Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconic_energy_link": {
    "kind": "item",
    "name": "Quantum Energy Tunnel",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "draconicevolution:item_draconic_flight": {
    "kind": "item",
    "name": "Draconic Flight Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconic_jump": {
    "kind": "item",
    "name": "Draconic Jump Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconic_large_shield_capacity": {
@@ -936,49 +1063,56 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconic_proj_accuracy": {
    "kind": "item",
    "name": "Draconic Projectile Accuracy Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconic_proj_anti_immune": {
    "kind": "item",
    "name": "Projectile Immunity Cancellation Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconic_proj_damage": {
    "kind": "item",
    "name": "Draconic Projectile Damage Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconic_proj_grav_comp": {
    "kind": "item",
    "name": "Draconic Projectile Gravity Compensation Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconic_proj_penetration": {
    "kind": "item",
    "name": "Draconic Projectile Penetration Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconic_proj_velocity": {
    "kind": "item",
    "name": "Draconic Projectile Velocity Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconic_shield_capacity": {
@@ -987,7 +1121,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconic_shield_control": {
@@ -996,7 +1131,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconic_shield_recovery": {
@@ -1005,152 +1141,175 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconic_speed": {
    "kind": "item",
    "name": "Draconic Speed Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconic_tree_harvest": {
    "kind": "item",
    "name": "Draconic Forest Reduction Assistant",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconic_undying": {
    "kind": "item",
    "name": "Draconic Undying Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconium_aoe": {
    "kind": "item",
    "name": "AOE Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconium_auto_feed": {
    "kind": "item",
    "name": "Auto Feed Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconium_damage": {
    "kind": "item",
    "name": "Damage Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconium_energy": {
    "kind": "item",
    "name": "Energy Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconium_jump": {
    "kind": "item",
    "name": "Jump Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_draconium_speed": {
    "kind": "item",
    "name": "Speed Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_aoe": {
    "kind": "item",
    "name": "Wyvern AOE Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_aqua_adapt": {
    "kind": "item",
    "name": "Aqua Adept Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_auto_feed": {
    "kind": "item",
    "name": "Wyvern Auto Feed Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_auto_fire": {
    "kind": "item",
    "name": "Auto Fire Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_damage": {
    "kind": "item",
    "name": "Wyvern Damage Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_ender_collection": {
    "kind": "item",
    "name": "Ender Collection Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_energy": {
    "kind": "item",
    "name": "Wyvern Energy Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_energy_link": {
    "kind": "item",
    "name": "Wireless Energy Link",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "draconicevolution:item_wyvern_flight": {
    "kind": "item",
    "name": "Wyvern Flight Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_hill_step": {
    "kind": "item",
    "name": "Hill Step Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_jump": {
    "kind": "item",
    "name": "Wyvern Jump Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_junk_filter": {
    "kind": "item",
    "name": "Selective Incineration Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_large_shield_capacity": {
@@ -1159,56 +1318,64 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_mining_stability": {
    "kind": "item",
    "name": "Mining Stabilizer Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_night_vision": {
    "kind": "item",
    "name": "Night Vision Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_proj_accuracy": {
    "kind": "item",
    "name": "Wyvern Projectile Accuracy Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_proj_damage": {
    "kind": "item",
    "name": "Wyvern Projectile Damage Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_proj_grav_comp": {
    "kind": "item",
    "name": "Wyvern Projectile Gravity Compensation Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_proj_penetration": {
    "kind": "item",
    "name": "Wyvern Projectile Penetration Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_proj_velocity": {
    "kind": "item",
    "name": "Wyvern Projectile Velocity Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_shield_capacity": {
@@ -1217,7 +1384,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_shield_control": {
@@ -1226,7 +1394,8 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_shield_recovery": {
@@ -1235,84 +1404,101 @@
    "tags": [
     "kind:armor",
     "function:defend",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_speed": {
    "kind": "item",
    "name": "Wyvern Speed Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_tree_harvest": {
    "kind": "item",
    "name": "Wyvern Tree Harvester",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "draconicevolution:item_wyvern_undying": {
    "kind": "item",
    "name": "Wyvern Undying Module",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:large_chaos_frag": {
    "kind": "item",
    "name": "Large Chaos Fragment",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "draconicevolution:magnet": {
    "kind": "item",
    "name": "Item Dislocator",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:medium_chaos_frag": {
    "kind": "item",
    "name": "Small Chaos Fragment",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "draconicevolution:mob_soul": {
    "kind": "item",
    "name": "Soul",
    "tags": [
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "draconicevolution:module_core": {
    "kind": "item",
    "name": "Module Core",
    "tags": [
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:p2p_dislocator": {
    "kind": "item",
    "name": "Bound Dislocator (Point-to-Point)",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "draconicevolution:p2p_dislocator_unbound": {
    "kind": "item",
    "name": "Un-Bound Dislocator (Point-to-Point)",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "draconicevolution:player_dislocator": {
    "kind": "item",
    "name": "Bound Dislocator (Player)",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "draconicevolution:player_dislocator_unbound": {
    "kind": "item",
    "name": "Un-Bound Dislocator (Player)",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "draconicevolution:reactor_prt_focus_ring": {
    "kind": "item",
@@ -1323,7 +1509,8 @@
     "kind:multiblock",
     "kind:tool",
     "function:enchant",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "draconicevolution:reactor_prt_in_rotor": {
@@ -1332,7 +1519,8 @@
    "tags": [
     "function:generate",
     "power-role:makes",
-    "kind:multiblock"
+    "kind:multiblock",
+    "review:auto"
    ]
   },
   "draconicevolution:reactor_prt_out_rotor": {
@@ -1341,7 +1529,8 @@
    "tags": [
     "function:generate",
     "power-role:makes",
-    "kind:multiblock"
+    "kind:multiblock",
+    "review:auto"
    ]
   },
   "draconicevolution:reactor_prt_rotor_full": {
@@ -1350,7 +1539,8 @@
    "tags": [
     "function:generate",
     "power-role:makes",
-    "kind:multiblock"
+    "kind:multiblock",
+    "review:auto"
    ]
   },
   "draconicevolution:reactor_prt_stab_frame": {
@@ -1359,21 +1549,24 @@
    "tags": [
     "function:generate",
     "power-role:makes",
-    "kind:multiblock"
+    "kind:multiblock",
+    "review:auto"
    ]
   },
   "draconicevolution:small_chaos_frag": {
    "kind": "item",
    "name": "Tiny Chaos Fragment",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "draconicevolution:wyvern_axe": {
    "kind": "item",
    "name": "Wyvern Axe",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "draconicevolution:wyvern_bow": {
@@ -1381,7 +1574,8 @@
    "name": "Wyvern Bow",
    "tags": [
     "kind:weapon",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   },
   "draconicevolution:wyvern_capacitor": {
@@ -1390,18 +1584,23 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "draconicevolution:wyvern_chestpiece": {
    "kind": "item",
    "name": "Wyvern Chestpiece",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "draconicevolution:wyvern_core": {
    "kind": "item",
    "name": "Wyvern Core",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "draconicevolution:wyvern_energy_core": {
    "kind": "item",
@@ -1409,14 +1608,16 @@
    "tags": [
     "function:store",
     "power-role:stores",
-    "power-type:fe"
+    "power-type:fe",
+    "review:auto"
    ]
   },
   "draconicevolution:wyvern_hoe": {
    "kind": "item",
    "name": "Wyvern Hoe",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "draconicevolution:wyvern_pickaxe": {
@@ -1424,14 +1625,16 @@
    "name": "Wyvern Pickaxe",
    "tags": [
     "kind:tool",
-    "function:mine"
+    "function:mine",
+    "review:auto"
    ]
   },
   "draconicevolution:wyvern_shovel": {
    "kind": "item",
    "name": "Wyvern Shovel",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "draconicevolution:wyvern_sword": {
@@ -1439,9 +1642,12 @@
    "name": "Wyvern Sword",
    "tags": [
     "kind:weapon",
-    "function:defend"
+    "function:defend",
+    "review:auto"
    ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21"
 }

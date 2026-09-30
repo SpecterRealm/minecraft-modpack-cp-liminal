@@ -63,21 +63,24 @@
    "kind": "block",
    "name": "Market",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "farmingforblockheads:chicken_nest": {
    "kind": "block",
    "name": "Chicken Nest",
    "tags": [
-    "kind:food"
+    "kind:food",
+    "review:auto"
    ]
   },
   "farmingforblockheads:feeding_trough": {
    "kind": "block",
    "name": "Feeding Trough",
    "tags": [
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "farmingforblockheads:fertilized_farmland_rich": {
@@ -85,7 +88,8 @@
    "name": "Fertilized Farmland",
    "tags": [
     "function:farm",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "farmingforblockheads:fertilized_farmland_healthy": {
@@ -93,7 +97,8 @@
    "name": "Fertilized Farmland",
    "tags": [
     "function:farm",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "farmingforblockheads:fertilized_farmland_stable": {
@@ -101,7 +106,8 @@
    "name": "Fertilized Farmland",
    "tags": [
     "function:farm",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "farmingforblockheads:fertilized_farmland_rich_stable": {
@@ -109,7 +115,8 @@
    "name": "Fertilized Farmland",
    "tags": [
     "function:farm",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "farmingforblockheads:fertilized_farmland_healthy_stable": {
@@ -117,37 +124,44 @@
    "name": "Fertilized Farmland",
    "tags": [
     "function:farm",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "farmingforblockheads:red_fertilizer": {
    "kind": "item",
    "name": "Red Fertilizer",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "farmingforblockheads:green_fertilizer": {
    "kind": "item",
    "name": "Green Fertilizer",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "farmingforblockheads:yellow_fertilizer": {
    "kind": "item",
    "name": "Yellow Fertilizer",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "farmingforblockheads:merchant": {
    "kind": "entity",
    "name": "Merchant",
    "tags": [
-    "kind:mob"
+    "kind:mob",
+    "review:auto"
    ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "v21.1.13"
 }

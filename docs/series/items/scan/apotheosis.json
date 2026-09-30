@@ -86,161 +86,198 @@
   "apotheosis:boss_summoner": {
    "kind": "item",
    "name": "Apothic Invader Summoner",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "apotheosis:gem.cracked": {
    "kind": "item",
    "name": "Cracked %s",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "apotheosis:gem.chipped": {
    "kind": "item",
    "name": "Chipped %s",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "apotheosis:gem.flawed": {
    "kind": "item",
    "name": "Flawed %s",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "apotheosis:gem.normal": {
    "kind": "item",
    "name": "%s",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "apotheosis:gem.flawless": {
    "kind": "item",
    "name": "Flawless %s",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "apotheosis:gem.perfect": {
    "kind": "item",
    "name": "Perfect %s",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "apotheosis:vial_of_extraction": {
    "kind": "item",
    "name": "Vial of Arcane Extraction",
    "tags": [
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "apotheosis:vial_of_expulsion": {
    "kind": "item",
    "name": "Vial of Searing Expulsion",
    "tags": [
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "apotheosis:vial_of_unnaming": {
    "kind": "item",
    "name": "Vial of Unnaming",
    "tags": [
-    "kind:consumable"
+    "kind:consumable",
+    "review:auto"
    ]
   },
   "apotheosis:gem_dust": {
    "kind": "item",
    "name": "Gem Dust",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "apotheosis:mysterious_scrap_metal": {
    "kind": "item",
    "name": "Mysterious Scrap Metal",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "apotheosis:timeworn_fabric": {
    "kind": "item",
    "name": "Timeworn Fabric",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "apotheosis:luminous_crystal_shard": {
    "kind": "item",
    "name": "Luminous Crystal Shard",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "apotheosis:arcane_sands": {
    "kind": "item",
    "name": "Arcane Sands",
    "tags": [
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "apotheosis:godforged_pearl": {
    "kind": "item",
    "name": "Godforged Pearl",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "apotheosis:god_fused_pearl": {
    "kind": "item",
    "name": "God-Fused Pearl",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "apotheosis:ancient_material": {
    "kind": "item",
    "name": "Manifestation of Infinity",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "apotheosis:gem_fused_slate": {
    "kind": "item",
    "name": "Gem-Fused Slate",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "apotheosis:sigil_of_socketing": {
    "kind": "item",
    "name": "Sigil of Socketing",
    "tags": [
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "apotheosis:sigil_of_withdrawal": {
    "kind": "item",
    "name": "Sigil of Withdrawal",
    "tags": [
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "apotheosis:sigil_of_rebirth": {
    "kind": "item",
    "name": "Sigil of Rebirth",
    "tags": [
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "apotheosis:sigil_of_enhancement": {
    "kind": "item",
    "name": "Sigil of Enhancement",
    "tags": [
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "apotheosis:sigil_of_unnaming": {
    "kind": "item",
    "name": "Sigil of Unnaming",
    "tags": [
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "apotheosis:sigil_of_malice": {
    "kind": "item",
    "name": "Sigil of Malice",
    "tags": [
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "apotheosis:sigil_of_supremacy": {
    "kind": "item",
    "name": "Sigil of Supremacy",
    "tags": [
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "apotheosis:spawner_chain": {
@@ -248,7 +285,8 @@
    "name": "Spawner Chain",
    "tags": [
     "kind:machine",
-    "function:process"
+    "function:process",
+    "review:auto"
    ]
   },
   "apotheosis:spawner_rune": {
@@ -257,7 +295,8 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "apotheosis:infused_spawner_rune": {
@@ -266,7 +305,8 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "apotheosis:frontier_spawner_upgrade_rune": {
@@ -276,7 +316,8 @@
     "kind:machine",
     "function:process",
     "function:enchant",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "apotheosis:ascent_spawner_upgrade_rune": {
@@ -286,7 +327,8 @@
     "kind:machine",
     "function:process",
     "function:enchant",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "apotheosis:summit_spawner_upgrade_rune": {
@@ -296,7 +338,8 @@
     "kind:machine",
     "function:process",
     "function:enchant",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "apotheosis:pinnacle_spawner_upgrade_rune": {
@@ -306,7 +349,8 @@
     "kind:machine",
     "function:process",
     "function:enchant",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "apotheosis:spawn_range_spawner_rune": {
@@ -315,7 +359,8 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "apotheosis:redstone_control_spawner_rune": {
@@ -324,7 +369,8 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "apotheosis:ignore_light_spawner_rune": {
@@ -334,7 +380,8 @@
     "kind:machine",
     "function:process",
     "function:enchant",
-    "function:light"
+    "function:light",
+    "review:auto"
    ]
   },
   "apotheosis:initial_health_spawner_rune": {
@@ -343,7 +390,8 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "apotheosis:silent_spawner_rune": {
@@ -352,7 +400,8 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "apotheosis:youthful_spawner_rune": {
@@ -361,7 +410,8 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "apotheosis:burning_spawner_rune": {
@@ -370,7 +420,8 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "apotheosis:no_ai_spawner_rune": {
@@ -379,7 +430,8 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "apotheosis:ignore_conditions_spawner_rune": {
@@ -388,7 +440,8 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "apotheosis:ignore_players_spawner_rune": {
@@ -397,7 +450,8 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "apotheosis:echoing_spawner_rune": {
@@ -406,7 +460,8 @@
    "tags": [
     "kind:machine",
     "function:process",
-    "function:enchant"
+    "function:enchant",
+    "review:auto"
    ]
   },
   "apotheosis:iron_upgrade_smithing_template": {
@@ -414,61 +469,77 @@
    "name": "Smithing Template",
    "tags": [
     "function:craft",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "apotheosis:iron_upgrade_smithing_template.applies_to": {
    "kind": "item",
    "name": "Stone and Chain Equipment",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "apotheosis:iron_upgrade_smithing_template.ingredients": {
    "kind": "item",
    "name": "4 Iron Ingots",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "apotheosis:gold_upgrade_smithing_template": {
    "kind": "item",
    "name": "Smithing Template",
    "tags": [
     "function:craft",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "apotheosis:gold_upgrade_smithing_template.applies_to": {
    "kind": "item",
    "name": "Iron Equipment",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "apotheosis:gold_upgrade_smithing_template.ingredients": {
    "kind": "item",
    "name": "4 Gold Ingots",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "apotheosis:diamond_upgrade_smithing_template": {
    "kind": "item",
    "name": "Smithing Template",
    "tags": [
     "function:craft",
-    "kind:gadget"
+    "kind:gadget",
+    "review:auto"
    ]
   },
   "apotheosis:diamond_upgrade_smithing_template.applies_to": {
    "kind": "item",
    "name": "Golden Equipment",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "apotheosis:diamond_upgrade_smithing_template.ingredients": {
    "kind": "item",
    "name": "4 Diamonds",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "apotheosis:boss_spawner": {
    "kind": "block",
    "name": "Caged Invader",
    "tags": [
     "kind:machine",
-    "function:process"
+    "function:process",
+    "review:auto"
    ]
   },
   "apotheosis:gem_cutting_table": {
@@ -476,7 +547,8 @@
    "name": "Gem Cutting Table",
    "tags": [
     "function:craft",
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "apotheosis:salvaging_table": {
@@ -484,7 +556,8 @@
    "name": "Salvaging Table",
    "tags": [
     "function:craft",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "apotheosis:simple_reforging_table": {
@@ -492,7 +565,8 @@
    "name": "Simple Reforging Table",
    "tags": [
     "function:craft",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "apotheosis:reforging_table": {
@@ -500,7 +574,8 @@
    "name": "Reforging Table",
    "tags": [
     "function:craft",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "apotheosis:augmenting_table": {
@@ -508,48 +583,63 @@
    "name": "Augmenting Table",
    "tags": [
     "function:craft",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "apotheosis:gem_case": {
    "kind": "block",
    "name": "Gem Case",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "apotheosis:ender_gem_case": {
    "kind": "block",
    "name": "Gem Case of House Fabergé",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "apotheosis:lucky_foot": {
    "kind": "item",
    "name": "Lucky Rabbit's Foot",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "apotheosis:ender_lead": {
    "kind": "item",
    "name": "Ender Lead",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "apotheosis:music_disc_flash": {
    "kind": "item",
    "name": "Music Disc",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "apotheosis:music_disc_glimmer": {
    "kind": "item",
    "name": "Music Disc",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "apotheosis:music_disc_shimmer": {
    "kind": "item",
    "name": "Music Disc",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21"
 }

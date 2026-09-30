@@ -43,7 +43,8 @@
    "name": "Seed analyzer",
    "tags": [
     "function:farm",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "agricraft:crop_sticks": {
@@ -51,67 +52,83 @@
    "name": "Crop Sticks",
    "tags": [
     "function:farm",
-    "kind:block"
+    "kind:block",
+    "review:auto"
    ]
   },
   "agricraft:debugger": {
    "kind": "item",
    "name": "Debugger",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "agricraft:journal": {
    "kind": "item",
    "name": "Agricultural Journal",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "agricraft:clipper": {
    "kind": "item",
    "name": "Plant Clipper",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "agricraft:magnifying_glass": {
    "kind": "item",
    "name": "Magnifying Glass",
    "tags": [
-    "kind:decoration"
+    "kind:decoration",
+    "review:auto"
    ]
   },
   "agricraft:wooden_rake": {
    "kind": "item",
    "name": "Wooden Hand Rake",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "agricraft:iron_rake": {
    "kind": "item",
    "name": "Iron Hand Rake",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "agricraft:trowel": {
    "kind": "item",
    "name": "Gardening Trowel",
    "tags": [
-    "kind:tool"
+    "kind:tool",
+    "review:auto"
    ]
   },
   "agricraft:wooden_crop_sticks": {
    "kind": "item",
    "name": "Crop Sticks",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "agricraft:iron_crop_sticks": {
    "kind": "item",
    "name": "Iron Crop Sticks",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "agricraft:obsidian_crop_sticks": {
    "kind": "item",
    "name": "Obsidian Crop Sticks",
    "tags": [
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "agricraft:seed_bag": {
@@ -119,56 +136,67 @@
    "name": "Suspiciously Savvy Seed Sorting Sack",
    "tags": [
     "kind:storage",
-    "function:farm"
+    "function:farm",
+    "review:auto"
    ]
   },
   "agricraft:copper_nugget": {
    "kind": "item",
    "name": "Copper Nugget",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "agricraft:coal_pebble": {
    "kind": "item",
    "name": "Coal Pebble",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "agricraft:diamond_shard": {
    "kind": "item",
    "name": "Diamond Shard",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "agricraft:emerald_shard": {
    "kind": "item",
    "name": "Emerald Shard",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "agricraft:quartz_shard": {
    "kind": "item",
    "name": "Quartz Shard",
    "tags": [
-    "kind:material"
+    "kind:material",
+    "review:auto"
    ]
   },
   "agricraft:netherite_sliver": {
    "kind": "item",
    "name": "Netherite Sliver",
    "tags": [
-    "needs:nether"
+    "needs:nether",
+    "review:auto"
    ]
   },
   "agricraft:amathyllis_petal": {
    "kind": "item",
    "name": "Amathyllis Petal",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "1.21"
 }

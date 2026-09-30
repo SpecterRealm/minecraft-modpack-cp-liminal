@@ -26,33 +26,47 @@
   "tag:rightclickharvest.blacklist": {
    "kind": "block",
    "name": "Harvest Blacklist",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "tag:rightclickharvest.hoe_never_required": {
    "kind": "block",
    "name": "Hoe Not Required",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "tag:rightclickharvest.radius_harvest_blacklist": {
    "kind": "block",
    "name": "Radius Harvest Blacklist",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "tag:rightclickharvest.low_tier_hoes": {
    "kind": "item",
    "name": "Low Tier Hoes",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "tag:rightclickharvest.mid_tier_hoes": {
    "kind": "item",
    "name": "Mid Tier Hoes",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   },
   "tag:rightclickharvest.high_tier_hoes": {
    "kind": "item",
    "name": "High Tier Hoes",
-   "tags": []
+   "tags": [
+    "review:auto"
+   ]
   }
  },
- "tags_source": "auto (scripts/series-item-autotag.py)"
+ "tags_source": "auto (scripts/series-item-autotag.py)",
+ "tagged_on": "2026-09-30",
+ "tagged_version": "4.6.1+1.21.1"
 }

@@ -5,6 +5,8 @@ Usage:
     python3 scripts/series-item-tags.py check               # unknown tags in data/*.json
     python3 scripts/series-item-tags.py check --missing     # entries missing power-role / power-type / kind / function
     python3 scripts/series-item-tags.py find facet:value ... [--all]  # items carrying ALL the given tags (--all adds auto-tagged scan items)
+    python3 scripts/series-item-tags.py stale               # entries to re-check (no record, older version, still auto)
+    python3 scripts/series-item-tags.py todo                # same, plus the biggest unchecked mods
     python3 scripts/series-item-tags.py stats               # tag counts over the auto-tagged scan items
 """
 import glob
@@ -72,6 +74,34 @@ def main():
             for mod, it in scan_entries():
                 if want <= set(it["tags"]):
                     print(f"{mod} / {it['name']}  ({it['id']}, auto)")
+        return 0
+    if args[0] in ("stale", "todo"):
+        src = json.load(open(os.path.join(ITEMS, "sources.json")))["mods"]
+        cur = {}
+        for slug, info in src.items():
+            if info.get("ref"):
+                cur[slug] = re.sub(r"^v", "", str(info["ref"]))
+        stale = 0
+        for p in sorted(glob.glob(os.path.join(ITEMS, "data", "*.json"))):
+            d = json.load(open(p, encoding="utf-8"))
+            slug = os.path.basename(p)[:-5]
+            for it in d.get("items", []):
+                r = it.get("review")
+                if not r:
+                    print(f"no review record: {d.get('name')} / {it.get('name')}")
+                    stale += 1
+                elif slug in cur and r.get("mod_version") and r["mod_version"] != cur[slug]:
+                    print(f"older version: {d.get('name')} / {it.get('name')}  reviewed {r['date']} against {r['mod_version']}, pin is {cur[slug]}")
+                    stale += 1
+        from collections import Counter
+        todo = Counter()
+        for mod, it in scan_entries():
+            if "review:auto" in it["tags"]:
+                todo[mod] += 1
+        print(f"\n{stale} hand-checked entries to revisit; {sum(todo.values())} auto-tagged items still unchecked in {len(todo)} mods")
+        if args[0] == "todo":
+            for mod, n in todo.most_common(25):
+                print(f"{n:6}  {mod}")
         return 0
     if args[0] == "stats":
         from collections import Counter
