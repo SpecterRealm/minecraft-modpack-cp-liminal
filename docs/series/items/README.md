@@ -9,6 +9,8 @@ This is not a wish list. Each entry records what the item does, its numbers, wha
 | Path | What |
 |---|---|
 | `data/<mod>.json` | One file per mod: pin, source, tuning levers, items |
+| `sources.json` / [`sources.md`](sources.md) | Where each mod's source lives and which ref matches our pin (the running list) |
+| `../../../scripts/series-mod-sources.py` | `check` verifies repos with `git ls-remote`; `report` writes `sources.md` |
 | `../../../scripts/series-item-catalog.py` | `list`, `report --category <c>`, `levers --mod <m>` |
 
 ## How a mod gets catalogued
@@ -40,6 +42,10 @@ Order to reach for, cheapest first:
 1. **Config**: numbers the mod exposes (for example Powah's per-tier generation, capacity and transfer). No script, and easy to explain to players.
 2. **Data maps and datapack files**: NeoForge data maps and generated data (Powah's magmator fuels, heat sources and coolants are data maps). Can be edited in a datapack or with KubeJS.
 3. **KubeJS**: recipes, tags, loot, and mod-specific addon hooks, for anything the first two cannot change.
+
+## Source coverage
+
+`sources.md` is the running list of which mods have public source we can read, at which ref, and which do not. Refresh it with `python3 scripts/series-mod-sources.py check --root ..` then `report`. Mods with no public source (or closed source) can only be catalogued from the jar or the game.
 
 ## Status
 
