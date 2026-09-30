@@ -1,0 +1,81 @@
+{
+ "repo": "ZsoltMolnarrr/SpellEngine",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "rpg_series",
+  "spell_engine"
+ ],
+ "item_count": 6,
+ "compat": [
+  {
+   "id": "cloth_config",
+   "slug": "cloth-config",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "compat-import": 2,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "emi",
+   "slug": "emi",
+   "evidence": {
+    "compat-import": 5
+   }
+  },
+  {
+   "id": "ftbteams",
+   "slug": "ftb-teams-forge",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "iris",
+   "slug": "iris",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "playeranimator",
+   "slug": "playeranimator",
+   "evidence": {
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "spell_engine:scroll": {
+   "kind": "item",
+   "name": "Spell Scroll"
+  },
+  "spell_engine:spell_scroll": {
+   "kind": "item",
+   "name": "Spell Scroll"
+  },
+  "spell_engine:scroll.table_hint": {
+   "kind": "item",
+   "name": "Attachable to Spell Book using Spell Binding Table"
+  },
+  "spell_engine:spell_projectile": {
+   "kind": "entity",
+   "name": "Spell"
+  },
+  "spell_engine:spell_area_effect": {
+   "kind": "entity",
+   "name": "Area Effect"
+  },
+  "spell_engine:spell_binding": {
+   "kind": "block",
+   "name": "Spell Binding Table"
+  }
+ }
+}

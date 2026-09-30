@@ -1,0 +1,167 @@
+{
+ "repo": "aaronhowser1/genetics-resequenced",
+ "ref": "1.21-Neoforge",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "geneticsresequenced"
+ ],
+ "item_count": 35,
+ "compat": [
+  {
+   "id": "modonomicon",
+   "slug": "modonomicon",
+   "evidence": {
+    "data-ref": 121
+   }
+  },
+  {
+   "id": "patchouli",
+   "slug": "patchouli",
+   "evidence": {
+    "data-ref": 3
+   }
+  }
+ ],
+ "items": {
+  "geneticsresequenced:advanced_incubator": {
+   "kind": "block",
+   "name": "Advanced Incubator"
+  },
+  "geneticsresequenced:anti_field_block": {
+   "kind": "block",
+   "name": "Anti-Field Block"
+  },
+  "geneticsresequenced:bioluminescence": {
+   "kind": "block",
+   "name": "Bioluminescence Glow"
+  },
+  "geneticsresequenced:blood_purifier": {
+   "kind": "block",
+   "name": "Blood Purifier"
+  },
+  "geneticsresequenced:cell_analyzer": {
+   "kind": "block",
+   "name": "Cell Analyzer"
+  },
+  "geneticsresequenced:coal_generator": {
+   "kind": "block",
+   "name": "Coal Generator"
+  },
+  "geneticsresequenced:dna_decryptor": {
+   "kind": "block",
+   "name": "DNA Decryptor"
+  },
+  "geneticsresequenced:dna_extractor": {
+   "kind": "block",
+   "name": "DNA Extractor"
+  },
+  "geneticsresequenced:incubator": {
+   "kind": "block",
+   "name": "Incubator"
+  },
+  "geneticsresequenced:plasmid_infuser": {
+   "kind": "block",
+   "name": "Plasmid Infuser"
+  },
+  "geneticsresequenced:plasmid_injector": {
+   "kind": "block",
+   "name": "Plasmid Injector"
+  },
+  "geneticsresequenced:web_defense_block": {
+   "kind": "block",
+   "name": "Web Defense Cobweb"
+  },
+  "geneticsresequenced:support_slime": {
+   "kind": "entity",
+   "name": "Support Slime"
+  },
+  "geneticsresequenced:anti_field_orb": {
+   "kind": "item",
+   "name": "Anti-Field Orb"
+  },
+  "geneticsresequenced:anti_plasmid": {
+   "kind": "item",
+   "name": "Anti-Plasmid"
+  },
+  "geneticsresequenced:cell": {
+   "kind": "item",
+   "name": "Cell"
+  },
+  "geneticsresequenced:dna_helix": {
+   "kind": "item",
+   "name": "DNA Helix"
+  },
+  "geneticsresequenced:dragon_health_crystal": {
+   "kind": "item",
+   "name": "Dragon Health Crystal"
+  },
+  "geneticsresequenced:gene_checker": {
+   "kind": "item",
+   "name": "Gene Checker"
+  },
+  "geneticsresequenced:gmo_cell": {
+   "kind": "item",
+   "name": "Genetically Modified Cell"
+  },
+  "geneticsresequenced:metal_syringe.empty": {
+   "kind": "item",
+   "name": "Empty Metal Syringe"
+  },
+  "geneticsresequenced:metal_syringe.full": {
+   "kind": "item",
+   "name": "Full Metal Syringe"
+  },
+  "geneticsresequenced:organic_matter": {
+   "kind": "item",
+   "name": "Organic Matter"
+  },
+  "geneticsresequenced:overclocker": {
+   "kind": "item",
+   "name": "Overclocker"
+  },
+  "geneticsresequenced:plasmid": {
+   "kind": "item",
+   "name": "Plasmid"
+  },
+  "geneticsresequenced:scraper": {
+   "kind": "item",
+   "name": "Scraper"
+  },
+  "geneticsresequenced:support_slime_spawn_egg": {
+   "kind": "item",
+   "name": "Support Slime Spawn Egg"
+  },
+  "geneticsresequenced:syringe.empty": {
+   "kind": "item",
+   "name": "Empty Syringe"
+  },
+  "geneticsresequenced:syringe.full": {
+   "kind": "item",
+   "name": "Full Syringe"
+  },
+  "tag:geneticsresequenced.activates_shoot_fireball_gene": {
+   "kind": "item",
+   "name": "Usable for \"Shoot Fireballs\" Gene"
+  },
+  "tag:geneticsresequenced.enchantable.delicate_touch": {
+   "kind": "item",
+   "name": "Delicate Touch Enchantable"
+  },
+  "tag:geneticsresequenced.enchantable.surgical_precision": {
+   "kind": "item",
+   "name": "Surgical Precision Enchantable"
+  },
+  "tag:geneticsresequenced.item_magnet_gene_blacklist": {
+   "kind": "item",
+   "name": "Blacklisted from \"Item Magnet\" Gene"
+  },
+  "tag:geneticsresequenced.prevents_some_mob_interaction": {
+   "kind": "item",
+   "name": "Prevents item interaction with entities that have the #geneticsresequenced:allows_preventing_interaction tag\nUsed for Villagers etc that already have their own interactions"
+  },
+  "tag:geneticsresequenced.syringes": {
+   "kind": "item",
+   "name": "Syringes"
+  }
+ }
+}

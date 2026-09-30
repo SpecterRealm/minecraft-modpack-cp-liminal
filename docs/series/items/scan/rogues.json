@@ -1,0 +1,264 @@
+{
+ "repo": "ZsoltMolnarrr/Rogues",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "rogues"
+ ],
+ "item_count": 61,
+ "compat": [
+  {
+   "id": "lithostitched",
+   "slug": "lithostitched",
+   "evidence": {
+    "data-ref": 5
+   }
+  }
+ ],
+ "items": {
+  "rogues:arms_workbench": {
+   "kind": "block",
+   "name": "Arms Station"
+  },
+  "rogues:arms_workbench.hint": {
+   "kind": "block",
+   "name": "Workbench for Arms Merchant Villagers."
+  },
+  "minecraft:villager.arms_merchant": {
+   "kind": "entity",
+   "name": "Arms Dealer"
+  },
+  "minecraft:villager.rogues.arms_merchant": {
+   "kind": "entity",
+   "name": "Arms Dealer"
+  },
+  "rogues:bear_trap": {
+   "kind": "entity",
+   "name": "Bear Trap"
+  },
+  "rogues:aeternium_dagger": {
+   "kind": "item",
+   "name": "Aeternium Dagger"
+  },
+  "rogues:aeternium_double_axe": {
+   "kind": "item",
+   "name": "Aeternium Double Axe"
+  },
+  "rogues:aeternium_glaive": {
+   "kind": "item",
+   "name": "Aeternium Glaive"
+  },
+  "rogues:aeternium_sickle": {
+   "kind": "item",
+   "name": "Aeternium Sickle"
+  },
+  "rogues:aether_dagger": {
+   "kind": "item",
+   "name": "Valkyrie Shiv"
+  },
+  "rogues:aether_double_axe": {
+   "kind": "item",
+   "name": "Holy Double Axe"
+  },
+  "rogues:aether_glaive": {
+   "kind": "item",
+   "name": "Gilded Battle Glaive"
+  },
+  "rogues:aether_sickle": {
+   "kind": "item",
+   "name": "Heavenly Harvester"
+  },
+  "rogues:assassin_armor_chest": {
+   "kind": "item",
+   "name": "Assassin Tunic"
+  },
+  "rogues:assassin_armor_feet": {
+   "kind": "item",
+   "name": "Assassin Boots"
+  },
+  "rogues:assassin_armor_head": {
+   "kind": "item",
+   "name": "Assassin Mask"
+  },
+  "rogues:assassin_armor_legs": {
+   "kind": "item",
+   "name": "Assassin Pants"
+  },
+  "rogues:berserker_armor_chest": {
+   "kind": "item",
+   "name": "Berserker Chestplate"
+  },
+  "rogues:berserker_armor_feet": {
+   "kind": "item",
+   "name": "Berserker Boots"
+  },
+  "rogues:berserker_armor_head": {
+   "kind": "item",
+   "name": "Berserker Helmet"
+  },
+  "rogues:berserker_armor_legs": {
+   "kind": "item",
+   "name": "Berserker Leggings"
+  },
+  "rogues:diamond_dagger": {
+   "kind": "item",
+   "name": "Diamond Dagger"
+  },
+  "rogues:diamond_double_axe": {
+   "kind": "item",
+   "name": "Diamond Double Axe"
+  },
+  "rogues:diamond_glaive": {
+   "kind": "item",
+   "name": "Diamond Glaive"
+  },
+  "rogues:diamond_sickle": {
+   "kind": "item",
+   "name": "Diamond Sickle"
+  },
+  "rogues:flint_dagger": {
+   "kind": "item",
+   "name": "Flint Dagger"
+  },
+  "rogues:golden_dagger": {
+   "kind": "item",
+   "name": "Golden Dagger"
+  },
+  "rogues:golden_double_axe": {
+   "kind": "item",
+   "name": "Golden Double Axe"
+  },
+  "rogues:golden_glaive": {
+   "kind": "item",
+   "name": "Golden Glaive"
+  },
+  "rogues:golden_sickle": {
+   "kind": "item",
+   "name": "Golden Sickle"
+  },
+  "rogues:iron_dagger": {
+   "kind": "item",
+   "name": "Iron Dagger"
+  },
+  "rogues:iron_double_axe": {
+   "kind": "item",
+   "name": "Iron Double Axe"
+  },
+  "rogues:iron_glaive": {
+   "kind": "item",
+   "name": "Iron Glaive"
+  },
+  "rogues:iron_sickle": {
+   "kind": "item",
+   "name": "Iron Sickle"
+  },
+  "rogues:netherite_assassin_armor_chest": {
+   "kind": "item",
+   "name": "Netherite Assassin Tunic"
+  },
+  "rogues:netherite_assassin_armor_feet": {
+   "kind": "item",
+   "name": "Netherite Assassin Boots"
+  },
+  "rogues:netherite_assassin_armor_head": {
+   "kind": "item",
+   "name": "Netherite Assassin Mask"
+  },
+  "rogues:netherite_assassin_armor_legs": {
+   "kind": "item",
+   "name": "Netherite Assassin Pants"
+  },
+  "rogues:netherite_berserker_armor_chest": {
+   "kind": "item",
+   "name": "Netherite Berserker Chestplate"
+  },
+  "rogues:netherite_berserker_armor_feet": {
+   "kind": "item",
+   "name": "Netherite Berserker Boots"
+  },
+  "rogues:netherite_berserker_armor_head": {
+   "kind": "item",
+   "name": "Netherite Berserker Helmet"
+  },
+  "rogues:netherite_berserker_armor_legs": {
+   "kind": "item",
+   "name": "Netherite Berserker Leggings"
+  },
+  "rogues:netherite_dagger": {
+   "kind": "item",
+   "name": "Netherite Dagger"
+  },
+  "rogues:netherite_double_axe": {
+   "kind": "item",
+   "name": "Netherite Double Axe"
+  },
+  "rogues:netherite_glaive": {
+   "kind": "item",
+   "name": "Netherite Glaive"
+  },
+  "rogues:netherite_sickle": {
+   "kind": "item",
+   "name": "Netherite Sickle"
+  },
+  "rogues:rogue_armor_chest": {
+   "kind": "item",
+   "name": "Rogue Tunic"
+  },
+  "rogues:rogue_armor_feet": {
+   "kind": "item",
+   "name": "Rogue Boots"
+  },
+  "rogues:rogue_armor_head": {
+   "kind": "item",
+   "name": "Rogue Mask"
+  },
+  "rogues:rogue_armor_legs": {
+   "kind": "item",
+   "name": "Rogue Pants"
+  },
+  "rogues:ruby_dagger": {
+   "kind": "item",
+   "name": "Ruby Dagger"
+  },
+  "rogues:ruby_double_axe": {
+   "kind": "item",
+   "name": "Ruby Double Axe"
+  },
+  "rogues:ruby_glaive": {
+   "kind": "item",
+   "name": "Ruby Glaive"
+  },
+  "rogues:ruby_sickle": {
+   "kind": "item",
+   "name": "Ruby Sickle"
+  },
+  "rogues:spell_scroll/rogue": {
+   "kind": "item",
+   "name": "Rogue Skill Scroll"
+  },
+  "rogues:spell_scroll/warrior": {
+   "kind": "item",
+   "name": "Warriors Skill Scroll"
+  },
+  "rogues:stone_double_axe": {
+   "kind": "item",
+   "name": "Stone Double Axe"
+  },
+  "rogues:warrior_armor_chest": {
+   "kind": "item",
+   "name": "Warrior Chestplate"
+  },
+  "rogues:warrior_armor_feet": {
+   "kind": "item",
+   "name": "Warrior Boots"
+  },
+  "rogues:warrior_armor_head": {
+   "kind": "item",
+   "name": "Warrior Helmet"
+  },
+  "rogues:warrior_armor_legs": {
+   "kind": "item",
+   "name": "Warrior Leggings"
+  }
+ }
+}

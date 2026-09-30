@@ -122,9 +122,33 @@ Class split (maintainer): **Elysian gets the combat classes** (Wizards, Rogues &
 
 **Timing: the quest book waits until the mods are locked.** Building quests now would repeat the rework the pack has today, because every mod decision changes what needs a quest. Until go/no-go is settled per mod, do not audit or build Verdant quests; `docs/machines.md` and `/tier-quest` stay as they are.
 
+## 4. Scan results for the chosen mods (first read, source at the 1.21 branches)
+
+Scanned with `series-mod-scan.py` (entries in `scan/`, repos in `sources.json`, all flagged `candidate`). Recipes read from each repo's generated data.
+
+| Mod | Items | What it adds | Built-in support | Fit issue found |
+|---|---|---|---|---|
+| Genetics: Resequenced | 35 | Scrape mobs, extract DNA, plasmids and syringes; incubator and cell analyzer machines; coal generator | Modonomicon and Patchouli guide data | **Its own FE machines and Coal Generator**: one more power consumer and a small generator inside the mod. Needs a check against Influx's power (is it fed by existing FE or isolated?). |
+| Mutant Monsters | 64 | Mutant creeper, enderman, skeleton, zombie, snow golem; Hulk Hammer; Mutant Skeleton armor | none | Enderman and End-flavored drops (Endersoul) sit outside the no-End rule. Skeleton armor is a mob-drop armor set (needs a gear role). |
+| Spell Engine | 6 | Library: spells, spell scrolls, Spell Binding Table | Curios, EMI, Cloth Config, Player Animator | Required by all four class mods. |
+| Wizards | 53 | Arcane/Fire/Frost robes, staffs, wands, Wizard Merchant | Lithostitched | Recipes need **netherite, ender pearls, blaze powder, prismarine, lapis**. |
+| Archers | 48 | Bows, crossbows, spears, quivers, ranger sets, Archery Artisan | Curios | Recipes mostly iron, leather, string; upper tier needs netherite. |
+| Rogues & Warriors | 61 | Daggers, sickles, glaives, double axes, assassin and berserker sets | Lithostitched | Iron and gold base; upper tier needs netherite. |
+| Paladins & Priests | 74 | Claymores, maces, great hammers, shields, holy wands and staffs, crusader set | Lithostitched | Iron, gold, diamond; **ghast tears** and netherite for upper tiers. |
+
+### What this means
+
+- **Base tiers fit the pack**: iron, gold, leather, string and wool are all reachable by sieving and farming. Verdant's Archers and the lower classes need no change.
+- **Top tiers collide with "no Nether, no End"** in packs 1 to 3. Every class mod has a netherite tier, and Wizards and Paladins also use ender pearls, blaze powder and ghast tears. Options to decide later: hide the netherite tier, or recipe-swap it with KubeJS onto a pack-native material (for example a Silent Gear or Mekanism alloy). Not decided here.
+- **Cosmetic layer**: the armor sets work as looks for any tier once a cosmetic mod is in.
+- **Spell Engine** is the shared dependency, so the class mods cost one library plus content.
+
+Still to do: scan the cosmetic armor mod (Cosmetic Armor Reworked, NeoForge 1.21.1 build; the public repo found only has old branches, so it needs a source), review each mod against the review-process steps, and fill `profiles.json` (feel, stage, fit) for the new mods.
+
 ## Open questions
 
 1. Influx: Genetics: Resequenced plus Mutant Monsters chosen. Confirm after scanning that they fit the pack's power and breeding systems.
 2. Archers in Verdant brings Spell Engine into the first pack. Confirm that is wanted, since Elysian's Wizards need it anyway.
+3. Netherite tiers in the class mods: hide them or recipe-swap onto a pack-native material?
 3. Liminal's new mobs are not decided yet (raised in the last chat). Verdant, Elysian and Influx teach the counters once they are.
 4. Gear: do the roles above cover what you want, or are there jobs to add?

@@ -1,0 +1,232 @@
+{
+ "repo": "ZsoltMolnarrr/Wizards",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "wizards"
+ ],
+ "item_count": 53,
+ "compat": [
+  {
+   "id": "lithostitched",
+   "slug": "lithostitched",
+   "evidence": {
+    "data-ref": 5
+   }
+  }
+ ],
+ "items": {
+  "minecraft:villager.wizard_merchant": {
+   "kind": "entity",
+   "name": "Wizard Merchant"
+  },
+  "minecraft:villager.wizards.wizard_merchant": {
+   "kind": "entity",
+   "name": "Wizard Merchant"
+  },
+  "wizards:fire_hydra": {
+   "kind": "entity",
+   "name": "Fire Hydra"
+  },
+  "wizards:frost_elemental": {
+   "kind": "entity",
+   "name": "Frost Elemental"
+  },
+  "wizards:aether_wizard_staff": {
+   "kind": "item",
+   "name": "Valkyrie Magister Staff"
+  },
+  "wizards:arcane_robe_chest": {
+   "kind": "item",
+   "name": "Arcane Robe Top"
+  },
+  "wizards:arcane_robe_feet": {
+   "kind": "item",
+   "name": "Arcane Boots"
+  },
+  "wizards:arcane_robe_head": {
+   "kind": "item",
+   "name": "Arcane Hat"
+  },
+  "wizards:arcane_robe_legs": {
+   "kind": "item",
+   "name": "Arcane Robe Bottom"
+  },
+  "wizards:fire_robe_chest": {
+   "kind": "item",
+   "name": "Fire Robe Top"
+  },
+  "wizards:fire_robe_feet": {
+   "kind": "item",
+   "name": "Fire Boots"
+  },
+  "wizards:fire_robe_head": {
+   "kind": "item",
+   "name": "Fire Hat"
+  },
+  "wizards:fire_robe_legs": {
+   "kind": "item",
+   "name": "Fire Robe Bottom"
+  },
+  "wizards:frost_robe_chest": {
+   "kind": "item",
+   "name": "Frost Robe Top"
+  },
+  "wizards:frost_robe_feet": {
+   "kind": "item",
+   "name": "Frost Boots"
+  },
+  "wizards:frost_robe_head": {
+   "kind": "item",
+   "name": "Frost Hat"
+  },
+  "wizards:frost_robe_legs": {
+   "kind": "item",
+   "name": "Frost Robe Bottom"
+  },
+  "wizards:netherite_arcane_robe_chest": {
+   "kind": "item",
+   "name": "Netherite Arcane Robe Top"
+  },
+  "wizards:netherite_arcane_robe_feet": {
+   "kind": "item",
+   "name": "Netherite Arcane Boots"
+  },
+  "wizards:netherite_arcane_robe_head": {
+   "kind": "item",
+   "name": "Netherite Arcane Hat"
+  },
+  "wizards:netherite_arcane_robe_legs": {
+   "kind": "item",
+   "name": "Netherite Arcane Robe Bottom"
+  },
+  "wizards:netherite_fire_robe_chest": {
+   "kind": "item",
+   "name": "Netherite Fire Robe Top"
+  },
+  "wizards:netherite_fire_robe_feet": {
+   "kind": "item",
+   "name": "Netherite Fire Boots"
+  },
+  "wizards:netherite_fire_robe_head": {
+   "kind": "item",
+   "name": "Netherite Fire Hat"
+  },
+  "wizards:netherite_fire_robe_legs": {
+   "kind": "item",
+   "name": "Netherite Fire Robe Bottom"
+  },
+  "wizards:netherite_frost_robe_chest": {
+   "kind": "item",
+   "name": "Netherite Frost Robe Top"
+  },
+  "wizards:netherite_frost_robe_feet": {
+   "kind": "item",
+   "name": "Netherite Frost Boots"
+  },
+  "wizards:netherite_frost_robe_head": {
+   "kind": "item",
+   "name": "Netherite Frost Hat"
+  },
+  "wizards:netherite_frost_robe_legs": {
+   "kind": "item",
+   "name": "Netherite Frost Robe Bottom"
+  },
+  "wizards:spell_scroll/arcane": {
+   "kind": "item",
+   "name": "Arcane Spell Scroll"
+  },
+  "wizards:spell_scroll/fire": {
+   "kind": "item",
+   "name": "Fire Spell Scroll"
+  },
+  "wizards:spell_scroll/frost": {
+   "kind": "item",
+   "name": "Frost Spell Scroll"
+  },
+  "wizards:staff_arcane": {
+   "kind": "item",
+   "name": "Arcane Staff"
+  },
+  "wizards:staff_crystal_arcane": {
+   "kind": "item",
+   "name": "Crystal Arcane Staff"
+  },
+  "wizards:staff_fire": {
+   "kind": "item",
+   "name": "Fire Staff"
+  },
+  "wizards:staff_frost": {
+   "kind": "item",
+   "name": "Frost Staff"
+  },
+  "wizards:staff_netherite_arcane": {
+   "kind": "item",
+   "name": "Netherite Arcane Staff"
+  },
+  "wizards:staff_netherite_fire": {
+   "kind": "item",
+   "name": "Netherite Fire Staff"
+  },
+  "wizards:staff_netherite_frost": {
+   "kind": "item",
+   "name": "Netherite Frost Staff"
+  },
+  "wizards:staff_ruby_fire": {
+   "kind": "item",
+   "name": "Ruby Fire Staff"
+  },
+  "wizards:staff_smaragdant_frost": {
+   "kind": "item",
+   "name": "Smaragdant Frost Staff"
+  },
+  "wizards:staff_wizard": {
+   "kind": "item",
+   "name": "Wizard Staff"
+  },
+  "wizards:wand_arcane": {
+   "kind": "item",
+   "name": "Arcane Wand"
+  },
+  "wizards:wand_fire": {
+   "kind": "item",
+   "name": "Fire Wand"
+  },
+  "wizards:wand_frost": {
+   "kind": "item",
+   "name": "Frost Wand"
+  },
+  "wizards:wand_netherite_arcane": {
+   "kind": "item",
+   "name": "Netherite Arcane Wand"
+  },
+  "wizards:wand_netherite_fire": {
+   "kind": "item",
+   "name": "Netherite Fire Wand"
+  },
+  "wizards:wand_netherite_frost": {
+   "kind": "item",
+   "name": "Netherite Frost Wand"
+  },
+  "wizards:wand_novice": {
+   "kind": "item",
+   "name": "Novice Wand"
+  },
+  "wizards:wizard_robe_chest": {
+   "kind": "item",
+   "name": "Wizard Robe Top"
+  },
+  "wizards:wizard_robe_feet": {
+   "kind": "item",
+   "name": "Wizard Boots"
+  },
+  "wizards:wizard_robe_head": {
+   "kind": "item",
+   "name": "Wizard Hat"
+  },
+  "wizards:wizard_robe_legs": {
+   "kind": "item",
+   "name": "Wizard Robe Bottom"
+  }
+ }
+}

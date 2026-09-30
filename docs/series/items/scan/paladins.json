@@ -1,0 +1,316 @@
+{
+ "repo": "ZsoltMolnarrr/Paladins",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "paladins"
+ ],
+ "item_count": 74,
+ "compat": [
+  {
+   "id": "lithostitched",
+   "slug": "lithostitched",
+   "evidence": {
+    "data-ref": 5
+   }
+  }
+ ],
+ "items": {
+  "paladins:monk_workbench": {
+   "kind": "block",
+   "name": "Monk Workbench"
+  },
+  "paladins:monk_workbench.hint": {
+   "kind": "block",
+   "name": "Workbench for Monk Villagers."
+  },
+  "minecraft:villager.monk": {
+   "kind": "entity",
+   "name": "Monk"
+  },
+  "minecraft:villager.paladins.monk": {
+   "kind": "entity",
+   "name": "Monk"
+  },
+  "paladins:barrier": {
+   "kind": "entity",
+   "name": "Barrier"
+  },
+  "paladins:battle_banner": {
+   "kind": "entity",
+   "name": "Battle Banner"
+  },
+  "paladins:lightwell": {
+   "kind": "entity",
+   "name": "Lightwell"
+  },
+  "paladins:acolyte_wand": {
+   "kind": "item",
+   "name": "Acolyte Wand"
+  },
+  "paladins:aeternium_claymore": {
+   "kind": "item",
+   "name": "Aeternium Claymore"
+  },
+  "paladins:aeternium_great_hammer": {
+   "kind": "item",
+   "name": "Aeternium Great Hammer"
+  },
+  "paladins:aeternium_kite_shield": {
+   "kind": "item",
+   "name": "Aeternium Kite Shield"
+  },
+  "paladins:aeternium_mace": {
+   "kind": "item",
+   "name": "Aeternium Mace"
+  },
+  "paladins:aether_claymore": {
+   "kind": "item",
+   "name": "Holy Claymore"
+  },
+  "paladins:aether_great_hammer": {
+   "kind": "item",
+   "name": "Valkyrie Great Hammer"
+  },
+  "paladins:aether_holy_staff": {
+   "kind": "item",
+   "name": "Silver Staff of the Valkyrie"
+  },
+  "paladins:aether_kite_shield": {
+   "kind": "item",
+   "name": "Valkyrie Bulwark"
+  },
+  "paladins:aether_mace": {
+   "kind": "item",
+   "name": "Sun's Mace"
+  },
+  "paladins:crusader_armor_chest": {
+   "kind": "item",
+   "name": "Crusader Chestplate"
+  },
+  "paladins:crusader_armor_feet": {
+   "kind": "item",
+   "name": "Crusader Boots"
+  },
+  "paladins:crusader_armor_head": {
+   "kind": "item",
+   "name": "Crusader Helmet"
+  },
+  "paladins:crusader_armor_legs": {
+   "kind": "item",
+   "name": "Crusader Leggings"
+  },
+  "paladins:diamond_claymore": {
+   "kind": "item",
+   "name": "Diamond Claymore"
+  },
+  "paladins:diamond_great_hammer": {
+   "kind": "item",
+   "name": "Diamond Great Hammer"
+  },
+  "paladins:diamond_holy_staff": {
+   "kind": "item",
+   "name": "Diamond Holy Staff"
+  },
+  "paladins:diamond_holy_wand": {
+   "kind": "item",
+   "name": "Diamond Holy Wand"
+  },
+  "paladins:diamond_kite_shield": {
+   "kind": "item",
+   "name": "Diamond Kite Shield"
+  },
+  "paladins:diamond_mace": {
+   "kind": "item",
+   "name": "Diamond Mace"
+  },
+  "paladins:golden_claymore": {
+   "kind": "item",
+   "name": "Golden Claymore"
+  },
+  "paladins:golden_great_hammer": {
+   "kind": "item",
+   "name": "Golden Great Hammer"
+  },
+  "paladins:golden_kite_shield": {
+   "kind": "item",
+   "name": "Golden Kite Shield"
+  },
+  "paladins:golden_mace": {
+   "kind": "item",
+   "name": "Golden Mace"
+  },
+  "paladins:holy_staff": {
+   "kind": "item",
+   "name": "Holy Staff"
+  },
+  "paladins:holy_wand": {
+   "kind": "item",
+   "name": "Holy Wand"
+  },
+  "paladins:iron_claymore": {
+   "kind": "item",
+   "name": "Iron Claymore"
+  },
+  "paladins:iron_great_hammer": {
+   "kind": "item",
+   "name": "Iron Great Hammer"
+  },
+  "paladins:iron_kite_shield": {
+   "kind": "item",
+   "name": "Iron Kite Shield"
+  },
+  "paladins:iron_mace": {
+   "kind": "item",
+   "name": "Iron Mace"
+  },
+  "paladins:netherite_claymore": {
+   "kind": "item",
+   "name": "Netherite Claymore"
+  },
+  "paladins:netherite_crusader_armor_chest": {
+   "kind": "item",
+   "name": "Netherite Crusader Chestplate"
+  },
+  "paladins:netherite_crusader_armor_feet": {
+   "kind": "item",
+   "name": "Netherite Crusader Boots"
+  },
+  "paladins:netherite_crusader_armor_head": {
+   "kind": "item",
+   "name": "Netherite Crusader Helmet"
+  },
+  "paladins:netherite_crusader_armor_legs": {
+   "kind": "item",
+   "name": "Netherite Crusader Leggings"
+  },
+  "paladins:netherite_great_hammer": {
+   "kind": "item",
+   "name": "Netherite Great Hammer"
+  },
+  "paladins:netherite_holy_staff": {
+   "kind": "item",
+   "name": "Netherite Holy Staff"
+  },
+  "paladins:netherite_holy_wand": {
+   "kind": "item",
+   "name": "Netherite Holy Wand"
+  },
+  "paladins:netherite_kite_shield": {
+   "kind": "item",
+   "name": "Netherite Kite Shield"
+  },
+  "paladins:netherite_mace": {
+   "kind": "item",
+   "name": "Netherite Mace"
+  },
+  "paladins:netherite_prior_robe_chest": {
+   "kind": "item",
+   "name": "Netherite Prior Vestment"
+  },
+  "paladins:netherite_prior_robe_feet": {
+   "kind": "item",
+   "name": "Netherite Prior Boots"
+  },
+  "paladins:netherite_prior_robe_head": {
+   "kind": "item",
+   "name": "Netherite Prior Collar"
+  },
+  "paladins:netherite_prior_robe_legs": {
+   "kind": "item",
+   "name": "Netherite Prior Trousers"
+  },
+  "paladins:paladin_armor_chest": {
+   "kind": "item",
+   "name": "Paladin Chestplate"
+  },
+  "paladins:paladin_armor_feet": {
+   "kind": "item",
+   "name": "Paladin Boots"
+  },
+  "paladins:paladin_armor_head": {
+   "kind": "item",
+   "name": "Paladin Helmet"
+  },
+  "paladins:paladin_armor_legs": {
+   "kind": "item",
+   "name": "Paladin Leggings"
+  },
+  "paladins:priest_robe_chest": {
+   "kind": "item",
+   "name": "Priest Vestment"
+  },
+  "paladins:priest_robe_feet": {
+   "kind": "item",
+   "name": "Priest Boots"
+  },
+  "paladins:priest_robe_head": {
+   "kind": "item",
+   "name": "Priest Collar"
+  },
+  "paladins:priest_robe_legs": {
+   "kind": "item",
+   "name": "Priest Trousers"
+  },
+  "paladins:prior_robe_chest": {
+   "kind": "item",
+   "name": "Prior Vestment"
+  },
+  "paladins:prior_robe_feet": {
+   "kind": "item",
+   "name": "Prior Boots"
+  },
+  "paladins:prior_robe_head": {
+   "kind": "item",
+   "name": "Prior Collar"
+  },
+  "paladins:prior_robe_legs": {
+   "kind": "item",
+   "name": "Prior Trousers"
+  },
+  "paladins:ruby_claymore": {
+   "kind": "item",
+   "name": "Ruby Claymore"
+  },
+  "paladins:ruby_great_hammer": {
+   "kind": "item",
+   "name": "Ruby Great Hammer"
+  },
+  "paladins:ruby_holy_staff": {
+   "kind": "item",
+   "name": "Ruby Holy Staff"
+  },
+  "paladins:ruby_kite_shield": {
+   "kind": "item",
+   "name": "Ruby Kite Shield"
+  },
+  "paladins:ruby_mace": {
+   "kind": "item",
+   "name": "Ruby Mace"
+  },
+  "paladins:spell_scroll/paladin": {
+   "kind": "item",
+   "name": "Paladin Spell Scroll"
+  },
+  "paladins:spell_scroll/priest": {
+   "kind": "item",
+   "name": "Holy Spell Scroll"
+  },
+  "paladins:stone_claymore": {
+   "kind": "item",
+   "name": "Stone Claymore"
+  },
+  "paladins:stone_great_hammer": {
+   "kind": "item",
+   "name": "Stone Great Hammer"
+  },
+  "paladins:stone_mace": {
+   "kind": "item",
+   "name": "Stone Mace"
+  },
+  "paladins:wooden_great_hammer": {
+   "kind": "item",
+   "name": "Wooden Great Hammer"
+  }
+ }
+}

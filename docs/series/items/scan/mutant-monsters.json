@@ -1,0 +1,268 @@
+{
+ "repo": "Fuzss/mutant-monsters",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "mutantmonsters"
+ ],
+ "item_count": 64,
+ "compat": [],
+ "items": {
+  "mutantmonsters:mutant_skeleton_skull": {
+   "kind": "block",
+   "name": "Mutant Skeleton Skull"
+  },
+  "mutantmonsters:body_part": {
+   "kind": "entity",
+   "name": "Body Part"
+  },
+  "mutantmonsters:creeper_minion": {
+   "kind": "entity",
+   "name": "Creeper Minion"
+  },
+  "mutantmonsters:creeper_minion_egg": {
+   "kind": "entity",
+   "name": "Creeper Minion Egg"
+  },
+  "mutantmonsters:endersoul_clone": {
+   "kind": "entity",
+   "name": "Endersoul Clone"
+  },
+  "mutantmonsters:endersoul_fragment": {
+   "kind": "entity",
+   "name": "Endersoul Fragment"
+  },
+  "mutantmonsters:mutant_arrow": {
+   "kind": "entity",
+   "name": "Mutant Arrow"
+  },
+  "mutantmonsters:mutant_creeper": {
+   "kind": "entity",
+   "name": "Mutant Creeper"
+  },
+  "mutantmonsters:mutant_enderman": {
+   "kind": "entity",
+   "name": "Mutant Enderman"
+  },
+  "mutantmonsters:mutant_skeleton": {
+   "kind": "entity",
+   "name": "Mutant Skeleton"
+  },
+  "mutantmonsters:mutant_snow_golem": {
+   "kind": "entity",
+   "name": "Mutant Snow Golem"
+  },
+  "mutantmonsters:mutant_zombie": {
+   "kind": "entity",
+   "name": "Mutant Zombie"
+  },
+  "mutantmonsters:skull_spirit": {
+   "kind": "entity",
+   "name": "Skull Spirit"
+  },
+  "mutantmonsters:spider_pig": {
+   "kind": "entity",
+   "name": "Spider Pig"
+  },
+  "mutantmonsters:throwable_block": {
+   "kind": "entity",
+   "name": "Throwable Block"
+  },
+  "mutantmonsters:creeper_minion_spawn_egg": {
+   "kind": "item",
+   "name": "Creeper Minion Spawn Egg"
+  },
+  "mutantmonsters:creeper_minion_tracker": {
+   "kind": "item",
+   "name": "Creeper Minion Tracker"
+  },
+  "mutantmonsters:creeper_minion_tracker.tame_success": {
+   "kind": "item",
+   "name": "%1$s was tamed by %2$s"
+  },
+  "mutantmonsters:creeper_shard": {
+   "kind": "item",
+   "name": "Creeper Shard"
+  },
+  "mutantmonsters:endersoul_hand": {
+   "kind": "item",
+   "name": "Endersoul Hand"
+  },
+  "mutantmonsters:endersoul_hand.teleport_failed": {
+   "kind": "item",
+   "name": "Unable to teleport to location"
+  },
+  "mutantmonsters:hulk_hammer": {
+   "kind": "item",
+   "name": "Hulk Hammer"
+  },
+  "mutantmonsters:mutant_creeper_spawn_egg": {
+   "kind": "item",
+   "name": "Mutant Creeper Spawn Egg"
+  },
+  "mutantmonsters:mutant_enderman_spawn_egg": {
+   "kind": "item",
+   "name": "Mutant Enderman Spawn Egg"
+  },
+  "mutantmonsters:mutant_skeleton_arms": {
+   "kind": "item",
+   "name": "Mutant Skeleton Arms"
+  },
+  "mutantmonsters:mutant_skeleton_boots": {
+   "kind": "item",
+   "name": "Mutant Skeleton Boots"
+  },
+  "mutantmonsters:mutant_skeleton_chestplate": {
+   "kind": "item",
+   "name": "Mutant Skeleton Chestplate"
+  },
+  "mutantmonsters:mutant_skeleton_leggings": {
+   "kind": "item",
+   "name": "Mutant Skeleton Leggings"
+  },
+  "mutantmonsters:mutant_skeleton_limb": {
+   "kind": "item",
+   "name": "Mutant Skeleton Limb"
+  },
+  "mutantmonsters:mutant_skeleton_pelvis": {
+   "kind": "item",
+   "name": "Mutant Skeleton Pelvis"
+  },
+  "mutantmonsters:mutant_skeleton_rib": {
+   "kind": "item",
+   "name": "Mutant Skeleton Rib"
+  },
+  "mutantmonsters:mutant_skeleton_rib_cage": {
+   "kind": "item",
+   "name": "Mutant Skeleton Rib Cage"
+  },
+  "mutantmonsters:mutant_skeleton_shoulder_pad": {
+   "kind": "item",
+   "name": "Mutant Skeleton Shoulder Pad"
+  },
+  "mutantmonsters:mutant_skeleton_spawn_egg": {
+   "kind": "item",
+   "name": "Mutant Skeleton Spawn Egg"
+  },
+  "mutantmonsters:mutant_snow_golem_spawn_egg": {
+   "kind": "item",
+   "name": "Mutant Snow Golem Spawn Egg"
+  },
+  "mutantmonsters:mutant_zombie_spawn_egg": {
+   "kind": "item",
+   "name": "Mutant Zombie Spawn Egg"
+  },
+  "mutantmonsters:spider_pig_spawn_egg": {
+   "kind": "item",
+   "name": "Spider Pig Spawn Egg"
+  },
+  "subtitles:creeper_minion.ambient": {
+   "kind": "entity",
+   "name": "Creeper Minion hisses"
+  },
+  "subtitles:creeper_minion.hurt": {
+   "kind": "entity",
+   "name": "Creeper Minion hurts"
+  },
+  "subtitles:creeper_minion.primed": {
+   "kind": "entity",
+   "name": "Creeper Minion primes"
+  },
+  "subtitles:creeper_minion_egg.hatch": {
+   "kind": "entity",
+   "name": "Creeper Minion Egg hatches"
+  },
+  "subtitles:endersoul_clone.teleport": {
+   "kind": "entity",
+   "name": "Endersoul Clone teleports"
+  },
+  "subtitles:endersoul_fragment.explode": {
+   "kind": "entity",
+   "name": "Endersoul Fragment explodes"
+  },
+  "subtitles:mutant_creeper.ambient": {
+   "kind": "entity",
+   "name": "Mutant Creeper hisses"
+  },
+  "subtitles:mutant_creeper.charge": {
+   "kind": "entity",
+   "name": "Mutant Creeper charges"
+  },
+  "subtitles:mutant_creeper.hurt": {
+   "kind": "entity",
+   "name": "Mutant Creeper hurts"
+  },
+  "subtitles:mutant_creeper.primed": {
+   "kind": "entity",
+   "name": "Mutant Creeper primes"
+  },
+  "subtitles:mutant_enderman.ambient": {
+   "kind": "entity",
+   "name": "Mutant Enderman breathes"
+  },
+  "subtitles:mutant_enderman.hurt": {
+   "kind": "entity",
+   "name": "Mutant Enderman hurts"
+  },
+  "subtitles:mutant_enderman.morph": {
+   "kind": "entity",
+   "name": "Mutant Enderman morphs"
+  },
+  "subtitles:mutant_enderman.scream": {
+   "kind": "entity",
+   "name": "Mutant Enderman screams"
+  },
+  "subtitles:mutant_enderman.stare": {
+   "kind": "entity",
+   "name": "Mutant Enderman cries out"
+  },
+  "subtitles:mutant_enderman.teleport": {
+   "kind": "entity",
+   "name": "Mutant Enderman teleports"
+  },
+  "subtitles:mutant_skeleton.ambient": {
+   "kind": "entity",
+   "name": "Mutant Skeleton rattles"
+  },
+  "subtitles:mutant_skeleton.hurt": {
+   "kind": "entity",
+   "name": "Mutant Skeleton hurts"
+  },
+  "subtitles:mutant_skeleton.step": {
+   "kind": "entity",
+   "name": "Footsteps"
+  },
+  "subtitles:mutant_snow_golem.hurt": {
+   "kind": "entity",
+   "name": "Mutant Snow Golem hurts"
+  },
+  "subtitles:mutant_zombie.ambient": {
+   "kind": "entity",
+   "name": "Mutant Zombie grumbles"
+  },
+  "subtitles:mutant_zombie.attack": {
+   "kind": "entity",
+   "name": "Mutant Zombie attacks"
+  },
+  "subtitles:mutant_zombie.grunt": {
+   "kind": "entity",
+   "name": "Mutant Zombie grunts"
+  },
+  "subtitles:mutant_zombie.hurt": {
+   "kind": "entity",
+   "name": "Mutant Zombie hurts"
+  },
+  "subtitles:mutant_zombie.roar": {
+   "kind": "entity",
+   "name": "Mutant Zombie roars"
+  },
+  "subtitles:spider_pig.ambient": {
+   "kind": "entity",
+   "name": "Spider Pig oinks"
+  },
+  "subtitles:spider_pig.hurt": {
+   "kind": "entity",
+   "name": "Spider Pig hurts"
+  }
+ }
+}
