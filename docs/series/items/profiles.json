@@ -3860,6 +3860,182 @@
     4
    ],
    "candidate": true
+  },
+  "mowzies-mobs": {
+   "feel": [
+    "survival"
+   ],
+   "add": "combat",
+   "also": [
+    "content",
+    "armor"
+   ],
+   "gap": "Boss and mob content with its own gear: Ferrous Wroughtnaut, Frostmaw, Umvuthi, Naga, Sculptor, Foliaath, Umvuthana; masks, Earthrend Gauntlet, Axe of a Thousand Metals",
+   "fit": {
+    "L": [
+     "good",
+     "a candidate for Liminal's unresolved new mobs; bosses and gear with distinct abilities (each mask has a job)"
+    ],
+    "E": [
+     "partial",
+     "combat content next to Gateways; structures need terrain, Elysian is a void"
+    ],
+    "I": [
+     "partial",
+     "mutants already chosen as the outbreak content"
+    ],
+    "V": [
+     "poor",
+     "Verdant is the calm pack"
+    ]
+   },
+   "note": "153 items; GeckoLib required (shared library). Bosses spawn in world structures, so the pack terrain matters. Gear has real roles (masks give abilities, gauntlet and axe have special attacks), which fits the every-item-has-a-job rule. Repo BobMowzie/MowziesMobs-Public (main).",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true,
+   "stages": [
+    6
+   ]
+  },
+  "deeper-and-darker": {
+   "feel": [
+    "survival"
+   ],
+   "add": "content",
+   "also": [
+    "building",
+    "combat"
+   ],
+   "gap": "A new Deep Dark dimension (the Otherside) with its own blocks, woods, mobs and gear",
+   "fit": {
+    "L": [
+     "good",
+     "a place to go and a new threat, candidate for Liminal's new content"
+    ],
+    "E": [
+     "poor",
+     "adds a dimension; Elysian is a void"
+    ],
+    "I": [
+     "poor",
+     "adds a dimension; ship pack"
+    ],
+    "V": [
+     "poor",
+     "packs 1 to 3 do not use extra dimensions as progression paths"
+    ]
+   },
+   "note": "278 items (mostly building blocks: gloomslate, sculk stone, bloom and echo woods). Built-in support: Create, Farmer's Delight, Mekanism, PneumaticCraft. Repo KyaniteMods/DeeperAndDarker (neoforge-1.21). Adds a dimension and ore-like resources, which conflicts with the no-extra-dimension rule in packs 1 to 3.",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true,
+   "stages": [
+    6
+   ]
+  },
+  "cosmetic-armor-reworked": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [
+    "armor"
+   ],
+   "gap": "A second, cosmetic armor inventory: wear any set for looks while another provides the stats",
+   "fit": {
+    "V": [
+     "good",
+     "chosen: cosmetic layer from Verdant"
+    ],
+    "E": [
+     "good",
+     "carries over"
+    ],
+    "I": [
+     "good",
+     "carries over"
+    ],
+    "L": [
+     "good",
+     "carries over"
+    ]
+   },
+   "note": "No items (UI only: key to open the cosmetic inventory, a clear command). Tag 1.21.1-v1-neoforge in zlainsama/CosmeticArmorReworked. No extra library listed.",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true,
+   "stages": [
+    6
+   ]
+  },
+  "cosmetic-armor-reworked-forked": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [
+    "armor"
+   ],
+   "gap": "Fork of Cosmetic Armor Reworked, same cosmetic armor inventory",
+   "fit": {
+    "V": [
+     "partial",
+     "alternative to the original"
+    ],
+    "E": [
+     "partial",
+     "alternative to the original"
+    ],
+    "I": [
+     "partial",
+     "alternative to the original"
+    ],
+    "L": [
+     "partial",
+     "alternative to the original"
+    ]
+   },
+   "note": "No items. Needs Architectury API (an extra library the original does not). Repo zzik2/CosmeticArmorReworkedForked (master); Minecraft version not confirmed. Choose one of the two, not both.",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true,
+   "stages": [
+    6
+   ]
+  },
+  "productivetrees-mekanism-compatibility": {
+   "feel": [
+    "tech",
+    "nature"
+   ],
+   "add": "integration",
+   "also": [],
+   "gap": "Bridge that gives Productive Trees' woods and products Mekanism recipes",
+   "fit": {
+    "L": [
+     "partial",
+     "only pack that has both Productive Trees (Influx, Liminal) and Mekanism (Verdant, Liminal)"
+    ],
+    "V": [
+     "poor",
+     "no Productive Trees"
+    ],
+    "E": [
+     "poor",
+     "no Mekanism"
+    ],
+    "I": [
+     "poor",
+     "no Mekanism"
+    ]
+   },
+   "note": "No items. Repo Saereth/productivetrees-mekanism-compatibility (main). Usable only in Liminal.",
+   "works_with": "productivetrees",
+   "status": "candidate",
+   "candidate": true,
+   "stages": [
+    5
+   ]
   }
  }
 }

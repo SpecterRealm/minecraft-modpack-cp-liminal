@@ -1,0 +1,11 @@
+{
+ "class": "library",
+ "purpose": "Cosmetic armor inventory (UI only)",
+ "note": "First read from source; see mod-profiles.md.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  }
+ ]
+}

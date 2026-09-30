@@ -31,10 +31,12 @@ Packs: V Verdant (overworld, no ore, tech-first), E Elysian (void, magic only, n
 | ars-elemental | EL | magic | combat | armor | Four elemental schools: glyphs, armor, foci | - | good | - |  |
 | ars-zero | EL | magic | combat |  | New cast devices and glyphs | - | partial | - |  |
 | irons-spells-n-spellbooks | EL | magic | combat | armor, content | Spellbooks, staffs, armor, mithril | - | good | - | good |
+| mowzies-mobs | - | survival | combat | content, armor | Boss and mob content with its own gear: Ferrous Wroughtnaut, Frostmaw, | poor | partial | partial | good |
 | mutant-monsters | - | survival | combat | content | Combat content for Influx's outbreak: mutant bosses that the experimen | poor | partial | good | good |
 | apothic-spawners | EL | magic | content |  | Spawner tweaks for Apotheosis | - | partial | - | partial |
 | ars-nouveau | EL | magic | content | power, automation, processing | Spell system; Source power; familiars automate | - | good | - |  |
 | blood-magic-neovitae | - | magic | content | automation | Blood magic: life-essence network, altars, rituals and sigils | - | partial | - | - |
+| deeper-and-darker | - | survival | content | building, combat | A new Deep Dark dimension (the Otherside) with its own blocks, woods,  | poor | poor | poor | good |
 | eidolon-repraised | - | magic | content | armor | Witchcraft, souls, research and gear | - | partial | - | - |
 | evilcraft | - | magic | content | armor, tooling | Dark magic: blood infuser, undead trees, spirit furnace, gear; fluids  | - | partial | - | - |
 | forbidden-arcanus | - | magic | content | armor, tooling | Dark-arts crafting: Hephaestus forge, essences, darkstone, bosses | - | partial | - | - |

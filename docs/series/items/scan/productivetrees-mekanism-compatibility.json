@@ -1,0 +1,35 @@
+{
+ "repo": "Saereth/productivetrees-mekanism-compatibility",
+ "ref": "main",
+ "ref_kind": "branch",
+ "mod_ids": [],
+ "item_count": 0,
+ "compat": [
+  {
+   "id": "mekanism",
+   "slug": "mekanism",
+   "evidence": {
+    "data-ref": 171,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "productivetrees",
+   "slug": "productivetrees",
+   "evidence": {
+    "data-ref": 162,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {},
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "main",
+  "pass": "loop-back",
+  "note": "First read from source; see mod-profiles.md.",
+  "class": "library",
+  "purpose": "Productive Trees and Mekanism bridge"
+ }
+}
