@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>CP Liminal Recipe Wiki</title>
+<style>
+body{font-family:system-ui,sans-serif;background:#0f1410;color:#e8f0ea;margin:0}
+.header{padding:.75rem 1rem;background:#1a221c;border-bottom:1px solid #3d5244;display:flex;gap:1rem;align-items:center}
+#search{flex:1;max-width:420px;padding:.4rem .6rem;border-radius:4px;border:1px solid #3d5244;background:#243028;color:#e8f0ea}
+.layout{display:flex;height:calc(100vh - 56px)}
+.sidebar{width:280px;overflow:auto;border-right:1px solid #3d5244;background:#1a221c}
+.sidebar div{padding:.35rem .75rem;cursor:pointer;font-family:ui-monospace,monospace;font-size:.75rem;color:#9bb0a0}
+.sidebar div:hover,.sidebar div.active{background:#2e3d34;color:#6ecf8a}
+.main{flex:1;overflow:auto;padding:1.25rem}
+.card{background:#1a221c;border:1px solid #3d5244;border-radius:6px;padding:.75rem;margin:.5rem 0}
+.muted{color:#9bb0a0;font-size:.8rem}
+</style></head><body>
+<div class="header"><strong style="color:#6ecf8a">Recipe Wiki</strong><span class="muted">CP Liminal</span>
+<input id="search" placeholder="Search item id…"></div>
+<div class="layout"><div class="sidebar" id="sidebar"></div><div class="main" id="main"><p class="muted">Search or click an item.</p></div></div>
+<script>
+const DATA = RECIPE_DATA_PLACEHOLDER;
+const TEXTURES = TEXTURES_PLACEHOLDER;
+const all = Object.keys(DATA).sort();
+const sidebar = document.getElementById('sidebar');
+const main = document.getElementById('main');
+function renderList(items){
+  sidebar.innerHTML = items.map(id => `<div data-id="${id}">${id}</div>`).join('');
+  sidebar.querySelectorAll('div').forEach(el => el.onclick = () => show(el.dataset.id));
+}
+function show(id){
+  const e = DATA[id] || {mod:[],rm:[],kj:[]};
+  sidebar.querySelectorAll('div').forEach(el => el.classList.toggle('active', el.dataset.id===id));
+  const cards = [];
+  for (const r of e.mod||[]) {
+    cards.push(`<div class="card"><div class="muted">${r.type} · ${r.jar}${r.removed?' · REMOVED':''}</div><pre>${JSON.stringify(r.ings||[],null,2)}</pre></div>`);
+  }
+  for (const r of e.kj||[]) {
+    cards.push(`<div class="card"><div class="muted">KubeJS · ${r.type} · ${r.src}</div><pre>${(r.raw||'').replace(/[<>&]/g,s=>({ '<':'&lt;','>':'&gt;','&':'&amp;' }[s]))}</pre></div>`);
+  }
+  main.innerHTML = `<h2>${id}</h2>` + (cards.join('') || '<p class="muted">No recipes.</p>');
+}
+document.getElementById('search').oninput = (ev) => {
+  const q = ev.target.value.trim().toLowerCase();
+  renderList(q ? all.filter(id => id.includes(q)) : all);
+};
+renderList(all);
+</script></body></html>
