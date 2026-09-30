@@ -22,7 +22,12 @@ artifacts agents can read from git.
 | `docs/recipe-analyze/summary.md` | Per-mod counts + farming namespace table | **Tracked** |
 | `docs/recipe-analyze/by-mod/*.txt` | Item id lists per mod | **Tracked** |
 | `docs/recipe-analyze/*-seeds.txt` | Seed-like result ids (MA, AgriCraft, …) | **Tracked** |
-| `docs/recipe-analyze/agricraft-plants.txt` | AgriCraft datapack plants (not craft recipes) | **Tracked** |
+| `docs/recipe-analyze/agricraft-plants.txt` | AgriCraft datapack plants (not craft recipes) | **Tracked** after audit |
+| `docs/recipe-analyze/agricraft-plants.txt.gz.b64` | Compressed plant-list seed for git | **Tracked** |
+
+`scripts/analyze_recipe_wiki.py` is assembled from
+`.github/recipe-analyze-parts/analyze.py.gz.b64` on first `make recipe-analyze`
+(same idea as `recipe_wiki_core.py`).
 
 **Regenerate and commit** after mod list or KubeJS recipe changes:
 
@@ -58,11 +63,11 @@ RECIPE_WIKI_MODS_DIR=/path/to/minecraft/mods make recipe-audit
 
 ## AgriCraft plants vs recipe results
 
-AgriCraft resource plants live in JAR datapacks (`data/*/agricraft/plants/*.json`).
-They are usually **not** craftable recipe results, so they do not show up as seeds in
-`recipe_data.json`. `make recipe-analyze` scans those plant JSONs separately. Lane
-decisions should use **both** the recipe dump and `agricraft-plants.txt`, not
-recipe-visible seed counts alone.
+AgriCraft resource plants live in JAR datapacks (`data/*/agricraft/plants/*.json`,
+including nested `datapacks/<pack>/data/...`). They are usually **not** craftable
+recipe results, so they do not show up as seeds in `recipe_data.json`.
+`make recipe-analyze` scans those plant JSONs separately. Lane decisions should use
+**both** the recipe dump and `agricraft-plants.txt`, not recipe-visible seed counts alone.
 
 ## In-game companion
 
