@@ -1,7 +1,7 @@
 // Colony Protocol: Liminal — ensure FTB Quests book on join.
 // FTB Quests 2101.x does not auto-give ftbquests:book (same gap as Elysian #16).
 // Re-gift if missing so new worlds always start with it.
-// (nudge2: trigger Prettier packwiz refresh after valid index stub)
+// (nudge3: trigger Prettier packwiz refresh after Energy Meter removal)
 
 PlayerEvents.loggedIn((event) => {
   const player = event.player;
