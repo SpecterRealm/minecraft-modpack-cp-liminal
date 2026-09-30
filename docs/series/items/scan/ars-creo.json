@@ -27,7 +27,12 @@
  "items": {
   "ars_creo:starbuncle_wheel": {
    "kind": "block",
-   "name": "Starbuncle Wheel"
+   "name": "Starbuncle Wheel",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

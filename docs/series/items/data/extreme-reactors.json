@@ -62,7 +62,25 @@
     "recipe",
     "datapack"
    ],
-   "notes": "Overlaps Powah Reactor and Mekanism Fission. Fuel needs yellorite ore, which Verdant/Elysian disable; check the source path."
+   "notes": "Overlaps Powah Reactor and Mekanism Fission. Fuel needs yellorite ore, which Verdant/Elysian disable; check the source path.",
+   "tags": [
+    "kind:multiblock",
+    "function:generate",
+    "power-role:makes",
+    "power-role:uses",
+    "power-type:fe",
+    "power-type:heat",
+    "fuel:nuclear",
+    "needs:ore",
+    "scale:count-scaled"
+   ],
+   "scaling": {
+    "model": "count-scaled",
+    "driver": "fuel rods and control rods",
+    "formula": "output scales with fuel rod count and height; global reactorPowerProductionMultiplier (default 1.0)",
+    "source": "ReactorControlRodEntity.java, config/Reactor.java",
+    "note": "Size cap maxReactorSize 32 x maxReactorHeight 48; unverified formula detail"
+   }
   },
   {
    "id": "bigreactors:basic_turbinecontroller",
@@ -80,7 +98,23 @@
     "config",
     "recipe"
    ],
-   "notes": "Overlaps Mekanism Industrial Turbine."
+   "notes": "Overlaps Mekanism Industrial Turbine.",
+   "tags": [
+    "kind:multiblock",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "fuel:kinetic",
+    "needs:none",
+    "scale:count-scaled"
+   ],
+   "scaling": {
+    "model": "count-scaled",
+    "driver": "rotor blades and coils",
+    "formula": "output scales with blades, coils and fluid flow; global turbinePowerProductionMultiplier (default 1.0)",
+    "source": "TurbineLogic.java, config/Turbine.java",
+    "note": "Size cap 32 x 32; unverified formula detail"
+   }
   },
   {
    "id": "bigreactors:energycore",
@@ -94,7 +128,15 @@
    "tunable": [
     "recipe"
    ],
-   "notes": "Multiblock battery, the closest match to the Ender IO capacitor bank the pack wants. Confirm size, capacity and recipe."
+   "notes": "Multiblock battery, the closest match to the Ender IO capacitor bank the pack wants. Confirm size, capacity and recipe.",
+   "tags": [
+    "kind:multiblock",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none",
+    "scale:size-scaled"
+   ]
   },
   {
    "id": "bigreactors:wrench",
@@ -108,7 +150,15 @@
    "tunable": [
     "recipe"
    ],
-   "notes": "Another wrench: overlaps Create, Mekanism (Configurator), Morph-o-Tool and Metalworks tools. Morph-o-Tool test candidate."
+   "notes": "Another wrench: overlaps Create, Mekanism (Configurator), Morph-o-Tool and Metalworks tools. Morph-o-Tool test candidate.",
+   "tags": [
+    "kind:tool",
+    "function:craft",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "scale:fixed"
+   ]
   },
   {
    "id": "bigreactors:fluidizercontroller",
@@ -121,6 +171,14 @@
    "needs_ore": false,
    "tunable": [
     "recipe"
+   ],
+   "tags": [
+    "kind:multiblock",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "scale:fixed"
    ]
   }
  ]

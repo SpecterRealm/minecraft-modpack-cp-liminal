@@ -32,7 +32,12 @@
  "items": {
   "apothic_spawners:spawner": {
    "kind": "item",
-   "name": "%s Spawner"
+   "name": "%s Spawner",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

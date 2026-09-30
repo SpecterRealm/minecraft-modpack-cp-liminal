@@ -59,7 +59,16 @@
     "config",
     "recipe"
    ],
-   "notes": "Bridges Create into FE: any Create power source (water wheel, windmill, steam engine) becomes FE. Makes a Powah/Mek starter generator optional if the pack leans Create early."
+   "notes": "Bridges Create into FE: any Create power source (water wheel, windmill, steam engine) becomes FE. Makes a Powah/Mek starter generator optional if the pack leans Create early.",
+   "tags": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "fuel:kinetic",
+    "needs:none",
+    "scale:tiered"
+   ]
   },
   {
    "id": "createaddition:electric_motor",
@@ -76,6 +85,15 @@
    "tunable": [
     "config",
     "recipe"
+   ],
+   "tags": [
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "power-type:stress",
+    "needs:none",
+    "scale:fixed"
    ]
   },
   {
@@ -96,7 +114,22 @@
     "config",
     "recipe"
    ],
-   "notes": "Multiblock battery; capacity is per-block, up to 3x3x5. Fills the Ender IO-style multiblock storage wish, at low tier."
+   "notes": "Multiblock battery; capacity is per-block, up to 3x3x5. Fills the Ender IO-style multiblock storage wish, at low tier.",
+   "tags": [
+    "kind:multiblock",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none",
+    "scale:size-scaled"
+   ],
+   "scaling": {
+    "model": "size-scaled",
+    "driver": "block count",
+    "formula": "capacity = per-block accumulator_capacity (2,000,000 FE) x blocks; transfer per block 5,000 FE/t",
+    "source": "CommonConfig.java (accumulator_*)",
+    "note": "Max 3 wide x 3 x 5 tall by default"
+   }
   },
   {
    "id": "createaddition:small_connector",
@@ -114,7 +147,15 @@
     "config",
     "recipe"
    ],
-   "notes": "Overlaps Flux Networks / Powah cables as the FE transfer tool."
+   "notes": "Overlaps Flux Networks / Powah cables as the FE transfer tool.",
+   "tags": [
+    "kind:block",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "scale:fixed"
+   ]
   },
   {
    "id": "createaddition:large_connector",
@@ -131,6 +172,14 @@
    "tunable": [
     "config",
     "recipe"
+   ],
+   "tags": [
+    "kind:block",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "scale:fixed"
    ]
   },
   {
@@ -146,6 +195,14 @@
    "needs_ore": false,
    "tunable": [
     "config"
+   ],
+   "tags": [
+    "kind:machine",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "scale:fixed"
    ]
   },
   {
@@ -162,6 +219,15 @@
    "needs_ore": false,
    "tunable": [
     "config"
+   ],
+   "tags": [
+    "kind:machine",
+    "function:defend",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "scale:fixed"
    ]
   },
   {
@@ -178,7 +244,16 @@
    "tunable": [
     "config"
    ],
-   "notes": "Also overlaps Mekanism Generators Bio-Generator on bioethanol."
+   "notes": "Also overlaps Mekanism Generators Bio-Generator on bioethanol.",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "power-role:none",
+    "power-type:heat",
+    "fuel:liquid",
+    "needs:none",
+    "scale:fixed"
+   ]
   }
  ]
 }

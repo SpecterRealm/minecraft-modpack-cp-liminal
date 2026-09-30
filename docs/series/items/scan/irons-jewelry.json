@@ -33,55 +33,78 @@
  "items": {
   "irons_jewelry:ring": {
    "kind": "item",
-   "name": "Ring"
+   "name": "Ring",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "irons_jewelry:necklace": {
    "kind": "item",
-   "name": "Necklace"
+   "name": "Necklace",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "irons_jewelry:invalid_jewelry": {
    "kind": "item",
-   "name": "Invalid Jewelry"
+   "name": "Invalid Jewelry",
+   "tags": []
   },
   "irons_jewelry:recipe": {
    "kind": "item",
-   "name": "Artisan Scroll"
+   "name": "Artisan Scroll",
+   "tags": [
+    "kind:consumable"
+   ]
   },
   "irons_jewelry:ruby": {
    "kind": "item",
-   "name": "Ruby"
+   "name": "Ruby",
+   "tags": []
   },
   "irons_jewelry:sapphire": {
    "kind": "item",
-   "name": "Sapphire"
+   "name": "Sapphire",
+   "tags": []
   },
   "irons_jewelry:topaz": {
    "kind": "item",
-   "name": "Topaz"
+   "name": "Topaz",
+   "tags": []
   },
   "irons_jewelry:moonstone": {
    "kind": "item",
-   "name": "Moonstone"
+   "name": "Moonstone",
+   "tags": []
   },
   "irons_jewelry:peridot": {
    "kind": "item",
-   "name": "Peridot"
+   "name": "Peridot",
+   "tags": []
   },
   "irons_jewelry:onyx": {
    "kind": "item",
-   "name": "Onyx"
+   "name": "Onyx",
+   "tags": []
   },
   "irons_jewelry:garnet": {
    "kind": "item",
-   "name": "Garnet"
+   "name": "Garnet",
+   "tags": []
   },
   "irons_jewelry:jewelcrafting_station": {
    "kind": "block",
-   "name": "Jewelcrafting Station"
+   "name": "Jewelcrafting Station",
+   "tags": [
+    "function:craft",
+    "kind:block"
+   ]
   },
   "minecraft:villager.irons_jewelry.jeweler": {
    "kind": "entity",
-   "name": "Jeweler"
+   "name": "Jeweler",
+   "tags": []
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

@@ -34,135 +34,284 @@
  "items": {
   "ars_technica:calibrated_precision_mechanism": {
    "kind": "item",
-   "name": "Calibrated Precision Mechanism"
+   "name": "Calibrated Precision Mechanism",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:mark_of_technomancy": {
    "kind": "item",
-   "name": "Mark of Technomancy"
+   "name": "Mark of Technomancy",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:technomancer_boots": {
    "kind": "item",
-   "name": "Technomancer's Boots"
+   "name": "Technomancer's Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:technomancer_chestplate": {
    "kind": "item",
-   "name": "Technomancer's Robes"
+   "name": "Technomancer's Robes",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:technomancer_helmet": {
    "kind": "item",
-   "name": "Technomancer's Hat"
+   "name": "Technomancer's Hat",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:technomancer_leggings": {
    "kind": "item",
-   "name": "Technomancer's Leggings"
+   "name": "Technomancer's Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:artificer_cap": {
    "kind": "item",
-   "name": "Artificer's Cap"
+   "name": "Artificer's Cap",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:artificer_tunic": {
    "kind": "item",
-   "name": "Artificer's Tunic"
+   "name": "Artificer's Tunic",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:artificer_pants": {
    "kind": "item",
-   "name": "Artificer's Pants"
+   "name": "Artificer's Pants",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:artificer_shoes": {
    "kind": "item",
-   "name": "Artificer's Shoes"
+   "name": "Artificer's Shoes",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:machinaguard_helmet": {
    "kind": "item",
-   "name": "Machinaguard's Helmet"
+   "name": "Machinaguard's Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:machinaguard_chestplate": {
    "kind": "item",
-   "name": "Machinaguard's Chestplate"
+   "name": "Machinaguard's Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:machinaguard_leggings": {
    "kind": "item",
-   "name": "Machinaguard's Leggings"
+   "name": "Machinaguard's Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:machinaguard_boots": {
    "kind": "item",
-   "name": "Machinaguard's Boots"
+   "name": "Machinaguard's Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:runic_spanner": {
    "kind": "item",
-   "name": "Arcane Wrench"
+   "name": "Arcane Wrench",
+   "tags": [
+    "kind:tool",
+    "function:craft",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:source_motor": {
    "kind": "block",
-   "name": "Source Motor"
+   "name": "Source Motor",
+   "tags": [
+    "power-type:stress",
+    "power-type:mana",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_technica:precise_relay": {
    "kind": "block",
-   "name": "Precise Relay"
+   "name": "Precise Relay",
+   "tags": [
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_technica:transmutation_turret": {
    "kind": "item",
-   "name": "Transmutation Turret"
+   "name": "Transmutation Turret",
+   "tags": [
+    "power-type:emc",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:pocket_factory": {
    "kind": "item",
-   "name": "§bMusic Disc"
+   "name": "§bMusic Disc",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:transmutation_focus": {
    "kind": "item",
-   "name": "Focus of Transmutation"
+   "name": "Focus of Transmutation",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "power-type:emc",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:giant_experience_gem": {
    "kind": "item",
-   "name": "Giant Experience Gem"
+   "name": "Giant Experience Gem",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:gargantuan_experience_gem": {
    "kind": "item",
-   "name": "Gargantuan Experience Gem"
+   "name": "Gargantuan Experience Gem",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:thread_pressure": {
    "kind": "item",
-   "name": "Pressure"
+   "name": "Pressure",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:spy_monocle": {
    "kind": "item",
-   "name": "Spy Monocle"
+   "name": "Spy Monocle",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:arcane_fusion_entity": {
    "kind": "entity",
-   "name": "Arcane Fusion"
+   "name": "Arcane Fusion",
+   "tags": [
+    "kind:mob",
+    "kind:multiblock",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:arcane_hammer_entity": {
    "kind": "entity",
-   "name": "Arcane Hammer"
+   "name": "Arcane Hammer",
+   "tags": [
+    "kind:mob",
+    "kind:tool",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:arcane_polish_entity": {
    "kind": "entity",
-   "name": "Arcane Polisher"
+   "name": "Arcane Polisher",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:arcane_press_entity": {
    "kind": "entity",
-   "name": "Arcane Press"
+   "name": "Arcane Press",
+   "tags": [
+    "kind:mob",
+    "kind:machine",
+    "function:process",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:arcane_compact_entity": {
    "kind": "entity",
-   "name": "Arcane Compactor"
+   "name": "Arcane Compactor",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:arcane_pack_entity": {
    "kind": "entity",
-   "name": "Arcane Packer"
+   "name": "Arcane Packer",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:arcane_whirl_entity": {
    "kind": "entity",
-   "name": "Arcane Whirl"
+   "name": "Arcane Whirl",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:item_projectile_entity": {
    "kind": "entity",
-   "name": "Item Bubble"
+   "name": "Item Bubble",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_technica:blank_disc": {
    "kind": "item",
-   "name": "Blank Disc"
+   "name": "Blank Disc",
+   "tags": [
+    "needs:spell-tech"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

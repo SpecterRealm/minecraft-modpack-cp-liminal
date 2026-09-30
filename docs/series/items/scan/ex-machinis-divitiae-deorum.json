@@ -27,35 +27,62 @@
  "items": {
   "exmachinis:flux_compactor": {
    "kind": "block",
-   "name": "Flux Compactor"
+   "name": "Flux Compactor",
+   "tags": [
+    "kind:block"
+   ]
   },
   "exmachinis:flux_hammer": {
    "kind": "block",
-   "name": "Flux Hammer"
+   "name": "Flux Hammer",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "exmachinis:flux_sieve": {
    "kind": "block",
-   "name": "Flux Sieve"
+   "name": "Flux Sieve",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "exmachinis:item_buffer": {
    "kind": "block",
-   "name": "Item Buffer"
+   "name": "Item Buffer",
+   "tags": [
+    "kind:block"
+   ]
   },
   "exmachinis:comparator_upgrade": {
    "kind": "item",
-   "name": "Comparator Upgrade"
+   "name": "Comparator Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "exmachinis:diamond_upgrade": {
    "kind": "item",
-   "name": "Diamond Upgrade"
+   "name": "Diamond Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "exmachinis:gold_upgrade": {
    "kind": "item",
-   "name": "Gold Upgrade"
+   "name": "Gold Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "exmachinis:netherite_upgrade": {
    "kind": "item",
-   "name": "Netherite Upgrade"
+   "name": "Netherite Upgrade",
+   "tags": [
+    "kind:gadget",
+    "needs:nether"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

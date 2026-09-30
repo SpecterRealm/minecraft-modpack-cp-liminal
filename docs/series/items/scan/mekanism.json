@@ -81,3447 +81,5952 @@
  "items": {
   "mekanism:advanced_bin": {
    "kind": "block",
-   "name": "Advanced Bin"
+   "name": "Advanced Bin",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "mekanism:advanced_combining_factory": {
    "kind": "block",
-   "name": "Advanced Combining Factory"
+   "name": "Advanced Combining Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:advanced_compressing_factory": {
    "kind": "block",
-   "name": "Advanced Compressing Factory"
+   "name": "Advanced Compressing Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:advanced_crushing_factory": {
    "kind": "block",
-   "name": "Advanced Crushing Factory"
+   "name": "Advanced Crushing Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:advanced_energy_cube": {
    "kind": "block",
-   "name": "Advanced Energy Cube"
+   "name": "Advanced Energy Cube",
+   "tags": [
+    "kind:storage"
+   ]
   },
   "mekanism:advanced_enriching_factory": {
    "kind": "block",
-   "name": "Advanced Enriching Factory"
+   "name": "Advanced Enriching Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:advanced_fluid_tank": {
    "kind": "block",
-   "name": "Advanced Fluid Tank"
+   "name": "Advanced Fluid Tank",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "mekanism:advanced_induction_cell": {
    "kind": "block",
-   "name": "Advanced Induction Cell"
+   "name": "Advanced Induction Cell",
+   "tags": [
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "kind:block"
+   ]
   },
   "mekanism:advanced_induction_provider": {
    "kind": "block",
-   "name": "Advanced Induction Provider"
+   "name": "Advanced Induction Provider",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:advanced_infusing_factory": {
    "kind": "block",
-   "name": "Advanced Infusing Factory"
+   "name": "Advanced Infusing Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:advanced_injecting_factory": {
    "kind": "block",
-   "name": "Advanced Injecting Factory"
+   "name": "Advanced Injecting Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:advanced_logistical_transporter": {
    "kind": "block",
-   "name": "Advanced Logistical Transporter"
+   "name": "Advanced Logistical Transporter",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:advanced_mechanical_pipe": {
    "kind": "block",
-   "name": "Advanced Mechanical Pipe"
+   "name": "Advanced Mechanical Pipe",
+   "tags": [
+    "function:transfer",
+    "kind:block"
+   ]
   },
   "mekanism:advanced_pressurized_tube": {
    "kind": "block",
-   "name": "Advanced Pressurized Tube"
+   "name": "Advanced Pressurized Tube",
+   "tags": [
+    "function:transfer",
+    "kind:block"
+   ]
   },
   "mekanism:advanced_purifying_factory": {
    "kind": "block",
-   "name": "Advanced Purifying Factory"
+   "name": "Advanced Purifying Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:advanced_sawing_factory": {
    "kind": "block",
-   "name": "Advanced Sawing Factory"
+   "name": "Advanced Sawing Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:advanced_smelting_factory": {
    "kind": "block",
-   "name": "Advanced Smelting Factory"
+   "name": "Advanced Smelting Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:advanced_thermodynamic_conductor": {
    "kind": "block",
-   "name": "Advanced Thermodynamic Conductor"
+   "name": "Advanced Thermodynamic Conductor",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:advanced_universal_cable": {
    "kind": "block",
-   "name": "Advanced Universal Cable"
+   "name": "Advanced Universal Cable",
+   "tags": [
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "kind:block"
+   ]
   },
   "mekanism:antiprotonic_nucleosynthesizer": {
    "kind": "block",
-   "name": "Antiprotonic Nucleosynthesizer"
+   "name": "Antiprotonic Nucleosynthesizer",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:basic_bin": {
    "kind": "block",
-   "name": "Basic Bin"
+   "name": "Basic Bin",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "mekanism:basic_combining_factory": {
    "kind": "block",
-   "name": "Basic Combining Factory"
+   "name": "Basic Combining Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:basic_compressing_factory": {
    "kind": "block",
-   "name": "Basic Compressing Factory"
+   "name": "Basic Compressing Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:basic_crushing_factory": {
    "kind": "block",
-   "name": "Basic Crushing Factory"
+   "name": "Basic Crushing Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:basic_energy_cube": {
    "kind": "block",
-   "name": "Basic Energy Cube"
+   "name": "Basic Energy Cube",
+   "tags": [
+    "kind:storage"
+   ]
   },
   "mekanism:basic_enriching_factory": {
    "kind": "block",
-   "name": "Basic Enriching Factory"
+   "name": "Basic Enriching Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:basic_fluid_tank": {
    "kind": "block",
-   "name": "Basic Fluid Tank"
+   "name": "Basic Fluid Tank",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "mekanism:basic_induction_cell": {
    "kind": "block",
-   "name": "Basic Induction Cell"
+   "name": "Basic Induction Cell",
+   "tags": [
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "kind:block"
+   ]
   },
   "mekanism:basic_induction_provider": {
    "kind": "block",
-   "name": "Basic Induction Provider"
+   "name": "Basic Induction Provider",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:basic_infusing_factory": {
    "kind": "block",
-   "name": "Basic Infusing Factory"
+   "name": "Basic Infusing Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:basic_injecting_factory": {
    "kind": "block",
-   "name": "Basic Injecting Factory"
+   "name": "Basic Injecting Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:basic_logistical_transporter": {
    "kind": "block",
-   "name": "Basic Logistical Transporter"
+   "name": "Basic Logistical Transporter",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:basic_mechanical_pipe": {
    "kind": "block",
-   "name": "Basic Mechanical Pipe"
+   "name": "Basic Mechanical Pipe",
+   "tags": [
+    "function:transfer",
+    "kind:block"
+   ]
   },
   "mekanism:basic_pressurized_tube": {
    "kind": "block",
-   "name": "Basic Pressurized Tube"
+   "name": "Basic Pressurized Tube",
+   "tags": [
+    "function:transfer",
+    "kind:block"
+   ]
   },
   "mekanism:basic_purifying_factory": {
    "kind": "block",
-   "name": "Basic Purifying Factory"
+   "name": "Basic Purifying Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:basic_sawing_factory": {
    "kind": "block",
-   "name": "Basic Sawing Factory"
+   "name": "Basic Sawing Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:basic_smelting_factory": {
    "kind": "block",
-   "name": "Basic Smelting Factory"
+   "name": "Basic Smelting Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:basic_thermodynamic_conductor": {
    "kind": "block",
-   "name": "Basic Thermodynamic Conductor"
+   "name": "Basic Thermodynamic Conductor",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:basic_universal_cable": {
    "kind": "block",
-   "name": "Basic Universal Cable"
+   "name": "Basic Universal Cable",
+   "tags": [
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "kind:block"
+   ]
   },
   "mekanism:block_bio_fuel": {
    "kind": "block",
-   "name": "Block of Bio Fuel"
+   "name": "Block of Bio Fuel",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:block_bronze": {
    "kind": "block",
-   "name": "Block of Bronze"
+   "name": "Block of Bronze",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:block_charcoal": {
    "kind": "block",
-   "name": "Block of Charcoal"
+   "name": "Block of Charcoal",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:block_fluorite": {
    "kind": "block",
-   "name": "Block of Fluorite"
+   "name": "Block of Fluorite",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:block_lead": {
    "kind": "block",
-   "name": "Block of Lead"
+   "name": "Block of Lead",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:block_osmium": {
    "kind": "block",
-   "name": "Block of Osmium"
+   "name": "Block of Osmium",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:block_raw_lead": {
    "kind": "block",
-   "name": "Block of Raw Lead"
+   "name": "Block of Raw Lead",
+   "tags": [
+    "kind:material",
+    "needs:ore"
+   ]
   },
   "mekanism:block_raw_osmium": {
    "kind": "block",
-   "name": "Block of Raw Osmium"
+   "name": "Block of Raw Osmium",
+   "tags": [
+    "kind:material",
+    "needs:ore"
+   ]
   },
   "mekanism:block_raw_tin": {
    "kind": "block",
-   "name": "Block of Raw Tin"
+   "name": "Block of Raw Tin",
+   "tags": [
+    "kind:material",
+    "needs:ore"
+   ]
   },
   "mekanism:block_raw_uranium": {
    "kind": "block",
-   "name": "Block of Raw Uranium"
+   "name": "Block of Raw Uranium",
+   "tags": [
+    "kind:material",
+    "needs:ore"
+   ]
   },
   "mekanism:block_refined_glowstone": {
    "kind": "block",
-   "name": "Refined Glowstone"
+   "name": "Refined Glowstone",
+   "tags": [
+    "function:light",
+    "kind:block"
+   ]
   },
   "mekanism:block_refined_obsidian": {
    "kind": "block",
-   "name": "Refined Obsidian"
+   "name": "Refined Obsidian",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:block_salt": {
    "kind": "block",
-   "name": "Salt Block"
+   "name": "Salt Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:block_steel": {
    "kind": "block",
-   "name": "Block of Steel"
+   "name": "Block of Steel",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:block_tin": {
    "kind": "block",
-   "name": "Block of Tin"
+   "name": "Block of Tin",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:block_uranium": {
    "kind": "block",
-   "name": "Block of Uranium"
+   "name": "Block of Uranium",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:boiler_casing": {
    "kind": "block",
-   "name": "Boiler Casing"
+   "name": "Boiler Casing",
+   "tags": [
+    "kind:multiblock"
+   ]
   },
   "mekanism:boiler_valve": {
    "kind": "block",
-   "name": "Boiler Valve"
+   "name": "Boiler Valve",
+   "tags": [
+    "kind:multiblock"
+   ]
   },
   "mekanism:bounding_block": {
    "kind": "block",
-   "name": "Bounding Block"
+   "name": "Bounding Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:brine": {
    "kind": "block",
-   "name": "Brine"
+   "name": "Brine",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:cardboard_box": {
    "kind": "block",
-   "name": "Cardboard Box"
+   "name": "Cardboard Box",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "mekanism:chargepad": {
    "kind": "block",
-   "name": "Chargepad"
+   "name": "Chargepad",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:chlorine": {
    "kind": "block",
-   "name": "Liquid Chlorine"
+   "name": "Liquid Chlorine",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:combiner": {
    "kind": "block",
-   "name": "Combiner"
+   "name": "Combiner",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:creative_bin": {
    "kind": "block",
-   "name": "Creative Bin"
+   "name": "Creative Bin",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "mekanism:creative_energy_cube": {
    "kind": "block",
-   "name": "Creative Energy Cube"
+   "name": "Creative Energy Cube",
+   "tags": [
+    "kind:storage"
+   ]
   },
   "mekanism:creative_fluid_tank": {
    "kind": "block",
-   "name": "Creative Fluid Tank"
+   "name": "Creative Fluid Tank",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "mekanism:crusher": {
    "kind": "block",
-   "name": "Crusher"
+   "name": "Crusher",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:deepslate_fluorite_ore": {
    "kind": "block",
-   "name": "Deepslate Fluorite Ore"
+   "name": "Deepslate Fluorite Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block"
+   ]
   },
   "mekanism:deepslate_lead_ore": {
    "kind": "block",
-   "name": "Deepslate Lead Ore"
+   "name": "Deepslate Lead Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block"
+   ]
   },
   "mekanism:deepslate_osmium_ore": {
    "kind": "block",
-   "name": "Deepslate Osmium Ore"
+   "name": "Deepslate Osmium Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block"
+   ]
   },
   "mekanism:deepslate_tin_ore": {
    "kind": "block",
-   "name": "Deepslate Tin Ore"
+   "name": "Deepslate Tin Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block"
+   ]
   },
   "mekanism:deepslate_uranium_ore": {
    "kind": "block",
-   "name": "Deepslate Uranium Ore"
+   "name": "Deepslate Uranium Ore",
+   "tags": [
+    "needs:ore",
+    "kind:block"
+   ]
   },
   "mekanism:digital_miner": {
    "kind": "block",
-   "name": "Digital Miner"
+   "name": "Digital Miner",
+   "tags": [
+    "function:mine",
+    "kind:block"
+   ]
   },
   "mekanism:dimensional_stabilizer": {
    "kind": "block",
-   "name": "Dimensional Stabilizer"
+   "name": "Dimensional Stabilizer",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:diversion_transporter": {
    "kind": "block",
-   "name": "Diversion Transporter"
+   "name": "Diversion Transporter",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:dynamic_tank": {
    "kind": "block",
-   "name": "Dynamic Tank"
+   "name": "Dynamic Tank",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "mekanism:dynamic_valve": {
    "kind": "block",
-   "name": "Dynamic Valve"
+   "name": "Dynamic Valve",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:electric_pump": {
    "kind": "block",
-   "name": "Electric Pump"
+   "name": "Electric Pump",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:electrolytic_separator": {
    "kind": "block",
-   "name": "Electrolytic Separator"
+   "name": "Electrolytic Separator",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:elite_bin": {
    "kind": "block",
-   "name": "Elite Bin"
+   "name": "Elite Bin",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "mekanism:elite_combining_factory": {
    "kind": "block",
-   "name": "Elite Combining Factory"
+   "name": "Elite Combining Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:elite_compressing_factory": {
    "kind": "block",
-   "name": "Elite Compressing Factory"
+   "name": "Elite Compressing Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:elite_crushing_factory": {
    "kind": "block",
-   "name": "Elite Crushing Factory"
+   "name": "Elite Crushing Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:elite_energy_cube": {
    "kind": "block",
-   "name": "Elite Energy Cube"
+   "name": "Elite Energy Cube",
+   "tags": [
+    "kind:storage"
+   ]
   },
   "mekanism:elite_enriching_factory": {
    "kind": "block",
-   "name": "Elite Enriching Factory"
+   "name": "Elite Enriching Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:elite_fluid_tank": {
    "kind": "block",
-   "name": "Elite Fluid Tank"
+   "name": "Elite Fluid Tank",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "mekanism:elite_induction_cell": {
    "kind": "block",
-   "name": "Elite Induction Cell"
+   "name": "Elite Induction Cell",
+   "tags": [
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "kind:block"
+   ]
   },
   "mekanism:elite_induction_provider": {
    "kind": "block",
-   "name": "Elite Induction Provider"
+   "name": "Elite Induction Provider",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:elite_infusing_factory": {
    "kind": "block",
-   "name": "Elite Infusing Factory"
+   "name": "Elite Infusing Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:elite_injecting_factory": {
    "kind": "block",
-   "name": "Elite Injecting Factory"
+   "name": "Elite Injecting Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:elite_logistical_transporter": {
    "kind": "block",
-   "name": "Elite Logistical Transporter"
+   "name": "Elite Logistical Transporter",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:elite_mechanical_pipe": {
    "kind": "block",
-   "name": "Elite Mechanical Pipe"
+   "name": "Elite Mechanical Pipe",
+   "tags": [
+    "function:transfer",
+    "kind:block"
+   ]
   },
   "mekanism:elite_pressurized_tube": {
    "kind": "block",
-   "name": "Elite Pressurized Tube"
+   "name": "Elite Pressurized Tube",
+   "tags": [
+    "function:transfer",
+    "kind:block"
+   ]
   },
   "mekanism:elite_purifying_factory": {
    "kind": "block",
-   "name": "Elite Purifying Factory"
+   "name": "Elite Purifying Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:elite_sawing_factory": {
    "kind": "block",
-   "name": "Elite Sawing Factory"
+   "name": "Elite Sawing Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:elite_smelting_factory": {
    "kind": "block",
-   "name": "Elite Smelting Factory"
+   "name": "Elite Smelting Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:elite_thermodynamic_conductor": {
    "kind": "block",
-   "name": "Elite Thermodynamic Conductor"
+   "name": "Elite Thermodynamic Conductor",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:elite_universal_cable": {
    "kind": "block",
-   "name": "Elite Universal Cable"
+   "name": "Elite Universal Cable",
+   "tags": [
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "kind:block"
+   ]
   },
   "mekanism:energized_smelter": {
    "kind": "block",
-   "name": "Energized Smelter"
+   "name": "Energized Smelter",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:enrichment_chamber": {
    "kind": "block",
-   "name": "Enrichment Chamber"
+   "name": "Enrichment Chamber",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:ethene": {
    "kind": "block",
-   "name": "Liquid Ethene"
+   "name": "Liquid Ethene",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:fluidic_plenisher": {
    "kind": "block",
-   "name": "Fluidic Plenisher"
+   "name": "Fluidic Plenisher",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:fluorite_ore": {
    "kind": "block",
-   "name": "Fluorite Ore"
+   "name": "Fluorite Ore",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:formulaic_assemblicator": {
    "kind": "block",
-   "name": "Formulaic Assemblicator"
+   "name": "Formulaic Assemblicator",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:fuelwood_heater": {
    "kind": "block",
-   "name": "Fuelwood Heater"
+   "name": "Fuelwood Heater",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:heavy_water": {
    "kind": "block",
-   "name": "Heavy Water"
+   "name": "Heavy Water",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:hydrofluoric_acid": {
    "kind": "block",
-   "name": "Liquid Hydrofluoric Acid"
+   "name": "Liquid Hydrofluoric Acid",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:hydrogen": {
    "kind": "block",
-   "name": "Liquid Hydrogen"
+   "name": "Liquid Hydrogen",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:hydrogen_chloride": {
    "kind": "block",
-   "name": "Liquid Hydrogen Chloride"
+   "name": "Liquid Hydrogen Chloride",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:induction_casing": {
    "kind": "block",
-   "name": "Induction Casing"
+   "name": "Induction Casing",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:induction_port": {
    "kind": "block",
-   "name": "Induction Port"
+   "name": "Induction Port",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:industrial_alarm": {
    "kind": "block",
-   "name": "Industrial Alarm"
+   "name": "Industrial Alarm",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:isotopic_centrifuge": {
    "kind": "block",
-   "name": "Isotopic Centrifuge"
+   "name": "Isotopic Centrifuge",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:laser": {
    "kind": "block",
-   "name": "Laser"
+   "name": "Laser",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:laser_amplifier": {
    "kind": "block",
-   "name": "Laser Amplifier"
+   "name": "Laser Amplifier",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:laser_tractor_beam": {
    "kind": "block",
-   "name": "Laser Tractor Beam"
+   "name": "Laser Tractor Beam",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:lead_ore": {
    "kind": "block",
-   "name": "Lead Ore"
+   "name": "Lead Ore",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:lithium": {
    "kind": "block",
-   "name": "Liquid Lithium"
+   "name": "Liquid Lithium",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:logistical_sorter": {
    "kind": "block",
-   "name": "Logistical Sorter"
+   "name": "Logistical Sorter",
+   "tags": [
+    "function:transfer",
+    "kind:block"
+   ]
   },
   "mekanism:metallurgic_infuser": {
    "kind": "block",
-   "name": "Metallurgic Infuser"
+   "name": "Metallurgic Infuser",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:modification_station": {
    "kind": "block",
-   "name": "Modification Station"
+   "name": "Modification Station",
+   "tags": [
+    "function:craft",
+    "kind:block"
+   ]
   },
   "mekanism:nutritional_liquifier": {
    "kind": "block",
-   "name": "Nutritional Liquifier"
+   "name": "Nutritional Liquifier",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:nutritional_paste": {
    "kind": "block",
-   "name": "Nutritional Paste"
+   "name": "Nutritional Paste",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:oredictionificator": {
    "kind": "block",
-   "name": "Oredictionificator"
+   "name": "Oredictionificator",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:osmium_compressor": {
    "kind": "block",
-   "name": "Osmium Compressor"
+   "name": "Osmium Compressor",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:osmium_ore": {
    "kind": "block",
-   "name": "Osmium Ore"
+   "name": "Osmium Ore",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:oxygen": {
    "kind": "block",
-   "name": "Liquid Oxygen"
+   "name": "Liquid Oxygen",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:painting_machine": {
    "kind": "block",
-   "name": "Painting Machine"
+   "name": "Painting Machine",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanism:personal_barrel": {
    "kind": "block",
-   "name": "Personal Barrel"
+   "name": "Personal Barrel",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "mekanism:personal_chest": {
    "kind": "block",
-   "name": "Personal Chest"
+   "name": "Personal Chest",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "mekanism:pigment_extractor": {
    "kind": "block",
-   "name": "Pigment Extractor"
+   "name": "Pigment Extractor",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:pigment_mixer": {
    "kind": "block",
-   "name": "Pigment Mixer"
+   "name": "Pigment Mixer",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:precision_sawmill": {
    "kind": "block",
-   "name": "Precision Sawmill"
+   "name": "Precision Sawmill",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:pressure_disperser": {
    "kind": "block",
-   "name": "Pressure Disperser"
+   "name": "Pressure Disperser",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:pressurized_reaction_chamber": {
    "kind": "block",
-   "name": "Pressurized Reaction Chamber"
+   "name": "Pressurized Reaction Chamber",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:purification_chamber": {
    "kind": "block",
-   "name": "Purification Chamber"
+   "name": "Purification Chamber",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:qio_dashboard": {
    "kind": "block",
-   "name": "QIO Dashboard"
+   "name": "QIO Dashboard",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:qio_drive_array": {
    "kind": "block",
-   "name": "QIO Drive Array"
+   "name": "QIO Drive Array",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:qio_exporter": {
    "kind": "block",
-   "name": "QIO Exporter"
+   "name": "QIO Exporter",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:qio_importer": {
    "kind": "block",
-   "name": "QIO Importer"
+   "name": "QIO Importer",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:qio_redstone_adapter": {
    "kind": "block",
-   "name": "QIO Redstone Adapter"
+   "name": "QIO Redstone Adapter",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:quantum_entangloporter": {
    "kind": "block",
-   "name": "Quantum Entangloporter"
+   "name": "Quantum Entangloporter",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:radioactive_waste_barrel": {
    "kind": "block",
-   "name": "Radioactive Waste Barrel"
+   "name": "Radioactive Waste Barrel",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "mekanism:resistive_heater": {
    "kind": "block",
-   "name": "Resistive Heater"
+   "name": "Resistive Heater",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:restrictive_transporter": {
    "kind": "block",
-   "name": "Restrictive Transporter"
+   "name": "Restrictive Transporter",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:rotary_condensentrator": {
    "kind": "block",
-   "name": "Rotary Condensentrator"
+   "name": "Rotary Condensentrator",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:security_desk": {
    "kind": "block",
-   "name": "Security Desk"
+   "name": "Security Desk",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:seismic_vibrator": {
    "kind": "block",
-   "name": "Seismic Vibrator"
+   "name": "Seismic Vibrator",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:sodium": {
    "kind": "block",
-   "name": "Liquid Sodium"
+   "name": "Liquid Sodium",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:solar_neutron_activator": {
    "kind": "block",
-   "name": "Solar Neutron Activator"
+   "name": "Solar Neutron Activator",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:block"
+   ]
   },
   "mekanism:sps_casing": {
    "kind": "block",
-   "name": "SPS Casing"
+   "name": "SPS Casing",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:sps_port": {
    "kind": "block",
-   "name": "SPS Port"
+   "name": "SPS Port",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:steam": {
    "kind": "block",
-   "name": "Liquid Steam"
+   "name": "Liquid Steam",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:steel_casing": {
    "kind": "block",
-   "name": "Steel Casing"
+   "name": "Steel Casing",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:structural_glass": {
    "kind": "block",
-   "name": "Structural Glass"
+   "name": "Structural Glass",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanism:sulfur_dioxide": {
    "kind": "block",
-   "name": "Liquid Sulfur Dioxide"
+   "name": "Liquid Sulfur Dioxide",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:sulfur_trioxide": {
    "kind": "block",
-   "name": "Liquid Sulfur Trioxide"
+   "name": "Liquid Sulfur Trioxide",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:sulfuric_acid": {
    "kind": "block",
-   "name": "Liquid Sulfuric Acid"
+   "name": "Liquid Sulfuric Acid",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:supercharged_coil": {
    "kind": "block",
-   "name": "Supercharged Coil"
+   "name": "Supercharged Coil",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:superheated_sodium": {
    "kind": "block",
-   "name": "Liquid Superheated Sodium"
+   "name": "Liquid Superheated Sodium",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:superheating_element": {
    "kind": "block",
-   "name": "Superheating Element"
+   "name": "Superheating Element",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:teleporter": {
    "kind": "block",
-   "name": "Teleporter"
+   "name": "Teleporter",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:teleporter_frame": {
    "kind": "block",
-   "name": "Teleporter Frame"
+   "name": "Teleporter Frame",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:thermal_evaporation_block": {
    "kind": "block",
-   "name": "Thermal Evaporation Block"
+   "name": "Thermal Evaporation Block",
+   "tags": [
+    "kind:multiblock"
+   ]
   },
   "mekanism:thermal_evaporation_controller": {
    "kind": "block",
-   "name": "Thermal Evaporation Controller"
+   "name": "Thermal Evaporation Controller",
+   "tags": [
+    "kind:multiblock"
+   ]
   },
   "mekanism:thermal_evaporation_valve": {
    "kind": "block",
-   "name": "Thermal Evaporation Valve"
+   "name": "Thermal Evaporation Valve",
+   "tags": [
+    "kind:multiblock"
+   ]
   },
   "mekanism:tin_ore": {
    "kind": "block",
-   "name": "Tin Ore"
+   "name": "Tin Ore",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:ultimate_bin": {
    "kind": "block",
-   "name": "Ultimate Bin"
+   "name": "Ultimate Bin",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "mekanism:ultimate_combining_factory": {
    "kind": "block",
-   "name": "Ultimate Combining Factory"
+   "name": "Ultimate Combining Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:ultimate_compressing_factory": {
    "kind": "block",
-   "name": "Ultimate Compressing Factory"
+   "name": "Ultimate Compressing Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:ultimate_crushing_factory": {
    "kind": "block",
-   "name": "Ultimate Crushing Factory"
+   "name": "Ultimate Crushing Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:ultimate_energy_cube": {
    "kind": "block",
-   "name": "Ultimate Energy Cube"
+   "name": "Ultimate Energy Cube",
+   "tags": [
+    "kind:storage"
+   ]
   },
   "mekanism:ultimate_enriching_factory": {
    "kind": "block",
-   "name": "Ultimate Enriching Factory"
+   "name": "Ultimate Enriching Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:ultimate_fluid_tank": {
    "kind": "block",
-   "name": "Ultimate Fluid Tank"
+   "name": "Ultimate Fluid Tank",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "mekanism:ultimate_induction_cell": {
    "kind": "block",
-   "name": "Ultimate Induction Cell"
+   "name": "Ultimate Induction Cell",
+   "tags": [
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "kind:block"
+   ]
   },
   "mekanism:ultimate_induction_provider": {
    "kind": "block",
-   "name": "Ultimate Induction Provider"
+   "name": "Ultimate Induction Provider",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:ultimate_infusing_factory": {
    "kind": "block",
-   "name": "Ultimate Infusing Factory"
+   "name": "Ultimate Infusing Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:ultimate_injecting_factory": {
    "kind": "block",
-   "name": "Ultimate Injecting Factory"
+   "name": "Ultimate Injecting Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:ultimate_logistical_transporter": {
    "kind": "block",
-   "name": "Ultimate Logistical Transporter"
+   "name": "Ultimate Logistical Transporter",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:ultimate_mechanical_pipe": {
    "kind": "block",
-   "name": "Ultimate Mechanical Pipe"
+   "name": "Ultimate Mechanical Pipe",
+   "tags": [
+    "function:transfer",
+    "kind:block"
+   ]
   },
   "mekanism:ultimate_pressurized_tube": {
    "kind": "block",
-   "name": "Ultimate Pressurized Tube"
+   "name": "Ultimate Pressurized Tube",
+   "tags": [
+    "function:transfer",
+    "kind:block"
+   ]
   },
   "mekanism:ultimate_purifying_factory": {
    "kind": "block",
-   "name": "Ultimate Purifying Factory"
+   "name": "Ultimate Purifying Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:ultimate_sawing_factory": {
    "kind": "block",
-   "name": "Ultimate Sawing Factory"
+   "name": "Ultimate Sawing Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:ultimate_smelting_factory": {
    "kind": "block",
-   "name": "Ultimate Smelting Factory"
+   "name": "Ultimate Smelting Factory",
+   "tags": [
+    "kind:machine",
+    "function:process"
+   ]
   },
   "mekanism:ultimate_thermodynamic_conductor": {
    "kind": "block",
-   "name": "Ultimate Thermodynamic Conductor"
+   "name": "Ultimate Thermodynamic Conductor",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:ultimate_universal_cable": {
    "kind": "block",
-   "name": "Ultimate Universal Cable"
+   "name": "Ultimate Universal Cable",
+   "tags": [
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "kind:block"
+   ]
   },
   "mekanism:uranium_hexafluoride": {
    "kind": "block",
-   "name": "Liquid Uranium Hexafluoride"
+   "name": "Liquid Uranium Hexafluoride",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:uranium_ore": {
    "kind": "block",
-   "name": "Uranium Ore"
+   "name": "Uranium Ore",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:uranium_oxide": {
    "kind": "block",
-   "name": "Liquid Uranium Oxide"
+   "name": "Liquid Uranium Oxide",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanism:flame": {
    "kind": "entity",
-   "name": "Flamethrower Flame"
+   "name": "Flamethrower Flame",
+   "tags": [
+    "kind:mob"
+   ]
   },
   "mekanism:robit": {
    "kind": "item",
-   "name": "Robit"
+   "name": "Robit",
+   "tags": []
   },
   "mekanism:advanced_control_circuit": {
    "kind": "item",
-   "name": "Advanced Control Circuit"
+   "name": "Advanced Control Circuit",
+   "tags": []
   },
   "mekanism:advanced_tier_installer": {
    "kind": "item",
-   "name": "Advanced Tier Installer"
+   "name": "Advanced Tier Installer",
+   "tags": []
   },
   "mekanism:alloy_atomic": {
    "kind": "item",
-   "name": "Atomic Alloy"
+   "name": "Atomic Alloy",
+   "tags": []
   },
   "mekanism:alloy_infused": {
    "kind": "item",
-   "name": "Infused Alloy"
+   "name": "Infused Alloy",
+   "tags": []
   },
   "mekanism:alloy_reinforced": {
    "kind": "item",
-   "name": "Reinforced Alloy"
+   "name": "Reinforced Alloy",
+   "tags": []
   },
   "mekanism:atomic_disassembler": {
    "kind": "item",
-   "name": "Atomic Disassembler"
+   "name": "Atomic Disassembler",
+   "tags": []
   },
   "mekanism:basic_control_circuit": {
    "kind": "item",
-   "name": "Basic Control Circuit"
+   "name": "Basic Control Circuit",
+   "tags": []
   },
   "mekanism:basic_tier_installer": {
    "kind": "item",
-   "name": "Basic Tier Installer"
+   "name": "Basic Tier Installer",
+   "tags": []
   },
   "mekanism:bio_fuel": {
    "kind": "item",
-   "name": "Bio Fuel"
+   "name": "Bio Fuel",
+   "tags": []
   },
   "mekanism:brine_bucket": {
    "kind": "item",
-   "name": "Brine Bucket"
+   "name": "Brine Bucket",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanism:canteen": {
    "kind": "item",
-   "name": "Canteen"
+   "name": "Canteen",
+   "tags": [
+    "kind:consumable"
+   ]
   },
   "mekanism:chlorine_bucket": {
    "kind": "item",
-   "name": "Liquid Chlorine Bucket"
+   "name": "Liquid Chlorine Bucket",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanism:clump_copper": {
    "kind": "item",
-   "name": "Copper Clump"
+   "name": "Copper Clump",
+   "tags": []
   },
   "mekanism:clump_gold": {
    "kind": "item",
-   "name": "Gold Clump"
+   "name": "Gold Clump",
+   "tags": []
   },
   "mekanism:clump_iron": {
    "kind": "item",
-   "name": "Iron Clump"
+   "name": "Iron Clump",
+   "tags": []
   },
   "mekanism:clump_lead": {
    "kind": "item",
-   "name": "Lead Clump"
+   "name": "Lead Clump",
+   "tags": []
   },
   "mekanism:clump_osmium": {
    "kind": "item",
-   "name": "Osmium Clump"
+   "name": "Osmium Clump",
+   "tags": []
   },
   "mekanism:clump_tin": {
    "kind": "item",
-   "name": "Tin Clump"
+   "name": "Tin Clump",
+   "tags": []
   },
   "mekanism:clump_uranium": {
    "kind": "item",
-   "name": "Uranium Clump"
+   "name": "Uranium Clump",
+   "tags": []
   },
   "mekanism:crafting_formula": {
    "kind": "item",
-   "name": "Crafting Formula"
+   "name": "Crafting Formula",
+   "tags": []
   },
   "mekanism:crystal_copper": {
    "kind": "item",
-   "name": "Copper Crystal"
+   "name": "Copper Crystal",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:crystal_gold": {
    "kind": "item",
-   "name": "Gold Crystal"
+   "name": "Gold Crystal",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:crystal_iron": {
    "kind": "item",
-   "name": "Iron Crystal"
+   "name": "Iron Crystal",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:crystal_lead": {
    "kind": "item",
-   "name": "Lead Crystal"
+   "name": "Lead Crystal",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:crystal_osmium": {
    "kind": "item",
-   "name": "Osmium Crystal"
+   "name": "Osmium Crystal",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:crystal_tin": {
    "kind": "item",
-   "name": "Tin Crystal"
+   "name": "Tin Crystal",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:crystal_uranium": {
    "kind": "item",
-   "name": "Uranium Crystal"
+   "name": "Uranium Crystal",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dictionary": {
    "kind": "item",
-   "name": "Dictionary"
+   "name": "Dictionary",
+   "tags": []
   },
   "mekanism:dirty_dust_copper": {
    "kind": "item",
-   "name": "Dirty Copper Dust"
+   "name": "Dirty Copper Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dirty_dust_gold": {
    "kind": "item",
-   "name": "Dirty Gold Dust"
+   "name": "Dirty Gold Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dirty_dust_iron": {
    "kind": "item",
-   "name": "Dirty Iron Dust"
+   "name": "Dirty Iron Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dirty_dust_lead": {
    "kind": "item",
-   "name": "Dirty Lead Dust"
+   "name": "Dirty Lead Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dirty_dust_osmium": {
    "kind": "item",
-   "name": "Dirty Osmium Dust"
+   "name": "Dirty Osmium Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dirty_dust_tin": {
    "kind": "item",
-   "name": "Dirty Tin Dust"
+   "name": "Dirty Tin Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dirty_dust_uranium": {
    "kind": "item",
-   "name": "Dirty Uranium Dust"
+   "name": "Dirty Uranium Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dirty_netherite_scrap": {
    "kind": "item",
-   "name": "Dirty Netherite Scrap"
+   "name": "Dirty Netherite Scrap",
+   "tags": [
+    "kind:material",
+    "needs:nether"
+   ]
   },
   "mekanism:dosimeter": {
    "kind": "item",
-   "name": "Dosimeter"
+   "name": "Dosimeter",
+   "tags": []
   },
   "mekanism:dust_bronze": {
    "kind": "item",
-   "name": "Bronze Dust"
+   "name": "Bronze Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dust_charcoal": {
    "kind": "item",
-   "name": "Charcoal Dust"
+   "name": "Charcoal Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dust_coal": {
    "kind": "item",
-   "name": "Coal Dust"
+   "name": "Coal Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dust_copper": {
    "kind": "item",
-   "name": "Copper Dust"
+   "name": "Copper Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dust_diamond": {
    "kind": "item",
-   "name": "Diamond Dust"
+   "name": "Diamond Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dust_emerald": {
    "kind": "item",
-   "name": "Emerald Dust"
+   "name": "Emerald Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dust_fluorite": {
    "kind": "item",
-   "name": "Fluorite Dust"
+   "name": "Fluorite Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dust_gold": {
    "kind": "item",
-   "name": "Gold Dust"
+   "name": "Gold Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dust_iron": {
    "kind": "item",
-   "name": "Iron Dust"
+   "name": "Iron Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dust_lapis_lazuli": {
    "kind": "item",
-   "name": "Lapis Lazuli Dust"
+   "name": "Lapis Lazuli Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dust_lead": {
    "kind": "item",
-   "name": "Lead Dust"
+   "name": "Lead Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dust_lithium": {
    "kind": "item",
-   "name": "Lithium Dust"
+   "name": "Lithium Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dust_netherite": {
    "kind": "item",
-   "name": "Netherite Dust"
+   "name": "Netherite Dust",
+   "tags": [
+    "kind:material",
+    "needs:nether"
+   ]
   },
   "mekanism:dust_obsidian": {
    "kind": "item",
-   "name": "Obsidian Dust"
+   "name": "Obsidian Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dust_osmium": {
    "kind": "item",
-   "name": "Osmium Dust"
+   "name": "Osmium Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dust_quartz": {
    "kind": "item",
-   "name": "Quartz Dust"
+   "name": "Quartz Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dust_refined_obsidian": {
    "kind": "item",
-   "name": "Refined Obsidian Dust"
+   "name": "Refined Obsidian Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dust_steel": {
    "kind": "item",
-   "name": "Steel Dust"
+   "name": "Steel Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dust_sulfur": {
    "kind": "item",
-   "name": "Sulfur Dust"
+   "name": "Sulfur Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dust_tin": {
    "kind": "item",
-   "name": "Tin Dust"
+   "name": "Tin Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dust_uranium": {
    "kind": "item",
-   "name": "Uranium Dust"
+   "name": "Uranium Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:dye_base": {
    "kind": "item",
-   "name": "Dye Base"
+   "name": "Dye Base",
+   "tags": []
   },
   "mekanism:electric_bow": {
    "kind": "item",
-   "name": "Electric Bow"
+   "name": "Electric Bow",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "mekanism:electrolytic_core": {
    "kind": "item",
-   "name": "Electrolytic Core"
+   "name": "Electrolytic Core",
+   "tags": []
   },
   "mekanism:elite_control_circuit": {
    "kind": "item",
-   "name": "Elite Control Circuit"
+   "name": "Elite Control Circuit",
+   "tags": []
   },
   "mekanism:elite_tier_installer": {
    "kind": "item",
-   "name": "Elite Tier Installer"
+   "name": "Elite Tier Installer",
+   "tags": []
   },
   "mekanism:energy_tablet": {
    "kind": "item",
-   "name": "Energy Tablet"
+   "name": "Energy Tablet",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "mekanism:enriched_carbon": {
    "kind": "item",
-   "name": "Enriched Carbon"
+   "name": "Enriched Carbon",
+   "tags": []
   },
   "mekanism:enriched_diamond": {
    "kind": "item",
-   "name": "Enriched Diamond"
+   "name": "Enriched Diamond",
+   "tags": []
   },
   "mekanism:enriched_gold": {
    "kind": "item",
-   "name": "Enriched Gold"
+   "name": "Enriched Gold",
+   "tags": []
   },
   "mekanism:enriched_iron": {
    "kind": "item",
-   "name": "Enriched Iron"
+   "name": "Enriched Iron",
+   "tags": []
   },
   "mekanism:enriched_redstone": {
    "kind": "item",
-   "name": "Enriched Redstone"
+   "name": "Enriched Redstone",
+   "tags": []
   },
   "mekanism:enriched_refined_obsidian": {
    "kind": "item",
-   "name": "Enriched Obsidian"
+   "name": "Enriched Obsidian",
+   "tags": []
   },
   "mekanism:enriched_tin": {
    "kind": "item",
-   "name": "Enriched Tin"
+   "name": "Enriched Tin",
+   "tags": []
   },
   "mekanism:ethene_bucket": {
    "kind": "item",
-   "name": "Liquid Ethene Bucket"
+   "name": "Liquid Ethene Bucket",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanism:flamethrower": {
    "kind": "item",
-   "name": "Flamethrower"
+   "name": "Flamethrower",
+   "tags": []
   },
   "mekanism:fluorite_gem": {
    "kind": "item",
-   "name": "Fluorite"
+   "name": "Fluorite",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:free_runners": {
    "kind": "item",
-   "name": "Free Runners"
+   "name": "Free Runners",
+   "tags": []
   },
   "mekanism:free_runners_armored": {
    "kind": "item",
-   "name": "Armored Free Runners"
+   "name": "Armored Free Runners",
+   "tags": []
   },
   "mekanism:gauge_dropper": {
    "kind": "item",
-   "name": "Gauge Dropper"
+   "name": "Gauge Dropper",
+   "tags": []
   },
   "mekanism:geiger_counter": {
    "kind": "item",
-   "name": "Geiger Counter"
+   "name": "Geiger Counter",
+   "tags": []
   },
   "mekanism:hazmat_boots": {
    "kind": "item",
-   "name": "Hazmat Boots"
+   "name": "Hazmat Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanism:hazmat_gown": {
    "kind": "item",
-   "name": "Hazmat Gown"
+   "name": "Hazmat Gown",
+   "tags": []
   },
   "mekanism:hazmat_mask": {
    "kind": "item",
-   "name": "Hazmat Mask"
+   "name": "Hazmat Mask",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanism:hazmat_pants": {
    "kind": "item",
-   "name": "Hazmat Pants"
+   "name": "Hazmat Pants",
+   "tags": []
   },
   "mekanism:hdpe_elytra": {
    "kind": "item",
-   "name": "HDPE Reinforced Elytra"
+   "name": "HDPE Reinforced Elytra",
+   "tags": [
+    "function:travel"
+   ]
   },
   "mekanism:hdpe_pellet": {
    "kind": "item",
-   "name": "HDPE Pellet"
+   "name": "HDPE Pellet",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:hdpe_rod": {
    "kind": "item",
-   "name": "HDPE Rod"
+   "name": "HDPE Rod",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:hdpe_sheet": {
    "kind": "item",
-   "name": "HDPE Sheet"
+   "name": "HDPE Sheet",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:hdpe_stick": {
    "kind": "item",
-   "name": "PlaStick"
+   "name": "PlaStick",
+   "tags": []
   },
   "mekanism:heavy_water_bucket": {
    "kind": "item",
-   "name": "Heavy Water Bucket"
+   "name": "Heavy Water Bucket",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanism:hydrofluoric_acid_bucket": {
    "kind": "item",
-   "name": "Liquid Hydrofluoric Acid Bucket"
+   "name": "Liquid Hydrofluoric Acid Bucket",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanism:hydrogen_bucket": {
    "kind": "item",
-   "name": "Liquid Hydrogen Bucket"
+   "name": "Liquid Hydrogen Bucket",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanism:hydrogen_chloride_bucket": {
    "kind": "item",
-   "name": "Liquid Hydrogen Chloride Bucket"
+   "name": "Liquid Hydrogen Chloride Bucket",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanism:ingot_bronze": {
    "kind": "item",
-   "name": "Bronze Ingot"
+   "name": "Bronze Ingot",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:ingot_lead": {
    "kind": "item",
-   "name": "Lead Ingot"
+   "name": "Lead Ingot",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:ingot_osmium": {
    "kind": "item",
-   "name": "Osmium Ingot"
+   "name": "Osmium Ingot",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:ingot_refined_glowstone": {
    "kind": "item",
-   "name": "Refined Glowstone Ingot"
+   "name": "Refined Glowstone Ingot",
+   "tags": [
+    "function:light",
+    "kind:material"
+   ]
   },
   "mekanism:ingot_refined_obsidian": {
    "kind": "item",
-   "name": "Refined Obsidian Ingot"
+   "name": "Refined Obsidian Ingot",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:ingot_steel": {
    "kind": "item",
-   "name": "Steel Ingot"
+   "name": "Steel Ingot",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:ingot_tin": {
    "kind": "item",
-   "name": "Tin Ingot"
+   "name": "Tin Ingot",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:ingot_uranium": {
    "kind": "item",
-   "name": "Uranium Ingot"
+   "name": "Uranium Ingot",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:jetpack": {
    "kind": "item",
-   "name": "Jetpack"
+   "name": "Jetpack",
+   "tags": [
+    "function:travel",
+    "kind:gadget"
+   ]
   },
   "mekanism:jetpack_armored": {
    "kind": "item",
-   "name": "Armored Jetpack"
+   "name": "Armored Jetpack",
+   "tags": [
+    "function:travel",
+    "kind:gadget"
+   ]
   },
   "mekanism:lithium_bucket": {
    "kind": "item",
-   "name": "Liquid Lithium Bucket"
+   "name": "Liquid Lithium Bucket",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanism:meka_tool": {
    "kind": "item",
-   "name": "Meka-Tool"
+   "name": "Meka-Tool",
+   "tags": []
   },
   "mekanism:mekasuit_bodyarmor": {
    "kind": "item",
-   "name": "MekaSuit Bodyarmor"
+   "name": "MekaSuit Bodyarmor",
+   "tags": []
   },
   "mekanism:mekasuit_boots": {
    "kind": "item",
-   "name": "MekaSuit Boots"
+   "name": "MekaSuit Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanism:mekasuit_helmet": {
    "kind": "item",
-   "name": "MekaSuit Helmet"
+   "name": "MekaSuit Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanism:mekasuit_pants": {
    "kind": "item",
-   "name": "MekaSuit Pants"
+   "name": "MekaSuit Pants",
+   "tags": []
   },
   "mekanism:module_base": {
    "kind": "item",
-   "name": "Module Base"
+   "name": "Module Base",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "mekanism:network_reader": {
    "kind": "item",
-   "name": "Network Reader"
+   "name": "Network Reader",
+   "tags": []
   },
   "mekanism:nugget_bronze": {
    "kind": "item",
-   "name": "Bronze Nugget"
+   "name": "Bronze Nugget",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:nugget_lead": {
    "kind": "item",
-   "name": "Lead Nugget"
+   "name": "Lead Nugget",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:nugget_osmium": {
    "kind": "item",
-   "name": "Osmium Nugget"
+   "name": "Osmium Nugget",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:nugget_refined_glowstone": {
    "kind": "item",
-   "name": "Refined Glowstone Nugget"
+   "name": "Refined Glowstone Nugget",
+   "tags": [
+    "function:light",
+    "kind:material"
+   ]
   },
   "mekanism:nugget_refined_obsidian": {
    "kind": "item",
-   "name": "Refined Obsidian Nugget"
+   "name": "Refined Obsidian Nugget",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:nugget_steel": {
    "kind": "item",
-   "name": "Steel Nugget"
+   "name": "Steel Nugget",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:nugget_tin": {
    "kind": "item",
-   "name": "Tin Nugget"
+   "name": "Tin Nugget",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:nugget_uranium": {
    "kind": "item",
-   "name": "Uranium Nugget"
+   "name": "Uranium Nugget",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:nutritional_paste_bucket": {
    "kind": "item",
-   "name": "Nutritional Paste Bucket"
+   "name": "Nutritional Paste Bucket",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanism:oxygen_bucket": {
    "kind": "item",
-   "name": "Liquid Oxygen Bucket"
+   "name": "Liquid Oxygen Bucket",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanism:pellet_antimatter": {
    "kind": "item",
-   "name": "Antimatter Pellet"
+   "name": "Antimatter Pellet",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:pellet_plutonium": {
    "kind": "item",
-   "name": "Plutonium Pellet"
+   "name": "Plutonium Pellet",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:pellet_polonium": {
    "kind": "item",
-   "name": "Polonium Pellet"
+   "name": "Polonium Pellet",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:portable_qio_dashboard": {
    "kind": "item",
-   "name": "Portable QIO Dashboard"
+   "name": "Portable QIO Dashboard",
+   "tags": []
   },
   "mekanism:portable_teleporter": {
    "kind": "item",
-   "name": "Portable Teleporter"
+   "name": "Portable Teleporter",
+   "tags": []
   },
   "mekanism:qio_drive_base": {
    "kind": "item",
-   "name": "QIO Drive"
+   "name": "QIO Drive",
+   "tags": []
   },
   "mekanism:qio_drive_hyper_dense": {
    "kind": "item",
-   "name": "Hyper-Dense QIO Drive"
+   "name": "Hyper-Dense QIO Drive",
+   "tags": []
   },
   "mekanism:qio_drive_supermassive": {
    "kind": "item",
-   "name": "Supermassive QIO Drive"
+   "name": "Supermassive QIO Drive",
+   "tags": []
   },
   "mekanism:qio_drive_time_dilating": {
    "kind": "item",
-   "name": "Time-Dilating QIO Drive"
+   "name": "Time-Dilating QIO Drive",
+   "tags": []
   },
   "mekanism:raw_lead": {
    "kind": "item",
-   "name": "Raw Lead"
+   "name": "Raw Lead",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:raw_osmium": {
    "kind": "item",
-   "name": "Raw Osmium"
+   "name": "Raw Osmium",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:raw_tin": {
    "kind": "item",
-   "name": "Raw Tin"
+   "name": "Raw Tin",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:raw_uranium": {
    "kind": "item",
-   "name": "Raw Uranium"
+   "name": "Raw Uranium",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:reprocessed_fissile_fragment": {
    "kind": "item",
-   "name": "Reprocessed Fissile Fragment"
+   "name": "Reprocessed Fissile Fragment",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:salt": {
    "kind": "item",
-   "name": "Salt"
+   "name": "Salt",
+   "tags": []
   },
   "mekanism:sawdust": {
    "kind": "item",
-   "name": "Sawdust"
+   "name": "Sawdust",
+   "tags": []
   },
   "mekanism:scuba_mask": {
    "kind": "item",
-   "name": "Scuba Mask"
+   "name": "Scuba Mask",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanism:scuba_tank": {
    "kind": "item",
-   "name": "Scuba Tank"
+   "name": "Scuba Tank",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "mekanism:seismic_reader": {
    "kind": "item",
-   "name": "Seismic Reader"
+   "name": "Seismic Reader",
+   "tags": []
   },
   "mekanism:shard_copper": {
    "kind": "item",
-   "name": "Copper Shard"
+   "name": "Copper Shard",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:shard_gold": {
    "kind": "item",
-   "name": "Gold Shard"
+   "name": "Gold Shard",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:shard_iron": {
    "kind": "item",
-   "name": "Iron Shard"
+   "name": "Iron Shard",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:shard_lead": {
    "kind": "item",
-   "name": "Lead Shard"
+   "name": "Lead Shard",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:shard_osmium": {
    "kind": "item",
-   "name": "Osmium Shard"
+   "name": "Osmium Shard",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:shard_tin": {
    "kind": "item",
-   "name": "Tin Shard"
+   "name": "Tin Shard",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:shard_uranium": {
    "kind": "item",
-   "name": "Uranium Shard"
+   "name": "Uranium Shard",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanism:sodium_bucket": {
    "kind": "item",
-   "name": "Liquid Sodium Bucket"
+   "name": "Liquid Sodium Bucket",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanism:steam_bucket": {
    "kind": "item",
-   "name": "Liquid Steam Bucket"
+   "name": "Liquid Steam Bucket",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanism:substrate": {
    "kind": "item",
-   "name": "Substrate"
+   "name": "Substrate",
+   "tags": []
   },
   "mekanism:sulfur_dioxide_bucket": {
    "kind": "item",
-   "name": "Liquid Sulfur Dioxide Bucket"
+   "name": "Liquid Sulfur Dioxide Bucket",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanism:sulfur_trioxide_bucket": {
    "kind": "item",
-   "name": "Liquid Sulfur Trioxide Bucket"
+   "name": "Liquid Sulfur Trioxide Bucket",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanism:sulfuric_acid_bucket": {
    "kind": "item",
-   "name": "Liquid Sulfuric Acid Bucket"
+   "name": "Liquid Sulfuric Acid Bucket",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanism:superheated_sodium_bucket": {
    "kind": "item",
-   "name": "Liquid Superheated Sodium Bucket"
+   "name": "Liquid Superheated Sodium Bucket",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanism:teleportation_core": {
    "kind": "item",
-   "name": "Teleportation Core"
+   "name": "Teleportation Core",
+   "tags": []
   },
   "mekanism:ultimate_control_circuit": {
    "kind": "item",
-   "name": "Ultimate Control Circuit"
+   "name": "Ultimate Control Circuit",
+   "tags": []
   },
   "mekanism:ultimate_tier_installer": {
    "kind": "item",
-   "name": "Ultimate Tier Installer"
+   "name": "Ultimate Tier Installer",
+   "tags": []
   },
   "mekanism:upgrade_anchor": {
    "kind": "item",
-   "name": "Anchor Upgrade"
+   "name": "Anchor Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "mekanism:upgrade_energy": {
    "kind": "item",
-   "name": "Energy Upgrade"
+   "name": "Energy Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "mekanism:upgrade_filter": {
    "kind": "item",
-   "name": "Filter Upgrade"
+   "name": "Filter Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "mekanism:upgrade_muffling": {
    "kind": "item",
-   "name": "Muffling Upgrade"
+   "name": "Muffling Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "mekanism:upgrade_speed": {
    "kind": "item",
-   "name": "Speed Upgrade"
+   "name": "Speed Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "mekanism:upgrade_stone_generator": {
    "kind": "item",
-   "name": "Stone Generator Upgrade"
+   "name": "Stone Generator Upgrade",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:gadget"
+   ]
   },
   "mekanism:uranium_hexafluoride_bucket": {
    "kind": "item",
-   "name": "Liquid Uranium Hexafluoride Bucket"
+   "name": "Liquid Uranium Hexafluoride Bucket",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanism:uranium_oxide_bucket": {
    "kind": "item",
-   "name": "Liquid Uranium Oxide Bucket"
+   "name": "Liquid Uranium Oxide Bucket",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanism:yellow_cake_uranium": {
    "kind": "item",
-   "name": "Yellow Cake Uranium"
+   "name": "Yellow Cake Uranium",
+   "tags": [
+    "kind:food"
+   ]
   },
   "mekanismgenerators:advanced_solar_generator": {
    "kind": "block",
-   "name": "Advanced Solar Generator"
+   "name": "Advanced Solar Generator",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:block"
+   ]
   },
   "mekanismgenerators:bio_generator": {
    "kind": "block",
-   "name": "Bio-Generator"
+   "name": "Bio-Generator",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:block"
+   ]
   },
   "mekanismgenerators:bioethanol": {
    "kind": "block",
-   "name": "Bioethanol"
+   "name": "Bioethanol",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismgenerators:control_rod_assembly": {
    "kind": "block",
-   "name": "Control Rod Assembly"
+   "name": "Control Rod Assembly",
+   "tags": [
+    "kind:material"
+   ]
   },
   "mekanismgenerators:deuterium": {
    "kind": "block",
-   "name": "Liquid Deuterium"
+   "name": "Liquid Deuterium",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismgenerators:electromagnetic_coil": {
    "kind": "block",
-   "name": "Electromagnetic Coil"
+   "name": "Electromagnetic Coil",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismgenerators:fission_fuel_assembly": {
    "kind": "block",
-   "name": "Fission Fuel Assembly"
+   "name": "Fission Fuel Assembly",
+   "tags": [
+    "kind:multiblock"
+   ]
   },
   "mekanismgenerators:fission_reactor_casing": {
    "kind": "block",
-   "name": "Fission Reactor Casing"
+   "name": "Fission Reactor Casing",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:multiblock"
+   ]
   },
   "mekanismgenerators:fission_reactor_logic_adapter": {
    "kind": "block",
-   "name": "Fission Reactor Logic Adapter"
+   "name": "Fission Reactor Logic Adapter",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:multiblock"
+   ]
   },
   "mekanismgenerators:fission_reactor_port": {
    "kind": "block",
-   "name": "Fission Reactor Port"
+   "name": "Fission Reactor Port",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:multiblock"
+   ]
   },
   "mekanismgenerators:fusion_fuel": {
    "kind": "block",
-   "name": "Liquid D-T Fuel"
+   "name": "Liquid D-T Fuel",
+   "tags": [
+    "kind:multiblock"
+   ]
   },
   "mekanismgenerators:fusion_reactor_controller": {
    "kind": "block",
-   "name": "Fusion Reactor Controller"
+   "name": "Fusion Reactor Controller",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:multiblock"
+   ]
   },
   "mekanismgenerators:fusion_reactor_frame": {
    "kind": "block",
-   "name": "Fusion Reactor Frame"
+   "name": "Fusion Reactor Frame",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:multiblock"
+   ]
   },
   "mekanismgenerators:fusion_reactor_logic_adapter": {
    "kind": "block",
-   "name": "Fusion Reactor Logic Adapter"
+   "name": "Fusion Reactor Logic Adapter",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:multiblock"
+   ]
   },
   "mekanismgenerators:fusion_reactor_port": {
    "kind": "block",
-   "name": "Fusion Reactor Port"
+   "name": "Fusion Reactor Port",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:multiblock"
+   ]
   },
   "mekanismgenerators:gas_burning_generator": {
    "kind": "block",
-   "name": "Gas-Burning Generator"
+   "name": "Gas-Burning Generator",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:block"
+   ]
   },
   "mekanismgenerators:heat_generator": {
    "kind": "block",
-   "name": "Heat Generator"
+   "name": "Heat Generator",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:block"
+   ]
   },
   "mekanismgenerators:laser_focus_matrix": {
    "kind": "block",
-   "name": "Laser Focus Matrix"
+   "name": "Laser Focus Matrix",
+   "tags": [
+    "kind:tool",
+    "function:enchant"
+   ]
   },
   "mekanismgenerators:reactor_glass": {
    "kind": "block",
-   "name": "Reactor Glass"
+   "name": "Reactor Glass",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:multiblock"
+   ]
   },
   "mekanismgenerators:rotational_complex": {
    "kind": "block",
-   "name": "Rotational Complex"
+   "name": "Rotational Complex",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismgenerators:saturating_condenser": {
    "kind": "block",
-   "name": "Saturating Condenser"
+   "name": "Saturating Condenser",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "power-type:emc"
+   ]
   },
   "mekanismgenerators:solar_generator": {
    "kind": "block",
-   "name": "Solar Generator"
+   "name": "Solar Generator",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:block"
+   ]
   },
   "mekanismgenerators:tritium": {
    "kind": "block",
-   "name": "Liquid Tritium"
+   "name": "Liquid Tritium",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismgenerators:turbine_casing": {
    "kind": "block",
-   "name": "Turbine Casing"
+   "name": "Turbine Casing",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:multiblock"
+   ]
   },
   "mekanismgenerators:turbine_rotor": {
    "kind": "block",
-   "name": "Turbine Rotor"
+   "name": "Turbine Rotor",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:multiblock"
+   ]
   },
   "mekanismgenerators:turbine_valve": {
    "kind": "block",
-   "name": "Turbine Valve"
+   "name": "Turbine Valve",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:multiblock"
+   ]
   },
   "mekanismgenerators:turbine_vent": {
    "kind": "block",
-   "name": "Turbine Vent"
+   "name": "Turbine Vent",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:multiblock"
+   ]
   },
   "mekanismgenerators:wind_generator": {
    "kind": "block",
-   "name": "Wind Generator"
+   "name": "Wind Generator",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:block"
+   ]
   },
   "mekanismgenerators:bioethanol_bucket": {
    "kind": "item",
-   "name": "Bioethanol Bucket"
+   "name": "Bioethanol Bucket",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismgenerators:deuterium_bucket": {
    "kind": "item",
-   "name": "Liquid Deuterium Bucket"
+   "name": "Liquid Deuterium Bucket",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismgenerators:fusion_fuel_bucket": {
    "kind": "item",
-   "name": "Liquid D-T Fuel Bucket"
+   "name": "Liquid D-T Fuel Bucket",
+   "tags": [
+    "kind:multiblock",
+    "kind:tool"
+   ]
   },
   "mekanismgenerators:hohlraum": {
    "kind": "item",
-   "name": "Hohlraum"
+   "name": "Hohlraum",
+   "tags": []
   },
   "mekanismgenerators:solar_panel": {
    "kind": "item",
-   "name": "Solar Panel"
+   "name": "Solar Panel",
+   "tags": [
+    "function:generate",
+    "power-role:makes",
+    "kind:decoration"
+   ]
   },
   "mekanismgenerators:tritium_bucket": {
    "kind": "item",
-   "name": "Liquid Tritium Bucket"
+   "name": "Liquid Tritium Bucket",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismgenerators:turbine_blade": {
    "kind": "item",
-   "name": "Turbine Blade"
+   "name": "Turbine Blade",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "function:generate",
+    "power-role:makes",
+    "kind:multiblock"
+   ]
   },
   "mekanismadditions:aqua_glow_panel": {
    "kind": "block",
-   "name": "Aqua Glow Panel"
+   "name": "Aqua Glow Panel",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:aqua_plastic": {
    "kind": "block",
-   "name": "Aqua Plastic Block"
+   "name": "Aqua Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:aqua_plastic_fence": {
    "kind": "block",
-   "name": "Aqua Plastic Barrier"
+   "name": "Aqua Plastic Barrier",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:aqua_plastic_fence_gate": {
    "kind": "block",
-   "name": "Aqua Plastic Gate"
+   "name": "Aqua Plastic Gate",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:aqua_plastic_glow": {
    "kind": "block",
-   "name": "Aqua Glow Plastic Block"
+   "name": "Aqua Glow Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:aqua_plastic_glow_slab": {
    "kind": "block",
-   "name": "Aqua Glow Plastic Slab"
+   "name": "Aqua Glow Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:aqua_plastic_glow_stairs": {
    "kind": "block",
-   "name": "Aqua Glow Plastic Stairs"
+   "name": "Aqua Glow Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:aqua_plastic_road": {
    "kind": "block",
-   "name": "Aqua Plastic Road"
+   "name": "Aqua Plastic Road",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:aqua_plastic_slab": {
    "kind": "block",
-   "name": "Aqua Plastic Slab"
+   "name": "Aqua Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:aqua_plastic_stairs": {
    "kind": "block",
-   "name": "Aqua Plastic Stairs"
+   "name": "Aqua Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:aqua_plastic_transparent": {
    "kind": "block",
-   "name": "Aqua Transparent Plastic Block"
+   "name": "Aqua Transparent Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:aqua_plastic_transparent_slab": {
    "kind": "block",
-   "name": "Aqua Transparent Plastic Slab"
+   "name": "Aqua Transparent Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:aqua_plastic_transparent_stairs": {
    "kind": "block",
-   "name": "Aqua Transparent Plastic Stairs"
+   "name": "Aqua Transparent Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:aqua_reinforced_plastic": {
    "kind": "block",
-   "name": "Aqua Reinforced Plastic Block"
+   "name": "Aqua Reinforced Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:aqua_slick_plastic": {
    "kind": "block",
-   "name": "Aqua Slick Plastic Block"
+   "name": "Aqua Slick Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:black_glow_panel": {
    "kind": "block",
-   "name": "Black Glow Panel"
+   "name": "Black Glow Panel",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:black_plastic": {
    "kind": "block",
-   "name": "Black Plastic Block"
+   "name": "Black Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:black_plastic_fence": {
    "kind": "block",
-   "name": "Black Plastic Barrier"
+   "name": "Black Plastic Barrier",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:black_plastic_fence_gate": {
    "kind": "block",
-   "name": "Black Plastic Gate"
+   "name": "Black Plastic Gate",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:black_plastic_glow": {
    "kind": "block",
-   "name": "Black Glow Plastic Block"
+   "name": "Black Glow Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:black_plastic_glow_slab": {
    "kind": "block",
-   "name": "Black Glow Plastic Slab"
+   "name": "Black Glow Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:black_plastic_glow_stairs": {
    "kind": "block",
-   "name": "Black Glow Plastic Stairs"
+   "name": "Black Glow Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:black_plastic_road": {
    "kind": "block",
-   "name": "Black Plastic Road"
+   "name": "Black Plastic Road",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:black_plastic_slab": {
    "kind": "block",
-   "name": "Black Plastic Slab"
+   "name": "Black Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:black_plastic_stairs": {
    "kind": "block",
-   "name": "Black Plastic Stairs"
+   "name": "Black Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:black_plastic_transparent": {
    "kind": "block",
-   "name": "Black Transparent Plastic Block"
+   "name": "Black Transparent Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:black_plastic_transparent_slab": {
    "kind": "block",
-   "name": "Black Transparent Plastic Slab"
+   "name": "Black Transparent Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:black_plastic_transparent_stairs": {
    "kind": "block",
-   "name": "Black Transparent Plastic Stairs"
+   "name": "Black Transparent Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:black_reinforced_plastic": {
    "kind": "block",
-   "name": "Black Reinforced Plastic Block"
+   "name": "Black Reinforced Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:black_slick_plastic": {
    "kind": "block",
-   "name": "Black Slick Plastic Block"
+   "name": "Black Slick Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:blue_glow_panel": {
    "kind": "block",
-   "name": "Blue Glow Panel"
+   "name": "Blue Glow Panel",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:blue_plastic": {
    "kind": "block",
-   "name": "Blue Plastic Block"
+   "name": "Blue Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:blue_plastic_fence": {
    "kind": "block",
-   "name": "Blue Plastic Barrier"
+   "name": "Blue Plastic Barrier",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:blue_plastic_fence_gate": {
    "kind": "block",
-   "name": "Blue Plastic Gate"
+   "name": "Blue Plastic Gate",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:blue_plastic_glow": {
    "kind": "block",
-   "name": "Blue Glow Plastic Block"
+   "name": "Blue Glow Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:blue_plastic_glow_slab": {
    "kind": "block",
-   "name": "Blue Glow Plastic Slab"
+   "name": "Blue Glow Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:blue_plastic_glow_stairs": {
    "kind": "block",
-   "name": "Blue Glow Plastic Stairs"
+   "name": "Blue Glow Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:blue_plastic_road": {
    "kind": "block",
-   "name": "Blue Plastic Road"
+   "name": "Blue Plastic Road",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:blue_plastic_slab": {
    "kind": "block",
-   "name": "Blue Plastic Slab"
+   "name": "Blue Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:blue_plastic_stairs": {
    "kind": "block",
-   "name": "Blue Plastic Stairs"
+   "name": "Blue Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:blue_plastic_transparent": {
    "kind": "block",
-   "name": "Blue Transparent Plastic Block"
+   "name": "Blue Transparent Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:blue_plastic_transparent_slab": {
    "kind": "block",
-   "name": "Blue Transparent Plastic Slab"
+   "name": "Blue Transparent Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:blue_plastic_transparent_stairs": {
    "kind": "block",
-   "name": "Blue Transparent Plastic Stairs"
+   "name": "Blue Transparent Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:blue_reinforced_plastic": {
    "kind": "block",
-   "name": "Blue Reinforced Plastic Block"
+   "name": "Blue Reinforced Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:blue_slick_plastic": {
    "kind": "block",
-   "name": "Blue Slick Plastic Block"
+   "name": "Blue Slick Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:brown_glow_panel": {
    "kind": "block",
-   "name": "Brown Glow Panel"
+   "name": "Brown Glow Panel",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:brown_plastic": {
    "kind": "block",
-   "name": "Brown Plastic Block"
+   "name": "Brown Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:brown_plastic_fence": {
    "kind": "block",
-   "name": "Brown Plastic Barrier"
+   "name": "Brown Plastic Barrier",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:brown_plastic_fence_gate": {
    "kind": "block",
-   "name": "Brown Plastic Gate"
+   "name": "Brown Plastic Gate",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:brown_plastic_glow": {
    "kind": "block",
-   "name": "Brown Glow Plastic Block"
+   "name": "Brown Glow Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:brown_plastic_glow_slab": {
    "kind": "block",
-   "name": "Brown Glow Plastic Slab"
+   "name": "Brown Glow Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:brown_plastic_glow_stairs": {
    "kind": "block",
-   "name": "Brown Glow Plastic Stairs"
+   "name": "Brown Glow Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:brown_plastic_road": {
    "kind": "block",
-   "name": "Brown Plastic Road"
+   "name": "Brown Plastic Road",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:brown_plastic_slab": {
    "kind": "block",
-   "name": "Brown Plastic Slab"
+   "name": "Brown Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:brown_plastic_stairs": {
    "kind": "block",
-   "name": "Brown Plastic Stairs"
+   "name": "Brown Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:brown_plastic_transparent": {
    "kind": "block",
-   "name": "Brown Transparent Plastic Block"
+   "name": "Brown Transparent Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:brown_plastic_transparent_slab": {
    "kind": "block",
-   "name": "Brown Transparent Plastic Slab"
+   "name": "Brown Transparent Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:brown_plastic_transparent_stairs": {
    "kind": "block",
-   "name": "Brown Transparent Plastic Stairs"
+   "name": "Brown Transparent Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:brown_reinforced_plastic": {
    "kind": "block",
-   "name": "Brown Reinforced Plastic Block"
+   "name": "Brown Reinforced Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:brown_slick_plastic": {
    "kind": "block",
-   "name": "Brown Slick Plastic Block"
+   "name": "Brown Slick Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:cyan_glow_panel": {
    "kind": "block",
-   "name": "Cyan Glow Panel"
+   "name": "Cyan Glow Panel",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:cyan_plastic": {
    "kind": "block",
-   "name": "Cyan Plastic Block"
+   "name": "Cyan Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:cyan_plastic_fence": {
    "kind": "block",
-   "name": "Cyan Plastic Barrier"
+   "name": "Cyan Plastic Barrier",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:cyan_plastic_fence_gate": {
    "kind": "block",
-   "name": "Cyan Plastic Gate"
+   "name": "Cyan Plastic Gate",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:cyan_plastic_glow": {
    "kind": "block",
-   "name": "Cyan Glow Plastic Block"
+   "name": "Cyan Glow Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:cyan_plastic_glow_slab": {
    "kind": "block",
-   "name": "Cyan Glow Plastic Slab"
+   "name": "Cyan Glow Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:cyan_plastic_glow_stairs": {
    "kind": "block",
-   "name": "Cyan Glow Plastic Stairs"
+   "name": "Cyan Glow Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:cyan_plastic_road": {
    "kind": "block",
-   "name": "Cyan Plastic Road"
+   "name": "Cyan Plastic Road",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:cyan_plastic_slab": {
    "kind": "block",
-   "name": "Cyan Plastic Slab"
+   "name": "Cyan Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:cyan_plastic_stairs": {
    "kind": "block",
-   "name": "Cyan Plastic Stairs"
+   "name": "Cyan Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:cyan_plastic_transparent": {
    "kind": "block",
-   "name": "Cyan Transparent Plastic Block"
+   "name": "Cyan Transparent Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:cyan_plastic_transparent_slab": {
    "kind": "block",
-   "name": "Cyan Transparent Plastic Slab"
+   "name": "Cyan Transparent Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:cyan_plastic_transparent_stairs": {
    "kind": "block",
-   "name": "Cyan Transparent Plastic Stairs"
+   "name": "Cyan Transparent Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:cyan_reinforced_plastic": {
    "kind": "block",
-   "name": "Cyan Reinforced Plastic Block"
+   "name": "Cyan Reinforced Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:cyan_slick_plastic": {
    "kind": "block",
-   "name": "Cyan Slick Plastic Block"
+   "name": "Cyan Slick Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:dark_red_glow_panel": {
    "kind": "block",
-   "name": "Dark Red Glow Panel"
+   "name": "Dark Red Glow Panel",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:dark_red_plastic": {
    "kind": "block",
-   "name": "Dark Red Plastic Block"
+   "name": "Dark Red Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:dark_red_plastic_fence": {
    "kind": "block",
-   "name": "Dark Red Plastic Barrier"
+   "name": "Dark Red Plastic Barrier",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:dark_red_plastic_fence_gate": {
    "kind": "block",
-   "name": "Dark Red Plastic Gate"
+   "name": "Dark Red Plastic Gate",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:dark_red_plastic_glow": {
    "kind": "block",
-   "name": "Dark Red Glow Plastic Block"
+   "name": "Dark Red Glow Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:dark_red_plastic_glow_slab": {
    "kind": "block",
-   "name": "Dark Red Glow Plastic Slab"
+   "name": "Dark Red Glow Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:dark_red_plastic_glow_stairs": {
    "kind": "block",
-   "name": "Dark Red Glow Plastic Stairs"
+   "name": "Dark Red Glow Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:dark_red_plastic_road": {
    "kind": "block",
-   "name": "Dark Red Plastic Road"
+   "name": "Dark Red Plastic Road",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:dark_red_plastic_slab": {
    "kind": "block",
-   "name": "Dark Red Plastic Slab"
+   "name": "Dark Red Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:dark_red_plastic_stairs": {
    "kind": "block",
-   "name": "Dark Red Plastic Stairs"
+   "name": "Dark Red Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:dark_red_plastic_transparent": {
    "kind": "block",
-   "name": "Dark Red Transparent Plastic Block"
+   "name": "Dark Red Transparent Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:dark_red_plastic_transparent_slab": {
    "kind": "block",
-   "name": "Dark Red Transparent Plastic Slab"
+   "name": "Dark Red Transparent Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:dark_red_plastic_transparent_stairs": {
    "kind": "block",
-   "name": "Dark Red Transparent Plastic Stairs"
+   "name": "Dark Red Transparent Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:dark_red_reinforced_plastic": {
    "kind": "block",
-   "name": "Dark Red Reinforced Plastic Block"
+   "name": "Dark Red Reinforced Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:dark_red_slick_plastic": {
    "kind": "block",
-   "name": "Dark Red Slick Plastic Block"
+   "name": "Dark Red Slick Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:gray_glow_panel": {
    "kind": "block",
-   "name": "Gray Glow Panel"
+   "name": "Gray Glow Panel",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:gray_plastic": {
    "kind": "block",
-   "name": "Gray Plastic Block"
+   "name": "Gray Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:gray_plastic_fence": {
    "kind": "block",
-   "name": "Gray Plastic Barrier"
+   "name": "Gray Plastic Barrier",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:gray_plastic_fence_gate": {
    "kind": "block",
-   "name": "Gray Plastic Gate"
+   "name": "Gray Plastic Gate",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:gray_plastic_glow": {
    "kind": "block",
-   "name": "Gray Glow Plastic Block"
+   "name": "Gray Glow Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:gray_plastic_glow_slab": {
    "kind": "block",
-   "name": "Gray Glow Plastic Slab"
+   "name": "Gray Glow Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:gray_plastic_glow_stairs": {
    "kind": "block",
-   "name": "Gray Glow Plastic Stairs"
+   "name": "Gray Glow Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:gray_plastic_road": {
    "kind": "block",
-   "name": "Gray Plastic Road"
+   "name": "Gray Plastic Road",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:gray_plastic_slab": {
    "kind": "block",
-   "name": "Gray Plastic Slab"
+   "name": "Gray Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:gray_plastic_stairs": {
    "kind": "block",
-   "name": "Gray Plastic Stairs"
+   "name": "Gray Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:gray_plastic_transparent": {
    "kind": "block",
-   "name": "Gray Transparent Plastic Block"
+   "name": "Gray Transparent Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:gray_plastic_transparent_slab": {
    "kind": "block",
-   "name": "Gray Transparent Plastic Slab"
+   "name": "Gray Transparent Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:gray_plastic_transparent_stairs": {
    "kind": "block",
-   "name": "Gray Transparent Plastic Stairs"
+   "name": "Gray Transparent Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:gray_reinforced_plastic": {
    "kind": "block",
-   "name": "Gray Reinforced Plastic Block"
+   "name": "Gray Reinforced Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:gray_slick_plastic": {
    "kind": "block",
-   "name": "Gray Slick Plastic Block"
+   "name": "Gray Slick Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:green_glow_panel": {
    "kind": "block",
-   "name": "Green Glow Panel"
+   "name": "Green Glow Panel",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:green_plastic": {
    "kind": "block",
-   "name": "Green Plastic Block"
+   "name": "Green Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:green_plastic_fence": {
    "kind": "block",
-   "name": "Green Plastic Barrier"
+   "name": "Green Plastic Barrier",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:green_plastic_fence_gate": {
    "kind": "block",
-   "name": "Green Plastic Gate"
+   "name": "Green Plastic Gate",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:green_plastic_glow": {
    "kind": "block",
-   "name": "Green Glow Plastic Block"
+   "name": "Green Glow Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:green_plastic_glow_slab": {
    "kind": "block",
-   "name": "Green Glow Plastic Slab"
+   "name": "Green Glow Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:green_plastic_glow_stairs": {
    "kind": "block",
-   "name": "Green Glow Plastic Stairs"
+   "name": "Green Glow Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:green_plastic_road": {
    "kind": "block",
-   "name": "Green Plastic Road"
+   "name": "Green Plastic Road",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:green_plastic_slab": {
    "kind": "block",
-   "name": "Green Plastic Slab"
+   "name": "Green Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:green_plastic_stairs": {
    "kind": "block",
-   "name": "Green Plastic Stairs"
+   "name": "Green Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:green_plastic_transparent": {
    "kind": "block",
-   "name": "Green Transparent Plastic Block"
+   "name": "Green Transparent Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:green_plastic_transparent_slab": {
    "kind": "block",
-   "name": "Green Transparent Plastic Slab"
+   "name": "Green Transparent Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:green_plastic_transparent_stairs": {
    "kind": "block",
-   "name": "Green Transparent Plastic Stairs"
+   "name": "Green Transparent Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:green_reinforced_plastic": {
    "kind": "block",
-   "name": "Green Reinforced Plastic Block"
+   "name": "Green Reinforced Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:green_slick_plastic": {
    "kind": "block",
-   "name": "Green Slick Plastic Block"
+   "name": "Green Slick Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:light_blue_glow_panel": {
    "kind": "block",
-   "name": "Light Blue Glow Panel"
+   "name": "Light Blue Glow Panel",
+   "tags": [
+    "function:light",
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:light_blue_plastic": {
    "kind": "block",
-   "name": "Light Blue Plastic Block"
+   "name": "Light Blue Plastic Block",
+   "tags": [
+    "function:light",
+    "kind:block"
+   ]
   },
   "mekanismadditions:light_blue_plastic_fence": {
    "kind": "block",
-   "name": "Light Blue Plastic Barrier"
+   "name": "Light Blue Plastic Barrier",
+   "tags": [
+    "function:light",
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:light_blue_plastic_fence_gate": {
    "kind": "block",
-   "name": "Light Blue Plastic Gate"
+   "name": "Light Blue Plastic Gate",
+   "tags": [
+    "function:light",
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:light_blue_plastic_glow": {
    "kind": "block",
-   "name": "Light Blue Glow Plastic Block"
+   "name": "Light Blue Glow Plastic Block",
+   "tags": [
+    "function:light",
+    "kind:block"
+   ]
   },
   "mekanismadditions:light_blue_plastic_glow_slab": {
    "kind": "block",
-   "name": "Light Blue Glow Plastic Slab"
+   "name": "Light Blue Glow Plastic Slab",
+   "tags": [
+    "function:light",
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:light_blue_plastic_glow_stairs": {
    "kind": "block",
-   "name": "Light Blue Glow Plastic Stairs"
+   "name": "Light Blue Glow Plastic Stairs",
+   "tags": [
+    "function:light",
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:light_blue_plastic_road": {
    "kind": "block",
-   "name": "Light Blue Plastic Road"
+   "name": "Light Blue Plastic Road",
+   "tags": [
+    "function:light",
+    "kind:block"
+   ]
   },
   "mekanismadditions:light_blue_plastic_slab": {
    "kind": "block",
-   "name": "Light Blue Plastic Slab"
+   "name": "Light Blue Plastic Slab",
+   "tags": [
+    "function:light",
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:light_blue_plastic_stairs": {
    "kind": "block",
-   "name": "Light Blue Plastic Stairs"
+   "name": "Light Blue Plastic Stairs",
+   "tags": [
+    "function:light",
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:light_blue_plastic_transparent": {
    "kind": "block",
-   "name": "Light Blue Transparent Plastic Block"
+   "name": "Light Blue Transparent Plastic Block",
+   "tags": [
+    "function:light",
+    "kind:block"
+   ]
   },
   "mekanismadditions:light_blue_plastic_transparent_slab": {
    "kind": "block",
-   "name": "Light Blue Transparent Plastic Slab"
+   "name": "Light Blue Transparent Plastic Slab",
+   "tags": [
+    "function:light",
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:light_blue_plastic_transparent_stairs": {
    "kind": "block",
-   "name": "Light Blue Transparent Plastic Stairs"
+   "name": "Light Blue Transparent Plastic Stairs",
+   "tags": [
+    "function:light",
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:light_blue_reinforced_plastic": {
    "kind": "block",
-   "name": "Light Blue Reinforced Plastic Block"
+   "name": "Light Blue Reinforced Plastic Block",
+   "tags": [
+    "function:light",
+    "kind:block"
+   ]
   },
   "mekanismadditions:light_blue_slick_plastic": {
    "kind": "block",
-   "name": "Light Blue Slick Plastic Block"
+   "name": "Light Blue Slick Plastic Block",
+   "tags": [
+    "function:light",
+    "kind:block"
+   ]
   },
   "mekanismadditions:light_gray_glow_panel": {
    "kind": "block",
-   "name": "Light Gray Glow Panel"
+   "name": "Light Gray Glow Panel",
+   "tags": [
+    "function:light",
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:light_gray_plastic": {
    "kind": "block",
-   "name": "Light Gray Plastic Block"
+   "name": "Light Gray Plastic Block",
+   "tags": [
+    "function:light",
+    "kind:block"
+   ]
   },
   "mekanismadditions:light_gray_plastic_fence": {
    "kind": "block",
-   "name": "Light Gray Plastic Barrier"
+   "name": "Light Gray Plastic Barrier",
+   "tags": [
+    "function:light",
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:light_gray_plastic_fence_gate": {
    "kind": "block",
-   "name": "Light Gray Plastic Gate"
+   "name": "Light Gray Plastic Gate",
+   "tags": [
+    "function:light",
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:light_gray_plastic_glow": {
    "kind": "block",
-   "name": "Light Gray Glow Plastic Block"
+   "name": "Light Gray Glow Plastic Block",
+   "tags": [
+    "function:light",
+    "kind:block"
+   ]
   },
   "mekanismadditions:light_gray_plastic_glow_slab": {
    "kind": "block",
-   "name": "Light Gray Glow Plastic Slab"
+   "name": "Light Gray Glow Plastic Slab",
+   "tags": [
+    "function:light",
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:light_gray_plastic_glow_stairs": {
    "kind": "block",
-   "name": "Light Gray Glow Plastic Stairs"
+   "name": "Light Gray Glow Plastic Stairs",
+   "tags": [
+    "function:light",
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:light_gray_plastic_road": {
    "kind": "block",
-   "name": "Light Gray Plastic Road"
+   "name": "Light Gray Plastic Road",
+   "tags": [
+    "function:light",
+    "kind:block"
+   ]
   },
   "mekanismadditions:light_gray_plastic_slab": {
    "kind": "block",
-   "name": "Light Gray Plastic Slab"
+   "name": "Light Gray Plastic Slab",
+   "tags": [
+    "function:light",
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:light_gray_plastic_stairs": {
    "kind": "block",
-   "name": "Light Gray Plastic Stairs"
+   "name": "Light Gray Plastic Stairs",
+   "tags": [
+    "function:light",
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:light_gray_plastic_transparent": {
    "kind": "block",
-   "name": "Light Gray Transparent Plastic Block"
+   "name": "Light Gray Transparent Plastic Block",
+   "tags": [
+    "function:light",
+    "kind:block"
+   ]
   },
   "mekanismadditions:light_gray_plastic_transparent_slab": {
    "kind": "block",
-   "name": "Light Gray Transparent Plastic Slab"
+   "name": "Light Gray Transparent Plastic Slab",
+   "tags": [
+    "function:light",
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:light_gray_plastic_transparent_stairs": {
    "kind": "block",
-   "name": "Light Gray Transparent Plastic Stairs"
+   "name": "Light Gray Transparent Plastic Stairs",
+   "tags": [
+    "function:light",
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:light_gray_reinforced_plastic": {
    "kind": "block",
-   "name": "Light Gray Reinforced Plastic Block"
+   "name": "Light Gray Reinforced Plastic Block",
+   "tags": [
+    "function:light",
+    "kind:block"
+   ]
   },
   "mekanismadditions:light_gray_slick_plastic": {
    "kind": "block",
-   "name": "Light Gray Slick Plastic Block"
+   "name": "Light Gray Slick Plastic Block",
+   "tags": [
+    "function:light",
+    "kind:block"
+   ]
   },
   "mekanismadditions:lime_glow_panel": {
    "kind": "block",
-   "name": "Lime Glow Panel"
+   "name": "Lime Glow Panel",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:lime_plastic": {
    "kind": "block",
-   "name": "Lime Plastic Block"
+   "name": "Lime Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:lime_plastic_fence": {
    "kind": "block",
-   "name": "Lime Plastic Barrier"
+   "name": "Lime Plastic Barrier",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:lime_plastic_fence_gate": {
    "kind": "block",
-   "name": "Lime Plastic Gate"
+   "name": "Lime Plastic Gate",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:lime_plastic_glow": {
    "kind": "block",
-   "name": "Lime Glow Plastic Block"
+   "name": "Lime Glow Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:lime_plastic_glow_slab": {
    "kind": "block",
-   "name": "Lime Glow Plastic Slab"
+   "name": "Lime Glow Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:lime_plastic_glow_stairs": {
    "kind": "block",
-   "name": "Lime Glow Plastic Stairs"
+   "name": "Lime Glow Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:lime_plastic_road": {
    "kind": "block",
-   "name": "Lime Plastic Road"
+   "name": "Lime Plastic Road",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:lime_plastic_slab": {
    "kind": "block",
-   "name": "Lime Plastic Slab"
+   "name": "Lime Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:lime_plastic_stairs": {
    "kind": "block",
-   "name": "Lime Plastic Stairs"
+   "name": "Lime Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:lime_plastic_transparent": {
    "kind": "block",
-   "name": "Lime Transparent Plastic Block"
+   "name": "Lime Transparent Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:lime_plastic_transparent_slab": {
    "kind": "block",
-   "name": "Lime Transparent Plastic Slab"
+   "name": "Lime Transparent Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:lime_plastic_transparent_stairs": {
    "kind": "block",
-   "name": "Lime Transparent Plastic Stairs"
+   "name": "Lime Transparent Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:lime_reinforced_plastic": {
    "kind": "block",
-   "name": "Lime Reinforced Plastic Block"
+   "name": "Lime Reinforced Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:lime_slick_plastic": {
    "kind": "block",
-   "name": "Lime Slick Plastic Block"
+   "name": "Lime Slick Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:magenta_glow_panel": {
    "kind": "block",
-   "name": "Magenta Glow Panel"
+   "name": "Magenta Glow Panel",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:magenta_plastic": {
    "kind": "block",
-   "name": "Magenta Plastic Block"
+   "name": "Magenta Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:magenta_plastic_fence": {
    "kind": "block",
-   "name": "Magenta Plastic Barrier"
+   "name": "Magenta Plastic Barrier",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:magenta_plastic_fence_gate": {
    "kind": "block",
-   "name": "Magenta Plastic Gate"
+   "name": "Magenta Plastic Gate",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:magenta_plastic_glow": {
    "kind": "block",
-   "name": "Magenta Glow Plastic Block"
+   "name": "Magenta Glow Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:magenta_plastic_glow_slab": {
    "kind": "block",
-   "name": "Magenta Glow Plastic Slab"
+   "name": "Magenta Glow Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:magenta_plastic_glow_stairs": {
    "kind": "block",
-   "name": "Magenta Glow Plastic Stairs"
+   "name": "Magenta Glow Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:magenta_plastic_road": {
    "kind": "block",
-   "name": "Magenta Plastic Road"
+   "name": "Magenta Plastic Road",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:magenta_plastic_slab": {
    "kind": "block",
-   "name": "Magenta Plastic Slab"
+   "name": "Magenta Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:magenta_plastic_stairs": {
    "kind": "block",
-   "name": "Magenta Plastic Stairs"
+   "name": "Magenta Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:magenta_plastic_transparent": {
    "kind": "block",
-   "name": "Magenta Transparent Plastic Block"
+   "name": "Magenta Transparent Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:magenta_plastic_transparent_slab": {
    "kind": "block",
-   "name": "Magenta Transparent Plastic Slab"
+   "name": "Magenta Transparent Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:magenta_plastic_transparent_stairs": {
    "kind": "block",
-   "name": "Magenta Transparent Plastic Stairs"
+   "name": "Magenta Transparent Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:magenta_reinforced_plastic": {
    "kind": "block",
-   "name": "Magenta Reinforced Plastic Block"
+   "name": "Magenta Reinforced Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:magenta_slick_plastic": {
    "kind": "block",
-   "name": "Magenta Slick Plastic Block"
+   "name": "Magenta Slick Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:obsidian_tnt": {
    "kind": "entity",
-   "name": "Obsidian TNT"
+   "name": "Obsidian TNT",
+   "tags": [
+    "kind:mob"
+   ]
   },
   "mekanismadditions:orange_glow_panel": {
    "kind": "block",
-   "name": "Orange Glow Panel"
+   "name": "Orange Glow Panel",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:orange_plastic": {
    "kind": "block",
-   "name": "Orange Plastic Block"
+   "name": "Orange Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:orange_plastic_fence": {
    "kind": "block",
-   "name": "Orange Plastic Barrier"
+   "name": "Orange Plastic Barrier",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:orange_plastic_fence_gate": {
    "kind": "block",
-   "name": "Orange Plastic Gate"
+   "name": "Orange Plastic Gate",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:orange_plastic_glow": {
    "kind": "block",
-   "name": "Orange Glow Plastic Block"
+   "name": "Orange Glow Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:orange_plastic_glow_slab": {
    "kind": "block",
-   "name": "Orange Glow Plastic Slab"
+   "name": "Orange Glow Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:orange_plastic_glow_stairs": {
    "kind": "block",
-   "name": "Orange Glow Plastic Stairs"
+   "name": "Orange Glow Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:orange_plastic_road": {
    "kind": "block",
-   "name": "Orange Plastic Road"
+   "name": "Orange Plastic Road",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:orange_plastic_slab": {
    "kind": "block",
-   "name": "Orange Plastic Slab"
+   "name": "Orange Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:orange_plastic_stairs": {
    "kind": "block",
-   "name": "Orange Plastic Stairs"
+   "name": "Orange Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:orange_plastic_transparent": {
    "kind": "block",
-   "name": "Orange Transparent Plastic Block"
+   "name": "Orange Transparent Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:orange_plastic_transparent_slab": {
    "kind": "block",
-   "name": "Orange Transparent Plastic Slab"
+   "name": "Orange Transparent Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:orange_plastic_transparent_stairs": {
    "kind": "block",
-   "name": "Orange Transparent Plastic Stairs"
+   "name": "Orange Transparent Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:orange_reinforced_plastic": {
    "kind": "block",
-   "name": "Orange Reinforced Plastic Block"
+   "name": "Orange Reinforced Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:orange_slick_plastic": {
    "kind": "block",
-   "name": "Orange Slick Plastic Block"
+   "name": "Orange Slick Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:pink_glow_panel": {
    "kind": "block",
-   "name": "Pink Glow Panel"
+   "name": "Pink Glow Panel",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:pink_plastic": {
    "kind": "block",
-   "name": "Pink Plastic Block"
+   "name": "Pink Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:pink_plastic_fence": {
    "kind": "block",
-   "name": "Pink Plastic Barrier"
+   "name": "Pink Plastic Barrier",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:pink_plastic_fence_gate": {
    "kind": "block",
-   "name": "Pink Plastic Gate"
+   "name": "Pink Plastic Gate",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:pink_plastic_glow": {
    "kind": "block",
-   "name": "Pink Glow Plastic Block"
+   "name": "Pink Glow Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:pink_plastic_glow_slab": {
    "kind": "block",
-   "name": "Pink Glow Plastic Slab"
+   "name": "Pink Glow Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:pink_plastic_glow_stairs": {
    "kind": "block",
-   "name": "Pink Glow Plastic Stairs"
+   "name": "Pink Glow Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:pink_plastic_road": {
    "kind": "block",
-   "name": "Pink Plastic Road"
+   "name": "Pink Plastic Road",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:pink_plastic_slab": {
    "kind": "block",
-   "name": "Pink Plastic Slab"
+   "name": "Pink Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:pink_plastic_stairs": {
    "kind": "block",
-   "name": "Pink Plastic Stairs"
+   "name": "Pink Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:pink_plastic_transparent": {
    "kind": "block",
-   "name": "Pink Transparent Plastic Block"
+   "name": "Pink Transparent Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:pink_plastic_transparent_slab": {
    "kind": "block",
-   "name": "Pink Transparent Plastic Slab"
+   "name": "Pink Transparent Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:pink_plastic_transparent_stairs": {
    "kind": "block",
-   "name": "Pink Transparent Plastic Stairs"
+   "name": "Pink Transparent Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:pink_reinforced_plastic": {
    "kind": "block",
-   "name": "Pink Reinforced Plastic Block"
+   "name": "Pink Reinforced Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:pink_slick_plastic": {
    "kind": "block",
-   "name": "Pink Slick Plastic Block"
+   "name": "Pink Slick Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:purple_glow_panel": {
    "kind": "block",
-   "name": "Purple Glow Panel"
+   "name": "Purple Glow Panel",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:purple_plastic": {
    "kind": "block",
-   "name": "Purple Plastic Block"
+   "name": "Purple Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:purple_plastic_fence": {
    "kind": "block",
-   "name": "Purple Plastic Barrier"
+   "name": "Purple Plastic Barrier",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:purple_plastic_fence_gate": {
    "kind": "block",
-   "name": "Purple Plastic Gate"
+   "name": "Purple Plastic Gate",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:purple_plastic_glow": {
    "kind": "block",
-   "name": "Purple Glow Plastic Block"
+   "name": "Purple Glow Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:purple_plastic_glow_slab": {
    "kind": "block",
-   "name": "Purple Glow Plastic Slab"
+   "name": "Purple Glow Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:purple_plastic_glow_stairs": {
    "kind": "block",
-   "name": "Purple Glow Plastic Stairs"
+   "name": "Purple Glow Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:purple_plastic_road": {
    "kind": "block",
-   "name": "Purple Plastic Road"
+   "name": "Purple Plastic Road",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:purple_plastic_slab": {
    "kind": "block",
-   "name": "Purple Plastic Slab"
+   "name": "Purple Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:purple_plastic_stairs": {
    "kind": "block",
-   "name": "Purple Plastic Stairs"
+   "name": "Purple Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:purple_plastic_transparent": {
    "kind": "block",
-   "name": "Purple Transparent Plastic Block"
+   "name": "Purple Transparent Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:purple_plastic_transparent_slab": {
    "kind": "block",
-   "name": "Purple Transparent Plastic Slab"
+   "name": "Purple Transparent Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:purple_plastic_transparent_stairs": {
    "kind": "block",
-   "name": "Purple Transparent Plastic Stairs"
+   "name": "Purple Transparent Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:purple_reinforced_plastic": {
    "kind": "block",
-   "name": "Purple Reinforced Plastic Block"
+   "name": "Purple Reinforced Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:purple_slick_plastic": {
    "kind": "block",
-   "name": "Purple Slick Plastic Block"
+   "name": "Purple Slick Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:red_glow_panel": {
    "kind": "block",
-   "name": "Red Glow Panel"
+   "name": "Red Glow Panel",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:red_plastic": {
    "kind": "block",
-   "name": "Red Plastic Block"
+   "name": "Red Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:red_plastic_fence": {
    "kind": "block",
-   "name": "Red Plastic Barrier"
+   "name": "Red Plastic Barrier",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:red_plastic_fence_gate": {
    "kind": "block",
-   "name": "Red Plastic Gate"
+   "name": "Red Plastic Gate",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:red_plastic_glow": {
    "kind": "block",
-   "name": "Red Glow Plastic Block"
+   "name": "Red Glow Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:red_plastic_glow_slab": {
    "kind": "block",
-   "name": "Red Glow Plastic Slab"
+   "name": "Red Glow Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:red_plastic_glow_stairs": {
    "kind": "block",
-   "name": "Red Glow Plastic Stairs"
+   "name": "Red Glow Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:red_plastic_road": {
    "kind": "block",
-   "name": "Red Plastic Road"
+   "name": "Red Plastic Road",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:red_plastic_slab": {
    "kind": "block",
-   "name": "Red Plastic Slab"
+   "name": "Red Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:red_plastic_stairs": {
    "kind": "block",
-   "name": "Red Plastic Stairs"
+   "name": "Red Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:red_plastic_transparent": {
    "kind": "block",
-   "name": "Red Transparent Plastic Block"
+   "name": "Red Transparent Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:red_plastic_transparent_slab": {
    "kind": "block",
-   "name": "Red Transparent Plastic Slab"
+   "name": "Red Transparent Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:red_plastic_transparent_stairs": {
    "kind": "block",
-   "name": "Red Transparent Plastic Stairs"
+   "name": "Red Transparent Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:red_reinforced_plastic": {
    "kind": "block",
-   "name": "Red Reinforced Plastic Block"
+   "name": "Red Reinforced Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:red_slick_plastic": {
    "kind": "block",
-   "name": "Red Slick Plastic Block"
+   "name": "Red Slick Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:white_glow_panel": {
    "kind": "block",
-   "name": "White Glow Panel"
+   "name": "White Glow Panel",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:white_plastic": {
    "kind": "block",
-   "name": "White Plastic Block"
+   "name": "White Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:white_plastic_fence": {
    "kind": "block",
-   "name": "White Plastic Barrier"
+   "name": "White Plastic Barrier",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:white_plastic_fence_gate": {
    "kind": "block",
-   "name": "White Plastic Gate"
+   "name": "White Plastic Gate",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:white_plastic_glow": {
    "kind": "block",
-   "name": "White Glow Plastic Block"
+   "name": "White Glow Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:white_plastic_glow_slab": {
    "kind": "block",
-   "name": "White Glow Plastic Slab"
+   "name": "White Glow Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:white_plastic_glow_stairs": {
    "kind": "block",
-   "name": "White Glow Plastic Stairs"
+   "name": "White Glow Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:white_plastic_road": {
    "kind": "block",
-   "name": "White Plastic Road"
+   "name": "White Plastic Road",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:white_plastic_slab": {
    "kind": "block",
-   "name": "White Plastic Slab"
+   "name": "White Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:white_plastic_stairs": {
    "kind": "block",
-   "name": "White Plastic Stairs"
+   "name": "White Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:white_plastic_transparent": {
    "kind": "block",
-   "name": "White Transparent Plastic Block"
+   "name": "White Transparent Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:white_plastic_transparent_slab": {
    "kind": "block",
-   "name": "White Transparent Plastic Slab"
+   "name": "White Transparent Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:white_plastic_transparent_stairs": {
    "kind": "block",
-   "name": "White Transparent Plastic Stairs"
+   "name": "White Transparent Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:white_reinforced_plastic": {
    "kind": "block",
-   "name": "White Reinforced Plastic Block"
+   "name": "White Reinforced Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:white_slick_plastic": {
    "kind": "block",
-   "name": "White Slick Plastic Block"
+   "name": "White Slick Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:yellow_glow_panel": {
    "kind": "block",
-   "name": "Yellow Glow Panel"
+   "name": "Yellow Glow Panel",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:yellow_plastic": {
    "kind": "block",
-   "name": "Yellow Plastic Block"
+   "name": "Yellow Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:yellow_plastic_fence": {
    "kind": "block",
-   "name": "Yellow Plastic Barrier"
+   "name": "Yellow Plastic Barrier",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:yellow_plastic_fence_gate": {
    "kind": "block",
-   "name": "Yellow Plastic Gate"
+   "name": "Yellow Plastic Gate",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:yellow_plastic_glow": {
    "kind": "block",
-   "name": "Yellow Glow Plastic Block"
+   "name": "Yellow Glow Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:yellow_plastic_glow_slab": {
    "kind": "block",
-   "name": "Yellow Glow Plastic Slab"
+   "name": "Yellow Glow Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:yellow_plastic_glow_stairs": {
    "kind": "block",
-   "name": "Yellow Glow Plastic Stairs"
+   "name": "Yellow Glow Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:yellow_plastic_road": {
    "kind": "block",
-   "name": "Yellow Plastic Road"
+   "name": "Yellow Plastic Road",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:yellow_plastic_slab": {
    "kind": "block",
-   "name": "Yellow Plastic Slab"
+   "name": "Yellow Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:yellow_plastic_stairs": {
    "kind": "block",
-   "name": "Yellow Plastic Stairs"
+   "name": "Yellow Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:yellow_plastic_transparent": {
    "kind": "block",
-   "name": "Yellow Transparent Plastic Block"
+   "name": "Yellow Transparent Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:yellow_plastic_transparent_slab": {
    "kind": "block",
-   "name": "Yellow Transparent Plastic Slab"
+   "name": "Yellow Transparent Plastic Slab",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:yellow_plastic_transparent_stairs": {
    "kind": "block",
-   "name": "Yellow Transparent Plastic Stairs"
+   "name": "Yellow Transparent Plastic Stairs",
+   "tags": [
+    "kind:decoration"
+   ]
   },
   "mekanismadditions:yellow_reinforced_plastic": {
    "kind": "block",
-   "name": "Yellow Reinforced Plastic Block"
+   "name": "Yellow Reinforced Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:yellow_slick_plastic": {
    "kind": "block",
-   "name": "Yellow Slick Plastic Block"
+   "name": "Yellow Slick Plastic Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "mekanismadditions:baby_bogged": {
    "kind": "entity",
-   "name": "Baby Bogged"
+   "name": "Baby Bogged",
+   "tags": [
+    "kind:mob"
+   ]
   },
   "mekanismadditions:baby_creeper": {
    "kind": "entity",
-   "name": "Baby Creeper"
+   "name": "Baby Creeper",
+   "tags": [
+    "kind:mob"
+   ]
   },
   "mekanismadditions:baby_enderman": {
    "kind": "entity",
-   "name": "Baby Enderman"
+   "name": "Baby Enderman",
+   "tags": [
+    "kind:mob"
+   ]
   },
   "mekanismadditions:baby_skeleton": {
    "kind": "entity",
-   "name": "Baby Skeleton"
+   "name": "Baby Skeleton",
+   "tags": [
+    "kind:mob"
+   ]
   },
   "mekanismadditions:baby_stray": {
    "kind": "entity",
-   "name": "Baby Stray"
+   "name": "Baby Stray",
+   "tags": [
+    "kind:mob"
+   ]
   },
   "mekanismadditions:baby_wither_skeleton": {
    "kind": "entity",
-   "name": "Baby Wither Skeleton"
+   "name": "Baby Wither Skeleton",
+   "tags": [
+    "kind:mob",
+    "needs:nether"
+   ]
   },
   "mekanismadditions:balloon": {
    "kind": "entity",
-   "name": "Balloon"
+   "name": "Balloon",
+   "tags": [
+    "kind:mob"
+   ]
   },
   "mekanismadditions:aqua_balloon": {
    "kind": "item",
-   "name": "Aqua Balloon"
+   "name": "Aqua Balloon",
+   "tags": []
   },
   "mekanismadditions:baby_bogged_spawn_egg": {
    "kind": "item",
-   "name": "Baby Bogged Spawn Egg"
+   "name": "Baby Bogged Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable"
+   ]
   },
   "mekanismadditions:baby_creeper_spawn_egg": {
    "kind": "item",
-   "name": "Baby Creeper Spawn Egg"
+   "name": "Baby Creeper Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable"
+   ]
   },
   "mekanismadditions:baby_enderman_spawn_egg": {
    "kind": "item",
-   "name": "Baby Enderman Spawn Egg"
+   "name": "Baby Enderman Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable"
+   ]
   },
   "mekanismadditions:baby_skeleton_spawn_egg": {
    "kind": "item",
-   "name": "Baby Skeleton Spawn Egg"
+   "name": "Baby Skeleton Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable"
+   ]
   },
   "mekanismadditions:baby_stray_spawn_egg": {
    "kind": "item",
-   "name": "Baby Stray Spawn Egg"
+   "name": "Baby Stray Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable"
+   ]
   },
   "mekanismadditions:baby_wither_skeleton_spawn_egg": {
    "kind": "item",
-   "name": "Baby Wither Skeleton Spawn Egg"
+   "name": "Baby Wither Skeleton Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable",
+    "needs:nether"
+   ]
   },
   "mekanismadditions:black_balloon": {
    "kind": "item",
-   "name": "Black Balloon"
+   "name": "Black Balloon",
+   "tags": []
   },
   "mekanismadditions:blue_balloon": {
    "kind": "item",
-   "name": "Blue Balloon"
+   "name": "Blue Balloon",
+   "tags": []
   },
   "mekanismadditions:brown_balloon": {
    "kind": "item",
-   "name": "Brown Balloon"
+   "name": "Brown Balloon",
+   "tags": []
   },
   "mekanismadditions:cyan_balloon": {
    "kind": "item",
-   "name": "Cyan Balloon"
+   "name": "Cyan Balloon",
+   "tags": []
   },
   "mekanismadditions:dark_red_balloon": {
    "kind": "item",
-   "name": "Dark Red Balloon"
+   "name": "Dark Red Balloon",
+   "tags": []
   },
   "mekanismadditions:gray_balloon": {
    "kind": "item",
-   "name": "Gray Balloon"
+   "name": "Gray Balloon",
+   "tags": []
   },
   "mekanismadditions:green_balloon": {
    "kind": "item",
-   "name": "Green Balloon"
+   "name": "Green Balloon",
+   "tags": []
   },
   "mekanismadditions:light_blue_balloon": {
    "kind": "item",
-   "name": "Light Blue Balloon"
+   "name": "Light Blue Balloon",
+   "tags": [
+    "function:light"
+   ]
   },
   "mekanismadditions:light_gray_balloon": {
    "kind": "item",
-   "name": "Light Gray Balloon"
+   "name": "Light Gray Balloon",
+   "tags": [
+    "function:light"
+   ]
   },
   "mekanismadditions:lime_balloon": {
    "kind": "item",
-   "name": "Lime Balloon"
+   "name": "Lime Balloon",
+   "tags": []
   },
   "mekanismadditions:magenta_balloon": {
    "kind": "item",
-   "name": "Magenta Balloon"
+   "name": "Magenta Balloon",
+   "tags": []
   },
   "mekanismadditions:orange_balloon": {
    "kind": "item",
-   "name": "Orange Balloon"
+   "name": "Orange Balloon",
+   "tags": []
   },
   "mekanismadditions:pink_balloon": {
    "kind": "item",
-   "name": "Pink Balloon"
+   "name": "Pink Balloon",
+   "tags": []
   },
   "mekanismadditions:purple_balloon": {
    "kind": "item",
-   "name": "Purple Balloon"
+   "name": "Purple Balloon",
+   "tags": []
   },
   "mekanismadditions:red_balloon": {
    "kind": "item",
-   "name": "Red Balloon"
+   "name": "Red Balloon",
+   "tags": []
   },
   "mekanismadditions:walkie_talkie": {
    "kind": "item",
-   "name": "Walkie-Talkie"
+   "name": "Walkie-Talkie",
+   "tags": []
   },
   "mekanismadditions:white_balloon": {
    "kind": "item",
-   "name": "White Balloon"
+   "name": "White Balloon",
+   "tags": []
   },
   "mekanismadditions:yellow_balloon": {
    "kind": "item",
-   "name": "Yellow Balloon"
+   "name": "Yellow Balloon",
+   "tags": []
   },
   "mekanismtools:bronze_axe": {
    "kind": "item",
-   "name": "Bronze Axe"
+   "name": "Bronze Axe",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:bronze_boots": {
    "kind": "item",
-   "name": "Bronze Boots"
+   "name": "Bronze Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:bronze_chestplate": {
    "kind": "item",
-   "name": "Bronze Chestplate"
+   "name": "Bronze Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:bronze_helmet": {
    "kind": "item",
-   "name": "Bronze Helmet"
+   "name": "Bronze Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:bronze_hoe": {
    "kind": "item",
-   "name": "Bronze Hoe"
+   "name": "Bronze Hoe",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:bronze_leggings": {
    "kind": "item",
-   "name": "Bronze Leggings"
+   "name": "Bronze Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:bronze_paxel": {
    "kind": "item",
-   "name": "Bronze Paxel"
+   "name": "Bronze Paxel",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:bronze_pickaxe": {
    "kind": "item",
-   "name": "Bronze Pickaxe"
+   "name": "Bronze Pickaxe",
+   "tags": [
+    "kind:tool",
+    "function:mine"
+   ]
   },
   "mekanismtools:bronze_shield": {
    "kind": "item",
-   "name": "Bronze Shield"
+   "name": "Bronze Shield",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:bronze_shield.black": {
    "kind": "item",
-   "name": "Black Bronze Shield"
+   "name": "Black Bronze Shield",
+   "tags": []
   },
   "mekanismtools:bronze_shield.blue": {
    "kind": "item",
-   "name": "Blue Bronze Shield"
+   "name": "Blue Bronze Shield",
+   "tags": []
   },
   "mekanismtools:bronze_shield.brown": {
    "kind": "item",
-   "name": "Brown Bronze Shield"
+   "name": "Brown Bronze Shield",
+   "tags": []
   },
   "mekanismtools:bronze_shield.cyan": {
    "kind": "item",
-   "name": "Cyan Bronze Shield"
+   "name": "Cyan Bronze Shield",
+   "tags": []
   },
   "mekanismtools:bronze_shield.gray": {
    "kind": "item",
-   "name": "Gray Bronze Shield"
+   "name": "Gray Bronze Shield",
+   "tags": []
   },
   "mekanismtools:bronze_shield.green": {
    "kind": "item",
-   "name": "Green Bronze Shield"
+   "name": "Green Bronze Shield",
+   "tags": []
   },
   "mekanismtools:bronze_shield.light_blue": {
    "kind": "item",
-   "name": "Light Blue Bronze Shield"
+   "name": "Light Blue Bronze Shield",
+   "tags": []
   },
   "mekanismtools:bronze_shield.light_gray": {
    "kind": "item",
-   "name": "Light Gray Bronze Shield"
+   "name": "Light Gray Bronze Shield",
+   "tags": []
   },
   "mekanismtools:bronze_shield.lime": {
    "kind": "item",
-   "name": "Lime Bronze Shield"
+   "name": "Lime Bronze Shield",
+   "tags": []
   },
   "mekanismtools:bronze_shield.magenta": {
    "kind": "item",
-   "name": "Magenta Bronze Shield"
+   "name": "Magenta Bronze Shield",
+   "tags": []
   },
   "mekanismtools:bronze_shield.orange": {
    "kind": "item",
-   "name": "Orange Bronze Shield"
+   "name": "Orange Bronze Shield",
+   "tags": []
   },
   "mekanismtools:bronze_shield.pink": {
    "kind": "item",
-   "name": "Pink Bronze Shield"
+   "name": "Pink Bronze Shield",
+   "tags": []
   },
   "mekanismtools:bronze_shield.purple": {
    "kind": "item",
-   "name": "Purple Bronze Shield"
+   "name": "Purple Bronze Shield",
+   "tags": []
   },
   "mekanismtools:bronze_shield.red": {
    "kind": "item",
-   "name": "Red Bronze Shield"
+   "name": "Red Bronze Shield",
+   "tags": []
   },
   "mekanismtools:bronze_shield.white": {
    "kind": "item",
-   "name": "White Bronze Shield"
+   "name": "White Bronze Shield",
+   "tags": []
   },
   "mekanismtools:bronze_shield.yellow": {
    "kind": "item",
-   "name": "Yellow Bronze Shield"
+   "name": "Yellow Bronze Shield",
+   "tags": []
   },
   "mekanismtools:bronze_shovel": {
    "kind": "item",
-   "name": "Bronze Shovel"
+   "name": "Bronze Shovel",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:bronze_sword": {
    "kind": "item",
-   "name": "Bronze Sword"
+   "name": "Bronze Sword",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "mekanismtools:diamond_paxel": {
    "kind": "item",
-   "name": "Diamond Paxel"
+   "name": "Diamond Paxel",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:gold_paxel": {
    "kind": "item",
-   "name": "Gold Paxel"
+   "name": "Gold Paxel",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:iron_paxel": {
    "kind": "item",
-   "name": "Iron Paxel"
+   "name": "Iron Paxel",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:lapis_lazuli_axe": {
    "kind": "item",
-   "name": "Lapis Lazuli Axe"
+   "name": "Lapis Lazuli Axe",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:lapis_lazuli_boots": {
    "kind": "item",
-   "name": "Lapis Lazuli Boots"
+   "name": "Lapis Lazuli Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:lapis_lazuli_chestplate": {
    "kind": "item",
-   "name": "Lapis Lazuli Chestplate"
+   "name": "Lapis Lazuli Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:lapis_lazuli_helmet": {
    "kind": "item",
-   "name": "Lapis Lazuli Helmet"
+   "name": "Lapis Lazuli Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:lapis_lazuli_hoe": {
    "kind": "item",
-   "name": "Lapis Lazuli Hoe"
+   "name": "Lapis Lazuli Hoe",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:lapis_lazuli_leggings": {
    "kind": "item",
-   "name": "Lapis Lazuli Leggings"
+   "name": "Lapis Lazuli Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:lapis_lazuli_paxel": {
    "kind": "item",
-   "name": "Lapis Lazuli Paxel"
+   "name": "Lapis Lazuli Paxel",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:lapis_lazuli_pickaxe": {
    "kind": "item",
-   "name": "Lapis Lazuli Pickaxe"
+   "name": "Lapis Lazuli Pickaxe",
+   "tags": [
+    "kind:tool",
+    "function:mine"
+   ]
   },
   "mekanismtools:lapis_lazuli_shield": {
    "kind": "item",
-   "name": "Lapis Lazuli Shield"
+   "name": "Lapis Lazuli Shield",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:lapis_lazuli_shield.black": {
    "kind": "item",
-   "name": "Black Lapis Lazuli Shield"
+   "name": "Black Lapis Lazuli Shield",
+   "tags": []
   },
   "mekanismtools:lapis_lazuli_shield.blue": {
    "kind": "item",
-   "name": "Blue Lapis Lazuli Shield"
+   "name": "Blue Lapis Lazuli Shield",
+   "tags": []
   },
   "mekanismtools:lapis_lazuli_shield.brown": {
    "kind": "item",
-   "name": "Brown Lapis Lazuli Shield"
+   "name": "Brown Lapis Lazuli Shield",
+   "tags": []
   },
   "mekanismtools:lapis_lazuli_shield.cyan": {
    "kind": "item",
-   "name": "Cyan Lapis Lazuli Shield"
+   "name": "Cyan Lapis Lazuli Shield",
+   "tags": []
   },
   "mekanismtools:lapis_lazuli_shield.gray": {
    "kind": "item",
-   "name": "Gray Lapis Lazuli Shield"
+   "name": "Gray Lapis Lazuli Shield",
+   "tags": []
   },
   "mekanismtools:lapis_lazuli_shield.green": {
    "kind": "item",
-   "name": "Green Lapis Lazuli Shield"
+   "name": "Green Lapis Lazuli Shield",
+   "tags": []
   },
   "mekanismtools:lapis_lazuli_shield.light_blue": {
    "kind": "item",
-   "name": "Light Blue Lapis Lazuli Shield"
+   "name": "Light Blue Lapis Lazuli Shield",
+   "tags": []
   },
   "mekanismtools:lapis_lazuli_shield.light_gray": {
    "kind": "item",
-   "name": "Light Gray Lapis Lazuli Shield"
+   "name": "Light Gray Lapis Lazuli Shield",
+   "tags": []
   },
   "mekanismtools:lapis_lazuli_shield.lime": {
    "kind": "item",
-   "name": "Lime Lapis Lazuli Shield"
+   "name": "Lime Lapis Lazuli Shield",
+   "tags": []
   },
   "mekanismtools:lapis_lazuli_shield.magenta": {
    "kind": "item",
-   "name": "Magenta Lapis Lazuli Shield"
+   "name": "Magenta Lapis Lazuli Shield",
+   "tags": []
   },
   "mekanismtools:lapis_lazuli_shield.orange": {
    "kind": "item",
-   "name": "Orange Lapis Lazuli Shield"
+   "name": "Orange Lapis Lazuli Shield",
+   "tags": []
   },
   "mekanismtools:lapis_lazuli_shield.pink": {
    "kind": "item",
-   "name": "Pink Lapis Lazuli Shield"
+   "name": "Pink Lapis Lazuli Shield",
+   "tags": []
   },
   "mekanismtools:lapis_lazuli_shield.purple": {
    "kind": "item",
-   "name": "Purple Lapis Lazuli Shield"
+   "name": "Purple Lapis Lazuli Shield",
+   "tags": []
   },
   "mekanismtools:lapis_lazuli_shield.red": {
    "kind": "item",
-   "name": "Red Lapis Lazuli Shield"
+   "name": "Red Lapis Lazuli Shield",
+   "tags": []
   },
   "mekanismtools:lapis_lazuli_shield.white": {
    "kind": "item",
-   "name": "White Lapis Lazuli Shield"
+   "name": "White Lapis Lazuli Shield",
+   "tags": []
   },
   "mekanismtools:lapis_lazuli_shield.yellow": {
    "kind": "item",
-   "name": "Yellow Lapis Lazuli Shield"
+   "name": "Yellow Lapis Lazuli Shield",
+   "tags": []
   },
   "mekanismtools:lapis_lazuli_shovel": {
    "kind": "item",
-   "name": "Lapis Lazuli Shovel"
+   "name": "Lapis Lazuli Shovel",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:lapis_lazuli_sword": {
    "kind": "item",
-   "name": "Lapis Lazuli Sword"
+   "name": "Lapis Lazuli Sword",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "mekanismtools:netherite_paxel": {
    "kind": "item",
-   "name": "Netherite Paxel"
+   "name": "Netherite Paxel",
+   "tags": [
+    "kind:tool",
+    "needs:nether"
+   ]
   },
   "mekanismtools:osmium_axe": {
    "kind": "item",
-   "name": "Osmium Axe"
+   "name": "Osmium Axe",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:osmium_boots": {
    "kind": "item",
-   "name": "Osmium Boots"
+   "name": "Osmium Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:osmium_chestplate": {
    "kind": "item",
-   "name": "Osmium Chestplate"
+   "name": "Osmium Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:osmium_helmet": {
    "kind": "item",
-   "name": "Osmium Helmet"
+   "name": "Osmium Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:osmium_hoe": {
    "kind": "item",
-   "name": "Osmium Hoe"
+   "name": "Osmium Hoe",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:osmium_leggings": {
    "kind": "item",
-   "name": "Osmium Leggings"
+   "name": "Osmium Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:osmium_paxel": {
    "kind": "item",
-   "name": "Osmium Paxel"
+   "name": "Osmium Paxel",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:osmium_pickaxe": {
    "kind": "item",
-   "name": "Osmium Pickaxe"
+   "name": "Osmium Pickaxe",
+   "tags": [
+    "kind:tool",
+    "function:mine"
+   ]
   },
   "mekanismtools:osmium_shield": {
    "kind": "item",
-   "name": "Osmium Shield"
+   "name": "Osmium Shield",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:osmium_shield.black": {
    "kind": "item",
-   "name": "Black Osmium Shield"
+   "name": "Black Osmium Shield",
+   "tags": []
   },
   "mekanismtools:osmium_shield.blue": {
    "kind": "item",
-   "name": "Blue Osmium Shield"
+   "name": "Blue Osmium Shield",
+   "tags": []
   },
   "mekanismtools:osmium_shield.brown": {
    "kind": "item",
-   "name": "Brown Osmium Shield"
+   "name": "Brown Osmium Shield",
+   "tags": []
   },
   "mekanismtools:osmium_shield.cyan": {
    "kind": "item",
-   "name": "Cyan Osmium Shield"
+   "name": "Cyan Osmium Shield",
+   "tags": []
   },
   "mekanismtools:osmium_shield.gray": {
    "kind": "item",
-   "name": "Gray Osmium Shield"
+   "name": "Gray Osmium Shield",
+   "tags": []
   },
   "mekanismtools:osmium_shield.green": {
    "kind": "item",
-   "name": "Green Osmium Shield"
+   "name": "Green Osmium Shield",
+   "tags": []
   },
   "mekanismtools:osmium_shield.light_blue": {
    "kind": "item",
-   "name": "Light Blue Osmium Shield"
+   "name": "Light Blue Osmium Shield",
+   "tags": []
   },
   "mekanismtools:osmium_shield.light_gray": {
    "kind": "item",
-   "name": "Light Gray Osmium Shield"
+   "name": "Light Gray Osmium Shield",
+   "tags": []
   },
   "mekanismtools:osmium_shield.lime": {
    "kind": "item",
-   "name": "Lime Osmium Shield"
+   "name": "Lime Osmium Shield",
+   "tags": []
   },
   "mekanismtools:osmium_shield.magenta": {
    "kind": "item",
-   "name": "Magenta Osmium Shield"
+   "name": "Magenta Osmium Shield",
+   "tags": []
   },
   "mekanismtools:osmium_shield.orange": {
    "kind": "item",
-   "name": "Orange Osmium Shield"
+   "name": "Orange Osmium Shield",
+   "tags": []
   },
   "mekanismtools:osmium_shield.pink": {
    "kind": "item",
-   "name": "Pink Osmium Shield"
+   "name": "Pink Osmium Shield",
+   "tags": []
   },
   "mekanismtools:osmium_shield.purple": {
    "kind": "item",
-   "name": "Purple Osmium Shield"
+   "name": "Purple Osmium Shield",
+   "tags": []
   },
   "mekanismtools:osmium_shield.red": {
    "kind": "item",
-   "name": "Red Osmium Shield"
+   "name": "Red Osmium Shield",
+   "tags": []
   },
   "mekanismtools:osmium_shield.white": {
    "kind": "item",
-   "name": "White Osmium Shield"
+   "name": "White Osmium Shield",
+   "tags": []
   },
   "mekanismtools:osmium_shield.yellow": {
    "kind": "item",
-   "name": "Yellow Osmium Shield"
+   "name": "Yellow Osmium Shield",
+   "tags": []
   },
   "mekanismtools:osmium_shovel": {
    "kind": "item",
-   "name": "Osmium Shovel"
+   "name": "Osmium Shovel",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:osmium_sword": {
    "kind": "item",
-   "name": "Osmium Sword"
+   "name": "Osmium Sword",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "mekanismtools:refined_glowstone_axe": {
    "kind": "item",
-   "name": "Refined Glowstone Axe"
+   "name": "Refined Glowstone Axe",
+   "tags": [
+    "kind:tool",
+    "function:light"
+   ]
   },
   "mekanismtools:refined_glowstone_boots": {
    "kind": "item",
-   "name": "Refined Glowstone Boots"
+   "name": "Refined Glowstone Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "function:light"
+   ]
   },
   "mekanismtools:refined_glowstone_chestplate": {
    "kind": "item",
-   "name": "Refined Glowstone Chestplate"
+   "name": "Refined Glowstone Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "function:light"
+   ]
   },
   "mekanismtools:refined_glowstone_helmet": {
    "kind": "item",
-   "name": "Refined Glowstone Helmet"
+   "name": "Refined Glowstone Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "function:light"
+   ]
   },
   "mekanismtools:refined_glowstone_hoe": {
    "kind": "item",
-   "name": "Refined Glowstone Hoe"
+   "name": "Refined Glowstone Hoe",
+   "tags": [
+    "kind:tool",
+    "function:light"
+   ]
   },
   "mekanismtools:refined_glowstone_leggings": {
    "kind": "item",
-   "name": "Refined Glowstone Leggings"
+   "name": "Refined Glowstone Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "function:light"
+   ]
   },
   "mekanismtools:refined_glowstone_paxel": {
    "kind": "item",
-   "name": "Refined Glowstone Paxel"
+   "name": "Refined Glowstone Paxel",
+   "tags": [
+    "kind:tool",
+    "function:light"
+   ]
   },
   "mekanismtools:refined_glowstone_pickaxe": {
    "kind": "item",
-   "name": "Refined Glowstone Pickaxe"
+   "name": "Refined Glowstone Pickaxe",
+   "tags": [
+    "kind:tool",
+    "function:mine",
+    "function:light"
+   ]
   },
   "mekanismtools:refined_glowstone_shield": {
    "kind": "item",
-   "name": "Refined Glowstone Shield"
+   "name": "Refined Glowstone Shield",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "function:light"
+   ]
   },
   "mekanismtools:refined_glowstone_shield.black": {
    "kind": "item",
-   "name": "Black Refined Glowstone Shield"
+   "name": "Black Refined Glowstone Shield",
+   "tags": []
   },
   "mekanismtools:refined_glowstone_shield.blue": {
    "kind": "item",
-   "name": "Blue Refined Glowstone Shield"
+   "name": "Blue Refined Glowstone Shield",
+   "tags": []
   },
   "mekanismtools:refined_glowstone_shield.brown": {
    "kind": "item",
-   "name": "Brown Refined Glowstone Shield"
+   "name": "Brown Refined Glowstone Shield",
+   "tags": []
   },
   "mekanismtools:refined_glowstone_shield.cyan": {
    "kind": "item",
-   "name": "Cyan Refined Glowstone Shield"
+   "name": "Cyan Refined Glowstone Shield",
+   "tags": []
   },
   "mekanismtools:refined_glowstone_shield.gray": {
    "kind": "item",
-   "name": "Gray Refined Glowstone Shield"
+   "name": "Gray Refined Glowstone Shield",
+   "tags": []
   },
   "mekanismtools:refined_glowstone_shield.green": {
    "kind": "item",
-   "name": "Green Refined Glowstone Shield"
+   "name": "Green Refined Glowstone Shield",
+   "tags": []
   },
   "mekanismtools:refined_glowstone_shield.light_blue": {
    "kind": "item",
-   "name": "Light Blue Refined Glowstone Shield"
+   "name": "Light Blue Refined Glowstone Shield",
+   "tags": []
   },
   "mekanismtools:refined_glowstone_shield.light_gray": {
    "kind": "item",
-   "name": "Light Gray Refined Glowstone Shield"
+   "name": "Light Gray Refined Glowstone Shield",
+   "tags": []
   },
   "mekanismtools:refined_glowstone_shield.lime": {
    "kind": "item",
-   "name": "Lime Refined Glowstone Shield"
+   "name": "Lime Refined Glowstone Shield",
+   "tags": []
   },
   "mekanismtools:refined_glowstone_shield.magenta": {
    "kind": "item",
-   "name": "Magenta Refined Glowstone Shield"
+   "name": "Magenta Refined Glowstone Shield",
+   "tags": []
   },
   "mekanismtools:refined_glowstone_shield.orange": {
    "kind": "item",
-   "name": "Orange Refined Glowstone Shield"
+   "name": "Orange Refined Glowstone Shield",
+   "tags": []
   },
   "mekanismtools:refined_glowstone_shield.pink": {
    "kind": "item",
-   "name": "Pink Refined Glowstone Shield"
+   "name": "Pink Refined Glowstone Shield",
+   "tags": []
   },
   "mekanismtools:refined_glowstone_shield.purple": {
    "kind": "item",
-   "name": "Purple Refined Glowstone Shield"
+   "name": "Purple Refined Glowstone Shield",
+   "tags": []
   },
   "mekanismtools:refined_glowstone_shield.red": {
    "kind": "item",
-   "name": "Red Refined Glowstone Shield"
+   "name": "Red Refined Glowstone Shield",
+   "tags": []
   },
   "mekanismtools:refined_glowstone_shield.white": {
    "kind": "item",
-   "name": "White Refined Glowstone Shield"
+   "name": "White Refined Glowstone Shield",
+   "tags": []
   },
   "mekanismtools:refined_glowstone_shield.yellow": {
    "kind": "item",
-   "name": "Yellow Refined Glowstone Shield"
+   "name": "Yellow Refined Glowstone Shield",
+   "tags": []
   },
   "mekanismtools:refined_glowstone_shovel": {
    "kind": "item",
-   "name": "Refined Glowstone Shovel"
+   "name": "Refined Glowstone Shovel",
+   "tags": [
+    "kind:tool",
+    "function:light"
+   ]
   },
   "mekanismtools:refined_glowstone_sword": {
    "kind": "item",
-   "name": "Refined Glowstone Sword"
+   "name": "Refined Glowstone Sword",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "function:light"
+   ]
   },
   "mekanismtools:refined_obsidian_axe": {
    "kind": "item",
-   "name": "Refined Obsidian Axe"
+   "name": "Refined Obsidian Axe",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:refined_obsidian_boots": {
    "kind": "item",
-   "name": "Refined Obsidian Boots"
+   "name": "Refined Obsidian Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:refined_obsidian_chestplate": {
    "kind": "item",
-   "name": "Refined Obsidian Chestplate"
+   "name": "Refined Obsidian Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:refined_obsidian_helmet": {
    "kind": "item",
-   "name": "Refined Obsidian Helmet"
+   "name": "Refined Obsidian Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:refined_obsidian_hoe": {
    "kind": "item",
-   "name": "Refined Obsidian Hoe"
+   "name": "Refined Obsidian Hoe",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:refined_obsidian_leggings": {
    "kind": "item",
-   "name": "Refined Obsidian Leggings"
+   "name": "Refined Obsidian Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:refined_obsidian_paxel": {
    "kind": "item",
-   "name": "Refined Obsidian Paxel"
+   "name": "Refined Obsidian Paxel",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:refined_obsidian_pickaxe": {
    "kind": "item",
-   "name": "Refined Obsidian Pickaxe"
+   "name": "Refined Obsidian Pickaxe",
+   "tags": [
+    "kind:tool",
+    "function:mine"
+   ]
   },
   "mekanismtools:refined_obsidian_shield": {
    "kind": "item",
-   "name": "Refined Obsidian Shield"
+   "name": "Refined Obsidian Shield",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:refined_obsidian_shield.black": {
    "kind": "item",
-   "name": "Black Refined Obsidian Shield"
+   "name": "Black Refined Obsidian Shield",
+   "tags": []
   },
   "mekanismtools:refined_obsidian_shield.blue": {
    "kind": "item",
-   "name": "Blue Refined Obsidian Shield"
+   "name": "Blue Refined Obsidian Shield",
+   "tags": []
   },
   "mekanismtools:refined_obsidian_shield.brown": {
    "kind": "item",
-   "name": "Brown Refined Obsidian Shield"
+   "name": "Brown Refined Obsidian Shield",
+   "tags": []
   },
   "mekanismtools:refined_obsidian_shield.cyan": {
    "kind": "item",
-   "name": "Cyan Refined Obsidian Shield"
+   "name": "Cyan Refined Obsidian Shield",
+   "tags": []
   },
   "mekanismtools:refined_obsidian_shield.gray": {
    "kind": "item",
-   "name": "Gray Refined Obsidian Shield"
+   "name": "Gray Refined Obsidian Shield",
+   "tags": []
   },
   "mekanismtools:refined_obsidian_shield.green": {
    "kind": "item",
-   "name": "Green Refined Obsidian Shield"
+   "name": "Green Refined Obsidian Shield",
+   "tags": []
   },
   "mekanismtools:refined_obsidian_shield.light_blue": {
    "kind": "item",
-   "name": "Light Blue Refined Obsidian Shield"
+   "name": "Light Blue Refined Obsidian Shield",
+   "tags": []
   },
   "mekanismtools:refined_obsidian_shield.light_gray": {
    "kind": "item",
-   "name": "Light Gray Refined Obsidian Shield"
+   "name": "Light Gray Refined Obsidian Shield",
+   "tags": []
   },
   "mekanismtools:refined_obsidian_shield.lime": {
    "kind": "item",
-   "name": "Lime Refined Obsidian Shield"
+   "name": "Lime Refined Obsidian Shield",
+   "tags": []
   },
   "mekanismtools:refined_obsidian_shield.magenta": {
    "kind": "item",
-   "name": "Magenta Refined Obsidian Shield"
+   "name": "Magenta Refined Obsidian Shield",
+   "tags": []
   },
   "mekanismtools:refined_obsidian_shield.orange": {
    "kind": "item",
-   "name": "Orange Refined Obsidian Shield"
+   "name": "Orange Refined Obsidian Shield",
+   "tags": []
   },
   "mekanismtools:refined_obsidian_shield.pink": {
    "kind": "item",
-   "name": "Pink Refined Obsidian Shield"
+   "name": "Pink Refined Obsidian Shield",
+   "tags": []
   },
   "mekanismtools:refined_obsidian_shield.purple": {
    "kind": "item",
-   "name": "Purple Refined Obsidian Shield"
+   "name": "Purple Refined Obsidian Shield",
+   "tags": []
   },
   "mekanismtools:refined_obsidian_shield.red": {
    "kind": "item",
-   "name": "Red Refined Obsidian Shield"
+   "name": "Red Refined Obsidian Shield",
+   "tags": []
   },
   "mekanismtools:refined_obsidian_shield.white": {
    "kind": "item",
-   "name": "White Refined Obsidian Shield"
+   "name": "White Refined Obsidian Shield",
+   "tags": []
   },
   "mekanismtools:refined_obsidian_shield.yellow": {
    "kind": "item",
-   "name": "Yellow Refined Obsidian Shield"
+   "name": "Yellow Refined Obsidian Shield",
+   "tags": []
   },
   "mekanismtools:refined_obsidian_shovel": {
    "kind": "item",
-   "name": "Refined Obsidian Shovel"
+   "name": "Refined Obsidian Shovel",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:refined_obsidian_sword": {
    "kind": "item",
-   "name": "Refined Obsidian Sword"
+   "name": "Refined Obsidian Sword",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "mekanismtools:steel_axe": {
    "kind": "item",
-   "name": "Steel Axe"
+   "name": "Steel Axe",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:steel_boots": {
    "kind": "item",
-   "name": "Steel Boots"
+   "name": "Steel Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:steel_chestplate": {
    "kind": "item",
-   "name": "Steel Chestplate"
+   "name": "Steel Chestplate",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:steel_helmet": {
    "kind": "item",
-   "name": "Steel Helmet"
+   "name": "Steel Helmet",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:steel_hoe": {
    "kind": "item",
-   "name": "Steel Hoe"
+   "name": "Steel Hoe",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:steel_leggings": {
    "kind": "item",
-   "name": "Steel Leggings"
+   "name": "Steel Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:steel_paxel": {
    "kind": "item",
-   "name": "Steel Paxel"
+   "name": "Steel Paxel",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:steel_pickaxe": {
    "kind": "item",
-   "name": "Steel Pickaxe"
+   "name": "Steel Pickaxe",
+   "tags": [
+    "kind:tool",
+    "function:mine"
+   ]
   },
   "mekanismtools:steel_shield": {
    "kind": "item",
-   "name": "Steel Shield"
+   "name": "Steel Shield",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "mekanismtools:steel_shield.black": {
    "kind": "item",
-   "name": "Black Steel Shield"
+   "name": "Black Steel Shield",
+   "tags": []
   },
   "mekanismtools:steel_shield.blue": {
    "kind": "item",
-   "name": "Blue Steel Shield"
+   "name": "Blue Steel Shield",
+   "tags": []
   },
   "mekanismtools:steel_shield.brown": {
    "kind": "item",
-   "name": "Brown Steel Shield"
+   "name": "Brown Steel Shield",
+   "tags": []
   },
   "mekanismtools:steel_shield.cyan": {
    "kind": "item",
-   "name": "Cyan Steel Shield"
+   "name": "Cyan Steel Shield",
+   "tags": []
   },
   "mekanismtools:steel_shield.gray": {
    "kind": "item",
-   "name": "Gray Steel Shield"
+   "name": "Gray Steel Shield",
+   "tags": []
   },
   "mekanismtools:steel_shield.green": {
    "kind": "item",
-   "name": "Green Steel Shield"
+   "name": "Green Steel Shield",
+   "tags": []
   },
   "mekanismtools:steel_shield.light_blue": {
    "kind": "item",
-   "name": "Light Blue Steel Shield"
+   "name": "Light Blue Steel Shield",
+   "tags": []
   },
   "mekanismtools:steel_shield.light_gray": {
    "kind": "item",
-   "name": "Light Gray Steel Shield"
+   "name": "Light Gray Steel Shield",
+   "tags": []
   },
   "mekanismtools:steel_shield.lime": {
    "kind": "item",
-   "name": "Lime Steel Shield"
+   "name": "Lime Steel Shield",
+   "tags": []
   },
   "mekanismtools:steel_shield.magenta": {
    "kind": "item",
-   "name": "Magenta Steel Shield"
+   "name": "Magenta Steel Shield",
+   "tags": []
   },
   "mekanismtools:steel_shield.orange": {
    "kind": "item",
-   "name": "Orange Steel Shield"
+   "name": "Orange Steel Shield",
+   "tags": []
   },
   "mekanismtools:steel_shield.pink": {
    "kind": "item",
-   "name": "Pink Steel Shield"
+   "name": "Pink Steel Shield",
+   "tags": []
   },
   "mekanismtools:steel_shield.purple": {
    "kind": "item",
-   "name": "Purple Steel Shield"
+   "name": "Purple Steel Shield",
+   "tags": []
   },
   "mekanismtools:steel_shield.red": {
    "kind": "item",
-   "name": "Red Steel Shield"
+   "name": "Red Steel Shield",
+   "tags": []
   },
   "mekanismtools:steel_shield.white": {
    "kind": "item",
-   "name": "White Steel Shield"
+   "name": "White Steel Shield",
+   "tags": []
   },
   "mekanismtools:steel_shield.yellow": {
    "kind": "item",
-   "name": "Yellow Steel Shield"
+   "name": "Yellow Steel Shield",
+   "tags": []
   },
   "mekanismtools:steel_shovel": {
    "kind": "item",
-   "name": "Steel Shovel"
+   "name": "Steel Shovel",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:steel_sword": {
    "kind": "item",
-   "name": "Steel Sword"
+   "name": "Steel Sword",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "mekanismtools:stone_paxel": {
    "kind": "item",
-   "name": "Stone Paxel"
+   "name": "Stone Paxel",
+   "tags": [
+    "kind:tool"
+   ]
   },
   "mekanismtools:wood_paxel": {
    "kind": "item",
-   "name": "Wood Paxel"
+   "name": "Wood Paxel",
+   "tags": [
+    "kind:tool"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

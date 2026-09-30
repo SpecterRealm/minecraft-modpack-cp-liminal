@@ -32,39 +32,53 @@
  "items": {
   "buildinggadgets2:render_block": {
    "kind": "block",
-   "name": "Render Block (DO NOT USE)"
+   "name": "Render Block (DO NOT USE)",
+   "tags": [
+    "kind:block"
+   ]
   },
   "buildinggadgets2:template_manager": {
    "kind": "block",
-   "name": "Template Manager"
+   "name": "Template Manager",
+   "tags": [
+    "kind:block"
+   ]
   },
   "buildinggadgets2:gadget_building": {
    "kind": "item",
-   "name": "Building Gadget"
+   "name": "Building Gadget",
+   "tags": []
   },
   "buildinggadgets2:gadget_copy_paste": {
    "kind": "item",
-   "name": "Copy Paste Gadget"
+   "name": "Copy Paste Gadget",
+   "tags": []
   },
   "buildinggadgets2:gadget_cut_paste": {
    "kind": "item",
-   "name": "Cut Paste Gadget"
+   "name": "Cut Paste Gadget",
+   "tags": []
   },
   "buildinggadgets2:gadget_destruction": {
    "kind": "item",
-   "name": "Destruction Gadget"
+   "name": "Destruction Gadget",
+   "tags": []
   },
   "buildinggadgets2:gadget_exchanging": {
    "kind": "item",
-   "name": "Exchanging Gadget"
+   "name": "Exchanging Gadget",
+   "tags": []
   },
   "buildinggadgets2:redprint": {
    "kind": "item",
-   "name": "Redprint"
+   "name": "Redprint",
+   "tags": []
   },
   "buildinggadgets2:template": {
    "kind": "item",
-   "name": "Template"
+   "name": "Template",
+   "tags": []
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

@@ -73,379 +73,675 @@
  "items": {
   "theurgy:calcination_oven": {
    "kind": "block",
-   "name": "Calcination Oven"
+   "name": "Calcination Oven",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:deepslate_sal_ammoniac_ore": {
    "kind": "block",
-   "name": "Deepslate Sal Ammoniac Ore"
+   "name": "Deepslate Sal Ammoniac Ore",
+   "tags": [
+    "needs:ore",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "theurgy:digestion_vat": {
    "kind": "block",
-   "name": "Digestion Vat"
+   "name": "Digestion Vat",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "theurgy:distiller": {
    "kind": "block",
-   "name": "Mercury Distiller"
+   "name": "Mercury Distiller",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:fermentation_vat": {
    "kind": "block",
-   "name": "Fermentation Vat"
+   "name": "Fermentation Vat",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "theurgy:incubator": {
    "kind": "block",
-   "name": "Incubator"
+   "name": "Incubator",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:incubator_mercury_vessel": {
    "kind": "block",
-   "name": "Incubator Mercury Vessel"
+   "name": "Incubator Mercury Vessel",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:incubator_salt_vessel": {
    "kind": "block",
-   "name": "Incubator Salt Vessel"
+   "name": "Incubator Salt Vessel",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:incubator_sulfur_vessel": {
    "kind": "block",
-   "name": "Incubator Sulfur Vessel"
+   "name": "Incubator Sulfur Vessel",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:liquefaction_cauldron": {
    "kind": "block",
-   "name": "Liquefaction Cauldron"
+   "name": "Liquefaction Cauldron",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "theurgy:logistics_connector_node": {
    "kind": "block",
-   "name": "Mercurial Connection Node"
+   "name": "Mercurial Connection Node",
+   "tags": [
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "theurgy:logistics_fluid_extractor": {
    "kind": "block",
-   "name": "Mercurial Fluid Extractor"
+   "name": "Mercurial Fluid Extractor",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:logistics_fluid_inserter": {
    "kind": "block",
-   "name": "Mercurial Fluid Inserter"
+   "name": "Mercurial Fluid Inserter",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "theurgy:logistics_item_extractor": {
    "kind": "block",
-   "name": "Mercurial Item Extractor"
+   "name": "Mercurial Item Extractor",
+   "tags": [
+    "kind:machine",
+    "function:process",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:logistics_item_inserter": {
    "kind": "block",
-   "name": "Mercurial Item Inserter"
+   "name": "Mercurial Item Inserter",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "theurgy:mercury_catalyst": {
    "kind": "block",
-   "name": "Mercury Catalyst"
+   "name": "Mercury Catalyst",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:pyromantic_brazier": {
    "kind": "block",
-   "name": "Pyromantic Brazier"
+   "name": "Pyromantic Brazier",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "theurgy:reformation_result_pedestal": {
    "kind": "block",
-   "name": "Reformation Result Pedestal"
+   "name": "Reformation Result Pedestal",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "theurgy:reformation_source_pedestal": {
    "kind": "block",
-   "name": "Reformation Source Pedestal"
+   "name": "Reformation Source Pedestal",
+   "tags": [
+    "power-type:mana",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "theurgy:reformation_target_pedestal": {
    "kind": "block",
-   "name": "Reformation Target Pedestal"
+   "name": "Reformation Target Pedestal",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "theurgy:sal_ammoniac_accumulator": {
    "kind": "block",
-   "name": "Sal Ammoniac Accumulator"
+   "name": "Sal Ammoniac Accumulator",
+   "tags": [
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "theurgy:sal_ammoniac_ore": {
    "kind": "block",
-   "name": "Sal Ammoniac Ore"
+   "name": "Sal Ammoniac Ore",
+   "tags": [
+    "needs:ore",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "theurgy:sal_ammoniac_tank": {
    "kind": "block",
-   "name": "Sal Ammoniac Tank"
+   "name": "Sal Ammoniac Tank",
+   "tags": [
+    "function:store",
+    "kind:storage",
+    "needs:spell-tech"
+   ]
   },
   "mode:theurgy.mercurial_wand.disabled": {
    "kind": "item",
-   "name": "Disabled"
+   "name": "Disabled",
+   "tags": []
   },
   "mode:theurgy.mercurial_wand.enabled": {
    "kind": "item",
-   "name": "Enabled"
+   "name": "Enabled",
+   "tags": []
   },
   "mode:theurgy.mercurial_wand.rotate_selected_direction": {
    "kind": "item",
-   "name": "Cycle selected direction"
+   "name": "Cycle selected direction",
+   "tags": []
   },
   "mode:theurgy.mercurial_wand.rotate_selected_direction.success": {
    "kind": "item",
-   "name": "Cycle direction to %s"
+   "name": "Cycle direction to %s",
+   "tags": []
   },
   "mode:theurgy.mercurial_wand.rotate_selected_direction.with_target": {
    "kind": "item",
-   "name": "Set direction from %s to %s"
+   "name": "Set direction from %s to %s",
+   "tags": []
   },
   "mode:theurgy.mercurial_wand.select_direction": {
    "kind": "item",
-   "name": "Select direction (Currently: %s)"
+   "name": "Select direction (Currently: %s)",
+   "tags": []
   },
   "mode:theurgy.mercurial_wand.select_direction.success": {
    "kind": "item",
-   "name": "Direction: %s"
+   "name": "Direction: %s",
+   "tags": []
   },
   "mode:theurgy.mercurial_wand.select_frequency": {
    "kind": "item",
-   "name": "Selected frequency: %s"
+   "name": "Selected frequency: %s",
+   "tags": []
   },
   "mode:theurgy.mercurial_wand.set_selected_direction": {
    "kind": "item",
-   "name": "Set direction to %s"
+   "name": "Set direction to %s",
+   "tags": []
   },
   "mode:theurgy.mercurial_wand.set_selected_direction.success": {
    "kind": "item",
-   "name": "Set direction to %s"
+   "name": "Set direction to %s",
+   "tags": []
   },
   "mode:theurgy.mercurial_wand.set_selected_direction.with_target": {
    "kind": "item",
-   "name": "Set direction from %s to %s"
+   "name": "Set direction from %s to %s",
+   "tags": []
   },
   "mode:theurgy.mercurial_wand.set_selected_frequency": {
    "kind": "item",
-   "name": "Set frequency to %s"
+   "name": "Set frequency to %s",
+   "tags": []
   },
   "mode:theurgy.mercurial_wand.set_selected_frequency.success": {
    "kind": "item",
-   "name": "Set frequency to %s"
+   "name": "Set frequency to %s",
+   "tags": []
   },
   "mode:theurgy.mercurial_wand.set_selected_frequency.with_target": {
    "kind": "item",
-   "name": "Set frequency from %s to %s"
+   "name": "Set frequency from %s to %s",
+   "tags": []
   },
   "mode:theurgy.mercurial_wand.switch_logistics_enabled": {
    "kind": "item",
-   "name": "Enable/Disable"
+   "name": "Enable/Disable",
+   "tags": []
   },
   "mode:theurgy.mercurial_wand.switch_logistics_enabled.hud": {
    "kind": "item",
-   "name": " (Currently: %s)"
+   "name": " (Currently: %s)",
+   "tags": []
   },
   "mode:theurgy.mercurial_wand.switch_logistics_enabled.success": {
    "kind": "item",
-   "name": "Logistics Connector is now %s"
+   "name": "Logistics Connector is now %s",
+   "tags": []
   },
   "theurgy:amethyst_divination_rod": {
    "kind": "item",
-   "name": "Divination Rod: Amethyst"
+   "name": "Divination Rod: Amethyst",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:amethyst_divination_rod.linked": {
    "kind": "item",
-   "name": "Divination Rod: %s"
+   "name": "Divination Rod: %s",
+   "tags": []
   },
   "theurgy:attribute_filter": {
    "kind": "item",
-   "name": "Mercurial Attribute Filter"
+   "name": "Mercurial Attribute Filter",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "theurgy:copper_wire": {
    "kind": "item",
-   "name": "Mercurial Copper Wire"
+   "name": "Mercurial Copper Wire",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "theurgy:crystallized_lava": {
    "kind": "item",
-   "name": "Crystallized Lava"
+   "name": "Crystallized Lava",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "theurgy:crystallized_water": {
    "kind": "item",
-   "name": "Crystallized Water"
+   "name": "Crystallized Water",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "theurgy:divination_rod.unknown_linked_block": {
    "kind": "item",
-   "name": "Unknown Block (something went wrong)"
+   "name": "Unknown Block (something went wrong)",
+   "tags": []
   },
   "theurgy:divination_rod_t1": {
    "kind": "item",
-   "name": "Glass Divination Rod"
+   "name": "Glass Divination Rod",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:divination_rod_t1.linked": {
    "kind": "item",
-   "name": "Glass Divination Rod %s"
+   "name": "Glass Divination Rod %s",
+   "tags": []
   },
   "theurgy:divination_rod_t2": {
    "kind": "item",
-   "name": "Iron Divination Rod"
+   "name": "Iron Divination Rod",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:divination_rod_t2.linked": {
    "kind": "item",
-   "name": "Iron Divination Rod %s"
+   "name": "Iron Divination Rod %s",
+   "tags": []
   },
   "theurgy:divination_rod_t3": {
    "kind": "item",
-   "name": "Diamond Divination Rod"
+   "name": "Diamond Divination Rod",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:divination_rod_t3.linked": {
    "kind": "item",
-   "name": "Diamond Divination Rod %s"
+   "name": "Diamond Divination Rod %s",
+   "tags": []
   },
   "theurgy:divination_rod_t4": {
    "kind": "item",
-   "name": "Netherite Divination Rod"
+   "name": "Netherite Divination Rod",
+   "tags": [
+    "kind:material",
+    "needs:nether",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:divination_rod_t4.linked": {
    "kind": "item",
-   "name": "Netherite Divination Rod %s"
+   "name": "Netherite Divination Rod %s",
+   "tags": []
   },
   "theurgy:empty_ceramic_jar_icon": {
    "kind": "item",
-   "name": "Empty Ceramic Jar Icon"
+   "name": "Empty Ceramic Jar Icon",
+   "tags": [
+    "function:store",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:empty_ceramic_jar_labeled_icon": {
    "kind": "item",
-   "name": "Labeled Empty Ceramic Jar Icon"
+   "name": "Labeled Empty Ceramic Jar Icon",
+   "tags": [
+    "function:store",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:empty_jar_icon": {
    "kind": "item",
-   "name": "Empty Jar Icon"
+   "name": "Empty Jar Icon",
+   "tags": [
+    "function:store",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:empty_jar_iron_band_icon": {
    "kind": "item",
-   "name": "Empty Jar with Iron Band Icon"
+   "name": "Empty Jar with Iron Band Icon",
+   "tags": [
+    "function:store",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:empty_jar_labeled_icon": {
    "kind": "item",
-   "name": "Labeled Empty Jar Icon"
+   "name": "Labeled Empty Jar Icon",
+   "tags": [
+    "function:store",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:fermentation_starter": {
    "kind": "item",
-   "name": "Fermentation Starter"
+   "name": "Fermentation Starter",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "theurgy:gems_abundant_icon": {
    "kind": "item",
-   "name": "Abundant Gems Icon"
+   "name": "Abundant Gems Icon",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "theurgy:gems_common_icon": {
    "kind": "item",
-   "name": "Common Gems Icon"
+   "name": "Common Gems Icon",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "theurgy:gems_precious_icon": {
    "kind": "item",
-   "name": "Precious Gems Icon"
+   "name": "Precious Gems Icon",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "theurgy:gems_rare_icon": {
    "kind": "item",
-   "name": "Rare Gems Icon"
+   "name": "Rare Gems Icon",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "theurgy:jar_label_frame_abundant_icon": {
    "kind": "item",
-   "name": "Jar Label Frame Abundant Icon"
+   "name": "Jar Label Frame Abundant Icon",
+   "tags": [
+    "function:store",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:jar_label_frame_common_icon": {
    "kind": "item",
-   "name": "Jar Label Frame Common Icon"
+   "name": "Jar Label Frame Common Icon",
+   "tags": [
+    "function:store",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:jar_label_frame_precious_icon": {
    "kind": "item",
-   "name": "Jar Label Frame Precious Icon"
+   "name": "Jar Label Frame Precious Icon",
+   "tags": [
+    "function:store",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:jar_label_frame_rare_icon": {
    "kind": "item",
-   "name": "Jar Label Frame Rare Icon"
+   "name": "Jar Label Frame Rare Icon",
+   "tags": [
+    "function:store",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:jar_label_icon": {
    "kind": "item",
-   "name": "Jar Label Icon"
+   "name": "Jar Label Icon",
+   "tags": [
+    "function:store",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:list_filter": {
    "kind": "item",
-   "name": "Mercurial List Filter"
+   "name": "Mercurial List Filter",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "theurgy:mercurial_wand": {
    "kind": "item",
-   "name": "Mercurial Wand"
+   "name": "Mercurial Wand",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:mercury_crystal": {
    "kind": "item",
-   "name": "Mercury Crystal"
+   "name": "Mercury Crystal",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:mercury_shard": {
    "kind": "item",
-   "name": "Mercury Shard"
+   "name": "Mercury Shard",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:metals_abundant_icon": {
    "kind": "item",
-   "name": "Abundant Metals Icon"
+   "name": "Abundant Metals Icon",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "theurgy:metals_common_icon": {
    "kind": "item",
-   "name": "Common Metals Icon"
+   "name": "Common Metals Icon",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "theurgy:metals_precious_icon": {
    "kind": "item",
-   "name": "Precious Metals Icon"
+   "name": "Precious Metals Icon",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "theurgy:metals_rare_icon": {
    "kind": "item",
-   "name": "Rare Metals Icon"
+   "name": "Rare Metals Icon",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "theurgy:other_minerals_abundant_icon": {
    "kind": "item",
-   "name": "Abundant Other Minerals Icon"
+   "name": "Abundant Other Minerals Icon",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "theurgy:other_minerals_common_icon": {
    "kind": "item",
-   "name": "Common Other Minerals Icon"
+   "name": "Common Other Minerals Icon",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "theurgy:other_minerals_precious_icon": {
    "kind": "item",
-   "name": "Precious Other Minerals Icon"
+   "name": "Precious Other Minerals Icon",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "theurgy:other_minerals_rare_icon": {
    "kind": "item",
-   "name": "Rare Other Minerals Icon"
+   "name": "Rare Other Minerals Icon",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "theurgy:purified_gold": {
    "kind": "item",
-   "name": "Purified Gold"
+   "name": "Purified Gold",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "theurgy:sal_ammoniac_bucket": {
    "kind": "item",
-   "name": "Sal Ammoniac Bucket"
+   "name": "Sal Ammoniac Bucket",
+   "tags": [
+    "kind:tool",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:sal_ammoniac_crystal": {
    "kind": "item",
-   "name": "Sal Ammoniac Crystal"
+   "name": "Sal Ammoniac Crystal",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:sulfur_attuned_divination_rod_abundant": {
    "kind": "item",
-   "name": "Divination Rod: Abundant Materials"
+   "name": "Divination Rod: Abundant Materials",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:sulfur_attuned_divination_rod_abundant.linked": {
    "kind": "item",
-   "name": "Divination Rod: Abundant Materials %s"
+   "name": "Divination Rod: Abundant Materials %s",
+   "tags": []
   },
   "theurgy:sulfur_attuned_divination_rod_common": {
    "kind": "item",
-   "name": "Divination Rod: Common Materials"
+   "name": "Divination Rod: Common Materials",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:sulfur_attuned_divination_rod_common.linked": {
    "kind": "item",
-   "name": "Divination Rod: Common Materials %s"
+   "name": "Divination Rod: Common Materials %s",
+   "tags": []
   },
   "theurgy:sulfur_attuned_divination_rod_precious": {
    "kind": "item",
-   "name": "Divination Rod: Precious Materials"
+   "name": "Divination Rod: Precious Materials",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:sulfur_attuned_divination_rod_precious.linked": {
    "kind": "item",
-   "name": "Divination Rod: Precious Materials %s"
+   "name": "Divination Rod: Precious Materials %s",
+   "tags": []
   },
   "theurgy:sulfur_attuned_divination_rod_rare": {
    "kind": "item",
-   "name": "Divination Rod: Rare Materials"
+   "name": "Divination Rod: Rare Materials",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "theurgy:sulfur_attuned_divination_rod_rare.linked": {
    "kind": "item",
-   "name": "Divination Rod: Rare Materials %s"
+   "name": "Divination Rod: Rare Materials %s",
+   "tags": []
   },
   "theurgy:the_hermetica_icon": {
    "kind": "item",
-   "name": "The Hermetica Icon"
+   "name": "The Hermetica Icon",
+   "tags": [
+    "needs:spell-tech"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

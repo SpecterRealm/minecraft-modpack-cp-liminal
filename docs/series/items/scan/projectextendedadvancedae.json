@@ -33,11 +33,16 @@
  "items": {
   "projectextendedadvancedae:example_block": {
    "kind": "block",
-   "name": "Example Block"
+   "name": "Example Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "projectextendedadvancedae:example_item": {
    "kind": "item",
-   "name": "Example Item"
+   "name": "Example Item",
+   "tags": []
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

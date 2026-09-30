@@ -36,59 +36,95 @@
  "items": {
   "not_enough_glyphs:spell_binder": {
    "kind": "item",
-   "name": "Spell Binder"
+   "name": "Spell Binder",
+   "tags": [
+    "function:enchant",
+    "power-type:mana"
+   ]
   },
   "not_enough_glyphs:thread_air_focus": {
    "kind": "item",
-   "name": "Air Focus"
+   "name": "Air Focus",
+   "tags": [
+    "kind:tool",
+    "function:enchant"
+   ]
   },
   "not_enough_glyphs:thread_cheap_damage": {
    "kind": "item",
-   "name": "Cheap Damage"
+   "name": "Cheap Damage",
+   "tags": []
   },
   "not_enough_glyphs:thread_earth_focus": {
    "kind": "item",
-   "name": "Earth Focus"
+   "name": "Earth Focus",
+   "tags": [
+    "kind:tool",
+    "function:enchant"
+   ]
   },
   "not_enough_glyphs:thread_fire_focus": {
    "kind": "item",
-   "name": "Fire Focus"
+   "name": "Fire Focus",
+   "tags": [
+    "kind:tool",
+    "function:enchant"
+   ]
   },
   "not_enough_glyphs:thread_knockback": {
    "kind": "item",
-   "name": "Heavy Cover"
+   "name": "Heavy Cover",
+   "tags": []
   },
   "not_enough_glyphs:thread_scritchance": {
    "kind": "item",
-   "name": "Lucky Cover"
+   "name": "Lucky Cover",
+   "tags": []
   },
   "not_enough_glyphs:thread_scritdamage": {
    "kind": "item",
-   "name": "Keen Cover"
+   "name": "Keen Cover",
+   "tags": []
   },
   "not_enough_glyphs:thread_shaper_focus": {
    "kind": "item",
-   "name": "BlockShaping Focus"
+   "name": "BlockShaping Focus",
+   "tags": [
+    "kind:tool",
+    "function:enchant"
+   ]
   },
   "not_enough_glyphs:thread_sharp_paper": {
    "kind": "item",
-   "name": "Sharp Pages"
+   "name": "Sharp Pages",
+   "tags": []
   },
   "not_enough_glyphs:thread_slow_power": {
    "kind": "item",
-   "name": "Slow Power"
+   "name": "Slow Power",
+   "tags": []
   },
   "not_enough_glyphs:thread_summon_focus": {
    "kind": "item",
-   "name": "Summoning Focus"
+   "name": "Summoning Focus",
+   "tags": [
+    "kind:tool",
+    "function:enchant"
+   ]
   },
   "not_enough_glyphs:thread_water_focus": {
    "kind": "item",
-   "name": "Water Focus"
+   "name": "Water Focus",
+   "tags": [
+    "kind:tool",
+    "function:enchant"
+   ]
   },
   "not_enough_glyphs:thread_wild_magic": {
    "kind": "item",
-   "name": "Wheel of Fortune"
+   "name": "Wheel of Fortune",
+   "tags": []
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

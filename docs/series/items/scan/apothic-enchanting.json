@@ -55,211 +55,355 @@
  "items": {
   "apothic_enchanting:apothic_enchanting_table": {
    "kind": "block",
-   "name": "Apothic Enchanting Table"
+   "name": "Apothic Enchanting Table",
+   "tags": [
+    "function:craft",
+    "function:enchant",
+    "kind:block"
+   ]
   },
   "apothic_enchanting:raven_enchanting_table": {
    "kind": "block",
-   "name": "Enchanting Table of the Raven"
+   "name": "Enchanting Table of the Raven",
+   "tags": [
+    "function:craft",
+    "function:enchant",
+    "kind:block"
+   ]
   },
   "apothic_enchanting:hellshelf": {
    "kind": "block",
-   "name": "Hellshelf"
+   "name": "Hellshelf",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:infused_hellshelf": {
    "kind": "block",
-   "name": "Infused Hellshelf"
+   "name": "Infused Hellshelf",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:blazing_hellshelf": {
    "kind": "block",
-   "name": "Blazing Hellshelf"
+   "name": "Blazing Hellshelf",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:glowing_hellshelf": {
    "kind": "block",
-   "name": "Glowing Hellshelf"
+   "name": "Glowing Hellshelf",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:seashelf": {
    "kind": "block",
-   "name": "Seashelf"
+   "name": "Seashelf",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:infused_seashelf": {
    "kind": "block",
-   "name": "Infused Seashelf"
+   "name": "Infused Seashelf",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:crystal_seashelf": {
    "kind": "block",
-   "name": "Crystalline Seashelf"
+   "name": "Crystalline Seashelf",
+   "tags": [
+    "kind:material"
+   ]
   },
   "apothic_enchanting:heart_seashelf": {
    "kind": "block",
-   "name": "Heart-Forged Seashelf"
+   "name": "Heart-Forged Seashelf",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:dormant_deepshelf": {
    "kind": "block",
-   "name": "Dormant Deepshelf"
+   "name": "Dormant Deepshelf",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:deepshelf": {
    "kind": "block",
-   "name": "Deepshelf"
+   "name": "Deepshelf",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:echoing_deepshelf": {
    "kind": "block",
-   "name": "Echoing Deepshelf"
+   "name": "Echoing Deepshelf",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:soul_touched_deepshelf": {
    "kind": "block",
-   "name": "Soul-Touched Deepshelf"
+   "name": "Soul-Touched Deepshelf",
+   "tags": [
+    "needs:nether",
+    "kind:block"
+   ]
   },
   "apothic_enchanting:echoing_sculkshelf": {
    "kind": "block",
-   "name": "Echoing Sculkshelf"
+   "name": "Echoing Sculkshelf",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:soul_touched_sculkshelf": {
    "kind": "block",
-   "name": "Soul-Touched Sculkshelf"
+   "name": "Soul-Touched Sculkshelf",
+   "tags": [
+    "needs:nether",
+    "kind:block"
+   ]
   },
   "apothic_enchanting:endshelf": {
    "kind": "block",
-   "name": "Endshelf"
+   "name": "Endshelf",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:infused_endshelf": {
    "kind": "block",
-   "name": "Infused Endshelf"
+   "name": "Infused Endshelf",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:pearl_endshelf": {
    "kind": "block",
-   "name": "Pearlescent Endshelf"
+   "name": "Pearlescent Endshelf",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:draconic_endshelf": {
    "kind": "block",
-   "name": "Draconic Endshelf"
+   "name": "Draconic Endshelf",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:beeshelf": {
    "kind": "block",
-   "name": "Beeshelf"
+   "name": "Beeshelf",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:melonshelf": {
    "kind": "block",
-   "name": "Melonshelf"
+   "name": "Melonshelf",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:stoneshelf": {
    "kind": "block",
-   "name": "Stoneshelf"
+   "name": "Stoneshelf",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:sightshelf": {
    "kind": "block",
-   "name": "Hellshelf of Sight"
+   "name": "Hellshelf of Sight",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:sightshelf_t2": {
    "kind": "block",
-   "name": "Hellshelf of Masterful Sight"
+   "name": "Hellshelf of Masterful Sight",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:filtering_shelf": {
    "kind": "block",
-   "name": "Seashelf of Aquatic Filtration"
+   "name": "Seashelf of Aquatic Filtration",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:treasure_shelf": {
    "kind": "block",
-   "name": "Deepshelf of Arcane Treasures"
+   "name": "Deepshelf of Arcane Treasures",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:geode_shelf": {
    "kind": "block",
-   "name": "Geode-Encased Bookshelf of Stability"
+   "name": "Geode-Encased Bookshelf of Stability",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:library": {
    "kind": "block",
-   "name": "Enchantment Library"
+   "name": "Enchantment Library",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:ender_library": {
    "kind": "block",
-   "name": "Library of Alexandria"
+   "name": "Library of Alexandria",
+   "tags": [
+    "kind:block"
+   ]
   },
   "apothic_enchanting:prismatic_web": {
    "kind": "item",
-   "name": "Prismatic Cobweb"
+   "name": "Prismatic Cobweb",
+   "tags": []
   },
   "apothic_enchanting:inert_trident": {
    "kind": "item",
-   "name": "Inert Trident"
+   "name": "Inert Trident",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "apothic_enchanting:other_tome": {
    "kind": "item",
-   "name": "Tome of the Others"
+   "name": "Tome of the Others",
+   "tags": []
   },
   "apothic_enchanting:helmet_tome": {
    "kind": "item",
-   "name": "Tome of Helmets"
+   "name": "Tome of Helmets",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "apothic_enchanting:chestplate_tome": {
    "kind": "item",
-   "name": "Tome of Chestplates"
+   "name": "Tome of Chestplates",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "apothic_enchanting:leggings_tome": {
    "kind": "item",
-   "name": "Tome of Legplates"
+   "name": "Tome of Legplates",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "apothic_enchanting:boots_tome": {
    "kind": "item",
-   "name": "Tome of Boots"
+   "name": "Tome of Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend"
+   ]
   },
   "apothic_enchanting:weapon_tome": {
    "kind": "item",
-   "name": "Tome of Weaponry"
+   "name": "Tome of Weaponry",
+   "tags": []
   },
   "apothic_enchanting:pickaxe_tome": {
    "kind": "item",
-   "name": "Tome of the Miners"
+   "name": "Tome of the Miners",
+   "tags": [
+    "kind:tool",
+    "function:mine"
+   ]
   },
   "apothic_enchanting:fishing_tome": {
    "kind": "item",
-   "name": "Tome of the Fishers"
+   "name": "Tome of the Fishers",
+   "tags": []
   },
   "apothic_enchanting:bow_tome": {
    "kind": "item",
-   "name": "Tome of the Archers"
+   "name": "Tome of the Archers",
+   "tags": [
+    "kind:weapon",
+    "function:defend"
+   ]
   },
   "apothic_enchanting:scrap_tome": {
    "kind": "item",
-   "name": "Tome of Scrapping"
+   "name": "Tome of Scrapping",
+   "tags": [
+    "kind:material"
+   ]
   },
   "apothic_enchanting:improved_scrap_tome": {
    "kind": "item",
-   "name": "Tome of Superior Scrapping"
+   "name": "Tome of Superior Scrapping",
+   "tags": [
+    "kind:material"
+   ]
   },
   "apothic_enchanting:extraction_tome": {
    "kind": "item",
-   "name": "Tome of Extraction"
+   "name": "Tome of Extraction",
+   "tags": []
   },
   "apothic_enchanting:warden_tendril": {
    "kind": "item",
-   "name": "Warden Tendril"
+   "name": "Warden Tendril",
+   "tags": []
   },
   "apothic_enchanting:infused_breath": {
    "kind": "item",
-   "name": "Infused Dragon's Breath"
+   "name": "Infused Dragon's Breath",
+   "tags": []
   },
   "apothic_enchanting:flimsy_ender_lead": {
    "kind": "item",
-   "name": "Flimsy Ender Lead"
+   "name": "Flimsy Ender Lead",
+   "tags": []
   },
   "apothic_enchanting:ender_lead": {
    "kind": "item",
-   "name": "Ender Lead"
+   "name": "Ender Lead",
+   "tags": []
   },
   "apothic_enchanting:occult_ender_lead": {
    "kind": "item",
-   "name": "Occult Ender Lead"
+   "name": "Occult Ender Lead",
+   "tags": []
   },
   "apothic_enchanting:music_disc_eterna": {
    "kind": "item",
-   "name": "Music Disc"
+   "name": "Music Disc",
+   "tags": []
   },
   "apothic_enchanting:music_disc_quanta": {
    "kind": "item",
-   "name": "Music Disc"
+   "name": "Music Disc",
+   "tags": []
   },
   "apothic_enchanting:music_disc_arcana": {
    "kind": "item",
-   "name": "Music Disc"
+   "name": "Music Disc",
+   "tags": []
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

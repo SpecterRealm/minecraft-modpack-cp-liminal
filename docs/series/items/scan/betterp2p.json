@@ -19,11 +19,16 @@
  "items": {
   "betterp2p:advanced_memory_card": {
    "kind": "item",
-   "name": "Advanced Memory Card"
+   "name": "Advanced Memory Card",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "betterp2p:advanced_memory_card.selected": {
    "kind": "item",
-   "name": "Frequency:"
+   "name": "Frequency:",
+   "tags": []
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

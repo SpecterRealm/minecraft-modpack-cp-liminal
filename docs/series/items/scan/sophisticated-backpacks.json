@@ -90,319 +90,549 @@
  "items": {
   "sophisticatedbackpacks:backpack": {
    "kind": "block",
-   "name": "Backpack"
+   "name": "Backpack",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedbackpacks:copper_backpack": {
    "kind": "block",
-   "name": "Copper Backpack"
+   "name": "Copper Backpack",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedbackpacks:iron_backpack": {
    "kind": "block",
-   "name": "Iron Backpack"
+   "name": "Iron Backpack",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedbackpacks:gold_backpack": {
    "kind": "block",
-   "name": "Gold Backpack"
+   "name": "Gold Backpack",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedbackpacks:diamond_backpack": {
    "kind": "block",
-   "name": "Diamond Backpack"
+   "name": "Diamond Backpack",
+   "tags": [
+    "function:store",
+    "kind:storage"
+   ]
   },
   "sophisticatedbackpacks:netherite_backpack": {
    "kind": "block",
-   "name": "Netherite Backpack"
+   "name": "Netherite Backpack",
+   "tags": [
+    "function:store",
+    "kind:storage",
+    "needs:nether"
+   ]
   },
   "sophisticatedbackpacks:upgrade_base": {
    "kind": "item",
-   "name": "Upgrade Base"
+   "name": "Upgrade Base",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:pickup_upgrade": {
    "kind": "item",
-   "name": "Pickup Upgrade"
+   "name": "Pickup Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:advanced_pickup_upgrade": {
    "kind": "item",
-   "name": "Advanced Pickup Upgrade"
+   "name": "Advanced Pickup Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:filter_upgrade": {
    "kind": "item",
-   "name": "Filter Upgrade"
+   "name": "Filter Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:advanced_filter_upgrade": {
    "kind": "item",
-   "name": "Advanced Filter Upgrade"
+   "name": "Advanced Filter Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:magnet_upgrade": {
    "kind": "item",
-   "name": "Magnet Upgrade"
+   "name": "Magnet Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:advanced_magnet_upgrade": {
    "kind": "item",
-   "name": "Advanced Magnet Upgrade"
+   "name": "Advanced Magnet Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:feeding_upgrade": {
    "kind": "item",
-   "name": "Feeding Upgrade"
+   "name": "Feeding Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:advanced_feeding_upgrade": {
    "kind": "item",
-   "name": "Advanced Feeding upgrade"
+   "name": "Advanced Feeding upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:compacting_upgrade": {
    "kind": "item",
-   "name": "Compacting Upgrade"
+   "name": "Compacting Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:advanced_compacting_upgrade": {
    "kind": "item",
-   "name": "Advanced Compacting Upgrade"
+   "name": "Advanced Compacting Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:void_upgrade": {
    "kind": "item",
-   "name": "Void Upgrade"
+   "name": "Void Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:advanced_void_upgrade": {
    "kind": "item",
-   "name": "Advanced Void Upgrade"
+   "name": "Advanced Void Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:restock_upgrade": {
    "kind": "item",
-   "name": "Restock Upgrade"
+   "name": "Restock Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:advanced_restock_upgrade": {
    "kind": "item",
-   "name": "Advanced Restock Upgrade"
+   "name": "Advanced Restock Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:deposit_upgrade": {
    "kind": "item",
-   "name": "Deposit Upgrade"
+   "name": "Deposit Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:advanced_deposit_upgrade": {
    "kind": "item",
-   "name": "Advanced Deposit Upgrade"
+   "name": "Advanced Deposit Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:refill_upgrade": {
    "kind": "item",
-   "name": "Refill Upgrade"
+   "name": "Refill Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:advanced_refill_upgrade": {
    "kind": "item",
-   "name": "Advanced Refill Upgrade"
+   "name": "Advanced Refill Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:inception_upgrade": {
    "kind": "item",
-   "name": "Inception Upgrade"
+   "name": "Inception Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:everlasting_upgrade": {
    "kind": "item",
-   "name": "Everlasting Upgrade"
+   "name": "Everlasting Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:smelting_upgrade": {
    "kind": "item",
-   "name": "Smelting Upgrade"
+   "name": "Smelting Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:auto_smelting_upgrade": {
    "kind": "item",
-   "name": "Auto-smelting Upgrade"
+   "name": "Auto-smelting Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:smoking_upgrade": {
    "kind": "item",
-   "name": "Smoking Upgrade"
+   "name": "Smoking Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:auto_smoking_upgrade": {
    "kind": "item",
-   "name": "Auto-smoking Upgrade"
+   "name": "Auto-smoking Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:blasting_upgrade": {
    "kind": "item",
-   "name": "Blasting Upgrade"
+   "name": "Blasting Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:auto_blasting_upgrade": {
    "kind": "item",
-   "name": "Auto-blasting Upgrade"
+   "name": "Auto-blasting Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:crafting_upgrade": {
    "kind": "item",
-   "name": "Crafting Upgrade"
+   "name": "Crafting Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:stonecutter_upgrade": {
    "kind": "item",
-   "name": "Stonecutter Upgrade"
+   "name": "Stonecutter Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:jukebox_upgrade": {
    "kind": "item",
-   "name": "Jukebox Upgrade"
+   "name": "Jukebox Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:advanced_jukebox_upgrade": {
    "kind": "item",
-   "name": "Advanced Jukebox Upgrade"
+   "name": "Advanced Jukebox Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:stack_upgrade_starter_tier": {
    "kind": "item",
-   "name": "Stack Upgrade Starter Tier"
+   "name": "Stack Upgrade Starter Tier",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:stack_upgrade_tier_1": {
    "kind": "item",
-   "name": "Stack Upgrade Tier 1"
+   "name": "Stack Upgrade Tier 1",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:stack_upgrade_tier_2": {
    "kind": "item",
-   "name": "Stack Upgrade Tier 2"
+   "name": "Stack Upgrade Tier 2",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:stack_upgrade_tier_3": {
    "kind": "item",
-   "name": "Stack Upgrade Tier 3"
+   "name": "Stack Upgrade Tier 3",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:stack_upgrade_tier_4": {
    "kind": "item",
-   "name": "Stack Upgrade Tier 4"
+   "name": "Stack Upgrade Tier 4",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_1_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Starter Tier to Tier 1"
+   "name": "Stack Upgrade Conversion: Starter Tier to Tier 1",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_2_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Starter Tier to Tier 2"
+   "name": "Stack Upgrade Conversion: Starter Tier to Tier 2",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_3_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Starter Tier to Tier 3"
+   "name": "Stack Upgrade Conversion: Starter Tier to Tier 3",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_4_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Starter Tier to Tier 4"
+   "name": "Stack Upgrade Conversion: Starter Tier to Tier 4",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:stack_upgrade_tier_1_to_tier_2_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Tier 1 to Tier 2"
+   "name": "Stack Upgrade Conversion: Tier 1 to Tier 2",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:stack_upgrade_tier_1_to_tier_3_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Tier 1 to Tier 3"
+   "name": "Stack Upgrade Conversion: Tier 1 to Tier 3",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:stack_upgrade_tier_1_to_tier_4_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Tier 1 to Tier 4"
+   "name": "Stack Upgrade Conversion: Tier 1 to Tier 4",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:stack_upgrade_tier_2_to_tier_3_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Tier 2 to Tier 3"
+   "name": "Stack Upgrade Conversion: Tier 2 to Tier 3",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:stack_upgrade_tier_2_to_tier_4_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Tier 2 to Tier 4"
+   "name": "Stack Upgrade Conversion: Tier 2 to Tier 4",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:stack_upgrade_tier_3_to_tier_4_conversion": {
    "kind": "item",
-   "name": "Stack Upgrade Conversion: Tier 3 to Tier 4"
+   "name": "Stack Upgrade Conversion: Tier 3 to Tier 4",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:stack_upgrade_omega_tier": {
    "kind": "item",
-   "name": "Stack Upgrade Omega Tier"
+   "name": "Stack Upgrade Omega Tier",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:stack_downgrade_tier_1": {
    "kind": "item",
-   "name": "Stack Downgrade Tier 1"
+   "name": "Stack Downgrade Tier 1",
+   "tags": []
   },
   "sophisticatedbackpacks:stack_downgrade_tier_2": {
    "kind": "item",
-   "name": "Stack Downgrade Tier 2"
+   "name": "Stack Downgrade Tier 2",
+   "tags": []
   },
   "sophisticatedbackpacks:stack_downgrade_tier_3": {
    "kind": "item",
-   "name": "Stack Downgrade Tier 3"
+   "name": "Stack Downgrade Tier 3",
+   "tags": []
   },
   "sophisticatedbackpacks:battery_upgrade": {
    "kind": "item",
-   "name": "Battery Upgrade"
+   "name": "Battery Upgrade",
+   "tags": [
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:tank_upgrade": {
    "kind": "item",
-   "name": "Tank Upgrade"
+   "name": "Tank Upgrade",
+   "tags": [
+    "function:store",
+    "kind:storage",
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:pump_upgrade": {
    "kind": "item",
-   "name": "Pump Upgrade"
+   "name": "Pump Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:xp_pump_upgrade": {
    "kind": "item",
-   "name": "Experience Pump Upgrade"
+   "name": "Experience Pump Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:advanced_pump_upgrade": {
    "kind": "item",
-   "name": "Advanced Pump Upgrade"
+   "name": "Advanced Pump Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:tool_swapper_upgrade": {
    "kind": "item",
-   "name": "Tool Swapper Upgrade"
+   "name": "Tool Swapper Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:advanced_tool_swapper_upgrade": {
    "kind": "item",
-   "name": "Advanced Tool Swapper Upgrade"
+   "name": "Advanced Tool Swapper Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:anvil_upgrade": {
    "kind": "item",
-   "name": "Anvil Upgrade"
+   "name": "Anvil Upgrade",
+   "tags": [
+    "function:craft",
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:smithing_upgrade": {
    "kind": "item",
-   "name": "Smithing Upgrade"
+   "name": "Smithing Upgrade",
+   "tags": [
+    "function:craft",
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:infinity_upgrade": {
    "kind": "item",
-   "name": "Infinity Upgrade (Admin)"
+   "name": "Infinity Upgrade (Admin)",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:survival_infinity_upgrade": {
    "kind": "item",
-   "name": "Survival Infinity Upgrade"
+   "name": "Survival Infinity Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:alchemy_upgrade": {
    "kind": "item",
-   "name": "Alchemy Upgrade"
+   "name": "Alchemy Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:advanced_alchemy_upgrade": {
    "kind": "item",
-   "name": "Advanced Alchemy Upgrade"
+   "name": "Advanced Alchemy Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:mob_catcher_upgrade": {
    "kind": "item",
-   "name": "Mob Catcher Upgrade"
+   "name": "Mob Catcher Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:advanced_mob_catcher_upgrade": {
    "kind": "item",
-   "name": "Advanced Mob Catcher Upgrade"
+   "name": "Advanced Mob Catcher Upgrade",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "sophisticatedbackpacks:chipped.botanist_workbench_upgrade": {
    "kind": "item",
-   "name": "Chipped: Botanist's Workbench Upgrade"
+   "name": "Chipped: Botanist's Workbench Upgrade",
+   "tags": []
   },
   "sophisticatedbackpacks:chipped.glassblower_upgrade": {
    "kind": "item",
-   "name": "Chipped: Glassblower Upgrade"
+   "name": "Chipped: Glassblower Upgrade",
+   "tags": []
   },
   "sophisticatedbackpacks:chipped.carpenters_table_upgrade": {
    "kind": "item",
-   "name": "Chipped: Carpenters Workbench Upgrade"
+   "name": "Chipped: Carpenters Workbench Upgrade",
+   "tags": []
   },
   "sophisticatedbackpacks:chipped.mason_table_upgrade": {
    "kind": "item",
-   "name": "Chipped: Mason Table Upgrade"
+   "name": "Chipped: Mason Table Upgrade",
+   "tags": []
   },
   "sophisticatedbackpacks:chipped.loom_table_upgrade": {
    "kind": "item",
-   "name": "Chipped: Loom Table Upgrade"
+   "name": "Chipped: Loom Table Upgrade",
+   "tags": []
   },
   "sophisticatedbackpacks:chipped.alchemy_bench_upgrade": {
    "kind": "item",
-   "name": "Chipped: Alchemy Bench Upgrade"
+   "name": "Chipped: Alchemy Bench Upgrade",
+   "tags": []
   },
   "sophisticatedbackpacks:chipped.tinkering_table_upgrade": {
    "kind": "item",
-   "name": "Chipped: Tinkering Table Upgrade"
+   "name": "Chipped: Tinkering Table Upgrade",
+   "tags": []
   },
   "sophisticatedbackpacks:sawmill.sawmill_upgrade": {
    "kind": "item",
-   "name": "Sawmill Upgrade"
+   "name": "Sawmill Upgrade",
+   "tags": []
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

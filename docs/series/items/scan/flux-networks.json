@@ -26,39 +26,77 @@
  "items": {
   "fluxnetworks:flux_block": {
    "kind": "block",
-   "name": "Flux Block"
+   "name": "Flux Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "fluxnetworks:flux_controller": {
    "kind": "block",
-   "name": "Flux Controller"
+   "name": "Flux Controller",
+   "tags": [
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "kind:block"
+   ]
   },
   "fluxnetworks:flux_point": {
    "kind": "block",
-   "name": "Flux Point"
+   "name": "Flux Point",
+   "tags": [
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "kind:block"
+   ]
   },
   "fluxnetworks:flux_plug": {
    "kind": "block",
-   "name": "Flux Plug"
+   "name": "Flux Plug",
+   "tags": [
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "kind:block"
+   ]
   },
   "fluxnetworks:basic_flux_storage": {
    "kind": "block",
-   "name": "Basic Flux Storage"
+   "name": "Basic Flux Storage",
+   "tags": [
+    "function:store",
+    "kind:block"
+   ]
   },
   "fluxnetworks:herculean_flux_storage": {
    "kind": "block",
-   "name": "Herculean Flux Storage"
+   "name": "Herculean Flux Storage",
+   "tags": [
+    "function:store",
+    "kind:block"
+   ]
   },
   "fluxnetworks:gargantuan_flux_storage": {
    "kind": "block",
-   "name": "Gargantuan Flux Storage"
+   "name": "Gargantuan Flux Storage",
+   "tags": [
+    "function:store",
+    "kind:block"
+   ]
   },
   "fluxnetworks:flux_dust": {
    "kind": "item",
-   "name": "Flux Dust"
+   "name": "Flux Dust",
+   "tags": [
+    "kind:material"
+   ]
   },
   "fluxnetworks:flux_core": {
    "kind": "item",
-   "name": "Flux Core"
+   "name": "Flux Core",
+   "tags": []
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

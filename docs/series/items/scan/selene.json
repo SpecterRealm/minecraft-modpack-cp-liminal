@@ -39,7 +39,11 @@
  "items": {
   "moonlight:generic_fluid": {
    "kind": "fluid",
-   "name": "Unnamed Fluid"
+   "name": "Unnamed Fluid",
+   "tags": [
+    "kind:fluid"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

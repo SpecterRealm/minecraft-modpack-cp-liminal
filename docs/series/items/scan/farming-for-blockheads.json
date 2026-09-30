@@ -61,51 +61,93 @@
  "items": {
   "farmingforblockheads:market": {
    "kind": "block",
-   "name": "Market"
+   "name": "Market",
+   "tags": [
+    "kind:block"
+   ]
   },
   "farmingforblockheads:chicken_nest": {
    "kind": "block",
-   "name": "Chicken Nest"
+   "name": "Chicken Nest",
+   "tags": [
+    "kind:food"
+   ]
   },
   "farmingforblockheads:feeding_trough": {
    "kind": "block",
-   "name": "Feeding Trough"
+   "name": "Feeding Trough",
+   "tags": [
+    "kind:block"
+   ]
   },
   "farmingforblockheads:fertilized_farmland_rich": {
    "kind": "block",
-   "name": "Fertilized Farmland"
+   "name": "Fertilized Farmland",
+   "tags": [
+    "function:farm",
+    "kind:block"
+   ]
   },
   "farmingforblockheads:fertilized_farmland_healthy": {
    "kind": "block",
-   "name": "Fertilized Farmland"
+   "name": "Fertilized Farmland",
+   "tags": [
+    "function:farm",
+    "kind:block"
+   ]
   },
   "farmingforblockheads:fertilized_farmland_stable": {
    "kind": "block",
-   "name": "Fertilized Farmland"
+   "name": "Fertilized Farmland",
+   "tags": [
+    "function:farm",
+    "kind:block"
+   ]
   },
   "farmingforblockheads:fertilized_farmland_rich_stable": {
    "kind": "block",
-   "name": "Fertilized Farmland"
+   "name": "Fertilized Farmland",
+   "tags": [
+    "function:farm",
+    "kind:block"
+   ]
   },
   "farmingforblockheads:fertilized_farmland_healthy_stable": {
    "kind": "block",
-   "name": "Fertilized Farmland"
+   "name": "Fertilized Farmland",
+   "tags": [
+    "function:farm",
+    "kind:block"
+   ]
   },
   "farmingforblockheads:red_fertilizer": {
    "kind": "item",
-   "name": "Red Fertilizer"
+   "name": "Red Fertilizer",
+   "tags": [
+    "function:farm"
+   ]
   },
   "farmingforblockheads:green_fertilizer": {
    "kind": "item",
-   "name": "Green Fertilizer"
+   "name": "Green Fertilizer",
+   "tags": [
+    "function:farm"
+   ]
   },
   "farmingforblockheads:yellow_fertilizer": {
    "kind": "item",
-   "name": "Yellow Fertilizer"
+   "name": "Yellow Fertilizer",
+   "tags": [
+    "function:farm"
+   ]
   },
   "farmingforblockheads:merchant": {
    "kind": "entity",
-   "name": "Merchant"
+   "name": "Merchant",
+   "tags": [
+    "kind:mob"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

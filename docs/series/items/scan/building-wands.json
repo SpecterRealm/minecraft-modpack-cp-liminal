@@ -18,63 +18,110 @@
  "items": {
   "wands:wooden_wand": {
    "kind": "item",
-   "name": "Wooden Wand"
+   "name": "Wooden Wand",
+   "tags": [
+    "kind:tool",
+    "function:enchant"
+   ]
   },
   "wands:gold_wand": {
    "kind": "item",
-   "name": "Gold Wand"
+   "name": "Gold Wand",
+   "tags": [
+    "kind:tool",
+    "function:enchant"
+   ]
   },
   "wands:copper_wand": {
    "kind": "item",
-   "name": "Copper Wand"
+   "name": "Copper Wand",
+   "tags": [
+    "kind:tool",
+    "function:enchant"
+   ]
   },
   "wands:creative_wand": {
    "kind": "item",
-   "name": "Creative Wand"
+   "name": "Creative Wand",
+   "tags": [
+    "kind:tool",
+    "function:enchant"
+   ]
   },
   "wands:diamond_wand": {
    "kind": "item",
-   "name": "Diamond Wand"
+   "name": "Diamond Wand",
+   "tags": [
+    "kind:tool",
+    "function:enchant"
+   ]
   },
   "wands:gradient": {
    "kind": "item",
-   "name": "Gradient"
+   "name": "Gradient",
+   "tags": []
   },
   "wands:iron_wand": {
    "kind": "item",
-   "name": "Iron Wand"
+   "name": "Iron Wand",
+   "tags": [
+    "kind:tool",
+    "function:enchant"
+   ]
   },
   "wands:magic_bag_1": {
    "kind": "item",
-   "name": "Magic Bag Tier 1"
+   "name": "Magic Bag Tier 1",
+   "tags": [
+    "kind:storage"
+   ]
   },
   "wands:magic_bag_2": {
    "kind": "item",
-   "name": "Magic Bag Tier 2"
+   "name": "Magic Bag Tier 2",
+   "tags": [
+    "kind:storage"
+   ]
   },
   "wands:magic_bag_3": {
    "kind": "item",
-   "name": "Magic Bag Tier 3"
+   "name": "Magic Bag Tier 3",
+   "tags": [
+    "kind:storage"
+   ]
   },
   "wands:netherite_wand": {
    "kind": "item",
-   "name": "Netherite Wand"
+   "name": "Netherite Wand",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "needs:nether"
+   ]
   },
   "wands:palette": {
    "kind": "item",
-   "name": "Palette"
+   "name": "Palette",
+   "tags": []
   },
   "wands:random": {
    "kind": "item",
-   "name": "Random"
+   "name": "Random",
+   "tags": []
   },
   "wands:round_robin": {
    "kind": "item",
-   "name": "Sequential"
+   "name": "Sequential",
+   "tags": []
   },
   "wands:stone_wand": {
    "kind": "item",
-   "name": "Stone Wand"
+   "name": "Stone Wand",
+   "tags": [
+    "kind:tool",
+    "function:enchant"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

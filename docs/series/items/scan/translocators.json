@@ -25,15 +25,21 @@
  "items": {
   "translocators:item_translocator": {
    "kind": "item",
-   "name": "Item Translocator"
+   "name": "Item Translocator",
+   "tags": []
   },
   "translocators:fluid_translocator": {
    "kind": "item",
-   "name": "Liquid Translocator"
+   "name": "Liquid Translocator",
+   "tags": []
   },
   "translocators:diamond_nugget": {
    "kind": "item",
-   "name": "Diamond Nugget"
+   "name": "Diamond Nugget",
+   "tags": [
+    "kind:material"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

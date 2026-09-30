@@ -136,6 +136,15 @@
    "tunable": [
     "config",
     "recipe"
+   ],
+   "tags": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "fuel:solid",
+    "needs:none",
+    "scale:tiered"
    ]
   },
   {
@@ -189,6 +198,15 @@
     "config",
     "datamap",
     "recipe"
+   ],
+   "tags": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "fuel:liquid",
+    "needs:none",
+    "scale:tiered"
    ]
   },
   {
@@ -241,6 +259,15 @@
    "tunable": [
     "config",
     "recipe"
+   ],
+   "tags": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "fuel:sun",
+    "needs:sun",
+    "scale:tiered"
    ]
   },
   {
@@ -294,6 +321,16 @@
     "config",
     "datamap",
     "recipe"
+   ],
+   "tags": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "power-type:heat",
+    "fuel:liquid",
+    "needs:water",
+    "scale:tiered"
    ]
   },
   {
@@ -346,7 +383,25 @@
     "config",
     "datamap",
     "recipe"
-   ]
+   ],
+   "tags": [
+    "kind:multiblock",
+    "function:generate",
+    "power-role:makes",
+    "power-role:uses",
+    "power-type:fe",
+    "power-type:heat",
+    "fuel:nuclear",
+    "needs:ore",
+    "scale:tiered"
+   ],
+   "scaling": {
+    "model": "tiered",
+    "driver": "tier",
+    "formula": "fixed layout: core plus parts placed around it (Builder.getPosList); no size variable found. Output comes from the tier's generation rate, fuel temperature and coolant",
+    "source": "owmii/powah/block/reactor/Builder.java, ReactorTile.java:178",
+    "note": "Bigger is a higher tier, not a bigger structure"
+   }
   },
   {
    "id": "powah:energy_cell_<tier>",
@@ -386,6 +441,14 @@
    "tunable": [
     "config",
     "recipe"
+   ],
+   "tags": [
+    "kind:block",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none",
+    "scale:tiered"
    ]
   },
   {
@@ -425,6 +488,14 @@
    "tunable": [
     "config",
     "recipe"
+   ],
+   "tags": [
+    "kind:gadget",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none",
+    "scale:tiered"
    ]
   },
   {
@@ -455,6 +526,14 @@
    "tunable": [
     "config",
     "recipe"
+   ],
+   "tags": [
+    "kind:block",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "scale:tiered"
    ]
   },
   {
@@ -475,6 +554,15 @@
    "tunable": [
     "config",
     "recipe"
+   ],
+   "tags": [
+    "kind:block",
+    "function:transfer",
+    "power-role:transfers",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none",
+    "scale:tiered"
    ]
   },
   {
@@ -495,6 +583,14 @@
    "tunable": [
     "config",
     "recipe"
+   ],
+   "tags": [
+    "kind:machine",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "scale:tiered"
    ]
   },
   {
@@ -535,6 +631,14 @@
    "tunable": [
     "config",
     "recipe"
+   ],
+   "tags": [
+    "kind:machine",
+    "function:craft",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none",
+    "scale:tiered"
    ]
   },
   {
@@ -545,6 +649,14 @@
    "input": "Rotate and configure Powah blocks; recipe: 2 iron + 3 dielectric paste. Candidate to replace with Morph-o-Tool (test).",
    "tunable": [
     "recipe"
+   ],
+   "tags": [
+    "kind:tool",
+    "function:craft",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "scale:fixed"
    ]
   },
   {
@@ -555,6 +667,14 @@
    "input": "Energizing recipe (500,000 FE per snowball). Never mentioned in packs today; forgotten-item candidate.",
    "tunable": [
     "recipe"
+   ],
+   "tags": [
+    "kind:consumable",
+    "function:defend",
+    "power-role:none",
+    "power-type:none",
+    "needs:none",
+    "scale:fixed"
    ]
   },
   {
@@ -565,6 +685,14 @@
    "input": "Binding Card links Powah devices (e.g. Player Transmitter). The dimensional card is a right-click-an-Enderman drop (config toggle). Forgotten-item candidate.",
    "tunable": [
     "config"
+   ],
+   "tags": [
+    "kind:gadget",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none",
+    "scale:fixed"
    ]
   }
  ],

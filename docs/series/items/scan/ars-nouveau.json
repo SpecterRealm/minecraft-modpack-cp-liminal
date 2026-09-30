@@ -56,1467 +56,2974 @@
  "items": {
   "ars_nouveau:agronomic_sourcelink": {
    "kind": "block",
-   "name": "Agronomic Sourcelink"
+   "name": "Agronomic Sourcelink",
+   "tags": [
+    "power-type:mana",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:alteration_table": {
    "kind": "block",
-   "name": "Alteration Table"
+   "name": "Alteration Table",
+   "tags": [
+    "function:craft",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:arcane_core": {
    "kind": "block",
-   "name": "Arcane Core"
+   "name": "Arcane Core",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:arcane_pedestal": {
    "kind": "block",
-   "name": "Arcane Pedestal"
+   "name": "Arcane Pedestal",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:arcane_platform": {
    "kind": "block",
-   "name": "Arcane Platform"
+   "name": "Arcane Platform",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:archwood_button": {
    "kind": "block",
-   "name": "Archwood Button"
+   "name": "Archwood Button",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:archwood_chest": {
    "kind": "block",
-   "name": "Archwood Chest"
+   "name": "Archwood Chest",
+   "tags": [
+    "function:store",
+    "kind:storage",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:archwood_door": {
    "kind": "block",
-   "name": "Archwood Door"
+   "name": "Archwood Door",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:archwood_fence": {
    "kind": "block",
-   "name": "Archwood Fence"
+   "name": "Archwood Fence",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:archwood_fence_gate": {
    "kind": "block",
-   "name": "Archwood Fence Gate"
+   "name": "Archwood Fence Gate",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:archwood_grate": {
    "kind": "block",
-   "name": "Archwood Grate"
+   "name": "Archwood Grate",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:archwood_planks": {
    "kind": "block",
-   "name": "Archwood Planks"
+   "name": "Archwood Planks",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:archwood_pressure_plate": {
    "kind": "block",
-   "name": "Archwood Pressure Plate"
+   "name": "Archwood Pressure Plate",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:archwood_sconce": {
    "kind": "block",
-   "name": "Archwood Sconce"
+   "name": "Archwood Sconce",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:archwood_slab": {
    "kind": "block",
-   "name": "Archwood Slab"
+   "name": "Archwood Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:archwood_stairs": {
    "kind": "block",
-   "name": "Archwood Stairs"
+   "name": "Archwood Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:archwood_trapdoor": {
    "kind": "block",
-   "name": "Archwood Trapdoor"
+   "name": "Archwood Trapdoor",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:basic_spell_turret": {
    "kind": "block",
-   "name": "Basic Spell Turret"
+   "name": "Basic Spell Turret",
+   "tags": [
+    "function:enchant",
+    "power-type:mana",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:bastion_pod": {
    "kind": "item",
-   "name": "Bastion Fruit"
+   "name": "Bastion Fruit",
+   "tags": [
+    "kind:food",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:blue_archwood_leaves": {
    "kind": "block",
-   "name": "Cascading Archwood Leaves"
+   "name": "Cascading Archwood Leaves",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:blue_archwood_log": {
    "kind": "block",
-   "name": "Cascading Archwood Log"
+   "name": "Cascading Archwood Log",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:blue_archwood_sapling": {
    "kind": "block",
-   "name": "Cascading Archwood Sapling"
+   "name": "Cascading Archwood Sapling",
+   "tags": [
+    "function:farm",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:blue_archwood_wood": {
    "kind": "block",
-   "name": "Cascading Archwood Wood"
+   "name": "Cascading Archwood Wood",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:blue_sbed": {
    "kind": "block",
-   "name": "Blue Magebloom Bed"
+   "name": "Blue Magebloom Bed",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:bombegranate_pod": {
    "kind": "item",
-   "name": "Bombegranate"
+   "name": "Bombegranate",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:brazier_relay": {
    "kind": "block",
-   "name": "Ritual Brazier Relay"
+   "name": "Ritual Brazier Relay",
+   "tags": [
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:creative_source_jar": {
    "kind": "block",
-   "name": "Creative Source Jar"
+   "name": "Creative Source Jar",
+   "tags": [
+    "function:store",
+    "power-type:mana",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:drygmy_stone": {
    "kind": "block",
-   "name": "Drygmy Henge"
+   "name": "Drygmy Henge",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:enchanting_apparatus": {
    "kind": "block",
-   "name": "Enchanting Apparatus"
+   "name": "Enchanting Apparatus",
+   "tags": [
+    "function:enchant",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:falseweave": {
    "kind": "block",
-   "name": "Falseweave"
+   "name": "Falseweave",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:frostaya_pod": {
    "kind": "item",
-   "name": "Frostaya"
+   "name": "Frostaya",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ghostweave": {
    "kind": "block",
-   "name": "Ghostweave"
+   "name": "Ghostweave",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:gilded_sourcestone_alternating": {
    "kind": "block",
-   "name": "Gilded Sourcestone: Alternating"
+   "name": "Gilded Sourcestone: Alternating",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:gilded_sourcestone_alternating_slab": {
    "kind": "block",
-   "name": "Gilded Sourcestone: Alternating Slab"
+   "name": "Gilded Sourcestone: Alternating Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:gilded_sourcestone_alternating_stairs": {
    "kind": "block",
-   "name": "Gilded Sourcestone: Alternating Stairs"
+   "name": "Gilded Sourcestone: Alternating Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:gilded_sourcestone_basketweave": {
    "kind": "block",
-   "name": "Gilded Sourcestone: Basketweave"
+   "name": "Gilded Sourcestone: Basketweave",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:gilded_sourcestone_basketweave_slab": {
    "kind": "block",
-   "name": "Gilded Sourcestone: Basketweave Slab"
+   "name": "Gilded Sourcestone: Basketweave Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:gilded_sourcestone_basketweave_stairs": {
    "kind": "block",
-   "name": "Gilded Sourcestone: Basketweave Stairs"
+   "name": "Gilded Sourcestone: Basketweave Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:gilded_sourcestone_large_bricks": {
    "kind": "block",
-   "name": "Gilded Sourcestone: Large Bricks"
+   "name": "Gilded Sourcestone: Large Bricks",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:gilded_sourcestone_large_bricks_slab": {
    "kind": "block",
-   "name": "Gilded Sourcestone: Large Bricks Slab"
+   "name": "Gilded Sourcestone: Large Bricks Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:gilded_sourcestone_large_bricks_stairs": {
    "kind": "block",
-   "name": "Gilded Sourcestone: Large Bricks Stairs"
+   "name": "Gilded Sourcestone: Large Bricks Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:gilded_sourcestone_mosaic": {
    "kind": "block",
-   "name": "Gilded Sourcestone: Mosaic"
+   "name": "Gilded Sourcestone: Mosaic",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:gilded_sourcestone_mosaic_slab": {
    "kind": "block",
-   "name": "Gilded Sourcestone: Mosaic Slab"
+   "name": "Gilded Sourcestone: Mosaic Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:gilded_sourcestone_mosaic_stairs": {
    "kind": "block",
-   "name": "Gilded Sourcestone: Mosaic Stairs"
+   "name": "Gilded Sourcestone: Mosaic Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:gilded_sourcestone_small_bricks": {
    "kind": "block",
-   "name": "Gilded Sourcestone: Small Bricks"
+   "name": "Gilded Sourcestone: Small Bricks",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:gilded_sourcestone_small_bricks_slab": {
    "kind": "block",
-   "name": "Gilded Sourcestone: Small Bricks Slab"
+   "name": "Gilded Sourcestone: Small Bricks Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:gilded_sourcestone_small_bricks_stairs": {
    "kind": "block",
-   "name": "Gilded Sourcestone: Small Bricks Stairs"
+   "name": "Gilded Sourcestone: Small Bricks Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:gold_grate": {
    "kind": "block",
-   "name": "Gold Grate"
+   "name": "Gold Grate",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:green_archwood_leaves": {
    "kind": "block",
-   "name": "Flourishing Archwood Leaves"
+   "name": "Flourishing Archwood Leaves",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:green_archwood_log": {
    "kind": "block",
-   "name": "Flourishing Archwood Log"
+   "name": "Flourishing Archwood Log",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:green_archwood_sapling": {
    "kind": "block",
-   "name": "Flourishing Archwood Sapling"
+   "name": "Flourishing Archwood Sapling",
+   "tags": [
+    "function:farm",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:green_archwood_wood": {
    "kind": "block",
-   "name": "Flourishing Archwood Wood"
+   "name": "Flourishing Archwood Wood",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:green_sbed": {
    "kind": "block",
-   "name": "Green Magebloom Bed"
+   "name": "Green Magebloom Bed",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:imbuement_chamber": {
    "kind": "block",
-   "name": "Imbuement Chamber"
+   "name": "Imbuement Chamber",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:intangible_air": {
    "kind": "block",
-   "name": "Intangible Air"
+   "name": "Intangible Air",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:item_detector": {
    "kind": "block",
-   "name": "Display Case"
+   "name": "Display Case",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:lava_lily": {
    "kind": "block",
-   "name": "Lava Lily"
+   "name": "Lava Lily",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:light_block": {
    "kind": "block",
-   "name": "Magelight"
+   "name": "Magelight",
+   "tags": [
+    "function:light",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:mage_block": {
    "kind": "block",
-   "name": "Mage Block"
+   "name": "Mage Block",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:magebloom_block": {
    "kind": "block",
-   "name": "Magebloom Block"
+   "name": "Magebloom Block",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:magebloom_crop": {
    "kind": "block",
-   "name": "Magebloom Seed"
+   "name": "Magebloom Seed",
+   "tags": [
+    "function:farm",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:magelight_torch": {
    "kind": "block",
-   "name": "Magelight Torch"
+   "name": "Magelight Torch",
+   "tags": [
+    "function:light",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:magic_fire": {
    "kind": "block",
-   "name": "Mage Fire"
+   "name": "Mage Fire",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:mendosteen_pod": {
    "kind": "item",
-   "name": "Mendosteen"
+   "name": "Mendosteen",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:mirrorweave": {
    "kind": "block",
-   "name": "Mirrorweave"
+   "name": "Mirrorweave",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:mob_jar": {
    "kind": "block",
-   "name": "Containment Jar"
+   "name": "Containment Jar",
+   "tags": [
+    "function:store",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:mycelial_sourcelink": {
    "kind": "block",
-   "name": "Mycelial Sourcelink"
+   "name": "Mycelial Sourcelink",
+   "tags": [
+    "power-type:mana",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:orange_sbed": {
    "kind": "block",
-   "name": "Orange Magebloom Bed"
+   "name": "Orange Magebloom Bed",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:polished_sconce": {
    "kind": "block",
-   "name": "Polished Sourcestone Sconce"
+   "name": "Polished Sourcestone Sconce",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:portal": {
    "kind": "block",
-   "name": "Warp Portal"
+   "name": "Warp Portal",
+   "tags": [
+    "function:travel",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:purple_archwood_leaves": {
    "kind": "block",
-   "name": "Vexing Archwood Leaves"
+   "name": "Vexing Archwood Leaves",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:purple_archwood_log": {
    "kind": "block",
-   "name": "Vexing Archwood Log"
+   "name": "Vexing Archwood Log",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:purple_archwood_sapling": {
    "kind": "block",
-   "name": "Vexing Archwood Sapling"
+   "name": "Vexing Archwood Sapling",
+   "tags": [
+    "function:farm",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:purple_archwood_wood": {
    "kind": "block",
-   "name": "Vexing Archwood Wood"
+   "name": "Vexing Archwood Wood",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:purple_sbed": {
    "kind": "block",
-   "name": "Purple Magebloom Bed"
+   "name": "Purple Magebloom Bed",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:red_archwood_leaves": {
    "kind": "block",
-   "name": "Blazing Archwood Leaves"
+   "name": "Blazing Archwood Leaves",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:red_archwood_log": {
    "kind": "block",
-   "name": "Blazing Archwood Log"
+   "name": "Blazing Archwood Log",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:red_archwood_sapling": {
    "kind": "block",
-   "name": "Blazing Archwood Sapling"
+   "name": "Blazing Archwood Sapling",
+   "tags": [
+    "function:farm",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:red_archwood_wood": {
    "kind": "block",
-   "name": "Blazing Archwood Wood"
+   "name": "Blazing Archwood Wood",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:red_sbed": {
    "kind": "block",
-   "name": "Red Magebloom Bed"
+   "name": "Red Magebloom Bed",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:redstone_air": {
    "kind": "block",
-   "name": "Redstone Air"
+   "name": "Redstone Air",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:redstone_relay": {
    "kind": "block",
-   "name": "Redstone Relay"
+   "name": "Redstone Relay",
+   "tags": [
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:relay": {
    "kind": "block",
-   "name": "Source Relay"
+   "name": "Source Relay",
+   "tags": [
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "power-type:mana",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:relay_collector": {
    "kind": "block",
-   "name": "Source Relay: Collector"
+   "name": "Source Relay: Collector",
+   "tags": [
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "power-type:mana",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:relay_deposit": {
    "kind": "block",
-   "name": "Source Relay: Depositor"
+   "name": "Source Relay: Depositor",
+   "tags": [
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "power-type:mana",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:relay_splitter": {
    "kind": "block",
-   "name": "Source Relay: Splitter"
+   "name": "Source Relay: Splitter",
+   "tags": [
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "power-type:mana",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:relay_warp": {
    "kind": "block",
-   "name": "Source Relay: Warper"
+   "name": "Source Relay: Warper",
+   "tags": [
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "function:travel",
+    "power-type:mana",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:repository": {
    "kind": "block",
-   "name": "Repository"
+   "name": "Repository",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:ritual_brazier": {
    "kind": "block",
-   "name": "Ritual Brazier"
+   "name": "Ritual Brazier",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:rotating_spell_turret": {
    "kind": "block",
-   "name": "Adjustable Spell Turret"
+   "name": "Adjustable Spell Turret",
+   "tags": [
+    "function:enchant",
+    "power-type:mana",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:rune": {
    "kind": "block",
-   "name": "Rune"
+   "name": "Rune",
+   "tags": [
+    "function:enchant",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:sconce": {
    "kind": "block",
-   "name": "Gold Sconce"
+   "name": "Gold Sconce",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:scribes_table": {
    "kind": "block",
-   "name": "Scribe's Table"
+   "name": "Scribe's Table",
+   "tags": [
+    "function:craft",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:scryers_crystal": {
    "kind": "block",
-   "name": "Scry Crystal"
+   "name": "Scry Crystal",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:scryers_oculus": {
    "kind": "block",
-   "name": "Scryer's Oculus"
+   "name": "Scryer's Oculus",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:sky_block": {
    "kind": "block",
-   "name": "Skyweave"
+   "name": "Skyweave",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_alternating": {
    "kind": "block",
-   "name": "Smooth Gilded Sourcestone: Alternating"
+   "name": "Smooth Gilded Sourcestone: Alternating",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_alternating_slab": {
    "kind": "block",
-   "name": "Smooth Gilded Sourcestone: Alternating Slab"
+   "name": "Smooth Gilded Sourcestone: Alternating Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_alternating_stairs": {
    "kind": "block",
-   "name": "Smooth Gilded Sourcestone: Alternating Stairs"
+   "name": "Smooth Gilded Sourcestone: Alternating Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_basketweave": {
    "kind": "block",
-   "name": "Smooth Gilded Sourcestone: Basketweave"
+   "name": "Smooth Gilded Sourcestone: Basketweave",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_basketweave_slab": {
    "kind": "block",
-   "name": "Smooth Gilded Sourcestone: Basketweave Slab"
+   "name": "Smooth Gilded Sourcestone: Basketweave Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_basketweave_stairs": {
    "kind": "block",
-   "name": "Smooth Gilded Sourcestone: Basketweave Stairs"
+   "name": "Smooth Gilded Sourcestone: Basketweave Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_large_bricks": {
    "kind": "block",
-   "name": "Smooth Gilded Sourcestone: Large Bricks"
+   "name": "Smooth Gilded Sourcestone: Large Bricks",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_large_bricks_slab": {
    "kind": "block",
-   "name": "Smooth Gilded Sourcestone: Large Bricks Slab"
+   "name": "Smooth Gilded Sourcestone: Large Bricks Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_large_bricks_stairs": {
    "kind": "block",
-   "name": "Smooth Gilded Sourcestone: Large Bricks Stairs"
+   "name": "Smooth Gilded Sourcestone: Large Bricks Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_mosaic": {
    "kind": "block",
-   "name": "Smooth Gilded Sourcestone: Mosaic"
+   "name": "Smooth Gilded Sourcestone: Mosaic",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_mosaic_slab": {
    "kind": "block",
-   "name": "Smooth Gilded Sourcestone: Mosaic Slab"
+   "name": "Smooth Gilded Sourcestone: Mosaic Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_mosaic_stairs": {
    "kind": "block",
-   "name": "Smooth Gilded Sourcestone: Mosaic Stairs"
+   "name": "Smooth Gilded Sourcestone: Mosaic Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_small_bricks": {
    "kind": "block",
-   "name": "Smooth Gilded Sourcestone: Small Bricks"
+   "name": "Smooth Gilded Sourcestone: Small Bricks",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_small_bricks_slab": {
    "kind": "block",
-   "name": "Smooth Gilded Sourcestone: Small Bricks Slab"
+   "name": "Smooth Gilded Sourcestone: Small Bricks Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_gilded_sourcestone_small_bricks_stairs": {
    "kind": "block",
-   "name": "Smooth Gilded Sourcestone: Small Bricks Stairs"
+   "name": "Smooth Gilded Sourcestone: Small Bricks Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_sourcestone": {
    "kind": "block",
-   "name": "Smooth Sourcestone"
+   "name": "Smooth Sourcestone",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:smooth_sourcestone_alternating": {
    "kind": "block",
-   "name": "Smooth Sourcestone: Alternating"
+   "name": "Smooth Sourcestone: Alternating",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:smooth_sourcestone_alternating_slab": {
    "kind": "block",
-   "name": "Smooth Sourcestone: Alternating Slab"
+   "name": "Smooth Sourcestone: Alternating Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_sourcestone_alternating_stairs": {
    "kind": "block",
-   "name": "Smooth Sourcestone: Alternating Stairs"
+   "name": "Smooth Sourcestone: Alternating Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_sourcestone_basketweave": {
    "kind": "block",
-   "name": "Smooth Sourcestone: Basketweave"
+   "name": "Smooth Sourcestone: Basketweave",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:smooth_sourcestone_basketweave_slab": {
    "kind": "block",
-   "name": "Smooth Sourcestone: Basketweave Slab"
+   "name": "Smooth Sourcestone: Basketweave Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_sourcestone_basketweave_stairs": {
    "kind": "block",
-   "name": "Smooth Sourcestone: Basketweave Stairs"
+   "name": "Smooth Sourcestone: Basketweave Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_sourcestone_grate": {
    "kind": "block",
-   "name": "Smooth Sourcestone Grate"
+   "name": "Smooth Sourcestone Grate",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:smooth_sourcestone_large_bricks": {
    "kind": "block",
-   "name": "Smooth Sourcestone: Large Bricks"
+   "name": "Smooth Sourcestone: Large Bricks",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_sourcestone_large_bricks_slab": {
    "kind": "block",
-   "name": "Smooth Sourcestone: Large Bricks Slab"
+   "name": "Smooth Sourcestone: Large Bricks Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_sourcestone_large_bricks_stairs": {
    "kind": "block",
-   "name": "Smooth Sourcestone: Large Bricks Stairs"
+   "name": "Smooth Sourcestone: Large Bricks Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_sourcestone_mosaic": {
    "kind": "block",
-   "name": "Smooth Sourcestone: Mosaic"
+   "name": "Smooth Sourcestone: Mosaic",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:smooth_sourcestone_mosaic_slab": {
    "kind": "block",
-   "name": "Smooth Sourcestone: Mosaic Slab"
+   "name": "Smooth Sourcestone: Mosaic Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_sourcestone_mosaic_stairs": {
    "kind": "block",
-   "name": "Smooth Sourcestone: Mosaic Stairs"
+   "name": "Smooth Sourcestone: Mosaic Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_sourcestone_slab": {
    "kind": "block",
-   "name": "Smooth Sourcestone Slab"
+   "name": "Smooth Sourcestone Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_sourcestone_small_bricks": {
    "kind": "block",
-   "name": "Smooth Sourcestone: Small Bricks"
+   "name": "Smooth Sourcestone: Small Bricks",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_sourcestone_small_bricks_slab": {
    "kind": "block",
-   "name": "Smooth Sourcestone: Small Bricks Slab"
+   "name": "Smooth Sourcestone: Small Bricks Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_sourcestone_small_bricks_stairs": {
    "kind": "block",
-   "name": "Smooth Sourcestone: Small Bricks Stairs"
+   "name": "Smooth Sourcestone: Small Bricks Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:smooth_sourcestone_stairs": {
    "kind": "block",
-   "name": "Smooth Sourcestone Stairs"
+   "name": "Smooth Sourcestone Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:source_gem_block": {
    "kind": "block",
-   "name": "Source Gem Block"
+   "name": "Source Gem Block",
+   "tags": [
+    "power-type:mana",
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:source_jar": {
    "kind": "block",
-   "name": "Source Jar"
+   "name": "Source Jar",
+   "tags": [
+    "function:store",
+    "power-type:mana",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:source_lamp": {
    "kind": "block",
-   "name": "Source Gem Lamp"
+   "name": "Source Gem Lamp",
+   "tags": [
+    "function:light",
+    "power-type:mana",
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:sourceberry_bush": {
    "kind": "block",
-   "name": "Sourceberry"
+   "name": "Sourceberry",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:sourceberry_sack": {
    "kind": "block",
-   "name": "Sourceberry Sack"
+   "name": "Sourceberry Sack",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:sourcestone": {
    "kind": "block",
-   "name": "Sourcestone"
+   "name": "Sourcestone",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:sourcestone_alternating": {
    "kind": "block",
-   "name": "Sourcestone: Alternating"
+   "name": "Sourcestone: Alternating",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:sourcestone_alternating_slab": {
    "kind": "block",
-   "name": "Sourcestone: Alternating Slab"
+   "name": "Sourcestone: Alternating Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:sourcestone_alternating_stairs": {
    "kind": "block",
-   "name": "Sourcestone: Alternating Stairs"
+   "name": "Sourcestone: Alternating Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:sourcestone_basketweave": {
    "kind": "block",
-   "name": "Sourcestone: Basketweave"
+   "name": "Sourcestone: Basketweave",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:sourcestone_basketweave_slab": {
    "kind": "block",
-   "name": "Sourcestone: Basketweave Slab"
+   "name": "Sourcestone: Basketweave Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:sourcestone_basketweave_stairs": {
    "kind": "block",
-   "name": "Sourcestone: Basketweave Stairs"
+   "name": "Sourcestone: Basketweave Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:sourcestone_grate": {
    "kind": "block",
-   "name": "Sourcestone Grate"
+   "name": "Sourcestone Grate",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:sourcestone_large_bricks": {
    "kind": "block",
-   "name": "Sourcestone: Large Bricks"
+   "name": "Sourcestone: Large Bricks",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:sourcestone_large_bricks_slab": {
    "kind": "block",
-   "name": "Sourcestone: Large Bricks Slab"
+   "name": "Sourcestone: Large Bricks Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:sourcestone_large_bricks_stairs": {
    "kind": "block",
-   "name": "Sourcestone: Large Bricks Stairs"
+   "name": "Sourcestone: Large Bricks Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:sourcestone_mosaic": {
    "kind": "block",
-   "name": "Sourcestone: Mosaic"
+   "name": "Sourcestone: Mosaic",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:sourcestone_mosaic_slab": {
    "kind": "block",
-   "name": "Sourcestone: Mosaic Slab"
+   "name": "Sourcestone: Mosaic Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:sourcestone_mosaic_stairs": {
    "kind": "block",
-   "name": "Sourcestone: Mosaic Stairs"
+   "name": "Sourcestone: Mosaic Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:sourcestone_sconce": {
    "kind": "block",
-   "name": "Sourcestone Sconce"
+   "name": "Sourcestone Sconce",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:sourcestone_slab": {
    "kind": "block",
-   "name": "Sourcestone Slab"
+   "name": "Sourcestone Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:sourcestone_small_bricks": {
    "kind": "block",
-   "name": "Sourcestone: Small Bricks"
+   "name": "Sourcestone: Small Bricks",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:sourcestone_small_bricks_slab": {
    "kind": "block",
-   "name": "Sourcestone: Small Bricks Slab"
+   "name": "Sourcestone: Small Bricks Slab",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:sourcestone_small_bricks_stairs": {
    "kind": "block",
-   "name": "Sourcestone: Small Bricks Stairs"
+   "name": "Sourcestone: Small Bricks Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:sourcestone_stairs": {
    "kind": "block",
-   "name": "Sourcestone Stairs"
+   "name": "Sourcestone Stairs",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:spell_prism": {
    "kind": "block",
-   "name": "Spell Prism"
+   "name": "Spell Prism",
+   "tags": [
+    "function:enchant",
+    "power-type:mana",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:spell_sensor": {
    "kind": "block",
-   "name": "Spell Sensor"
+   "name": "Spell Sensor",
+   "tags": [
+    "function:enchant",
+    "power-type:mana",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:spell_turret": {
    "kind": "block",
-   "name": "Enchanted Spell Turret"
+   "name": "Enchanted Spell Turret",
+   "tags": [
+    "function:enchant",
+    "power-type:mana",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:storage_lectern": {
    "kind": "block",
-   "name": "Storage Lectern"
+   "name": "Storage Lectern",
+   "tags": [
+    "function:store",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:stripped_blue_archwood_log": {
    "kind": "block",
-   "name": "Stripped Cascading Archwood Log"
+   "name": "Stripped Cascading Archwood Log",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:stripped_blue_archwood_wood": {
    "kind": "block",
-   "name": "Stripped Cascading Archwood Wood"
+   "name": "Stripped Cascading Archwood Wood",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:stripped_green_archwood_log": {
    "kind": "block",
-   "name": "Stripped Flourishing Archwood Log"
+   "name": "Stripped Flourishing Archwood Log",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:stripped_green_archwood_wood": {
    "kind": "block",
-   "name": "Stripped Flourishing Archwood Wood"
+   "name": "Stripped Flourishing Archwood Wood",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:stripped_purple_archwood_log": {
    "kind": "block",
-   "name": "Stripped Vexing Archwood Log"
+   "name": "Stripped Vexing Archwood Log",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:stripped_purple_archwood_wood": {
    "kind": "block",
-   "name": "Stripped Vexing Archwood Wood"
+   "name": "Stripped Vexing Archwood Wood",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:stripped_red_archwood_log": {
    "kind": "block",
-   "name": "Stripped Blazing Archwood Log"
+   "name": "Stripped Blazing Archwood Log",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:stripped_red_archwood_wood": {
    "kind": "block",
-   "name": "Stripped Blazing Archwood Wood"
+   "name": "Stripped Blazing Archwood Wood",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:temporary_light_block": {
    "kind": "block",
-   "name": "Temporary Magelight"
+   "name": "Temporary Magelight",
+   "tags": [
+    "function:light",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:timer_spell_turret": {
    "kind": "block",
-   "name": "Timer Spell Turret"
+   "name": "Timer Spell Turret",
+   "tags": [
+    "function:enchant",
+    "power-type:mana",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:vitalic_sourcelink": {
    "kind": "block",
-   "name": "Vitalic Sourcelink"
+   "name": "Vitalic Sourcelink",
+   "tags": [
+    "power-type:mana",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:void_prism": {
    "kind": "block",
-   "name": "Void Prism"
+   "name": "Void Prism",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:volcanic_sourcelink": {
    "kind": "block",
-   "name": "Volcanic Sourcelink"
+   "name": "Volcanic Sourcelink",
+   "tags": [
+    "power-type:mana",
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:warding_stone": {
    "kind": "block",
-   "name": "Warding Stone"
+   "name": "Warding Stone",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:whirlisprig_flower": {
    "kind": "block",
-   "name": "Whirlisprig Blossom"
+   "name": "Whirlisprig Blossom",
+   "tags": [
+    "function:farm",
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:wixie_cauldron": {
    "kind": "block",
-   "name": "Wixie Cauldron"
+   "name": "Wixie Cauldron",
+   "tags": [
+    "needs:spell-tech",
+    "kind:block"
+   ]
   },
   "ars_nouveau:yellow_sbed": {
    "kind": "block",
-   "name": "Yellow Magebloom Bed"
+   "name": "Yellow Magebloom Bed",
+   "tags": [
+    "kind:decoration",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ally_vex": {
    "kind": "entity",
-   "name": "Summoned Vex"
+   "name": "Summoned Vex",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:amethyst_golem": {
    "kind": "entity",
-   "name": "Amethyst Golem"
+   "name": "Amethyst Golem",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:an_lightning": {
    "kind": "entity",
-   "name": "Lightning"
+   "name": "Lightning",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:animated_block": {
    "kind": "entity",
-   "name": "Animated Block"
+   "name": "Animated Block",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:animated_head": {
    "kind": "entity",
-   "name": "Animated Head"
+   "name": "Animated Head",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:arcing_spell_proj": {
    "kind": "entity",
-   "name": "Arc Spell Projectile"
+   "name": "Arc Spell Projectile",
+   "tags": [
+    "kind:mob",
+    "function:enchant",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:blazing_weald_walker": {
    "kind": "entity",
-   "name": "Blazing Weald Walker"
+   "name": "Blazing Weald Walker",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:cascading_weald_walker": {
    "kind": "entity",
-   "name": "Cascading Weald Walker"
+   "name": "Cascading Weald Walker",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:drygmy": {
    "kind": "entity",
-   "name": "Drygmy"
+   "name": "Drygmy",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:dummy": {
    "kind": "entity",
-   "name": "Dummy"
+   "name": "Dummy",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:enchanted_falling_block": {
    "kind": "entity",
-   "name": "Enchanted Falling Block"
+   "name": "Enchanted Falling Block",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:enchanted_head_block": {
    "kind": "entity",
-   "name": "Enchanted Falling Block"
+   "name": "Enchanted Falling Block",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:enchanted_mage_block": {
    "kind": "entity",
-   "name": "Enchanted Falling Block"
+   "name": "Enchanted Falling Block",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:familiar_amethyst_golem": {
    "kind": "item",
-   "name": "Amethyst Golem"
+   "name": "Amethyst Golem",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:familiar_drygmy": {
    "kind": "item",
-   "name": "Drygmy"
+   "name": "Drygmy",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:familiar_jabberwog": {
    "kind": "entity",
-   "name": "Familiar Jabberwog"
+   "name": "Familiar Jabberwog",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:familiar_starbuncle": {
    "kind": "item",
-   "name": "Starbuncle"
+   "name": "Starbuncle",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:familiar_whirlisprig": {
    "kind": "item",
-   "name": "Whirlisprig"
+   "name": "Whirlisprig",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:familiar_wixie": {
    "kind": "item",
-   "name": "Wixie"
+   "name": "Wixie",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:fangs": {
    "kind": "entity",
-   "name": "Fangs"
+   "name": "Fangs",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:flourishing_weald_walker": {
    "kind": "entity",
-   "name": "Flourishing Weald Walker"
+   "name": "Flourishing Weald Walker",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:flying_item": {
    "kind": "entity",
-   "name": "Flying Item"
+   "name": "Flying Item",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:follow_proj": {
    "kind": "entity",
-   "name": "Projectile"
+   "name": "Projectile",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:gift_starby": {
    "kind": "entity",
-   "name": "Starbuncle"
+   "name": "Starbuncle",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:homing_spell_proj": {
    "kind": "entity",
-   "name": "Homing Spell Projectile"
+   "name": "Homing Spell Projectile",
+   "tags": [
+    "kind:mob",
+    "function:enchant",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:lily": {
    "kind": "entity",
-   "name": "Lily"
+   "name": "Lily",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:linger": {
    "kind": "entity",
-   "name": "Linger"
+   "name": "Linger",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:orbit": {
    "kind": "entity",
-   "name": "Orbit"
+   "name": "Orbit",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual": {
    "kind": "entity",
-   "name": "Ritual"
+   "name": "Ritual",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:scryer_camera": {
    "kind": "entity",
-   "name": "Scryer Camera"
+   "name": "Scryer Camera",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:spell_arrow": {
    "kind": "entity",
-   "name": "Spell Arrow"
+   "name": "Spell Arrow",
+   "tags": [
+    "kind:mob",
+    "kind:consumable",
+    "function:defend",
+    "function:enchant",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:spell_proj": {
    "kind": "entity",
-   "name": "Spell Projectile"
+   "name": "Spell Projectile",
+   "tags": [
+    "kind:mob",
+    "function:enchant",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:spike": {
    "kind": "entity",
-   "name": "Chimera Spike"
+   "name": "Chimera Spike",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:starbuncle": {
    "kind": "entity",
-   "name": "Starbuncle"
+   "name": "Starbuncle",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:summon_horse": {
    "kind": "entity",
-   "name": "Summoned Horse"
+   "name": "Summoned Horse",
+   "tags": [
+    "kind:mob",
+    "function:travel",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:summon_skeleton": {
    "kind": "entity",
-   "name": "Summoned Skeleton"
+   "name": "Summoned Skeleton",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:summon_wolf": {
    "kind": "entity",
-   "name": "Summoned Wolf"
+   "name": "Summoned Wolf",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:vexing_weald_walker": {
    "kind": "entity",
-   "name": "Vexing Weald Walker"
+   "name": "Vexing Weald Walker",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:whirlisprig": {
    "kind": "entity",
-   "name": "Whirlisprig"
+   "name": "Whirlisprig",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:wilden_boss": {
    "kind": "entity",
-   "name": "Wilden Chimera"
+   "name": "Wilden Chimera",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:wilden_guardian": {
    "kind": "entity",
-   "name": "Wilden Defender"
+   "name": "Wilden Defender",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:wilden_hunter": {
    "kind": "entity",
-   "name": "Wilden Hunter"
+   "name": "Wilden Hunter",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:wilden_stalker": {
    "kind": "entity",
-   "name": "Wilden Stalker"
+   "name": "Wilden Stalker",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:wixie": {
    "kind": "entity",
-   "name": "Wixie"
+   "name": "Wixie",
+   "tags": [
+    "kind:mob",
+    "needs:spell-tech"
+   ]
   },
   "minecraft:villager.ars_nouveau.shady_wizard": {
    "kind": "entity",
-   "name": "Shady Wizard"
+   "name": "Shady Wizard",
+   "tags": []
   },
   "minecraft:villager.shady_wizard": {
    "kind": "entity",
-   "name": "Shady Wizard"
+   "name": "Shady Wizard",
+   "tags": []
   },
   "ars_nouveau:abjuration_essence": {
    "kind": "item",
-   "name": "Abjuration Essence"
+   "name": "Abjuration Essence",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:air_essence": {
    "kind": "item",
-   "name": "Air Essence"
+   "name": "Air Essence",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:allow_scroll": {
    "kind": "item",
-   "name": "Item Scroll: Allow"
+   "name": "Item Scroll: Allow",
+   "tags": [
+    "kind:consumable",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:amethyst_golem_charm": {
    "kind": "item",
-   "name": "Amethyst Golem Charm"
+   "name": "Amethyst Golem Charm",
+   "tags": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:amplify_arrow": {
    "kind": "item",
-   "name": "Augment Arrow: Amplify"
+   "name": "Augment Arrow: Amplify",
+   "tags": [
+    "kind:consumable",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:amulet_of_mana_boost": {
    "kind": "item",
-   "name": "Amulet of Mana Boost"
+   "name": "Amulet of Mana Boost",
+   "tags": [
+    "power-type:mana",
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:amulet_of_mana_regen": {
    "kind": "item",
-   "name": "Amulet of Mana Regen"
+   "name": "Amulet of Mana Regen",
+   "tags": [
+    "power-type:mana",
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:annotated_codex": {
    "kind": "item",
-   "name": "Annotated Codex"
+   "name": "Annotated Codex",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:arcanist_boots": {
    "kind": "item",
-   "name": "Arcanist's Treads"
+   "name": "Arcanist's Treads",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:arcanist_hood": {
    "kind": "item",
-   "name": "Arcanist's Hat"
+   "name": "Arcanist's Hat",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:arcanist_leggings": {
    "kind": "item",
-   "name": "Arcanist's Pants"
+   "name": "Arcanist's Pants",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:arcanist_robes": {
    "kind": "item",
-   "name": "Arcanist's Robes"
+   "name": "Arcanist's Robes",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:battlemage_boots": {
    "kind": "item",
-   "name": "Battlemage's Boots"
+   "name": "Battlemage's Boots",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:battlemage_hood": {
    "kind": "item",
-   "name": "Battlemage's Hood"
+   "name": "Battlemage's Hood",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:battlemage_leggings": {
    "kind": "item",
-   "name": "Battlemage's Legguards"
+   "name": "Battlemage's Legguards",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:battlemage_robes": {
    "kind": "item",
-   "name": "Battlemage's Gambeson"
+   "name": "Battlemage's Gambeson",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:belt_of_levitation": {
    "kind": "item",
-   "name": "Belt of Levitation"
+   "name": "Belt of Levitation",
+   "tags": [
+    "function:transfer",
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:belt_of_unstable_gifts": {
    "kind": "item",
-   "name": "Belt of Unstable Gifts"
+   "name": "Belt of Unstable Gifts",
+   "tags": [
+    "function:transfer",
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:blank_glyph": {
    "kind": "item",
-   "name": "Blank Glyph"
+   "name": "Blank Glyph",
+   "tags": [
+    "function:enchant",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:blank_parchment": {
    "kind": "item",
-   "name": "Blank Parchment"
+   "name": "Blank Parchment",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:blank_thread": {
    "kind": "item",
-   "name": "Blank Thread"
+   "name": "Blank Thread",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:blaze_fiber": {
    "kind": "item",
-   "name": "Blaze Fiber"
+   "name": "Blaze Fiber",
+   "tags": [
+    "needs:nether",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:caster_tome": {
    "kind": "item",
-   "name": "Caster Tome"
+   "name": "Caster Tome",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:conjuration_essence": {
    "kind": "item",
-   "name": "Conjuration Essence"
+   "name": "Conjuration Essence",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:debug": {
    "kind": "item",
-   "name": "Ars Nouveau Debugger"
+   "name": "Ars Nouveau Debugger",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:deny_scroll": {
    "kind": "item",
-   "name": "Item Scroll: Deny"
+   "name": "Item Scroll: Deny",
+   "tags": [
+    "kind:consumable",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:dominion_wand": {
    "kind": "item",
-   "name": "Dominion Wand"
+   "name": "Dominion Wand",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:dominion_wand.strict": {
    "kind": "item",
-   "name": "Dominion Wand (Strict Mode)"
+   "name": "Dominion Wand (Strict Mode)",
+   "tags": []
   },
   "ars_nouveau:dowsing_rod": {
    "kind": "item",
-   "name": "Dowsing Rod"
+   "name": "Dowsing Rod",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:drygmy_charm": {
    "kind": "item",
-   "name": "Drygmy Charm"
+   "name": "Drygmy Charm",
+   "tags": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:drygmy_se": {
    "kind": "item",
-   "name": "Drygmy Spawn Egg"
+   "name": "Drygmy Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:drygmy_shard": {
    "kind": "item",
-   "name": "Drygmy Token"
+   "name": "Drygmy Token",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:dull_trinket": {
    "kind": "item",
-   "name": "Dull Trinket"
+   "name": "Dull Trinket",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:earth_essence": {
    "kind": "item",
-   "name": "Earth Essence"
+   "name": "Earth Essence",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:enchanters_eye": {
    "kind": "item",
-   "name": "Enchanter's Eye"
+   "name": "Enchanter's Eye",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:enchanters_mirror": {
    "kind": "item",
-   "name": "Enchanter's Mirror"
+   "name": "Enchanter's Mirror",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:enchanters_shield": {
    "kind": "item",
-   "name": "Enchanter's Shield"
+   "name": "Enchanter's Shield",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:enchanters_sword": {
    "kind": "item",
-   "name": "Enchanter's Sword"
+   "name": "Enchanter's Sword",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:end_fiber": {
    "kind": "item",
-   "name": "End Fiber"
+   "name": "End Fiber",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:experience_gem": {
    "kind": "item",
-   "name": "Experience Gem"
+   "name": "Experience Gem",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:fire_essence": {
    "kind": "item",
-   "name": "Fire Essence"
+   "name": "Fire Essence",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:greater_discount_ring": {
    "kind": "item",
-   "name": "Ring of Greater Discount"
+   "name": "Ring of Greater Discount",
+   "tags": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:greater_experience_gem": {
    "kind": "item",
-   "name": "Greater Experience Gem"
+   "name": "Greater Experience Gem",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:jar_of_light": {
    "kind": "item",
-   "name": "Jar of Light"
+   "name": "Jar of Light",
+   "tags": [
+    "function:store",
+    "function:light",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:jump_ring": {
    "kind": "item",
-   "name": "Ring of Jumping"
+   "name": "Ring of Jumping",
+   "tags": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:lesser_discount_ring": {
    "kind": "item",
-   "name": "Ring of Lesser Discount"
+   "name": "Ring of Lesser Discount",
+   "tags": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:lingering_flask_cannon": {
    "kind": "item",
-   "name": "Lingering Flask Cannon"
+   "name": "Lingering Flask Cannon",
+   "tags": [
+    "kind:consumable",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:magebloom": {
    "kind": "item",
-   "name": "Magebloom"
+   "name": "Magebloom",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:magebloom_fiber": {
    "kind": "item",
-   "name": "Magebloom Fiber"
+   "name": "Magebloom Fiber",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:magic_clay": {
    "kind": "item",
-   "name": "Magic Clay"
+   "name": "Magic Clay",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:manipulation_essence": {
    "kind": "item",
-   "name": "Manipulation Essence"
+   "name": "Manipulation Essence",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:marvelous_clay": {
    "kind": "item",
-   "name": "Marvelous Clay"
+   "name": "Marvelous Clay",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:mimic_scroll": {
    "kind": "item",
-   "name": "Mimic Scroll"
+   "name": "Mimic Scroll",
+   "tags": [
+    "kind:consumable",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:mundane_belt": {
    "kind": "item",
-   "name": "Mundane Belt"
+   "name": "Mundane Belt",
+   "tags": [
+    "function:transfer",
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:music_disc_aria_biblio": {
    "kind": "item",
-   "name": "Music Disc"
+   "name": "Music Disc",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:music_disc_firel_the_wild_hunt": {
    "kind": "item",
-   "name": "Music Disc"
+   "name": "Music Disc",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:mythical_clay": {
    "kind": "item",
-   "name": "Mythical Clay"
+   "name": "Mythical Clay",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:pierce_arrow": {
    "kind": "item",
-   "name": "Augment Arrow: Pierce"
+   "name": "Augment Arrow: Pierce",
+   "tags": [
+    "kind:consumable",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ring_of_amplify": {
    "kind": "item",
-   "name": "Ring of Amplify"
+   "name": "Ring of Amplify",
+   "tags": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ring_of_greater_discount": {
    "kind": "item",
-   "name": "Ring of Greater Discount"
+   "name": "Ring of Greater Discount",
+   "tags": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ring_of_lesser_discount": {
    "kind": "item",
-   "name": "Ring of Lesser Discount"
+   "name": "Ring of Lesser Discount",
+   "tags": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ring_of_potential": {
    "kind": "item",
-   "name": "Ring of Potential"
+   "name": "Ring of Potential",
+   "tags": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_animal_summon": {
    "kind": "item",
-   "name": "Summon Animals"
+   "name": "Summon Animals",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_awakening": {
    "kind": "item",
-   "name": "Awakening"
+   "name": "Awakening",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_binding": {
    "kind": "item",
-   "name": "Binding"
+   "name": "Binding",
+   "tags": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_burrowing": {
    "kind": "item",
-   "name": "Burrowing"
+   "name": "Burrowing",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_challenge": {
    "kind": "item",
-   "name": "Challenge"
+   "name": "Challenge",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_cloudshaping": {
    "kind": "item",
-   "name": "Cloudshaping"
+   "name": "Cloudshaping",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_conjure_island_desert": {
    "kind": "item",
-   "name": "Conjure Island: Desert"
+   "name": "Conjure Island: Desert",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_conjure_island_plains": {
    "kind": "item",
-   "name": "Conjure Island: Plains"
+   "name": "Conjure Island: Plains",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_containment": {
    "kind": "item",
-   "name": "Containment"
+   "name": "Containment",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_disintegration": {
    "kind": "item",
-   "name": "Disintegration"
+   "name": "Disintegration",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_fertility": {
    "kind": "item",
-   "name": "Fertility"
+   "name": "Fertility",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_flight": {
    "kind": "item",
-   "name": "Flight"
+   "name": "Flight",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_flowering": {
    "kind": "item",
-   "name": "Flowering"
+   "name": "Flowering",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_forestation": {
    "kind": "item",
-   "name": "Forestation"
+   "name": "Forestation",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_gravity": {
    "kind": "item",
-   "name": "Gravity"
+   "name": "Gravity",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_harvest": {
    "kind": "item",
-   "name": "Harvest"
+   "name": "Harvest",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_moonfall": {
    "kind": "item",
-   "name": "Moonfall"
+   "name": "Moonfall",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_overgrowth": {
    "kind": "item",
-   "name": "Overgrowth"
+   "name": "Overgrowth",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_restoration": {
    "kind": "item",
-   "name": "Restoration"
+   "name": "Restoration",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_sanctuary": {
    "kind": "item",
-   "name": "Sanctuary"
+   "name": "Sanctuary",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_scrying": {
    "kind": "item",
-   "name": "Scrying"
+   "name": "Scrying",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_sunrise": {
    "kind": "item",
-   "name": "Sunrise"
+   "name": "Sunrise",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_warping": {
    "kind": "item",
-   "name": "Warping"
+   "name": "Warping",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:ritual_wilden_summon": {
    "kind": "item",
-   "name": "Summon Wilden"
+   "name": "Summon Wilden",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:runic_chalk": {
    "kind": "item",
-   "name": "Runic Chalk"
+   "name": "Runic Chalk",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:scryer_scroll": {
    "kind": "item",
-   "name": "Scryer's Scroll"
+   "name": "Scryer's Scroll",
+   "tags": [
+    "kind:consumable",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:shapers_focus": {
    "kind": "item",
-   "name": "Focus of Block Shaping"
+   "name": "Focus of Block Shaping",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:sorcerer_boots": {
    "kind": "item",
-   "name": "Sorceror's Footpads"
+   "name": "Sorceror's Footpads",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:sorcerer_hood": {
    "kind": "item",
-   "name": "Sorceror's Collar"
+   "name": "Sorceror's Collar",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:sorcerer_leggings": {
    "kind": "item",
-   "name": "Sorceror's Leggings"
+   "name": "Sorceror's Leggings",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:sorcerer_robes": {
    "kind": "item",
-   "name": "Sorceror's Wrap"
+   "name": "Sorceror's Wrap",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:source_berry_pie": {
    "kind": "item",
-   "name": "Source Berry Pie"
+   "name": "Source Berry Pie",
+   "tags": [
+    "kind:food",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:source_berry_roll": {
    "kind": "item",
-   "name": "Source Berry Roll"
+   "name": "Source Berry Roll",
+   "tags": [
+    "kind:food",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:source_gem": {
    "kind": "item",
-   "name": "Source Gem"
+   "name": "Source Gem",
+   "tags": [
+    "power-type:mana",
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:spell_bow": {
    "kind": "item",
-   "name": "Enchanter's Bow"
+   "name": "Enchanter's Bow",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "function:enchant",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:spell_crossbow": {
    "kind": "item",
-   "name": "Enchanter's Crossbow"
+   "name": "Enchanter's Crossbow",
+   "tags": [
+    "kind:weapon",
+    "function:defend",
+    "function:enchant",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:spell_parchment": {
    "kind": "item",
-   "name": "Spell Parchment"
+   "name": "Spell Parchment",
+   "tags": [
+    "function:enchant",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:splash_flask_cannon": {
    "kind": "item",
-   "name": "Splash Flask Cannon"
+   "name": "Splash Flask Cannon",
+   "tags": [
+    "kind:consumable",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:split_arrow": {
    "kind": "item",
-   "name": "Augment Arrow: Split"
+   "name": "Augment Arrow: Split",
+   "tags": [
+    "kind:consumable",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:stable_warp_scroll": {
    "kind": "item",
-   "name": "Stabilized Warp Scroll"
+   "name": "Stabilized Warp Scroll",
+   "tags": [
+    "function:travel",
+    "kind:consumable",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:starbuncle_charm": {
    "kind": "item",
-   "name": "Starbuncle Charm"
+   "name": "Starbuncle Charm",
+   "tags": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:starbuncle_se": {
    "kind": "item",
-   "name": "Starbuncle Spawn Egg"
+   "name": "Starbuncle Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:starbuncle_shades": {
    "kind": "item",
-   "name": "Starbuncle Shades"
+   "name": "Starbuncle Shades",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:starbuncle_shards": {
    "kind": "item",
-   "name": "Starbuncle Token"
+   "name": "Starbuncle Token",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:starby_gift": {
    "kind": "item",
-   "name": "Starbuncle Gift"
+   "name": "Starbuncle Gift",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:summon_focus": {
    "kind": "item",
-   "name": "Focus of Summoning"
+   "name": "Focus of Summoning",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:thread_amethyst_golem": {
    "kind": "item",
-   "name": "The Amethyst Golem"
+   "name": "The Amethyst Golem",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:thread_chilling": {
    "kind": "item",
-   "name": "Chilling"
+   "name": "Chilling",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:thread_depths": {
    "kind": "item",
-   "name": "Depths"
+   "name": "Depths",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:thread_drygmy": {
    "kind": "item",
-   "name": "The Drygmy"
+   "name": "The Drygmy",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:thread_feather": {
    "kind": "item",
-   "name": "Feather"
+   "name": "Feather",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:thread_gliding": {
    "kind": "item",
-   "name": "Gliding"
+   "name": "Gliding",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:thread_heights": {
    "kind": "item",
-   "name": "Heights"
+   "name": "Heights",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:thread_high_step": {
    "kind": "item",
-   "name": "High Step"
+   "name": "High Step",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:thread_immolation": {
    "kind": "item",
-   "name": "Immolation"
+   "name": "Immolation",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:thread_kindling": {
    "kind": "item",
-   "name": "Kindling"
+   "name": "Kindling",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:thread_life_drain": {
    "kind": "item",
-   "name": "Life Drain"
+   "name": "Life Drain",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:thread_magic_capacity": {
    "kind": "item",
-   "name": "Magic Capacity"
+   "name": "Magic Capacity",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:thread_repairing": {
    "kind": "item",
-   "name": "Repairing"
+   "name": "Repairing",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:thread_spellpower": {
    "kind": "item",
-   "name": "Spell Power"
+   "name": "Spell Power",
+   "tags": [
+    "function:enchant",
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:thread_starbuncle": {
    "kind": "item",
-   "name": "The Starbuncle"
+   "name": "The Starbuncle",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:thread_undying": {
    "kind": "item",
-   "name": "Undying"
+   "name": "Undying",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:thread_warding": {
    "kind": "item",
-   "name": "Warding"
+   "name": "Warding",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:thread_whirlisprig": {
    "kind": "item",
-   "name": "The Whirlisprig"
+   "name": "The Whirlisprig",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:thread_wixie": {
    "kind": "item",
-   "name": "The Wixie"
+   "name": "The Wixie",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:void_jar": {
    "kind": "item",
-   "name": "Jar of Voiding"
+   "name": "Jar of Voiding",
+   "tags": [
+    "function:store",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:wand": {
    "kind": "item",
-   "name": "Enchanter's Wand"
+   "name": "Enchanter's Wand",
+   "tags": [
+    "kind:tool",
+    "function:enchant",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:warp_scroll": {
    "kind": "item",
-   "name": "Warp Scroll"
+   "name": "Warp Scroll",
+   "tags": [
+    "function:travel",
+    "kind:consumable",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:water_essence": {
    "kind": "item",
-   "name": "Water Essence"
+   "name": "Water Essence",
+   "tags": [
+    "kind:material",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:whirlisprig_charm": {
    "kind": "item",
-   "name": "Whirlisprig Charm"
+   "name": "Whirlisprig Charm",
+   "tags": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:whirlisprig_se": {
    "kind": "item",
-   "name": "Whirlisprig Spawn Egg"
+   "name": "Whirlisprig Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:whirlisprig_shards": {
    "kind": "item",
-   "name": "Whirlisprig Token"
+   "name": "Whirlisprig Token",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:wilden_guardian_se": {
    "kind": "item",
-   "name": "Wilden Guardian Spawn Egg"
+   "name": "Wilden Guardian Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:wilden_horn": {
    "kind": "item",
-   "name": "Wilden Horn"
+   "name": "Wilden Horn",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:wilden_hunter_se": {
    "kind": "item",
-   "name": "Wilden Hunter Spawn Egg"
+   "name": "Wilden Hunter Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:wilden_spike": {
    "kind": "item",
-   "name": "Wilden Spike"
+   "name": "Wilden Spike",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:wilden_stalker_se": {
    "kind": "item",
-   "name": "Wilden Stalker Spawn Egg"
+   "name": "Wilden Stalker Spawn Egg",
+   "tags": [
+    "kind:food",
+    "kind:consumable",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:wilden_tribute": {
    "kind": "item",
-   "name": "Wilden Tribute"
+   "name": "Wilden Tribute",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:wilden_wing": {
    "kind": "item",
-   "name": "Wilden Wing"
+   "name": "Wilden Wing",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:wixie_charm": {
    "kind": "item",
-   "name": "Wixie Charm"
+   "name": "Wixie Charm",
+   "tags": [
+    "kind:gadget",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:wixie_hat": {
    "kind": "item",
-   "name": "Wixie Hat"
+   "name": "Wixie Hat",
+   "tags": [
+    "kind:armor",
+    "function:defend",
+    "needs:spell-tech"
+   ]
   },
   "ars_nouveau:wixie_shards": {
    "kind": "item",
-   "name": "Wixie Token"
+   "name": "Wixie Token",
+   "tags": [
+    "needs:spell-tech"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

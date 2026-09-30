@@ -25,11 +25,16 @@
  "items": {
   "skyblockbuilder:spawn_block": {
    "kind": "block",
-   "name": "Spawn Block"
+   "name": "Spawn Block",
+   "tags": [
+    "kind:block"
+   ]
   },
   "skyblockbuilder:structure_saver": {
    "kind": "item",
-   "name": "Structure Saver"
+   "name": "Structure Saver",
+   "tags": []
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

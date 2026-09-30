@@ -33,51 +33,90 @@
  "items": {
   "ars_caelum:ritual_conjure_island_blazing": {
    "kind": "item",
-   "name": "Conjure Island: Blazing"
+   "name": "Conjure Island: Blazing",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_caelum:ritual_conjure_island_cascading": {
    "kind": "item",
-   "name": "Conjure Island: Cascading"
+   "name": "Conjure Island: Cascading",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_caelum:ritual_conjure_island_end_portal": {
    "kind": "item",
-   "name": "Conjure Island: End Portal"
+   "name": "Conjure Island: End Portal",
+   "tags": [
+    "function:travel",
+    "needs:spell-tech"
+   ]
   },
   "ars_caelum:ritual_conjure_island_flourishing": {
    "kind": "item",
-   "name": "Conjure Island: Flourishing"
+   "name": "Conjure Island: Flourishing",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_caelum:ritual_conjure_island_geode": {
    "kind": "item",
-   "name": "Conjure Island: Geode"
+   "name": "Conjure Island: Geode",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_caelum:ritual_conjure_island_sculk": {
    "kind": "item",
-   "name": "Conjure Island: Deep Dark"
+   "name": "Conjure Island: Deep Dark",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_caelum:ritual_conjure_island_starter": {
    "kind": "item",
-   "name": "Conjure Island: Starter"
+   "name": "Conjure Island: Starter",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_caelum:ritual_conjure_island_vexing": {
    "kind": "item",
-   "name": "Conjure Island: Vexing"
+   "name": "Conjure Island: Vexing",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_caelum:ritual_conjure_island_village": {
    "kind": "item",
-   "name": "Conjure Island: Village"
+   "name": "Conjure Island: Village",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_caelum:ritual_elder_summon": {
    "kind": "item",
-   "name": "Summon Guardians"
+   "name": "Summon Guardians",
+   "tags": [
+    "needs:spell-tech"
+   ]
   },
   "ars_caelum:ritual_mana_regeneration": {
    "kind": "item",
-   "name": "Mana Regeneration"
+   "name": "Mana Regeneration",
+   "tags": [
+    "power-type:mana",
+    "needs:spell-tech"
+   ]
   },
   "ars_caelum:ritual_sedimentation": {
    "kind": "item",
-   "name": "Sedimentation"
+   "name": "Sedimentation",
+   "tags": [
+    "needs:spell-tech"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

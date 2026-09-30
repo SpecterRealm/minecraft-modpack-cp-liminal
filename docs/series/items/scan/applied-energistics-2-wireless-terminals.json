@@ -34,23 +34,39 @@
  "items": {
   "ae2wtlib:quantum_bridge_card": {
    "kind": "item",
-   "name": "Quantum Bridge Card"
+   "name": "Quantum Bridge Card",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "ae2wtlib:magnet_card": {
    "kind": "item",
-   "name": "Magnet Card"
+   "name": "Magnet Card",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "ae2wtlib:wireless_pattern_encoding_terminal": {
    "kind": "item",
-   "name": "Wireless Pattern Encoding Terminal"
+   "name": "Wireless Pattern Encoding Terminal",
+   "tags": [
+    "function:automate"
+   ]
   },
   "ae2wtlib:wireless_pattern_access_terminal": {
    "kind": "item",
-   "name": "Wireless Pattern Access Terminal"
+   "name": "Wireless Pattern Access Terminal",
+   "tags": [
+    "function:automate"
+   ]
   },
   "ae2wtlib:wireless_universal_terminal": {
    "kind": "item",
-   "name": "Wireless Universal Terminal"
+   "name": "Wireless Universal Terminal",
+   "tags": [
+    "function:automate"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }

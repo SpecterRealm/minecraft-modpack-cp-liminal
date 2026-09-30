@@ -34,39 +34,76 @@
  "items": {
   "appliede:emc_interface": {
    "kind": "block",
-   "name": "ME Transmutation Interface"
+   "name": "ME Transmutation Interface",
+   "tags": [
+    "function:automate",
+    "power-type:emc",
+    "kind:block"
+   ]
   },
   "appliede:cable_emc_interface": {
    "kind": "item",
-   "name": "ME Transmutation Interface"
+   "name": "ME Transmutation Interface",
+   "tags": [
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "function:automate",
+    "power-type:emc"
+   ]
   },
   "appliede:emc_module": {
    "kind": "item",
-   "name": "ME Transmutation Module"
+   "name": "ME Transmutation Module",
+   "tags": [
+    "power-type:emc",
+    "kind:gadget"
+   ]
   },
   "appliede:emc_export_bus": {
    "kind": "item",
-   "name": "ME Transmutation Export Bus"
+   "name": "ME Transmutation Export Bus",
+   "tags": [
+    "power-type:emc"
+   ]
   },
   "appliede:emc_import_bus": {
    "kind": "item",
-   "name": "ME Transmutation Import Bus"
+   "name": "ME Transmutation Import Bus",
+   "tags": [
+    "power-type:emc"
+   ]
   },
   "appliede:learning_card": {
    "kind": "item",
-   "name": "Alchemical Mastery Card"
+   "name": "Alchemical Mastery Card",
+   "tags": [
+    "kind:gadget"
+   ]
   },
   "appliede:transmutation_terminal": {
    "kind": "item",
-   "name": "ME Transmutation Terminal"
+   "name": "ME Transmutation Terminal",
+   "tags": [
+    "function:automate",
+    "power-type:emc"
+   ]
   },
   "appliede:wireless_transmutation_terminal": {
    "kind": "item",
-   "name": "Wireless Transmutation Terminal"
+   "name": "Wireless Transmutation Terminal",
+   "tags": [
+    "function:automate",
+    "power-type:emc"
+   ]
   },
   "appliede:dummy_emc_item": {
    "kind": "item",
-   "name": "Dummy EMC Item"
+   "name": "Dummy EMC Item",
+   "tags": [
+    "power-type:emc"
+   ]
   }
- }
+ },
+ "tags_source": "auto (scripts/series-item-autotag.py)"
 }
