@@ -83,7 +83,7 @@ A gear set earns its place only if it does something a Silent Gear build cannot:
 | Pack | Direction chosen | Still to do |
 |---|---|---|
 | Influx | **Genetics: Resequenced** ("how to make yourself better": scrape mobs for genes, infuse powers) plus **Mutant Monsters** (mutant mobs as the combat content). Genes are the cure and the power-up; the mutants are what the experiments produce. | Scan both (Mutant Monsters source: Fuzss/mutant-monsters, branch 1.21.1; Genetics: Resequenced by aaronhowser1, repo not yet located). Check how genes connect to Hostile Neural Networks, Productive Bees and Replication. |
-| Verdant | **Megabuild with automated defenses**: a quest-gated factory goal, defended by turrets and farms the player built. | Define the target (for example a production number plus a wave to survive). No new mod yet. |
+| Verdant | **Megabuild with automated defenses**, played like Factorio on peaceful mode: time and space to learn how things work, light pressure. Defenses are a skill being taught, not a survival test. | Define the target as a production and uptime goal, with at most a gentle defense check. No new mod yet. |
 | Elysian | Gateways to Eternity (already in pack). | The arena should cost things the player automated. |
 
 ### Armor is also for looks
@@ -96,9 +96,21 @@ Part of why many armor mods were collected is how the player looks in them, whic
 
 Not yet scanned. These are discovery leads, not additions.
 
+### Pack roles before Liminal (maintainer, latest)
+
+- **Verdant is the calm teacher.** Think Factorio on peaceful mode: the player learns how to do things with time and space to do them. The aim is that they understand how things work before Liminal. "Teach how to fish before you are shipwrecked."
+- **Liminal is the war zone.** It brings the mobs from the other packs plus a few new ones made for Liminal. Verdant therefore needs to teach the *skills* Liminal tests (automate, store, defend), without the threat.
+- Consequence for the capstone: measure Verdant by whether the factory runs unattended, not by whether the player survives a wave. Automated defenses are taught as a build (a turret line, a mob farm) and get their real test in Liminal.
+
+### Armor decisions
+
+- The RPG Series (Wizards, Archers, Rogues & Warriors, Paladins & Priests; all need Spell Engine) is the class-set mod family meant.
+- Use **both** class sets and a cosmetic layer, but they do **not** have to be in every pack. Open: which packs get which (for example class sets in Elysian and Influx, cosmetic layer in all or only late packs).
+
 ## Open questions
 
 1. Influx: Genetics: Resequenced plus Mutant Monsters chosen. Confirm after scanning that they fit the pack's power and breeding systems.
-2. Verdant: what is the megabuild target, and how big a wave or defense test is right?
-3. Armor: cosmetic layer, class sets, or both? Which RPG class mods did you mean (RPG Series, or others)?
-4. Gear: do the roles above cover what you want, or are there jobs to add?
+2. Verdant: what does "factory runs unattended" measure (items per minute, uptime, a fed colony)? 
+3. Armor: which packs carry class sets and which carry the cosmetic layer?
+4. Liminal: which new mobs are made for it, so Verdant and the others can teach the counters?
+5. Gear: do the roles above cover what you want, or are there jobs to add?
