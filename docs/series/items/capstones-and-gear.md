@@ -114,15 +114,17 @@ Not yet scanned. These are discovery leads, not additions.
 | Influx | a few more | carries over |
 | Liminal | all of them | carries over |
 
-Which classes go in Elysian first, and which follow in Influx, is still open.
+Class split (maintainer): **Elysian gets the combat classes** (Wizards, Rogues & Warriors); **Influx gets the utility classes** (Paladins & Priests: frontline, healing, shielding). Archers is not placed yet. Liminal gets all.
 
 ### Verdant's capstone is the finished quest book
 
-"Runs unattended" is measured by the quest book: every system a player will need or want later has a quest, so completing the book means they understand how each thing works. Verdant's quest coverage work (`docs/machines.md`, `/tier-quest status`, `scripts/check_quest_coverage.py`) is therefore the capstone work itself, not a side task. The stage matrix tells us which systems must be covered.
+"Runs unattended" is measured by the quest book: every system a player will need or want later has a quest, so completing the book means they understand how each thing works. The stage matrix tells us which systems must be covered.
+
+**Timing: the quest book waits until the mods are locked.** Building quests now would repeat the rework the pack has today, because every mod decision changes what needs a quest. Until go/no-go is settled per mod, do not audit or build Verdant quests; `docs/machines.md` and `/tier-quest` stay as they are.
 
 ## Open questions
 
 1. Influx: Genetics: Resequenced plus Mutant Monsters chosen. Confirm after scanning that they fit the pack's power and breeding systems.
-2. Elysian and Influx: which RPG classes first, and which later?
+2. Archers: combat (Elysian) or utility (Influx)?
 3. Liminal's new mobs are not decided yet (raised in the last chat). Verdant, Elysian and Influx teach the counters once they are.
 4. Gear: do the roles above cover what you want, or are there jobs to add?
