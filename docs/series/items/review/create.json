@@ -1,0 +1,354 @@
+{
+ "note": "Kinetic (stress) engine: generators (water wheel, windmill, steam engine, hand crank), transmission (shafts, cogwheels, gearboxes), and machines that use stress (press, mixer, mill, saws, drills, deployers, arms), plus logistics (packagers, frogports, stock ticker) and trains. Stress not FE. Metal yield: crushing wheels turn ore blocks/raw ore into crushed raw ore, washed in fans to nuggets (see yields/create.json). Built-in support: AE2, Ars Nouveau, Farmer's Delight, Mystical Agriculture, Mekanism and many add-ons; Create is supported by 18 mods.",
+ "rules": [
+  {
+   "match": "\\.(behaviour|condition)\\d|_label$|\\.",
+   "ui": true
+  },
+  {
+   "match": "^(water_wheel|large_water_wheel|windmill_bearing|steam_engine|hand_crank|sail_frame|creative_motor|.*_sail)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:stress",
+    "needs:none"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^water_wheel_structure$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "power-role:makes",
+    "power-type:stress"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(shaft|(.*_)?cogwheel|(.*_)?large_cogwheel|gearbox|vertical_gearbox|clutch|gearshift|sequenced_gearshift|adjustable_chain_gearshift|encased_chain_drive|chain_conveyor|rotation_speed_controller|metal_girder_encased_shaft|powered_shaft|flywheel|belt|.*_encased_(shaft|cogwheel|large_cogwheel))$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:stress"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(mechanical_press|mechanical_mixer|millstone|crushing_wheel|crushing_wheel_controller|encased_fan|spout|basin|depot|blaze_burner|lit_blaze_burner)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:process",
+    "power-role:none"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(mechanical_press|mechanical_mixer|millstone|crushing_wheel|encased_fan|mechanical_saw|mechanical_drill|mechanical_harvester|mechanical_plough|mechanical_roller|mechanical_pump|mechanical_piston|sticky_mechanical_piston|mechanical_bearing|clockwork_bearing|deployer|mechanical_arm|mechanical_crafter|hose_pulley|rope_pulley|elevator_pulley|gantry_shaft|turntable|nozzle|speedometer|stressometer)$",
+   "clear": [
+    "power-role",
+    "power-type"
+   ],
+   "set": [
+    "power-role:uses",
+    "power-type:stress"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(mechanical_saw|mechanical_drill)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:machine",
+    "function:mine",
+    "function:process"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(mechanical_harvester|mechanical_plough)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:machine",
+    "function:farm"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(deployer|mechanical_arm|mechanical_crafter|packager|repackager|package_frogport|stock_ticker|stock_link|redstone_requester|smart_chute|chute|weighted_ejector|item_hatch|item_drain|funnel|.*_funnel|.*_belt_funnel|.*_tunnel|portable_storage_interface|portable_fluid_interface|factory_gauge|stockpile_switch)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:machine",
+    "function:automate",
+    "function:transfer"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(fluid_pipe|smart_fluid_pipe|encased_fluid_pipe|glass_fluid_pipe|fluid_valve)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:block",
+    "function:transfer"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "(fluid_tank|item_vault|_crate|cardboard_block|bound_cardboard_block)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:storage",
+    "function:store"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(mechanical_piston_head|piston_extension_pole|linear_chassis|radial_chassis|secondary_linear_chassis|gantry_carriage|sticker|super_glue|cart_assembler|contraption_controls|controls|track|track_station|track_signal|track_observer|fake_track|large_bogey|small_bogey|train_door|train_trapdoor|.*_seat|minecart_anchor|controller_rail)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:block",
+    "function:travel"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(redstone_link|redstone_contact|analog_lever|pulse_extender|pulse_repeater|pulse_timer|powered_latch|powered_toggle_latch|content_observer|display_link|display_board|lectern_controller|stressometer|speedometer|.*_nixie_tube|nixie_tube)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:block",
+    "function:automate"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(.*_casing|refined_radiance_casing|shadow_steel_casing|railway_casing|copycat_.*|framed_glass.*|tiled_glass.*|horizontal_framed.*|vertical_framed.*|.*_window(_pane)?|.*_pillar|cut_.*|polished_cut_.*|small_.*|layered_.*|.*_shingle.*|.*_tiles?.*|.*_scaffolding|.*_ladder|.*_door|.*_bars|.*_bracket|metal_girder|rope|steam_whistle.*|desk_bell|haunted_bell|peculiar_bell|cuckoo_clock|mysterious_cuckoo_clock|placard|clipboard|.*_table_cloth|.*_postbox|.*_toolbox|.*_valve_handle|.*_lamp|experience_block|.*_alloy_block|.*_block|asurine|crimsite|limestone|ochrum|scorchia|scoria|veridium|.*_ore|raw_zinc_block)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:decoration"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(.*_ore|raw_zinc_block|deepslate_zinc_ore)$",
+   "clear": [
+    "kind",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "needs:ore"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(chocolate|honey|tea)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:fluid"
+   ],
+   "kind": "fluid"
+  },
+  {
+   "match": "^(crushed_raw_.*)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:none"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "_(ingot|nugget|sheet)$|^(rose_quartz|polished_rose_quartz|refined_radiance|shadow_steel|powdered_obsidian|cinder_flour|chromatic_compound|wheat_flour|dough|pulp|cardboard|propeller|electron_tube|transmitter|precision_mechanism|incomplete_.*|.*_alloy|experience_nugget|raw_zinc|sturdy_sheet|whisk)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:none"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(wrench|extendo_grip|handheld_worldshaper|wand_of_symmetry|.*_sand_paper|sand_paper|crafting_blueprint|schematic|empty_schematic|schematic_and_quill|schedule|shopping_list|package|rare_package|filter|attribute_filter|package_filter|linked_controller|goggles|.*_backtank|.*_backtank_placeable|potato_cannon|super_glue|crafter_slot_cover)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:tool"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(.*_diving_boots|.*_diving_helmet|cardboard_(boots|chestplate|helmet|leggings))$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:armor",
+    "function:defend"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(cardboard_sword)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:weapon",
+    "function:defend"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "(_blaze_cake|blaze_cake_base|blaze_cake|sweet_roll|honeyed_apple|chocolate_glazed_berries|bar_of_chocolate|builders_tea)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:food",
+    "needs:none"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(.*_bucket)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:tool"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(.*_backtank|.*_backtank_placeable|.*_diving_.*)$",
+   "set": [
+    "needs:none"
+   ]
+  },
+  {
+   "match": "blaze|empty_blaze_burner",
+   "set": [
+    "needs:nether"
+   ]
+  },
+  {
+   "match": "_minecart_contraption$|^minecart_(contraption|coupling)$",
+   "kind": "item",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:transport",
+    "function:travel"
+   ]
+  },
+  {
+   "match": ".",
+   "kind": "entity",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:mob"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

@@ -52,689 +52,942 @@
    "kind": "item",
    "name": "Packing Tape",
    "tags": [
-    "review:auto"
+    "kind:tool",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:super_packing_tape": {
    "kind": "item",
    "name": "Super Packing Tape",
    "tags": [
-    "review:auto"
+    "kind:tool",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:storage_tool": {
    "kind": "item",
    "name": "Storage Tool",
    "tags": [
-    "function:store",
-    "review:auto"
+    "kind:tool",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:storage_tool.overlay.linking": {
    "kind": "item",
    "name": "Linking to controller at x:%s y:%s z:%s",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "sophisticatedstorage:storage_tool.overlay.unlinking": {
    "kind": "item",
    "name": "Unlinking from controller",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "sophisticatedstorage:storage_tool.overlay.toggling_lock": {
    "kind": "item",
    "name": "Locking/Unlocking",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "sophisticatedstorage:storage_tool.overlay.toggling_lock_display": {
    "kind": "item",
    "name": "Showing/Hiding Lock(s)",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "sophisticatedstorage:storage_tool.overlay.toggling_count_display": {
    "kind": "item",
    "name": "Showing/Hiding Count(s)",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "sophisticatedstorage:storage_tool.overlay.toggling_tier_display": {
    "kind": "item",
    "name": "Showing/Hiding Tier(s) or Overlay",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "sophisticatedstorage:storage_tool.overlay.toggling_upgrades_display": {
    "kind": "item",
    "name": "Showing/Hiding Upgrades",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "sophisticatedstorage:storage_tool.overlay.toggling_fill_level_display": {
    "kind": "item",
    "name": "Showing/Hiding Fill Levels",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "sophisticatedstorage:paintbrush.overlay.missing_items": {
    "kind": "item",
    "name": "Missing items: ",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "sophisticatedstorage:debug_tool": {
    "kind": "item",
    "name": "Debug Tool",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "sophisticatedstorage:paintbrush": {
    "kind": "item",
    "name": "Paintbrush",
    "tags": [
-    "review:auto"
+    "kind:tool",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:storage_connector": {
    "kind": "block",
    "name": "%1$s%2$sStorage Connector",
    "tags": [
-    "function:store",
-    "function:transfer",
-    "power-role:transfers",
-    "power-type:fe",
     "kind:block",
-    "review:auto"
+    "function:automate",
+    "function:store",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:storage_io": {
    "kind": "block",
    "name": "Storage I/O",
    "tags": [
-    "function:store",
     "kind:block",
-    "review:auto"
+    "function:automate",
+    "function:store",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:storage_input": {
    "kind": "block",
    "name": "Storage Input",
    "tags": [
-    "function:store",
     "kind:block",
-    "review:auto"
+    "function:automate",
+    "function:store",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:storage_output": {
    "kind": "block",
    "name": "Storage Output",
    "tags": [
-    "function:store",
     "kind:block",
-    "review:auto"
+    "function:automate",
+    "function:store",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:storage_link": {
    "kind": "block",
    "name": "Storage Link",
    "tags": [
-    "function:store",
     "kind:block",
-    "review:auto"
+    "function:automate",
+    "function:store",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:controller": {
    "kind": "block",
    "name": "Storage Controller",
    "tags": [
-    "function:store",
     "kind:block",
-    "review:auto"
+    "function:automate",
+    "function:store",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:barrel": {
    "kind": "block",
    "name": "%s%sBarrel",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:copper_barrel": {
    "kind": "block",
    "name": "%s%sCopper Barrel",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:iron_barrel": {
    "kind": "block",
    "name": "%s%sIron Barrel",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:gold_barrel": {
    "kind": "block",
    "name": "%s%sGold Barrel",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:diamond_barrel": {
    "kind": "block",
    "name": "%s%sDiamond Barrel",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:netherite_barrel": {
    "kind": "block",
    "name": "%s%sNetherite Barrel",
    "tags": [
-    "function:store",
     "kind:storage",
-    "needs:nether",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_barrel_1": {
    "kind": "block",
    "name": "Limited %s%sBarrel I",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_barrel_2": {
    "kind": "block",
    "name": "Limited %s%sBarrel II",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_barrel_3": {
    "kind": "block",
    "name": "Limited %s%sBarrel III",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_barrel_4": {
    "kind": "block",
    "name": "Limited %s%sBarrel IV",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_copper_barrel_1": {
    "kind": "block",
    "name": "Limited %s%sCopper Barrel I",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_copper_barrel_2": {
    "kind": "block",
    "name": "Limited %s%sCopper Barrel II",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_copper_barrel_3": {
    "kind": "block",
    "name": "Limited %s%sCopper Barrel III",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_copper_barrel_4": {
    "kind": "block",
    "name": "Limited %s%sCopper Barrel IV",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_iron_barrel_1": {
    "kind": "block",
    "name": "Limited %s%sIron Barrel I",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_iron_barrel_2": {
    "kind": "block",
    "name": "Limited %s%sIron Barrel II",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_iron_barrel_3": {
    "kind": "block",
    "name": "Limited %s%sIron Barrel III",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_iron_barrel_4": {
    "kind": "block",
    "name": "Limited %s%sIron Barrel IV",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_gold_barrel_1": {
    "kind": "block",
    "name": "Limited %s%sGold Barrel I",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_gold_barrel_2": {
    "kind": "block",
    "name": "Limited %s%sGold Barrel II",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_gold_barrel_3": {
    "kind": "block",
    "name": "Limited %s%sGold Barrel III",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_gold_barrel_4": {
    "kind": "block",
    "name": "Limited %s%sGold Barrel IV",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_diamond_barrel_1": {
    "kind": "block",
    "name": "Limited %s%sDiamond Barrel I",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_diamond_barrel_2": {
    "kind": "block",
    "name": "Limited %s%sDiamond Barrel II",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_diamond_barrel_3": {
    "kind": "block",
    "name": "Limited %s%sDiamond Barrel III",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_diamond_barrel_4": {
    "kind": "block",
    "name": "Limited %s%sDiamond Barrel IV",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_netherite_barrel_1": {
    "kind": "block",
    "name": "Limited %s%sNetherite Barrel I",
    "tags": [
-    "function:store",
     "kind:storage",
-    "needs:nether",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_netherite_barrel_2": {
    "kind": "block",
    "name": "Limited %s%sNetherite Barrel II",
    "tags": [
-    "function:store",
     "kind:storage",
-    "needs:nether",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_netherite_barrel_3": {
    "kind": "block",
    "name": "Limited %s%sNetherite Barrel III",
    "tags": [
-    "function:store",
     "kind:storage",
-    "needs:nether",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:limited_netherite_barrel_4": {
    "kind": "block",
    "name": "Limited %s%sNetherite Barrel IV",
    "tags": [
-    "function:store",
     "kind:storage",
-    "needs:nether",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:chest": {
    "kind": "block",
    "name": "%s%sChest",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:copper_chest": {
    "kind": "block",
    "name": "%s%sCopper Chest",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:iron_chest": {
    "kind": "block",
    "name": "%s%sIron Chest",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:gold_chest": {
    "kind": "block",
    "name": "%s%sGold Chest",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:diamond_chest": {
    "kind": "block",
    "name": "%s%sDiamond Chest",
    "tags": [
-    "function:store",
     "kind:storage",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:netherite_chest": {
    "kind": "block",
    "name": "%s%sNetherite Chest",
    "tags": [
-    "function:store",
     "kind:storage",
-    "needs:nether",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:decoration_table": {
    "kind": "block",
    "name": "Decoration Table",
    "tags": [
+    "kind:machine",
     "function:craft",
-    "kind:block",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:shulker_box": {
    "kind": "block",
    "name": "Shulker Box",
    "tags": [
-    "function:store",
     "kind:storage",
-    "needs:end",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:copper_shulker_box": {
    "kind": "block",
    "name": "Copper Shulker Box",
    "tags": [
-    "function:store",
     "kind:storage",
-    "needs:end",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:iron_shulker_box": {
    "kind": "block",
    "name": "Iron Shulker Box",
    "tags": [
-    "function:store",
     "kind:storage",
-    "needs:end",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:gold_shulker_box": {
    "kind": "block",
    "name": "Gold Shulker Box",
    "tags": [
-    "function:store",
     "kind:storage",
-    "needs:end",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:diamond_shulker_box": {
    "kind": "block",
    "name": "Diamond Shulker Box",
    "tags": [
-    "function:store",
     "kind:storage",
-    "needs:end",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:netherite_shulker_box": {
    "kind": "block",
    "name": "Netherite Shulker Box",
    "tags": [
-    "function:store",
     "kind:storage",
-    "needs:nether",
-    "needs:end",
-    "review:auto"
+    "function:store",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:basic_tier_upgrade": {
    "kind": "item",
    "name": "Basic Tier Upgrade",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:basic_to_copper_tier_upgrade": {
    "kind": "item",
    "name": "Basic to Copper Tier Upgrade",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:basic_to_iron_tier_upgrade": {
    "kind": "item",
    "name": "Basic to Iron Tier Upgrade",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:basic_to_gold_tier_upgrade": {
    "kind": "item",
    "name": "Basic to Gold Tier Upgrade",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:basic_to_diamond_tier_upgrade": {
    "kind": "item",
    "name": "Basic to Diamond Tier Upgrade",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:basic_to_netherite_tier_upgrade": {
    "kind": "item",
    "name": "Basic to Netherite Tier Upgrade",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "needs:nether",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:copper_to_iron_tier_upgrade": {
    "kind": "item",
    "name": "Copper to Iron Tier Upgrade",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:copper_to_gold_tier_upgrade": {
    "kind": "item",
    "name": "Copper to Gold Tier Upgrade",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:copper_to_diamond_tier_upgrade": {
    "kind": "item",
    "name": "Copper to Diamond Tier Upgrade",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:copper_to_netherite_tier_upgrade": {
    "kind": "item",
    "name": "Copper to Netherite Tier Upgrade",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "needs:nether",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:iron_to_gold_tier_upgrade": {
    "kind": "item",
    "name": "Iron to Gold Tier Upgrade",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:iron_to_diamond_tier_upgrade": {
    "kind": "item",
    "name": "Iron to Diamond Tier Upgrade",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:iron_to_netherite_tier_upgrade": {
    "kind": "item",
    "name": "Iron to Netherite Tier Upgrade",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "needs:nether",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:gold_to_diamond_tier_upgrade": {
    "kind": "item",
    "name": "Gold to Diamond Tier Upgrade",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:gold_to_netherite_tier_upgrade": {
    "kind": "item",
    "name": "Gold to Netherite Tier Upgrade",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "needs:nether",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:diamond_to_netherite_tier_upgrade": {
    "kind": "item",
    "name": "Diamond to Netherite Tier Upgrade",
    "tags": [
+    "scale:tiered",
     "kind:gadget",
-    "needs:nether",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:upgrade_base": {
@@ -742,7 +995,10 @@
    "name": "Upgrade Base",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:pickup_upgrade": {
@@ -750,7 +1006,11 @@
    "name": "Pickup Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:advanced_pickup_upgrade": {
@@ -758,7 +1018,11 @@
    "name": "Advanced Pickup Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:filter_upgrade": {
@@ -766,7 +1030,11 @@
    "name": "Filter Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:advanced_filter_upgrade": {
@@ -774,7 +1042,11 @@
    "name": "Advanced Filter Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:magnet_upgrade": {
@@ -782,7 +1054,11 @@
    "name": "Magnet Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:advanced_magnet_upgrade": {
@@ -790,7 +1066,11 @@
    "name": "Advanced Magnet Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:feeding_upgrade": {
@@ -798,7 +1078,11 @@
    "name": "Feeding upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:advanced_feeding_upgrade": {
@@ -806,7 +1090,11 @@
    "name": "Advanced Feeding upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:compacting_upgrade": {
@@ -814,7 +1102,11 @@
    "name": "Compacting Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:advanced_compacting_upgrade": {
@@ -822,7 +1114,11 @@
    "name": "Advanced Compacting Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:void_upgrade": {
@@ -830,7 +1126,11 @@
    "name": "Void Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:advanced_void_upgrade": {
@@ -838,7 +1138,11 @@
    "name": "Advanced Void Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:smelting_upgrade": {
@@ -846,7 +1150,11 @@
    "name": "Smelting Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:auto_smelting_upgrade": {
@@ -854,7 +1162,11 @@
    "name": "Auto-smelting Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:smoking_upgrade": {
@@ -862,7 +1174,11 @@
    "name": "Smoking Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:auto_smoking_upgrade": {
@@ -870,7 +1186,11 @@
    "name": "Auto-smoking Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:blasting_upgrade": {
@@ -878,7 +1198,11 @@
    "name": "Blasting Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:auto_blasting_upgrade": {
@@ -886,7 +1210,11 @@
    "name": "Auto-blasting Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:crafting_upgrade": {
@@ -894,7 +1222,11 @@
    "name": "Crafting Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stonecutter_upgrade": {
@@ -902,7 +1234,11 @@
    "name": "Stonecutter Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:jukebox_upgrade": {
@@ -910,7 +1246,10 @@
    "name": "Jukebox Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:advanced_jukebox_upgrade": {
@@ -918,7 +1257,10 @@
    "name": "Advanced Jukebox Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_upgrade_tier_1": {
@@ -926,7 +1268,11 @@
    "name": "Stack Upgrade Tier 1",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_upgrade_tier_1_plus": {
@@ -934,7 +1280,11 @@
    "name": "Stack Upgrade Tier 1 Plus",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_upgrade_tier_2": {
@@ -942,7 +1292,11 @@
    "name": "Stack Upgrade Tier 2",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_upgrade_tier_3": {
@@ -950,7 +1304,11 @@
    "name": "Stack Upgrade Tier 3",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_upgrade_tier_4": {
@@ -958,7 +1316,11 @@
    "name": "Stack Upgrade Tier 4",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_upgrade_tier_5": {
@@ -966,7 +1328,11 @@
    "name": "Stack Upgrade Tier 5",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_upgrade_tier_1_to_tier_1_plus_conversion": {
@@ -974,7 +1340,11 @@
    "name": "Stack Upgrade Conversion: Tier 1 to Tier 1 Plus",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_upgrade_tier_1_to_tier_2_conversion": {
@@ -982,7 +1352,11 @@
    "name": "Stack Upgrade Conversion: Tier 1 to Tier 2",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_upgrade_tier_1_to_tier_3_conversion": {
@@ -990,7 +1364,11 @@
    "name": "Stack Upgrade Conversion: Tier 1 to Tier 3",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_upgrade_tier_1_to_tier_4_conversion": {
@@ -998,7 +1376,11 @@
    "name": "Stack Upgrade Conversion: Tier 1 to Tier 4",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_upgrade_tier_1_to_tier_5_conversion": {
@@ -1006,7 +1388,11 @@
    "name": "Stack Upgrade Conversion: Tier 1 to Tier 5",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_upgrade_tier_1_plus_to_tier_2_conversion": {
@@ -1014,7 +1400,11 @@
    "name": "Stack Upgrade Conversion: Tier 1 Plus to Tier 2",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_upgrade_tier_1_plus_to_tier_3_conversion": {
@@ -1022,7 +1412,11 @@
    "name": "Stack Upgrade Conversion: Tier 1 Plus to Tier 3",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_upgrade_tier_1_plus_to_tier_4_conversion": {
@@ -1030,7 +1424,11 @@
    "name": "Stack Upgrade Conversion: Tier 1 Plus to Tier 4",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_upgrade_tier_1_plus_to_tier_5_conversion": {
@@ -1038,7 +1436,11 @@
    "name": "Stack Upgrade Conversion: Tier 1 Plus to Tier 5",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_upgrade_tier_2_to_tier_3_conversion": {
@@ -1046,7 +1448,11 @@
    "name": "Stack Upgrade Conversion: Tier 2 to Tier 3",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_upgrade_tier_2_to_tier_4_conversion": {
@@ -1054,7 +1460,11 @@
    "name": "Stack Upgrade Conversion: Tier 2 to Tier 4",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_upgrade_tier_2_to_tier_5_conversion": {
@@ -1062,7 +1472,11 @@
    "name": "Stack Upgrade Conversion: Tier 2 to Tier 5",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_upgrade_tier_3_to_tier_4_conversion": {
@@ -1070,7 +1484,11 @@
    "name": "Stack Upgrade Conversion: Tier 3 to Tier 4",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_upgrade_tier_3_to_tier_5_conversion": {
@@ -1078,7 +1496,11 @@
    "name": "Stack Upgrade Conversion: Tier 3 to Tier 5",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_upgrade_tier_4_to_tier_5_conversion": {
@@ -1086,7 +1508,11 @@
    "name": "Stack Upgrade Conversion: Tier 4 to Tier 5",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_upgrade_omega_tier": {
@@ -1094,28 +1520,47 @@
    "name": "Stack Upgrade Omega Tier",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_downgrade_tier_1": {
    "kind": "item",
    "name": "Stack Downgrade Tier 1",
    "tags": [
-    "review:auto"
+    "kind:gadget",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_downgrade_tier_2": {
    "kind": "item",
    "name": "Stack Downgrade Tier 2",
    "tags": [
-    "review:auto"
+    "kind:gadget",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:stack_downgrade_tier_3": {
    "kind": "item",
    "name": "Stack Downgrade Tier 3",
    "tags": [
-    "review:auto"
+    "kind:gadget",
+    "scale:tiered",
+    "needs:none",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:pump_upgrade": {
@@ -1123,7 +1568,11 @@
    "name": "Pump Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:xp_pump_upgrade": {
@@ -1131,7 +1580,11 @@
    "name": "Experience Pump Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:advanced_pump_upgrade": {
@@ -1139,7 +1592,11 @@
    "name": "Advanced Pump Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:compression_upgrade": {
@@ -1147,25 +1604,35 @@
    "name": "Compression Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "role:optional",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:hopper_upgrade": {
    "kind": "item",
    "name": "Hopper Upgrade",
    "tags": [
-    "function:transfer",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:advanced_hopper_upgrade": {
    "kind": "item",
    "name": "Advanced Hopper Upgrade",
    "tags": [
-    "function:transfer",
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:automate",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:infinity_upgrade": {
@@ -1173,7 +1640,11 @@
    "name": "Infinity Upgrade (Admin)",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "role:optional",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:survival_infinity_upgrade": {
@@ -1181,7 +1652,11 @@
    "name": "Survival Infinity Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "role:optional",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:alchemy_upgrade": {
@@ -1189,7 +1664,11 @@
    "name": "Alchemy Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:advanced_alchemy_upgrade": {
@@ -1197,67 +1676,78 @@
    "name": "Advanced Alchemy Upgrade",
    "tags": [
     "kind:gadget",
-    "review:auto"
+    "needs:none",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "review:checked"
    ]
   },
   "sophisticatedstorage:chipped.botanist_workbench_upgrade": {
    "kind": "item",
    "name": "Chipped: Botanist's Workbench Upgrade",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "sophisticatedstorage:chipped.glassblower_upgrade": {
    "kind": "item",
    "name": "Chipped: Glassblower Upgrade",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "sophisticatedstorage:chipped.carpenters_table_upgrade": {
    "kind": "item",
    "name": "Chipped: Carpenters Workbench Upgrade",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "sophisticatedstorage:chipped.mason_table_upgrade": {
    "kind": "item",
    "name": "Chipped: Mason Table Upgrade",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "sophisticatedstorage:chipped.loom_table_upgrade": {
    "kind": "item",
    "name": "Chipped: Loom Table Upgrade",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "sophisticatedstorage:chipped.alchemy_bench_upgrade": {
    "kind": "item",
    "name": "Chipped: Alchemy Bench Upgrade",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "sophisticatedstorage:chipped.tinkering_table_upgrade": {
    "kind": "item",
    "name": "Chipped: Tinkering Table Upgrade",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   },
   "sophisticatedstorage:sawmill.sawmill_upgrade": {
    "kind": "item",
    "name": "Sawmill Upgrade",
    "tags": [
-    "review:auto"
+    "review:checked"
    ]
   }
  },
  "tags_source": "auto (scripts/series-item-autotag.py)",
  "tagged_on": "2026-09-30",
- "tagged_version": "1.21.x"
+ "tagged_version": "1.21.x",
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.x",
+  "pass": "loop-back",
+  "note": "Bulk storage: barrels, limited barrels, chests and shulkers in vanilla-metal tiers (copper to netherite), a controller/link system for networked storage, and a large upgrade family (stack, magnet, pickup, feeding, void, smelting). Storage Tool is the linking tool. Built-in support: supports Sophisticated Core; Create integration via sophisticated-storage-create-integration. Matches Verdant's bulk-stash tail (barrel to limited barrel)."
+ }
 }

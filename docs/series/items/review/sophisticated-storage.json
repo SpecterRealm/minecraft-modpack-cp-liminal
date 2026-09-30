@@ -1,0 +1,131 @@
+{
+ "note": "Bulk storage: barrels, limited barrels, chests and shulkers in vanilla-metal tiers (copper to netherite), a controller/link system for networked storage, and a large upgrade family (stack, magnet, pickup, feeding, void, smelting). Storage Tool is the linking tool. Built-in support: supports Sophisticated Core; Create integration via sophisticated-storage-create-integration. Matches Verdant's bulk-stash tail (barrel to limited barrel).",
+ "rules": [
+  {
+   "match": "\\.|^debug_tool$",
+   "ui": true
+  },
+  {
+   "match": "^(.*_)?barrel(_\\d)?$|^limited_.*_barrel_\\d$|^limited_barrel_\\d$|^(.*_)?chest$|^(.*_)?shulker_box$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:storage",
+    "function:store",
+    "scale:tiered",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(controller|storage_connector|storage_io|storage_input|storage_output|storage_link)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:automate",
+    "function:store",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(.*_)?tier_upgrade$|.*_to_.*_tier_upgrade$|^stack_(upgrade|downgrade)_.*$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "scale:tiered",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "_upgrade$|^upgrade_base$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(pickup|filter|magnet|feeding|compacting|void|hopper|pump|xp_pump|restock|deposit|refill)_upgrade$|_(pickup|filter|magnet|feeding|compacting|void|hopper|pump)_upgrade$",
+   "clear": [
+    "function"
+   ],
+   "set": [
+    "function:automate"
+   ]
+  },
+  {
+   "match": "^(smelting|auto_smelting|smoking|auto_smoking|blasting|auto_blasting|crafting|stonecutter|alchemy|.*_alchemy)_upgrade$",
+   "clear": [
+    "function"
+   ],
+   "set": [
+    "function:process"
+   ]
+  },
+  {
+   "match": "^(packing_tape|super_packing_tape|storage_tool|paintbrush)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:tool",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(decoration_table)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:craft",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(compression|infinity|survival_infinity)_upgrade$",
+   "set": [
+    "role:optional"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

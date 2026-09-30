@@ -1,0 +1,591 @@
+{
+ "note": "Mekanism, Generators, Tools and Additions share one repo and one scan (861 items). Teaching pillar for Verdant: ore processing chain (dust, clump, shard, crystal) multiplies metal yield; FE machines in factory tiers; energy cubes and induction matrix for storage; universal cables; QIO storage; generators (heat, bio, gas, solar, wind, turbine, fission, fusion) - see the curated entries in data/mekanism-generators.json. Additions adds plastic blocks, balloons and baby mobs (decorative, optional). Built-in support: Flux Networks, ProjectE, AE2 (via AppMek), Curios, Farmer's Delight; supported by 12 mods.",
+ "rules": [
+  {
+   "match": "\\.",
+   "ui": true
+  },
+  {
+   "match": "^(crusher|enrichment_chamber|combiner|osmium_compressor|metallurgic_infuser|purification_chamber|pressurized_reaction_chamber|isotopic_centrifuge|rotary_condensentrator|electrolytic_separator|energized_smelter|precision_sawmill|pigment_extractor|pigment_mixer|painting_machine|nutritional_liquifier|fluidic_plenisher|oredictionificator|modification_station|antiprotonic_nucleosynthesizer|electric_pump|resistive_heater|supercharged_coil|dimensional_stabilizer|laser|laser_amplifier|laser_tractor_beam|chargepad|seismic_vibrator|.*_(combining|compressing|crushing|enriching|infusing|injecting|purifying|sawing|smelting)_factory)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:process",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^digital_miner$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:mine",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^formulaic_assemblicator$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:craft",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(solar_neutron_activator|fuelwood_heater)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:process",
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(teleporter|teleporter_frame|quantum_entangloporter|portable_teleporter)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:travel",
+    "function:transfer",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(.*_energy_cube|.*_induction_cell|.*_induction_provider|induction_casing|induction_port|energy_tablet)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^.*_universal_cable$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^.*_thermodynamic_conductor$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:heat",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(.*_logistical_transporter|.*_mechanical_pipe|.*_pressurized_tube|diversion_transporter|restrictive_transporter|logistical_sorter)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:transfer",
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(.*_bin|.*_fluid_tank|dynamic_tank|dynamic_valve|personal_barrel|personal_chest|radioactive_waste_barrel|cardboard_box)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:storage",
+    "function:store",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(qio_dashboard|qio_drive_array|qio_exporter|qio_importer|qio_redstone_adapter|portable_qio_dashboard|qio_drive_base|qio_drive_hyper_dense|qio_drive_supermassive|qio_drive_time_dilating)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:storage",
+    "function:store",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(thermal_evaporation_(block|controller|valve)|boiler_casing|boiler_valve|sps_casing|sps_port|steel_casing|structural_glass|pressure_disperser|industrial_alarm|security_desk|bounding_block)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(thermal_evaporation_controller)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:multiblock",
+    "function:process",
+    "power-role:none",
+    "power-type:heat",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(heat_generator|bio_generator|gas_burning_generator|wind_generator|solar_generator|.*_solar_generator)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(turbine_casing|turbine_valve|turbine_vent|turbine_rotor|turbine_blade|electromagnetic_coil|rotational_complex|saturating_condenser)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:multiblock",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "fuel:kinetic",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(fission_.*|control_rod_assembly|reactor_glass|fusion_.*|laser_focus_matrix|hohlraum)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:multiblock",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "power-type:heat",
+    "fuel:nuclear",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(flame|robit)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:mob"
+   ]
+  },
+  {
+   "match": "^(robit)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe"
+   ]
+  },
+  {
+   "match": "^block_(bronze|lead|osmium|steel|tin|uranium|fluorite|refined_glowstone|refined_obsidian|salt|charcoal|bio_fuel)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^block_raw_.*$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "needs:ore"
+   ]
+  },
+  {
+   "match": "(^|_)(ore)$|^deepslate_.*_ore$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "needs:ore"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^raw_(lead|osmium|tin|uranium)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:ore"
+   ]
+  },
+  {
+   "match": "^(clump|crystal|dirty_dust|shard|dust|ingot|nugget|enriched)_.*$|^(alloy_.*|dirty_netherite_scrap|fluorite_gem|salt|sawdust|substrate|bio_fuel|enriched_.*|hdpe_.*|dye_base|electrolytic_core|teleportation_core|module_base|pellet_.*|reprocessed_fissile_fragment|gauge_dropper|crafting_formula)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:none"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(hydrogen|oxygen|chlorine|ethene|bioethanol|deuterium|tritium|fusion_fuel|brine|heavy_water|steam|sodium|lithium|superheated_sodium|hydrogen_chloride|hydrofluoric_acid|sulfur_dioxide|sulfur_trioxide|sulfuric_acid|uranium_oxide|uranium_hexafluoride|nutritional_paste)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:fluid",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "_bucket$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:tool",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(atomic_disassembler|meka_tool|dictionary|network_reader|seismic_reader|geiger_counter|dosimeter|canteen|configurator|crafting_formula)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:tool",
+    "needs:none"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(jetpack|jetpack_armored|scuba_tank|scuba_mask|portable_teleporter|walkie_talkie|balloon|.*_balloon|gauge_dropper|upgrade_.*|.*_tier_installer|.*_control_circuit)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(mekasuit_.*|free_runners|free_runners_armored|hazmat_.*|hdpe_elytra)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:armor",
+    "function:defend",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(flamethrower|electric_bow|obsidian_tnt)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:weapon",
+    "function:defend",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(.*_(helmet|chestplate|leggings|boots|shield))$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:armor",
+    "function:defend",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(.*_(sword))$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:weapon",
+    "function:defend",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(.*_(pickaxe|axe|shovel|hoe|paxel)|stone_paxel|wood_paxel)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:tool",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "_cake_uranium$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:food",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^baby_.*$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:mob",
+    "needs:none"
+   ],
+   "kind": "entity"
+  },
+  {
+   "match": "_spawn_egg$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:consumable",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "plastic|glow_panel|slick|road",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:decoration",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(.*_plastic.*|.*_glow_panel)$",
+   "set": [
+    "role:optional"
+   ]
+  },
+  {
+   "match": "uranium|plutonium|polonium|antimatter",
+   "set": [
+    "needs:none"
+   ]
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

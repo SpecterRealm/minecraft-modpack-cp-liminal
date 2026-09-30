@@ -1,0 +1,357 @@
+{
+ "note": "AE2 pillar: ME network (controller, cables, drives, interfaces, crafting CPUs, pattern providers), autocrafting, storage cells by capacity tier (1k to 256k), P2P tunnels, wireless terminals, spatial storage, and a few generators (crank, vibration chamber, crystal resonance generator). AE power is converted to FE. Quartz and sky stone are world-gen items; in Verdant the meteorite/sky-stone source needs checking. Built-in support: supported by 41 mods (most AE2 add-ons); supports Mekanism via data (AppMek add-on).",
+ "rules": [
+  {
+   "match": "^(debug_|.*\\.ae2|tiny_tnt_primed$|missing_content$|wrapped_generic_stack$|mysterious_cube|not_so_mysterious_cube)|^debug|_debug_",
+   "ui": true
+  },
+  {
+   "match": "^(crystal_resonance_generator|vibration_chamber|crank)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(creative_energy_cell)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:generate",
+    "power-role:makes",
+    "power-type:fe",
+    "role:dev-only"
+   ]
+  },
+  {
+   "match": "^(energy_cell|dense_energy_cell|energy_acceptor|cable_energy_acceptor)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:store",
+    "power-role:stores",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(controller)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:multiblock",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(.*_(covered|glass|smart)(_dense)?_cable|.*_covered_dense_cable|cable_bus|cable_anchor|cable_interface|cable_pattern_provider|fluix_.*cable|quantum_link|quantum_ring)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:transfer",
+    "power-role:transfers",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(drive|chest|io_port|cell_workbench|.*_crafting_storage|crafting_storage|crafting_unit|crafting_accelerator|crafting_monitor|interface|pattern_provider|molecular_assembler|inscriber|charger|condenser|growth_accelerator|spatial_io_port|spatial_anchor|spatial_pylon|wireless_access_point|annihilation_plane|formation_plane|storage_bus|import_bus|export_bus|toggle_bus|inverted_toggle_bus|terminal|crafting_terminal|pattern_access_terminal|pattern_encoding_terminal|monitor|storage_monitor|conversion_monitor|dark_monitor|light_detector)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:machine",
+    "function:automate",
+    "power-role:uses",
+    "power-type:fe",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(drive|chest|io_port|.*_crafting_storage|crafting_storage|sky_stone_chest|smooth_sky_stone_chest|sky_stone_tank)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:storage",
+    "function:store"
+   ]
+  },
+  {
+   "match": "^(molecular_assembler|inscriber|charger|condenser)$",
+   "clear": [
+    "kind",
+    "function"
+   ],
+   "set": [
+    "kind:machine",
+    "function:craft",
+    "function:process"
+   ]
+  },
+  {
+   "match": "_(item|fluid)_storage_cell_.*|^(item|fluid)_storage_cell_.*|portable_.*_cell_.*|creative_storage_cell|spatial_storage_cell_.*|cell_component_.*|spatial_cell_component_.*|.*_cell_housing",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:storage",
+    "function:store",
+    "needs:none"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(.*_card|blank_pattern|crafting_pattern|processing_pattern|smithing_table_pattern|stonecutting_pattern|view_cell|memory_card|name_press|.*_p2p_tunnel|wireless_booster|wireless_receiver|facade|color_applicator|network_tool|meteorite_compass)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "function:automate",
+    "needs:none"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(.*_p2p_tunnel)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "function:transfer",
+    "needs:none"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(wireless_terminal|wireless_crafting_terminal|crafting_terminal|pattern_access_terminal|pattern_encoding_terminal|terminal|portable_.*)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:gadget",
+    "function:automate",
+    "needs:none"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(certus_quartz|nether_quartz|fluix)_(axe|hoe|pickaxe|shovel)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:tool",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(certus_quartz|nether_quartz|fluix)_sword$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:weapon",
+    "function:defend",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(certus_quartz_wrench|nether_quartz_wrench|certus_quartz_cutting_knife|nether_quartz_cutting_knife|network_tool|entropy_manipulator|charged_staff|matter_cannon|fluix_upgrade_smithing_template)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:tool",
+    "needs:none"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(matter_cannon|charged_staff)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:weapon",
+    "function:defend",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^(certus_quartz_crystal|charged_certus_quartz_crystal|certus_quartz_dust|fluix_crystal|fluix_dust|fluix_pearl|ender_dust|sky_dust|silicon|printed_.*|.*_processor|.*_processor_press|silicon_press|matter_ball|singularity|quantum_entangled_singularity|quartz_fiber|annihilation_core|formation_core|blank_pattern|.*_paint_ball|.*_lumen_paint_ball|paint)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:material",
+    "needs:none"
+   ],
+   "kind": "item"
+  },
+  {
+   "match": "^(.*_paint_ball|.*_lumen_paint_ball|paint)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:consumable",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "_bud$|^(small|medium|large)_quartz_bud$|budding_quartz$|quartz_cluster$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:block",
+    "function:farm",
+    "needs:none"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^(cut_|chiseled_|smooth_|sky_stone|quartz_|fluix_).*(slab|stairs|wall|block|brick|bricks|pillar|glass|fixture)$|^(quartz_block|quartz_bricks|sky_stone_block|matrix_frame|fluix_block)$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:decoration",
+    "needs:none"
+   ],
+   "kind": "block"
+  },
+  {
+   "match": "^tiny_tnt$",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "kind:consumable",
+    "function:mine",
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^sky_stone|sky_dust|meteorite",
+   "clear": [
+    "kind",
+    "function",
+    "power-role",
+    "power-type",
+    "needs"
+   ],
+   "set": [
+    "needs:none"
+   ]
+  },
+  {
+   "match": "^villager\\.",
+   "ui": true
+  },
+  {
+   "match": ".",
+   "default": [
+    "power-role:none",
+    "power-type:none",
+    "needs:none"
+   ]
+  }
+ ]
+}

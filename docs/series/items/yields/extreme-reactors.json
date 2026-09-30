@@ -1,0 +1,15 @@
+{
+ "mod": "extreme-reactors",
+ "version": "1.21",
+ "source": "lang item names (yellorite ore, raw yellorium, ingots); no Ex Deorum sieve recipe for yellorium found",
+ "entries": [
+  {
+   "resource": "yellorium",
+   "form": "yellorite ore -> yellorium ingot (reactor fuel)",
+   "source": "world ore",
+   "power": "none",
+   "stage": "bootstrap",
+   "note": "Only source found is yellorite ore in the world; Ex Deorum data has no yellorium chunk. With ore worldgen disabled there is no obvious source in Verdant or Elysian; needs a decision (sieve recipe, or drop the reactor)."
+  }
+ ]
+}
