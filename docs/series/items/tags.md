@@ -15,6 +15,7 @@ Every item gets several tags, written `facet:value`. An item can carry many valu
 | `tier` | primitive, early, mid, late, endgame, n/a | Where it sits in progression (filled in during review) |
 | `role` | core, optional, hidden-gem, dev-only | Carries progression, optional, an item players might miss, or dev-only |
 | `fit` | fits, gated, hide, unknown | Outcome of our review (default `unknown`) |
+| `feel` | tech, magic, alchemy, nature, breeding, steampunk, sci-fi, survival, neutral | Aesthetic and story feel. Two or more values mean hybrid (for example Ender IO: tech + magic). Set per mod in `profiles.json` first; items inherit it, and rules can override one item |
 | `review` | auto, checked | Whether a person (or a source read) confirmed the tags, or they are the keyword first pass |
 | `scale` | fixed, tiered, size-scaled, count-scaled | How a bigger or better version changes output (see below) |
 

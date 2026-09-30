@@ -2,6 +2,8 @@
 
 Goal: a clean pack with few wasted mods. Every mod has to add a feature or fill a gap, not just fit the theme. This is a first read of the catalog; the tables behind it are generated in [`cleanup.md`](cleanup.md) (`python3 scripts/series-cleanup.py --root ..`). These are **proposals to decide**, not decisions; record decisions in [`../mod-audit.md`](../mod-audit.md).
 
+> **Read this as early observations, not decisions.** Every mod in the packs was added on a guess, without data. The go/no-go call for each mod is made per pack during the deep review, using its profile in [`mod-profiles.md`](mod-profiles.md): does it fit the pack's theme, does it fill a gap (how we obtain or process something), and what does it add (resources, power, tooling, content and so on). The flags below are where the data says to look first.
+
 All 176 mods with readable source are catalogued and classed (library, client, QoL, AE2 add-on, compat, content, and so on). 32 mods have no public source and need a look in the game.
 
 ## 1. Power stack (Liminal #45)

@@ -43,6 +43,14 @@ def load(mod):
     return json.load(open(os.path.join(SCAN, mod + ".json"), encoding="utf-8"))
 
 
+def profile_feel(mod):
+    try:
+        prof = json.load(open(os.path.join(ITEMS, "profiles.json"), encoding="utf-8"))["mods"].get(mod, {})
+    except OSError:
+        return []
+    return [f"feel:{x}" for x in prof.get("feel", [])]
+
+
 def apply(mod, dry=False):
     rules = json.load(open(os.path.join(REVIEW, mod + ".json"), encoding="utf-8"))
     d = load(mod)
@@ -74,6 +82,8 @@ def apply(mod, dry=False):
             for t in r.get("remove", []):
                 if t in tags:
                     tags.remove(t)
+        if not any(t.startswith("feel:") for t in tags):  # mod-level default feel (profiles.json)
+            tags += profile_feel(mod)
         changed += tags != before
         it["tags"] = tags + ["review:checked"]
     d["review"] = {"status": "checked", "date": datetime.date.today().isoformat(), "mod_version": re.sub(r"^v", "", str(d.get("ref") or "")),

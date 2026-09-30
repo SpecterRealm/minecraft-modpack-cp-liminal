@@ -1,0 +1,2614 @@
+{
+ "_doc": "Mod-level profile for go/no-go. feel: tech, magic, alchemy, nature, breeding, steampunk, sci-fi, survival, neutral (two or more = hybrid). add: the mod's main contribution (resources, power, tooling, armor, storage, processing, automation, combat, content, food, building, integration, qol, library). fit: per pack, [good|partial|poor, reason]. status: pending until decided after the deep review.",
+ "mods": {
+  "advancedae": {
+   "feel": [
+    "tech"
+   ],
+   "add": "storage",
+   "also": [],
+   "gap": "Quantum multiblock crafting/storage and advanced patterns for AE2",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "ae2-crafting-tree": {
+   "feel": [
+    "tech"
+   ],
+   "add": "storage",
+   "also": [],
+   "gap": "AE2 add-on (terminal, pattern or network feature)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "ae2-jei-integration": {
+   "feel": [
+    "tech"
+   ],
+   "add": "storage",
+   "also": [],
+   "gap": "AE2 add-on (terminal, pattern or network feature)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "ae2-pattern-encoding-access-terminal": {
+   "feel": [
+    "tech"
+   ],
+   "add": "storage",
+   "also": [],
+   "gap": "AE2 add-on (terminal, pattern or network feature)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "ae2-tangible-bookmarks": {
+   "feel": [
+    "tech"
+   ],
+   "add": "storage",
+   "also": [],
+   "gap": "AE2 add-on (terminal, pattern or network feature)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "ae2helpers": {
+   "feel": [
+    "tech"
+   ],
+   "add": "storage",
+   "also": [],
+   "gap": "AE2 helper: result import card",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "agricraft-rereloaded": {
+   "feel": [
+    "nature",
+    "breeding"
+   ],
+   "add": "resources",
+   "also": [
+    "food"
+   ],
+   "gap": "Hands-on crop genetics; slow resource crops (nuggets, shards)",
+   "fit": {
+    "I": [
+     "good",
+     "genetics and breeding theme; fits a closed-loop ship"
+    ],
+    "L": [
+     "partial",
+     "overlaps Productive Farming (Influx #31)"
+    ]
+   },
+   "note": "Resource crops give small pieces, not bulk metal",
+   "status": "pending"
+  },
+  "akashic-tome": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Tome that absorbs other mods' guide books",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "animal-pens": {
+   "feel": [
+    "nature"
+   ],
+   "add": "storage",
+   "also": [
+    "automation"
+   ],
+   "gap": "Compact livestock: pens, aquariums, aviaries",
+   "fit": {
+    "I": [
+     "good",
+     "space-limited ship; fewer entities"
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "apotheosis": {
+   "feel": [
+    "magic"
+   ],
+   "add": "armor",
+   "also": [
+    "tooling",
+    "content"
+   ],
+   "gap": "Gear power: sockets, reforging, affixes, bosses",
+   "fit": {
+    "E": [
+     "partial",
+     "boss content needs dimensions Elysian may lack"
+    ],
+    "L": [
+     "good",
+     "combat and loot layer"
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "apothic-attributes": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Attribute library for Apotheosis and Apothic mods (required)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "apothic-enchanting": {
+   "feel": [
+    "magic"
+   ],
+   "add": "tooling",
+   "also": [
+    "armor"
+   ],
+   "gap": "Higher-level enchanting via shelves",
+   "fit": {
+    "E": [
+     "good",
+     "enchanting as magic progression"
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "apothic-spawners": {
+   "feel": [
+    "magic"
+   ],
+   "add": "content",
+   "also": [],
+   "gap": "Spawner tweaks for Apotheosis",
+   "fit": {
+    "E": [
+     "partial",
+     "only matters with Apotheosis"
+    ],
+    "L": [
+     "partial",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "applied-energistics-2": {
+   "feel": [
+    "tech"
+   ],
+   "add": "storage",
+   "also": [
+    "automation",
+    "processing"
+   ],
+   "gap": "Bulk storage and autocrafting (ME network)",
+   "fit": {
+    "V": [
+     "good",
+     "teaching pillar"
+    ],
+    "I": [
+     "good",
+     "pillar: automation in limited space"
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "applied-energistics-2-wireless-terminals": {
+   "feel": [
+    "tech"
+   ],
+   "add": "storage",
+   "also": [],
+   "gap": "Wireless AE2 terminals and cards",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "applied-mekanistics": {
+   "feel": [
+    "tech"
+   ],
+   "add": "storage",
+   "also": [],
+   "gap": "AE2 add-on (terminal, pattern or network feature)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "applied-sorting": {
+   "feel": [
+    "tech"
+   ],
+   "add": "storage",
+   "also": [],
+   "gap": "AE2 add-on (terminal, pattern or network feature)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "appliede": {
+   "feel": [
+    "tech"
+   ],
+   "add": "storage",
+   "also": [],
+   "gap": "AE2 to ProjectE bridge (EMC interface, transmutation terminal)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "architectury-api": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "ars-additions": {
+   "feel": [
+    "magic"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Small tweaks and sources for Ars Nouveau",
+   "fit": {
+    "E": [
+     "partial",
+     "low-cost; keep pending playtest"
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "ars-caelum": {
+   "feel": [
+    "magic"
+   ],
+   "add": "resources",
+   "also": [
+    "processing"
+   ],
+   "gap": "Skyblock rituals: islands, cobble, crush as a hammer",
+   "fit": {
+    "E": [
+     "good",
+     "fills Elysian's no-ground gap with magic, no sieve"
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "ars-controle": {
+   "feel": [
+    "magic"
+   ],
+   "add": "automation",
+   "also": [],
+   "gap": "Remote entity control, portable relays",
+   "fit": {
+    "E": [
+     "partial",
+     "utility; unplayed"
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "ars-creo": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "integration",
+   "also": [],
+   "gap": "Starbuncle wheel: Ars x Create bridge",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "ars-elemancy": {
+   "feel": [
+    "magic"
+   ],
+   "add": "combat",
+   "also": [
+    "armor"
+   ],
+   "gap": "Elemental armor and foci (needs Ars Elemental)",
+   "fit": {
+    "E": [
+     "partial",
+     "only if Elemental stays"
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "ars-elemental": {
+   "feel": [
+    "magic"
+   ],
+   "add": "combat",
+   "also": [
+    "armor"
+   ],
+   "gap": "Four elemental schools: glyphs, armor, foci",
+   "fit": {
+    "E": [
+     "good",
+     "core Ars add-on; spell variety"
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "ars-energistique": {
+   "feel": [
+    "tech"
+   ],
+   "add": "storage",
+   "also": [],
+   "gap": "Source storage in AE2 (ME source jar, source cells)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "ars-nouveau": {
+   "feel": [
+    "magic"
+   ],
+   "add": "content",
+   "also": [
+    "power",
+    "automation",
+    "processing"
+   ],
+   "gap": "Spell system; Source power; familiars automate",
+   "fit": {
+    "E": [
+     "good",
+     "Elysian's spell-literacy pillar; sourcelinks replace tech power"
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "ars-ocultas": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "integration",
+   "also": [],
+   "gap": "Ars x Occultism altar bridge",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "ars-polymorphia": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "integration",
+   "also": [],
+   "gap": "Ars Nouveau add-on (data-driven)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "ars-technica": {
+   "feel": [
+    "magic",
+    "tech"
+   ],
+   "add": "integration",
+   "also": [
+    "power"
+   ],
+   "gap": "Source motor (Source to stress), pocket factory",
+   "fit": {
+    "L": [
+     "partial",
+     "bridge between Ars and Create; Liminal-only"
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "ars-zero": {
+   "feel": [
+    "magic"
+   ],
+   "add": "combat",
+   "also": [],
+   "gap": "New cast devices and glyphs",
+   "fit": {
+    "E": [
+     "partial",
+     "unplayed"
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "atlas-api": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "autoemc": {
+   "feel": [
+    "sci-fi",
+    "alchemy"
+   ],
+   "add": "integration",
+   "also": [],
+   "gap": "Assigns EMC values to modded items",
+   "fit": {
+    "I": [
+     "good",
+     "EMC stack needs values for modded items"
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "azurum-miner": {
+   "feel": [
+    "sci-fi"
+   ],
+   "add": "resources",
+   "also": [
+    "power"
+   ],
+   "gap": "Asteroid/debris mining with tiered miner blocks",
+   "fit": {
+    "I": [
+     "good",
+     "space theme; turns into the power lesson"
+    ],
+    "L": [
+     "partial",
+     ""
+    ]
+   },
+   "note": "Output and power use unverified (Influx #29)",
+   "status": "pending"
+  },
+  "balm": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Library for Waystones, Forge-family mods and more (tag items are UI)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "baubley-heart-canisters": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Heart canisters and relic hearts for max health",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "better-fusion-reactor-for-mekanism": {
+   "feel": [
+    "tech",
+    "sci-fi"
+   ],
+   "add": "power",
+   "also": [],
+   "gap": "Harder fusion reactor; irradiated ores",
+   "fit": {
+    "V": [
+     "poor",
+     "late, ore-dependent, overlaps Mekanism nuclear"
+    ],
+    "L": [
+     "partial",
+     ""
+    ]
+   },
+   "note": "Release-candidate pin",
+   "status": "pending"
+  },
+  "betterp2p": {
+   "feel": [
+    "tech"
+   ],
+   "add": "storage",
+   "also": [],
+   "gap": "Better AE2 P2P memory card",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "bookshelf": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "botany-pots": {
+   "feel": [
+    "nature"
+   ],
+   "add": "resources",
+   "also": [
+    "food",
+    "automation"
+   ],
+   "gap": "Compact crop growing in pots; hopper automation",
+   "fit": {
+    "E": [
+     "good",
+     "plants without farmland"
+    ],
+    "I": [
+     "good",
+     "compact planting"
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "botany-pots-mystical-agriculture-compat": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "integration",
+   "also": [],
+   "gap": "Bridge between two pack mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "botany-pots-tiers": {
+   "feel": [
+    "nature"
+   ],
+   "add": "resources",
+   "also": [],
+   "gap": "Elite/ultra/mega pots: faster, more yield",
+   "fit": {
+    "E": [
+     "good",
+     "scale step"
+    ],
+    "I": [
+     "good",
+     "scale step"
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "botany-trees": {
+   "feel": [
+    "nature"
+   ],
+   "add": "resources",
+   "also": [],
+   "gap": "Trees grown in pots (wood)",
+   "fit": {
+    "E": [
+     "good",
+     "wood without space"
+    ],
+    "I": [
+     "good",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "brandons-core": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "building-gadgets": {
+   "feel": [
+    "tech"
+   ],
+   "add": "building",
+   "also": [],
+   "gap": "FE-powered copy/paste and building tools",
+   "fit": {
+    "V": [
+     "partial",
+     "overlaps Building Wands"
+    ],
+    "L": [
+     "partial",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "building-wands": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Wands that place many blocks at once",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "cb-multipart": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "CB Multipart: microblocks (saw, face, edge, corner parts); library for Translocators/Ender Storage",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "certain-questing-additions": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "integration",
+   "also": [],
+   "gap": "FTB Quests extra tasks/rewards",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "charging-gadgets": {
+   "feel": [
+    "tech"
+   ],
+   "add": "power",
+   "also": [],
+   "gap": "Charging station for FE items",
+   "fit": {
+    "V": [
+     "partial",
+     "overlaps Flux Networks charging"
+    ],
+    "L": [
+     "partial",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "cloth-config": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "codechicken-lib": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "comforts": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Sleeping bags, hammocks and rope-and-nail",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "controlling": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Client quality of life (UI, inventory, menus)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "create": {
+   "feel": [
+    "steampunk"
+   ],
+   "add": "processing",
+   "also": [
+    "power",
+    "automation"
+   ],
+   "gap": "Kinetic power, crushing, mixing, logistics, trains",
+   "fit": {
+    "V": [
+     "good",
+     "teaching pillar"
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "create-cobblestone": {
+   "feel": [
+    "steampunk"
+   ],
+   "add": "resources",
+   "also": [],
+   "gap": "Cobblestone/stone generators feeding the sieve",
+   "fit": {
+    "V": [
+     "good",
+     "stone input for Ex Deorum"
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "createaddition": {
+   "feel": [
+    "steampunk",
+    "tech"
+   ],
+   "add": "power",
+   "also": [
+    "storage"
+   ],
+   "gap": "Stress to FE bridge: alternator, accumulator, connectors",
+   "fit": {
+    "V": [
+     "good",
+     "early FE without ore"
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "cristel-lib": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "cucumber": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "curios": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Curios: accessory slots API",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "distraction-free-recipes": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Client quality of life (UI, inventory, menus)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "draconic-evolution": {
+   "feel": [
+    "magic",
+    "tech"
+   ],
+   "add": "power",
+   "also": [
+    "armor",
+    "tooling",
+    "storage"
+   ],
+   "gap": "Endgame energy core, reactor, tiered gear",
+   "fit": {
+    "L": [
+     "partial",
+     "capstone storage; no pack integrates it"
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "emi": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Primary recipe viewer (EMI)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "emi-backport": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Recipe viewer and its helpers",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "emi-patternizer": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Recipe viewer and its helpers",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "enchantment-descriptions": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Client quality of life (UI, inventory, menus)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "ender-storage": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Ender chest, tank and pouch (shared by frequency)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "enderio": {
+   "feel": [
+    "tech",
+    "magic"
+   ],
+   "add": "power",
+   "also": [
+    "processing",
+    "storage"
+   ],
+   "gap": "Capacitor banks, conduits, machines (candidate)",
+   "fit": {},
+   "note": "Candidate; not in any pack",
+   "status": "pending"
+  },
+  "entityculling": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Performance / client rendering",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "ex-deorum": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "resources",
+   "also": [
+    "processing"
+   ],
+   "gap": "Sieve and crucible: all materials from dirt, gravel, stone",
+   "fit": {
+    "V": [
+     "good",
+     "Verdant's ore answer"
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "ex-machinis-divitiae-deorum": {
+   "feel": [
+    "tech"
+   ],
+   "add": "automation",
+   "also": [],
+   "gap": "FE-powered sieve and hammer",
+   "fit": {
+    "V": [
+     "good",
+     "scale step for sieving"
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "extended-terminal": {
+   "feel": [
+    "tech"
+   ],
+   "add": "storage",
+   "also": [],
+   "gap": "Tiered AE2 terminals (extended terminal)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "extreme-reactors": {
+   "feel": [
+    "tech"
+   ],
+   "add": "power",
+   "also": [
+    "storage"
+   ],
+   "gap": "Reactor and turbine multiblocks; yellorium fuel",
+   "fit": {
+    "V": [
+     "poor",
+     "fuel needs ore; no sieve recipe"
+    ],
+    "I": [
+     "poor",
+     "fuel needs ore"
+    ],
+    "L": [
+     "poor",
+     "overlaps Mekanism, Powah, Draconic nuclear"
+    ]
+   },
+   "note": "Only ZeroCore integration",
+   "status": "pending"
+  },
+  "falling-tree": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Gameplay quality of life",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "fancymenu": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Client quality of life (UI, inventory, menus)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "farmers-delight": {
+   "feel": [
+    "nature"
+   ],
+   "add": "food",
+   "also": [],
+   "gap": "Cooking and meals",
+   "fit": {
+    "V": [
+     "good",
+     "food depth"
+    ],
+    "E": [
+     "good",
+     ""
+    ],
+    "I": [
+     "good",
+     ""
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "farming-for-blockheads": {
+   "feel": [
+    "nature"
+   ],
+   "add": "food",
+   "also": [],
+   "gap": "Market trading and farm helpers",
+   "fit": {
+    "V": [
+     "partial",
+     ""
+    ],
+    "E": [
+     "partial",
+     ""
+    ],
+    "I": [
+     "partial",
+     ""
+    ],
+    "L": [
+     "partial",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "fastsuite": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Faster crafting/rendering helper (decided: keep in all four packs)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "fastworkbench": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Faster crafting/rendering helper (decided: keep in all four packs)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "ferritecore": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Performance / client rendering",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "flux-networks": {
+   "feel": [
+    "tech"
+   ],
+   "add": "power",
+   "also": [],
+   "gap": "Wireless FE transfer and flux storage",
+   "fit": {
+    "V": [
+     "good",
+     "late transfer"
+    ],
+    "I": [
+     "good",
+     "no cable runs in tight space"
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "ftb-backups-3": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Server-side utility",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "ftb-filter-system": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "FTB filter system; used by FTB Quests",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "ftb-library-forge": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "FTB library; required by FTB Quests and Teams",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "ftb-quests-forge": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Quest system (FTB Quests)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "ftb-teams-forge": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Server-side utility",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "ftb-xmod-compat": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "integration",
+   "also": [],
+   "gap": "Bridge between two pack mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "gateways-to-eternity": {
+   "feel": [
+    "magic"
+   ],
+   "add": "content",
+   "also": [],
+   "gap": "Gateway mob-wave challenges with rewards",
+   "fit": {
+    "E": [
+     "partial",
+     "combat content"
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "geckolib": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "glitchcore": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "gravestone-mod": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Gravestone on death",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "guideme": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Guide / book system used by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "hostile-neural-networks": {
+   "feel": [
+    "sci-fi"
+   ],
+   "add": "resources",
+   "also": [],
+   "gap": "Mob drops from trained data models",
+   "fit": {
+    "I": [
+     "good",
+     "compact mob drops, no farm"
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "improved-village-placement": {
+   "feel": [
+    "nature"
+   ],
+   "add": "content",
+   "also": [],
+   "gap": "World generation / structures",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "inventory-profiles-next": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Client quality of life (UI, inventory, menus)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "iris": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Performance / client rendering",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "irons-jewelry": {
+   "feel": [
+    "magic"
+   ],
+   "add": "armor",
+   "also": [],
+   "gap": "Jewelry for Iron's Spells",
+   "fit": {
+    "E": [
+     "partial",
+     "accessory layer"
+    ],
+    "L": [
+     "partial",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "irons-spells-n-spellbooks": {
+   "feel": [
+    "magic"
+   ],
+   "add": "combat",
+   "also": [
+    "armor",
+    "content"
+   ],
+   "gap": "Spellbooks, staffs, armor, mithril",
+   "fit": {
+    "E": [
+     "good",
+     "magic combat"
+    ],
+    "L": [
+     "good",
+     "combat pressure"
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "jade": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Jade: block/entity tooltips",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "jamlib": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "jei": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Recipe viewer and its helpers",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "konkrete": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "kotlin-for-forge": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "kubejs": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "integration",
+   "also": [],
+   "gap": "KubeJS scripting bridge; needs a script that uses it",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "kubejs-ars-nouveau": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "integration",
+   "also": [],
+   "gap": "KubeJS scripting bridge; needs a script that uses it",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "kubejs-botany-pots": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "integration",
+   "also": [],
+   "gap": "KubeJS scripting bridge; needs a script that uses it",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "kubejs-create": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "integration",
+   "also": [],
+   "gap": "KubeJS scripting bridge; needs a script that uses it",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "kubejs-delight": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "integration",
+   "also": [],
+   "gap": "KubeJS scripting bridge; needs a script that uses it",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "kubejs-irons-spells": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "integration",
+   "also": [],
+   "gap": "KubeJS scripting bridge; needs a script that uses it",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "kubejs-mekanism": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "integration",
+   "also": [],
+   "gap": "KubeJS scripting bridge; needs a script that uses it",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "kubejs-projecte": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "integration",
+   "also": [],
+   "gap": "KubeJS scripting bridge; needs a script that uses it",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "libipn": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "libx": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "lithostitched": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "mega-cells": {
+   "feel": [
+    "tech"
+   ],
+   "add": "storage",
+   "also": [],
+   "gap": "Bigger AE2 storage cells and crafting (1M to 256M)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "mekanism": {
+   "feel": [
+    "tech"
+   ],
+   "add": "processing",
+   "also": [
+    "power",
+    "storage",
+    "tooling",
+    "armor"
+   ],
+   "gap": "Machines, factories, energy cubes, chemicals, tools",
+   "fit": {
+    "V": [
+     "good",
+     "teaching pillar; throughput, power and storage"
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "Processing ratio (5x chain) matters less than throughput where sieving scales",
+   "status": "pending"
+  },
+  "mekanism-unleashed": {
+   "feel": [
+    "tech"
+   ],
+   "add": "processing",
+   "also": [],
+   "gap": "Higher upgrade limits, more operations per tick",
+   "fit": {
+    "V": [
+     "partial",
+     "balance change"
+    ],
+    "L": [
+     "partial",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "melody": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "merequester": {
+   "feel": [
+    "tech"
+   ],
+   "add": "storage",
+   "also": [],
+   "gap": "Request items into an AE2 network",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "mob-grinding-utils": {
+   "feel": [
+    "tech"
+   ],
+   "add": "resources",
+   "also": [
+    "automation"
+   ],
+   "gap": "Mob farming and XP handling",
+   "fit": {
+    "V": [
+     "partial",
+     "overlaps Hostile Neural Networks role"
+    ],
+    "L": [
+     "partial",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "modernfix": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Performance / client rendering",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "modonomicon": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Guide / book system used by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "more-overlays-updated": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Client quality of life (UI, inventory, menus)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "more-tier-upgrade": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "More stack upgrade tiers for Sophisticated Backpacks and Storage",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "morph-o-tool": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "One tool that replaces multiple wrenches and tools",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "mouse-tweaks": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Client quality of life (UI, inventory, menus)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "myotus-lib": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Library for Myotus mods (AE2 cards)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "mystical-agriculture": {
+   "feel": [
+    "magic",
+    "nature"
+   ],
+   "add": "resources",
+   "also": [
+    "processing"
+   ],
+   "gap": "Every material from essence crops (tiers 1-5)",
+   "fit": {
+    "E": [
+     "good",
+     "bulk-material pillar"
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "mystical-automation": {
+   "feel": [
+    "tech"
+   ],
+   "add": "automation",
+   "also": [],
+   "gap": "Machines automating Mystical Agriculture",
+   "fit": {
+    "E": [
+     "poor",
+     "FE machines in a power-free pack"
+    ],
+    "L": [
+     "partial",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "mystical-customization": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "integration",
+   "also": [],
+   "gap": "Customizes Mystical Agriculture crops/tiers through config",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "not-enough-glyphs": {
+   "feel": [
+    "magic"
+   ],
+   "add": "content",
+   "also": [],
+   "gap": "More Ars glyph threads",
+   "fit": {
+    "E": [
+     "partial",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "not-enough-patterns": {
+   "feel": [
+    "tech"
+   ],
+   "add": "storage",
+   "also": [],
+   "gap": "AE2 patterns for Create, sequenced assembly and more",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "notrample": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Gameplay quality of life",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "occultism": {
+   "feel": [
+    "magic",
+    "alchemy"
+   ],
+   "add": "resources",
+   "also": [
+    "storage",
+    "automation"
+   ],
+   "gap": "Miner spirits return ores; rituals; dimensional storage",
+   "fit": {
+    "E": [
+     "good",
+     "ore without a sieve; spirit labor"
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "occultism-kubejs": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "integration",
+   "also": [],
+   "gap": "KubeJS scripting bridge; needs a script that uses it",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "patchouli": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Guide / book system used by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "placebo": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Library for Apotheosis, Apothic mods, HNN, FastSuite/Workbench (required)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "playeranimator": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "polymorph": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Gameplay quality of life",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "powah": {
+   "feel": [
+    "tech"
+   ],
+   "add": "power",
+   "also": [
+    "storage"
+   ],
+   "gap": "Tiered generators, cells, cables (starter to nitro)",
+   "fit": {
+    "V": [
+     "good",
+     "starter and mid power without ore"
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "prickle": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "productivebees": {
+   "feel": [
+    "nature",
+    "breeding"
+   ],
+   "add": "resources",
+   "also": [],
+   "gap": "Bees produce combs: resources, passive and compact",
+   "fit": {
+    "I": [
+     "good",
+     "compact passive route; genetics"
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "productivefarming": {
+   "feel": [
+    "nature",
+    "breeding"
+   ],
+   "add": "food",
+   "also": [],
+   "gap": "About 160 crops, flowers, dyes",
+   "fit": {
+    "I": [
+     "partial",
+     "overlaps AgriCraft (Influx #31)"
+    ],
+    "L": [
+     "partial",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "productivetrees": {
+   "feel": [
+    "nature",
+    "breeding"
+   ],
+   "add": "resources",
+   "also": [
+    "food"
+   ],
+   "gap": "163 tree species: wood, fruit, sap, rubber, pollen",
+   "fit": {
+    "I": [
+     "partial",
+     "no metal; wood and food only"
+    ],
+    "L": [
+     "partial",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "projecte": {
+   "feel": [
+    "alchemy",
+    "sci-fi"
+   ],
+   "add": "resources",
+   "also": [
+    "processing"
+   ],
+   "gap": "EMC: transmute any learned item",
+   "fit": {
+    "I": [
+     "good",
+     "the EMC destination"
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "projecte-integration": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "integration",
+   "also": [],
+   "gap": "Bridge between two pack mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "projectextendedadvancedae": {
+   "feel": [
+    "tech"
+   ],
+   "add": "storage",
+   "also": [],
+   "gap": "ProjectE x AdvancedAE bridge",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "replication": {
+   "feel": [
+    "sci-fi"
+   ],
+   "add": "resources",
+   "also": [],
+   "gap": "Scan items, then replicate from matter",
+   "fit": {
+    "I": [
+     "good",
+     "replicator theme"
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "resourceful-config": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "rftools-power": {
+   "feel": [
+    "tech"
+   ],
+   "add": "power",
+   "also": [],
+   "gap": "Generators and power cells (candidate)",
+   "fit": {},
+   "note": "Candidate; not in any pack",
+   "status": "pending"
+  },
+  "rhino": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "JavaScript engine behind KubeJS",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "rightclickharvest": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Gameplay quality of life",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "searchables": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "selene": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Moonlight Lib predecessor / library used by Comforts? (shared library)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "silent-gear": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "tooling",
+   "also": [
+    "armor"
+   ],
+   "gap": "Modular gear from parts and materials",
+   "fit": {
+    "V": [
+     "good",
+     "gear progression"
+    ],
+    "E": [
+     "good",
+     ""
+    ],
+    "I": [
+     "good",
+     ""
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "silent-lib": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "simple-custom-early-loading": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Performance / client rendering",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "simple-magnets": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Magnets and demagnetization coils",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "skyblock-builder": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Skyblock structure tools (spawn block, structure saver)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "smartbrainlib": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "sodium": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Performance / client rendering",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "sophisticated-backpacks": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "storage",
+   "also": [],
+   "gap": "Wearable storage with upgrades",
+   "fit": {
+    "V": [
+     "good",
+     ""
+    ],
+    "E": [
+     "good",
+     ""
+    ],
+    "I": [
+     "good",
+     ""
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "sophisticated-core": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Library for Sophisticated Storage/Backpacks; XP bucket, ender linker",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "sophisticated-storage": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "storage",
+   "also": [],
+   "gap": "Barrels, chests and upgrades",
+   "fit": {
+    "V": [
+     "good",
+     "bulk-stash tail"
+    ],
+    "E": [
+     "good",
+     ""
+    ],
+    "I": [
+     "good",
+     ""
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "sophisticated-storage-create-integration": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "integration",
+   "also": [],
+   "gap": "Bridge between two pack mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "squat-grow": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Gameplay quality of life",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "supermartijn642s-config-lib": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "supermartijn642s-core-lib": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "terrablender": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "the-twilight-forest": {
+   "feel": [
+    "nature",
+    "magic"
+   ],
+   "add": "content",
+   "also": [],
+   "gap": "Dimension with bosses, raids and loot",
+   "fit": {
+    "L": [
+     "partial",
+     "content, not resources; no integration"
+    ]
+   },
+   "note": "Major add is content (raids), not resources",
+   "status": "pending"
+  },
+  "theurgy": {
+   "feel": [
+    "magic",
+    "alchemy"
+   ],
+   "add": "processing",
+   "also": [
+    "resources"
+   ],
+   "gap": "Alchemy: ore to sulfur (x5) to ingot",
+   "fit": {
+    "E": [
+     "good",
+     "metal multiplication without tech"
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "theurgy-kubejs": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "integration",
+   "also": [],
+   "gap": "KubeJS scripting bridge; needs a script that uses it",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "titanium": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Titanium: dev library for Hrznstudio mods (test blocks only)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "tough-as-nails": {
+   "feel": [
+    "survival"
+   ],
+   "add": "content",
+   "also": [],
+   "gap": "Thirst and temperature",
+   "fit": {
+    "V": [
+     "partial",
+     "mechanic, not progression"
+    ],
+    "E": [
+     "partial",
+     ""
+    ],
+    "I": [
+     "partial",
+     "fits a ship a little"
+    ],
+    "L": [
+     "partial",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "towns-and-towers": {
+   "feel": [
+    "nature"
+   ],
+   "add": "content",
+   "also": [],
+   "gap": "World generation / structures",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "translocators": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Item and fluid translocators (non-powered transfer)",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "txnilib": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Shared library; required by other mods",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "wooden-shears": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "tooling",
+   "also": [],
+   "gap": "Early shears replacement",
+   "fit": {
+    "V": [
+     "partial",
+     "to be removed (Verdant #331)"
+    ],
+    "E": [
+     "partial",
+     ""
+    ],
+    "I": [
+     "partial",
+     ""
+    ],
+    "L": [
+     "partial",
+     ""
+    ]
+   },
+   "note": "",
+   "status": "pending"
+  },
+  "zerocore": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "ZeroCore: library for Extreme Reactors",
+   "fit": {},
+   "note": "",
+   "status": "pending"
+  },
+  "mekanism-generators": {
+   "feel": [
+    "tech"
+   ],
+   "add": "power",
+   "also": [],
+   "gap": "Heat, bio, gas, solar, wind generators; turbine, fission, fusion",
+   "fit": {
+    "V": [
+     "good",
+     "power ladder for the tech-first arc"
+    ],
+    "L": [
+     "good",
+     ""
+    ]
+   },
+   "note": "Shares the Mekanism repo and scan",
+   "status": "pending"
+  },
+  "mekanism-tools": {
+   "feel": [
+    "tech"
+   ],
+   "add": "tooling",
+   "also": [
+    "armor"
+   ],
+   "gap": "Paxels, tiered tools, armor, shields",
+   "fit": {
+    "V": [
+     "partial",
+     "MekaSuit is stage-gated"
+    ],
+    "L": [
+     "partial",
+     ""
+    ]
+   },
+   "note": "Shares the Mekanism repo and scan",
+   "status": "pending"
+  }
+ }
+}

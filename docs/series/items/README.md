@@ -20,6 +20,7 @@ This is not a wish list. Each entry records what the item does, its numbers, wha
 | `yields/<mod>.json` | What resources a mod can produce, how, and whether it is a bootstrap or scale route |
 | `../../../scripts/series-yields.py` | `report <resource>`, `resources`, `mods` |
 | `review/<mod>.json` | Per-mod loop-back corrections (see `series-item-review.py`) |
+| `profiles.json` / `mod-profiles.md` | Mod-level profile (feel, main add, gap, fit per pack) and its generated tables; input to go/no-go. `../../../scripts/series-profiles.py` |
 | `cleanup.md` | Generated cleanup candidates (unused libraries, KubeJS add-ons, power overlaps, out-of-theme items, named-item clusters); `../../../scripts/series-cleanup.py` |
 | `cleanup-findings.md` | Hand-written first reading of the cleanup data, with proposals |
 | `review-process.md` | The per-mod review procedure |
