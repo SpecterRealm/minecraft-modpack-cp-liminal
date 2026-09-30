@@ -11,7 +11,13 @@ recipe-wiki:
 
 recipe-analyze:
 	@echo "→ analyzing recipe_data.json + AgriCraft plant datapacks..."
-	@test -f scripts/analyze_recipe_wiki.py || cat .github/recipe-analyze-parts/analyze.part* > scripts/analyze_recipe_wiki.py
+	@if [ ! -f scripts/analyze_recipe_wiki.py ]; then \
+		if [ -f .github/recipe-analyze-parts/analyze.py.gz.b64 ]; then \
+			python3 -c "import base64,gzip,pathlib; b=base64.b64decode(pathlib.Path('.github/recipe-analyze-parts/analyze.py.gz.b64').read_text()); pathlib.Path('scripts/analyze_recipe_wiki.py').write_bytes(gzip.decompress(b))"; \
+		else \
+			cat .github/recipe-analyze-parts/analyze.part* > scripts/analyze_recipe_wiki.py; \
+		fi; \
+	fi
 	@if [ ! -f docs/recipe-analyze/agricraft-plants.txt ] && [ -f docs/recipe-analyze/agricraft-plants.txt.gz.b64 ]; then \
 		python3 -c "import base64,gzip,pathlib; b=base64.b64decode(pathlib.Path('docs/recipe-analyze/agricraft-plants.txt.gz.b64').read_text()); pathlib.Path('docs/recipe-analyze/agricraft-plants.txt').write_bytes(gzip.decompress(b))"; \
 	fi
