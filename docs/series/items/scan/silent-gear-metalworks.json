@@ -1,0 +1,805 @@
+{
+ "repo": "JDKDigital/sgearmetalworks",
+ "ref": "dev-1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "sgearmetalworks"
+ ],
+ "item_count": 94,
+ "compat": [
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 2
+   }
+  },
+  {
+   "id": "productivemetalworks",
+   "slug": "productive-metalworks",
+   "evidence": {
+    "compat-import": 2,
+    "data-ref": 278,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "productivebees",
+   "slug": "productivebees",
+   "evidence": {
+    "data-ref": 6
+   }
+  },
+  {
+   "id": "silentgear",
+   "slug": "silent-gear",
+   "evidence": {
+    "data-ref": 291,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "sgearmetalworks:molten_alexandrite": {
+   "kind": "block",
+   "name": "Molten Alexandrite",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_ammolite": {
+   "kind": "block",
+   "name": "Molten Ammolite",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_aquamarine": {
+   "kind": "block",
+   "name": "Molten Aquamarine",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_azure_electrum": {
+   "kind": "block",
+   "name": "Molten Azure Electrum",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_azure_silver": {
+   "kind": "block",
+   "name": "Molten Azure Silver",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_black_diamond": {
+   "kind": "block",
+   "name": "Molten Black Diamond",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_blaze_gold": {
+   "kind": "block",
+   "name": "Molten Blaze Gold",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_carnelian": {
+   "kind": "block",
+   "name": "Molten Carnelian",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_citrine": {
+   "kind": "block",
+   "name": "Molten Citrine",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_crimson_iron": {
+   "kind": "block",
+   "name": "Molten Crimson Iron",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_crimson_steel": {
+   "kind": "block",
+   "name": "Molten Crimson Steel",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_garnet": {
+   "kind": "block",
+   "name": "Molten Garnet",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_heliodor": {
+   "kind": "block",
+   "name": "Molten Heliodor",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_iolite": {
+   "kind": "block",
+   "name": "Molten Iolite",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_kyanite": {
+   "kind": "block",
+   "name": "Molten Kyanite",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_moldavite": {
+   "kind": "block",
+   "name": "Molten Moldavite",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_opal": {
+   "kind": "block",
+   "name": "Molten Opal",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_pearl": {
+   "kind": "block",
+   "name": "Molten Pearl",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_peridot": {
+   "kind": "block",
+   "name": "Molten Peridot",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_rose_quartz": {
+   "kind": "block",
+   "name": "Molten Rose Quartz",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_ruby": {
+   "kind": "block",
+   "name": "Molten Ruby",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_sapphire": {
+   "kind": "block",
+   "name": "Molten Sapphire",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_tanzanite": {
+   "kind": "block",
+   "name": "Molten Tanzanite",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_topaz": {
+   "kind": "block",
+   "name": "Molten Topaz",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_turquoise": {
+   "kind": "block",
+   "name": "Molten Turquoise",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_tyrian_steel": {
+   "kind": "block",
+   "name": "Molten Tyrian Steel",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_uru_metal": {
+   "kind": "block",
+   "name": "Molten Uru Metal",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_white_diamond": {
+   "kind": "block",
+   "name": "Molten White Diamond",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:uru_metal_block": {
+   "kind": "block",
+   "name": "Uru Metal Block",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "productivebees:uru_metal_bee": {
+   "kind": "entity",
+   "name": "Uru Metal Bee",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:arrow_cast": {
+   "kind": "item",
+   "name": "Arrow Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:axe_cast": {
+   "kind": "item",
+   "name": "Axe Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:boots_cast": {
+   "kind": "item",
+   "name": "Boots Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:bow_cast": {
+   "kind": "item",
+   "name": "Bow Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:bracelet_cast": {
+   "kind": "item",
+   "name": "Bracelet Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:chestplate_cast": {
+   "kind": "item",
+   "name": "Chestplate Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:crossbow_cast": {
+   "kind": "item",
+   "name": "Crossbow Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:dagger_cast": {
+   "kind": "item",
+   "name": "Dagger Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:excavator_cast": {
+   "kind": "item",
+   "name": "Excavator Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:fishing_rod_cast": {
+   "kind": "item",
+   "name": "Fishing Rod Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:hammer_cast": {
+   "kind": "item",
+   "name": "Hammer Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:helmet_cast": {
+   "kind": "item",
+   "name": "Helmet Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:hoe_cast": {
+   "kind": "item",
+   "name": "Hoe Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:katana_cast": {
+   "kind": "item",
+   "name": "Katana Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:knife_cast": {
+   "kind": "item",
+   "name": "Knife Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:leggings_cast": {
+   "kind": "item",
+   "name": "Leggings Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:machete_cast": {
+   "kind": "item",
+   "name": "Machete Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:mattock_cast": {
+   "kind": "item",
+   "name": "Mattock Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_alexandrite_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Alexandrite",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_ammolite_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Ammolite",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_aquamarine_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Aquamarine",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_azure_electrum_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Azure Electrum",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_azure_silver_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Azure Silver",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_black_diamond_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Black Diamond",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_blaze_gold_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Blaze Gold",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_carnelian_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Carnelian",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_citrine_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Citrine",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_crimson_iron_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Crimson Iron",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_crimson_steel_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Crimson Steel",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_garnet_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Garnet",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_heliodor_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Heliodor",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_iolite_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Iolite",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_kyanite_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Kyanite",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_moldavite_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Moldavite",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_opal_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Opal",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_pearl_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Pearl",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_peridot_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Peridot",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_rose_quartz_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Rose Quartz",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_ruby_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Ruby",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_sapphire_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Sapphire",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_tanzanite_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Tanzanite",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_topaz_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Topaz",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_turquoise_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Turquoise",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_tyrian_steel_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Tyrian Steel",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_uru_metal_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Uru Metal",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:molten_white_diamond_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten White Diamond",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:necklace_cast": {
+   "kind": "item",
+   "name": "Necklace Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:paxel_cast": {
+   "kind": "item",
+   "name": "Paxel Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:pickaxe_cast": {
+   "kind": "item",
+   "name": "Pickaxe Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:prospector_hammer_cast": {
+   "kind": "item",
+   "name": "Prospector Hammer Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:ring_cast": {
+   "kind": "item",
+   "name": "Ring Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:saw_cast": {
+   "kind": "item",
+   "name": "Saw Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:shears_cast": {
+   "kind": "item",
+   "name": "Shears Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:shield_cast": {
+   "kind": "item",
+   "name": "Shield Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:shovel_cast": {
+   "kind": "item",
+   "name": "Shovel Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:sickle_cast": {
+   "kind": "item",
+   "name": "Sickle Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:slingshot_cast": {
+   "kind": "item",
+   "name": "Slingshot Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:spear_cast": {
+   "kind": "item",
+   "name": "Spear Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:sword_cast": {
+   "kind": "item",
+   "name": "Sword Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:tip_cast": {
+   "kind": "item",
+   "name": "Tip Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:tool_rod_cast": {
+   "kind": "item",
+   "name": "Tool Rod Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:trident_cast": {
+   "kind": "item",
+   "name": "Trident Cast",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:uru_metal_ingot": {
+   "kind": "item",
+   "name": "Uru Metal Ingot",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  },
+  "sgearmetalworks:uru_metal_nugget": {
+   "kind": "item",
+   "name": "Uru Metal Nugget",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "dev-1.21.1",
+  "pass": "loop-back",
+  "note": "First read from source; see mod-profiles.md.",
+  "class": "content",
+  "purpose": "Molten gem and alloy fluids for Silent Gear materials"
+ }
+}

@@ -3663,6 +3663,203 @@
    "stages": [
     6
    ]
+  },
+  "silent-gear-metalworks": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "processing",
+   "also": [
+    "tooling"
+   ],
+   "gap": "Molten gem and alloy fluids for Silent Gear materials (molten ruby, crimson steel, tyrian steel, blaze gold and more), cast through Productive Metalworks",
+   "fit": {
+    "V": [
+     "good",
+     "decided: in all packs"
+    ],
+    "E": [
+     "good",
+     "decided: in all packs"
+    ],
+    "I": [
+     "good",
+     "decided: in all packs"
+    ],
+    "L": [
+     "good",
+     "decided: in all packs"
+    ]
+   },
+   "note": "Fluids only (94 items); no standalone machines. Repo JDKDigital/sgearmetalworks (dev-1.21.1). Built-in support: Silent Gear, Productive Metalworks, Productive Bees.",
+   "works_with": "",
+   "status": "pending",
+   "stages": [
+    4
+   ]
+  },
+  "productive-metalworks": {
+   "feel": [
+    "steampunk"
+   ],
+   "add": "processing",
+   "also": [
+    "resources",
+    "storage"
+   ],
+   "gap": "Foundry and casting: smelt ores and scrap to molten metal, cast into ingots, gear parts and alloys (Tinkers-style casting)",
+   "fit": {
+    "V": [
+     "good",
+     "gear casting after Create and Mekanism"
+    ],
+    "E": [
+     "good",
+     "decided: in all packs"
+    ],
+    "I": [
+     "good",
+     "decided: in all packs"
+    ],
+    "L": [
+     "good",
+     "decided: in all packs"
+    ]
+   },
+   "note": "202 items: foundry controller, tanks, drains, taps, casting table and basin, fire clay and colored fire bricks. Built-in support: Create, Mekanism, Mystical Agriculture, Productive Bees, Immersive Engineering, PneumaticCraft, Integrated Dynamics. Repo JDKDigital/productivemetalworks (dev-1.21.1). Supports KubeJS through the KubeJS Metalworks add-on.",
+   "works_with": "",
+   "status": "pending",
+   "stages": [
+    4,
+    5
+   ]
+  },
+  "cobblegen-galore": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "resources",
+   "also": [
+    "automation"
+   ],
+   "gap": "Block generators: cheap stone, andesite, diorite, granite, tuff, basalt, deepslate, netherrack and obsidian from a fluid pair",
+   "fit": {
+    "V": [
+     "good",
+     "already used in a gated chain (stone to netherite)"
+    ],
+    "E": [
+     "partial",
+     "only if Elysian gets stone sources"
+    ],
+    "I": [
+     "partial",
+     "compact stone source"
+    ],
+    "L": [
+     "good",
+     "union inventory"
+    ]
+   },
+   "note": "Only 7 items (generators from stone to netherite tier); the metal tiers are speed upgrades, not metal producers. blockgen recipes list netherrack, obsidian and basalt, so they give netherrack without the Nether (needed by Mystical Agriculture's nether agglomeratio and Ex Deorum crushed netherrack). Repo JDKDigital/cobblegengalore (dev-1.21.1).",
+   "works_with": "",
+   "status": "pending",
+   "stages": [
+    1,
+    3
+   ]
+  },
+  "ars-mekanica": {
+   "feel": [
+    "magic",
+    "tech"
+   ],
+   "add": "power",
+   "also": [
+    "integration"
+   ],
+   "gap": "One block: Source Dynamo, turns Ars Nouveau Source into Mekanism power (a Source to FE bridge)",
+   "fit": {
+    "L": [
+     "good",
+     "a bridge between two systems, the Liminal job"
+    ],
+    "V": [
+     "poor",
+     "no Source in Verdant"
+    ],
+    "E": [
+     "poor",
+     "no Mekanism in Elysian"
+    ],
+    "I": [
+     "poor",
+     "no Source in Influx"
+    ]
+   },
+   "note": "Only 1 item. Repo meigoc/Ars-Mekanica (main); 1.21.1 support to confirm. Keep only if Liminal wants the bridge.",
+   "works_with": "",
+   "status": "pending",
+   "stages": [
+    5
+   ]
+  },
+  "morethermalevaporation": {
+   "feel": [
+    "tech"
+   ],
+   "add": "processing",
+   "also": [],
+   "gap": "Bigger Mekanism thermal evaporation plants in 8 size tiers with compact forms",
+   "fit": {
+    "V": [
+     "partial",
+     "only if Mekanism brine or fluid output is a bottleneck"
+    ],
+    "L": [
+     "partial",
+     "scale step for Mekanism"
+    ]
+   },
+   "note": "37 items; blocks, controllers, valves and compact forms per tier. Mekanism add-on. Repo A8T1N/MoreThermalevaporation (1.21.1). Adds no new system, only sizes.",
+   "works_with": "",
+   "status": "pending",
+   "stages": [
+    5
+   ]
+  },
+  "kubejs-metalworks": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "KubeJS add-on for Productive Metalworks: script custom casting and foundry recipes",
+   "fit": {
+    "V": [
+     "partial",
+     "would let us add pack-specific casting recipes"
+    ],
+    "E": [
+     "partial",
+     "same"
+    ],
+    "I": [
+     "partial",
+     "same"
+    ],
+    "L": [
+     "partial",
+     "same"
+    ]
+   },
+   "note": "Not in any pack; no items (scripting add-on). Repo senuko228/KubeJS-Metalworks (main), CurseForge kubejs-metalworks-kubejs-addon-for-productive. Only useful if a pack needs custom casting recipes.",
+   "works_with": "productive-metalworks",
+   "status": "candidate",
+   "stages": [
+    4
+   ],
+   "candidate": true
   }
  }
 }

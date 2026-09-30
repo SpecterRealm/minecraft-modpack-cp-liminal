@@ -1,0 +1,334 @@
+{
+ "repo": "A8T1N/MoreThermalevaporation",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "${mod_id}",
+  "morethermalevaporation"
+ ],
+ "item_count": 37,
+ "compat": [
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "mekanism",
+   "slug": "mekanism",
+   "evidence": {
+    "data-ref": 14,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "morethermalevaporation:basic_thermal_evaporation_block": {
+   "kind": "block",
+   "name": "Basic Thermal Evaporation Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:basic_thermal_evaporation_controller": {
+   "kind": "block",
+   "name": "Basic Thermal Evaporation Controller",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:basic_thermal_evaporation_valve": {
+   "kind": "block",
+   "name": "Basic Thermal Evaporation Valve",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:basic_thermal_evaporation_compact": {
+   "kind": "block",
+   "name": "Basic Thermal Evaporation Compact",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:advanced_thermal_evaporation_block": {
+   "kind": "block",
+   "name": "Advanced Thermal Evaporation Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:advanced_thermal_evaporation_controller": {
+   "kind": "block",
+   "name": "Advanced Thermal Evaporation Controller",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:advanced_thermal_evaporation_valve": {
+   "kind": "block",
+   "name": "Advanced Thermal Evaporation Valve",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:advanced_thermal_evaporation_compact": {
+   "kind": "block",
+   "name": "Advanced Thermal Evaporation Compact",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:elite_thermal_evaporation_block": {
+   "kind": "block",
+   "name": "Elite Thermal Evaporation Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:elite_thermal_evaporation_controller": {
+   "kind": "block",
+   "name": "Elite Thermal Evaporation Controller",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:elite_thermal_evaporation_valve": {
+   "kind": "block",
+   "name": "Elite Thermal Evaporation Valve",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:elite_thermal_evaporation_compact": {
+   "kind": "block",
+   "name": "Elite Thermal Evaporation Compact",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:ultimate_thermal_evaporation_block": {
+   "kind": "block",
+   "name": "Ultimate Thermal Evaporation Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:ultimate_thermal_evaporation_controller": {
+   "kind": "block",
+   "name": "Ultimate Thermal Evaporation Controller",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:ultimate_thermal_evaporation_valve": {
+   "kind": "block",
+   "name": "Ultimate Thermal Evaporation Valve",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:ultimate_thermal_evaporation_compact": {
+   "kind": "block",
+   "name": "Ultimate Thermal Evaporation Compact",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:overclocked_thermal_evaporation_block": {
+   "kind": "block",
+   "name": "Overclocked Thermal Evaporation Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:overclocked_thermal_evaporation_controller": {
+   "kind": "block",
+   "name": "Overclocked Thermal Evaporation Controller",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:overclocked_thermal_evaporation_valve": {
+   "kind": "block",
+   "name": "Overclocked Thermal Evaporation Valve",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:overclocked_thermal_evaporation_compact": {
+   "kind": "block",
+   "name": "Overclocked Thermal Evaporation Compact",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:quantum_thermal_evaporation_block": {
+   "kind": "block",
+   "name": "Quantum Thermal Evaporation Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:quantum_thermal_evaporation_controller": {
+   "kind": "block",
+   "name": "Quantum Thermal Evaporation Controller",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:quantum_thermal_evaporation_valve": {
+   "kind": "block",
+   "name": "Quantum Thermal Evaporation Valve",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:quantum_thermal_evaporation_compact": {
+   "kind": "block",
+   "name": "Quantum Thermal Evaporation Compact",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:dense_thermal_evaporation_block": {
+   "kind": "block",
+   "name": "Dense Thermal Evaporation Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:dense_thermal_evaporation_controller": {
+   "kind": "block",
+   "name": "Dense Thermal Evaporation Controller",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:dense_thermal_evaporation_valve": {
+   "kind": "block",
+   "name": "Dense Thermal Evaporation Valve",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:dense_thermal_evaporation_compact": {
+   "kind": "block",
+   "name": "Dense Thermal Evaporation Compact",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:multiversal_thermal_evaporation_block": {
+   "kind": "block",
+   "name": "Multiversal Thermal Evaporation Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:multiversal_thermal_evaporation_controller": {
+   "kind": "block",
+   "name": "Multiversal Thermal Evaporation Controller",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:multiversal_thermal_evaporation_valve": {
+   "kind": "block",
+   "name": "Multiversal Thermal Evaporation Valve",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:multiversal_thermal_evaporation_compact": {
+   "kind": "block",
+   "name": "Multiversal Thermal Evaporation Compact",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:creative_thermal_evaporation_block": {
+   "kind": "block",
+   "name": "Creative Thermal Evaporation Block",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:creative_thermal_evaporation_controller": {
+   "kind": "block",
+   "name": "Creative Thermal Evaporation Controller",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:creative_thermal_evaporation_valve": {
+   "kind": "block",
+   "name": "Creative Thermal Evaporation Valve",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:creative_thermal_evaporation_compact": {
+   "kind": "block",
+   "name": "Creative Thermal Evaporation Compact",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "morethermalevaporation:upgrade_structure": {
+   "kind": "item",
+   "name": "Structure Upgrade",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "First read from source; see mod-profiles.md.",
+  "class": "content",
+  "purpose": "Bigger Mekanism thermal evaporation plants"
+ }
+}

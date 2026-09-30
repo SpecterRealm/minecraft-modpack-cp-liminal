@@ -1,0 +1,1711 @@
+{
+ "repo": "JDKDigital/productivemetalworks",
+ "ref": "dev-1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "productivemetalworks"
+ ],
+ "item_count": 202,
+ "compat": [
+  {
+   "id": "create",
+   "slug": "create",
+   "evidence": {
+    "compat-import": 1,
+    "data-ref": 26
+   }
+  },
+  {
+   "id": "immersiveengineering",
+   "slug": "immersive-engineering",
+   "evidence": {
+    "data-ref": 24
+   }
+  },
+  {
+   "id": "integrateddynamics",
+   "slug": "integrated-dynamics",
+   "evidence": {
+    "data-ref": 13
+   }
+  },
+  {
+   "id": "jade",
+   "slug": "jade",
+   "evidence": {
+    "compat-import": 2
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 6
+   }
+  },
+  {
+   "id": "mekanism",
+   "slug": "mekanism",
+   "evidence": {
+    "data-ref": 24
+   }
+  },
+  {
+   "id": "mysticalagriculture",
+   "slug": "mystical-agriculture",
+   "evidence": {
+    "data-ref": 26
+   }
+  },
+  {
+   "id": "patchouli",
+   "slug": "patchouli",
+   "evidence": {
+    "data-ref": 2,
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "pneumaticcraft",
+   "slug": "pneumaticcraft-repressurized",
+   "evidence": {
+    "data-ref": 4
+   }
+  },
+  {
+   "id": "productivebees",
+   "slug": "productivebees",
+   "evidence": {
+    "data-ref": 28,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "productivemetalworks:black_fire_bricks": {
+   "kind": "block",
+   "name": "Black Fire Bricks",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:black_foundry_capacitor": {
+   "kind": "block",
+   "name": "Black Foundry Capacitor",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:black_foundry_controller": {
+   "kind": "block",
+   "name": "Black Foundry Controller",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:black_foundry_drain": {
+   "kind": "block",
+   "name": "Black Foundry Drain",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:black_foundry_tank": {
+   "kind": "block",
+   "name": "Black Foundry Tank",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:black_foundry_window": {
+   "kind": "block",
+   "name": "Black Foundry Window",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:blue_fire_bricks": {
+   "kind": "block",
+   "name": "Blue Fire Bricks",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:blue_foundry_capacitor": {
+   "kind": "block",
+   "name": "Blue Foundry Capacitor",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:blue_foundry_controller": {
+   "kind": "block",
+   "name": "Blue Foundry Controller",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:blue_foundry_drain": {
+   "kind": "block",
+   "name": "Blue Foundry Drain",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:blue_foundry_tank": {
+   "kind": "block",
+   "name": "Blue Foundry Tank",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:blue_foundry_window": {
+   "kind": "block",
+   "name": "Blue Foundry Window",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:brown_fire_bricks": {
+   "kind": "block",
+   "name": "Brown Fire Bricks",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:brown_foundry_capacitor": {
+   "kind": "block",
+   "name": "Brown Foundry Capacitor",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:brown_foundry_controller": {
+   "kind": "block",
+   "name": "Brown Foundry Controller",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:brown_foundry_drain": {
+   "kind": "block",
+   "name": "Brown Foundry Drain",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:brown_foundry_tank": {
+   "kind": "block",
+   "name": "Brown Foundry Tank",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:brown_foundry_window": {
+   "kind": "block",
+   "name": "Brown Foundry Window",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:casting_basin": {
+   "kind": "block",
+   "name": "Casting Basin",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:casting_table": {
+   "kind": "block",
+   "name": "Casting Table",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:cyan_fire_bricks": {
+   "kind": "block",
+   "name": "Cyan Fire Bricks",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:cyan_foundry_capacitor": {
+   "kind": "block",
+   "name": "Cyan Foundry Capacitor",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:cyan_foundry_controller": {
+   "kind": "block",
+   "name": "Cyan Foundry Controller",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:cyan_foundry_drain": {
+   "kind": "block",
+   "name": "Cyan Foundry Drain",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:cyan_foundry_tank": {
+   "kind": "block",
+   "name": "Cyan Foundry Tank",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:cyan_foundry_window": {
+   "kind": "block",
+   "name": "Cyan Foundry Window",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:fire_clay": {
+   "kind": "block",
+   "name": "Fire Clay",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:foundry_tap": {
+   "kind": "block",
+   "name": "Foundry Tap",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:gray_fire_bricks": {
+   "kind": "block",
+   "name": "Gray Fire Bricks",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:gray_foundry_capacitor": {
+   "kind": "block",
+   "name": "Gray Foundry Capacitor",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:gray_foundry_controller": {
+   "kind": "block",
+   "name": "Gray Foundry Controller",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:gray_foundry_drain": {
+   "kind": "block",
+   "name": "Gray Foundry Drain",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:gray_foundry_tank": {
+   "kind": "block",
+   "name": "Gray Foundry Tank",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:gray_foundry_window": {
+   "kind": "block",
+   "name": "Gray Foundry Window",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:green_fire_bricks": {
+   "kind": "block",
+   "name": "Green Fire Bricks",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:green_foundry_capacitor": {
+   "kind": "block",
+   "name": "Green Foundry Capacitor",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:green_foundry_controller": {
+   "kind": "block",
+   "name": "Green Foundry Controller",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:green_foundry_drain": {
+   "kind": "block",
+   "name": "Green Foundry Drain",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:green_foundry_tank": {
+   "kind": "block",
+   "name": "Green Foundry Tank",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:green_foundry_window": {
+   "kind": "block",
+   "name": "Green Foundry Window",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:high_powered_heating_coil": {
+   "kind": "block",
+   "name": "High Powered Heating Coil",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:light_blue_fire_bricks": {
+   "kind": "block",
+   "name": "Light Blue Fire Bricks",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:light_blue_foundry_capacitor": {
+   "kind": "block",
+   "name": "Light Blue Foundry Capacitor",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:light_blue_foundry_controller": {
+   "kind": "block",
+   "name": "Light Blue Foundry Controller",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:light_blue_foundry_drain": {
+   "kind": "block",
+   "name": "Light Blue Foundry Drain",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:light_blue_foundry_tank": {
+   "kind": "block",
+   "name": "Light Blue Foundry Tank",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:light_blue_foundry_window": {
+   "kind": "block",
+   "name": "Light Blue Foundry Window",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:light_gray_fire_bricks": {
+   "kind": "block",
+   "name": "Light Gray Fire Bricks",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:light_gray_foundry_capacitor": {
+   "kind": "block",
+   "name": "Light Gray Foundry Capacitor",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:light_gray_foundry_controller": {
+   "kind": "block",
+   "name": "Light Gray Foundry Controller",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:light_gray_foundry_drain": {
+   "kind": "block",
+   "name": "Light Gray Foundry Drain",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:light_gray_foundry_tank": {
+   "kind": "block",
+   "name": "Light Gray Foundry Tank",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:light_gray_foundry_window": {
+   "kind": "block",
+   "name": "Light Gray Foundry Window",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:lime_fire_bricks": {
+   "kind": "block",
+   "name": "Lime Fire Bricks",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:lime_foundry_capacitor": {
+   "kind": "block",
+   "name": "Lime Foundry Capacitor",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:lime_foundry_controller": {
+   "kind": "block",
+   "name": "Lime Foundry Controller",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:lime_foundry_drain": {
+   "kind": "block",
+   "name": "Lime Foundry Drain",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:lime_foundry_tank": {
+   "kind": "block",
+   "name": "Lime Foundry Tank",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:lime_foundry_window": {
+   "kind": "block",
+   "name": "Lime Foundry Window",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:liquid_heating_coil": {
+   "kind": "block",
+   "name": "Liquid Heating Coil",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:magenta_fire_bricks": {
+   "kind": "block",
+   "name": "Magenta Fire Bricks",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:magenta_foundry_capacitor": {
+   "kind": "block",
+   "name": "Magenta Foundry Capacitor",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:magenta_foundry_controller": {
+   "kind": "block",
+   "name": "Magenta Foundry Controller",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:magenta_foundry_drain": {
+   "kind": "block",
+   "name": "Magenta Foundry Drain",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:magenta_foundry_tank": {
+   "kind": "block",
+   "name": "Magenta Foundry Tank",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:magenta_foundry_window": {
+   "kind": "block",
+   "name": "Magenta Foundry Window",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:meat": {
+   "kind": "block",
+   "name": "Meat",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:meat_block": {
+   "kind": "block",
+   "name": "Meat Block",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_aluminum": {
+   "kind": "block",
+   "name": "Molten Aluminum",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_amethyst": {
+   "kind": "block",
+   "name": "Molten Amethyst",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_ancient_debris": {
+   "kind": "block",
+   "name": "Molten Ancient Debris",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_blaze": {
+   "kind": "block",
+   "name": "Molten Blaze",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_brass": {
+   "kind": "block",
+   "name": "Molten Brass",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_bronze": {
+   "kind": "block",
+   "name": "Molten Bronze",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_carbon": {
+   "kind": "block",
+   "name": "Molten Carbon",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_constantan": {
+   "kind": "block",
+   "name": "Molten Constantan",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_copper": {
+   "kind": "block",
+   "name": "Molten Copper",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_diamond": {
+   "kind": "block",
+   "name": "Molten Diamond",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_electrum": {
+   "kind": "block",
+   "name": "Molten Electrum",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_emerald": {
+   "kind": "block",
+   "name": "Molten Emerald",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_ender": {
+   "kind": "block",
+   "name": "Molten Ender",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_enderium": {
+   "kind": "block",
+   "name": "Molten Enderium",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_glass": {
+   "kind": "block",
+   "name": "Molten Glass",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_glowstone": {
+   "kind": "block",
+   "name": "Molten Glowstone",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_gold": {
+   "kind": "block",
+   "name": "Molten Gold",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_heavy_core": {
+   "kind": "block",
+   "name": "Molten Heavy Core",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_invar": {
+   "kind": "block",
+   "name": "Molten Invar",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_iridium": {
+   "kind": "block",
+   "name": "Molten Iridium",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_iron": {
+   "kind": "block",
+   "name": "Molten Iron",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_lapis": {
+   "kind": "block",
+   "name": "Molten Lapis",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_lead": {
+   "kind": "block",
+   "name": "Molten Lead",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_lumium": {
+   "kind": "block",
+   "name": "Molten Lumium",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_magma_cream": {
+   "kind": "block",
+   "name": "Molten Magma Cream",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_netherite": {
+   "kind": "block",
+   "name": "Molten Netherite",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_nickel": {
+   "kind": "block",
+   "name": "Molten Nickel",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_obsidian": {
+   "kind": "block",
+   "name": "Molten Obsidian",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_osmium": {
+   "kind": "block",
+   "name": "Molten Osmium",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_platinum": {
+   "kind": "block",
+   "name": "Molten Platinum",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_quartz": {
+   "kind": "block",
+   "name": "Molten Quartz",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_redstone": {
+   "kind": "block",
+   "name": "Molten Redstone",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_refined_glowstone": {
+   "kind": "block",
+   "name": "Molten Refined Glowstone",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_refined_obsidian": {
+   "kind": "block",
+   "name": "Molten Refined Obsidian",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_shulker_shell": {
+   "kind": "block",
+   "name": "Molten Shulker Shell",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_signalum": {
+   "kind": "block",
+   "name": "Molten Signalum",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_silver": {
+   "kind": "block",
+   "name": "Molten Silver",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_slime": {
+   "kind": "block",
+   "name": "Molten Slime",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_steel": {
+   "kind": "block",
+   "name": "Molten Steel",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_tin": {
+   "kind": "block",
+   "name": "Molten Tin",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_uranium": {
+   "kind": "block",
+   "name": "Molten Uranium",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_wax": {
+   "kind": "block",
+   "name": "Molten Wax",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_zinc": {
+   "kind": "block",
+   "name": "Molten Zinc",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:orange_fire_bricks": {
+   "kind": "block",
+   "name": "Orange Fire Bricks",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:orange_foundry_capacitor": {
+   "kind": "block",
+   "name": "Orange Foundry Capacitor",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:orange_foundry_controller": {
+   "kind": "block",
+   "name": "Orange Foundry Controller",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:orange_foundry_drain": {
+   "kind": "block",
+   "name": "Orange Foundry Drain",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:orange_foundry_tank": {
+   "kind": "block",
+   "name": "Orange Foundry Tank",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:orange_foundry_window": {
+   "kind": "block",
+   "name": "Orange Foundry Window",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:pink_fire_bricks": {
+   "kind": "block",
+   "name": "Pink Fire Bricks",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:pink_foundry_capacitor": {
+   "kind": "block",
+   "name": "Pink Foundry Capacitor",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:pink_foundry_controller": {
+   "kind": "block",
+   "name": "Pink Foundry Controller",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:pink_foundry_drain": {
+   "kind": "block",
+   "name": "Pink Foundry Drain",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:pink_foundry_tank": {
+   "kind": "block",
+   "name": "Pink Foundry Tank",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:pink_foundry_window": {
+   "kind": "block",
+   "name": "Pink Foundry Window",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:powered_heating_coil": {
+   "kind": "block",
+   "name": "Powered Heating Coil",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:purple_fire_bricks": {
+   "kind": "block",
+   "name": "Purple Fire Bricks",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:purple_foundry_capacitor": {
+   "kind": "block",
+   "name": "Purple Foundry Capacitor",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:purple_foundry_controller": {
+   "kind": "block",
+   "name": "Purple Foundry Controller",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:purple_foundry_drain": {
+   "kind": "block",
+   "name": "Purple Foundry Drain",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:purple_foundry_tank": {
+   "kind": "block",
+   "name": "Purple Foundry Tank",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:purple_foundry_window": {
+   "kind": "block",
+   "name": "Purple Foundry Window",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:red_fire_bricks": {
+   "kind": "block",
+   "name": "Red Fire Bricks",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:red_foundry_capacitor": {
+   "kind": "block",
+   "name": "Red Foundry Capacitor",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:red_foundry_controller": {
+   "kind": "block",
+   "name": "Red Foundry Controller",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:red_foundry_drain": {
+   "kind": "block",
+   "name": "Red Foundry Drain",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:red_foundry_tank": {
+   "kind": "block",
+   "name": "Red Foundry Tank",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:red_foundry_window": {
+   "kind": "block",
+   "name": "Red Foundry Window",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:white_fire_bricks": {
+   "kind": "block",
+   "name": "White Fire Bricks",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:white_foundry_capacitor": {
+   "kind": "block",
+   "name": "White Foundry Capacitor",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:white_foundry_controller": {
+   "kind": "block",
+   "name": "White Foundry Controller",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:white_foundry_drain": {
+   "kind": "block",
+   "name": "White Foundry Drain",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:white_foundry_tank": {
+   "kind": "block",
+   "name": "White Foundry Tank",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:white_foundry_window": {
+   "kind": "block",
+   "name": "White Foundry Window",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:yellow_fire_bricks": {
+   "kind": "block",
+   "name": "Yellow Fire Bricks",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:yellow_foundry_capacitor": {
+   "kind": "block",
+   "name": "Yellow Foundry Capacitor",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:yellow_foundry_controller": {
+   "kind": "block",
+   "name": "Yellow Foundry Controller",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:yellow_foundry_drain": {
+   "kind": "block",
+   "name": "Yellow Foundry Drain",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:yellow_foundry_tank": {
+   "kind": "block",
+   "name": "Yellow Foundry Tank",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:yellow_foundry_window": {
+   "kind": "block",
+   "name": "Yellow Foundry Window",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:fire_brick": {
+   "kind": "item",
+   "name": "Fire Brick",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:gear_cast": {
+   "kind": "item",
+   "name": "Gear Cast",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:gem_cast": {
+   "kind": "item",
+   "name": "Gem Cast",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:ingot_cast": {
+   "kind": "item",
+   "name": "Ingot Cast",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:meat_bucket": {
+   "kind": "item",
+   "name": "Bucket of Meat",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:meat_ingot": {
+   "kind": "item",
+   "name": "Meat Ingot",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:meat_nugget": {
+   "kind": "item",
+   "name": "Meat Nugget",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_aluminum_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Aluminum",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_amethyst_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Amethyst",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_ancient_debris_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Ancient Debris",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_blaze_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Blaze",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_brass_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Brass",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_bronze_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Bronze",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_carbon_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Carbon",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_constantan_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Constantan",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_copper_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Copper",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_diamond_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Diamond",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_electrum_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Electrum",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_emerald_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Emerald",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_ender_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Ender",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_enderium_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Enderium",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_glass_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Glass",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_glowstone_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Glowstone",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_gold_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Gold",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_heavy_core_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Heavy Core",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_invar_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Invar",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_iridium_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Iridium",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_iron_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Iron",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_lapis_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Lapis",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_lead_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Lead",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_lumium_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Lumium",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_magma_cream_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Magma Cream",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_netherite_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Netherite",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_nickel_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Nickel",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_obsidian_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Obsidian",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_osmium_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Osmium",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_platinum_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Platinum",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_quartz_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Quartz",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_redstone_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Redstone",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_refined_glowstone_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Refined Glowstone",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_refined_obsidian_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Refined Obsidian",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_shulker_shell_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Shulker Shell",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_signalum_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Signalum",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_silver_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Silver",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_slime_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Slime",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_steel_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Steel",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_tin_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Tin",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_uranium_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Uranium",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_wax_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Wax",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:molten_zinc_bucket": {
+   "kind": "item",
+   "name": "Bucket of Molten Zinc",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:nugget_cast": {
+   "kind": "item",
+   "name": "Nugget Cast",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:plate_cast": {
+   "kind": "item",
+   "name": "Plate Cast",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:rod_cast": {
+   "kind": "item",
+   "name": "Rod Cast",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  },
+  "productivemetalworks:shiny_meat_ingot": {
+   "kind": "item",
+   "name": "Shiny Meat Ingot",
+   "tags": [
+    "feel:steampunk",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-09-30",
+  "mod_version": "dev-1.21.1",
+  "pass": "loop-back",
+  "note": "First read from source; see mod-profiles.md.",
+  "class": "content",
+  "purpose": "Foundry and casting machines, fire bricks"
+ }
+}
