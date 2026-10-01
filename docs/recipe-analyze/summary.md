@@ -1,32 +1,85 @@
 # Recipe analyze summary
 
-Generated: `2026-10-01T15:41:11.503269+00:00`
+Generated: `2026-10-01T15:44:55.126994+00:00`
 
 Regenerate after mod list / KubeJS changes: `make recipe-audit`.
 
 ## Recipe dump
 
 - Source: `docs/recipe_data.json`
-- Dump generated: `2026-10-01T15:41:10.396520+00:00`
-- Items: **11581**
-- Mods with result items: **142**
+- Dump generated: `2026-10-01T15:44:53.928587+00:00`
+- Items: **11069**
+- Mods with result items: **134**
+
+### Namespaces with no installed jar
+
+46 namespaces appear in the dump only because an installed mod ships
+compat recipes for them. They are not in the pack; do not count them as mods.
+
+| Namespace | Items |
+|-----------|------:|
+| `aether` | 4 |
+| `alexsmobs` | 1 |
+| `allthemodium` | 24 |
+| `alltheores` | 137 |
+| `ars_scalaes` | 1 |
+| `ars_trinkets` | 2 |
+| `arsomega` | 8 |
+| `atmospheric` | 5 |
+| `autumnity` | 1 |
+| `betterendforge` | 9 |
+| `biomesoplenty` | 21 |
+| `biomeswevegone` | 89 |
+| `create_enchantment_industry` | 1 |
+| `create_ironworks` | 12 |
+| `druidcraft` | 3 |
+| `endergetic` | 11 |
+| `enderio` | 1 |
+| `environmental` | 3 |
+| `everythingcopper` | 2 |
+| `exnihilosequentia` | 6 |
+| `ftbmaterials` | 123 |
+| `galosphere` | 4 |
+| `hauntedharvest` | 1 |
+| `ic2` | 8 |
+| `iceandfire` | 2 |
+| `infernalexp` | 3 |
+| `integrateddynamics` | 6 |
+| `magistuarmory` | 3 |
+| `modern_industrialization` | 58 |
+| `mysticalagradditions` | 10 |
+| `neapolitan` | 2 |
+| `netherexp` | 2 |
+| `oreganized` | 4 |
+| `pamhc2foodcore` | 1 |
+| `pneumaticcraft` | 1 |
+| `quark` | 2 |
+| `regions_unexplored` | 9 |
+| `sauce` | 1 |
+| `starbunclemania` | 1 |
+| `supplementaries` | 1 |
+| `tconstruct` | 7 |
+| `the_vault` | 1 |
+| `thermal` | 12 |
+| `toomanyglyphs` | 14 |
+| `vampirism` | 2 |
+| `xycraft_world` | 1 |
 
 ### Per-mod counts (top by items)
 
 | Mod | Items | Jar recipes on results | Seed-like ids |
 |-----|------:|-----------------------:|--------------:|
 | `productivetrees` | 2776 | 3153 | 0 |
-| `minecraft` | 670 | 2565 | 5 |
+| `minecraft` | 667 | 2548 | 4 |
 | `create` | 642 | 1177 | 0 |
 | `botanypotstiers` | 552 | 1467 | 0 |
-| `mekanism` | 411 | 917 | 0 |
+| `mekanism` | 409 | 896 | 0 |
 | `productivebees` | 390 | 615 | 0 |
 | `mysticalagriculture` | 387 | 527 | 136 |
 | `ars_nouveau` | 370 | 572 | 0 |
 | `theurgy` | 358 | 1485 | 0 |
 | `twilightforest` | 357 | 455 | 0 |
 | `ae2` | 330 | 518 | 0 |
-| `productivefarming` | 316 | 318 | 47 |
 | `silentgear` | 279 | 572 | 1 |
 | `occultism` | 278 | 380 | 0 |
 | `exdeorum` | 229 | 728 | 1 |
@@ -41,12 +94,10 @@ Regenerate after mod list / KubeJS changes: `make recipe-audit`.
 | `ftbmaterials` | 123 | 123 | 0 |
 | `megacells` | 108 | 136 | 0 |
 | `projecte` | 107 | 141 | 0 |
-| `bigreactors` | 102 | 155 | 0 |
 | `ars_elemental` | 98 | 104 | 0 |
 | `biomeswevegone` | 89 | 174 | 0 |
 | `sgearmetalworks` | 65 | 181 | 0 |
 | `advanced_ae` | 63 | 76 | 0 |
-| `mekanismtools` | 61 | 61 | 0 |
 | `ars_additions` | 58 | 66 | 0 |
 | `modern_industrialization` | 58 | 58 | 0 |
 | `sophisticatedbackpacks` | 57 | 92 | 0 |
@@ -55,7 +106,10 @@ Regenerate after mod list / KubeJS changes: `make recipe-audit`.
 | `silentgems` | 42 | 126 | 0 |
 | `apothic_enchanting` | 39 | 39 | 0 |
 | `ars_zero` | 38 | 38 | 0 |
-| … | (102 more mods in `by-mod/`) | | |
+| `appliedcreate` | 35 | 37 | 0 |
+| `createaddition` | 35 | 46 | 1 |
+| `mob_grinding_utils` | 35 | 40 | 0 |
+| … | (94 more mods in `by-mod/`) | | |
 
 ### Farming / resource-crop namespaces
 
@@ -63,7 +117,7 @@ Regenerate after mod list / KubeJS changes: `make recipe-audit`.
 |-----------|------:|----------:|
 | `mysticalagriculture` | 387 | 136 |
 | `agricraft` | 7 | 0 |
-| `productivefarming` | 316 | 47 |
+| `productivefarming` | 0 | 0 |
 | `productivetrees` | 2776 | 0 |
 | `botanypots` | 183 | 0 |
 
