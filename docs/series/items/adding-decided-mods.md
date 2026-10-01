@@ -31,8 +31,8 @@ Run in each pack repo, then `packwiz refresh` and commit. Slugs are from the mod
 
 | Pack | Add |
 |---|---|
-| Verdant | Spell Engine (pulled in by Archers), `archers` (slug ?), `cosmetic-armor-reworked`, `mekanism-turrets` (decided) |
-| Elysian | `wizards`, Rogues & Warriors (slug ?), `cosmetic-armor-reworked` |
+| Verdant | Spell Engine (pulled in by Archers), `archers` (CurseForge, project 932359), `cosmetic-armor-reworked`, `mekanism-turrets` (decided) |
+| Elysian | `wizards`, `rogues-and-warriors` (CurseForge, project 1048409), `cosmetic-armor-reworked` |
 | Influx | `paladins-and-priests`, `bard-more-rpg-classes`, `genetics-resequenced`, `mutant-monsters`, `cosmetic-armor-reworked` |
 | Liminal | all of the above plus the candidates `berserker-rpg-class`, `forcemaster-rpg-class`, `elemental-wizards-rpg-class`, `witcher-rpg-class` if wanted |
 
@@ -61,4 +61,4 @@ Decided: Mekanism Turrets & Fences is Verdant's automated-defense mod (`verdant-
 
 ## Script
 
-`scripts/add-decided-mods.sh <pack-repo-dir> <modrinth|curseforge> <verdant|elysian|influx|liminal>` loops over the adds above for one pack, then runs `packwiz refresh`. Slugs marked "?" are skipped with a warning until confirmed.
+`scripts/add-decided-mods.sh <pack-repo-dir> <modrinth|curseforge> <verdant|elysian|influx|liminal>` loops over the adds above for one pack, then runs `packwiz refresh`. Archers and Rogues & Warriors are CurseForge slugs, so run those with the `curseforge` source.
