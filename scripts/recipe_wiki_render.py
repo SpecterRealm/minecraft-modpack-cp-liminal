@@ -11,6 +11,8 @@ from recipe_wiki_core import (
     build_slim,
     datetime,
     extract_jar_recipes,
+    SKIPPED,
+    extract_loot,
     extract_tags,
     installed_mod_ids,
     json,
@@ -103,6 +105,7 @@ def main():
     removals, additions = parse_kubejs()
     mods                = installed_mod_ids()
     tags                = extract_tags(mods)
+    loot                = extract_loot({"mods": mods, "tags": tags})
     slim                = build_slim(jar_recipes, removals, additions, {"mods": mods, "tags": tags})
     textures            = extract_textures()
 
@@ -112,6 +115,8 @@ def main():
             "generated": datetime.now(timezone.utc).isoformat(),
             "item_count": len(slim),
             "tags": tags,
+            "loot": loot,
+            "skipped_types": dict(sorted(SKIPPED.items(), key=lambda kv: -kv[1])),
             "recipes": slim,
         }, indent=2),
         encoding="utf-8",

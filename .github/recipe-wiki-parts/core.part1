@@ -6,15 +6,17 @@
                         rtype = data.get("type", "")
                         if not keep_type(rtype):
                             continue
-                        result_id = get_result_id(data)
-                        if not result_id:
+                        result_ids = get_result_ids(data)
+                        if not result_ids:
+                            SKIPPED[rtype] = SKIPPED.get(rtype, 0) + 1
                             continue
-                        recipes.setdefault(result_id, []).append({
-                            "jar":  jar_path.name,
-                            "file": rf,
-                            "type": rtype,
-                            "data": data,
-                        })
+                        for result_id in result_ids:
+                            recipes.setdefault(result_id, []).append({
+                                "jar":  jar_path.name,
+                                "file": rf,
+                                "type": rtype,
+                                "data": data,
+                            })
                     except Exception:
                         pass
         except Exception:
@@ -211,3 +213,65 @@ def extract_tags(loaded=None) -> dict[str, list[str]]:
     for tag in set(direct) | set(nested):
         resolve(tag)
     return {t: sorted(items) for t, items in sorted(resolved.items()) if items}
+
+
+# ---------------------------------------------------------------------------
+# 5. Loot tables (mob and block drops, fishing, bartering, chests, archaeology)
+# ---------------------------------------------------------------------------
+
+_LOOT_KINDS = ("blocks", "entities", "gameplay", "chests", "archaeology")
+
+
+def _loot_refs(node, out) -> None:
+    """Collect item ids, item tags and referenced tables from a loot table (pools, entries, alternatives)."""
+    if isinstance(node, dict):
+        et = node.get("type", "")
+        if et == "minecraft:item" and isinstance(node.get("name"), str):
+            out["items"].add(node["name"])
+        elif et == "minecraft:tag" and isinstance(node.get("name"), str):
+            out["tags"].add(node["name"])
+        elif et == "minecraft:loot_table":
+            ref = node.get("value") or node.get("name")
+            if isinstance(ref, str):
+                out["tables"].add(ref)
+        for key, val in node.items():
+            if key in ("conditions", "functions"):
+                continue
+            _loot_refs(val, out)
+    elif isinstance(node, list):
+        for val in node:
+            _loot_refs(val, out)
+
+
+def extract_loot(ctx=None) -> dict[str, dict]:
+    """Loot tables from the mod jars and the Minecraft jar: 'blocks/ns:path' -> {items, tags, tables}."""
+    loot: dict[str, dict] = {}
+    for jar_path in sorted(MODS_DIR.glob("*.jar")) + vanilla_jars():
+        try:
+            with zipfile.ZipFile(jar_path) as zf:
+                for name in zf.namelist():
+                    parts = name.split("/")
+                    if len(parts) < 5 or parts[0] != "data" or not name.endswith(".json"):
+                        continue
+                    if parts[2] not in ("loot_table", "loot_tables"):
+                        continue
+                    kind = parts[3]
+                    if kind not in _LOOT_KINDS:
+                        continue
+                    try:
+                        data = json.loads(zf.read(name).decode("utf-8"))
+                    except (ValueError, UnicodeDecodeError):
+                        continue
+                    if ctx is not None and not eval_conditions(data.get("neoforge:conditions"), ctx):
+                        continue
+                    found = {"items": set(), "tags": set(), "tables": set()}
+                    _loot_refs(data.get("pools", []), found)
+                    if not any(found.values()):
+                        continue
+                    key = f"{kind}/{parts[1]}:{'/'.join(parts[4:])[:-5]}"
+                    entry = loot.setdefault(key, {"items": set(), "tags": set(), "tables": set()})
+                    for k in entry:
+                        entry[k] |= found[k]
+        except (zipfile.BadZipFile, OSError):
+            continue
+    return {k: {f: sorted(v) for f, v in e.items() if v} for k, e in sorted(loot.items())}

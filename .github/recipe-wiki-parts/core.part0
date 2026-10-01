@@ -78,27 +78,65 @@ MOD_PREFIXES = [
 
 
 def keep_type(rtype: str) -> bool:
-    return rtype in VANILLA_TYPES or any(rtype.startswith(p) for p in MOD_PREFIXES)
+    """Keep every recipe type: an allowlist silently hides whole mods. Recipes without a usable result are
+    counted in SKIPPED (written to the dump) so what is left out stays visible."""
+    return bool(rtype)
+
+
+SKIPPED: dict[str, int] = {}
 
 
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
 
-def get_result_id(data: dict) -> str | None:
-    """Pull the primary output item ID from any recipe dict."""
-    for key in ("result", "results", "output", "outputs"):
+_FLUID_LIKE = ("fluid", "chemical", "gas", "infuse_type", "slurry", "pigment")
+
+
+def _stack_id(val) -> str | None:
+    """Item id of a result stack, or a pseudo id for fluids and chemicals (fluid:<id>, chemical:<id>, ...)."""
+    if isinstance(val, str):
+        return val
+    if not isinstance(val, dict):
+        return None
+    for key in _FLUID_LIKE:
+        ref = val.get(key)
+        if isinstance(ref, dict):
+            ref = ref.get("id") or ref.get("fluid") or ref.get("chemical")
+        if isinstance(ref, str):
+            return f"{key}:{ref}"
+    ref = val.get("id") or val.get("item")
+    if isinstance(ref, dict):
+        ref = ref.get("id") or ref.get("item")
+    if isinstance(ref, str):
+        # FluidStack codec: {"id", "amount"} without "count"
+        if "amount" in val and "count" not in val and "item" not in val:
+            return f"fluid:{ref}"
+        return ref
+    for key in ("ingredient", "stack"):  # nested stack wrappers
+        if key in val:
+            return _stack_id(val[key])
+    return None
+
+
+def get_result_ids(data: dict) -> list[str]:
+    """Every output of a recipe (items, fluids, chemicals), in order, without repeats."""
+    found: list[str] = []
+    for key in ("result", "results", "output", "outputs", "fluid_output", "fluid_result", "byproducts"):
         val = data.get(key)
         if not val:
             continue
-        if isinstance(val, list):
-            val = val[0] if val else None
-        if not val:
-            continue
-        if isinstance(val, str):
-            return val
-        return val.get("id") or val.get("item")
-    return None
+        for v in (val if isinstance(val, list) else [val]):
+            rid = _stack_id(v)
+            if rid and rid not in found:
+                found.append(rid)
+    return found
+
+
+def get_result_id(data: dict) -> str | None:
+    """Pull the primary output ID from any recipe dict."""
+    ids = get_result_ids(data)
+    return ids[0] if ids else None
 
 
 def get_result_count(data: dict) -> int:
@@ -197,19 +235,27 @@ def _scan_refs(node, _top: bool = True, _depth: int = 0) -> list[dict]:
     if _depth > 8:
         return found
     if isinstance(node, dict):
-        if "tag" in node and isinstance(node["tag"], str):
-            found.append({"type": "tag", "value": node["tag"], "count": int(node.get("count", 1) or 1)})
-            return found
-        if isinstance(node.get("item"), str):
-            found.append({"type": "item", "value": node["item"], "count": int(node.get("count", 1) or 1)})
-            return found
-        # Block states ({"Name": ...}, Cobblegen Galore) and item stacks ({"id": ...}); water and lava are world sources
-        for key in ("Name", "id"):
-            val = node.get(key)
-            if isinstance(val, str) and ":" in val and not _top:
-                if val not in ("minecraft:water", "minecraft:lava"):
-                    found.append({"type": "item", "value": val, "count": int(node.get("count", 1) or 1)})
+        if not _top:  # references sit below the recipe root; the root's own keys are structure, not ingredients
+            if "tag" in node and isinstance(node["tag"], str):
+                found.append({"type": "tag", "value": node["tag"], "count": int(node.get("count", 1) or 1)})
                 return found
+            if isinstance(node.get("item"), str):
+                found.append({"type": "item", "value": node["item"], "count": int(node.get("count", 1) or 1)})
+                return found
+            for key in _FLUID_LIKE:  # fluids and chemicals are pseudo items: fluid:<id>, chemical:<id>
+                ref = node.get(key)
+                if isinstance(ref, dict):
+                    ref = ref.get("id") or ref.get(key)
+                if isinstance(ref, str):
+                    found.append({"type": "item", "value": f"{key}:{ref}", "count": 1})
+                    return found
+            # Block states ({"Name": ...}, Cobblegen Galore) and item stacks ({"id": ...}); water and lava are world sources
+            for key in ("Name", "id"):
+                val = node.get(key)
+                if isinstance(val, str) and ":" in val:
+                    if val not in ("minecraft:water", "minecraft:lava"):
+                        found.append({"type": "item", "value": val, "count": int(node.get("count", 1) or 1)})
+                    return found
         for key, val in node.items():
             if _top and key in _RESULT_KEYS:
                 continue
