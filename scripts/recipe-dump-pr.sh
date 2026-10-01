@@ -15,7 +15,9 @@ BASE=${BASE_BRANCH:-main}
 say() { printf '\n==> %s\n' "$*"; }
 die() { printf '\nSTOP: %s\n' "$*" >&2; exit 1; }
 
-[ -z "$(git status --porcelain)" ] || die "working tree is not clean. Commit or stash first (git status)."
+[ -z "$(git status --porcelain --untracked-files=no)" ] || die "tracked files have uncommitted changes. Commit or stash them first (git status)."
+UNTRACKED=$(git status --porcelain --untracked-files=normal | grep '^??' || true)
+[ -z "$UNTRACKED" ] || { echo "Note: ignoring untracked files (they stay as they are):"; echo "$UNTRACKED" | head -10; }
 command -v python3 >/dev/null || die "python3 not found"
 
 START_REF=$(git rev-parse --abbrev-ref HEAD)
