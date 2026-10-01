@@ -109,7 +109,9 @@ def _stack_id(val) -> str | None:
             return f"{key}:{ref}"
     ref = val.get("id") or val.get("item")
     if isinstance(ref, dict):
-        ref = ref.get("id") or ref.get("item")
+        ref = ref.get("id") or ref.get("item") or (ref.get("tag") and "#" + ref["tag"])
+    if not ref and isinstance(val.get("tag"), str):  # tag output (Occultism, Productive Bees): one member, '#<tag>'
+        return "#" + val["tag"]
     if isinstance(ref, str):
         # FluidStack codec: {"id", "amount"} without "count"
         if "amount" in val and "count" not in val and "item" not in val:
@@ -124,7 +126,10 @@ def _stack_id(val) -> str | None:
 def get_result_ids(data: dict) -> list[str]:
     """Every output of a recipe (items, fluids, chemicals), in order, without repeats."""
     found: list[str] = []
-    for key in ("result", "results", "output", "outputs", "fluid_output", "fluid_result", "byproducts"):
+    if data.get("type") == "exdeorum:ore_chunk" and isinstance(data.get("ore"), str):
+        return ["#" + data["ore"]]  # Ex Deorum builds 4 chunks -> ore at runtime from this definition
+    for key in ("result", "results", "output", "outputs", "main_output", "secondary_output",
+                "fluid_output", "fluid_result", "byproducts"):
         val = data.get(key)
         if not val:
             continue
@@ -185,6 +190,10 @@ def ingredients_from(data: dict) -> list[dict]:
     rtype = data.get("type", "")
     out = []
 
+    if rtype == "exdeorum:ore_chunk":
+        chunk = data.get("ore_chunk")
+        chunk = chunk.get("item") if isinstance(chunk, dict) else chunk
+        return [{"type": "item", "value": chunk, "count": 4}] if isinstance(chunk, str) else []
     if "crafting_shaped" in rtype:
         pattern = data.get("pattern", [])
         key     = data.get("key", {})
