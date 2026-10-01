@@ -4,6 +4,7 @@
 
 ### Mod stack
 
+- **Removed:** Better Fusion Reactor for Mekanism and Mekanism Tools from all packs (maintainer decision after the Verdant partial-fit review, `docs/series/items/verdant-review.md`). Better Fusion Reactor: late and ore-dependent, overlapping Mekanism's fusion and fission. Mekanism Tools: repeated what Silent Gear provides; the MekaSuit is in core Mekanism and is unaffected. Already removed from Verdant (#339); Liminal was the only other pack with them. Not tested in game.
 - **Removed:** Wooden Shears (maintainer decision, all four packs). The mod added a single item. Nothing in this pack referenced it.
 - **Removed:** KubeJS Mekanism Extends. It only extends Mekanism add-ons (Evolved Mekanism, More Machine, Mekanism Sun), and none are in the pack, so it did nothing.
 - **Changed:** Essential Mod is now client-only (`side = "client"`), so servers do not install it while players' clients still get it from the pack (friends list, cosmetics, world hosting).

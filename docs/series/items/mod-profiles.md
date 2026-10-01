@@ -57,20 +57,20 @@ Packs: V Verdant (overworld, no ore, tech-first), E Elysian (void, magic only, n
 | towns-and-towers | L | nature | content |  | World generation / structures | - | - | - |  |
 | witcher-rpg-class | - | survival | content | armor, resources, combat | Witcher class: silver and steel swords, glyph signs, medallions, traps | poor | poor | poor | partial |
 | farmers-delight | VEIL | nature | food |  | Cooking and meals | good | good | good | good |
-| farming-for-blockheads | VEIL | nature | food |  | Market trading and farm helpers | partial | partial | partial | partial |
-| productivefarming | IL | nature+breeding | food |  | About 160 crops, flowers, dyes | - | - | partial | partial |
+| farming-for-blockheads | VEL | nature | food |  | Market trading and farm helpers | partial | partial | partial | partial |
+| productivefarming | L | nature+breeding | food |  | About 160 crops, flowers, dyes | - | - | partial | partial |
 | ars-mekanica | L | magic+tech | power | integration | One block: Source Dynamo, turns Ars Nouveau Source into Mekanism power | poor | poor | poor | good |
-| better-fusion-reactor-for-mekanism | VL | tech+sci-fi | power |  | Harder fusion reactor; irradiated ores | poor | - | - | partial |
+| better-fusion-reactor-for-mekanism | - | tech+sci-fi | power |  | Harder fusion reactor; irradiated ores | poor | - | - | partial |
 | charging-gadgets | VL | tech | power |  | Charging station for FE items | partial | - | - | partial |
 | createaddition | VL | steampunk+tech | power | storage | Stress to FE bridge: alternator, accumulator, connectors | good | - | - | good |
 | draconic-evolution | L | magic+tech | power | armor, tooling, storage | Endgame energy core, reactor, tiered gear | - | - | - | partial |
 | enderio | - | tech+magic | power | processing, storage | Capacitor banks, conduits, machines (candidate) | - | - | - | - |
-| extreme-reactors | VIL | tech | power | storage | Reactor and turbine multiblocks; yellorium fuel | poor | - | poor | poor |
+| extreme-reactors | VL | tech | power | storage | Reactor and turbine multiblocks; yellorium fuel | poor | - | poor | poor |
 | flux-networks | VIL | tech | power |  | Wireless FE transfer and flux storage | good | - | good | good |
 | immersive-engineering | - | steampunk+tech | power | processing, resources | Retro-industrial multiblocks: dynamo and generators, windmill/water wh | partial | poor | poor | - |
 | mekanism-generators | VL | tech | power |  | Heat, bio, gas, solar, wind generators; turbine, fission, fusion | good | - | - | good |
 | pneumaticcraft-repressurized | - | steampunk+tech | power | processing, automation | Pressure (air) is the power system: compressors, pressure tubes, assem | good | poor | good | - |
-| powah | VL | tech | power | storage | Tiered generators, cells, cables (starter to nitro) | good | - | - | good |
+| powah | VIL | tech | power | storage | Tiered generators, cells, cables (starter to nitro) | good | - |  | good |
 | rftools-power | - | tech | power |  | Generators and power cells (candidate) | - | - | - | - |
 | thermal-expansion | - | tech | power | processing | Thermal series: machines, dynamos, flux storage | partial | - | - | - |
 | create | VL | steampunk | processing | power, automation | Kinetic power, crushing, mixing, logistics, trains | good | - | - | good |
@@ -123,13 +123,13 @@ Packs: V Verdant (overworld, no ore, tech-first), E Elysian (void, magic only, n
 | sophisticated-backpacks | VEIL | neutral | storage |  | Wearable storage with upgrades | good | good | good | good |
 | sophisticated-storage | VEIL | neutral | storage |  | Barrels, chests and upgrades | good | good | good | good |
 | apothic-enchanting | EL | magic | tooling | armor | Higher-level enchanting via shelves | - | good | - | good |
-| mekanism-tools | VL | tech | tooling | armor | Paxels, tiered tools, armor, shields | partial | - | - | partial |
+| mekanism-tools | - | tech | tooling | armor | Paxels, tiered tools, armor, shields | partial | - | - | partial |
 | silent-gear | VEIL | neutral | tooling | armor | Modular gear from parts and materials | good | good | good | good |
 | wooden-shears | - | neutral | tooling |  | Early shears replacement | partial | partial | partial | partial |
 
 ## Feel by pack (which mods sit outside a pack's theme)
 
-**Verdant:** tech (29); neutral (6); steampunk (4); nature (2); sci-fi (1); survival (1)
+**Verdant:** tech (27); neutral (6); steampunk (4); nature (2); survival (1)
 
 Magic-feel mods in Verdant: none
 
@@ -137,7 +137,7 @@ Magic-feel mods in Verdant: none
 
 Tech-feel mods in Elysian (pure tech, no magic co-feel): 
 
-**Influx:** nature (10); breeding (4); tech (4); sci-fi (4); neutral (4); alchemy (1); steampunk (1)
+**Influx:** nature (8); tech (4); sci-fi (4); neutral (4); breeding (3); alchemy (1); steampunk (1)
 
 ## Stage matrix (a mod can sit in several stages)
 
@@ -145,13 +145,13 @@ A mod lists every stage it serves. A stage with nothing under a pack is a gap; a
 
 | Stage | Verdant | Elysian | Influx |
 |---|---|---|---|
-| 0 Start (shelter, food) | akashic-tome, comforts, farmers-delight, farming-for-blockheads, tough-as-nails | akashic-tome, comforts, farmers-delight, farming-for-blockheads, tough-as-nails | akashic-tome, comforts, farmers-delight, farming-for-blockheads |
-| 1 Manual gathering | cobblegen-galore, create-cobblestone, ex-deorum, farmers-delight, kubejs-ex-deorum, kubejs-tweaks, mekanism-tools, silent-gear | ars-caelum, ars-nouveau, farmers-delight, kubejs-tweaks, silent-gear | farmers-delight, kubejs-tweaks, silent-gear |
+| 0 Start (shelter, food) | akashic-tome, comforts, farmers-delight, farming-for-blockheads, tough-as-nails | akashic-tome, comforts, farmers-delight, farming-for-blockheads, tough-as-nails | akashic-tome, comforts, farmers-delight |
+| 1 Manual gathering | cobblegen-galore, create-cobblestone, ex-deorum, farmers-delight, kubejs-ex-deorum, kubejs-tweaks, silent-gear | ars-caelum, ars-nouveau, farmers-delight, kubejs-tweaks, silent-gear | farmers-delight, kubejs-tweaks, silent-gear |
 | 2 Storage and sorting | applied-energistics-2, extended-terminal, mekanism, more-tier-upgrade, simple-magnets, sophisticated-backpacks, sophisticated-storage | more-tier-upgrade, simple-magnets, sophisticated-backpacks, sophisticated-storage | applied-energistics-2, more-tier-upgrade, simple-magnets, sophisticated-backpacks, sophisticated-storage |
-| 3 Automate gathering | cobblegen-galore, create, create-cobblestone, ex-deorum, farming-for-blockheads, kubejs-create-automation, mekanism, mekanism-generators, mob-grinding-utils | ars-additions, ars-caelum, ars-nouveau, botany-pots, botany-trees, farming-for-blockheads, mystical-agriculture, occultism | agricraft-rereloaded, animal-pens, azurum-miner, botany-pots, botany-trees, farming-for-blockheads, hostile-neural-networks, productivebees, productivefarming, productivetrees |
-| 4 Automate processing | applied-energistics-2, create, createaddition, ex-machinis-divitiae-deorum, mekanism, mekanism-generators, powah, productive-metalworks, silent-gear, silent-gear-metalworks | ars-nouveau, occultism, productive-metalworks, silent-gear, silent-gear-metalworks, theurgy | applied-energistics-2, productive-metalworks, projecte, replication, silent-gear, silent-gear-metalworks |
-| 5 Scale loop | advancedae, applied-energistics-2, better-fusion-reactor-for-mekanism, charging-gadgets, create, extreme-reactors, flux-networks, mega-cells, mekanism, mekanism-generators, mekanism-unleashed, morethermalevaporation, powah, productive-metalworks | botany-pots-tiers, mystical-agriculture, occultism, productive-metalworks | applied-energistics-2, botany-pots-tiers, extreme-reactors, flux-networks, productive-metalworks, productivebees, projecte, replication |
-| 6 Capstone (content, gear, reason to play) | building-gadgets, building-wands, mekanism, mekanism-tools, mmmmmmmmmmmm, silent-gear | apotheosis, apothic-enchanting, ars-elemental, ars-nouveau, ars-zero, building-wands, gateways-to-eternity, irons-jewelry, irons-spells-n-spellbooks, mmmmmmmmmmmm, occultism, silent-gear | mmmmmmmmmmmm, silent-gear |
+| 3 Automate gathering | cobblegen-galore, create, create-cobblestone, ex-deorum, farming-for-blockheads, kubejs-create-automation, mekanism, mekanism-generators, mob-grinding-utils | ars-additions, ars-caelum, ars-nouveau, botany-pots, botany-trees, farming-for-blockheads, mystical-agriculture, occultism | agricraft-rereloaded, animal-pens, azurum-miner, botany-pots, botany-trees, hostile-neural-networks, productivebees, productivetrees |
+| 4 Automate processing | applied-energistics-2, create, createaddition, ex-machinis-divitiae-deorum, mekanism, mekanism-generators, powah, productive-metalworks, silent-gear, silent-gear-metalworks | ars-nouveau, occultism, productive-metalworks, silent-gear, silent-gear-metalworks, theurgy | applied-energistics-2, powah, productive-metalworks, projecte, replication, silent-gear, silent-gear-metalworks |
+| 5 Scale loop | advancedae, applied-energistics-2, charging-gadgets, create, extreme-reactors, flux-networks, mega-cells, mekanism, mekanism-generators, mekanism-unleashed, morethermalevaporation, powah, productive-metalworks | botany-pots-tiers, mystical-agriculture, occultism, productive-metalworks | applied-energistics-2, botany-pots-tiers, flux-networks, powah, productive-metalworks, productivebees, projecte, replication |
+| 6 Capstone (content, gear, reason to play) | building-gadgets, building-wands, mekanism, mmmmmmmmmmmm, silent-gear | apotheosis, apothic-enchanting, ars-elemental, ars-nouveau, ars-zero, building-wands, gateways-to-eternity, irons-jewelry, irons-spells-n-spellbooks, mmmmmmmmmmmm, occultism, silent-gear | mmmmmmmmmmmm, silent-gear |
 
 ## Main add by pack
 
@@ -161,12 +161,12 @@ What each pack's non-library mods mainly contribute; a pack with nothing under a
 |---|---|---|---|
 | resources | cobblegen-galore, create-cobblestone, ex-deorum, mob-grinding-utils | ars-caelum, botany-pots, botany-pots-tiers, botany-trees, mystical-agriculture, occultism | agricraft-rereloaded, azurum-miner, botany-pots, botany-pots-tiers, botany-trees, hostile-neural-networks, productivebees, productivetrees, projecte, replication |
 | processing | create, mekanism, mekanism-unleashed, morethermalevaporation, productive-metalworks, silent-gear-metalworks | productive-metalworks, silent-gear-metalworks, theurgy | productive-metalworks, silent-gear-metalworks |
-| power | better-fusion-reactor-for-mekanism, charging-gadgets, createaddition, extreme-reactors, flux-networks, mekanism-generators, powah | **none** | extreme-reactors, flux-networks |
-| tooling | mekanism-tools, silent-gear | apothic-enchanting, silent-gear | silent-gear |
+| power | charging-gadgets, createaddition, extreme-reactors, flux-networks, mekanism-generators, powah | **none** | flux-networks, powah |
+| tooling | silent-gear | apothic-enchanting, silent-gear | silent-gear |
 | armor | **none** | apotheosis, irons-jewelry | **none** |
 | storage | advancedae, ae2-crafting-tree, ae2-jei-integration, ae2-pattern-encoding-access-terminal, ae2-tangible-bookmarks, ae2helpers, applied-energistics-2, applied-energistics-2-wireless-terminals, applied-mekanistics, applied-sorting, betterp2p, extended-terminal, mega-cells, merequester, not-enough-patterns, sophisticated-backpacks, sophisticated-storage | sophisticated-backpacks, sophisticated-storage | animal-pens, applied-energistics-2, appliede, sophisticated-backpacks, sophisticated-storage |
 | automation | ex-machinis-divitiae-deorum | **none** | **none** |
 | combat | **none** | ars-elemental, ars-zero, irons-spells-n-spellbooks | **none** |
 | content | tough-as-nails | ars-nouveau, gateways-to-eternity, tough-as-nails | **none** |
-| food | farmers-delight, farming-for-blockheads | farmers-delight, farming-for-blockheads | farmers-delight, farming-for-blockheads, productivefarming |
+| food | farmers-delight, farming-for-blockheads | farmers-delight, farming-for-blockheads | farmers-delight |
 | building | building-gadgets | **none** | **none** |

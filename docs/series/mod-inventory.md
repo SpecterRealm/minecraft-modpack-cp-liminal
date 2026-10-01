@@ -106,7 +106,6 @@ Columns: **Side** = packwiz side (both / client). **Src** = where the pin comes 
 | Applied KubeJS | `applied-kubejs-kjs-ae2` | both | CF |  |
 | Applied Mekanistics | `applied-mekanistics` | both | CF |  |
 | Applied Sorting | `applied-sorting` | both | CF |  |
-| Better Fusion Reactor for Mekanism PLUS | `better-fusion-reactor-for-mekanism` | both | CF |  |
 | Better P2P | `betterp2p` | both | CF |  |
 | Building Gadgets | `building-gadgets` | both | CF |  |
 | Charging Gadgets | `charging-gadgets` | both | CF |  |
@@ -126,7 +125,6 @@ Columns: **Side** = packwiz side (both / client). **Src** = where the pin comes 
 | MEGA Cells | `mega-cells` | both | CF |  |
 | Mekanism | `mekanism` | both | CF |  |
 | Mekanism Generators | `mekanism-generators` | both | CF |  |
-| Mekanism Tools | `mekanism-tools` | both | CF |  |
 | Mekanism Unleashed | `mekanism-unleashed` | both | CF |  |
 | Mekanism: More Thermal Evaporation | `morethermalevaporation` | both | CF |  |
 | Mob Grinding Utils | `mob-grinding-utils` | both | CF |  |

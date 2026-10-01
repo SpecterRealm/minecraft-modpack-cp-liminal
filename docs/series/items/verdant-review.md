@@ -36,9 +36,9 @@ Nothing is removed. The quest book is not touched until the mods are locked.
 
 ## Decisions (maintainer)
 
-- **Removed from Verdant**: Better Fusion Reactor (its optional quest and doc rows too) and Mekanism Tools, in MichaelHeaton/minecraft-modpack-cp-verdant#339. Both are still in Liminal; each needs its own reason there.
+- **Removed from Verdant**: Better Fusion Reactor (its optional quest and doc rows too) and Mekanism Tools, in MichaelHeaton/minecraft-modpack-cp-verdant#339. Maintainer later decided to remove both from **all packs**; Liminal was the only other pack with them (done in the Liminal pack files).
 - **Early-leaf recipe approved**: 2 saplings and a stick make 4 oak leaves, replacing Wooden Shears (ticket #331); still needs a playtest.
-- **Charging Gadgets**: not yet decided. Question raised: what happens to Building Gadgets without it. Findings: the Charging Station burns any fuel item into FE and charges a gadget in its slot (works before the pack has any power system). Building Gadgets hold 500,000 FE and cost 50 FE per block placed (100 per exchange), and Verdant's recipe already needs an AE2 calculation processor, so by then the player has FE sources. Removal would not change the gadget recipe, only how it is charged; another charging route (an energy cube slot or similar) should be confirmed in game before relying on it.
+- **Charging Gadgets**: kept for now (maintainer). Original question below. Question raised: what happens to Building Gadgets without it. Findings: the Charging Station burns any fuel item into FE and charges a gadget in its slot (works before the pack has any power system). Building Gadgets hold 500,000 FE and cost 50 FE per block placed (100 per exchange), and Verdant's recipe already needs an AE2 calculation processor, so by then the player has FE sources. Removal would not change the gadget recipe, only how it is charged; another charging route (an energy cube slot or similar) should be confirmed in game before relying on it.
 
 ## Next
 
