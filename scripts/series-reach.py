@@ -7,7 +7,9 @@ items (gear tiers, machine inputs, crop seeds) have no route, and why.
 
 Start file (docs/series/items/reach/<name>.json):
     {"name": "...", "start_items": ["minecraft:cobblestone", ...],
-     "start_tags": ["minecraft:logs", ...], "disable_types": ["..."], "notes": "..."}
+     "start_tags": ["minecraft:logs", ...], "mobs": ["minecraft:zombie", ...],
+     "loot_sources": ["gameplay/minecraft:fishing", "chests/minecraft:village/*"],
+     "disable_types": ["..."], "notes": "..."}
 Targets file (docs/series/items/reach/targets.json): {"targets": [{"id": "minecraft:diamond", "why": "..."}]}
 
 Usage:
@@ -25,7 +27,9 @@ Assumptions, stated so the output is read correctly:
 - Tags come from the mods' own tag files when the dump has them (newer dumps), otherwise from the
   name rules below. Vanilla tags are resolved by name rules. Items the rules cannot place are listed
   by `tags`, and can be added in the start file under "tag_aliases": {"tag": ["item", ...]}.
-- Machines, fuel, power and fluids are not modelled; this answers "is there any route", not "how fast".
+- Loot tables (from the dump's `loot`): a mob listed in the start file's `mobs` drops its table; a block drops its table when the block item is reachable (any tool, no silk-touch or fortune detail); tables named in `loot_sources` (exact key, or a prefix ending in `*`, such as `chests/minecraft:village/*`) count as found, including tables they reference. Spawn rates, chances and conditions are not modelled.
+- Fluids and chemicals are pseudo items (`fluid:<id>`, `chemical:<id>`): a recipe that melts an ingot makes `fluid:...`, casting uses it. Put world sources (`fluid:minecraft:water`, `fluid:minecraft:lava`) in the start file. A filled bucket and its fluid are linked.
+- Machines, fuel, power, tank capacity and recipe speed are not modelled; this answers "is there any route", not "how fast".
 """
 import argparse
 import collections
@@ -98,8 +102,13 @@ class World:
         self.dump_tags = dump.get("tags", {})
         self.aliases = {k: set(v) for k, v in start.get("tag_aliases", {}).items()}
         self.disabled = set(start.get("disable_types", []))
+        self.loot = dump.get("loot", {})
+        self.mobs = set(start.get("mobs", []))
+        self.loot_sources = self._expand_sources(start.get("loot_sources", []))
         self.strict = strict
         self.known = set(self.recipes)
+        for entry in self.loot.values():
+            self.known.update(entry.get("items", []))
         for entry in self.recipes.values():
             for r in entry["mod"]:
                 for ing in r["ings"]:
@@ -111,6 +120,50 @@ class World:
         for tag in start.get("start_tags", []):
             for m in self.tag_members(tag):
                 self.items.setdefault(m, 0)
+
+    # ----- loot -----
+    def _expand_sources(self, patterns):
+        """Loot table keys the pack can reach: exact keys or prefixes ending in *, plus the tables they reference."""
+        keys = set()
+        for pat in patterns:
+            if pat.endswith("*"):
+                keys |= {k for k in self.loot if k.startswith(pat[:-1])}
+            elif pat in self.loot:
+                keys.add(pat)
+        todo = list(keys)
+        while todo:
+            for ref in self.loot[todo.pop()].get("tables", []):
+                ns, _, path = ref.partition(":")          # "minecraft:gameplay/fishing/fish"
+                kind, _, rest = path.partition("/")       # -> key "gameplay/minecraft:fishing/fish"
+                cand = f"{kind}/{ns}:{rest}"
+                if cand in self.loot and cand not in keys:
+                    keys.add(cand)
+                    todo.append(cand)
+        return keys
+
+    def _loot_pass(self):
+        """Items dropped by sources the pack can reach: mobs in the world, blocks the player can hold, listed tables."""
+        changed = False
+        for key, entry in self.loot.items():
+            kind, _, ident = key.partition("/")
+            if kind == "entities":
+                depth = 1 if ident in self.mobs else None
+            elif kind == "blocks":
+                d = self.items.get(ident)  # the block item: the player can place it and break it again
+                depth = None if d is None else d + 1
+            else:
+                depth = 1 if key in self.loot_sources else None
+            if depth is None:
+                continue
+            drops = list(entry.get("items", []))
+            for tag in entry.get("tags", []):
+                drops += sorted(self.tag_members(tag))[:50]
+            for item in drops:
+                if item not in self.items or depth < self.items[item]:
+                    self.items[item] = depth
+                    self.via[item] = ("loot", key, [])
+                    changed = True
+        return changed
 
     # ----- tags -----
     def tag_members(self, tag):
@@ -189,12 +242,33 @@ class World:
             depth = max(depth, d)
         return depth + 1
 
+    def _bucket_links(self):
+        """A filled bucket stands for its fluid (ns:x_bucket <-> fluid:ns:x): pseudo items for fluids connect to items."""
+        links = []
+        for item in self.known:
+            ns, _, name = item.partition(":")
+            if name.endswith("_bucket") and name != "bucket":
+                links.append((item, f"fluid:{ns}:{name[:-7]}"))
+        return links
+
     def close(self):
         changed = True
         passes = 0
+        links = self._bucket_links()
         while changed and passes < 60:
             changed = False
             passes += 1
+            if self._loot_pass():
+                changed = True
+            for bucket, fluid in links:
+                if bucket in self.items and fluid not in self.items:
+                    self.items[fluid] = self.items[bucket]
+                    self.via[fluid] = ("(bucket)", "", [bucket])
+                    changed = True
+                elif fluid in self.items and bucket not in self.items and "minecraft:bucket" in self.items:
+                    self.items[bucket] = max(self.items[fluid], self.items["minecraft:bucket"]) + 1
+                    self.via[bucket] = ("(fill bucket)", "", [fluid, "minecraft:bucket"])
+                    changed = True
             for item, entry in self.recipes.items():
                 for r in entry["mod"]:
                     if r.get("removed") or r.get("inactive") or r["type"] in self.disabled or not r["ings"]:
