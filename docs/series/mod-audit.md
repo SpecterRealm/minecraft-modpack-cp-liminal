@@ -18,7 +18,7 @@ Pack letters: **V** Verdant · **E** Elysian · **I** Influx · **L** Liminal.
 | **Stone generation** | Create Cobblestone + Cobblegen Galore (V, L) | Tiered by design in Verdant (Create-scaled, then single-block) | Does Liminal need both? |
 | **Mob drops** | Mob Grinding Utils (V, L) · Hostile Neural Networks (I, L) | Different modes (farming vs. simulation) | Reason for both in Liminal? |
 | **Building assist** | Building Wands (V, E, L) · Building Gadgets + Charging Gadgets (V, L) | Tiered: wands early, FE-powered gadgets late | Fine in Liminal, or trim to one? |
-| **Power** | Mekanism Generators, Extreme Reactors, Flux Networks (V, L) | Influx has no generators | What powers Azurum Miner in Influx? |
+| **Power** | Mekanism Generators, Powah, Flux Networks (V, L); Powah (I) | Influx now uses Powah (Extreme Reactors removed from all packs) | What starts Powah in Influx (lava or blaze powder, crystals)? |
 | **Storage** | Sophisticated Storage (all) · AE2 (V, I, L) · Ender Storage (E, L) | Tiered by design | — |
 
 ## Full audit
@@ -112,7 +112,7 @@ Question: which power mods give the most meaningful add, and which overlap enoug
 | Mod | Packs today | Role | Call |
 |---|---|---|---|
 | Powah | none yet (**not added**; needs a `packwiz` pin from a machine with CurseForge access) | Tiered generators (Furnator burns wood, charcoal, or coal; Magmator; Thermo; Solar; Reactor), tiered Energy Cells, cables, Ender Cells | Leading choice for starter and mid power; solves the "no ore to start" chicken-and-egg. Test first |
-| Extreme Reactors (+ ZeroCore 2) | Verdant, Influx (PR #35), Liminal | Reactor and turbine multiblocks, Energizer multiblock battery; fuel is Yellorium (an ore) | Overlaps Powah's reactor; removing it from all packs is the likely cleaner move if Powah works |
+| Extreme Reactors (+ ZeroCore 2) | Verdant, Influx (PR #35), Liminal | Reactor and turbine multiblocks, Energizer multiblock battery; fuel is Yellorium (an ore) | **Removed from all packs** (maintainer decision, 2026-10-01): fuel needs ore the packs do not have. Powah replaces it (Influx swapped; Verdant and Liminal keep Powah) |
 | Flux Networks | Verdant, Influx (PR #35), Liminal | Wireless FE transfer, Flux Storage blocks | Keep; Powah's cables and Ender Network overlap it, so recheck |
 | Draconic Evolution | Liminal | Energy Core (8 tiers, Tier 1 about 45.5M RF) and pylons | Liminal capstone storage; check the 1.21.1 "Operational Potential" bug |
 | Mekanism Generators, Create Additions | Verdant, Liminal | Generator ladders | Stay in Verdant/Liminal; Influx has neither |
@@ -144,7 +144,7 @@ Elysian and Influx have none of these.
 | Create Cobblestone | Stress-powered cobblestone generator (8 RPM per extra cobblestone per tick, 64 SU per cobblestone per tick; Stone, Basalt, Limestone, Scoria) | Keep; complements Cobblegen Galore |
 | Create Crafts & Additions | Electric Motor, Alternator (75% efficiency), connectors, Rolling Mill, Redstone Relay, Accumulator (multiblock storage), Tesla Coil | Keep; Create to FE bridge; the Accumulator is another storage option for the power test |
 | Sophisticated Storage Create Integration | Storage blocks on Create contraptions with upgrades kept | Keep |
-| Extreme Reactors Create Compat | Create compatibility for Extreme Reactors | Follows the Extreme Reactors decision |
+| Extreme Reactors Create Compat | Create compatibility for Extreme Reactors | **Removed from all packs** with Extreme Reactors |
 | KubeJS Create | Scripting for Create recipes | Keep-for-now: no Create recipe calls found in Verdant's server scripts; use or remove |
 | KubeJS Create Automation | Script hooks for the Deployer's item application | Keep-for-now: no scripts use it; use or remove |
 
@@ -163,7 +163,7 @@ Liminal players will use AE2 to tie the other mods together, so integration matt
 
 ## Decided so far
 
-- **Crops:** *reopened.* Productive Farming was removed as a "duplicate" of AgriCraft, then restored — it is content-heavy (about 160 crops, flower/dye breeding, bee integration), not a duplicate. Keeping both for now; the choice is tracked in Influx [#31](https://github.com/SpecterRealm/minecraft-modpack-cp-influx/issues/31).
+- **Crops:** *decided 2026-10-01: Productive Farming and Farming for Blockheads removed from all packs for now (genetics is moving toward mobs and animals; AgriCraft stays).* Earlier: Productive Farming was removed as a "duplicate" of AgriCraft, then restored — it is content-heavy (about 160 crops, flower/dye breeding, bee integration), not a duplicate. Keeping both for now; the choice is tracked in Influx [#31](https://github.com/SpecterRealm/minecraft-modpack-cp-influx/issues/31).
 - **Trees:** Botany Trees and Productive Trees both stay (different jobs); verify they work together.
 - **EMC:** it is the destination — AutoEMC and the ProjectE stack stay.
 - **Metalworking:** Productive Metalworks and Silent Gear Metalworks change how gear is made, so they go in **all four packs** (Tinkers' Construct-style melt, alloy and cast). The bridge only works with the foundry, so they stay together. Verdant's and Elysian's early game relies on Silent Gear grid crafting, so the rollout needs a test and quest rewrites; tracked in [#42](https://github.com/SpecterRealm/minecraft-modpack-cp-liminal/issues/42).

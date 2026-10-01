@@ -32,7 +32,6 @@ Columns: **Side** = packwiz side (both / client). **Src** = where the pin comes 
 | FallingTree | `falling-tree` | both | CF |  |
 | FancyMenu | `fancymenu` | both | CF |  |
 | Farmer's Delight | `farmers-delight` | both | CF |  |
-| Farming for Blockheads | `farming-for-blockheads` | both | CF |  |
 | FastSuite | `fastsuite` | both | CF |  |
 | FastWorkbench | `fastworkbench` | both | CF |  |
 | FerriteCore ((Neo)Forge) | `ferritecore` | both | CF | client / perf |
@@ -116,7 +115,6 @@ Columns: **Side** = packwiz side (both / client). **Src** = where the pin comes 
 | Ex Deorum | `ex-deorum` | both | CF |  |
 | Ex Machinis: Divitiae Deorum | `ex-machinis-divitiae-deorum` | both | CF |  |
 | Extended Terminal | `extended-terminal` | both | CF |  |
-| Extreme Reactors Create Compat | `extreme-reactors-create-compat` | both | CF |  |
 | KubeJS Create | `kubejs-create` | both | CF |  |
 | KubeJS Create Automation | `kubejs-create-automation` | both | CF |  |
 | KubeJS Ex Deorum | `kubejs-ex-deorum` | both | CF |  |
@@ -191,7 +189,6 @@ Columns: **Side** = packwiz side (both / client). **Src** = where the pin comes 
 | Hostile Neural Networks | `hostile-neural-networks` | both | CF |  |
 | KubeJS ProjectE | `kubejs-projecte` | both | CF |  |
 | Productive Bees | `productivebees` | both | CF |  |
-| Productive Farming | `productivefarming` | both | CF |  |
 | Productive Trees | `productivetrees` | both | CF |  |
 | ProjectE | `projecte` | both | CF |  |
 | ProjectE Integration | `projecte-integration` | both | CF |  |
@@ -240,9 +237,7 @@ Columns: **Side** = packwiz side (both / client). **Src** = where the pin comes 
 | Mod | Id | Side | Src | Category |
 |---|---|---|---|---|
 | Applied Energistics 2 | `applied-energistics-2` | both | CF |  |
-| Extreme Reactors | `extreme-reactors` | both | CF |  |
 | Flux Networks | `flux-networks` | both | CF |  |
-| ZeroCore 2 | `zerocore` | both | CF | library |
 
 ## Elysian + Influx + Liminal (not Verdant) (4)
 
