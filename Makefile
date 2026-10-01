@@ -75,6 +75,7 @@ help:
 	@echo "  make recipe-analyze       summarize dump + AgriCraft plants → docs/recipe-analyze/"
 	@echo "  make recipe-audit         recipe-wiki + recipe-analyze (commit after mod list changes)"
 	@echo "  make recipe-pr            recipe-audit on a new branch, commit, push, open PR (one command)"
+	@echo "  make recipe-sync          packwiz install into the dev instance + prune + recipe-pr (full refresh)"
 	@echo "  make docs                 serve docs/ at http://localhost:8000/"
 	@echo ""
 	@echo "  PRISM_INSTANCE=$(PRISM_INSTANCE)  DEV_MAX_MEM=$(DEV_MAX_MEM)"
