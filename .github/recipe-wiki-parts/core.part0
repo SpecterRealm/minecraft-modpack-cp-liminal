@@ -84,6 +84,8 @@ def keep_type(rtype: str) -> bool:
 
 
 SKIPPED: dict[str, int] = {}
+UNPARSED: dict[str, list] = {}   # raw JSON of recipes with no readable output, per type (capped)
+UNPARSED_CAP = 400
 
 
 # ---------------------------------------------------------------------------
