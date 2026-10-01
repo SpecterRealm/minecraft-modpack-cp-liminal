@@ -4036,6 +4036,122 @@
    "stages": [
     5
    ]
+  },
+  "kubejs-ex-deorum": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "KubeJS add-on for Ex Deorum recipes (sieve, crucible, barrel), the tool for scripted bootstrap recipes like Verdant's blazing path",
+   "fit": {
+    "V": [
+     "good",
+     "already used for Nether and End bootstrap recipes"
+    ],
+    "L": [
+     "good",
+     "same"
+    ]
+   },
+   "note": "No items. Repo SrNadien/KubeJs-Ex-Deorum (Neo/1.21.1); compat Ex Deorum and KubeJS. Purpose read from name and compat, no README. Becomes more important if Ex Deorum is added elsewhere as the manual fallback.",
+   "works_with": "",
+   "status": "pending",
+   "stages": [
+    1
+   ]
+  },
+  "kubejs-create-automation": {
+   "feel": [
+    "tech"
+   ],
+   "add": "library",
+   "also": [
+    "automation"
+   ],
+   "gap": "KubeJS add-on for Create automation scripting",
+   "fit": {
+    "V": [
+     "good",
+     "Verdant's Create automation chapter"
+    ],
+    "L": [
+     "good",
+     "union inventory"
+    ]
+   },
+   "note": "No items. Repo vomiter-scp-zh/KubeJS_Create_Automation (master); compat Create and JEI. Exact feature set not read; no README.",
+   "works_with": "",
+   "status": "pending",
+   "stages": [
+    3
+   ]
+  },
+  "kubejs-tweaks": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "KubeJS helper add-on: common scripting abstractions and fixes for heavily modded packs",
+   "fit": {
+    "V": [
+     "good",
+     "scripting base"
+    ],
+    "E": [
+     "good",
+     "scripting base"
+    ],
+    "I": [
+     "good",
+     "scripting base"
+    ],
+    "L": [
+     "good",
+     "scripting base"
+    ]
+   },
+   "note": "No items. Repo pietro-lopes/KubeJSTweaks (master); compat with Ex Deorum, AE2, Enders IO, Immersive Engineering, Integrated Dynamics, Supplementaries and others. Wiki on GitHub documents events.",
+   "works_with": "",
+   "status": "pending",
+   "stages": [
+    1
+   ]
+  },
+  "mmmmmmmmmmmm": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [
+    "combat"
+   ],
+   "gap": "Dummmmmmy: a target dummy that shows damage numbers; a way to test weapons and armor",
+   "fit": {
+    "V": [
+     "partial",
+     "testing aid only"
+    ],
+    "E": [
+     "good",
+     "combat classes and Iron's Spells"
+    ],
+    "I": [
+     "partial",
+     "testing aid only"
+    ],
+    "L": [
+     "good",
+     "gear roles need a way to compare"
+    ]
+   },
+   "note": "1 item (Target Dummy). Repo MehVahdJukaar/DuMmmMmmy (branch 1.21, tags 1.21-2.x); needs Selene library.",
+   "works_with": "",
+   "status": "pending",
+   "stages": [
+    6
+   ]
   }
  }
 }

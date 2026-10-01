@@ -57,6 +57,49 @@ The same pattern can serve the class-mod netherite tiers, and is the model for E
 - **Extreme Reactors Create compat** (`ZeroNoRyouki/ExtremeReactors2-CreateCompat`): only a 1.20 branch exists, so there is no 1.21.1 source to scan.
 - **Iron's Lib**: the link supplied is a Patreon post, not a repo; still unresolved.
 
+## 3b. Elysian and Influx: what their own mods already bootstrap (source read)
+
+### Elysian: Occultism is the bootstrap, with one chokepoint
+
+Occultism (`klikli-dev/occultism`, 1.21.1 release) lets the player bind spirits that **mine a dimension** and deliver items. From its recipe data (`recipe/miner/`):
+
+| Miner | Gives |
+|---|---|
+| Basic resources (foliot) | stone types, blackstone, **end stone, netherrack**, deepslate, andesite, diorite, granite, basalt, mossy stone |
+| Ores (djinni) | iron, gold, copper, diamond, emerald, lapis, redstone, coal and dozens of modded ores |
+| Deeps | deepslate versions of the main ores |
+| Eldritch | **ancient debris**, raw iron, raw gold, raw copper, raw crimson iron, raw azure silver, quartz, rubies and other gems |
+| Master | ancient debris, iesnium ore |
+
+So Occultism alone can supply the stone types, the Nether and End blocks, every base metal, and ancient debris that the netherite tier needs. That answers most of Elysian's bootstrap questions without Ex Deorum.
+
+**The chokepoint**: the first foliot needs a ritual with **an iron ingot and an iesnium pickaxe** (`craft_miner_foliot_unspecialized`), and the djinni needs a foliot, a gold ingot, lapis and a spirit-attuned crystal. The pickaxe is made from **iesnium ingots**, and iesnium ore is **Nether worldgen** only (`ore_iesnium`, height 0 to 128 in Nether biomes). In a void start the first iesnium ingot cannot be found, and nothing in Elysian's quest chapters or docs mentions iesnium. This is the gap to close.
+
+Options to close it (decide later; KubeJS fits the pattern from Verdant's `blazing_path.js`):
+1. A KubeJS recipe that makes the first iesnium ingot from something the player has (for example iron plus a spirit item), with a meaningful cost.
+2. A single quest reward of an iesnium pickaxe or ingot, plus a recovery recipe so a lost one never blocks.
+3. Fall back to Ex Deorum manual-only for this one item (most expensive option for one item).
+
+Also needed: **one iron ingot** for the first ritual. Elysian's quests already hand out inferium seeds and a Silent Gear pickaxe, so a starter iron ingot as a reward is in the same style.
+
+Not yet checked: Theurgy (Elysian's other bootstrap candidate), Apothic Spawners and Gateways to Eternity drops.
+
+### Influx: the ship design already answers the first unit
+
+Influx's own docs set the start as a ship: "thin scrap / authored crates feed early convert", then typed matter (Replication), then genetics, then EMC as the destination (ProjectE, Replication, AutoEMC). So the first units are **authored salvage crates**, not a world resource. What is missing is the **crate contents list**: exactly which items and how many of each, sized to cover the first gear tiers and the first blaze egg. That list is the required-resource list for Influx.
+
+Influx's quest chapters so far: Welcome, Ship Camp, Typed Matter, Genetics Lab, EMC Ladder (ProjectE, transmutation table), Spanner Workspace, Specimen Loop, Azurum Mass, AppliedE. Spanner, Specimen Loop, Azurum Mass and AppliedE are stubs. The current text steers advanced materials through AgriCraft genetics; the maintainer direction is moving genetics toward mobs and the egg, spawner, Hostile Neural Networks arc (see `capstones-and-gear.md`).
+
+### Verdict so far
+
+| Pack | Needs Ex Deorum? | What it needs instead |
+|---|---|---|
+| Verdant | already has it | (the required-resource list, for later chapters) |
+| Elysian | **probably not** | Close the iesnium and first-iron chokepoint (KubeJS or a quest reward) |
+| Influx | **probably not** | Author the salvage crate contents; add the egg and spawner recipes |
+
+Ex Deorum manual-only stays the fallback if Theurgy and the crates turn out to leave gaps.
+
 ## 4. Decision direction (maintainer)
 
 - **Ex Deorum as the manual kickstart fallback for every pack**, with the automated parts removed: no Mechanical Sieve, no Mechanical Hammer, no powered crushing. What stays is the manual sieve, barrel, crucible and hand hammer. The player can start, then has to ask how to automate it, which pushes them to the pack's own systems (magical crops in Elysian, conversion in Influx).
@@ -69,3 +112,4 @@ The same pattern can serve the class-mod netherite tiers, and is the model for E
 1. Finish the input list (full Silent Gear pass, machines, animal drops).
 2. For Elysian and Influx, list each input with its bootstrap route from the pack's own mods first (Occultism, Theurgy, Ars, ProjectE, Replication, HNN, the Genetics egg path).
 3. Whatever is left: Ex Deorum manual-only, or a KubeJS recipe.
+4. Check Theurgy, Apothic Spawners and Gateways drops for Elysian; write the Influx crate contents list.

@@ -1,0 +1,33 @@
+{
+ "repo": "SrNadien/KubeJs-Ex-Deorum",
+ "ref": "Neo/1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [],
+ "item_count": 0,
+ "compat": [
+  {
+   "id": "exdeorum",
+   "slug": "ex-deorum",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "kubejs",
+   "slug": "kubejs",
+   "evidence": {
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {},
+ "review": {
+  "status": "checked",
+  "date": "2026-10-01",
+  "mod_version": "Neo/1.21.1",
+  "pass": "loop-back",
+  "note": "First read from source; see mod-profiles.md.",
+  "class": "library",
+  "purpose": "KubeJS add-on for Ex Deorum recipes"
+ }
+}

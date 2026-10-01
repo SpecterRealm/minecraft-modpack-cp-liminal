@@ -129,7 +129,7 @@
   "applied-kubejs-kjs-ae2": {
    "repo": null,
    "status": "not-found",
-   "note": "No public repo found (KubeJS wiki links to one)."
+   "note": "No repo found. The KubeJS wiki documents the add-on as \"Applied KubeJS\" (wiki repo rollylindenshnizzer/wiki, addons/applied-kjs): AE2 recipe helpers, events and network APIs; it does not link a source repo."
   },
   "applied-mekanistics": {
    "repo": "AppliedEnergistics/Applied-Mekanistics",
@@ -800,7 +800,7 @@
   "invtweaks-emu-for-ipn": {
    "repo": null,
    "status": "not-found",
-   "note": "Author mirinimi; no public repo found."
+   "note": "Part of Inventory Profiles Next, which moved to codeberg.org/Inventory-Profiles-Next-Mod/IPN (supplied by maintainer); the proxy blocks codeberg (403), so it cannot be scanned from here."
   },
   "iris": {
    "repo": "IrisShaders/Iris",
@@ -909,9 +909,13 @@
    "check": "ok"
   },
   "kubejs-create-automation": {
-   "repo": null,
+   "repo": "vomiter-scp-zh/KubeJS_Create_Automation",
    "status": "not-found",
-   "note": "Author vomiter; no public repo found."
+   "note": "Repo supplied by maintainer.",
+   "ref": "master",
+   "ref_kind": "branch",
+   "verified": true,
+   "check": "ok"
   },
   "kubejs-delight": {
    "repo": "QinomeD/kubejsdelight",
@@ -922,9 +926,13 @@
    "check": "ok"
   },
   "kubejs-ex-deorum": {
-   "repo": null,
+   "repo": "SrNadien/KubeJs-Ex-Deorum",
    "status": "not-found",
-   "note": "No public repo found."
+   "note": "Repo supplied by maintainer.",
+   "ref": "Neo/1.21.1",
+   "ref_kind": "branch",
+   "verified": true,
+   "check": "ok"
   },
   "kubejs-eyejs": {
    "repo": null,
@@ -961,9 +969,13 @@
    "check": "ok"
   },
   "kubejs-tweaks": {
-   "repo": null,
+   "repo": "pietro-lopes/KubeJSTweaks",
    "status": "not-found",
-   "note": "Author Uncandango; CurseForge page links a repo but it was not found by search."
+   "note": "Repo supplied by maintainer.",
+   "ref": "master",
+   "ref_kind": "branch",
+   "verified": true,
+   "check": "ok"
   },
   "libipn": {
    "repo": "blackd/libIPN",
@@ -1046,9 +1058,13 @@
    "check": "ok"
   },
   "mmmmmmmmmmmm": {
-   "repo": null,
+   "repo": "MehVahdJukaar/DuMmmMmmy",
    "status": "not-found",
-   "note": "Author MehVahdJukaar; only the 1.16 repos were found."
+   "note": "Repo supplied by maintainer (the mod is Dummmmmmy).",
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "verified": true,
+   "check": "ok"
   },
   "mob-grinding-utils": {
    "repo": "vadis365/mob-grinding-utils",
@@ -1532,7 +1548,7 @@
   "tough-as-nails-vanilla-pack": {
    "repo": null,
    "status": "not-found",
-   "note": "Data pack (Modrinth); no repo found."
+   "note": "Data pack variant of Tough As Nails. The mod source (Glitchfiend/ToughAsNails) is already tracked as tough-as-nails; this data pack is not in that repo."
   },
   "towns-and-towers": {
    "repo": "Cristelknight/Towns-and-Towers",
