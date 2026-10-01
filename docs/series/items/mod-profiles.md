@@ -119,7 +119,7 @@ Packs: V Verdant (overworld, no ore, tech-first), E Elysian (void, magic only, n
 | apothic-enchanting | EL | magic | tooling | armor | Higher-level enchanting via shelves | - | good | - | good |
 | mekanism-tools | VL | tech | tooling | armor | Paxels, tiered tools, armor, shields | partial | - | - | partial |
 | silent-gear | VEIL | neutral | tooling | armor | Modular gear from parts and materials | good | good | good | good |
-| wooden-shears | VIL | neutral | tooling |  | Early shears replacement | partial | partial | partial | partial |
+| wooden-shears | V | neutral | tooling |  | Early shears replacement | partial | partial | partial | partial |
 
 ## Feel by pack (which mods sit outside a pack's theme)
 
@@ -131,7 +131,7 @@ Magic-feel mods in Verdant: none
 
 Tech-feel mods in Elysian (pure tech, no magic co-feel): 
 
-**Influx:** nature (10); neutral (5); breeding (4); tech (4); sci-fi (4); alchemy (1); steampunk (1)
+**Influx:** nature (10); breeding (4); tech (4); sci-fi (4); neutral (4); alchemy (1); steampunk (1)
 
 ## Stage matrix (a mod can sit in several stages)
 
@@ -139,8 +139,8 @@ A mod lists every stage it serves. A stage with nothing under a pack is a gap; a
 
 | Stage | Verdant | Elysian | Influx |
 |---|---|---|---|
-| 0 Start (shelter, food) | akashic-tome, comforts, farmers-delight, farming-for-blockheads, tough-as-nails, wooden-shears | akashic-tome, comforts, farmers-delight, farming-for-blockheads, tough-as-nails | akashic-tome, comforts, farmers-delight, farming-for-blockheads, wooden-shears |
-| 1 Manual gathering | cobblegen-galore, create-cobblestone, ex-deorum, farmers-delight, kubejs-ex-deorum, kubejs-tweaks, mekanism-tools, silent-gear, wooden-shears | ars-caelum, ars-nouveau, farmers-delight, kubejs-tweaks, silent-gear | farmers-delight, kubejs-tweaks, silent-gear, wooden-shears |
+| 0 Start (shelter, food) | akashic-tome, comforts, farmers-delight, farming-for-blockheads, tough-as-nails, wooden-shears | akashic-tome, comforts, farmers-delight, farming-for-blockheads, tough-as-nails | akashic-tome, comforts, farmers-delight, farming-for-blockheads |
+| 1 Manual gathering | cobblegen-galore, create-cobblestone, ex-deorum, farmers-delight, kubejs-ex-deorum, kubejs-tweaks, mekanism-tools, silent-gear, wooden-shears | ars-caelum, ars-nouveau, farmers-delight, kubejs-tweaks, silent-gear | farmers-delight, kubejs-tweaks, silent-gear |
 | 2 Storage and sorting | applied-energistics-2, extended-terminal, mekanism, more-tier-upgrade, simple-magnets, sophisticated-backpacks, sophisticated-storage | more-tier-upgrade, simple-magnets, sophisticated-backpacks, sophisticated-storage | applied-energistics-2, more-tier-upgrade, simple-magnets, sophisticated-backpacks, sophisticated-storage |
 | 3 Automate gathering | cobblegen-galore, create, create-cobblestone, ex-deorum, farming-for-blockheads, kubejs-create-automation, mekanism, mekanism-generators, mob-grinding-utils | ars-additions, ars-caelum, ars-nouveau, botany-pots, botany-trees, farming-for-blockheads, mystical-agriculture, occultism | agricraft-rereloaded, animal-pens, azurum-miner, botany-pots, botany-trees, farming-for-blockheads, hostile-neural-networks, productivebees, productivefarming, productivetrees |
 | 4 Automate processing | applied-energistics-2, create, createaddition, ex-machinis-divitiae-deorum, mekanism, mekanism-generators, powah, productive-metalworks, silent-gear, silent-gear-metalworks | ars-nouveau, occultism, productive-metalworks, silent-gear, silent-gear-metalworks, theurgy | applied-energistics-2, productive-metalworks, projecte, replication, silent-gear, silent-gear-metalworks |
@@ -156,7 +156,7 @@ What each pack's non-library mods mainly contribute; a pack with nothing under a
 | resources | cobblegen-galore, create-cobblestone, ex-deorum, mob-grinding-utils | ars-caelum, botany-pots, botany-pots-tiers, botany-trees, mystical-agriculture, occultism | agricraft-rereloaded, azurum-miner, botany-pots, botany-pots-tiers, botany-trees, hostile-neural-networks, productivebees, productivetrees, projecte, replication |
 | processing | create, mekanism, mekanism-unleashed, morethermalevaporation, productive-metalworks, silent-gear-metalworks | productive-metalworks, silent-gear-metalworks, theurgy | productive-metalworks, silent-gear-metalworks |
 | power | better-fusion-reactor-for-mekanism, charging-gadgets, createaddition, extreme-reactors, flux-networks, mekanism-generators, powah | **none** | extreme-reactors, flux-networks |
-| tooling | mekanism-tools, silent-gear, wooden-shears | apothic-enchanting, silent-gear | silent-gear, wooden-shears |
+| tooling | mekanism-tools, silent-gear, wooden-shears | apothic-enchanting, silent-gear | silent-gear |
 | armor | **none** | apotheosis, irons-jewelry | **none** |
 | storage | advancedae, ae2-crafting-tree, ae2-jei-integration, ae2-pattern-encoding-access-terminal, ae2-tangible-bookmarks, ae2helpers, applied-energistics-2, applied-energistics-2-wireless-terminals, applied-mekanistics, applied-sorting, betterp2p, extended-terminal, mega-cells, merequester, not-enough-patterns, sophisticated-backpacks, sophisticated-storage | sophisticated-backpacks, sophisticated-storage | animal-pens, applied-energistics-2, appliede, sophisticated-backpacks, sophisticated-storage |
 | automation | ex-machinis-divitiae-deorum | **none** | **none** |
