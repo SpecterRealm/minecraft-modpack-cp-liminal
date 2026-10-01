@@ -1,28 +1,34 @@
 # Recipe analyze summary
 
-Generated: `2026-10-01T15:51:47.919848+00:00`
+Generated: `2026-10-01T16:03:18.577078+00:00`
 
 Regenerate after mod list / KubeJS changes: `make recipe-audit`.
 
 ## Recipe dump
 
 - Source: `docs/recipe_data.json`
-- Dump generated: `2026-10-01T15:51:46.740076+00:00`
+- Dump generated: `2026-10-01T16:03:17.427865+00:00`
 - Items: **11069**
 - Mods with result items: **134**
 
 ### Namespaces with no installed jar
 
-46 namespaces appear in the dump only because an installed mod ships
+73 namespaces appear in the dump only because an installed mod ships
 compat recipes for them. They are not in the pack; do not count them as mods.
 
 | Namespace | Items |
 |-----------|------:|
+| `ae2helpers` | 1 |
 | `aether` | 4 |
 | `alexsmobs` | 1 |
 | `allthemodium` | 24 |
 | `alltheores` | 137 |
+| `apotheosis` | 32 |
+| `apothic_enchanting` | 39 |
+| `ars_elemancy` | 21 |
+| `ars_elemental` | 98 |
 | `ars_scalaes` | 1 |
+| `ars_technica` | 34 |
 | `ars_trinkets` | 2 |
 | `arsomega` | 8 |
 | `atmospheric` | 5 |
@@ -30,37 +36,58 @@ compat recipes for them. They are not in the pack; do not count them as mods.
 | `betterendforge` | 9 |
 | `biomesoplenty` | 21 |
 | `biomeswevegone` | 89 |
+| `buildinggadgets2` | 6 |
+| `cobblegengalore` | 7 |
 | `create_enchantment_industry` | 1 |
 | `create_ironworks` | 12 |
+| `createaddition` | 35 |
 | `druidcraft` | 3 |
 | `endergetic` | 11 |
 | `enderio` | 1 |
 | `environmental` | 3 |
 | `everythingcopper` | 2 |
+| `exmachinis` | 8 |
 | `exnihilosequentia` | 6 |
 | `ftbmaterials` | 123 |
 | `galosphere` | 4 |
+| `gateways` | 1 |
 | `hauntedharvest` | 1 |
+| `hostilenetworks` | 8 |
 | `ic2` | 8 |
 | `iceandfire` | 2 |
+| `immersiveengineering` | 44 |
 | `infernalexp` | 3 |
 | `integrateddynamics` | 6 |
+| `irons_jewelry` | 2 |
+| `irons_spellbooks` | 160 |
 | `magistuarmory` | 3 |
 | `modern_industrialization` | 58 |
+| `modonomicon` | 1 |
+| `more_tier_upgrade` | 14 |
+| `morethermalevaporation` | 16 |
 | `mysticalagradditions` | 10 |
 | `neapolitan` | 2 |
 | `netherexp` | 2 |
+| `not_enough_glyphs` | 28 |
+| `occultism` | 278 |
 | `oreganized` | 4 |
 | `pamhc2foodcore` | 1 |
 | `pneumaticcraft` | 1 |
+| `productivelib` | 3 |
+| `productivemetalworks` | 158 |
 | `quark` | 2 |
 | `regions_unexplored` | 9 |
+| `replication` | 14 |
 | `sauce` | 1 |
+| `sgearmetalworks` | 65 |
+| `silentgems` | 42 |
+| `simplemagnets` | 4 |
 | `starbunclemania` | 1 |
 | `supplementaries` | 1 |
 | `tconstruct` | 7 |
 | `the_vault` | 1 |
 | `thermal` | 12 |
+| `theurgy` | 358 |
 | `toomanyglyphs` | 14 |
 | `vampirism` | 2 |
 | `xycraft_world` | 1 |
