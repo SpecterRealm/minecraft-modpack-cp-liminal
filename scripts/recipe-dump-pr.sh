@@ -24,6 +24,16 @@ START_REF=$(git rev-parse --abbrev-ref HEAD)
 say "Updating $BASE and creating $BRANCH"
 git fetch origin "$BASE"
 git checkout -b "$BRANCH" "origin/$BASE"
+COMMITTED=""
+# If anything fails before the commit, put the checkout back where it was (only generated files can differ).
+undo() {
+  rc=$?
+  if [ "$rc" -ne 0 ] && [ -z "$COMMITTED" ]; then
+    echo; echo "Failed before committing: returning to $START_REF and removing $BRANCH"
+    git checkout -q -f "$START_REF" && git branch -D "$BRANCH" >/dev/null 2>&1 || true
+  fi
+}
+trap undo EXIT
 
 say "Dumping recipes and items from the installed mod JARs (can take a few minutes)"
 make recipe-audit
@@ -48,6 +58,7 @@ d = json.load(open("docs/recipe_data.json"))
 print(d.get("item_count", len(d.get("recipes", d))))
 PY
 )
+COMMITTED=1
 git commit -q -m "chore($PACK): refresh recipe and item dump from installed mods
 
 $JARS mod jars scanned; $ITEMS recipe entries in docs/recipe_data.json.

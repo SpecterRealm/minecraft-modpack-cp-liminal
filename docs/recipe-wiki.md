@@ -11,6 +11,7 @@ artifacts agents can read from git.
 | `make recipe-wiki` | Full dump → `docs/recipe_data.json` + `docs/recipe_wiki.html` |
 | `make recipe-analyze` | Summaries from the dump + AgriCraft plant datapack scan → `docs/recipe-analyze/` |
 | `make recipe-audit` | `recipe-wiki` then `recipe-analyze` (use after mod list / KubeJS changes) |
+| `make recipe-sync` | **Full refresh in one command**: headless packwiz install into the dev instance, prune stale jars, then `recipe-pr` |
 | `make recipe-pr` | **One command**: new branch, `recipe-audit`, commit, push, draft PR (`scripts/recipe-dump-pr.sh`) |
 | `make docs` | Serve `docs/` at http://localhost:8000/ |
 
@@ -49,6 +50,16 @@ make recipe-pr
 ```
 
 It stops if the working tree is not dirty-free, branches from `origin/main` as `chore/recipe-dump-<pack>-<timestamp>`, runs `make recipe-audit`, commits `docs/recipe_data.json` and `docs/recipe-analyze/`, pushes, and opens a draft PR with `gh` (without `gh` it prints the compare link). If nothing changed against `main` it exits without a branch. Needs the `CP-<Pack>-Dev` Prism instance pulled once, or `RECIPE_WIKI_MODS_DIR=/path/to/mods make recipe-pr`. Same command in Verdant, Elysian, Influx and Liminal.
+
+## After a mod-list change: `make recipe-sync`
+
+`make recipe-pr` reads whatever jars are in the dev instance and does not run packwiz. When the mod list changed, use:
+
+```bash
+make recipe-sync
+```
+
+It starts `packwiz serve` (after `packwiz refresh`), runs the packwiz installer headlessly in the dev instance, stops the server, runs `make prune-dev-mods`, then `make recipe-pr`. Needs `packwiz`, `java` (or `JAVA=/path/to/java`), `curl` and `python3`; close the game first. It stops if `packwiz refresh` changed tracked files (commit that first) or if the installer fails. If `recipe-pr` fails before committing, it returns you to your original branch.
 
 ## How to run (full-pack dump)
 

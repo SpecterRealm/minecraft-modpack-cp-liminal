@@ -2,7 +2,7 @@
 # Needs installed JARs under CP-Liminal-Dev (or RECIPE_WIKI_MODS_DIR).
 # After mod list / KubeJS changes: make recipe-audit && commit docs/recipe_data.json + docs/recipe-analyze/.
 
-.PHONY: recipe-wiki recipe-analyze recipe-audit recipe-pr
+.PHONY: recipe-wiki recipe-analyze recipe-audit recipe-pr recipe-sync
 
 recipe-wiki:
 	@echo "→ building recipe wiki from mods JARs + kubejs..."
@@ -21,3 +21,9 @@ recipe-audit: recipe-wiki recipe-analyze
 # One command: new branch, dump, commit, push, PR (see scripts/recipe-dump-pr.sh).
 recipe-pr:
 	@bash scripts/recipe-dump-pr.sh
+
+# Headless packwiz install into the Prism dev instance, prune stale jars, then recipe-pr (scripts/recipe-sync.sh).
+recipe-sync:
+	@DEV_MC_DIR="$(DEV_MC_DIR)" BOOTSTRAP_JAR="$(BOOTSTRAP_JAR)" INSTALLER_JAR="$(INSTALLER_JAR)" \
+		BOOTSTRAP_URL="$(BOOTSTRAP_URL)" INSTALLER_URL="$(INSTALLER_URL)" PRISM_INSTANCE="$(PRISM_INSTANCE)" \
+		bash scripts/recipe-sync.sh
