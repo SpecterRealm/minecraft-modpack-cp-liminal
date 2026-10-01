@@ -13,7 +13,7 @@ Verdant has many power sources: Create alternator, Mekanism generators, Powah, E
 | Mod | Items | Used in Verdant | Leaning | Why |
 |---|---|---|---|---|
 | Extreme Reactors | 146 | Quest chapter "Scale": reactor and turbine controllers, wrench | Keep if yellorium gets a route; else question | It is the big-multiblock power tier and has real content and quests. The earlier concern ("fuel needs ore; no sieve recipe") has a known fix pattern: an Ex Deorum sieve recipe through the KubeJS Ex Deorum add-on, like Verdant's blazing path. Not built. Also in Influx and Liminal. |
-| Better Fusion Reactor for Mekanism | 14 | No quest or script reference | Lean cut | Harder fusion reactor, late, ore-dependent, overlaps Mekanism's own fusion and fission. Adds a tier nothing points to. |
+| Better Fusion Reactor for Mekanism | 14 | One **optional** quest in the Scale chapter (nothing depended on it); doc mentions | Lean cut | Harder fusion reactor, late, ore-dependent, overlaps Mekanism's own fusion and fission. (Corrected: the first draft said it had no quest reference; it had this optional one.) |
 | Building Gadgets | 9 | A KubeJS recipe (`gadget_computing_recipes.js`) already changes the building gadget to need computing parts | Keep, stage-6 niche | FE-powered copy and paste suits the **megabuild** capstone. Overlaps Building Wands, so give them different jobs: Wands early and manual, Gadgets late and powered. |
 | Charging Gadgets | 1 | No references | Lean cut | One item (a charging station). Elysian already removed it; Flux Networks charges items. Matches the "not one of 27 items" rule. |
 | Mekanism Tools | many | No quests or scripts (the MekaSuit gate script is for core Mekanism) | Lean cut | Mekanism Tools mostly repeats what Silent Gear already does (paxels, tiered sets). The MekaSuit lives in core Mekanism, so cutting this jar does not remove it. Check that no recipe or quest needs a Mekanism Tools item before removal. |
@@ -30,9 +30,15 @@ Verdant has many power sources: Create alternator, Mekanism generators, Powah, E
 - **Keep**: Mob Grinding Utils, More Thermal Evaporation, Building Gadgets (as the late building tool), Tough As Nails (flag).
 - **Conditional**: Extreme Reactors (needs a yellorium route), Mekanism Unleashed (config replacement?).
 - **Open**: Farming for Blockheads, Dummmmmmy.
-- **Cleanup that follows a cut**: remove any KubeJS or quest references first. Extreme Reactors and Building Gadgets have them; Mekanism Tools, Charging Gadgets and Better Fusion Reactor had none found.
+- **Cleanup that follows a cut**: remove any KubeJS or quest references first. Extreme Reactors and Building Gadgets have them; Better Fusion Reactor had one optional quest; Mekanism Tools and Charging Gadgets had none found.
 
 Nothing is removed. The quest book is not touched until the mods are locked.
+
+## Decisions (maintainer)
+
+- **Removed from Verdant**: Better Fusion Reactor (its optional quest and doc rows too) and Mekanism Tools, in MichaelHeaton/minecraft-modpack-cp-verdant#339. Both are still in Liminal; each needs its own reason there.
+- **Early-leaf recipe approved**: 2 saplings and a stick make 4 oak leaves, replacing Wooden Shears (ticket #331); still needs a playtest.
+- **Charging Gadgets**: not yet decided. Question raised: what happens to Building Gadgets without it. Findings: the Charging Station burns any fuel item into FE and charges a gadget in its slot (works before the pack has any power system). Building Gadgets hold 500,000 FE and cost 50 FE per block placed (100 per exchange), and Verdant's recipe already needs an AE2 calculation processor, so by then the player has FE sources. Removal would not change the gadget recipe, only how it is charged; another charging route (an energy cube slot or similar) should be confirmed in game before relying on it.
 
 ## Next
 
