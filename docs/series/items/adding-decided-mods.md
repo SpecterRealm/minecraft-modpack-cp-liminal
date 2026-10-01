@@ -31,7 +31,7 @@ Run in each pack repo, then `packwiz refresh` and commit. Slugs are from the mod
 
 | Pack | Add |
 |---|---|
-| Verdant | Spell Engine (pulled in by Archers), `archers` (slug ?), `cosmetic-armor-reworked` |
+| Verdant | Spell Engine (pulled in by Archers), `archers` (slug ?), `cosmetic-armor-reworked`, `mekanism-turrets` (decided) |
 | Elysian | `wizards`, Rogues & Warriors (slug ?), `cosmetic-armor-reworked` |
 | Influx | `paladins-and-priests`, `bard-more-rpg-classes`, `genetics-resequenced`, `mutant-monsters`, `cosmetic-armor-reworked` |
 | Liminal | all of the above plus the candidates `berserker-rpg-class`, `forcemaster-rpg-class`, `elemental-wizards-rpg-class`, `witcher-rpg-class` if wanted |
@@ -56,4 +56,9 @@ Things to watch when they are added:
 
 ## Verdant defense mod
 
-If Mekanism Turrets & Fences is chosen (`verdant-defense-options.md`): `packwiz modrinth add mekanism-turrets` (Modrinth slug `mekanism-turrets`; CurseForge name "Mekanism Turrets & Fences"). It needs Mekanism (present) and GeckoLib (present in Verdant), so no new library.
+Decided: Mekanism Turrets & Fences is Verdant's automated-defense mod (`verdant-defense-options.md`): `packwiz modrinth add mekanism-turrets` (Modrinth slug `mekanism-turrets`; CurseForge name "Mekanism Turrets & Fences"). It needs Mekanism (present) and GeckoLib (present in Verdant), so no new library.
+
+
+## Script
+
+`scripts/add-decided-mods.sh <pack-repo-dir> <modrinth|curseforge> <verdant|elysian|influx|liminal>` loops over the adds above for one pack, then runs `packwiz refresh`. Slugs marked "?" are skipped with a warning until confirmed.
