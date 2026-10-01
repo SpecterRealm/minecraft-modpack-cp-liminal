@@ -1,25 +1,27 @@
 # Recipe analyze summary
 
-Generated: `2026-10-01T17:06:01.081180+00:00`
+Generated: `2026-10-01T17:11:15.595127+00:00`
 
 Regenerate after mod list / KubeJS changes: `make recipe-audit`.
 
 ## Recipe dump
 
 - Source: `docs/recipe_data.json`
-- Dump generated: `2026-10-01T17:05:59.743298+00:00`
-- Items: **10683**
-- Mods with result items: **96**
-- Items whose recipes are all inactive (load condition not met in this pack): 1296, not counted
+- Dump generated: `2026-10-01T17:11:14.296824+00:00`
+- Items: **10838**
+- Mods with result items: **98**
+- Items whose recipes are all inactive (load condition not met in this pack): 1822, not counted
 - Fluids and chemicals made by recipes (pseudo items): 198, not counted as items
 
 ### Namespaces with no installed jar
 
-33 namespaces appear in the dump only because an installed mod ships
+35 namespaces appear in the dump only because an installed mod ships
 compat recipes for them. They are not in the pack; do not count them as mods.
 
 | Namespace | Items |
 |-----------|------:|
+| `#azurum_miner` | 5 |
+| `#c` | 148 |
 | `ae2helpers` | 1 |
 | `apotheosis` | 21 |
 | `apothic_enchanting` | 50 |
@@ -58,23 +60,24 @@ compat recipes for them. They are not in the pack; do not count them as mods.
 
 | Mod | Items | Jar recipes on results | Seed-like ids |
 |-----|------:|-----------------------:|--------------:|
-| `productivetrees` | 2775 | 3152 | 0 |
-| `minecraft` | 1110 | 4458 | 4 |
+| `productivetrees` | 2775 | 3315 | 0 |
+| `minecraft` | 1111 | 4639 | 4 |
 | `create` | 634 | 1229 | 0 |
 | `botanypotstiers` | 552 | 1467 | 0 |
 | `mysticalagriculture` | 526 | 706 | 106 |
 | `twilightforest` | 373 | 475 | 0 |
-| `ars_nouveau` | 370 | 575 | 0 |
-| `mekanism` | 353 | 566 | 0 |
+| `ars_nouveau` | 370 | 598 | 0 |
+| `mekanism` | 354 | 623 | 0 |
 | `ae2` | 331 | 540 | 0 |
 | `occultism` | 282 | 394 | 0 |
 | `silentgear` | 279 | 618 | 1 |
 | `productivebees` | 228 | 502 | 0 |
 | `theurgy` | 219 | 682 | 0 |
 | `botanypots` | 183 | 244 | 0 |
-| `farmersdelight` | 166 | 235 | 2 |
+| `farmersdelight` | 166 | 245 | 2 |
 | `draconicevolution` | 164 | 181 | 0 |
 | `irons_spellbooks` | 160 | 210 | 0 |
+| `#c` | 148 | 624 | 0 |
 | `ars_elemental` | 146 | 152 | 0 |
 | `exdeorum` | 141 | 458 | 1 |
 | `powah` | 134 | 182 | 0 |
@@ -97,8 +100,7 @@ compat recipes for them. They are not in the pack; do not count them as mods.
 | `appliedcreate` | 35 | 37 | 0 |
 | `ars_technica` | 34 | 47 | 0 |
 | `comforts` | 33 | 66 | 0 |
-| `bhc` | 29 | 36 | 0 |
-| … | (56 more mods in `by-mod/`) | | |
+| … | (58 more mods in `by-mod/`) | | |
 
 ### Farming / resource-crop namespaces
 
