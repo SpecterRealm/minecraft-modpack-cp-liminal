@@ -197,7 +197,7 @@ class World:
             passes += 1
             for item, entry in self.recipes.items():
                 for r in entry["mod"]:
-                    if r.get("removed") or r["type"] in self.disabled or not r["ings"]:
+                    if r.get("removed") or r.get("inactive") or r["type"] in self.disabled or not r["ings"]:
                         continue
                     d = self.usable(r, item)
                     if d is not None and (item not in self.items or d < self.items[item]):
@@ -247,9 +247,11 @@ def cmd_check(a):
     for t in bad:
         known = "known" if t["id"] in w.known else "NOT IN DUMP"
         print(f"  {t['id']:<44} {known:<12} {t.get('why', '')}")
-    unreadable = sum(1 for e in w.recipes.values() for r in e["mod"] if not r["ings"])
+    unreadable = sum(1 for e in w.recipes.values() for r in e["mod"] if not r["ings"] and not r.get("inactive"))
+    inactive = sum(1 for e in w.recipes.values() for r in e["mod"] if r.get("inactive"))
     total = sum(len(e["mod"]) for e in w.recipes.values())
-    print(f"\nNote: {unreadable} of {total} recipes have no readable ingredients and are not used as routes.")
+    print(f"\nNote: {inactive} of {total} recipes are inactive (load conditions not met) and ignored; "
+          f"{unreadable} active ones have no readable ingredients and are not used as routes.")
     return 0
 
 
@@ -274,6 +276,9 @@ def cmd_blocked(a):
     for r in entry["mod"]:
         if r.get("removed"):
             print(f"- {r['type']} [{r['jar']}]: removed by KubeJS")
+            continue
+        if r.get("inactive"):
+            print(f"- {r['type']} [{r['jar']}]: inactive (load condition not met in this pack)")
             continue
         miss = []
         for ing in r["ings"]:

@@ -44,7 +44,7 @@ invent or copy Verdant dump data into Liminal.
 
 ## What the dump contains
 
-Recipes from the mod jars **and the Minecraft client jar** (found in Prism's `libraries/com/mojang/minecraft/`, or set `RECIPE_WIKI_VANILLA_JAR`), so vanilla recipes such as the furnace are in the data. Recipes whose ingredients sit under unusual keys (Theurgy sources and salts, Ars pedestals, the Ex Deorum sieve mesh) are read by scanning the whole recipe. The `tags` key holds item-tag membership from the same jars, with nested tags resolved. `scripts/series-reach.py` reads all of this.
+Recipes from the mod jars **and the Minecraft client jar** (found in Prism's `libraries/com/mojang/minecraft/`, or set `RECIPE_WIKI_VANILLA_JAR`), so vanilla recipes such as the furnace are in the data. Recipes whose ingredients sit under unusual keys (Theurgy sources and salts, Ars pedestals, the Ex Deorum sieve mesh) are read by scanning the whole recipe. The `tags` key holds item-tag membership from the same jars (and NeoForge's own jar, which defines the common `c:` tags), with nested tags resolved and members from mods that are not installed left out. Recipes whose NeoForge load conditions are not met in this pack (compat recipes for a missing mod, or a tag that is empty here) are kept but marked `"inactive": true`; the analyzer and `series-reach.py` ignore them. `scripts/series-reach.py` reads all of this.
 
 ## One command (recommended)
 
