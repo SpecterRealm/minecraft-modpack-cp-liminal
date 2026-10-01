@@ -74,50 +74,73 @@ doctor() {
 snapshot() {
   doctor
   [[ "$ACCEPT_EULA" == "true" ]] || { echo "Pass --accept-eula to accept the Minecraft EULA (https://aka.ms/MinecraftEULA)." >&2; exit 1; }
-  local name="modpack-lab-$$" srv="$OUT/server" http_pid=""
-  cleanup() {
-    [[ -n "$http_pid" ]] && kill "$http_pid" 2>/dev/null || true
+  name="modpack-lab-$$"; srv="$OUT/server"; served="$OUT/pack-served"; excl="$OUT/exclude-mods.txt"
+  local round=0 max_rounds=10 status=""
+  http_pid=""
+  stop_all() {
+    [[ -n "${http_pid:-}" ]] && kill "$http_pid" 2>/dev/null || true
+    http_pid=""
     docker rm -f "$name" >/dev/null 2>&1 || true
   }
-  trap cleanup EXIT
+  trap stop_all EXIT
 
-  rm -rf "$srv"; mkdir -p "$srv/kubejs/server_scripts" "$OUT/extra-mods"
+  rm -rf "$srv"; mkdir -p "$srv/kubejs/server_scripts" "$OUT/extra-mods"; touch "$excl"
   cp "$HERE/export/zz_lab_export.js" "$srv/kubejs/server_scripts/zz_lab_export.js"
 
-  echo "serving the pack on port $PORT"
-  python3 -m http.server "$PORT" --bind 0.0.0.0 --directory "$PACK" >"$OUT/http.log" 2>&1 &
-  http_pid=$!
+  while :; do
+    round=$((round + 1))
+    # Serve a copy of the pack without the mods known to be client-only (the original pack is not touched).
+    python3 "$HERE/packtool.py" prune --src "$PACK" --dst "$served" --exclude-file "$excl"
+    echo "round $round: serving the pack on port $PORT and starting the server (first run downloads the image and mods)"
+    python3 -m http.server "$PORT" --bind 0.0.0.0 --directory "$served" >"$OUT/http.log" 2>&1 &
+    http_pid=$!
+    docker rm -f "$name" >/dev/null 2>&1 || true
+    docker run -d --name "$name" \
+      --add-host=host.docker.internal:host-gateway \
+      -e EULA=TRUE -e TYPE=NEOFORGE \
+      -e VERSION="$(toml_get minecraft)" -e NEOFORGE_VERSION="$(toml_get neoforge)" \
+      -e PACKWIZ_URL="http://host.docker.internal:$PORT/pack.toml" \
+      -e MEMORY="$MEMORY" -e ONLINE_MODE=FALSE -e LEVEL_TYPE=minecraft:flat \
+      -e VIEW_DISTANCE=2 -e SIMULATION_DISTANCE=2 -e SPAWN_PROTECTION=0 -e ENABLE_RCON=false \
+      -e UID="$(id -u)" -e GID="$(id -g)" \
+      -v "$srv:/data" -v "$OUT/extra-mods:/mods:ro" \
+      "$IMAGE" >/dev/null
 
-  echo "starting the server container (first run downloads the image and mods; this takes a while)"
-  docker run -d --name "$name" \
-    --add-host=host.docker.internal:host-gateway \
-    -e EULA=TRUE -e TYPE=NEOFORGE \
-    -e VERSION="$(toml_get minecraft)" -e NEOFORGE_VERSION="$(toml_get neoforge)" \
-    -e PACKWIZ_URL="http://host.docker.internal:$PORT/pack.toml" \
-    -e MEMORY="$MEMORY" -e ONLINE_MODE=FALSE -e LEVEL_TYPE=minecraft:flat \
-    -e VIEW_DISTANCE=2 -e SIMULATION_DISTANCE=2 -e SPAWN_PROTECTION=0 -e ENABLE_RCON=false \
-    -e UID="$(id -u)" -e GID="$(id -g)" \
-    -v "$srv:/data" -v "$OUT/extra-mods:/mods:ro" \
-    "$IMAGE" >/dev/null
+    local waited=0; status=timeout
+    while [[ $waited -lt $TIMEOUT ]]; do
+      if grep -qs '\[LABDUMP\] done' "$srv/logs/kubejs/server.log" "$srv/logs/latest.log" 2>/dev/null; then status=done; break; fi
+      if [[ "$(docker inspect -f '{{.State.Running}}' "$name" 2>/dev/null)" != "true" ]]; then status=exited; break; fi
+      sleep 5; waited=$((waited + 5))
+    done
+    docker logs "$name" >"$OUT/lab.log" 2>&1 || true
+    [[ -n "$http_pid" ]] && kill "$http_pid" 2>/dev/null || true; http_pid=""
+    [[ "$status" == "done" ]] && break
 
-  local waited=0 done_line=""
-  while [[ $waited -lt $TIMEOUT ]]; do
-    if grep -qs '\[LABDUMP\] done' "$srv/logs/kubejs/server.log" "$srv/logs/latest.log" 2>/dev/null; then done_line=1; break; fi
-    if [[ "$(docker inspect -f '{{.State.Running}}' "$name" 2>/dev/null)" != "true" ]]; then
-      echo "the server container stopped before the dump finished. Last log lines:" >&2
-      docker logs --tail 60 "$name" >&2 || true
-      echo "(if a mod could not be downloaded, put its jar in $OUT/extra-mods/ and run again)" >&2
-      exit 1
+    if [[ "$status" == "exited" && $round -lt $max_rounds ]]; then
+      local found
+      found="$(python3 "$HERE/packtool.py" detect --log "$OUT/lab.log" --mods-dir "$srv/mods" --pack "$PACK/mods" || true)"
+      found="$(comm -13 <(sort -u "$excl") <(printf '%s\n' "$found" | sort -u) | sed '/^$/d')"
+      if [[ -n "$found" ]]; then
+        echo "client-only mods the server cannot load; leaving them out and trying again:"
+        printf '  %s\n' $found
+        printf '%s\n' $found >>"$excl"
+        continue
+      fi
     fi
-    sleep 5; waited=$((waited + 5))
+    echo "the server $( [[ $status == exited ]] && echo stopped || echo "timed out after ${TIMEOUT}s" ) before the dump finished. Last log lines:" >&2
+    tail -60 "$OUT/lab.log" >&2
+    echo "(full log: $OUT/lab.log; if a mod could not be downloaded, put its jar in $OUT/extra-mods/ and run again)" >&2
+    exit 1
   done
-  docker logs "$name" >"$OUT/lab.log" 2>&1 || true
-  [[ -n "$done_line" ]] || { echo "timed out after ${TIMEOUT}s without the dump finishing (see $OUT/lab.log)" >&2; exit 1; }
 
   echo "dump finished; stopping the server"
   docker stop -t 60 "$name" >/dev/null 2>&1 || true
   python3 "$HERE/parse_log.py" --pack-name "$(toml_get name)" --out "$OUT/snapshot.json" \
     --log "$srv/logs/kubejs/server.log" --log "$srv/logs/latest.log"
+  if [[ -s "$excl" ]]; then
+    echo "left out as client-only ($(wc -l <"$excl" | tr -d ' ')); consider 'side = \"client\"' in their pw.toml files:"
+    sed 's/^/  /' "$excl"
+  fi
   echo "snapshot: $OUT/snapshot.json"
 }
 

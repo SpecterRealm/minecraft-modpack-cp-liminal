@@ -23,13 +23,16 @@ Or call it directly: `tools/modpack-lab/lab.sh snapshot --pack ../other-pack --o
 1. Serves the pack folder (`pack.toml`, `index.toml`, `mods/`) with a small local web server.
 2. Starts `itzg/minecraft-server` (NeoForge, version from `pack.toml`), pointing `PACKWIZ_URL` at it. The image
    installs the mods for the server side only.
-3. A KubeJS script (`export/zz_lab_export.js`) prints each recipe as a `[LABDUMP]` line in the KubeJS log.
-4. `parse_log.py` collects those lines into `snapshot.json`; the server is stopped.
+3. If the server cannot load a mod because it is client-only (the pack does not mark every one), the mod is
+   left out of the served copy of the pack and the run repeats. The list is kept in `.lab/exclude-mods.txt`.
+4. A KubeJS script (`export/zz_lab_export.js`) prints each recipe as a `[LABDUMP]` line in the KubeJS log.
+5. `parse_log.py` collects those lines into `snapshot.json`; the server is stopped.
 
 ## Files
 
 - `lab.sh`: doctor and snapshot commands
 - `export/zz_lab_export.js`: the in-game exporter (read-only)
+- `packtool.py`: makes the pruned pack copy and detects client-only mods from the crash log
 - `parse_log.py`: log lines to `snapshot.json` (schema 1)
 - `lab.mk`: make targets
 - `../../scripts/snapshot-to-dump.py`: Liminal-specific converter to the dump format
