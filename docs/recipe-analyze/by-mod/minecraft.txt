@@ -1,6 +1,6 @@
 # mod: minecraft
-# items: 1050
-# jar_recipes_on_results: 3737
+# items: 1110
+# jar_recipes_on_results: 4458
 # installed: yes
 
 minecraft:acacia_boat
@@ -124,6 +124,7 @@ minecraft:brain_coral
 minecraft:brain_coral_block
 minecraft:brain_coral_fan
 minecraft:bread
+minecraft:breeze_rod
 minecraft:brewing_stand
 minecraft:brick
 minecraft:brick_slab
@@ -138,6 +139,7 @@ minecraft:brown_concrete
 minecraft:brown_concrete_powder
 minecraft:brown_dye
 minecraft:brown_glazed_terracotta
+minecraft:brown_mushroom
 minecraft:brown_stained_glass
 minecraft:brown_stained_glass_pane
 minecraft:brown_terracotta
@@ -239,6 +241,7 @@ minecraft:cracked_stone_bricks
 minecraft:crafter
 minecraft:crafting_table
 minecraft:creeper_banner_pattern
+minecraft:creeper_head
 minecraft:crimson_button
 minecraft:crimson_door
 minecraft:crimson_fence
@@ -295,7 +298,22 @@ minecraft:dark_prismarine
 minecraft:dark_prismarine_slab
 minecraft:dark_prismarine_stairs
 minecraft:daylight_detector
+minecraft:dead_brain_coral
+minecraft:dead_brain_coral_block
+minecraft:dead_brain_coral_fan
+minecraft:dead_bubble_coral
+minecraft:dead_bubble_coral_block
+minecraft:dead_bubble_coral_fan
 minecraft:dead_bush
+minecraft:dead_fire_coral
+minecraft:dead_fire_coral_block
+minecraft:dead_fire_coral_fan
+minecraft:dead_horn_coral
+minecraft:dead_horn_coral_block
+minecraft:dead_horn_coral_fan
+minecraft:dead_tube_coral
+minecraft:dead_tube_coral_block
+minecraft:dead_tube_coral_fan
 minecraft:decorated_pot
 minecraft:deepslate
 minecraft:deepslate_brick_slab
@@ -337,6 +355,7 @@ minecraft:dirt_path
 minecraft:disc_fragment_5
 minecraft:dispenser
 minecraft:dragon_egg
+minecraft:dragon_head
 minecraft:dried_kelp
 minecraft:dried_kelp_block
 minecraft:dripstone_block
@@ -348,6 +367,7 @@ minecraft:elytra
 minecraft:emerald
 minecraft:emerald_block
 minecraft:emerald_ore
+minecraft:enchanted_book
 minecraft:enchanted_golden_apple
 minecraft:enchanting_table
 minecraft:end_crystal
@@ -360,6 +380,7 @@ minecraft:end_stone_bricks
 minecraft:ender_chest
 minecraft:ender_eye
 minecraft:ender_pearl
+minecraft:experience_bottle
 minecraft:exposed_chiseled_copper
 minecraft:exposed_copper
 minecraft:exposed_copper_bulb
@@ -513,7 +534,6 @@ minecraft:lantern
 minecraft:lapis_block
 minecraft:lapis_lazuli
 minecraft:lapis_ore
-minecraft:lava
 minecraft:lava_bucket
 minecraft:lead
 minecraft:leather
@@ -599,6 +619,7 @@ minecraft:mangrove_wood
 minecraft:map
 minecraft:melon
 minecraft:melon_seeds
+minecraft:melon_slice
 minecraft:milk_bucket
 minecraft:minecart
 minecraft:mojang_banner_pattern
@@ -619,7 +640,25 @@ minecraft:mud_brick_wall
 minecraft:mud_bricks
 minecraft:muddy_mangrove_roots
 minecraft:mushroom_stew
+minecraft:music_disc_11
+minecraft:music_disc_13
 minecraft:music_disc_5
+minecraft:music_disc_blocks
+minecraft:music_disc_cat
+minecraft:music_disc_chirp
+minecraft:music_disc_creator
+minecraft:music_disc_creator_music_box
+minecraft:music_disc_far
+minecraft:music_disc_mall
+minecraft:music_disc_mellohi
+minecraft:music_disc_otherside
+minecraft:music_disc_pigstep
+minecraft:music_disc_precipice
+minecraft:music_disc_relic
+minecraft:music_disc_stal
+minecraft:music_disc_strad
+minecraft:music_disc_wait
+minecraft:music_disc_ward
 minecraft:mutton
 minecraft:mycelium
 minecraft:name_tag
@@ -669,6 +708,7 @@ minecraft:oak_trapdoor
 minecraft:oak_wood
 minecraft:observer
 minecraft:obsidian
+minecraft:ochre_froglight
 minecraft:orange_banner
 minecraft:orange_bed
 minecraft:orange_candle
@@ -695,6 +735,7 @@ minecraft:packed_mud
 minecraft:painting
 minecraft:paper
 minecraft:parrot_spawn_egg
+minecraft:pearlescent_froglight
 minecraft:phantom_membrane
 minecraft:pink_banner
 minecraft:pink_bed
@@ -803,6 +844,7 @@ minecraft:red_concrete
 minecraft:red_concrete_powder
 minecraft:red_dye
 minecraft:red_glazed_terracotta
+minecraft:red_mushroom
 minecraft:red_nether_brick_slab
 minecraft:red_nether_brick_stairs
 minecraft:red_nether_brick_wall
@@ -834,7 +876,11 @@ minecraft:sandstone_slab
 minecraft:sandstone_stairs
 minecraft:sandstone_wall
 minecraft:scaffolding
+minecraft:sculk
+minecraft:sculk_catalyst
+minecraft:sculk_sensor
 minecraft:sculk_shrieker
+minecraft:sculk_vein
 minecraft:sea_lantern
 minecraft:sea_pickle
 minecraft:sentry_armor_trim_smithing_template
@@ -913,16 +959,27 @@ minecraft:stone_stairs
 minecraft:stone_sword
 minecraft:stonecutter
 minecraft:string
+minecraft:stripped_acacia_log
 minecraft:stripped_acacia_wood
+minecraft:stripped_bamboo_block
+minecraft:stripped_birch_log
 minecraft:stripped_birch_wood
+minecraft:stripped_cherry_log
 minecraft:stripped_cherry_wood
 minecraft:stripped_crimson_hyphae
+minecraft:stripped_crimson_stem
+minecraft:stripped_dark_oak_log
 minecraft:stripped_dark_oak_wood
+minecraft:stripped_jungle_log
 minecraft:stripped_jungle_wood
+minecraft:stripped_mangrove_log
 minecraft:stripped_mangrove_wood
+minecraft:stripped_oak_log
 minecraft:stripped_oak_wood
+minecraft:stripped_spruce_log
 minecraft:stripped_spruce_wood
 minecraft:stripped_warped_hyphae
+minecraft:stripped_warped_stem
 minecraft:sugar
 minecraft:sugar_cane
 minecraft:sweet_berries
@@ -951,7 +1008,9 @@ minecraft:tuff_wall
 minecraft:turtle_egg
 minecraft:turtle_helmet
 minecraft:turtle_scute
+minecraft:verdant_froglight
 minecraft:vex_armor_trim_smithing_template
+minecraft:vine
 minecraft:ward_armor_trim_smithing_template
 minecraft:warped_button
 minecraft:warped_door
@@ -969,7 +1028,6 @@ minecraft:warped_slab
 minecraft:warped_stairs
 minecraft:warped_stem
 minecraft:warped_trapdoor
-minecraft:water
 minecraft:water_bucket
 minecraft:waxed_chiseled_copper
 minecraft:waxed_copper_block
@@ -1017,6 +1075,7 @@ minecraft:weathered_copper_trapdoor
 minecraft:weathered_cut_copper
 minecraft:weathered_cut_copper_slab
 minecraft:weathered_cut_copper_stairs
+minecraft:wet_sponge
 minecraft:wheat
 minecraft:wheat_seeds
 minecraft:white_banner
@@ -1053,3 +1112,4 @@ minecraft:yellow_stained_glass
 minecraft:yellow_stained_glass_pane
 minecraft:yellow_terracotta
 minecraft:yellow_wool
+minecraft:zombie_head
