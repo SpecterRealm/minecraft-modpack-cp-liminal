@@ -44,6 +44,13 @@ Three spellcasting systems (Ars, Iron's, Spell Engine) and at least four staff f
 - **Fairly clear**: Gateways, Apotheosis, Apothic Enchanting, Ars Elemental, Ars Additions, Iron's Jewelry (if Iron's stays) and Farming for Blockheads stay for now. Wooden Shears and Mystical Automation lean out.
 - **Open**: Apothic Spawners, Ars Elemancy, Ars Zero, Ars Controle, Not Enough Glyphs, Tough As Nails.
 
+## Decisions (maintainer)
+
+- **Removed from Elysian**: Wooden Shears, Mystical Automation, Apothic Spawners, Ars Elemancy, Ars Controle, Not Enough Glyphs. Done in the Elysian repo (SpecterRealm/minecraft-modpack-cp-elysian#38). Wooden Shears is also in Verdant, Influx and Liminal; only Elysian was decided, so the others stay until each pack is reviewed.
+- **Wizards stays in Elysian.** Option 1 from the spell-system count: each system gets a niche (Ars for utility and Source, Iron's for combat spells, Spell Engine for the class kit and looks). The staff overlap (Ars Zero, Iron's, Wizards, Elemental foci) still needs a gear-role pass; Ars Zero stays open.
+- **Still open**: Ars Zero, Tough As Nails (calm Verdant question), and the unchanged keeps.
+- **Liminal** keeps the union for now; these six mods are still in Liminal and need their own reason there or removal later.
+
 ## Next
 
 1. Maintainer call on the spell-system count.
