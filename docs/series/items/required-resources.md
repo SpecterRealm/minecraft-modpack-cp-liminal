@@ -82,7 +82,7 @@ Options to close it (decide later; KubeJS fits the pattern from Verdant's `blazi
 
 Also needed: **one iron ingot** for the first ritual. Elysian's quests already hand out inferium seeds and a Silent Gear pickaxe, so a starter iron ingot as a reward is in the same style.
 
-Not yet checked: Theurgy (Elysian's other bootstrap candidate), Apothic Spawners and Gateways to Eternity drops.
+Theurgy and Gateways to Eternity were read later (section 3d). Apothic Spawners was removed from Elysian.
 
 ### Influx: the ship design already answers the first unit
 
@@ -139,6 +139,31 @@ Productive Bees (diamond, emerald, gold, iron, redstone, lapis, netherite, urani
 2. A lava source (Magmator, Thermo and the paste) other than the crate bucket.
 3. A nether star route for the Nitro tier, or accept the pack stops at Spirited.
 4. Whether to give Powah's Reactor a route (uraninite) or leave it out.
+
+## 3d. Elysian: Theurgy and Gateways to Eternity (source read)
+
+Read from `klikli-dev/theurgy` (release/v1.21.1-1.76.1, generated recipe data and item tags) and `Shadows-of-Fire/GatewaysToEternity` (1.21 branch).
+
+### Theurgy: a multiplier, not a first sample
+
+- **Incubation** makes finished items from alchemical sulfur plus salt plus mercury shards. It has recipes for iron, gold, copper, diamond, netherite, **iesnium**, lapis, redstone, coal, prismarine, clay, sand, **string, leather, wool, rabbit hide, blaze rod, ghast tear, ender pearl, nether star** and many more. So every input in section 1 has an incubation recipe.
+- **The sulfur comes from the material itself**: liquefaction turns an ingot, ore or raw item into its sulfur (for example `alchemical_sulfur_iron_from_ingots_iron`).
+- **Reformation** converts between sulfurs of the same rarity tier for mercury flux, and conditions it on the target ingot tag existing. Tiers (from the item tags): common metals are iron, zinc, osmium, nickel, lead, tin, aluminum, desh, antimony; abundant is copper; rare is gold, silver, uranium, azure silver, crimson iron and others; **precious is netherite, iesnium and the modded top metals**. Abundant mobs: string, bone, spider eye, gunpowder, rotten flesh. Common mobs: blaze rod, ender pearl, slime ball, prismarine shard, magma cream. Rare mobs: ghast tear, shulker shell, elytra. Precious mobs: nether star, dragon egg, heart of the sea.
+- **What this means**: Theurgy needs one real sample from a tier to start, then can turn that tier's sulfur into any other metal in the same tier. It does not solve the first-iesnium chokepoint (iesnium and netherite share the precious tier, but the first precious sample still has to exist). It does make the **iron-to-zinc-to-tin** class of metals, and the abundant mob drops, repeatable once Occultism's miners or Mystical Agriculture give the first unit.
+- Not checked: where the first niter and mercury shard come from, and the time and power cost per incubation. Verify in play before relying on it.
+
+### Gateways to Eternity: rewards are pack-authored
+
+The mod ships four example gateways (`basic/blaze`, `basic/slime`, `basic/enderman`, `endless/blaze`, plus named gates such as `emerald_grove`, `hellish_fortress`, `overworldian_nights`) and gear sets. Every shipped reward is `gateways:entity_loot` (rolls of the wave mob's own drop table, 10 to 15 rolls per wave for the blaze gate). So **a gateway is a route to mob drops (blaze rods, slime balls, ender pearls)**, and what a gate pays out is whatever the pack's gateway data says. Elysian has to author its own gate list and rewards; there is nothing to read from the mod beyond the examples. Apothic Spawners is no longer in Elysian.
+
+### Effect on the open items
+
+| Item | Result |
+|---|---|
+| Blaze, ender pearl, ghast tear, string, leather | Reachable by Theurgy incubation once the first sample exists, and by Gateways loot rolls |
+| Iesnium chokepoint | Not closed by Theurgy; still needs the KubeJS recipe or quest reward |
+| First iron | Occultism, or one Theurgy sample |
+| Gate rewards | A pack authoring task |
 
 ## 4. Decision direction (maintainer)
 
