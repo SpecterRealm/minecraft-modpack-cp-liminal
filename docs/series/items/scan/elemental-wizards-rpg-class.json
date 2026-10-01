@@ -1,0 +1,638 @@
+{
+ "repo": "ProfessorFichte/Elemental-Wizards-RPG-Class",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "elemental_wizards_rpg"
+ ],
+ "item_count": 75,
+ "compat": [
+  {
+   "id": "spell_engine",
+   "slug": "spell-engine",
+   "evidence": {
+    "data-ref": 36,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "wizards",
+   "slug": "wizards",
+   "evidence": {
+    "data-ref": 2,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "elemental_wizards_rpg:dripstone_big": {
+   "kind": "entity",
+   "name": "Dripstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:dripstone_small": {
+   "kind": "entity",
+   "name": "Small Dripstone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:earth_golem": {
+   "kind": "entity",
+   "name": "Earth Golem",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:earth_golem_spike": {
+   "kind": "entity",
+   "name": "Earth Golem Spike",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:earthquake": {
+   "kind": "entity",
+   "name": "Earthquake",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:healing_rain_cloud": {
+   "kind": "entity",
+   "name": "Healing Rain Cloud",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:terra_stone": {
+   "kind": "entity",
+   "name": "Terra Stone",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:tidal_wave": {
+   "kind": "entity",
+   "name": "Tidal Wave",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:tornado": {
+   "kind": "entity",
+   "name": "Tornado",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:whirlwind": {
+   "kind": "entity",
+   "name": "Whirlwind",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:dripstone_chest": {
+   "kind": "item",
+   "name": "Terra Robe Top",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:dripstone_feet": {
+   "kind": "item",
+   "name": "Terra Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:dripstone_head": {
+   "kind": "item",
+   "name": "Terra Hat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:dripstone_legs": {
+   "kind": "item",
+   "name": "Terra Robe Bottom",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:elemental_chest": {
+   "kind": "item",
+   "name": "Elemental Apprentice Robe Top",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:elemental_essence": {
+   "kind": "item",
+   "name": "Elemental Essence",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:elemental_feet": {
+   "kind": "item",
+   "name": "Elemental Apprentice Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:elemental_head": {
+   "kind": "item",
+   "name": "Elemental Apprentice Hat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:elemental_legs": {
+   "kind": "item",
+   "name": "Elemental Apprentice Robe Bottom",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:hurricane_robe_chest": {
+   "kind": "item",
+   "name": "Hurricane Robe Top",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:hurricane_robe_feet": {
+   "kind": "item",
+   "name": "Hurricane Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:hurricane_robe_head": {
+   "kind": "item",
+   "name": "Hurricane Hat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:hurricane_robe_legs": {
+   "kind": "item",
+   "name": "Hurricane Robe Bottom",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:kelp_chest": {
+   "kind": "item",
+   "name": "Aqua Robe Top",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:kelp_feet": {
+   "kind": "item",
+   "name": "Aqua Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:kelp_head": {
+   "kind": "item",
+   "name": "Aqua Hat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:kelp_legs": {
+   "kind": "item",
+   "name": "Aqua Robe Bottom",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:mountain_robe_chest": {
+   "kind": "item",
+   "name": "Mountain Robe Top",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:mountain_robe_feet": {
+   "kind": "item",
+   "name": "Mountain Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:mountain_robe_head": {
+   "kind": "item",
+   "name": "Mountain Hat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:mountain_robe_legs": {
+   "kind": "item",
+   "name": "Mountain Robe Bottom",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:netherite_dripstone_chest": {
+   "kind": "item",
+   "name": "Netherite Terra Robe Top",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:netherite_dripstone_feet": {
+   "kind": "item",
+   "name": "Netherite Terra Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:netherite_dripstone_head": {
+   "kind": "item",
+   "name": "Netherite Terra Hat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:netherite_dripstone_legs": {
+   "kind": "item",
+   "name": "Netherite Terra Robe Bottom",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:netherite_kelp_chest": {
+   "kind": "item",
+   "name": "Netherite Aqua Robe Top",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:netherite_kelp_feet": {
+   "kind": "item",
+   "name": "Netherite Aqua Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:netherite_kelp_head": {
+   "kind": "item",
+   "name": "Netherite Aqua Hat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:netherite_kelp_legs": {
+   "kind": "item",
+   "name": "Netherite Aqua Robe Bottom",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:netherite_wind_chest": {
+   "kind": "item",
+   "name": "Netherite Wind Robe Top",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:netherite_wind_feet": {
+   "kind": "item",
+   "name": "Netherite Wind Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:netherite_wind_head": {
+   "kind": "item",
+   "name": "Netherite Wind Hat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:netherite_wind_legs": {
+   "kind": "item",
+   "name": "Netherite Wind Robe Bottom",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:ocean_robe_chest": {
+   "kind": "item",
+   "name": "Ocean Robe Top",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:ocean_robe_feet": {
+   "kind": "item",
+   "name": "Ocean Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:ocean_robe_head": {
+   "kind": "item",
+   "name": "Ocean Hat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:ocean_robe_legs": {
+   "kind": "item",
+   "name": "Ocean Robe Bottom",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:spell_scroll/aqua": {
+   "kind": "item",
+   "name": "Water Spell Scroll",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:spell_scroll/terra": {
+   "kind": "item",
+   "name": "Earth Spell Scroll",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:spell_scroll/wind": {
+   "kind": "item",
+   "name": "Wind Spell Scroll",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:staff_aeternium_wind": {
+   "kind": "item",
+   "name": "Aeternium Wind Staff",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:staff_aether": {
+   "kind": "item",
+   "name": "Valkyrie Elementalist Staff",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:staff_aqua": {
+   "kind": "item",
+   "name": "Aqua Staff",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:staff_crystal_aqua": {
+   "kind": "item",
+   "name": "Crystal Aqua Staff",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:staff_elemental": {
+   "kind": "item",
+   "name": "Elemental Staff",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:staff_netherite_aqua": {
+   "kind": "item",
+   "name": "Netherite Aqua Staff",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:staff_netherite_terra": {
+   "kind": "item",
+   "name": "Netherite Terra Staff",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:staff_netherite_wind": {
+   "kind": "item",
+   "name": "Netherite Wind Staff",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:staff_ruby_terra": {
+   "kind": "item",
+   "name": "Ruby Terra Staff",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:staff_terra": {
+   "kind": "item",
+   "name": "Terra Staff",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:staff_wind": {
+   "kind": "item",
+   "name": "Wind Staff",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:unique_staff_1": {
+   "kind": "item",
+   "name": "Avatar's Staff",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:wand_aqua": {
+   "kind": "item",
+   "name": "Aqua Wand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:wand_clay": {
+   "kind": "item",
+   "name": "Clay Wand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:wand_feather": {
+   "kind": "item",
+   "name": "Feather Wand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:wand_kelp": {
+   "kind": "item",
+   "name": "Kelp Wand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:wand_netherite_aqua": {
+   "kind": "item",
+   "name": "Netherite Aqua Wand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:wand_netherite_terra": {
+   "kind": "item",
+   "name": "Netherite Terra Wand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:wand_netherite_wind": {
+   "kind": "item",
+   "name": "Netherite Wind Wand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:wand_terra": {
+   "kind": "item",
+   "name": "Terra Wand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:wand_wind": {
+   "kind": "item",
+   "name": "Wind Wand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:wind_chest": {
+   "kind": "item",
+   "name": "Wind Robe Top",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:wind_feet": {
+   "kind": "item",
+   "name": "Wind Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:wind_head": {
+   "kind": "item",
+   "name": "Wind Hat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "elemental_wizards_rpg:wind_legs": {
+   "kind": "item",
+   "name": "Wind Robe Bottom",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-10-01",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "First read from source; see rpg-classes.md.",
+  "class": "candidate",
+  "purpose": "Elemental Wizards class gear"
+ }
+}
