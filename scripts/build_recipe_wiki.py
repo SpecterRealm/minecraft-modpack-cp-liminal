@@ -16,14 +16,16 @@ REPO = HERE.parent
 sys.path.insert(0, str(HERE))
 
 CORE = HERE / "recipe_wiki_core.py"
-if not CORE.exists():
-    parts_dir = REPO / ".github" / "recipe-wiki-parts"
-    parts = sorted(parts_dir.glob("core.part*"))
-    if not parts:
-        raise SystemExit(
-            f"Missing {CORE.name} and no parts under {parts_dir}"
-        )
-    CORE.write_text("".join(p.read_text(encoding="utf-8") for p in parts), encoding="utf-8")
+# The core is assembled from the tracked parts. Rebuild it whenever the parts differ, so an old
+# assembled copy (it is gitignored) can never be used after the parts change.
+parts_dir = REPO / ".github" / "recipe-wiki-parts"
+parts = sorted(parts_dir.glob("core.part*"))
+if parts:
+    assembled = "".join(p.read_text(encoding="utf-8") for p in parts)
+    if not CORE.exists() or CORE.read_text(encoding="utf-8") != assembled:
+        CORE.write_text(assembled, encoding="utf-8")
+elif not CORE.exists():
+    raise SystemExit(f"Missing {CORE.name} and no parts under {parts_dir}")
 
 from recipe_wiki_render import main
 
