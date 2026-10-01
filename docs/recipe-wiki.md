@@ -42,6 +42,10 @@ Cloud VMs usually lack Prism JARs. Ship tooling there; run `make recipe-audit` o
 Mac with `CP-Liminal-Dev` mods installed, then commit the generated files. Do **not**
 invent or copy Verdant dump data into Liminal.
 
+## What the dump contains
+
+Recipes from the mod jars **and the Minecraft client jar** (found in Prism's `libraries/com/mojang/minecraft/`, or set `RECIPE_WIKI_VANILLA_JAR`), so vanilla recipes such as the furnace are in the data. Recipes whose ingredients sit under unusual keys (Theurgy sources and salts, Ars pedestals, the Ex Deorum sieve mesh) are read by scanning the whole recipe. The `tags` key holds item-tag membership from the same jars, with nested tags resolved. `scripts/series-reach.py` reads all of this.
+
 ## One command (recommended)
 
 ```bash

@@ -11,6 +11,7 @@ from recipe_wiki_core import (
     build_slim,
     datetime,
     extract_jar_recipes,
+    extract_tags,
     json,
     parse_kubejs,
     timezone,
@@ -101,12 +102,14 @@ def main():
     removals, additions = parse_kubejs()
     slim                = build_slim(jar_recipes, removals, additions)
     textures            = extract_textures()
+    tags                = extract_tags()
 
     # Write JSON index
     OUT_JSON.write_text(
         json.dumps({
             "generated": datetime.now(timezone.utc).isoformat(),
             "item_count": len(slim),
+            "tags": tags,
             "recipes": slim,
         }, indent=2),
         encoding="utf-8",
