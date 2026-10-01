@@ -31,7 +31,7 @@ The three teaching packs differ in *what is scarce*. That is the whole design.
 - **Story stays about technology.** The Veil appears as a word only (see [`story.md`](story.md#the-veil--reveal-ladder)).
 - All metal via sieving. Ore chunks do not smelt directly.
 - Tech-first arc: Survive → Establish → Automate → Infrastructure → Computing → Networks → Scale → Command.
-- Teaching pillars: **Create**, **Mekanism** (+ Generators/Tools), **AE2** (+ addon ecosystem), power (Extreme Reactors, Flux Networks). Storage: Sophisticated Storage.
+- Teaching pillars: **Create**, **Mekanism** (+ Generators), **AE2** (+ addon ecosystem), power (Mekanism Generators, Powah, Flux Networks). Storage: Sophisticated Storage.
 - Verdant is also the tooling reference for the series.
 
 ### Elysian — "Learn to shape what you cannot craft"
@@ -46,10 +46,10 @@ The three teaching packs differ in *what is scarce*. That is the whole design.
 - You are awake aboard the *Longwatch*, in flight, doing the final practical (genetic testing and the rest). **You are locked in.** There is no next island, no second floor, no new land to claim. The constraint is *space*, and the design question is *what do you do when you can't just expand?*
 - Resources come from what's aboard and what you can recover: salvage and debris are converted to typed matter, and typed matter feeds breeding and genetics for advanced materials. Every loop is closed — outputs become inputs.
 - **Pattern first, then convert — and EMC is the destination.** The ladder is: recycle what you have → keep a first pattern → convert → and finally EMC becomes the way things get made, like a Star Trek replicator (ProjectE, Replication, AutoEMC, AppliedE). It is earned step by step, not a day-one button.
-- Space is solved by going *in*: compact production (Productive Bees / Trees / Farming, AgriCraft), dense storage, and **AE2 Spanner** — pocket dimensions that can be used for almost anything (farms, labs, storage, machines) — rather than by building outward. Spanner is the answer to "I can't build another floor", not a second resource philosophy.
+- Space is solved by going *in*: compact production (Productive Bees / Trees, AgriCraft), dense storage, and **AE2 Spanner** — pocket dimensions that can be used for almost anything (farms, labs, storage, machines) — rather than by building outward. Spanner is the answer to "I can't build another floor", not a second resource philosophy.
 - **AE2 is a pillar here for automation in limited space.** Influx applies AE2 (taught in Verdant) rather than re-teaching it; more AE2 depth is welcome where it serves compact, closed-loop automation. Which AE2 addons come in is still to be decided.
 - **Azurum Miner is asteroid / debris mining.** The player is working what drifts near the ship. It turns into a **power** lesson: generating enough power to run the miner is the real challenge, pushing the scale-your-power idea. The power sources for it are still to be chosen.
-- **Crops and trees.** AgriCraft (a hands-on genetics system) and Productive Farming (about 160 crops, flower/dye breeding, bee integration) are both kept for now; the crop pillar is open ([Influx #31](https://github.com/SpecterRealm/minecraft-modpack-cp-influx/issues/31)). Botany Pots (+ Tiers, Trees) handle compact planting; Botany Trees is about where/how trees are planted and Productive Trees about what they produce, so both stay (compatibility to verify). Productive Bees is the bee-genetics pillar.
+- **Crops and trees.** AgriCraft (a hands-on genetics system) is the plant genetics pillar; Productive Farming was removed from all packs on 2026-10-01 because genetics is moving toward mobs and animals ([Influx #31](https://github.com/SpecterRealm/minecraft-modpack-cp-influx/issues/31)). Botany Pots (+ Tiers, Trees) handle compact planting; Botany Trees is about where/how trees are planted and Productive Trees about what they produce, so both stay (compatibility to verify). Productive Bees is the bee-genetics pillar.
 - Leans (soft-pinned, not final): salvage / Recovery Bay bootstrap → genetics and breeding → digital workspace tools. Recovery Bay is a KubeJS fallback only.
 - Owns Hostile Neural Networks, Placebo, and Azurum Miner (moved out of Verdant).
 
