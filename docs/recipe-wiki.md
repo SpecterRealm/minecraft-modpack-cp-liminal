@@ -11,6 +11,7 @@ artifacts agents can read from git.
 | `make recipe-wiki` | Full dump → `docs/recipe_data.json` + `docs/recipe_wiki.html` |
 | `make recipe-analyze` | Summaries from the dump + AgriCraft plant datapack scan → `docs/recipe-analyze/` |
 | `make recipe-audit` | `recipe-wiki` then `recipe-analyze` (use after mod list / KubeJS changes) |
+| `make recipe-pr` | **One command**: new branch, `recipe-audit`, commit, push, draft PR (`scripts/recipe-dump-pr.sh`) |
 | `make docs` | Serve `docs/` at http://localhost:8000/ |
 
 ## Outputs
@@ -23,7 +24,6 @@ artifacts agents can read from git.
 | `docs/recipe-analyze/by-mod/*.txt` | Item id lists per mod | **Tracked** |
 | `docs/recipe-analyze/*-seeds.txt` | Seed-like result ids (MA, AgriCraft, …) | **Tracked** |
 | `docs/recipe-analyze/agricraft-plants.txt` | AgriCraft datapack plants (not craft recipes) | **Tracked** after audit |
-| `docs/recipe-analyze/agricraft-plants.txt.gz.b64` | Compressed plant-list seed for git | **Tracked** |
 
 `scripts/analyze_recipe_wiki.py` is assembled from
 `.github/recipe-analyze-parts/analyze.py.gz.b64` on first `make recipe-analyze`
@@ -40,6 +40,15 @@ git commit -m "chore: refresh recipe dump + analyze"
 Cloud VMs usually lack Prism JARs. Ship tooling there; run `make recipe-audit` on a
 Mac with `CP-Liminal-Dev` mods installed, then commit the generated files. Do **not**
 invent or copy Verdant dump data into Liminal.
+
+## One command (recommended)
+
+```bash
+cd <pack repo root>
+make recipe-pr
+```
+
+It stops if the working tree is not dirty-free, branches from `origin/main` as `chore/recipe-dump-<pack>-<timestamp>`, runs `make recipe-audit`, commits `docs/recipe_data.json` and `docs/recipe-analyze/`, pushes, and opens a draft PR with `gh` (without `gh` it prints the compare link). If nothing changed against `main` it exits without a branch. Needs the `CP-<Pack>-Dev` Prism instance pulled once, or `RECIPE_WIKI_MODS_DIR=/path/to/mods make recipe-pr`. Same command in Verdant, Elysian, Influx and Liminal.
 
 ## How to run (full-pack dump)
 
