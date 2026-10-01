@@ -4505,6 +4505,239 @@
    "stages": [
     6
    ]
+  },
+  "applied-create": {
+   "feel": [
+    "tech"
+   ],
+   "add": "integration",
+   "also": [
+    "storage",
+    "automation"
+   ],
+   "gap": "Bridge between AE2 and Create: pattern providers that Create machines can feed, and stress stored in ME cells",
+   "fit": {
+    "V": [
+     "partial",
+     "AE2 and Create both late in Verdant; check the chapters"
+    ],
+    "L": [
+     "good",
+     "an AE2 and Create bridge, which is what Liminal is for"
+    ]
+   },
+   "note": "No public repo found (author loliball). Item list and recipes come from the installed-jar dump (36 items): andesite and brass pattern providers, ME gearbox, kinetic energy acceptor, stress circuits made in the AE2 inscriber, stress storage cells and components from 1k to 256m, creative stress cell. Recipes use AE2 inscriber and Create mechanical crafting. In Verdant and Liminal; a bridge candidate for Liminal.",
+   "status": "pending",
+   "stages": [
+    5
+   ]
+  },
+  "useful-projecte": {
+   "feel": [
+    "tech"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Not known: the installed jar (emc_transfer_fill_mod) adds no items and no recipes in the dump",
+   "fit": {
+    "I": [
+     "partial",
+     "ProjectE is Influx's EMC loop; unverified what this adds"
+    ],
+    "L": [
+     "partial",
+     "unverified"
+    ]
+   },
+   "note": "Pinned file emc_transfer_fill_mod-1.5.0.jar. No source found and no items or recipes in the dump, so it is a behavior mod; what it does is unverified. Check in game before keeping it.",
+   "status": "pending"
+  },
+  "forest-watchtower": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "content",
+   "also": [],
+   "gap": "Structure: watchtower in forests",
+   "fit": {},
+   "note": "Not reviewed. No items. One-line profile so the catalog is complete.",
+   "status": "pending"
+  },
+  "jungle-treehouse-village": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "content",
+   "also": [],
+   "gap": "Structure: treehouse village in jungles",
+   "fit": {},
+   "note": "Not reviewed. No items. One-line profile so the catalog is complete.",
+   "status": "pending"
+  },
+  "ruined-lighthouse": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "content",
+   "also": [],
+   "gap": "Structure: ruined lighthouse",
+   "fit": {},
+   "note": "Not reviewed. No items. One-line profile so the catalog is complete.",
+   "status": "pending"
+  },
+  "skeleton-ghost-ship": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "content",
+   "also": [],
+   "gap": "Structure: skeleton ghost ship",
+   "fit": {},
+   "note": "Not reviewed. No items. One-line profile so the catalog is complete.",
+   "status": "pending"
+  },
+  "underwater-village": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "content",
+   "also": [],
+   "gap": "Structure: underwater village (overlaps the NoCubes Sea Dwellers idea)",
+   "fit": {},
+   "note": "Not reviewed. No items. One-line profile so the catalog is complete.",
+   "status": "pending"
+  },
+  "wizard-tower": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "content",
+   "also": [],
+   "gap": "Structure: wizard tower",
+   "fit": {},
+   "note": "Not reviewed. No items. One-line profile so the catalog is complete.",
+   "status": "pending"
+  },
+  "illager-arena": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "content",
+   "also": [],
+   "gap": "Structure: illager arena",
+   "fit": {},
+   "note": "Not reviewed. No items. One-line profile so the catalog is complete.",
+   "status": "pending"
+  },
+  "terralith": {
+   "feel": [
+    "nature"
+   ],
+   "add": "content",
+   "also": [],
+   "gap": "World generation: biomes and terrain",
+   "fit": {},
+   "note": "Not reviewed in detail. World generation, no items. Verdant's design relies on Terralith terrain.",
+   "status": "pending"
+  },
+  "essential-mod": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Client mod: world hosting and cosmetics for friends",
+   "fit": {},
+   "note": "Not reviewed. Client-side, no items; check it is wanted in a distributed pack.",
+   "status": "pending"
+  },
+  "xaeros-minimap": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Client mod: minimap",
+   "fit": {},
+   "note": "Not reviewed. No items. One-line profile so the catalog is complete.",
+   "status": "pending"
+  },
+  "xaeros-world-map": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Client mod: world map",
+   "fit": {},
+   "note": "Not reviewed. No items. One-line profile so the catalog is complete.",
+   "status": "pending"
+  },
+  "invtweaks-emu-for-ipn": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "qol",
+   "also": [],
+   "gap": "Compatibility: Inventory Tweaks controls for Inventory Profiles Next",
+   "fit": {},
+   "note": "Not reviewed. No items. One-line profile so the catalog is complete.",
+   "status": "pending"
+  },
+  "irons-lib": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Library for Iron's mods (Spells, Jewelry)",
+   "fit": {},
+   "note": "Not reviewed. No items. One-line profile so the catalog is complete.",
+   "status": "pending"
+  },
+  "kubejs-eyejs": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "KubeJS add-on",
+   "fit": {},
+   "note": "Not reviewed. No items. One-line profile so the catalog is complete.",
+   "status": "pending"
+  },
+  "applied-kubejs-kjs-ae2": {
+   "feel": [
+    "tech"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "KubeJS add-on for AE2",
+   "fit": {},
+   "note": "Not reviewed. No items. One-line profile so the catalog is complete.",
+   "status": "pending"
+  },
+  "tough-as-nails-vanilla-pack": {
+   "feel": [
+    "survival"
+   ],
+   "add": "content",
+   "also": [],
+   "gap": "Companion pack for Tough As Nails",
+   "fit": {},
+   "note": "Not reviewed: what it changes is unverified. The Tough As Nails fit with the calm-teacher idea is already a flag in verdant-review.md.",
+   "status": "pending"
+  },
+  "specterrealm": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "content",
+   "also": [],
+   "gap": "The series' own pack content (specterrealm)",
+   "fit": {},
+   "note": "Not reviewed. Own content, no repo in the catalog.",
+   "status": "pending"
   }
  }
 }
