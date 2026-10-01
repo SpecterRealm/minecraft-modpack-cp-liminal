@@ -15,6 +15,14 @@ BASE=${BASE_BRANCH:-main}
 say() { printf '\n==> %s\n' "$*"; }
 die() { printf '\nSTOP: %s\n' "$*" >&2; exit 1; }
 
+# Leftover generated dump files (from an earlier run that stopped early) are not real changes: discard them
+GEN_EXCLUDES=(':(exclude)docs/recipe_data.json' ':(exclude)docs/recipe-analyze' ':(exclude)docs/recipe_wiki.html')
+if [ -n "$(git status --porcelain --untracked-files=no)" ] && [ -z "$(git status --porcelain --untracked-files=no -- . "${GEN_EXCLUDES[@]}")" ]; then
+  echo "Discarding leftover generated dump files (they are regenerated each run):"
+  git status --porcelain --untracked-files=no
+  git checkout -- docs/recipe_data.json docs/recipe-analyze 2>/dev/null || true
+  git checkout -- docs/recipe_wiki.html 2>/dev/null || true
+fi
 [ -z "$(git status --porcelain --untracked-files=no)" ] || die "tracked files have uncommitted changes. Commit or stash them first (git status)."
 UNTRACKED=$(git status --porcelain --untracked-files=normal | grep '^??' || true)
 [ -z "$UNTRACKED" ] || { echo "Note: ignoring untracked files (they stay as they are):"; echo "$UNTRACKED" | head -10; }
@@ -45,7 +53,7 @@ if git ls-files --error-unmatch docs/recipe_wiki.html >/dev/null 2>&1; then git 
 # Timestamps alone are not a change worth a PR
 if git diff --cached --quiet -I'"generated":' -I'^Generated: ' -I'^- Dump generated: ' -I'^# scanned: ' -I'^# mods_dir: ' -I'^- Mods dir: '; then
   echo "No change in the dump compared to $BASE (only timestamps). Nothing to commit."
-  git checkout -q "$START_REF"
+  git checkout -q -f "$START_REF"
   git branch -D "$BRANCH" >/dev/null
   exit 0
 fi
