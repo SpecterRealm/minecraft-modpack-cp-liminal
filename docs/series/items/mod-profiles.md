@@ -35,7 +35,10 @@ Packs: V Verdant (overworld, no ore, tech-first), E Elysian (void, magic only, n
 | ars-elemancy | L | magic | combat | armor | Elemental armor and foci (needs Ars Elemental) | - | partial | - |  |
 | ars-elemental | EL | magic | combat | armor | Four elemental schools: glyphs, armor, foci | - | good | - |  |
 | ars-zero | EL | magic | combat |  | New cast devices and glyphs | - | partial | - |  |
+| create-big-cannons | - | steampunk+tech | combat | content | Create multiblock cannons and autocannons with kinetic loading and aim | poor | poor | poor | partial |
 | irons-spells-n-spellbooks | EL | magic | combat | armor, content | Spellbooks, staffs, armor, mithril | - | good | - | good |
+| k-turrets | - | tech | combat | automation | Six turrets and six combat drones with per-mob targeting | partial | poor | poor | partial |
+| mekanism-turrets | - | tech | combat | automation | FE-powered laser turrets in four Mekanism tiers plus an electric fence | good | poor | poor | good |
 | mowzies-mobs | - | survival | combat | content, armor | Boss and mob content with its own gear: Ferrous Wroughtnaut, Frostmaw, | poor | partial | partial | good |
 | mutant-monsters | - | survival | combat | content | Combat content for Influx's outbreak: mutant bosses that the experimen | poor | partial | good | good |
 | apothic-spawners | L | magic | content |  | Spawner tweaks for Apotheosis | - | partial | - | partial |
@@ -57,15 +60,15 @@ Packs: V Verdant (overworld, no ore, tech-first), E Elysian (void, magic only, n
 | towns-and-towers | L | nature | content |  | World generation / structures | - | - | - |  |
 | witcher-rpg-class | - | survival | content | armor, resources, combat | Witcher class: silver and steel swords, glyph signs, medallions, traps | poor | poor | poor | partial |
 | farmers-delight | VEIL | nature | food |  | Cooking and meals | good | good | good | good |
-| farming-for-blockheads | VEL | nature | food |  | Market trading and farm helpers | partial | partial | partial | partial |
-| productivefarming | L | nature+breeding | food |  | About 160 crops, flowers, dyes | - | - | partial | partial |
+| farming-for-blockheads | V | nature | food |  | Market trading and farm helpers | partial | partial | partial | partial |
+| productivefarming | - | nature+breeding | food |  | About 160 crops, flowers, dyes | - | - | partial | partial |
 | ars-mekanica | L | magic+tech | power | integration | One block: Source Dynamo, turns Ars Nouveau Source into Mekanism power | poor | poor | poor | good |
 | better-fusion-reactor-for-mekanism | - | tech+sci-fi | power |  | Harder fusion reactor; irradiated ores | poor | - | - | partial |
 | charging-gadgets | VL | tech | power |  | Charging station for FE items | partial | - | - | partial |
 | createaddition | VL | steampunk+tech | power | storage | Stress to FE bridge: alternator, accumulator, connectors | good | - | - | good |
 | draconic-evolution | L | magic+tech | power | armor, tooling, storage | Endgame energy core, reactor, tiered gear | - | - | - | partial |
 | enderio | - | tech+magic | power | processing, storage | Capacitor banks, conduits, machines (candidate) | - | - | - | - |
-| extreme-reactors | VL | tech | power | storage | Reactor and turbine multiblocks; yellorium fuel | poor | - | poor | poor |
+| extreme-reactors | V | tech | power | storage | Reactor and turbine multiblocks; yellorium fuel | poor | - | poor | poor |
 | flux-networks | VIL | tech | power |  | Wireless FE transfer and flux storage | good | - | good | good |
 | immersive-engineering | - | steampunk+tech | power | processing, resources | Retro-industrial multiblocks: dynamo and generators, windmill/water wh | partial | poor | poor | - |
 | mekanism-generators | VL | tech | power |  | Heat, bio, gas, solar, wind generators; turbine, fission, fusion | good | - | - | good |
@@ -133,7 +136,7 @@ Packs: V Verdant (overworld, no ore, tech-first), E Elysian (void, magic only, n
 
 Magic-feel mods in Verdant: none
 
-**Elysian:** magic (12); nature (6); neutral (4); alchemy (2); survival (1); steampunk (1)
+**Elysian:** magic (12); nature (5); neutral (4); alchemy (2); survival (1); steampunk (1)
 
 Tech-feel mods in Elysian (pure tech, no magic co-feel): 
 
@@ -145,10 +148,10 @@ A mod lists every stage it serves. A stage with nothing under a pack is a gap; a
 
 | Stage | Verdant | Elysian | Influx |
 |---|---|---|---|
-| 0 Start (shelter, food) | akashic-tome, comforts, farmers-delight, farming-for-blockheads, tough-as-nails | akashic-tome, comforts, farmers-delight, farming-for-blockheads, tough-as-nails | akashic-tome, comforts, farmers-delight |
+| 0 Start (shelter, food) | akashic-tome, comforts, farmers-delight, farming-for-blockheads, tough-as-nails | akashic-tome, comforts, farmers-delight, tough-as-nails | akashic-tome, comforts, farmers-delight |
 | 1 Manual gathering | cobblegen-galore, create-cobblestone, ex-deorum, farmers-delight, kubejs-ex-deorum, kubejs-tweaks, silent-gear | ars-caelum, ars-nouveau, farmers-delight, kubejs-tweaks, silent-gear | farmers-delight, kubejs-tweaks, silent-gear |
 | 2 Storage and sorting | applied-energistics-2, extended-terminal, mekanism, more-tier-upgrade, simple-magnets, sophisticated-backpacks, sophisticated-storage | more-tier-upgrade, simple-magnets, sophisticated-backpacks, sophisticated-storage | applied-energistics-2, more-tier-upgrade, simple-magnets, sophisticated-backpacks, sophisticated-storage |
-| 3 Automate gathering | cobblegen-galore, create, create-cobblestone, ex-deorum, farming-for-blockheads, kubejs-create-automation, mekanism, mekanism-generators, mob-grinding-utils | ars-additions, ars-caelum, ars-nouveau, botany-pots, botany-trees, farming-for-blockheads, mystical-agriculture, occultism | agricraft-rereloaded, animal-pens, azurum-miner, botany-pots, botany-trees, hostile-neural-networks, productivebees, productivetrees |
+| 3 Automate gathering | cobblegen-galore, create, create-cobblestone, ex-deorum, farming-for-blockheads, kubejs-create-automation, mekanism, mekanism-generators, mob-grinding-utils | ars-additions, ars-caelum, ars-nouveau, botany-pots, botany-trees, mystical-agriculture, occultism | agricraft-rereloaded, animal-pens, azurum-miner, botany-pots, botany-trees, hostile-neural-networks, productivebees, productivetrees |
 | 4 Automate processing | applied-energistics-2, create, createaddition, ex-machinis-divitiae-deorum, mekanism, mekanism-generators, powah, productive-metalworks, silent-gear, silent-gear-metalworks | ars-nouveau, occultism, productive-metalworks, silent-gear, silent-gear-metalworks, theurgy | applied-energistics-2, powah, productive-metalworks, projecte, replication, silent-gear, silent-gear-metalworks |
 | 5 Scale loop | advancedae, applied-energistics-2, charging-gadgets, create, extreme-reactors, flux-networks, mega-cells, mekanism, mekanism-generators, mekanism-unleashed, morethermalevaporation, powah, productive-metalworks | botany-pots-tiers, mystical-agriculture, occultism, productive-metalworks | applied-energistics-2, botany-pots-tiers, flux-networks, powah, productive-metalworks, productivebees, projecte, replication |
 | 6 Capstone (content, gear, reason to play) | building-gadgets, building-wands, mekanism, mmmmmmmmmmmm, silent-gear | apotheosis, apothic-enchanting, ars-elemental, ars-nouveau, ars-zero, building-wands, gateways-to-eternity, irons-jewelry, irons-spells-n-spellbooks, mmmmmmmmmmmm, occultism, silent-gear | mmmmmmmmmmmm, silent-gear |
@@ -168,5 +171,5 @@ What each pack's non-library mods mainly contribute; a pack with nothing under a
 | automation | ex-machinis-divitiae-deorum | **none** | **none** |
 | combat | **none** | ars-elemental, ars-zero, irons-spells-n-spellbooks | **none** |
 | content | tough-as-nails | ars-nouveau, gateways-to-eternity, tough-as-nails | **none** |
-| food | farmers-delight, farming-for-blockheads | farmers-delight, farming-for-blockheads | farmers-delight |
+| food | farmers-delight, farming-for-blockheads | farmers-delight | farmers-delight |
 | building | building-gadgets | **none** | **none** |

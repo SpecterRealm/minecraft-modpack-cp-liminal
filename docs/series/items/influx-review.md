@@ -25,7 +25,7 @@ Nothing is removed. Influx's quest book is mostly stubs and waits until the mods
 
 ## Decisions (maintainer)
 
-- **Extreme Reactors swapped for Powah** in Influx (SpecterRealm/minecraft-modpack-cp-influx#39; ZeroCore goes with it). Why it works: Powah needs no ore and Influx already has its required libraries (Cloth Config, GuideME). **Open**: Powah's starter path needs a lava bucket or blaze powder (dielectric paste) and a redstone block, and its higher tiers need crystals made from diamond, emerald, blaze rod and netherite. The salvage crate list and the egg, spawner and Hostile Neural Networks arc have to supply them. Liminal keeps both Powah and Extreme Reactors.
+- **Extreme Reactors swapped for Powah** in Influx (SpecterRealm/minecraft-modpack-cp-influx#39; ZeroCore goes with it). Why it works: Powah needs no ore and Influx already has its required libraries (Cloth Config, GuideME). **Open**: Powah's starter path needs a lava bucket or blaze powder (dielectric paste) and a redstone block, and its higher tiers need crystals made from diamond, emerald, blaze rod or powder and a nether star (see `required-resources.md`; an earlier draft wrongly said netherite). The salvage crate list and the egg, spawner and Hostile Neural Networks arc have to supply them. Liminal keeps both Powah and Extreme Reactors.
 - **Dummmmmmy kept.**
 - **Farming for Blockheads and Productive Farming removed** from Influx (still in Liminal's union, each needing a reason there). This answers the Influx question in ticket #31.
 - **Productive Trees**: not decided; the space question stands.

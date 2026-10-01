@@ -4399,6 +4399,112 @@
    "stages": [
     6
    ]
+  },
+  "mekanism-turrets": {
+   "feel": [
+    "tech"
+   ],
+   "add": "combat",
+   "also": [
+    "automation"
+   ],
+   "gap": "FE-powered laser turrets in four Mekanism tiers plus an electric fence: automated defenses",
+   "fit": {
+    "V": [
+     "good",
+     "fills the named automated-defense gap for the megabuild; recipes use only Mekanism items"
+    ],
+    "L": [
+     "good",
+     "raise the config damage for Liminal"
+    ],
+    "E": [
+     "poor",
+     "no Mekanism or power"
+    ],
+    "I": [
+     "poor",
+     "no Mekanism"
+    ]
+   },
+   "note": "5 items. Damage 1 to 4, range 15 to 30 blocks, energy 10k to 160k, all config values. Needs Mekanism and GeckoLib. See verdant-defense-options.md. Repo x3rdev/MekanismTurrets (1.21).",
+   "works_with": "mekanism",
+   "status": "candidate",
+   "candidate": true,
+   "stages": [
+    6
+   ]
+  },
+  "create-big-cannons": {
+   "feel": [
+    "steampunk",
+    "tech"
+   ],
+   "add": "combat",
+   "also": [
+    "content"
+   ],
+   "gap": "Create multiblock cannons and autocannons with kinetic loading and aiming",
+   "fit": {
+    "V": [
+     "poor",
+     "a second weapons system, aimed rather than auto-targeting; nethersteel needs Nether"
+    ],
+    "L": [
+     "partial",
+     "a toy for the war zone"
+    ],
+    "E": [
+     "poor",
+     "no Create"
+    ],
+    "I": [
+     "poor",
+     "no Create"
+    ]
+   },
+   "note": "208 items. Community NeoForge 1.21.1 port repo Reider745/CreateBigCannons-NeoForge-1.21.1 (branch create-v6-1.21.1); the official build is on CurseForge. See verdant-defense-options.md.",
+   "works_with": "create",
+   "status": "candidate",
+   "candidate": true,
+   "stages": [
+    6
+   ]
+  },
+  "k-turrets": {
+   "feel": [
+    "tech"
+   ],
+   "add": "combat",
+   "also": [
+    "automation"
+   ],
+   "gap": "Six turrets and six combat drones with per-mob targeting",
+   "fit": {
+    "V": [
+     "partial",
+     "possible, but not read; GitHub has no 1.21 source"
+    ],
+    "L": [
+     "partial",
+     "possible"
+    ],
+    "E": [
+     "poor",
+     "not themed"
+    ],
+    "I": [
+     "poor",
+     "not themed"
+    ]
+   },
+   "note": "Not scanned: GitHub master is 1.20.1; the NeoForge 1.21.1 build is on CurseForge and Modrinth only. See verdant-defense-options.md.",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true,
+   "stages": [
+    6
+   ]
   }
  }
 }

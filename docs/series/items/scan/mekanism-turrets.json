@@ -1,0 +1,77 @@
+{
+ "repo": "x3rdev/MekanismTurrets",
+ "ref": "1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "mekanism_turrets"
+ ],
+ "item_count": 5,
+ "compat": [
+  {
+   "id": "geckolib",
+   "slug": "geckolib",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "mekanism",
+   "slug": "mekanism",
+   "evidence": {
+    "data-ref": 5,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "mekanism_turrets:electric_fence": {
+   "kind": "block",
+   "name": "Electric Fence",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "mekanism_turrets:basic_laser_turret": {
+   "kind": "block",
+   "name": "Basic Laser Turret",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "mekanism_turrets:advanced_laser_turret": {
+   "kind": "block",
+   "name": "Advanced Laser Turret",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "mekanism_turrets:elite_laser_turret": {
+   "kind": "block",
+   "name": "Elite Laser Turret",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  },
+  "mekanism_turrets:ultimate_laser_turret": {
+   "kind": "block",
+   "name": "Ultimate Laser Turret",
+   "tags": [
+    "feel:tech",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-10-01",
+  "mod_version": "1.21",
+  "pass": "loop-back",
+  "note": "First read from source; see verdant-defense-options.md.",
+  "class": "candidate",
+  "purpose": "Laser turrets and electric fence"
+ }
+}

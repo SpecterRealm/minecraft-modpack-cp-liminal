@@ -100,6 +100,46 @@ Influx's quest chapters so far: Welcome, Ship Camp, Typed Matter, Genetics Lab, 
 
 Ex Deorum manual-only stays the fallback if Theurgy and the crates turn out to leave gaps.
 
+## 3c. Influx: required-resource list (first pass)
+
+Influx's start is salvage crates, then typed matter (Replication), genetics, then EMC (ProjectE). Its generator is now **Powah** (Extreme Reactors was swapped out), its armor classes are Paladins & Priests and Bard (planned), its capstone arc is genetics to spawn eggs to spawners to Hostile Neural Networks. Everything below was read from source or from the pack; "to author" means a design decision that is not made yet.
+
+### Powah (read from Powah 6.2.10 recipe data)
+
+| Need | Used for | Verified detail | Route in Influx |
+|---|---|---|---|
+| Dielectric paste | Every generator and capacitor | 3 coal + 2 clay + 1 lava bucket makes 24; or 2 coal + 1 clay + 1 blaze powder makes 16 | Crates (coal, clay, lava or blaze powder); to author |
+| Tiny basic capacitor, dielectric casing | Every starter generator | Casing and capacitor are crafted from iron, paste and redstone (the capacitor needs a redstone block per the earlier note) | Crates (iron, redstone); to author |
+| Furnace | Starter Furnator | Any burnable fuel works (1 coal = 48,000 FE, a log = 9,000, a stick = 3,000) | Cobblestone or stone from crates, EMC or Replication; to author |
+| Bucket (and lava) | Starter Magmator | Lava is the fuel | A bucket from crates; lava source open |
+| Thermoelectric plate (blaze powder, redstone, tiny capacitor) | Thermo Generator | Needs a heat source (lava, magma block) plus coolant | Needs blaze powder; same blaze route |
+| Diamond | Niotic crystal (300,000 FE of energizing) | Higher tiers | ProjectE, Productive Bees diamond comb, Replication; a scale route |
+| Emerald | Spirited crystal (1,000,000 FE) | Higher tiers | Productive Bees emerald comb, ProjectE; a scale route |
+| Blaze rod or 4 blaze powder | Blazing crystal (120,000 FE) | Higher tiers | The genetics, egg, spawner, Hostile Neural Networks arc |
+| **Nether star** | Nitro crystal (20,000,000 FE; 1 star plus 2 redstone blocks plus a blazing crystal block makes 16) | Top tier (40,000 FE/t Furnator) | A Wither route (Hostile Neural Networks has a wither model); not checked whether a star drops; to author |
+| Uraninite | Powah Reactor (needs ore) | Fuel from ore or uranium | Skip this tier in Influx, or give it a route; Productive Bees has a uraninite comb |
+
+The **starter Furnator needs no ore and no power to start**, so the first generator is reachable from the crates alone. Everything above Basic needs energizing power, so the first generators have to run before the crystals can be made.
+
+### Armor and gear (Paladins & Priests, Bard)
+
+Base tiers use iron, gold, leather, string, wool, chain and (Paladins) ghast tears and diamond; Bard uses leather, string and gold. Top tiers add netherite, upgrade crystals and an Armory RPGs item (see `rpg-classes.md`). The animal drops (leather, wool, string) need live animals: Influx has Animal Pens for housing, but nothing yet supplies the **first** cow, sheep or spider, which the egg arc or Replication would.
+
+### What the crates need to hold (draft, to confirm in play)
+
+Enough to reach a running Furnator and a first gear tier: iron ingots, coal, clay, 9 or more redstone, a lava bucket or blaze powder, a bucket, cobblestone, and a handful of leather, string and wool. Then the genetics line (first mob cells), then the egg and spawner recipes for blaze powder. Quantities are not set; they depend on how large the egg and spawner costs are made.
+
+### Routes already in the pack that scale this up
+
+Productive Bees (diamond, emerald, gold, iron, redstone, lapis, netherite, uraninite combs), ProjectE (transmute any item once EMC exists), Replication (scan an item, then make it), Hostile Neural Networks (mob drops) and Azurum Miner (azurum). These are scale routes; the crates and the egg arc are the bootstrap.
+
+### Open
+
+1. Final crate list and quantities.
+2. A lava source (Magmator, Thermo and the paste) other than the crate bucket.
+3. A nether star route for the Nitro tier, or accept the pack stops at Spirited.
+4. Whether to give Powah's Reactor a route (uraninite) or leave it out.
+
 ## 4. Decision direction (maintainer)
 
 - **Ex Deorum as the manual kickstart fallback for every pack**, with the automated parts removed: no Mechanical Sieve, no Mechanical Hammer, no powered crushing. What stays is the manual sieve, barrel, crucible and hand hammer. The player can start, then has to ask how to automate it, which pushes them to the pack's own systems (magical crops in Elysian, conversion in Influx).
