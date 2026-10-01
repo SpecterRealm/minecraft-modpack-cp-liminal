@@ -24,6 +24,7 @@ This is not a wish list. Each entry records what the item does, its numbers, wha
 | `capstones-and-gear.md` | Why each pack is played (capstone) and the rule that every gear item needs a job, with Silent Gear data |
 | `required-resources.md` | What each pack must be able to get (gear tiers, crops, machines) and the bootstrap versus scale routes per pack; Ex Deorum manual-only as the fallback |
 | `elysian-review.md` | Elysian's partial-fit mods reviewed one by one, with the spell-system count the Wizards decision raises |
+| `verdant-review.md` | Verdant's partial-fit mods reviewed one by one, with usage in quests and KubeJS |
 | `rpg-classes.md` | RPG class mods: the chosen ones, five candidate add-ons (Berserker, Bard, Forcemaster, Witcher, Elemental Wizards), their library chain and fit |
 | `candidates.md` | Discovery pass: mods not in any pack that answer a need, with scan evidence |
 | `cleanup.md` | Generated cleanup candidates (unused libraries, KubeJS add-ons, power overlaps, out-of-theme items, named-item clusters); `../../../scripts/series-cleanup.py` |
