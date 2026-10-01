@@ -170,6 +170,7 @@ class World:
         if tag in self._tag_cache:
             return self._tag_cache[tag]
         members = set(self.dump_tags.get(tag, [])) | self.aliases.get(tag, set())
+        members |= set(self.dump_tags.get("fluid:" + tag, []))  # fluid tags (#c:molten_*) hold fluid:<id> pseudo items
         if not members and tag in VANILLA_TAGS:
             members = self._vanilla(tag)
         if not members:

@@ -9,6 +9,9 @@
                         result_ids = get_result_ids(data)
                         if not result_ids:
                             SKIPPED[rtype] = SKIPPED.get(rtype, 0) + 1
+                            if SKIPPED[rtype] <= UNPARSED_CAP:
+                                UNPARSED.setdefault(rtype, []).append(
+                                    {"jar": jar_path.name, "file": rf, "data": data})
                             continue
                         for result_id in result_ids:
                             recipes.setdefault(result_id, []).append({
@@ -179,21 +182,24 @@ def extract_tags(loaded=None) -> dict[str, list[str]]:
                     parts = name.split("/")
                     if len(parts) < 5 or parts[0] != "data" or not name.endswith(".json"):
                         continue
-                    if parts[2] not in ("tags",) or parts[3] not in ("item", "items"):
+                    if parts[2] not in ("tags",) or parts[3] not in ("item", "items", "fluid", "fluids"):
                         continue
                     tag_id = f"{parts[1]}:{'/'.join(parts[4:])[:-5]}"
+                    is_fluid = parts[3] in ("fluid", "fluids")
                     try:
                         values = json.loads(zf.read(name).decode("utf-8")).get("values", [])
                     except (ValueError, UnicodeDecodeError):
                         continue
+                    if is_fluid:
+                        tag_id = "fluid:" + tag_id  # fluid tags live in their own namespace of keys
                     for v in values:
                         ref = v.get("id") if isinstance(v, dict) else v
                         if not isinstance(ref, str):
                             continue
                         if ref.startswith("#"):
-                            nested.setdefault(tag_id, set()).add(ref[1:])
+                            nested.setdefault(tag_id, set()).add(("fluid:" if is_fluid else "") + ref[1:])
                         elif loaded is None or ref.split(":", 1)[0] in loaded:
-                            direct.setdefault(tag_id, set()).add(ref)
+                            direct.setdefault(tag_id, set()).add(("fluid:" if is_fluid else "") + ref)
         except (zipfile.BadZipFile, OSError):
             continue
 
