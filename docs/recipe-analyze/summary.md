@@ -1,13 +1,13 @@
 # Recipe analyze summary
 
-Generated: `2026-10-01T15:44:55.126994+00:00`
+Generated: `2026-10-01T15:51:47.919848+00:00`
 
 Regenerate after mod list / KubeJS changes: `make recipe-audit`.
 
 ## Recipe dump
 
 - Source: `docs/recipe_data.json`
-- Dump generated: `2026-10-01T15:44:53.928587+00:00`
+- Dump generated: `2026-10-01T15:51:46.740076+00:00`
 - Items: **11069**
 - Mods with result items: **134**
 
