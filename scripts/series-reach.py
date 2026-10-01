@@ -106,6 +106,7 @@ class World:
         self.mobs = set(start.get("mobs", []))
         self.loot_sources = self._expand_sources(start.get("loot_sources", []))
         self.strict = strict
+        self._expand_tag_outputs()
         self.known = set(self.recipes)
         for entry in self.loot.values():
             self.known.update(entry.get("items", []))
@@ -120,6 +121,21 @@ class World:
         for tag in start.get("start_tags", []):
             for m in self.tag_members(tag):
                 self.items.setdefault(m, 0)
+
+    def _expand_tag_outputs(self):
+        """A recipe that outputs a tag ('#c:ores/osmium': Ex Deorum chunks, Occultism miners, bee combs) makes any one
+        member. Modelled as making every member (slightly optimistic when a tag has several members)."""
+        merged = {k: v for k, v in self.recipes.items() if not k.startswith("#")}
+        for key, entry in self.recipes.items():
+            if not key.startswith("#"):
+                continue
+            tag = key[1:]
+            members = set(self.dump_tags.get(tag, [])) | self.aliases.get(tag, set())
+            for m in members:
+                tgt = merged.setdefault(m, {"mod": [], "rm": [], "kj": []})
+                tgt = dict(tgt, mod=list(tgt["mod"]) + entry["mod"])
+                merged[m] = tgt
+        self.recipes = merged
 
     # ----- loot -----
     def _expand_sources(self, patterns):
