@@ -32,7 +32,14 @@ So the real catalog gaps are `applied-create` and `useful-projecte`. The dump al
 
 The first version of the analyzer counted any `modId = "..."` in a jar's metadata as an installed mod, including optional dependencies. That marked `immersiveengineering` (an optional dependency of another mod, not in the pack) as installed, and it hid at least one phantom namespace (`silentgems`: recipes shipped by another jar, no Silent Gems jar). The analyzer now reads only `[[mods]]` entries. After the next `make recipe-pr`, the summary's list of namespaces with no installed jar will be longer, and `immersiveengineering` and `silentgems` will be in it.
 
+## Done in the follow-up
+
+- `profiles.json` now has all 19 (`series-profiles.py check` passes; `mod-profiles.md` regenerated).
+- **`applied-create`**: profiled from the dump. 36 items: andesite and brass pattern providers, ME gearbox, kinetic energy acceptor, stress circuits (AE2 inscriber), stress storage cells and components from 1k to 256m, creative stress cell. Rated good for Liminal (an AE2 and Create bridge) and partial for Verdant. No scan file: there is no public repo, so the dump is its item source.
+- **`useful-projecte`**: the installed jar (`emc_transfer_fill_mod`) has **no items and no recipes in the dump**. It is a behavior mod; what it does is unverified. Check in game before keeping it.
+- The other 17 got one-line profiles marked not reviewed.
+
 ## Next
 
-1. Profile and scan `applied-create` and `useful-projecte`; add one-line profiles for the other 17 so `series-profiles.py check` is complete.
-2. Re-run `make recipe-pr` after the analyzer fix merges to correct the installed list.
+1. Re-run `make recipe-sync` after the analyzer fix merges to correct the installed list.
+2. Check `useful-projecte` in game.
