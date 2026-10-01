@@ -158,3 +158,54 @@ def build_slim(jar_recipes, removals, additions) -> dict:
         }
 
     return index
+
+
+# ---------------------------------------------------------------------------
+# 4. Item tags (for ingredient tags in recipes)
+# ---------------------------------------------------------------------------
+
+def extract_tags() -> dict[str, list[str]]:
+    """Item tag membership from the mod JARs: tag id -> item ids, nested #tags resolved."""
+    direct: dict[str, set[str]] = {}
+    nested: dict[str, set[str]] = {}
+    for jar_path in sorted(MODS_DIR.glob("*.jar")) + vanilla_jars():
+        try:
+            with zipfile.ZipFile(jar_path) as zf:
+                for name in zf.namelist():
+                    parts = name.split("/")
+                    if len(parts) < 5 or parts[0] != "data" or not name.endswith(".json"):
+                        continue
+                    if parts[2] not in ("tags",) or parts[3] not in ("item", "items"):
+                        continue
+                    tag_id = f"{parts[1]}:{'/'.join(parts[4:])[:-5]}"
+                    try:
+                        values = json.loads(zf.read(name).decode("utf-8")).get("values", [])
+                    except (ValueError, UnicodeDecodeError):
+                        continue
+                    for v in values:
+                        ref = v.get("id") if isinstance(v, dict) else v
+                        if not isinstance(ref, str):
+                            continue
+                        if ref.startswith("#"):
+                            nested.setdefault(tag_id, set()).add(ref[1:])
+                        else:
+                            direct.setdefault(tag_id, set()).add(ref)
+        except (zipfile.BadZipFile, OSError):
+            continue
+
+    resolved: dict[str, set[str]] = {}
+
+    def resolve(tag: str, seen: frozenset = frozenset()) -> set[str]:
+        if tag in resolved:
+            return resolved[tag]
+        if tag in seen:
+            return set()
+        out = set(direct.get(tag, set()))
+        for child in nested.get(tag, set()):
+            out |= resolve(child, seen | {tag})
+        resolved[tag] = out
+        return out
+
+    for tag in set(direct) | set(nested):
+        resolve(tag)
+    return {t: sorted(items) for t, items in sorted(resolved.items()) if items}

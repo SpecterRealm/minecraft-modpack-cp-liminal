@@ -176,7 +176,41 @@ def ingredients_from(data: dict) -> list[dict]:
                 out.append(norm_ing(val))
             break
 
-    return [i for i in out if i.get("value")]
+    # Fields that name a required item outside the ingredient lists (Ex Deorum sieve mesh)
+    mesh = data.get("mesh")
+    if isinstance(mesh, str) and mesh:
+        out.append({"type": "item", "value": mesh, "count": 1})
+    out = [i for i in out if i.get("value")]
+    if not out:
+        # Unusual recipe shapes (Theurgy sources and salts, Ars pedestals and reagents, Create sequences...):
+        # take every item or tag reference outside the result keys.
+        out = [i for i in _scan_refs(data) if i.get("value")]
+    return out
+
+
+_RESULT_KEYS = {"result", "results", "output", "outputs", "fluid_output", "fluid_result", "byproducts"}
+
+
+def _scan_refs(node, _top: bool = True, _depth: int = 0) -> list[dict]:
+    """Collect {item}/{tag}/{id} references anywhere in a recipe, skipping result keys."""
+    found: list[dict] = []
+    if _depth > 8:
+        return found
+    if isinstance(node, dict):
+        if "tag" in node and isinstance(node["tag"], str):
+            found.append({"type": "tag", "value": node["tag"], "count": int(node.get("count", 1) or 1)})
+            return found
+        if isinstance(node.get("item"), str):
+            found.append({"type": "item", "value": node["item"], "count": int(node.get("count", 1) or 1)})
+            return found
+        for key, val in node.items():
+            if _top and key in _RESULT_KEYS:
+                continue
+            found.extend(_scan_refs(val, False, _depth + 1))
+    elif isinstance(node, list):
+        for val in node:
+            found.extend(_scan_refs(val, False, _depth + 1))
+    return found
 
 
 def shaped_grid(data: dict) -> list[list[dict | None]]:
@@ -202,6 +236,19 @@ def shaped_grid(data: dict) -> list[list[dict | None]]:
 # 1. Extract recipes from JARs
 # ---------------------------------------------------------------------------
 
+def vanilla_jars() -> list[Path]:
+    """The Minecraft client jar (vanilla recipes and tags), from Prism's libraries folder or RECIPE_WIKI_VANILLA_JAR."""
+    override = os.environ.get("RECIPE_WIKI_VANILLA_JAR")
+    if override:
+        return [Path(override)] if Path(override).is_file() else []
+    try:
+        data_dir = MODS_DIR.parents[3]  # <prism data>/instances/<instance>/minecraft/mods
+    except IndexError:
+        return []
+    found = sorted((data_dir / "libraries" / "com" / "mojang" / "minecraft").glob("*/minecraft-*-client.jar"))
+    return found[-1:] if found else []
+
+
 def extract_jar_recipes() -> dict[str, list[dict]]:
     """Returns item_id → list of recipe entries from all mod JARs."""
     recipes: dict[str, list[dict]] = {}
@@ -221,7 +268,9 @@ def extract_jar_recipes() -> dict[str, list[dict]]:
             file=sys.stderr,
         )
         sys.exit(1)
-    print(f"Scanning {len(jars)} JARs in {MODS_DIR}...")
+    vanilla = vanilla_jars()
+    print(f"Scanning {len(jars)} JARs in {MODS_DIR}" + (f" plus vanilla {vanilla[0].name}" if vanilla else " (vanilla jar not found: no vanilla recipes)") + "...")
+    jars = jars + vanilla
 
     for jar_path in jars:
         try:

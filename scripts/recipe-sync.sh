@@ -30,8 +30,22 @@ fi
 cleanup() { make --no-print-directory serve-stop >/dev/null 2>&1 || true; }
 trap cleanup EXIT
 
+# One packwiz serve at a time: port 8080 is shared by every pack
+if command -v lsof >/dev/null 2>&1 && lsof -nP -iTCP:8080 -sTCP:LISTEN >/dev/null 2>&1; then
+  echo "Port 8080 is already in use:"
+  lsof -nP -iTCP:8080 -sTCP:LISTEN | head -3
+  make --no-print-directory serve-stop >/dev/null 2>&1 || true
+  sleep 1
+  if lsof -nP -iTCP:8080 -sTCP:LISTEN >/dev/null 2>&1; then
+    die "something else still listens on 8080 (listed above). Stop it (a serve from another pack: cd there and make serve-stop) and run again."
+  fi
+fi
+
 say "Refreshing the index and starting packwiz serve"
-make --no-print-directory serve-bg
+if ! make --no-print-directory serve-bg; then
+  echo; echo "--- last lines of .serve.log ---"; tail -20 .serve.log 2>/dev/null || true
+  die "packwiz serve did not start (log above). Common cause: port 8080 in use by another pack's serve (make serve-stop there)."
+fi
 # serve-bg refreshes the index; a changed index is a pack change that must be committed on its own
 if [ -n "$(git status --porcelain --untracked-files=no)" ]; then
   git status --short
@@ -45,8 +59,21 @@ for i in $(seq 1 20); do
 done
 
 say "Installing the pack into $DEV_MC_DIR (headless packwiz installer)"
-( cd "$DEV_MC_DIR" && "$JAVA" -jar "$BOOTSTRAP_JAR" -g --bootstrap-no-update "$PACK_URL" ) \
-  || die "packwiz installer failed. Check the output above."
+INSTALL_LOG=$(mktemp)
+if ! ( cd "$DEV_MC_DIR" && "$JAVA" -jar "$BOOTSTRAP_JAR" -g --bootstrap-no-update "$PACK_URL" ) 2>&1 | tee "$INSTALL_LOG"; then
+  :
+fi
+if grep -q "Failed to download modpack\|Update cancelled" "$INSTALL_LOG"; then
+  echo
+  if grep -q "must be downloaded manually" "$INSTALL_LOG"; then
+    echo "These mods are excluded from the CurseForge API and must be downloaded by hand."
+    echo "Download each file in a browser, save it to the path shown, then run make recipe-sync again:"
+    grep -A1 "must be downloaded manually" "$INSTALL_LOG" | grep "Please go to" | sort -u | sed 's/^/  /'
+  fi
+  rm -f "$INSTALL_LOG"
+  die "packwiz installer failed (details above). The same mods block the Prism launch too."
+fi
+rm -f "$INSTALL_LOG"
 
 say "Stopping packwiz serve"
 cleanup
