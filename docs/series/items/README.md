@@ -23,6 +23,7 @@ This is not a wish list. Each entry records what the item does, its numbers, wha
 | `profiles.json` / `mod-profiles.md` | Mod-level profile (feel, main add, gap, fit per pack) and its generated tables; input to go/no-go. `../../../scripts/series-profiles.py` |
 | `capstones-and-gear.md` | Why each pack is played (capstone) and the rule that every gear item needs a job, with Silent Gear data |
 | `required-resources.md` | What each pack must be able to get (gear tiers, crops, machines) and the bootstrap versus scale routes per pack; Ex Deorum manual-only as the fallback |
+| `elysian-review.md` | Elysian's partial-fit mods reviewed one by one, with the spell-system count the Wizards decision raises |
 | `candidates.md` | Discovery pass: mods not in any pack that answer a need, with scan evidence |
 | `cleanup.md` | Generated cleanup candidates (unused libraries, KubeJS add-ons, power overlaps, out-of-theme items, named-item clusters); `../../../scripts/series-cleanup.py` |
 | `cleanup-findings.md` | Hand-written first reading of the cleanup data, with proposals |
