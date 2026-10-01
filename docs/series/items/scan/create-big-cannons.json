@@ -1,0 +1,876 @@
+{
+ "repo": "Reider745/CreateBigCannons-NeoForge-1.21.1",
+ "ref": "create-v6-1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "createbigcannons"
+ ],
+ "item_count": 208,
+ "compat": [
+  {
+   "id": "create",
+   "slug": "create",
+   "evidence": {
+    "compat-import": 54,
+    "data-ref": 228,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "compat-import": 6,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "emi",
+   "slug": "emi",
+   "evidence": {
+    "compat-import": 10
+   }
+  },
+  {
+   "id": "jei",
+   "slug": "jei",
+   "evidence": {
+    "compat-import": 27
+   }
+  }
+ ],
+ "items": {
+  "createbigcannons:ap_shell": {
+   "kind": "entity",
+   "name": "Armor Piercing (AP) Shell"
+  },
+  "createbigcannons:ap_shot": {
+   "kind": "entity",
+   "name": "Armor Piercing (AP) Shot"
+  },
+  "createbigcannons:autocannon_ammo_container": {
+   "kind": "block",
+   "name": "Autocannon Ammo Container"
+  },
+  "createbigcannons:autocannon_barrel_cast_mould": {
+   "kind": "block",
+   "name": "Autocannon Barrel Cast Mould"
+  },
+  "createbigcannons:autocannon_breech_cast_mould": {
+   "kind": "block",
+   "name": "Autocannon Breech Cast Mould"
+  },
+  "createbigcannons:autocannon_recoil_spring_cast_mould": {
+   "kind": "block",
+   "name": "Autocannon Recoil Spring Cast Mould"
+  },
+  "createbigcannons:bag_of_grapeshot": {
+   "kind": "entity",
+   "name": "Bag Of Grapeshot"
+  },
+  "createbigcannons:basin_foundry_lid": {
+   "kind": "block",
+   "name": "Basin Foundry Lid"
+  },
+  "createbigcannons:big_cartridge": {
+   "kind": "block",
+   "name": "Big Cartridge"
+  },
+  "createbigcannons:bronze_autocannon_barrel": {
+   "kind": "block",
+   "name": "Bronze Autocannon Barrel"
+  },
+  "createbigcannons:bronze_autocannon_breech": {
+   "kind": "block",
+   "name": "Bronze Autocannon Breech"
+  },
+  "createbigcannons:bronze_autocannon_recoil_spring": {
+   "kind": "block",
+   "name": "Bronze Autocannon Recoil Spring"
+  },
+  "createbigcannons:bronze_cannon_barrel": {
+   "kind": "block",
+   "name": "Bronze Cannon Barrel"
+  },
+  "createbigcannons:bronze_cannon_chamber": {
+   "kind": "block",
+   "name": "Bronze Cannon Chamber"
+  },
+  "createbigcannons:bronze_cannon_end": {
+   "kind": "block",
+   "name": "Bronze Cannon End"
+  },
+  "createbigcannons:bronze_quickfiring_breech": {
+   "kind": "block",
+   "name": "Bronze Quick-Firing Breech"
+  },
+  "createbigcannons:bronze_sliding_breech": {
+   "kind": "block",
+   "name": "Bronze Sliding Breech"
+  },
+  "createbigcannons:built_up_cannon": {
+   "kind": "block",
+   "name": "Built Up Cannon"
+  },
+  "createbigcannons:built_up_nethersteel_cannon_barrel": {
+   "kind": "block",
+   "name": "Built-Up Nethersteel Cannon Barrel"
+  },
+  "createbigcannons:built_up_nethersteel_cannon_chamber": {
+   "kind": "block",
+   "name": "Built-Up Nethersteel Cannon Chamber"
+  },
+  "createbigcannons:built_up_steel_cannon_barrel": {
+   "kind": "block",
+   "name": "Built-Up Steel Cannon Barrel"
+  },
+  "createbigcannons:built_up_steel_cannon_chamber": {
+   "kind": "block",
+   "name": "Built-Up Steel Cannon Chamber"
+  },
+  "createbigcannons:cannon_builder": {
+   "kind": "block",
+   "name": "Cannon Builder"
+  },
+  "createbigcannons:cannon_builder_head": {
+   "kind": "block",
+   "name": "Cannon Builder Head"
+  },
+  "createbigcannons:cannon_carriage": {
+   "kind": "entity",
+   "name": "Cannon Carriage"
+  },
+  "createbigcannons:cannon_cast": {
+   "kind": "block",
+   "name": "Cannon Cast"
+  },
+  "createbigcannons:cannon_drill": {
+   "kind": "block",
+   "name": "Cannon Drill"
+  },
+  "createbigcannons:cannon_drill_bit": {
+   "kind": "block",
+   "name": "Cannon Drill Bit"
+  },
+  "createbigcannons:cannon_end_cast_mould": {
+   "kind": "block",
+   "name": "Cannon End Cast Mould"
+  },
+  "createbigcannons:cannon_loader": {
+   "kind": "block",
+   "name": "Cannon Loader"
+  },
+  "createbigcannons:cannon_mount": {
+   "kind": "block",
+   "name": "Cannon Mount"
+  },
+  "createbigcannons:cannon_mount_extension": {
+   "kind": "block",
+   "name": "Cannon Mount Extension"
+  },
+  "createbigcannons:cast_iron_autocannon_barrel": {
+   "kind": "block",
+   "name": "Cast Iron Autocannon Barrel"
+  },
+  "createbigcannons:cast_iron_autocannon_breech": {
+   "kind": "block",
+   "name": "Cast Iron Autocannon Breech"
+  },
+  "createbigcannons:cast_iron_autocannon_recoil_spring": {
+   "kind": "block",
+   "name": "Cast Iron Autocannon Recoil Spring"
+  },
+  "createbigcannons:cast_iron_block": {
+   "kind": "block",
+   "name": "Block of Cast Iron"
+  },
+  "createbigcannons:cast_iron_cannon_barrel": {
+   "kind": "block",
+   "name": "Cast Iron Cannon Barrel"
+  },
+  "createbigcannons:cast_iron_cannon_chamber": {
+   "kind": "block",
+   "name": "Cast Iron Cannon Chamber"
+  },
+  "createbigcannons:cast_iron_cannon_end": {
+   "kind": "block",
+   "name": "Cast Iron Cannon End"
+  },
+  "createbigcannons:cast_iron_quickfiring_breech": {
+   "kind": "block",
+   "name": "Cast Iron Quick-Firing Breech"
+  },
+  "createbigcannons:cast_iron_sliding_breech": {
+   "kind": "block",
+   "name": "Cast Iron Sliding Breech"
+  },
+  "createbigcannons:casting_sand": {
+   "kind": "block",
+   "name": "Casting Sand"
+  },
+  "createbigcannons:creative_autocannon_ammo_container": {
+   "kind": "block",
+   "name": "Creative Autocannon Ammo Container"
+  },
+  "createbigcannons:drop_mortar_shell": {
+   "kind": "entity",
+   "name": "Drop Mortar Shell"
+  },
+  "createbigcannons:finished_cannon_cast": {
+   "kind": "block",
+   "name": "Finished Cannon Cast"
+  },
+  "createbigcannons:fixed_cannon_mount": {
+   "kind": "block",
+   "name": "Fixed Cannon Mount"
+  },
+  "createbigcannons:fluid_shell": {
+   "kind": "entity",
+   "name": "Fluid Shell"
+  },
+  "createbigcannons:he_shell": {
+   "kind": "entity",
+   "name": "High Explosive (HE) Shell"
+  },
+  "createbigcannons:incomplete_bronze_autocannon_breech": {
+   "kind": "block",
+   "name": "Incomplete Bronze Autocannon Breech"
+  },
+  "createbigcannons:incomplete_bronze_autocannon_recoil_spring": {
+   "kind": "block",
+   "name": "Incomplete Bronze Autocannon Recoil Spring"
+  },
+  "createbigcannons:incomplete_bronze_sliding_breech": {
+   "kind": "block",
+   "name": "Incomplete Bronze Sliding Breech"
+  },
+  "createbigcannons:incomplete_cast_iron_autocannon_breech": {
+   "kind": "block",
+   "name": "Incomplete Cast Iron Autocannon Breech"
+  },
+  "createbigcannons:incomplete_cast_iron_autocannon_recoil_spring": {
+   "kind": "block",
+   "name": "Incomplete Cast Iron Autocannon Recoil Spring"
+  },
+  "createbigcannons:incomplete_cast_iron_sliding_breech": {
+   "kind": "block",
+   "name": "Incomplete Cast Iron Sliding Breech"
+  },
+  "createbigcannons:incomplete_nethersteel_screw_breech": {
+   "kind": "block",
+   "name": "Incomplete Nethersteel Screw Breech"
+  },
+  "createbigcannons:incomplete_steel_autocannon_breech": {
+   "kind": "block",
+   "name": "Incomplete Steel Autocannon Breech"
+  },
+  "createbigcannons:incomplete_steel_autocannon_recoil_spring": {
+   "kind": "block",
+   "name": "Incomplete Steel Autocannon Recoil Spring"
+  },
+  "createbigcannons:incomplete_steel_screw_breech": {
+   "kind": "block",
+   "name": "Incomplete Steel Screw Breech"
+  },
+  "createbigcannons:incomplete_steel_sliding_breech": {
+   "kind": "block",
+   "name": "Incomplete Steel Sliding Breech"
+  },
+  "createbigcannons:large_cast_mould": {
+   "kind": "block",
+   "name": "Large Cast Mould"
+  },
+  "createbigcannons:large_nethersteel_cannon_layer": {
+   "kind": "block",
+   "name": "Large Nethersteel Cannon Layer"
+  },
+  "createbigcannons:large_steel_cannon_layer": {
+   "kind": "block",
+   "name": "Large Steel Cannon Layer"
+  },
+  "createbigcannons:log_cannon_chamber": {
+   "kind": "block",
+   "name": "Log Cannon Chamber"
+  },
+  "createbigcannons:log_cannon_end": {
+   "kind": "block",
+   "name": "Log Cannon End"
+  },
+  "createbigcannons:medium_cast_mould": {
+   "kind": "block",
+   "name": "Medium Cast Mould"
+  },
+  "createbigcannons:medium_nethersteel_cannon_layer": {
+   "kind": "block",
+   "name": "Medium Nethersteel Cannon Layer"
+  },
+  "createbigcannons:medium_steel_cannon_layer": {
+   "kind": "block",
+   "name": "Medium Steel Cannon Layer"
+  },
+  "createbigcannons:molten_bronze": {
+   "kind": "fluid",
+   "name": "Molten Bronze"
+  },
+  "createbigcannons:molten_cast_iron": {
+   "kind": "fluid",
+   "name": "Molten Cast Iron"
+  },
+  "createbigcannons:molten_nethersteel": {
+   "kind": "fluid",
+   "name": "Molten Nethersteel"
+  },
+  "createbigcannons:molten_steel": {
+   "kind": "fluid",
+   "name": "Molten Steel"
+  },
+  "createbigcannons:mortar_stone": {
+   "kind": "entity",
+   "name": "Mortar Stone"
+  },
+  "createbigcannons:mortar_stone_projectile": {
+   "kind": "block",
+   "name": "Mortar Stone Projectile"
+  },
+  "createbigcannons:nethersteel_block": {
+   "kind": "block",
+   "name": "Block of Nethersteel"
+  },
+  "createbigcannons:nethersteel_cannon_barrel": {
+   "kind": "block",
+   "name": "Nethersteel Cannon Barrel"
+  },
+  "createbigcannons:nethersteel_cannon_chamber": {
+   "kind": "block",
+   "name": "Nethersteel Cannon Chamber"
+  },
+  "createbigcannons:nethersteel_screw_breech": {
+   "kind": "block",
+   "name": "Nethersteel Screw Breech"
+  },
+  "createbigcannons:powder_charge": {
+   "kind": "block",
+   "name": "Powder Charge"
+  },
+  "createbigcannons:ram_head": {
+   "kind": "block",
+   "name": "Ram Head"
+  },
+  "createbigcannons:screw_breech_cast_mould": {
+   "kind": "block",
+   "name": "Screw Breech Cast Mould"
+  },
+  "createbigcannons:shrapnel_shell": {
+   "kind": "entity",
+   "name": "Shrapnel Shell"
+  },
+  "createbigcannons:sliding_breech_cast_mould": {
+   "kind": "block",
+   "name": "Sliding Breech Cast Mould"
+  },
+  "createbigcannons:small_cast_mould": {
+   "kind": "block",
+   "name": "Small Cast Mould"
+  },
+  "createbigcannons:small_nethersteel_cannon_layer": {
+   "kind": "block",
+   "name": "Small Nethersteel Cannon Layer"
+  },
+  "createbigcannons:small_steel_cannon_layer": {
+   "kind": "block",
+   "name": "Small Steel Cannon Layer"
+  },
+  "createbigcannons:smoke_shell": {
+   "kind": "entity",
+   "name": "Smoke Shell"
+  },
+  "createbigcannons:solid_shot": {
+   "kind": "block",
+   "name": "Solid Shot"
+  },
+  "createbigcannons:steel_autocannon_barrel": {
+   "kind": "block",
+   "name": "Steel Autocannon Barrel"
+  },
+  "createbigcannons:steel_autocannon_breech": {
+   "kind": "block",
+   "name": "Steel Autocannon Breech"
+  },
+  "createbigcannons:steel_autocannon_recoil_spring": {
+   "kind": "block",
+   "name": "Steel Autocannon Recoil Spring"
+  },
+  "createbigcannons:steel_cannon_barrel": {
+   "kind": "block",
+   "name": "Steel Cannon Barrel"
+  },
+  "createbigcannons:steel_cannon_chamber": {
+   "kind": "block",
+   "name": "Steel Cannon Chamber"
+  },
+  "createbigcannons:steel_quickfiring_breech": {
+   "kind": "block",
+   "name": "Steel Quick-Firing Breech"
+  },
+  "createbigcannons:steel_screw_breech": {
+   "kind": "block",
+   "name": "Steel Screw Breech"
+  },
+  "createbigcannons:steel_sliding_breech": {
+   "kind": "block",
+   "name": "Steel Sliding Breech"
+  },
+  "createbigcannons:thick_nethersteel_cannon_chamber": {
+   "kind": "block",
+   "name": "Thick Nethersteel Cannon Chamber"
+  },
+  "createbigcannons:thick_steel_cannon_chamber": {
+   "kind": "block",
+   "name": "Thick Steel Cannon Chamber"
+  },
+  "createbigcannons:traffic_cone": {
+   "kind": "entity",
+   "name": "Traffic Cone"
+  },
+  "createbigcannons:unbored_bronze_autocannon_barrel": {
+   "kind": "block",
+   "name": "Unbored Bronze Autocannon Barrel"
+  },
+  "createbigcannons:unbored_bronze_autocannon_breech": {
+   "kind": "block",
+   "name": "Unbored Bronze Autocannon Breech"
+  },
+  "createbigcannons:unbored_bronze_autocannon_recoil_spring": {
+   "kind": "block",
+   "name": "Unbored Bronze Autocannon Recoil Spring"
+  },
+  "createbigcannons:unbored_bronze_cannon_barrel": {
+   "kind": "block",
+   "name": "Unbored Bronze Cannon Barrel"
+  },
+  "createbigcannons:unbored_bronze_cannon_chamber": {
+   "kind": "block",
+   "name": "Unbored Bronze Cannon Chamber"
+  },
+  "createbigcannons:unbored_bronze_sliding_breech": {
+   "kind": "block",
+   "name": "Unbored Bronze Sliding Breech"
+  },
+  "createbigcannons:unbored_cast_iron_autocannon_barrel": {
+   "kind": "block",
+   "name": "Unbored Cast Iron Autocannon Barrel"
+  },
+  "createbigcannons:unbored_cast_iron_autocannon_breech": {
+   "kind": "block",
+   "name": "Unbored Cast Iron Autocannon Breech"
+  },
+  "createbigcannons:unbored_cast_iron_autocannon_recoil_spring": {
+   "kind": "block",
+   "name": "Unbored Cast Iron Autocannon Recoil Spring"
+  },
+  "createbigcannons:unbored_cast_iron_cannon_barrel": {
+   "kind": "block",
+   "name": "Unbored Cast Iron Cannon Barrel"
+  },
+  "createbigcannons:unbored_cast_iron_cannon_chamber": {
+   "kind": "block",
+   "name": "Unbored Cast Iron Cannon Chamber"
+  },
+  "createbigcannons:unbored_cast_iron_sliding_breech": {
+   "kind": "block",
+   "name": "Unbored Cast Iron Sliding Breech"
+  },
+  "createbigcannons:unbored_large_nethersteel_cannon_layer": {
+   "kind": "block",
+   "name": "Unbored Large Nethersteel Cannon Layer"
+  },
+  "createbigcannons:unbored_large_steel_cannon_layer": {
+   "kind": "block",
+   "name": "Unbored Large Steel Cannon Layer"
+  },
+  "createbigcannons:unbored_medium_nethersteel_cannon_layer": {
+   "kind": "block",
+   "name": "Unbored Medium Nethersteel Cannon Layer"
+  },
+  "createbigcannons:unbored_medium_steel_cannon_layer": {
+   "kind": "block",
+   "name": "Unbored Medium Steel Cannon Layer"
+  },
+  "createbigcannons:unbored_nethersteel_screw_breech": {
+   "kind": "block",
+   "name": "Unbored Nethersteel Screw Breech"
+  },
+  "createbigcannons:unbored_small_nethersteel_cannon_layer": {
+   "kind": "block",
+   "name": "Unbored Small Nethersteel Cannon Layer"
+  },
+  "createbigcannons:unbored_small_steel_cannon_layer": {
+   "kind": "block",
+   "name": "Unbored Small Steel Cannon Layer"
+  },
+  "createbigcannons:unbored_steel_autocannon_barrel": {
+   "kind": "block",
+   "name": "Unbored Steel Autocannon Barrel"
+  },
+  "createbigcannons:unbored_steel_autocannon_breech": {
+   "kind": "block",
+   "name": "Unbored Steel Autocannon Breech"
+  },
+  "createbigcannons:unbored_steel_autocannon_recoil_spring": {
+   "kind": "block",
+   "name": "Unbored Steel Autocannon Recoil Spring"
+  },
+  "createbigcannons:unbored_steel_screw_breech": {
+   "kind": "block",
+   "name": "Unbored Steel Screw Breech"
+  },
+  "createbigcannons:unbored_steel_sliding_breech": {
+   "kind": "block",
+   "name": "Unbored Steel Sliding Breech"
+  },
+  "createbigcannons:unbored_very_large_nethersteel_cannon_layer": {
+   "kind": "block",
+   "name": "Unbored Very Large Nethersteel Cannon Layer"
+  },
+  "createbigcannons:unbored_very_large_steel_cannon_layer": {
+   "kind": "block",
+   "name": "Unbored Very Large Steel Cannon Layer"
+  },
+  "createbigcannons:unbored_very_small_nethersteel_cannon_layer": {
+   "kind": "block",
+   "name": "Unbored Very Small Nethersteel Cannon Layer"
+  },
+  "createbigcannons:unbored_very_small_steel_cannon_layer": {
+   "kind": "block",
+   "name": "Unbored Very Small Steel Cannon Layer"
+  },
+  "createbigcannons:very_large_cast_mould": {
+   "kind": "block",
+   "name": "Very Large Cast Mould"
+  },
+  "createbigcannons:very_large_nethersteel_cannon_layer": {
+   "kind": "block",
+   "name": "Very Large Nethersteel Cannon Layer"
+  },
+  "createbigcannons:very_large_steel_cannon_layer": {
+   "kind": "block",
+   "name": "Very Large Steel Cannon Layer"
+  },
+  "createbigcannons:very_small_cast_mould": {
+   "kind": "block",
+   "name": "Very Small Cast Mould"
+  },
+  "createbigcannons:very_small_nethersteel_cannon_layer": {
+   "kind": "block",
+   "name": "Very Small Nethersteel Cannon Layer"
+  },
+  "createbigcannons:very_small_steel_cannon_layer": {
+   "kind": "block",
+   "name": "Very Small Steel Cannon Layer"
+  },
+  "createbigcannons:worm_head": {
+   "kind": "block",
+   "name": "Worm Head"
+  },
+  "createbigcannons:wrought_iron_cannon_chamber": {
+   "kind": "block",
+   "name": "Wrought Iron Cannon Chamber"
+  },
+  "createbigcannons:wrought_iron_cannon_end": {
+   "kind": "block",
+   "name": "Wrought Iron Cannon End"
+  },
+  "createbigcannons:wrought_iron_drop_mortar_end": {
+   "kind": "block",
+   "name": "Wrought Iron Drop Mortar End"
+  },
+  "createbigcannons:yaw_controller": {
+   "kind": "block",
+   "name": "Yaw Controller"
+  },
+  "createbigcannons:ap_autocannon": {
+   "kind": "entity",
+   "name": "Armor Piercing (AP) Autocannon Round"
+  },
+  "createbigcannons:flak_autocannon": {
+   "kind": "entity",
+   "name": "Flak Autocannon Round"
+  },
+  "createbigcannons:flak_burst": {
+   "kind": "entity",
+   "name": "Flak Burst"
+  },
+  "createbigcannons:fluid_blob_burst": {
+   "kind": "entity",
+   "name": "Fluid Blob Burst"
+  },
+  "createbigcannons:gas_cloud": {
+   "kind": "entity",
+   "name": "Gas Cloud"
+  },
+  "createbigcannons:grapeshot_burst": {
+   "kind": "entity",
+   "name": "Grapeshot Burst"
+  },
+  "createbigcannons:machine_gun_bullet": {
+   "kind": "entity",
+   "name": "Machine Gun Bullet"
+  },
+  "createbigcannons:pitch_contraption": {
+   "kind": "entity",
+   "name": "Pitch Contraption"
+  },
+  "createbigcannons:primed_propellant": {
+   "kind": "entity",
+   "name": "Primed Propellant"
+  },
+  "createbigcannons:shot": {
+   "kind": "entity",
+   "name": "Shot"
+  },
+  "createbigcannons:shrapnel_burst": {
+   "kind": "entity",
+   "name": "Shrapnel Burst"
+  },
+  "createbigcannons:ap_autocannon_round": {
+   "kind": "item",
+   "name": "Armor Piercing (AP) Autocannon Round"
+  },
+  "createbigcannons:autocannon_cartridge": {
+   "kind": "item",
+   "name": "Autocannon Cartridge"
+  },
+  "createbigcannons:autocannon_cartridge_sheet": {
+   "kind": "item",
+   "name": "Autocannon Cartridge Sheet"
+  },
+  "createbigcannons:big_cartridge_sheet": {
+   "kind": "item",
+   "name": "Big Cartridge Sheet"
+  },
+  "createbigcannons:block_armor_inspection_tool": {
+   "kind": "item",
+   "name": "Block Armor Inspection Tool"
+  },
+  "createbigcannons:bronze_autocannon_breech_extractor": {
+   "kind": "item",
+   "name": "Bronze Autocannon Breech Extractor"
+  },
+  "createbigcannons:bronze_scrap": {
+   "kind": "item",
+   "name": "Bronze Scrap"
+  },
+  "createbigcannons:bronze_sliding_breechblock": {
+   "kind": "item",
+   "name": "Bronze Sliding Breechblock"
+  },
+  "createbigcannons:cannon_crafting_wand": {
+   "kind": "item",
+   "name": "Cannon Crafting Wand"
+  },
+  "createbigcannons:cannon_welder": {
+   "kind": "item",
+   "name": "Cannon Welder"
+  },
+  "createbigcannons:cast_iron_autocannon_breech_extractor": {
+   "kind": "item",
+   "name": "Cast Iron Autocannon Breech Extractor"
+  },
+  "createbigcannons:cast_iron_ingot": {
+   "kind": "item",
+   "name": "Cast Iron Ingot"
+  },
+  "createbigcannons:cast_iron_nugget": {
+   "kind": "item",
+   "name": "Cast Iron Nugget"
+  },
+  "createbigcannons:cast_iron_sliding_breechblock": {
+   "kind": "item",
+   "name": "Cast Iron Sliding Breechblock"
+  },
+  "createbigcannons:congealed_nitro": {
+   "kind": "item",
+   "name": "Congealed Nitro"
+  },
+  "createbigcannons:delayed_impact_fuze": {
+   "kind": "item",
+   "name": "Delayed Impact Fuze"
+  },
+  "createbigcannons:empty_autocannon_cartridge": {
+   "kind": "item",
+   "name": "Empty Autocannon Cartridge"
+  },
+  "createbigcannons:empty_machine_gun_round": {
+   "kind": "item",
+   "name": "Empty Machine Gun Round"
+  },
+  "createbigcannons:empty_powder_charge": {
+   "kind": "item",
+   "name": "Empty Powder Charge"
+  },
+  "createbigcannons:filled_autocannon_cartridge": {
+   "kind": "item",
+   "name": "Filled Autocannon Cartridge"
+  },
+  "createbigcannons:flak_autocannon_round": {
+   "kind": "item",
+   "name": "Flak Autocannon Round"
+  },
+  "createbigcannons:gas_mask": {
+   "kind": "item",
+   "name": "Gas Mask"
+  },
+  "createbigcannons:guncotton": {
+   "kind": "item",
+   "name": "Guncotton"
+  },
+  "createbigcannons:gunpowder_pinch": {
+   "kind": "item",
+   "name": "Pinch of Gunpowder"
+  },
+  "createbigcannons:hardened_nitro": {
+   "kind": "item",
+   "name": "Hardened Nitro"
+  },
+  "createbigcannons:impact_fuze": {
+   "kind": "item",
+   "name": "Impact Fuze"
+  },
+  "createbigcannons:machine_gun_round": {
+   "kind": "item",
+   "name": "Machine Gun Round"
+  },
+  "createbigcannons:molten_bronze_bucket": {
+   "kind": "item",
+   "name": "Molten Bronze Bucket"
+  },
+  "createbigcannons:molten_cast_iron_bucket": {
+   "kind": "item",
+   "name": "Molten Cast Iron Bucket"
+  },
+  "createbigcannons:molten_nethersteel_bucket": {
+   "kind": "item",
+   "name": "Molten Nethersteel Bucket"
+  },
+  "createbigcannons:molten_steel_bucket": {
+   "kind": "item",
+   "name": "Molten Steel Bucket"
+  },
+  "createbigcannons:nethersteel_ingot": {
+   "kind": "item",
+   "name": "Nethersteel Ingot"
+  },
+  "createbigcannons:nethersteel_nugget": {
+   "kind": "item",
+   "name": "Nethersteel Nugget"
+  },
+  "createbigcannons:nethersteel_screw_lock": {
+   "kind": "item",
+   "name": "Nethersteel Screw Lock"
+  },
+  "createbigcannons:nitropowder": {
+   "kind": "item",
+   "name": "Nitropowder"
+  },
+  "createbigcannons:packed_guncotton": {
+   "kind": "item",
+   "name": "Packed Guncotton"
+  },
+  "createbigcannons:packed_gunpowder": {
+   "kind": "item",
+   "name": "Packed Gunpowder"
+  },
+  "createbigcannons:pair_of_cannon_wheels": {
+   "kind": "item",
+   "name": "Pair of Cannon Wheels"
+  },
+  "createbigcannons:partial_bronze_autocannon_breech_extractor": {
+   "kind": "item",
+   "name": "Partial Bronze Autocannon Breech Extractor"
+  },
+  "createbigcannons:partial_cast_iron_autocannon_breech_extractor": {
+   "kind": "item",
+   "name": "Partial Cast Iron Autocannon Breech Extractor"
+  },
+  "createbigcannons:partial_recoil_spring": {
+   "kind": "item",
+   "name": "Partial Recoil Spring"
+  },
+  "createbigcannons:partial_steel_autocannon_breech_extractor": {
+   "kind": "item",
+   "name": "Partial Steel Autocannon Breech Extractor"
+  },
+  "createbigcannons:partially_assembled_machine_gun_round": {
+   "kind": "item",
+   "name": "Partially Assembled Machine Gun Round"
+  },
+  "createbigcannons:partially_filled_autocannon_cartridge": {
+   "kind": "item",
+   "name": "Partially Filled Autocannon Cartridge"
+  },
+  "createbigcannons:partially_formed_autocannon_cartridge": {
+   "kind": "item",
+   "name": "Partially Formed Autocannon Cartridge"
+  },
+  "createbigcannons:partially_formed_big_cartridge": {
+   "kind": "item",
+   "name": "Partially Formed Big Cartridge"
+  },
+  "createbigcannons:proximity_fuze": {
+   "kind": "item",
+   "name": "Proximity Fuze"
+  },
+  "createbigcannons:quickfiring_mechanism": {
+   "kind": "item",
+   "name": "Quick-Firing Mechanism"
+  },
+  "createbigcannons:ram_rod": {
+   "kind": "item",
+   "name": "Ram Rod"
+  },
+  "createbigcannons:recoil_spring": {
+   "kind": "item",
+   "name": "Recoil Spring"
+  },
+  "createbigcannons:shot_balls": {
+   "kind": "item",
+   "name": "Shot Balls"
+  },
+  "createbigcannons:spring_wire": {
+   "kind": "item",
+   "name": "Spring Wire"
+  },
+  "createbigcannons:steel_autocannon_breech_extractor": {
+   "kind": "item",
+   "name": "Steel Autocannon Breech Extractor"
+  },
+  "createbigcannons:steel_scrap": {
+   "kind": "item",
+   "name": "Steel Scrap"
+  },
+  "createbigcannons:steel_screw_lock": {
+   "kind": "item",
+   "name": "Steel Screw Lock"
+  },
+  "createbigcannons:steel_sliding_breechblock": {
+   "kind": "item",
+   "name": "Steel Sliding Breechblock"
+  },
+  "createbigcannons:timed_fuze": {
+   "kind": "item",
+   "name": "Timed Fuze"
+  },
+  "createbigcannons:tracer_tip": {
+   "kind": "item",
+   "name": "Tracer Tip"
+  },
+  "createbigcannons:wired_fuze": {
+   "kind": "item",
+   "name": "Wired Fuze"
+  },
+  "createbigcannons:worm": {
+   "kind": "item",
+   "name": "Worm"
+  }
+ }
+}

@@ -2077,6 +2077,33 @@
    "ref": null,
    "ref_kind": "none",
    "check": "no-repo"
+  },
+  "mekanism-turrets": {
+   "repo": "x3rdev/MekanismTurrets",
+   "note": "candidate (not in any pack); Verdant automated-defense search; Mekanism Turrets & Fences, NeoForge 1.21.1.",
+   "candidate": true,
+   "verified": true,
+   "ref": "1.21",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "create-big-cannons": {
+   "repo": "Reider745/CreateBigCannons-NeoForge-1.21.1",
+   "note": "candidate (not in any pack); Verdant automated-defense search; community NeoForge 1.21.1 port repo (the official rbasamoyai repo has no 1.21 branch on GitHub).",
+   "candidate": true,
+   "verified": true,
+   "ref": "create-v6-1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "k-turrets": {
+   "repo": "AlexiyOrlov/k-turrets",
+   "note": "candidate (not in any pack); Verdant automated-defense search; GitHub master is 1.20.1, the NeoForge 1.21.1 build (4.0.x) is on CurseForge/Modrinth only, so not scanned.",
+   "candidate": true,
+   "verified": false,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "no-1.21-source"
   }
  }
 }

@@ -27,6 +27,8 @@ This is not a wish list. Each entry records what the item does, its numbers, wha
 | `verdant-review.md` | Verdant's partial-fit mods reviewed one by one, with usage in quests and KubeJS |
 | `influx-review.md` | Influx's partial-fit mods reviewed one by one; Powah is its generator |
 | `gap-check.md` | Check after the 2026-10-01 removals: new gaps introduced, gaps still open, stage coverage |
+| `verdant-defense-options.md` | Automated-defense options for Verdant's megabuild (Mekanism Turrets is the leaning) |
+| `adding-decided-mods.md` | Packwiz commands, required libraries and expected effect for adding the decided mods (pins cannot be created from here) |
 | `rpg-classes.md` | RPG class mods: the chosen ones, five candidate add-ons (Berserker, Bard, Forcemaster, Witcher, Elemental Wizards), their library chain and fit |
 | `candidates.md` | Discovery pass: mods not in any pack that answer a need, with scan evidence |
 | `cleanup.md` | Generated cleanup candidates (unused libraries, KubeJS add-ons, power overlaps, out-of-theme items, named-item clusters); `../../../scripts/series-cleanup.py` |

@@ -1,0 +1,48 @@
+{
+ "repo": "x3rdev/MekanismTurrets",
+ "ref": "1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "mekanism_turrets"
+ ],
+ "item_count": 5,
+ "compat": [
+  {
+   "id": "geckolib",
+   "slug": "geckolib",
+   "evidence": {
+    "dependency": 1
+   }
+  },
+  {
+   "id": "mekanism",
+   "slug": "mekanism",
+   "evidence": {
+    "data-ref": 5,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "mekanism_turrets:electric_fence": {
+   "kind": "block",
+   "name": "Electric Fence"
+  },
+  "mekanism_turrets:basic_laser_turret": {
+   "kind": "block",
+   "name": "Basic Laser Turret"
+  },
+  "mekanism_turrets:advanced_laser_turret": {
+   "kind": "block",
+   "name": "Advanced Laser Turret"
+  },
+  "mekanism_turrets:elite_laser_turret": {
+   "kind": "block",
+   "name": "Elite Laser Turret"
+  },
+  "mekanism_turrets:ultimate_laser_turret": {
+   "kind": "block",
+   "name": "Ultimate Laser Turret"
+  }
+ }
+}
