@@ -4152,6 +4152,253 @@
    "stages": [
     6
    ]
+  },
+  "berserker-rpg-class": {
+   "feel": [
+    "survival"
+   ],
+   "add": "armor",
+   "also": [
+    "combat",
+    "tooling"
+   ],
+   "gap": "Berserker class: raid axes and Northling armor; Rage mechanic",
+   "fit": {
+    "E": [
+     "partial",
+     "combat class option for Elysian"
+    ],
+    "L": [
+     "good",
+     "all classes"
+    ],
+    "V": [
+     "poor",
+     "class assigned elsewhere"
+    ],
+    "I": [
+     "poor",
+     "class assigned elsewhere"
+    ]
+   },
+   "note": "33 items; needs More RPG Library, AzureLib Armor. Netherite tier plus upgrade crystals and an Armory RPGs item for the top tier. See rpg-classes.md.",
+   "works_with": "spell-engine",
+   "status": "candidate",
+   "candidate": true,
+   "stages": [
+    6
+   ]
+  },
+  "bard-more-rpg-classes": {
+   "feel": [
+    "magic"
+   ],
+   "add": "armor",
+   "also": [
+    "combat",
+    "tooling"
+   ],
+   "gap": "Bard class: lyres, lutes, rapiers, harp crossbows; party support",
+   "fit": {
+    "I": [
+     "good",
+     "support class next to Paladins & Priests"
+    ],
+    "L": [
+     "good",
+     "all classes"
+    ],
+    "E": [
+     "partial",
+     "third spell and class system"
+    ],
+    "V": [
+     "poor",
+     "class assigned elsewhere"
+    ]
+   },
+   "note": "68 items; needs Spell Engine, More RPG Library, AzureLib Armor, Structure Pool API, Ranged Weapon API. See rpg-classes.md.",
+   "works_with": "spell-engine",
+   "status": "candidate",
+   "candidate": true,
+   "stages": [
+    6
+   ]
+  },
+  "forcemaster-rpg-class": {
+   "feel": [
+    "magic"
+   ],
+   "add": "armor",
+   "also": [
+    "combat",
+    "tooling"
+   ],
+   "gap": "Forcemaster class: knuckles and suits, martial arts plus spells",
+   "fit": {
+    "E": [
+     "partial",
+     "combat class option for Elysian"
+    ],
+    "L": [
+     "good",
+     "all classes"
+    ],
+    "V": [
+     "poor",
+     "class assigned elsewhere"
+    ],
+    "I": [
+     "poor",
+     "class assigned elsewhere"
+    ]
+   },
+   "note": "34 items; needs More RPG Library and AzureLib Armor. Netherite tier. See rpg-classes.md.",
+   "works_with": "spell-engine",
+   "status": "candidate",
+   "candidate": true,
+   "stages": [
+    6
+   ]
+  },
+  "witcher-rpg-class": {
+   "feel": [
+    "survival"
+   ],
+   "add": "content",
+   "also": [
+    "armor",
+    "resources",
+    "combat"
+   ],
+   "gap": "Witcher class: silver and steel swords, glyph signs, medallions, traps, diagrams, own ores and metals",
+   "fit": {
+    "L": [
+     "partial",
+     "only pack with real ore; a mod inside a mod"
+    ],
+    "V": [
+     "poor",
+     "adds ores; ore worldgen is off"
+    ],
+    "E": [
+     "poor",
+     "adds ores"
+    ],
+    "I": [
+     "poor",
+     "adds ores"
+    ]
+   },
+   "note": "192 items including silver, dark iron and meteorite ores, steel and dimeritium metals, 17 diagram tiers per gear piece. See rpg-classes.md.",
+   "works_with": "spell-engine",
+   "status": "candidate",
+   "candidate": true,
+   "stages": [
+    6
+   ]
+  },
+  "elemental-wizards-rpg-class": {
+   "feel": [
+    "magic"
+   ],
+   "add": "armor",
+   "also": [
+    "combat"
+   ],
+   "gap": "Elemental Wizards: earth, water and air robes and spells (extends Wizards)",
+   "fit": {
+    "L": [
+     "good",
+     "all classes"
+    ],
+    "E": [
+     "poor",
+     "overlaps Wizards in a pack with three spell systems"
+    ],
+    "V": [
+     "poor",
+     "class assigned elsewhere"
+    ],
+    "I": [
+     "poor",
+     "class assigned elsewhere"
+    ]
+   },
+   "note": "75 items; needs Wizards, More RPG Library, AzureLib Armor. Netherite and warden-crystal tiers. See rpg-classes.md.",
+   "works_with": "wizards",
+   "status": "candidate",
+   "candidate": true,
+   "stages": [
+    6
+   ]
+  },
+  "more-rpg-library": {
+   "feel": [
+    "magic"
+   ],
+   "add": "library",
+   "also": [
+    "armor"
+   ],
+   "gap": "Shared library for the More RPG Classes add-ons: runes, furs, hardened leather, Lost Crystals",
+   "fit": {
+    "L": [
+     "good",
+     "needed if any add-on is used"
+    ]
+   },
+   "note": "17 items; required by every add-on. Repo ProfessorFichte/More-RPG-Library (1.21.1).",
+   "works_with": "spell-engine",
+   "status": "candidate",
+   "candidate": true,
+   "stages": [
+    6
+   ]
+  },
+  "azurelib-armor": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "library",
+   "also": [],
+   "gap": "Armor model rendering library required by the More RPG Classes add-ons",
+   "fit": {
+    "L": [
+     "partial",
+     "needed only if an add-on is used; repo archived April 2026"
+    ]
+   },
+   "note": "No items; repo AzureDoom/AzureLib-Armor (branch 1.21.x), archived (read-only).",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true,
+   "stages": [
+    6
+   ]
+  },
+  "nocubes-sea-dwellers": {
+   "feel": [
+    "neutral"
+   ],
+   "add": "building",
+   "also": [
+    "content"
+   ],
+   "gap": "Underwater villages and sea traders (Realm RPG: Sea Dwellers)",
+   "fit": {
+    "L": [
+     "partial",
+     "overlaps the underwater-village structure mod already in Liminal"
+    ]
+   },
+   "note": "Maintainer suggested for Liminal. No public source repo found (author BlackAuresArt); not scanned. See rpg-classes.md.",
+   "works_with": "",
+   "status": "candidate",
+   "candidate": true,
+   "stages": [
+    6
+   ]
   }
  }
 }

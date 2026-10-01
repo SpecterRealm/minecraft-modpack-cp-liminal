@@ -1,0 +1,302 @@
+{
+ "repo": "ProfessorFichte/Forcemaster",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "forcemaster_rpg"
+ ],
+ "item_count": 34,
+ "compat": [
+  {
+   "id": "spell_engine",
+   "slug": "spell-engine",
+   "evidence": {
+    "data-ref": 12,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "forcemaster_rpg:aeternium_knuckle": {
+   "kind": "item",
+   "name": "Aeternium Knuckle",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:aether_knuckle": {
+   "kind": "item",
+   "name": "Holy Knuckle",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:aken_chest": {
+   "kind": "item",
+   "name": "Aken Suit",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:aken_feet": {
+   "kind": "item",
+   "name": "Aken Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:aken_head": {
+   "kind": "item",
+   "name": "Aken Headdress",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:aken_legs": {
+   "kind": "item",
+   "name": "Aken Pants",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:billporon_chest": {
+   "kind": "item",
+   "name": "Billporon Suit",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:billporon_feet": {
+   "kind": "item",
+   "name": "Billporon Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:billporon_head": {
+   "kind": "item",
+   "name": "Billporon Headdress",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:billporon_legs": {
+   "kind": "item",
+   "name": "Billporon Pants",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:diamond_knuckle": {
+   "kind": "item",
+   "name": "Diamond Knuckle",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:elder_guardian_knuckle": {
+   "kind": "item",
+   "name": "Fist of Tides",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:ender_dragon_knuckle": {
+   "kind": "item",
+   "name": "Wyrm's Claw",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:glacial_knuckle": {
+   "kind": "item",
+   "name": "Glacial Fist",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:golden_knuckle": {
+   "kind": "item",
+   "name": "Gold Knuckle",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:iron_knuckle": {
+   "kind": "item",
+   "name": "Iron Knuckle",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:netherite_knuckle": {
+   "kind": "item",
+   "name": "Netherite Knuckle",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:oriene_chest": {
+   "kind": "item",
+   "name": "Oriene Suit",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:oriene_feet": {
+   "kind": "item",
+   "name": "Oriene Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:oriene_head": {
+   "kind": "item",
+   "name": "Oriene Band",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:oriene_legs": {
+   "kind": "item",
+   "name": "Oriene Pants",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:phasleb_chest": {
+   "kind": "item",
+   "name": "Phasleb Suit",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:phasleb_feet": {
+   "kind": "item",
+   "name": "Phasleb Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:phasleb_head": {
+   "kind": "item",
+   "name": "Phasleb Headdress",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:phasleb_legs": {
+   "kind": "item",
+   "name": "Phasleb Pants",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:ruby_knuckle": {
+   "kind": "item",
+   "name": "Ruby Knuckle",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:spell_scroll/forcemaster": {
+   "kind": "item",
+   "name": "Forcemaster Skill Scroll",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:stone_knuckle": {
+   "kind": "item",
+   "name": "Stone Knuckle",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:unique_knuckle_0": {
+   "kind": "item",
+   "name": "Federhorn Knuckle",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:unique_knuckle_1": {
+   "kind": "item",
+   "name": "Knuckle of Madness",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:wither_knuckle": {
+   "kind": "item",
+   "name": "Wither's Bash",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "forcemaster_rpg:wooden_knuckle": {
+   "kind": "item",
+   "name": "Wooden Knuckle",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:forcemaster_rpg.fist_weapons": {
+   "kind": "item",
+   "name": "Fist Weapons",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "tag:forcemaster_rpg.knuckles": {
+   "kind": "item",
+   "name": "Knuckles",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-10-01",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "First read from source; see rpg-classes.md.",
+  "class": "candidate",
+  "purpose": "Forcemaster class gear"
+ }
+}

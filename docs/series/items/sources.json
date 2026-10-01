@@ -2005,6 +2005,78 @@
    "ref_kind": "branch",
    "check": "ok",
    "candidate": true
+  },
+  "berserker-rpg-class": {
+   "repo": "ProfessorFichte/Berserker-RPG-Class",
+   "note": "candidate (not in any pack); supplied by maintainer; Spell Engine add-on class.",
+   "candidate": true,
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "bard-more-rpg-classes": {
+   "repo": "ProfessorFichte/Bards",
+   "note": "candidate (not in any pack); supplied by maintainer; Spell Engine add-on class.",
+   "candidate": true,
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "forcemaster-rpg-class": {
+   "repo": "ProfessorFichte/Forcemaster",
+   "note": "candidate (not in any pack); supplied by maintainer; Spell Engine add-on class.",
+   "candidate": true,
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "witcher-rpg-class": {
+   "repo": "ProfessorFichte/Witcher-RPG-Class",
+   "note": "candidate (not in any pack); supplied by maintainer; Spell Engine add-on class.",
+   "candidate": true,
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "elemental-wizards-rpg-class": {
+   "repo": "ProfessorFichte/Elemental-Wizards-RPG-Class",
+   "note": "candidate (not in any pack); supplied by maintainer; Spell Engine add-on class.",
+   "candidate": true,
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "more-rpg-library": {
+   "repo": "ProfessorFichte/More-RPG-Library",
+   "note": "candidate (not in any pack); library required by the More RPG Classes add-ons.",
+   "candidate": true,
+   "verified": true,
+   "ref": "1.21.1",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "azurelib-armor": {
+   "repo": "AzureDoom/AzureLib-Armor",
+   "note": "candidate (not in any pack); library required by the More RPG Classes add-ons (repo archived April 2026).",
+   "candidate": true,
+   "verified": true,
+   "ref": "1.21.x",
+   "ref_kind": "branch",
+   "check": "ok"
+  },
+  "nocubes-sea-dwellers": {
+   "repo": null,
+   "note": "candidate (not in any pack); supplied by maintainer for Liminal; CurseForge page nocubes-sea-dwellers (Realm RPG: Sea Dwellers, author BlackAuresArt, NeoForge 1.21.1 builds). No public source repo found.",
+   "candidate": true,
+   "verified": false,
+   "ref": null,
+   "ref_kind": "none",
+   "check": "no-repo"
   }
  }
 }

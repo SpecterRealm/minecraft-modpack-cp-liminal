@@ -1,0 +1,173 @@
+{
+ "repo": "ProfessorFichte/More-RPG-Library",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "more_rpg_classes"
+ ],
+ "item_count": 17,
+ "compat": [
+  {
+   "id": "spell_engine",
+   "slug": "spell-engine",
+   "evidence": {
+    "data-ref": 19,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "wizards",
+   "slug": "wizards",
+   "evidence": {
+    "data-ref": 1
+   }
+  }
+ ],
+ "items": {
+  "more_rpg_classes:aqua_stone": {
+   "kind": "item",
+   "name": "Water Rune",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "more_rpg_classes:terra_stone": {
+   "kind": "item",
+   "name": "Earth Rune",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "more_rpg_classes:storm_stone": {
+   "kind": "item",
+   "name": "Air Rune",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "more_rpg_classes:nature_stone": {
+   "kind": "item",
+   "name": "Nature Rune",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "more_rpg_classes:polar_bear_fur": {
+   "kind": "item",
+   "name": "Bear Fur",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "more_rpg_classes:wolf_fur": {
+   "kind": "item",
+   "name": "Wolf Fur",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "more_rpg_classes:hardened_leather": {
+   "kind": "item",
+   "name": "Hardened Leather",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "more_rpg_classes:ascetic_upgrade_crystal": {
+   "kind": "item",
+   "name": "Ascetic's Lost Crystal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "more_rpg_classes:general_upgrade_crystal": {
+   "kind": "item",
+   "name": "General's Lost Crystal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "more_rpg_classes:ravager_upgrade_crystal": {
+   "kind": "item",
+   "name": "Ravager's Lost Crystal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "more_rpg_classes:upgrade_crystal.ascetic.applies_to": {
+   "kind": "item",
+   "name": "Air Wizard and Forcemaster armor",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "more_rpg_classes:upgrade_crystal.general.applies_to": {
+   "kind": "item",
+   "name": "Deadeye and War Archer armor",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "more_rpg_classes:upgrade_crystal.ravager.applies_to": {
+   "kind": "item",
+   "name": "Berserker and Tundra Hunter armor",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "more_rpg_classes:upgrade_crystal.virtuoso.applies_to": {
+   "kind": "item",
+   "name": "Bard armor",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "more_rpg_classes:upgrade_crystal.warden.applies_to": {
+   "kind": "item",
+   "name": "Earth Wizard and Water Wizard armor",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "more_rpg_classes:virtuoso_upgrade_crystal": {
+   "kind": "item",
+   "name": "Virtuoso's Lost Crystal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "more_rpg_classes:warden_upgrade_crystal": {
+   "kind": "item",
+   "name": "Warden's Lost Crystal",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-10-01",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "First read from source; see rpg-classes.md.",
+  "class": "library",
+  "purpose": "More RPG Classes shared library"
+ }
+}

@@ -1,0 +1,1581 @@
+{
+ "repo": "ProfessorFichte/Witcher-RPG-Class",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "witcher_rpg"
+ ],
+ "item_count": 192,
+ "compat": [
+  {
+   "id": "curios",
+   "slug": "curios",
+   "evidence": {
+    "compat-import": 1,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "emi",
+   "slug": "emi",
+   "evidence": {
+    "compat-import": 1
+   }
+  },
+  {
+   "id": "spell_engine",
+   "slug": "spell-engine",
+   "evidence": {
+    "data-ref": 40,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "witcher_rpg:dark_iron_block": {
+   "kind": "block",
+   "name": "Block of Dark Iron",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:dark_iron_ore": {
+   "kind": "block",
+   "name": "Dark Iron Ore",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:dark_steel_block": {
+   "kind": "block",
+   "name": "Block of Dark Steel",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:deepslate_dark_iron_ore": {
+   "kind": "block",
+   "name": "Deepslate Dark Iron Ore",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:deepslate_silver_ore": {
+   "kind": "block",
+   "name": "Deepslate Silver Ore",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:meteorite_block": {
+   "kind": "block",
+   "name": "Block of Meteorite",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:meteorite_ore": {
+   "kind": "block",
+   "name": "Meteorite Ore",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:meteorite_silver_block": {
+   "kind": "block",
+   "name": "Block of Meteorite Silver",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:nether_dark_iron_ore": {
+   "kind": "block",
+   "name": "Nether Dark Iron Ore",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:raw_silver_block": {
+   "kind": "block",
+   "name": "Block of Silver Ore",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:silver_block": {
+   "kind": "block",
+   "name": "Block of Silver",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:silver_ore": {
+   "kind": "block",
+   "name": "Silver Ore",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:steel_block": {
+   "kind": "block",
+   "name": "Block of Steel",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:yrden_magical_trap": {
+   "kind": "entity",
+   "name": "Magical Trap",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:aard_glyph": {
+   "kind": "item",
+   "name": "Aard Glyph",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:aerondight_sword": {
+   "kind": "item",
+   "name": "Aerondight",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:aeternium_witcher_sword": {
+   "kind": "item",
+   "name": "Aeternium Witcher Sword",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:aether_witcher_sword": {
+   "kind": "item",
+   "name": "Heavenly Witcher Sword",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:axii_glyph": {
+   "kind": "item",
+   "name": "Axii Glyph",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:azure_wrath_sword": {
+   "kind": "item",
+   "name": "Azure Wrath",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:bear_school_medallion": {
+   "kind": "item",
+   "name": "Bear School Medallion",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:cat_school_medallion": {
+   "kind": "item",
+   "name": "Cat School Medallion",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:chernobog_runestone": {
+   "kind": "item",
+   "name": "Chernobog Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:crystal_skull": {
+   "kind": "item",
+   "name": "Crystal Skull",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:dark_iron_ingot": {
+   "kind": "item",
+   "name": "Dark Iron Ingot",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:dark_iron_witcher_sword": {
+   "kind": "item",
+   "name": "Dark Iron Witcher Sword",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:dark_steel_ingot": {
+   "kind": "item",
+   "name": "Dark Steel Ingot",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:dark_steel_witcher_sword": {
+   "kind": "item",
+   "name": "Dark Steel Witcher Sword",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:dazhbog_runestone": {
+   "kind": "item",
+   "name": "Dazhbog Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:devana_runestone": {
+   "kind": "item",
+   "name": "Devana Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:diamond_witcher_sword": {
+   "kind": "item",
+   "name": "Diamond Witcher Sword",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:dimeritium_ingot": {
+   "kind": "item",
+   "name": "Dimeritium Ingot",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:dimeritium_ingot.applies_to": {
+   "kind": "item",
+   "name": "Mastercrafted Witcher Gear",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:empty_glyph_slot": {
+   "kind": "item",
+   "name": "Empty Glyph Slot",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:empty_runestone_slot": {
+   "kind": "item",
+   "name": "Empty Runestone Slot",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:enhanced_diagram": {
+   "kind": "item",
+   "name": "Smithing Template",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:enhanced_feline_chest": {
+   "kind": "item",
+   "name": "§2Enhanced§r Feline Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:enhanced_feline_feet": {
+   "kind": "item",
+   "name": "§2Enhanced§r Feline Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:enhanced_feline_head": {
+   "kind": "item",
+   "name": "§2Enhanced§r Feline Band",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:enhanced_feline_legs": {
+   "kind": "item",
+   "name": "§2Enhanced§r Feline Legs",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:enhanced_griffin_chest": {
+   "kind": "item",
+   "name": "§2Enhanced§r Griffin Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:enhanced_griffin_feet": {
+   "kind": "item",
+   "name": "§2Enhanced§r Griffin Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:enhanced_griffin_head": {
+   "kind": "item",
+   "name": "§2Enhanced§r Griffin Band",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:enhanced_griffin_legs": {
+   "kind": "item",
+   "name": "§2Enhanced§r Griffin Pants",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:enhanced_ursine_chest": {
+   "kind": "item",
+   "name": "§2Enhanced§r Ursine Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:enhanced_ursine_feet": {
+   "kind": "item",
+   "name": "§2Enhanced§r Ursine Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:enhanced_ursine_head": {
+   "kind": "item",
+   "name": "§2Enhanced§r Ursine Band",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:enhanced_ursine_legs": {
+   "kind": "item",
+   "name": "§2Enhanced§r Ursine Pants",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:enhanced_wolven_chest": {
+   "kind": "item",
+   "name": "§2Enhanced§r Wolven Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:enhanced_wolven_feet": {
+   "kind": "item",
+   "name": "§2Enhanced§r Wolven Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:enhanced_wolven_head": {
+   "kind": "item",
+   "name": "§2Enhanced§r Wolven Band",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:enhanced_wolven_legs": {
+   "kind": "item",
+   "name": "§2Enhanced§r Wolven Legs",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:feline_chest": {
+   "kind": "item",
+   "name": "Feline Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:feline_feet": {
+   "kind": "item",
+   "name": "Feline Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:feline_head": {
+   "kind": "item",
+   "name": "Feline Band",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:feline_legs": {
+   "kind": "item",
+   "name": "Feline Legs",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:golden_witcher_sword": {
+   "kind": "item",
+   "name": "Golden Witcher Sword",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:grandmaster_diagram": {
+   "kind": "item",
+   "name": "Smithing Template",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:grandmaster_feline_chest": {
+   "kind": "item",
+   "name": "§2Grandmaster§r Feline Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:grandmaster_feline_feet": {
+   "kind": "item",
+   "name": "§2Grandmaster§r Feline Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:grandmaster_feline_head": {
+   "kind": "item",
+   "name": "§2Grandmaster§r Feline Band",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:grandmaster_feline_legs": {
+   "kind": "item",
+   "name": "§2Grandmaster§r Feline Legs",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:grandmaster_griffin_chest": {
+   "kind": "item",
+   "name": "§2Grandmaster§r Griffin Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:grandmaster_griffin_feet": {
+   "kind": "item",
+   "name": "§2Grandmaster§r Griffin Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:grandmaster_griffin_head": {
+   "kind": "item",
+   "name": "§2Grandmaster§r Griffin Band",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:grandmaster_griffin_legs": {
+   "kind": "item",
+   "name": "§2Grandmaster§r Griffin Pants",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:grandmaster_ursine_chest": {
+   "kind": "item",
+   "name": "§2Grandmaster§r Ursine Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:grandmaster_ursine_feet": {
+   "kind": "item",
+   "name": "§2Grandmaster§r Ursine Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:grandmaster_ursine_head": {
+   "kind": "item",
+   "name": "§2Grandmaster§r Ursine Band",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:grandmaster_ursine_legs": {
+   "kind": "item",
+   "name": "§2Grandmaster§r Ursine Pants",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:grandmaster_wolven_chest": {
+   "kind": "item",
+   "name": "§2Grandmaster§r Wolven Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:grandmaster_wolven_feet": {
+   "kind": "item",
+   "name": "§2Grandmaster§r Wolven Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:grandmaster_wolven_head": {
+   "kind": "item",
+   "name": "§2Grandmaster§r Wolven Band",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:grandmaster_wolven_legs": {
+   "kind": "item",
+   "name": "§2Grandmaster§r Wolven Legs",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:greater_aard_glyph": {
+   "kind": "item",
+   "name": "Greater Aard Glyph",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:greater_axii_glyph": {
+   "kind": "item",
+   "name": "Greater Axii Glyph",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:greater_chernobog_runestone": {
+   "kind": "item",
+   "name": "Greater Chernobog Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:greater_dazhbog_runestone": {
+   "kind": "item",
+   "name": "Greater Dazhbog Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:greater_devana_runestone": {
+   "kind": "item",
+   "name": "Greater Devana Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:greater_igni_glyph": {
+   "kind": "item",
+   "name": "Greater Igni Glyph",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:greater_morana_runestone": {
+   "kind": "item",
+   "name": "Greater Morana Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:greater_perun_runestone": {
+   "kind": "item",
+   "name": "Greater Perun Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:greater_quen_glyph": {
+   "kind": "item",
+   "name": "Greater Quen Glyph",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:greater_stribog_runestone": {
+   "kind": "item",
+   "name": "Greater Stribog Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:greater_svarog_runestone": {
+   "kind": "item",
+   "name": "Greater Svarog Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:greater_triglav_runestone": {
+   "kind": "item",
+   "name": "Greater Triglav Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:greater_veles_runestone": {
+   "kind": "item",
+   "name": "Greater Veles Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:greater_yrden_glyph": {
+   "kind": "item",
+   "name": "Greater Yrden Glyph",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:greater_zoria_runestone": {
+   "kind": "item",
+   "name": "Greater Zoria Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:griffin_chest": {
+   "kind": "item",
+   "name": "Griffin Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:griffin_feet": {
+   "kind": "item",
+   "name": "Griffin Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:griffin_head": {
+   "kind": "item",
+   "name": "Griffin Band",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:griffin_legs": {
+   "kind": "item",
+   "name": "Griffin Pants",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:griffin_school_medallion": {
+   "kind": "item",
+   "name": "Griffin School Medallion",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:igni_glyph": {
+   "kind": "item",
+   "name": "Igni Glyph",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:iris_sword": {
+   "kind": "item",
+   "name": "Iris",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:iron_witcher_sword": {
+   "kind": "item",
+   "name": "Iron Witcher Sword",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:lesser_aard_glyph": {
+   "kind": "item",
+   "name": "Lesser Aard Glyph",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:lesser_axii_glyph": {
+   "kind": "item",
+   "name": "Lesser Axii Glyph",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:lesser_chernobog_runestone": {
+   "kind": "item",
+   "name": "Lesser Chernobog Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:lesser_dazhbog_runestone": {
+   "kind": "item",
+   "name": "Lesser Dazhbog Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:lesser_devana_runestone": {
+   "kind": "item",
+   "name": "Lesser Devana Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:lesser_igni_glyph": {
+   "kind": "item",
+   "name": "Lesser Igni Glyph",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:lesser_morana_runestone": {
+   "kind": "item",
+   "name": "Lesser Morana Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:lesser_perun_runestone": {
+   "kind": "item",
+   "name": "Lesser Perun Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:lesser_quen_glyph": {
+   "kind": "item",
+   "name": "Lesser Quen Glyph",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:lesser_stribog_runestone": {
+   "kind": "item",
+   "name": "Lesser Stribog Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:lesser_svarog_runestone": {
+   "kind": "item",
+   "name": "Lesser Svarog Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:lesser_triglav_runestone": {
+   "kind": "item",
+   "name": "Lesser Triglav Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:lesser_veles_runestone": {
+   "kind": "item",
+   "name": "Lesser Veles Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:lesser_yrden_glyph": {
+   "kind": "item",
+   "name": "Lesser Yrden Glyph",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:lesser_zoria_runestone": {
+   "kind": "item",
+   "name": "Lesser Zoria Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:mastercrafted_diagram": {
+   "kind": "item",
+   "name": "Smithing Template",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:mastercrafted_feline_chest": {
+   "kind": "item",
+   "name": "§2Mastercrafted§r Feline Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:mastercrafted_feline_feet": {
+   "kind": "item",
+   "name": "§2Mastercrafted§r Feline Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:mastercrafted_feline_head": {
+   "kind": "item",
+   "name": "§2Mastercrafted§r Feline Band",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:mastercrafted_feline_legs": {
+   "kind": "item",
+   "name": "§2Mastercrafted§r Feline Legs",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:mastercrafted_griffin_chest": {
+   "kind": "item",
+   "name": "§2Mastercrafted§r Griffin Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:mastercrafted_griffin_feet": {
+   "kind": "item",
+   "name": "§2Mastercrafted§r Griffin Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:mastercrafted_griffin_head": {
+   "kind": "item",
+   "name": "§2Mastercrafted§r Griffin Band",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:mastercrafted_griffin_legs": {
+   "kind": "item",
+   "name": "§2Mastercrafted§r Griffin Pants",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:mastercrafted_ursine_chest": {
+   "kind": "item",
+   "name": "§2Mastercrafted§r Ursine Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:mastercrafted_ursine_feet": {
+   "kind": "item",
+   "name": "§2Mastercrafted§r Ursine Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:mastercrafted_ursine_head": {
+   "kind": "item",
+   "name": "§2Mastercrafted§r Ursine Band",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:mastercrafted_ursine_legs": {
+   "kind": "item",
+   "name": "§2Mastercrafted§r Ursine Pants",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:mastercrafted_wolven_chest": {
+   "kind": "item",
+   "name": "§2Mastercrafted§r Wolven Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:mastercrafted_wolven_feet": {
+   "kind": "item",
+   "name": "§2Mastercrafted§r Wolven Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:mastercrafted_wolven_head": {
+   "kind": "item",
+   "name": "§2Mastercrafted§r Wolven Band",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:mastercrafted_wolven_legs": {
+   "kind": "item",
+   "name": "§2Mastercrafted§r Wolven Legs",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:meteorite": {
+   "kind": "item",
+   "name": "Meteorite",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:meteorite_ingot": {
+   "kind": "item",
+   "name": "Meteorite Ingot",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:meteorite_silver_ingot": {
+   "kind": "item",
+   "name": "Meteorite Silver Ingot",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:meteorite_silver_witcher_sword": {
+   "kind": "item",
+   "name": "Meteorite Silver Witcher Sword",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:meteorite_witcher_sword": {
+   "kind": "item",
+   "name": "Meteorite Witcher Sword",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:morana_runestone": {
+   "kind": "item",
+   "name": "Morana Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:netherite_witcher_sword": {
+   "kind": "item",
+   "name": "Netherite Witcher Sword",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:perun_runestone": {
+   "kind": "item",
+   "name": "Perun Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:pure_silver": {
+   "kind": "item",
+   "name": "Pure Silver",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:quen_glyph": {
+   "kind": "item",
+   "name": "Quen Glyph",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:raw_dark_iron": {
+   "kind": "item",
+   "name": "Raw Dark Iron",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:raw_silver": {
+   "kind": "item",
+   "name": "Raw Silver",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:reach_of_the_damned_sword": {
+   "kind": "item",
+   "name": "Reach of the Damned",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:rose_of_remembrance": {
+   "kind": "item",
+   "name": "Rose of Remembrance",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:ruby_witcher_sword": {
+   "kind": "item",
+   "name": "Ruby Witcher Sword",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:silver_ingot": {
+   "kind": "item",
+   "name": "Silver Ingot",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:silver_nugget": {
+   "kind": "item",
+   "name": "Silver Nugger",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:silver_witcher_sword": {
+   "kind": "item",
+   "name": "Silver Witcher Sword",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:smithing_template.hint": {
+   "kind": "item",
+   "name": "Witcher Gear upgrade Ingot",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:spell_scroll/fencing": {
+   "kind": "item",
+   "name": "Fencing Skill",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:spell_scroll/signs": {
+   "kind": "item",
+   "name": "Witcher Sign Scroll",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:steel_ingot": {
+   "kind": "item",
+   "name": "Steel Ingot",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:steel_nugget": {
+   "kind": "item",
+   "name": "Steel Nugget",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:steel_witcher_sword": {
+   "kind": "item",
+   "name": "Steel Witcher Sword",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:stribog_runestone": {
+   "kind": "item",
+   "name": "Stribog Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:sunstone": {
+   "kind": "item",
+   "name": "Sunstone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:superior_diagram": {
+   "kind": "item",
+   "name": "Smithing Template",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:superior_feline_chest": {
+   "kind": "item",
+   "name": "§2Superior§r Feline Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:superior_feline_feet": {
+   "kind": "item",
+   "name": "§2Superior§r Feline Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:superior_feline_head": {
+   "kind": "item",
+   "name": "§2Superior§r Feline Band",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:superior_feline_legs": {
+   "kind": "item",
+   "name": "§2Superior§r Feline Legs",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:superior_griffin_chest": {
+   "kind": "item",
+   "name": "§2Superior§r Griffin Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:superior_griffin_feet": {
+   "kind": "item",
+   "name": "§2Superior§r Griffin Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:superior_griffin_head": {
+   "kind": "item",
+   "name": "§2Superior§r Griffin Band",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:superior_griffin_legs": {
+   "kind": "item",
+   "name": "§2Superior§r Griffin Pants",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:superior_ursine_chest": {
+   "kind": "item",
+   "name": "§2Superior§r Ursine Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:superior_ursine_feet": {
+   "kind": "item",
+   "name": "§2Superior§r Ursine Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:superior_ursine_head": {
+   "kind": "item",
+   "name": "§2Superior§r Ursine Band",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:superior_ursine_legs": {
+   "kind": "item",
+   "name": "§2Superior§r Ursine Pants",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:superior_wolven_chest": {
+   "kind": "item",
+   "name": "§2Superior§r Wolven Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:superior_wolven_feet": {
+   "kind": "item",
+   "name": "§2Superior§r Wolven Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:superior_wolven_head": {
+   "kind": "item",
+   "name": "§2Superior§r Wolven Band",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:superior_wolven_legs": {
+   "kind": "item",
+   "name": "§2Superior§r Wolven Legs",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:svarog_runestone": {
+   "kind": "item",
+   "name": "Svarog Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:triglav_runestone": {
+   "kind": "item",
+   "name": "Triglav Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:ultimatum_sword": {
+   "kind": "item",
+   "name": "Ultimatum",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:ursine_chest": {
+   "kind": "item",
+   "name": "Ursine Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:ursine_feet": {
+   "kind": "item",
+   "name": "Ursine Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:ursine_head": {
+   "kind": "item",
+   "name": "Ursine Band",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:ursine_legs": {
+   "kind": "item",
+   "name": "Ursine Pants",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:veles_runestone": {
+   "kind": "item",
+   "name": "Veles Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:winters_blade_sword": {
+   "kind": "item",
+   "name": "Winter´s Blade",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:witcher_chest": {
+   "kind": "item",
+   "name": "Kaer Morhen Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:witcher_feet": {
+   "kind": "item",
+   "name": "Kaer Morhen Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:witcher_head": {
+   "kind": "item",
+   "name": "Kaer Morhen Band",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:witcher_legs": {
+   "kind": "item",
+   "name": "Kaer Morhen Pants",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:wolf_school_medallion": {
+   "kind": "item",
+   "name": "Wolf School Medallion",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:wolven_chest": {
+   "kind": "item",
+   "name": "Wolven Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:wolven_feet": {
+   "kind": "item",
+   "name": "Wolven Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:wolven_head": {
+   "kind": "item",
+   "name": "Wolven Band",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:wolven_legs": {
+   "kind": "item",
+   "name": "Wolven Legs",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:yrden_glyph": {
+   "kind": "item",
+   "name": "Yrden Glyph",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "witcher_rpg:zoria_runestone": {
+   "kind": "item",
+   "name": "Zoria Runestone",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-10-01",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "First read from source; see rpg-classes.md.",
+  "class": "candidate",
+  "purpose": "Witcher class kit, ores and diagrams"
+ }
+}

@@ -1,0 +1,581 @@
+{
+ "repo": "ProfessorFichte/Bards",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "bards_rpg"
+ ],
+ "item_count": 68,
+ "compat": [
+  {
+   "id": "lithostitched",
+   "slug": "lithostitched",
+   "evidence": {
+    "data-ref": 5
+   }
+  },
+  {
+   "id": "spell_engine",
+   "slug": "spell-engine",
+   "evidence": {
+    "data-ref": 23,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "bards_rpg:music_stand": {
+   "kind": "block",
+   "name": "Music note Stand",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "minecraft:villager.bards_rpg.luthier": {
+   "kind": "entity",
+   "name": "Luthier",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "minecraft:villager.luthier": {
+   "kind": "entity",
+   "name": "Luthier",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:aeternium_lyre": {
+   "kind": "item",
+   "name": "Aeternium Lyre",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:aeternium_rapier": {
+   "kind": "item",
+   "name": "Aeternium Rapier",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:aether_harp_crossbow": {
+   "kind": "item",
+   "name": "Divine Harp Crossbow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:aether_lute": {
+   "kind": "item",
+   "name": "Angelic Lute",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:aether_lyre": {
+   "kind": "item",
+   "name": "Valkyrie Lyre",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:aether_rapier": {
+   "kind": "item",
+   "name": "Valkyrie Rapier",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:bard_spell_scroll": {
+   "kind": "item",
+   "name": "",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:canticle_of_the_tides": {
+   "kind": "item",
+   "name": "Music Disc",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:diamond_harp_crossbow": {
+   "kind": "item",
+   "name": "Diamond Harp Crossbow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:diamond_lute": {
+   "kind": "item",
+   "name": "Diamond Lute",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:diamond_lyre": {
+   "kind": "item",
+   "name": "Diamond Lyre",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:diamond_rapier": {
+   "kind": "item",
+   "name": "Diamond Rapier",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:discordant_note": {
+   "kind": "item",
+   "name": "Music Disc",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:elder_guardian_harp_crossbow": {
+   "kind": "item",
+   "name": "Atlantis Harp Crossbow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:elder_guardian_lyre": {
+   "kind": "item",
+   "name": "Siren's Lyre",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:elder_guardian_rapier": {
+   "kind": "item",
+   "name": "Coral Rapier",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:ender_dragon_lute": {
+   "kind": "item",
+   "name": "Dragon Lute",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:ender_dragon_rapier": {
+   "kind": "item",
+   "name": "Dragon's Rapier",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:entertainer_garb_chest": {
+   "kind": "item",
+   "name": "Entertainer Garb",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:entertainer_garb_feet": {
+   "kind": "item",
+   "name": "Entertainer Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:entertainer_garb_head": {
+   "kind": "item",
+   "name": "Entertainer Hat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:entertainer_garb_legs": {
+   "kind": "item",
+   "name": "Entertainer Trousers",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:glacial_rapier": {
+   "kind": "item",
+   "name": "Glacial Rapier",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:golden_lyre": {
+   "kind": "item",
+   "name": "Golden Lyre",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:golden_rapier": {
+   "kind": "item",
+   "name": "Golden Rapier",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:harp_crossbow": {
+   "kind": "item",
+   "name": "Harp Crossbow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:hymn_of_the_golden_light": {
+   "kind": "item",
+   "name": "Music Disc",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:iron_rapier": {
+   "kind": "item",
+   "name": "Iron Rapier",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:natures_minne": {
+   "kind": "item",
+   "name": "Music Disc",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:netherite_harp_crossbow": {
+   "kind": "item",
+   "name": "Netherite Harp Crossbow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:netherite_lute": {
+   "kind": "item",
+   "name": "Netherite Lute",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:netherite_lyre": {
+   "kind": "item",
+   "name": "Netherite Lyre",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:netherite_rapier": {
+   "kind": "item",
+   "name": "Netherite Rapier",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:netherite_troubadour_garb_chest": {
+   "kind": "item",
+   "name": "Netherite Troubadour Garb",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:netherite_troubadour_garb_feet": {
+   "kind": "item",
+   "name": "Netherite Troubadour Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:netherite_troubadour_garb_head": {
+   "kind": "item",
+   "name": "Netherite Troubadour Hat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:netherite_troubadour_garb_legs": {
+   "kind": "item",
+   "name": "Netherite Troubadour Trousers",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:ruby_harp_crossbow": {
+   "kind": "item",
+   "name": "Heavenly Harp Crossbow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:ruby_lute": {
+   "kind": "item",
+   "name": "Ruby Lute",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:ruby_rapier": {
+   "kind": "item",
+   "name": "Ruby Rapier",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:secret_sonata": {
+   "kind": "item",
+   "name": "Music Disc",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:song_of_celerity": {
+   "kind": "item",
+   "name": "Music Disc",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:song_of_the_turning_sky": {
+   "kind": "item",
+   "name": "Music Disc",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:spell_scroll/bard": {
+   "kind": "item",
+   "name": "Bard Ballad",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:storyteller_garb_chest": {
+   "kind": "item",
+   "name": "Storyteller Tunic",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:storyteller_garb_feet": {
+   "kind": "item",
+   "name": "Storyteller Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:storyteller_garb_head": {
+   "kind": "item",
+   "name": "Storyteller Hat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:storyteller_garb_legs": {
+   "kind": "item",
+   "name": "Storyteller Trousers",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:tale_of_the_dragonslayer": {
+   "kind": "item",
+   "name": "Music Disc",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:troubadour_garb_chest": {
+   "kind": "item",
+   "name": "Troubadour Garb",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:troubadour_garb_feet": {
+   "kind": "item",
+   "name": "Troubadour Boots",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:troubadour_garb_head": {
+   "kind": "item",
+   "name": "Troubadour Hat",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:troubadour_garb_legs": {
+   "kind": "item",
+   "name": "Troubadour Trousers",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:troubadours_minuet": {
+   "kind": "item",
+   "name": "Music Disc",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:unique_harp_crossbow_0": {
+   "kind": "item",
+   "name": "Lightning Harp Crossbow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:unique_harp_crossbow_1": {
+   "kind": "item",
+   "name": "Starshot Harp Crossbow",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:unique_lute_0": {
+   "kind": "item",
+   "name": "Lute of Ruby Verdict",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:unique_lute_1": {
+   "kind": "item",
+   "name": "Spellthief's Lute",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:unique_lyre_0": {
+   "kind": "item",
+   "name": "Lyre of Apollo",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:unique_lyre_1": {
+   "kind": "item",
+   "name": "Lyre of Antecael",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:unique_rapier_0": {
+   "kind": "item",
+   "name": "Singing Blade",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:unique_rapier_1": {
+   "kind": "item",
+   "name": "Duelist's Rapier",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:wanderers_minuet": {
+   "kind": "item",
+   "name": "Music Disc",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:wither_rapier": {
+   "kind": "item",
+   "name": "Withered Rapier",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  },
+  "bards_rpg:wooden_lute": {
+   "kind": "item",
+   "name": "Wooden Lute",
+   "tags": [
+    "feel:magic",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-10-01",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "First read from source; see rpg-classes.md.",
+  "class": "candidate",
+  "purpose": "Bard class gear"
+ }
+}

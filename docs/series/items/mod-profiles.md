@@ -10,6 +10,10 @@ Packs: V Verdant (overworld, no ore, tech-first), E Elysian (void, magic only, n
 |---|---|---|---|---|---|---|---|---|---|
 | apotheosis | EL | magic | armor | tooling, content | Gear power: sockets, reforging, affixes, bosses | - | partial | - | good |
 | archers | - | neutral | armor | tooling, combat | Archer class: bows, crossbows, spears, ranger sets (ranged niche; turr | good | partial | poor | good |
+| bard-more-rpg-classes | - | magic | armor | combat, tooling | Bard class: lyres, lutes, rapiers, harp crossbows; party support | poor | partial | good | good |
+| berserker-rpg-class | - | survival | armor | combat, tooling | Berserker class: raid axes and Northling armor; Rage mechanic | poor | partial | poor | good |
+| elemental-wizards-rpg-class | - | magic | armor | combat | Elemental Wizards: earth, water and air robes and spells (extends Wiza | poor | poor | poor | good |
+| forcemaster-rpg-class | - | magic | armor | combat, tooling | Forcemaster class: knuckles and suits, martial arts plus spells | poor | partial | poor | good |
 | irons-jewelry | EL | magic | armor |  | Jewelry for Iron's Spells | - | partial | - | partial |
 | paladins | - | magic | armor | tooling, combat | Paladin and Priest classes: maces, claymores, shields, holy wands and  | poor | poor | good | good |
 | rogues | - | neutral | armor | tooling, combat | Rogue and Warrior classes: daggers, sickles, glaives, double axes, ass | poor | good | poor | good |
@@ -26,6 +30,7 @@ Packs: V Verdant (overworld, no ore, tech-first), E Elysian (void, magic only, n
 | mystical-automation | L | tech | automation |  | Machines automating Mystical Agriculture | - | poor | - | partial |
 | natures-aura | - | nature+magic | automation | power, resources | Aura powers a large machine set without FE: field creator (farm), auto | - | good | partial | - |
 | building-gadgets | VL | tech | building |  | FE-powered copy/paste and building tools | partial | - | - | partial |
+| nocubes-sea-dwellers | - | neutral | building | content | Underwater villages and sea traders (Realm RPG: Sea Dwellers) | - | - | - | partial |
 | supplementaries | - | neutral | building | qol | Decor, small gadgets and quality of life (sack, cage, pulley, flags) | partial | partial | partial | partial |
 | ars-elemancy | L | magic | combat | armor | Elemental armor and foci (needs Ars Elemental) | - | partial | - |  |
 | ars-elemental | EL | magic | combat | armor | Four elemental schools: glyphs, armor, foci | - | good | - |  |
@@ -50,6 +55,7 @@ Packs: V Verdant (overworld, no ore, tech-first), E Elysian (void, magic only, n
 | the-twilight-forest | L | nature+magic | content |  | Dimension with bosses, raids and loot | - | - | - | partial |
 | tough-as-nails | VEL | survival | content |  | Thirst and temperature | partial | partial | partial | partial |
 | towns-and-towers | L | nature | content |  | World generation / structures | - | - | - |  |
+| witcher-rpg-class | - | survival | content | armor, resources, combat | Witcher class: silver and steel swords, glyph signs, medallions, traps | poor | poor | poor | partial |
 | farmers-delight | VEIL | nature | food |  | Cooking and meals | good | good | good | good |
 | farming-for-blockheads | VEIL | nature | food |  | Market trading and farm helpers | partial | partial | partial | partial |
 | productivefarming | IL | nature+breeding | food |  | About 160 crops, flowers, dyes | - | - | partial | partial |
@@ -119,11 +125,11 @@ Packs: V Verdant (overworld, no ore, tech-first), E Elysian (void, magic only, n
 | apothic-enchanting | EL | magic | tooling | armor | Higher-level enchanting via shelves | - | good | - | good |
 | mekanism-tools | VL | tech | tooling | armor | Paxels, tiered tools, armor, shields | partial | - | - | partial |
 | silent-gear | VEIL | neutral | tooling | armor | Modular gear from parts and materials | good | good | good | good |
-| wooden-shears | V | neutral | tooling |  | Early shears replacement | partial | partial | partial | partial |
+| wooden-shears | - | neutral | tooling |  | Early shears replacement | partial | partial | partial | partial |
 
 ## Feel by pack (which mods sit outside a pack's theme)
 
-**Verdant:** tech (29); neutral (7); steampunk (4); nature (2); sci-fi (1); survival (1)
+**Verdant:** tech (29); neutral (6); steampunk (4); nature (2); sci-fi (1); survival (1)
 
 Magic-feel mods in Verdant: none
 
@@ -139,8 +145,8 @@ A mod lists every stage it serves. A stage with nothing under a pack is a gap; a
 
 | Stage | Verdant | Elysian | Influx |
 |---|---|---|---|
-| 0 Start (shelter, food) | akashic-tome, comforts, farmers-delight, farming-for-blockheads, tough-as-nails, wooden-shears | akashic-tome, comforts, farmers-delight, farming-for-blockheads, tough-as-nails | akashic-tome, comforts, farmers-delight, farming-for-blockheads |
-| 1 Manual gathering | cobblegen-galore, create-cobblestone, ex-deorum, farmers-delight, kubejs-ex-deorum, kubejs-tweaks, mekanism-tools, silent-gear, wooden-shears | ars-caelum, ars-nouveau, farmers-delight, kubejs-tweaks, silent-gear | farmers-delight, kubejs-tweaks, silent-gear |
+| 0 Start (shelter, food) | akashic-tome, comforts, farmers-delight, farming-for-blockheads, tough-as-nails | akashic-tome, comforts, farmers-delight, farming-for-blockheads, tough-as-nails | akashic-tome, comforts, farmers-delight, farming-for-blockheads |
+| 1 Manual gathering | cobblegen-galore, create-cobblestone, ex-deorum, farmers-delight, kubejs-ex-deorum, kubejs-tweaks, mekanism-tools, silent-gear | ars-caelum, ars-nouveau, farmers-delight, kubejs-tweaks, silent-gear | farmers-delight, kubejs-tweaks, silent-gear |
 | 2 Storage and sorting | applied-energistics-2, extended-terminal, mekanism, more-tier-upgrade, simple-magnets, sophisticated-backpacks, sophisticated-storage | more-tier-upgrade, simple-magnets, sophisticated-backpacks, sophisticated-storage | applied-energistics-2, more-tier-upgrade, simple-magnets, sophisticated-backpacks, sophisticated-storage |
 | 3 Automate gathering | cobblegen-galore, create, create-cobblestone, ex-deorum, farming-for-blockheads, kubejs-create-automation, mekanism, mekanism-generators, mob-grinding-utils | ars-additions, ars-caelum, ars-nouveau, botany-pots, botany-trees, farming-for-blockheads, mystical-agriculture, occultism | agricraft-rereloaded, animal-pens, azurum-miner, botany-pots, botany-trees, farming-for-blockheads, hostile-neural-networks, productivebees, productivefarming, productivetrees |
 | 4 Automate processing | applied-energistics-2, create, createaddition, ex-machinis-divitiae-deorum, mekanism, mekanism-generators, powah, productive-metalworks, silent-gear, silent-gear-metalworks | ars-nouveau, occultism, productive-metalworks, silent-gear, silent-gear-metalworks, theurgy | applied-energistics-2, productive-metalworks, projecte, replication, silent-gear, silent-gear-metalworks |
@@ -156,7 +162,7 @@ What each pack's non-library mods mainly contribute; a pack with nothing under a
 | resources | cobblegen-galore, create-cobblestone, ex-deorum, mob-grinding-utils | ars-caelum, botany-pots, botany-pots-tiers, botany-trees, mystical-agriculture, occultism | agricraft-rereloaded, azurum-miner, botany-pots, botany-pots-tiers, botany-trees, hostile-neural-networks, productivebees, productivetrees, projecte, replication |
 | processing | create, mekanism, mekanism-unleashed, morethermalevaporation, productive-metalworks, silent-gear-metalworks | productive-metalworks, silent-gear-metalworks, theurgy | productive-metalworks, silent-gear-metalworks |
 | power | better-fusion-reactor-for-mekanism, charging-gadgets, createaddition, extreme-reactors, flux-networks, mekanism-generators, powah | **none** | extreme-reactors, flux-networks |
-| tooling | mekanism-tools, silent-gear, wooden-shears | apothic-enchanting, silent-gear | silent-gear |
+| tooling | mekanism-tools, silent-gear | apothic-enchanting, silent-gear | silent-gear |
 | armor | **none** | apotheosis, irons-jewelry | **none** |
 | storage | advancedae, ae2-crafting-tree, ae2-jei-integration, ae2-pattern-encoding-access-terminal, ae2-tangible-bookmarks, ae2helpers, applied-energistics-2, applied-energistics-2-wireless-terminals, applied-mekanistics, applied-sorting, betterp2p, extended-terminal, mega-cells, merequester, not-enough-patterns, sophisticated-backpacks, sophisticated-storage | sophisticated-backpacks, sophisticated-storage | animal-pens, applied-energistics-2, appliede, sophisticated-backpacks, sophisticated-storage |
 | automation | ex-machinis-divitiae-deorum | **none** | **none** |

@@ -1,0 +1,294 @@
+{
+ "repo": "ProfessorFichte/Berserker-RPG-Class",
+ "ref": "1.21.1",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "berserker_rpg"
+ ],
+ "item_count": 33,
+ "compat": [
+  {
+   "id": "spell_engine",
+   "slug": "spell-engine",
+   "evidence": {
+    "data-ref": 10,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "berserker_rpg:aeternium_berserker_axe": {
+   "kind": "item",
+   "name": "Aeternium Raid Axe",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:aether_berserker_axe": {
+   "kind": "item",
+   "name": "Holy Raid Axe",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:diamond_berserker_axe": {
+   "kind": "item",
+   "name": "Diamond Raid Axe",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:elder_guardian_berserker_axe": {
+   "kind": "item",
+   "name": "Sunken Captain",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:ender_dragon_berserker_axe": {
+   "kind": "item",
+   "name": "Dragons Conquest",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:flint_berserker_axe": {
+   "kind": "item",
+   "name": "Flint Raid Axe",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:glacial_berserker_axe": {
+   "kind": "item",
+   "name": "Norse Raid Axe",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:golden_berserker_axe": {
+   "kind": "item",
+   "name": "Gold Raid Axe",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:iron_berserker_axe": {
+   "kind": "item",
+   "name": "Iron Raid Axe",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:netherite_berserker_axe": {
+   "kind": "item",
+   "name": "Netherite Raid Axe",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:netherite_northling_chest": {
+   "kind": "item",
+   "name": "Netherite Northling Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:netherite_northling_feet": {
+   "kind": "item",
+   "name": "Netherite Northling Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:netherite_northling_head": {
+   "kind": "item",
+   "name": "Netherite Northling Head",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:netherite_northling_legs": {
+   "kind": "item",
+   "name": "Netherite Northling Pants",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:northling_chest": {
+   "kind": "item",
+   "name": "Northling Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:northling_feet": {
+   "kind": "item",
+   "name": "Northling Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:northling_head": {
+   "kind": "item",
+   "name": "Northling Head",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:northling_legs": {
+   "kind": "item",
+   "name": "Northling Pants",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:ruby_berserker_axe": {
+   "kind": "item",
+   "name": "Ruby Raid Axe",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:spell_scroll/berserker": {
+   "kind": "item",
+   "name": "Berserker Rune Scroll",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:stone_berserker_axe": {
+   "kind": "item",
+   "name": "Stone Raid Axe",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:unique_berserker_axe_1": {
+   "kind": "item",
+   "name": "Black Cleaver",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:unique_berserker_axe_2": {
+   "kind": "item",
+   "name": "Torans's Axe",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:unique_sword_1": {
+   "kind": "item",
+   "name": "Skofnung",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:warlord_chest": {
+   "kind": "item",
+   "name": "Norse Warlord Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:warlord_feet": {
+   "kind": "item",
+   "name": "Norse Warlord Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:warlord_head": {
+   "kind": "item",
+   "name": "Norse Warlord Head",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:warlord_legs": {
+   "kind": "item",
+   "name": "Norse Warlord Pants",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:wildling_chest": {
+   "kind": "item",
+   "name": "Wildling Suit",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:wildling_feet": {
+   "kind": "item",
+   "name": "Wildling Boots",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:wildling_head": {
+   "kind": "item",
+   "name": "Wildling Head",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:wildling_legs": {
+   "kind": "item",
+   "name": "Wildling Legs",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  },
+  "berserker_rpg:wither_berserker_axe": {
+   "kind": "item",
+   "name": "Soul Ripper",
+   "tags": [
+    "feel:survival",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-10-01",
+  "mod_version": "1.21.1",
+  "pass": "loop-back",
+  "note": "First read from source; see rpg-classes.md.",
+  "class": "candidate",
+  "purpose": "Berserker class gear"
+ }
+}
