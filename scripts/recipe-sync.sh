@@ -24,8 +24,9 @@ GEN_EXCLUDES=(':(exclude)docs/recipe_data.json' ':(exclude)docs/recipe-analyze' 
 if [ -n "$(git status --porcelain --untracked-files=no)" ] && [ -z "$(git status --porcelain --untracked-files=no -- . "${GEN_EXCLUDES[@]}")" ]; then
   echo "Discarding leftover generated dump files (they are regenerated each run):"
   git status --porcelain --untracked-files=no
-  git checkout -- docs/recipe_data.json docs/recipe-analyze 2>/dev/null || true
-  git checkout -- docs/recipe_wiki.html 2>/dev/null || true
+  # reset index and working copy to HEAD (leftovers may be staged, which a plain checkout would keep)
+  git checkout HEAD -- docs/recipe_data.json docs/recipe-analyze 2>/dev/null || true
+  git checkout HEAD -- docs/recipe_wiki.html 2>/dev/null || true
 fi
 [ -z "$(git status --porcelain --untracked-files=no)" ] || die "tracked files have uncommitted changes. Commit or stash them first."
 
