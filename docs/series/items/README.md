@@ -26,6 +26,7 @@ This is not a wish list. Each entry records what the item does, its numbers, wha
 | `elysian-review.md` | Elysian's partial-fit mods reviewed one by one, with the spell-system count the Wizards decision raises |
 | `verdant-review.md` | Verdant's partial-fit mods reviewed one by one, with usage in quests and KubeJS |
 | `influx-review.md` | Influx's partial-fit mods reviewed one by one; Powah is its generator |
+| `dump-check.md` | Installed-mod recipe dump checked against the catalog: which pack mods lack a scan or profile, and which count differences are not gaps |
 | `gap-check.md` | Check after the 2026-10-01 removals: new gaps introduced, gaps still open, stage coverage |
 | `verdant-defense-options.md` | Automated-defense options for Verdant's megabuild (Mekanism Turrets is the leaning) |
 | `adding-decided-mods.md` | Packwiz commands, required libraries and expected effect for adding the decided mods (pins cannot be created from here) |
