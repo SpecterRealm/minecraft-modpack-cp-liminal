@@ -129,10 +129,10 @@ Elysian and Influx have none of these.
 |---|---|---|
 | Mekanism | Core processing, machines, chemicals | Backbone of Verdant's Processing to Command chapters; keep |
 | Mekanism Generators | Heat, gas, bio, solar, wind generators, Fission and Fusion Reactors, Turbine | Keep; power ladder (see the power test) |
-| Mekanism Tools | Paxels, tiered tools, armor, shields | Keep; MekaSuit is stage-gated in Verdant |
+| Mekanism Tools | Paxels, tiered tools, armor, shields | **Removed from all packs** (maintainer decision, 2026-10-01): repeats what Silent Gear provides; the MekaSuit is in core Mekanism and is unaffected |
 | Mekanism Unleashed | Speed and energy upgrade limit 8 to 32, multiple operations per tick | Balance change; decide how machine throughput should scale in Liminal |
 | More Thermal Evaporation | Tiered evaporation plants | Partial keep: Verdant removes its compact recipes, one quest uses the Basic controller |
-| Better Fusion Reactor PLUS | Harder, reactivity-based fusion reactor | Release-candidate pin (1.5.9rc1); check stability |
+| Better Fusion Reactor PLUS | Harder, reactivity-based fusion reactor | **Removed from all packs** (maintainer decision, 2026-10-01): late, ore-dependent, overlaps Mekanism's own fusion and fission |
 | KubeJS Mekanism | KubeJS recipe support | Keep |
 | KubeJS Mekanism Extends | KubeJS support for Mekanism add-ons only | **Removed** from Verdant and Liminal: none of the add-ons (Evolved Mekanism, More Machine, Mekanism Sun) are in the packs |
 
