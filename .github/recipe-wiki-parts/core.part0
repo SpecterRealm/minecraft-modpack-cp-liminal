@@ -34,10 +34,12 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 
 REPO_ROOT  = Path(__file__).parent.parent
+# Instance name follows the repo folder: minecraft-modpack-cp-<pack> -> CP-<Pack>-Dev
+_PACK = REPO_ROOT.name.rsplit("cp-", 1)[-1].capitalize()
 _DEFAULT_MODS = (
     Path.home()
     / "Library/Application Support/PrismLauncher"
-    / "instances/CP-Liminal-Dev/minecraft/mods"
+    / f"instances/CP-{_PACK}-Dev/minecraft/mods"
 )
 MODS_DIR   = Path(os.environ.get("RECIPE_WIKI_MODS_DIR", _DEFAULT_MODS))
 KUBEJS_DIR = REPO_ROOT / "kubejs" / "server_scripts"
@@ -206,7 +208,7 @@ def extract_jar_recipes() -> dict[str, list[dict]]:
     if not MODS_DIR.is_dir():
         print(
             f"✗ Mods directory not found: {MODS_DIR}\n"
-            "  Launch CP-Liminal-Dev once so packwiz installs JARs, or set\n"
+            "  Launch the pack's CP-<Pack>-Dev instance once so packwiz installs JARs, or set\n"
             "  RECIPE_WIKI_MODS_DIR to a folder that already contains *.jar.",
             file=sys.stderr,
         )
