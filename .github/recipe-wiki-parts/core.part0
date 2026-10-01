@@ -178,8 +178,8 @@ def ingredients_from(data: dict) -> list[dict]:
 
     # Fields that name a required item outside the ingredient lists (Ex Deorum sieve mesh)
     mesh = data.get("mesh")
-    if isinstance(mesh, str) and mesh:
-        out.append({"type": "item", "value": mesh, "count": 1})
+    if mesh:
+        out.append(norm_ing(mesh))
     out = [i for i in out if i.get("value")]
     if not out:
         # Unusual recipe shapes (Theurgy sources and salts, Ars pedestals and reagents, Create sequences...):
@@ -203,6 +203,13 @@ def _scan_refs(node, _top: bool = True, _depth: int = 0) -> list[dict]:
         if isinstance(node.get("item"), str):
             found.append({"type": "item", "value": node["item"], "count": int(node.get("count", 1) or 1)})
             return found
+        # Block states ({"Name": ...}, Cobblegen Galore) and item stacks ({"id": ...}); water and lava are world sources
+        for key in ("Name", "id"):
+            val = node.get(key)
+            if isinstance(val, str) and ":" in val and not _top:
+                if val not in ("minecraft:water", "minecraft:lava"):
+                    found.append({"type": "item", "value": val, "count": int(node.get("count", 1) or 1)})
+                return found
         for key, val in node.items():
             if _top and key in _RESULT_KEYS:
                 continue
@@ -211,6 +218,62 @@ def _scan_refs(node, _top: bool = True, _depth: int = 0) -> list[dict]:
         for val in node:
             found.extend(_scan_refs(val, False, _depth + 1))
     return found
+
+
+_MODID_RE = re.compile(r'^\s*modId\s*=\s*"([^"]+)"')
+
+
+def installed_mod_ids() -> set[str]:
+    """Mod ids from the [[mods]] tables of the installed jars, plus the built-in namespaces."""
+    ids = {"minecraft", "neoforge", "c"}
+    for jar in sorted(MODS_DIR.glob("*.jar")):
+        try:
+            with zipfile.ZipFile(jar) as zf:
+                for name in ("META-INF/neoforge.mods.toml", "META-INF/mods.toml"):
+                    if name not in zf.namelist():
+                        continue
+                    table = ""
+                    for line in zf.read(name).decode("utf-8", "replace").splitlines():
+                        st = line.strip()
+                        if st.startswith("["):
+                            table = st
+                        elif table == "[[mods]]":
+                            m = _MODID_RE.match(line)
+                            if m:
+                                ids.add(m.group(1))
+        except (zipfile.BadZipFile, OSError):
+            continue
+    return ids
+
+
+def eval_conditions(conds, ctx) -> bool:
+    """NeoForge load conditions. Unknown condition types count as met, so no real recipe is dropped."""
+    if not conds:
+        return True
+    if isinstance(conds, dict):
+        conds = [conds]
+    for c in conds:
+        t = c.get("type", "")
+        if t == "neoforge:mod_loaded":
+            ok = c.get("modid") in ctx["mods"]
+        elif t == "neoforge:not":
+            ok = not eval_conditions(c.get("value"), ctx)
+        elif t == "neoforge:and":
+            ok = all(eval_conditions(v, ctx) for v in c.get("values", []))
+        elif t == "neoforge:or":
+            ok = any(eval_conditions(v, ctx) for v in c.get("values", []))
+        elif t == "neoforge:false":
+            ok = False
+        elif t == "neoforge:tag_empty":
+            ok = not ctx["tags"].get(c.get("tag"))
+        elif t == "neoforge:item_exists":
+            ref = c.get("item", "")
+            ok = ref.split(":", 1)[0] in ctx["mods"]
+        else:
+            ok = True
+        if not ok:
+            return False
+    return True
 
 
 def shaped_grid(data: dict) -> list[list[dict | None]]:
@@ -245,8 +308,11 @@ def vanilla_jars() -> list[Path]:
         data_dir = MODS_DIR.parents[3]  # <prism data>/instances/<instance>/minecraft/mods
     except IndexError:
         return []
-    found = sorted((data_dir / "libraries" / "com" / "mojang" / "minecraft").glob("*/minecraft-*-client.jar"))
-    return found[-1:] if found else []
+    libs = data_dir / "libraries"
+    found = sorted((libs / "com" / "mojang" / "minecraft").glob("*/minecraft-*-client.jar"))[-1:]
+    # NeoForge's own jar holds the common (c:) tags that recipes use
+    found += sorted((libs / "net" / "neoforged" / "neoforge").glob("*/neoforge-*-universal.jar"))[-1:]
+    return found
 
 
 def extract_jar_recipes() -> dict[str, list[dict]]:
@@ -269,7 +335,8 @@ def extract_jar_recipes() -> dict[str, list[dict]]:
         )
         sys.exit(1)
     vanilla = vanilla_jars()
-    print(f"Scanning {len(jars)} JARs in {MODS_DIR}" + (f" plus vanilla {vanilla[0].name}" if vanilla else " (vanilla jar not found: no vanilla recipes)") + "...")
+    extra = ", ".join(v.name for v in vanilla)
+    print(f"Scanning {len(jars)} JARs in {MODS_DIR}" + (f" plus {extra}" if vanilla else " (vanilla jar not found: no vanilla recipes)") + "...")
     jars = jars + vanilla
 
     for jar_path in jars:

@@ -12,6 +12,7 @@ from recipe_wiki_core import (
     datetime,
     extract_jar_recipes,
     extract_tags,
+    installed_mod_ids,
     json,
     parse_kubejs,
     timezone,
@@ -100,9 +101,10 @@ def generate_html(slim_index: dict, textures: dict) -> str:
 def main():
     jar_recipes         = extract_jar_recipes()
     removals, additions = parse_kubejs()
-    slim                = build_slim(jar_recipes, removals, additions)
+    mods                = installed_mod_ids()
+    tags                = extract_tags(mods)
+    slim                = build_slim(jar_recipes, removals, additions, {"mods": mods, "tags": tags})
     textures            = extract_textures()
-    tags                = extract_tags()
 
     # Write JSON index
     OUT_JSON.write_text(

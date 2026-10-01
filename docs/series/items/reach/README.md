@@ -19,7 +19,8 @@ python3 scripts/series-reach.py tags docs/series/items/reach/verdant.json      #
 - Recipes in the dump whose ingredients could be read. Recipes with no readable item ingredient (fluid-only casting, loot, worldgen, mob drops, villager trades) are not routes: put those sources in the start file.
 - The Ex Deorum sieve counts its mesh as an ingredient. Sieve chances, machines, fuel, power and fluids are not modelled: this answers "is there a route", not "how fast".
 - A recipe's own result used as an ingredient is a catalyst (Theurgy's reformation target); `--strict` turns that off.
-- Tags come from the mods' tag files and the Minecraft jar when the dump has them (dumps made after 2026-10-01 do), otherwise from name rules. `tags` lists the ones nothing resolves.
+- Recipes marked `inactive` (load conditions not met in this pack) are ignored. Block-state ingredients (Cobblegen Galore) count as items; water and lava are treated as world sources. Fluids made by melting (Productive Metalworks casting) are **not** modelled yet, so metals that only come through casting show as no route.
+- Tags come from the mods' tag files, the Minecraft jar and the NeoForge jar when the dump has them, otherwise from name rules. `tags` lists the ones nothing resolves.
 - The dump must include vanilla recipes. Dumps made before this change had none (only mod jars were scanned), so a furnace or a stick showed as missing. Re-run `make recipe-sync` first.
 
 ## Reading the first run (old dump, before the extraction change)

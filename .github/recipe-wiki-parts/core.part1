@@ -122,7 +122,7 @@ def parse_kubejs() -> tuple[dict[str, list[dict]], dict[str, list[dict]]]:
 # 3. Build slim index for embedding
 # ---------------------------------------------------------------------------
 
-def build_slim(jar_recipes, removals, additions) -> dict:
+def build_slim(jar_recipes, removals, additions, ctx=None) -> dict:
     """Merge everything into a slim JSON structure suitable for embedding."""
     all_items = set(jar_recipes) | set(removals) | set(additions)
     removed_types_by_item = {
@@ -145,6 +145,8 @@ def build_slim(jar_recipes, removals, additions) -> dict:
                 "count":   get_result_count(d),
                 "removed": r["type"] in rt or "*" in rt,
             }
+            if ctx is not None and not eval_conditions(d.get("neoforge:conditions"), ctx):
+                entry["inactive"] = True  # load condition not met in this pack (compat recipe for a missing mod or tag)
             if "crafting_shaped" in r["type"]:
                 entry["grid"] = shaped_grid(d)
             mod_recipes.append(entry)
@@ -164,7 +166,7 @@ def build_slim(jar_recipes, removals, additions) -> dict:
 # 4. Item tags (for ingredient tags in recipes)
 # ---------------------------------------------------------------------------
 
-def extract_tags() -> dict[str, list[str]]:
+def extract_tags(loaded=None) -> dict[str, list[str]]:
     """Item tag membership from the mod JARs: tag id -> item ids, nested #tags resolved."""
     direct: dict[str, set[str]] = {}
     nested: dict[str, set[str]] = {}
@@ -188,7 +190,7 @@ def extract_tags() -> dict[str, list[str]]:
                             continue
                         if ref.startswith("#"):
                             nested.setdefault(tag_id, set()).add(ref[1:])
-                        else:
+                        elif loaded is None or ref.split(":", 1)[0] in loaded:
                             direct.setdefault(tag_id, set()).add(ref)
         except (zipfile.BadZipFile, OSError):
             continue
