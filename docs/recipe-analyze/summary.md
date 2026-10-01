@@ -1,13 +1,13 @@
 # Recipe analyze summary
 
-Generated: `2026-10-01T16:53:11.666004+00:00`
+Generated: `2026-10-01T17:06:01.081180+00:00`
 
 Regenerate after mod list / KubeJS changes: `make recipe-audit`.
 
 ## Recipe dump
 
 - Source: `docs/recipe_data.json`
-- Dump generated: `2026-10-01T16:53:10.411156+00:00`
+- Dump generated: `2026-10-01T17:05:59.743298+00:00`
 - Items: **10683**
 - Mods with result items: **96**
 - Items whose recipes are all inactive (load condition not met in this pack): 1296, not counted
