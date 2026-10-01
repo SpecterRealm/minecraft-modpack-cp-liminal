@@ -1,14 +1,14 @@
 # Recipe analyze summary
 
-Generated: `2026-10-01T16:03:18.577078+00:00`
+Generated: `2026-10-01T16:38:48.989571+00:00`
 
 Regenerate after mod list / KubeJS changes: `make recipe-audit`.
 
 ## Recipe dump
 
 - Source: `docs/recipe_data.json`
-- Dump generated: `2026-10-01T16:03:17.427865+00:00`
-- Items: **11069**
+- Dump generated: `2026-10-01T16:38:47.772122+00:00`
+- Items: **11454**
 - Mods with result items: **134**
 
 ### Namespaces with no installed jar
@@ -97,7 +97,7 @@ compat recipes for them. They are not in the pack; do not count them as mods.
 | Mod | Items | Jar recipes on results | Seed-like ids |
 |-----|------:|-----------------------:|--------------:|
 | `productivetrees` | 2776 | 3153 | 0 |
-| `minecraft` | 667 | 2548 | 4 |
+| `minecraft` | 1052 | 3807 | 4 |
 | `create` | 642 | 1177 | 0 |
 | `botanypotstiers` | 552 | 1467 | 0 |
 | `mekanism` | 409 | 896 | 0 |
