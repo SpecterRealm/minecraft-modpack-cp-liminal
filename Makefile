@@ -76,6 +76,8 @@ help:
 	@echo "  make recipe-audit         recipe-wiki + recipe-analyze (commit after mod list changes)"
 	@echo "  make recipe-pr            recipe-audit on a new branch, commit, push, open PR (one command)"
 	@echo "  make recipe-sync          packwiz install into the dev instance + prune + recipe-pr (full refresh)"
+	@echo "  make lab-doctor           check Docker/pack are ready for a headless server snapshot"
+	@echo "  make lab-dump EULA=1      boot the pack on a headless server in Docker, write docs/recipe_data.json"
 	@echo "  make docs                 serve docs/ at http://localhost:8000/"
 	@echo ""
 	@echo "  PRISM_INSTANCE=$(PRISM_INSTANCE)  DEV_MAX_MEM=$(DEV_MAX_MEM)"
@@ -149,6 +151,7 @@ logs:
 		|| echo "⚠️  No log for $(PRISM_INSTANCE)"
 
 include scripts/recipe-audit.mk
+include tools/modpack-lab/lab.mk
 
 docs:
 	@echo "→ serving docs at http://localhost:8000/ (recipe_wiki.html after make recipe-wiki)"
