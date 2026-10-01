@@ -42,8 +42,9 @@ say "Staging generated data"
 git add docs/recipe_data.json docs/recipe-analyze
 # Some packs track the browseable HTML too (Liminal ignores it)
 if git ls-files --error-unmatch docs/recipe_wiki.html >/dev/null 2>&1; then git add docs/recipe_wiki.html; fi
-if git diff --cached --quiet; then
-  echo "No change in the dump compared to $BASE. Nothing to commit."
+# Timestamps alone are not a change worth a PR
+if git diff --cached --quiet -I'"generated":' -I'^Generated: ' -I'^- Dump generated: ' -I'^# scanned: ' -I'^# mods_dir: ' -I'^- Mods dir: '; then
+  echo "No change in the dump compared to $BASE (only timestamps). Nothing to commit."
   git checkout -q "$START_REF"
   git branch -D "$BRANCH" >/dev/null
   exit 0

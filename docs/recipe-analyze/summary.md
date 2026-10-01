@@ -127,7 +127,7 @@ Full per-mod item lists: `by-mod/<mod>.txt`.
 ## AgriCraft plant datapacks
 
 - Plants found: **299**
-- Mods dir: `/Users/michaelheaton/Library/Application Support/PrismLauncher/instances/CP-Liminal-Dev/minecraft/mods`
+- Mods dir: `~/Library/Application Support/PrismLauncher/instances/CP-Liminal-Dev/minecraft/mods`
 
 | Plant namespace | Count |
 |----------------|------:|
