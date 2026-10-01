@@ -1,0 +1,38 @@
+{
+ "repo": "MehVahdJukaar/DuMmmMmmy",
+ "ref": "1.21",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "dummmmmmy"
+ ],
+ "item_count": 1,
+ "compat": [
+  {
+   "id": "moonlight",
+   "slug": "selene",
+   "evidence": {
+    "compat-import": 2,
+    "dependency": 1
+   }
+  }
+ ],
+ "items": {
+  "dummmmmmy:target_dummy": {
+   "kind": "entity",
+   "name": "Target Dummy",
+   "tags": [
+    "feel:neutral",
+    "review:checked"
+   ]
+  }
+ },
+ "review": {
+  "status": "checked",
+  "date": "2026-10-01",
+  "mod_version": "1.21",
+  "pass": "loop-back",
+  "note": "First read from source; see mod-profiles.md.",
+  "class": "content",
+  "purpose": "Dummmmmmy target dummy"
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "repo": "pietro-lopes/KubeJSTweaks",
+ "ref": "master",
+ "ref_kind": "branch",
+ "mod_ids": [
+  "kubejstweaks",
+  "testmod",
+  "testmodkjs72"
+ ],
+ "item_count": 0,
+ "compat": [
+  {
+   "id": "actuallyadditions",
+   "slug": "actually-additions",
+   "evidence": {
+    "data-ref": 3
+   }
+  },
+  {
+   "id": "ae2",
+   "slug": "applied-energistics-2",
+   "evidence": {
+    "data-ref": 4
+   }
+  },
+  {
+   "id": "enderio",
+   "slug": "enderio",
+   "evidence": {
+    "data-ref": 3
+   }
+  },
+  {
+   "id": "exdeorum",
+   "slug": "ex-deorum",
+   "evidence": {
+    "data-ref": 14
+   }
+  },
+  {
+   "id": "bigreactors",
+   "slug": "extreme-reactors",
+   "evidence": {
+    "data-ref": 6
+   }
+  },
+  {
+   "id": "farmingforblockheads",
+   "slug": "farming-for-blockheads",
+   "evidence": {
+    "data-ref": 4
+   }
+  },
+  {
+   "id": "immersiveengineering",
+   "slug": "immersive-engineering",
+   "evidence": {
+    "data-ref": 11
+   }
+  },
+  {
+   "id": "integrateddynamics",
+   "slug": "integrated-dynamics",
+   "evidence": {
+    "data-ref": 4
+   }
+  },
+  {
+   "id": "kubejs",
+   "slug": "kubejs",
+   "evidence": {
+    "data-ref": 4,
+    "dependency": 1
+   }
+  },
+  {
+   "id": "moonlight",
+   "slug": "selene",
+   "evidence": {
+    "isLoaded": 1
+   }
+  },
+  {
+   "id": "supplementaries",
+   "slug": "supplementaries",
+   "evidence": {
+    "isLoaded": 1
+   }
+  }
+ ],
+ "items": {},
+ "review": {
+  "status": "checked",
+  "date": "2026-10-01",
+  "mod_version": "master",
+  "pass": "loop-back",
+  "note": "First read from source; see mod-profiles.md.",
+  "class": "library",
+  "purpose": "KubeJS helper add-on"
+ }
+}
