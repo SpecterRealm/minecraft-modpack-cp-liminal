@@ -1,6 +1,6 @@
 # mod: fluxnetworks
-# items: 7
-# jar_recipes_on_results: 7
+# items: 10
+# jar_recipes_on_results: 16
 # installed: yes
 
 fluxnetworks:basic_flux_storage
@@ -8,5 +8,8 @@ fluxnetworks:flux_block
 fluxnetworks:flux_configurator
 fluxnetworks:flux_controller
 fluxnetworks:flux_core
+fluxnetworks:flux_dust
 fluxnetworks:flux_plug
 fluxnetworks:flux_point
+fluxnetworks:gargantuan_flux_storage
+fluxnetworks:herculean_flux_storage
